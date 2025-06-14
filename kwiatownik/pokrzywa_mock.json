@@ -1,0 +1,27 @@
+{
+  "Pokrzywa zwyczajna": {
+    "opis": "informacja 1",
+    "cechy": {
+      "witaminy": "informacja 2",
+      "zbiór": "informacja 3"
+    },
+    "obrazy": [
+      "informacja 4",
+      "informacja 5"
+    ],
+    "przepisy": [
+      {
+        "nazwa": "informacja 6",
+        "skladniki": "informacja 7",
+        "opis": "informacja 8",
+        "uwaga": "informacja 9"
+      },
+      {
+        "nazwa": "informacja 10",
+        "skladniki": "informacja 11",
+        "opis": "informacja 12",
+        "uwaga": "informacja 13"
+      }
+    ]
+  }
+}
