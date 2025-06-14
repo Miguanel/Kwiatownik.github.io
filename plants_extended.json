@@ -1,0 +1,1208 @@
+{
+  "Mniszek lekarski ": {
+    "opis": "Babka lancetowata",
+    "przepisy": [
+      {
+        "nazwa": "Krwawnik pospolity",
+        "opis": "Rumianek pospolity",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Czosnek niedźwiedzi",
+        "opis": "Fiołek wonny",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Szczawik zajęczy",
+        "opis": "Ślaz dziki",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Podagrycznik pospolity",
+        "opis": "Bylica pospolita",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Gwiazdnica",
+        "opis": "Mięta dzika",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Jałowiec",
+        "opis": "Macierzanka (tymianek dziki)",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "🔸1. Kapuśniak z liści mniszka": {
+    "opis": "🥗 1. Sałatka z babką lancetowatą",
+    "przepisy": [
+      {
+        "nazwa": "🥗 1. Sałatka z krwawnikiem",
+        "opis": "🍵 1. Klasyczna herbatka rumiankowa",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🧄 1. Pesto z czosnku niedźwiedziego",
+        "opis": "🌸 1. Cukier fiołkowy",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🥗 1. Sałatka z liśćmi szczawiku",
+        "opis": "🥗 1. Sałatka ze ślazem",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🥗 1. Sałatka z podagrycznikiem",
+        "opis": "🐖 1. Pieczeń wieprzowa z bylicą",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🥗 1. Sałatka z gwiazdnicy",
+        "opis": "🍵 1. Herbata z dzikiej mięty",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🍖 1. Dziczyzna duszona z jałowcem",
+        "opis": "🍗 1. Pieczone mięso z macierzanką",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Zamiast kapusty kiszonej, używa się młodych, sparzonych liści mniszka. Daje zupie lekko gorzkawy, ziemisty smak – podobny do rukoli lub boćwiny.": {
+    "opis": "Składniki: młode liście babki, rukola, pomidorki koktajlowe, ogórek, mozzarella, oliwa, sok z cytryny, sól i pieprz.",
+    "przepisy": [
+      {
+        "nazwa": "Składniki: młode liście krwawnika, sałata, rukola, ogórek, rzodkiewka, oliwa, cytryna.",
+        "opis": "Składniki: suszone koszyczki rumianku, woda.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: liście czosnku niedźwiedziego, oliwa, parmezan, orzechy włoskie lub piniowe, sól.",
+        "opis": "Składniki: świeże płatki fiołka, drobny cukier.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: liście szczawiku, młody szpinak, rukola, ogórek, orzechy, oliwa.",
+        "opis": "Składniki: młode liście ślazu, pomidorki, ogórek, ser feta, pestki słonecznika, oliwa.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: młode liście podagrycznika, ogórek, pomidor, jajko, oliwa, sok z cytryny, sól.",
+        "opis": "Składniki: mięso wieprzowe (np. karkówka), świeża lub suszona bylica, czosnek, sól, pieprz.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: młoda gwiazdnica, sałata, pomidor, ogórek, kiełki, olej lniany, sok z cytryny.",
+        "opis": "Składniki: świeże lub suszone liście mięty, wrzątek, opcjonalnie miód, cytryna.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: mięso z jelenia, dzika lub sarny, czerwone wino, czosnek, ziele angielskie, jałowiec.",
+        "opis": "Składniki: kurczak / jagnięcina / wieprzowina, czosnek, oliwa, cytryna, świeża macierzanka.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Składniki: liście mniszka, ziemniaki, marchew, kminek, czosnek, domowy zakwas (opcjonalnie).": {
+    "opis": "Opis: Liście babki mieszasz z warzywami i mozzarellą, polewasz oliwą i sokiem z cytryny, doprawiasz.",
+    "przepisy": [
+      {
+        "nazwa": "Opis: Liście krwawnika sparz lub użyj młodych – dodaj do sałatki jako aromatyczne zioło. Ma gorzkawy posmak, świetny jako kontrast do świeżych warzyw.",
+        "opis": "Opis: 1 łyżkę rumianku zalewasz szklanką wrzątku, parzysz 5–10 minut. Działa uspokajająco i przeciwzapalnie.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Blendujesz wszystkie składniki. Idealne do makaronu, pieczywa, zapiekanek.",
+        "opis": "Opis: Warstwami przesypujesz płatki cukrem, zamykasz w słoiku na kilka dni. Idealny do ciast, herbat i dekoracji deserów.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Szczawik dodaje orzeźwiającego, kwaśnego akcentu. Używaj jako przyprawy, nie bazy.",
+        "opis": "Opis: Liście ślazu są delikatne i lekko śluzowate – świetnie komponują się z innymi zieleninami.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Używasz jak pietruszki naciowej – lekko pikantny, świeży smak. Świetnie komponuje się z jajkami i warzywami.",
+        "opis": "Opis: Bylica działa jak naturalny „odtłuszczacz” – łagodzi ciężkostrawność mięsa i dodaje korzennego aromatu.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Gwiazdnica świetnie zastępuje rukolę lub szpinak. Smak lekko orzechowy, świeży.",
+        "opis": "Opis: Napar działa orzeźwiająco, wspomaga trawienie i łagodzi skurcze. Można pić na zimno lub ciepło.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Kilka rozgniecionych jagód dodaje głębi i aromatu do duszonego mięsa. Klasyka kuchni leśnej.",
+        "opis": "Opis: Macierzanka dodana do marynaty lub pieczenia nadaje głęboki, korzenny aromat. Świetna z cytrusami i czosnkiem.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "🔸2. Pierogi z liśćmi mniszka i twarogiem": {
+    "opis": "🍵 2. Herbata z babki lancetowatej",
+    "przepisy": [
+      {
+        "nazwa": "🍵 2. Napar / herbatka z krwawnika",
+        "opis": "🍹 2. Lemoniada z rumiankiem i miodem",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🥖 2. Masło czosnkowe z czosnkiem niedźwiedzim",
+        "opis": "🍬 2. Kandyzowane kwiaty fiołka",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🧂 2. Zielony sos szczawikowy (zimny)",
+        "opis": "🧆 2. Farsz do pierogów lub pasztecików",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🥘 2. Duszony podagrycznik z czosnkiem i cebulką",
+        "opis": "🐓 2. Gęś pieczona z bylicą (tradycja staropolska)",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🌯 2. Zielone wrapy lub naleśniki z farszem z gwiazdnicy",
+        "opis": "🍋 2. Lemoniada miętowa",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🐖 2. Schab pieczony z jałowcem",
+        "opis": "🍳 2. Jajecznica lub omlet z macierzanką",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Liście mniszka łączy się z twarogiem i czosnkiem jako farsz – podobnie jak w pierogach ze szpinakiem.": {
+    "opis": "Składniki: świeże lub suszone liście babki, gorąca woda, cytryna, miód.",
+    "przepisy": [
+      {
+        "nazwa": "Składniki: suszone lub świeże kwiaty i liście krwawnika, wrzątek.",
+        "opis": "Składniki: napar z rumianku, cytryna, miód, mięta, kostki lodu.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: miękkie masło, posiekane liście czosnku, sól.",
+        "opis": "Składniki: białko jajka, cukier, świeże kwiaty fiołka.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: szczawik, jogurt naturalny, czosnek, sól, pieprz.",
+        "opis": "Składniki: liście ślazu, cebula, czosnek, twaróg lub ziemniaki.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: liście podagrycznika, cebula, czosnek, masło/oliwa, sól.",
+        "opis": "Składniki: gęś, sól, pieprz, jabłka, świeża bylica.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: naleśniki lub tortille, ser biały/jajko, gwiazdnica, czosnek.",
+        "opis": "Składniki: świeże liście mięty, cytryna, miód lub cukier, zimna woda, lód.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: schab, czosnek, rozmaryn, jałowiec, sól, pieprz.",
+        "opis": "Składniki: jajka, masło, sól, świeża macierzanka.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Farsz: liście sparzyć i posiekać, dodać twaróg, sól, pieprz, gałkę muszkatołową. Lepić jak klasyczne pierogi.": {
+    "opis": "Opis: Liście zalewasz wrzątkiem, zaparzasz przez 10 minut, pijesz jako napój łagodzący gardło.",
+    "przepisy": [
+      {
+        "nazwa": "Opis: Zalewasz 1 łyżkę krwawnika szklanką wrzątku, parzysz 10 minut. Pomaga na trawienie, wzdęcia i skurcze.",
+        "opis": "Opis: Połącz napar z cytryną i miodem, schłódź. Świetny napój orzeźwiający i relaksujący na lato.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Mieszanka idealna do smarowania pieczywa, grzanek, warzyw z grilla.",
+        "opis": "Opis: Smarujesz płatki białkiem, obtaczasz w cukrze i suszysz. Używane jako jadalna ozdoba tortów, muffinów i ciast.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Blendujesz składniki, podajesz jako dodatek do pieczonych warzyw, jajek, ryby.",
+        "opis": "Opis: Drobno posiekany i podsmażony ślaz może stanowić bazę do farszu – zbliżony do szpinaku, ale łagodniejszy.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Podsmażany działa jak dziki odpowiednik szpinaku. Można dodać jajka, tofu lub użyć jako farsz.",
+        "opis": "Opis: Bylica wkładana do środka gęsi nadaje jej intensywny, ziołowy smak i wspomaga trawienie tłuszczu.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Świetny farsz na zimno lub po podsmażeniu – lekki, orzeźwiający i zdrowy.",
+        "opis": "Opis: Orzeźwiający napój na lato – dzika mięta dodaje leśnego, ziołowego akcentu.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Jałowiec rozgnieć i natrzyj nim mięso. Pieczeń zyskuje korzenny, nieco żywiczny aromat.",
+        "opis": "Opis: Liście dodane pod koniec smażenia nadają jajkom subtelnego, leśnego posmaku.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "🔸 3. Syrop z pąków mniszka – \"sztuczny kapar\"": {
+    "opis": "🥚 3. Omlet z babką lancetowatą",
+    "przepisy": [
+      {
+        "nazwa": "🧈 3. Masło ziołowe z krwawnikiem",
+        "opis": "🍮 3. Krem waniliowo-rumiankowy",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🥚 3. Jajecznica lub omlet z czosnkiem niedźwiedzim",
+        "opis": "🍵 3. Napar / herbata z fiołka",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🥪 3. Kanapki z twarożkiem i szczawikiem",
+        "opis": "🍲 3. Zupa jarzynowa z liśćmi ślazu",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🧆 3. Farsz do pierogów lub pasztecików",
+        "opis": "🍵 3. Herbata z bylicy",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🍳 3. Jajecznica z gwiazdnicą",
+        "opis": "🥗 3. Sałatka z dziką miętą",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🥘 3. Bigos staropolski z jałowcem",
+        "opis": "🥗 3. Sałatka z pieczonymi warzywami i macierzanką",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Zamarynowane pąki kwiatowe mniszka smakują jak kapary – można je używać do sałatek, past, sosów.": {
+    "opis": "Składniki: jajka, liście babki, cebula, masło, sól, pieprz.",
+    "przepisy": [
+      {
+        "nazwa": "Składniki: masło, drobno posiekane liście krwawnika, czosnek, sól.",
+        "opis": "Składniki: mleko, żółtka, cukier, wanilia, suszony rumianek.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: jajka, liście czosnku, masło, sól, pieprz.",
+        "opis": "Składniki: świeże lub suszone kwiaty fiołka, wrzątek.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: twaróg, szczawik, rzodkiewka, pieczywo.",
+        "opis": "Składniki: warzywa sezonowe, ziemniaki, liście ślazu, bulion.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: podagrycznik, ser biały lub ziemniaki, czosnek, cebulka.",
+        "opis": "Składniki: suszone liście i kwiaty bylicy, wrzątek.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: jajka, masło, świeża gwiazdnica, sól, pieprz.",
+        "opis": "Składniki: liście mięty, ogórek, pomidorki, feta, oliwa, sok z cytryny.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: kapusta kiszona i słodka, mięso, grzyby, suszone śliwki, jałowiec.",
+        "opis": "Składniki: ziemniaki / marchew / dynia pieczona, oliwa, sól, świeża macierzanka.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Marynata: ocet winny, sól, cukier, ziele angielskie, gorczyca.": {
+    "opis": "Opis: Liście babki kroisz i smażysz krótko z cebulą, zalewasz masą jajeczną, smażysz na złocisto.",
+    "przepisy": [
+      {
+        "nazwa": "Opis: Wszystko ucierasz razem. Używaj do pieczywa, warzyw lub ziemniaków z grilla.",
+        "opis": "Opis: Zaparz rumianek w mleku, odcedź i użyj aromatyzowanego mleka do przygotowania delikatnego kremu lub budyniu.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Liście dusisz chwilę na maśle, dodajesz jajka. Pyszne śniadanie o wyrazistym smaku.",
+        "opis": "Opis: Delikatna herbata o lekko słodkawym, kwiatowym aromacie. Działa uspokajająco i lekko wykrztuśnie.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Posiekany szczawik mieszasz z twarożkiem – świeży, lekko kwaśny smak.",
+        "opis": "Opis: Dodatek ślazu nadaje zupie lekko zagęszczającą konsystencję – działa jak naturalny śluz roślinny.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Aromatyczny farsz, podobny do szpinakowego, ale o głębszym, „dzikim” smaku.",
+        "opis": "Opis: Działa przeciwpasożytniczo, trawiennie i rozkurczowo. Smak gorzki, aromat ziołowy – pije się ją głównie w celach leczniczych.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Dodajesz garść świeżej gwiazdnicy pod koniec smażenia – nadaje jajkom ziołowy, świeży smak.",
+        "opis": "Opis: Posiekana mięta dodaje świeżości i lekkości sałatkom. Świetnie komponuje się z serami.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: To jeden z podstawowych składników staropolskiego bigosu – wspomaga trawienie i balansuje kwasowość kapusty.",
+        "opis": "Opis: Użyj jako przyprawy do ciepłych lub zimnych sałatek warzywnych. Świetnie komponuje się z oliwą i octem balsamicznym.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "🔸 4. Olej aromatyzowany mniszkiem": {
+    "opis": "🧈 4. Masło z babką lancetowatą (ziołowe)",
+    "przepisy": [
+      {
+        "nazwa": "🥞 4. Placuszki z krwawnikiem",
+        "opis": "🧁 4. Muffinki lub ciastka z rumiankiem",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🥗 4. Sałatka z młodych liści czosnku",
+        "opis": "🧁 4. Galaretka fiołkowa",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🍵 4. Chłodnik leśny z dodatkiem szczawiku",
+        "opis": "🍵 4. Napar z kwiatów ślazu",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🍲 4. Zupa krem z podagrycznikiem",
+        "opis": "🍲 4. Zupa z kiszonej kapusty z bylicą",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🍵 4. Zielony chłodnik z gwiazdnicy",
+        "opis": "🍚 4. Ryż z miętą (jako dodatek)",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🍲 4. Zupa kapuśniak z jałowcem",
+        "opis": "🥩 4. Gulasz z macierzanką",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Płatki mniszka zamknięte w butelce z olejem lnianym lub oliwą nabierają słoneczno-ziołowego aromatu.": {
+    "opis": "Składniki: liście babki lancetowatej, masło, czosnek, sól.",
+    "przepisy": [
+      {
+        "nazwa": "Składniki: mąka, jajko, mleko, liście krwawnika, sól, pieprz.",
+        "opis": "Składniki: mąka, cukier, jajko, mleko (rumiankowe), suszony rumianek, proszek do pieczenia.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: czosnek niedźwiedzi, pomidorki, feta, ogórek, oliwa, sok z cytryny.",
+        "opis": "Składniki: kwiaty fiołka, woda, cukier, żelatyna lub agar.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: kefir, ogórek, szczawik, koper, rzodkiewka.",
+        "opis": "Składniki: suszone lub świeże kwiaty ślazu, wrzątek, miód.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: ziemniaki, cebula, liście podagrycznika, bulion, śmietana.",
+        "opis": "Składniki: kapusta kiszona, ziemniaki, cebula, czosnek, bylica, kminek.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: kefir, ogórek, gwiazdnica, koperek, czosnek.",
+        "opis": "Składniki: ugotowany ryż, świeża mięta, masło/oliwa, sól.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: kiszona kapusta, ziemniaki, żeberka wędzone, jałowiec.",
+        "opis": "Składniki: wołowina lub wieprzowina, cebula, czosnek, liść laurowy, macierzanka.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Użycie: do sałatek, chleba z serem, gotowanych ziemniaków.": {
+    "opis": "Opis: Liście babki drobno siekasz i ucierasz z masłem oraz czosnkiem. Idealne do pieczywa.",
+    "przepisy": [
+      {
+        "nazwa": "Opis: Drobno posiekany krwawnik dodajesz do ciasta i smażysz jak naleśniki lub racuszki. Lekko gorzkawy, ciekawy smak.",
+        "opis": "Opis: Rumiankowy napar lub susz dodaj do ciasta na muffinki – efekt to subtelny kwiatowy smak.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Liście stosuj na surowo jak rukolę – nadają sałatce lekko pikantny aromat.",
+        "opis": "Opis: Zaparzasz esencję fiołkową, dodajesz żelatynę i odlewasz do foremek. Ma wyjątkowy kolor i aromat.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Szczawik dodaje kwaśnej nuty do chłodnika – świetna alternatywa dla klasycznego szczawiu.",
+        "opis": "Opis: Działa osłonowo na gardło i układ trawienny, ma lekko różowy kolor i łagodny smak.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Blendujesz wszystko na gładko – zielona, aromatyczna zupa z leśnym akcentem.",
+        "opis": "Opis: Dodatek bylicy do kapuśniaku podkreśla smak i poprawia trawienie – zwłaszcza przy tłustych dodatkach.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Gwiazdnica daje lekką świeżość, pasuje do lekkich, orzeźwiających zup na zimno.",
+        "opis": "Opis: Drobno posiekana mięta dodana do ryżu nadaje mu orientalno-leśny charakter.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Dodaje leśnego charakteru i zaostrza smak tradycyjnej zupy.",
+        "opis": "Opis: Dodatek macierzanki na koniec duszenia podnosi smak dania i działa trawiennie.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "🔸 5. Kiszony mniszek": {
+    "opis": "🥞 5. Placki z babką lancetowatą",
+    "przepisy": [
+      {
+        "nazwa": "🍚 5. Ryż z krwawnikiem i warzywami",
+        "opis": "🍯 5. Rumianek w miodzie (do smarowania lub napojów)",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🥞 5. Naleśniki lub placki z czosnkiem niedźwiedzim",
+        "opis": "🍨 5. Lody fiołkowe",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🍚 5. Ryż z dodatkiem szczawiku (jako przyprawa)",
+        "opis": "🥞 5. Placki z liśćmi ślazu",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🍞 5. Chleb z dodatkiem podagrycznika",
+        "opis": "🧂 5. Bylica jako przyprawa do farszu z kaszy gryczanej",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🥣 5. Zupa krem z gwiazdnicy i ziemniaka",
+        "opis": "🍢 5. Kotlety warzywne lub mięsne z miętą",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🐟 5. Marynowany pstrąg z jałowcem",
+        "opis": "🍞 5. Chleb z macierzanką",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Mało kto wie, że liście mniszka można kisić jak kapustę – tracą wtedy gorycz i zyskują ciekawy profil smakowy.": {
+    "opis": "Składniki: świeże liście babki, mąka, jajko, mleko, sól, olej do smażenia.",
+    "przepisy": [
+      {
+        "nazwa": "Składniki: ugotowany ryż, warzywa (np. marchewka, cukinia), liście krwawnika.",
+        "opis": "Składniki: suszony rumianek, miód naturalny.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: ciasto naleśnikowe lub ziemniaczane + posiekane liście.",
+        "opis": "Składniki: śmietanka, mleko, cukier, napar fiołkowy lub syrop fiołkowy.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: ryż, masło, liście szczawiku, sól.",
+        "opis": "Składniki: mąka, jajka, mleko, posiekane liście, przyprawy.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: ciasto chlebowe + posiekane młode liście.",
+        "opis": "Składniki: kasza gryczana, cebula, grzyby lub mięso, bylica.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: gwiazdnica, cebula, czosnek, ziemniaki, bulion warzywny.",
+        "opis": "Składniki: masa kotletowa + posiekana dzika mięta.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: pstrąg, cytryna, pieprz, sól, jałowiec, koper.",
+        "opis": "Składniki: ciasto chlebowe, świeża lub suszona macierzanka, oliwa.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Można dodać do zup, bigosu, albo jeść jako dodatek do kanapek.": {
+    "opis": "Opis: Liście siekasz, dodajesz do ciasta naleśnikowego i smażysz placuszki na patelni.",
+    "przepisy": [
+      {
+        "nazwa": "Opis: Krwawnik podsmaż lekko z warzywami, dodaj do ryżu – aromatyczne, trawienne danie.",
+        "opis": "Opis: Wsyp rumianek do słoika z miodem, odstaw na 1–2 tygodnie. Możesz dodawać do herbaty, ciast i tostów.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Dodajesz ziele do ciasta i smażysz jak zwykle. Można nadziewać serami lub mięsem.",
+        "opis": "Opis: Aromatyzujesz bazę lodów esencją fiołkową – delikatne, kwiatowe i niebanalne.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Dodaj drobno posiekany szczawik do ugotowanego ryżu – dla cytrynowego, kwaśnego aromatu.",
+        "opis": "Opis: Ciasto naleśnikowe wzbogacone o liście ślazu – smażysz jak placki ziołowe.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Działa jak przyprawa – chleb nabiera ziołowego, pietruszkowego aromatu.",
+        "opis": "Opis: Wzbogaca smak farszu np. do pierogów, pasztecików, naleśników.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Blendowana na gładko, lekka zupa ziołowa z aksamitną strukturą.",
+        "opis": "Opis: Nadaje świeżości do kotletów z soczewicy, kaszy jaglanej, a także mięsa (np. jagnięciny).",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Jałowiec rozgnieć i dodaj do marynaty – świetnie komponuje się z tłustymi rybami.",
+        "opis": "Opis: Można dodać do ciasta lub posypać wierzch chleba przed pieczeniem – efekt: pachnący, ziołowy wypiek.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "🔸 6. Pesto z mniszka": {
+    "opis": "🍝 6. Pesto z babki lancetowatej",
+    "przepisy": [
+      {
+        "nazwa": "🥣 6. Zupa ziołowa z krwawnikiem",
+        "opis": "🥛 6. Mleko rumiankowe na sen",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🍞 6. Chleb z czosnkiem niedźwiedzim",
+        "opis": "🥗 6. Sałatka z fiołkami",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🥬 6. Omlet lub jajka sadzone z liśćmi szczawiku",
+        "opis": "🍛 6. Gulasz warzywny z dodatkiem ślazu",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🍳 6. Jajecznica z podagrycznikiem",
+        "opis": "🧈 6. Masło ziołowe z bylicą",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🍞 6. Pasta do pieczywa z gwiazdnicą",
+        "opis": "🧈 6. Masło miętowe",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🥩 6. Gulasz z wołowiny z jałowcem i czerwonym winem",
+        "opis": "🧈 6. Masło macierzankowe",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Zamiast bazylii: młode liście mniszka, czosnek, pestki dyni lub słonecznika, oliwa i ser.": {
+    "opis": "Składniki: liście babki, orzechy włoskie lub piniowe, oliwa z oliwek, czosnek, parmezan.",
+    "przepisy": [
+      {
+        "nazwa": "Składniki: liście krwawnika, pokrzywa, szczaw, cebula, czosnek, ziemniaki, bulion.",
+        "opis": "Składniki: mleko, suszony rumianek, miód.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: klasyczne ciasto drożdżowe + posiekany czosnek niedźwiedzi.",
+        "opis": "Składniki: młode liście fiołka, kwiaty fiołka, rukola, ogórek, orzechy włoskie, winegret.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: jajka, szczawik, masło.",
+        "opis": "Składniki: warzywa (cukinia, cebula, papryka), liście ślazu, przyprawy.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: jajka, masło, liście podagrycznika, sól, pieprz.",
+        "opis": "Składniki: masło, suszona bylica, czosnek, sól.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: gwiazdnica, twaróg, jogurt, czosnek, sól, pieprz.",
+        "opis": "Składniki: masło, mięta, odrobina miodu lub soli.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: wołowina, cebula, czosnek, wino, liść laurowy, jałowiec.",
+        "opis": "Składniki: miękkie masło, świeża macierzanka, sól.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Idealne do makaronu, pieczywa lub jako dodatek do mięsa.": {
+    "opis": "Opis: Blendujesz liście babki z orzechami, oliwą, czosnkiem i parmezanem. Świetne do makaronu.",
+    "przepisy": [
+      {
+        "nazwa": "Opis: Dodatek krwawnika nadaje wyrazistości zupie z ziół dzikich – świetna jako danie oczyszczające.",
+        "opis": "Opis: Podgrzej mleko z dodatkiem rumianku, odcedź i osłódź miodem. Napój uspokajający i rozgrzewający przed snem.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Mieszany do środka lub jako ziołowy „twist” na wierzch ciasta.",
+        "opis": "Opis: Kwiaty jako dekoracja, liście jako delikatny zieleninowy składnik – bardzo efektowne i zdrowe.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Posypujesz świeżym szczawikiem tuż po usmażeniu – orzeźwia smak jajek.",
+        "opis": "Opis: Ślaz dodajesz pod koniec gotowania – działa jak delikatny zagęszczacz i podnosi wartości odżywcze.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Szybkie i zdrowe śniadanie. Podagrycznik dodajesz pod koniec smażenia.",
+        "opis": "Opis: Aromatyczne masło do grillowanych warzyw, ziemniaków, pieczywa.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Smarowidło do chleba – coś jak pasta szczypiorkowa, ale bardziej dzika i zielona.",
+        "opis": "Opis: Do chleba, pieczonych warzyw, dań grillowanych.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Intensywny i aromatyczny gulasz, idealny na zimne dni.",
+        "opis": "Opis: Do pieczywa, gotowanych warzyw, ryb lub mięs z grilla.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "🔸 7. Ciastka z suszonymi płatkami mniszka": {
+    "opis": "🍛 7. Zupa krem z babki lancetowatej",
+    "przepisy": [
+      {
+        "nazwa": "🥖 7. Chleb z dodatkiem krwawnika",
+        "opis": "🍨 7. Lody rumiankowe",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🧆 7. Pierogi lub paszteciki z czosnkiem niedźwiedzim",
+        "opis": "🍹 7. Syrop fiołkowy",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🍸 7. Leśna lemoniada ze szczawikiem",
+        "opis": "🧈 7. Zielone masło ślazowe",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🥞 7. Placki z podagrycznikiem",
+        "opis": "🍳 7. Jajka sadzone z listkami bylicy",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🧈 7. Masło ziołowe z gwiazdnicą",
+        "opis": "🍮 7. Lody miętowe (domowe)",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🍞 7. Chleb z jałowcem",
+        "opis": "🫕 7. Ziemniaki pieczone z macierzanką",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Kwiaty suszy się i dodaje do ciasta kruchego – nadają lekko miodowy smak i złoty kolor.": {
+    "opis": "Składniki: liście babki lancetowatej, ziemniaki, cebula, czosnek, bulion warzywny, śmietana.",
+    "przepisy": [
+      {
+        "nazwa": "Składniki: mąka, drożdże, woda, sól, świeży krwawnik.",
+        "opis": "Składniki: śmietanka, mleko, cukier, żółtka, suszony rumianek.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: ser biały, liście czosnku, przyprawy.",
+        "opis": "Składniki: kwiaty fiołka, woda, cukier, sok z cytryny.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: woda, miód, szczawik, mięta, sok z cytryny.",
+        "opis": "Składniki: masło, liście ślazu, czosnek, sól.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: ciasto naleśnikowe lub ziemniaczane, posiekane liście, przyprawy.",
+        "opis": "Składniki: jajka, świeże listki bylicy, masło, sól.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: masło, gwiazdnica, czosnek, sól.",
+        "opis": "Składniki: śmietanka, mleko, cukier, żółtka, napar z mięty.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: mąka żytnia, zakwas, sól, rozgniecione jagody jałowca.",
+        "opis": "Składniki: ziemniaki, oliwa, czosnek, sól, macierzanka.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Można łączyć z miodem, płatkami owsianymi, orzechami.": {
+    "opis": "Opis: Liście gotujesz razem z warzywami, blendujesz na gładki krem, podajesz z kleksem śmietany.",
+    "przepisy": [
+      {
+        "nazwa": "Opis: Posiekany krwawnik dodajesz do ciasta chlebowego. Pieczywo nabiera ziołowego aromatu i jest lepiej trawione.",
+        "opis": "Opis: Aromatyzuj bazę lodów naparem z rumianku – świetnie komponuje się z wanilią i cytrusami.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Liście dodajesz do farszu – świetne połączenie z twarogiem, szpinakiem lub mięsem.",
+        "opis": "Opis: Gotujesz kwiaty w wodzie, dodajesz cukier i cytrynę. Syrop ma fioletowy kolor i wyjątkowy zapach – używany do lemoniad, deserów, lodów.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Szczawik dodaje naturalnej kwaśności – nie potrzebujesz dużo cytryny.",
+        "opis": "Opis: Ucierasz masło z siekanym ślazem i przyprawami – do chleba lub warzyw gotowanych.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Zielony, lekko pikantny smak – podajesz z sosem jogurtowym lub czosnkowym.",
+        "opis": "Opis: Drobno posiekane, młode listki smażone z jajkiem – ciekawy leśny aromat.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Zielone masło o łagodnym, wiosennym aromacie – idealne do warzyw i kanapek.",
+        "opis": "Opis: Zaparz mięte w mleku i przygotuj klasyczne lody. Intensywny, naturalny smak, bez sztucznych aromatów.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Dodatek nadaje chlebowi pikantno-korzenny aromat. Często stosowany w kuchni skandynawskiej.",
+        "opis": "Opis: Macierzanka doskonale podkreśla smak ziemniaków – możesz ją również mieszać z rozmarynem.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "🔸 8. Kawa z korzenia mniszka": {
+    "opis": "🧂 8. Cukier rumiankowy",
+    "przepisy": [
+      {
+        "nazwa": "🍲 8. Zupa krem z czosnkiem niedźwiedzim",
+        "opis": "🍞 8. Masło fiołkowe (aromatyzowane)",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🍞 8. Zielone masło szczawikowe",
+        "opis": "🌸 8. Kwiaty ślazu jako dekoracja",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🧈 8. Masło ziołowe z podagrycznikiem",
+        "opis": "🍞 8. Chleb z bylicą (przyprawowy)",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🧆 8. Pesto z gwiazdnicy",
+        "opis": "🧃 8. Syrop z dzikiej mięty",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🍗 8. Pasztet domowy z jałowcem",
+        "opis": "🍵 8. Herbata z macierzanki",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Korzenie prażone i mielone dają napar przypominający kawę zbożową, ale z działaniem wspierającym wątrobę.": {
+    "opis": "Składniki: drobno mielony susz rumianku, cukier.",
+    "przepisy": [
+      {
+        "nazwa": "Składniki: ziemniaki, cebula, bulion warzywny, śmietana, czosnek niedźwiedzi.",
+        "opis": "Składniki: masło, kwiaty fiołka, cukier puder lub sól (do wyboru).",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: masło, posiekany szczawik, sól.",
+        "opis": "Zastosowanie: Do sałatek, deserów, kanapek.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: masło, podagrycznik, czosnek, sól.",
+        "opis": "Składniki: ciasto chlebowe, suszona bylica, siemię lniane, sól.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: gwiazdnica, orzechy (np. słonecznik, nerkowce), oliwa, czosnek, sól.",
+        "opis": "Składniki: liście mięty, cukier, woda, sok z cytryny.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Składniki: wątróbka, mięso gotowane, cebula, jajka, przyprawy, jałowiec.",
+        "opis": "Składniki: świeże lub suszone liście/kwiaty, wrzątek, miód.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "Drobno posiekane liście dodaje się do ciasta chlebowego – daje chlebowi lekko orzechowy, zielony akcent.": {
+    "opis": "🧄 9. Makaron z czosnkiem niedźwiedzim i oliwą",
+    "przepisy": [
+      {
+        "nazwa": "🥞 9. Naleśniki z fiołkami (jadalna dekoracja + cukier fiołkowy)",
+        "opis": "🥄 9. Ślazowy kleik (na problemy trawienne)",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🥬 9. Gołąbki z liśćmi podagrycznika (jako farsz)",
+        "opis": "🥞 9. Placuszki z gwiazdnicą",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🌮 9. Jogurtowy dip z miętą",
+        "opis": "🧉 9. Nalewka jałowcowa (jałowcówka)",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "🧄 9. Ziołowy dip jogurtowy z macierzanką",
+        "opis": "🧈 9. Masło lebiodkowe",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  },
+  "🔸 10. Zupa „czernina z mniszka” – wersja wegetariańska": {
+    "opis": "Opis: Podsmaż czosnek na oliwie i wymieszaj z makaronem – szybki, intensywny lunch.",
+    "przepisy": [
+      {
+        "nazwa": "Opis: Gotujesz długo w małej ilości wody do uzyskania śluzowatej konsystencji – tradycyjny sposób na osłonę żołądka",
+        "opis": "Opis: Podagrycznik jako alternatywa do pietruszki lub ziół w farszu. Możesz go też zmieszać z mięsem.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Smażone jak racuchy z ziołami. Można podać z jogurtem lub sosem koperkowym.",
+        "opis": "Opis: Idealny do warzyw, mięsa, grilla – lekki i odświeżający.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      },
+      {
+        "nazwa": "Opis: Tradycyjna nalewka ziołowo-lecznicza, wspomagająca trawienie.",
+        "opis": "Opis: Świetny sos do warzyw, mięsa, falafela, pieczywa.",
+        "skladniki": "brak danych",
+        "uwaga": "brak"
+      }
+    ],
+    "cechy": {
+      "witaminy": "brak danych",
+      "zbiór": "brak danych"
+    },
+    "obrazy": [
+      "img/brak.jpg"
+    ]
+  }
+}
