@@ -9,10 +9,13 @@ fetch('pokrzywa_mock.json')
     document.getElementById("plant-harvest").textContent = plant.cechy["zbiór"];
 
     const imgList = document.getElementById("plant-images");
-    plant.obrazy.forEach(img => {
-      const li = document.createElement("li");
-      li.textContent = img;
-      imgList.appendChild(li);
+    plant.obrazy.forEach(src => {
+      const img = document.createElement("img");
+      img.src = src;
+      img.alt = "obraz rośliny";
+      img.style.width = "150px";
+      img.style.borderRadius = "8px";
+      imgList.appendChild(img);
     });
 
     const recipeList = document.getElementById("recipes");
