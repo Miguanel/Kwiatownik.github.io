@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f9f6;
+  color: #333;
+}
+
+header#top-bar {
+  background-color: #4a7c59;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #2a5d38;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border-left: 4px solid #4a7c59;
+  background-color: #f0f5f1;
+  border-radius: 4px;
+}
+
+strong {
+  color: #1c4423;
+}
+
+img {
+  max-width: 150px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+#plant-images {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+#recipes em {
+  color: #944;
+  display: block;
+  margin-top: 0.5em;
+  font-style: italic;
+}
