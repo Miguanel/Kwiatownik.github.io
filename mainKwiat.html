@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='pl'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>{nazwa}</title>
+    <link rel='stylesheet' href='/style.css'>
+</head>
+<body>
+<header id='top-bar'>
+    <div class='logo' onclick="location.href='/'">Kwiatowik</div>
+    <div class='search-container'>
+        <form action='/' method='get' onsubmit='event.preventDefault(); location.href="/";'>
+            <input type='text' id='search-input' placeholder='Szukaj...'>
+            <button type='submit'>🔎</button>
+        </form>
+    </div>
+    <div class='menu-toggle'>|||</div>
+</header>
+
+<main id='main-content'>
+    <a href='/'>← Powrót</a>
+    <h2>{nazwa}</h2>
+    <p>{plant['opis']}</p>
+    <h3>Przepisy:</h3>
+    {''.join(f'
+    <div><strong>{p['nazwa']}</strong>
+        <p>{p['opis']}</p></div>
+    ' for p in plant['przepisy'])}
+</main>
+</body>
+</html>

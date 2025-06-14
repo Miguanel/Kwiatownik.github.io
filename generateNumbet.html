@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+    <html lang='pl'>
+    <head>
+      <meta charset='UTF-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+      <title>Kwiatowik</title>
+      <link rel='stylesheet' href='/style.css'>
+    </head>
+    <body>
+      <header id='top-bar'>
+        <div class='logo' onclick="location.href='/'">Kwiatowik</div>
+      </header>
+      <main>
+        <h2>Losowe liczby:</h2>
+        <ul>
+          {''.join(f'<li>{num}</li>' for num in numbers)}
+        </ul>
+        <form action='/generate' method='post'>
+          <button type='submit'>Generuj nowe liczby</button>
+        </form>
+      </main>
+    </body>
+    </html>
