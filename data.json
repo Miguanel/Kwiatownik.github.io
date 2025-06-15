@@ -3,7 +3,7 @@
     {
       "name": "Pokrzywa zwyczajna",
       "latin": "Urtica dioica",
-      "image": "img/pokrzywa.jpg",
+      "image": ["img/pokrzywa/img.png", "img/pokrzywa/img_1.png"],
       "description": "Roślina o charakterystycznych parzących liściach, występująca powszechnie na łąkach i przy drogach. Ma lekko gorzki smak.",
       "advice": "Zbieraj młode liście wiosną, unikaj miejsc zanieczyszczonych.",
       "recipes": [
@@ -20,7 +20,7 @@
     {
       "name": "Babka lancetowata",
       "latin": "Plantago lanceolata",
-      "image": "img/babka.jpg",
+      "image": ["img/babka/img.png"],
       "description": "Babka lancetowata rośnie na trawnikach, poboczach i łąkach. Smak delikatny, lekko trawiasty.",
       "advice": "Zbieraj liście przed kwitnieniem, w miejscach oddalonych od dróg.",
       "recipes": [
