@@ -25,31 +25,656 @@
         }
       ]
     },
-
     {
-      "name": "Babka lancetowata",
-      "latin": "Plantago lanceolata",
-      "image": "img/babka.png",
-      "description": "Babka lancetowata rośnie na trawnikach, poboczach i łąkach. Smak delikatny, lekko trawiasty.",
-      "advice": "Zbieraj liście przed kwitnieniem, w miejscach oddalonych od dróg.",
+      "name": "Mniszek lekarski ",
+      "latin": "Plantago",
+      "image": "img/mniszek_l.png",
+      "description": "Babka",
+      "advice": "Zbieraj",
       "recipes": [
         {
-          "name": "Syrop z babki lancetowatej",
-          "image": "img/babka_recipe_1.png",
-          "ingredients": "Liście babki, cukier, cytryna.",
-          "desc_short": "Naturalny syrop na kaszel.",
-          "desc_long": "Posiekane liście przesyp warstwowo cukrem, dodaj sok z cytryny, odstaw na kilka dni. Odcedź, przechowuj w lodówce.",
-          "warning": "Syrop przechowywać w chłodnym miejscu."
+          "name": "Kapuśniak z liści mniszka",
+          "image": "",
+          "ingredients": "liście mniszka, ziemniaki, marchew, kminek, czosnek, domowy zakwas (opcjonalnie).",
+          "desc_short": "Zamiast kapusty kiszonej, używa się młodych, sparzonych liści mniszka. Daje zupie lekko gorzkawy, ziemisty smak – podobny do rukoli lub boćwiny.",
+          "desc_long": "Posiekane",
+          "warning": ""
         },
         {
-          "name": "Syrop z babki lancetowatej",
-          "image": "img/babka_recipe_1.png",
-          "ingredients": "Liście babki, cukier, cytryna.",
-          "desc_short": "Naturalny syrop na kaszel.",
-          "desc_long": "Posiekane liście przesyp warstwowo cukrem, dodaj sok z cytryny, odstaw na kilka dni. Odcedź, przechowuj w lodówce.",
-          "warning": "Syrop przechowywać w chłodnym miejscu."
+          "name": "Pierogi z liśćmi mniszka i twarogiem",
+          "image": "",
+          "ingredients": "Liście mniszka łączy się z twarogiem i czosnkiem jako farsz – podobnie jak w pierogach ze szpinakiem.",
+          "desc_short": "Farsz: liście sparzyć i posiekać, dodać twaróg, sól, pieprz, gałkę muszkatołową. Lepić jak klasyczne pierogi.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83D\uDD38 Syrop z pąków mniszka – sztuczny kapar",
+          "image": "",
+          "ingredients": "Marynata: ocet winny, sól, cukier, ziele angielskie, gorczyca.",
+          "desc_short": "Zamarynowane pąki kwiatowe mniszka smakują jak kapary – można je używać do sałatek, past, sosów.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83D\uDD38 Olej aromatyzowany mniszkiem",
+          "image": "",
+          "ingredients": "Marynata: ocet winny, sól, cukier, ziele angielskie, gorczyca.",
+          "desc_short": "Zamarynowane pąki kwiatowe mniszka smakują jak kapary – można je używać do sałatek, past, sosów.",
+          "desc_long": "Użycie: do sałatek, chleba z serem, gotowanych ziemniaków.",
+          "warning": ""
+        }
+
+      ]
+    },
+    {
+      "name": "Krwawnik pospolity ",
+      "latin": "Plantago",
+      "image": "img/babka.png",
+      "description": "zioła o lekko gorzkim, ziołowym smaku, znanego z właściwości trawiennych i przeciwzapalnych: ",
+      "advice": "Zbieraj",
+      "recipes": [
+        {
+          "name": "\uD83E\uDD57 Sałatka z krwawnikiem",
+          "image": "=",
+          "ingredients": "Składniki: młode liście krwawnika, sałata, rukola, ogórek, rzodkiewka, oliwa, cytryna.",
+          "desc_short": "Opis: Liście krwawnika sparz lub użyj młodych – dodaj do sałatki jako aromatyczne zioło. Ma gorzkawy posmak, świetny jako kontrast do świeżych warzyw.",
+          "desc_long": "Posiekane",
+          "warning": "Syrop"
+        },
+        {
+          "name": "\uD83C\uDF75 Napar / herbatka z krwawnika",
+          "image": "=",
+          "ingredients": "Składniki: suszone lub świeże kwiaty i liście krwawnika, wrzątek.",
+          "desc_short": "NaOpis: Zalewasz 1 łyżkę krwawnika szklanką wrzątku, parzysz 10 minut. Pomaga na trawienie, wzdęcia i skurcze.turalny",
+          "desc_long": "Posiekane",
+          "warning": "Syrop"
+        },
+        {
+          "name": "\uD83E\uDDC8 Masło ziołowe z krwawnikiem",
+          "image": "=",
+          "ingredients": "Składniki: masło, drobno posiekane liście krwawnika, czosnek, sól.",
+          "desc_short": "Opis: Wszystko ucierasz razem. Używaj do pieczywa, warzyw lub ziemniaków z grilla.",
+          "desc_long": "Posiekane",
+          "warning": "Syrop"
+        },
+        {
+          "name": "\uD83E\uDD5E Placuszki z krwawnikiem",
+          "image": "=",
+          "ingredients": "Składniki: mąka, jajko, mleko, liście krwawnika, sól, pieprz.",
+          "desc_short": "Opis: Drobno posiekany krwawnik dodajesz do ciasta i smażysz jak naleśniki lub racuszki. Lekko gorzkawy, ciekawy smak.",
+          "desc_long": "Posiekane",
+          "warning": "Syrop"
+        },
+        {
+          "name": "\uD83C\uDF5A Ryż z krwawnikiem i warzywami",
+          "image": "=",
+          "ingredients": "Składniki: ugotowany ryż, warzywa (np. marchewka, cukinia), liście krwawnika.",
+          "desc_short": "Opis: Krwawnik podsmaż lekko z warzywami, dodaj do ryżu – aromatyczne, trawienne danie.",
+          "desc_long": "Posiekane",
+          "warning": "Syrop"
+        },
+        {
+          "name": "\uD83E\uDD63 Zupa ziołowa z krwawnikiem",
+          "image": "=",
+          "ingredients": "Składniki: liście krwawnika, pokrzywa, szczaw, cebula, czosnek, ziemniaki, bulion.",
+          "desc_short": "Opis: Dodatek krwawnika nadaje wyrazistości zupie z ziół dzikich – świetna jako danie oczyszczające.",
+          "desc_long": "Posiekane",
+          "warning": "Syrop"
+        },
+        {
+          "name": "\uD83E\uDD56 Chleb z dodatkiem krwawnika",
+          "image": "=",
+          "ingredients": "Składniki: mąka, drożdże, woda, sól, świeży krwawnik.",
+          "desc_short": "Opis: Posiekany krwawnik dodajesz do ciasta chlebowego. Pieczywo nabiera ziołowego aromatu i jest lepiej trawione.",
+          "desc_long": "Posiekane",
+          "warning": "Syrop"
+        }
+
+      ]
+    },
+    {
+      "name": "Rumianek pospolity",
+      "latin": "Matricaria chamomilla",
+      "image": "img/rumianek_p.png",
+      "description": "(Matricaria chamomilla) najczęściej kojarzony jest z naparami i herbatkami, ale ma też zastosowanie kulinarne! Jego delikatny, lekko jabłkowy aromat sprawia, że idealnie nadaje się do deserów, napojów i dodatków do dań wytrawnych. Oto lista potraw i zastosowań: ",
+      "advice": "Zbieraj",
+      "recipes": [
+
+        {
+          "name": "\uD83C\uDF75 REKlasyczna herbatka rumiankowa",
+          "image": "",
+          "ingredients": "suszone koszyczki rumianku, woda",
+          "desc_short": "1 łyżkę rumianku zalewasz szklanką wrzątku, parzysz 5–10 minut. Działa uspokajająco i przeciwzapalnie.",
+          "desc_long": "Sprawdź herbaty zimne, piwo rumiankowe i dżem rumiankowy",
+          "warning": "Uwaga: Utworzenie danego naparu może zredukować chęć picia napojów gazowanych."
+        },
+        {
+          "name": "\uD83C\uDF79 Lemoniada z rumiankiem i miodem",
+          "image": "",
+          "ingredients": "Składniki: napar z rumianku, cytryna, miód, mięta, kostki lodu. ",
+          "desc_short": "Opis: Połącz napar z cytryną i miodem, schłódź. Świetny napój orzeźwiający i relaksujący na lato.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83C\uDF6E Krem waniliowo-rumiankowy",
+          "image": "",
+          "ingredients": "Składniki: mleko, żółtka, cukier, wanilia, suszony rumianek. ",
+          "desc_short": "Opis: Zaparz rumianek w mleku, odcedź i użyj aromatyzowanego mleka do przygotowania delikatnego kremu lub budyniu.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83E\uDDC1 4. Muffinki lub ciastka z rumiankiem",
+          "image": "",
+          "ingredients": "Składniki: mąka, cukier, jajko, mleko (rumiankowe), suszony rumianek, proszek do pieczenia.",
+          "desc_short": "Opis: Rumiankowy napar lub susz dodaj do ciasta na muffinki – efekt to subtelny kwiatowy smak.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83C\uDF6F 5. Rumianek w miodzie (do smarowania lub napojów)",
+          "image": "",
+          "ingredients": "Składniki: suszony rumianek, miód naturalny.",
+          "desc_short": "Opis: Wsyp rumianek do słoika z miodem, odstaw na 1–2 tygodnie. Możesz dodawać do herbaty, ciast i tostów.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83E\uDD5B 6. Mleko rumiankowe na sen",
+          "image": "",
+          "ingredients": "Składniki: mleko, suszony rumianek, miód.",
+          "desc_short": "Opis: Podgrzej mleko z dodatkiem rumianku, odcedź i osłódź miodem. Napój uspokajający i rozgrzewający przed snem.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83C\uDF68 7. Lody rumiankowe",
+          "image": "",
+          "ingredients": "Składniki: śmietanka, mleko, cukier, żółtka, suszony rumianek.",
+          "desc_short": "Opis: Aromatyzuj bazę lodów naparem z rumianku – świetnie komponuje się z wanilią i cytrusami.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83E\uDDC2 8. Cukier rumiankowy",
+          "image": "",
+          "ingredients": "Składniki: drobno mielony susz rumianku, cukier.",
+          "desc_short": "Opis: Wymieszaj i przechowuj w szczelnych słoiczkach. Używaj do herbat, wypieków lub naleśników.",
+          "desc_long": "",
+          "warning": ""
+        }
+      ]
+    },
+    {
+      "name": "Czosnek niedźwiedzi ",
+      "latin": "Allium ursinum",
+      "image": "img/pokrzywa.png",
+      "description": "Roślina ",
+      "advice": "Zbieraj",
+      "recipes": [
+
+        {
+          "name": "\uD83E\uDDC4 1. Pesto z czosnku niedźwiedziego",
+          "image": "",
+          "ingredients": "Składniki: liście czosnku niedźwiedziego, oliwa, parmezan, orzechy włoskie lub piniowe, sól. ",
+          "desc_short": "Opis: Blendujesz wszystkie składniki. Idealne do makaronu, pieczywa, zapiekanek.",
+          "desc_long": "",
+          "warning": "Uwaga:"
+        },
+        {
+          "name": "Zupaywy",
+          "image": "",
+          "ingredients": "Garść",
+          "desc_short": "Lekka",
+          "desc_long": "",
+          "warning": ""
+        }
+      ]
+    },
+    {
+      "name": "Fiołek wonny ",
+      "latin": "Viola odorata",
+      "image": "img/pokrzywa.png",
+      "description": "to nie tylko roślina ozdobna i lecznicza, ale także wyjątkowo aromatyczny składnik kuchni – szczególnie deserowej i napojowej. Kwiaty fiołka mają słodki zapach i delikatny smak, a liście również są jadalne  ",
+      "advice": "Zbieraj",
+      "recipes": [
+        {
+          "name": "\uD83C\uDF38 Cukier fiołkowy",
+          "image": "",
+          "ingredients": "Składniki: świeże płatki fiołka, drobny cukier.",
+          "desc_short": "Opis: Warstwami przesypujesz płatki cukrem, zamykasz w słoiku na kilka dni. Idealny do ciast, herbat i dekoracji deserów.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83C\uDF6C Kandyzowane kwiaty fiołka",
+          "image": "",
+          "ingredients": "Składniki: białko jajka, cukier, świeże kwiaty fiołka.",
+          "desc_short": "Opis: Smarujesz płatki białkiem, obtaczasz w cukrze i suszysz. Używane jako jadalna ozdoba tortów, muffinów i ciast.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83C\uDF75 Napar / herbata z fiołka",
+          "image": "",
+          "ingredients": "Składniki: świeże lub suszone kwiaty fiołka, wrzątek.",
+          "desc_short": "Opis: Delikatna herbata o lekko słodkawym, kwiatowym aromacie. Działa uspokajająco i lekko wykrztuśnie.",
+          "desc_long": "",
+          "warning": ""
+        }
+      ,
+        {
+          "name": "\uD83E\uDDC1 Galaretka fiołkowa",
+          "image": "",
+          "ingredients": "Składniki: kwiaty fiołka, woda, cukier, żelatyna lub agar.",
+          "desc_short": "Opis: Zaparzasz esencję fiołkową, dodajesz żelatynę i odlewasz do foremek. Ma wyjątkowy kolor i aromat.",
+          "desc_long": "",
+          "warning": ""
+        }
+      ,
+        {
+          "name": "\uD83C\uDF68 Lody fiołkowe",
+          "image": "",
+          "ingredients": "Składniki: śmietanka, mleko, cukier, napar fiołkowy lub syrop fiołkowy.",
+          "desc_short": "Opis: Aromatyzujesz bazę lodów esencją fiołkową – delikatne, kwiatowe i niebanalne.",
+          "desc_long": "",
+          "warning": ""
+        }
+      ,
+        {
+          "name": "\uD83E\uDD57 Sałatka z fiołkami",
+          "image": "",
+          "ingredients": "Składniki: młode liście fiołka, kwiaty fiołka, rukola, ogórek, orzechy włoskie, winegret.",
+          "desc_short": "Opis: Kwiaty jako dekoracja, liście jako delikatny zieleninowy składnik – bardzo efektowne i zdrowe.",
+          "desc_long": "",
+          "warning": ""
+        }
+      ,
+        {
+          "name": "\uD83C\uDF79 Syrop fiołkowy",
+          "image": "",
+          "ingredients": "Składniki: kwiaty fiołka, woda, cukier, sok z cytryny.",
+          "desc_short": "Opis: Gotujesz kwiaty w wodzie, dodajesz cukier i cytrynę. Syrop ma fioletowy kolor i wyjątkowy zapach – używany do lemoniad, deserów, lodów.",
+          "desc_long": "",
+          "warning": ""
+        }
+      ,
+        {
+          "name": "\uD83C\uDF5E Masło fiołkowe (aromatyzowane)",
+          "image": "",
+          "ingredients": "Składniki: masło, kwiaty fiołka, cukier puder lub sól (do wyboru).",
+          "desc_short": "Opis: Masło ucierasz z kwiatami – można przygotować wersję słodką (do bułek) lub wytrawną (do naleśników z białym serem).",
+          "desc_long": "",
+          "warning": ""
+        }
+      ,
+        {
+          "name": "\uD83E\uDD5E Naleśniki z fiołkami (jadalna dekoracja + cukier fiołkowy)",
+          "image": "",
+          "ingredients": "Garść",
+          "desc_short": "Opis: Naleśniki posypane cukrem fiołkowym i udekorowane świeżymi kwiatami – bajkowy efekt.",
+          "desc_long": "",
+          "warning": ""
+        }
+      ,
+        {
+          "name": "\uD83C\uDF70 Tort fiołkowy",
+          "image": "",
+          "ingredients": "Garść",
+          "desc_short": "Opis: Krem lub biszkopt aromatyzowany syropem z fiołków, dekorowany kandyzowanymi kwiatami – luksusowy i pachnący wypiek.",
+          "desc_long": "",
+          "warning": ""
+        }
+
+      ]
+    }
+,
+    {
+      "name": "Szczawik zajęczy ",
+      "latin": "Oxalis acetosella",
+      "image": "img/szawik_z.png",
+      "description": " to delikatna roślina leśna o charakterystycznym, kwaśnym smaku przypominającym szczaw. Jadalne są liście, łodyżki i kwiaty, ale należy spożywać go w małych ilościach ze względu na zawartość kwasu szczawiowego  ",
+      "advice": "Zbieraj",
+      "recipes": [
+
+        {
+          "name": "\uD83E\uDD57 Sałatka z liśćmi szczawiku",
+          "image": "",
+          "ingredients": "Składniki: liście szczawiku, młody szpinak, rukola, ogórek, orzechy, oliwa.",
+          "desc_short": "Opis: Szczawik dodaje orzeźwiającego, kwaśnego akcentu. Używaj jako przyprawy, nie bazy.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83E\uDDC2 Zielony sos szczawikowy (zimny)",
+          "image": "",
+          "ingredients": "Składniki: szczawik, jogurt naturalny, czosnek, sól, pieprz.",
+          "desc_short": "Opis: Blendujesz składniki, podajesz jako dodatek do pieczonych warzyw, jajek, ryby.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83E\uDD6A Kanapki z twarożkiem i szczawikiem",
+          "image": "",
+          "ingredients": "Składniki: twaróg, szczawik, rzodkiewka, pieczywo.",
+          "desc_short": "Opis: Posiekany szczawik mieszasz z twarożkiem – świeży, lekko kwaśny smak.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83C\uDF75 Chłodnik leśny z dodatkiem szczawiku",
+          "image": "",
+          "ingredients": "Składniki: kefir, ogórek, szczawik, koper, rzodkiewka.",
+          "desc_short": "Opis: Szczawik dodaje kwaśnej nuty do chłodnika – świetna alternatywa dla klasycznego szczawiu.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83C\uDF5A Ryż z dodatkiem szczawiku (jako przyprawa)",
+          "image": "",
+          "ingredients": "Składniki: ryż, masło, liście szczawiku, sól.",
+          "desc_short": "Opis: Dodaj drobno posiekany szczawik do ugotowanego ryżu – dla cytrynowego, kwaśnego aromatu.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83E\uDD6C Omlet lub jajka sadzone z liśćmi szczawiku",
+          "image": "",
+          "ingredients": "Składniki: jajka, szczawik, masło.",
+          "desc_short": "Opis: Posypujesz świeżym szczawikiem tuż po usmażeniu – orzeźwia smak jajek.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83C\uDF78 Leśna lemoniada ze szczawikiem",
+          "image": "",
+          "ingredients": "Składniki: woda, miód, szczawik, mięta, sok z cytryny.",
+          "desc_short": "Opis: Szczawik dodaje naturalnej kwaśności – nie potrzebujesz dużo cytryny.",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "\uD83C\uDF5E Zielone masło szczawikowe",
+          "image": "",
+          "ingredients": "Składniki: masło, posiekany szczawik, sól.",
+          "desc_short": "Opis: Aromatyzowane masło do pieczywa lub warzyw gotowanych – bardzo orzeźwiające",
+          "desc_long": "",
+          "warning": ""
         }
       ]
     }
+,
+    {
+      "name": "Czosnek",
+      "latin": "Allium",
+      "image": "img/pokrzywa.png",
+      "description": "Roślina ",
+      "advice": "Zbieraj",
+      "recipes": [
+
+        {
+          "name": "dźwiedziego",
+          "image": "",
+          "ingredients": "Składniki",
+          "desc_short": "Opis",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "Zupaywy",
+          "image": "",
+          "ingredients": "Garść",
+          "desc_short": "Lekka",
+          "desc_long": "",
+          "warning": ""
+        }
+      ]
+    }
+,
+    {
+      "name": "Czosnek",
+      "latin": "Allium",
+      "image": "img/pokrzywa.png",
+      "description": "Roślina ",
+      "advice": "Zbieraj",
+      "recipes": [
+
+        {
+          "name": "dźwiedziego",
+          "image": "",
+          "ingredients": "Składniki",
+          "desc_short": "Opis",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "Zupaywy",
+          "image": "",
+          "ingredients": "Garść",
+          "desc_short": "Lekka",
+          "desc_long": "",
+          "warning": ""
+        }
+      ]
+    }
+,
+    {
+      "name": "Czosnek",
+      "latin": "Allium",
+      "image": "img/pokrzywa.png",
+      "description": "Roślina ",
+      "advice": "Zbieraj",
+      "recipes": [
+
+        {
+          "name": "dźwiedziego",
+          "image": "",
+          "ingredients": "Składniki",
+          "desc_short": "Opis",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "Zupaywy",
+          "image": "",
+          "ingredients": "Garść",
+          "desc_short": "Lekka",
+          "desc_long": "",
+          "warning": ""
+        }
+      ]
+    }
+,
+    {
+      "name": "Czosnek",
+      "latin": "Allium",
+      "image": "img/pokrzywa.png",
+      "description": "Roślina ",
+      "advice": "Zbieraj",
+      "recipes": [
+
+        {
+          "name": "dźwiedziego",
+          "image": "",
+          "ingredients": "Składniki",
+          "desc_short": "Opis",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "Zupaywy",
+          "image": "",
+          "ingredients": "Garść",
+          "desc_short": "Lekka",
+          "desc_long": "",
+          "warning": ""
+        }
+      ]
+    }
+,
+    {
+      "name": "Czosnek",
+      "latin": "Allium",
+      "image": "img/pokrzywa.png",
+      "description": "Roślina ",
+      "advice": "Zbieraj",
+      "recipes": [
+
+        {
+          "name": "dźwiedziego",
+          "image": "",
+          "ingredients": "Składniki",
+          "desc_short": "Opis",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "Zupaywy",
+          "image": "",
+          "ingredients": "Garść",
+          "desc_short": "Lekka",
+          "desc_long": "",
+          "warning": ""
+        }
+      ]
+    }
+,
+    {
+      "name": "Czosnek",
+      "latin": "Allium",
+      "image": "img/pokrzywa.png",
+      "description": "Roślina ",
+      "advice": "Zbieraj",
+      "recipes": [
+
+        {
+          "name": "dźwiedziego",
+          "image": "",
+          "ingredients": "Składniki",
+          "desc_short": "Opis",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "Zupaywy",
+          "image": "",
+          "ingredients": "Garść",
+          "desc_short": "Lekka",
+          "desc_long": "",
+          "warning": ""
+        }
+      ]
+    }
+,
+    {
+      "name": "Czosnek",
+      "latin": "Allium",
+      "image": "img/pokrzywa.png",
+      "description": "Roślina ",
+      "advice": "Zbieraj",
+      "recipes": [
+
+        {
+          "name": "dźwiedziego",
+          "image": "",
+          "ingredients": "Składniki",
+          "desc_short": "Opis",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "Zupaywy",
+          "image": "",
+          "ingredients": "Garść",
+          "desc_short": "Lekka",
+          "desc_long": "",
+          "warning": ""
+        }
+      ]
+    }
+,
+    {
+      "name": "Czosnek",
+      "latin": "Allium",
+      "image": "img/pokrzywa.png",
+      "description": "Roślina ",
+      "advice": "Zbieraj",
+      "recipes": [
+
+        {
+          "name": "dźwiedziego",
+          "image": "",
+          "ingredients": "Składniki",
+          "desc_short": "Opis",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "Zupaywy",
+          "image": "",
+          "ingredients": "Garść",
+          "desc_short": "Lekka",
+          "desc_long": "",
+          "warning": ""
+        }
+      ]
+    }
+,
+    {
+      "name": "Czosnek",
+      "latin": "Allium",
+      "image": "img/pokrzywa.png",
+      "description": "Roślina ",
+      "advice": "Zbieraj",
+      "recipes": [
+
+        {
+          "name": "dźwiedziego",
+          "image": "",
+          "ingredients": "Składniki",
+          "desc_short": "Opis",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "Zupaywy",
+          "image": "",
+          "ingredients": "Garść",
+          "desc_short": "Lekka",
+          "desc_long": "",
+          "warning": ""
+        }
+      ]
+    }
+,
+    {
+      "name": "Czosnek",
+      "latin": "Allium",
+      "image": "img/pokrzywa.png",
+      "description": "Roślina ",
+      "advice": "Zbieraj",
+      "recipes": [
+
+        {
+          "name": "dźwiedziego",
+          "image": "",
+          "ingredients": "Składniki",
+          "desc_short": "Opis",
+          "desc_long": "",
+          "warning": ""
+        },
+        {
+          "name": "Zupaywy",
+          "image": "",
+          "ingredients": "Garść",
+          "desc_short": "Lekka",
+          "desc_long": "",
+          "warning": ""
+        }
+      ]
+    }
+
   ]
 }
