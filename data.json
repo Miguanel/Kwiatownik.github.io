@@ -3,7 +3,7 @@
     {
       "name": "Pokrzywa zwyczajna",
       "latin": "Urtica dioica",
-      "image": ["img/pokrzywa/img.png", "img/pokrzywa/img_1.png"],
+      "image": "img/pokrzywa/img.png",
       "description": "Roślina o charakterystycznych parzących liściach, występująca powszechnie na łąkach i przy drogach. Ma lekko gorzki smak.",
       "advice": "Zbieraj młode liście wiosną, unikaj miejsc zanieczyszczonych.",
       "recipes": [
