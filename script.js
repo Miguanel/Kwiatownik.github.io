@@ -7,6 +7,8 @@ fetch('pokrzywa_mock.json')
     document.getElementById("plant-desc").textContent = plant.opis;
     document.getElementById("plant-vitamins").textContent = plant.cechy.witaminy;
     document.getElementById("plant-harvest").textContent = plant.cechy["zbiór"];
+    document.getElementById("alert-title").textContent = plant.alert["title"];
+    document.getElementById("alert-info").textContent = plant.alert["info"];
 
     const imgList = document.getElementById("plant-images");
     plant.obrazy.forEach(src => {

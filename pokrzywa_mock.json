@@ -9,6 +9,9 @@
       "lol.jpg",
       "img/lol.jpg"
     ],
+    "alert": {
+      "title":"Uwaga zdrowotna",
+      "info":"cos tam st"},
     "przepisy": [
       {
         "nazwa": "informacja 6",
