@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kwiatownik</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <div class="logo" onclick="window.location.reload()">Kwiatownik</div>
+        <div class="grow"></div>
+        <button class="search-btn" id="search-toggle">&#128269;</button>
+        <button class="menu-btn" title="Menu">&#9776;</button>
+        <div class="search-wrap" id="search-bar">
+            <input type="text" class="search-inp" id="search-input" placeholder="Szukaj rośliny...">
+            <button class="search-icon" id="search-btn">&#128269;</button>
+        </div>
+    </div>
+
+    <main>
+        <section id="about">
+            <h2>O stronie Kwiatownik</h2>
+            <p>
+                Poznaj polskie dzikie rośliny jadalne! Przewijaj listę, rozwijaj rośliny i ich przepisy, czytaj ciekawostki, inspiruj się naturą.
+            </p>
+        </section>
+        <ul class="plant-list" id="plant-list">
+            <!-- Tutaj dynamicznie generowane rośliny -->
+        </ul>
+    </main>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

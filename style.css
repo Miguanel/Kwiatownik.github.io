@@ -1,0 +1,64 @@
+/* Pasek górny */
+        body { margin:0; font-family: 'Segoe UI', Arial, sans-serif; background: #f7fbe8;}
+        .topbar {
+            position: fixed; top: 0; left: 0; width: 100%; height: 56px;
+            background: #496e44; color: #fff; display: flex; align-items: center;
+            z-index: 10; box-shadow: 0 2px 6px #0003;
+        }
+        .logo { font-size: 1.5em; font-weight: 700; padding: 0 24px; cursor: pointer;}
+        .grow { flex-grow: 1;}
+        .search-btn, .menu-btn {
+            background: none; border: none; color: #fff; font-size: 1.4em;
+            padding: 8px; cursor: pointer; margin-right: 16px;
+        }
+        .search-wrap {
+            position: absolute; top: 0; right: 0; height: 56px;
+            display: flex; align-items: center;
+            background: #d7edce; border-radius: 0 0 0 22px;
+            box-shadow: 0 4px 12px #0001;
+            transform: translateY(-70px); transition: .3s;
+            opacity: 0;
+        }
+        .search-wrap.open {
+            transform: translateY(0); opacity: 1;
+        }
+        .search-inp {
+            border: none; outline: none; font-size: 1.2em;
+            padding: 6px 16px; border-radius: 18px 0 0 18px;
+            background: #fff;
+            margin-left: 10px;
+            width: 180px;
+        }
+        .search-icon {
+            background: #60a059; border: none; border-radius: 0 18px 18px 0;
+            color: #fff; font-size: 1.1em; padding: 8px 14px; cursor: pointer;
+        }
+        main { margin-top: 64px; max-width: 860px; margin-left: auto; margin-right: auto; }
+
+        /* Rośliny - lista */
+        .plant-list { list-style: none; padding: 0; margin: 0; }
+        .plant-item {
+            display: flex; align-items: center; padding: 12px 12px 12px 0; margin: 8px 0;
+            background: #fff; border-radius: 18px; box-shadow: 0 2px 6px #0001;
+            cursor: pointer; transition: background .15s;
+        }
+        .plant-item:hover { background: #e6f8e0; }
+        .plant-thumb { width: 60px; height: 60px; border-radius: 14px; object-fit: cover; margin: 0 16px;}
+        .plant-title { font-size: 1.2em; font-weight: 500;}
+        .plant-details { display: none; padding: 20px; }
+        .plant-details.open { display: block; background: #f3fdea; margin: 0 0 0 75px; border-radius: 12px; }
+        .latin { font-style: italic; color: #496e44; font-size: 1em;}
+        .recipes { margin: 18px 0 0 0;}
+        .recipe-item { margin-bottom: 10px;}
+        .recipe-title { font-weight: 500; font-size: 1.1em; cursor: pointer; color: #437c4b; display: flex; align-items: center;}
+        .recipe-title:before { content: "›"; margin-right: 6px; color: #89bb78;}
+        .recipe-details { display: none; margin: 6px 0 12px 0; background: #fff; padding: 12px; border-radius: 10px;}
+        .recipe-details.open { display: block; }
+        .recipe-img { width: 48px; height: 48px; border-radius: 10px; object-fit: cover; margin-bottom: 6px;}
+        .more-btn { background: #e3f1d7; border: none; border-radius: 10px; color: #437c4b; padding: 4px 12px; margin-top: 5px; cursor: pointer; }
+        @media (max-width: 600px) {
+            main { margin: 62px 2vw 0 2vw;}
+            .plant-details.open { margin: 0 0 0 0; }
+            .plant-item { flex-direction: column; align-items: flex-start;}
+            .plant-thumb { margin-bottom: 8px; }
+        }

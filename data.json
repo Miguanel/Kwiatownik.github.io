@@ -1,0 +1,38 @@
+{
+  "plants": [
+    {
+      "name": "Pokrzywa zwyczajna",
+      "latin": "Urtica dioica",
+      "image": "img/pokrzywa.jpg",
+      "description": "Roślina o charakterystycznych parzących liściach, występująca powszechnie na łąkach i przy drogach. Ma lekko gorzki smak.",
+      "advice": "Zbieraj młode liście wiosną, unikaj miejsc zanieczyszczonych.",
+      "recipes": [
+        {
+          "name": "Zupa z pokrzywy",
+          "image": "img/pokrzywa.jpg",
+          "ingredients": "Garść młodych liści pokrzywy, ziemniaki, marchew, cebula, woda, sól.",
+          "desc_short": "Lekka, wiosenna zupa z młodych liści pokrzywy.",
+          "desc_long": "Umyj pokrzywę, sparz wrzątkiem. Pokrój warzywa, gotuj do miękkości. Dodaj liście pokrzywy, gotuj jeszcze 5 minut. Dopraw do smaku.",
+          "warning": "Uwaga: używaj rękawiczek przy zbieraniu świeżej pokrzywy."
+        }
+      ]
+    },
+    {
+      "name": "Babka lancetowata",
+      "latin": "Plantago lanceolata",
+      "image": "img/babka.jpg",
+      "description": "Babka lancetowata rośnie na trawnikach, poboczach i łąkach. Smak delikatny, lekko trawiasty.",
+      "advice": "Zbieraj liście przed kwitnieniem, w miejscach oddalonych od dróg.",
+      "recipes": [
+        {
+          "name": "Syrop z babki lancetowatej",
+          "image": "img/babka.jpg",
+          "ingredients": "Liście babki, cukier, cytryna.",
+          "desc_short": "Naturalny syrop na kaszel.",
+          "desc_long": "Posiekane liście przesyp warstwowo cukrem, dodaj sok z cytryny, odstaw na kilka dni. Odcedź, przechowuj w lodówce.",
+          "warning": "Syrop przechowywać w chłodnym miejscu."
+        }
+      ]
+    }
+  ]
+}
