@@ -210,7 +210,7 @@
     {
       "name": "Czosnek niedźwiedzi ",
       "latin": "Allium ursinum",
-      "image": "img/pokrzywa.png",
+      "image": "img/czosnek_n.png",
       "description": "Roślina ",
       "advice": "Zbieraj",
       "recipes": [
@@ -236,7 +236,7 @@
     {
       "name": "Fiołek wonny ",
       "latin": "Viola odorata",
-      "image": "img/pokrzywa.png",
+      "image": "img/fiolek_w.png",
       "description": "to nie tylko roślina ozdobna i lecznicza, ale także wyjątkowo aromatyczny składnik kuchni – szczególnie deserowej i napojowej. Kwiaty fiołka mają słodki zapach i delikatny smak, a liście również są jadalne  ",
       "advice": "Zbieraj",
       "recipes": [
@@ -407,9 +407,9 @@
     }
 ,
     {
-      "name": "Czosnek",
-      "latin": "Allium",
-      "image": "img/pokrzywa.png",
+      "name": "Ślaz dziki ",
+      "latin": "Malva sylvestris",
+      "image": "img/slaz_d.png",
       "description": "Roślina ",
       "advice": "Zbieraj",
       "recipes": [
@@ -434,9 +434,9 @@
     }
 ,
     {
-      "name": "Czosnek",
-      "latin": "Allium",
-      "image": "img/pokrzywa.png",
+      "name": "Podagrycznik pospolity ",
+      "latin": "Aegopodium podagraria",
+      "image": ["img/podagrycznik_p.png", "img/podagrycznik_p_1.png"],
       "description": "Roślina ",
       "advice": "Zbieraj",
       "recipes": [
@@ -461,10 +461,10 @@
     }
 ,
     {
-      "name": "Czosnek",
-      "latin": "Allium",
-      "image": "img/pokrzywa.png",
-      "description": "Roślina ",
+      "name": "Bylica pospolita ",
+      "latin": "Artemisia vulgaris",
+      "image": "img/bylica_p.png",
+      "description": "Roślina o intensywnym, gorzko-ziołowym aromacie, znana z dawnych kuchni i ziołolecznictwa. Choć dziś rzadko używana kulinarnie, kiedyś była bardzo ceniona jako przyprawa do tłustych mięs, zup i potraw fermentowanych. W kuchni używa się głównie młodych liści i wierzchołków pędów, czasem również suszu.",
       "advice": "Zbieraj",
       "recipes": [
 
@@ -488,10 +488,10 @@
     }
 ,
     {
-      "name": "Czosnek",
-      "latin": "Allium",
-      "image": "img/pokrzywa.png",
-      "description": "Roślina ",
+      "name": "Gwiazdnica ",
+      "latin": "Stellaria media",
+      "image": "img/gwiazdnica.png",
+      "description": "Zwana też mokrzem, to dziko rosnące zioło często uznawane za chwast – niesłusznie! Ma delikatny, lekko orzechowy smak i wysoką wartość odżywczą (bogata w witaminę C, żelazo, potas, flawonoidy). Jadalne są liście, łodyżki, pędy i kwiaty – najlepiej zbierać młode rośliny.",
       "advice": "Zbieraj",
       "recipes": [
 
@@ -515,10 +515,10 @@
     }
 ,
     {
-      "name": "Czosnek",
-      "latin": "Allium",
-      "image": "img/pokrzywa.png",
-      "description": "Roślina ",
+      "name": "Mięta dzika ",
+      "latin": "Mentha arvensis",
+      "image": "img/mieta_d.png",
+      "description": "to aromatyczne zioło rosnące dziko nad rzekami, na łąkach i obrzeżach lasów. Ma intensywny, chłodzący zapach i zastosowanie zarówno w kuchni, jak i lecznictwie. W kuchni używa się liści i młodych pędów – na surowo, suszonych lub sparzonych",
       "advice": "Zbieraj",
       "recipes": [
 
@@ -542,10 +542,10 @@
     }
 ,
     {
-      "name": "Czosnek",
-      "latin": "Allium",
-      "image": "img/pokrzywa.png",
-      "description": "Roślina ",
+      "name": "Jałowiec ",
+      "latin": "Juniperus communis",
+      "image": "img/jalowiec_p.png",
+      "description": " to dziko rosnący krzew w Polsce, którego jadalne części to ciemnoniebieskie jagody (szyszkojagody). Mają one intensywny, żywiczny, lekko słodkawy smak i od wieków są używane jako przyprawa w kuchni, zwłaszcza staropolskiej i myśliwskiej. Używa się ich oszczędnie, bo mają bardzo mocny aromat ",
       "advice": "Zbieraj",
       "recipes": [
 
@@ -569,10 +569,10 @@
     }
 ,
     {
-      "name": "Czosnek",
-      "latin": "Allium",
-      "image": "img/pokrzywa.png",
-      "description": "Roślina ",
+      "name": "Macierzanka (tymianek dziki) ",
+      "latin": "Thymus serpyllum",
+      "image": "img/macierzanka_tymianek_dziki.png",
+      "description": "dzika odmiana tymianku) to aromatyczne, dziko rosnące zioło w Polsce, często spotykane na suchych łąkach, zboczach i skrajach lasów. Ma intensywny zapach zbliżony do tymianku i szerokie zastosowanie kulinarne – zarówno jako przyprawa, jak i składnik ziołowych naparów  ",
       "advice": "Zbieraj",
       "recipes": [
 
@@ -596,10 +596,10 @@
     }
 ,
     {
-      "name": "Czosnek",
-      "latin": "Allium",
-      "image": "img/pokrzywa.png",
-      "description": "Roślina ",
+      "name": "Lebiodka",
+      "latin": "Origanum vulgare",
+      "image": "img/lebiodka.png",
+      "description": "znana szerzej jako dzikie oregano, to jedno z najstarszych ziół przyprawowych rosnących dziko w Polsce – szczególnie na suchych łąkach, skrajach lasów i polanach. Ma intensywny, korzenno-ziołowy zapach i szerokie zastosowanie kulinarne, szczególnie w kuchni śródziemnomorskiej i staropolskiej ",
       "advice": "Zbieraj",
       "recipes": [
 

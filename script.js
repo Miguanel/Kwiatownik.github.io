@@ -25,7 +25,7 @@ let plantsData = [];
                     renderPlantList(filtered);
                 };
 
-                li.innerHTML = `
+                li.innerHTML =
                     <img class="plant-thumb" src="${plant.image}" alt="${plant.name}">
                     <span class="plant-title">${plant.name}</span>
                     <div class="plant-details${expandedPlant === i ? ' open' : ''}">
