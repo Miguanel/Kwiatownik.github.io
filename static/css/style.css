@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; margin: 0 auto; max-width: 800px; background: #f6fbf3;}
+header, footer { background: #e1eedb; padding: 10px;}
+h1 { margin: 0;}
+ul { list-style: disc inside;}
+input, select, button { margin: 5px;}
+.fav-btn, .garden-btn, .compare-btn { cursor:pointer; margin-left:10px;}
+.fav-btn { color: #090; }
+.garden-btn { color: #09a; }
+.compare-btn { color: #777;}
+hr { border: 0; border-top: 1px solid #bbb;}

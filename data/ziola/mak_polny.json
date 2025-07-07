@@ -1,0 +1,98 @@
+{
+  "gatunek": "Mak polny",
+  "nazwa_lacinska": "Papaver rhoeas",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Makowate",
+    "Papaveraceae",
+    "Papaver",
+    "Mak polny"
+  ],
+  "uprawa": {
+    "gleba": "Lekka, przepuszczalna, uboga, najlepiej o odczynie obojętnym lub lekko zasadowym.",
+    "stanowisko": "Pełne słońce.",
+    "wysiew": "Wysiew do gruntu – marzec-kwiecień lub jesień. Nasiona nie przykrywać ziemią, tylko delikatnie przycisnąć.",
+    "zbior": "Czerwiec-lipiec (kwiaty), sierpień-wrzesień (nasiona)."
+  },
+  "wystepowanie": {
+    "obszar": "Cała Europa, zachodnia Azja, Afryka Północna.",
+    "w_polsce": "Bardzo pospolity chwast zbóż i ugorów, rośnie na polach, miedzach, przydrożach.",
+    "zrodlo": [1, 2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Jednoroczna roślina zielna, 30–80 cm wysokości.",
+    "lodyga": "Wyprostowana, szorstko owłosiona.",
+    "liscie": "Podłużne, pierzastodzielne.",
+    "kwiaty": "Duże, czerwone, cztery płatki (czasem z czarną plamą u nasady).",
+    "owoce": "Torebka wielonasienna.",
+    "zapach": "Delikatny, mleczny sok.",
+    "zrodlo": [2, 3]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Alkaloidy (readyna, rhoeadyna, papaweryna)",
+      "dzialanie": "Lekko uspokajające, rozkurczowe.",
+      "zrodlo": [4]
+    },
+    {
+      "nazwa": "Antocyjany",
+      "dzialanie": "Naturalny barwnik czerwony, działanie antyoksydacyjne.",
+      "zrodlo": [5]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Mak polny to jeden z najbardziej rozpoznawalnych polskich kwiatów. W przeszłości wykorzystywany był jako symbol snu, śmierci, a także płodności. W zielarstwie stosowano płatki na uspokojenie, w barwiarstwie do barwienia jajek i tkanin.",
+    "cechy": [
+      "Czerwone kwiaty, łatwo rozsiewa się na polach.",
+      "Symbol pamięci poległych (m.in. w Wielkiej Brytanii)."
+    ],
+    "zastosowanie_historyczne": [
+      "Barwienie pokarmów i jaj wielkanocnych.",
+      "Dawne mieszanki uspokajające."
+    ],
+    "ciekawostki": [
+      "Mak polny jest często mylony z makiem wątpliwym.",
+      "Nie zawiera morfiny ani innych silnych alkaloidów opiumowych."
+    ],
+    "zrodlo": [6, 7]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Nie stosować w dużych dawkach u dzieci (może powodować senność).",
+      "zrodlo": [8]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar": {
+      "opis": "1 łyżeczka suszonych płatków na szklankę wrzątku, parzyć 10 min.",
+      "zastosowanie": "Łagodny środek uspokajający i wykrztuśny.",
+      "zrodlo": [9]
+    }
+  },
+  "przepisy_kulinarne": {
+    "swieze_dodatki": {
+      "opis": "Płatki mogą służyć jako barwnik do deserów lub dekoracja.",
+      "zrodlo": [10]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {},
+  "inne_zastosowania": {
+    "barwniki": {
+      "opis": "Barwienie pisanek i syropów.",
+      "zrodlo": [11]
+    }
+  },
+  "bibliografia": {
+    "1": "https://pl.wikipedia.org/wiki/Mak_polny",
+    "2": "https://atlas-roslin.pl/gatunki/Papaver_rhoeas.htm",
+    "3": "https://zielnik-online.pl/roslina,mak-polny.html",
+    "4": "https://rozanski.li/152/mak-polny-papaver-rhoeas-l/",
+    "5": "https://rozanski.li/2315/mak-polny-antocyjany/",
+    "6": "https://pl.wikipedia.org/wiki/Mak_w_symbolice",
+    "7": "https://www.nationalww2museum.org/war/articles/red-poppy-remembrance-day",
+    "8": "https://medycynanaturalna.pl/mak-polny-bezpieczenstwo/",
+    "9": "https://www.herbapol.pl/pl/ziola/mak-polny",
+    "10": "https://zielonyogrodek.pl/rosliny/jednoroczne/3247-mak-polny",
+    "11": "https://zielnikpolski.pl/barwniki-naturalne/"
+  }
+}

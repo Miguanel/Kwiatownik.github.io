@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Wyniki wyszukiwania{% endblock %}
+{% block content %}
+<h2>Wyniki wyszukiwania dla "{{ q }}"</h2>
+<ul>
+    {% for plant in results %}
+    <li>
+        <a href="{{ url_for('roslina', category=plant.category, plant=plant.slug) }}">{{ plant.name }}</a>
+        <i>({{ plant.latin }})</i>
+    </li>
+    {% endfor %}
+</ul>
+{% if not results %}<p>Brak wyników.</p>{% endif %}
+{% endblock %}

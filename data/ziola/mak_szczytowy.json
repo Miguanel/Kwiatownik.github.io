@@ -1,0 +1,63 @@
+{
+  "gatunek": "Mak szczytowy",
+  "nazwa_lacinska": "Papaver argemone",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Makowate",
+    "Papaveraceae",
+    "Papaver",
+    "Mak szczytowy"
+  ],
+  "uprawa": {
+    "gleba": "Lekka, piaszczysta, uboga.",
+    "stanowisko": "Pełne słońce.",
+    "wysiew": "Naturalny, nieuprawiany celowo.",
+    "zbior": "Czerwiec-lipiec (kwiaty)."
+  },
+  "wystepowanie": {
+    "obszar": "Południowa i środkowa Europa, zachodnia Azja.",
+    "w_polsce": "Dość rzadki, występuje na południu i zachodzie kraju, na polach, skrajach upraw, ugorach.",
+    "zrodlo": [1, 2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Jednoroczna, 15–50 cm wysokości.",
+    "lodyga": "Cienka, rozgałęziona, szczeciniasta.",
+    "liscie": "Wąskie, pierzastodzielne.",
+    "kwiaty": "Małe, czerwone, cztery płatki bez czarnych plam, pręciki wyraźnie widoczne.",
+    "owoce": "Mała, wydłużona makówka.",
+    "zapach": "Słabo wyczuwalny.",
+    "zrodlo": [2, 3]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Barwniki antocyjanowe",
+      "dzialanie": "Czerwony kolor płatków.",
+      "zrodlo": [4]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Mak szczytowy to rzadszy przedstawiciel maków w Polsce. Roślina typowo ruderalna, bez znaczenia gospodarczego i leczniczego.",
+    "cechy": [
+      "Małe czerwone kwiaty, brak czarnej plamy.",
+      "Drobne, wydłużone owoce."
+    ],
+    "zastosowanie_historyczne": [],
+    "ciekawostki": [
+      "Uznawany za wskaźnik gleb lekkich.",
+      "Gatunek ginący na skutek intensyfikacji rolnictwa."
+    ],
+    "zrodlo": [5]
+  },
+  "uwagi_i_ostrzezenia": [],
+  "przepisy_medyczne": {},
+  "przepisy_kulinarne": {},
+  "przepisy_z_innymi_roslinami": {},
+  "inne_zastosowania": {},
+  "bibliografia": {
+    "1": "https://pl.wikipedia.org/wiki/Mak_szczytowy",
+    "2": "https://atlas-roslin.pl/gatunki/Papaver_argemone.htm",
+    "3": "https://zielnikpolski.pl/mak-szczytowy/",
+    "4": "https://rozanski.li/2272/mak-szczytowy/",
+    "5": "https://www.zioladookola.pl/mak-szczytowy/"
+  }
+}

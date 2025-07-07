@@ -1,0 +1,264 @@
+{% extends "base.html" %}
+{% block title %}{{ data.gatunek }}{% endblock %}
+{% block content %}
+
+{# Galeria zdjęć na górze #}
+{% if data.zdjecia and data.zdjecia|length > 0 %}
+<div style="margin-bottom: 16px; text-align:center;">
+  {% for zdj in data.zdjecia %}
+    {% if zdj.startswith('http://') or zdj.startswith('https://') %}
+      <img src="{{ zdj }}" alt="Zdjęcie {{ data.gatunek }}" style="max-height:220px; margin:0 8px; border-radius: 12px; box-shadow: 0 2px 6px #bbb;">
+    {% else %}
+      <img src="{{ url_for('static', filename=zdj) }}" alt="Zdjęcie {{ data.gatunek }}" style="max-height:220px; margin:0 8px; border-radius: 12px; box-shadow: 0 2px 6px #bbb;">
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+
+<h2 id="top">{{ data.gatunek }} <small>({{ data.nazwa_lacinska }})</small></h2>
+<p>
+    <span class="fav-btn" data-plant="{{ slug }}" onclick="toggleFav('{{ slug }}')">💚</span>
+    <span class="garden-btn" data-plant="{{ slug }}" onclick="toggleGarden('{{ slug }}')">🌱</span>
+    <span class="compare-btn" onclick="addCompare('{{ slug }}','{{ category }}')">🔁</span>
+</p>
+<p><b>Rodzina/systematyka:</b> {{ data.nazwa_zbioru | join(' → ') }}</p>
+
+{# Ostrzeżenie o truciźnie #}
+{% set trujaca = false %}
+{% for uwaga in data.uwagi_i_ostrzezenia %}
+    {% if 'trujący' in uwaga.uwaga|lower %}
+        {% set trujaca = true %}
+    {% endif %}
+{% endfor %}
+{% if trujaca %}
+<div style="background:#ffe0e0; color:#900; border:2px solid #900; padding:8px; margin-bottom:10px;">
+    <b>☠️ Uwaga! Roślina może być trująca lub niebezpieczna przy spożyciu!</b>
+</div>
+{% endif %}
+
+{% if data.uprawa %}
+<h3>Uprawa</h3>
+<ul>
+    <li><b>Gleba:</b> {{ data.uprawa.gleba }}</li>
+    <li><b>Stanowisko:</b> {{ data.uprawa.stanowisko }}</li>
+    <li><b>Wysiew:</b> {{ data.uprawa.wysiew }}</li>
+    <li><b>Zbiór:</b> {{ data.uprawa.zbior }}</li>
+</ul>
+{% endif %}
+
+<h3>Występowanie</h3>
+<ul>
+    <li>
+        <b>Obszar:</b> {{ data.wystepowanie.obszar }}
+        {% if data.wystepowanie.zrodlo %}
+            {% for nr in data.wystepowanie.zrodlo %}
+                <a href="#bib{{ nr }}">[{{ nr }}]</a>
+            {% endfor %}
+        {% endif %}
+    </li>
+    <li>
+        <b>W Polsce:</b> {{ data.wystepowanie.w_polsce }}
+        {% if data.wystepowanie.zrodlo %}
+            {% for nr in data.wystepowanie.zrodlo %}
+                <a href="#bib{{ nr }}">[{{ nr }}]</a>
+            {% endfor %}
+        {% endif %}
+    </li>
+</ul>
+
+<h3>Opis botaniczny</h3>
+<ul>
+    <li><b>Pokrój:</b> {{ data.opis_botaniczny.pokroj }}</li>
+    <li><b>Łodyga/Pień:</b> {{ data.opis_botaniczny.lodyga }}</li>
+    <li><b>Liście:</b> {{ data.opis_botaniczny.liscie }}</li>
+    <li><b>Kwiaty:</b> {{ data.opis_botaniczny.kwiaty }}</li>
+    <li><b>Zapach:</b> {{ data.opis_botaniczny.zapach }}</li>
+    <li><b>Cechy wyróżniające:</b> {{ data.opis_botaniczny.cecha_wyrozniajaca }}</li>
+    {% if data.opis_botaniczny.zrodlo %}
+        <li>
+        {% for nr in data.opis_botaniczny.zrodlo %}
+            <a href="#bib{{ nr }}">[{{ nr }}]</a>
+        {% endfor %}
+        </li>
+    {% endif %}
+</ul>
+
+<h3>Właściwości i składniki</h3>
+<ul>
+    {% for sklad in data.wlasciwosci_i_skladniki %}
+    <li>
+        <b>{{ sklad.nazwa }}:</b> {{ sklad.dzialanie }}
+        {% if sklad.sklad %} (Skład: {{ sklad.sklad }}){% endif %}
+        {% if sklad.ciekawostka %} <i>{{ sklad.ciekawostka }}</i>{% endif %}
+        {% if sklad.zrodlo %}
+            {% for nr in sklad.zrodlo %}
+                <a href="#bib{{ nr }}">[{{ nr }}]</a>
+            {% endfor %}
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+
+<h3>Cechy i historia</h3>
+<p>
+    {{ data.cechy_i_historia.opis }}
+    {% if data.cechy_i_historia.zrodlo %}
+        {% for nr in data.cechy_i_historia.zrodlo %}
+            <a href="#bib{{ nr }}">[{{ nr }}]</a>
+        {% endfor %}
+    {% endif %}
+</p>
+<ul>
+    {% for cecha in data.cechy_i_historia.cechy %}
+    <li>{{ cecha }}</li>
+    {% endfor %}
+</ul>
+<p><b>Zastosowania historyczne:</b></p>
+<ul>
+    {% for hist in data.cechy_i_historia.zastosowanie_historyczne %}
+    <li>{{ hist }}</li>
+    {% endfor %}
+</ul>
+<p><b>Ciekawostki:</b></p>
+<ul>
+    {% for ciek in data.cechy_i_historia.ciekawostki %}
+    <li>{{ ciek }}</li>
+    {% endfor %}
+</ul>
+
+<h3>Uwagi i ostrzeżenia</h3>
+<ul>
+    {% for uwaga in data.uwagi_i_ostrzezenia %}
+    <li>
+        <b>{{ uwaga.uwaga }}</b>
+        {% if uwaga.rozwiazanie %} <i>({{ uwaga.rozwiazanie }})</i>{% endif %}
+        {% if uwaga.zrodlo %}
+            {% for nr in uwaga.zrodlo %}
+                <a href="#bib{{ nr }}">[{{ nr }}]</a>
+            {% endfor %}
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+
+<h3>Przepisy medyczne (ziołolecznictwo, fitoterapia)</h3>
+<ul>
+    {% for klucz, przepis in data.przepisy_medyczne.items() %}
+    <li>
+        <b>{{ klucz|replace('_', ' ')|capitalize }}:</b>
+        <ul>
+            <li><b>Składniki:</b> {{ przepis.skladniki | join(', ') }}</li>
+            <li><b>Sposób przygotowania:</b> {{ przepis.sposob_przygotowania }}</li>
+            <li><b>Cechy:</b> {{ przepis.cechy | join(', ') }}</li>
+            <li><b>Właściwości:</b> {{ przepis.wlasciwosci | join(', ') }}</li>
+            <li><b>Zastosowanie:</b> {{ przepis.zastosowanie }}</li>
+            <li><b>Dawkowanie:</b> {{ przepis.dawkowanie }}</li>
+            {% if przepis.zrodlo %}
+                <li>
+                {% for nr in przepis.zrodlo %}
+                    <a href="#bib{{ nr }}">[{{ nr }}]</a>
+                {% endfor %}
+                </li>
+            {% endif %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
+
+<h3>Przepisy kulinarne</h3>
+<ul>
+    {% for klucz, przepis in data.przepisy_kulinarne.items() %}
+    <li>
+        <b>{{ klucz|replace('_', ' ')|capitalize }}:</b>
+        <ul>
+            <li><b>Składniki:</b> {{ przepis.skladniki | join(', ') }}</li>
+            <li><b>Sposób przygotowania:</b> {{ przepis.sposob_przygotowania }}</li>
+            <li><b>Cechy:</b> {{ przepis.cechy | join(', ') }}</li>
+            <li><b>Właściwości:</b> {{ przepis.wlasciwosci | join(', ') }}</li>
+            <li><b>Zastosowanie:</b> {{ przepis.zastosowanie }}</li>
+            {% if przepis.zrodlo %}
+                <li>
+                {% for nr in przepis.zrodlo %}
+                    <a href="#bib{{ nr }}">[{{ nr }}]</a>
+                {% endfor %}
+                </li>
+            {% endif %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
+
+<h3>Przepisy z innymi roślinami</h3>
+{% if data.przepisy_z_innymi_roslinami.medyczne|length > 0 %}
+<h4>Mieszanki medyczne</h4>
+<ul>
+    {% for p in data.przepisy_z_innymi_roslinami.medyczne %}
+    <li>
+        <b>{{ p.nazwa }}:</b>
+        <ul>
+            <li><b>Składniki:</b> {{ p.skladniki | join(', ') }}</li>
+            <li><b>Sposób przygotowania:</b> {{ p.sposob_przygotowania }}</li>
+            <li><b>Cechy:</b> {{ p.cechy | join(', ') }}</li>
+            <li><b>Właściwości:</b> {{ p.wlasciwosci | join(', ') }}</li>
+            <li><b>Zastosowanie:</b> {{ p.zastosowanie }}</li>
+            {% if p.zrodlo %}
+                <li>
+                {% for nr in p.zrodlo %}
+                    <a href="#bib{{ nr }}">[{{ nr }}]</a>
+                {% endfor %}
+                </li>
+            {% endif %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% if data.przepisy_z_innymi_roslinami.kulinarne|length > 0 %}
+<h4>Mieszanki kulinarne</h4>
+<ul>
+    {% for p in data.przepisy_z_innymi_roslinami.kulinarne %}
+    <li>
+        <b>{{ p.nazwa }}:</b>
+        <ul>
+            <li><b>Składniki:</b> {{ p.skladniki | join(', ') }}</li>
+            <li><b>Sposób przygotowania:</b> {{ p.sposob_przygotowania }}</li>
+            <li><b>Cechy:</b> {{ p.cechy | join(', ') }}</li>
+            <li><b>Właściwości:</b> {{ p.wlasciwosci | join(', ') }}</li>
+            <li><b>Zastosowanie:</b> {{ p.zastosowanie }}</li>
+            {% if p.zrodlo %}
+                <li>
+                {% for nr in p.zrodlo %}
+                    <a href="#bib{{ nr }}">[{{ nr }}]</a>
+                {% endfor %}
+                </li>
+            {% endif %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+<h3>Inne zastosowania</h3>
+<ul>
+    {% for klucz, inny in data.inne_zastosowania.items() %}
+    <li>
+        <b>{{ klucz|capitalize }}:</b> {{ inny.opis }}
+        {% if inny.zastosowanie %}<br><i>Zastosowanie:</i> {{ inny.zastosowanie }}{% endif %}
+        {% if inny.zrodlo %}
+            {% for nr in inny.zrodlo %}
+                <a href="#bib{{ nr }}">[{{ nr }}]</a>
+            {% endfor %}
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+
+<h3>Bibliografia</h3>
+<ul>
+    {% for num, url in data.bibliografia.items() %}
+    <li id="bib{{ num }}">[{{ num }}] <a href="{{ url }}" target="_blank">{{ url }}</a></li>
+    {% endfor %}
+</ul>
+<a href="#top">Powrót na górę</a>
+{% endblock %}

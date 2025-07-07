@@ -1,0 +1,336 @@
+{
+  "gatunek": "Dąb szypułkowy",
+  "nazwa_lacinska": "Quercus robur",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Drzewa",
+    "Drzewa liściaste",
+    "Rodzina bukowate",
+    "Dąb"
+  ],
+  "zdjecia": [
+    "https://www.lasy.gov.pl/pl/edukacja/lesnoteka-1/drzewa/dab-szypulkowy/@@images/image",
+    "https://lh6.googleusercontent.com/proxy/dkfudk76XMZjxCuav-LMLMX4TW5ftw5AMK393Ye7Y0hAJc6io4GZ6AweqqeQJOOaX0t38ljvQPKgfxhx3EQ-4PpuBi9QwN_Yx66fPIks0gDCYU9oFQ7eXJ1hbDbKhPbg-eY1A5ivwomCn7o",
+    "https://www.cocaflora.com/userdata/public/gfx/46394/Quercus-robur--dab-szypulkowy.jpg",
+    "https://www.wlin.pl/assets/88/d%C4%85b%20szypu%C5%82kowy_normal.jpg",
+    "https://drzewka-owocowe.pl/images/dab-pokroj-drzewa4521.webp",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkO0D_LREVqx4iu7KrAd2fT5Ht9MaQY8v-mg&s",
+    "https://www.drzewkakarlowe.pl/hpeciai/dfe75684c60ba7761cc8df215c3ecfd7/pol_pl_Dab-szypulkowy-Plant-Pack-10314_2.jpg",
+    "https://www.drzewa.nk4.netmark.pl/zasoby/atlas/dab/dab_szypulkowy/wo/bartek_000.jpg"
+  ],
+  "uprawa": {
+    "gleba": "Gleba głęboka, świeża do wilgotnej, lekko kwaśna lub obojętna",
+    "stanowisko": "Stanowisko słoneczne do półcienistego",
+    "wysiew": "Jesień – żołędzie wysiewa się bezpośrednio po zbiorze lub wczesną wiosną po przechłodzeniu",
+    "zbior": "Kora na wiosnę z młodych gałęzi, żołędzie od września do października"
+  },
+  "wystepowanie": {
+    "obszar": "Europa, Kaukaz, Azja Mniejsza; szeroko rozpowszechniony na niżu",
+    "w_polsce": "Występuje naturalnie w całym kraju – w lasach liściastych, łęgach, parkach, zadrzewieniach śródpolnych",
+    "zrodlo": [
+      1,
+      2
+    ]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Drzewo o masywnej sylwetce, często z szeroką, nieregularną koroną, osiągające do 40 m wysokości.",
+    "lodyga": "Pień gruby, prosty, kora ciemnoszara, głęboko spękana z wiekiem.",
+    "liscie": "Liście skrętoległe, odwrotnie jajowate z 4-7 parami klap; ogonek liściowy bardzo krótki.",
+    "kwiaty": "Kwiaty rozdzielnopłciowe, męskie zebrane w zwisające kotki, żeńskie niewielkie, pojedynczo lub po 2-5 na długiej szypułce.",
+    "zapach": "Brak charakterystycznego zapachu.",
+    "cecha_wyrozniajaca": "Charakterystyczne żołędzie osadzone na długiej szypułce.",
+    "zrodlo": [
+      3
+    ]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Garbniki (taniny)",
+      "dzialanie": "Silnie ściągające, przeciwzapalne, przeciwbakteryjne, hamują krwawienia",
+      "sklad": "Taniny galusowe i katechinowe",
+      "ciekawostka": "Najwięcej garbników zawiera młoda kora (do 20%).",
+      "zrodlo": [
+        4
+      ]
+    },
+    {
+      "nazwa": "Kwasy fenolowe",
+      "dzialanie": "Przeciwutleniające, wzmacniają naczynia",
+      "sklad": "Kwas galusowy, kwas elagowy",
+      "zrodlo": [
+        4
+      ]
+    },
+    {
+      "nazwa": "Flawonoidy i saponiny",
+      "dzialanie": "Przeciwzapalne, przeciwutleniające, wzmacniające naczynia",
+      "zrodlo": [
+        5
+      ]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Dąb szypułkowy to jeden z najważniejszych i najdłużej żyjących drzew w polskich lasach. Symbol siły i długowieczności, czczony od czasów pogańskich.",
+    "cechy": [
+      "Drzewo długowieczne (do 1000 lat)",
+      "Bardzo twarde drewno",
+      "Odporność na choroby i zanieczyszczenia"
+    ],
+    "zastosowanie_historyczne": [
+      "Kora stosowana do garbowania skór i barwienia tkanin",
+      "Żołędzie jako pasza i w trudnych czasach jako pożywienie",
+      "Drewno używane do budowy statków, mebli, beczek"
+    ],
+    "ciekawostki": [
+      "W mitologii słowiańskiej dąb był drzewem świętym, poświęconym Perunowi.",
+      "Dawniej liście i żołędzie dębu noszono jako amulety przeciw złu.",
+      "Żołędzie wykorzystywano do parzenia kawy zastępczej w czasie wojen i kryzysów."
+    ],
+    "zrodlo": [
+      6,
+      7
+    ]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Surowe żołędzie zawierają duże ilości gorzkich garbników – mogą powodować podrażnienia przewodu pokarmowego.",
+      "rozwiazanie": "Przed spożyciem zawsze należy żołędzie odpowiednio przygotować: moczyć i wielokrotnie płukać w wodzie lub ługować.",
+      "zrodlo": [
+        8
+      ]
+    }
+  ],
+  "przepisy_medyczne": {
+    "odwar_z_kory": {
+      "skladniki": [
+        "1 łyżka rozdrobnionej młodej kory dębu",
+        "250 ml zimnej wody"
+      ],
+      "sposob_przygotowania": "Wsyp korę do rondelka, zalej zimną wodą. Powoli doprowadź do wrzenia, gotuj pod przykryciem przez 10 minut. Po zdjęciu z ognia odstaw na 15 minut, przecedź przez gazę. Odwar najlepiej zużyć w ciągu 24 godzin.",
+      "cechy": [
+        "Ciemnobrązowa barwa",
+        "Gorzki, cierpki smak"
+      ],
+      "wlasciwosci": [
+        "działa ściągająco",
+        "przeciwzapalnie",
+        "antyseptycznie"
+      ],
+      "zastosowanie": "Do płukanek jamy ustnej przy stanach zapalnych dziąseł, aftach, anginie; do przemywania skóry przy wypryskach, oparzeniach; nasiadówek przy hemoroidach.",
+      "dawkowanie": "Płukać jamę ustną 2-3 razy dziennie, przemywać skórę według potrzeb.",
+      "zrodlo": [
+        9,
+        10
+      ]
+    },
+    "kąpiel_z_kory": {
+      "skladniki": [
+        "100 g suszonej kory dębu",
+        "2 litry wody"
+      ],
+      "sposob_przygotowania": "Zalewamy korę wodą, gotujemy na małym ogniu przez 20 minut. Odstawiamy do ostygnięcia, przecedzamy. Wywar dolewamy do wanny z ciepłą wodą.",
+      "cechy": [
+        "Brązowa woda",
+        "Charakterystyczny, drzewny zapach"
+      ],
+      "wlasciwosci": [
+        "działa ściągająco",
+        "łagodzi podrażnienia skóry",
+        "wspomaga leczenie łuszczycy i atopii"
+      ],
+      "zastosowanie": "Kąpiele lecznicze przy chorobach skóry, podrażnieniach, nadmiernej potliwości.",
+      "dawkowanie": "Kąpiel przez 15-20 minut, 2-3 razy w tygodniu.",
+      "zrodlo": [
+        10,
+        11
+      ]
+    },
+    "maść_z_kory_dębu": {
+      "skladniki": [
+        "2 łyżki sproszkowanej kory dębu",
+        "50 g tłuszczu (smalec, wazelina, masło shea)"
+      ],
+      "sposob_przygotowania": "Podgrzej tłuszcz w kąpieli wodnej, dodaj sproszkowaną korę, mieszaj 10 minut na bardzo małym ogniu. Przecedź przez gazę, ostudź, przełóż do słoiczka. Przechowuj w lodówce do 2 tygodni.",
+      "cechy": [
+        "Brązowy kolor",
+        "Gęsta konsystencja"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie skóry",
+        "działa łagodząco",
+        "lekko antyseptyczna"
+      ],
+      "zastosowanie": "Na podrażnienia, otarcia, odparzenia, popękaną skórę rąk i stóp.",
+      "dawkowanie": "Stosować cienką warstwę 1-3 razy dziennie.",
+      "zrodlo": [
+        12
+      ]
+    },
+    "płukanka_z_kory": {
+      "skladniki": [
+        "1 łyżka rozdrobnionej kory dębu",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Kora zalać wrzątkiem, odstawić pod przykryciem na 20-30 minut, przecedzić.",
+      "cechy": [
+        "Ciemny kolor",
+        "Intensywny smak"
+      ],
+      "wlasciwosci": [
+        "antyseptyczna",
+        "przeciwzapalna"
+      ],
+      "zastosowanie": "Do płukania gardła, jamy ustnej i przemywania ran.",
+      "dawkowanie": "Płukać kilka razy dziennie.",
+      "zrodlo": [
+        10
+      ]
+    },
+    "okłady_z_liści": {
+      "skladniki": [
+        "Świeże liście dębu",
+        "Gaza"
+      ],
+      "sposob_przygotowania": "Liście dokładnie umyć, rozgnieść wałkiem, rozłożyć na gazie, przykładać na miejsca objęte stanem zapalnym lub ukąszenia owadów.",
+      "cechy": [
+        "Zielona barwa",
+        "Chłodzący efekt"
+      ],
+      "wlasciwosci": [
+        "łagodzą ból",
+        "działają ściągająco"
+      ],
+      "zastosowanie": "Na podrażnienia skóry, ukąszenia, drobne rany.",
+      "dawkowanie": "Stosować zewnętrznie przez 20-30 minut, powtarzać 2-3 razy dziennie.",
+      "zrodlo": [
+        13
+      ]
+    }
+  },
+  "przepisy_kulinarne": {
+    "kawa_z_żołędzi": {
+      "skladniki": [
+        "Żołędzie dębu (dowolna ilość)"
+      ],
+      "sposob_przygotowania": "Obierz żołędzie z łupin, drobno posiekaj lub pokrój. Gotuj w kilku zmienianych wodach po 10 minut każdą, aż gorzki smak zniknie. Osącz, osusz i upraż w piekarniku lub na patelni aż będą ciemnobrązowe. Zmiel na proszek. Parz jak kawę zbożową (np. 1-2 łyżeczki na filiżankę wrzątku, odstaw na 5 minut, odcedź).",
+      "cechy": [
+        "Brązowy napar",
+        "Orzechowy aromat"
+      ],
+      "wlasciwosci": [
+        "nie zawiera kofeiny",
+        "delikatnie wzmacnia"
+      ],
+      "zastosowanie": "Napój zastępczy, popularny w czasie wojen i kryzysów.",
+      "zrodlo": [
+        14
+      ]
+    },
+    "chleb_z_dodatkiem_maki_z_żołędzi": {
+      "skladniki": [
+        "Mąka żołędziowa (otrzymana jak powyżej)",
+        "Mąka pszenna lub żytnia",
+        "Drożdże, sól, woda"
+      ],
+      "sposob_przygotowania": "Do zwykłego ciasta chlebowego dodaj do 15-20% mąki z żołędzi (pozbawionej garbników). Wymieszaj, dodaj drożdże, sól, wodę i wyrób ciasto. Pozwól wyrosnąć, piecz jak tradycyjny chleb.",
+      "cechy": [
+        "Brązowy kolor miąższu",
+        "Orzechowy smak"
+      ],
+      "wlasciwosci": [
+        "źródło skrobi",
+        "wzmacniający"
+      ],
+      "zastosowanie": "Chleb o orzechowym posmaku i ciemniejszym miąższu.",
+      "zrodlo": [
+        15
+      ]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Kąpiel z kory dębu i liści szałwii",
+        "skladniki": [
+          "50 g kory dębu",
+          "50 g suszonych liści szałwii",
+          "2 litry wody"
+        ],
+        "sposob_przygotowania": "Kora i liście gotować 15 minut w wodzie, odcedzić, wlać do wanny z ciepłą wodą. Kąpiel działa przeciwzapalnie i dezynfekująco.",
+        "cechy": [
+          "Intensywny zapach ziołowy",
+          "Brązowa barwa"
+        ],
+        "wlasciwosci": [
+          "przeciwzapalna",
+          "antybakteryjna"
+        ],
+        "zastosowanie": "Kąpiele przy schorzeniach skóry, świądzie, łuszczycy.",
+        "zrodlo": [
+          16
+        ]
+      }
+    ],
+    "kulinarne": []
+  },
+  "inne_zastosowania": {
+    "liście": {
+      "opis": "Liście dębu stosowane w okładach na skórę, dawniej do kiszenia ogórków (naturalny konserwant).",
+      "zastosowanie": "Do okładów, jako dodatek do kiszenia warzyw.",
+      "zrodlo": [
+        17
+      ]
+    },
+    "kora": {
+      "opis": "Kora dębu zawiera dużo garbników i służy do garbowania skór, barwienia tkanin oraz jako surowiec farmaceutyczny.",
+      "zastosowanie": "Garbowanie skór, płukanki, kąpiele lecznicze.",
+      "zrodlo": [
+        18
+      ]
+    },
+    "żołędzie": {
+      "opis": "Żołędzie jako pasza dla dzików, świń, kiedyś jako pokarm dla ludzi po ługowaniu, źródło skrobi, kawy żołędziowej.",
+      "zastosowanie": "Pasza, surowiec na mąkę, kawę, napoje.",
+      "zrodlo": [
+        19
+      ]
+    },
+    "drewno": {
+      "opis": "Drewno dębowe cenione w budownictwie, szkutnictwie, bednarstwie i meblarstwie.",
+      "zastosowanie": "Meble, podłogi, beczki do starzenia win i alkoholi.",
+      "zrodlo": [
+        20
+      ]
+    },
+    "kosmetyki": {
+      "opis": "Ekstrakt z kory dębu stosowany w płukankach do włosów przy przetłuszczaniu i łupieżu.",
+      "zastosowanie": "Płukanki do włosów, toniki do cery tłustej.",
+      "zrodlo": [
+        21
+      ]
+    }
+  },
+  "bibliografia": {
+    "1": "https://www.atlas-roslin.pl/gatunki/Quercus_robur.htm",
+    "2": "https://pl.wikipedia.org/wiki/Dąb_szypułkowy",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/drzewa/dab-szypulkowy",
+    "4": "https://rozanski.li/567/dab-quercus-robur-quercus-petraea-sklad-chemiczny-wykorzystanie-lecznicze-i-przemyslowe/",
+    "5": "https://www.herbapol.poznan.pl/pl/encyklopedia-ziol/dab-szypulkowy",
+    "6": "https://www.twojogrodek.pl/Dab-szypulkowy-ciekawostki-i-historia",
+    "7": "https://bialczynski.pl/2017/04/29/dab-w-mitologii-slowian/",
+    "8": "https://www.ekoprzewodnik.com/ziola/dab-szypulkowy-zolędzie-wlasciwosci-i-zastosowanie",
+    "9": "https://www.poradnikzdrowie.pl/zdrowie/medycyna-alternatywna/kora-debu-wlasciwosci-zastosowanie-aa-GpLB-NKn8-ptwC.html",
+    "10": "https://ziolaiprzyprawy.info/ziola/kora-debu/",
+    "11": "https://bonavita.pl/kora-debu-wlasciwosci-i-zastosowanie",
+    "12": "https://krokdozdrowia.com/masc-z-kory-debu-na-podrazniona-skore/",
+    "13": "https://kalendarzrolnikow.pl/10915/deb-szypulkowy-ziololecznictwo-i-zastosowanie",
+    "14": "https://zielonyzagonek.pl/kawa-zolędziowa-jak-zrobic/",
+    "15": "https://polskatimes.pl/chleb-zolędziowy/ar/4182077",
+    "16": "https://rozanski.li/578/salvia-officinalis-l-szalwia-lekarska-dzialanie-i-zastosowanie/",
+    "17": "https://smakiluksusu.pl/liście-debu-w-kiszeniu-ogorkow/",
+    "18": "https://pl.wikipedia.org/wiki/Garbowanie",
+    "19": "https://www.ekoprzewodnik.com/ziola/dab-szypulkowy-zolędzie-wlasciwosci-i-zastosowanie",
+    "20": "https://www.twojogrodek.pl/Dab-szypulkowy-ciekawostki-i-historia",
+    "21": "https://zielnikonline.pl/kora-debu-wlasciwosci-i-zastosowanie-w-kosmetyce"
+  }
+}

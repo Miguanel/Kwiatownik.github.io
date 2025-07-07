@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Bibliografia{% endblock %}
+{% block content %}
+<h2>Bibliografia / Źródła</h2>
+<ul>
+    {% for num, url in bibliografia.items() %}
+    <li id="bib{{ num }}">[{{ num }}] <a href="{{ url }}" target="_blank">{{ url }}</a></li>
+    {% endfor %}
+</ul>
+<a href="javascript:history.back()">← Powrót</a>
+{% endblock %}

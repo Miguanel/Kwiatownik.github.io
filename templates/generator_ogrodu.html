@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Generator ogrodu{% endblock %}
+{% block content %}
+<h2>Generator planu ogrodu</h2>
+<p>Wybierz rośliny, które chcesz mieć w swoim ogrodzie:</p>
+<form id="gardenForm">
+    <select id="plantSelect" multiple size="12" style="width: 320px;">
+        {% for plant in all_plants %}
+            <option value="{{ plant.category }}/{{ plant.slug }}">{{ plant.name }} ({{ plant.latin }})</option>
+        {% endfor %}
+    </select>
+    <br>
+    <button type="button" onclick="showGardenSummary()">Pokaż plan i zalecenia</button>
+</form>
+<div id="gardenSummary"></div>
+<script>
+const plantData = {{ all_plants|tojson }};
+function showGardenSummary() {
+    let sel = document.getElementById("plantSelect");
+    let out = "<h3>Wybrane rośliny:</h3>";
+    let any = false;
+    for(let i=0; i<sel.options.length; ++i) {
+        if(sel.options[i].selected) {
+            let value = sel.options[i].value;
+            let plant = plantData.find(p => p.category + "/" + p.slug === value);
+            if(plant) {
+                any = true;
+                out += `<div style="margin-bottom: 1em; padding: 0.7em; background: #f9fbe7; border-radius: 7px;">
+                    <b>${plant.name}</b> <i>(${plant.latin})</i>
+                    <ul>
+                        <li><b>Opis:</b> ${plant.data.opis_botaniczny.kwiaty || ""}</li>
+                        <li><b>Właściwości:</b> ${plant.data.wlasciwosci_i_skladniki.map(x=>x.dzialanie).join("; ")}</li>
+                        {% raw %}
+                        ${plant.data.uprawa
+                            ? `<li><b>Gleba:</b> ${plant.data.uprawa.gleba || '-'}</li>
+                               <li><b>Stanowisko:</b> ${plant.data.uprawa.stanowisko || '-'}</li>
+                               <li><b>Wysiew:</b> ${plant.data.uprawa.wysiew || '-'}</li>
+                               <li><b>Zbiór:</b> ${plant.data.uprawa.zbior || '-'}</li>`
+                            : ''
+                        }
+                        {% endraw %}
+                    </ul>
+                    ${plant.trujacy ? '<span style="color:red;"><b>☠️ Ostrzeżenie: roślina trująca!</b></span>' : ''}
+                </div>`;
+            }
+        }
+    }
+    if(!any) out += "Nie wybrano żadnej rośliny.";
+    document.getElementById("gardenSummary").innerHTML = out;
+}
+</script>
+{% endblock %}

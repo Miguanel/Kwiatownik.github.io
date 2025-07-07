@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Porównywarka{% endblock %}
+{% block content %}
+<h2>Porównanie roślin</h2>
+<table border="1">
+    <tr>
+        <th>Cechy</th>
+        <th>{{ plant1[1].get('gatunek') }}</th>
+        <th>{{ plant2[1].get('gatunek') }}</th>
+    </tr>
+    <tr>
+        <td>Nazwa łacińska</td>
+        <td>{{ plant1[1].get('nazwa_lacinska','') }}</td>
+        <td>{{ plant2[1].get('nazwa_lacinska','') }}</td>
+    </tr>
+    <tr>
+        <td>Opis botaniczny</td>
+        <td>{{ plant1[1].get('opis_botaniczny','') }}</td>
+        <td>{{ plant2[1].get('opis_botaniczny','') }}</td>
+    </tr>
+    <tr>
+        <td>Właściwości</td>
+        <td>
+        {% for w in plant1[1].get('wlasciwosci_i_skladniki',[]) %}
+            <b>{{ w.nazwa }}</b>: {{ w.dzialanie }}<br>
+        {% endfor %}
+        </td>
+        <td>
+        {% for w in plant2[1].get('wlasciwosci_i_skladniki',[]) %}
+            <b>{{ w.nazwa }}</b>: {{ w.dzialanie }}<br>
+        {% endfor %}
+        </td>
+    </tr>
+    <!-- Dodaj więcej sekcji jak chcesz -->
+</table>
+{% endblock %}

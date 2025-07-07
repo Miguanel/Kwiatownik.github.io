@@ -1,0 +1,63 @@
+{
+  "gatunek": "Mak wątpliwy",
+  "nazwa_lacinska": "Papaver dubium",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Makowate",
+    "Papaveraceae",
+    "Papaver",
+    "Mak wątpliwy"
+  ],
+  "uprawa": {
+    "gleba": "Piaszczysta, lekka, sucha.",
+    "stanowisko": "Pełne słońce.",
+    "wysiew": "Wysiew naturalny, nie uprawiany ogrodowo.",
+    "zbior": "Czerwiec-lipiec (kwiaty)."
+  },
+  "wystepowanie": {
+    "obszar": "Europa, Azja Zachodnia.",
+    "w_polsce": "Występuje dziko, zwłaszcza na glebach lekkich, piaskach, ugorach, rzadziej niż mak polny.",
+    "zrodlo": [1, 2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Roślina jednoroczna, 30–60 cm wysokości.",
+    "lodyga": "Wyprostowana, szczeciniasto owłosiona.",
+    "liscie": "Wąskie, pierzastodzielne.",
+    "kwiaty": "Czerwone, drobniejsze od maku polnego, płatki bez czarnych plam, dłuższa i węższa makówka.",
+    "owoce": "Długa, walcowata torebka nasienna.",
+    "zapach": "Mleczny sok.",
+    "zrodlo": [2, 3]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Alkaloidy (podobne do maku polnego, ale w niższym stężeniu)",
+      "dzialanie": "Słabe uspokajające i wykrztuśne.",
+      "zrodlo": [4]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Mak wątpliwy to bliski krewniak maku polnego. Nie był szeroko wykorzystywany w ziołolecznictwie ani kuchni. Rośnie głównie na piaskach, ugorach, miejscach ruderalnych.",
+    "cechy": [
+      "Drobniejsze kwiaty, brak czarnych plam na płatkach.",
+      "Bardzo długa, wąska makówka."
+    ],
+    "zastosowanie_historyczne": [],
+    "ciekawostki": [
+      "Często mylony z makiem polnym przez niedoświadczonych obserwatorów.",
+      "Zarodniki pylą się wcześniej niż u maku polnego."
+    ],
+    "zrodlo": [5]
+  },
+  "uwagi_i_ostrzezenia": [],
+  "przepisy_medyczne": {},
+  "przepisy_kulinarne": {},
+  "przepisy_z_innymi_roslinami": {},
+  "inne_zastosowania": {},
+  "bibliografia": {
+    "1": "https://pl.wikipedia.org/wiki/Mak_w%C4%85tpliwy",
+    "2": "https://atlas-roslin.pl/gatunki/Papaver_dubium.htm",
+    "3": "https://www.zioladookola.pl/mak-watpliwy/",
+    "4": "https://rozanski.li/2266/mak-watpliwy-wlasciwosci/",
+    "5": "https://zielnikpolski.pl/mak-watpliwy/"
+  }
+}

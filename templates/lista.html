@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}{{ category|capitalize }}{% endblock %}
+{% block content %}
+<h2>Rośliny: {{ category|capitalize }}</h2>
+
+<form method="get" id="filterForm">
+    <input type="text" name="q" placeholder="Szukaj..." value="{{ q }}">
+    <select name="dzialanie">
+        <option value="">- Działanie -</option>
+        <option value="przeciwzapalne" {% if dzialanie=="przeciwzapalne" %}selected{% endif %}>Przeciwzapalne</option>
+        <option value="uspokajające" {% if dzialanie=="uspokajające" %}selected{% endif %}>Uspokajające</option>
+        <option value="przeciwbakteryjne" {% if dzialanie=="przeciwbakteryjne" %}selected{% endif %}>Przeciwbakteryjne
+        </option>
+        <option value="rozkurczowe" {% if dzialanie=="rozkurczowe" %}selected{% endif %}>Rozkurczowe</option>
+        <!-- Dodaj więcej opcji wedle potrzeb -->
+    </select>
+    <label>
+        <input type="checkbox" name="trujace" value="1" {% if tylko_trujace %}checked{% endif %}>
+        Tylko trujące
+    </label>
+    <select name="sort">
+        <option value="az" {% if sort=="az" %}selected{% endif %}>A-Z</option>
+        <option value="za" {% if sort=="za" %}selected{% endif %}>Z-A</option>
+    </select>
+    <button type="submit">Filtruj</button>
+</form>
+<hr>
+<ul>
+    {% for slug, data in wyniki %}
+    <li>
+        <a href="{{ url_for('roslina', category=category, plant=slug) }}">{{ data.gatunek }}</a>
+        {% if data.nazwa_lacinska %}<i>({{ data.nazwa_lacinska }})</i>{% endif %}
+        <span class="fav-btn" data-plant="{{ slug }}" onclick="toggleFav('{{ slug }}')">💚</span>
+        <span class="garden-btn" data-plant="{{ slug }}" onclick="toggleGarden('{{ slug }}')">🌱</span>
+        <span class="compare-btn" onclick="addCompare('{{ slug }}','{{ category }}')">🔁</span>
+        {% set trujaca = false %}
+        {% for uwaga in data.uwagi_i_ostrzezenia %}
+        {% if 'trujący' in uwaga.uwaga|lower %}
+        {% set trujaca = true %}
+        {% endif %}
+        {% endfor %}
+        {% if trujaca %}
+        <span style="color:red;font-weight:bold;">☠️ Ostrzeżenie: trująca!</span>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+<script>
+window.onload = updateFavIcons;
+
+</script>
+{% endblock %}

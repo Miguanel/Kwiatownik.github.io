@@ -1,0 +1,99 @@
+{
+  "gatunek": "Mak lekarski",
+  "nazwa_lacinska": "Papaver somniferum",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Makowate",
+    "Papaveraceae",
+    "Papaver",
+    "Mak lekarski"
+  ],
+  "uprawa": {
+    "gleba": "Żyzna, dobrze uprawiona, bogata w próchnicę, lekko zasadowa.",
+    "stanowisko": "Pełne słońce.",
+    "wysiew": "Wczesna wiosna (marzec-kwiecień) do gruntu.",
+    "zbior": "Lipiec-sierpień – makówki i nasiona."
+  },
+  "wystepowanie": {
+    "obszar": "Uprawiany na całym świecie; dziko nie rośnie.",
+    "w_polsce": "Uprawiany legalnie tylko na nasiona do celów spożywczych.",
+    "zrodlo": [1, 2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Jednoroczna, do 120 cm wysokości.",
+    "lodyga": "Sztywna, naga.",
+    "liscie": "Duże, niepodzielone lub pierzaste.",
+    "kwiaty": "Duże, białe, różowe lub fioletowe.",
+    "owoce": "Kulista makówka z licznymi nasionami.",
+    "zapach": "Mleczny sok o charakterystycznym zapachu.",
+    "zrodlo": [3, 4]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Alkaloidy (morfina, kodeina, papaweryna, tebaina)",
+      "dzialanie": "Silnie przeciwbólowe, narkotyczne (w soku mlecznym – opium).",
+      "zrodlo": [5, 6]
+    },
+    {
+      "nazwa": "Oleje i białka w nasionach",
+      "dzialanie": "Wartościowe odżywczo, nasiona pozbawione właściwości narkotycznych.",
+      "zrodlo": [7]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Mak lekarski to źródło nasion spożywczych (mak niebieski) oraz surowiec do pozyskiwania leków i opium. W Polsce uprawiany głównie na nasiona do makowców, kutii i innych dań. W dawnych czasach stosowany w lecznictwie, obecnie tylko farmaceutycznie.",
+    "cechy": [
+      "Duże, ozdobne kwiaty.",
+      "Makówka z tysiącami nasion.",
+      "Sok mleczny – źródło alkaloidów (opium)."
+    ],
+    "zastosowanie_historyczne": [
+      "Pozyskiwanie opium, produkcja leków przeciwbólowych.",
+      "Mak jako ważny element kuchni słowiańskiej (makowiec, kutia)."
+    ],
+    "ciekawostki": [
+      "Uprawa maku lekarskiego w Polsce jest ściśle reglamentowana.",
+      "Nasiona maku spożywczego nie zawierają substancji psychoaktywnych."
+    ],
+    "zrodlo": [8, 9]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Nie stosować przetworów z soku mlecznego samodzielnie – toksyczne, nielegalne.",
+      "zrodlo": [10]
+    }
+  ],
+  "przepisy_medyczne": {},
+  "przepisy_kulinarne": {
+    "makowiec": {
+      "opis": "Nasiona maku jako masa makowa do ciast.",
+      "zrodlo": [11]
+    },
+    "kutia": {
+      "opis": "Tradycyjne danie wigilijne z makiem.",
+      "zrodlo": [12]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {},
+  "inne_zastosowania": {
+    "olej": {
+      "opis": "Olej makowy z nasion.",
+      "zrodlo": [13]
+    }
+  },
+  "bibliografia": {
+    "1": "https://pl.wikipedia.org/wiki/Mak_lekarski",
+    "2": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/mak-lekarski.html",
+    "3": "https://atlas-roslin.pl/gatunki/Papaver_somniferum.htm",
+    "4": "https://zielnik-online.pl/roslina,mak-lekarski.html",
+    "5": "https://rozanski.li/182/mak-lekarski-opium/",
+    "6": "https://biotechnologia.pl/biotechnologia/mak-lekarski-wlasciwosci-i-zastosowanie,20044",
+    "7": "https://www.poradnikzdrowie.pl/zywienie/co-jesz/mak-wlasciwosci-i-wartosci-odzywcze-aa-cpiC-HuSz-jod9.html",
+    "8": "https://www.medonet.pl/zdrowie,mak-lekarski-historia-i-ciekawostki,artykul,1743631.html",
+    "9": "https://historia.org.pl/2019/08/24/opium-w-historii-ludzkosci/",
+    "10": "https://zdrowie.radiozet.pl/poradniki/mak-lekarski-wlasciwosci-zastosowanie-i-przeciwwskazania",
+    "11": "https://www.kwestiasmaku.com/przepis/makowiec",
+    "12": "https://www.mojegotowanie.pl/przepis/kutia",
+    "13": "https://pl.wikipedia.org/wiki/Olej_makowy"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kwiatownik - {% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/favs.js') }}"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="{{ url_for('index') }}">🌼 Kwiatownik</a></h1>
+        <form action="{{ url_for('search') }}" method="get" id="searchForm" style="display:inline">
+            <input type="text" name="q" placeholder="Szukaj rośliny..." value="{{ q if q is defined else '' }}">
+            <button type="submit">🔍</button>
+        </form>
+        <nav>
+            <a href="{{ url_for('ulubione') }}">Ulubione / Mam w ogrodzie</a> |
+            <a href="{{ url_for('generator_ogrodu') }}">Generator ogrodu</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <hr>
+        <small>Kwiatownik &copy; 2024</small>
+    </footer>
+</body>
+</html>
