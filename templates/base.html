@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <title>Kwiatownik - {% block title %}{% endblock %}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <script src="{{ url_for('static', filename='js/favs.js') }}"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Kwiatownik{% endblock %}</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" href="/static/favicon.ico">
 </head>
 <body>
-<header>
-    <h1><a href="{{ url_for('index') }}">🌼 Kwiatownik</a></h1>
-    <form action="{{ url_for('search') }}" method="get" id="searchForm" style="display:inline">
-        <input type="text" name="q" placeholder="Szukaj rośliny..." value="{{ q if q is defined else '' }}">
-        <button type="submit">🔍</button>
-    </form>
-    <nav style="display: flex; align-items: center; gap: 19px;">
-    <span>
-        <a href="{{ url_for('ulubione') }}">Ulubione / Mam w ogrodzie</a> |
-        <a href="{{ url_for('generator_ogrodu') }}">Generator ogrodu</a>
-    </span>
-        <button id="theme-toggle" title="Przełącz motyw"
-                style="margin-left:10px;font-size:1.2em;background:none;border:none;cursor:pointer;outline:none;">
-            🌙
-        </button>
+    <header class="top-bar">
+        <button class="menu-hamburger" aria-label="Menu" onclick="toggleNav()">☰</button>
+        <a href="/" class="logo">🌱 Kwiatownik</a>
+        <button id="darkToggle" aria-label="Tryb ciemny" onclick="toggleDarkMode()">🌙</button>
+        <form action="/szukaj" method="get" class="search-bar" onsubmit="return checkSearch(this)">
+            <input type="search" name="q" placeholder="Szukaj rośliny…" autocomplete="off">
+        </form>
+    </header>
+    <nav id="mainNav" class="side-nav">
+        <a href="/">Strona główna</a>
+        <a href="/ulubione">Ulubione</a>
+        <a href="/generator_ogrodu">Generator ogrodu</a>
+        <a href="/ziola/">Wszystkie zioła</a>
+        <a href="/krzewy/">Krzewy</a>
+        <a href="/drzewa/">Drzewa</a>
+        <a href="/bulwy/">Bulwy i korzenie</a>
+        <a href="/cebule/">Cebulowe</a>
+        <a href="/egzotyczne/">Egzotyczne</a>
+        <a href="https://github.com/twojprojekt" target="_blank">Kod źródłowy</a>
+        <a href="javascript:toggleNav()" class="close-menu">Zamknij ✕</a>
     </nav>
-    <hr>
-</header>
-<main>
-    {% block content %}{% endblock %}
-</main>
-<footer>
-    <hr>
-    <small>Kwiatownik &copy; 2024</small>
-</footer>
-
-<script>
-function setTheme(dark) {
-    document.body.classList.toggle('dark-mode', dark);
-    localStorage.setItem('theme', dark ? 'dark' : 'light');
-    document.getElementById('theme-toggle').textContent = dark ? "☀️" : "🌙";
-}
-document.addEventListener("DOMContentLoaded", function() {
-    // sprawdza czy już jest ustawiony motyw
-    const saved = localStorage.getItem('theme');
-    const dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
-    setTheme(dark);
-    document.getElementById('theme-toggle').onclick = function() {
-        setTheme(!document.body.classList.contains('dark-mode'));
-    };
-});
-</script>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <small>&copy; {{ now().year if now else '2024' }} Kwiatownik. Wszelkie prawa zastrzeżone.</small>
+    </footer>
+    <script>
+    function toggleNav() {
+        document.getElementById('mainNav').classList.toggle('open');
+    }
+    function toggleDarkMode() {
+        let dark = document.body.classList.toggle('dark');
+        localStorage.setItem("darkmode", dark ? "1" : "0");
+    }
+    window.onload = function() {
+        if(localStorage.getItem("darkmode") === "1") document.body.classList.add("dark");
+    }
+    function checkSearch(form) {
+        let v = form.q.value.trim();
+        return v.length > 0;
+    }
+    </script>
 </body>
 </html>

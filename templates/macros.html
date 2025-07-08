@@ -1,0 +1,18 @@
+{% macro render_tree(node) %}
+<ul>
+    {% for key, val in node.items() %}
+        {% if key == "gatunki" %}
+            {% for g in val %}
+                <li>
+                    <a href="{{ url_for('roslina', category=g.category, plant=g.slug) }}">{{ g.name }}</a>
+                    <i>({{ g.latin }})</i>
+                </li>
+            {% endfor %}
+        {% else %}
+            <li><b>{{ key }}</b>
+                {{ render_tree(val) }}
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+{% endmacro %}

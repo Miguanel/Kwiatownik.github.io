@@ -2,9 +2,9 @@
 {% block title %}Generator ogrodu{% endblock %}
 {% block content %}
 <h2>Generator planu ogrodu</h2>
-<p>Wybierz rośliny, które chcesz mieć w swoim ogrodzie:</p>
+<p>Wybierz rośliny do ogrodu:</p>
 <form id="gardenForm">
-    <select id="plantSelect" multiple size="12" style="width: 320px;">
+    <select id="plantSelect" multiple size="12" style="width: 99%; max-width:340px;">
         {% for plant in all_plants %}
             <option value="{{ plant.category }}/{{ plant.slug }}">{{ plant.name }} ({{ plant.latin }})</option>
         {% endfor %}
@@ -25,12 +25,11 @@ function showGardenSummary() {
             let plant = plantData.find(p => p.category + "/" + p.slug === value);
             if(plant) {
                 any = true;
-                out += `<div style="margin-bottom: 1em; padding: 0.7em; background: #f9fbe7; border-radius: 7px;">
+                out += `<div class="plant-card" style="margin-bottom:0.8em;">
                     <b>${plant.name}</b> <i>(${plant.latin})</i>
                     <ul>
-                        <li><b>Opis:</b> ${plant.data.opis_botaniczny.kwiaty || ""}</li>
+                        <li><b>Opis kwiatów:</b> ${plant.data.opis_botaniczny.kwiaty || ""}</li>
                         <li><b>Właściwości:</b> ${plant.data.wlasciwosci_i_skladniki.map(x=>x.dzialanie).join("; ")}</li>
-                        {% raw %}
                         ${plant.data.uprawa
                             ? `<li><b>Gleba:</b> ${plant.data.uprawa.gleba || '-'}</li>
                                <li><b>Stanowisko:</b> ${plant.data.uprawa.stanowisko || '-'}</li>
@@ -38,7 +37,6 @@ function showGardenSummary() {
                                <li><b>Zbiór:</b> ${plant.data.uprawa.zbior || '-'}</li>`
                             : ''
                         }
-                        {% endraw %}
                     </ul>
                     ${plant.trujacy ? '<span style="color:red;"><b>☠️ Ostrzeżenie: roślina trująca!</b></span>' : ''}
                 </div>`;
