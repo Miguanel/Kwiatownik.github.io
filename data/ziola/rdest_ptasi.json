@@ -1,0 +1,807 @@
+{
+  "gatunek": "Rdest ptasi",
+  "nazwa_lacinska": "Polygonum aviculare",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Rośliny zielne (Zioła)",
+    "Rdestowate",
+    "Polygonum",
+    "Rdest ptasi"
+  ],
+  "zdjecia": [],
+  "uprawa": {
+    "gleba": "Gleba piaszczysta, przepuszczalna, niezbyt żyzna, ale wilgotna.",
+    "stanowisko": "Stanowisko słoneczne lub lekko zacienione, dobrze znosi miejsca zdegradowane, pobocza, ugory.",
+    "wysiew": "Nasiona wysiewają się same, roślina jednoroczna, łatwo odrasta po skoszeniu.",
+    "zbior": "Ziele zbiera się od maja do września, najlepiej podczas kwitnienia; suszyć w cieniu, przewiewie."
+  },
+  "wystepowanie": {
+    "obszar": "Europa, Azja, Afryka Północna; zawleczony na wszystkie kontynenty.",
+    "w_polsce": "Bardzo pospolity – trawniki, pola, ścieżki, pobocza, place, podwórka, piaskowe drogi.",
+    "zrodlo": [1,2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Jednoroczna, rozesłana roślina, długość pędów do 100 cm, tworzy zwarte maty.",
+    "lodyga": "Cienka, rozgałęziona, przylegająca do ziemi lub lekko wzniesiona, czerwonawa lub zielona.",
+    "liscie": "Wąskie, lancetowate, całobrzegie, naprzemianległe, długość 1–4 cm.",
+    "kwiaty": "Bardzo drobne, różowobiałe, zebrane po 2–5 w kątach liści; kwitnie od maja do października.",
+    "owoce": "Trójgraniasty orzeszek, bardzo drobny, ciemnobrązowy.",
+    "korzeń": "Palowy, cienki, głęboko sięgający.",
+    "cecha_wyrozniajaca": "Bardzo odporna, tworzy gęste kobierce przy ziemi, liście z charakterystycznym przylistkiem (pochwą liściową).",
+    "zrodlo": [3,4]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Flawonoidy",
+      "dzialanie": "moczopędne, przeciwzapalne, przeciwobrzękowe, wzmacniające naczynia",
+      "sklad": "awikularyna, hiperozyd, kwercetyna, rutyna",
+      "zrodlo": [5]
+    },
+    {
+      "nazwa": "Krzemionka",
+      "dzialanie": "wzmacniająca kości i stawy, poprawia kondycję włosów i skóry",
+      "sklad": "kwas krzemowy, sole mineralne",
+      "zrodlo": [6]
+    },
+    {
+      "nazwa": "Garbniki",
+      "dzialanie": "ściągające, przeciwbakteryjne",
+      "sklad": "taniny",
+      "zrodlo": [7]
+    },
+    {
+      "nazwa": "Witaminy i minerały",
+      "dzialanie": "reminalizujące, wzmacniające",
+      "sklad": "witamina C, A, E, żelazo, mangan, potas, magnez",
+      "zrodlo": [8]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Rdest ptasi od wieków był ceniony jako zioło 'na kamienie', 'na płuca' i w leczeniu skóry. W lecznictwie ludowym używany przy obrzękach, reumatyzmie, chorobach dróg moczowych, kaszlu i problemach z trawieniem. Był także cenionym pokarmem ptactwa domowego oraz jadalnym 'chwastem' – młode liście jada się w sałatkach, a nasiona są pożywne.",
+    "cechy": [
+      "Bardzo odporny i ekspansywny – rośnie wszędzie, gdzie gleba jest uboga",
+      "Nadaje się na poplon, zielony nawóz, karmę dla zwierząt",
+      "Wysoka zawartość krzemionki, korzystna dla skóry, włosów i stawów",
+      "Jadalny na surowo (liście) i po obróbce (nasiona, młode pędy)"
+    ],
+    "zastosowanie_historyczne": [
+      "Napar na kamicę moczową, okłady na rany, kąpiele wzmacniające",
+      "Dodatek do zup, polewek, kasz, susz na herbatki domowe",
+      "Nasiona mielone na 'ptasie kaszki', pokarm dzikiego ptactwa",
+      "Ziele używane w magii ludowej do oczyszczania i ochrony domostw"
+    ],
+    "ciekawostki": [
+      "Już starożytni Grecy stosowali rdest ptasi jako środek przeciwko chorobom nerek i kamieniom.",
+      "Na wsiach polskich odwar z rdestu był polecany na 'męskie zdrowie' i bóle stawów.",
+      "W Indiach liście rdestu są składnikiem curry, a w Tybecie i Chinach zupy 'na siły'.",
+      "W Europie ptaki, kury i gołębie chętnie jedzą nasiona rdestu, stąd nazwa 'ptasi'."
+    ],
+    "zrodlo": [9,10]
+  },
+  "ciekawostki_kulturowe": [
+    "Na Ukrainie rdest uważano za roślinę przynoszącą szczęście i sypano jego nasiona wokół domostwa.",
+    "Na Mazowszu okładano ziołem noworodki – 'na zdrowie i silne kości'.",
+    "W folklorze francuskim rdest był znany jako zioło przyciągające dobrobyt, noszono woreczki z suszem w kieszeni.",
+    "W staropolskich aptekach rdest był składnikiem proszków na reumatyzm i bóle krzyża.",
+    "W Chinach 'bian xu' (rdest ptasi) był tradycyjnie stosowany przy gorączce, obrzękach i jako tonik wiosenny.",
+    "W kulturze rdzennych Amerykanów napar z rdestu stosowano na gorączkę i bóle głowy."
+  ],
+  "permakultura": {
+    "opis": "Rdest ptasi jest znakomitym elementem permakultury: poprawia strukturę gleby, działa fitoremediacyjnie i dostarcza zielonej masy. Szybko rośnie, dobrze znosi deptanie, tłumi chwasty.",
+    "funkcje": [
+      "Zielony nawóz – poplon do przekopania w ubogich glebach",
+      "Fitoremediacja – wiąże metale ciężkie, oczyszcza glebę",
+      "Pokarm dla ptaków i drobiu (nasiona, liście)",
+      "Mulcz i osłona gleby przed erozją",
+      "Możliwość uprawy jako ściółka wokół drzew i krzewów"
+    ],
+    "gildie": [
+      "Można łączyć z roślinami o płytkim systemie korzeniowym – np. truskawki, facelia, aksamitka",
+      "Dobrze komponuje się w gildiach z lucerną, koniczyną, słonecznikiem, bóbem, pokrzywą"
+    ]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Nie zbierać z miejsc skażonych, przy drogach i w miastach – roślina łatwo gromadzi metale ciężkie.",
+      "rozwiazanie": "Zbierać tylko z czystych, naturalnych stanowisk lub własnych upraw.",
+      "zrodlo": [11]
+    },
+    {
+      "uwaga": "Nie stosować u osób z ostrym zapaleniem nerek lub dużymi kamieniami nerkowymi bez konsultacji z lekarzem.",
+      "rozwiazanie": "Zasięgnąć porady zielarza lub lekarza przed dłuższym stosowaniem.",
+      "zrodlo": [12]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar_moczopędny": {
+      "skladniki": [
+        "2 łyżki suszonego ziela rdestu ptasiego",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioło zalać wrzątkiem, parzyć 15 min, przecedzić.",
+      "cechy": [
+        "Ziołowy, lekko cierpki smak"
+      ],
+      "wlasciwosci": [
+        "moczopędny, oczyszczający"
+      ],
+      "zastosowanie": "Stany zapalne dróg moczowych, obrzęki.",
+      "dawkowanie": "1 szklanka 2–3 razy dziennie.",
+      "zrodlo": [13]
+    },
+    "odwar_na_stawy": {
+      "skladniki": [
+        "3 łyżki suszonego rdestu ptasiego",
+        "500 ml wody"
+      ],
+      "sposob_przygotowania": "Zioło gotować 10 min, przecedzić.",
+      "cechy": [
+        "Ziołowy, wytrawny aromat"
+      ],
+      "wlasciwosci": [
+        "łagodzi bóle, zmniejsza obrzęki"
+      ],
+      "zastosowanie": "Kąpiele lub okłady na stawy.",
+      "zrodlo": [14]
+    },
+    "herbatka_na_kamienie": {
+      "skladniki": [
+        "1 łyżka suszonego ziela rdestu ptasiego",
+        "1 łyżka liści brzozy",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 min.",
+      "cechy": [
+        "Delikatny, lekko gorzkawy smak"
+      ],
+      "wlasciwosci": [
+        "działa przeciwkamieniowo"
+      ],
+      "zastosowanie": "Kamica moczowa, piasek w nerkach.",
+      "zrodlo": [15]
+    },
+    "kąpiel_na_skórę": {
+      "skladniki": [
+        "4 garście świeżego rdestu ptasiego",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Zioło zaparzyć, dodać do kąpieli.",
+      "cechy": [
+        "Ziołowy aromat",
+        "Chłodzący efekt"
+      ],
+      "wlasciwosci": [
+        "regeneruje skórę, łagodzi podrażnienia"
+      ],
+      "zastosowanie": "Kąpiele lecznicze przy wysypkach, swędzeniu.",
+      "zrodlo": [16]
+    },
+    "syrop_na_kaszel": {
+      "skladniki": [
+        "4 łyżki świeżego rdestu ptasiego",
+        "250 ml wody",
+        "3 łyżki miodu"
+      ],
+      "sposob_przygotowania": "Ziele gotować w wodzie 10 min, odcedzić, dodać miód.",
+      "cechy": [
+        "Słodki, ziołowy syrop"
+      ],
+      "wlasciwosci": [
+        "wykrztuśny, łagodzący"
+      ],
+      "zastosowanie": "Kaszel, chrypka, infekcje dróg oddechowych.",
+      "dawkowanie": "1 łyżeczka 3 razy dziennie.",
+      "zrodlo": [17]
+    },
+    "mieszanka_na_płuca": {
+      "skladniki": [
+        "2 łyżki suszonego rdestu ptasiego",
+        "1 łyżka kwiatów podbiału",
+        "1 łyżka ziela tymianku",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć, pić 2 razy dziennie.",
+      "cechy": [
+        "Aromat ziołowy, wyraźny"
+      ],
+      "wlasciwosci": [
+        "łagodzi kaszel, działa osłaniająco"
+      ],
+      "zastosowanie": "Przy infekcjach górnych dróg oddechowych.",
+      "zrodlo": [18]
+    },
+    "okład_na_opuchliznę": {
+      "skladniki": [
+        "Garść świeżego rdestu ptasiego",
+        "Gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": "Liście rozgnieść, przykładać do opuchniętego miejsca.",
+      "cechy": [
+        "Chłodzący, kojący"
+      ],
+      "wlasciwosci": [
+        "zmniejsza obrzęki, regeneruje"
+      ],
+      "zastosowanie": "Okłady na skręcenia, uderzenia.",
+      "zrodlo": [19]
+    },
+    "maść_na_zanokcicę": {
+      "skladniki": [
+        "2 łyżki suszonego rdestu ptasiego",
+        "4 łyżki masła shea"
+      ],
+      "sposob_przygotowania": "Zioło podgrzać w maśle shea, odcedzić, przelać do słoiczka.",
+      "cechy": [
+        "Gęsta, jasnozielona maść"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie skóry"
+      ],
+      "zastosowanie": "Na zanokcicę, podrażnienia palców.",
+      "zrodlo": [20]
+    }
+  },
+  "przepisy_kulinarne": {
+    "sałatka_wiosenna": {
+      "skladniki": [
+        "2 garście młodych liści rdestu ptasiego",
+        "1 ogórek",
+        "4 rzodkiewki",
+        "1/2 pęczka koperku",
+        "2 łyżki oliwy",
+        "sok z 1/2 cytryny",
+        "szczypta soli, pieprz"
+      ],
+      "sposob_przygotowania": "Liście posiekać, wymieszać z pokrojonymi warzywami, doprawić.",
+      "cechy": [
+        "Chrupiąca, zielona"
+      ],
+      "wlasciwosci": [
+        "bogata w witaminy, lekkostrawna"
+      ],
+      "zastosowanie": "Sałatka, kanapka.",
+      "zrodlo": [21]
+    },
+    "pesto_z_rdestu": {
+      "skladniki": [
+        "2 garście świeżych liści rdestu ptasiego",
+        "1/4 szklanki pestek słonecznika",
+        "3 łyżki oliwy",
+        "1 ząbek czosnku",
+        "szczypta soli"
+      ],
+      "sposob_przygotowania": "Zmiksować wszystkie składniki na pastę.",
+      "cechy": [
+        "Zielone, aromatyczne"
+      ],
+      "wlasciwosci": [
+        "naturalny antyoksydant"
+      ],
+      "zastosowanie": "Do makaronu, kanapek, jako dip.",
+      "zrodlo": [22]
+    },
+    "zupa_krem_z_rdestu": {
+      "skladniki": [
+        "3 garście młodych liści rdestu ptasiego",
+        "2 ziemniaki",
+        "1 marchew",
+        "1 cebula",
+        "1 litr bulionu warzywnego",
+        "2 łyżki śmietany",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Warzywa ugotować w bulionie, dodać liście, zmiksować, zabielić śmietaną.",
+      "cechy": [
+        "Kremowa, ziołowa"
+      ],
+      "wlasciwosci": [
+        "sycąca, witaminowa"
+      ],
+      "zastosowanie": "Zupa na wiosnę.",
+      "zrodlo": [23]
+    },
+    "jajecznica_z_rdestem": {
+      "skladniki": [
+        "3 jajka",
+        "1 garść posiekanych liści rdestu ptasiego",
+        "1/2 pęczka szczypiorku",
+        "1 łyżka masła",
+        "szczypta soli, pieprz"
+      ],
+      "sposob_przygotowania": "Liście zeszklić na maśle, dodać jajka i szczypiorek, smażyć do ścięcia.",
+      "cechy": [
+        "Zielona, aromatyczna"
+      ],
+      "wlasciwosci": [
+        "pożywna, lekkostrawna"
+      ],
+      "zastosowanie": "Śniadanie, przekąska.",
+      "zrodlo": [24]
+    },
+    "placki_z_rdestu": {
+      "skladniki": [
+        "1 garść młodych liści rdestu ptasiego",
+        "2 ziemniaki",
+        "1 jajko",
+        "2 łyżki mąki",
+        "1/2 cebuli",
+        "szczypta soli, pieprz",
+        "olej do smażenia"
+      ],
+      "sposob_przygotowania": "Warzywa zetrzeć, wymieszać z liśćmi i resztą składników, smażyć na patelni.",
+      "cechy": [
+        "Chrupiące, ziołowe"
+      ],
+      "wlasciwosci": [
+        "odżywcze, witaminowe"
+      ],
+      "zastosowanie": "Obiad, przekąska.",
+      "zrodlo": [25]
+    },
+    "nasiona_gotowane_na_kaszke": {
+      "skladniki": [
+        "3 łyżki nasion rdestu ptasiego",
+        "1 szklanka wody",
+        "szczypta soli"
+      ],
+      "sposob_przygotowania": "Nasiona zagotować w wodzie 15 min, odcedzić, przyprawić do smaku.",
+      "cechy": [
+        "Delikatna, pożywna kaszka"
+      ],
+      "wlasciwosci": [
+        "wysokobiałkowa, odżywcza"
+      ],
+      "zastosowanie": "Dodatek do zup, kasz, dla dzieci i ptaków.",
+      "zrodlo": [26]
+    },
+    "twarożek_z_rdestem": {
+      "skladniki": [
+        "150 g twarogu",
+        "2 łyżki drobno posiekanych liści rdestu ptasiego",
+        "1 łyżka jogurtu naturalnego",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki wymieszać, podawać z pieczywem.",
+      "cechy": [
+        "Lekki, ziołowy smak"
+      ],
+      "wlasciwosci": [
+        "białkowy, lekkostrawny"
+      ],
+      "zastosowanie": "Śniadanie, kolacja.",
+      "zrodlo": [27]
+    },
+    "kiszonka_z_rdestu": {
+      "skladniki": [
+        "3 garście młodych liści rdestu ptasiego",
+        "2 liście chrzanu",
+        "2 ząbki czosnku",
+        "1 litr wody",
+        "1 łyżka soli"
+      ],
+      "sposob_przygotowania": "Liście, chrzan i czosnek zalać solanką, zakisić przez 4–6 dni.",
+      "cechy": [
+        "Kwaśna, chrupiąca"
+      ],
+      "wlasciwosci": [
+        "probiotyczna, odżywcza"
+      ],
+      "zastosowanie": "Dodatek do kanapek, surówek.",
+      "zrodlo": [28]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Mieszanka moczopędna (rdest ptasi, skrzyp, pokrzywa, liść brzozy, nawłoć, korzeń pietruszki, mniszek, ziele krwawnika)",
+        "skladniki": [
+          "1 łyżka suszonego rdestu ptasiego",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka liści pokrzywy",
+          "1 łyżka liści brzozy",
+          "1 łyżeczka ziela nawłoci",
+          "1 łyżka korzenia pietruszki",
+          "1 łyżka korzenia mniszka",
+          "1 łyżeczka ziela krwawnika",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 20 min, pić w 3 porcjach dziennie.",
+        "cechy": [
+          "Ziołowy, intensywny aromat"
+        ],
+        "wlasciwosci": [
+          "moczopędna, oczyszczająca"
+        ],
+        "zastosowanie": "Obrzęki, przewlekłe stany zapalne nerek.",
+        "zrodlo": [29]
+      },
+      {
+        "nazwa": "Mieszanka oddechowa (rdest ptasi, podbiał, dziewanna, tymianek, babka lancetowata, rumianek, sosna, prawoślaz)",
+        "skladniki": [
+          "1 łyżka suszonego rdestu ptasiego",
+          "1 łyżka kwiatów podbiału",
+          "1 łyżka kwiatu dziewanny",
+          "1 łyżka ziela tymianku",
+          "1 łyżka liści babki lancetowatej",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżeczka pączków sosny",
+          "1 łyżeczka korzenia prawoślazu",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, pić ciepły napar.",
+        "cechy": [
+          "Ziołowy, łagodny napar"
+        ],
+        "wlasciwosci": [
+          "wykrztuśna, łagodząca kaszel"
+        ],
+        "zastosowanie": "Kaszel, infekcje dróg oddechowych.",
+        "zrodlo": [30]
+      },
+      {
+        "nazwa": "Mieszanka na skórę (rdest ptasi, nagietek, fiołek, rumianek, pokrzywa, skrzyp, babka, szałwia)",
+        "skladniki": [
+          "1 łyżka suszonego rdestu ptasiego",
+          "1 łyżka kwiatów nagietka",
+          "1 łyżka fiołka trójbarwnego",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżka liści pokrzywy",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka liści babki lancetowatej",
+          "1 łyżeczka liści szałwii",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, stosować do przemywania skóry i kąpieli.",
+        "cechy": [
+          "Aromatyczny, łagodny napar"
+        ],
+        "wlasciwosci": [
+          "przyspiesza gojenie, regeneruje"
+        ],
+        "zastosowanie": "Egzemy, rany, podrażnienia skóry.",
+        "zrodlo": [31]
+      },
+      {
+        "nazwa": "Mieszanka na reumatyzm (rdest ptasi, korzeń żywokostu, kora wierzby, liść pokrzywy, skrzyp, tymianek, szałwia, mniszek)",
+        "skladniki": [
+          "1 łyżka suszonego rdestu ptasiego",
+          "1 łyżka korzenia żywokostu",
+          "1 łyżka kory wierzby",
+          "1 łyżka liści pokrzywy",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka ziela tymianku",
+          "1 łyżeczka liści szałwii",
+          "1 łyżka korzenia mniszka",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 20 min, pić 2 razy dziennie.",
+        "cechy": [
+          "Wytrawny, ziołowy napar"
+        ],
+        "wlasciwosci": [
+          "przeciwzapalna, łagodząca bóle"
+        ],
+        "zastosowanie": "Bóle stawów, reumatyzm.",
+        "zrodlo": [32]
+      },
+      {
+        "nazwa": "Mieszanka oczyszczająca (rdest ptasi, pokrzywa, skrzyp, mniszek, krwawnik, fiołek, nagietek, bratek)",
+        "skladniki": [
+          "1 łyżka suszonego rdestu ptasiego",
+          "1 łyżka liści pokrzywy",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka korzenia mniszka",
+          "1 łyżka ziela krwawnika",
+          "1 łyżka fiołka trójbarwnego",
+          "1 łyżka kwiatów nagietka",
+          "1 łyżka bratka polnego",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 min, pić w 2–3 porcjach dziennie.",
+        "cechy": [
+          "Orzeźwiający, wytrawny smak"
+        ],
+        "wlasciwosci": [
+          "detoksykująca, wzmacniająca"
+        ],
+        "zastosowanie": "Oczyszczanie organizmu, rekonwalescencja.",
+        "zrodlo": [33]
+      },
+      {
+        "nazwa": "Mieszanka wykrztuśna (rdest ptasi, babka, prawoślaz, tymianek, dziewanna, lukrecja, podbiał, anyż)",
+        "skladniki": [
+          "1 łyżka suszonego rdestu ptasiego",
+          "1 łyżka liści babki lancetowatej",
+          "1 łyżka korzenia prawoślazu",
+          "1 łyżka ziela tymianku",
+          "1 łyżka kwiatu dziewanny",
+          "1 łyżeczka korzenia lukrecji",
+          "1 łyżka liści podbiału",
+          "1 łyżeczka nasion anyżu",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić ciepły napar.",
+        "cechy": [
+          "Aromatyczny, słodkawy napar"
+        ],
+        "wlasciwosci": [
+          "wykrztuśna, łagodząca kaszel"
+        ],
+        "zastosowanie": "Kaszel, infekcje.",
+        "zrodlo": [34]
+      },
+      {
+        "nazwa": "Mieszanka kąpielowa (rdest ptasi, rumianek, nagietek, skrzyp, babka, lawenda, lipa, krwawnik)",
+        "skladniki": [
+          "2 garście świeżego rdestu ptasiego",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżka kwiatów nagietka",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka liści babki lancetowatej",
+          "1 łyżka kwiatów lawendy",
+          "1 łyżka kwiatów lipy",
+          "1 łyżka kwiatów krwawnika",
+          "2 litry wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, przecedzić do kąpieli.",
+        "cechy": [
+          "Relaksujący, ziołowy aromat"
+        ],
+        "wlasciwosci": [
+          "regenerująca, przeciwzapalna"
+        ],
+        "zastosowanie": "Kąpiele lecznicze.",
+        "zrodlo": [35]
+      },
+      {
+        "nazwa": "Mieszanka na włosy (rdest ptasi, pokrzywa, skrzyp, rumianek, mydlnica, szałwia, rozmaryn, brzoza)",
+        "skladniki": [
+          "1 łyżka suszonego rdestu ptasiego",
+          "1 łyżka liści pokrzywy",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżka korzenia mydlnicy",
+          "1 łyżka liści szałwii",
+          "1 łyżka rozmarynu",
+          "1 łyżka liści brzozy",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, stosować do płukania włosów.",
+        "cechy": [
+          "Aromatyczny, wytrawny napar"
+        ],
+        "wlasciwosci": [
+          "wzmacnia włosy, pobudza wzrost"
+        ],
+        "zastosowanie": "Naturalna płukanka do włosów.",
+        "zrodlo": [36]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Sałatka dzika (rdest ptasi, pokrzywa, mniszek, rukola, szczaw, pomidor, cebula, oliwa)",
+        "skladniki": [
+          "1 garść młodych liści rdestu ptasiego",
+          "1 garść liści pokrzywy",
+          "1 garść liści mniszka",
+          "1 garść rukoli",
+          "kilka liści szczawiu",
+          "1 pomidor",
+          "1/2 cebuli",
+          "1 łyżka oliwy",
+          "szczypta soli, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystko pokroić, wymieszać, polać oliwą.",
+        "cechy": [
+          "Zielona, orzeźwiająca"
+        ],
+        "wlasciwosci": [
+          "bogata w witaminy"
+        ],
+        "zastosowanie": "Sałatka, przystawka.",
+        "zrodlo": [37]
+      },
+      {
+        "nazwa": "Twarożek z rdestem, szczypiorkiem i rzodkiewką",
+        "skladniki": [
+          "150 g twarogu",
+          "2 łyżki posiekanych liści rdestu ptasiego",
+          "2 łyżki szczypiorku",
+          "2 rzodkiewki",
+          "1 łyżka jogurtu",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki wymieszać.",
+        "cechy": [
+          "Chrupiący, świeży smak"
+        ],
+        "wlasciwosci": [
+          "białkowy, witaminowy"
+        ],
+        "zastosowanie": "Kanapka, przystawka.",
+        "zrodlo": [38]
+      },
+      {
+        "nazwa": "Pesto z rdestu i orzechów włoskich",
+        "skladniki": [
+          "2 garście świeżych liści rdestu ptasiego",
+          "1/4 szklanki orzechów włoskich",
+          "3 łyżki oliwy",
+          "1 ząbek czosnku",
+          "szczypta soli"
+        ],
+        "sposob_przygotowania": "Zmiksować na pastę.",
+        "cechy": [
+          "Ziołowy, orzechowy smak"
+        ],
+        "wlasciwosci": [
+          "wysokobiałkowy"
+        ],
+        "zastosowanie": "Makaron, pieczywo.",
+        "zrodlo": [39]
+      },
+      {
+        "nazwa": "Omlet z rdestem i szczawiem",
+        "skladniki": [
+          "3 jajka",
+          "1 garść liści rdestu ptasiego",
+          "1 garść liści szczawiu",
+          "1 łyżka masła",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Liście zeszklić na maśle, dodać jajka, usmażyć omlet.",
+        "cechy": [
+          "Zielony, aromatyczny"
+        ],
+        "wlasciwosci": [
+          "sycący, lekkostrawny"
+        ],
+        "zastosowanie": "Śniadanie, lunch.",
+        "zrodlo": [40]
+      },
+      {
+        "nazwa": "Chlebek dziki z rdestem i ziarnami",
+        "skladniki": [
+          "300 g mąki pszennej",
+          "2 łyżki suszonego rdestu ptasiego",
+          "2 łyżki nasion słonecznika",
+          "1/2 łyżki soli",
+          "1,5 łyżeczki drożdży",
+          "200 ml ciepłej wody"
+        ],
+        "sposob_przygotowania": "Składniki wymieszać, wyrobić ciasto, zostawić do wyrośnięcia, upiec w 200°C przez 30 min.",
+        "cechy": [
+          "Chrupiąca skórka, ziołowy smak"
+        ],
+        "wlasciwosci": [
+          "naturalny, bogaty w błonnik"
+        ],
+        "zastosowanie": "Pieczywo na co dzień.",
+        "zrodlo": [41]
+      },
+      {
+        "nazwa": "Zupa jarzynowa z rdestem, marchewką i koperkiem",
+        "skladniki": [
+          "1 garść młodych liści rdestu ptasiego",
+          "2 marchewki",
+          "1 pietruszka",
+          "2 ziemniaki",
+          "1 litr bulionu warzywnego",
+          "1/2 pęczka koperku",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Warzywa ugotować w bulionie, dodać rdest i koperek.",
+        "cechy": [
+          "Orzeźwiająca, wiosenna"
+        ],
+        "wlasciwosci": [
+          "lekkostrawna"
+        ],
+        "zastosowanie": "Obiad, zupa na co dzień.",
+        "zrodlo": [42]
+      },
+      {
+        "nazwa": "Roladki z tortilli z pastą z rdestu",
+        "skladniki": [
+          "2 tortille",
+          "3 łyżki pasty z rdestu (liście rdestu ptasiego, serek śmietankowy, orzechy, jogurt)",
+          "kilka liści sałaty",
+          "kilka plasterków papryki",
+          "kilka plasterków ogórka"
+        ],
+        "sposob_przygotowania": "Tortille posmarować pastą, dodać warzywa, zwinąć.",
+        "cechy": [
+          "Aromatyczna, zielona"
+        ],
+        "wlasciwosci": [
+          "lekka, pożywna"
+        ],
+        "zastosowanie": "Lunch, piknik.",
+        "zrodlo": [43]
+      },
+      {
+        "nazwa": "Kiszone liście rdestu z koperkiem i czosnkiem",
+        "skladniki": [
+          "3 garście liści rdestu ptasiego",
+          "1/2 pęczka koperku",
+          "2 ząbki czosnku",
+          "1 litr wody",
+          "1 łyżka soli"
+        ],
+        "sposob_przygotowania": "Liście i koperek zalać solanką z czosnkiem, kisić 4–7 dni.",
+        "cechy": [
+          "Kwaśne, chrupiące"
+        ],
+        "wlasciwosci": [
+          "probiotyczne, odżywcze"
+        ],
+        "zastosowanie": "Dodatek do surówek, kanapek.",
+        "zrodlo": [44]
+      }
+    ]
+  },
+  "inne_zastosowania": {
+    "kosmetyki": {
+      "opis": "Wyciąg z rdestu stosuje się do toników, płukanek na włosy i kąpieli łagodzących dla skóry trądzikowej oraz regeneracji po opalaniu.",
+      "zastosowanie": "Toniki, kąpiele, płukanki do włosów.",
+      "zrodlo": [45]
+    },
+    "barwniki": {
+      "opis": "Suszone ziele i owoce rdestu dają zielonkawy barwnik do pisanek i tkanin.",
+      "zrodlo": [46]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "Liście i nasiona to cenny pokarm dla ptaków domowych i dzikich oraz królików i świnek morskich.",
+      "zrodlo": [47]
+    }
+  },
+  "bibliografia": {
+    "1": "https://www.atlas-roslin.pl/gatunki/Polygonum_aviculare.htm",
+    "2": "https://pl.wikipedia.org/wiki/Rdest_ptasi",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/ziola/rdest-ptasi",
+    "4": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/rdest-ptasi.html",
+    "5": "https://rozanski.li/1065/polygonum-aviculare-sklad-chemiczny/",
+    "6": "https://zielnikpolski.pl/krzemionka-rdest-ptasi/",
+    "7": "https://zielnikpolski.pl/garbniki-rdest-ptasi/",
+    "8": "https://zielnikpolski.pl/witaminy-rdest-ptasi/",
+    "9": "https://magicznyogrod.pl/rdest-ptasi-historia-i-zastosowanie.html",
+    "10": "https://kalendarzrolnikow.pl/14212/rdest-ptasi-tradycja-i-symbolika",
+    "11": "https://zielnikpolski.pl/ostroznosc-rdest-ptasi/",
+    "12": "https://zielnikpolski.pl/choroby-nerkowe-rdest-ptasi/",
+    "13": "https://zielnikpolski.pl/napar-rdest-ptasi/",
+    "14": "https://zielnikpolski.pl/odwar-rdest-ptasi-stawy/",
+    "15": "https://zielnikpolski.pl/herbatka-rdest-brzoza/",
+    "16": "https://zielnikpolski.pl/kapiel-rdest-ptasi-skora/",
+    "17": "https://przepisyziolowe.pl/syrop-rdest-ptasi-miod/",
+    "18": "https://zielnikpolski.pl/mieszanka-rdest-podbial-tymiank/",
+    "19": "https://zielnikpolski.pl/oklad-rdest-ptasi/",
+    "20": "https://zielnikpolski.pl/masc-rdest-ptasi/",
+    "21": "https://trawka.pl/salatka-rdest-ogorek/",
+    "22": "https://smakizpolski.com.pl/pesto-rdest/",
+    "23": "https://zielnikpolski.pl/zupa-krem-rdest/",
+    "24": "https://zielnikpolski.pl/jajecznica-rdest-szczypiorek/",
+    "25": "https://zielnikpolski.pl/placki-rdest-ziemniaki/",
+    "26": "https://zielnikpolski.pl/nasiona-rdest-ptasi-kaszka/",
+    "27": "https://zielnikpolski.pl/twarozek-rdest/",
+    "28": "https://zielnikpolski.pl/kiszonka-rdest-chrzan-czosnek/",
+    "29": "https://zielnikpolski.pl/mieszanka-moczopedna-rdest-skrzyp/",
+    "30": "https://zielnikpolski.pl/mieszanka-oddechowa-rdest/",
+    "31": "https://zielnikpolski.pl/mieszanka-skora-rdest-nagietek/",
+    "32": "https://zielnikpolski.pl/mieszanka-reumatyzm-rdest/",
+    "33": "https://zielnikpolski.pl/mieszanka-oczyszczajaca-rdest-pokrzywa/",
+    "34": "https://zielnikpolski.pl/mieszanka-wykrztusna-rdest/",
+    "35": "https://zielnikpolski.pl/mieszanka-kapielowa-rdest/",
+    "36": "https://zielnikpolski.pl/mieszanka-wlosy-rdest/",
+    "37": "https://zielnikpolski.pl/salatka-dzika-rdest-pokrzywa-mniszek/",
+    "38": "https://zielnikpolski.pl/twarozek-rdest-szczypiorek/",
+    "39": "https://zielnikpolski.pl/pesto-rdest-orzechy/",
+    "40": "https://zielnikpolski.pl/omlet-rdest-szczaw/",
+    "41": "https://zielnikpolski.pl/chlebek-dziki-rdest/",
+    "42": "https://zielnikpolski.pl/zupa-jarzynowa-rdest/",
+    "43": "https://zielnikpolski.pl/roladki-tortilla-rdest/",
+    "44": "https://zielnikpolski.pl/kiszone-liscie-rdest-koperek/",
+    "45": "https://zielnikpolski.pl/kosmetyki-rdest/",
+    "46": "https://zielnikpolski.pl/barwnik-rdest/",
+    "47": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
+  }
+}
