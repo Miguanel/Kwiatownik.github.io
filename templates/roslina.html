@@ -2,7 +2,6 @@
 {% block title %}{{ data.gatunek }}{% endblock %}
 {% block content %}
 
-{# Galeria zdjęć na górze #}
 {% if data.zdjecia and data.zdjecia|length > 0 %}
 <div style="margin-bottom: 16px; text-align:center;">
   {% for zdj in data.zdjecia %}
@@ -15,7 +14,6 @@
 </div>
 {% endif %}
 
-
 <h2 id="top">{{ data.gatunek }} <small>({{ data.nazwa_lacinska }})</small></h2>
 <p>
     <span class="fav-btn" data-plant="{{ slug }}" onclick="toggleFav('{{ slug }}')">💚</span>
@@ -24,7 +22,6 @@
 </p>
 <p><b>Rodzina/systematyka:</b> {{ data.nazwa_zbioru | join(' → ') }}</p>
 
-{# Ostrzeżenie o truciźnie #}
 {% set trujaca = false %}
 {% for uwaga in data.uwagi_i_ostrzezenia %}
     {% if 'trujący' in uwaga.uwaga|lower %}
@@ -37,228 +34,335 @@
 </div>
 {% endif %}
 
-{% if data.uprawa %}
-<h3>Uprawa</h3>
-<ul>
-    <li><b>Gleba:</b> {{ data.uprawa.gleba }}</li>
-    <li><b>Stanowisko:</b> {{ data.uprawa.stanowisko }}</li>
-    <li><b>Wysiew:</b> {{ data.uprawa.wysiew }}</li>
-    <li><b>Zbiór:</b> {{ data.uprawa.zbior }}</li>
-</ul>
-{% endif %}
+<!-- UPRAWA -->
+<div class="toggle-group" id="uprawa">
+  <div class="toggle-header" onclick="toggleSection(this)">
+    <span class="toggle-emoji">🌱</span>
+    Uprawa
+    <button type="button" class="toggle-btn">rozwiń</button>
+  </div>
+  <div class="toggle-content" style="display:none;">
+    <ul>
+      <li><b>Gleba:</b> {{ data.uprawa.gleba }}</li>
+      <li><b>Stanowisko:</b> {{ data.uprawa.stanowisko }}</li>
+      <li><b>Wysiew:</b> {{ data.uprawa.wysiew }}</li>
+      <li><b>Zbiór:</b> {{ data.uprawa.zbior }}</li>
+    </ul>
+  </div>
+</div>
 
-<h3>Występowanie</h3>
-<ul>
-    <li>
+<!-- WYSTĘPOWANIE -->
+<div class="toggle-group" id="wystepowanie">
+  <div class="toggle-header" onclick="toggleSection(this)">
+    <span class="toggle-emoji">🌍</span>
+    Występowanie
+    <button type="button" class="toggle-btn">rozwiń</button>
+  </div>
+  <div class="toggle-content" style="display:none;">
+    <ul>
+      <li>
         <b>Obszar:</b> {{ data.wystepowanie.obszar }}
         {% if data.wystepowanie.zrodlo %}
-            {% for nr in data.wystepowanie.zrodlo %}
-                <a href="#bib{{ nr }}">[{{ nr }}]</a>
-            {% endfor %}
+          {% for nr in data.wystepowanie.zrodlo %}
+            <a href="#bib{{ nr }}">[{{ nr }}]</a>
+          {% endfor %}
         {% endif %}
-    </li>
-    <li>
+      </li>
+      <li>
         <b>W Polsce:</b> {{ data.wystepowanie.w_polsce }}
         {% if data.wystepowanie.zrodlo %}
-            {% for nr in data.wystepowanie.zrodlo %}
-                <a href="#bib{{ nr }}">[{{ nr }}]</a>
-            {% endfor %}
-        {% endif %}
-    </li>
-</ul>
-
-<h3>Opis botaniczny</h3>
-<ul>
-    <li><b>Pokrój:</b> {{ data.opis_botaniczny.pokroj }}</li>
-    <li><b>Łodyga/Pień:</b> {{ data.opis_botaniczny.lodyga }}</li>
-    <li><b>Liście:</b> {{ data.opis_botaniczny.liscie }}</li>
-    <li><b>Kwiaty:</b> {{ data.opis_botaniczny.kwiaty }}</li>
-    <li><b>Zapach:</b> {{ data.opis_botaniczny.zapach }}</li>
-    <li><b>Cechy wyróżniające:</b> {{ data.opis_botaniczny.cecha_wyrozniajaca }}</li>
-    {% if data.opis_botaniczny.zrodlo %}
-        <li>
-        {% for nr in data.opis_botaniczny.zrodlo %}
+          {% for nr in data.wystepowanie.zrodlo %}
             <a href="#bib{{ nr }}">[{{ nr }}]</a>
-        {% endfor %}
-        </li>
-    {% endif %}
-</ul>
+          {% endfor %}
+        {% endif %}
+      </li>
+    </ul>
+  </div>
+</div>
 
-<h3>Właściwości i składniki</h3>
-<ul>
-    {% for sklad in data.wlasciwosci_i_skladniki %}
-    <li>
+<!-- OPIS BOTANICZNY -->
+<div class="toggle-group" id="opis">
+  <div class="toggle-header" onclick="toggleSection(this)">
+    <span class="toggle-emoji">🪴</span>
+    Opis botaniczny
+    <button type="button" class="toggle-btn">rozwiń</button>
+  </div>
+  <div class="toggle-content" style="display:none;">
+    <ul>
+      <li><b>Pokrój:</b> {{ data.opis_botaniczny.pokroj }}</li>
+      <li><b>Łodyga/Pień:</b> {{ data.opis_botaniczny.lodyga }}</li>
+      <li><b>Liście:</b> {{ data.opis_botaniczny.liscie }}</li>
+      <li><b>Kwiaty:</b> {{ data.opis_botaniczny.kwiaty }}</li>
+      <li><b>Zapach:</b> {{ data.opis_botaniczny.zapach }}</li>
+      <li><b>Cechy wyróżniające:</b> {{ data.opis_botaniczny.cecha_wyrozniajaca }}</li>
+      {% if data.opis_botaniczny.zrodlo %}
+        <li>
+          {% for nr in data.opis_botaniczny.zrodlo %}
+            <a href="#bib{{ nr }}">[{{ nr }}]</a>
+          {% endfor %}
+        </li>
+      {% endif %}
+    </ul>
+  </div>
+</div>
+
+<!-- WŁAŚCIWOŚCI I SKŁADNIKI -->
+<div class="toggle-group" id="wlasciwosci">
+  <div class="toggle-header" onclick="toggleSection(this)">
+    <span class="toggle-emoji">🧪</span>
+    Właściwości i składniki
+    <button type="button" class="toggle-btn">rozwiń</button>
+  </div>
+  <div class="toggle-content" style="display:none;">
+    <ul>
+      {% for sklad in data.wlasciwosci_i_skladniki %}
+      <li>
         <b>{{ sklad.nazwa }}:</b> {{ sklad.dzialanie }}
         {% if sklad.sklad %} (Skład: {{ sklad.sklad }}){% endif %}
         {% if sklad.ciekawostka %} <i>{{ sklad.ciekawostka }}</i>{% endif %}
         {% if sklad.zrodlo %}
-            {% for nr in sklad.zrodlo %}
-                <a href="#bib{{ nr }}">[{{ nr }}]</a>
-            {% endfor %}
-        {% endif %}
-    </li>
-    {% endfor %}
-</ul>
-
-<h3>Cechy i historia</h3>
-<p>
-    {{ data.cechy_i_historia.opis }}
-    {% if data.cechy_i_historia.zrodlo %}
-        {% for nr in data.cechy_i_historia.zrodlo %}
+          {% for nr in sklad.zrodlo %}
             <a href="#bib{{ nr }}">[{{ nr }}]</a>
-        {% endfor %}
-    {% endif %}
-</p>
-<ul>
-    {% for cecha in data.cechy_i_historia.cechy %}
-    <li>{{ cecha }}</li>
-    {% endfor %}
-</ul>
-<p><b>Zastosowania historyczne:</b></p>
-<ul>
-    {% for hist in data.cechy_i_historia.zastosowanie_historyczne %}
-    <li>{{ hist }}</li>
-    {% endfor %}
-</ul>
-<p><b>Ciekawostki:</b></p>
-<ul>
-    {% for ciek in data.cechy_i_historia.ciekawostki %}
-    <li>{{ ciek }}</li>
-    {% endfor %}
-</ul>
+          {% endfor %}
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
-<h3>Uwagi i ostrzeżenia</h3>
-<ul>
-    {% for uwaga in data.uwagi_i_ostrzezenia %}
-    <li>
+<!-- CECHY I HISTORIA -->
+<div class="toggle-group" id="historia">
+  <div class="toggle-header" onclick="toggleSection(this)">
+    <span class="toggle-emoji">📖</span>
+    Cechy i historia
+    <button type="button" class="toggle-btn">rozwiń</button>
+  </div>
+  <div class="toggle-content" style="display:none;">
+    <p>
+      {{ data.cechy_i_historia.opis }}
+      {% if data.cechy_i_historia.zrodlo %}
+        {% for nr in data.cechy_i_historia.zrodlo %}
+          <a href="#bib{{ nr }}">[{{ nr }}]</a>
+        {% endfor %}
+      {% endif %}
+    </p>
+    <ul>
+      {% for cecha in data.cechy_i_historia.cechy %}
+      <li>{{ cecha }}</li>
+      {% endfor %}
+    </ul>
+    <p><b>Zastosowania historyczne:</b></p>
+    <ul>
+      {% for hist in data.cechy_i_historia.zastosowanie_historyczne %}
+      <li>{{ hist }}</li>
+      {% endfor %}
+    </ul>
+    <p><b>Ciekawostki:</b></p>
+    <ul>
+      {% for ciek in data.cechy_i_historia.ciekawostki %}
+      <li>{{ ciek }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<!-- UWAGI I OSTRZEŻENIA -->
+<div class="toggle-group" id="uwagi">
+  <div class="toggle-header" onclick="toggleSection(this)">
+    <span class="toggle-emoji">⚠️</span>
+    Uwagi i ostrzeżenia
+    <button type="button" class="toggle-btn">rozwiń</button>
+  </div>
+  <div class="toggle-content" style="display:none;">
+    <ul>
+      {% for uwaga in data.uwagi_i_ostrzezenia %}
+      <li>
         <b>{{ uwaga.uwaga }}</b>
         {% if uwaga.rozwiazanie %} <i>({{ uwaga.rozwiazanie }})</i>{% endif %}
         {% if uwaga.zrodlo %}
-            {% for nr in uwaga.zrodlo %}
-                <a href="#bib{{ nr }}">[{{ nr }}]</a>
-            {% endfor %}
+          {% for nr in uwaga.zrodlo %}
+            <a href="#bib{{ nr }}">[{{ nr }}]</a>
+          {% endfor %}
         {% endif %}
-    </li>
-    {% endfor %}
-</ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
-<h3>Przepisy medyczne (ziołolecznictwo, fitoterapia)</h3>
-<ul>
-    {% for klucz, przepis in data.przepisy_medyczne.items() %}
-    <li>
+<!-- PRZEPISY MEDYCZNE -->
+<div class="toggle-group" id="przepisy-medyczne">
+  <div class="toggle-header" onclick="toggleSection(this)">
+    <span class="toggle-emoji">🍵</span>
+    Przepisy medyczne (ziołolecznictwo)
+    <button type="button" class="toggle-btn">rozwiń</button>
+  </div>
+  <div class="toggle-content" style="display:none;">
+    <ul>
+      {% for klucz, przepis in data.przepisy_medyczne.items() %}
+      <li>
         <b>{{ klucz|replace('_', ' ')|capitalize }}:</b>
         <ul>
-            <li><b>Składniki:</b> {{ przepis.skladniki | join(', ') }}</li>
-            <li><b>Sposób przygotowania:</b> {{ przepis.sposob_przygotowania }}</li>
-            <li><b>Cechy:</b> {{ przepis.cechy | join(', ') }}</li>
-            <li><b>Właściwości:</b> {{ przepis.wlasciwosci | join(', ') }}</li>
-            <li><b>Zastosowanie:</b> {{ przepis.zastosowanie }}</li>
-            <li><b>Dawkowanie:</b> {{ przepis.dawkowanie }}</li>
-            {% if przepis.zrodlo %}
-                <li>
-                {% for nr in przepis.zrodlo %}
-                    <a href="#bib{{ nr }}">[{{ nr }}]</a>
-                {% endfor %}
-                </li>
-            {% endif %}
+          <li><b>Składniki:</b> {{ przepis.skladniki | join(', ') }}</li>
+          <li><b>Sposób przygotowania:</b> {{ przepis.sposob_przygotowania }}</li>
+          <li><b>Cechy:</b> {{ przepis.cechy | join(', ') }}</li>
+          <li><b>Właściwości:</b> {{ przepis.wlasciwosci | join(', ') }}</li>
+          <li><b>Zastosowanie:</b> {{ przepis.zastosowanie }}</li>
+          <li><b>Dawkowanie:</b> {{ przepis.dawkowanie }}</li>
+          {% if przepis.zrodlo %}
+            <li>
+              {% for nr in przepis.zrodlo %}
+                <a href="#bib{{ nr }}">[{{ nr }}]</a>
+              {% endfor %}
+            </li>
+          {% endif %}
         </ul>
-    </li>
-    {% endfor %}
-</ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
-<h3>Przepisy kulinarne</h3>
-<ul>
-    {% for klucz, przepis in data.przepisy_kulinarne.items() %}
-    <li>
+<!-- PRZEPISY KULINARNE -->
+<div class="toggle-group" id="przepisy-kulinarne">
+  <div class="toggle-header" onclick="toggleSection(this)">
+    <span class="toggle-emoji">🥗</span>
+    Przepisy kulinarne
+    <button type="button" class="toggle-btn">rozwiń</button>
+  </div>
+  <div class="toggle-content" style="display:none;">
+    <ul>
+      {% for klucz, przepis in data.przepisy_kulinarne.items() %}
+      <li>
         <b>{{ klucz|replace('_', ' ')|capitalize }}:</b>
         <ul>
-            <li><b>Składniki:</b> {{ przepis.skladniki | join(', ') }}</li>
-            <li><b>Sposób przygotowania:</b> {{ przepis.sposob_przygotowania }}</li>
-            <li><b>Cechy:</b> {{ przepis.cechy | join(', ') }}</li>
-            <li><b>Właściwości:</b> {{ przepis.wlasciwosci | join(', ') }}</li>
-            <li><b>Zastosowanie:</b> {{ przepis.zastosowanie }}</li>
-            {% if przepis.zrodlo %}
-                <li>
-                {% for nr in przepis.zrodlo %}
-                    <a href="#bib{{ nr }}">[{{ nr }}]</a>
-                {% endfor %}
-                </li>
-            {% endif %}
+          <li><b>Składniki:</b> {{ przepis.skladniki | join(', ') }}</li>
+          <li><b>Sposób przygotowania:</b> {{ przepis.sposob_przygotowania }}</li>
+          <li><b>Cechy:</b> {{ przepis.cechy | join(', ') }}</li>
+          <li><b>Właściwości:</b> {{ przepis.wlasciwosci | join(', ') }}</li>
+          <li><b>Zastosowanie:</b> {{ przepis.zastosowanie }}</li>
+          {% if przepis.zrodlo %}
+            <li>
+              {% for nr in przepis.zrodlo %}
+                <a href="#bib{{ nr }}">[{{ nr }}]</a>
+              {% endfor %}
+            </li>
+          {% endif %}
         </ul>
-    </li>
-    {% endfor %}
-</ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
-<h3>Przepisy z innymi roślinami</h3>
+<!-- PRZEPISY Z INNYMI ROŚLINAMI -->
 {% if data.przepisy_z_innymi_roslinami.medyczne|length > 0 %}
-<h4>Mieszanki medyczne</h4>
-<ul>
-    {% for p in data.przepisy_z_innymi_roslinami.medyczne %}
-    <li>
+<div class="toggle-group" id="mieszanki-medyczne">
+  <div class="toggle-header" onclick="toggleSection(this)">
+    <span class="toggle-emoji">💊</span>
+    Mieszanki medyczne
+    <button type="button" class="toggle-btn">rozwiń</button>
+  </div>
+  <div class="toggle-content" style="display:none;">
+    <ul>
+      {% for p in data.przepisy_z_innymi_roslinami.medyczne %}
+      <li>
         <b>{{ p.nazwa }}:</b>
         <ul>
-            <li><b>Składniki:</b> {{ p.skladniki | join(', ') }}</li>
-            <li><b>Sposób przygotowania:</b> {{ p.sposob_przygotowania }}</li>
-            <li><b>Cechy:</b> {{ p.cechy | join(', ') }}</li>
-            <li><b>Właściwości:</b> {{ p.wlasciwosci | join(', ') }}</li>
-            <li><b>Zastosowanie:</b> {{ p.zastosowanie }}</li>
-            {% if p.zrodlo %}
-                <li>
-                {% for nr in p.zrodlo %}
-                    <a href="#bib{{ nr }}">[{{ nr }}]</a>
-                {% endfor %}
-                </li>
-            {% endif %}
+          <li><b>Składniki:</b> {{ p.skladniki | join(', ') }}</li>
+          <li><b>Sposób przygotowania:</b> {{ p.sposob_przygotowania }}</li>
+          <li><b>Cechy:</b> {{ p.cechy | join(', ') }}</li>
+          <li><b>Właściwości:</b> {{ p.wlasciwosci | join(', ') }}</li>
+          <li><b>Zastosowanie:</b> {{ p.zastosowanie }}</li>
+          {% if p.zrodlo %}
+            <li>
+              {% for nr in p.zrodlo %}
+                <a href="#bib{{ nr }}">[{{ nr }}]</a>
+              {% endfor %}
+            </li>
+          {% endif %}
         </ul>
-    </li>
-    {% endfor %}
-</ul>
-{% endif %}
-{% if data.przepisy_z_innymi_roslinami.kulinarne|length > 0 %}
-<h4>Mieszanki kulinarne</h4>
-<ul>
-    {% for p in data.przepisy_z_innymi_roslinami.kulinarne %}
-    <li>
-        <b>{{ p.nazwa }}:</b>
-        <ul>
-            <li><b>Składniki:</b> {{ p.skladniki | join(', ') }}</li>
-            <li><b>Sposób przygotowania:</b> {{ p.sposob_przygotowania }}</li>
-            <li><b>Cechy:</b> {{ p.cechy | join(', ') }}</li>
-            <li><b>Właściwości:</b> {{ p.wlasciwosci | join(', ') }}</li>
-            <li><b>Zastosowanie:</b> {{ p.zastosowanie }}</li>
-            {% if p.zrodlo %}
-                <li>
-                {% for nr in p.zrodlo %}
-                    <a href="#bib{{ nr }}">[{{ nr }}]</a>
-                {% endfor %}
-                </li>
-            {% endif %}
-        </ul>
-    </li>
-    {% endfor %}
-</ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 {% endif %}
 
-<h3>Inne zastosowania</h3>
-<ul>
-    {% for klucz, inny in data.inne_zastosowania.items() %}
-    <li>
+{% if data.przepisy_z_innymi_roslinami.kulinarne|length > 0 %}
+<div class="toggle-group" id="mieszanki-kulinarne">
+  <div class="toggle-header" onclick="toggleSection(this)">
+    <span class="toggle-emoji">🍽️</span>
+    Mieszanki kulinarne
+    <button type="button" class="toggle-btn">rozwiń</button>
+  </div>
+  <div class="toggle-content" style="display:none;">
+    <ul>
+      {% for p in data.przepisy_z_innymi_roslinami.kulinarne %}
+      <li>
+        <b>{{ p.nazwa }}:</b>
+        <ul>
+          <li><b>Składniki:</b> {{ p.skladniki | join(', ') }}</li>
+          <li><b>Sposób przygotowania:</b> {{ p.sposob_przygotowania }}</li>
+          <li><b>Cechy:</b> {{ p.cechy | join(', ') }}</li>
+          <li><b>Właściwości:</b> {{ p.wlasciwosci | join(', ') }}</li>
+          <li><b>Zastosowanie:</b> {{ p.zastosowanie }}</li>
+          {% if p.zrodlo %}
+            <li>
+              {% for nr in p.zrodlo %}
+                <a href="#bib{{ nr }}">[{{ nr }}]</a>
+              {% endfor %}
+            </li>
+          {% endif %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endif %}
+
+<!-- INNE ZASTOSOWANIA -->
+<div class="toggle-group" id="inne-zastosowania">
+  <div class="toggle-header" onclick="toggleSection(this)">
+    <span class="toggle-emoji">🧴</span>
+    Inne zastosowania
+    <button type="button" class="toggle-btn">rozwiń</button>
+  </div>
+  <div class="toggle-content" style="display:none;">
+    <ul>
+      {% for klucz, inny in data.inne_zastosowania.items() %}
+      <li>
         <b>{{ klucz|capitalize }}:</b> {{ inny.opis }}
         {% if inny.zastosowanie %}<br><i>Zastosowanie:</i> {{ inny.zastosowanie }}{% endif %}
         {% if inny.zrodlo %}
-            {% for nr in inny.zrodlo %}
-                <a href="#bib{{ nr }}">[{{ nr }}]</a>
-            {% endfor %}
+          {% for nr in inny.zrodlo %}
+            <a href="#bib{{ nr }}">[{{ nr }}]</a>
+          {% endfor %}
         {% endif %}
-    </li>
-    {% endfor %}
-</ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
-<h3>Bibliografia</h3>
-<ul>
-    {% for num, url in data.bibliografia.items() %}
-    <li id="bib{{ num }}">[{{ num }}] <a href="{{ url }}" target="_blank">{{ url }}</a></li>
-    {% endfor %}
-</ul>
-<a href="#top">Powrót na górę</a>
+<!-- BIBLIOGRAFIA -->
+<div class="toggle-group" id="bibliografia">
+  <div class="toggle-header" onclick="toggleSection(this)">
+    <span class="toggle-emoji">📚</span>
+    Bibliografia
+    <button type="button" class="toggle-btn">rozwiń</button>
+  </div>
+  <div class="toggle-content" style="display:none;">
+    <ul>
+      {% for num, url in data.bibliografia.items() %}
+      <li id="bib{{ num }}">[{{ num }}] <a href="{{ url }}" target="_blank">{{ url }}</a></li>
+      {% endfor %}
+    </ul>
+    <a href="#top">Powrót na górę</a>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
 {% endblock %}

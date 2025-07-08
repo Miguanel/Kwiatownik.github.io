@@ -1,14 +1,33 @@
 {% extends "base.html" %}
 {% block title %}Wyniki wyszukiwania{% endblock %}
 {% block content %}
-<h2>Wyniki wyszukiwania dla "{{ q }}"</h2>
-<ul>
+<h2 style="margin-bottom:1.2em;">
+    Wyniki wyszukiwania dla <span class="search-query">"{{ q }}"</span>
+</h2>
+
+{% if results %}
+    <ul class="search-results">
     {% for plant in results %}
-    <li>
-        <a href="{{ url_for('roslina', category=plant.category, plant=plant.slug) }}">{{ plant.name }}</a>
-        <i>({{ plant.latin }})</i>
-    </li>
+        <li class="result-item">
+            <div class="plant-title">
+                <a href="{{ url_for('roslina', category=plant.category, plant=plant.slug) }}">{{ plant.name }}</a>
+                <span class="latin">({{ plant.latin }})</span>
+            </div>
+            {% if plant.matches %}
+            <ul class="matches">
+                {% for field, text in plant.matches %}
+                    <li>
+                        <span class="match-label">{{ field }}:</span>
+                        <span class="match-content">{{ text|safe }}</span>
+                    </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </li>
     {% endfor %}
-</ul>
-{% if not results %}<p>Brak wyników.</p>{% endif %}
+    </ul>
+{% else %}
+    <p style="margin-top:1.7em;">Brak wyników.</p>
+{% endif %}
+
 {% endblock %}

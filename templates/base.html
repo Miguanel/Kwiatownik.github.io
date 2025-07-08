@@ -7,24 +7,47 @@
     <script src="{{ url_for('static', filename='js/favs.js') }}"></script>
 </head>
 <body>
-    <header>
-        <h1><a href="{{ url_for('index') }}">🌼 Kwiatownik</a></h1>
-        <form action="{{ url_for('search') }}" method="get" id="searchForm" style="display:inline">
-            <input type="text" name="q" placeholder="Szukaj rośliny..." value="{{ q if q is defined else '' }}">
-            <button type="submit">🔍</button>
-        </form>
-        <nav>
-            <a href="{{ url_for('ulubione') }}">Ulubione / Mam w ogrodzie</a> |
-            <a href="{{ url_for('generator_ogrodu') }}">Generator ogrodu</a>
-        </nav>
-        <hr>
-    </header>
-    <main>
-        {% block content %}{% endblock %}
-    </main>
-    <footer>
-        <hr>
-        <small>Kwiatownik &copy; 2024</small>
-    </footer>
+<header>
+    <h1><a href="{{ url_for('index') }}">🌼 Kwiatownik</a></h1>
+    <form action="{{ url_for('search') }}" method="get" id="searchForm" style="display:inline">
+        <input type="text" name="q" placeholder="Szukaj rośliny..." value="{{ q if q is defined else '' }}">
+        <button type="submit">🔍</button>
+    </form>
+    <nav style="display: flex; align-items: center; gap: 19px;">
+    <span>
+        <a href="{{ url_for('ulubione') }}">Ulubione / Mam w ogrodzie</a> |
+        <a href="{{ url_for('generator_ogrodu') }}">Generator ogrodu</a>
+    </span>
+        <button id="theme-toggle" title="Przełącz motyw"
+                style="margin-left:10px;font-size:1.2em;background:none;border:none;cursor:pointer;outline:none;">
+            🌙
+        </button>
+    </nav>
+    <hr>
+</header>
+<main>
+    {% block content %}{% endblock %}
+</main>
+<footer>
+    <hr>
+    <small>Kwiatownik &copy; 2024</small>
+</footer>
+
+<script>
+function setTheme(dark) {
+    document.body.classList.toggle('dark-mode', dark);
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
+    document.getElementById('theme-toggle').textContent = dark ? "☀️" : "🌙";
+}
+document.addEventListener("DOMContentLoaded", function() {
+    // sprawdza czy już jest ustawiony motyw
+    const saved = localStorage.getItem('theme');
+    const dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    setTheme(dark);
+    document.getElementById('theme-toggle').onclick = function() {
+        setTheme(!document.body.classList.contains('dark-mode'));
+    };
+});
+</script>
 </body>
 </html>
