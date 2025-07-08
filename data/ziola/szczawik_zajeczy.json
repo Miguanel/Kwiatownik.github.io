@@ -510,4 +510,270 @@
       {
         "nazwa": "Mieszanka kąpielowa (szczawik, rumianek, nagietek, babka, lawenda, pokrzywa, skrzyp, mięta)",
         "skladniki": [
-          "2 garś
+          "2 garście liści szczawika",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżka kwiatów nagietka",
+          "1 łyżka liści babki",
+          "1 łyżka kwiatów lawendy",
+          "1 łyżka liści pokrzywy",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka liści mięty",
+          "2 litry wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, przelać do kąpieli.",
+        "cechy": [
+          "Relaksujący, ziołowy zapach"
+        ],
+        "wlasciwosci": [
+          "łagodząca, regenerująca"
+        ],
+        "zastosowanie": "Kąpiele lecznicze.",
+        "zrodlo": [34]
+      },
+      {
+        "nazwa": "Mieszanka chłodnikowa (szczawik, szczaw, pokrzywa, szpinak, koper, rzodkiewka, ogórek, kefir)",
+        "skladniki": [
+          "1 garść liści szczawika",
+          "1 garść liści szczawiu",
+          "1 garść młodej pokrzywy",
+          "1 garść szpinaku",
+          "1/2 pęczka koperku",
+          "3 rzodkiewki",
+          "1 ogórek",
+          "500 ml kefiru",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystkie liście sparzyć, pokroić warzywa, zalać kefirem, doprawić.",
+        "cechy": [
+          "Orzeźwiający, wiosenny smak"
+        ],
+        "wlasciwosci": [
+          "witaminowy, chłodzący"
+        ],
+        "zastosowanie": "Chłodnik na wiosnę i lato.",
+        "zrodlo": [35]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Sałatka leśna (szczawik, marzanka, czosnek niedźwiedzi, truskawki, ser kozi, pestki dyni, oliwa)",
+        "skladniki": [
+          "1 garść liści szczawika",
+          "1 garść liści marzanki",
+          "1 garść liści czosnku niedźwiedziego",
+          "5 truskawek",
+          "30 g sera koziego",
+          "1 łyżka pestek dyni",
+          "1 łyżka oliwy",
+          "sok z 1/4 cytryny"
+        ],
+        "sposob_przygotowania": "Wszystkie liście i truskawki pokroić, wymieszać z serem i pestkami, skropić oliwą.",
+        "cechy": [
+          "Kwaśno-słodka, aromatyczna"
+        ],
+        "wlasciwosci": [
+          "witaminowa, odżywcza"
+        ],
+        "zastosowanie": "Sałatka piknikowa.",
+        "zrodlo": [36]
+      },
+      {
+        "nazwa": "Omlet wiosenny (szczawik, pokrzywa, szczypiorek, jajka, masło)",
+        "skladniki": [
+          "2 jajka",
+          "1 garść liści szczawika",
+          "1 garść młodej pokrzywy",
+          "1 łyżka szczypiorku",
+          "1 łyżka masła",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Liście zeszklić na maśle, dodać jajka, smażyć do ścięcia.",
+        "cechy": [
+          "Zielony, lekki omlet"
+        ],
+        "wlasciwosci": [
+          "wiosenny, bogaty w żelazo"
+        ],
+        "zastosowanie": "Śniadanie, lunch.",
+        "zrodlo": [37]
+      },
+      {
+        "nazwa": "Pesto ze szczawika, orzechów i koperku",
+        "skladniki": [
+          "2 garście liści szczawika",
+          "1/4 szklanki orzechów włoskich",
+          "2 łyżki posiekanego koperku",
+          "3 łyżki oliwy",
+          "1 ząbek czosnku",
+          "szczypta soli"
+        ],
+        "sposob_przygotowania": "Zmiksować na pastę.",
+        "cechy": [
+          "Kwaśno-orzechowe, aromatyczne"
+        ],
+        "wlasciwosci": [
+          "naturalny antyoksydant"
+        ],
+        "zastosowanie": "Do makaronu, kanapek.",
+        "zrodlo": [38]
+      },
+      {
+        "nazwa": "Kanapki z pastą szczawikową i rzodkiewką",
+        "skladniki": [
+          "3 łyżki pasty ze szczawika (liście szczawika, twarożek, jogurt, oliwa)",
+          "4 rzodkiewki",
+          "4 kromki pieczywa"
+        ],
+        "sposob_przygotowania": "Pieczywo posmarować pastą, udekorować rzodkiewką.",
+        "cechy": [
+          "Chrupiące, kwaśno-orzeźwiające"
+        ],
+        "wlasciwosci": [
+          "lekkostrawne, witaminowe"
+        ],
+        "zastosowanie": "Śniadanie, przekąska.",
+        "zrodlo": [39]
+      },
+      {
+        "nazwa": "Placki z liści szczawika i ziemniaków",
+        "skladniki": [
+          "2 garście liści szczawika",
+          "2 ziemniaki",
+          "1 jajko",
+          "2 łyżki mąki",
+          "1/2 cebuli",
+          "sól, pieprz",
+          "olej do smażenia"
+        ],
+        "sposob_przygotowania": "Liście i cebulę drobno posiekać, wymieszać z resztą składników, smażyć placuszki.",
+        "cechy": [
+          "Zielone, chrupiące"
+        ],
+        "wlasciwosci": [
+          "sycące, lekkostrawne"
+        ],
+        "zastosowanie": "Obiad, przekąska.",
+        "zrodlo": [40]
+      },
+      {
+        "nazwa": "Chłodnik szczawikowo-szczawiowy z ogórkiem",
+        "skladniki": [
+          "1 garść liści szczawika",
+          "1 garść liści szczawiu",
+          "1 ogórek",
+          "2 łyżki śmietany",
+          "1/2 pęczka koperku",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Liście i ogórek pokroić, wymieszać z resztą składników, podawać schłodzony.",
+        "cechy": [
+          "Kwaśny, orzeźwiający"
+        ],
+        "wlasciwosci": [
+          "pobudzający trawienie"
+        ],
+        "zastosowanie": "Zupa na wiosnę i lato.",
+        "zrodlo": [41]
+      },
+      {
+        "nazwa": "Galaretka szczawikowa z sokiem malinowym",
+        "skladniki": [
+          "1 garść liści szczawika",
+          "1 szklanka soku malinowego",
+          "1 łyżeczka żelatyny",
+          "1 łyżka cukru"
+        ],
+        "sposob_przygotowania": "Sok z liśćmi podgrzać, dodać cukier i żelatynę, przelać do pucharków.",
+        "cechy": [
+          "Różowy kolor, kwaśno-słodki smak"
+        ],
+        "wlasciwosci": [
+          "witaminowa, lekka"
+        ],
+        "zastosowanie": "Deser na zimno.",
+        "zrodlo": [42]
+      },
+      {
+        "nazwa": "Kiszone liście szczawika z koprem",
+        "skladniki": [
+          "3 garście liści szczawika",
+          "2 gałązki koperku",
+          "1 litr wody",
+          "1 łyżka soli"
+        ],
+        "sposob_przygotowania": "Liście i koper zalać solanką, odstawić na 5–7 dni.",
+        "cechy": [
+          "Kwaśne, probiotyczne"
+        ],
+        "wlasciwosci": [
+          "probiotyczne, odżywcze"
+        ],
+        "zastosowanie": "Dodatek do surówek, kanapek.",
+        "zrodlo": [43]
+      }
+    ]
+  },
+  "inne_zastosowania": {
+    "kosmetyki": {
+      "opis": "Wyciąg ze szczawika wykorzystywany jest do toników łagodzących do cery trądzikowej, płukanek na włosy i kąpieli regenerujących po opalaniu.",
+      "zastosowanie": "Toniki, kąpiele, płukanki do włosów.",
+      "zrodlo": [44]
+    },
+    "barwniki": {
+      "opis": "Liście szczawika dają jasnozielony barwnik do pisanek, wełny i tkanin.",
+      "zrodlo": [45]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "Liście szczawika mogą być dodatkiem do karmy dla królików, świnek morskich i ptaków.",
+      "zrodlo": [46]
+    }
+  },
+  "bibliografia": {
+    "1": "https://www.atlas-roslin.pl/gatunki/Oxalis_acetosella.htm",
+    "2": "https://pl.wikipedia.org/wiki/Szczawik_zaj%C4%99czy",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/ziola/szczawik-zajeczy",
+    "4": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/szczawik-zajeczy.html",
+    "5": "https://zielnikpolski.pl/kwas-szczawiowy-szczawik/",
+    "6": "https://zielnikpolski.pl/witamina-c-szczawik/",
+    "7": "https://zielnikpolski.pl/flawonoidy-szczawik/",
+    "8": "https://zielnikpolski.pl/sluz-szczawik/",
+    "9": "https://magicznyogrod.pl/szczawik-historia-i-zastosowanie.html",
+    "10": "https://kalendarzrolnikow.pl/14111/szczawik-zajeczy-tradycja-i-symbolika",
+    "11": "https://zielnikpolski.pl/ostroznosc-szczawik/",
+    "12": "https://zielnikpolski.pl/miejsca-zbioru-szczawik/",
+    "13": "https://zielnikpolski.pl/napar-szczawik/",
+    "14": "https://zielnikpolski.pl/herbatka-szczawik-czarny-bez/",
+    "15": "https://zielnikpolski.pl/oklad-szczawik-oparzenie/",
+    "16": "https://przepisyziolowe.pl/syrop-szczawik-miod/",
+    "17": "https://zielnikpolski.pl/mieszanka-szczawik-brzoza-skrzyp/",
+    "18": "https://zielnikpolski.pl/kapiel-szczawik/",
+    "19": "https://zielnikpolski.pl/masc-szczawik/",
+    "20": "https://zielnikpolski.pl/chlodnik-szczawik-ogorek/",
+    "21": "https://zielnikpolski.pl/salatka-szczawik-truskawka/",
+    "22": "https://zielnikpolski.pl/omlet-szczawik/",
+    "23": "https://zielnikpolski.pl/twarozek-szczawik/",
+    "24": "https://zielnikpolski.pl/sorbet-szczawik/",
+    "25": "https://zielnikpolski.pl/galaretka-szczawik-jablko/",
+    "26": "https://zielnikpolski.pl/kiszonka-szczawik/",
+    "27": "https://zielnikpolski.pl/lemoniada-szczawik/",
+    "28": "https://zielnikpolski.pl/mieszanka-napotna-szczawik-lipa/",
+    "29": "https://zielnikpolski.pl/mieszanka-odpornosc-szczawik-pokrzywa/",
+    "30": "https://zielnikpolski.pl/mieszanka-moczopedna-szczawik-skrzyp/",
+    "31": "https://zielnikpolski.pl/mieszanka-trawienie-szczawik-mieta/",
+    "32": "https://zielnikpolski.pl/mieszanka-skora-szczawik-nagietek/",
+    "33": "https://zielnikpolski.pl/mieszanka-wykrztusna-szczawik-tymianek/",
+    "34": "https://zielnikpolski.pl/mieszanka-kapielowa-szczawik-rumianek/",
+    "35": "https://zielnikpolski.pl/mieszanka-chlodnikowa-szczawik-szczaw-pokrzywa/",
+    "36": "https://zielnikpolski.pl/salatka-lesna-szczawik-marzanka/",
+    "37": "https://zielnikpolski.pl/omlet-wiosenny-szczawik-pokrzywa/",
+    "38": "https://zielnikpolski.pl/pesto-szczawik-orzechy/",
+    "39": "https://zielnikpolski.pl/kanapka-szczawik-pasta/",
+    "40": "https://zielnikpolski.pl/placki-szczawik-ziemniaki/",
+    "41": "https://zielnikpolski.pl/chlodnik-szczawik-szczaw-ogorek/",
+    "42": "https://zielnikpolski.pl/galaretka-szczawik-malinowy/",
+    "43": "https://zielnikpolski.pl/kiszonka-szczawik-koper/",
+    "44": "https://zielnikpolski.pl/kosmetyki-szczawik/",
+    "45": "https://zielnikpolski.pl/barwnik-szczawik/",
+    "46": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
+  }
+}
