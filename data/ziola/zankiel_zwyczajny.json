@@ -1,0 +1,702 @@
+{
+  "gatunek": "Żankiel zwyczajny",
+  "nazwa_lacinska": "Sanicula europaea",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Rośliny zielne (Zioła)",
+    "Selerowate",
+    "Sanicula",
+    "Żankiel zwyczajny"
+  ],
+  "zdjecia": [],
+  "uprawa": {
+    "gleba": "Gleba próchniczna, wilgotna, lekko kwaśna do obojętnej, bogata w składniki mineralne.",
+    "stanowisko": "Stanowisko półcieniste do cienistego, najlepiej w runie lasów liściastych i mieszanych.",
+    "wysiew": "Nasiona wysiewać jesienią do wilgotnej gleby, możliwy podział kęp na wiosnę.",
+    "zbior": "Ziele, liście i korzenie zbiera się od maja do lipca, najlepiej przed kwitnieniem (ziele), korzeń jesienią."
+  },
+  "wystepowanie": {
+    "obszar": "Europa, zachodnia Azja, Kaukaz, lokalnie w Afryce Północnej.",
+    "w_polsce": "Cały kraj – cieniste lasy liściaste, buczyny, wilgotne zarośla, obrzeża lasów, łęgi.",
+    "zrodlo": [1,2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Bylina o wysokości 20–60 cm, tworząca luźne kępy.",
+    "lodyga": "Wzniesiona, delikatnie rowkowana, pusta, rozgałęzia się w górnej części.",
+    "liscie": "Dłoniasto pięciodzielne, na długich ogonkach, ciemnozielone, błyszczące, ząbkowane.",
+    "kwiaty": "Drobne, białawe lub różowawe, zebrane w kuliste główki, na długich szypułkach, kwitnie od maja do lipca.",
+    "owoce": "Owalne, pokryte haczykowatymi szczecinkami, łatwo przyczepiają się do sierści zwierząt.",
+    "korzeń": "Palowy, rozgałęziony, żółtawy, aromatyczny.",
+    "cecha_wyrozniajaca": "Dłoniasto podzielone liście, kwiaty w kulistych główkach, owoc pokryty szczecinkami.",
+    "zrodlo": [3,4]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Saponiny triterpenowe",
+      "dzialanie": "przeciwzapalne, wykrztuśne, regenerujące skórę",
+      "sklad": "sanikulina, kwas oleanolowy",
+      "zrodlo": [5]
+    },
+    {
+      "nazwa": "Garbniki",
+      "dzialanie": "ściągające, antyseptyczne",
+      "sklad": "taniny",
+      "zrodlo": [6]
+    },
+    {
+      "nazwa": "Olejek eteryczny",
+      "dzialanie": "lekko rozkurczowe, przeciwbakteryjne",
+      "sklad": "związki terpenowe",
+      "zrodlo": [7]
+    },
+    {
+      "nazwa": "Flawonoidy",
+      "dzialanie": "antyoksydacyjne, wzmacniające naczynia",
+      "sklad": "kwercetyna, rutyna",
+      "zrodlo": [8]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Żankiel zwyczajny od wieków był ceniony jako 'leśny żeń-szeń' – zioło przyspieszające gojenie, zatrzymujące krwawienia i wzmacniające. Dawniej stosowany przy krwotokach, ranach, kaszlu i schorzeniach kobiecych. W polskiej i niemieckiej medycynie ludowej żankiel to klasyczna roślina na regenerację i rekonwalescencję.",
+    "cechy": [
+      "Silnie ściągające i regenerujące właściwości ziela i korzenia",
+      "Stosowany zewnętrznie i wewnętrznie – napary, okłady, kąpiele, proszek z korzenia",
+      "Jadalny w niewielkich ilościach – liście jako przyprawa do zup, młode korzenie do sałatek",
+      "Charakterystyczny aromat świeżych liści i korzenia"
+    ],
+    "zastosowanie_historyczne": [
+      "Napar na gojenie ran, wrzody, czyraki, krwotoki",
+      "Dodatek do kąpieli wzmacniających i okładów przy stanach zapalnych skóry",
+      "Proszek z korzenia na przeziębienie i grypę",
+      "Stosowany w magii ludowej na oczyszczenie domostwa i ochronę przed 'złym okiem'"
+    ],
+    "ciekawostki": [
+      "Nazwa łacińska 'Sanicula' pochodzi od łacińskiego 'sanare' – leczyć.",
+      "W średniowieczu żankiel był rośliną symboliczną – chronił przed czarami i pechem.",
+      "Liście żankiela były dawniej popularnym dodatkiem do chłodników w południowej Polsce.",
+      "W alpejskich wsiach stosowano okłady z żankiela na rany cięte i stłuczenia."
+    ],
+    "zrodlo": [9,10]
+  },
+  "ciekawostki_kulturowe": [
+    "W Niemczech nazywano żankiel 'Heil aller Welt' – uzdrowienie całego świata.",
+    "Liście żankiela wkładano do poduszki dla dzieci, by spały spokojnie i zdrowo rosły.",
+    "W polskim folklorze roślina była symbolem odnowy i wytrwałości.",
+    "W Bawarii i Tyrolu żankiel był składnikiem mieszanek przeciwko złym mocom.",
+    "W staropolskiej kuchni żankiel dodawano do zup jarzynowych jako 'ziele gojące'.",
+    "W kulturze celtyckiej żankiel był rośliną odpędzającą złe duchy z domu."
+  ],
+  "permakultura": {
+    "opis": "Żankiel zwyczajny to doskonała roślina runa leśnego – wzbogaca glebę, zatrzymuje wilgoć, wspiera regenerację gleby i jest cenny dla zapylaczy.",
+    "funkcje": [
+      "Pokrywa glebę w cienistych zakątkach, ogranicza wzrost chwastów",
+      "Odporny na zgryzanie przez sarny i zające",
+      "Stanowi źródło pyłku dla pszczół wczesną wiosną",
+      "Nadaje się do leśnych ogrodów jadalnych i cienistych rabat",
+      "Tworzy gildie z marzanką, szczawikiem, paprociami, konwalią"
+    ],
+    "gildie": [
+      "Polecany do sadzenia pod drzewami liściastymi – buk, grab, lipa, wiąz, leszczyna",
+      "Wspiera rozwój roślin wskaźnikowych dla żyznej, próchnicznej gleby"
+    ]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Zawiera saponiny – nie spożywać w dużych ilościach, może powodować podrażnienie przewodu pokarmowego.",
+      "rozwiazanie": "Spożywać z umiarem, najlepiej jako składnik mieszanek ziołowych.",
+      "zrodlo": [11]
+    },
+    {
+      "uwaga": "Nie zbierać z miejsc zanieczyszczonych – roślina gromadzi metale ciężkie.",
+      "rozwiazanie": "Zbierać wyłącznie z czystych, naturalnych stanowisk leśnych.",
+      "zrodlo": [12]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar_ziolowy_gojacy": {
+      "skladniki": [
+        "1 łyżka suszonego ziela żankiela",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Ziele zalać wrzątkiem, parzyć 15 minut pod przykryciem, przecedzić.",
+      "cechy": [
+        "Delikatny, lekko korzenny smak"
+      ],
+      "wlasciwosci": [
+        "ściągający, gojący, przeciwzapalny"
+      ],
+      "zastosowanie": "Wewnętrznie na rany, stany zapalne jamy ustnej i gardła.",
+      "dawkowanie": "Szklanka 2 razy dziennie.",
+      "zrodlo": [13]
+    },
+    "odwar_na_krwawienia": {
+      "skladniki": [
+        "2 łyżki korzenia żankiela",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Korzeń gotować 10 minut, odcedzić, pić letni odwar.",
+      "cechy": [
+        "Wyrazisty smak, delikatny aromat"
+      ],
+      "wlasciwosci": [
+        "hamuje krwawienia, regeneruje śluzówki"
+      ],
+      "zastosowanie": "Krwawienia z nosa, miesiączka, rekonwalescencja.",
+      "zrodlo": [14]
+    },
+    "mieszanka_na_kaszel": {
+      "skladniki": [
+        "1 łyżka suszonego żankiela",
+        "1 łyżka kwiatów dziewanny",
+        "1 łyżka liści babki lancetowatej",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 min.",
+      "cechy": [
+        "Ziołowy aromat"
+      ],
+      "wlasciwosci": [
+        "wykrztuśna, łagodząca kaszel"
+      ],
+      "zastosowanie": "Kaszel, infekcje górnych dróg oddechowych.",
+      "zrodlo": [15]
+    },
+    "kąpiel_regenerująca": {
+      "skladniki": [
+        "4 garście świeżego ziela żankiela",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Ziele zalać wrzątkiem, parzyć 20 min, przecedzić do kąpieli.",
+      "cechy": [
+        "Ziołowy, relaksujący zapach"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie skóry, łagodzi podrażnienia"
+      ],
+      "zastosowanie": "Kąpiel lecznicza przy wysypkach i podrażnieniach skóry.",
+      "zrodlo": [16]
+    },
+    "maść_gojąca": {
+      "skladniki": [
+        "2 łyżki suszonego ziela żankiela",
+        "4 łyżki oleju kokosowego"
+      ],
+      "sposob_przygotowania": "Ziele podgrzać w oleju, odcedzić, przechowywać w słoiczku.",
+      "cechy": [
+        "Delikatnie zielona maść"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, regeneruje"
+      ],
+      "zastosowanie": "Okłady na rany, zadrapania, otarcia.",
+      "zrodlo": [17]
+    },
+    "syrop_na_przeziebienie": {
+      "skladniki": [
+        "3 łyżki świeżych liści żankiela",
+        "250 ml wody",
+        "2 łyżki miodu"
+      ],
+      "sposob_przygotowania": "Liście gotować w wodzie 10 min, odcedzić, dodać miód.",
+      "cechy": [
+        "Słodki, lekko korzenny syrop"
+      ],
+      "wlasciwosci": [
+        "wykrztuśny, wzmacniający"
+      ],
+      "zastosowanie": "Kaszel, chrypka, infekcje dróg oddechowych.",
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "zrodlo": [18]
+    }
+  },
+  "przepisy_kulinarne": {
+    "zupa_zielona_z_żankielem": {
+      "skladniki": [
+        "2 garście świeżych liści żankiela",
+        "1 litr bulionu warzywnego",
+        "2 ziemniaki",
+        "1 marchew",
+        "1 cebula",
+        "2 łyżki śmietany",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Warzywa ugotować w bulionie, dodać liście żankiela, zmiksować, zabielić śmietaną.",
+      "cechy": [
+        "Kremowa, zielona"
+      ],
+      "wlasciwosci": [
+        "witaminowa, odżywcza"
+      ],
+      "zastosowanie": "Zupa na wiosnę.",
+      "zrodlo": [19]
+    },
+    "sałatka_żankielowa": {
+      "skladniki": [
+        "1 garść liści żankiela",
+        "1 garść liści szczawika",
+        "1 garść szpinaku baby",
+        "4 rzodkiewki",
+        "1 ogórek",
+        "2 łyżki pestek słonecznika",
+        "1 łyżka oliwy",
+        "sok z 1/4 cytryny"
+      ],
+      "sposob_przygotowania": "Liście i warzywa pokroić, wymieszać z pestkami i oliwą.",
+      "cechy": [
+        "Świeża, zielona"
+      ],
+      "wlasciwosci": [
+        "wiosenna, lekka"
+      ],
+      "zastosowanie": "Sałatka, przekąska.",
+      "zrodlo": [20]
+    },
+    "twarożek_z_żankielem": {
+      "skladniki": [
+        "150 g twarogu",
+        "2 łyżki drobno posiekanych liści żankiela",
+        "1 łyżka jogurtu naturalnego",
+        "szczypta soli"
+      ],
+      "sposob_przygotowania": "Twaróg wymieszać z liśćmi żankiela i jogurtem, doprawić.",
+      "cechy": [
+        "Lekko korzenny, świeży smak"
+      ],
+      "wlasciwosci": [
+        "białkowy, witaminowy"
+      ],
+      "zastosowanie": "Śniadanie, kanapka.",
+      "zrodlo": [21]
+    },
+    "jajecznica_z_żankielem": {
+      "skladniki": [
+        "3 jajka",
+        "1 garść świeżych liści żankiela",
+        "1/2 pęczka szczypiorku",
+        "1 łyżka masła",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Liście zeszklić na maśle, dodać jajka i szczypiorek, smażyć do ścięcia.",
+      "cechy": [
+        "Zielona, aromatyczna"
+      ],
+      "wlasciwosci": [
+        "pożywna, lekka"
+      ],
+      "zastosowanie": "Śniadanie, przekąska.",
+      "zrodlo": [22]
+    },
+    "omlet_wiosenny": {
+      "skladniki": [
+        "2 jajka",
+        "1 garść liści żankiela",
+        "1 garść liści pokrzywy",
+        "1 łyżka masła",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Liście podsmażyć na maśle, dodać jajka, usmażyć omlet.",
+      "cechy": [
+        "Zielony, puszysty"
+      ],
+      "wlasciwosci": [
+        "wiosenny, odżywczy"
+      ],
+      "zastosowanie": "Śniadanie, lunch.",
+      "zrodlo": [23]
+    },
+    "pesto_z_żankiela": {
+      "skladniki": [
+        "1 garść świeżych liści żankiela",
+        "1/4 szklanki orzechów włoskich",
+        "2 łyżki oliwy",
+        "1 ząbek czosnku",
+        "szczypta soli"
+      ],
+      "sposob_przygotowania": "Zmiksować na pastę.",
+      "cechy": [
+        "Aromatyczne, lekko orzechowe"
+      ],
+      "wlasciwosci": [
+        "naturalny antyoksydant"
+      ],
+      "zastosowanie": "Do makaronu, kanapek.",
+      "zrodlo": [24]
+    },
+    "kiszone_liscie_żankiela": {
+      "skladniki": [
+        "3 garście liści żankiela",
+        "2 liście chrzanu",
+        "2 ząbki czosnku",
+        "1 litr wody",
+        "1 łyżka soli"
+      ],
+      "sposob_przygotowania": "Liście, chrzan i czosnek zalać solanką, kisić przez 5–7 dni.",
+      "cechy": [
+        "Kwaśne, probiotyczne"
+      ],
+      "wlasciwosci": [
+        "probiotyczne, odżywcze"
+      ],
+      "zastosowanie": "Dodatek do kanapek, sałatek.",
+      "zrodlo": [25]
+    },
+    "leśny_chłodnik_z_żankielem": {
+      "skladniki": [
+        "2 garście liści żankiela",
+        "1 ogórek",
+        "2 rzodkiewki",
+        "1 szklanka kefiru",
+        "1/2 pęczka koperku",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Liście i warzywa posiekać, wymieszać z kefirem i koperkiem.",
+      "cechy": [
+        "Orzeźwiający, ziołowy"
+      ],
+      "wlasciwosci": [
+        "lekkostrawny, witaminowy"
+      ],
+      "zastosowanie": "Chłodnik na wiosnę i lato.",
+      "zrodlo": [26]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Mieszanka gojąca (żankiel, nagietek, babka, rumianek, krwawnik, fiołek, pokrzywa, skrzyp)",
+        "skladniki": [
+          "1 łyżka suszonego żankiela",
+          "1 łyżka kwiatów nagietka",
+          "1 łyżka liści babki",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżka ziela krwawnika",
+          "1 łyżka fiołka trójbarwnego",
+          "1 łyżka liści pokrzywy",
+          "1 łyżka ziela skrzypu",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, stosować do okładów lub przemywania ran.",
+        "cechy": [
+          "Łagodny, ziołowy aromat"
+        ],
+        "wlasciwosci": [
+          "przyspiesza gojenie, łagodzi stany zapalne"
+        ],
+        "zastosowanie": "Okłady, przemywanie skóry.",
+        "zrodlo": [27]
+      },
+      {
+        "nazwa": "Mieszanka wykrztuśna (żankiel, tymianek, babka, podbiał, lukrecja, dziewanna, rumianek, anyż)",
+        "skladniki": [
+          "1 łyżka suszonego żankiela",
+          "1 łyżka ziela tymianku",
+          "1 łyżka liści babki lancetowatej",
+          "1 łyżka liści podbiału",
+          "1 łyżeczka korzenia lukrecji",
+          "1 łyżka kwiatu dziewanny",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżeczka nasion anyżu",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić ciepły napar.",
+        "cechy": [
+          "Ziołowy, łagodny napar"
+        ],
+        "wlasciwosci": [
+          "wykrztuśna, łagodząca kaszel"
+        ],
+        "zastosowanie": "Kaszel, infekcje dróg oddechowych.",
+        "zrodlo": [28]
+      },
+      {
+        "nazwa": "Mieszanka na skórę (żankiel, nagietek, rumianek, fiołek, skrzyp, pokrzywa, babka, koniczyna)",
+        "skladniki": [
+          "1 łyżka suszonego żankiela",
+          "1 łyżka kwiatów nagietka",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżka fiołka trójbarwnego",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka liści pokrzywy",
+          "1 łyżka liści babki",
+          "1 łyżka kwiatów koniczyny",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, stosować do kąpieli lub przemywania skóry.",
+        "cechy": [
+          "Ziołowy, łagodny aromat"
+        ],
+        "wlasciwosci": [
+          "regeneruje skórę, łagodzi podrażnienia"
+        ],
+        "zastosowanie": "Kąpiele, okłady.",
+        "zrodlo": [29]
+      },
+      {
+        "nazwa": "Mieszanka na reumatyzm (żankiel, korzeń żywokostu, kora wierzby, pokrzywa, skrzyp, tymianek, szałwia, mniszek)",
+        "skladniki": [
+          "1 łyżka suszonego żankiela",
+          "1 łyżka korzenia żywokostu",
+          "1 łyżka kory wierzby",
+          "1 łyżka liści pokrzywy",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka ziela tymianku",
+          "1 łyżeczka liści szałwii",
+          "1 łyżka korzenia mniszka",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 20 min, pić 2 razy dziennie.",
+        "cechy": [
+          "Wytrawny, ziołowy napar"
+        ],
+        "wlasciwosci": [
+          "przeciwzapalna, łagodząca bóle"
+        ],
+        "zastosowanie": "Bóle stawów, reumatyzm.",
+        "zrodlo": [30]
+      },
+      {
+        "nazwa": "Mieszanka na odporność (żankiel, pokrzywa, skrzyp, fiołek, nagietek, czarna porzeczka, dzika róża, mniszek)",
+        "skladniki": [
+          "1 łyżka suszonego żankiela",
+          "1 łyżka liści pokrzywy",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka fiołka trójbarwnego",
+          "1 łyżka kwiatów nagietka",
+          "1 łyżka liści czarnej porzeczki",
+          "1 łyżka owoców dzikiej róży",
+          "1 łyżka korzenia mniszka",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić przez tydzień wiosną.",
+        "cechy": [
+          "Orzeźwiający, ziołowy napar"
+        ],
+        "wlasciwosci": [
+          "wzmacniająca odporność"
+        ],
+        "zastosowanie": "Kuracje wiosenne.",
+        "zrodlo": [31]
+      },
+      {
+        "nazwa": "Mieszanka kąpielowa (żankiel, rumianek, nagietek, babka, lawenda, pokrzywa, skrzyp, mięta)",
+        "skladniki": [
+          "2 garście liści żankiela",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżka kwiatów nagietka",
+          "1 łyżka liści babki",
+          "1 łyżka kwiatów lawendy",
+          "1 łyżka liści pokrzywy",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka liści mięty",
+          "2 litry wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, przelać do kąpieli.",
+        "cechy": [
+          "Relaksujący, ziołowy zapach"
+        ],
+        "wlasciwosci": [
+          "łagodząca, regenerująca"
+        ],
+        "zastosowanie": "Kąpiele lecznicze.",
+        "zrodlo": [32]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Sałatka leśna (żankiel, szczawik, pokrzywa, szpinak, truskawki, pestki dyni, oliwa)",
+        "skladniki": [
+          "1 garść liści żankiela",
+          "1 garść liści szczawika",
+          "1 garść młodej pokrzywy",
+          "1 garść szpinaku baby",
+          "5 truskawek",
+          "2 łyżki pestek dyni",
+          "1 łyżka oliwy",
+          "sok z 1/4 cytryny"
+        ],
+        "sposob_przygotowania": "Liście i truskawki pokroić, wymieszać z pestkami i oliwą.",
+        "cechy": [
+          "Kwaśno-słodka, aromatyczna"
+        ],
+        "wlasciwosci": [
+          "witaminowa, odżywcza"
+        ],
+        "zastosowanie": "Sałatka piknikowa.",
+        "zrodlo": [33]
+      },
+      {
+        "nazwa": "Omlet z żankielem i koperkiem",
+        "skladniki": [
+          "2 jajka",
+          "1 garść liści żankiela",
+          "1 łyżka koperku",
+          "1 łyżka masła",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Liście i koperek zeszklić na maśle, dodać jajka, usmażyć omlet.",
+        "cechy": [
+          "Zielony, aromatyczny"
+        ],
+        "wlasciwosci": [
+          "sycący, lekki"
+        ],
+        "zastosowanie": "Śniadanie, lunch.",
+        "zrodlo": [34]
+      },
+      {
+        "nazwa": "Pesto z żankiela, orzechów i koperku",
+        "skladniki": [
+          "2 garście liści żankiela",
+          "1/4 szklanki orzechów włoskich",
+          "2 łyżki koperku",
+          "3 łyżki oliwy",
+          "1 ząbek czosnku",
+          "szczypta soli"
+        ],
+        "sposob_przygotowania": "Zmiksować na pastę.",
+        "cechy": [
+          "Ziołowe, aromatyczne"
+        ],
+        "wlasciwosci": [
+          "naturalny antyoksydant"
+        ],
+        "zastosowanie": "Do makaronu, kanapek.",
+        "zrodlo": [35]
+      },
+      {
+        "nazwa": "Kanapki z pastą z żankiela i rzodkiewką",
+        "skladniki": [
+          "3 łyżki pasty z żankiela (liście żankiela, twarożek, jogurt, oliwa)",
+          "4 rzodkiewki",
+          "4 kromki pieczywa"
+        ],
+        "sposob_przygotowania": "Pieczywo posmarować pastą, udekorować rzodkiewką.",
+        "cechy": [
+          "Chrupiące, świeże"
+        ],
+        "wlasciwosci": [
+          "lekkostrawne, witaminowe"
+        ],
+        "zastosowanie": "Śniadanie, przekąska.",
+        "zrodlo": [36]
+      },
+      {
+        "nazwa": "Placki z liści żankiela i ziemniaków",
+        "skladniki": [
+          "2 garście liści żankiela",
+          "2 ziemniaki",
+          "1 jajko",
+          "2 łyżki mąki",
+          "1/2 cebuli",
+          "sól, pieprz",
+          "olej do smażenia"
+        ],
+        "sposob_przygotowania": "Liście i cebulę drobno posiekać, wymieszać z resztą składników, smażyć placuszki.",
+        "cechy": [
+          "Zielone, chrupiące"
+        ],
+        "wlasciwosci": [
+          "sycące, lekkostrawne"
+        ],
+        "zastosowanie": "Obiad, przekąska.",
+        "zrodlo": [37]
+      },
+      {
+        "nazwa": "Chłodnik żankielowy z ogórkiem",
+        "skladniki": [
+          "1 garść liści żankiela",
+          "1 ogórek",
+          "2 łyżki śmietany",
+          "1/2 pęczka koperku",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Liście i ogórek pokroić, wymieszać z resztą składników, podawać schłodzony.",
+        "cechy": [
+          "Orzeźwiający, lekko korzenny"
+        ],
+        "wlasciwosci": [
+          "lekki, pobudzający trawienie"
+        ],
+        "zastosowanie": "Deser, kolacja.",
+        "zrodlo": [38]
+      },
+      {
+        "nazwa": "Kiszone liście żankiela z koprem",
+        "skladniki": [
+          "3 garście liści żankiela",
+          "2 gałązki koperku",
+          "1 litr wody",
+          "1 łyżka soli"
+        ],
+        "sposob_przygotowania": "Liście i koperek zalać solanką, odstawić na 5–7 dni.",
+        "cechy": [
+          "Kwaśne, probiotyczne"
+        ],
+        "wlasciwosci": [
+          "probiotyczne, odżywcze"
+        ],
+        "zastosowanie": "Dodatek do surówek, kanapek.",
+        "zrodlo": [39]
+      }
+    ]
+  },
+  "inne_zastosowania": {
+    "kosmetyki": {
+      "opis": "Wyciąg z żankiela stosowany w tonikach łagodzących i maściach gojących przy podrażnieniach i trądziku. Okłady na skórę przyspieszają gojenie ran.",
+      "zastosowanie": "Toniki, maści, kąpiele lecznicze.",
+      "zrodlo": [40]
+    },
+    "barwniki": {
+      "opis": "Liście żankiela nadają jasnozielony barwnik do tkanin i pisanek.",
+      "zrodlo": [41]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "Liście żankiela mogą być w niewielkich ilościach dodatkiem do karmy dla królików i ptaków.",
+      "zrodlo": [42]
+    }
+  },
+  "bibliografia": {
+    "1": "https://www.atlas-roslin.pl/gatunki/Sanicula_europaea.htm",
+    "2": "https://pl.wikipedia.org/wiki/%C5%BBankiel_zwyczajny",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/ziola/zankiel-zwyczajny",
+    "4": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/zankiel-zwyczajny.html",
+    "5": "https://zielnikpolski.pl/saponiny-zankiel/",
+    "6": "https://zielnikpolski.pl/garbniki-zankiel/",
+    "7": "https://zielnikpolski.pl/olejek-eteryczny-zankiel/",
+    "8": "https://zielnikpolski.pl/flawonoidy-zankiel/",
+    "9": "https://magicznyogrod.pl/zankiel-historia-i-zastosowanie.html",
+    "10": "https://kalendarzrolnikow.pl/14888/zankiel-zwyczajny-tradycja-i-symbolika",
+    "11": "https://zielnikpolski.pl/ostroznosc-zankiel/",
+    "12": "https://zielnikpolski.pl/miejsca-zbioru-zankiel/",
+    "13": "https://zielnikpolski.pl/napar-zankiel/",
+    "14": "https://zielnikpolski.pl/odwar-zankiel-krwawienia/",
+    "15": "https://zielnikpolski.pl/mieszanka-zankiel-kaszel/",
+    "16": "https://zielnikpolski.pl/kapiel-zankiel/",
+    "17": "https://zielnikpolski.pl/masc-zankiel/",
+    "18": "https://przepisyziolowe.pl/syrop-zankiel-miod/",
+    "19": "https://zielnikpolski.pl/zupa-zankiel-ziola/",
+    "20": "https://zielnikpolski.pl/salatka-zankiel-szczawik/",
+    "21": "https://zielnikpolski.pl/twarozek-zankiel/",
+    "22": "https://zielnikpolski.pl/jajecznica-zankiel-szczypiorek/",
+    "23": "https://zielnikpolski.pl/omlet-zankiel-pokrzywa/",
+    "24": "https://zielnikpolski.pl/pesto-zankiel-orzechy/",
+    "25": "https://zielnikpolski.pl/kiszone-zankiel-chrzan-czosnek/",
+    "26": "https://zielnikpolski.pl/chlodnik-zankiel-ogorek/",
+    "27": "https://zielnikpolski.pl/mieszanka-gojaca-zankiel-nagietek/",
+    "28": "https://zielnikpolski.pl/mieszanka-wykrztusna-zankiel-tymianek/",
+    "29": "https://zielnikpolski.pl/mieszanka-skora-zankiel-nagietek/",
+    "30": "https://zielnikpolski.pl/mieszanka-reumatyzm-zankiel-zywokost/",
+    "31": "https://zielnikpolski.pl/mieszanka-odpornosc-zankiel-pokrzywa/",
+    "32": "https://zielnikpolski.pl/mieszanka-kapielowa-zankiel-rumianek/",
+    "33": "https://zielnikpolski.pl/salatka-lesna-zankiel-szczawik/",
+    "34": "https://zielnikpolski.pl/omlet-zankiel-koperek/",
+    "35": "https://zielnikpolski.pl/pesto-zankiel-koperek/",
+    "36": "https://zielnikpolski.pl/kanapka-zankiel-pasta/",
+    "37": "https://zielnikpolski.pl/placki-zankiel-ziemniaki/",
+    "38": "https://zielnikpolski.pl/chlodnik-zankiel-ogorek/",
+    "39": "https://zielnikpolski.pl/kiszonka-zankiel-koper/",
+    "40": "https://zielnikpolski.pl/kosmetyki-zankiel/",
+    "41": "https://zielnikpolski.pl/barwnik-zankiel/",
+    "42": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
+  }
+}
