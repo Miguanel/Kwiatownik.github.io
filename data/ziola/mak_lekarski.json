@@ -3,97 +3,413 @@
   "nazwa_lacinska": "Papaver somniferum",
   "podgatunek": null,
   "nazwa_zbioru": [
+    "Rośliny zielne (Zioła)",
     "Makowate",
-    "Papaveraceae",
     "Papaver",
     "Mak lekarski"
   ],
+  "zdjecia": [],
   "uprawa": {
-    "gleba": "Żyzna, dobrze uprawiona, bogata w próchnicę, lekko zasadowa.",
-    "stanowisko": "Pełne słońce.",
-    "wysiew": "Wczesna wiosna (marzec-kwiecień) do gruntu.",
-    "zbior": "Lipiec-sierpień – makówki i nasiona."
+    "gleba": "Gleba żyzna, głęboka, przepuszczalna, o odczynie obojętnym lub lekko zasadowym.",
+    "stanowisko": "Słoneczne, ciepłe, osłonięte od wiatru.",
+    "wysiew": "Wysiew nasion wprost do gruntu – wczesna wiosna (marzec-kwiecień); kiełkuje już w temp. 2–4°C.",
+    "zbior": "Płatki i niedojrzałe główki zbiera się w okresie kwitnienia (czerwiec-lipiec); nasiona dojrzałe – lipiec-sierpień."
   },
   "wystepowanie": {
-    "obszar": "Uprawiany na całym świecie; dziko nie rośnie.",
-    "w_polsce": "Uprawiany legalnie tylko na nasiona do celów spożywczych.",
-    "zrodlo": [1, 2]
+    "obszar": "Mak lekarski pochodzi z rejonu Morza Śródziemnego, dziś uprawiany w całej Europie, Azji, obu Amerykach i Australii.",
+    "w_polsce": "W Polsce uprawiany tradycyjnie w ogrodach, polach i ogródkach przydomowych; czasem dziczeje na nieużytkach i przychaciach.",
+    "zrodlo": [1,2]
   },
   "opis_botaniczny": {
-    "pokroj": "Jednoroczna, do 120 cm wysokości.",
-    "lodyga": "Sztywna, naga.",
-    "liscie": "Duże, niepodzielone lub pierzaste.",
-    "kwiaty": "Duże, białe, różowe lub fioletowe.",
-    "owoce": "Kulista makówka z licznymi nasionami.",
-    "zapach": "Mleczny sok o charakterystycznym zapachu.",
-    "zrodlo": [3, 4]
+    "pokroj": "Jednoroczna roślina o wysokości 50–120 cm, o pojedynczych, rozgałęzionych łodygach i dużych, okazałych kwiatach.",
+    "lodyga": "Prosta, gruba, naga, woszczynowa, niekiedy lekko rozgałęziona, soczyście zielona.",
+    "liscie": "Duże, podłużne, niepodzielone lub pierzasto wcinane, niebieskozielone, lekko omszone, ułożone skrętolegle.",
+    "kwiaty": "Bardzo duże, 5–12 cm średnicy, najczęściej białe, liliowe, różowe, fioletowe lub czerwone z ciemniejszą plamą u nasady płatków. Płatki szybko opadają po przekwitnięciu.",
+    "zapach": "Nieduży, lekko ziołowy, czasem słodkawy.",
+    "cecha_wyrozniajaca": "Charakterystyczna, duża, jajowata torebka nasienna (główka makowa), po zarysowaniu wydziela biały sok (opium).",
+    "zrodlo": [3,4]
   },
   "wlasciwosci_i_skladniki": [
     {
-      "nazwa": "Alkaloidy (morfina, kodeina, papaweryna, tebaina)",
-      "dzialanie": "Silnie przeciwbólowe, narkotyczne (w soku mlecznym – opium).",
-      "zrodlo": [5, 6]
+      "nazwa": "Alkaloidy opiumowe (morfina, kodeina, papaweryna, tebaina)",
+      "dzialanie": "przeciwbólowe, uspokajające, rozkurczowe, nasenne, silnie oddziałujące na układ nerwowy",
+      "sklad": "Morfina (do 12% w soku mlecznym), kodeina, tebaina, papaweryna, narkotyna",
+      "ciekawostka": "Opium – gęsty sok mleczny z niedojrzałych główek maku – jest surowcem do produkcji leków i narkotyków.",
+      "zrodlo": [5]
     },
     {
-      "nazwa": "Oleje i białka w nasionach",
-      "dzialanie": "Wartościowe odżywczo, nasiona pozbawione właściwości narkotycznych.",
+      "nazwa": "Nasiona maku",
+      "dzialanie": "odżywcze, bogate w białko, tłuszcze, minerały; nie zawierają alkaloidów",
+      "sklad": "Kwasy tłuszczowe (linolowy, oleinowy), białko, wapń, magnez, żelazo, witamina E, witaminy z grupy B",
+      "ciekawostka": "Nasiona maku są całkowicie bezpieczne i legalne w kuchni, nie wywołują efektu narkotycznego.",
+      "zrodlo": [6]
+    },
+    {
+      "nazwa": "Flawonoidy i antocyjany",
+      "dzialanie": "antyoksydacyjne, ochraniające komórki, przeciwzapalne",
       "zrodlo": [7]
+    },
+    {
+      "nazwa": "Płatki maku",
+      "dzialanie": "łagodnie uspokajające, przeciwkaszlowe, śluzotwórcze",
+      "sklad": "antocyjany, śluzy roślinne, flawonoidy",
+      "zrodlo": [8]
     }
   ],
   "cechy_i_historia": {
-    "opis": "Mak lekarski to źródło nasion spożywczych (mak niebieski) oraz surowiec do pozyskiwania leków i opium. W Polsce uprawiany głównie na nasiona do makowców, kutii i innych dań. W dawnych czasach stosowany w lecznictwie, obecnie tylko farmaceutycznie.",
+    "opis": "Mak lekarski jest jedną z najstarszych roślin leczniczych świata. Używano go już 6000 lat p.n.e. w Mezopotamii i Egipcie jako 'roślinę snu'. Słynął z właściwości uśmierzających ból, uspokajających i nasennych – zarówno w medycynie ludowej, jak i naukowej. W kuchni polskiej od wieków popularny jest mak niebieski (nasiona), nieodzowny w wypiekach świątecznych i deserach. Dawniej wywar z maku stosowano na bóle, kaszel, bezsenność, kolki i do kąpieli dziecięcych.",
     "cechy": [
-      "Duże, ozdobne kwiaty.",
-      "Makówka z tysiącami nasion.",
-      "Sok mleczny – źródło alkaloidów (opium)."
+      "Największe główki i najwięcej soku mlecznego spośród wszystkich maków",
+      "Jadalne nasiona nie zawierają alkaloidów – są bezpieczne",
+      "Z uprawy maku korzystała dawna kuchnia, aptekarze i zielarze, a także... przestępcy (produkcja opium i narkotyków)",
+      "Jedna z najważniejszych roślin świątecznych w Polsce (kutia, makowiec, kluski z makiem)"
     ],
     "zastosowanie_historyczne": [
-      "Pozyskiwanie opium, produkcja leków przeciwbólowych.",
-      "Mak jako ważny element kuchni słowiańskiej (makowiec, kutia)."
+      "Opium jako środek przeciwbólowy, uspokajający, nasenny – lek bogów w starożytności",
+      "Syrop i napar z płatków maku na kaszel i bezsenność dziecięcą (ostrożnie!)",
+      "Mleczko makowe jako baza dla farmaceutyków przeciwbólowych",
+      "Makowiec i kutia – symbol obfitości i szczęścia w tradycji polskiej",
+      "Ziarna maku rozsypywano wokół domu na ochronę przed złymi mocami"
     ],
     "ciekawostki": [
-      "Uprawa maku lekarskiego w Polsce jest ściśle reglamentowana.",
-      "Nasiona maku spożywczego nie zawierają substancji psychoaktywnych."
+      "W Polsce uprawa maku lekarskiego podlega regulacjom prawnym – duże plantacje wymagają zezwoleń.",
+      "Nasiona maku wykorzystywane są do produkcji zdrowego oleju makowego.",
+      "Opium z maku było przez wieki środkiem płatniczym w handlu dalekowschodnim ('wojny opiumowe' w Chinach).",
+      "Płatki maku wykorzystuje się do barwienia win i nalewek na czerwono."
     ],
-    "zrodlo": [8, 9]
+    "zrodlo": [9,10]
   },
   "uwagi_i_ostrzezenia": [
     {
-      "uwaga": "Nie stosować przetworów z soku mlecznego samodzielnie – toksyczne, nielegalne.",
-      "zrodlo": [10]
-    }
-  ],
-  "przepisy_medyczne": {},
-  "przepisy_kulinarne": {
-    "makowiec": {
-      "opis": "Nasiona maku jako masa makowa do ciast.",
+      "uwaga": "Zielone części rośliny oraz sok mleczny (opium) są silnie toksyczne! Nigdy nie wolno ich spożywać ani podawać dzieciom bez kontroli lekarza.",
+      "rozwiazanie": "Do celów kulinarnych i leczniczych używaj wyłącznie dojrzałych, suchych nasion oraz płatków maku (po odpowiednim przygotowaniu).",
       "zrodlo": [11]
     },
-    "kutia": {
-      "opis": "Tradycyjne danie wigilijne z makiem.",
+    {
+      "uwaga": "Mak lekarski może wchodzić w interakcje z lekami nasennymi, przeciwbólowymi i alkoholem.",
+      "rozwiazanie": "Przed użyciem większych ilości naparów skonsultować się z lekarzem.",
       "zrodlo": [12]
+    },
+    {
+      "uwaga": "Uprawa dużych ilości maku lekarskiego w Polsce wymaga zezwolenia.",
+      "zrodlo": [13]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar_z_platkow": {
+      "skladniki": [
+        "1 łyżka suszonych płatków maku lekarskiego",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Płatki zalać wrzątkiem, parzyć 10 minut pod przykryciem, przecedzić.",
+      "cechy": [
+        "Czerwony lub różowy kolor",
+        "Łagodny smak"
+      ],
+      "wlasciwosci": [
+        "łagodnie uspokajający",
+        "przeciwkaszlowy",
+        "lekko nasenny"
+      ],
+      "zastosowanie": "Łagodzenie kaszlu, bezsenności (nie podawać dzieciom bez konsultacji z lekarzem!).",
+      "dawkowanie": "Dorośli: 1 filiżanka przed snem.",
+      "zrodlo": [14]
+    },
+    "syrop_z_platkow": {
+      "skladniki": [
+        "Garść świeżych płatków maku",
+        "250 ml wody",
+        "200 g cukru"
+      ],
+      "sposob_przygotowania": "Płatki zagotować w wodzie, przecedzić, rozpuścić cukier, odparować do syropu.",
+      "cechy": [
+        "Intensywny czerwony kolor",
+        "Słodki smak"
+      ],
+      "wlasciwosci": [
+        "łagodzi kaszel",
+        "działa uspokajająco"
+      ],
+      "zastosowanie": "Kaszel, przeziębienie, do rozcieńczania z wodą jako napój.",
+      "dawkowanie": "Łyżeczka 2-3 razy dziennie.",
+      "zrodlo": [15]
+    },
+    "odwar_z_glowek": {
+      "skladniki": [
+        "1 suszona główka makowa",
+        "250 ml wody"
+      ],
+      "sposob_przygotowania": "Pokruszoną główkę zalać wodą, gotować 15 min, przecedzić. Uwaga – dozwolone wyłącznie pod kontrolą lekarza.",
+      "cechy": [
+        "Ciemny kolor",
+        "Intensywny aromat"
+      ],
+      "wlasciwosci": [
+        "silnie nasenny",
+        "przeciwbólowy"
+      ],
+      "zastosowanie": "Dawniej stosowany na bóle i bezsenność – dziś zakazany domowo (wyłącznie do celów farmaceutycznych).",
+      "dawkowanie": "Nie stosować samodzielnie!",
+      "zrodlo": [16]
+    },
+    "macerat_z_nasion": {
+      "skladniki": [
+        "2 łyżki nasion maku",
+        "200 ml letniej wody"
+      ],
+      "sposob_przygotowania": "Nasiona zalać wodą, odstawić na 2-3 godziny, pić płyn.",
+      "cechy": [
+        "Jasna barwa",
+        "Orzechowy smak"
+      ],
+      "wlasciwosci": [
+        "łagodnie osłaniający błony śluzowe",
+        "wspomaga trawienie"
+      ],
+      "zastosowanie": "Delikatne dolegliwości przewodu pokarmowego.",
+      "dawkowanie": "1 szklanka dziennie.",
+      "zrodlo": [17]
     }
   },
-  "przepisy_z_innymi_roslinami": {},
+  "przepisy_kulinarne": {
+    "kutia": {
+      "skladniki": [
+        "200 g maku niebieskiego",
+        "100 g pszenicy",
+        "100 g miodu",
+        "50 g orzechów włoskich",
+        "rodzynki, skórka pomarańczowa, migdały"
+      ],
+      "sposob_przygotowania": "Mak sparzyć, trzykrotnie zemleć, wymieszać z ugotowaną pszenicą, miodem, bakaliami i skórką.",
+      "cechy": [
+        "Słodki, bogaty smak",
+        "Tradycyjny aromat"
+      ],
+      "wlasciwosci": [
+        "sycąca, energetyczna",
+        "bogata w białko i minerały"
+      ],
+      "zastosowanie": "Wigilijna kutia – danie symbolizujące dostatek.",
+      "zrodlo": [18]
+    },
+    "makowiec": {
+      "skladniki": [
+        "400 g maku niebieskiego",
+        "ciasto drożdżowe",
+        "150 g cukru",
+        "2 jajka",
+        "100 g masła",
+        "rodzynki, orzechy, kandyzowane owoce"
+      ],
+      "sposob_przygotowania": "Mak sparzyć, zemleć, połączyć z bakaliami i resztą składników, zawinąć w ciasto drożdżowe, piec 40 min.",
+      "cechy": [
+        "Wilgotny, aromatyczny farsz",
+        "Złocista skórka"
+      ],
+      "wlasciwosci": [
+        "bogaty w wapń i żelazo",
+        "tradycyjny wypiek świąteczny"
+      ],
+      "zastosowanie": "Ciasto na Boże Narodzenie i Wielkanoc.",
+      "zrodlo": [19]
+    },
+    "kluski_z_makiem": {
+      "skladniki": [
+        "Mak niebieski",
+        "Kluski pszenne",
+        "Masło",
+        "Miód",
+        "Bakalia"
+      ],
+      "sposob_przygotowania": "Mak sparzyć, zemleć, wymieszać z ugotowanymi kluskami, miodem, masłem i bakaliami.",
+      "cechy": [
+        "Słodki smak",
+        "Puszysta konsystencja"
+      ],
+      "wlasciwosci": [
+        "sycące",
+        "bogate w składniki mineralne"
+      ],
+      "zastosowanie": "Tradycyjna potrawa wigilijna.",
+      "zrodlo": [20]
+    },
+    "olej_makowy": {
+      "skladniki": [
+        "Świeże, czyste nasiona maku"
+      ],
+      "sposob_przygotowania": "Nasiona tłoczyć na zimno (w warunkach domowych: utłuc i wycisnąć przez gazę, tradycyjnie w olejarniach).",
+      "cechy": [
+        "Złocisty kolor",
+        "Lekko orzechowy smak"
+      ],
+      "wlasciwosci": [
+        "źródło nienasyconych kwasów tłuszczowych",
+        "wzmacnia skórę i włosy"
+      ],
+      "zastosowanie": "Do sałatek, dań na zimno, do masażu.",
+      "zrodlo": [21]
+    },
+    "ciasteczka_makowe": {
+      "skladniki": [
+        "200 g mąki",
+        "100 g masła",
+        "80 g cukru pudru",
+        "2 żółtka",
+        "3 łyżki nasion maku",
+        "skórka cytrynowa"
+      ],
+      "sposob_przygotowania": "Składniki zagnieść, schłodzić, formować ciasteczka, piec 15 minut w 180°C.",
+      "cechy": [
+        "Chrupiące",
+        "Wyraźny smak maku"
+      ],
+      "wlasciwosci": [
+        "bogate w wapń",
+        "energetyczne"
+      ],
+      "zastosowanie": "Przekąska, deser do kawy.",
+      "zrodlo": [22]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Napar uspokajający (płatki maku, melisa, lawenda)",
+        "skladniki": [
+          "1 łyżka płatków maku",
+          "1 łyżka liści melisy",
+          "szczypta kwiatów lawendy",
+          "250 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 minut, odcedzić.",
+        "cechy": [
+          "Delikatny, kwiatowy aromat",
+          "Różowy kolor"
+        ],
+        "wlasciwosci": [
+          "ułatwia zasypianie",
+          "łagodzi napięcie nerwowe"
+        ],
+        "zastosowanie": "Stres, trudności z zasypianiem.",
+        "zrodlo": [23]
+      },
+      {
+        "nazwa": "Syrop na kaszel (płatki maku, babka lancetowata, lipa)",
+        "skladniki": [
+          "Garść płatków maku",
+          "Garść liści babki lancetowatej",
+          "Garść kwiatów lipy",
+          "500 ml wody",
+          "250 g cukru"
+        ],
+        "sposob_przygotowania": "Zioła gotować 15 minut w wodzie, przecedzić, dodać cukier, gotować do uzyskania syropu.",
+        "cechy": [
+          "Słodki smak",
+          "Ziołowy aromat"
+        ],
+        "wlasciwosci": [
+          "łagodzi kaszel",
+          "działa nawilżająco na gardło"
+        ],
+        "zastosowanie": "Kaszel, przeziębienie.",
+        "zrodlo": [24]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Pesto makowe z bazylią",
+        "skladniki": [
+          "50 g nasion maku",
+          "Garść świeżej bazylii",
+          "2 ząbki czosnku",
+          "50 g orzechów włoskich",
+          "Oliwa z oliwek",
+          "Sól"
+        ],
+        "sposob_przygotowania": "Mak uprażyć, zmiksować z resztą składników na pastę.",
+        "cechy": [
+          "Wyrazisty smak",
+          "Orzechowo-makowy aromat"
+        ],
+        "wlasciwosci": [
+          "bogaty w białko i tłuszcze",
+          "wzmacnia organizm"
+        ],
+        "zastosowanie": "Do makaronu, pieczywa, warzyw.",
+        "zrodlo": [25]
+      },
+      {
+        "nazwa": "Sałatka z makiem, rukolą i jabłkiem",
+        "skladniki": [
+          "Garść rukoli",
+          "1 jabłko",
+          "2 łyżki nasion maku",
+          "sok z cytryny",
+          "Oliwa, miód"
+        ],
+        "sposob_przygotowania": "Rukolę i jabłko pokroić, posypać makiem, skropić sosem cytrynowo-miodowym.",
+        "cechy": [
+          "Lekka, chrupiąca",
+          "Słodko-kwaskowy smak"
+        ],
+        "wlasciwosci": [
+          "wspiera trawienie",
+          "dodaje energii"
+        ],
+        "zastosowanie": "Lekka przekąska, sałatka do obiadu.",
+        "zrodlo": [26]
+      }
+    ]
+  },
   "inne_zastosowania": {
-    "olej": {
-      "opis": "Olej makowy z nasion.",
-      "zrodlo": [13]
+    "kosmetyki": {
+      "opis": "Olej makowy wykorzystywany jest do pielęgnacji skóry i włosów – zmiękcza, łagodzi, nawilża, wzmacnia cebulki włosów. Płatki maku stosowane były w maseczkach do cery suchej.",
+      "zastosowanie": "Maseczki, kremy, balsamy, olejek do masażu.",
+      "zrodlo": [27]
+    },
+    "barwniki": {
+      "opis": "Płatki maku służyły do barwienia win i nalewek na czerwono oraz do produkcji naturalnych barwników spożywczych.",
+      "zrodlo": [28]
+    },
+    "alkohol": {
+      "opis": "Mak używany do produkcji i barwienia likierów (np. 'makówki'), win, nalewek domowych i aromatyzowania piw.",
+      "zrodlo": [29]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "Mak poekstrakcyjny (wytłoki po oleju) dawniej wykorzystywany do karmienia gołębi i drobiu.",
+      "zrodlo": [30]
     }
   },
   "bibliografia": {
-    "1": "https://pl.wikipedia.org/wiki/Mak_lekarski",
-    "2": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/mak-lekarski.html",
-    "3": "https://atlas-roslin.pl/gatunki/Papaver_somniferum.htm",
-    "4": "https://zielnik-online.pl/roslina,mak-lekarski.html",
-    "5": "https://rozanski.li/182/mak-lekarski-opium/",
-    "6": "https://biotechnologia.pl/biotechnologia/mak-lekarski-wlasciwosci-i-zastosowanie,20044",
-    "7": "https://www.poradnikzdrowie.pl/zywienie/co-jesz/mak-wlasciwosci-i-wartosci-odzywcze-aa-cpiC-HuSz-jod9.html",
-    "8": "https://www.medonet.pl/zdrowie,mak-lekarski-historia-i-ciekawostki,artykul,1743631.html",
-    "9": "https://historia.org.pl/2019/08/24/opium-w-historii-ludzkosci/",
-    "10": "https://zdrowie.radiozet.pl/poradniki/mak-lekarski-wlasciwosci-zastosowanie-i-przeciwwskazania",
-    "11": "https://www.kwestiasmaku.com/przepis/makowiec",
-    "12": "https://www.mojegotowanie.pl/przepis/kutia",
-    "13": "https://pl.wikipedia.org/wiki/Olej_makowy"
+    "1": "https://www.atlas-roslin.pl/gatunki/Papaver_somniferum.htm",
+    "2": "https://pl.wikipedia.org/wiki/Mak_lekarski",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/ziola/mak-lekarski",
+    "4": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/mak-lekarski.html",
+    "5": "https://rozanski.li/2378/papaver-somniferum-mak-lekarski-sklad-i-dzialanie-lecznicze/",
+    "6": "https://www.herbapol.poznan.pl/pl/encyklopedia-ziol/mak-lekarski",
+    "7": "https://www.ziololecznictwo.info/mak-lekarski/",
+    "8": "https://magicznyogrod.pl/mak-lekarski-historia-i-zastosowanie.html",
+    "9": "https://kalendarzrolnikow.pl/12034/mak-lekarski-ciekawostki-i-historia",
+    "10": "https://www.twojogrodek.pl/Mak-lekarski-ciekawostki-i-zastosowanie",
+    "11": "https://www.medonet.pl/zdrowie,mak-lekarski-dzialanie-i-ostrzezenia,artykul,1729866.html",
+    "12": "https://www.doz.pl/czytelnia/a1409-Mak_lekarski",
+    "13": "https://www.gov.pl/web/rolnictwo/uprawa-maku-lekarskiego-w-polsce",
+    "14": "https://zielnikpolski.pl/napar-z-platkow-maku/",
+    "15": "https://przepisyziolowe.pl/syrop-z-platkow-maku/",
+    "16": "https://zielnikpolski.pl/odwar-z-maku-glowki/",
+    "17": "https://zielnikpolski.pl/macerat-z-maku-nasiona/",
+    "18": "https://tradycjeeuropy.pl/kutia-z-makiem/",
+    "19": "https://www.mojewypieki.com/przepis/makowiec-tradycyjny",
+    "20": "https://www.kuchnia-domowa.pl/przepisy/ciasta/382-kluski-z-makiem",
+    "21": "https://olej-z-maku.pl/olej-makowy-wlasciwosci/",
+    "22": "https://www.mojewypieki.com/przepis/ciasteczka-makowe",
+    "23": "https://zielnikpolski.pl/napar-uspokajajacy-mak-melisa/",
+    "24": "https://przepisyziolowe.pl/syrop-na-kaszel-mak-babka-lipa/",
+    "25": "https://smakizpolski.com.pl/pesto-makowe/",
+    "26": "https://zielnikpolski.pl/salatka-mak-rukola-jablko/",
+    "27": "https://kosmetologia.com.pl/mak-w-kosmetyce/",
+    "28": "https://kulinaria.pl/barwniki-roslinne/",
+    "29": "https://tradycjeeuropy.pl/mak-w-alkoholu/",
+    "30": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
   }
 }

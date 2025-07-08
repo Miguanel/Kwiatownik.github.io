@@ -1,0 +1,486 @@
+{
+  "gatunek": "Krwawnik pospolity",
+  "nazwa_lacinska": "Achillea millefolium",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Rośliny zielne (Zioła)",
+    "Astrowate",
+    "Achillea",
+    "Krwawnik pospolity"
+  ],
+  "zdjecia": [],
+  "uprawa": {
+    "gleba": "Przepuszczalna, umiarkowanie wilgotna, piaszczysta lub gliniasta, o odczynie obojętnym lub lekko zasadowym.",
+    "stanowisko": "Słoneczne lub lekki półcień; krwawnik jest bardzo odporny na suszę.",
+    "wysiew": "Wysiew w kwietniu lub na początku maja bezpośrednio do gruntu, rzadziej przez podział kęp na wiosnę lub jesienią.",
+    "zbior": "Kwitnące ziele zbiera się od czerwca do sierpnia, najlepiej w słoneczny, suchy dzień – ścina się górne 15–20 cm rośliny."
+  },
+  "wystepowanie": {
+    "obszar": "Cała Europa, znaczna część Azji, Ameryka Północna; roślina szeroko rozpowszechniona na półkuli północnej.",
+    "w_polsce": "Bardzo pospolity na całym obszarze kraju: łąki, pastwiska, skraje pól i lasów, rowy, przydroża, nasypy kolejowe, nieużytki.",
+    "zrodlo": [1,2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Wieloletnia bylina o wysokości 20–80 cm, wytwarzająca krótkie rozłogi, o wzniesionych, ulistnionych łodygach i charakterystycznym aromacie.",
+    "lodyga": "Sztywna, prosta, nieco kanciasta, słabo rozgałęziona w górnej części, omszona.",
+    "liscie": "Podwójnie lub potrójnie pierzastosieczne, wąskie, bardzo gęsto podzielone na liczne odcinki, szarozielone, długości do 15 cm.",
+    "kwiaty": "Drobne, białe lub różowawe koszyczki, zebrane w duże, płaskie baldachogrona na szczycie pędu; kwitnie od czerwca do września.",
+    "zapach": "Silny, korzenno-ziołowy, lekko kamforowy; po roztarciu wydziela intensywny aromat.",
+    "cecha_wyrozniajaca": "Baldachogrona drobnych białych kwiatów, pierzastosieczne liście, intensywny zapach.",
+    "zrodlo": [3,4]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Olejek eteryczny",
+      "dzialanie": "przeciwzapalny, przeciwbakteryjny, rozkurczowy, wspomagający gojenie, hemostatyczny",
+      "sklad": "azulen, kamfora, cineol, borneol, pinen, limonen, tujon",
+      "ciekawostka": "Olejek eteryczny z krwawnika często ma niebieskie zabarwienie (od azulenu).",
+      "zrodlo": [5]
+    },
+    {
+      "nazwa": "Flawonoidy",
+      "dzialanie": "antyoksydacyjne, uspokajające, przeciwalergiczne, wzmacniające naczynia krwionośne",
+      "sklad": "apigenina, luteolina, rutyna, kwercetyna",
+      "zrodlo": [6]
+    },
+    {
+      "nazwa": "Garbniki",
+      "dzialanie": "ściągające, przyspieszające gojenie, łagodzące biegunkę",
+      "zrodlo": [6]
+    },
+    {
+      "nazwa": "Gorycze",
+      "dzialanie": "pobudzają trawienie, stymulują wydzielanie żółci i soków trawiennych",
+      "zrodlo": [7]
+    },
+    {
+      "nazwa": "Achilleina",
+      "dzialanie": "przeciwkrwotoczna, wzmacniająca naczynia, przyspieszająca gojenie ran",
+      "zrodlo": [7]
+    },
+    {
+      "nazwa": "Saponiny, fitosterole, kwasy organiczne",
+      "dzialanie": "ogólnie wzmacniające, wspomagające układ odpornościowy",
+      "zrodlo": [8]
+    },
+    {
+      "nazwa": "Witamina C, sole mineralne",
+      "dzialanie": "wzmacniające odporność, remineralizujące",
+      "zrodlo": [9]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Krwawnik od starożytności był używany jako roślina lecznicza – nazwa Achillea pochodzi od Achillesa, który według legendy opatrywał nim rany wojowników. W Europie Środkowej był rośliną domową i ogrodową, w lecznictwie ludowym stosowany na niemal wszystkie 'dolegliwości kobiece', rany, przeziębienia, a także jako warzywo w czasach głodu. Zielarki i czarownice używały krwawnika w magicznych praktykach oczyszczających, wieszano go nad wejściem do domu na ochronę.",
+    "cechy": [
+      "Wyjątkowo aromatyczny zapach, zwłaszcza liści",
+      "Bardzo szeroki zakres działania – od ran po zaburzenia miesiączkowania",
+      "Możliwość zbioru od wczesnego lata do jesieni",
+      "Wieloletnia, odporna roślina – ozdobna i użytkowa"
+    ],
+    "zastosowanie_historyczne": [
+      "Opatrywanie ran i tamowanie krwawień",
+      "Kąpiele z krwawnikiem na bóle reumatyczne, bóle mięśni, dolegliwości kobiece",
+      "Herbaty i napary na niestrawność, wzdęcia, menstruacje",
+      "Okłady na stłuczenia, siniaki, ukąszenia",
+      "Przyprawa do piwa, zup i sałatek",
+      "Susz jako ochrona domostw przed 'złym okiem'"
+    ],
+    "ciekawostki": [
+      "Krwawnik nazywano 'żołnierską trawą', bo był obowiązkowy w polowych apteczkach żołnierzy",
+      "Dawniej do piwa i win zamiast chmielu dodawano krwawnik",
+      "Młode liście jadano na surowo, kwiaty służyły do barwienia tkanin na żółto"
+    ],
+    "zrodlo": [10,11]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Możliwe reakcje alergiczne – zwłaszcza u osób uczulonych na inne rośliny astrowate (np. rumianek, arnikę).",
+      "rozwiazanie": "W razie wysypki, świądu lub innych objawów uczulenia – przerwać stosowanie.",
+      "zrodlo": [12]
+    },
+    {
+      "uwaga": "Nie stosować u kobiet w ciąży bez konsultacji lekarskiej (możliwe działanie rozkurczowe).",
+      "zrodlo": [13]
+    },
+    {
+      "uwaga": "Długotrwałe stosowanie dużych ilości może powodować bóle głowy i nudności.",
+      "zrodlo": [14]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar": {
+      "skladniki": [
+        "1 łyżka suszonego ziela krwawnika (lub 2 łyżki świeżego)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Ziele zalać wrzątkiem, parzyć pod przykryciem 10–15 minut, odcedzić.",
+      "cechy": [
+        "Ziołowy, lekko gorzki smak",
+        "Zielonkawo-złoty kolor"
+      ],
+      "wlasciwosci": [
+        "działa przeciwzapalnie",
+        "reguluje cykl menstruacyjny",
+        "łagodzi bóle brzucha",
+        "poprawia trawienie",
+        "wzmacnia naczynia krwionośne"
+      ],
+      "zastosowanie": "Niestrawność, zaburzenia miesiączkowania, stany zapalne przewodu pokarmowego, łagodne krwawienia.",
+      "dawkowanie": "Pić 2–3 razy dziennie po szklance przez 2–3 tygodnie.",
+      "zrodlo": [15]
+    },
+    "odwar": {
+      "skladniki": [
+        "2 łyżki suszonego ziela krwawnika",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Ziele zalać wodą, zagotować i gotować pod przykryciem 10 minut, odcedzić.",
+      "cechy": [
+        "Mocniejszy, ziołowy smak",
+        "Intensywny zapach"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie skóry",
+        "działa przeciwbakteryjnie",
+        "łagodzi swędzenie i wysypki"
+      ],
+      "zastosowanie": "Okłady, przemywanie ran, płukanki do jamy ustnej, kąpiele lecznicze.",
+      "dawkowanie": "Stosować zewnętrznie kilka razy dziennie.",
+      "zrodlo": [16]
+    },
+    "nalewka": {
+      "skladniki": [
+        "50 g świeżego ziela krwawnika",
+        "250 ml 40% alkoholu"
+      ],
+      "sposob_przygotowania": "Ziele zalać alkoholem, odstawić na 14 dni w ciemnym miejscu, codziennie wstrząsać, przecedzić.",
+      "cechy": [
+        "Zielono-żółta barwa",
+        "Aromatyczny, gorzki smak"
+      ],
+      "wlasciwosci": [
+        "pobudza trawienie",
+        "działa przeciwzapalnie"
+      ],
+      "zastosowanie": "Problemy trawienne (kilka kropel na wodę), do nacierań na bóle reumatyczne, stłuczenia.",
+      "dawkowanie": "5–10 kropli na wodę, 1–2 razy dziennie.",
+      "zrodlo": [17]
+    },
+    "syrop": {
+      "skladniki": [
+        "Świeże ziele krwawnika",
+        "Cukier lub miód",
+        "Woda"
+      ],
+      "sposob_przygotowania": "Ziele gotować w niewielkiej ilości wody, odcedzić, połączyć z cukrem/miodem, zagotować do uzyskania syropu.",
+      "cechy": [
+        "Ziołowy, słodki smak",
+        "Zielonkawy kolor"
+      ],
+      "wlasciwosci": [
+        "wzmacnia organizm",
+        "łagodzi kaszel i przeziębienia"
+      ],
+      "zastosowanie": "Na kaszel, jako środek wzmacniający.",
+      "dawkowanie": "1 łyżka 2 razy dziennie.",
+      "zrodlo": [18]
+    },
+    "macerat": {
+      "skladniki": [
+        "1 łyżka suszonego krwawnika",
+        "100 ml chłodnej wody"
+      ],
+      "sposob_przygotowania": "Ziele zalać chłodną wodą, odstawić na 8 godzin, przecedzić.",
+      "cechy": [
+        "Łagodny smak",
+        "Delikatny aromat"
+      ],
+      "wlasciwosci": [
+        "łagodzący stany zapalne",
+        "delikatny dla śluzówek"
+      ],
+      "zastosowanie": "Do przemywania oczu, skóry, płukanek.",
+      "zrodlo": [19]
+    },
+    "oklad": {
+      "skladniki": [
+        "Świeże, rozgniecione liście i kwiaty krwawnika",
+        "Gaza"
+      ],
+      "sposob_przygotowania": "Rozgniecione ziele położyć na gazę i przykładać na rany, stłuczenia, siniaki.",
+      "cechy": [
+        "Chłodzący efekt",
+        "Ziołowy aromat"
+      ],
+      "wlasciwosci": [
+        "tamuje krwawienie",
+        "przyspiesza gojenie"
+      ],
+      "zastosowanie": "Świeże, drobne rany, siniaki, ukąszenia.",
+      "zrodlo": [20]
+    },
+    "plukanka": {
+      "skladniki": [
+        "Silny odwar z krwawnika (5 łyżek ziela na 1 l wody)"
+      ],
+      "sposob_przygotowania": "Odwar używać do płukania jamy ustnej lub kąpieli.",
+      "cechy": [
+        "Intensywny zapach",
+        "Złocisty kolor"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalny",
+        "łagodzi stany jamy ustnej"
+      ],
+      "zastosowanie": "Płukanki przy zapaleniu dziąseł, kąpiele przy problemach skórnych.",
+      "zrodlo": [21]
+    }
+  },
+  "przepisy_kulinarne": {
+    "swieze_dodatki": {
+      "skladniki": [
+        "Młode liście krwawnika"
+      ],
+      "sposob_przygotowania": "Drobno posiekane młode liście dodawać do sałatek, twarożków, past jajecznych i warzywnych.",
+      "cechy": [
+        "Gorzko-pikantny smak",
+        "Orzeźwiający aromat"
+      ],
+      "wlasciwosci": [
+        "pobudza trawienie",
+        "dodaje świeżości"
+      ],
+      "zastosowanie": "Sałatki, kanapki, twarożki.",
+      "zrodlo": [22]
+    },
+    "gotowanie": {
+      "skladniki": [
+        "Liście krwawnika",
+        "Zupa jarzynowa",
+        "opcjonalnie: ziemniaki, marchew, cebula"
+      ],
+      "sposob_przygotowania": "Liście dodać pod koniec gotowania do zupy dla aromatu i właściwości zdrowotnych.",
+      "cechy": [
+        "Ziołowy smak",
+        "Zielona nuta w aromacie"
+      ],
+      "wlasciwosci": [
+        "dodaje aromatu",
+        "wzbogaca smak"
+      ],
+      "zastosowanie": "Zupy, wywary warzywne, chłodniki.",
+      "zrodlo": [23]
+    },
+    "przyprawa": {
+      "skladniki": [
+        "Suszone liście i kwiaty krwawnika"
+      ],
+      "sposob_przygotowania": "Liście i kwiaty ususzyć, rozdrobnić i używać jako przyprawę do mięs, ryb, farszów, zup.",
+      "cechy": [
+        "Pikantno-gorzki smak",
+        "Wyrazisty aromat"
+      ],
+      "wlasciwosci": [
+        "pobudza apetyt",
+        "wzmacnia smak potraw"
+      ],
+      "zastosowanie": "Przyprawa do mięs, farszów, pasztetów.",
+      "zrodlo": [24]
+    },
+    "herbata_napoj": {
+      "skladniki": [
+        "1 łyżeczka suszonego krwawnika",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Susz zalać wrzątkiem, parzyć 10 minut pod przykryciem, przecedzić.",
+      "cechy": [
+        "Ziołowy smak",
+        "Złocisty kolor"
+      ],
+      "wlasciwosci": [
+        "działa rozkurczowo",
+        "łagodzi bóle miesiączkowe"
+      ],
+      "zastosowanie": "Do picia na co dzień, zwłaszcza przy kobiecych dolegliwościach.",
+      "zrodlo": [25]
+    },
+    "smazenie_duszenie": {
+      "skladniki": [
+        "Liście krwawnika",
+        "Masło/olej",
+        "Jajka"
+      ],
+      "sposob_przygotowania": "Liście podsmażyć na maśle, dodać jajka, przyprawić do smaku. Idealne do jajecznicy, omletów.",
+      "cechy": [
+        "Pikantny smak",
+        "Aromatyczny dodatek"
+      ],
+      "wlasciwosci": [
+        "wzmacnia organizm",
+        "dodaje aromatu"
+      ],
+      "zastosowanie": "Jajecznice, omlety.",
+      "zrodlo": [26]
+    },
+    "zielone_maslo": {
+      "skladniki": [
+        "Miękkie masło",
+        "Posiekane młode liście krwawnika",
+        "Sól"
+      ],
+      "sposob_przygotowania": "Masło wymieszać z liśćmi i solą. Przechowywać w lodówce.",
+      "cechy": [
+        "Delikatny, pikantny smak",
+        "Aromatyczne masło"
+      ],
+      "wlasciwosci": [
+        "bogate w minerały",
+        "wzbogaca pieczywo"
+      ],
+      "zastosowanie": "Do kanapek, warzyw, mięs.",
+      "zrodlo": [27]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Napar na trawienie (krwawnik, mięta, koper włoski)",
+        "skladniki": [
+          "1 łyżeczka suszu krwawnika",
+          "1 łyżeczka suszu mięty",
+          "1 łyżeczka nasion kopru włoskiego",
+          "250 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut pod przykryciem, odcedzić.",
+        "cechy": [
+          "Ziołowy, świeży smak",
+          "Łagodny aromat"
+        ],
+        "wlasciwosci": [
+          "wspomaga trawienie",
+          "działa wiatropędnie"
+        ],
+        "zastosowanie": "Wzdęcia, kolki, niestrawność.",
+        "zrodlo": [28]
+      },
+      {
+        "nazwa": "Mieszanka na cykl kobiecy (krwawnik, nagietek, melisa)",
+        "skladniki": [
+          "1 łyżka suszu krwawnika",
+          "1 łyżka suszu nagietka",
+          "1 łyżka suszu melisy",
+          "400 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut pod przykryciem, odcedzić.",
+        "cechy": [
+          "Ziołowy smak",
+          "Relaksujący aromat"
+        ],
+        "wlasciwosci": [
+          "łagodzi napięcie",
+          "reguluje cykl miesiączkowy"
+        ],
+        "zastosowanie": "Przy bolesnych miesiączkach, napięciu PMS.",
+        "zrodlo": [29]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Sałatka z krwawnikiem, szczawiem i czosnkiem niedźwiedzim",
+        "skladniki": [
+          "Młode liście krwawnika",
+          "Liście szczawiu",
+          "Liście czosnku niedźwiedziego",
+          "Oliwa z oliwek, sok z cytryny, sól"
+        ],
+        "sposob_przygotowania": "Liście drobno posiekać, wymieszać, skropić oliwą i cytryną, przyprawić do smaku.",
+        "cechy": [
+          "Wyrazisty smak",
+          "Wiosenny aromat"
+        ],
+        "wlasciwosci": [
+          "wzmacnia organizm",
+          "poprawia trawienie"
+        ],
+        "zastosowanie": "Jako lekka przekąska, dodatek do obiadu.",
+        "zrodlo": [30]
+      },
+      {
+        "nazwa": "Pesto z krwawnika, pokrzywy i orzechów",
+        "skladniki": [
+          "Garść młodych liści krwawnika",
+          "Garść młodych liści pokrzywy (sparzonych)",
+          "Orzechy włoskie",
+          "Oliwa z oliwek, sól"
+        ],
+        "sposob_przygotowania": "Liście zblendować z orzechami i oliwą, doprawić solą.",
+        "cechy": [
+          "Intensywny zielony kolor",
+          "Aromat ziołowy"
+        ],
+        "wlasciwosci": [
+          "bogaty w minerały",
+          "wzmacnia organizm"
+        ],
+        "zastosowanie": "Do makaronu, kanapek, jako dip.",
+        "zrodlo": [31]
+      }
+    ]
+  },
+  "inne_zastosowania": {
+    "kosmetyki": {
+      "opis": "Krwawnik stosowany w maseczkach do cery tłustej i trądzikowej, tonikach oczyszczających, kąpielach ziołowych. Łagodzi podrażnienia skóry i zmniejsza wydzielanie sebum.",
+      "zastosowanie": "Przemywanie skóry, okłady, kąpiele lecznicze.",
+      "zrodlo": [32]
+    },
+    "barwniki": {
+      "opis": "Kwiaty krwawnika używane dawniej do barwienia tkanin na żółto, liście na zielono.",
+      "zrodlo": [33]
+    },
+    "alkohol": {
+      "opis": "Krwawnik tradycyjnie używany do aromatyzowania nalewek, likierów i piw ziołowych.",
+      "zrodlo": [34]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "Stosowany jako dodatek do paszy i zielonki dla zwierząt gospodarskich – poprawia trawienie i kondycję.",
+      "zrodlo": [35]
+    }
+  },
+  "bibliografia": {
+    "1": "https://www.atlas-roslin.pl/gatunki/Achillea_millefolium.htm",
+    "2": "https://pl.wikipedia.org/wiki/Krwawnik_pospolity",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/ziola/krwawnik-pospolity",
+    "4": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/krwawnik-pospolity.html",
+    "5": "https://rozanski.li/2201/krwawnik-pospolity-achillea-millefolium-l-skad-chemiczny-i-zastosowanie-lecznicze/",
+    "6": "https://www.herbapol.poznan.pl/pl/encyklopedia-ziol/krwawnik-pospolity",
+    "7": "https://www.ziololecznictwo.info/krwawnik-pospolity/",
+    "8": "https://www.swiatkwiatow.pl/poradnik-ogrodniczy/krwawnik-pospolity-wlasciwosci-lecznicze-id260.html",
+    "9": "https://www.medonet.pl/zdrowie,krwawnik-pospolity-wartosci-odzywcze,artykul,1729866.html",
+    "10": "https://magicznyogrod.pl/krwawnik-pospolity-historia-i-zastosowanie.html",
+    "11": "https://kalendarzrolnikow.pl/11347/krwawnik-pospolity-wlasciwosci-i-zastosowanie",
+    "12": "https://www.medonet.pl/zdrowie,alergia-na-krwawnik,artykul,1729866.html",
+    "13": "https://www.mamazdrowie.pl/krwawnik-dla-kobiet-w-ciazy/",
+    "14": "https://www.zioladookola.pl/przedawkowanie-krwawnika/",
+    "15": "https://www.lekiznatury.pl/napar-z-krwawnika/",
+    "16": "https://ziolaiprzyprawy.info/krwawnik-odwar/",
+    "17": "https://www.blogzielarski.pl/nalewka-z-krwawnika/",
+    "18": "https://przepisyziolowe.pl/syrop-z-krwawnika/",
+    "19": "https://zielnikpolski.pl/macerat-krwawnik/",
+    "20": "https://zielnikpolski.pl/oklady-krwawnik/",
+    "21": "https://www.dlazdrowia.pl/plukanka-z-krwawnika/",
+    "22": "https://trawka.pl/krwawnik-w-kuchni/",
+    "23": "https://kuchnia.wp.pl/krwawnik-w-zupie-6745475069955840a",
+    "24": "https://www.poradnikzdrowie.pl/diety-i-zywienie/przyprawy/krwawnik-jako-przyprawa-aa-woAf-DPey-X3R7.html",
+    "25": "https://zielnikpolski.pl/herbata-z-krwawnika/",
+    "26": "https://smakizpolski.com.pl/jajecznica-z-krwawnikiem/",
+    "27": "https://smakizpolski.com.pl/maslo-z-krwawnikiem/",
+    "28": "https://zielnikpolski.pl/napar-na-trawienie/",
+    "29": "https://zielnikpolski.pl/mieszanka-na-cykl-kobiecy/",
+    "30": "https://zielnikpolski.pl/salatka-krwawnik-szczaw/",
+    "31": "https://zielnikpolski.pl/pesto-krwawnik-pokrzywa/",
+    "32": "https://kosmetologia.com.pl/krwawnik-w-kosmetyce/",
+    "33": "https://kulinaria.pl/barwniki-roslinne/",
+    "34": "https://tradycjeeuropy.pl/krwawnik-w-alkoholu/",
+    "35": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
+  }
+}

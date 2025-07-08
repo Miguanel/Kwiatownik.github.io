@@ -3,61 +3,410 @@
   "nazwa_lacinska": "Papaver dubium",
   "podgatunek": null,
   "nazwa_zbioru": [
+    "Rośliny zielne (Zioła)",
     "Makowate",
-    "Papaveraceae",
     "Papaver",
     "Mak wątpliwy"
   ],
+  "zdjecia": [],
   "uprawa": {
-    "gleba": "Piaszczysta, lekka, sucha.",
-    "stanowisko": "Pełne słońce.",
-    "wysiew": "Wysiew naturalny, nie uprawiany ogrodowo.",
-    "zbior": "Czerwiec-lipiec (kwiaty)."
+    "gleba": "Piaszczysta, lekka, uboga, przepuszczalna, czasem gleby próchnicze.",
+    "stanowisko": "Stanowisko słoneczne, sucha gleba; mak wątpliwy jest bardzo odporny na trudne warunki.",
+    "wysiew": "Wysiew wczesną wiosną (marzec-kwiecień) bezpośrednio do gruntu; nasiona bardzo drobne – nie przykrywać ziemią.",
+    "zbior": "Płatki i ziele zbiera się w okresie kwitnienia (maj–lipiec), nasiona od lipca do sierpnia."
   },
   "wystepowanie": {
-    "obszar": "Europa, Azja Zachodnia.",
-    "w_polsce": "Występuje dziko, zwłaszcza na glebach lekkich, piaskach, ugorach, rzadziej niż mak polny.",
-    "zrodlo": [1, 2]
+    "obszar": "Europa, zachodnia Azja, Afryka Północna; rozprzestrzenił się wtórnie również w Ameryce Północnej.",
+    "w_polsce": "Bardzo pospolity na polach, ugorach, przydrożach, piaskach i nasypach kolejowych – częściej w środkowej i południowej części kraju.",
+    "zrodlo": [1,2]
   },
   "opis_botaniczny": {
-    "pokroj": "Roślina jednoroczna, 30–60 cm wysokości.",
-    "lodyga": "Wyprostowana, szczeciniasto owłosiona.",
-    "liscie": "Wąskie, pierzastodzielne.",
-    "kwiaty": "Czerwone, drobniejsze od maku polnego, płatki bez czarnych plam, dłuższa i węższa makówka.",
-    "owoce": "Długa, walcowata torebka nasienna.",
-    "zapach": "Mleczny sok.",
-    "zrodlo": [2, 3]
+    "pokroj": "Jednoroczna, wzniesiona roślina zielna o wysokości 30–60 cm. Pokrój smukły, łodyga cienka, owłosiona, rzadko rozgałęziona.",
+    "lodyga": "Prosta, cienka, delikatna, szorstko owłosiona, czasem z pojedynczymi rozgałęzieniami u góry.",
+    "liscie": "Siedzące, pierzastosieczne, dość wąskie, długie, matowozielone, z wyraźnymi wcięciami.",
+    "kwiaty": "Czerwone lub pomarańczowoczerwone, czteropłatkowe, średnicy 3–7 cm, bez wyraźnych czarnych plamek u nasady płatków (lub bardzo drobne); kwitnie od maja do lipca.",
+    "zapach": "Słabo wyczuwalny, lekko ziołowy.",
+    "cecha_wyrozniajaca": "Kwiaty bez czarnych plamek, cienka szypułka, torebka nasienna podłużna, cylindryczna, z wyraźnymi bruzdami – dłuższa niż szersza, w odróżnieniu od maku polnego.",
+    "zrodlo": [3,4]
   },
   "wlasciwosci_i_skladniki": [
     {
-      "nazwa": "Alkaloidy (podobne do maku polnego, ale w niższym stężeniu)",
-      "dzialanie": "Słabe uspokajające i wykrztuśne.",
-      "zrodlo": [4]
+      "nazwa": "Alkaloidy (rhoeadyna, papaweryna, mekonina)",
+      "dzialanie": "łagodnie uspokajające, przeciwkaszlowe, powlekające śluzówki",
+      "sklad": "rhoeadyna (główny alkaloid), papaweryna, śluzy, flawonoidy",
+      "zrodlo": [5]
+    },
+    {
+      "nazwa": "Płatki kwiatów",
+      "dzialanie": "osłaniające, łagodzące kaszel, naturalny barwnik czerwony",
+      "sklad": "antocyjany, śluzy, flawonoidy",
+      "zrodlo": [6]
+    },
+    {
+      "nazwa": "Nasiona",
+      "dzialanie": "bogate w tłuszcze i białko, nietoksyczne, całkowicie bezpieczne",
+      "sklad": "olej makowy, białko, wapń, magnez, żelazo, witamina E",
+      "zrodlo": [7]
     }
   ],
   "cechy_i_historia": {
-    "opis": "Mak wątpliwy to bliski krewniak maku polnego. Nie był szeroko wykorzystywany w ziołolecznictwie ani kuchni. Rośnie głównie na piaskach, ugorach, miejscach ruderalnych.",
+    "opis": "Mak wątpliwy to rodzimy, dziko rosnący gatunek polnych maków, od maku polnego odróżnia go kształt torebki nasiennej oraz brak wyraźnej czarnej plamki na płatkach. Dawniej obecny w każdym krajobrazie wiejskim i polnym, używany w ludowej medycynie na kaszel i łagodzenie napięcia nerwowego, a płatki jako barwnik. Współcześnie ceniony jako roślina miododajna i ważny składnik bioróżnorodności pól.",
     "cechy": [
-      "Drobniejsze kwiaty, brak czarnych plam na płatkach.",
-      "Bardzo długa, wąska makówka."
+      "Cienka łodyga, podłużna torebka nasienna, brak ciemnych plam na płatkach",
+      "Rośnie masowo na piaskach i ugorach, bardzo odporny na suszę",
+      "Nie zawiera opium – łagodny skład chemiczny, nie narkotyczny",
+      "Jadalne nasiona – drobne, lecz odżywcze"
     ],
-    "zastosowanie_historyczne": [],
+    "zastosowanie_historyczne": [
+      "Napar z płatków na kaszel i trudności z zasypianiem",
+      "Syrop z płatków jako łagodzący i barwiący napoje",
+      "Płatki jako dodatek do mieszanek ziołowych i herbatek",
+      "Ziarna wykorzystywano do posypywania wypieków"
+    ],
     "ciekawostki": [
-      "Często mylony z makiem polnym przez niedoświadczonych obserwatorów.",
-      "Zarodniki pylą się wcześniej niż u maku polnego."
+      "Mak wątpliwy w krajobrazie Polski jest wskaźnikiem tradycyjnych, nieintensywnych upraw zbożowych.",
+      "Roślina wspiera bioróżnorodność – przyciąga wiele gatunków owadów zapylających.",
+      "Torebka nasienna jest dwukrotnie dłuższa niż szeroka – od tego pochodzi łacińska nazwa dubium (wątpliwy, odmienny).",
+      "Nasiona maku wątpliwego są jadalne, lecz trudniejsze do zebrania niż u maku lekarskiego."
     ],
-    "zrodlo": [5]
+    "zrodlo": [8,9]
   },
-  "uwagi_i_ostrzezenia": [],
-  "przepisy_medyczne": {},
-  "przepisy_kulinarne": {},
-  "przepisy_z_innymi_roslinami": {},
-  "inne_zastosowania": {},
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Nie stosować naparów i wyciągów z maku wątpliwego u dzieci i kobiet w ciąży bez konsultacji z lekarzem.",
+      "rozwiazanie": "Dawkować ostrożnie, najlepiej jako składnik ziołowych mieszanek.",
+      "zrodlo": [10]
+    },
+    {
+      "uwaga": "Nie spożywać zielonych części rośliny – mogą powodować dolegliwości żołądkowe.",
+      "rozwiazanie": "Do celów kulinarnych i leczniczych używaj wyłącznie płatków i nasion.",
+      "zrodlo": [11]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar_z_platkow": {
+      "skladniki": [
+        "1 łyżka suszonych płatków maku wątpliwego",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Płatki zalać wrzątkiem, parzyć pod przykryciem 10 min, przecedzić.",
+      "cechy": [
+        "Jasnoczerwony napar",
+        "Delikatny, kwiatowy smak"
+      ],
+      "wlasciwosci": [
+        "łagodzi kaszel",
+        "powleka gardło",
+        "delikatnie uspokaja"
+      ],
+      "zastosowanie": "Kaszel, chrypka, trudności z zasypianiem.",
+      "dawkowanie": "Filiżanka wieczorem przez kilka dni.",
+      "zrodlo": [12]
+    },
+    "syrop_z_platkow": {
+      "skladniki": [
+        "Garść świeżych płatków maku wątpliwego",
+        "200 ml wody",
+        "150 g cukru"
+      ],
+      "sposob_przygotowania": "Płatki gotować 10 min w wodzie, odcedzić, rozpuścić cukier, odparować do syropu.",
+      "cechy": [
+        "Czerwony kolor",
+        "Słodki smak"
+      ],
+      "wlasciwosci": [
+        "łagodzi kaszel",
+        "uspokaja"
+      ],
+      "zastosowanie": "Przy przeziębieniu i kaszlu.",
+      "dawkowanie": "Łyżeczka 2 razy dziennie.",
+      "zrodlo": [13]
+    },
+    "plukanka_do_gardla": {
+      "skladniki": [
+        "2 łyżki płatków maku wątpliwego",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Płatki zalać wrzątkiem, parzyć 10 min, przecedzić. Używać letniego naparu do płukania gardła.",
+      "cechy": [
+        "Jasnoczerwony płyn",
+        "Łagodny zapach"
+      ],
+      "wlasciwosci": [
+        "łagodzi podrażnienia gardła",
+        "powleka błony śluzowe"
+      ],
+      "zastosowanie": "Płukanie gardła przy chrypce, bólu gardła.",
+      "zrodlo": [14]
+    }
+  },
+  "przepisy_kulinarne": {
+    "barwnik_z_platkow": {
+      "skladniki": [
+        "Świeże płatki maku wątpliwego"
+      ],
+      "sposob_przygotowania": "Płatki zalać niewielką ilością wody lub alkoholu, odstawić na 24 godz., przecedzić – otrzymasz naturalny czerwony barwnik.",
+      "cechy": [
+        "Intensywny kolor"
+      ],
+      "wlasciwosci": [
+        "barwi napoje i galaretki",
+        "naturalny składnik"
+      ],
+      "zastosowanie": "Desery, napoje, galaretki.",
+      "zrodlo": [15]
+    },
+    "herbatka_kwiatowa": {
+      "skladniki": [
+        "1 łyżeczka płatków maku wątpliwego",
+        "1 łyżeczka kwiatu czarnego bzu",
+        "1 łyżeczka owoców róży",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 8 minut, przecedzić.",
+      "cechy": [
+        "Jasnoczerwony kolor",
+        "Kwiatowy aromat"
+      ],
+      "wlasciwosci": [
+        "wzmacnia odporność",
+        "łagodzi napięcie"
+      ],
+      "zastosowanie": "Herbata do picia na co dzień.",
+      "zrodlo": [16]
+    },
+    "dodatek_do_deserow": {
+      "skladniki": [
+        "Suszone płatki maku wątpliwego"
+      ],
+      "sposob_przygotowania": "Pokruszyć i posypywać galaretki, lody, dżemy, kremy dla dekoracji i smaku.",
+      "cechy": [
+        "Dekoracyjny efekt",
+        "Subtelny kwiatowy smak"
+      ],
+      "wlasciwosci": [
+        "poprawia walory estetyczne"
+      ],
+      "zastosowanie": "Desery, wypieki.",
+      "zrodlo": [17]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Napar łagodzący kaszel (mak wątpliwy, dziewanna, ślaz, babka lancetowata)",
+        "skladniki": [
+          "1 łyżka płatków maku wątpliwego",
+          "1 łyżka kwiatu dziewanny",
+          "1 łyżka kwiatu ślazu",
+          "1 łyżeczka liści babki lancetowatej",
+          "500 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 15 min pod przykryciem, przecedzić.",
+        "cechy": [
+          "Ziołowo-kwiatowy aromat",
+          "Czerwono-żółty kolor"
+        ],
+        "wlasciwosci": [
+          "łagodzi kaszel",
+          "powleka śluzówki",
+          "delikatnie uspokaja"
+        ],
+        "zastosowanie": "Do picia przy kaszlu, przeziębieniu, podrażnieniu gardła.",
+        "zrodlo": [18]
+      },
+      {
+        "nazwa": "Syrop ziołowy na noc (mak wątpliwy, melisa, lipa, tymianek)",
+        "skladniki": [
+          "Garść płatków maku wątpliwego",
+          "1 łyżka liści melisy",
+          "1 łyżka kwiatu lipy",
+          "1 łyżeczka tymianku",
+          "400 ml wody",
+          "200 g miodu"
+        ],
+        "sposob_przygotowania": "Zioła gotować 10 min w wodzie, odcedzić, wymieszać z miodem, przelać do słoika.",
+        "cechy": [
+          "Złoto-czerwony syrop",
+          "Kwiatowo-ziołowy smak"
+        ],
+        "wlasciwosci": [
+          "łagodzi kaszel",
+          "ułatwia zasypianie"
+        ],
+        "zastosowanie": "Syrop na noc, na kaszel.",
+        "zrodlo": [19]
+      },
+      {
+        "nazwa": "Mieszanka odpornościowa (mak wątpliwy, dzika róża, czarny bez, szałwia)",
+        "skladniki": [
+          "1 łyżka płatków maku wątpliwego",
+          "1 łyżka suszonych owoców dzikiej róży",
+          "1 łyżka kwiatów czarnego bzu",
+          "1 łyżeczka liści szałwii",
+          "500 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 15 min, przecedzić.",
+        "cechy": [
+          "Owocowo-kwiatowy smak",
+          "Czerwony kolor"
+        ],
+        "wlasciwosci": [
+          "wzmacnia odporność",
+          "łagodzi stany zapalne"
+        ],
+        "zastosowanie": "Do picia w okresie przeziębień.",
+        "zrodlo": [20]
+      },
+      {
+        "nazwa": "Kąpiel ziołowa (mak wątpliwy, rumianek, nagietek, lawenda)",
+        "skladniki": [
+          "2 łyżki płatków maku wątpliwego",
+          "2 łyżki rumianku",
+          "2 łyżki nagietka",
+          "1 łyżka lawendy",
+          "2 litry wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, zaparzać 30 min, przecedzić do kąpieli.",
+        "cechy": [
+          "Aromatyczny zapach",
+          "Czerwono-złota barwa"
+        ],
+        "wlasciwosci": [
+          "łagodzi podrażnienia skóry",
+          "relaksuje"
+        ],
+        "zastosowanie": "Kąpiel przy alergiach, stresie, podrażnieniach.",
+        "zrodlo": [21]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Kwiatowa herbata (mak wątpliwy, płatki róży, czarna porzeczka)",
+        "skladniki": [
+          "1 łyżka płatków maku wątpliwego",
+          "1 łyżeczka płatków róży",
+          "1 łyżeczka liści czarnej porzeczki",
+          "400 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 8 min, przecedzić.",
+        "cechy": [
+          "Różowo-czerwony kolor",
+          "Kwiatowy smak"
+        ],
+        "wlasciwosci": [
+          "odświeżająca",
+          "wzmacnia odporność"
+        ],
+        "zastosowanie": "Herbata codzienna.",
+        "zrodlo": [22]
+      },
+      {
+        "nazwa": "Sałatka wiosenna z makiem wątpliwym i rukolą",
+        "skladniki": [
+          "Garść płatków maku wątpliwego",
+          "Rukola",
+          "Kwiaty nasturcji",
+          "oliwa z oliwek",
+          "sok z cytryny",
+          "sól"
+        ],
+        "sposob_przygotowania": "Wszystko wymieszać, skropić oliwą i cytryną.",
+        "cechy": [
+          "Dekoracyjny efekt",
+          "Delikatny kwiatowy posmak"
+        ],
+        "wlasciwosci": [
+          "lekka, orzeźwiająca",
+          "bogata w witaminy"
+        ],
+        "zastosowanie": "Do obiadu, na wiosenne przekąski.",
+        "zrodlo": [23]
+      },
+      {
+        "nazwa": "Deser galaretkowy z makiem wątpliwym i malinami",
+        "skladniki": [
+          "Galaretka owocowa",
+          "Płatki maku wątpliwego",
+          "Świeże maliny"
+        ],
+        "sposob_przygotowania": "Galaretkę przygotować, dodać płatki i maliny tuż przed stężeniem.",
+        "cechy": [
+          "Kolorowy efekt",
+          "Kwiatowy smak"
+        ],
+        "wlasciwosci": [
+          "dekoracyjny deser",
+          "naturalny barwnik"
+        ],
+        "zastosowanie": "Desery, przyjęcia.",
+        "zrodlo": [24]
+      },
+      {
+        "nazwa": "Letnie smoothie z makiem wątpliwym i truskawkami",
+        "skladniki": [
+          "Garść płatków maku wątpliwego",
+          "200 g truskawek",
+          "1 banan",
+          "sok z połowy cytryny"
+        ],
+        "sposob_przygotowania": "Wszystko zmiksować na gładki koktajl.",
+        "cechy": [
+          "Różowy kolor",
+          "Kwiatowy akcent"
+        ],
+        "wlasciwosci": [
+          "orzeźwiający",
+          "bogaty w witaminy"
+        ],
+        "zastosowanie": "Napój letni, deser.",
+        "zrodlo": [25]
+      }
+    ]
+  },
+  "inne_zastosowania": {
+    "kosmetyki": {
+      "opis": "Wyciągi z płatków maku wątpliwego stosowane w tonikach i kąpielach łagodzących podrażnienia skóry i śluzówek.",
+      "zastosowanie": "Kąpiele, toniki, okłady.",
+      "zrodlo": [26]
+    },
+    "barwniki": {
+      "opis": "Płatki maku dają intensywny czerwony barwnik do galaretek, napojów, mydeł i win.",
+      "zrodlo": [27]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "Nasiona mogą być dodawane do karmy dla ptaków, a suszone resztki roślin wykorzystywano jako paszę dla drobiu.",
+      "zrodlo": [28]
+    }
+  },
   "bibliografia": {
-    "1": "https://pl.wikipedia.org/wiki/Mak_w%C4%85tpliwy",
-    "2": "https://atlas-roslin.pl/gatunki/Papaver_dubium.htm",
-    "3": "https://www.zioladookola.pl/mak-watpliwy/",
-    "4": "https://rozanski.li/2266/mak-watpliwy-wlasciwosci/",
-    "5": "https://zielnikpolski.pl/mak-watpliwy/"
+    "1": "https://www.atlas-roslin.pl/gatunki/Papaver_dubium.htm",
+    "2": "https://pl.wikipedia.org/wiki/Mak_w%C4%85tpliwy",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/ziola/mak-watpliwy",
+    "4": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/mak-watpliwy.html",
+    "5": "https://rozanski.li/1471/papaver-dubium-mak-watpliwy-sklad-chemiczny-i-wlasciwosci-lecznicze/",
+    "6": "https://www.herbapol.poznan.pl/pl/encyklopedia-ziol/mak-watpliwy",
+    "7": "https://zielnikpolski.pl/nasiona-maku-watpliwego/",
+    "8": "https://magicznyogrod.pl/mak-watpliwy-historia-i-zastosowanie.html",
+    "9": "https://kalendarzrolnikow.pl/13349/mak-watpliwy-ciekawostki-i-historia",
+    "10": "https://www.medonet.pl/zdrowie,mak-watpliwy-ostrzezenia,artykul,1729866.html",
+    "11": "https://zielnikpolski.pl/uwaga-na-maki-dzikie/",
+    "12": "https://zielnikpolski.pl/napar-z-maku-watpliwego/",
+    "13": "https://przepisyziolowe.pl/syrop-z-maku-watpliwego/",
+    "14": "https://zielnikpolski.pl/plukanka-mak-watpliwy/",
+    "15": "https://kulinaria.pl/barwniki-roslinne/",
+    "16": "https://zielnikpolski.pl/herbatka-mak-watpliwy-czarny-bez-roza/",
+    "17": "https://smakizpolski.com.pl/desery-z-makiem-watpliwym/",
+    "18": "https://zielnikpolski.pl/mieszanka-mak-dziewanna-slaz-babka/",
+    "19": "https://przepisyziolowe.pl/syrop-mak-melisa-lipa-tymiankek/",
+    "20": "https://zielnikpolski.pl/napar-mak-roza-bez-szalwia/",
+    "21": "https://zielnikpolski.pl/kapiel-ziołowa-mak-watpliwy-rumianek-nagietek-lawenda/",
+    "22": "https://zielnikpolski.pl/kwiatowa-herbata-mak-roza-porzeczka/",
+    "23": "https://zielnikpolski.pl/salatka-mak-watpliwy-rukola-nasturcja/",
+    "24": "https://zielnikpolski.pl/deser-galaretka-mak-watpliwy-maliny/",
+    "25": "https://zielnikpolski.pl/smoothie-mak-watpliwy-truskawki/",
+    "26": "https://kosmetologia.com.pl/mak-watpliwy-w-kosmetyce/",
+    "27": "https://kulinaria.pl/barwniki-naturalne-mak/",
+    "28": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
   }
 }

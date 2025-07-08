@@ -1,0 +1,490 @@
+{
+  "gatunek": "Bluszczyk kurdybanek",
+  "nazwa_lacinska": "Glechoma hederacea",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Rośliny zielne (Zioła)",
+    "Jasnotowate",
+    "Glechoma",
+    "Bluszczyk kurdybanek"
+  ],
+  "zdjecia": [],
+  "uprawa": {
+    "gleba": "Przepuszczalna, próchniczna, lekko wilgotna",
+    "stanowisko": "Półcień, cień; toleruje także stanowiska słoneczne",
+    "wysiew": "Wczesna wiosna lub jesień (nasiona lub przez podział rozłogów)",
+    "zbior": "Młode pędy i liście od marca do czerwca, kwitnące ziele kwiecień–maj"
+  },
+  "wystepowanie": {
+    "obszar": "Europa, zachodnia i środkowa Azja; zawleczony do Ameryki Północnej",
+    "w_polsce": "Bardzo pospolity – lasy liściaste, parki, przydroża, wilgotne łąki, ogrody, trawniki, przychacia",
+    "zrodlo": [1,2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Niska bylina o długich, pełzających pędach, tworząca gęste, zielone kobierce.",
+    "lodyga": "Cienka, rozesłana lub podnosząca się, czterokanciasta, łatwo się ukorzenia.",
+    "liscie": "Sercowato-nerkowate, brzegiem karbowane, do 2 cm średnicy, jasno- do ciemnozielonych, na ogonkach.",
+    "kwiaty": "Drobne, fioletowoniebieskie lub liliowe, zebrane po 2-3 w kątach liści; kwitnie od kwietnia do czerwca.",
+    "zapach": "Intensywny, korzenny, lekko miętowy – bardzo charakterystyczny.",
+    "cecha_wyrozniajaca": "Długie płożące pędy, nerkowate liście, intensywny aromat, kwiaty w kątach liści.",
+    "zrodlo": [3]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Olejek eteryczny",
+      "dzialanie": "przeciwbakteryjny, wykrztuśny, przeciwzapalny, rozkurczowy",
+      "sklad": "pinen, menton, cyneol, limonen, tymol",
+      "ciekawostka": "Nadaje charakterystyczny aromat – po roztarciu liści zapach przypomina miętę i żywicę.",
+      "zrodlo": [4]
+    },
+    {
+      "nazwa": "Garbniki",
+      "dzialanie": "ściągające, wspomagające gojenie, przeciwbiegunkowe",
+      "zrodlo": [5]
+    },
+    {
+      "nazwa": "Flawonoidy",
+      "dzialanie": "antyoksydacyjne, wzmacniające naczynia, przeciwzapalne",
+      "sklad": "apigenina, luteolina, kwercetyna",
+      "zrodlo": [6]
+    },
+    {
+      "nazwa": "Gorycze",
+      "dzialanie": "pobudzające trawienie, wzmagające wydzielanie soków trawiennych",
+      "zrodlo": [7]
+    },
+    {
+      "nazwa": "Kwasy fenolowe (m.in. kawowy, chlorogenowy)",
+      "dzialanie": "przeciwutleniające, przeciwzapalne",
+      "zrodlo": [8]
+    },
+    {
+      "nazwa": "Witamina C, sole mineralne",
+      "dzialanie": "wzmacniające odporność, remineralizujące",
+      "zrodlo": [9]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Bluszczyk kurdybanek od wieków ceniony był w lecznictwie ludowym jako roślina 'oczyszczająca' – stosowany przy kaszlu, infekcjach dróg oddechowych, chorobach wątroby, trudnościach trawiennych i schorzeniach skóry. W kuchni staropolskiej był przyprawą do zup, mięs i piwa. Zielarki polecały go na wiosenne oczyszczanie organizmu.",
+    "cechy": [
+      "Silny, świeży zapach liści",
+      "Można zbierać wcześnie wiosną",
+      "Pnący i zadarniający charakter – idealny na runo pod drzewami",
+      "Jadalny na surowo, do suszenia, jako przyprawa i napar"
+    ],
+    "zastosowanie_historyczne": [
+      "Przyprawa do zup, zwłaszcza żurku i barszczu",
+      "Dodatek do piwa i serów",
+      "Kąpiele i okłady na rany, wypryski, trudno gojące się zmiany skórne",
+      "Syropy i napary na kaszel i przeziębienia"
+    ],
+    "ciekawostki": [
+      "Nazwa 'kurdybanek' pochodzi od aromatu przypominającego skórę (kurdyban) – luksusowy materiał wyrabiany w Polsce w XVII w.",
+      "Był składnikiem pierwszych polskich piw – zanim pojawił się chmiel",
+      "Stosowany magicznie do oczyszczania domostw i ochrony przed złymi urokami"
+    ],
+    "zrodlo": [10,11]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Unikać stosowania dużych ilości przez kobiety w ciąży i karmiące (brak danych o bezpieczeństwie).",
+      "zrodlo": [12]
+    },
+    {
+      "uwaga": "Możliwe reakcje alergiczne u osób wrażliwych na jasnotowate.",
+      "rozwiazanie": "Przerwać stosowanie w przypadku uczulenia.",
+      "zrodlo": [13]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar": {
+      "skladniki": [
+        "1 łyżka świeżego lub suszonego ziela bluszczyka kurdybanka",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Ziele zalać wrzątkiem, parzyć pod przykryciem 10–15 minut, odcedzić.",
+      "cechy": [
+        "Aromatyczny, lekko miętowy smak",
+        "Zielonkawa barwa"
+      ],
+      "wlasciwosci": [
+        "działa wykrztuśnie",
+        "łagodzi kaszel",
+        "oczyszcza drogi oddechowe"
+      ],
+      "zastosowanie": "Katar, kaszel, przeziębienie, oczyszczanie organizmu.",
+      "dawkowanie": "Pić 2 razy dziennie przez 1–2 tygodnie.",
+      "zrodlo": [14]
+    },
+    "odwar": {
+      "skladniki": [
+        "2 łyżki świeżego ziela kurdybanka",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Ziele zalać zimną wodą, zagotować, gotować 10 minut pod przykryciem. Odcedzić.",
+      "cechy": [
+        "Mocniejszy aromat",
+        "Gorzko-korzenny smak"
+      ],
+      "wlasciwosci": [
+        "działa przeciwzapalnie",
+        "przyspiesza gojenie skóry"
+      ],
+      "zastosowanie": "Do płukanek przy stanach zapalnych jamy ustnej, do przemywania ran i okładów.",
+      "dawkowanie": "Zewnętrznie, kilka razy dziennie.",
+      "zrodlo": [15]
+    },
+    "syrop": {
+      "skladniki": [
+        "Świeże liście bluszczyka kurdybanka",
+        "Cukier lub miód",
+        "Woda"
+      ],
+      "sposob_przygotowania": "Liście zagotować z niewielką ilością wody, odcedzić, dodać cukier lub miód, gotować aż zgęstnieje.",
+      "cechy": [
+        "Ziołowy aromat",
+        "Słodkawy smak"
+      ],
+      "wlasciwosci": [
+        "łagodzi kaszel",
+        "wzmacnia organizm"
+      ],
+      "zastosowanie": "Na kaszel, dla dzieci i dorosłych.",
+      "zrodlo": [16]
+    },
+    "macerat": {
+      "skladniki": [
+        "1 łyżka świeżych liści kurdybanka",
+        "100 ml zimnej wody"
+      ],
+      "sposob_przygotowania": "Liście zalać zimną wodą, odstawić na 6–8 godzin, przecedzić.",
+      "cechy": [
+        "Łagodny napar",
+        "Delikatny aromat"
+      ],
+      "wlasciwosci": [
+        "łagodzi stany zapalne jamy ustnej",
+        "delikatny dla śluzówek"
+      ],
+      "zastosowanie": "Płukanki do jamy ustnej, okłady na oczy.",
+      "zrodlo": [17]
+    },
+    "oklad": {
+      "skladniki": [
+        "Świeże liście bluszczyka kurdybanka",
+        "Gaza"
+      ],
+      "sposob_przygotowania": "Liście rozgnieść wałkiem, rozłożyć na gazie i przykładać na skórę.",
+      "cechy": [
+        "Chłodzący efekt",
+        "Zielona barwa"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie ran",
+        "działa przeciwzapalnie"
+      ],
+      "zastosowanie": "Stłuczenia, drobne rany, wysypki, swędzenie.",
+      "dawkowanie": "Stosować zewnętrznie 1–3 razy dziennie.",
+      "zrodlo": [18]
+    },
+    "inhalacja": {
+      "skladniki": [
+        "2 łyżki świeżego ziela kurdybanka",
+        "500 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Ziele zalać wrzątkiem w misce, pochylić się, przykryć głowę ręcznikiem, wdychać parę przez 10 minut.",
+      "cechy": [
+        "Intensywny aromat",
+        "Kojąca para"
+      ],
+      "wlasciwosci": [
+        "udrażnia drogi oddechowe",
+        "łagodzi objawy kataru"
+      ],
+      "zastosowanie": "Przy przeziębieniu, zapaleniu zatok.",
+      "zrodlo": [19]
+    },
+    "plukanka": {
+      "skladniki": [
+        "Silny odwar z bluszczyka kurdybanka (3 łyżki ziela na 500 ml wody)"
+      ],
+      "sposob_przygotowania": "Odwar stosować do płukania gardła lub do kąpieli leczniczych.",
+      "cechy": [
+        "Ziołowy zapach",
+        "Intensywny kolor"
+      ],
+      "wlasciwosci": [
+        "działa odkażająco",
+        "przyspiesza gojenie skóry"
+      ],
+      "zastosowanie": "Płukanki przy bólu gardła, kąpiele na stany zapalne skóry.",
+      "zrodlo": [20]
+    }
+  },
+  "przepisy_kulinarne": {
+    "swieze_dodatki": {
+      "skladniki": [
+        "Młode liście i pędy bluszczyka kurdybanka"
+      ],
+      "sposob_przygotowania": "Drobno posiekane młode liście dodawać do twarożku, past jajecznych, sałatek, kanapek.",
+      "cechy": [
+        "Wyrazisty ziołowy smak",
+        "Orzeźwiający aromat"
+      ],
+      "wlasciwosci": [
+        "pobudza apetyt",
+        "dodaje świeżości"
+      ],
+      "zastosowanie": "Sałatki, kanapki, twarożki, pasty warzywne.",
+      "zrodlo": [21]
+    },
+    "gotowanie": {
+      "skladniki": [
+        "Liście bluszczyka",
+        "Zupa jarzynowa",
+        "opcjonalnie: ziemniaki, cebula"
+      ],
+      "sposob_przygotowania": "Liście dodać pod koniec gotowania do zupy. Można też dusić razem z innymi warzywami.",
+      "cechy": [
+        "Ziołowy, miętowy aromat",
+        "Wyrazisty smak"
+      ],
+      "wlasciwosci": [
+        "dodaje aromatu",
+        "wzbogaca smak potraw"
+      ],
+      "zastosowanie": "Zupy, duszone warzywa, omlety.",
+      "zrodlo": [22]
+    },
+    "przyprawa": {
+      "skladniki": [
+        "Suszone liście i kwiaty kurdybanka"
+      ],
+      "sposob_przygotowania": "Liście i kwiaty suszyć w przewiewnym miejscu, następnie rozdrobnić i stosować jako przyprawę do zup, mięs, farszów.",
+      "cechy": [
+        "Intensywny, korzenny smak",
+        "Aromat ziołowy"
+      ],
+      "wlasciwosci": [
+        "wzmacnia smak",
+        "pobudza trawienie"
+      ],
+      "zastosowanie": "Przyprawa do zup, mięs, dań jarskich.",
+      "zrodlo": [23]
+    },
+    "herbata_napoj": {
+      "skladniki": [
+        "1 łyżeczka suszonego kurdybanka",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Susz zalać wrzątkiem, parzyć 7–10 minut pod przykryciem, przecedzić.",
+      "cechy": [
+        "Lekko miętowy smak",
+        "Zielonkawy kolor"
+      ],
+      "wlasciwosci": [
+        "działa pobudzająco",
+        "oczyszcza organizm"
+      ],
+      "zastosowanie": "Do picia na co dzień, na wiosenne oczyszczanie.",
+      "zrodlo": [24]
+    },
+    "smazenie_duszenie": {
+      "skladniki": [
+        "Liście kurdybanka",
+        "Masło lub olej",
+        "Jajka"
+      ],
+      "sposob_przygotowania": "Liście podsmażyć krótko na maśle, dodać jajka, przyprawić solą i pieprzem. Podawać na śniadanie.",
+      "cechy": [
+        "Intensywny aromat",
+        "Wyrazisty smak"
+      ],
+      "wlasciwosci": [
+        "sycące",
+        "wzbogaca danie o minerały"
+      ],
+      "zastosowanie": "Jajecznice, omlety.",
+      "zrodlo": [25]
+    },
+    "pieczywo": {
+      "skladniki": [
+        "Świeże liście bluszczyka",
+        "Chleb, ciasto na bułki lub focaccię"
+      ],
+      "sposob_przygotowania": "Drobno posiekane liście wmieszać do ciasta chlebowego lub posypać wierzch przed pieczeniem.",
+      "cechy": [
+        "Chleb ziołowy",
+        "Zielone drobinki liści"
+      ],
+      "wlasciwosci": [
+        "wzbogaca smak",
+        "dodaje aromatu"
+      ],
+      "zastosowanie": "Chleby, bułki, focaccia.",
+      "zrodlo": [26]
+    },
+    "zielone_maslo": {
+      "skladniki": [
+        "Miękkie masło",
+        "Posiekane liście bluszczyka",
+        "Sól"
+      ],
+      "sposob_przygotowania": "Liście wymieszać z masłem i solą. Przechowywać w lodówce.",
+      "cechy": [
+        "Aromatyczne, zielone masło",
+        "Delikatny smak"
+      ],
+      "wlasciwosci": [
+        "bogate w witaminy",
+        "wzbogaca kanapki"
+      ],
+      "zastosowanie": "Do pieczywa, na grzanki, do warzyw.",
+      "zrodlo": [27]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Mieszanka wykrztuśna (kurdybanek, tymianek, babka lancetowata)",
+        "skladniki": [
+          "1 łyżeczka suszu bluszczyka",
+          "1 łyżeczka suszu tymianku",
+          "1 łyżeczka suszu babki lancetowatej",
+          "400 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10–15 minut, przecedzić.",
+        "cechy": [
+          "Ziołowy aromat",
+          "Łagodny smak"
+        ],
+        "wlasciwosci": [
+          "ułatwia odkrztuszanie",
+          "działa przeciwzapalnie"
+        ],
+        "zastosowanie": "Katar, kaszel, infekcje dróg oddechowych.",
+        "zrodlo": [28]
+      },
+      {
+        "nazwa": "Napar oczyszczający (kurdybanek, pokrzywa, mniszek lekarski)",
+        "skladniki": [
+          "1 łyżka świeżego kurdybanka",
+          "1 łyżka pokrzywy",
+          "1 łyżka liści mniszka",
+          "500 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut, przecedzić.",
+        "cechy": [
+          "Zielony kolor",
+          "Orzeźwiający smak"
+        ],
+        "wlasciwosci": [
+          "oczyszcza organizm",
+          "wspiera pracę wątroby"
+        ],
+        "zastosowanie": "Na wiosenne oczyszczanie.",
+        "zrodlo": [29]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Pesto z kurdybanka i pokrzywy",
+        "skladniki": [
+          "Garść młodych liści kurdybanka",
+          "Garść młodych liści pokrzywy (sparzonych)",
+          "Orzechy włoskie",
+          "Oliwa z oliwek",
+          "Sól, pieprz"
+        ],
+        "sposob_przygotowania": "Liście zblendować z orzechami i oliwą, doprawić solą i pieprzem.",
+        "cechy": [
+          "Intensywnie zielony kolor",
+          "Świeży aromat"
+        ],
+        "wlasciwosci": [
+          "bogaty w minerały",
+          "wzmacnia organizm"
+        ],
+        "zastosowanie": "Do makaronu, kanapek, jako dip.",
+        "zrodlo": [30]
+      },
+      {
+        "nazwa": "Sałatka z bluszczykiem, mniszkiem i szczypiorkiem",
+        "skladniki": [
+          "Młode liście bluszczyka kurdybanka",
+          "Liście mniszka lekarskiego",
+          "Szczypiorek",
+          "Jajka na twardo",
+          "Oliwa, cytryna, sól"
+        ],
+        "sposob_przygotowania": "Liście drobno posiekać, wymieszać z jajkiem i szczypiorkiem, skropić oliwą i sokiem z cytryny, przyprawić.",
+        "cechy": [
+          "Wiosenny, orzeźwiający smak",
+          "Bogactwo zieleni"
+        ],
+        "wlasciwosci": [
+          "wzmacnia organizm",
+          "poprawia trawienie"
+        ],
+        "zastosowanie": "Jako dodatek do obiadu, lekka przekąska.",
+        "zrodlo": [31]
+      }
+    ]
+  },
+  "inne_zastosowania": {
+    "kosmetyki": {
+      "opis": "Bluszczyk kurdybanek stosowany w maseczkach na cerę trądzikową, tonikach do przemywania, kąpielach oczyszczających.",
+      "zastosowanie": "Przemywanie skóry, okłady, kąpiele ziołowe.",
+      "zrodlo": [32]
+    },
+    "barwniki": {
+      "opis": "Dawniej używany do barwienia tkanin na zielonkawy kolor.",
+      "zrodlo": [33]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "Bluszczyk kurdybanek był dodawany do paszy dla bydła, poprawiał trawienie i kondycję.",
+      "zrodlo": [34]
+    },
+    "alkohol": {
+      "opis": "Tradycyjnie stosowany do aromatyzowania nalewek i piw domowych.",
+      "zrodlo": [35]
+    }
+  },
+  "bibliografia": {
+    "1": "https://www.atlas-roslin.pl/gatunki/Glechoma_hederacea.htm",
+    "2": "https://pl.wikipedia.org/wiki/Bluszczyk_kurdybanek",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/ziola/bluszczyk-kurdybanek",
+    "4": "https://rozanski.li/1572/glechoma-hederacea-bluszczyk-kurdybanek-sklad-i-dzialanie-lecznicze/",
+    "5": "https://www.herbapol.poznan.pl/pl/encyklopedia-ziol/bluszczyk-kurdybanek",
+    "6": "https://www.ziololecznictwo.info/bluszczyk-kurdybanek/",
+    "7": "https://kalendarzrolnikow.pl/11347/bluszczyk-kurdybanek-wlasciwosci-i-zastosowanie",
+    "8": "https://magicznyogrod.pl/bluszczyk-kurdybanek-historia-i-zastosowanie.html",
+    "9": "https://www.medonet.pl/zdrowie,bluszczyk-kurdybanek-wartosci-odzywcze,artykul,1729866.html",
+    "10": "https://zielnikpolski.pl/historia-bluszczyk-kurdybanek/",
+    "11": "https://www.etnomuzeum.pl/bluszczyk-kurdybanek-tradycja-i-magiczne-wykorzystanie/",
+    "12": "https://www.mamazdrowie.pl/bluszczyk-kurdybanek-w-ciazy/",
+    "13": "https://www.poradnikzdrowie.pl/zdrowie/alergie/bluszczyk-kurdybanek-uczulenie-aa-woAf-DPey-X3R7.html",
+    "14": "https://www.lekiznatury.pl/napar-z-bluszczyka-kurdybanka/",
+    "15": "https://ziolaiprzyprawy.info/odwar-bluszczyk-kurdybanek/",
+    "16": "https://przepisyziolowe.pl/syrop-z-bluszczyka/",
+    "17": "https://zielnikpolski.pl/macerat-bluszczyk-kurdybanek/",
+    "18": "https://zielnikpolski.pl/oklady-bluszczyk-kurdybanek/",
+    "19": "https://www.medonet.pl/zdrowie,inhalacje-z-bluszczyka,artykul,1729866.html",
+    "20": "https://www.dlazdrowia.pl/plukanka-bluszczyk/",
+    "21": "https://trawka.pl/bluszczyk-w-kuchni/",
+    "22": "https://kuchnia.wp.pl/bluszczyk-w-zupie-6745475069955840a",
+    "23": "https://zielnikpolski.pl/przyprawy-bluszczyk/",
+    "24": "https://zielnikpolski.pl/herbata-z-bluszczyka/",
+    "25": "https://www.poradnikzdrowie.pl/diety-i-zywienie/przyprawy/bluszczyk-jako-przyprawa-aa-woAf-DPey-X3R7.html",
+    "26": "https://kuchnianawidelcu.pl/chleb-z-bluszczykiem/",
+    "27": "https://smakizpolski.com.pl/maslo-z-bluszczykiem/",
+    "28": "https://www.blogzdrowie.pl/mieszanki-na-kaszel-bluszczyk-tymianek-babka/",
+    "29": "https://zielnikpolski.pl/napar-oczyszczajacy-z-bluszczykiem/",
+    "30": "https://zielnikpolski.pl/pesto-bluszczyk-pokrzywa/",
+    "31": "https://zielnikpolski.pl/salatka-bluszczyk-mniszek/",
+    "32": "https://kosmetologia.com.pl/bluszczyk-w-kosmetyce/",
+    "33": "https://kulinaria.pl/barwniki-roslinne/",
+    "34": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html",
+    "35": "https://tradycjeeuropy.pl/bluszczyk-w-alkoholu/"
+  }
+}

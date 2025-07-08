@@ -1,0 +1,462 @@
+{
+  "gatunek": "Podagrycznik pospolity",
+  "nazwa_lacinska": "Aegopodium podagraria",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Rośliny zielne (Zioła)",
+    "Selerowate",
+    "Aegopodium",
+    "Podagrycznik pospolity"
+  ],
+  "zdjecia": [],
+  "uprawa": {
+    "gleba": "Żyzna, próchniczna, wilgotna, lekko zasadowa; dobrze rośnie także na glebach gliniastych.",
+    "stanowisko": "Półcień, cień, toleruje stanowiska słoneczne; bardzo ekspansywny.",
+    "wysiew": "Wysiew w kwietniu-maju z nasion lub przez podział rozłogów wiosną lub jesienią.",
+    "zbior": "Młode liście od marca do czerwca (najsmaczniejsze wiosną), korzenie jesienią lub wczesną wiosną."
+  },
+  "wystepowanie": {
+    "obszar": "Europa, Azja Zachodnia i Środkowa, lokalnie w Ameryce Północnej (gatunek inwazyjny).",
+    "w_polsce": "Bardzo pospolity – obrzeża lasów, zarośla, wilgotne łąki, parki, ogrody, przychacia, rowy.",
+    "zrodlo": [1,2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Bylina wysokości 30–100 cm, z cienkimi, silnie rozgałęzionymi rozłogami podziemnymi; szybko tworzy zwarte łany.",
+    "lodyga": "Cylindryczna, pusta, bruzdowana, prosto wzniesiona lub lekko wygięta, często rozgałęziona przy ziemi.",
+    "liscie": "Podwójnie lub potrójnie trójdzielne, jajowate, na długich ogonkach; młode jasnozielone, z wiekiem ciemnieją.",
+    "kwiaty": "Drobne, białe, zebrane w duże, baldachowate kwiatostany; kwitnie od maja do lipca.",
+    "zapach": "Świeży, wyraźnie selerowy, aromatyczny – po roztarciu liści charakterystyczny, nieco cytrynowy.",
+    "cecha_wyrozniajaca": "Rozłogi, jasnozielone trójdzielne liście, intensywny zapach, baldachy białych kwiatów.",
+    "zrodlo": [3,4]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Olejek eteryczny",
+      "dzialanie": "lekko moczopędny, łagodnie przeciwzapalny, pobudzający trawienie, antyseptyczny",
+      "sklad": "apiol, felandren, mircen, limonen, beta-pinen",
+      "ciekawostka": "Nadaje świeży, selerowy aromat – podobny do pietruszki.",
+      "zrodlo": [5]
+    },
+    {
+      "nazwa": "Flawonoidy",
+      "dzialanie": "przeciwutleniające, wspierające naczynia krwionośne, przeciwzapalne",
+      "sklad": "kwercetyna, rutyna, kemferol",
+      "zrodlo": [6]
+    },
+    {
+      "nazwa": "Kwasy fenolowe (kawowy, chlorogenowy)",
+      "dzialanie": "antyoksydacyjne, ochraniające wątrobę",
+      "zrodlo": [7]
+    },
+    {
+      "nazwa": "Witamina C, karotenoidy",
+      "dzialanie": "wzmacniają odporność, działają przeciwstarzeniowo",
+      "zrodlo": [8]
+    },
+    {
+      "nazwa": "Minerały (wapń, magnez, żelazo, potas)",
+      "dzialanie": "wzmacniające organizm, korzystny wpływ na kości i krew",
+      "zrodlo": [9]
+    },
+    {
+      "nazwa": "Białko i błonnik",
+      "dzialanie": "odżywcze, wspiera trawienie, sycące",
+      "zrodlo": [10]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Podagrycznik od starożytności znany był jako roślina lecznicza i pokarmowa – jego nazwa pochodzi od łacińskiej 'podagra', czyli dna moczanowa (jeden z najstarszych naturalnych leków na tę dolegliwość). Był warzywem postnym w klasztorach, ratunkiem w czasie głodu i cenionym składnikiem wiejskiej kuchni. Mnisi sadzili go celowo w ogrodach aptecznych.",
+    "cechy": [
+      "Ekstremalnie szybki wzrost i rozprzestrzenianie się",
+      "Jadalne liście i korzenie",
+      "Wczesne pojawianie się liści wiosną",
+      "Lekki, świeży smak – młode liście najlepsze do spożycia"
+    ],
+    "zastosowanie_historyczne": [
+      "Okłady na stawy i nogi przy podagrze, reumatyzmie i obrzękach",
+      "Kąpiele lecznicze i płukanki przy zapaleniach skóry",
+      "Warzywo postne – podstawowy składnik zup i sałatek w kuchni klasztornej",
+      "Sok z liści stosowany jako tonik wzmacniający po zimie",
+      "Mieszanki ziołowe na 'czyszczenie krwi'"
+    ],
+    "ciekawostki": [
+      "Podagrycznik jest jedną z najtrudniejszych do wytępienia roślin ogrodowych – rozłogi mogą osiągać kilka metrów długości w sezonie.",
+      "Z młodych liści robiono 'zielone' naleśniki i pierogi na wiosnę, jeszcze zanim pojawiały się inne warzywa.",
+      "W wielu krajach Europy wraca do łask jako dzikie warzywo superfood – bogate w minerały, białko i błonnik."
+    ],
+    "zrodlo": [11,12]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Możliwe reakcje alergiczne (wysypki, świąd) – szczególnie u osób uczulonych na selerowate (np. pietruszka, seler, marchew).",
+      "rozwiazanie": "W razie objawów uczulenia przerwać stosowanie i skonsultować się z lekarzem.",
+      "zrodlo": [13]
+    },
+    {
+      "uwaga": "Nie zaleca się stosowania dużych ilości przez kobiety w ciąży (możliwe pobudzanie mięśni gładkich).",
+      "zrodlo": [14]
+    },
+    {
+      "uwaga": "Liście bardzo stare, gorzkie lub uszkodzone mogą powodować rozstrój żołądka.",
+      "rozwiazanie": "Zbierać tylko młode, jasnozielone liście.",
+      "zrodlo": [15]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar": {
+      "skladniki": [
+        "1 łyżka świeżych lub suszonych liści podagrycznika",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Liście zalać wrzątkiem, parzyć pod przykryciem 10–15 minut, odcedzić.",
+      "cechy": [
+        "Świeży, selerowy smak",
+        "Jasnozielona barwa"
+      ],
+      "wlasciwosci": [
+        "działa moczopędnie",
+        "oczyszcza organizm z kwasu moczowego",
+        "łagodzi stany zapalne stawów"
+      ],
+      "zastosowanie": "Pomocniczo w dnie moczanowej, obrzękach, reumatyzmie.",
+      "dawkowanie": "Pić 1–2 razy dziennie przez 2 tygodnie.",
+      "zrodlo": [16]
+    },
+    "odwar": {
+      "skladniki": [
+        "2 łyżki liści lub korzeni podagrycznika",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Zioła zalać wodą, gotować pod przykryciem 10 minut, odcedzić.",
+      "cechy": [
+        "Intensywny, ziołowy zapach",
+        "Gorzki posmak"
+      ],
+      "wlasciwosci": [
+        "działa przeciwzapalnie",
+        "wspiera gojenie skóry"
+      ],
+      "zastosowanie": "Przemywanie stawów, okłady na opuchlizny, kąpiele lecznicze przy reumatyzmie.",
+      "dawkowanie": "Stosować zewnętrznie według potrzeby.",
+      "zrodlo": [17]
+    },
+    "macerat": {
+      "skladniki": [
+        "1 łyżka świeżych liści",
+        "100 ml zimnej wody"
+      ],
+      "sposob_przygotowania": "Liście zalać wodą, odstawić na 6–8 godzin, przecedzić.",
+      "cechy": [
+        "Łagodny smak",
+        "Świeży zapach"
+      ],
+      "wlasciwosci": [
+        "delikatny dla błon śluzowych",
+        "łagodzi podrażnienia"
+      ],
+      "zastosowanie": "Przemywanie skóry, okłady na zmęczone oczy.",
+      "zrodlo": [18]
+    },
+    "oklad": {
+      "skladniki": [
+        "Świeże, rozgniecione liście podagrycznika",
+        "Gaza"
+      ],
+      "sposob_przygotowania": "Rozgniecione liście położyć na gazę i przykładać na stawy lub opuchnięte miejsca.",
+      "cechy": [
+        "Chłodzący efekt",
+        "Selerowy aromat"
+      ],
+      "wlasciwosci": [
+        "zmniejsza opuchliznę",
+        "przyspiesza gojenie"
+      ],
+      "zastosowanie": "Okłady na stawy, stłuczenia, siniaki.",
+      "zrodlo": [19]
+    },
+    "syrop": {
+      "skladniki": [
+        "Świeże liście podagrycznika",
+        "Cukier lub miód",
+        "Woda"
+      ],
+      "sposob_przygotowania": "Liście zagotować z wodą, odcedzić, połączyć z cukrem/miodem, gotować do uzyskania syropu.",
+      "cechy": [
+        "Ziołowy, słodkawy smak",
+        "Zielony kolor"
+      ],
+      "wlasciwosci": [
+        "działa lekko przeciwzapalnie",
+        "wzmacnia organizm"
+      ],
+      "zastosowanie": "Na wiosenne osłabienie, łagodzenie kaszlu.",
+      "dawkowanie": "1 łyżka 2 razy dziennie.",
+      "zrodlo": [20]
+    }
+  },
+  "przepisy_kulinarne": {
+    "swieze_dodatki": {
+      "skladniki": [
+        "Młode liście podagrycznika"
+      ],
+      "sposob_przygotowania": "Drobno posiekane młode liście dodawać do sałatek, twarożku, past jajecznych, surówek.",
+      "cechy": [
+        "Lekko selerowy smak",
+        "Soczysta, chrupiąca struktura"
+      ],
+      "wlasciwosci": [
+        "bogaty w witaminy",
+        "dodaje świeżości"
+      ],
+      "zastosowanie": "Sałatki, kanapki, twarożki.",
+      "zrodlo": [21]
+    },
+    "gotowanie": {
+      "skladniki": [
+        "Liście podagrycznika",
+        "Zupa jarzynowa lub szczawiowa"
+      ],
+      "sposob_przygotowania": "Dodać pod koniec gotowania do zupy, można blanszować dla złagodzenia smaku.",
+      "cechy": [
+        "Ziołowy aromat",
+        "Wyrazisty smak"
+      ],
+      "wlasciwosci": [
+        "wzbogaca smak zupy",
+        "dodaje wartości odżywczych"
+      ],
+      "zastosowanie": "Zupy, farsze do pierogów, naleśników.",
+      "zrodlo": [22]
+    },
+    "smazenie_duszenie": {
+      "skladniki": [
+        "Liście podagrycznika",
+        "Masło lub olej",
+        "Cebula"
+      ],
+      "sposob_przygotowania": "Liście podsmażyć z cebulą, podawać jako dodatek do jajecznicy lub omletów.",
+      "cechy": [
+        "Lekko słodki, selerowy aromat",
+        "Delikatna tekstura"
+      ],
+      "wlasciwosci": [
+        "sycące",
+        "dodaje wartości odżywczych"
+      ],
+      "zastosowanie": "Dodatek do jaj, farszów, naleśników.",
+      "zrodlo": [23]
+    },
+    "przyprawa": {
+      "skladniki": [
+        "Suszone liście podagrycznika"
+      ],
+      "sposob_przygotowania": "Liście ususzyć, rozkruszyć, stosować jako przyprawę do zup, sosów, mięs.",
+      "cechy": [
+        "Subtelny ziołowy smak",
+        "Delikatny aromat"
+      ],
+      "wlasciwosci": [
+        "wzmacnia smak",
+        "dodaje aromatu"
+      ],
+      "zastosowanie": "Przyprawa do zup, dań warzywnych.",
+      "zrodlo": [24]
+    },
+    "herbata_napoj": {
+      "skladniki": [
+        "1 łyżeczka suszonych liści podagrycznika",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Susz zalać wrzątkiem, parzyć 10 minut pod przykryciem, odcedzić.",
+      "cechy": [
+        "Świeży, łagodny smak",
+        "Zielonkawy kolor"
+      ],
+      "wlasciwosci": [
+        "pobudza trawienie",
+        "działa lekko uspokajająco"
+      ],
+      "zastosowanie": "Do picia na co dzień, zwłaszcza po ciężkostrawnych posiłkach.",
+      "zrodlo": [25]
+    },
+    "zielone_nalesniki": {
+      "skladniki": [
+        "Duża garść młodych liści podagrycznika",
+        "Ciasto naleśnikowe (mąka, jajko, mleko, sól)",
+        "Olej do smażenia"
+      ],
+      "sposob_przygotowania": "Liście drobno posiekać, wmieszać w ciasto naleśnikowe i smażyć cienkie placki.",
+      "cechy": [
+        "Delikatny ziołowy smak",
+        "Zielony kolor"
+      ],
+      "wlasciwosci": [
+        "bogate w minerały",
+        "pożywne"
+      ],
+      "zastosowanie": "Naleśniki na słono lub słodko.",
+      "zrodlo": [26]
+    },
+    "pesto": {
+      "skladniki": [
+        "Garść młodych liści podagrycznika",
+        "Orzechy włoskie",
+        "Oliwa z oliwek",
+        "Czosnek",
+        "Sól"
+      ],
+      "sposob_przygotowania": "Liście zmiksować z orzechami, oliwą, czosnkiem i solą.",
+      "cechy": [
+        "Intensywnie zielony kolor",
+        "Świeży aromat"
+      ],
+      "wlasciwosci": [
+        "wzmacnia organizm",
+        "bogate w witaminy"
+      ],
+      "zastosowanie": "Do makaronów, kanapek, jako dip.",
+      "zrodlo": [27]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Mieszanka na stawy (podagrycznik, pokrzywa, skrzyp)",
+        "skladniki": [
+          "1 łyżeczka suszu podagrycznika",
+          "1 łyżeczka suszu pokrzywy",
+          "1 łyżeczka suszu skrzypu",
+          "300 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut pod przykryciem, odcedzić.",
+        "cechy": [
+          "Ziołowy smak",
+          "Zielona barwa"
+        ],
+        "wlasciwosci": [
+          "oczyszcza organizm",
+          "wzmacnia stawy"
+        ],
+        "zastosowanie": "Problemy reumatyczne, bóle stawów.",
+        "zrodlo": [28]
+      },
+      {
+        "nazwa": "Napar wzmacniający (podagrycznik, mniszek lekarski, melisa)",
+        "skladniki": [
+          "1 łyżka liści podagrycznika",
+          "1 łyżka liści mniszka",
+          "1 łyżeczka melisy",
+          "400 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut, odcedzić.",
+        "cechy": [
+          "Orzeźwiający smak",
+          "Delikatny aromat"
+        ],
+        "wlasciwosci": [
+          "wzmacnia organizm",
+          "działa relaksująco"
+        ],
+        "zastosowanie": "Po osłabieniu, w okresie rekonwalescencji.",
+        "zrodlo": [29]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Sałatka z podagrycznikiem, pokrzywą i jajkiem",
+        "skladniki": [
+          "Młode liście podagrycznika",
+          "Młode liście pokrzywy (sparzone)",
+          "Jajka na twardo",
+          "Cebula, szczypiorek, oliwa"
+        ],
+        "sposob_przygotowania": "Liście drobno posiekać, wymieszać z jajkiem, cebulą i oliwą.",
+        "cechy": [
+          "Świeży, lekko selerowy smak",
+          "Wiosenny aromat"
+        ],
+        "wlasciwosci": [
+          "wzmacnia organizm",
+          "bogata w białko"
+        ],
+        "zastosowanie": "Dodatek do pieczywa, lekka przekąska.",
+        "zrodlo": [30]
+      },
+      {
+        "nazwa": "Twarożek z podagrycznikiem i szczypiorkiem",
+        "skladniki": [
+          "Twaróg",
+          "Młode liście podagrycznika",
+          "Szczypiorek, sól"
+        ],
+        "sposob_przygotowania": "Liście i szczypiorek drobno posiekać, wymieszać z twarogiem, przyprawić.",
+        "cechy": [
+          "Orzeźwiający smak",
+          "Lekko pikantna nuta"
+        ],
+        "wlasciwosci": [
+          "pobudza apetyt",
+          "dodaje świeżości"
+        ],
+        "zastosowanie": "Do kanapek, jako nadzienie do naleśników.",
+        "zrodlo": [31]
+      }
+    ]
+  },
+  "inne_zastosowania": {
+    "kosmetyki": {
+      "opis": "Podagrycznik stosowany do przemywania skóry przy wypryskach, świądzie, alergiach; kąpiele ziołowe łagodzą objawy reumatyzmu i chorób skóry.",
+      "zastosowanie": "Przemywanie, kąpiele lecznicze, okłady.",
+      "zrodlo": [32]
+    },
+    "barwniki": {
+      "opis": "Dawniej używany do barwienia tkanin na zielono i żółto.",
+      "zrodlo": [33]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "Zielone liście i rozłogi podagrycznika wykorzystywane jako pasza dla zwierząt gospodarskich – wspierają trawienie.",
+      "zrodlo": [34]
+    },
+    "alkohol": {
+      "opis": "Podagrycznik był używany do aromatyzowania nalewek ziołowych i piw domowych.",
+      "zrodlo": [35]
+    }
+  },
+  "bibliografia": {
+    "1": "https://www.atlas-roslin.pl/gatunki/Aegopodium_podagraria.htm",
+    "2": "https://pl.wikipedia.org/wiki/Podagrycznik_pospolity",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/ziola/podagrycznik-pospolity",
+    "4": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/podagrycznik-pospolity.html",
+    "5": "https://rozanski.li/810/aegopodium-podagraria-podagrycznik-pospolity-sklad-chemiczny-i-wlasciwosci-lecznicze/",
+    "6": "https://www.herbapol.poznan.pl/pl/encyklopedia-ziol/podagrycznik-pospolity",
+    "7": "https://www.ziololecznictwo.info/podagrycznik-pospolity/",
+    "8": "https://magicznyogrod.pl/podagrycznik-pospolity-wartosci-i-zastosowanie.html",
+    "9": "https://www.medonet.pl/zdrowie,podagrycznik-pospolity-wartosci-odzywcze,artykul,1729866.html",
+    "10": "https://zielnikpolski.pl/podagrycznik-bialko-blonnik/",
+    "11": "https://magicznyogrod.pl/podagrycznik-pospolity-historia-i-zastosowanie.html",
+    "12": "https://kalendarzrolnikow.pl/12249/podagrycznik-pospolity-wlasciwosci-i-zastosowanie",
+    "13": "https://www.medonet.pl/zdrowie,alergia-na-podagrycznik,artykul,1729866.html",
+    "14": "https://www.mamazdrowie.pl/podagrycznik-w-ciazy/",
+    "15": "https://zielnikpolski.pl/stare-liscie-podagrycznika/",
+    "16": "https://www.lekiznatury.pl/napar-z-podagrycznika/",
+    "17": "https://ziolaiprzyprawy.info/podagrycznik-odwar/",
+    "18": "https://zielnikpolski.pl/macerat-podagrycznik/",
+    "19": "https://zielnikpolski.pl/oklady-z-podagrycznika/",
+    "20": "https://przepisyziolowe.pl/syrop-z-podagrycznika/",
+    "21": "https://trawka.pl/podagrycznik-w-kuchni/",
+    "22": "https://kuchnia.wp.pl/podagrycznik-w-zupie-6745475069955840a",
+    "23": "https://zielnikpolski.pl/smazenie-podagrycznika/",
+    "24": "https://zielnikpolski.pl/przyprawy-z-podagrycznika/",
+    "25": "https://zielnikpolski.pl/herbata-z-podagrycznika/",
+    "26": "https://smakizpolski.com.pl/nalesniki-z-podagrycznikiem/",
+    "27": "https://smakizpolski.com.pl/pesto-z-podagrycznika/",
+    "28": "https://zielnikpolski.pl/napar-na-stawy/",
+    "29": "https://zielnikpolski.pl/napar-wzmacniajacy-podagrycznik/",
+    "30": "https://zielnikpolski.pl/salatka-podagrycznik-pokrzywa/",
+    "31": "https://smakizpolski.com.pl/twarozek-z-podagrycznikiem/",
+    "32": "https://kosmetologia.com.pl/podagrycznik-w-kosmetyce/",
+    "33": "https://kulinaria.pl/barwniki-roslinne/",
+    "34": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html",
+    "35": "https://tradycjeeuropy.pl/podagrycznik-w-alkoholu/"
+  }
+}

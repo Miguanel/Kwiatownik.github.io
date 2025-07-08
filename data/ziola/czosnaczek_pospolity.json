@@ -1,0 +1,821 @@
+{
+  "gatunek": "Czosnaczek pospolity",
+  "nazwa_lacinska": "Alliaria petiolata",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Rośliny zielne (Zioła)",
+    "Kapustowate",
+    "Alliaria",
+    "Czosnaczek pospolity"
+  ],
+  "zdjecia": [],
+  "uprawa": {
+    "gleba": "Gleba wilgotna, próchniczna, bogata w wapń, lekko zasadowa lub obojętna.",
+    "stanowisko": "Stanowisko półcieniste do cienistego; dobrze rośnie pod drzewami, na skrajach lasów, przy płotach i murach.",
+    "wysiew": "Wysiew nasion jesienią lub wczesną wiosną; roślina dwuletnia – w pierwszym roku tworzy rozety liści, w drugim wypuszcza kwiatostan.",
+    "zbior": "Liście, pędy i kwiaty zbiera się wiosną (kwiecień–czerwiec), nasiona wczesnym latem, korzenie późną jesienią."
+  },
+  "wystepowanie": {
+    "obszar": "Europa, Azja zachodnia i środkowa; zawleczony do Ameryki Północnej.",
+    "w_polsce": "Pospolity w całym kraju – skraje lasów, żywopłoty, parki, zarośla, ogrody, rowy, przychacia.",
+    "zrodlo": [1,2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Roślina dwuletnia o wysokości 30–100 cm, z wyprostowaną, nierozgałęzioną łodygą, w pierwszym roku niska rozeta liści.",
+    "lodyga": "Wzniesiona, delikatnie bruzdowana, miękka, u góry nieznacznie rozgałęziona.",
+    "liscie": "Jajowate do sercowatych, grubo ząbkowane, miękkie, jasnozielone, o wyraźnym zapachu czosnku przy roztarciu.",
+    "kwiaty": "Drobne, białe, czteropłatkowe, zebrane w baldachogrona na szczycie łodygi, kwitnie od kwietnia do czerwca.",
+    "owoce": "Wydłużone, cienkie łuszczyny z drobnymi, czarnymi nasionami.",
+    "korzeń": "Cienki, biały, przypominający chrzan, o pikantnym smaku.",
+    "zapach": "Silny, czosnkowo-musztardowy, szczególnie intensywny po roztarciu liści.",
+    "cecha_wyrozniajaca": "Liście o czosnkowym aromacie, białe kwiaty, wczesnowiosenny termin wegetacji.",
+    "zrodlo": [3,4]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Olejek gorczyczny (allina, glikozydy siarkowe)",
+      "dzialanie": "antybakteryjne, przeciwgrzybicze, odkażające, wzmacniające",
+      "sklad": "allina, synigryna, izosiarkowodór, glukozynolaty",
+      "zrodlo": [5]
+    },
+    {
+      "nazwa": "Witaminy",
+      "dzialanie": "wzmacniające, antyoksydacyjne",
+      "sklad": "witamina C, A, E, witaminy z grupy B",
+      "zrodlo": [6]
+    },
+    {
+      "nazwa": "Minerały",
+      "dzialanie": "reminalizujące, wspierające odporność",
+      "sklad": "wapń, żelazo, magnez, potas, siarka",
+      "zrodlo": [7]
+    },
+    {
+      "nazwa": "Flawonoidy i saponiny",
+      "dzialanie": "przeciwzapalne, wzmacniające naczynia",
+      "sklad": "kwercetyna, rutyna",
+      "zrodlo": [8]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Czosnaczek pospolity to jedna z najstarszych dzikich przypraw Europy, wykorzystywana od czasów neolitu jako warzywo i roślina lecznicza. Przed sprowadzeniem czosnku i cebuli uprawnej był głównym 'czosnkowym' dodatkiem w Europie Środkowej. Używano go w kuchni, lecznictwie, a także magii ludowej. Liście, pędy, kwiaty i korzeń są jadalne – mają ostry, czosnkowy smak z nutą pieprzu i musztardy.",
+    "cechy": [
+      "Zielona nowalijka – wczesnowiosenne liście do kanapek, twarożku, sałatek",
+      "Jadalne wszystkie nadziemne części – także kwiaty, pąki i młode strąki",
+      "Liście tracą smak po kwitnieniu (stają się włókniste i gorzkie)",
+      "Korzeń może zastąpić chrzan i wasabi"
+    ],
+    "zastosowanie_historyczne": [
+      "Liście używane jako warzywo sałatkowe, przyprawa do mięs, jaj, zup i sosów",
+      "Napar i sok na przeziębienie, oczyszczanie i odrobaczanie",
+      "Kompresy i maści na rany, stłuczenia, ukąszenia owadów",
+      "Dawniej główny 'czosnek dziki' Europy przed rozpowszechnieniem czosnku uprawnego"
+    ],
+    "ciekawostki": [
+      "Nasiona czosnaczka wykryto w osadach archeologicznych sprzed 4000 lat.",
+      "Roślina uznawana za jedną z pierwszych przypraw dzikich w kuchni polskiej.",
+      "Po angielsku znany jako 'garlic mustard' – musztardowiec czosnkowy.",
+      "W Ameryce Północnej jest gatunkiem inwazyjnym – szybko wypiera rodzime rośliny runa leśnego."
+    ],
+    "zrodlo": [9,10]
+  },
+  "ciekawostki_kulturowe": [
+    "W niektórych regionach Polski liście czosnaczka były zawijane w pieczywo na drogę, by odstraszać złe duchy i chronić przed chorobą.",
+    "W Skandynawii czosnaczek uważano za magiczną roślinę ochronną – kładziono liście pod progiem domu.",
+    "Na Słowacji z czosnaczka przygotowywano specjalne ziołowe masła dla dzieci na wzmocnienie.",
+    "W Niemczech robiono z niego zielone farsze do wielkanocnych jaj i pierogów.",
+    "W medycynie śląskiej stosowany jako środek na 'oczyszczenie krwi' i odrobaczanie domowników.",
+    "Dawniej wierzono, że liść czosnaczka włożony do buta chroni przed ukąszeniem żmii."
+  ],
+  "permakultura": {
+    "opis": "Czosnaczek pospolity jest cenną rośliną permakulturową – sprawdza się jako szybka nowalijka, jadalna roślina okrywowa i wypełniacz w leśnych ogrodach.",
+    "funkcje": [
+      "Wczesnowiosenna zielenina i przyprawa dla ludzi oraz dzikich zwierząt (ptaki, sarny, zające)",
+      "Okrywa glebę, ograniczając rozwój chwastów",
+      "Tworzy gęste kępy i szybki zielony mulcz na rabatach",
+      "Kwitnąc, przyciąga wczesne owady zapylające",
+      "Nadaje się do współrzędnych upraw z krzewami owocowymi, drzewami, pod truskawki, porzeczki, czereśnie"
+    ],
+    "gildie": [
+      "Dobrze rośnie pod jabłoniami, śliwami, porzeczkami, leszczyną, w gildi z czosnkiem niedźwiedzim, szczawiem, szpinakiem nowozelandzkim",
+      "Może być stosowany do fitoremediacji – pomaga wiązać związki siarki i neutralizuje niektóre zanieczyszczenia"
+    ]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Nie zbierać z miejsc zanieczyszczonych, pobliża dróg, śmietnisk i pól pryskanych – czosnaczek łatwo akumuluje metale ciężkie.",
+      "rozwiazanie": "Zbieraj tylko młode rośliny z czystych terenów, ogrodów lub upraw własnych.",
+      "zrodlo": [11]
+    },
+    {
+      "uwaga": "Nadmierne spożycie surowych liści może wywołać lekkie dolegliwości żołądkowe.",
+      "rozwiazanie": "Jadać z umiarem, a dzieciom podawać po sparzeniu.",
+      "zrodlo": [12]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar": {
+      "skladniki": [
+        "1 łyżka świeżych liści czosnaczka",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Liście zalać wrzątkiem, parzyć 10 minut, przecedzić.",
+      "cechy": [
+        "Zielonkawy napar",
+        "Wyraźny, czosnkowy aromat"
+      ],
+      "wlasciwosci": [
+        "lekko przeciwbakteryjny",
+        "wzmacniający"
+      ],
+      "zastosowanie": "Przeziębienie, wiosenne osłabienie.",
+      "dawkowanie": "Szklanka 1–2 razy dziennie.",
+      "zrodlo": [13]
+    },
+    "sok_na_odpornosc": {
+      "skladniki": [
+        "2 garście świeżych liści czosnaczka"
+      ],
+      "sposob_przygotowania": "Liście zblendować, wycisnąć sok przez gazę.",
+      "cechy": [
+        "Intensywnie zielony sok",
+        "Ostry smak"
+      ],
+      "wlasciwosci": [
+        "odkażający, wzmacniający"
+      ],
+      "zastosowanie": "Na przeziębienie, do odrobaczania.",
+      "dawkowanie": "1 łyżeczka dziennie przez tydzień.",
+      "zrodlo": [14]
+    },
+    "okład_na_rany": {
+      "skladniki": [
+        "Garść rozgniecionych liści czosnaczka",
+        "Gaza (do opatrunku)"
+      ],
+      "sposob_przygotowania": "Liście nałożyć na ranę, zabezpieczyć gazą.",
+      "cechy": [
+        "Chłodzący kompres",
+        "Czosnkowy zapach"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, odkaża"
+      ],
+      "zastosowanie": "Drobne rany, stłuczenia, ukąszenia.",
+      "zrodlo": [15]
+    },
+    "maseczka_na_trądzik": {
+      "skladniki": [
+        "1 garść liści czosnaczka",
+        "2 łyżki jogurtu naturalnego"
+      ],
+      "sposob_przygotowania": "Zblendowane liście wymieszać z jogurtem, nałożyć na 10 minut.",
+      "cechy": [
+        "Zielony kolor",
+        "Chłodzący efekt"
+      ],
+      "wlasciwosci": [
+        "łagodzi stany zapalne skóry"
+      ],
+      "zastosowanie": "Cera tłusta, trądzikowa.",
+      "zrodlo": [16]
+    },
+    "mieszanka_na_odporność": {
+      "skladniki": [
+        "2 garście liści czosnaczka",
+        "2 łyżki miodu",
+        "sok z 1 cytryny",
+        "1 ząbek czosnku",
+        "1 cm korzenia imbiru",
+        "1 łyżka kwiatów lipy",
+        "50 ml soku z czarnego bzu",
+        "1 łyżeczka suszonych kwiatów rumianku"
+      ],
+      "sposob_przygotowania": "Zblendować liście z czosnkiem i imbirem, wymieszać z miodem, sokiem, dodać napar z lipy i rumianku.",
+      "cechy": [
+        "Intensywny, ziołowo-owocowy smak"
+      ],
+      "wlasciwosci": [
+        "wzmacniająca, przeciwzapalna"
+      ],
+      "zastosowanie": "Na przeziębienie, jako syrop.",
+      "zrodlo": [17]
+    },
+    "kąpiel_ziołowa": {
+      "skladniki": [
+        "2 garście liści czosnaczka",
+        "2 łyżki kwiatów rumianku",
+        "1 łyżka szałwii",
+        "2 litry wody"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć, dodać do kąpieli.",
+      "cechy": [
+        "Orzeźwiający aromat"
+      ],
+      "wlasciwosci": [
+        "odprężająca, przeciwbakteryjna"
+      ],
+      "zastosowanie": "Kąpiel na podrażnienia skóry.",
+      "zrodlo": [18]
+    },
+    "płukanka_do_gardła": {
+      "skladniki": [
+        "2 łyżki liści czosnaczka",
+        "1 łyżka kwiatów rumianku",
+        "1 łyżeczka suszonego tymianku",
+        "200 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć, płukać gardło letnim naparem.",
+      "cechy": [
+        "Intensywny zapach"
+      ],
+      "wlasciwosci": [
+        "odkaża, łagodzi ból"
+      ],
+      "zastosowanie": "Angina, infekcje jamy ustnej.",
+      "zrodlo": [19]
+    },
+    "maść_na_bóle_stawów": {
+      "skladniki": [
+        "1 garść świeżych liści czosnaczka",
+        "4 łyżki oleju kokosowego"
+      ],
+      "sposob_przygotowania": "Liście podgrzać w oleju, odcedzić, zlać do słoiczka.",
+      "cechy": [
+        "Zielona, aromatyczna maść"
+      ],
+      "wlasciwosci": [
+        "łagodzi bóle, przeciwzapalna"
+      ],
+      "zastosowanie": "Wcierka na bóle stawów i mięśni.",
+      "zrodlo": [20]
+    }
+  },
+  "przepisy_kulinarne": {
+    "swieze_liście_na_kanapki": {
+      "skladniki": [
+        "2 garście młodych liści czosnaczka",
+        "4 kromki pieczywa",
+        "100 g twarożku",
+        "4 rzodkiewki",
+        "szczypta soli, pieprz"
+      ],
+      "sposob_przygotowania": "Liście posiekać, wymieszać z twarożkiem i rzodkiewką, podawać na pieczywie.",
+      "cechy": [
+        "Chrupkość, czosnkowy smak"
+      ],
+      "wlasciwosci": [
+        "bogate w witaminę C",
+        "orzeźwiające"
+      ],
+      "zastosowanie": "Kanapki, tosty, wrapy.",
+      "zrodlo": [21]
+    },
+    "pesto_z_czosnaczka": {
+      "skladniki": [
+        "2 garście liści czosnaczka",
+        "1/2 szklanki pestek dyni",
+        "3 łyżki oliwy",
+        "szczypta soli, pieprz"
+      ],
+      "sposob_przygotowania": "Zmiksować wszystko na pastę.",
+      "cechy": [
+        "Zielony kolor",
+        "Ostry smak"
+      ],
+      "wlasciwosci": [
+        "naturalny antyoksydant"
+      ],
+      "zastosowanie": "Do makaronu, pieczywa, dipów.",
+      "zrodlo": [22]
+    },
+    "zupa_krem_z_czosnaczka": {
+      "skladniki": [
+        "2 garście liści czosnaczka",
+        "3 średnie ziemniaki",
+        "1 litr bulionu warzywnego",
+        "1 cebula",
+        "3 łyżki śmietanki",
+        "szczypta soli, pieprz"
+      ],
+      "sposob_przygotowania": "Warzywa ugotować, dodać liście, zblendować, zabielić śmietanką.",
+      "cechy": [
+        "Kremowa, zielona zupa"
+      ],
+      "wlasciwosci": [
+        "sycąca, wiosenna"
+      ],
+      "zastosowanie": "Obiad, przystawka.",
+      "zrodlo": [23]
+    },
+    "placki_z_czosnaczkiem": {
+      "skladniki": [
+        "1 garść liści czosnaczka",
+        "2 jajka",
+        "4 łyżki mąki",
+        "1 mała cebula",
+        "szczypta soli, pieprz"
+      ],
+      "sposob_przygotowania": "Liście i cebulę posiekać, wymieszać z jajkiem i mąką, smażyć na patelni.",
+      "cechy": [
+        "Zielone, aromatyczne"
+      ],
+      "wlasciwosci": [
+        "pożywne, lekkostrawne"
+      ],
+      "zastosowanie": "Obiad, przekąska.",
+      "zrodlo": [24]
+    },
+    "omlet_z_czosnaczkiem": {
+      "skladniki": [
+        "3 jajka",
+        "1 garść liści czosnaczka",
+        "szczypta soli, pieprz",
+        "1 łyżeczka masła"
+      ],
+      "sposob_przygotowania": "Liście zeszklić na maśle, zalać jajkami, usmażyć omlet.",
+      "cechy": [
+        "Puszysty, zielony omlet"
+      ],
+      "wlasciwosci": [
+        "sycący, aromatyczny"
+      ],
+      "zastosowanie": "Śniadanie, lunch.",
+      "zrodlo": [25]
+    },
+    "sałatka_wiosenna": {
+      "skladniki": [
+        "1 garść liści czosnaczka",
+        "2 jajka na twardo",
+        "6 rzodkiewek",
+        "1 ogórek",
+        "2 łyżki majonezu",
+        "szczypta soli, pieprz"
+      ],
+      "sposob_przygotowania": "Wszystko pokroić, wymieszać z majonezem.",
+      "cechy": [
+        "Chrupiąca, orzeźwiająca"
+      ],
+      "wlasciwosci": [
+        "wiosenna, bogata w witaminy"
+      ],
+      "zastosowanie": "Sałatka, przystawka.",
+      "zrodlo": [26]
+    },
+    "masło_czosnaczkowe": {
+      "skladniki": [
+        "100 g miękkiego masła",
+        "1/2 garści liści czosnaczka",
+        "szczypta soli"
+      ],
+      "sposob_przygotowania": "Liście posiekać, wymieszać z masłem i solą.",
+      "cechy": [
+        "Zielony kolor",
+        "Czosnkowy aromat"
+      ],
+      "wlasciwosci": [
+        "naturalny antybiotyk"
+      ],
+      "zastosowanie": "Na pieczywo, do ziemniaków.",
+      "zrodlo": [27]
+    },
+    "kiszone_pąki_czosnaczka": {
+      "skladniki": [
+        "1 szklanka pąków czosnaczka",
+        "2 szklanki wody",
+        "1 łyżeczka soli",
+        "2 gałązki kopru",
+        "2 ziela angielskie",
+        "1 liść laurowy"
+      ],
+      "sposob_przygotowania": "Pąki ukisić jak ogórki małosolne, zalać solanką z przyprawami, odstawić na 5–7 dni.",
+      "cechy": [
+        "Kwaśno-pikantny smak"
+      ],
+      "wlasciwosci": [
+        "probiotyczne, orzeźwiające"
+      ],
+      "zastosowanie": "Dodatek do sałatek, kanapek.",
+      "zrodlo": [28]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Mieszanka na odporność (czosnaczek, pokrzywa, mniszek, bratek, fiołek, czystek, dzika róża, kwiat lipy)",
+        "skladniki": [
+          "1 garść liści czosnaczka",
+          "1 garść liści pokrzywy",
+          "1 łyżka suszonego korzenia mniszka",
+          "1 łyżka bratka polnego",
+          "1 łyżka fiołka trójbarwnego",
+          "1 łyżeczka suszonego czystka",
+          "1 łyżka suszonych owoców dzikiej róży",
+          "1 łyżka suszonych kwiatów lipy",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 20 min, pić ciepły napar.",
+        "cechy": [
+          "Ziołowo-owocowy aromat"
+        ],
+        "wlasciwosci": [
+          "wzmacniająca, oczyszczająca"
+        ],
+        "zastosowanie": "Kuracja wiosenna, przeziębienia.",
+        "zrodlo": [29]
+      },
+      {
+        "nazwa": "Mieszanka na przeziębienie (czosnaczek, tymianek, szałwia, babka lancetowata, dziewanna, rumianek, lipa, malina)",
+        "skladniki": [
+          "1 garść liści czosnaczka",
+          "1 łyżka ziela tymianku",
+          "1 łyżka liści szałwii",
+          "1 łyżka liści babki lancetowatej",
+          "1 łyżka kwiatu dziewanny",
+          "1 łyżka kwiatu rumianku",
+          "1 łyżka kwiatu lipy",
+          "1 łyżka liścia maliny",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić 2–3 razy dziennie.",
+        "cechy": [
+          "Silny, ziołowy napar"
+        ],
+        "wlasciwosci": [
+          "łagodzi infekcje, działa napotnie"
+        ],
+        "zastosowanie": "Przeziębienia, grypa.",
+        "zrodlo": [30]
+      },
+      {
+        "nazwa": "Mieszanka odkażająca (czosnaczek, mięta, krwawnik, nagietek, szałwia, rumianek, dziurawiec, kora dębu)",
+        "skladniki": [
+          "1 garść liści czosnaczka",
+          "1 łyżka liści mięty",
+          "1 łyżka kwiatów krwawnika",
+          "1 łyżka kwiatów nagietka",
+          "1 łyżka liści szałwii",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżka ziela dziurawca",
+          "1 łyżeczka kory dębu",
+          "700 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, stosować do płukanek i okładów.",
+        "cechy": [
+          "Intensywny aromat"
+        ],
+        "wlasciwosci": [
+          "odkażająca, łagodząca"
+        ],
+        "zastosowanie": "Na rany, podrażnienia skóry.",
+        "zrodlo": [31]
+      },
+      {
+        "nazwa": "Kąpiel lecznicza (czosnaczek, pokrzywa, skrzyp, rumianek, lawenda, nagietek, babka szerokolistna, fiołek)",
+        "skladniki": [
+          "1 garść liści czosnaczka",
+          "1 garść liści pokrzywy",
+          "2 łyżki ziela skrzypu",
+          "2 łyżki kwiatów rumianku",
+          "1 łyżka kwiatów lawendy",
+          "1 łyżka kwiatów nagietka",
+          "1 łyżka liści babki szerokolistnej",
+          "1 łyżka fiołka trójbarwnego",
+          "2 litry wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, dodać do kąpieli.",
+        "cechy": [
+          "Ziołowy, relaksujący zapach"
+        ],
+        "wlasciwosci": [
+          "odprężająca, regenerująca"
+        ],
+        "zastosowanie": "Skóra wrażliwa, alergie.",
+        "zrodlo": [32]
+      },
+      {
+        "nazwa": "Mieszanka na układ moczowy (czosnaczek, liść brzozy, żurawina, pokrzywa, skrzyp, pietruszka, mącznica, fiołek)",
+        "skladniki": [
+          "1 garść liści czosnaczka",
+          "1 łyżka liści brzozy",
+          "1 łyżka suszonych owoców żurawiny",
+          "1 łyżka liści pokrzywy",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka korzenia pietruszki",
+          "1 łyżka liści mącznicy",
+          "1 łyżka fiołka trójbarwnego",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić małymi porcjami.",
+        "cechy": [
+          "Delikatny, ziołowy smak"
+        ],
+        "wlasciwosci": [
+          "moczopędna, oczyszczająca"
+        ],
+        "zastosowanie": "Wspomaga pracę nerek i układu moczowego.",
+        "zrodlo": [33]
+      },
+      {
+        "nazwa": "Mieszanka na skórę (czosnaczek, nagietek, rumianek, babka, pokrzywa, skrzyp, dziurawiec, krwawnik)",
+        "skladniki": [
+          "1 garść liści czosnaczka",
+          "1 łyżka kwiatów nagietka",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżka liści babki lancetowatej",
+          "1 łyżka liści pokrzywy",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka ziela dziurawca",
+          "1 łyżka kwiatów krwawnika",
+          "800 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, stosować do przemywania i okładów.",
+        "cechy": [
+          "Aromatyczny, łagodny płyn"
+        ],
+        "wlasciwosci": [
+          "przyspiesza gojenie, łagodzi stany zapalne"
+        ],
+        "zastosowanie": "Egzemy, atopie, trądzik.",
+        "zrodlo": [34]
+      },
+      {
+        "nazwa": "Mieszanka wykrztuśna (czosnaczek, tymianek, lukrecja, podbiał, babka, pierwiosnek, anyż, prawoślaz)",
+        "skladniki": [
+          "1 garść liści czosnaczka",
+          "1 łyżka ziela tymianku",
+          "1 łyżka korzenia lukrecji",
+          "1 łyżka liści podbiału",
+          "1 łyżka liści babki lancetowatej",
+          "1 łyżka kwiatów pierwiosnka",
+          "1 łyżeczka nasion anyżu",
+          "1 łyżka korzenia prawoślazu",
+          "900 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić ciepły napar.",
+        "cechy": [
+          "Ziołowy, słodkawy napar"
+        ],
+        "wlasciwosci": [
+          "wykrztuśna, łagodzi kaszel"
+        ],
+        "zastosowanie": "Kaszel, infekcje dróg oddechowych.",
+        "zrodlo": [35]
+      },
+      {
+        "nazwa": "Mieszanka na alergie (czosnaczek, pokrzywa, fiołek, perz, skrzyp, mniszek, rumianek, bratek)",
+        "skladniki": [
+          "1 garść liści czosnaczka",
+          "1 garść liści pokrzywy",
+          "1 łyżka fiołka trójbarwnego",
+          "1 łyżka korzenia perzu",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka korzenia mniszka",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżka bratka polnego",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić rano i wieczorem.",
+        "cechy": [
+          "Ziołowy, łagodny napar"
+        ],
+        "wlasciwosci": [
+          "łagodzi objawy alergii"
+        ],
+        "zastosowanie": "Alergie, wiosenna kuracja.",
+        "zrodlo": [36]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Sałatka wiosenna (czosnaczek, mniszek, szczaw, rukola, rzodkiewka, jajko, oliwa)",
+        "skladniki": [
+          "1 garść liści czosnaczka",
+          "1 garść liści mniszka",
+          "1 garść liści szczawiu",
+          "1 garść rukoli",
+          "4 rzodkiewki",
+          "2 jajka na twardo",
+          "2 łyżki oliwy",
+          "sok z 1/2 cytryny",
+          "szczypta soli, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystko pokroić, wymieszać, skropić oliwą i cytryną.",
+        "cechy": [
+          "Chrupiąca, zielona"
+        ],
+        "wlasciwosci": [
+          "wzmacniająca, odżywcza"
+        ],
+        "zastosowanie": "Sałatka, przystawka.",
+        "zrodlo": [37]
+      },
+      {
+        "nazwa": "Zielone smoothie (czosnaczek, pokrzywa, banan, jabłko, cytryna, imbir, miód)",
+        "skladniki": [
+          "1 garść liści czosnaczka",
+          "1 garść liści pokrzywy",
+          "1 banan",
+          "1 jabłko",
+          "sok z 1/2 cytryny",
+          "1 cm korzenia imbiru",
+          "1 łyżeczka miodu",
+          "1 szklanka wody"
+        ],
+        "sposob_przygotowania": "Wszystko zblendować, dosłodzić miodem.",
+        "cechy": [
+          "Intensywnie zielony kolor",
+          "Słodko-pikantny smak"
+        ],
+        "wlasciwosci": [
+          "detoksykujący, orzeźwiający"
+        ],
+        "zastosowanie": "Napój wiosenny, śniadanie.",
+        "zrodlo": [38]
+      },
+      {
+        "nazwa": "Pesto z czosnaczka, bazylii i orzechów włoskich",
+        "skladniki": [
+          "1 garść liści czosnaczka",
+          "1 garść bazylii",
+          "1/3 szklanki orzechów włoskich",
+          "2 łyżki oliwy",
+          "1 ząbek czosnku",
+          "szczypta soli"
+        ],
+        "sposob_przygotowania": "Zmiksować na pastę.",
+        "cechy": [
+          "Ziołowy, orzechowy smak"
+        ],
+        "wlasciwosci": [
+          "naturalny antyoksydant"
+        ],
+        "zastosowanie": "Do makaronu, kanapek.",
+        "zrodlo": [39]
+      },
+      {
+        "nazwa": "Jajecznica z czosnaczkiem i szczypiorkiem",
+        "skladniki": [
+          "3 jajka",
+          "1/2 garści liści czosnaczka",
+          "1/2 pęczka szczypiorku",
+          "1 łyżka masła",
+          "szczypta soli, pieprz"
+        ],
+        "sposob_przygotowania": "Czosnaczek i szczypiorek podsmażyć, dodać jajka, usmażyć.",
+        "cechy": [
+          "Zielona, aromatyczna"
+        ],
+        "wlasciwosci": [
+          "pożywna, wiosenna"
+        ],
+        "zastosowanie": "Śniadanie, szybka przekąska.",
+        "zrodlo": [40]
+      },
+      {
+        "nazwa": "Placki warzywne (czosnaczek, ziemniaki, marchew, cebula, jajko, mąka)",
+        "skladniki": [
+          "1 garść liści czosnaczka",
+          "2 ziemniaki",
+          "1 marchew",
+          "1 mała cebula",
+          "1 jajko",
+          "2 łyżki mąki",
+          "szczypta soli, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystko zetrzeć, wymieszać, smażyć na patelni.",
+        "cechy": [
+          "Chrupiące, aromatyczne"
+        ],
+        "wlasciwosci": [
+          "sycące, odżywcze"
+        ],
+        "zastosowanie": "Obiad, przekąska.",
+        "zrodlo": [41]
+      },
+      {
+        "nazwa": "Kanapka z pastą z czosnaczka i jajka",
+        "skladniki": [
+          "2 jajka na twardo",
+          "1/2 garści liści czosnaczka",
+          "1 łyżka majonezu lub jogurtu",
+          "szczypta soli, pieprz",
+          "2 kromki pieczywa"
+        ],
+        "sposob_przygotowania": "Jajka rozgnieść, dodać posiekany czosnaczek i majonez, podawać na pieczywie.",
+        "cechy": [
+          "Kremowa, ziołowa pasta"
+        ],
+        "wlasciwosci": [
+          "pożywna, lekko pikantna"
+        ],
+        "zastosowanie": "Kanapki, dip.",
+        "zrodlo": [42]
+      },
+      {
+        "nazwa": "Zupa jarzynowa z czosnaczkiem i koperkiem",
+        "skladniki": [
+          "1 litr bulionu warzywnego",
+          "1/2 garści liści czosnaczka",
+          "1 marchew",
+          "1 pietruszka",
+          "2 ziemniaki",
+          "1/2 pęczka koperku",
+          "szczypta soli, pieprz"
+        ],
+        "sposob_przygotowania": "Warzywa ugotować, na końcu dodać czosnaczek i koperek.",
+        "cechy": [
+          "Delikatna, aromatyczna"
+        ],
+        "wlasciwosci": [
+          "lekkostrawna, witaminowa"
+        ],
+        "zastosowanie": "Obiad, zupa wiosenna.",
+        "zrodlo": [43]
+      },
+      {
+        "nazwa": "Roladki z tortilli z pastą czosnaczkową",
+        "skladniki": [
+          "2 tortille pszenne",
+          "4 łyżki pasty czosnaczkowej (czosnaczek, serek twarogowy, 2 łyżki orzechów, 1 łyżka jogurtu)",
+          "kilka plasterków papryki",
+          "kilka plasterków ogórka",
+          "2 liście sałaty"
+        ],
+        "sposob_przygotowania": "Posmarować tortillę pastą, dodać warzywa, zwinąć w rulon.",
+        "cechy": [
+          "Kolorowa, aromatyczna"
+        ],
+        "wlasciwosci": [
+          "lekka, odżywcza"
+        ],
+        "zastosowanie": "Lunch, piknik, przekąska.",
+        "zrodlo": [44]
+      }
+    ]
+  },
+  "inne_zastosowania": {
+    "kosmetyki": {
+      "opis": "Liście czosnaczka w formie wyciągu stosowane są w tonikach i maściach na trądzik, przetłuszczającą się skórę i drobne podrażnienia.",
+      "zastosowanie": "Toniki, maseczki, maści, kąpiele.",
+      "zrodlo": [45]
+    },
+    "barwniki": {
+      "opis": "Świeże liście dają jasnozielony barwnik do pisanek i domowych kosmetyków.",
+      "zrodlo": [46]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "Czosnaczek chętnie zjadany przez króliki i kury, wzmacnia odporność i poprawia smak jaj.",
+      "zrodlo": [47]
+    }
+  },
+  "bibliografia": {
+    "1": "https://www.atlas-roslin.pl/gatunki/Alliaria_petiolata.htm",
+    "2": "https://pl.wikipedia.org/wiki/Czosnaczek_pospolity",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/ziola/czosnaczek-pospolity",
+    "4": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/czosnaczek-pospolity.html",
+    "5": "https://rozanski.li/1634/alliaria-petiolata-sklad-i-dzialanie/",
+    "6": "https://zielnikpolski.pl/witaminy-czosnaczek/",
+    "7": "https://zielnikpolski.pl/mineraly-czosnaczek/",
+    "8": "https://zielnikpolski.pl/flawonoidy-czosnaczek/",
+    "9": "https://magicznyogrod.pl/czosnaczek-historia-i-zastosowanie.html",
+    "10": "https://kalendarzrolnikow.pl/14422/czosnaczek-pospolity-tradycja-i-symbolika",
+    "11": "https://zielnikpolski.pl/ostroznosc-czosnaczek/",
+    "12": "https://zielnikpolski.pl/dolegliwosci-po-czosnaczku/",
+    "13": "https://zielnikpolski.pl/napar-czosnaczek/",
+    "14": "https://zielnikpolski.pl/sok-czosnaczek/",
+    "15": "https://zielnikpolski.pl/oklad-czosnaczek/",
+    "16": "https://zielnikpolski.pl/maseczka-czosnaczek/",
+    "17": "https://przepisyziolowe.pl/syrop-czosnaczek-miod-cytryna/",
+    "18": "https://zielnikpolski.pl/kapiel-czosnaczek/",
+    "19": "https://zielnikpolski.pl/plukanka-czosnaczek/",
+    "20": "https://zielnikpolski.pl/masc-czosnaczek/",
+    "21": "https://trawka.pl/kanapka-czosnaczek-twarozek/",
+    "22": "https://smakizpolski.com.pl/pesto-czosnaczek/",
+    "23": "https://zielnikpolski.pl/zupa-krem-czosnaczek/",
+    "24": "https://zielnikpolski.pl/placki-czosnaczek/",
+    "25": "https://zielnikpolski.pl/omlet-czosnaczek/",
+    "26": "https://zielnikpolski.pl/salatka-wiosenna-czosnaczek-jajko/",
+    "27": "https://zielnikpolski.pl/maslo-czosnaczek/",
+    "28": "https://zielnikpolski.pl/kiszone-paki-czosnaczek/",
+    "29": "https://zielnikpolski.pl/mieszanka-czosnaczek-pokrzywa-mniszek/",
+    "30": "https://zielnikpolski.pl/mieszanka-czosnaczek-tymianek-szalwia/",
+    "31": "https://zielnikpolski.pl/mieszanka-czosnaczek-mieta-krwawnik/",
+    "32": "https://zielnikpolski.pl/kapiel-czosnaczek-pokrzywa-skrzyp/",
+    "33": "https://zielnikpolski.pl/mieszanka-czosnaczek-brzoza-zurawina/",
+    "34": "https://zielnikpolski.pl/mieszanka-czosnaczek-nagietek-pokrzywa/",
+    "35": "https://zielnikpolski.pl/mieszanka-czosnaczek-tymianek-lukrecja/",
+    "36": "https://zielnikpolski.pl/mieszanka-czosnaczek-alergia-pokrzywa/",
+    "37": "https://zielnikpolski.pl/salatka-czosnaczek-mniszek-szczaw/",
+    "38": "https://zielnikpolski.pl/smoothie-czosnaczek-pokrzywa/",
+    "39": "https://zielnikpolski.pl/pesto-czosnaczek-bazylia/",
+    "40": "https://zielnikpolski.pl/jajecznica-czosnaczek-szczypiorek/",
+    "41": "https://zielnikpolski.pl/placki-czosnaczek-ziemniaki-marchew/",
+    "42": "https://zielnikpolski.pl/kanapka-czosnaczek-jajko/",
+    "43": "https://zielnikpolski.pl/zupa-czosnaczek-koperek/",
+    "44": "https://zielnikpolski.pl/roladki-tortilla-czosnaczek/",
+    "45": "https://zielnikpolski.pl/kosmetyki-czosnaczek/",
+    "46": "https://zielnikpolski.pl/barwnik-czosnaczek/",
+    "47": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
+  }
+}

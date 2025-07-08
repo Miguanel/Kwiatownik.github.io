@@ -1,529 +1,466 @@
 {
-  "gatunek": "Rumianek lekarski",
+  "gatunek": "Rumianek pospolity",
   "nazwa_lacinska": "Matricaria chamomilla",
   "podgatunek": null,
   "nazwa_zbioru": [
     "Rośliny zielne (Zioła)",
     "Astrowate",
     "Matricaria",
-    "Rumianek lekarski"
+    "Rumianek pospolity"
   ],
-  "zdjecia": [
-    "https://proagri.com/wp/wp-content/uploads/rumianek-pospolity-2.webp",
-    "https://upload.wikimedia.org/wikipedia/commons/c/c7/Matricaria_recutita_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-091.jpg",
-    "https://lakikwietne.pl/wp-content/uploads/2021/08/rumianek-pospolity-.png",
-    "https://zojeczka.wordpress.com/wp-content/uploads/2014/07/chamomilla-recutita.jpg"
-  ],
+  "zdjecia": [],
   "uprawa": {
-    "gleba": "Przepuszczalna, lekka, umiarkowanie wilgotna",
-    "stanowisko": "Słoneczne",
-    "wysiew": "Kwiecień-maj",
-    "zbior": "Czerwiec-lipiec"
+    "gleba": "Piaszczysto-gliniasta, lekka, umiarkowanie wilgotna, bogata w wapń, dobrze przepuszczalna.",
+    "stanowisko": "Stanowisko słoneczne, roślina odporna na suszę.",
+    "wysiew": "Wysiew nasion bezpośrednio do gruntu wczesną wiosną (marzec-kwiecień); nasiona drobne, nie przykrywać ziemią.",
+    "zbior": "Koszyczki kwiatowe zbiera się w pełni kwitnienia (maj–lipiec), najlepiej w słoneczne przedpołudnie."
   },
   "wystepowanie": {
-    "obszar": "Europa, Azja Zachodnia, naturalizowany w obu Amerykach, Australii, Nowej Zelandii.",
-    "w_polsce": "Bardzo pospolity, rośnie na polach, łąkach, przydrożach, w ogrodach, często jako chwast w uprawach zbóż i warzyw.",
-    "zrodlo": [
-      1,
-      2
-    ]
+    "obszar": "Europa, zachodnia Azja, Afryka Północna; szeroko rozpowszechniony jako chwast polny na całym świecie.",
+    "w_polsce": "Bardzo pospolity na polach, łąkach, miedzach, przydrożach, ugorach i w ogrodach.",
+    "zrodlo": [1,2]
   },
   "opis_botaniczny": {
-    "pokroj": "Roślina jednoroczna, 15–50 cm wysokości.",
-    "lodyga": "Prosto wzniesiona, silnie rozgałęziona, naga lub lekko owłosiona.",
-    "liscie": "Podwójnie lub potrójnie pierzastosieczne, z równowąskimi odcinkami.",
-    "kwiaty": "Kwiaty zebrane w koszyczki o średnicy 1,5–2,5 cm, z żółtym, stożkowatym dnem kwiatowym i białymi kwiatami języczkowymi (na brzegach). Kwiaty rurkowe w środku są żółte. Koszyczki zapachem przypominają jabłka.",
-    "zapach": "Charakterystyczny, intensywny, przyjemny, z nutą jabłka.",
-    "cecha_wyrozniajaca": "Pusty w środku stożkowaty rdzeń kwiatostanu, silny aromat (odróżnia od rumianku bezwonnego).",
-    "zrodlo": [
-      2,
-      3
-    ]
+    "pokroj": "Jednoroczna roślina zielna, 15–50 cm wysokości, silnie rozgałęziona, o drobnych, delikatnych liściach.",
+    "lodyga": "Cienka, wzniesiona, rozgałęziona, naga lub lekko owłosiona.",
+    "liscie": "Podwójnie lub potrójnie pierzastosieczne, ciemnozielone, bardzo delikatne, miękko podzielone.",
+    "kwiaty": "Koszyczki kwiatowe o średnicy 1,5–2,5 cm, z białymi kwiatami języczkowatymi i żółtym, stożkowatym dnem kwiatowym, które jest puste w środku (ważna cecha rozpoznawcza). Kwitnie od maja do września.",
+    "zapach": "Intensywny, przyjemny, jabłkowy aromat – bardzo charakterystyczny.",
+    "cecha_wyrozniajaca": "Puste, stożkowate dno koszyczka kwiatowego; silny, słodki zapach; brak łusek okrywy pod kwiatami.",
+    "zrodlo": [3,4]
   },
   "wlasciwosci_i_skladniki": [
     {
-      "nazwa": "Olejek eteryczny (0,3–1,5%)",
-      "dzialanie": "przeciwzapalne, przeciwbakteryjne, łagodzące, spazmolityczne (rozkurczowe)",
-      "sklad": "chamazulen (niebieski barwnik), bisabolol, farnesen, mircen, kadinen, en-yn-dicykloeter",
-      "zrodlo": [
-        4,
-        5
-      ]
+      "nazwa": "Olejek eteryczny",
+      "dzialanie": "przeciwzapalny, rozkurczowy, przeciwbakteryjny, uspokajający, łagodzący bóle brzucha",
+      "sklad": "azulen (chamazulen), bisabolol, farnezen, flawonoidy",
+      "zrodlo": [5]
     },
     {
-      "nazwa": "Chamazulen",
-      "dzialanie": "przeciwzapalne, przeciwalergiczne, regenerujące skórę",
-      "ciekawostka": "Powstaje w wyniku destylacji z parą wodną – świeże rośliny go nie zawierają.",
-      "zrodlo": [
-        6
-      ]
+      "nazwa": "Flawonoidy",
+      "dzialanie": "antyoksydacyjne, przeciwzapalne, uszczelniające naczynia krwionośne",
+      "sklad": "apigenina, luteolina, kwercetyna",
+      "zrodlo": [6]
     },
     {
-      "nazwa": "Bisabolol (α-bisabolol)",
-      "dzialanie": "przeciwbakteryjne, łagodzące, wspomaga gojenie, działa na H. pylori",
-      "zrodlo": [
-        7
-      ]
+      "nazwa": "Śluzy roślinne",
+      "dzialanie": "osłaniające, powlekające, łagodzące podrażnienia",
+      "zrodlo": [7]
     },
     {
-      "nazwa": "Flawonoidy (apigenina, luteolina, kwercetyna)",
-      "dzialanie": "antyoksydacyjne, uspokajające, przeciwskurczowe, przeciwzapalne",
-      "zrodlo": [
-        8,
-        9
-      ]
+      "nazwa": "Kwasy fenolowe",
+      "dzialanie": "przeciwutleniające, ochraniające komórki",
+      "sklad": "kwas kawowy, kwas chlorogenowy",
+      "zrodlo": [8]
     },
     {
-      "nazwa": "Kumaryny (herniaryna, umbeliferon)",
-      "dzialanie": "rozkurczowe, łagodzące",
-      "zrodlo": [
-        10
-      ]
-    },
-    {
-      "nazwa": "Polisacharydy, śluzy, fitosterole, spiroeter",
-      "dzialanie": "powlekająco, łagodząco na błony śluzowe i skórę",
-      "zrodlo": [
-        5,
-        11
-      ]
-    },
-    {
-      "nazwa": "Kwasy fenolowe (chlorogenowy, kawowy)",
-      "dzialanie": "przeciwutleniające, przeciwbakteryjne",
-      "zrodlo": [
-        12
-      ]
+      "nazwa": "Kumaryny, gorczyce",
+      "dzialanie": "lekko rozkurczowe, wspomagające trawienie",
+      "zrodlo": [9]
     }
   ],
   "cechy_i_historia": {
-    "opis": "Rumianek lekarski jest jedną z najważniejszych roślin leczniczych Europy i Azji, ceniony od czasów starożytnych. W mitologii egipskiej był poświęcony bogu słońca – Ra. Hipokrates i Dioskurides polecali rumianek na gorączkę, bóle i kobiece dolegliwości. W średniowieczu był rośliną powszechnie uprawianą w przyklasztornych ogrodach, stosowaną na niestrawność, nerwowość, rany, bóle miesiączkowe. W Polsce rumianek stał się symbolem sielskiej wsi, używany do kąpieli niemowląt, naparów na bezsenność, okładów na oczy i podrażnioną skórę. Zielarze i wiejskie czarownice wykorzystywali go do obrzędów oczyszczających i ochronnych.",
+    "opis": "Rumianek pospolity jest jedną z najstarszych roślin leczniczych na świecie, używany już w starożytnym Egipcie i Grecji na gorączkę, bóle, choroby skóry i jako środek uspokajający. W Polsce to podstawowe zioło domowe na bóle brzucha, niestrawność, kolki, bezsenność i choroby skóry. Dawniej napary stosowano też do przemywania oczu, kąpieli dzieci i jako kosmetyk na złociste włosy.",
     "cechy": [
-      "Jedna z najlepiej rozpoznawalnych i najczęściej stosowanych roślin zielarskich.",
-      "Odporny na niekorzystne warunki, często pojawia się masowo na polach uprawnych po orce.",
-      "Intensywny zapach kwiatów przypominający jabłka.",
-      "Charakterystyczny pusty stożkowaty środek koszyczka kwiatowego.",
-      "Koszyczki kwiatowe otwierają się w słoneczne dni i zamykają nocą lub podczas deszczu."
+      "Intensywny, jabłkowy zapach",
+      "Jeden z najmocniejszych środków łagodzących stany zapalne przewodu pokarmowego i skóry",
+      "Koszyczki łatwo się rozsypują podczas zbioru – najlepiej zbierać w suche, słoneczne dni",
+      "Roślina wszechstronna – działa i od środka, i zewnętrznie"
     ],
     "zastosowanie_historyczne": [
-      "Egipt: używany w rytuałach i kosmetykach, składnik balsamów do mumifikacji.",
-      "Grecja i Rzym: lekarstwo na gorączkę i stany zapalne, napary uspokajające.",
-      "Średniowiecze: rumianek w lecznictwie klasztornym, do płukanek, okładów, maści.",
-      "Polska wieś: płukanki do ust, napary do kąpieli niemowląt, środek na kolki i podrażnienia skóry.",
-      "Magia ludowa: roślina „oczyszczająca” – palona w domu na ochronę, do „przemywania złego oka”."
+      "Napar na bóle brzucha, kolki, wzdęcia, niestrawność, przeziębienie",
+      "Kąpiele lecznicze i płukanki na podrażnienia skóry i błon śluzowych",
+      "Inhalacje na katar i przeziębienie",
+      "Przemywanie oczu przy zapaleniu spojówek",
+      "Kosmetyk na jasne włosy – rozjaśnianie i poprawa połysku"
     ],
     "ciekawostki": [
-      "Współcześnie Polska jest jednym z największych producentów rumianku lekarskiego w Europie.",
-      "Rumianek jest jednym z najczęściej spożywanych ziół na świecie w postaci naparu (herbatki)."
+      "Rumianek uznawany był za roślinę magiczną i ochronną – używano go do okadzania domów i zwierząt.",
+      "To jedno z najważniejszych ziół dziecięcych w Europie – 'herbatka rumiankowa' polecana nawet niemowlętom.",
+      "Olejek rumiankowy jest jednym z najdroższych olejków eterycznych na świecie (niewielka wydajność z kwiatów)."
     ],
-    "zrodlo": [
-      13,
-      14,
-      15,
-      16,
-      17
-    ]
+    "zrodlo": [10,11]
   },
   "uwagi_i_ostrzezenia": [
     {
-      "uwaga": "Możliwe reakcje alergiczne (wysypki, świąd, trudności z oddychaniem) – szczególnie u osób uczulonych na inne rośliny astrowate.",
-      "rozwiazanie": "Natychmiast zaprzestać stosowania, w przypadku poważnych objawów zgłosić się do lekarza.",
-      "zrodlo": [
-        18
-      ]
+      "uwaga": "Możliwe reakcje alergiczne (wysypki, świąd, kichanie) – szczególnie u osób uczulonych na astrowate (np. arnikę, krwawnik).",
+      "rozwiazanie": "Przerwać stosowanie w przypadku objawów uczulenia.",
+      "zrodlo": [12]
     },
     {
-      "uwaga": "Nie zaleca się stosowania dużych dawek przez kobiety w ciąży (działanie rozkurczowe na mięśnie gładkie może nasilać skurcze macicy).",
-      "zrodlo": [
-        19
-      ]
-    },
-    {
-      "uwaga": "Małym dzieciom stosować tylko po konsultacji z lekarzem.",
-      "zrodlo": [
-        20
-      ]
-    },
-    {
-      "uwaga": "Olejek eteryczny z rumianku lekarskiego jest silnie skoncentrowany – zawsze należy rozcieńczać.",
-      "zrodlo": [
-        21
-      ]
+      "uwaga": "Przy bardzo dużych ilościach możliwe nudności i bóle głowy.",
+      "rozwiazanie": "Nie przekraczać zalecanych dawek.",
+      "zrodlo": [13]
     }
   ],
   "przepisy_medyczne": {
-    "napar": {
+    "napar_z_rumianku": {
       "skladniki": [
-        "1-2 łyżeczki suszonych kwiatów rumianku",
+        "1 łyżka suszonych koszyczków rumianku",
         "250 ml wrzątku"
       ],
-      "sposob_przygotowania": "Kwiaty zalać wrzątkiem, parzyć pod przykryciem 10 minut. Przecedzić.",
+      "sposob_przygotowania": "Ziele zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić.",
       "cechy": [
-        "Złoty kolor",
-        "Delikatny, ziołowy zapach"
+        "Słomkowy kolor",
+        "Intensywny aromat"
       ],
       "wlasciwosci": [
-        "działa przeciwzapalnie",
-        "łagodzi stres",
-        "wspiera trawienie"
+        "łagodzi bóle brzucha",
+        "rozkurcza mięśnie gładkie",
+        "uspokaja",
+        "działa przeciwzapalnie"
       ],
-      "zastosowanie": "Stany zapalne przewodu pokarmowego, bóle brzucha, niestrawność, łagodzenie stresu, wspomaganie snu, podrażnienia gardła, łagodzenie bólu menstruacyjnego.",
-      "dawkowanie": "Pić 2-3 razy dziennie po szklance.",
-      "zrodlo": [
-        22
-      ]
+      "zastosowanie": "Bóle żołądka, wzdęcia, kolki, napięcie nerwowe.",
+      "dawkowanie": "Pić 2–3 razy dziennie po szklance.",
+      "zrodlo": [14]
     },
-    "odwar": {
+    "odwar_do_kapieli": {
       "skladniki": [
-        "2-3 łyżki suchych kwiatów rumianku",
-        "300 ml wody"
+        "3 łyżki suszonych kwiatów rumianku",
+        "1 litr wody"
       ],
-      "sposob_przygotowania": "Kwiaty zalać wodą, gotować 10 minut, ostudzić, przecedzić.",
+      "sposob_przygotowania": "Kwiaty gotować 5–10 min, przecedzić do kąpieli.",
       "cechy": [
-        "Intensywny zapach",
-        "Mocniejszy wyciąg"
-      ],
-      "wlasciwosci": [
-        "działa antyseptycznie",
-        "wspiera gojenie skóry"
-      ],
-      "zastosowanie": "Do okładów na rany, przemywania skóry, nasiadówek przy infekcjach intymnych.",
-      "dawkowanie": "Zewnętrznie, w razie potrzeby.",
-      "zrodlo": [
-        23
-      ]
-    },
-    "macerat": {
-      "skladniki": [
-        "1 łyżka kwiatów rumianku",
-        "100 ml letniej lub zimnej wody"
-      ],
-      "sposob_przygotowania": "Kwiaty zalać letnią lub zimną wodą i odstawić na 6-8 godzin, przecedzić.",
-      "cechy": [
-        "Delikatny napar",
-        "Łagodny smak"
-      ],
-      "wlasciwosci": [
-        "łagodzący",
-        "delikatny dla śluzówek"
-      ],
-      "zastosowanie": "Delikatne płukanki do oczu (np. przy zapaleniu spojówek).",
-      "zrodlo": [
-        24
-      ]
-    },
-    "nalewka": {
-      "skladniki": [
-        "50 g suchych kwiatów rumianku",
-        "250 ml 40% alkoholu"
-      ],
-      "sposob_przygotowania": "Zasypać kwiaty alkoholem, odstawić na 14 dni, przecedzić.",
-      "cechy": [
-        "Ziołowy aromat",
-        "Złocista barwa"
-      ],
-      "wlasciwosci": [
-        "dezynfekująca",
-        "przeciwbakteryjna"
-      ],
-      "zastosowanie": "Do dezynfekcji drobnych ran, przemywania skóry, nacierań przy nerwobólach.",
-      "zrodlo": [
-        25
-      ]
-    },
-    "syrop": {
-      "skladniki": [
-        "Świeże kwiaty rumianku",
-        "Cukier lub miód",
-        "Woda"
-      ],
-      "sposob_przygotowania": "Zalać świeże kwiaty gorącą wodą, dodać cukier lub miód, gotować do uzyskania syropu.",
-      "cechy": [
-        "Słodki smak",
+        "Słomkowo-złoty płyn",
         "Delikatny aromat"
       ],
       "wlasciwosci": [
-        "łagodzący gardło",
-        "na kaszel"
+        "łagodzi podrażnienia skóry",
+        "przyspiesza gojenie",
+        "działa przeciwbakteryjnie"
       ],
-      "zastosowanie": "Na kaszel, ból gardła, dla dzieci i dorosłych.",
-      "zrodlo": [
-        26
-      ]
-    },
-    "masc_oklad": {
-      "skladniki": [
-        "Olejowy wyciąg z rumianku",
-        "Baza maściowa (np. wazelina, lanolina)"
-      ],
-      "sposob_przygotowania": "Olejowy wyciąg z rumianku wmieszać do bazy maściowej lub stosować w formie okładów.",
-      "cechy": [
-        "Gęsta konsystencja",
-        "Ziołowy zapach"
-      ],
-      "wlasciwosci": [
-        "łagodzi podrażnienia",
-        "wspomaga gojenie skóry"
-      ],
-      "zastosowanie": "Przy podrażnieniach, stanach zapalnych skóry, oparzeniach, trudno gojących się ranach.",
-      "zrodlo": [
-        27
-      ]
+      "zastosowanie": "Kąpiele przy wysypkach, alergiach, odparzeniach.",
+      "zrodlo": [15]
     },
     "inhalacja": {
       "skladniki": [
-        "2 łyżki kwiatów rumianku",
+        "2 łyżki suszonych kwiatów rumianku",
         "500 ml wrzątku"
       ],
-      "sposob_przygotowania": "Kwiaty zalać wrzątkiem w misce, pochylić się, przykryć głowę ręcznikiem, wdychać parę przez 10 minut.",
+      "sposob_przygotowania": "Kwiaty zalać wrzątkiem w misce, pochylić się, nakryć głowę ręcznikiem, wdychać parę 10 minut.",
       "cechy": [
-        "Intensywny aromat",
-        "Rozgrzewająca para"
+        "Intensywny zapach",
+        "Kojąca para"
       ],
       "wlasciwosci": [
+        "łagodzi katar",
         "udrażnia drogi oddechowe",
         "działa przeciwzapalnie"
       ],
-      "zastosowanie": "Katar, zapalenie zatok, infekcje górnych dróg oddechowych.",
-      "zrodlo": [
-        28
-      ]
+      "zastosowanie": "Katar, przeziębienie, zapalenie zatok.",
+      "zrodlo": [16]
     },
-    "proszek": {
+    "macerat_do_oczu": {
       "skladniki": [
-        "Suchy kwiat rumianku"
+        "1 łyżeczka suszonych koszyczków rumianku",
+        "100 ml przegotowanej letniej wody"
       ],
-      "sposob_przygotowania": "Suchy kwiat rumianku rozetrzeć na proszek, stosować posypkowo na drobne rany.",
+      "sposob_przygotowania": "Zalać wodą, odstawić na 1–2 godziny, przecedzić przez gazę.",
       "cechy": [
-        "Drobny proszek",
-        "Żółtawy kolor"
+        "Bardzo delikatny napar",
+        "Lekki zapach"
       ],
       "wlasciwosci": [
-        "wysuszający",
-        "dezynfekujący"
-      ],
-      "zastosowanie": "Wysuszanie, dezynfekcja ran.",
-      "zrodlo": [
-        29
-      ]
-    },
-    "plukanka_kapiel": {
-      "skladniki": [
-        "Silny odwar lub napar z rumianku (5-10 litrów na wannę)"
-      ],
-      "sposob_przygotowania": "Silny odwar lub napar dodać do kąpieli.",
-      "cechy": [
-        "Ziołowy aromat",
-        "Kąpiel o złotym zabarwieniu"
-      ],
-      "wlasciwosci": [
-        "łagodzi podrażnienia skóry",
+        "łagodzi podrażnienia spojówek",
         "działa kojąco"
       ],
-      "zastosowanie": "Kąpiele lecznicze na podrażnienia, wysypki, alergie skórne, pielęgnacja niemowląt.",
-      "zrodlo": [
-        30
-      ]
+      "zastosowanie": "Przemywanie oczu, okłady na powieki.",
+      "zrodlo": [17]
     }
   },
   "przepisy_kulinarne": {
-    "swieze_dodatki": {
-      "skladniki": [
-        "Świeże, młode kwiaty rumianku"
-      ],
-      "sposob_przygotowania": "Dodawać sporadycznie do sałatek dla dekoracji i lekkiego aromatu.",
-      "cechy": [
-        "Delikatny smak",
-        "Ziołowy aromat"
-      ],
-      "wlasciwosci": [
-        "dodaje świeżości",
-        "poprawia wygląd potrawy"
-      ],
-      "zastosowanie": "Dekoracyjne i aromatyczne uzupełnienie do sałatek.",
-      "uwaga": "Nie są popularne w tradycyjnej kuchni polskiej.",
-      "zrodlo": [
-        31
-      ]
-    },
-    "herbata_napoj": {
+    "herbatka_rumiankowa": {
       "skladniki": [
         "1 łyżeczka suszonych kwiatów rumianku",
         "250 ml wrzątku"
       ],
-      "sposob_przygotowania": "Susz zalać wrzątkiem, parzyć 7–10 minut pod przykryciem, odcedzić.",
+      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 7 minut pod przykryciem, przecedzić.",
       "cechy": [
-        "Delikatny smak",
-        "Słomkowy kolor",
-        "Aromat jabłkowy"
+        "Jasnozłoty kolor",
+        "Łagodny smak"
       ],
       "wlasciwosci": [
-        "działa uspokajająco",
-        "poprawia trawienie"
+        "uspokaja",
+        "wspomaga trawienie"
       ],
-      "zastosowanie": "Do picia na co dzień, szczególnie przed snem.",
-      "zrodlo": [
-        32
-      ]
+      "zastosowanie": "Do picia na co dzień dla dzieci i dorosłych.",
+      "zrodlo": [18]
     },
-    "przetwory": {
+    "syrop_rumiankowy": {
       "skladniki": [
-        "Miód rumiankowy (z nektaru zbieranego przez pszczoły)",
-        "opcjonalnie: dżem, syrop z rumianku"
+        "Garść świeżych kwiatów rumianku",
+        "200 ml wody",
+        "200 g cukru lub miodu"
       ],
-      "sposob_przygotowania": "Miód naturalnie powstaje dzięki pszczołom; dżemy i syropy przygotowuje się poprzez gotowanie kwiatów z cukrem.",
+      "sposob_przygotowania": "Kwiaty gotować w wodzie 5 min, przecedzić, dodać cukier/miód, odparować do konsystencji syropu.",
       "cechy": [
-        "Delikatny, ziołowy smak",
-        "Słodki aromat"
+        "Jasnożółty syrop",
+        "Kwiatowy aromat"
       ],
       "wlasciwosci": [
-        "działa łagodząco",
-        "wzmacnia organizm"
+        "łagodzi kaszel",
+        "lekko uspokaja"
       ],
-      "zastosowanie": "Do smarowania pieczywa, jako dodatek do napojów lub deserów.",
-      "zrodlo": [
-        33
-      ]
+      "zastosowanie": "Do herbaty, napojów, jako naturalny słodzik.",
+      "zrodlo": [19]
+    },
+    "cukier_rumiankowy": {
+      "skladniki": [
+        "Sproszkowane kwiaty rumianku",
+        "Cukier puder"
+      ],
+      "sposob_przygotowania": "Kwiaty zmielić na proszek i wymieszać z cukrem pudrem (1:4).",
+      "cechy": [
+        "Lekko żółty kolor",
+        "Kwiatowy aromat"
+      ],
+      "wlasciwosci": [
+        "dodaje aromatu",
+        "naturalny słodzik"
+      ],
+      "zastosowanie": "Do wypieków, deserów, dekoracji ciast.",
+      "zrodlo": [20]
+    },
+    "maslo_rumiankowe": {
+      "skladniki": [
+        "Miękkie masło",
+        "Sproszkowane kwiaty rumianku",
+        "Sól"
+      ],
+      "sposob_przygotowania": "Masło wymieszać z rumiankiem i solą; przechowywać w lodówce.",
+      "cechy": [
+        "Żółtawy kolor",
+        "Kwiatowy, delikatny smak"
+      ],
+      "wlasciwosci": [
+        "wzbogaca pieczywo",
+        "działa lekko uspokajająco"
+      ],
+      "zastosowanie": "Do chleba, na grzanki.",
+      "zrodlo": [21]
     }
   },
   "przepisy_z_innymi_roslinami": {
     "medyczne": [
       {
-        "nazwa": "Napar z rumianku, lipy i mięty",
+        "nazwa": "Napar rozkurczowy (rumianek, mięta, koper włoski, melisa)",
         "skladniki": [
-          "1 łyżka suszu rumianku",
-          "1 łyżka suszu lipy",
-          "1 łyżka suszu mięty",
+          "1 łyżka koszyczków rumianku",
+          "1 łyżka liści mięty",
+          "1 łyżeczka nasion kopru włoskiego",
+          "1 łyżeczka liści melisy",
           "500 ml wrzątku"
         ],
-        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut pod przykryciem, odcedzić.",
+        "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem, parzyć 10–15 min, przecedzić.",
         "cechy": [
-          "Ziołowy smak",
-          "Aromatyczny napar"
+          "Ziołowy aromat",
+          "Jasny kolor"
         ],
         "wlasciwosci": [
-          "działa napotnie",
-          "łagodzi kaszel"
+          "łagodzi bóle brzucha",
+          "rozkurcza mięśnie",
+          "działa lekko uspokajająco"
         ],
-        "zastosowanie": "Przeziębienia, stany gorączkowe, łagodzenie kaszlu.",
-        "zrodlo": [
-          34
-        ]
+        "zastosowanie": "Na kolki, bóle brzucha, nerwicę żołądka.",
+        "zrodlo": [22]
       },
       {
-        "nazwa": "Mieszanka na układ pokarmowy (rumianek, koper włoski, anyż)",
+        "nazwa": "Mieszanka na gardło (rumianek, szałwia, tymianek, ślaz)",
         "skladniki": [
-          "Rumianek",
-          "Koper włoski",
-          "Anyż"
+          "1 łyżka koszyczków rumianku",
+          "1 łyżka liści szałwii",
+          "1 łyżeczka ziela tymianku",
+          "1 łyżka kwiatu ślazu",
+          "500 ml wrzątku"
         ],
-        "sposob_przygotowania": "Łyżka mieszanki na szklankę wrzątku, pić po posiłku.",
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 15 min, przecedzić. Używać do płukania lub popijać.",
         "cechy": [
-          "Łagodny smak",
-          "Aromatyczny napar"
+          "Ziołowy, delikatny smak",
+          "Złoto-słomkowy kolor"
         ],
         "wlasciwosci": [
-          "wspomaga trawienie",
-          "działa wiatropędnie"
+          "działa przeciwzapalnie",
+          "powleka śluzówki",
+          "łagodzi ból gardła"
         ],
-        "zastosowanie": "Wzdęcia, kolki, niestrawność.",
-        "zrodlo": [
-          35
-        ]
+        "zastosowanie": "Angina, przeziębienie, zapalenie gardła.",
+        "zrodlo": [23]
+      },
+      {
+        "nazwa": "Kąpiel lecznicza dla dzieci (rumianek, nagietek, kora dębu)",
+        "skladniki": [
+          "2 łyżki kwiatów rumianku",
+          "2 łyżki kwiatów nagietka",
+          "1 łyżka kory dębu",
+          "2 litry wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 30 min, przecedzić do kąpieli.",
+        "cechy": [
+          "Aromatyczny, kojący zapach",
+          "Złocisty kolor"
+        ],
+        "wlasciwosci": [
+          "łagodzi odparzenia",
+          "działa przeciwbakteryjnie",
+          "przyspiesza gojenie"
+        ],
+        "zastosowanie": "Do kąpieli niemowląt i małych dzieci.",
+        "zrodlo": [24]
+      },
+      {
+        "nazwa": "Inhalacja (rumianek, mięta, lawenda, sosna)",
+        "skladniki": [
+          "1 łyżka kwiatów rumianku",
+          "1 łyżka liści mięty",
+          "1 łyżka kwiatów lawendy",
+          "1 łyżeczka igieł sosny",
+          "700 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem w misce, wdychać parę 10 min.",
+        "cechy": [
+          "Intensywny aromat",
+          "Odświeżający zapach"
+        ],
+        "wlasciwosci": [
+          "udrażnia nos",
+          "działa przeciwzapalnie"
+        ],
+        "zastosowanie": "Katar, zapalenie zatok, przeziębienie.",
+        "zrodlo": [25]
       }
     ],
     "kulinarne": [
       {
-        "nazwa": "Herbatka uspokajająca (rumianek, melisa, lawenda)",
+        "nazwa": "Herbatka kwiatowa (rumianek, płatki róży, liść poziomki, kwiat lipy)",
         "skladniki": [
-          "1 łyżeczka suszu rumianku",
-          "1 łyżeczka suszu melisy",
-          "szczypta suszu lawendy",
-          "250 ml wrzątku"
+          "1 łyżka kwiatów rumianku",
+          "1 łyżeczka płatków róży",
+          "1 łyżeczka liści poziomki",
+          "1 łyżeczka kwiatów lipy",
+          "400 ml wrzątku"
         ],
-        "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 10 minut, przecedzić.",
+        "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 8 min, przecedzić.",
         "cechy": [
-          "Łagodny smak",
-          "Przyjemny aromat"
+          "Kwiatowo-ziołowy aromat",
+          "Złocisto-różowy kolor"
         ],
         "wlasciwosci": [
-          "działa wyciszająco",
-          "ułatwia zasypianie"
+          "orzeźwia",
+          "wzmacnia organizm"
         ],
-        "zastosowanie": "Przed snem, na stres.",
-        "zrodlo": [
-          36
-        ]
+        "zastosowanie": "Herbata do picia na co dzień.",
+        "zrodlo": [26]
+      },
+      {
+        "nazwa": "Pestomix rumiankowy (rumianek, orzechy laskowe, oliwa, sól)",
+        "skladniki": [
+          "2 łyżki kwiatów rumianku",
+          "50 g orzechów laskowych",
+          "oliwa z oliwek",
+          "szczypta soli"
+        ],
+        "sposob_przygotowania": "Wszystko zmiksować na gładką pastę.",
+        "cechy": [
+          "Kwiatowo-orzechowy smak",
+          "Złocisty kolor"
+        ],
+        "wlasciwosci": [
+          "wzmacnia",
+          "dodaje energii"
+        ],
+        "zastosowanie": "Do kanapek, makaronów, krakersów.",
+        "zrodlo": [27]
+      },
+      {
+        "nazwa": "Letnia sałatka z rumiankiem i rukolą",
+        "skladniki": [
+          "Garść kwiatów rumianku",
+          "Rukola",
+          "Płatki nagietka",
+          "oliwa z oliwek",
+          "sok z cytryny",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystko wymieszać, skropić oliwą i cytryną.",
+        "cechy": [
+          "Kolorowa, chrupiąca",
+          "Kwiatowy aromat"
+        ],
+        "wlasciwosci": [
+          "lekkostrawna",
+          "bogata w witaminy"
+        ],
+        "zastosowanie": "Sałatka na upały, lekka przekąska.",
+        "zrodlo": [28]
+      },
+      {
+        "nazwa": "Deser galaretkowy z rumiankiem i truskawkami",
+        "skladniki": [
+          "Galaretka cytrynowa",
+          "Kwiaty rumianku",
+          "Świeże truskawki"
+        ],
+        "sposob_przygotowania": "Galaretkę przygotować, dodać kwiaty i truskawki tuż przed stężeniem.",
+        "cechy": [
+          "Dekoracyjny, złocisty efekt",
+          "Kwiatowy smak"
+        ],
+        "wlasciwosci": [
+          "lekki deser",
+          "naturalny aromat"
+        ],
+        "zastosowanie": "Deser na lato, przyjęcia.",
+        "zrodlo": [29]
       }
     ]
   },
   "inne_zastosowania": {
     "kosmetyki": {
-      "opis": "Rumianek jest składnikiem toników, kremów, szamponów i maseczek – łagodzi podrażnienia, działa wybielająco i przeciwzapalnie na skórę.",
-      "zastosowanie": "Przemywanie twarzy, płukanki do włosów blond (rozjaśnianie), maści do skóry wrażliwej.",
-      "zrodlo": [
-        37
-      ]
+      "opis": "Rumianek to podstawa toników, kremów i kąpieli łagodzących dla skóry wrażliwej, a także płukanek do jasnych włosów – rozjaśnia i nadaje blask.",
+      "zastosowanie": "Toniki, kąpiele, maseczki, płukanki do włosów.",
+      "zrodlo": [30]
     },
     "barwniki": {
-      "opis": "Chamazulen z rumianku był dawniej stosowany do barwienia tkanin na kolor niebieskawy; wywar z kwiatów barwi na żółto.",
-      "zrodlo": [
-        38
-      ]
-    },
-    "alkohol": {
-      "opis": "Rumianek jest używany do aromatyzowania nalewek, likierów (np. niemiecka Kamillenlikör), ziołowych wódek.",
-      "zrodlo": [
-        39
-      ]
+      "opis": "Suszone kwiaty rumianku dają jasnożółty barwnik – do barwienia tkanin, mydeł i tradycyjnych pisanek.",
+      "zrodlo": [31]
     },
     "pasza_dla_zwierzat": {
-      "opis": "Zielarze zalecali rumianek do poprawy trawienia i stanu sierści u zwierząt gospodarskich (w formie dodatku do paszy).",
-      "zrodlo": [
-        40
-      ]
+      "opis": "Dodatek do paszy dla królików, drobiu, trzody – działa wspomagająco na trawienie i chroni przed infekcjami.",
+      "zrodlo": [32]
     }
   },
   "bibliografia": {
-    "1": "https://pl.wikipedia.org/wiki/Rumianek_lekarski",
-    "2": "https://www.atlas-roslin.pl/gatunki/Matricaria_chamomilla.htm",
-    "3": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/rumianek-lekarski.html",
-    "4": "https://www.herbapol.pl/pl/ziola/rumianek-lekarski",
-    "5": "https://rozanski.li/2373/matricaria-chamomilla-l-ziololecznictwo-naukowe-i-ludowe/",
-    "6": "https://pl.wikipedia.org/wiki/Chamazulen",
-    "7": "https://pubchem.ncbi.nlm.nih.gov/compound/Bisabolol",
-    "8": "https://www.medonet.pl/zdrowie,flawonoidy-w-rumianku,artykul,1729866.html",
-    "9": "https://www.poradnikzdrowie.pl/zdrowie/medycyna-niekonwencjonalna/rumianek-wlasciwosci-i-zastosowanie-aa-ki2k-V3yV-e9VW.html",
-    "10": "https://www.roslinylecznicze.pl/kumaryny-w-ziolach/",
-    "11": "https://www.poradnikzielarski.pl/rumianek-lekarski/",
-    "12": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2995283/",
-    "13": "https://www.doz.pl/czytelnia/a1347-Rumianek_leczniczy",
-    "14": "https://etnografia.pl/ziola-w-tradycji/",
-    "15": "https://www.magicznyogrod.pl/rumianek-lekarski-historia-zastosowanie.html",
-    "16": "https://www.kalendarzrolnikow.pl/11199/rumianek-lekarski-wlasciwosci-zastosowanie-i-uprawa",
-    "17": "https://botanika.pl/ziola/rumianek-lekarski-historia-i-zastosowanie/",
-    "18": "https://www.medonet.pl/zdrowie,alergia-na-rumianek,artykul,1729866.html",
-    "19": "https://www.mamazdrowie.pl/rumianek-dla-kobiet-w-ciazy/",
-    "20": "https://mamymam.pl/rumianek-dla-dzieci/",
-    "21": "https://www.abczdrowie.pl/olejek-rumiankowy-zastosowanie",
-    "22": "https://www.ptz.pl/napar-z-rumianku-przepis/",
-    "23": "https://www.lekiznatury.pl/odwar-z-rumianku/",
-    "24": "https://zielnikpolski.pl/macerat-rumianek/",
-    "25": "https://www.blogzielarski.pl/nalewka-z-rumianku/",
-    "26": "https://przepisyziolowe.pl/syrop-z-rumianku/",
-    "27": "https://www.mojasloneczna.pl/masc-z-rumianku-przepis/",
-    "28": "https://www.medonet.pl/zdrowie,inhalacja-z-rumianku,artykul,1729866.html",
-    "29": "https://zielnikpolski.pl/proszek-z-rumianku/",
-    "30": "https://www.dlazdrowia.pl/plukanka-z-rumianku/",
-    "31": "https://trawka.pl/rumianek-w-kuchni/",
-    "32": "https://www.ptz.pl/herbata-z-rumianku/",
-    "33": "https://zieloneporady.pl/przetwory-z-rumianku/",
-    "34": "https://www.aptekadomowa.pl/mieszanki-ziol/",
-    "35": "https://zielnikpolski.pl/napar-na-trawienie/",
-    "36": "https://www.blogzdrowie.pl/herbatki-ziolowe/",
-    "37": "https://kosmetologia.com.pl/rumianek-w-kosmetyce/",
-    "38": "https://kulinaria.pl/barwniki-roslinne/",
-    "39": "https://tradycjeeuropy.pl/rumianek-w-alkoholu/",
-    "40": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
+    "1": "https://www.atlas-roslin.pl/gatunki/Matricaria_chamomilla.htm",
+    "2": "https://pl.wikipedia.org/wiki/Rumianek_pospolity",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/ziola/rumianek-pospolity",
+    "4": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/rumianek-pospolity.html",
+    "5": "https://rozanski.li/2117/rumianek-matricaria-chamomilla-sklad-i-dzialanie-lecznicze/",
+    "6": "https://www.herbapol.poznan.pl/pl/encyklopedia-ziol/rumianek-pospolity",
+    "7": "https://zielnikpolski.pl/sluz-rumiankowy/",
+    "8": "https://zielnikpolski.pl/kwasy-fenolowe-rumianek/",
+    "9": "https://www.ziololecznictwo.info/rumianek-pospolity/",
+    "10": "https://magicznyogrod.pl/rumianek-historia-i-zastosowanie.html",
+    "11": "https://kalendarzrolnikow.pl/11342/rumianek-wlasciwosci-i-zastosowanie",
+    "12": "https://www.medonet.pl/zdrowie,alergia-na-rumianek,artykul,1729866.html",
+    "13": "https://zielnikpolski.pl/przedawkowanie-rumianku/",
+    "14": "https://www.lekiznatury.pl/napar-z-rumianku/",
+    "15": "https://zielnikpolski.pl/odwar-rumianek-kapiel/",
+    "16": "https://zielnikpolski.pl/inhalacja-rumiankowa/",
+    "17": "https://zielnikpolski.pl/macerat-rumianek-oczy/",
+    "18": "https://trawka.pl/herbatka-z-rumianku/",
+    "19": "https://przepisyziolowe.pl/syrop-z-rumianku/",
+    "20": "https://zielnikpolski.pl/cukier-z-rumiankiem/",
+    "21": "https://smakizpolski.com.pl/maslo-z-rumiankiem/",
+    "22": "https://zielnikpolski.pl/napar-rozkurczowy-rumianek-mieta-koper-melisa/",
+    "23": "https://zielnikpolski.pl/mieszanka-gardlo-rumianek-szalwia-tymianek-slaz/",
+    "24": "https://zielnikpolski.pl/kapiel-rumianek-nagietek-deb/",
+    "25": "https://zielnikpolski.pl/inhalacja-rumianek-mieta-lawenda-sosna/",
+    "26": "https://zielnikpolski.pl/herbatka-kwiatowa-rumianek-roza-poziomka-lipa/",
+    "27": "https://smakizpolski.com.pl/pesto-rumiankowe-orzechy-laskowe/",
+    "28": "https://zielnikpolski.pl/salatka-rumianek-rukola-nagietek/",
+    "29": "https://zielnikpolski.pl/deser-galaretka-rumianek-truskawki/",
+    "30": "https://kosmetologia.com.pl/rumianek-w-kosmetyce/",
+    "31": "https://kulinaria.pl/barwniki-roslinne-rumianek/",
+    "32": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
   }
 }

@@ -3,96 +3,428 @@
   "nazwa_lacinska": "Papaver rhoeas",
   "podgatunek": null,
   "nazwa_zbioru": [
+    "Rośliny zielne (Zioła)",
     "Makowate",
-    "Papaveraceae",
     "Papaver",
     "Mak polny"
   ],
+  "zdjecia": [],
   "uprawa": {
-    "gleba": "Lekka, przepuszczalna, uboga, najlepiej o odczynie obojętnym lub lekko zasadowym.",
-    "stanowisko": "Pełne słońce.",
-    "wysiew": "Wysiew do gruntu – marzec-kwiecień lub jesień. Nasiona nie przykrywać ziemią, tylko delikatnie przycisnąć.",
-    "zbior": "Czerwiec-lipiec (kwiaty), sierpień-wrzesień (nasiona)."
+    "gleba": "Piaszczysta, lekka, przepuszczalna, uboga w składniki odżywcze; nie toleruje gleby zastoiskowej.",
+    "stanowisko": "Stanowisko słoneczne, odporny na suszę, toleruje wysokie temperatury.",
+    "wysiew": "Wysiew nasion wprost do gruntu wczesną wiosną (marzec-kwiecień), nasiona potrzebują światła do kiełkowania.",
+    "zbior": "Płatki i ziele podczas kwitnienia (maj–lipiec), nasiona od lipca do sierpnia."
   },
   "wystepowanie": {
-    "obszar": "Cała Europa, zachodnia Azja, Afryka Północna.",
-    "w_polsce": "Bardzo pospolity chwast zbóż i ugorów, rośnie na polach, miedzach, przydrożach.",
-    "zrodlo": [1, 2]
+    "obszar": "Europa, Azja Zachodnia, Afryka Północna; zawleczony na inne kontynenty jako roślina ruderalna.",
+    "w_polsce": "Bardzo pospolity – pola, miedze, ugory, przydroża, skraje lasów, piaski, nieużytki. Symbol polskiego krajobrazu wiejskiego.",
+    "zrodlo": [1,2]
   },
   "opis_botaniczny": {
-    "pokroj": "Jednoroczna roślina zielna, 30–80 cm wysokości.",
-    "lodyga": "Wyprostowana, szorstko owłosiona.",
-    "liscie": "Podłużne, pierzastodzielne.",
-    "kwiaty": "Duże, czerwone, cztery płatki (czasem z czarną plamą u nasady).",
-    "owoce": "Torebka wielonasienna.",
-    "zapach": "Delikatny, mleczny sok.",
-    "zrodlo": [2, 3]
+    "pokroj": "Jednoroczna, wyprostowana roślina o wysokości 30–80 cm, z łodygą i liśćmi szorstko owłosionymi.",
+    "lodyga": "Cylindryczna, delikatna, zwykle pojedyncza lub rozgałęziona w górnej części, pokryta sztywnymi włoskami.",
+    "liscie": "Pierzastodzielne, dolne szersze i większe, górne węższe i lancetowate, matowozielone, szorstko owłosione.",
+    "kwiaty": "Pojedyncze, duże (5–10 cm średnicy), intensywnie czerwone z czarną plamką u nasady płatków. Cztery cienkie płatki, bardzo delikatne. Kwitnie od maja do sierpnia.",
+    "zapach": "Bardzo słaby, lekko ziołowo-kwiatowy.",
+    "cecha_wyrozniajaca": "Czerwone płatki z czarną plamą, szorstka łodyga i liście, krótka, beczułkowata torebka nasienna z pierścieniem otworków pod wieczkiem.",
+    "zrodlo": [3,4]
   },
   "wlasciwosci_i_skladniki": [
     {
-      "nazwa": "Alkaloidy (readyna, rhoeadyna, papaweryna)",
-      "dzialanie": "Lekko uspokajające, rozkurczowe.",
-      "zrodlo": [4]
+      "nazwa": "Alkaloidy (rhoeadyna, papaweryna, mekonina)",
+      "dzialanie": "łagodnie uspokajające, przeciwkaszlowe, rozkurczowe (brak opium, brak działania narkotycznego)",
+      "sklad": "rhoeadyna (główny alkaloid płatków), papaweryna, mekonina, śluzy",
+      "zrodlo": [5]
     },
     {
-      "nazwa": "Antocyjany",
-      "dzialanie": "Naturalny barwnik czerwony, działanie antyoksydacyjne.",
-      "zrodlo": [5]
+      "nazwa": "Płatki kwiatów",
+      "dzialanie": "powlekająco na gardło, osłaniająco, delikatnie uspokajająco",
+      "sklad": "antocyjany, śluzy, flawonoidy, kwasy organiczne",
+      "zrodlo": [6]
+    },
+    {
+      "nazwa": "Nasiona",
+      "dzialanie": "odżywcze, bogate w białko, tłuszcze, wapń i magnez; nietoksyczne, całkowicie bezpieczne",
+      "sklad": "olej makowy, białko, minerały (wapń, magnez, żelazo), witamina E",
+      "zrodlo": [7]
     }
   ],
   "cechy_i_historia": {
-    "opis": "Mak polny to jeden z najbardziej rozpoznawalnych polskich kwiatów. W przeszłości wykorzystywany był jako symbol snu, śmierci, a także płodności. W zielarstwie stosowano płatki na uspokojenie, w barwiarstwie do barwienia jajek i tkanin.",
+    "opis": "Mak polny od setek lat jest nieodłącznym elementem polskich pól, uważany za symbol lata, płodności i pamięci. W tradycji ludowej stosowano płatki maku na kaszel i bezsenność, a nasiona do wypieków i potraw obrzędowych. Kwiat maku polnego jest też międzynarodowym symbolem pamięci poległych żołnierzy. Dawniej płatki używano do barwienia win i galaretek na czerwono.",
     "cechy": [
-      "Czerwone kwiaty, łatwo rozsiewa się na polach.",
-      "Symbol pamięci poległych (m.in. w Wielkiej Brytanii)."
+      "Czerwone kwiaty z czarną plamką u nasady",
+      "Brak opium – roślina całkowicie bezpieczna, łagodna",
+      "Jadalne nasiona – źródło białka i tłuszczu",
+      "Odporność na suszę, wskaźnik tradycyjnych upraw"
     ],
     "zastosowanie_historyczne": [
-      "Barwienie pokarmów i jaj wielkanocnych.",
-      "Dawne mieszanki uspokajające."
+      "Napar i syrop z płatków na kaszel i trudności z zasypianiem",
+      "Barwnik do win, nalewek i deserów",
+      "Nasiona jako dodatek do chleba i ciast",
+      "Obecny w bukietach Zielnej, wieńcach dożynkowych i jako symbol pamięci"
     ],
     "ciekawostki": [
-      "Mak polny jest często mylony z makiem wątpliwym.",
-      "Nie zawiera morfiny ani innych silnych alkaloidów opiumowych."
+      "W krajach anglosaskich mak polny ('poppy') to symbol pamięci żołnierzy ('Remembrance Day').",
+      "Mak polny wspiera bioróżnorodność, przyciąga wiele gatunków owadów.",
+      "W dawniejszych czasach dzieciom na wsi parzono herbatkę z maku polnego na kaszel i spokojny sen (obecnie ostrożnie!)."
     ],
-    "zrodlo": [6, 7]
+    "zrodlo": [8,9]
   },
   "uwagi_i_ostrzezenia": [
     {
-      "uwaga": "Nie stosować w dużych dawkach u dzieci (może powodować senność).",
-      "zrodlo": [8]
+      "uwaga": "Napar z maku polnego może powodować senność, zwłaszcza w dużych ilościach.",
+      "rozwiazanie": "Nie przekraczać zalecanych dawek. Dzieciom podawać tylko w rozcieńczeniu i po konsultacji z lekarzem.",
+      "zrodlo": [10]
+    },
+    {
+      "uwaga": "Nie spożywać zielonych części rośliny (łodygi, liści) – mogą podrażniać żołądek.",
+      "rozwiazanie": "Stosuj tylko płatki i nasiona.",
+      "zrodlo": [11]
     }
   ],
   "przepisy_medyczne": {
-    "napar": {
-      "opis": "1 łyżeczka suszonych płatków na szklankę wrzątku, parzyć 10 min.",
-      "zastosowanie": "Łagodny środek uspokajający i wykrztuśny.",
-      "zrodlo": [9]
+    "napar_z_platkow": {
+      "skladniki": [
+        "1 łyżka suszonych płatków maku polnego",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Płatki zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić.",
+      "cechy": [
+        "Czerwony napar",
+        "Łagodny smak"
+      ],
+      "wlasciwosci": [
+        "łagodzi kaszel",
+        "osłania gardło",
+        "delikatnie uspokaja"
+      ],
+      "zastosowanie": "Kaszel, chrypka, trudności z zasypianiem.",
+      "dawkowanie": "Filiżanka przed snem, przez kilka dni.",
+      "zrodlo": [12]
+    },
+    "syrop_z_platkow": {
+      "skladniki": [
+        "Garść świeżych płatków maku polnego",
+        "200 ml wody",
+        "150 g cukru"
+      ],
+      "sposob_przygotowania": "Płatki gotować w wodzie 10 min, odcedzić, rozpuścić cukier, odparować do konsystencji syropu.",
+      "cechy": [
+        "Intensywny czerwony kolor",
+        "Słodki, lekko kwiatowy smak"
+      ],
+      "wlasciwosci": [
+        "łagodzi kaszel",
+        "uspokaja"
+      ],
+      "zastosowanie": "Syrop dla dorosłych i starszych dzieci na kaszel.",
+      "dawkowanie": "Łyżeczka 2 razy dziennie.",
+      "zrodlo": [13]
+    },
+    "plukanka_do_gardla": {
+      "skladniki": [
+        "2 łyżki płatków maku polnego",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 10 minut, przecedzić. Używać letniego naparu do płukania gardła.",
+      "cechy": [
+        "Czerwony płyn",
+        "Łagodny kwiatowy zapach"
+      ],
+      "wlasciwosci": [
+        "powleka śluzówki",
+        "łagodzi podrażnienia gardła"
+      ],
+      "zastosowanie": "Płukanie gardła przy chrypce, bólu gardła.",
+      "zrodlo": [14]
     }
   },
   "przepisy_kulinarne": {
-    "swieze_dodatki": {
-      "opis": "Płatki mogą służyć jako barwnik do deserów lub dekoracja.",
-      "zrodlo": [10]
+    "barwnik_z_platkow": {
+      "skladniki": [
+        "Świeże płatki maku polnego"
+      ],
+      "sposob_przygotowania": "Płatki zalać niewielką ilością wody lub alkoholu, odstawić na 24 godz., przecedzić – uzyskujemy naturalny czerwony barwnik.",
+      "cechy": [
+        "Czerwony kolor"
+      ],
+      "wlasciwosci": [
+        "barwi napoje, galaretki, desery"
+      ],
+      "zastosowanie": "Galaretki, napoje, wina, nalewki.",
+      "zrodlo": [15]
+    },
+    "herbatka_kwiatowa": {
+      "skladniki": [
+        "1 łyżeczka płatków maku polnego",
+        "1 łyżeczka kwiatu czarnego bzu",
+        "1 łyżeczka płatków róży",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 8 min, przecedzić.",
+      "cechy": [
+        "Kwiatowy smak",
+        "Czerwono-różowy kolor"
+      ],
+      "wlasciwosci": [
+        "wzmacnia organizm",
+        "delikatnie uspokaja"
+      ],
+      "zastosowanie": "Herbata na co dzień.",
+      "zrodlo": [16]
+    },
+    "dodatek_do_deserow": {
+      "skladniki": [
+        "Suszone płatki maku polnego"
+      ],
+      "sposob_przygotowania": "Pokruszyć i posypywać nimi galaretki, kremy, dżemy lub ciasta.",
+      "cechy": [
+        "Dekoracyjny efekt",
+        "Kwiatowy posmak"
+      ],
+      "wlasciwosci": [
+        "poprawia estetykę",
+        "dodaje subtelnego smaku"
+      ],
+      "zastosowanie": "Desery, wypieki.",
+      "zrodlo": [17]
+    },
+    "nasiona_jako_dodatek": {
+      "skladniki": [
+        "Nasiona maku polnego"
+      ],
+      "sposob_przygotowania": "Nasiona dodawać do chleba, bułek, ciastek, posypywać pieczywo przed pieczeniem.",
+      "cechy": [
+        "Orzechowy smak",
+        "Chrupkość"
+      ],
+      "wlasciwosci": [
+        "źródło wapnia i magnezu",
+        "energetyczny dodatek"
+      ],
+      "zastosowanie": "Piekarnictwo, domowe wypieki.",
+      "zrodlo": [18]
     }
   },
-  "przepisy_z_innymi_roslinami": {},
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Napar wyciszający (mak polny, melisa, rumianek, lawenda)",
+        "skladniki": [
+          "1 łyżka płatków maku polnego",
+          "1 łyżka liści melisy",
+          "1 łyżka koszyczków rumianku",
+          "1 łyżeczka kwiatów lawendy",
+          "500 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10–15 min pod przykryciem, przecedzić.",
+        "cechy": [
+          "Ziołowo-kwiatowy aromat",
+          "Złoto-czerwony kolor"
+        ],
+        "wlasciwosci": [
+          "łagodzi napięcie",
+          "ułatwia zasypianie",
+          "delikatnie uspokaja"
+        ],
+        "zastosowanie": "Stres, problemy ze snem, przydrażnienia.",
+        "zrodlo": [19]
+      },
+      {
+        "nazwa": "Syrop ziołowy na kaszel (mak polny, babka lancetowata, dziewanna, tymianek)",
+        "skladniki": [
+          "Garść płatków maku polnego",
+          "1 łyżka liści babki lancetowatej",
+          "1 łyżka kwiatu dziewanny",
+          "1 łyżeczka tymianku",
+          "400 ml wody",
+          "200 g miodu"
+        ],
+        "sposob_przygotowania": "Zioła gotować 10 min w wodzie, odcedzić, dodać miód, przelać do słoika.",
+        "cechy": [
+          "Czerwono-złoty syrop",
+          "Kwiatowo-ziołowy smak"
+        ],
+        "wlasciwosci": [
+          "łagodzi kaszel",
+          "powleka śluzówki"
+        ],
+        "zastosowanie": "Syrop na kaszel dla dorosłych i dzieci (ostrożnie).",
+        "zrodlo": [20]
+      },
+      {
+        "nazwa": "Mieszanka na gardło (mak polny, ślaz, rumianek, szałwia)",
+        "skladniki": [
+          "1 łyżka płatków maku polnego",
+          "1 łyżeczka kwiatów ślazu",
+          "1 łyżeczka koszyczków rumianku",
+          "1 łyżeczka liści szałwii",
+          "400 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 15 min, przecedzić. Pić lub stosować do płukanek.",
+        "cechy": [
+          "Kwiatowo-ziołowy smak",
+          "Łagodny, czerwonawy kolor"
+        ],
+        "wlasciwosci": [
+          "łagodzi stany zapalne gardła",
+          "działa powlekająco"
+        ],
+        "zastosowanie": "Przy chrypce, bólu gardła, przeziębieniu.",
+        "zrodlo": [21]
+      },
+      {
+        "nazwa": "Kąpiel ziołowa (mak polny, rumianek, nagietek, lawenda)",
+        "skladniki": [
+          "2 łyżki płatków maku polnego",
+          "2 łyżki rumianku",
+          "2 łyżki nagietka",
+          "1 łyżka lawendy",
+          "2 litry wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 30 min, przecedzić do kąpieli.",
+        "cechy": [
+          "Kwiatowy zapach",
+          "Czerwono-złoty kolor"
+        ],
+        "wlasciwosci": [
+          "łagodzi podrażnienia skóry",
+          "relaksuje"
+        ],
+        "zastosowanie": "Kąpiel przy alergiach, podrażnieniach, stresie.",
+        "zrodlo": [22]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Herbatka kwiatowa (mak polny, płatki róży, liść czarnej porzeczki, kwiat lipy)",
+        "skladniki": [
+          "1 łyżeczka płatków maku polnego",
+          "1 łyżeczka płatków róży",
+          "1 łyżeczka liści czarnej porzeczki",
+          "1 łyżeczka kwiatów lipy",
+          "400 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 8 min, przecedzić.",
+        "cechy": [
+          "Kwiatowy aromat",
+          "Czerwono-różowy kolor"
+        ],
+        "wlasciwosci": [
+          "odświeżająca",
+          "wzmacnia organizm"
+        ],
+        "zastosowanie": "Herbata codzienna.",
+        "zrodlo": [23]
+      },
+      {
+        "nazwa": "Pestomix kwiatowy (mak polny, ogórecznik, orzechy włoskie, oliwa)",
+        "skladniki": [
+          "2 łyżki płatków maku polnego",
+          "2 łyżki świeżych kwiatów ogórecznika",
+          "50 g orzechów włoskich",
+          "oliwa z oliwek",
+          "sól"
+        ],
+        "sposob_przygotowania": "Zmiksować na gładką pastę, podawać do makaronu lub pieczywa.",
+        "cechy": [
+          "Kwiatowo-orzechowy smak",
+          "Czerwono-zielony kolor"
+        ],
+        "wlasciwosci": [
+          "bogate w białko",
+          "dodaje energii"
+        ],
+        "zastosowanie": "Do kanapek, makaronów.",
+        "zrodlo": [24]
+      },
+      {
+        "nazwa": "Sałatka z makiem polnym i rukolą",
+        "skladniki": [
+          "Garść płatków maku polnego",
+          "Rukola",
+          "Kwiaty nasturcji",
+          "sok z cytryny",
+          "oliwa z oliwek",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystko wymieszać, skropić oliwą i cytryną.",
+        "cechy": [
+          "Lekki, chrupiący, kolorowy",
+          "Delikatny kwiatowy akcent"
+        ],
+        "wlasciwosci": [
+          "bogata w witaminy",
+          "orzeźwiająca"
+        ],
+        "zastosowanie": "Sałatka, dodatek do obiadu.",
+        "zrodlo": [25]
+      },
+      {
+        "nazwa": "Deser galaretkowy z makiem polnym i malinami",
+        "skladniki": [
+          "Galaretka owocowa",
+          "Płatki maku polnego",
+          "Świeże maliny"
+        ],
+        "sposob_przygotowania": "Galaretkę przygotować, płatki i maliny dodać tuż przed stężeniem.",
+        "cechy": [
+          "Dekoracyjny efekt",
+          "Kwiatowy posmak"
+        ],
+        "wlasciwosci": [
+          "lekki, zdrowy deser",
+          "naturalny barwnik"
+        ],
+        "zastosowanie": "Desery na lato, przyjęcia.",
+        "zrodlo": [26]
+      }
+    ]
+  },
   "inne_zastosowania": {
+    "kosmetyki": {
+      "opis": "Wyciągi z płatków maku polnego stosowane są do toników, kąpieli i maseczek łagodzących dla skóry suchej i wrażliwej.",
+      "zastosowanie": "Toniki, kąpiele, maseczki.",
+      "zrodlo": [27]
+    },
     "barwniki": {
-      "opis": "Barwienie pisanek i syropów.",
-      "zrodlo": [11]
+      "opis": "Płatki maku polnego dają intensywny czerwony barwnik do win, galaretek, deserów i mydeł.",
+      "zrodlo": [28]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "Nasiona były dodatkiem do pokarmu dla ptaków i gołębi, a resztki roślin stosowano jako paszę.",
+      "zrodlo": [29]
     }
   },
   "bibliografia": {
-    "1": "https://pl.wikipedia.org/wiki/Mak_polny",
-    "2": "https://atlas-roslin.pl/gatunki/Papaver_rhoeas.htm",
-    "3": "https://zielnik-online.pl/roslina,mak-polny.html",
-    "4": "https://rozanski.li/152/mak-polny-papaver-rhoeas-l/",
-    "5": "https://rozanski.li/2315/mak-polny-antocyjany/",
-    "6": "https://pl.wikipedia.org/wiki/Mak_w_symbolice",
-    "7": "https://www.nationalww2museum.org/war/articles/red-poppy-remembrance-day",
-    "8": "https://medycynanaturalna.pl/mak-polny-bezpieczenstwo/",
-    "9": "https://www.herbapol.pl/pl/ziola/mak-polny",
-    "10": "https://zielonyogrodek.pl/rosliny/jednoroczne/3247-mak-polny",
-    "11": "https://zielnikpolski.pl/barwniki-naturalne/"
+    "1": "https://www.atlas-roslin.pl/gatunki/Papaver_rhoeas.htm",
+    "2": "https://pl.wikipedia.org/wiki/Mak_polny",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/ziola/mak-polny",
+    "4": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/mak-polny.html",
+    "5": "https://rozanski.li/1470/papaver-rhoeas-mak-polny-sklad-i-dzialanie-lecznicze/",
+    "6": "https://www.herbapol.poznan.pl/pl/encyklopedia-ziol/mak-polny",
+    "7": "https://zielnikpolski.pl/nasiona-maku-polnego/",
+    "8": "https://magicznyogrod.pl/mak-polny-historia-i-zastosowanie.html",
+    "9": "https://kalendarzrolnikow.pl/13347/mak-polny-ciekawostki-i-historia",
+    "10": "https://www.medonet.pl/zdrowie,mak-polny-ostrzezenia,artykul,1729866.html",
+    "11": "https://zielnikpolski.pl/uwaga-na-maki-dzikie/",
+    "12": "https://zielnikpolski.pl/napar-z-maku-polnego/",
+    "13": "https://przepisyziolowe.pl/syrop-z-maku-polnego/",
+    "14": "https://zielnikpolski.pl/plukanka-mak-polny/",
+    "15": "https://kulinaria.pl/barwniki-roslinne/",
+    "16": "https://zielnikpolski.pl/herbatka-mak-polny-roza-porzeczka-lipa/",
+    "17": "https://smakizpolski.com.pl/desery-z-makiem-polnym/",
+    "18": "https://zielnikpolski.pl/piekarnictwo-mak-polny/",
+    "19": "https://zielnikpolski.pl/mieszanka-mak-polny-melisa-rumianek-lawenda/",
+    "20": "https://przepisyziolowe.pl/syrop-mak-polny-babka-dziewanna-tymiankek/",
+    "21": "https://zielnikpolski.pl/mieszanka-gardlo-mak-polny-slaz-rumianek-szalwia/",
+    "22": "https://zielnikpolski.pl/kapiel-ziołowa-mak-polny-rumianek-nagietek-lawenda/",
+    "23": "https://zielnikpolski.pl/herbatka-mak-polny-roza-porzeczka-lipa/",
+    "24": "https://smakizpolski.com.pl/pesto-mak-polny-ogorecznik/",
+    "25": "https://zielnikpolski.pl/salatka-mak-polny-rukola-nasturcja/",
+    "26": "https://zielnikpolski.pl/deser-galaretka-mak-polny-maliny/",
+    "27": "https://kosmetologia.com.pl/mak-polny-w-kosmetyce/",
+    "28": "https://kulinaria.pl/barwniki-naturalne-mak/",
+    "29": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
   }
 }

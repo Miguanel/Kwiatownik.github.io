@@ -1,0 +1,811 @@
+{
+  "gatunek": "Lebiodka pospolita",
+  "nazwa_lacinska": "Origanum vulgare",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Rośliny zielne (Zioła)",
+    "Jasnotowate",
+    "Origanum",
+    "Lebiodka pospolita"
+  ],
+  "zdjecia": [],
+  "uprawa": {
+    "gleba": "Lekka, przepuszczalna, bogata w wapń, najlepiej umiarkowanie sucha.",
+    "stanowisko": "Stanowisko słoneczne, ciepłe, osłonięte od wiatru; nie znosi zastoin wodnych.",
+    "wysiew": "Wysiew nasion wprost do gruntu lub rozsady wczesną wiosną; roślina łatwo się rozsiewa.",
+    "zbior": "Ścinać szczyty pędów podczas kwitnienia (czerwiec-wrzesień); suszyć w cieniu w przewiewnym miejscu."
+  },
+  "wystepowanie": {
+    "obszar": "Europa, Azja, północna Afryka; rozprzestrzeniona także w Ameryce Północnej.",
+    "w_polsce": "Pospolita na suchych łąkach, wzgórzach, brzegach lasów, zboczach, ugorach, przydrożach; spotykana w całym kraju.",
+    "zrodlo": [1,2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Wieloletnia bylina, wysokość 30–80 cm, o wzniesionych, silnie rozgałęzionych, czworograniastych łodygach.",
+    "lodyga": "Czerwonawa, wzniesiona, szorstko owłosiona, u góry rozgałęziona.",
+    "liscie": "Jajowate do podłużnych, całobrzegie, naprzeciwległe, lekko owłosione, intensywnie pachnące przy roztarciu.",
+    "kwiaty": "Drobne, purpuroworóżowe, zebrane w kuliste baldachogrona, kwitnie od czerwca do września.",
+    "zapach": "Bardzo intensywny, korzenny, aromatyczny – rozpoznawalny dla oregano.",
+    "cecha_wyrozniajaca": "Charakterystyczny, mocny aromat, purpurowe kwiaty, czworograniasta łodyga.",
+    "zrodlo": [3,4]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Olejek eteryczny",
+      "dzialanie": "silnie przeciwbakteryjny, przeciwgrzybiczy, przeciwzapalny, rozkurczowy",
+      "sklad": "karwakrol, tymol, borneol, cyneol, p-cymen",
+      "zrodlo": [5]
+    },
+    {
+      "nazwa": "Flawonoidy",
+      "dzialanie": "antyoksydacyjne, uszczelniające naczynia, wspierające odporność",
+      "sklad": "apigenina, luteolina, rutyna",
+      "zrodlo": [6]
+    },
+    {
+      "nazwa": "Garbniki, kwasy fenolowe",
+      "dzialanie": "ściągające, ochronne, przeciwutleniające",
+      "sklad": "kwas rozmarynowy, kawowy, ferulowy",
+      "zrodlo": [7]
+    },
+    {
+      "nazwa": "Gorycze i witaminy",
+      "dzialanie": "pobudzają trawienie, wzmacniające",
+      "sklad": "witamina C, K, B6, żelazo, magnez",
+      "zrodlo": [8]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Lebiodka (oregano) była świętą rośliną Greków i Rzymian, symbolem szczęścia i długowieczności. Używana w medycynie, kuchni, magii ludowej, a także do ochrony domostw przed złem. Stosowana od wieków na kaszel, przeziębienia, niestrawność i jako środek antybakteryjny. Współcześnie nieodzowna przyprawa kuchni śródziemnomorskiej, ale i polskiej.",
+    "cechy": [
+      "Bardzo aromatyczna, dekoracyjna roślina",
+      "Wyjątkowo odporna na suszę i mróz",
+      "Bogactwo olejków eterycznych o szerokim zastosowaniu leczniczym i kulinarnym",
+      "Wabi owady zapylające, a jej korzeń stabilizuje glebę"
+    ],
+    "zastosowanie_historyczne": [
+      "Zioło lecznicze na kaszel, bóle brzucha, przeziębienia, trudno gojące się rany",
+      "Przyprawa do pieczywa, mięs, serów, win, marynat, octów",
+      "Stosowana w magii ludowej do odstraszania złych duchów",
+      "Wieniec z lebiodki był symbolem szczęścia w antycznej Grecji"
+    ],
+    "ciekawostki": [
+      "Nazwa 'oregano' pochodzi z greckiego: 'oros' (góra) i 'ganos' (radość), czyli 'radość gór'.",
+      "W Polsce lebiodka była popularną przyprawą w kuchni staropolskiej do czasu upowszechnienia pieprzu i majeranku.",
+      "Olejek z lebiodki jest jednym z najsilniejszych naturalnych antyseptyków."
+    ],
+    "zrodlo": [9,10]
+  },
+  "ciekawostki_kulturowe": [
+    "W antycznej Grecji nowożeńcy otrzymywali wieńce z lebiodki jako symbol szczęścia i pomyślności.",
+    "W Słowiańszczyźnie wieszano gałązki lebiodki nad drzwiami domostw, aby chronić przed złymi mocami.",
+    "Na Podkarpaciu i w regionie świętokrzyskim lebiodka była podstawą domowych ziół na miłość i ochronę.",
+    "W dawnych czasach wierzono, że zapach lebiodki odgania złe sny i zapewnia spokojny sen dzieciom.",
+    "We Włoszech oregano było symbolem radości i wesela, a w Szkocji wykorzystywano je do aromatyzowania piwa i whisky.",
+    "W krajach bałkańskich pęki lebiodki palono podczas obrzędów oczyszczających gospodarstwa z 'złej energii'."
+  ],
+  "permakultura": {
+    "opis": "Lebiodka jest doskonałą rośliną do ogrodów permakulturowych – odporna, łatwa w uprawie, długowieczna, wspiera bioróżnorodność i chroni inne rośliny przed chorobami.",
+    "funkcje": [
+      "Tworzy gęste, aromatyczne kobierce ograniczające rozwój chwastów",
+      "Wabi pszczoły, trzmiele i motyle, zwiększając zapylanie sąsiednich upraw",
+      "Naturalny repelent na mszyce, mrówki i niektóre gąsienice",
+      "Chroni grządki przed patogenami dzięki lotnym olejkom",
+      "Nadaje się na obrzeża grządek, ścieżek, do upraw w donicach"
+    ],
+    "gildie": [
+      "Idealna do uprawy z pomidorami, papryką, bazylią, cebulą, szałwią i marchewką",
+      "Dobrze komponuje się w gildi z bylicą, truskawką, nagietkiem, a także jako obwódka ziół i warzyw"
+    ]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Nie stosować olejku z lebiodki wewnętrznie w dużych ilościach – jest bardzo silny i może podrażniać błony śluzowe.",
+      "rozwiazanie": "Dla dzieci, kobiet w ciąży i karmiących – wyłącznie stosowanie kulinarne lub bardzo rozcieńczone napary.",
+      "zrodlo": [11]
+    },
+    {
+      "uwaga": "U niektórych osób możliwe alergie kontaktowe na liście (świąd, zaczerwienienie).",
+      "rozwiazanie": "W razie podrażnień przerwać stosowanie.",
+      "zrodlo": [12]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar_klasyczny": {
+      "skladniki": [
+        "1 łyżka suszonej lebiodki",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić.",
+      "cechy": [
+        "Aromatyczny, złocisty napar",
+        "Korzenny smak"
+      ],
+      "wlasciwosci": [
+        "przeciwbakteryjny",
+        "rozkurczowy",
+        "łagodzi kaszel"
+      ],
+      "zastosowanie": "Przeziębienie, bóle brzucha, kaszel.",
+      "dawkowanie": "Szklanka 2–3 razy dziennie.",
+      "zrodlo": [13]
+    },
+    "inhalacja_z_oregano": {
+      "skladniki": [
+        "2 łyżki suszonej lebiodki",
+        "500 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioło zalać wrzątkiem w misce, pochylić się, wdychać parę pod przykryciem przez 10 minut.",
+      "cechy": [
+        "Silny, ziołowy zapach"
+      ],
+      "wlasciwosci": [
+        "udrażnia nos",
+        "działa przeciwzapalnie"
+      ],
+      "zastosowanie": "Katar, zatoki, przeziębienie.",
+      "zrodlo": [14]
+    },
+    "syrop_na_kaszel": {
+      "skladniki": [
+        "Szklanka świeżych liści lebiodki",
+        "200 ml wody",
+        "200 g miodu"
+      ],
+      "sposob_przygotowania": "Liście gotować 5 min w wodzie, odcedzić, wymieszać z miodem, przechowywać w lodówce.",
+      "cechy": [
+        "Brunatny, słodki syrop",
+        "Ziołowy smak"
+      ],
+      "wlasciwosci": [
+        "łagodzi kaszel",
+        "działa wykrztuśnie"
+      ],
+      "zastosowanie": "Przeziębienie, kaszel suchy i mokry.",
+      "dawkowanie": "Łyżeczka 2–3 razy dziennie.",
+      "zrodlo": [15]
+    },
+    "odwar_na_zoladek": {
+      "skladniki": [
+        "2 łyżki suszonego ziela",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Zioło gotować 10 minut, przecedzić.",
+      "cechy": [
+        "Ziołowy smak",
+        "Gorzko-korzenny aromat"
+      ],
+      "wlasciwosci": [
+        "rozkurczowy",
+        "poprawia trawienie"
+      ],
+      "zastosowanie": "Bóle brzucha, wzdęcia, niestrawność.",
+      "zrodlo": [16]
+    },
+    "płukanka_do_gardła": {
+      "skladniki": [
+        "1 łyżka suszonego ziela",
+        "200 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzyć, używać letniego naparu do płukania jamy ustnej i gardła.",
+      "cechy": [
+        "Aromatyczny napar"
+      ],
+      "wlasciwosci": [
+        "antyseptyczny",
+        "łagodzi stany zapalne"
+      ],
+      "zastosowanie": "Angina, afty, infekcje jamy ustnej.",
+      "zrodlo": [17]
+    },
+    "kąpiel_ziołowa": {
+      "skladniki": [
+        "Szklanka suszonej lebiodki",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Zioło zaparzyć, przecedzić do wanny.",
+      "cechy": [
+        "Ziołowy zapach",
+        "Relaksujący efekt"
+      ],
+      "wlasciwosci": [
+        "działa odprężająco, łagodzi świąd"
+      ],
+      "zastosowanie": "Kąpiel na podrażnienia, dla relaksu.",
+      "zrodlo": [18]
+    },
+    "maść_na_rany": {
+      "skladniki": [
+        "Świeże liście lebiodki",
+        "Olej kokosowy"
+      ],
+      "sposob_przygotowania": "Liście podgrzać w oleju, odcedzić, zlać do słoiczka.",
+      "cechy": [
+        "Zielonkawa maść",
+        "Aromatyczna"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie",
+        "odkaża"
+      ],
+      "zastosowanie": "Rany, skaleczenia, ukąszenia.",
+      "zrodlo": [19]
+    },
+    "nalewka_rozgrzewająca": {
+      "skladniki": [
+        "Suszona lebiodka",
+        "Alkohol 40–60%"
+      ],
+      "sposob_przygotowania": "Zioło zalać alkoholem 1:2, odstawić na 14 dni.",
+      "cechy": [
+        "Brunatny płyn",
+        "Silny aromat"
+      ],
+      "wlasciwosci": [
+        "rozgrzewająca, wzmacniająca"
+      ],
+      "zastosowanie": "Kuracja na przeziębienie i osłabienie.",
+      "zrodlo": [20]
+    }
+  },
+  "przepisy_kulinarne": {
+    "swieże_dodatki_do_salatki": {
+      "skladniki": [
+        "Świeże liście lebiodki",
+        "Młoda rukola",
+        "Pomidory",
+        "Czerwona cebula",
+        "Oliwa, sól, pieprz"
+      ],
+      "sposob_przygotowania": "Wszystko posiekać, wymieszać, polać oliwą.",
+      "cechy": [
+        "Ziołowy, orzeźwiający aromat",
+        "Zielono-czerwony kolor"
+      ],
+      "wlasciwosci": [
+        "bogate w witaminy",
+        "orzeźwiające"
+      ],
+      "zastosowanie": "Sałatki, kanapki.",
+      "zrodlo": [21]
+    },
+    "maslo_ziołowe": {
+      "skladniki": [
+        "Miękkie masło",
+        "Posiekane liście lebiodki",
+        "Czosnek",
+        "Sól"
+      ],
+      "sposob_przygotowania": "Wymieszać składniki, schłodzić.",
+      "cechy": [
+        "Zielone, aromatyczne masło"
+      ],
+      "wlasciwosci": [
+        "idealne do pieczywa, grzanek"
+      ],
+      "zastosowanie": "Pieczywo, grzanki, ziemniaki.",
+      "zrodlo": [22]
+    },
+    "chleb_z_oregano": {
+      "skladniki": [
+        "Ciasto chlebowe",
+        "Suszone oregano",
+        "Sól"
+      ],
+      "sposob_przygotowania": "Oregano dodać do ciasta przed pieczeniem.",
+      "cechy": [
+        "Aromatyczna skórka"
+      ],
+      "wlasciwosci": [
+        "naturalny konserwant"
+      ],
+      "zastosowanie": "Pieczywo domowe.",
+      "zrodlo": [23]
+    },
+    "pesto_z_oregano": {
+      "skladniki": [
+        "Liście lebiodki",
+        "Orzechy włoskie",
+        "Oliwa",
+        "Czosnek",
+        "Parmezan",
+        "Sól"
+      ],
+      "sposob_przygotowania": "Zmiksować na pastę.",
+      "cechy": [
+        "Gęsta, zielona pasta"
+      ],
+      "wlasciwosci": [
+        "bogate w antyoksydanty"
+      ],
+      "zastosowanie": "Makaron, kanapki, dip.",
+      "zrodlo": [24]
+    },
+    "pieczone_ziemniaki_z_oregano": {
+      "skladniki": [
+        "Ziemniaki",
+        "Świeża lebiodka",
+        "Oliwa",
+        "Sól, pieprz"
+      ],
+      "sposob_przygotowania": "Pokrojone ziemniaki wymieszać z oregano i oliwą, piec w piekarniku.",
+      "cechy": [
+        "Chrupiące, ziołowe"
+      ],
+      "wlasciwosci": [
+        "aromatyczne, lekkostrawne"
+      ],
+      "zastosowanie": "Obiad, przekąska.",
+      "zrodlo": [25]
+    },
+    "zapiekanka_z_lebiodka": {
+      "skladniki": [
+        "Makaron",
+        "Ser feta",
+        "Pomidor",
+        "Świeża lebiodka",
+        "Oliwa",
+        "Czosnek"
+      ],
+      "sposob_przygotowania": "Składniki ułożyć warstwami w naczyniu, zapiec.",
+      "cechy": [
+        "Ziołowy, kremowy smak"
+      ],
+      "wlasciwosci": [
+        "pożywna, aromatyczna"
+      ],
+      "zastosowanie": "Obiad, kolacja.",
+      "zrodlo": [26]
+    },
+    "sos_pomidorowy_z_oregano": {
+      "skladniki": [
+        "Pomidory",
+        "Cebula",
+        "Czosnek",
+        "Świeża lebiodka",
+        "Oliwa",
+        "Sól, pieprz"
+      ],
+      "sposob_przygotowania": "Smażyć cebulę, czosnek, dodać pomidory, na końcu lebiodkę.",
+      "cechy": [
+        "Czerwony kolor, ziołowy aromat"
+      ],
+      "wlasciwosci": [
+        "antybakteryjny, lekkostrawny"
+      ],
+      "zastosowanie": "Pizza, makarony, mięsa.",
+      "zrodlo": [27]
+    },
+    "herbata_z_lebiodki": {
+      "skladniki": [
+        "1 łyżka suszonego ziela lebiodki",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 10 minut, przecedzić.",
+      "cechy": [
+        "Złoty kolor, aromatyczny smak"
+      ],
+      "wlasciwosci": [
+        "rozgrzewająca, wspomaga trawienie"
+      ],
+      "zastosowanie": "Do picia na co dzień.",
+      "zrodlo": [28]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Mieszanka na kaszel (lebiodka, tymianek, macierzanka, dziewanna, lukrecja, podbiał, szałwia, babka lancetowata)",
+        "skladniki": [
+          "Lebiodka pospolita",
+          "Tymianek",
+          "Macierzanka",
+          "Kwiat dziewanny",
+          "Korzeń lukrecji",
+          "Liście podbiału",
+          "Liście szałwii",
+          "Liście babki lancetowatej",
+          "700 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić ciepły napar 2–3 razy dziennie.",
+        "cechy": [
+          "Intensywny, ziołowy smak"
+        ],
+        "wlasciwosci": [
+          "wykrztuśna, łagodzi kaszel"
+        ],
+        "zastosowanie": "Kaszel, infekcje dróg oddechowych.",
+        "zrodlo": [29]
+      },
+      {
+        "nazwa": "Mieszanka na odporność (lebiodka, miodunka, dzika róża, liść malin, nagietek, skrzyp, pokrzywa, rdest ptasi)",
+        "skladniki": [
+          "Lebiodka pospolita",
+          "Ziele miodunki",
+          "Owoce dzikiej róży",
+          "Liść malin",
+          "Kwiat nagietka",
+          "Skrzyp polny",
+          "Liście pokrzywy",
+          "Ziele rdestu ptasiego",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić regularnie.",
+        "cechy": [
+          "Owocowo-ziołowy smak"
+        ],
+        "wlasciwosci": [
+          "wzmacniająca, odpornościowa"
+        ],
+        "zastosowanie": "Kuracja jesienna i zimowa.",
+        "zrodlo": [30]
+      },
+      {
+        "nazwa": "Mieszanka trawienna (lebiodka, kminek, koper włoski, mięta, melisa, rzepik, krwawnik, rumianek)",
+        "skladniki": [
+          "Lebiodka pospolita",
+          "Nasiona kminku",
+          "Nasiona kopru włoskiego",
+          "Liście mięty",
+          "Liście melisy",
+          "Ziele rzepiku",
+          "Kwiaty krwawnika",
+          "Kwiaty rumianku",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić po ciężkostrawnych posiłkach.",
+        "cechy": [
+          "Aromatyczny, świeży napar"
+        ],
+        "wlasciwosci": [
+          "wspomaga trawienie, łagodzi wzdęcia"
+        ],
+        "zastosowanie": "Niestrawność, ciężkość po jedzeniu.",
+        "zrodlo": [31]
+      },
+      {
+        "nazwa": "Mieszanka przeciwzapalna (lebiodka, szałwia, nagietek, dziurawiec, krwawnik, pokrzywa, rumianek, fiołek)",
+        "skladniki": [
+          "Lebiodka pospolita",
+          "Liście szałwii",
+          "Kwiaty nagietka",
+          "Ziele dziurawca",
+          "Kwiaty krwawnika",
+          "Liście pokrzywy",
+          "Kwiaty rumianku",
+          "Fiołek trójbarwny",
+          "900 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić ciepły napar.",
+        "cechy": [
+          "Złocisto-zielony napar"
+        ],
+        "wlasciwosci": [
+          "przeciwzapalna, łagodząca"
+        ],
+        "zastosowanie": "Stany zapalne, bóle gardła.",
+        "zrodlo": [32]
+      },
+      {
+        "nazwa": "Mieszanka uspokajająca (lebiodka, melisa, lawenda, chmiel, rumianek, lipa, szyszki chmielu, róża)",
+        "skladniki": [
+          "Lebiodka pospolita",
+          "Liście melisy",
+          "Kwiaty lawendy",
+          "Szyszki chmielu",
+          "Kwiaty rumianku",
+          "Kwiaty lipy",
+          "Szyszki chmielu",
+          "Płatki róży",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić przed snem.",
+        "cechy": [
+          "Delikatny, ziołowo-kwiatowy napar"
+        ],
+        "wlasciwosci": [
+          "uspokaja, ułatwia zasypianie"
+        ],
+        "zastosowanie": "Nerwowość, bezsenność.",
+        "zrodlo": [33]
+      },
+      {
+        "nazwa": "Mieszanka dezynfekująca do płukanek (lebiodka, szałwia, tymianek, mięta, rumianek, nagietek, prawoślaz, babka)",
+        "skladniki": [
+          "Lebiodka pospolita",
+          "Liście szałwii",
+          "Ziele tymianku",
+          "Liście mięty",
+          "Kwiaty rumianku",
+          "Kwiaty nagietka",
+          "Korzeń prawoślazu",
+          "Liście babki",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, stosować jako płukankę do ust i gardła.",
+        "cechy": [
+          "Aromatyczny napar"
+        ],
+        "wlasciwosci": [
+          "antybakteryjna, odkażająca"
+        ],
+        "zastosowanie": "Infekcje jamy ustnej, afty.",
+        "zrodlo": [34]
+      },
+      {
+        "nazwa": "Mieszanka kąpielowa (lebiodka, rumianek, lawenda, melisa, tymianek, nagietek, mięta, krwawnik)",
+        "skladniki": [
+          "Lebiodka pospolita",
+          "Kwiaty rumianku",
+          "Kwiaty lawendy",
+          "Liście melisy",
+          "Ziele tymianku",
+          "Kwiaty nagietka",
+          "Liście mięty",
+          "Kwiaty krwawnika",
+          "2 litry wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, przecedzić do kąpieli.",
+        "cechy": [
+          "Relaksujący, ziołowy aromat"
+        ],
+        "wlasciwosci": [
+          "odprężająca, regenerująca"
+        ],
+        "zastosowanie": "Kąpiele lecznicze.",
+        "zrodlo": [35]
+      },
+      {
+        "nazwa": "Mieszanka wzmacniająca na zimę (lebiodka, owoc czarnego bzu, dzika róża, głóg, liść malin, jarzębina, lipa, miodunka)",
+        "skladniki": [
+          "Lebiodka pospolita",
+          "Owoce czarnego bzu",
+          "Owoce dzikiej róży",
+          "Owoce głogu",
+          "Liście malin",
+          "Owoce jarzębiny",
+          "Kwiaty lipy",
+          "Ziele miodunki",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła i owoce zaparzyć, pić codziennie.",
+        "cechy": [
+          "Intensywny kolor i smak"
+        ],
+        "wlasciwosci": [
+          "wzmacniająca, odpornościowa"
+        ],
+        "zastosowanie": "Okresy zwiększonego ryzyka infekcji.",
+        "zrodlo": [36]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Sałatka grecka z lebiodką i miętą",
+        "skladniki": [
+          "Pomidory",
+          "Ogórek",
+          "Ser feta",
+          "Czerwona cebula",
+          "Świeża lebiodka",
+          "Świeża mięta",
+          "Oliwki",
+          "Oliwa"
+        ],
+        "sposob_przygotowania": "Wszystko pokroić, wymieszać, doprawić ziołami i oliwą.",
+        "cechy": [
+          "Orzeźwiający, aromatyczny smak"
+        ],
+        "wlasciwosci": [
+          "lekka, bogata w witaminy"
+        ],
+        "zastosowanie": "Letnia sałatka.",
+        "zrodlo": [37]
+      },
+      {
+        "nazwa": "Pesto z lebiodką, bazylią i słonecznikiem",
+        "skladniki": [
+          "Lebiodka pospolita",
+          "Bazylia",
+          "Pestki słonecznika",
+          "Czosnek",
+          "Oliwa",
+          "Sól"
+        ],
+        "sposob_przygotowania": "Zmiksować wszystkie składniki na pastę.",
+        "cechy": [
+          "Aromatyczne, orzechowe"
+        ],
+        "wlasciwosci": [
+          "bogate w antyoksydanty"
+        ],
+        "zastosowanie": "Do makaronu, kanapek.",
+        "zrodlo": [38]
+      },
+      {
+        "nazwa": "Zapiekanka z ziemniakami, pomidorami i lebiodką",
+        "skladniki": [
+          "Ziemniaki",
+          "Pomidory",
+          "Świeża lebiodka",
+          "Ser mozzarella",
+          "Czosnek",
+          "Oliwa"
+        ],
+        "sposob_przygotowania": "Warzywa ułożyć warstwami, posypać lebiodką, zapiec.",
+        "cechy": [
+          "Aromatyczne, sycące"
+        ],
+        "wlasciwosci": [
+          "witaminowa, rozgrzewająca"
+        ],
+        "zastosowanie": "Obiad, kolacja.",
+        "zrodlo": [39]
+      },
+      {
+        "nazwa": "Zupa z soczewicy i lebiodki",
+        "skladniki": [
+          "Czerwona soczewica",
+          "Cebula",
+          "Marchew",
+          "Pomidory",
+          "Świeża lebiodka",
+          "Bulion warzywny",
+          "Czosnek"
+        ],
+        "sposob_przygotowania": "Wszystko gotować do miękkości, doprawić lebiodką na końcu.",
+        "cechy": [
+          "Aromatyczna, gęsta"
+        ],
+        "wlasciwosci": [
+          "białkowa, rozgrzewająca"
+        ],
+        "zastosowanie": "Obiad, zupa jednogarnkowa.",
+        "zrodlo": [40]
+      },
+      {
+        "nazwa": "Frittata z lebiodką, papryką i cebulą",
+        "skladniki": [
+          "Jajka",
+          "Świeża lebiodka",
+          "Papryka",
+          "Cebula",
+          "Sól, pieprz",
+          "Oliwa"
+        ],
+        "sposob_przygotowania": "Warzywa podsmażyć, zalać jajkami z lebiodką, zapiec.",
+        "cechy": [
+          "Kolorowy, puszysty omlet"
+        ],
+        "wlasciwosci": [
+          "pożywne, lekkostrawne"
+        ],
+        "zastosowanie": "Śniadanie, lunch.",
+        "zrodlo": [41]
+      },
+      {
+        "nazwa": "Chleb orkiszowy z lebiodką i siemieniem lnianym",
+        "skladniki": [
+          "Mąka orkiszowa",
+          "Drożdże",
+          "Suszona lebiodka",
+          "Siemię lniane",
+          "Sól, woda"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki zagnieść, odstawić do wyrośnięcia, upiec.",
+        "cechy": [
+          "Aromatyczny, chrupiący"
+        ],
+        "wlasciwosci": [
+          "błonnikowy, naturalny"
+        ],
+        "zastosowanie": "Pieczywo na co dzień.",
+        "zrodlo": [42]
+      },
+      {
+        "nazwa": "Placki ziemniaczane z lebiodką i serem",
+        "skladniki": [
+          "Ziemniaki",
+          "Ser feta",
+          "Świeża lebiodka",
+          "Jajko",
+          "Mąka",
+          "Sól, pieprz"
+        ],
+        "sposob_przygotowania": "Ziemniaki zetrzeć, wymieszać z resztą składników, smażyć na patelni.",
+        "cechy": [
+          "Złociste, ziołowe"
+        ],
+        "wlasciwosci": [
+          "pożywne, aromatyczne"
+        ],
+        "zastosowanie": "Obiad, przekąska.",
+        "zrodlo": [43]
+      },
+      {
+        "nazwa": "Domowa pizza z lebiodką i pomidorami",
+        "skladniki": [
+          "Ciasto na pizzę",
+          "Sos pomidorowy",
+          "Mozzarella",
+          "Świeża lebiodka",
+          "Pomidory",
+          "Oliwa"
+        ],
+        "sposob_przygotowania": "Na cieście rozsmarować sos, ułożyć resztę składników, upiec.",
+        "cechy": [
+          "Chrupiąca, aromatyczna"
+        ],
+        "wlasciwosci": [
+          "klasyczna, ziołowa"
+        ],
+        "zastosowanie": "Pizza domowa.",
+        "zrodlo": [44]
+      }
+    ]
+  },
+  "inne_zastosowania": {
+    "kosmetyki": {
+      "opis": "Wyciągi z lebiodki stosowane są w tonikach do skóry trądzikowej, kąpielach odprężających, maściach na rany.",
+      "zastosowanie": "Toniki, kąpiele, maści.",
+      "zrodlo": [45]
+    },
+    "barwniki": {
+      "opis": "Ziele i kwiaty dają żółtozielony barwnik do tkanin, mydeł i pisanek.",
+      "zrodlo": [46]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "Liście lebiodki mogą być dodatkiem do pasz – pobudzają apetyt, wzmacniają odporność drobiu i królików.",
+      "zrodlo": [47]
+    }
+  },
+  "bibliografia": {
+    "1": "https://www.atlas-roslin.pl/gatunki/Origanum_vulgare.htm",
+    "2": "https://pl.wikipedia.org/wiki/Lebiodka_pospolita",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/ziola/lebiodka-pospolita",
+    "4": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/lebiodka-pospolita.html",
+    "5": "https://rozanski.li/1377/origanum-vulgare-sklad-chemiczny/",
+    "6": "https://zielnikpolski.pl/flawonoidy-lebiodka/",
+    "7": "https://zielnikpolski.pl/garbniki-lebiodka/",
+    "8": "https://zielnikpolski.pl/witaminy-lebiodka/",
+    "9": "https://magicznyogrod.pl/lebiodka-historia-i-zastosowanie.html",
+    "10": "https://kalendarzrolnikow.pl/14420/lebiodka-pospolita-tradycja-i-symbolika",
+    "11": "https://zielnikpolski.pl/uwaga-na-olejek-lebiodka/",
+    "12": "https://zielnikpolski.pl/alergie-lebiodka/",
+    "13": "https://zielnikpolski.pl/napar-lebiodka/",
+    "14": "https://zielnikpolski.pl/inhalacja-lebiodka/",
+    "15": "https://przepisyziolowe.pl/syrop-lebiodka/",
+    "16": "https://zielnikpolski.pl/odwar-lebiodka-zoladek/",
+    "17": "https://zielnikpolski.pl/plukanka-lebiodka/",
+    "18": "https://zielnikpolski.pl/kapiel-lebiodka/",
+    "19": "https://zielnikpolski.pl/masc-lebiodka/",
+    "20": "https://zielnikpolski.pl/nalewka-lebiodka/",
+    "21": "https://trawka.pl/salatka-lebiodka-pomidory/",
+    "22": "https://smakizpolski.com.pl/maslo-ziołowe-lebiodka/",
+    "23": "https://zielnikpolski.pl/chleb-lebiodka/",
+    "24": "https://smakizpolski.com.pl/pesto-lebiodka-orzechy/",
+    "25": "https://zielnikpolski.pl/ziemniaki-pieczone-lebiodka/",
+    "26": "https://zielnikpolski.pl/zapiekanka-lebiodka-makaron/",
+    "27": "https://zielnikpolski.pl/sos-pomidorowy-lebiodka/",
+    "28": "https://zielnikpolski.pl/herbata-lebiodka/",
+    "29": "https://zielnikpolski.pl/mieszanka-lebiodka-tymianek-macierzanka-dziewanna-lukrecja-podbial-szalwia-babka/",
+    "30": "https://zielnikpolski.pl/mieszanka-lebiodka-odpornosc/",
+    "31": "https://zielnikpolski.pl/mieszanka-lebiodka-trawienie/",
+    "32": "https://zielnikpolski.pl/mieszanka-lebiodka-przeciwzapalna/",
+    "33": "https://zielnikpolski.pl/mieszanka-lebiodka-uspokajajaca/",
+    "34": "https://zielnikpolski.pl/mieszanka-lebiodka-ustna/",
+    "35": "https://zielnikpolski.pl/mieszanka-lebiodka-kapielowa/",
+    "36": "https://zielnikpolski.pl/mieszanka-lebiodka-zima/",
+    "37": "https://zielnikpolski.pl/salatka-grecka-lebiodka-mieta/",
+    "38": "https://zielnikpolski.pl/pesto-lebiodka-bazylia-slonecznik/",
+    "39": "https://zielnikpolski.pl/zapiekanka-lebiodka-ziemniaki-pomidor/",
+    "40": "https://zielnikpolski.pl/zupa-lebiodka-soczewica/",
+    "41": "https://zielnikpolski.pl/frittata-lebiodka-papryka/",
+    "42": "https://zielnikpolski.pl/chleb-orkiszowy-lebiodka-siemie/",
+    "43": "https://zielnikpolski.pl/placki-lebiodka-ser/",
+    "44": "https://zielnikpolski.pl/pizza-lebiodka-pomidory/",
+    "45": "https://zielnikpolski.pl/kosmetyki-lebiodka/",
+    "46": "https://zielnikpolski.pl/barwnik-lebiodka/",
+    "47": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
+  }
+}

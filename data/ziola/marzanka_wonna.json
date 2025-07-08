@@ -1,0 +1,800 @@
+{
+  "gatunek": "Marzanka wonna",
+  "nazwa_lacinska": "Galium odoratum",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Rośliny zielne (Zioła)",
+    "Marzanowate",
+    "Galium",
+    "Marzanka wonna"
+  ],
+  "zdjecia": [],
+  "uprawa": {
+    "gleba": "Gleba próchniczna, umiarkowanie wilgotna, lekko kwaśna lub obojętna, bogata w składniki organiczne.",
+    "stanowisko": "Stanowisko półcieniste do cienistego, najlepiej pod koronami drzew i w miejscach wilgotnych.",
+    "wysiew": "Wysiew nasion jesienią lub wczesną wiosną do wilgotnej gleby; rozmnażanie także przez podział kęp wiosną lub jesienią.",
+    "zbior": "Ziele zbiera się tuż przed lub na początku kwitnienia (kwiecień–maj), suszy w cieniu i przewiewie."
+  },
+  "wystepowanie": {
+    "obszar": "Europa, Azja umiarkowana; zawleczona i uprawiana w Ameryce Północnej.",
+    "w_polsce": "Pospolita w całym kraju – lasy liściaste, zwłaszcza buczyny, cieniste zarośla, brzegi lasów, ogrody naturalistyczne.",
+    "zrodlo": [1,2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Wieloletnia bylina o wysokości 10–30 cm, tworząca zwarte kobierce dzięki cienkim, podziemnym rozłogom.",
+    "lodyga": "Cienka, czterokanciasta, wzniesiona lub pokładająca się, gęsto ulistniona w okółkach.",
+    "liscie": "Wąskie, lancetowate, szorstkie na brzegach i spodzie, jasnozielone, ułożone w okółkach po 6–9.",
+    "kwiaty": "Drobne, białe, gwiazdkowate, zebrane w luźne wiechy, bardzo pachnące – kwitnie od kwietnia do czerwca.",
+    "owoce": "Kuliste, pokryte haczykowatymi włoskami, rozprzestrzeniane przez zwierzęta.",
+    "zapach": "Charakterystyczny, waniliowo-kumarynowy, intensywny po ususzeniu.",
+    "cecha_wyrozniajaca": "Silny, słodkawy zapach, okółkowe liście, niskie kobierce.",
+    "zrodlo": [3,4]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Kumaryna",
+      "dzialanie": "uspokajające, rozkurczowe, poprawia krążenie, nadaje zapach",
+      "sklad": "kumaryna, glikozydy kumarynowe",
+      "zrodlo": [5]
+    },
+    {
+      "nazwa": "Garbniki",
+      "dzialanie": "przeciwbakteryjne, przeciwzapalne",
+      "sklad": "taniny",
+      "zrodlo": [6]
+    },
+    {
+      "nazwa": "Flawonoidy",
+      "dzialanie": "przeciwutleniające, ochronne dla naczyń",
+      "sklad": "rutyna, kwercetyna",
+      "zrodlo": [7]
+    },
+    {
+      "nazwa": "Iridoidy, kwasy fenolowe",
+      "dzialanie": "przeciwzapalne, detoksykujące",
+      "sklad": "kwas kawowy, kwas chlorogenowy",
+      "zrodlo": [8]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Marzanka wonna znana była już w średniowieczu jako pachnący dodatek do napojów, win i poduszek. W Polsce tradycyjnie używana do aromatyzowania napojów majowych (majówek), a w Niemczech do słynnego 'Maiwein'. Ziele cenione za właściwości uspokajające i krwiotwórcze, stosowane w domowej fitoterapii oraz kuchni.",
+    "cechy": [
+      "Bardzo silny, waniliowo-kumarynowy zapach po wysuszeniu",
+      "Tworzy zwarte kobierce, łatwa do rozrastania się",
+      "Ziele zbiera się tylko przed kwitnieniem – później kumaryny jest za dużo",
+      "Ziele nadaje potrawom i napojom charakterystyczny, majowy aromat"
+    ],
+    "zastosowanie_historyczne": [
+      "Dodatek do win, likierów, piw, syropów, deserów",
+      "Zioło uspokajające w naparach i kąpielach",
+      "Wkładka do poduszek, szaf i bielizny przeciw molom",
+      "Ziele noszone jako amulet na szczęście i powodzenie"
+    ],
+    "ciekawostki": [
+      "W Niemczech i Szwajcarii majowy wermut z marzanką to tradycyjny napój majowy (Maibowle, Maiwein).",
+      "W Polsce marzanka była składnikiem poduszek dla niemowląt – 'na dobry sen i zdrowie'.",
+      "W staropolskiej kuchni marzanka służyła do aromatyzowania nalewek i domowych win.",
+      "Intensywny zapach kumaryny chronił ubrania i zboże przed molami."
+    ],
+    "zrodlo": [9,10]
+  },
+  "ciekawostki_kulturowe": [
+    "W Europie Środkowej marzanka uznawana była za symbol szczęścia i witalności – wplatano ją w wiosenne wieńce.",
+    "W Niemczech do dziś w maju pije się napój 'Maiwein' z dodatkiem marzanki, wina i pomarańczy.",
+    "Na Warmii i Mazurach marzankę święcono w maju jako 'zioło na serce i spokój'.",
+    "Poduszki wypchane marzanką miały chronić dzieci przed złymi snami.",
+    "We Francji i Szwajcarii marzanka była składnikiem wieczornych herbatek ziołowych dla dorosłych i dzieci.",
+    "W alpejskich wsiach wieszano bukieciki marzanki w oknach i drzwiach na szczęście w nowym domu."
+  ],
+  "permakultura": {
+    "opis": "Marzanka wonna to idealna roślina runa leśnego w permakulturze – szybko się rozrasta, tłumi chwasty i stanowi jadalną okrywę w cienistych zakątkach ogrodu.",
+    "funkcje": [
+      "Tworzy zielone kobierce i ściółkę pod drzewami, chroniąc glebę",
+      "Stanowi roślinę wskaźnikową dla wilgotnej, żyznej gleby",
+      "Wabi zapylacze (muchówki, pszczoły samotnice) wiosną",
+      "Nadaje się do obsadzania półcienistych rabat, ogrodów naturalistycznych, jako zamiennik trawnika w cieniu",
+      "Dobrze rośnie w gildiach z czosnkiem niedźwiedzim, paprociami, poziomkami, lepiężnikiem"
+    ],
+    "gildie": [
+      "Polecana do sadzenia z drzewami liściastymi: buk, grab, lipa, wiąz, leszczyna, czereśnia",
+      "Dobrze komponuje się z rannikami, śnieżyczkami, zawilcami, kopytnikiem i konwalią"
+    ]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Duże ilości suszonej marzanki mogą być szkodliwe dla wątroby (kumaryny).",
+      "rozwiazanie": "Stosować umiarkowanie – nie przekraczać 1–2 filiżanek naparu dziennie, nie stosować u dzieci poniżej 6 lat i kobiet w ciąży.",
+      "zrodlo": [11]
+    },
+    {
+      "uwaga": "Nie zbierać roślin z terenów zanieczyszczonych (pobliże dróg, miast).",
+      "rozwiazanie": "Zbierać wyłącznie ze sprawdzonych, czystych stanowisk leśnych lub własnego ogrodu.",
+      "zrodlo": [12]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar_uspokajający": {
+      "skladniki": [
+        "1 łyżeczka suszonego ziela marzanki",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioło zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić.",
+      "cechy": [
+        "Złocisty kolor, słodkawy zapach"
+      ],
+      "wlasciwosci": [
+        "uspokajający, łagodnie nasenny"
+      ],
+      "zastosowanie": "Przy nerwowości, problemach ze snem.",
+      "dawkowanie": "1 filiżanka wieczorem.",
+      "zrodlo": [13]
+    },
+    "herbatka_na_serce": {
+      "skladniki": [
+        "1 łyżeczka suszonej marzanki",
+        "1 łyżeczka kwiatów głogu",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 min, przecedzić.",
+      "cechy": [
+        "Łagodny, ziołowy smak"
+      ],
+      "wlasciwosci": [
+        "wzmacnia serce, lekko uspokaja"
+      ],
+      "zastosowanie": "Kuracje wspomagające pracę serca.",
+      "zrodlo": [14]
+    },
+    "odwar_na_watrobe": {
+      "skladniki": [
+        "1 łyżka suszonej marzanki",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Ziele gotować 5 minut, przecedzić, pić letni.",
+      "cechy": [
+        "Delikatny, słodki aromat"
+      ],
+      "wlasciwosci": [
+        "oczyszcza wątrobę"
+      ],
+      "zastosowanie": "Przy obciążeniu wątroby, po lekach.",
+      "zrodlo": [15]
+    },
+    "kąpiel_relaksująca": {
+      "skladniki": [
+        "2 garście suszonej marzanki",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Zioło zalać wrzątkiem, parzyć 20 min, przecedzić do kąpieli.",
+      "cechy": [
+        "Słodkawy aromat",
+        "Relaksujący efekt"
+      ],
+      "wlasciwosci": [
+        "odprężająca, poprawia nastrój"
+      ],
+      "zastosowanie": "Kąpiel na napięcie nerwowe.",
+      "zrodlo": [16]
+    },
+    "kompres_na_stluczenia": {
+      "skladniki": [
+        "1 łyżka suszonej marzanki",
+        "200 ml wrzątku",
+        "gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": "Zioło zaparzyć, letni napar stosować do okładów.",
+      "cechy": [
+        "Chłodzący, delikatny zapach"
+      ],
+      "wlasciwosci": [
+        "łagodzi opuchliznę, przyspiesza gojenie"
+      ],
+      "zastosowanie": "Okład na siniaki, opuchliznę.",
+      "zrodlo": [17]
+    },
+    "mieszanka_na_sen": {
+      "skladniki": [
+        "1 łyżeczka suszonej marzanki",
+        "1 łyżeczka kwiatów lipy",
+        "1/2 łyżeczki melisy",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 min.",
+      "cechy": [
+        "Słodkawy, kwiatowy aromat"
+      ],
+      "wlasciwosci": [
+        "nasenna, odprężająca"
+      ],
+      "zastosowanie": "Kuracja na bezsenność.",
+      "zrodlo": [18]
+    },
+    "syrop_na_kaszel": {
+      "skladniki": [
+        "3 łyżki świeżej marzanki",
+        "250 ml wody",
+        "2 łyżki miodu"
+      ],
+      "sposob_przygotowania": "Ziele zagotować w wodzie 5 min, przecedzić, dodać miód, wymieszać.",
+      "cechy": [
+        "Słodki, ziołowy syrop"
+      ],
+      "wlasciwosci": [
+        "łagodzi kaszel, nawilża gardło"
+      ],
+      "zastosowanie": "Syrop na kaszel suchy i mokry.",
+      "dawkowanie": "1 łyżeczka 3 razy dziennie.",
+      "zrodlo": [19]
+    },
+    "maść_na_siniaki": {
+      "skladniki": [
+        "2 łyżki suszonej marzanki",
+        "4 łyżki oleju kokosowego"
+      ],
+      "sposob_przygotowania": "Marzankę podgrzać w oleju, odcedzić, przechowywać w słoiczku.",
+      "cechy": [
+        "Delikatnie zielona maść"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, łagodzi ból"
+      ],
+      "zastosowanie": "Stłuczenia, drobne rany.",
+      "zrodlo": [20]
+    }
+  },
+  "przepisy_kulinarne": {
+    "napój_majowy_maibowle": {
+      "skladniki": [
+        "1 duży pęczek świeżej marzanki (ok. 10–15 łodyżek)",
+        "1 butelka białego wytrawnego wina (750 ml)",
+        "1 cytryna",
+        "2 łyżki cukru trzcinowego",
+        "opcjonalnie: 200 ml wody gazowanej"
+      ],
+      "sposob_przygotowania": "Marzankę opłukać i lekko podsuszyć, włożyć do wina z cukrem i plastrami cytryny na 2–4 godziny w chłodzie, ewentualnie dolać wodę.",
+      "cechy": [
+        "Aromatyczny, orzeźwiający napój"
+      ],
+      "wlasciwosci": [
+        "łagodnie relaksujący, pobudzający trawienie"
+      ],
+      "zastosowanie": "Napój majowy, imprezy plenerowe.",
+      "zrodlo": [21]
+    },
+    "herbata_marzankowa": {
+      "skladniki": [
+        "1 łyżeczka suszonej marzanki",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 10 minut pod przykryciem, przecedzić.",
+      "cechy": [
+        "Złocisty kolor, słodki aromat"
+      ],
+      "wlasciwosci": [
+        "rozluźniająca, delikatnie nasenna"
+      ],
+      "zastosowanie": "Wieczorny napój, na relaks.",
+      "zrodlo": [22]
+    },
+    "syrop_marzankowy": {
+      "skladniki": [
+        "10 łodyżek świeżej marzanki",
+        "500 ml wody",
+        "300 g cukru",
+        "sok z 1/2 cytryny"
+      ],
+      "sposob_przygotowania": "Zagotować marzankę w wodzie z cukrem i cytryną, gotować 15 min, odcedzić, przelać do butelki.",
+      "cechy": [
+        "Gęsty, jasnozielony syrop"
+      ],
+      "wlasciwosci": [
+        "aromatyzujący, uspokajający"
+      ],
+      "zastosowanie": "Dodatek do lemoniady, deserów, lodów.",
+      "zrodlo": [23]
+    },
+    "deser_z_marzanką": {
+      "skladniki": [
+        "200 ml śmietanki 30%",
+        "1/2 szklanki mleka",
+        "4 łodyżki świeżej marzanki",
+        "1 łyżka cukru",
+        "1 łyżeczka żelatyny"
+      ],
+      "sposob_przygotowania": "Mleko i śmietankę zagotować z marzanką i cukrem, dodać żelatynę, przelać do pucharków, schłodzić.",
+      "cechy": [
+        "Waniliowy, ziołowy smak"
+      ],
+      "wlasciwosci": [
+        "delikatnie relaksujący"
+      ],
+      "zastosowanie": "Letni deser na zimno.",
+      "zrodlo": [24]
+    },
+    "ciasto_marzankowe": {
+      "skladniki": [
+        "200 g mąki",
+        "100 g cukru",
+        "2 jajka",
+        "100 g masła",
+        "2 łyżki suszonej marzanki",
+        "1 łyżeczka proszku do pieczenia",
+        "szczypta soli"
+      ],
+      "sposob_przygotowania": "Składniki wymieszać, upiec w formie w 180°C przez 35 minut.",
+      "cechy": [
+        "Złocista, wilgotna babka"
+      ],
+      "wlasciwosci": [
+        "aromatyczna, lekkostrawna"
+      ],
+      "zastosowanie": "Ciasto do kawy, śniadanie.",
+      "zrodlo": [25]
+    },
+    "galaretka_z_marzanką": {
+      "skladniki": [
+        "500 ml soku jabłkowego",
+        "5 łodyżek świeżej marzanki",
+        "2 łyżeczki żelatyny",
+        "1 łyżka cukru"
+      ],
+      "sposob_przygotowania": "Sok zagotować z marzanką, dodać żelatynę i cukier, przelać do pucharków.",
+      "cechy": [
+        "Orzeźwiający, lekko waniliowy smak"
+      ],
+      "wlasciwosci": [
+        "niskokaloryczna, pobudzająca trawienie"
+      ],
+      "zastosowanie": "Deser, kolacja.",
+      "zrodlo": [26]
+    },
+    "lody_marzankowe": {
+      "skladniki": [
+        "250 ml śmietanki",
+        "100 ml mleka",
+        "3 łodyżki świeżej marzanki",
+        "2 żółtka",
+        "50 g cukru"
+      ],
+      "sposob_przygotowania": "Śmietankę zagotować z marzanką, utrzeć z żółtkami i cukrem, schłodzić i zamrozić.",
+      "cechy": [
+        "Waniliowy aromat",
+        "Delikatna, kremowa konsystencja"
+      ],
+      "wlasciwosci": [
+        "pobudzające, relaksujące"
+      ],
+      "zastosowanie": "Deser letni.",
+      "zrodlo": [27]
+    },
+    "nalewka_marzankowa": {
+      "skladniki": [
+        "10 łodyżek świeżej marzanki",
+        "0,5 l wódki 40%",
+        "100 g cukru",
+        "sok z 1/2 cytryny"
+      ],
+      "sposob_przygotowania": "Marzankę zalać alkoholem, dodać cukier i sok z cytryny, odstawić na 7 dni, przecedzić.",
+      "cechy": [
+        "Złocisty kolor, intensywny aromat"
+      ],
+      "wlasciwosci": [
+        "aromatyczna, trawienna"
+      ],
+      "zastosowanie": "Likier, dodatek do deserów.",
+      "zrodlo": [28]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Mieszanka na spokojny sen (marzanka, melisa, lipa, lawenda, rumianek, szyszki chmielu, owoc głogu, kwiat bzu czarnego)",
+        "skladniki": [
+          "1 łyżeczka suszonej marzanki",
+          "1 łyżeczka liści melisy",
+          "1 łyżeczka kwiatów lipy",
+          "1/2 łyżeczki kwiatów lawendy",
+          "1 łyżka kwiatów rumianku",
+          "1/2 łyżki szyszek chmielu",
+          "1 łyżeczka owoców głogu",
+          "1 łyżeczka kwiatów bzu czarnego",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem, parzyć 15 min, pić wieczorem.",
+        "cechy": [
+          "Kwiatowy, relaksujący aromat"
+        ],
+        "wlasciwosci": [
+          "nasenna, łagodząca napięcie"
+        ],
+        "zastosowanie": "Kuracja na spokojny sen.",
+        "zrodlo": [29]
+      },
+      {
+        "nazwa": "Mieszanka na serce i nerwy (marzanka, serdecznik, głóg, ruta, mniszek, pokrzywa, konwalia, kozłek lekarski)",
+        "skladniki": [
+          "1 łyżeczka suszonej marzanki",
+          "1 łyżeczka ziela serdecznika",
+          "1 łyżeczka kwiatów głogu",
+          "1/2 łyżeczki liści ruty",
+          "1/2 łyżki korzenia mniszka",
+          "1/2 łyżki liści pokrzywy",
+          "szczypta kwiatów konwalii",
+          "1/2 łyżeczki korzenia kozłka",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić 1–2 razy dziennie.",
+        "cechy": [
+          "Ziołowy, kwiatowy napar"
+        ],
+        "wlasciwosci": [
+          "wzmacniająca serce, uspokajająca"
+        ],
+        "zastosowanie": "Kuracja wspomagająca serce i nerwy.",
+        "zrodlo": [30]
+      },
+      {
+        "nazwa": "Mieszanka oczyszczająca (marzanka, mniszek, pokrzywa, fiołek, bratek, nagietek, skrzyp, krwawnik)",
+        "skladniki": [
+          "1 łyżeczka suszonej marzanki",
+          "1 łyżeczka korzenia mniszka",
+          "1 łyżeczka liści pokrzywy",
+          "1 łyżeczka fiołka trójbarwnego",
+          "1 łyżka bratka polnego",
+          "1 łyżka kwiatów nagietka",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka kwiatów krwawnika",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić małymi porcjami przez dzień.",
+        "cechy": [
+          "Orzeźwiający, ziołowy smak"
+        ],
+        "wlasciwosci": [
+          "oczyszczająca, detoksykująca"
+        ],
+        "zastosowanie": "Kuracja wiosenna.",
+        "zrodlo": [31]
+      },
+      {
+        "nazwa": "Mieszanka na bóle głowy (marzanka, mięta, melisa, lawenda, rumianek, liść malin, ziele krwawnika, szyszki chmielu)",
+        "skladniki": [
+          "1 łyżeczka suszonej marzanki",
+          "1 łyżeczka liści mięty",
+          "1 łyżeczka liści melisy",
+          "1/2 łyżeczki kwiatów lawendy",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżeczka liści malin",
+          "1 łyżka ziela krwawnika",
+          "1/2 łyżki szyszek chmielu",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić podczas bólów głowy.",
+        "cechy": [
+          "Kwiatowy, świeży zapach"
+        ],
+        "wlasciwosci": [
+          "łagodząca ból, odprężająca"
+        ],
+        "zastosowanie": "Bóle głowy, stres.",
+        "zrodlo": [32]
+      },
+      {
+        "nazwa": "Mieszanka na skórę (marzanka, nagietek, fiołek, rumianek, babka, skrzyp, pokrzywa, mniszek)",
+        "skladniki": [
+          "1 łyżeczka suszonej marzanki",
+          "1 łyżka kwiatów nagietka",
+          "1 łyżka fiołka trójbarwnego",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżka liści babki lancetowatej",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka liści pokrzywy",
+          "1 łyżka korzenia mniszka",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, stosować do przemywania skóry i okładów.",
+        "cechy": [
+          "Ziołowy, łagodny napar"
+        ],
+        "wlasciwosci": [
+          "przyspiesza gojenie, łagodzi podrażnienia"
+        ],
+        "zastosowanie": "Egzemy, podrażnienia skóry.",
+        "zrodlo": [33]
+      },
+      {
+        "nazwa": "Mieszanka kąpielowa (marzanka, lawenda, rumianek, melisa, nagietek, skrzyp, lipa, szyszki chmielu)",
+        "skladniki": [
+          "2 garście suszonej marzanki",
+          "1 łyżka kwiatów lawendy",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżka liści melisy",
+          "1 łyżka kwiatów nagietka",
+          "1 łyżka ziela skrzypu",
+          "1 łyżka kwiatów lipy",
+          "1 łyżka szyszek chmielu",
+          "2 litry wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, przecedzić do kąpieli.",
+        "cechy": [
+          "Relaksujący, kwiatowy aromat"
+        ],
+        "wlasciwosci": [
+          "odprężająca, regenerująca"
+        ],
+        "zastosowanie": "Kąpiele relaksacyjne.",
+        "zrodlo": [34]
+      },
+      {
+        "nazwa": "Mieszanka na trawienie (marzanka, mięta, koper włoski, anyż, melisa, krwawnik, rumianek, kminek)",
+        "skladniki": [
+          "1 łyżeczka suszonej marzanki",
+          "1 łyżeczka liści mięty",
+          "1 łyżeczka nasion kopru włoskiego",
+          "1/2 łyżeczki nasion anyżu",
+          "1 łyżka liści melisy",
+          "1 łyżka ziela krwawnika",
+          "1 łyżka kwiatów rumianku",
+          "1 łyżeczka nasion kminku",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić po posiłku.",
+        "cechy": [
+          "Orzeźwiający, lekko anyżowy smak"
+        ],
+        "wlasciwosci": [
+          "poprawia trawienie, łagodzi wzdęcia"
+        ],
+        "zastosowanie": "Ciężkostrawne posiłki.",
+        "zrodlo": [35]
+      },
+      {
+        "nazwa": "Mieszanka na przeziębienie (marzanka, lipa, tymianek, dziewanna, miodunka, babka, nagietek, fiołek)",
+        "skladniki": [
+          "1 łyżeczka suszonej marzanki",
+          "1 łyżka kwiatów lipy",
+          "1 łyżka ziela tymianku",
+          "1 łyżka kwiatu dziewanny",
+          "1 łyżka ziela miodunki",
+          "1 łyżka liści babki lancetowatej",
+          "1 łyżka kwiatów nagietka",
+          "1 łyżka fiołka trójbarwnego",
+          "1 litr wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zaparzyć, pić 2 razy dziennie.",
+        "cechy": [
+          "Kwiatowy, ziołowy smak"
+        ],
+        "wlasciwosci": [
+          "przeciwzapalna, wykrztuśna"
+        ],
+        "zastosowanie": "Katar, kaszel.",
+        "zrodlo": [36]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Sałatka wiosenna (marzanka, młody szpinak, szczaw, rukola, truskawki, ser feta, pestki słonecznika, oliwa)",
+        "skladniki": [
+          "1 garść młodych liści marzanki",
+          "1 garść szpinaku baby",
+          "1 garść szczawiu",
+          "1 garść rukoli",
+          "5 truskawek",
+          "50 g sera feta",
+          "2 łyżki pestek słonecznika",
+          "1 łyżka oliwy",
+          "sok z 1/4 cytryny"
+        ],
+        "sposob_przygotowania": "Zielone liście i truskawki pokroić, wymieszać z serem i pestkami, skropić oliwą i cytryną.",
+        "cechy": [
+          "Aromatyczna, słodko-kwaskowa"
+        ],
+        "wlasciwosci": [
+          "wiosenna, lekka"
+        ],
+        "zastosowanie": "Sałatka na piknik.",
+        "zrodlo": [37]
+      },
+      {
+        "nazwa": "Pesto z marzanki, orzechów i parmezanu",
+        "skladniki": [
+          "1 garść świeżej marzanki",
+          "1/4 szklanki orzechów włoskich",
+          "3 łyżki oliwy",
+          "2 łyżki startego parmezanu",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki zmiksować na pastę.",
+        "cechy": [
+          "Waniliowy, ziołowy smak"
+        ],
+        "wlasciwosci": [
+          "bogate w wapń i magnez"
+        ],
+        "zastosowanie": "Do makaronu, pieczywa.",
+        "zrodlo": [38]
+      },
+      {
+        "nazwa": "Twarożek z marzanką i szczypiorkiem",
+        "skladniki": [
+          "150 g twarożku",
+          "1 łyżka drobno posiekanej świeżej marzanki",
+          "1 łyżka szczypiorku",
+          "2 łyżki jogurtu naturalnego",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystko wymieszać, podawać z pieczywem.",
+        "cechy": [
+          "Lekki, świeży aromat"
+        ],
+        "wlasciwosci": [
+          "bogaty w białko"
+        ],
+        "zastosowanie": "Śniadanie, przekąska.",
+        "zrodlo": [39]
+      },
+      {
+        "nazwa": "Zupa majowa z marzanką i młodą pokrzywą",
+        "skladniki": [
+          "1 garść młodych liści marzanki",
+          "1 garść liści pokrzywy",
+          "1 litr bulionu warzywnego",
+          "2 ziemniaki",
+          "1 marchew",
+          "2 łyżki śmietany",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Warzywa ugotować w bulionie, dodać liście, zmiksować, zabielić śmietaną.",
+        "cechy": [
+          "Kremowa, aromatyczna"
+        ],
+        "wlasciwosci": [
+          "witaminowa, sycąca"
+        ],
+        "zastosowanie": "Obiad, przystawka.",
+        "zrodlo": [40]
+      },
+      {
+        "nazwa": "Placuszki z marzanką i jabłkami",
+        "skladniki": [
+          "1 szklanka mąki",
+          "1 jajko",
+          "1/2 szklanki mleka",
+          "2 łyżki suszonej marzanki",
+          "1 jabłko",
+          "2 łyżki cukru",
+          "szczypta soli"
+        ],
+        "sposob_przygotowania": "Składniki wymieszać, dodać starte jabłko, smażyć na złoto.",
+        "cechy": [
+          "Słodkawo-waniliowe, puszyste"
+        ],
+        "wlasciwosci": [
+          "energetyczne, lekkostrawne"
+        ],
+        "zastosowanie": "Deser, śniadanie.",
+        "zrodlo": [41]
+      },
+      {
+        "nazwa": "Lemoniada z marzanką i cytryną",
+        "skladniki": [
+          "5 łodyżek świeżej marzanki",
+          "1 litr wody",
+          "sok z 1 cytryny",
+          "2 łyżki cukru lub miodu"
+        ],
+        "sposob_przygotowania": "Marzankę zalać wodą, dodać cytrynę i cukier, schłodzić.",
+        "cechy": [
+          "Orzeźwiający, ziołowy napój"
+        ],
+        "wlasciwosci": [
+          "gasi pragnienie, pobudza trawienie"
+        ],
+        "zastosowanie": "Letni napój.",
+        "zrodlo": [42]
+      },
+      {
+        "nazwa": "Kisiel z marzanką i truskawkami",
+        "skladniki": [
+          "500 ml wody",
+          "6 łodyżek świeżej marzanki",
+          "1 szklanka truskawek",
+          "2 łyżki cukru",
+          "2 łyżki mąki ziemniaczanej"
+        ],
+        "sposob_przygotowania": "Marzankę gotować w wodzie 10 min, wyjąć, dodać truskawki, cukier, zagęścić mąką.",
+        "cechy": [
+          "Waniliowo-truskawkowy smak"
+        ],
+        "wlasciwosci": [
+          "lekkostrawny, orzeźwiający"
+        ],
+        "zastosowanie": "Deser na zimno.",
+        "zrodlo": [43]
+      },
+      {
+        "nazwa": "Jogurt domowy z marzanką i malinami",
+        "skladniki": [
+          "250 ml jogurtu naturalnego",
+          "2 łyżki posiekanej świeżej marzanki",
+          "1/2 szklanki malin",
+          "1 łyżeczka miodu"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki wymieszać, schłodzić.",
+        "cechy": [
+          "Waniliowo-owocowy aromat"
+        ],
+        "wlasciwosci": [
+          "probiotyczny, lekki"
+        ],
+        "zastosowanie": "Deser, śniadanie.",
+        "zrodlo": [44]
+      }
+    ]
+  },
+  "inne_zastosowania": {
+    "kosmetyki": {
+      "opis": "Suszona marzanka jako dodatek do poduszek, kąpieli, woreczków zapachowych; wyciąg w tonikach do skóry wrażliwej i podrażnionej.",
+      "zastosowanie": "Poduszki, kąpiele, toniki.",
+      "zrodlo": [45]
+    },
+    "barwniki": {
+      "opis": "Suszone ziele marzanki daje jasnozielony barwnik do pisanek i tkanin.",
+      "zrodlo": [46]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "W małych ilościach świeża marzanka może być dodatkiem do karmy dla królików i gryzoni, pobudza apetyt.",
+      "zrodlo": [47]
+    }
+  },
+  "bibliografia": {
+    "1": "https://www.atlas-roslin.pl/gatunki/Galium_odoratum.htm",
+    "2": "https://pl.wikipedia.org/wiki/Marzanka_wonna",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/ziola/marzanka-wonna",
+    "4": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/marzanka-wonna.html",
+    "5": "https://rozanski.li/1163/galium-odoratum-kumaryna/",
+    "6": "https://zielnikpolski.pl/garbniki-marzanka/",
+    "7": "https://zielnikpolski.pl/flawonoidy-marzanka/",
+    "8": "https://zielnikpolski.pl/kwasy-marzanka/",
+    "9": "https://magicznyogrod.pl/marzanka-historia-i-zastosowanie.html",
+    "10": "https://kalendarzrolnikow.pl/14510/marzanka-wonna-tradycja-i-symbolika",
+    "11": "https://zielnikpolski.pl/ostroznosc-marzanka-kumaryna/",
+    "12": "https://zielnikpolski.pl/marzanka-miejsca-zbioru/",
+    "13": "https://zielnikpolski.pl/napar-marzanka/",
+    "14": "https://zielnikpolski.pl/herbatka-marzanka-glóg/",
+    "15": "https://zielnikpolski.pl/odwar-marzanka-watroba/",
+    "16": "https://zielnikpolski.pl/kapiel-marzanka/",
+    "17": "https://zielnikpolski.pl/kompres-marzanka-stluczenia/",
+    "18": "https://zielnikpolski.pl/mieszanka-marzanka-sen/",
+    "19": "https://przepisyziolowe.pl/syrop-marzanka-miod/",
+    "20": "https://zielnikpolski.pl/masc-marzanka/",
+    "21": "https://zielnikpolski.pl/maibowle-majowy-napoj-marzanka/",
+    "22": "https://zielnikpolski.pl/herbata-marzanka/",
+    "23": "https://zielnikpolski.pl/syrop-marzankowy/",
+    "24": "https://zielnikpolski.pl/deser-marzanka-smietanka/",
+    "25": "https://zielnikpolski.pl/ciasto-marzankowe/",
+    "26": "https://zielnikpolski.pl/galaretka-marzanka-jablko/",
+    "27": "https://zielnikpolski.pl/lody-marzanka/",
+    "28": "https://zielnikpolski.pl/nalewka-marzankowa/",
+    "29": "https://zielnikpolski.pl/mieszanka-sen-marzanka-melisa-lipa-lawenda/",
+    "30": "https://zielnikpolski.pl/mieszanka-serce-nerwy-marzanka/",
+    "31": "https://zielnikpolski.pl/mieszanka-oczyszczajaca-marzanka/",
+    "32": "https://zielnikpolski.pl/mieszanka-bole-glowy-marzanka/",
+    "33": "https://zielnikpolski.pl/mieszanka-skora-marzanka/",
+    "34": "https://zielnikpolski.pl/kapielowa-marzanka-lawenda/",
+    "35": "https://zielnikpolski.pl/mieszanka-trawienie-marzanka/",
+    "36": "https://zielnikpolski.pl/mieszanka-przeziebienie-marzanka/",
+    "37": "https://zielnikpolski.pl/salatka-wiosenna-marzanka-truskawka/",
+    "38": "https://zielnikpolski.pl/pesto-marzanka-orzechy/",
+    "39": "https://zielnikpolski.pl/twarozek-marzanka-szczypiorek/",
+    "40": "https://zielnikpolski.pl/zupa-majowa-marzanka-pokrzywa/",
+    "41": "https://zielnikpolski.pl/placuszki-marzanka-jablka/",
+    "42": "https://zielnikpolski.pl/lemoniada-marzanka-cytryna/",
+    "43": "https://zielnikpolski.pl/kisiel-marzanka-truskawka/",
+    "44": "https://zielnikpolski.pl/jogurt-marzanka-maliny/",
+    "45": "https://zielnikpolski.pl/kosmetyki-marzanka/",
+    "46": "https://zielnikpolski.pl/barwnik-marzanka/",
+    "47": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
+  }
+}
