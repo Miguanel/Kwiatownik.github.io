@@ -35,6 +35,9 @@ Liście do zup, herbat ziołowych.
 Mlecz zwyczajny (Sonchus oleraceus)
 Młode liście do surówek, duszenia.
 
+
+@
+
 Jasnota biała (Lamium album)
 Kwiaty i młode pędy do sałatek, omletów.
 
@@ -69,3 +72,146 @@ Cebulica dwulistna (Scilla bifolia)
 
 Chmiel zwyczajny (Humulus lupulus)
 Młode pędy (dzikie „szparagi”) do gotowania, zapiekanek, jajecznic.
+
+1. Drzewa iglaste (nagonasienne)
+Sosna zwyczajna (Pinus sylvestris)
+
+Sosna czarna (Pinus nigra)
+
+Sosna wejmutka (Pinus strobus)
+
+Modrzew europejski (Larix decidua)
+
+Modrzew polski (Larix polonica) – podgatunek
+
+Świerk pospolity (Picea abies)
+
+Jodła pospolita (Abies alba)
+
+Jodła kaukaska (Abies nordmanniana) – rzadko, w górach
+
+Daglezja zielona (Pseudotsuga menziesii)
+
+Cis pospolity (Taxus baccata)
+
+Jałowiec pospolity (Juniperus communis)
+
+Jałowiec sabiński (Juniperus sabina) – rzadko
+
+Sosna limba (Pinus cembra) – w Tatrach
+
+2. Drzewa liściaste (okrytonasienne)
+A. Rodzina bukowate (Fagaceae)
+Dąb szypułkowy (Quercus robur)
+
+Dąb bezszypułkowy (Quercus petraea)
+
+Dąb czerwony (Quercus rubra) – zadomowiony
+
+Buk zwyczajny (Fagus sylvatica)
+
+Grab zwyczajny (Carpinus betulus)
+
+B. Rodzina klonowate (Aceraceae)
+Klon zwyczajny (jawor) (Acer pseudoplatanus)
+
+Klon polny (Acer campestre)
+
+Klon jawor (Acer platanoides)
+
+C. Rodzina brzozowate (Betulaceae)
+Brzoza brodawkowata (Betula pendula)
+
+Brzoza omszona (Betula pubescens)
+
+Brzoza karłowata (Betula nana) – rzadko, torfowiska
+
+Olsza czarna (Alnus glutinosa)
+
+Olsza szara (Alnus incana)
+
+Leszczyna pospolita (Corylus avellana) – głównie jako krzew, czasem drzewo
+
+D. Rodzina topolowate i wierzbowate (Salicaceae)
+Topola czarna (Populus nigra)
+
+Topola biała (Populus alba)
+
+Topola osika (Populus tremula)
+
+Topola szara (Populus × canescens) – mieszaniec
+
+Wierzba biała (Salix alba)
+
+Wierzba iwa (Salix caprea)
+
+Wierzba szara (Salix cinerea)
+
+Wierzba krucha (Salix fragilis)
+
+Wierzba purpurowa (Salix purpurea) – krzewiasta, czasem drzewo
+
+E. Rodzina lipowate (Tiliaceae)
+Lipa drobnolistna (Tilia cordata)
+
+Lipa szerokolistna (Tilia platyphyllos)
+
+F. Rodzina wiązowate (Ulmaceae)
+Wiąz szypułkowy (Ulmus laevis)
+
+Wiąz górski (Ulmus glabra)
+
+Wiąz pospolity (Ulmus minor)
+
+G. Rodzina kasztanowate (Sapindaceae)
+Jesion wyniosły (Fraxinus excelsior)
+
+Jesion pensylwański (Fraxinus pennsylvanica) – zadomowiony
+
+H. Rodzina orzechowate (Juglandaceae)
+Orzech czarny (Juglans nigra) – miejscami dziczeje
+
+I. Inne liściaste
+Jarząb pospolity (jarzębina) (Sorbus aucuparia)
+
+Jarząb szwedzki (Sorbus intermedia)
+
+Jarząb brekinia (Sorbus torminalis) – bardzo rzadko
+
+Czeremcha zwyczajna (Prunus padus)
+
+Czeremcha amerykańska (Prunus serotina) – zadomowiona
+
+Głóg jednoszyjkowy (Crataegus monogyna) – głównie jako krzew, czasem drzewo
+
+Głóg dwuszyjkowy (Crataegus laevigata)
+
+Trzmielina pospolita (Euonymus europaeus) – przeważnie krzew
+
+Śliwa tarnina (Prunus spinosa) – przeważnie krzew
+
+Czerwona robinia (akacja) (Robinia pseudoacacia) – zadomowiona
+
+Morwa biała (Morus alba) – dziczeje miejscami
+
+3. Drzewa owocowe (dziko rosnące, nie sadownicze)
+Jabłoń dzika (Malus sylvestris)
+
+Grusza polna (Pyrus pyraster)
+
+Czeremcha zwyczajna (Prunus padus)
+
+Śliwa tarnina (Prunus spinosa)
+
+Wiśnia ptasia (czereśnia dzika) (Prunus avium)
+
+Jarząb pospolity (Sorbus aucuparia)
+
+4. Gatunki chronione i bardzo rzadkie
+Brzoza karłowata (Betula nana)
+
+Jarząb brekinia (Sorbus torminalis)
+
+Lipa szerokolistna (Tilia platyphyllos) – miejscami rzadka
+
+Sosna limba (Pinus cembra) – tylko Tatry
