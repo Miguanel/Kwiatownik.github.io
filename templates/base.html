@@ -8,13 +8,15 @@
     <link rel="icon" href="/static/favicon.ico">
 </head>
 <body>
+<div class="wrapper">
     <header class="top-bar">
-        <button class="menu-hamburger" aria-label="Menu" onclick="toggleNav()">☰</button>
         <a href="/" class="logo">🌱 Kwiatownik</a>
+        <nav class="main-navbar">
+            <a href="/ulubione">Ulubione</a>
+            <a href="/generator_ogrodu">Generator ogrodu</a>
+        </nav>
+        <button class="search-btn" aria-label="Szukaj roślin" onclick="window.location.href='/szukaj'">🔍</button>
         <button id="darkToggle" aria-label="Tryb ciemny" onclick="toggleDarkMode()">🌙</button>
-        <form action="/szukaj" method="get" class="search-bar" onsubmit="return checkSearch(this)">
-            <input type="search" name="q" placeholder="Szukaj rośliny…" autocomplete="off">
-        </form>
     </header>
     <nav id="mainNav" class="side-nav">
         <a href="/">Strona główna</a>
@@ -33,9 +35,10 @@
         {% block content %}{% endblock %}
     </main>
     <footer>
-        <small>&copy; {{ now().year if now else '2024' }} Kwiatownik. Wszelkie prawa zastrzeżone.</small>
+        <small>&copy; {{ now().year if now else '1936' }} Kwiatownik. Wszelkie prawa zastrzeżone.</small>
     </footer>
-    <script>
+</div>
+<script>
     function toggleNav() {
         document.getElementById('mainNav').classList.toggle('open');
     }
@@ -50,6 +53,12 @@
         let v = form.q.value.trim();
         return v.length > 0;
     }
-    </script>
+window.onload = function() {
+    if(typeof updateFavIcons === "function") updateFavIcons();
+};
+
+
+
+</script>
 </body>
 </html>

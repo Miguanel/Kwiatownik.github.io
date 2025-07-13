@@ -115,111 +115,62 @@ def lista(category):
     return render_template("lista.html", category=category, wyniki=wyniki, q=q, dzialanie=dzialanie,
                            tylko_trujace=tylko_trujace, sort=sort)
 
-
-def search_in_plant(plant, query):
-    """Zwraca listę fragmentów tekstu (pola i tekst), gdzie znaleziono zapytanie."""
-    hits = []
-    q = query.lower()
-    # Szukaj we wszystkich istotnych polach:
-    for key in ["gatunek", "nazwa_lacinska"]:
-        val = plant["data"].get(key, "")
-        if q in (val or "").lower():
-            hits.append(("Nazwa", val))
-    # Opis botaniczny
-    opis = plant["data"].get("opis_botaniczny", {})
-    for field, val in opis.items():
-        if isinstance(val, str) and q in val.lower():
-            hits.append((field.capitalize(), val))
-    # Właściwości
-    for skl in plant["data"].get("wlasciwosci_i_skladniki", []):
-        for field in ["nazwa", "dzialanie", "sklad", "ciekawostka"]:
-            val = skl.get(field)
-            if val and q in val.lower():
-                hits.append((field.capitalize(), val))
-    # Cechy, historia, ciekawostki
-    cechy_hist = plant["data"].get("cechy_i_historia", {})
-    for field in ["opis"] + cechy_hist.get("cechy", []) + cechy_hist.get("zastosowanie_historyczne",
-                                                                         []) + cechy_hist.get("ciekawostki", []):
-        if isinstance(field, str) and q in field.lower():
-            hits.append(("Historia/Cechy", field))
-    # Uwagi i ostrzeżenia
-    for u in plant["data"].get("uwagi_i_ostrzezenia", []):
-        for field in ["uwaga", "rozwiazanie"]:
-            val = u.get(field)
-            if val and q in val.lower():
-                hits.append(("Ostrzeżenia", val))
-    # Przepisy medyczne i kulinarne
-    for typ in ["przepisy_medyczne", "przepisy_kulinarne"]:
-        przepisy = plant["data"].get(typ, {})
-        for nazwa, przepis in przepisy.items():
-            for pole in ["skladniki", "sposob_przygotowania", "cechy", "wlasciwosci", "zastosowanie"]:
-                wart = przepis.get(pole)
-                if isinstance(wart, list):
-                    for w in wart:
-                        if q in w.lower():
-                            hits.append((f"{typ}:{nazwa}", w))
-                elif isinstance(wart, str) and q in wart.lower():
-                    hits.append((f"{typ}:{nazwa}", wart))
-    # Przepisy z innymi roślinami
-    for typ in ["medyczne", "kulinarne"]:
-        for miesz in plant["data"].get("przepisy_z_innymi_roslinami", {}).get(typ, []):
-            for pole in ["nazwa", "skladniki", "sposob_przygotowania", "cechy", "wlasciwosci", "zastosowanie"]:
-                wart = miesz.get(pole)
-                if isinstance(wart, list):
-                    for w in wart:
-                        if q in w.lower():
-                            hits.append((f"przepisy_z_innymi_{typ}", w))
-                elif isinstance(wart, str) and q in wart.lower():
-                    hits.append((f"przepisy_z_innymi_{typ}", wart))
-    return hits
-
-
 @app.route("/szukaj")
 def search():
     q = request.args.get("q", "").strip()
     q_lower = q.lower()
-    results = []
+    results_names = []
+    results_details = []
     for plant in all_plants():
         data = plant["data"]
+        name_match = []
+        details_match = []
+
+        # Sekcja 1: TYLKO nazwa gatunku i podgatunku (oraz łacińska)
+        if (
+            q_lower in (data.get("gatunek", "").lower())
+            or q_lower in (data.get("podgatunek") or "").lower()
+            or q_lower in (data.get("nazwa_lacinska") or "").lower()
+        ):
+            name_match.append(("Nazwa", highlight(f"{data.get('gatunek','')} ({data.get('nazwa_lacinska','')})", q)))
+            plant_copy = plant.copy()
+            plant_copy["matches"] = name_match
+            results_names.append(plant_copy)
+
+        # Sekcja 2: Szczegóły – szukaj we wszystkich innych polach (może być też w nazwie, ale wyświetlamy)
+        # (możesz wziąć stary kod z twojego search_in_plant/old search)
         matches = []
-
-        # Nazwa polska/łacińska
-        if q_lower in plant["name"].lower() or q_lower in plant["latin"].lower():
-            matches.append(("Nazwa", highlight(f"{plant['name']} ({plant['latin']})", q)))
-
-        # Przeszukaj wybrane sekcje tekstowe
-        for section, pretty in [
-            ("opis_botaniczny", "Opis"),
-            ("wlasciwosci_i_skladniki", "Właściwości/składniki"),
-            ("cechy_i_historia", "Historia/Cechy"),
-            ("uwagi_i_ostrzezenia", "Uwagi"),
-            ("przepisy_medyczne", "Przepisy medyczne"),
-            ("przepisy_kulinarne", "Przepisy kulinarne"),
-        ]:
-            value = data.get(section)
+        # ...tu wrzuć logikę z wcześniejszego search_in_plant, ale pomiń pole 'gatunek', 'podgatunek', 'nazwa_lacinska'
+        # przykład uproszczony poniżej:
+        # (wyciągnij, jeśli chcesz bardziej zaawansowane szukanie w szczegółach)
+        for key in ["opis_botaniczny", "wlasciwosci_i_skladniki", "cechy_i_historia", "uwagi_i_ostrzezenia", "przepisy_medyczne", "przepisy_kulinarne"]:
+            value = data.get(key)
             if not value:
                 continue
-            # Dict (np. opis_botaniczny, cechy_i_historia, przepisy_medyczne)
             if isinstance(value, dict):
-                for key, v in value.items():
+                for subk, v in value.items():
                     if isinstance(v, str) and q_lower in v.lower():
-                        matches.append((f"{pretty}: {key}", highlight(v, q)))
+                        matches.append((f"{key}: {subk}", highlight(v, q)))
                     elif isinstance(v, list):
                         for elem in v:
                             if isinstance(elem, str) and q_lower in elem.lower():
-                                matches.append((f"{pretty}: {key}", highlight(elem, q)))
-            # List (np. wlasciwosci_i_skladniki, uwagi_i_ostrzezenia)
+                                matches.append((f"{key}: {subk}", highlight(elem, q)))
             elif isinstance(value, list):
                 for item in value:
-                    for k, v in item.items():
+                    for subk, v in item.items():
                         if isinstance(v, str) and q_lower in v.lower():
-                            matches.append((f"{pretty}: {k}", highlight(v, q)))
-
+                            matches.append((f"{key}: {subk}", highlight(v, q)))
         if matches:
-            plant["matches"] = matches
-            results.append(plant)
-    return render_template("search.html", results=results, q=q)
+            plant_copy = plant.copy()
+            plant_copy["matches"] = matches
+            results_details.append(plant_copy)
 
+    return render_template(
+        "search.html",
+        q=q,
+        results_names=results_names,
+        results_details=results_details,
+    )
 
 @app.route("/ulubione")
 def ulubione():

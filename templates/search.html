@@ -1,31 +1,201 @@
 {% extends "base.html" %}
-{% block title %}Wyniki wyszukiwania{% endblock %}
+{% block title %}Szukaj rośliny{% endblock %}
 {% block content %}
-<h2 style="margin-bottom:1em;">
-    Wyniki wyszukiwania dla <span class="search-query">"{{ q }}"</span>
-</h2>
-{% if results %}
-    <div class="search-results">
-    {% for plant in results %}
-        <div class="result-item">
-            <div class="plant-title">
-                <a href="{{ url_for('roslina', category=plant.category, plant=plant.slug) }}">{{ plant.name }}</a>
-                <span class="latin">({{ plant.latin }})</span>
-            </div>
-            {% if plant.matches %}
-            <ul class="matches">
-                {% for field, text in plant.matches %}
-                    <li>
-                        <span class="match-label">{{ field }}:</span>
-                        <span class="match-content">{{ text|safe }}</span>
-                    </li>
-                {% endfor %}
-            </ul>
-            {% endif %}
-        </div>
-    {% endfor %}
-    </div>
-{% else %}
-    <p style="margin-top:1.7em;">Brak wyników.</p>
+
+<div class="search-panel">
+    <form action="/szukaj" method="get" id="searchForm" autocomplete="off">
+        <input type="search" name="q" id="searchInput"
+               placeholder="Wpisz nazwę rośliny lub słowo kluczowe…" minlength="3" maxlength="120"
+               value="{{ q|default('') }}" required autofocus>
+        <button type="submit">Szukaj 🔍</button>
+    </form>
+    <div id="searchHint" style="color: #a00; font-size: 1em; margin-top:0.5em; display:none;"></div>
+</div>
+
+{% if q %}
+    <h2 style="margin:1.4em 0 1em 0;">
+        Wyniki dla: <span class="search-query">"{{ q }}"</span>
+    </h2>
+    {% if results_names or results_details %}
+        <ul class="search-results">
+
+        {# --- Sekcja 1: TYLKO w nazwie (gatunek/podgatunek/nazwa łacińska) --- #}
+        {% if results_names %}
+            <li class="results-header"><b>Znaleziono w nazwie rośliny:</b></li>
+            {% for plant in results_names %}
+                <li class="result-item">
+                    <div class="plant-title">
+                        <a href="{{ url_for('roslina', category=plant.category, plant=plant.slug) }}">{{ plant.name|safe }}</a>
+                        <span class="latin">({{ plant.latin|safe }})</span>
+                    </div>
+                    {% if plant.matches %}
+                    <ul class="matches">
+                        {% for field, text in plant.matches %}
+                            <li>
+                                <span class="match-label">{{ field }}:</span>
+                                <span class="match-content">{{ text|safe }}</span>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        {% endif %}
+
+        {# --- Sekcja 2: W szczegółach (dowolne inne pole, także jeśli było wyżej) --- #}
+        {% if results_details %}
+            <li class="results-header" style="margin-top:1.7em;"><b>Znaleziono w szczegółach:</b></li>
+            {% for plant in results_details %}
+                <li class="result-item">
+                    <div class="plant-title">
+                        <a href="{{ url_for('roslina', category=plant.category, plant=plant.slug) }}">{{ plant.name|safe }}</a>
+                        <span class="latin">({{ plant.latin|safe }})</span>
+                    </div>
+                    {% if plant.matches %}
+                    <ul class="matches">
+                        {% for field, text in plant.matches %}
+                            <li>
+                                <span class="match-label">{{ field }}:</span>
+                                <span class="match-content">{{ text|safe }}</span>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        {% endif %}
+
+        </ul>
+    {% else %}
+        <p style="margin-top:2em;">Brak wyników dla podanej frazy.</p>
+    {% endif %}
 {% endif %}
+
+<script>
+document.getElementById("searchForm").onsubmit = function(e) {
+    let v = document.getElementById("searchInput").value.trim();
+    let hint = document.getElementById("searchHint");
+    if(v.length < 3) {
+        hint.textContent = "Wpisz przynajmniej 3 znaki!";
+        hint.style.display = "block";
+        e.preventDefault();
+        return false;
+    }
+    if(v.length > 120) {
+        hint.textContent = "Wpisz maksymalnie 120 znaków!";
+        hint.style.display = "block";
+        e.preventDefault();
+        return false;
+    }
+    hint.style.display = "none";
+    return true;
+};
+</script>
+
+<style>
+.search-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.1em 0 1.3em 0;
+}
+#searchForm {
+    display: flex;
+    gap: 0.7em;
+    width: 100%;
+    max-width: 480px;
+}
+#searchInput {
+    flex: 1;
+    padding: 0.63em 1em;
+    font-size: 1.13em;
+    border: 1px solid #cbe6cb;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.13s;
+}
+#searchInput:focus {
+    border-color: #6c9f63;
+    background: #f7fcf5;
+}
+#searchForm button[type="submit"] {
+    padding: 0.56em 1.25em;
+    background: #67a75d;
+    color: #fff;
+    font-size: 1.11em;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+#searchForm button[type="submit"]:hover,
+#searchForm button[type="submit"]:focus {
+    background: #356e34;
+}
+
+.search-results {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.results-header {
+    font-size: 1.04em;
+    color: #195e17;
+    margin-bottom: 0.4em;
+    margin-top: 1.1em;
+    padding-left: 2px;
+}
+.result-item {
+    background: #f9fbe7;
+    border-radius: 9px;
+    margin-bottom: 1.35em;
+    padding: 1.2em 1.2em 0.9em 1.2em;
+    box-shadow: 0 1px 7px 0 rgba(77,97,50,0.04);
+}
+.plant-title {
+    font-size: 1.22em;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+    color: #184e10;
+}
+.latin {
+    font-size: 0.92em;
+    font-style: italic;
+    color: #537c43;
+    margin-left: 0.45em;
+}
+.matches {
+    margin-top: 0.6em;
+    margin-bottom: 0.5em;
+    padding-left: 1.1em;
+}
+.matches li {
+    margin-bottom: 0.3em;
+    font-size: 1.01em;
+    color: #2e4021;
+}
+.match-label {
+    color: #6d9339;
+    font-weight: bold;
+    margin-right: 0.3em;
+}
+.match-content b {
+    background: #fcffd4;
+    padding: 0 0.11em;
+    border-radius: 4px;
+    color: #6a4e00;
+}
+
+@media (max-width: 700px) {
+    .search-panel { margin: 1.2em 0 1em 0; }
+    #searchForm { max-width: 99vw; gap: 0.3em; }
+    .result-item { padding: 1em 0.6em 0.7em 0.6em; }
+    .search-results { max-width: 98vw; }
+}
+</style>
+
 {% endblock %}

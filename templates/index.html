@@ -1,22 +1,25 @@
 {% macro render_tree(node, level=0) %}
-<ul class="tree-level-{{level}}">
+<ul class="tree-level tree-level-{{ level }}">
     {% for key, val in node.items() %}
         {% if key == "gatunki" %}
             {% for g in val %}
-                <li class="tree-gatunek" style="margin-left:{{level*16}}px;">
+                <li class="tree-gatunek">
                     <a href="{{ url_for('roslina', category=g.category, plant=g.slug) }}">{{ g.name }}</a>
-                    <span class="latin">({{ g.latin }})</span>
+                    <i class="latin">({{ g.latin }})</i>
+                    <span class="fav-btn" data-plant="{{ g.slug }}" onclick="toggleFav('{{ g.slug }}')" title="Dodaj/usuń z ulubionych">💚</span>
+                    <span class="garden-btn" data-plant="{{ g.slug }}" onclick="toggleGarden('{{ g.slug }}')" title="Dodaj/usuń do ogrodu">🌱</span>
                 </li>
             {% endfor %}
         {% else %}
-            <li class="tree-group" style="margin-left:{{level*11}}px;">
-                <span class="tree-group-label" style="font-weight:600;">{{ key }}</span>
+            <li class="tree-group">
+                <span class="tree-group-label">{{ key }}</span>
                 {{ render_tree(val, level+1) }}
             </li>
         {% endif %}
     {% endfor %}
 </ul>
 {% endmacro %}
+
 
 {% extends "base.html" %}
 {% block title %}Kwiatownik – Spis treści{% endblock %}
