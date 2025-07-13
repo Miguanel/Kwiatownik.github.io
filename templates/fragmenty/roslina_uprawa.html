@@ -1,17 +1,201 @@
+<style>
+.uprawa-card {
+    background: #f0fbe7;
+    border-radius: 13px;
+    box-shadow: 0 2px 7px #d7e8bb33;
+    padding: 1.2em 1.5em 1em 1.5em;
+    max-width: 670px;
+    margin: 1.4em auto 1.7em auto;
+    transition: box-shadow 0.13s;
+}
+.uprawa-card:hover {
+    box-shadow: 0 6px 20px #c9db9b40;
+}
+.uprawa-title {
+    font-size: 1.18em;
+    font-weight: bold;
+    color: #395820;
+    margin-bottom: 0.6em;
+    letter-spacing: 0.01em;
+}
+.uprawa-blok {
+    margin-bottom: 0.8em;
+}
+.uprawa-label {
+    color: #466337;
+    font-size: 1em;
+    margin-bottom: 0.18em;
+    font-weight: 600;
+    display: block;
+    opacity: 0.94;
+}
+.uprawa-tresc {
+    color: #395820;
+    font-size: 1em;
+    margin-bottom: 0.2em;
+}
+.uprawa-divider {
+    border: none;
+    border-top: 1.5px solid #dde9bd;
+    margin: 1em 0 1em 0;
+    width: 90%;
+    max-width: 620px;
+}
+.uprawa-zrodlo {
+    font-size: 0.97em;
+    color: #829757;
+    margin-left: 0.3em;
+    vertical-align: super;
+    text-decoration: none;
+}
+.uprawa-zrodlo:hover {
+    text-decoration: underline dotted;
+    color: #395820;
+}
+</style>
 
-<div>
-    <h4>Wymagania uprawowe</h4>
-    <ul>
-        <li><b>Gleba:</b> {{ data.uprawa.gleba or '-' }}</li>
-        <li><b>Stanowisko:</b> {{ data.uprawa.stanowisko or '-' }}</li>
-        <li><b>Wysiew:</b> {{ data.uprawa.wysiew or '-' }}</li>
-        <li><b>Zbiór:</b> {{ data.uprawa.zbior or '-' }}</li>
-    </ul>
-    <h4>Występowanie</h4>
-    <ul>
-        <li><b>Obszar ogólny:</b> {{ data.wystepowanie.obszar }}</li>
-        <li><b>W Polsce:</b> {{ data.wystepowanie.w_polsce }}</li>
-    </ul>
-    <sup>[{{ data.wystepowanie.zrodlo|join(', ') }}]</sup>
+{% set up = data.uprawa or {} %}
+
+{% if up %}
+<div class="uprawa-card">
+    <div class="uprawa-title">Uprawa i występowanie</div>
+    {% if up.gleba %}
+        <div class="uprawa-blok">
+            <span class="uprawa-label">Gleba:</span>
+            <span class="uprawa-tresc">{{ up.gleba }}</span>
+            {% if up.gleba_zrodlo %}
+                <span class="uprawa-zrodlo">
+                    [
+                    {% if up.gleba_zrodlo is string %}
+                        <a href="#bib{{ up.gleba_zrodlo }}">{{ up.gleba_zrodlo }}</a>
+                    {% else %}
+                        {% for num in up.gleba_zrodlo %}
+                            <a href="#bib{{ num }}">{{ num }}</a>{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                    ]
+                </span>
+            {% endif %}
+        </div>
+        {% if up.stanowisko or up.wysiew or up.zbior or up.wystepowanie or up.uwagi %}
+            <hr class="uprawa-divider">
+        {% endif %}
+    {% endif %}
+
+    {% if up.stanowisko %}
+        <div class="uprawa-blok">
+            <span class="uprawa-label">Stanowisko:</span>
+            <span class="uprawa-tresc">{{ up.stanowisko }}</span>
+            {% if up.stanowisko_zrodlo %}
+                <span class="uprawa-zrodlo">
+                    [
+                    {% if up.stanowisko_zrodlo is string %}
+                        <a href="#bib{{ up.stanowisko_zrodlo }}">{{ up.stanowisko_zrodlo }}</a>
+                    {% else %}
+                        {% for num in up.stanowisko_zrodlo %}
+                            <a href="#bib{{ num }}">{{ num }}</a>{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                    ]
+                </span>
+            {% endif %}
+        </div>
+        {% if up.wysiew or up.zbior or up.wystepowanie or up.uwagi %}
+            <hr class="uprawa-divider">
+        {% endif %}
+    {% endif %}
+
+    {% if up.wysiew %}
+        <div class="uprawa-blok">
+            <span class="uprawa-label">Wysiew / sadzenie:</span>
+            <span class="uprawa-tresc">{{ up.wysiew }}</span>
+            {% if up.wysiew_zrodlo %}
+                <span class="uprawa-zrodlo">
+                    [
+                    {% if up.wysiew_zrodlo is string %}
+                        <a href="#bib{{ up.wysiew_zrodlo }}">{{ up.wysiew_zrodlo }}</a>
+                    {% else %}
+                        {% for num in up.wysiew_zrodlo %}
+                            <a href="#bib{{ num }}">{{ num }}</a>{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                    ]
+                </span>
+            {% endif %}
+        </div>
+        {% if up.zbior or up.wystepowanie or up.uwagi %}
+            <hr class="uprawa-divider">
+        {% endif %}
+    {% endif %}
+
+    {% if up.zbior %}
+        <div class="uprawa-blok">
+            <span class="uprawa-label">Zbiór:</span>
+            <span class="uprawa-tresc">{{ up.zbior }}</span>
+            {% if up.zbior_zrodlo %}
+                <span class="uprawa-zrodlo">
+                    [
+                    {% if up.zbior_zrodlo is string %}
+                        <a href="#bib{{ up.zbior_zrodlo }}">{{ up.zbior_zrodlo }}</a>
+                    {% else %}
+                        {% for num in up.zbior_zrodlo %}
+                            <a href="#bib{{ num }}">{{ num }}</a>{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                    ]
+                </span>
+            {% endif %}
+        </div>
+        {% if up.wystepowanie or up.uwagi %}
+            <hr class="uprawa-divider">
+        {% endif %}
+    {% endif %}
+
+    {% if up.wystepowanie %}
+        <div class="uprawa-blok">
+            <span class="uprawa-label">Występowanie:</span>
+            <span class="uprawa-tresc">{{ up.wystepowanie }}</span>
+            {% if up.wystepowanie_zrodlo %}
+                <span class="uprawa-zrodlo">
+                    [
+                    {% if up.wystepowanie_zrodlo is string %}
+                        <a href="#bib{{ up.wystepowanie_zrodlo }}">{{ up.wystepowanie_zrodlo }}</a>
+                    {% else %}
+                        {% for num in up.wystepowanie_zrodlo %}
+                            <a href="#bib{{ num }}">{{ num }}</a>{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                    ]
+                </span>
+            {% endif %}
+        </div>
+        {% if up.uwagi %}
+            <hr class="uprawa-divider">
+        {% endif %}
+    {% endif %}
+
+    {% if up.uwagi %}
+        <div class="uprawa-blok">
+            <span class="uprawa-label">Uwagi praktyczne:</span>
+            <span class="uprawa-tresc">{{ up.uwagi }}</span>
+            {% if up.uwagi_zrodlo %}
+                <span class="uprawa-zrodlo">
+                    [
+                    {% if up.uwagi_zrodlo is string %}
+                        <a href="#bib{{ up.uwagi_zrodlo }}">{{ up.uwagi_zrodlo }}</a>
+                    {% else %}
+                        {% for num in up.uwagi_zrodlo %}
+                            <a href="#bib{{ num }}">{{ num }}</a>{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                    ]
+                </span>
+            {% endif %}
+        </div>
+    {% endif %}
 </div>
-
+{% else %}
+<div class="uprawa-card">
+    <div class="uprawa-title">Brak informacji o uprawie tej rośliny.</div>
+</div>
+{% endif %}

@@ -1,23 +1,89 @@
+<style>
+.historia-card {
+    background: #f0fbe7;
+    border-radius: 13px;
+    box-shadow: 0 2px 7px #d7e8bb33;
+    padding: 1.2em 1.5em 1em 1.5em;
+    max-width: 670px;
+    margin: 1.4em auto 1.7em auto;
+    transition: box-shadow 0.13s;
+}
+.historia-card:hover {
+    box-shadow: 0 6px 20px #c9db9b40;
+}
+.historia-title {
+    font-size: 1.18em;
+    font-weight: bold;
+    color: #395820;
+    margin-bottom: 0.6em;
+    letter-spacing: 0.01em;
+}
+.historia-section-label {
+    color: #466337;
+    font-weight: 600;
+    font-size: 0.97em;
+    margin-bottom: 0.33em;
+    margin-top: 0.7em;
+    letter-spacing: 0.01em;
+    opacity: 0.93;
+    display: block;
+}
+.historia-divider {
+    border: none;
+    border-top: 1.5px solid #dde9bd;
+    margin: 1em 0 1em 0;
+    width: 90%;
+    max-width: 620px;
+}
+.historia-list {
+    margin: 0 0 0.8em 0;
+    padding-left: 1.2em;
+    color: #35531f;
+    font-size: 1em;
+}
+</style>
 
-{% set ch = data.cechy_i_historia %}
-<div>
-    <p>{{ ch.opis }} <sup>[{{ ch.zrodlo|join(', ') }}]</sup></p>
-    <h4>Cechy szczególne</h4>
-    <ul>
-        {% for cecha in ch.cechy %}
+{% set hist = data.cechy_i_historia or {} %}
+
+{% if hist.opis %}
+<div class="historia-card">
+    <div class="historia-title">Opis historyczny i tradycje</div>
+    <div>{{ hist.opis }}</div>
+</div>
+{% endif %}
+
+{% if hist.cechy %}
+<div class="historia-card">
+    <div class="historia-title">Cechy wyjątkowe</div>
+    <ul class="historia-list">
+        {% for cecha in hist.cechy %}
             <li>{{ cecha }}</li>
-        {% endfor %}
-    </ul>
-    <h4>Zastosowanie historyczne</h4>
-    <ul>
-        {% for z in ch.zastosowanie_historyczne %}
-            <li>{{ z }}</li>
-        {% endfor %}
-    </ul>
-    <h4>Ciekawostki</h4>
-    <ul>
-        {% for c in ch.ciekawostki %}
-            <li>{{ c }}</li>
+            {% if not loop.last %}<hr class="historia-divider">{% endif %}
         {% endfor %}
     </ul>
 </div>
+{% endif %}
+
+{% if hist.zastosowanie_historyczne %}
+<div class="historia-card">
+    <div class="historia-title">Zastosowanie historyczne</div>
+    <ul class="historia-list">
+        {% for zastosowanie in hist.zastosowanie_historyczne %}
+            <li>{{ zastosowanie }}</li>
+            {% if not loop.last %}<hr class="historia-divider">{% endif %}
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+{% if data.ciekawostki_kulturowe %}
+<div class="historia-card">
+    <div class="historia-title">Ciekawostki kulturowe</div>
+    <ul class="historia-list">
+        {% for ciek in data.ciekawostki_kulturowe %}
+            <li>{{ ciek }}</li>
+            {% if not loop.last %}<hr class="historia-divider">{% endif %}
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}

@@ -1,10 +1,95 @@
+<style>
+.uwagi-card {
+    background: #fbeee7;
+    border-radius: 13px;
+    box-shadow: 0 2px 7px #eed5bb44;
+    padding: 1.2em 1.5em 1em 1.5em;
+    max-width: 670px;
+    margin: 1.4em auto 1.7em auto;
+    transition: box-shadow 0.13s;
+}
+.uwagi-card:hover {
+    box-shadow: 0 6px 20px #e6be9b30;
+}
+.uwagi-title {
+    font-size: 1.18em;
+    font-weight: bold;
+    color: #823c1c;
+    margin-bottom: 0.6em;
+    letter-spacing: 0.01em;
+}
+.uwagi-blok {
+    margin-bottom: 0.8em;
+}
+.uwagi-label {
+    color: #9b632a;
+    font-size: 1em;
+    margin-bottom: 0.18em;
+    font-weight: 600;
+    display: block;
+    opacity: 0.94;
+}
+.uwagi-tresc {
+    margin-bottom: 0.2em;
+    color: #823c1c;
+    font-size: 1em;
+}
+.uwagi-divider {
+    border: none;
+    border-top: 1.5px solid #ecd4b9;
+    margin: 1em 0 1em 0;
+    width: 90%;
+    max-width: 620px;
+}
+.uwagi-zrodlo {
+    font-size: 0.97em;
+    color: #b6a97d;
+    margin-left: 0.3em;
+    vertical-align: super;
+    text-decoration: none;
+}
+.uwagi-zrodlo:hover {
+    text-decoration: underline dotted;
+    color: #823c1c;
+}
+</style>
 
-<ul>
-    {% for u in data.uwagi_i_ostrzezenia %}
-        <li>
-            <b>Uwaga:</b> {{ u.uwaga }}
-            {% if u.rozwiazanie %}<br><b>Rozwiązanie:</b> {{ u.rozwiazanie }}{% endif %}
-            <sup>[{{ u.zrodlo|join(', ') }}]</sup>
-        </li>
+{% set uw = data.uwagi_i_ostrzezenia or [] %}
+
+{% if uw %}
+<div class="uwagi-card">
+    <div class="uwagi-title">Uwagi i ostrzeżenia</div>
+    {% for w in uw %}
+        <div class="uwagi-blok">
+            {% if w.uwaga %}
+                <span class="uwagi-label">Uwaga:</span>
+                <span class="uwagi-tresc">{{ w.uwaga }}</span><br>
+            {% endif %}
+            {% if w.rozwiazanie %}
+                <span class="uwagi-label">Rozwiązanie:</span>
+                <span class="uwagi-tresc">{{ w.rozwiazanie }}</span><br>
+            {% endif %}
+            {% if w.zrodlo %}
+                <span class="uwagi-zrodlo">
+                [
+                {% if w.zrodlo is string %}
+                    <a href="#bib{{ w.zrodlo }}">{{ w.zrodlo }}</a>
+                {% else %}
+                    {% for num in w.zrodlo %}
+                        <a href="#bib{{ num }}">{{ num }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                {% endif %}
+                ]
+                </span>
+            {% endif %}
+        </div>
+        {% if not loop.last %}
+            <hr class="uwagi-divider">
+        {% endif %}
     {% endfor %}
-</ul>
+</div>
+{% else %}
+<div class="uwagi-card">
+    <div class="uwagi-title">Brak uwag ani ostrzeżeń dla tej rośliny.</div>
+</div>
+{% endif %}
