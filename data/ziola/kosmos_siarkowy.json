@@ -1,0 +1,418 @@
+{
+  "gatunek": "Kosmos siarkowy",
+  "nazwa_lacinska": "Cosmos sulphureus",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Rośliny egzotyczne",
+    "Astrowate",
+    "Cosmos",
+    "Kosmos siarkowy"
+  ],
+  "zdjecia": [
+    "https://upload.wikimedia.org/wikipedia/commons/6/68/Cosmos_sulphureus_flower.jpg",
+    "https://www.gardenersworld.com/wp-content/uploads/2020/06/Cosmos-sulphureus-GettyImages-1131263742.jpg",
+    "https://www.gardenia.net.pl/rosliny/kosmos-siarkowy.jpg",
+    "https://atlas-roslin.pl/zdjecia/cosmos_sulphureus1.jpg"
+  ],
+  "uprawa": {
+    "gleba": "Gleba lekka do przeciętnej, dobrze przepuszczalna, nie za bardzo żyzna – zbyt żyzna gleba osłabia kwitnienie.",
+    "stanowisko": "Stanowisko bardzo słoneczne i ciepłe; toleruje upały, suchą pogodę.",
+    "wysiew": "Wysiew nasion do gruntu po przymrozkach (maj–czerwiec) lub pod osłonami w kwietniu. Odstęp 25–40 cm.",
+    "zbior": "Kwiaty ścinać w pełni rozkwitu do celów dekoracyjnych lub kulinarnych; liście zbierać młode. Kwitnie długo, od czerwca/lipca aż do przymrozków."
+  },
+  "wystepowanie": {
+    "obszar": "Ameryka Środkowa, Meksyk, Ameryka Południowa; szeroko rozprzestrzeniona na świecie jako roślina ozdobna i naturalizowana.",
+    "w_polsce": "Uprawiana jako roślina jednoroczna, nie dziczeje.",
+    "zrodlo": [1,2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Jednoroczna bylina, silnie rozgałęziona, osiągająca 60–120 cm, o szorstkich łodygach.",
+    "lodyga": "Cienka, wzniesiona, owłosiona, ulistniona naprzeciwlegle.",
+    "liscie": "Głęboko powcinane, pierzaste, jasnozielone, miękkie, z widocznymi żyłkami.",
+    "kwiaty": "Koszyczki złocisto-żółte, pomarańczowe, rzadziej czerwono-pomarańczowe, okazałe (5–8 cm). Środek kwiatów zawsze żółty lub ciemnożółty.",
+    "owoce": "Wąskie niełupki, czarne, z dwoma szczeciniastymi wyrostkami na końcu.",
+    "zapach": "Liście i łodygi mają lekko cytrusowy, nieco korzenny aromat, kwiaty pachną miodowo.",
+    "cecha_wyrozniajaca": "Niezwykle żywa barwa kwiatów; roślina odporna na upały, długo kwitnąca.",
+    "zrodlo": [3,4]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Karotenoidy (luteina, beta-karoten)",
+      "dzialanie": "antyoksydacyjne, wspierają wzrok, barwnikowe",
+      "sklad": "luteina, beta-karoten, zeaksantyna",
+      "zrodlo": [5]
+    },
+    {
+      "nazwa": "Flawonoidy",
+      "dzialanie": "przeciwzapalne, antyoksydacyjne, wspierające naczynia krwionośne",
+      "sklad": "kwercetyna, rutyna",
+      "zrodlo": [6]
+    },
+    {
+      "nazwa": "Olejek eteryczny",
+      "dzialanie": "aromatyzujący, łagodnie uspokajający",
+      "sklad": "limonen, geraniol, cytral",
+      "zrodlo": [7]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Kosmos siarkowy jest jednym z najpopularniejszych kwiatów jednorocznych w Ameryce Środkowej. W Meksyku i Peru kwiaty używane były tradycyjnie do barwienia potraw, wyrobu naparów, a nawet deserów. Jadalne są młode liście i płatki, choć najczęściej służą do dekoracji. Roślina symbolizuje radość i długie życie – dzięki bardzo długiemu okresowi kwitnienia.",
+    "cechy": [
+      "Odporność na suszę i upał",
+      "Długie, bardzo obfite kwitnienie – nawet do pierwszych przymrozków",
+      "Jadalne i dekoracyjne płatki o intensywnej barwie",
+      "Zielone części odstraszają część szkodników w warzywniku"
+    ],
+    "zastosowanie_historyczne": [
+      "Barwnik do potraw (zupy, ryż, słodycze, syropy)",
+      "Napary uspokajające i rozkurczowe w fitoterapii meksykańskiej",
+      "Dekoracje dań i napojów na festiwalach",
+      "Okłady z liści na ukąszenia owadów"
+    ],
+    "ciekawostki": [
+      "W Peru i Meksyku kosmos nazywany jest „Flor del Sol” (Kwiat Słońca) – symbol szczęścia i optymizmu.",
+      "W niektórych regionach płatkami kosmosu barwi się napoje, lemoniady i alkohole domowe.",
+      "W Ekwadorze dodawano kwiaty do ryżu, by nadać mu słoneczny kolor.",
+      "Kwiaty kosmosu siarkowego są zjadane przez motyle, stąd ogrody z kosmosem to motylarnie."
+    ],
+    "zrodlo": [8,9]
+  },
+  "ciekawostki_kulturowe": [
+    "W Meksyku płatkami kosmosu posypuje się tradycyjne świąteczne ciasta i napoje.",
+    "W Ameryce Południowej napar z płatków traktowany jest jako łagodny środek na bóle brzucha.",
+    "W kulturach andyjskich kwiaty kosmosu były symbolem słońca i optymizmu.",
+    "W nowoczesnej kuchni fusion kwiaty kosmosu pojawiają się jako barwny składnik sorbetów i musów."
+  ],
+  "permakultura": {
+    "opis": "Kosmos siarkowy to wyjątkowo cenna roślina dla permakultury: wzbogaca bioróżnorodność, odstrasza mszyce, wabi pszczoły i motyle, jest naturalnym barwnikiem i źródłem jadalnych kwiatów. Odporny na suszę, doskonały na rabaty, łąki kwietne i obwódki warzywników.",
+    "funkcje": [
+      "Roślina barwierska – naturalny barwnik do żywności i tkanin",
+      "Ochrona upraw – odstrasza mszyce i część nicieni",
+      "Roślina wabiąca pożyteczne owady (pszczoły, trzmiele, motyle, bzygi)",
+      "Nadaje się na naturalne żywopłoty i niskie osłony"
+    ],
+    "gildie": [
+      "Doskonały do uprawy z nagietkiem, aksamitką, ogórecznikiem i bazylią",
+      "W sąsiedztwie papryki, fasoli, pomidora, cebuli zmniejsza presję szkodników"
+    ]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Kwiaty i liście spożywać w rozsądnych ilościach. U osób wrażliwych może wywoływać lekkie reakcje skórne lub alergiczne.",
+      "rozwiazanie": "Nie podawać małym dzieciom i osobom z alergią na astrowate. Przed użyciem kwiatów w kuchni upewnić się, że nie były pryskane!",
+      "zrodlo": [10]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar_rozkurczowy": {
+      "skladniki": [
+        "1 łyżeczka płatków kosmosu siarkowego",
+        "1/2 łyżeczki suszonego nagietka",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Płatki i nagietek zalać wrzątkiem, parzyć 10 minut, przecedzić.",
+      "cechy": [
+        "Jasnopomarańczowy napar"
+      ],
+      "wlasciwosci": [
+        "łagodzi skurcze żołądka, działa lekko uspokajająco"
+      ],
+      "zastosowanie": "Do picia przy lekkich dolegliwościach trawiennych.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": [11]
+    },
+    "oklad_na_ukąszenia": {
+      "skladniki": [
+        "Świeże liście kosmosu siarkowego",
+        "Gaza"
+      ],
+      "sposob_przygotowania": "Liście rozgnieść, nałożyć na miejsce ukąszenia, zabezpieczyć gazą.",
+      "cechy": [
+        "Łagodzący, chłodny kompres"
+      ],
+      "wlasciwosci": [
+        "zmniejsza świąd i podrażnienia skóry"
+      ],
+      "zastosowanie": "Ukąszenia owadów, drobne stany zapalne skóry.",
+      "zrodlo": [12]
+    }
+  },
+  "przepisy_kulinarne": {
+    "sałatka_z_płatkami_kosmosu_siarkowego": {
+      "skladniki": [
+        "Mix sałat (rukola, roszponka, sałata lodowa)",
+        "Płatki kosmosu siarkowego (żółte i pomarańczowe)",
+        "Plasterki pomarańczy",
+        "Orzechy włoskie",
+        "Dressing miodowo-cytrynowy"
+      ],
+      "sposob_przygotowania": "Sałaty wymieszać z owocami i orzechami, płatki kosmosu ułożyć na wierzchu. Polać dressingiem.",
+      "cechy": [
+        "Słoneczna, aromatyczna sałatka"
+      ],
+      "wlasciwosci": [
+        "witaminowa, antyoksydacyjna"
+      ],
+      "zastosowanie": "Na przystawkę lub lekki lunch.",
+      "zrodlo": [13]
+    },
+    "syrop_z_kwiatów_kosmosu": {
+      "skladniki": [
+        "2 szklanki świeżych płatków kosmosu siarkowego",
+        "1 l wody",
+        "600 g cukru",
+        "Sok z 1 cytryny"
+      ],
+      "sposob_przygotowania": "Płatki zalać wrzątkiem, odstawić na noc, przecedzić. Dodać cukier i cytrynę, gotować do zgęstnienia.",
+      "cechy": [
+        "Intensywnie pomarańczowy syrop"
+      ],
+      "wlasciwosci": [
+        "barwnikowy, aromatyzujący"
+      ],
+      "zastosowanie": "Do lemoniad, deserów, polewania ciast.",
+      "zrodlo": [14]
+    },
+    "maslo_kwietne_z_kosmosem": {
+      "skladniki": [
+        "100 g miękkiego masła",
+        "1 łyżka płatków kosmosu siarkowego",
+        "Pół łyżeczki soku z pomarańczy",
+        "Sól"
+      ],
+      "sposob_przygotowania": "Masło wymieszać z płatkami, sokiem i solą. Schłodzić.",
+      "cechy": [
+        "Pomarańczowe, aromatyczne masło"
+      ],
+      "wlasciwosci": [
+        "dekoracyjne, słoneczne"
+      ],
+      "zastosowanie": "Do pieczywa, warzyw, mięs z grilla.",
+      "zrodlo": [15]
+    },
+    "chleb_z_płatkami_kosmosu": {
+      "skladniki": [
+        "300 g mąki pszennej",
+        "50 g płatków kosmosu siarkowego",
+        "Drożdże",
+        "Sól, woda"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki wymieszać, zagnieść ciasto, upiec klasycznie.",
+      "cechy": [
+        "Pieczywo z żółtymi drobinkami kwiatów"
+      ],
+      "wlasciwosci": [
+        "błonnikowe, lekkostrawne"
+      ],
+      "zastosowanie": "Na śniadanie, do sałatek.",
+      "zrodlo": [16]
+    },
+    "pesto_z_liści_kosmosu_i słonecznika": {
+      "skladniki": [
+        "Garść młodych liści kosmosu siarkowego",
+        "Pestki słonecznika",
+        "Oliwa",
+        "Czosnek",
+        "Sól, sok z cytryny"
+      ],
+      "sposob_przygotowania": "Wszystko zmiksować na pastę, doprawić do smaku.",
+      "cechy": [
+        "Orzeźwiające, cytrusowe pesto"
+      ],
+      "wlasciwosci": [
+        "witaminowe, energetyczne"
+      ],
+      "zastosowanie": "Do makaronów, kanapek, jako dip.",
+      "zrodlo": [17]
+    },
+    "kwiatowa lemoniada": {
+      "skladniki": [
+        "1 litr wody",
+        "Sok z 2 cytryn",
+        "Garść płatków kosmosu siarkowego",
+        "Miód do smaku"
+      ],
+      "sposob_przygotowania": "Wszystko wymieszać, odstawić na 1–2 godziny w chłodzie. Przecedzić, podawać schłodzone.",
+      "cechy": [
+        "Cytrusowa lemoniada o słonecznym kolorze"
+      ],
+      "wlasciwosci": [
+        "orzeźwiająca, dekoracyjna"
+      ],
+      "zastosowanie": "Na upalne dni, do posiłków, dla dzieci.",
+      "zrodlo": [18]
+    },
+    "placki z płatkami kosmosu": {
+      "skladniki": [
+        "Szklanka ciasta naleśnikowego",
+        "Płatki kosmosu siarkowego",
+        "Olej do smażenia"
+      ],
+      "sposob_przygotowania": "Płatki wmieszać w ciasto, smażyć małe placki na złoto.",
+      "cechy": [
+        "Pomarańczowe placki z kwiatami"
+      ],
+      "wlasciwosci": [
+        "oryginalne, lekko orzechowe"
+      ],
+      "zastosowanie": "Na śniadanie, przekąskę.",
+      "zrodlo": [19]
+    },
+    "tort_dekorowany_kwitami_kosmosu": {
+      "skladniki": [
+        "Ulubiony biszkopt",
+        "Krem waniliowy lub mascarpone",
+        "Płatki i kwiaty kosmosu siarkowego",
+        "Owoce sezonowe (np. morele, brzoskwinie)"
+      ],
+      "sposob_przygotowania": "Biszkopt przełożyć kremem i owocami, udekorować kwiatami kosmosu.",
+      "cechy": [
+        "Słoneczny, letni tort"
+      ],
+      "wlasciwosci": [
+        "uroczysty, bardzo dekoracyjny"
+      ],
+      "zastosowanie": "Na przyjęcia, śluby, letnie urodziny.",
+      "zrodlo": [20]
+    },
+    "kostki_lodu_z_kosmosem": {
+      "skladniki": [
+        "Płatki kosmosu siarkowego",
+        "Woda"
+      ],
+      "sposob_przygotowania": "Płatki ułożyć w foremkach, zalać wodą, zamrozić.",
+      "cechy": [
+        "Lód z zatopionymi kwiatami"
+      ],
+      "wlasciwosci": [
+        "dekoracyjne, orzeźwiające"
+      ],
+      "zastosowanie": "Do drinków, lemoniad, napojów imprezowych.",
+      "zrodlo": [21]
+    },
+    "zielony omlet z liśćmi kosmosu siarkowego": {
+      "skladniki": [
+        "2 jajka",
+        "Garść młodych liści kosmosu",
+        "Sól, pieprz, masło"
+      ],
+      "sposob_przygotowania": "Liście poddusić na maśle, zalać jajkami, smażyć do ścięcia.",
+      "cechy": [
+        "Omlet o nutce cytrusowej"
+      ],
+      "wlasciwosci": [
+        "lekki, pożywny"
+      ],
+      "zastosowanie": "Na śniadanie lub lunch.",
+      "zrodlo": [22]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Herbatka wzmacniająca (kosmos siarkowy, nagietek, rumianek, mięta)",
+        "skladniki": [
+          "Płatki kosmosu siarkowego",
+          "Płatki nagietka",
+          "Kwiaty rumianku",
+          "Liście mięty",
+          "250 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem, parzyć 10 minut, przecedzić.",
+        "cechy": [
+          "Barwna, aromatyczna herbatka"
+        ],
+        "wlasciwosci": [
+          "wzmacniająca, lekko uspokajająca"
+        ],
+        "zastosowanie": "Na odporność i relaks.",
+        "zrodlo": [23]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Kolorowa sałatka z kosmosem, ogórecznikiem i fiołkiem",
+        "skladniki": [
+          "Mix sałat",
+          "Płatki kosmosu siarkowego",
+          "Kwiaty ogórecznika",
+          "Fiołki",
+          "Oliwa z oliwek, sok z limonki"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki wymieszać, kwiaty dodać tuż przed podaniem.",
+        "cechy": [
+          "Sałatka z jadalnymi kwiatami"
+        ],
+        "wlasciwosci": [
+          "dekoracyjna, bogata w barwniki"
+        ],
+        "zastosowanie": "Na przyjęcia, do grillowanych potraw.",
+        "zrodlo": [24]
+      },
+      {
+        "nazwa": "Chłodnik kwiatowy z kosmosem i ziołami",
+        "skladniki": [
+          "Maślanka",
+          "Ogórek",
+          "Drobno posiekane liście kosmosu siarkowego",
+          "Płatki kosmosu siarkowego",
+          "Szczypiorek, koperek"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki wymieszać, schłodzić, podawać udekorowane płatkami.",
+        "cechy": [
+          "Orzeźwiający, kwiatowy chłodnik"
+        ],
+        "wlasciwosci": [
+          "chłodzący, lekkostrawny"
+        ],
+        "zastosowanie": "Na upalne dni, do grilla.",
+        "zrodlo": [25]
+      }
+    ]
+  },
+  "inne_zastosowania": {
+    "kosmetyki": {
+      "opis": "Napar z płatków stosuje się do płukania włosów blond (pogłębia kolor), tonik do twarzy łagodzący podrażnienia, kąpiele kwiatowe.",
+      "zastosowanie": "Toniki, płukanki, kąpiele relaksacyjne.",
+      "zrodlo": [26]
+    },
+    "barwniki": {
+      "opis": "Płatki są naturalnym barwnikiem do żywności, ciast, napojów, tkanin i mydeł (intensywny żółty/pomarańczowy).",
+      "zrodlo": [27]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "Niewielkie ilości młodych liści mogą być dodatkiem do zielonek dla kur, królików i świnek morskich.",
+      "zrodlo": [28]
+    }
+  },
+  "bibliografia": {
+    "1": "https://www.atlas-roslin.pl/gatunki/Cosmos_sulphureus.htm",
+    "2": "https://pl.wikipedia.org/wiki/Kosmos_siarkowy",
+    "3": "https://www.gardenia.net.pl/rosliny/kosmos-siarkowy",
+    "4": "https://kwiaty-ogrodowe.pl/kosmos-siarkowy-uprawa",
+    "5": "https://pubmed.ncbi.nlm.nih.gov/31366123/",
+    "6": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7658988/",
+    "7": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4717441/",
+    "8": "https://www.gardeningknowhow.com/ornamental/flowers/cosmos/cosmos-plant-history.htm",
+    "9": "https://www.gardenersworld.com/plants/cosmos-sulphureus/",
+    "10": "https://pfaf.org/user/plant.aspx?LatinName=Cosmos+sulphureus#edibility",
+    "11": "https://www.henriettes-herb.com/eclectic/ellingwood/cosmos.html",
+    "12": "https://www.rhs.org.uk/plants/4429/cosmos-sulphureus/details",
+    "13": "https://zielnikpolski.pl/salatka-kosmos-siarkowy/",
+    "14": "https://zielnikpolski.pl/syrop-kosmos-siarkowy/",
+    "15": "https://www.bbc.co.uk/food/recipes/edible_flower_butter_77771",
+    "16": "https://zielnikpolski.pl/chleb-kosmos-siarkowy/",
+    "17": "https://mojeogrody.pl/przepisy/pesto-z-roslin-ozdobnych",
+    "18": "https://www.growforagecookferment.com/edible-flower-lemonade/",
+    "19": "https://www.bbcgoodfood.com/recipes/flower-pancakes",
+    "20": "https://www.thekitchn.com/edible-flowers-cosmos-22902218",
+    "21": "https://www.bbcgoodfood.com/recipes/flower-ice-cubes",
+    "22": "https://www.theguardian.com/lifeandstyle/2015/jul/11/egg-omelette-edible-flowers-recipe",
+    "23": "https://zielnikpolski.pl/mieszanka-herbatka-kosmos-siarkowy/",
+    "24": "https://zielnikpolski.pl/kolorowa-salatka-jadalne-kwiaty/",
+    "25": "https://zielnikpolski.pl/chlodnik-kwiatowy-kosmos/",
+    "26": "https://zielnikpolski.pl/kosmetyki-kosmos-siarkowy/",
+    "27": "https://zielnikpolski.pl/barwnik-kosmos-siarkowy/",
+    "28": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
+  }
+}

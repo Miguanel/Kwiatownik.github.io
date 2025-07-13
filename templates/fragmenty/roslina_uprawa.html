@@ -1,0 +1,17 @@
+
+<div>
+    <h4>Wymagania uprawowe</h4>
+    <ul>
+        <li><b>Gleba:</b> {{ data.uprawa.gleba or '-' }}</li>
+        <li><b>Stanowisko:</b> {{ data.uprawa.stanowisko or '-' }}</li>
+        <li><b>Wysiew:</b> {{ data.uprawa.wysiew or '-' }}</li>
+        <li><b>Zbiór:</b> {{ data.uprawa.zbior or '-' }}</li>
+    </ul>
+    <h4>Występowanie</h4>
+    <ul>
+        <li><b>Obszar ogólny:</b> {{ data.wystepowanie.obszar }}</li>
+        <li><b>W Polsce:</b> {{ data.wystepowanie.w_polsce }}</li>
+    </ul>
+    <sup>[{{ data.wystepowanie.zrodlo|join(', ') }}]</sup>
+</div>
+

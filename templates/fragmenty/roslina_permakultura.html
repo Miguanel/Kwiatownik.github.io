@@ -1,0 +1,17 @@
+
+{% set p = data.permakultura %}
+<div>
+    <p>{{ p.opis }}</p>
+    <h4>Funkcje rośliny w ogrodzie:</h4>
+    <ul>
+        {% for f in p.funkcje %}
+            <li>{{ f }}</li>
+        {% endfor %}
+    </ul>
+    <h4>Gildie uprawowe:</h4>
+    <ul>
+        {% for g in p.gildie %}
+            <li>{{ g }}</li>
+        {% endfor %}
+    </ul>
+</div>

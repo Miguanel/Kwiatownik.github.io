@@ -1,0 +1,21 @@
+
+{% set przepisy = data.przepisy_medyczne %}
+<div>
+    <ul>
+    {% for nazwa, przepis in przepisy.items() %}
+        <li style="margin-bottom:1.3em;">
+            <b>{{ nazwa.replace('_', ' ').capitalize() }}</b>
+            <ul>
+                <li><b>Składniki:</b> {{ przepis.skladniki|join(', ') }}</li>
+                <li><b>Sposób przygotowania:</b> {{ przepis.sposob_przygotowania }}</li>
+                {% if przepis.cechy %}<li><b>Cechy:</b> {{ przepis.cechy|join(', ') }}</li>{% endif %}
+                {% if przepis.wlasciwosci %}<li><b>Właściwości:</b> {{ przepis.wlasciwosci|join(', ') }}</li>{% endif %}
+                <li><b>Zastosowanie:</b> {{ przepis.zastosowanie }}</li>
+                {% if przepis.dawkowanie %}<li><b>Dawkowanie:</b> {{ przepis.dawkowanie }}</li>{% endif %}
+                <li><b>Źródło:</b> <sup>[{{ przepis.zrodlo|join(', ') }}]</sup></li>
+            </ul>
+        </li>
+    {% endfor %}
+    </ul>
+</div>
+

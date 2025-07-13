@@ -8,6 +8,7 @@ app = Flask(__name__)
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 CATEGORIES = ["drzewa", "krzewy", "ziola", "bulwy", "cebule", "egzotyczne"]
 
+
 def highlight(text, q):
     # Bezpieczne podświetlenie
     return Markup(re.sub(
@@ -16,6 +17,7 @@ def highlight(text, q):
         text,
         flags=re.IGNORECASE)
     )
+
 
 def build_tree():
     tree = {}
@@ -112,8 +114,6 @@ def lista(category):
         wyniki.sort(key=lambda x: x[1].get("gatunek", ""))
     return render_template("lista.html", category=category, wyniki=wyniki, q=q, dzialanie=dzialanie,
                            tylko_trujace=tylko_trujace, sort=sort)
-
-
 
 
 def search_in_plant(plant, query):
@@ -220,6 +220,7 @@ def search():
             results.append(plant)
     return render_template("search.html", results=results, q=q)
 
+
 @app.route("/ulubione")
 def ulubione():
     # Sama strona; lista w localStorage, pobiera dane przez JS
@@ -259,5 +260,34 @@ def bibliografia(category, plant):
     return render_template("bibliografia.html", bibliografia=data["bibliografia"])
 
 
+@app.route("/<category>/<plant>/fragment/<grupa>")
+def fragment(category, plant, grupa):
+    data = load_plant(category, plant)
+    return render_template(
+        f"fragmenty/roslina_{grupa}.html",
+        data=data,
+        category=category,
+        slug=plant
+    )
+
+@app.route("/<category>/<plant>/fragment/przepisy_kulinarne_all")
+def fragment_przepisy_kulinarne_all(category, plant):
+    data = load_plant(category, plant)
+    przepisy_solo = data.get("przepisy_kulinarne", {})  # dict: nazwa: obiekt
+    mieszanki = data.get("przepisy_z_innymi_roslinami", {}).get("kulinarne", [])  # lista dictów
+    return render_template("fragmenty/roslina_przepisy_kulinarne_all.html",
+                           przepisy=przepisy_solo,
+                           mieszanki=mieszanki,
+                           data=data)
+
+@app.route("/<category>/<plant>/fragment/przepisy_medyczne_all")
+def fragment_przepisy_medyczne_all(category, plant):
+    data = load_plant(category, plant)
+    przepisy_solo = data.get("przepisy_medyczne", {})
+    mieszanki = data.get("przepisy_z_innymi_roslinami", {}).get("medyczne", [])
+    return render_template("fragmenty/roslina_przepisy_medyczne_all.html",
+                           przepisy=przepisy_solo,
+                           mieszanki=mieszanki,
+                           data=data)
 if __name__ == "__main__":
     app.run(debug=True)

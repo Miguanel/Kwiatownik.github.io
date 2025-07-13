@@ -1,0 +1,159 @@
+<style>
+.przepis-card {
+    background: #f9fbe7;
+    border-radius: 14px;
+    box-shadow: 0 2px 7px #d7e8bb77;
+    padding: 0;
+    margin-bottom: 2em;
+    margin-top: 1.2em;
+    max-width: 600px;
+    transition: box-shadow 0.15s;
+    overflow: hidden;
+}
+.przepis-card:hover {
+    box-shadow: 0 4px 16px #d0eaa366;
+}
+.przepis-title {
+    font-size: 1.13em;
+    font-weight: bold;
+    color: #375626;
+    letter-spacing: 0.02em;
+    padding: 1em 1.5em 1em 1.5em;
+    cursor: pointer;
+    border-bottom: 1px solid #dde9bd;
+    transition: background 0.2s;
+    background: #f0f7d7;
+    position: relative;
+    user-select: none;
+}
+.przepis-title::after {
+    content: "▼";
+    float: right;
+    font-size: 0.92em;
+    color: #b0b89a;
+    margin-top: 2px;
+    transition: transform 0.2s;
+}
+.przepis-card.collapsed .przepis-title::after {
+    transform: rotate(-90deg);
+}
+.przepis-content {
+    padding: 1.1em 1.5em 1em 1.5em;
+    animation: showPrzepis 0.25s;
+}
+@keyframes showPrzepis {
+    from { opacity: 0; transform: translateY(-8px);}
+    to { opacity: 1; transform: none;}
+}
+.przepis-card.collapsed .przepis-content {
+    display: none;
+}
+.przepis-divider {
+    border: none;
+    border-top: 1px solid #dde9bd;
+    margin: 0.7em 0 0.7em 0;
+}
+.przepis-section-label {
+    color: #29381c;
+    font-weight: 600;
+    font-size: 0.95em;
+    margin-bottom: 0.28em;
+    letter-spacing: 0.02em;
+    opacity: 0.82;
+    display: block;
+}
+.przepis-section-label + div {
+    margin-bottom: 0.9em;
+    margin-top: 0;
+}
+.przepis-zrodlo {
+    font-size: 0.95em;
+    color: #829757;
+    margin-top: 0.45em;
+    display: inline-block;
+}
+@media (max-width: 700px) {
+    .przepis-card { max-width: 98vw;}
+    .przepis-title, .przepis-content { padding-left: 0.7em; padding-right: 0.7em;}
+}
+</style>
+
+<h3 style="margin-top:0">Przepisy kulinarne – pojedyncze</h3>
+{% if przepisy %}
+    {% for nazwa, przepis in przepisy.items() %}
+        <div class="przepis-card collapsed">
+            <div class="przepis-title">{{ nazwa.replace("_", " ").capitalize() }}</div>
+            <div class="przepis-content">
+                <span class="przepis-section-label">Składniki:</span>
+                <div>{{ przepis.skladniki|join(", ") }}</div>
+                <hr class="przepis-divider">
+                <span class="przepis-section-label">Sposób przygotowania:</span>
+                <div>{{ przepis.sposob_przygotowania }}</div>
+                {% if przepis.cechy %}
+                    <hr class="przepis-divider">
+                    <span class="przepis-section-label">Cechy:</span>
+                    <div>{{ przepis.cechy|join(", ") }}</div>
+                {% endif %}
+                {% if przepis.wlasciwosci %}
+                    <hr class="przepis-divider">
+                    <span class="przepis-section-label">Właściwości:</span>
+                    <div>{{ przepis.wlasciwosci|join(", ") }}</div>
+                {% endif %}
+                {% if przepis.zastosowanie %}
+                    <hr class="przepis-divider">
+                    <span class="przepis-section-label">Zastosowanie:</span>
+                    <div>{{ przepis.zastosowanie }}</div>
+                {% endif %}
+                {% if przepis.zrodlo %}
+                    <div class="przepis-zrodlo">
+                        Źródło: [{{ przepis.zrodlo|join(", ") }}]
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+{% else %}
+    <p>Brak pojedynczych przepisów kulinarnych.</p>
+{% endif %}
+
+<h3>Przepisy kulinarne – mieszanki z innymi roślinami</h3>
+{% if mieszanki %}
+    {% for przepis in mieszanki %}
+        <div class="przepis-card collapsed">
+            <div class="przepis-title">{{ przepis.nazwa }}</div>
+            <div class="przepis-content">
+                <span class="przepis-section-label">Składniki:</span>
+                <div>{{ przepis.skladniki|join(", ") }}</div>
+                <hr class="przepis-divider">
+                <span class="przepis-section-label">Sposób przygotowania:</span>
+                <div>{{ przepis.sposob_przygotowania }}</div>
+                {% if przepis.cechy %}
+                    <hr class="przepis-divider">
+                    <span class="przepis-section-label">Cechy:</span>
+                    <div>{{ przepis.cechy|join(", ") }}</div>
+                {% endif %}
+                {% if przepis.wlasciwosci %}
+                    <hr class="przepis-divider">
+                    <span class="przepis-section-label">Właściwości:</span>
+                    <div>{{ przepis.wlasciwosci|join(", ") }}</div>
+                {% endif %}
+                {% if przepis.zastosowanie %}
+                    <hr class="przepis-divider">
+                    <span class="przepis-section-label">Zastosowanie:</span>
+                    <div>{{ przepis.zastosowanie }}</div>
+                {% endif %}
+                {% if przepis.zrodlo %}
+                    <div class="przepis-zrodlo">
+                        Źródło: [{{ przepis.zrodlo|join(", ") }}]
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+{% else %}
+    <p>Brak przepisów mieszanych kulinarnych.</p>
+{% endif %}
+
+<script>
+if (typeof activatePrzepisyAccordion === "function") activatePrzepisyAccordion();
+</script>

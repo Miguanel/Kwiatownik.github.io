@@ -1,0 +1,10 @@
+
+<ul>
+    {% for u in data.uwagi_i_ostrzezenia %}
+        <li>
+            <b>Uwaga:</b> {{ u.uwaga }}
+            {% if u.rozwiazanie %}<br><b>Rozwiązanie:</b> {{ u.rozwiazanie }}{% endif %}
+            <sup>[{{ u.zrodlo|join(', ') }}]</sup>
+        </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,23 @@
+
+{% set ch = data.cechy_i_historia %}
+<div>
+    <p>{{ ch.opis }} <sup>[{{ ch.zrodlo|join(', ') }}]</sup></p>
+    <h4>Cechy szczególne</h4>
+    <ul>
+        {% for cecha in ch.cechy %}
+            <li>{{ cecha }}</li>
+        {% endfor %}
+    </ul>
+    <h4>Zastosowanie historyczne</h4>
+    <ul>
+        {% for z in ch.zastosowanie_historyczne %}
+            <li>{{ z }}</li>
+        {% endfor %}
+    </ul>
+    <h4>Ciekawostki</h4>
+    <ul>
+        {% for c in ch.ciekawostki %}
+            <li>{{ c }}</li>
+        {% endfor %}
+    </ul>
+</div>

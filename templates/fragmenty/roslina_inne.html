@@ -1,0 +1,26 @@
+
+{% set inne = data.inne_zastosowania %}
+<div>
+    {% if inne.kosmetyki %}
+        <h4>Kosmetyki</h4>
+        <p>{{ inne.kosmetyki.opis }}</p>
+        <p><b>Zastosowanie:</b> {{ inne.kosmetyki.zastosowanie }}</p>
+        <sup>[{{ inne.kosmetyki.zrodlo|join(', ') }}]</sup>
+    {% endif %}
+    {% if inne.barwniki %}
+        <h4>Barwniki</h4>
+        <p>{{ inne.barwniki.opis }}</p>
+        <sup>[{{ inne.barwniki.zrodlo|join(', ') }}]</sup>
+    {% endif %}
+    {% if inne.alkohol %}
+        <h4>Alkohol</h4>
+        <p>{{ inne.alkohol.opis }}</p>
+        <sup>[{{ inne.alkohol.zrodlo|join(', ') }}]</sup>
+    {% endif %}
+    {% if inne.pasza_dla_zwierzat %}
+        <h4>Pasza dla zwierząt</h4>
+        <p>{{ inne.pasza_dla_zwierzat.opis }}</p>
+        <sup>[{{ inne.pasza_dla_zwierzat.zrodlo|join(', ') }}]</sup>
+    {% endif %}
+</div>
+

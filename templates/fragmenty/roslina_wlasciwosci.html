@@ -1,0 +1,16 @@
+
+<ul>
+    {% for sklad in data.wlasciwosci_i_skladniki %}
+    <li>
+        <b>{{ sklad.nazwa }}</b>: {{ sklad.dzialanie }}
+        {% if sklad.sklad %}
+        <br><small><i>Skład:</i> {{ sklad.sklad }}</small>
+        {% endif %}
+        {% if sklad.ciekawostka %}
+        <br><i>Ciekawostka:</i> {{ sklad.ciekawostka }}
+        {% endif %}
+        <sup>[{{ sklad.zrodlo|join(', ') }}]</sup>
+    </li>
+    {% endfor %}
+</ul>
+

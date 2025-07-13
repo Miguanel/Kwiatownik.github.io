@@ -1,421 +1,199 @@
 {% extends "base.html" %}
-{% block title %}{{ data.gatunek }}{% endblock %}
+{% block title %}{{ data.gatunek }} – Kwiatownik{% endblock %}
 {% block content %}
 
+<div class="plant-header">
+    <h1>{{ data.gatunek }}</h1>
+    <div class="plant-hierarchy">
+        {% if data.nazwa_zbioru %}
+        <span>
+                {% for n in data.nazwa_zbioru %}
+                    {{ n }}{% if not loop.last %} → {% endif %}
+                {% endfor %}
+            </span>
+        {% endif %}
+        {% if data.nazwa_lacinska %}
+        <span class="latin">({{ data.nazwa_lacinska }})</span>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Karuzela zdjęć -->
 {% if data.zdjecia and data.zdjecia|length > 0 %}
-<div id="plant-photo-wrap">
-  {% set first = data.zdjecia[0] %}
-  {% if first.startswith('http') %}
-    <img id="plant-main-thumb" src="{{ first }}" alt="Zdjęcie {{ data.gatunek }}"
-      class="plant-thumb"
-      style="cursor:pointer; max-width:80vw; max-height:180px; border-radius:10px; box-shadow:0 2px 8px #0002;">
-  {% else %}
-    <img id="plant-main-thumb" src="{{ url_for('static', filename='img/' ~ first) }}" alt="Zdjęcie {{ data.gatunek }}"
-      class="plant-thumb"
-      style="cursor:pointer; max-width:80vw; max-height:180px; border-radius:10px; box-shadow:0 2px 8px #0002;">
-  {% endif %}
-  <div id="plant-photo-list" style="display:none; margin-top:0.7em; gap:1em; overflow-x:auto; align-items:center;">
-    {% for img in data.zdjecia %}
-      {% if img.startswith('http') %}
-        <img src="{{ img }}" alt="Zdjęcie {{ data.gatunek }}"
-          class="plant-thumb plant-gallery-thumb"
-          style="cursor:pointer; max-width:72px; max-height:72px; margin-right:0.7em; border-radius:7px; box-shadow:0 1px 5px #0001;">
-      {% else %}
-        <img src="{{ url_for('static', filename='img/' ~ img) }}" alt="Zdjęcie {{ data.gatunek }}"
-          class="plant-thumb plant-gallery-thumb"
-          style="cursor:pointer; max-width:72px; max-height:72px; margin-right:0.7em; border-radius:7px; box-shadow:0 1px 5px #0001;">
-      {% endif %}
-    {% endfor %}
-    <button id="plant-photo-hide-btn" type="button" style="margin-left:auto; padding:0.4em 1.3em; background:var(--main2); color:#fff; border:none; border-radius:13px; font-size:1em; cursor:pointer;">zwiń</button>
-  </div>
-  <div id="photo-modal" style="display:none; position:fixed; left:0; top:0; width:100vw; height:100vh; background:#232822e8; z-index:1100; align-items:center; justify-content:center;">
-    <img id="modal-img" src="" alt="powiększone zdjęcie" style="max-width:96vw; max-height:82vh; border-radius:13px; box-shadow:0 2px 18px #0007;">
-  </div>
-</div>
-<script>
-document.getElementById('plant-main-thumb').onclick = function() {
-  let list = document.getElementById('plant-photo-list');
-  if (list.style.display === 'none' || list.style.display === '') {
-    list.style.display = 'flex';
-    this.style.opacity = '0.55';
-  }
-};
-
-document.getElementById('plant-photo-hide-btn').onclick = function() {
-  let list = document.getElementById('plant-photo-list');
-  let main = document.getElementById('plant-main-thumb');
-  list.style.display = 'none';
-  main.style.opacity = '1';
-};
-
-document.querySelectorAll('.plant-gallery-thumb').forEach(function(img) {
-  img.onclick = function() {
-    let modal = document.getElementById('photo-modal');
-    let modalImg = document.getElementById('modal-img');
-    modalImg.src = this.src;
-    modal.style.display = 'flex';
-    document.body.style.overflow = 'hidden';
-  };
-});
-
-document.getElementById('photo-modal').onclick = function() {
-  this.style.display = 'none';
-  document.body.style.overflow = '';
-};
-</script>
-{% endif %}
-
-
-
-<h2 id="top">{{ data.gatunek }} <small>({{ data.nazwa_lacinska }})</small></h2>
-<p>
-    <span class="fav-btn" data-plant="{{ slug }}" onclick="toggleFav('{{ slug }}')">💚</span>
-    <span class="garden-btn" data-plant="{{ slug }}" onclick="toggleGarden('{{ slug }}')">🌱</span>
-    <span class="compare-btn" onclick="addCompare('{{ slug }}','{{ category }}')">🔁</span>
-</p>
-<p><b>Rodzina/systematyka:</b> {{ data.nazwa_zbioru | join(' → ') }}</p>
-
-{% set trujaca = false %}
-{% for uwaga in data.uwagi_i_ostrzezenia %}
-    {% if 'trujący' in uwaga.uwaga|lower %}
-        {% set trujaca = true %}
-    {% endif %}
-{% endfor %}
-{% if trujaca %}
-<div style="background:#ffe0e0; color:#900; border:2px solid #900; padding:8px; margin-bottom:10px;">
-    <b>☠️ Uwaga! Roślina może być trująca lub niebezpieczna przy spożyciu!</b>
-</div>
-{% endif %}
-
-<!-- UPRAWA -->
-<div class="toggle-group" id="uprawa">
-  <div class="toggle-header" onclick="toggleSection(this)">
-    <span class="toggle-emoji">🌱</span>
-    Uprawa
-    <button type="button" class="toggle-btn">rozwiń</button>
-  </div>
-  <div class="toggle-content" style="display:none;">
-    <ul>
-      <li><b>Gleba:</b> {{ data.uprawa.gleba }}</li>
-      <li><b>Stanowisko:</b> {{ data.uprawa.stanowisko }}</li>
-      <li><b>Wysiew:</b> {{ data.uprawa.wysiew }}</li>
-      <li><b>Zbiór:</b> {{ data.uprawa.zbior }}</li>
-    </ul>
-  </div>
-</div>
-
-<!-- WYSTĘPOWANIE -->
-<div class="toggle-group" id="wystepowanie">
-  <div class="toggle-header" onclick="toggleSection(this)">
-    <span class="toggle-emoji">🌍</span>
-    Występowanie
-    <button type="button" class="toggle-btn">rozwiń</button>
-  </div>
-  <div class="toggle-content" style="display:none;">
-    <ul>
-      <li>
-        <b>Obszar:</b> {{ data.wystepowanie.obszar }}
-        {% if data.wystepowanie.zrodlo %}
-          {% for nr in data.wystepowanie.zrodlo %}
-            <a href="#bib{{ nr }}">[{{ nr }}]</a>
-          {% endfor %}
-        {% endif %}
-      </li>
-      <li>
-        <b>W Polsce:</b> {{ data.wystepowanie.w_polsce }}
-        {% if data.wystepowanie.zrodlo %}
-          {% for nr in data.wystepowanie.zrodlo %}
-            <a href="#bib{{ nr }}">[{{ nr }}]</a>
-          {% endfor %}
-        {% endif %}
-      </li>
-    </ul>
-  </div>
-</div>
-
-<!-- OPIS BOTANICZNY -->
-<div class="toggle-group" id="opis">
-  <div class="toggle-header" onclick="toggleSection(this)">
-    <span class="toggle-emoji">🪴</span>
-    Opis botaniczny
-    <button type="button" class="toggle-btn">rozwiń</button>
-  </div>
-  <div class="toggle-content" style="display:none;">
-    <ul>
-      <li><b>Pokrój:</b> {{ data.opis_botaniczny.pokroj }}</li>
-      <li><b>Łodyga/Pień:</b> {{ data.opis_botaniczny.lodyga }}</li>
-      <li><b>Liście:</b> {{ data.opis_botaniczny.liscie }}</li>
-      <li><b>Kwiaty:</b> {{ data.opis_botaniczny.kwiaty }}</li>
-      <li><b>Zapach:</b> {{ data.opis_botaniczny.zapach }}</li>
-      <li><b>Cechy wyróżniające:</b> {{ data.opis_botaniczny.cecha_wyrozniajaca }}</li>
-      {% if data.opis_botaniczny.zrodlo %}
-        <li>
-          {% for nr in data.opis_botaniczny.zrodlo %}
-            <a href="#bib{{ nr }}">[{{ nr }}]</a>
-          {% endfor %}
-        </li>
-      {% endif %}
-    </ul>
-  </div>
-</div>
-
-<!-- WŁAŚCIWOŚCI I SKŁADNIKI -->
-<div class="toggle-group" id="wlasciwosci">
-  <div class="toggle-header" onclick="toggleSection(this)">
-    <span class="toggle-emoji">🧪</span>
-    Właściwości i składniki
-    <button type="button" class="toggle-btn">rozwiń</button>
-  </div>
-  <div class="toggle-content" style="display:none;">
-    <ul>
-      {% for sklad in data.wlasciwosci_i_skladniki %}
-      <li>
-        <b>{{ sklad.nazwa }}:</b> {{ sklad.dzialanie }}
-        {% if sklad.sklad %} (Skład: {{ sklad.sklad }}){% endif %}
-        {% if sklad.ciekawostka %} <i>{{ sklad.ciekawostka }}</i>{% endif %}
-        {% if sklad.zrodlo %}
-          {% for nr in sklad.zrodlo %}
-            <a href="#bib{{ nr }}">[{{ nr }}]</a>
-          {% endfor %}
-        {% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-
-<!-- CECHY I HISTORIA -->
-<div class="toggle-group" id="historia">
-  <div class="toggle-header" onclick="toggleSection(this)">
-    <span class="toggle-emoji">📖</span>
-    Cechy i historia
-    <button type="button" class="toggle-btn">rozwiń</button>
-  </div>
-  <div class="toggle-content" style="display:none;">
-    <p>
-      {{ data.cechy_i_historia.opis }}
-      {% if data.cechy_i_historia.zrodlo %}
-        {% for nr in data.cechy_i_historia.zrodlo %}
-          <a href="#bib{{ nr }}">[{{ nr }}]</a>
+<div class="carousel-container">
+    <div id="carousel" class="carousel">
+        {% for img in data.zdjecia %}
+        <img src="{{ img }}" loading="lazy" alt="Zdjęcie {{ data.gatunek }}">
         {% endfor %}
-      {% endif %}
-    </p>
-    <ul>
-      {% for cecha in data.cechy_i_historia.cechy %}
-      <li>{{ cecha }}</li>
-      {% endfor %}
-    </ul>
-    <p><b>Zastosowania historyczne:</b></p>
-    <ul>
-      {% for hist in data.cechy_i_historia.zastosowanie_historyczne %}
-      <li>{{ hist }}</li>
-      {% endfor %}
-    </ul>
-    <p><b>Ciekawostki:</b></p>
-    <ul>
-      {% for ciek in data.cechy_i_historia.ciekawostki %}
-      <li>{{ ciek }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-
-<!-- UWAGI I OSTRZEŻENIA -->
-<div class="toggle-group" id="uwagi">
-  <div class="toggle-header" onclick="toggleSection(this)">
-    <span class="toggle-emoji">⚠️</span>
-    Uwagi i ostrzeżenia
-    <button type="button" class="toggle-btn">rozwiń</button>
-  </div>
-  <div class="toggle-content" style="display:none;">
-    <ul>
-      {% for uwaga in data.uwagi_i_ostrzezenia %}
-      <li>
-        <b>{{ uwaga.uwaga }}</b>
-        {% if uwaga.rozwiazanie %} <i>({{ uwaga.rozwiazanie }})</i>{% endif %}
-        {% if uwaga.zrodlo %}
-          {% for nr in uwaga.zrodlo %}
-            <a href="#bib{{ nr }}">[{{ nr }}]</a>
-          {% endfor %}
-        {% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-
-<!-- PRZEPISY MEDYCZNE -->
-<div class="toggle-group" id="przepisy-medyczne">
-  <div class="toggle-header" onclick="toggleSection(this)">
-    <span class="toggle-emoji">🍵</span>
-    Przepisy medyczne (ziołolecznictwo)
-    <button type="button" class="toggle-btn">rozwiń</button>
-  </div>
-  <div class="toggle-content" style="display:none;">
-    <ul>
-      {% for klucz, przepis in data.przepisy_medyczne.items() %}
-      <li>
-        <b>{{ klucz|replace('_', ' ')|capitalize }}:</b>
-        <ul>
-          <li><b>Składniki:</b> {{ przepis.skladniki | join(', ') }}</li>
-          <li><b>Sposób przygotowania:</b> {{ przepis.sposob_przygotowania }}</li>
-          <li><b>Cechy:</b> {{ przepis.cechy | join(', ') }}</li>
-          <li><b>Właściwości:</b> {{ przepis.wlasciwosci | join(', ') }}</li>
-          <li><b>Zastosowanie:</b> {{ przepis.zastosowanie }}</li>
-          <li><b>Dawkowanie:</b> {{ przepis.dawkowanie }}</li>
-          {% if przepis.zrodlo %}
-            <li>
-              {% for nr in przepis.zrodlo %}
-                <a href="#bib{{ nr }}">[{{ nr }}]</a>
-              {% endfor %}
-            </li>
-          {% endif %}
-        </ul>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-
-<!-- PRZEPISY KULINARNE -->
-<div class="toggle-group" id="przepisy-kulinarne">
-  <div class="toggle-header" onclick="toggleSection(this)">
-    <span class="toggle-emoji">🥗</span>
-    Przepisy kulinarne
-    <button type="button" class="toggle-btn">rozwiń</button>
-  </div>
-  <div class="toggle-content" style="display:none;">
-    <ul>
-      {% for klucz, przepis in data.przepisy_kulinarne.items() %}
-      <li>
-        <b>{{ klucz|replace('_', ' ')|capitalize }}:</b>
-        <ul>
-          <li><b>Składniki:</b> {{ przepis.skladniki | join(', ') }}</li>
-          <li><b>Sposób przygotowania:</b> {{ przepis.sposob_przygotowania }}</li>
-          <li><b>Cechy:</b> {{ przepis.cechy | join(', ') }}</li>
-          <li><b>Właściwości:</b> {{ przepis.wlasciwosci | join(', ') }}</li>
-          <li><b>Zastosowanie:</b> {{ przepis.zastosowanie }}</li>
-          {% if przepis.zrodlo %}
-            <li>
-              {% for nr in przepis.zrodlo %}
-                <a href="#bib{{ nr }}">[{{ nr }}]</a>
-              {% endfor %}
-            </li>
-          {% endif %}
-        </ul>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-
-<!-- PRZEPISY Z INNYMI ROŚLINAMI -->
-{% if data.przepisy_z_innymi_roslinami.medyczne|length > 0 %}
-<div class="toggle-group" id="mieszanki-medyczne">
-  <div class="toggle-header" onclick="toggleSection(this)">
-    <span class="toggle-emoji">💊</span>
-    Mieszanki medyczne
-    <button type="button" class="toggle-btn">rozwiń</button>
-  </div>
-  <div class="toggle-content" style="display:none;">
-    <ul>
-      {% for p in data.przepisy_z_innymi_roslinami.medyczne %}
-      <li>
-        <b>{{ p.nazwa }}:</b>
-        <ul>
-          <li><b>Składniki:</b> {{ p.skladniki | join(', ') }}</li>
-          <li><b>Sposób przygotowania:</b> {{ p.sposob_przygotowania }}</li>
-          <li><b>Cechy:</b> {{ p.cechy | join(', ') }}</li>
-          <li><b>Właściwości:</b> {{ p.wlasciwosci | join(', ') }}</li>
-          <li><b>Zastosowanie:</b> {{ p.zastosowanie }}</li>
-          {% if p.zrodlo %}
-            <li>
-              {% for nr in p.zrodlo %}
-                <a href="#bib{{ nr }}">[{{ nr }}]</a>
-              {% endfor %}
-            </li>
-          {% endif %}
-        </ul>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+    </div>
+    <button class="carousel-btn prev" onclick="carouselPrev()">&#9664;</button>
+    <button class="carousel-btn next" onclick="carouselNext()">&#9654;</button>
 </div>
 {% endif %}
 
-{% if data.przepisy_z_innymi_roslinami.kulinarne|length > 0 %}
-<div class="toggle-group" id="mieszanki-kulinarne">
-  <div class="toggle-header" onclick="toggleSection(this)">
-    <span class="toggle-emoji">🍽️</span>
-    Mieszanki kulinarne
-    <button type="button" class="toggle-btn">rozwiń</button>
-  </div>
-  <div class="toggle-content" style="display:none;">
-    <ul>
-      {% for p in data.przepisy_z_innymi_roslinami.kulinarne %}
-      <li>
-        <b>{{ p.nazwa }}:</b>
-        <ul>
-          <li><b>Składniki:</b> {{ p.skladniki | join(', ') }}</li>
-          <li><b>Sposób przygotowania:</b> {{ p.sposob_przygotowania }}</li>
-          <li><b>Cechy:</b> {{ p.cechy | join(', ') }}</li>
-          <li><b>Właściwości:</b> {{ p.wlasciwosci | join(', ') }}</li>
-          <li><b>Zastosowanie:</b> {{ p.zastosowanie }}</li>
-          {% if p.zrodlo %}
-            <li>
-              {% for nr in p.zrodlo %}
-                <a href="#bib{{ nr }}">[{{ nr }}]</a>
-              {% endfor %}
-            </li>
-          {% endif %}
-        </ul>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
-{% endif %}
-
-<!-- INNE ZASTOSOWANIA -->
-<div class="toggle-group" id="inne-zastosowania">
-  <div class="toggle-header" onclick="toggleSection(this)">
-    <span class="toggle-emoji">🧴</span>
-    Inne zastosowania
-    <button type="button" class="toggle-btn">rozwiń</button>
-  </div>
-  <div class="toggle-content" style="display:none;">
-    <ul>
-      {% for klucz, inny in data.inne_zastosowania.items() %}
-      <li>
-        <b>{{ klucz|capitalize }}:</b> {{ inny.opis }}
-        {% if inny.zastosowanie %}<br><i>Zastosowanie:</i> {{ inny.zastosowanie }}{% endif %}
-        {% if inny.zrodlo %}
-          {% for nr in inny.zrodlo %}
-            <a href="#bib{{ nr }}">[{{ nr }}]</a>
-          {% endfor %}
-        {% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+<h2 style="margin:1em 0 0.5em 0; font-size:1.4em;">Wybierz grupę informacji</h2>
+<div class="tiles-menu" id="tiles-menu">
+    <button class="tile" data-group="historia"
+            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='historia') }}">🧬 Historia, cechy
+    </button>
+    <button class="tile" data-group="wlasciwosci"
+            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='wlasciwosci') }}">⚗️ Właściwości,
+        składniki
+    </button>
+    <button class="tile" data-group="uprawa"
+            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='uprawa') }}">🌱 Uprawa i występowanie
+    </button>
+    <button class="tile" data-group="przepisy_medyczne"
+            data-url="{{ url_for('fragment_przepisy_medyczne_all', category=category, plant=slug) }}">💊 Przepisy
+        medyczne
+    </button>
+    <button class="tile" data-group="przepisy_kulinarne"
+            data-url="{{ url_for('fragment_przepisy_kulinarne_all', category=category, plant=slug) }}">🥗 Przepisy
+        kulinarne
+    </button>
+    <button class="tile" data-group="permakultura"
+            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='permakultura') }}">🌿 Permakultura
+    </button>
+    <button class="tile" data-group="inne"
+            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='inne') }}">🧴 Inne zastosowania
+    </button>
+    <button class="tile" data-group="uwagi"
+            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='uwagi') }}">⚠️ Uwagi i ostrzeżenia
+    </button>
 </div>
 
-<!-- BIBLIOGRAFIA -->
-<div class="toggle-group" id="bibliografia">
-  <div class="toggle-header" onclick="toggleSection(this)">
-    <span class="toggle-emoji">📚</span>
-    Bibliografia
-    <button type="button" class="toggle-btn">rozwiń</button>
-  </div>
-  <div class="toggle-content" style="display:none;">
+<!-- Miejsce na ładowane fragmenty -->
+<div id="plant-content" style="margin-top:2em;scroll-margin-top:80px;"></div>
+
+<!-- Bibliografia -->
+<div class="bibliografia-section" id="bibliografia">
+    <h3>Bibliografia / Źródła</h3>
     <ul>
-      {% for num, url in data.bibliografia.items() %}
-      <li id="bib{{ num }}">[{{ num }}] <a href="{{ url }}" target="_blank">{{ url }}</a></li>
-      {% endfor %}
+        {% for num, url in data.bibliografia.items() %}
+        <li id="bib{{ num }}">[{{ num }}] <a href="{{ url }}" target="_blank">{{ url }}</a></li>
+        {% endfor %}
     </ul>
-    <a href="#top">Powrót na górę</a>
-  </div>
+    <a href="{{ url_for('bibliografia', category=category, plant=slug) }}">→ Zobacz pełną bibliografię rośliny</a>
 </div>
 
-<script src="{{ url_for('static', filename='script.js') }}"></script>
+<script>
+// ---- Karuzela zdjęć (jeśli jest) ----
+let current = 0;
+function carouselShow(idx) {
+    const imgs = document.querySelectorAll("#carousel img");
+    imgs.forEach((img,i) => img.style.display = (i===idx ? "block" : "none"));
+}
+function carouselPrev() {
+    const imgs = document.querySelectorAll("#carousel img");
+    current = (current-1+imgs.length)%imgs.length;
+    carouselShow(current);
+}
+function carouselNext() {
+    const imgs = document.querySelectorAll("#carousel img");
+    current = (current+1)%imgs.length;
+    carouselShow(current);
+}
+
+// ---- Obsługa dynamicznego ładowania fragmentów rośliny ----
+document.addEventListener('DOMContentLoaded', function() {
+    // Karuzela (jeśli jest)
+    if(document.querySelectorAll("#carousel img").length > 0)
+        carouselShow(0);
+
+    // Fragmenty rośliny (kafelkowe menu)
+    const tilesMenu = document.getElementById("tiles-menu");
+    const contentDiv = document.getElementById("plant-content");
+    if(tilesMenu && contentDiv) {
+        const btns = tilesMenu.querySelectorAll('.tile');
+        function loadPlantFragment(group) {
+            let btn = tilesMenu.querySelector('.tile[data-group="'+group+'"]');
+            if(!btn) return;
+            let url = btn.dataset.url;
+            if(!url) return;
+            fetch(url)
+                .then(resp => {
+                    if(!resp.ok) throw new Error("Błąd fragmentu: " + resp.status);
+                    return resp.text();
+                })
+                .then(html => {
+                    contentDiv.innerHTML = html;
+                    if (typeof activatePrzepisyAccordion === "function") activatePrzepisyAccordion();
+                });
+        }
+        // Domyślnie historia lub pierwszy kafelek
+        let first = btns[0];
+        if(btns.length > 0) {
+            let defaultGroup = first.dataset.group;
+            loadPlantFragment(defaultGroup);
+            first.classList.add("active");
+        }
+        btns.forEach(btn => {
+            btn.onclick = function() {
+                btns.forEach(b=>b.classList.remove("active"));
+                btn.classList.add("active");
+                loadPlantFragment(btn.dataset.group);
+                setTimeout(() => {
+                    contentDiv.scrollIntoView({behavior:"smooth"});
+                }, 100);
+            };
+        });
+    }
+});
+function activatePrzepisyAccordion() {
+    document.querySelectorAll(".przepis-title").forEach(function(title){
+        if (!title.classList.contains("js-active")) {
+            title.classList.add("js-active");
+            title.addEventListener("click", function() {
+                var card = title.closest('.przepis-card');
+                card.classList.toggle("collapsed");
+            });
+        }
+    });
+}
+
+</script>
+
+<style>
+/* Aktywny kafelek */
+.tiles-menu .tile.active {
+    background: #aedfa3 !important;
+    color: #184e10;
+    font-weight: bold;
+    border: 2px solid #67a75d;
+}
+.carousel-container {
+    position: relative;
+    margin-bottom: 1em;
+}
+.carousel {
+    width: 100%;
+    max-width: 420px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 9px;
+    box-shadow: 0 2px 8px #0001;
+}
+.carousel img {
+    width: 100%;
+    display: none;
+}
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    border: none;
+    font-size: 2em;
+    padding: 0.1em 0.3em;
+    cursor: pointer;
+    opacity: 0.7;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+.carousel-btn.prev { left: 8px; }
+.carousel-btn.next { right: 8px; }
+.carousel-btn:hover { background: #e5f5e0; }
+
+</style>
+
 {% endblock %}

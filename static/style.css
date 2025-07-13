@@ -306,3 +306,49 @@ footer {
     box-shadow: 0 1px 6px #0002;
 }
 #plant-photo-hide-btn:active { background: var(--main); }
+
+.tiles-menu {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px,1fr));
+    gap: 1em;
+    margin: 1em 0 2em 0;
+}
+.tiles-menu .tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.1em;
+    font-size: 1.15em;
+    background: #eef7ec;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px #0002;
+    text-decoration: none;
+    color: #204e1d;
+    transition: 0.18s;
+}
+.tiles-menu .tile:hover {
+    background: #d9f5ce;
+    color: #174516;
+    box-shadow: 0 4px 16px #0003;
+}
+.bibliografia-section {
+    margin-top:2em; background:#f9fbe7; border-radius:8px; padding:1.1em;
+}
+.carousel-container { position:relative; margin:0.8em 0; }
+.carousel img { width:100%; max-height:350px; object-fit:contain; display:none; border-radius:12px; }
+.carousel-btn {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    background: #fff8; border: none; font-size: 2em; cursor:pointer;
+    border-radius: 50%; padding:0.1em 0.5em; z-index:1;
+}
+.carousel-btn.prev { left: 0.1em; }
+.carousel-btn.next { right: 0.1em; }
+.plant-header { margin-bottom: 1.2em; }
+.plant-hierarchy { color:#444; font-size:1.08em; margin-top:0.1em; }
+.plant-hierarchy .latin { color:#385532; font-size:0.96em; margin-left:0.5em; }
+.tiles-menu .tile.active {
+    background: #aedfa3 !important;
+    color: #184e10;
+    font-weight: bold;
+    border: 2px solid #67a75d;
+}

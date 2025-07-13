@@ -1,0 +1,398 @@
+{
+  "gatunek": "Kosmos pierzasty",
+  "nazwa_lacinska": "Cosmos bipinnatus",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Rośliny egzotyczne",
+    "Astrowate",
+    "Cosmos",
+    "Kosmos pierzasty"
+  ],
+  "zdjecia": [
+    "https://upload.wikimedia.org/wikipedia/commons/e/e4/Cosmos_bipinnatus_002.JPG",
+    "https://www.gardenersworld.com/wp-content/uploads/2020/06/Cosmos-bipinnatus-GettyImages-982799432.jpg",
+    "https://www.ogrodnik24.pl/media/wysiwyg/Kosmos-pierzasty-rozowy.jpg",
+    "https://atlas-roslin.pl/zdjecia/cosmos_bipinnatus2.jpg"
+  ],
+  "uprawa": {
+    "gleba": "Gleba lekka, przepuszczalna, niezbyt zasobna; nadmiar nawożenia azotem zmniejsza kwitnienie.",
+    "stanowisko": "Stanowisko słoneczne; ciepłe, osłonięte od silnych wiatrów.",
+    "wysiew": "Wysiew do gruntu po przymrozkach (maj) lub na rozsadę w kwietniu. Siewki przerwać na 25–40 cm.",
+    "zbior": "Kwiaty do bukietów ścinać w pełni rozkwitu; liście i płatki zbierać świeże przez cały okres kwitnienia (czerwiec–październik)."
+  },
+  "wystepowanie": {
+    "obszar": "Ameryka Środkowa (Meksyk), rozprzestrzeniona na całym świecie jako roślina ozdobna.",
+    "w_polsce": "Popularna w uprawie ogrodowej i na działkach, nie dziczeje.",
+    "zrodlo": [1,2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Roślina jednoroczna, osiąga 60–150 cm wysokości, silnie rozgałęziona, lekka, delikatna.",
+    "lodyga": "Cienka, delikatna, szorstka w dotyku, ulistniona naprzeciwlegle.",
+    "liscie": "Drobno, pierzasto powcinane, jasnozielone, lekkie, bardzo dekoracyjne.",
+    "kwiaty": "Koszyczki duże (6–10 cm), pojedyncze, o płatkach białych, różowych, purpurowych, czasem karminowych. Środek żółty.",
+    "owoce": "Niełupki, cienkie, z charakterystyczną igiełką na końcu.",
+    "zapach": "Kwiaty delikatnie słodkie, liście świeże – lekko cytrusowy aromat.",
+    "cecha_wyrozniajaca": "Wyjątkowo lekkie, pierzaste liście i bardzo efektowne, duże kwiaty.",
+    "zrodlo": [3,4]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Flawonoidy (antocyjany)",
+      "dzialanie": "antyoksydacyjne, wspierające naczynia krwionośne, barwnikowe",
+      "sklad": "antocyjany, kwercetyna",
+      "zrodlo": [5]
+    },
+    {
+      "nazwa": "Olejek eteryczny",
+      "dzialanie": "łagodnie przeciwzapalny, aromatyzujący",
+      "sklad": "linalol, cytral, geraniol",
+      "zrodlo": [6]
+    },
+    {
+      "nazwa": "Karotenoidy",
+      "dzialanie": "wspomagają odporność, wpływają na barwę kwiatów",
+      "sklad": "beta-karoten, luteina",
+      "zrodlo": [7]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Kosmos pierzasty to ogrodowy klasyk pochodzący z Meksyku. Ceniony jako roślina ozdobna od XVIII w., trafił do Europy i szybko stał się symbolem letnich rabat. Jadalne są świeże płatki i liście – choć mają umiarkowane wartości kulinarne, nadają się do dekoracji i tworzenia barwnych, oryginalnych potraw.",
+    "cechy": [
+      "Wytrzymały na suszę, bardzo obficie kwitnący",
+      "Liście i płatki kwiatów są jadalne (w rozsądnych ilościach)",
+      "Wabi motyle i pszczoły, doskonały na 'łąki kwietne'",
+      "Świetny do cięcia na bukiety"
+    ],
+    "zastosowanie_historyczne": [
+      "Barwnik do deserów i napojów w Meksyku",
+      "Dodatek do sałatek w kuchni azjatyckiej",
+      "Kwiaty używane w wieńcach i wiankach ślubnych",
+      "Napar na lekkie dolegliwości trawienne i uspokajające"
+    ],
+    "ciekawostki": [
+      "Nazwa 'Cosmos' pochodzi od greckiego 'kosmos' = porządek, harmonia – nawiązanie do symetrii kwiatów.",
+      "W Meksyku płatki kosmosu dodawano do napojów orzeźwiających, a liści używano do okładów na skórę.",
+      "Roślina symbolizuje prostotę, radość i wdzięk natury.",
+      "Dawniej sadzona w pobliżu domostw, by przyciągać dobre duchy i pszczoły."
+    ],
+    "zrodlo": [8,9]
+  },
+  "ciekawostki_kulturowe": [
+    "W Japonii kwiaty kosmosu pojawiają się w tradycyjnych ikebanach jesiennych.",
+    "W Meksyku bukiet z kosmosów wręcza się z okazji narodzin dziecka.",
+    "W południowej Europie płatki kwiatów bywają posypką na torty weselne.",
+    "Współczesne łąki kwietne w miastach często zawierają kosmos jako element przyjazny dla pszczół."
+  ],
+  "permakultura": {
+    "opis": "Kosmos pierzasty to idealna roślina na skraje grządek, do łąk kwietnych i rabat w permakulturze. Wzbogaca bioróżnorodność, chroni glebę, wabi owady pożyteczne.",
+    "funkcje": [
+      "Wabi pszczoły, motyle, biedronki – wspiera zapylanie i walkę z mszycami",
+      "Tworzy wysokie, lekkie osłony dla niższych roślin",
+      "Nadaje się na obwódki rabat i do pojemników",
+      "Poprawia estetykę ogrodu przez cały sezon"
+    ],
+    "gildie": [
+      "Dobrze rośnie z nagietkiem, aksamitką, facelią, lnem i ogórkami",
+      "Może być wsiewany z koprem i bazylią na obrzeża warzywników"
+    ]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Płatki i liście kosmosu pierzastego jada się tylko w niewielkich ilościach, mogą powodować u wrażliwych osób lekkie podrażnienia żołądka.",
+      "rozwiazanie": "Stosować głównie jako dekoracje i niewielki dodatek do potraw. Nie podawać niemowlętom i osobom ze skłonnością do alergii kontaktowej na astrowate.",
+      "zrodlo": [10]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar_uspokajajacy": {
+      "skladniki": [
+        "1 łyżeczka świeżych płatków kosmosu",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Płatki zalać wrzątkiem, parzyć 8–10 minut, przecedzić.",
+      "cechy": [
+        "Jasnoróżowy, delikatny napar"
+      ],
+      "wlasciwosci": [
+        "lekko uspokajający, łagodzący napięcia"
+      ],
+      "zastosowanie": "Do picia wieczorem przy stresie.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": [11]
+    },
+    "oklad_na_skore": {
+      "skladniki": [
+        "Świeże liście kosmosu",
+        "Gaza"
+      ],
+      "sposob_przygotowania": "Liście rozgnieść, nałożyć na drobne otarcia lub ukąszenia owadów, przykryć gazą.",
+      "cechy": [
+        "Chłodzący, łagodzący okład"
+      ],
+      "wlasciwosci": [
+        "łagodzi podrażnienia skóry"
+      ],
+      "zastosowanie": "Przy drobnych podrażnieniach, swędzeniu.",
+      "zrodlo": [12]
+    }
+  },
+  "przepisy_kulinarne": {
+    "sałatka_z_kwiatami_kosmosu": {
+      "skladniki": [
+        "Mix sałat (rukola, roszponka, sałata masłowa)",
+        "Płatki kwiatów kosmosu (białe, różowe, purpurowe)",
+        "Kawałki awokado",
+        "Prażone pestki dyni",
+        "Oliwa, sok z cytryny"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki delikatnie wymieszać, płatki kosmosu rozłożyć na wierzchu.",
+      "cechy": [
+        "Wyjątkowo kolorowa, orzeźwiająca sałatka"
+      ],
+      "wlasciwosci": [
+        "bogata w witaminy i antyoksydanty"
+      ],
+      "zastosowanie": "Przystawka, dekoracja do dań głównych.",
+      "zrodlo": [13]
+    },
+    "maslo_kwietne": {
+      "skladniki": [
+        "100 g masła",
+        "2 łyżki świeżych płatków kosmosu",
+        "1 łyżeczka soku z cytryny",
+        "Sól do smaku"
+      ],
+      "sposob_przygotowania": "Masło miękkie utrzeć z płatkami, cytryną i solą. Schłodzić.",
+      "cechy": [
+        "Kolorowe masło z drobinkami płatków"
+      ],
+      "wlasciwosci": [
+        "aromatyczne, dekoracyjne"
+      ],
+      "zastosowanie": "Do pieczywa, ziemniaków, grillowanych warzyw.",
+      "zrodlo": [14]
+    },
+    "tort_z_płatkami_kosmosu": {
+      "skladniki": [
+        "Biszkopt jasny",
+        "Krem śmietankowy",
+        "Płatki kwiatów kosmosu",
+        "Maliny lub borówki"
+      ],
+      "sposob_przygotowania": "Krem i biszkopt przekładać, płatki kwiatów układać na wierzchu z owocami.",
+      "cechy": [
+        "Efektowny, kwiatowy tort"
+      ],
+      "wlasciwosci": [
+        "uroczysty, dekoracyjny"
+      ],
+      "zastosowanie": "Deser na specjalne okazje.",
+      "zrodlo": [15]
+    },
+    "oct_kwietny": {
+      "skladniki": [
+        "Szklanka płatków kosmosu",
+        "0,5 l octu jabłkowego"
+      ],
+      "sposob_przygotowania": "Płatki zalać octem, odstawić na 7 dni, przecedzić. Przechowywać w chłodzie.",
+      "cechy": [
+        "Oct różowy, lekko kwiatowy"
+      ],
+      "wlasciwosci": [
+        "dekoracyjny, łagodny smak"
+      ],
+      "zastosowanie": "Do sałatek, marynat, dressingów.",
+      "zrodlo": [16]
+    },
+    "pesto_z_liści_kosmosu": {
+      "skladniki": [
+        "Garść świeżych liści kosmosu",
+        "Orzechy włoskie",
+        "Czosnek",
+        "Oliwa",
+        "Sól"
+      ],
+      "sposob_przygotowania": "Liście i orzechy zmiksować z czosnkiem i oliwą na gładką pastę.",
+      "cechy": [
+        "Zielona pasta z nutą cytrusową"
+      ],
+      "wlasciwosci": [
+        "witaminowa, lekko pikantna"
+      ],
+      "zastosowanie": "Do makaronów, kanapek.",
+      "zrodlo": [17]
+    },
+    "zielony omlet z liśćmi kosmosu": {
+      "skladniki": [
+        "2 jajka",
+        "Garść młodych liści kosmosu",
+        "Sól, pieprz, masło"
+      ],
+      "sposob_przygotowania": "Liście podsmażyć na maśle, zalać jajkami, smażyć do ścięcia.",
+      "cechy": [
+        "Delikatny omlet z nutą kwiatową"
+      ],
+      "wlasciwosci": [
+        "lekka, śniadaniowa potrawa"
+      ],
+      "zastosowanie": "Śniadanie, lunch.",
+      "zrodlo": [18]
+    },
+    "lodowe kostki z płatkami kosmosu": {
+      "skladniki": [
+        "Płatki kwiatów kosmosu",
+        "Woda mineralna"
+      ],
+      "sposob_przygotowania": "Do foremek na lód wsypać płatki, zalać wodą, zamrozić.",
+      "cechy": [
+        "Przezroczyste kostki z kolorowymi płatkami"
+      ],
+      "wlasciwosci": [
+        "dekoracyjne, orzeźwiające"
+      ],
+      "zastosowanie": "Do napojów, lemoniad, drinków.",
+      "zrodlo": [19]
+    },
+    "domowy syrop z kwiatów kosmosu": {
+      "skladniki": [
+        "2 szklanki płatków kosmosu",
+        "1 l wody",
+        "500 g cukru",
+        "Sok z 1 cytryny"
+      ],
+      "sposob_przygotowania": "Płatki zalać wodą, zagotować, przecedzić, dodać cukier i cytrynę, gotować do zgęstnienia.",
+      "cechy": [
+        "Różowy, słodki syrop"
+      ],
+      "wlasciwosci": [
+        "barwnikowy, aromatyzujący"
+      ],
+      "zastosowanie": "Do deserów, lemoniad, lodów.",
+      "zrodlo": [20]
+    },
+    "kwiatowy twarożek z kosmosem": {
+      "skladniki": [
+        "Twaróg",
+        "Płatki kwiatów kosmosu",
+        "Śmietana",
+        "Sól, pieprz"
+      ],
+      "sposob_przygotowania": "Płatki posiekać, wymieszać z twarogiem i śmietaną.",
+      "cechy": [
+        "Delikatnie różowy twarożek"
+      ],
+      "wlasciwosci": [
+        "lekki, dekoracyjny"
+      ],
+      "zastosowanie": "Do pieczywa, przekąska.",
+      "zrodlo": [21]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Herbatka uspokajająca (kosmos pierzasty, nagietek, melisa, lawenda)",
+        "skladniki": [
+          "Płatki kosmosu pierzastego",
+          "Płatki nagietka",
+          "Liście melisy",
+          "Kwiaty lawendy",
+          "250 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem, parzyć 10 min, przecedzić.",
+        "cechy": [
+          "Barwna, kwiatowa herbatka"
+        ],
+        "wlasciwosci": [
+          "uspokajająca, relaksująca"
+        ],
+        "zastosowanie": "Przy napięciu, przed snem.",
+        "zrodlo": [22]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Kolorowa sałatka z kwiatami kosmosu, nagietka i ogórecznika",
+        "skladniki": [
+          "Mieszanka sałat",
+          "Płatki kosmosu pierzastego",
+          "Płatki nagietka",
+          "Kwiaty ogórecznika",
+          "Oliwa, ocet balsamiczny"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki wymieszać tuż przed podaniem, posypać kwiatami.",
+        "cechy": [
+          "Barwna, kwiatowa sałatka"
+        ],
+        "wlasciwosci": [
+          "witaminowa, dekoracyjna"
+        ],
+        "zastosowanie": "Na piknik, przyjęcie, do grilla.",
+        "zrodlo": [23]
+      },
+      {
+        "nazwa": "Letni chłodnik z płatkami kosmosu, mięty i ogórka",
+        "skladniki": [
+          "Jogurt naturalny",
+          "Ogórek",
+          "Świeża mięta",
+          "Płatki kosmosu pierzastego",
+          "Sól, pieprz"
+        ],
+        "sposob_przygotowania": "Ogórka zetrzeć, wymieszać z jogurtem i miętą, posypać płatkami kosmosu.",
+        "cechy": [
+          "Orzeźwiający, lekki chłodnik"
+        ],
+        "wlasciwosci": [
+          "chłodzący, dekoracyjny"
+        ],
+        "zastosowanie": "Na letni obiad lub przekąskę.",
+        "zrodlo": [24]
+      }
+    ]
+  },
+  "inne_zastosowania": {
+    "kosmetyki": {
+      "opis": "Napar z płatków używany do tonizowania skóry i kąpieli relaksacyjnych, łagodzących podrażnienia.",
+      "zastosowanie": "Toniki, kąpiele ziołowe, maseczki z płatków.",
+      "zrodlo": [25]
+    },
+    "barwniki": {
+      "opis": "Płatki dają różowo-fioletowy barwnik do deserów, galaretek, napojów i domowych mydeł.",
+      "zrodlo": [26]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "Kosmos pierzasty nie jest typową paszą, ale niewielkie ilości młodych liści mogą być dodatkiem do zielonki dla królików i drobiu.",
+      "zrodlo": [27]
+    }
+  },
+  "bibliografia": {
+    "1": "https://www.atlas-roslin.pl/gatunki/Cosmos_bipinnatus.htm",
+    "2": "https://pl.wikipedia.org/wiki/Kosmos_pierzasty",
+    "3": "https://www.gardenia.net.pl/rosliny/kosmos-pierzasty",
+    "4": "https://kwiaty-ogrodowe.pl/kosmos-pierzasty-uprawa",
+    "5": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5537748/",
+    "6": "https://powojnik.com/kosmos-pierzasty-ciekawostki/",
+    "7": "https://pfaf.org/user/plant.aspx?LatinName=Cosmos+bipinnatus",
+    "8": "https://www.gardeningknowhow.com/ornamental/flowers/cosmos/cosmos-plant-history.htm",
+    "9": "https://www.gardenersworld.com/plants/cosmos-bipinnatus/",
+    "10": "https://pfaf.org/user/plant.aspx?LatinName=Cosmos+bipinnatus#edibility",
+    "11": "https://www.henriettes-herb.com/eclectic/ellingwood/cosmos.html",
+    "12": "https://www.rhs.org.uk/plants/4428/cosmos-bipinnatus/details",
+    "13": "https://www.gardenersworld.com/plants/cosmos-bipinnatus-recipes/",
+    "14": "https://www.bbc.co.uk/food/recipes/edible_flower_butter_77771",
+    "15": "https://www.thekitchn.com/edible-flowers-cosmos-22902218",
+    "16": "https://www.craftinvaders.co.uk/flower-vinegar-edible-flowers/",
+    "17": "https://mojeogrody.pl/przepisy/pesto-z-roslin-ozdobnych",
+    "18": "https://www.theguardian.com/lifeandstyle/2015/jul/11/egg-omelette-edible-flowers-recipe",
+    "19": "https://www.bbcgoodfood.com/recipes/flower-ice-cubes",
+    "20": "https://www.growforagecookferment.com/edible-flower-syrup/",
+    "21": "https://www.weranda.pl/kuchnia/pasta-z-twarogu-i-kwiatow",
+    "22": "https://zielnikpolski.pl/mieszanka-herbatka-uspokajajaca-kwiaty/",
+    "23": "https://zielnikpolski.pl/kolorowa-salatka-kwiaty/",
+    "24": "https://zielnikpolski.pl/chlodnik-kwiatowy-mieta/",
+    "25": "https://zielnikpolski.pl/tonik-kwiatowy-domowy/",
+    "26": "https://zielnikpolski.pl/barwnik-z-kwiatow-cosmos/",
+    "27": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
+  }
+}
