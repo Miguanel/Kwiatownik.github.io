@@ -54,3 +54,35 @@ function addCompare(slug,category){
     if(val) url += val;
     window.location = url;
 }
+function getFavs() {
+    return JSON.parse(localStorage.getItem("favs") || "[]");
+}
+function getGarden() {
+    return JSON.parse(localStorage.getItem("garden") || "[]");
+}
+function toggleFav(slug) {
+    let favs = getFavs();
+    if(favs.includes(slug)) favs = favs.filter(x=>x!==slug);
+    else favs.push(slug);
+    localStorage.setItem("favs", JSON.stringify(favs));
+    if(typeof updateFavIcons==="function") updateFavIcons();
+}
+function toggleGarden(slug) {
+    let g = getGarden();
+    if(g.includes(slug)) g = g.filter(x=>x!==slug);
+    else g.push(slug);
+    localStorage.setItem("garden", JSON.stringify(g));
+    if(typeof updateFavIcons==="function") updateFavIcons();
+}
+function updateFavIcons() {
+    let favs = getFavs();
+    let g = getGarden();
+    document.querySelectorAll('.fav-btn').forEach(function(btn){
+        if(favs.includes(btn.dataset.plant)) btn.style.opacity="1";
+        else btn.style.opacity="0.4";
+    });
+    document.querySelectorAll('.garden-btn').forEach(function(btn){
+        if(g.includes(btn.dataset.plant)) btn.style.opacity="1";
+        else btn.style.opacity="0.4";
+    });
+}

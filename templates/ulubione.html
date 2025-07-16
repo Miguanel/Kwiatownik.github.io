@@ -3,12 +3,100 @@
 {% block content %}
 <h2>Ulubione rośliny</h2>
 <ul id="fav-list"></ul>
+
 <h2>Rośliny mam w ogrodzie</h2>
 <ul id="garden-list"></ul>
+
+<h2>Kalendarz siewu i zbioru (ulubione rośliny)</h2>
+<div id="calendar"></div>
+
 <script>
+const allPlantsData = {{ all_plants|tojson }};
+
 window.onload = function() {
     showFavList();
     showGardenList();
+    showCalendar();
 };
+
+// ---- KALENDARZ SIEWU I ZBIORU ----
+
+function findNextEvent(monthArray, label) {
+    if(!monthArray) return null;
+    let now = new Date();
+    let currentMonth = now.getMonth() + 1;
+    let currentDay = now.getDate();
+    let currentYear = now.getFullYear();
+    // Sortujemy miesiące rosnąco, by zawsze znaleźć najbliższy
+    let sorted = monthArray.slice().sort((a,b)=>a-b);
+    for(let i=0; i<sorted.length; ++i) {
+        let m = sorted[i];
+        if(m > currentMonth || (m === currentMonth && currentDay < 25)) {
+            let date = new Date(currentYear, m-1, 1);
+            let diff = Math.round((date - now) / (1000*60*60*24*7));
+            return { label: label, month: m, weeks: diff };
+        }
+        // Jeśli to ten sam miesiąc i właśnie trwa - pokaż "Teraz"
+        if(m === currentMonth && currentDay >= 1 && currentDay <= 25) {
+            return { label: label, month: m, weeks: 0 };
+        }
+    }
+    // Jeśli w tym roku nie ma, to pierwszy w przyszłym
+    if(sorted.length) {
+        let m = sorted[0];
+        let date = new Date(currentYear+1, m-1, 1);
+        let diff = Math.round((date - now) / (1000*60*60*24*7));
+        return { label: label, month: m, weeks: diff };
+    }
+    return null;
+}
+
+function showCalendar() {
+    let favs = getFavs();
+    let root = document.getElementById("calendar");
+    if(favs.length==0) {root.innerHTML = "<i>Brak roślin w ulubionych.</i>"; return;}
+    let months = ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"];
+    let html = "<table class='calendar-table'><tr><th>Roślina</th>";
+    for(let m=0;m<12;m++) html += `<th>${months[m]}</th>`;
+    html += "<th>Status</th></tr>";
+    favs.forEach(function(slug){
+        let plant = allPlantsData.find(p=>p.slug===slug);
+        if(!plant) return;
+        let kal = plant.data.kalendarz || {};
+        // Oblicz najbliższy zbiór, siew lub sadzenie
+        let events = [];
+        let nextZbior = findNextEvent(kal.zbior, "zbiór");
+        let nextSiew = findNextEvent(kal.siew, "siew");
+        let nextSadzenie = findNextEvent(kal.sadzenie, "sadzenie");
+        [nextZbior, nextSiew, nextSadzenie].forEach(e=>{
+            if(e && e.weeks >= 0 && e.weeks <= 8) events.push(e);
+        });
+        // Wiersz
+        html += `<tr><td><b>${plant.name}</b> <i style="color:#789044;">(${plant.latin})</i></td>`;
+        for(let m=1;m<=12;m++) {
+            let ikony = '';
+            if(kal.siew && kal.siew.includes(m)) ikony += '🌱';
+            if(kal.sadzenie && kal.sadzenie.includes(m)) ikony += '🥬';
+            if(kal.zbior && kal.zbior.includes(m)) ikony += '🍃';
+            html += `<td style="text-align:center;">${ikony}</td>`;
+        }
+        // Kolumna statusu:
+        if(events.length) {
+            html += `<td style="color:#39790e;font-weight:bold;">`;
+            events.forEach(e => {
+                if(e.weeks === 0)
+                    html += `<span style="color:#d95d1a;">Trwa ${e.label}!</span><br>`;
+                else
+                    html += `Za ${e.weeks} tyg. → <b>${e.label}</b><br>`;
+            });
+            html += `</td>`;
+        } else {
+            html += `<td style="color:#999;">Brak nadchodzących wydarzeń</td>`;
+        }
+        html += "</tr>";
+    });
+    html += "</table>";
+    root.innerHTML = html;
+}
 </script>
 {% endblock %}

@@ -6,18 +6,27 @@
     <h1>{{ data.gatunek }}</h1>
     <div class="plant-hierarchy">
         {% if data.nazwa_zbioru %}
-        <span>
+            <span>
                 {% for n in data.nazwa_zbioru %}
                     {{ n }}{% if not loop.last %} → {% endif %}
                 {% endfor %}
             </span>
         {% endif %}
         {% if data.nazwa_lacinska %}
-        <span class="latin">({{ data.nazwa_lacinska }})</span>
+            <span class="latin">({{ data.nazwa_lacinska }})</span>
         {% endif %}
     </div>
+    <div class="plant-actions" style="margin: 1.1em 0 1.5em 0; display: flex; gap: 1.1em;">
+        <button type="button" class="plant-action-btn" id="fav-main-btn" onclick="toggleFav('{{ slug }}'); updateFavBtn('{{ slug }}');">
+            <span class="fav-icon" style="font-size:1.19em;">💚</span>
+            <span class="fav-label">Dodaj do ulubionych</span>
+        </button>
+        <button type="button" class="plant-action-btn" id="garden-main-btn" onclick="toggleGarden('{{ slug }}'); updateGardenBtn('{{ slug }}');">
+            <span class="garden-icon" style="font-size:1.15em;">🌱</span>
+            <span class="garden-label">Dodaj do ogrodu</span>
+        </button>
+    </div>
 </div>
-
 <!-- Karuzela zdjęć -->
 {% if data.zdjecia and data.zdjecia|length > 0 %}
 <div class="carousel-container">
@@ -150,7 +159,28 @@ function activatePrzepisyAccordion() {
         }
     });
 }
-
+function updateFavBtn(slug) {
+    let favs = getFavs();
+    let btn = document.getElementById('fav-main-btn');
+    let isFav = favs.includes(slug);
+    if(btn) {
+        btn.querySelector('.fav-label').textContent = isFav ? "Usuń z ulubionych" : "Dodaj do ulubionych";
+        btn.classList.toggle('active', isFav);
+    }
+}
+function updateGardenBtn(slug) {
+    let g = getGarden();
+    let btn = document.getElementById('garden-main-btn');
+    let isInGarden = g.includes(slug);
+    if(btn) {
+        btn.querySelector('.garden-label').textContent = isInGarden ? "Usuń z ogrodu" : "Dodaj do ogrodu";
+        btn.classList.toggle('active', isInGarden);
+    }
+}
+document.addEventListener('DOMContentLoaded', function() {
+    updateFavBtn("{{ slug }}");
+    updateGardenBtn("{{ slug }}");
+});;
 </script>
 
 <style>

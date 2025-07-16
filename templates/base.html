@@ -6,6 +6,8 @@
     <title>{% block title %}Kwiatownik{% endblock %}</title>
     <link rel="stylesheet" href="/static/style.css">
     <link rel="icon" href="/static/favicon.ico">
+    <script src="/static/script.js"></script>
+    <script src="/static/js/favs.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -56,8 +58,6 @@
 window.onload = function() {
     if(typeof updateFavIcons === "function") updateFavIcons();
 };
-
-
 
 </script>
 </body>

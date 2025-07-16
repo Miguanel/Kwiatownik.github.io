@@ -522,3 +522,45 @@ input, select, button {
     font-weight: bold;
     border: 2px solid #67a75d;
 }
+.calendar-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 2em 0;
+    background: #f7fbe7;
+    border-radius: 16px;
+    box-shadow: 0 1px 8px #d9e5cb9c;
+    font-size: 1.07em;
+}
+.calendar-table th, .calendar-table td {
+    border: 1px solid #d5e7bf;
+    padding: 0.55em 0.45em;
+    text-align: center;
+}
+.calendar-table th {
+    background: #e9f7d7;
+    font-weight: bold;
+}
+.calendar-table td {
+    min-width: 2.2em;
+    font-size: 1.19em;
+}
+.plant-action-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    background: #f0fff0;
+    border: 1px solid #a2d09e;
+    color: #234d21;
+    padding: 0.59em 1.1em;
+    font-size: 1.08em;
+    border-radius: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 1px 8px #0001;
+    transition: background 0.16s, color 0.12s, border 0.12s;
+}
+.plant-action-btn:hover, .plant-action-btn.active {
+    background: #dbf9de;
+    color: #226b13;
+    border: 1.5px solid #83ba7d;
+}

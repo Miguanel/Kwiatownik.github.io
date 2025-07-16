@@ -1,0 +1,265 @@
+{
+  "gatunek": "Sałata jadowita",
+  "nazwa_lacinska": "Lactuca virosa",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Rośliny zielne (Zioła)",
+    "Astrowate",
+    "Lactuca",
+    "Sałata jadowita"
+  ],
+  "zdjecia": [
+    "https://i0.wp.com/atlasroslin.com/wp-content/uploads/2022/01/lactuca_virosa_01012001.jpg?w=1290&ssl=1"
+  ],
+  "uprawa": {
+    "gleba": "Gleba przepuszczalna, umiarkowanie wilgotna, zasobna w wapń, nie toleruje ciężkich gleb gliniastych.",
+    "stanowisko": "Stanowisko słoneczne lub półcieniste, najlepiej na obrzeżach zarośli, nieużytkach, skarpach.",
+    "wysiew": "Wysiew nasion wczesną wiosną, najlepiej po stratyfikacji; roślina dwuletnia.",
+    "zbior": "Liście i sok mleczny (lactucarium) zbiera się w okresie kwitnienia (lipiec–sierpień), korzeń jesienią."
+  },
+  "wystepowanie": {
+    "obszar": "Europa, Azja Zachodnia, Afryka Północna. Zawleczona i miejscami zadomowiona w Ameryce Północnej.",
+    "w_polsce": "Rzadko, głównie na południu i zachodzie kraju; nasypy kolejowe, zarośla, tereny ruderalne, czasem uprawiana.",
+    "zrodlo": [1,2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Dwuletnia roślina zielna, osiąga 1–2 m wysokości, silnie rozgałęziona, o grubych, pustych łodygach.",
+    "lodyga": "Sztywna, bruzdowana, często fioletowo nabiegła, wzniesiona.",
+    "liscie": "Duże, głęboko wcinane, z kolczastym nerwem, szarozielone, dolne liście odziomkowe, górne mniejsze.",
+    "kwiaty": "Drobne, żółte, zebrane w wiechowate kwiatostany, kwitnie od lipca do września.",
+    "owoce": "Podłużne niełupki z puchem kielichowym ułatwiającym rozsiewanie.",
+    "zapach": "Liście i łodygi po skaleczeniu wydzielają biały, gorzki, silnie aromatyczny sok mleczny (lactucarium).",
+    "cecha_wyrozniajaca": "Wysoka, szorstka roślina o kolczastych liściach, z mlecznym sokiem, który brunatnieje na powietrzu.",
+    "zrodlo": [3,4]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Lactucarium (sok mleczny)",
+      "dzialanie": "działa uspokajająco, przeciwbólowo, nasennie, rozkurczowo, łagodnie przeciwkaszlowo",
+      "sklad": "laktucyna, laktukopikryna, laktucerol, triterpeny, flawonoidy, kwasy fenolowe",
+      "zrodlo": [5,6]
+    },
+    {
+      "nazwa": "Gorycze seskwiterpenowe",
+      "dzialanie": "pobudzają trawienie, działają przeciwzapalnie i przeciwbakteryjnie",
+      "sklad": "laktucyna, laktukopikryna",
+      "zrodlo": [7]
+    },
+    {
+      "nazwa": "Flawonoidy i fenolokwasy",
+      "dzialanie": "antyoksydacyjne, ochronne na naczynia, łagodzące podrażnienia",
+      "sklad": "kwercetyna, apigenina, kwas chlorogenowy",
+      "zrodlo": [8]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Sałata jadowita znana była już w starożytności jako roślina lecznicza i rytualna. W średniowieczu uznawana za 'dziki opium', stosowana przez zielarzy i medyków jako środek uspokajający, nasenny i łagodzący ból. Jej sok mleczny był używany do sporządzania mikstur na kaszel, bezsenność i bóle menstruacyjne.",
+    "cechy": [
+      "Najsilniej działająca dziko rosnąca sałata Europy",
+      "Wysoka odporność na suszę i ubogie gleby",
+      "Gorzki sok mleczny o silnym działaniu farmakologicznym",
+      "Roślina omijana przez zwierzęta ze względu na gorzki smak i trujące właściwości"
+    ],
+    "zastosowanie_historyczne": [
+      "Tradycyjny surowiec do wyrobu lactucarium – środka nasennego i uspokajającego",
+      "Dodatek do wywarów łagodzących bóle głowy i menstruacyjne",
+      "Używana w ziołolecznictwie brytyjskim i francuskim do połowy XX w.",
+      "Sporadycznie używana jako roślina magiczna i obrzędowa – 'roślina snów' w niektórych tradycjach"
+    ],
+    "ciekawostki": [
+      "Lactucarium bywało nazywane 'opium dla ubogich' – nie wywołuje uzależnienia, ale działa podobnie do środków uspokajających.",
+      "W Polsce niektóre stare zielniki podawały sałatę jadowitą jako lek na kaszel, 'nerwy', tiki i padaczkę.",
+      "Roślina trująca w większych dawkach, szczególnie dla dzieci i zwierząt domowych.",
+      "Uwaga: W USA i Europie Zachodniej używana przez niektórych zielarzy jako legalny zamiennik opium."
+    ],
+    "zrodlo": [9,10]
+  },
+  "ciekawostki_kulturowe": [
+    "W starożytnym Rzymie sok sałaty uważano za święty środek na dobry sen i spokojne sny.",
+    "W Anglii XIX wieku był popularnym składnikiem syropów uspokajających dla dzieci (obecnie niezalecane!).",
+    "W niektórych regionach Francji używana jako afrodyzjak w drobnych dawkach.",
+    "W mitologii sałata była symbolem śmierci i odrodzenia, stąd użycie w rytuałach pogrzebowych.",
+    "Lactuca virosa to także gatunek wykorzystywany do eksperymentalnej fitoremediacji skażonych terenów."
+  ],
+  "permakultura": {
+    "opis": "Sałata jadowita rzadko uprawiana celowo w permakulturze ze względu na swoje właściwości, jednak nadaje się na naturalne nieużytki, tereny rekultywacyjne i skarpy jako roślina pionierska.",
+    "funkcje": [
+      "Ogranicza erozję gleby, zasiedla tereny trudne i ubogie",
+      "Działa odstraszająco na szkodniki i roślinożerców (naturalny repelent!)",
+      "Może służyć do rekultywacji terenów zdegradowanych",
+      "Daje schronienie owadom i dzikim zapylaczom"
+    ],
+    "gildie": [
+      "Można łączyć z innymi dzikimi roślinami pionierskimi: łopianem, pokrzywą, komosą, dziewanną",
+      "Nie zaleca się uprawy w miejscach dostępnych dla dzieci i zwierząt domowych"
+    ]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Roślina trująca w dużych dawkach – powoduje senność, zawroty głowy, mdłości, w skrajnych przypadkach halucynacje i zatrucia.",
+      "rozwiazanie": "Nie stosować bez nadzoru i wiedzy zielarskiej; nie podawać dzieciom, kobietom w ciąży i osobom starszym.",
+      "zrodlo": [11]
+    },
+    {
+      "uwaga": "Lactucarium w nadmiarze może powodować porażenie ośrodka oddechowego.",
+      "rozwiazanie": "Stosować jedynie w ziołolecznictwie pod kontrolą specjalisty.",
+      "zrodlo": [12]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar_uspokajający": {
+      "skladniki": [
+        "1 łyżeczka suszonych liści sałaty jadowitej",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać wrzątkiem, parzyć pod przykryciem 8-10 minut, przecedzić.",
+      "cechy": [
+        "Złocisty napar o gorzkim smaku"
+      ],
+      "wlasciwosci": [
+        "działa uspokajająco, nasennie, rozkurczowo"
+      ],
+      "zastosowanie": "Bezsenność, niepokój, lekkie stany napięcia nerwowego.",
+      "dawkowanie": "1 filiżanka przed snem, nie dłużej niż przez 5 dni.",
+      "zrodlo": [13]
+    },
+    "syrop_na_kaszel": {
+      "skladniki": [
+        "2 łyżki świeżych liści lub łodyg sałaty jadowitej",
+        "200 ml wody",
+        "200 g miodu"
+      ],
+      "sposob_przygotowania": "Liście gotować w wodzie 5 minut, odcedzić, dodać miód. Pić po łyżeczce 2–3 razy dziennie.",
+      "cechy": [
+        "Brunatny, lekko gorzki syrop"
+      ],
+      "wlasciwosci": [
+        "łagodzi kaszel, uspokaja"
+      ],
+      "zastosowanie": "Kaszel, napady nerwicowe, trudności z zasypianiem.",
+      "dawkowanie": "Łyżeczka 2–3 razy dziennie przez max 3 dni.",
+      "zrodlo": [14]
+    },
+    "okład_na_bóle_stawów": {
+      "skladniki": [
+        "Świeże liście sałaty jadowitej",
+        "Oliwa"
+      ],
+      "sposob_przygotowania": "Liście rozetrzeć, zalać lekko podgrzaną oliwą, stosować zewnętrznie na bolące miejsca.",
+      "cechy": [
+        "Chłodzący okład, gorzki zapach"
+      ],
+      "wlasciwosci": [
+        "łagodzi bóle, działa przeciwzapalnie"
+      ],
+      "zastosowanie": "Bóle reumatyczne, bóle mięśni.",
+      "dawkowanie": "Stosować przez kilka godzin, nie na otwarte rany.",
+      "zrodlo": [15]
+    }
+  },
+  "przepisy_kulinarne": {
+    "młode_liście_na_salatke": {
+      "skladniki": [
+        "Garść młodych liści sałaty jadowitej (uwaga: tylko w minimalnych ilościach, młode liście!)",
+        "Sałata masłowa",
+        "Pomidor",
+        "Ogórek",
+        "Oliwa, sól, pieprz"
+      ],
+      "sposob_przygotowania": "Wszystkie liście dokładnie wypłukać, posiekać, wymieszać z resztą składników. Stosować jako domieszkę do sałatki.",
+      "cechy": [
+        "Gorzki, lekko pikantny smak"
+      ],
+      "wlasciwosci": [
+        "pobudza trawienie"
+      ],
+      "zastosowanie": "Sałatka z dzikich roślin (jedynie jako niewielki dodatek).",
+      "zrodlo": [16]
+    },
+    "nalewka_uspokajająca": {
+      "skladniki": [
+        "100 g świeżych liści sałaty jadowitej",
+        "500 ml spirytusu 40%",
+        "100 g cukru"
+      ],
+      "sposob_przygotowania": "Liście zalać alkoholem, odstawić na 14 dni. Odcedzić, dodać cukier, przelać do ciemnej butelki.",
+      "cechy": [
+        "Brunatna, aromatyczna nalewka"
+      ],
+      "wlasciwosci": [
+        "działa uspokajająco, łagodnie nasennie"
+      ],
+      "zastosowanie": "Kuracja na bezsenność, napady kaszlu (wyłącznie dla dorosłych, po konsultacji ze specjalistą).",
+      "dawkowanie": "5–15 kropli na noc, nie dłużej niż 7 dni.",
+      "zrodlo": [17]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Mieszanka na bezsenność (sałata jadowita, chmiel, kozłek lekarski, melisa, lawenda)",
+        "skladniki": [
+          "1/2 łyżeczki suszonych liści sałaty jadowitej",
+          "1 łyżeczka szyszek chmielu",
+          "1 łyżeczka korzenia kozłka lekarskiego",
+          "1/2 łyżeczki liści melisy",
+          "1/2 łyżeczki kwiatów lawendy",
+          "300 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć pod przykryciem 10 minut. Pić wieczorem przed snem.",
+        "cechy": [
+          "Mocno ziołowy, gorzki napar"
+        ],
+        "wlasciwosci": [
+          "nasenna, uspokajająca"
+        ],
+        "zastosowanie": "Przy problemach z zasypianiem.",
+        "zrodlo": [18]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Sałatka z młodych liści dzikich (sałata jadowita, mniszek, szczaw, babka, rukola, rzodkiewka)",
+        "skladniki": [
+          "1 mała garść młodych liści sałaty jadowitej (min. ilość!)",
+          "1 garść liści mniszka",
+          "kilka liści szczawiu",
+          "kilka liści babki lancetowatej",
+          "garść rukoli",
+          "2 rzodkiewki",
+          "oliwa, sól, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki posiekać, wymieszać z oliwą i przyprawami. Sałatę jadowitą stosować tylko jako symboliczny dodatek.",
+        "cechy": [
+          "Gorzko-pikantny smak, witaminowa bomba"
+        ],
+        "wlasciwosci": [
+          "oczyszczająca, pobudzająca trawienie"
+        ],
+        "zastosowanie": "Sałatki wiosenne, przystawka dla koneserów.",
+        "zrodlo": [19]
+      }
+    ]
+  },
+  "bibliografia": {
+    "1": "https://pl.wikipedia.org/wiki/Sa%C5%82ata_jadowita",
+    "2": "https://www.biolib.cz/en/taxon/id39836/",
+    "3": "https://www.botanical-online.com/en/medicinal-plants/lactuca-virosa",
+    "4": "https://www.naturalmed.pl/encyklopedia/lactuca-virosa",
+    "5": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5084042/",
+    "6": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7148014/",
+    "7": "https://www.phytochemicals.info/plants/lactuca-virosa.php",
+    "8": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5871144/",
+    "9": "https://herbpathy.com/Uses-and-Benefits-of-Lactuca-Virosa-Cid2718",
+    "10": "https://www.drugs.com/npp/wild-lettuce.html",
+    "11": "https://www.webmd.com/vitamins/ai/ingredientmono-289/wild-lettuce",
+    "12": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-lactuca-virosa-l-herba_en.pdf",
+    "13": "https://www.naturallivingideas.com/wild-lettuce-benefits/",
+    "14": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6520897/",
+    "15": "https://www.botanical.com/botanical/mgmh/l/latuca07.html",
+    "16": "https://www.eatweeds.co.uk/lactuca-virosa-wild-lettuce",
+    "17": "https://www.drugs.com/npp/wild-lettuce.html",
+    "18": "https://www.herbalremediesadvice.org/wild-lettuce.html",
+    "19": "https://www.gardenersworld.com/how-to/grow-plants/how-to-identify-wild-lettuce/"
+  }
+}

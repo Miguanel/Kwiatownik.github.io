@@ -678,5 +678,11 @@
     "40": "https://zielnikpolski.pl/barwnik-dab/",
     "41": "https://www.farmer.pl/zwierzeta/zywienie/zoledzie-dla-zwierzat,79271.html",
     "42": "https://zielnikpolski.pl/drewno-dab/"
-  }
+  },
+  "kalendarz": {
+    "siew": [3,4,5],
+    "sadzenie": [4,5],
+    "zbior": [6,7,8,9]
+}
+
 }

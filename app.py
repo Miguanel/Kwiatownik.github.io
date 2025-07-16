@@ -174,9 +174,7 @@ def search():
 
 @app.route("/ulubione")
 def ulubione():
-    # Sama strona; lista w localStorage, pobiera dane przez JS
-    return render_template("ulubione.html")
-
+    return render_template("ulubione.html", all_plants=all_plants())
 
 @app.route("/porownaj")
 def porownaj():
