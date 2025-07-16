@@ -17,14 +17,16 @@
         {% endif %}
     </div>
     <div class="plant-actions" style="margin: 1.1em 0 1.5em 0; display: flex; gap: 1.1em;">
-        <button type="button" class="plant-action-btn" id="fav-main-btn" onclick="toggleFav('{{ slug }}'); updateFavBtn('{{ slug }}');">
-            <span class="fav-icon" style="font-size:1.19em;">💚</span>
-            <span class="fav-label">Dodaj do ulubionych</span>
-        </button>
-        <button type="button" class="plant-action-btn" id="garden-main-btn" onclick="toggleGarden('{{ slug }}'); updateGardenBtn('{{ slug }}');">
-            <span class="garden-icon" style="font-size:1.15em;">🌱</span>
-            <span class="garden-label">Dodaj do ogrodu</span>
-        </button>
+        <button type="button" class="plant-action-btn" id="fav-main-btn"
+        onclick="toggleFav('{{ category }}','{{ slug }}'); updateFavBtn('{{ category }}','{{ slug }}');">
+    <span class="fav-icon" style="font-size:1.19em;">💚</span>
+    <span class="fav-label">Dodaj do ulubionych</span>
+</button>
+<button type="button" class="plant-action-btn" id="garden-main-btn"
+        onclick="toggleGarden('{{ category }}','{{ slug }}'); updateGardenBtn('{{ category }}','{{ slug }}');">
+    <span class="garden-icon" style="font-size:1.15em;">🌱</span>
+    <span class="garden-label">Dodaj do ogrodu</span>
+</button>
     </div>
 </div>
 <!-- Karuzela zdjęć -->

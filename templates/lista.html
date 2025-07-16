@@ -8,7 +8,8 @@
         <option value="">- Działanie -</option>
         <option value="przeciwzapalne" {% if dzialanie=="przeciwzapalne" %}selected{% endif %}>Przeciwzapalne</option>
         <option value="uspokajające" {% if dzialanie=="uspokajające" %}selected{% endif %}>Uspokajające</option>
-        <option value="przeciwbakteryjne" {% if dzialanie=="przeciwbakteryjne" %}selected{% endif %}>Przeciwbakteryjne</option>
+        <option value="przeciwbakteryjne" {% if dzialanie=="przeciwbakteryjne" %}selected{% endif %}>Przeciwbakteryjne
+        </option>
         <option value="rozkurczowe" {% if dzialanie=="rozkurczowe" %}selected{% endif %}>Rozkurczowe</option>
         <!-- Więcej opcji wedle potrzeb -->
     </select>
@@ -30,9 +31,10 @@
                 <b>{{ data.gatunek }}</b>
             </a>
             {% if data.nazwa_lacinska %}<i>({{ data.nazwa_lacinska }})</i>{% endif %}
-            <span class="fav-btn" data-plant="{{ slug }}" onclick="toggleFav('{{ slug }}')" title="Dodaj/usuń z ulubionych">💚</span>
-            <span class="garden-btn" data-plant="{{ slug }}" onclick="toggleGarden('{{ slug }}')" title="Dodaj/usuń do ogrodu">🌱</span>
-            <span class="compare-btn" onclick="addCompare('{{ slug }}','{{ category }}')" title="Porównaj">🔁</span>
+            <span class="fav-btn" data-plant="{{ category }}/{{ slug }}" onclick="toggleFav('{{ category }}','{{ slug }}')" ...>💚</span>
+<span class="garden-btn" data-plant="{{ category }}/{{ slug }}" onclick="toggleGarden('{{ category }}','{{ slug }}')" ...>🌱</span>
+
+            <span class="compare-btn" onclick="addCompare('{{ category }}','{{ slug }}')" title="Porównaj">🔁</span>
         </div>
         <div style="font-size:0.95em; margin-top:0.4em;">
             <b>Ścieżka:</b>
@@ -40,9 +42,9 @@
         </div>
         {% set trujaca = false %}
         {% for uwaga in data.uwagi_i_ostrzezenia %}
-            {% if 'trujący' in uwaga.uwaga|lower %}
-                {% set trujaca = true %}
-            {% endif %}
+        {% if 'trujący' in uwaga.uwaga|lower %}
+        {% set trujaca = true %}
+        {% endif %}
         {% endfor %}
         {% if trujaca %}
         <div style="color:red;font-weight:bold;">☠️ Ostrzeżenie: trująca!</div>
@@ -52,5 +54,6 @@
 </div>
 <script>
 window.onload = updateFavIcons;
+
 </script>
 {% endblock %}

@@ -13,11 +13,34 @@
 <script>
 const allPlantsData = {{ all_plants|tojson }};
 
-window.onload = function() {
-    showFavList();
-    showGardenList();
-    showCalendar();
-};
+
+
+// Poprawione funkcje:
+function showFavList() {
+    let favs = getFavs();
+    let ul = document.getElementById("fav-list");
+    ul.innerHTML = "";
+    if(favs.length==0) {ul.innerHTML = "<li>Brak ulubionych roślin.</li>"; return;}
+    favs.forEach(function(path){
+        let [cat, slug] = path.split("/");
+        // Znajdź polską nazwę:
+        let plant = allPlantsData.find(p => p.category === cat && p.slug === slug);
+        let name = plant ? plant.name : slug.replace("_"," ");
+        ul.innerHTML += `<li><a href="/${cat}/${slug}">${name}</a></li>`;
+    });
+}
+function showGardenList() {
+    let g = getGarden();
+    let ul = document.getElementById("garden-list");
+    ul.innerHTML = "";
+    if(g.length==0) {ul.innerHTML = "<li>Nie masz roślin w ogrodzie.</li>"; return;}
+    g.forEach(function(path){
+        let [cat, slug] = path.split("/");
+        let plant = allPlantsData.find(p => p.category === cat && p.slug === slug);
+        let name = plant ? plant.name : slug.replace("_"," ");
+        ul.innerHTML += `<li><a href="/${cat}/${slug}">${name}</a></li>`;
+    });
+}
 
 // ---- KALENDARZ SIEWU I ZBIORU ----
 
@@ -27,7 +50,6 @@ function findNextEvent(monthArray, label) {
     let currentMonth = now.getMonth() + 1;
     let currentDay = now.getDate();
     let currentYear = now.getFullYear();
-    // Sortujemy miesiące rosnąco, by zawsze znaleźć najbliższy
     let sorted = monthArray.slice().sort((a,b)=>a-b);
     for(let i=0; i<sorted.length; ++i) {
         let m = sorted[i];
@@ -36,12 +58,10 @@ function findNextEvent(monthArray, label) {
             let diff = Math.round((date - now) / (1000*60*60*24*7));
             return { label: label, month: m, weeks: diff };
         }
-        // Jeśli to ten sam miesiąc i właśnie trwa - pokaż "Teraz"
         if(m === currentMonth && currentDay >= 1 && currentDay <= 25) {
             return { label: label, month: m, weeks: 0 };
         }
     }
-    // Jeśli w tym roku nie ma, to pierwszy w przyszłym
     if(sorted.length) {
         let m = sorted[0];
         let date = new Date(currentYear+1, m-1, 1);
@@ -59,11 +79,11 @@ function showCalendar() {
     let html = "<table class='calendar-table'><tr><th>Roślina</th>";
     for(let m=0;m<12;m++) html += `<th>${months[m]}</th>`;
     html += "<th>Status</th></tr>";
-    favs.forEach(function(slug){
-        let plant = allPlantsData.find(p=>p.slug===slug);
+    favs.forEach(function(path){
+        let [cat, slug] = path.split("/");
+        let plant = allPlantsData.find(p=>p.category === cat && p.slug === slug);
         if(!plant) return;
         let kal = plant.data.kalendarz || {};
-        // Oblicz najbliższy zbiór, siew lub sadzenie
         let events = [];
         let nextZbior = findNextEvent(kal.zbior, "zbiór");
         let nextSiew = findNextEvent(kal.siew, "siew");
@@ -71,7 +91,6 @@ function showCalendar() {
         [nextZbior, nextSiew, nextSadzenie].forEach(e=>{
             if(e && e.weeks >= 0 && e.weeks <= 8) events.push(e);
         });
-        // Wiersz
         html += `<tr><td><b>${plant.name}</b> <i style="color:#789044;">(${plant.latin})</i></td>`;
         for(let m=1;m<=12;m++) {
             let ikony = '';
@@ -80,7 +99,6 @@ function showCalendar() {
             if(kal.zbior && kal.zbior.includes(m)) ikony += '🍃';
             html += `<td style="text-align:center;">${ikony}</td>`;
         }
-        // Kolumna statusu:
         if(events.length) {
             html += `<td style="color:#39790e;font-weight:bold;">`;
             events.forEach(e => {
@@ -98,5 +116,11 @@ function showCalendar() {
     html += "</table>";
     root.innerHTML = html;
 }
+
+window.onload = function() {
+    showFavList();
+    showGardenList();
+    showCalendar();
+};
 </script>
 {% endblock %}
