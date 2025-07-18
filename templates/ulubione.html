@@ -117,54 +117,54 @@ function showGardenList() {
         </li>`;
     });
 }
-
-function findNextEvent(monthArray, label) {
-    if (!monthArray) return null;
-    let now = new Date();
-    let currentMonth = now.getMonth() + 1;
-    let currentDay = now.getDate();
-    let currentYear = now.getFullYear();
-    let sorted = monthArray.slice().sort((a, b) => a - b);
-    for (let i = 0; i < sorted.length; ++i) {
-        let m = sorted[i];
-        if (m > currentMonth || (m === currentMonth && currentDay < 25)) {
-            let date = new Date(currentYear, m - 1, 1);
-            let diff = Math.round((date - now) / (1000 * 60 * 60 * 24 * 7));
-            return { label: label, month: m, weeks: diff };
-        }
-        if (m === currentMonth && currentDay >= 1 && currentDay <= 25) {
-            return { label: label, month: m, weeks: 0 };
-        }
-    }
-    if (sorted.length) {
-        let m = sorted[0];
-        let date = new Date(currentYear + 1, m - 1, 1);
-        let diff = Math.round((date - now) / (1000 * 60 * 60 * 24 * 7));
-        return { label: label, month: m, weeks: diff };
-    }
-    return null;
-}
-
 function renderCalendarTable(plants) {
     let now = new Date();
-    let thisMonth = now.getMonth(); // 0-indexed!
+    let thisMonth = now.getMonth() + 1; // 1-indexed
     let months = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"];
     let html = `<div class="calendar-scrollbox"><table class='calendar-table' style='margin-top:0.9em; border-collapse:collapse;'>
         <tr><th>Roślina</th>`;
     for (let m = 0; m < 12; m++) {
-        html += `<th class="calendar-month${m === thisMonth ? ' calendar-month-current' : ''}">${months[m]}</th>`;
+        html += `<th class="calendar-month${m + 1 === thisMonth ? ' calendar-month-current' : ''}">${months[m]}</th>`;
     }
     html += "<th>Status</th></tr>";
     plants.forEach(function(plant) {
         if (!plant) return;
         let kal = plant.data.kalendarz || {};
-        let events = [];
-        let nextZbior = findNextEvent(kal.zbior, "zbiór");
-        let nextSiew = findNextEvent(kal.siew, "siew");
-        let nextSadzenie = findNextEvent(kal.sadzenie, "sadzenie");
-        [nextZbior, nextSiew, nextSadzenie].forEach(e => {
-            if (e && e.weeks >= 0 && e.weeks <= 8) events.push(e);
+
+        // Definicje typów eventów i ikon
+        let types = [
+            { arr: kal.siew, label: "siew", icon: "🌱" },
+            { arr: kal.sadzenie, label: "sadzenie", icon: "🥬" },
+            { arr: kal.zbior, label: "zbiór", icon: "🍃" }
+        ];
+
+        // Wszystkie wydarzenia: {month, label}
+        let eventList = [];
+        types.forEach(t => {
+            if (!t.arr) return;
+            t.arr.forEach(m => {
+                eventList.push({ month: m, label: t.label });
+            });
         });
+
+        // Najbliższe wydarzenia
+        let minWeeks = null;
+        let eventsByMonth = {};
+
+        eventList.forEach(ev => {
+            let m = Number(ev.month);
+            let eventYear = now.getFullYear();
+            if (m < thisMonth) eventYear += 1;
+            let isCurrentMonth = (m === thisMonth);
+            let eventDate = new Date(eventYear, m - 1, 1);
+            let weeks = Math.round((eventDate - now) / (1000 * 60 * 60 * 24 * 7));
+            if (isCurrentMonth) weeks = 0;
+            if (minWeeks === null || weeks < minWeeks) minWeeks = weeks;
+            if (!eventsByMonth[weeks]) eventsByMonth[weeks] = [];
+            eventsByMonth[weeks].push(ev.label);
+        });
+
+        // Ikony miesięczne
         html += `<tr>
         <td style="white-space:nowrap;">
             <div style="display:flex;align-items:center;gap:0.7em;">
@@ -174,19 +174,21 @@ function renderCalendarTable(plants) {
         </td>`;
         for (let m = 1; m <= 12; m++) {
             let ikony = '';
-            if (kal.siew && kal.siew.includes(m)) ikony += '🌱';
-            if (kal.sadzenie && kal.sadzenie.includes(m)) ikony += '🥬';
-            if (kal.zbior && kal.zbior.includes(m)) ikony += '🍃';
+            types.forEach(t => {
+                if (t.arr && t.arr.includes(m)) ikony += t.icon;
+            });
             html += `<td style="text-align:center;min-width:28px;">${ikony}</td>`;
         }
-        if (events.length) {
+
+        // STATUS tylko dla najbliższych wydarzeń
+        if (minWeeks !== null && minWeeks >= 0) {
+            let uniqueLabels = Array.from(new Set(eventsByMonth[minWeeks])).sort();
+            let textLabels = uniqueLabels.map(l => `<b>${l}</b>`).join(", ");
             html += `<td style="color:#39790e;font-weight:bold;">`;
-            events.forEach(e => {
-                if (e.weeks === 0)
-                    html += `<span style="color:#d95d1a;">Trwa ${e.label}!</span><br>`;
-                else
-                    html += `Za ${e.weeks} tyg. → <b>${e.label}</b><br>`;
-            });
+            if (minWeeks === 0)
+                html += `<span style="color:#d95d1a;">Trwa ${textLabels}!</span>`;
+            else
+                html += `Za ${minWeeks} tyg. → ${textLabels}`;
             html += `</td>`;
         } else {
             html += `<td style="color:#999;">Brak nadchodzących wydarzeń</td>`;
@@ -196,6 +198,9 @@ function renderCalendarTable(plants) {
     html += "</table></div>";
     return html;
 }
+
+
+
 
 function showCalendar() {
     let favs = getFavs();

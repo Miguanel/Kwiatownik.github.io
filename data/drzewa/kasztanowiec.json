@@ -1,150 +1,123 @@
 {
-  "gatunek": "Kasztanowiec zwyczajny",
+  "gatunek": "Kasztanowiec zwyczajny/pospolity",
   "nazwa_lacinska": "Aesculus hippocastanum",
-  "podgatunek": null,
   "nazwa_zbioru": [
     "Drzewa",
-    "Mydleńcowate",
+    "Drzewa liściaste",
+    "Mydlowcowate",
     "Aesculus",
     "Kasztanowiec zwyczajny"
   ],
   "zdjecia": [
-    "https://atlas-roslin.pl/images/atlas/2134.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/5/53/Aesculus_hippocastanum_001.jpg",
-    "https://www.gardenersworld.com/wp-content/uploads/2021/08/conkers-GettyImages-959273568.jpg",
-    "https://www.zielnik.edu.pl/photos/Aesculus_hippocastanum_1.jpg"
+    "https://syberianhealth.com/uploads/h/temp/c6173444425d130a0dc624838bda0ab8.gif",
+    "https://www.podkarpackiesady.pl/userdata/public/gfx/16630/Kasztanowiec-zwyczajny.jpg",
+    "https://wola.um.warszawa.pl/documents/52075472/55162684/grenady-12-kasztanowiec-grafika.jpg/292962c1-33cb-e56e-ae1d-f60439b4438c?version=1.0&t=1656583342091&imagePreview=1",
+    "https://galeriaogrodowa.pl/wp-content/uploads/2022/01/Kasztanowiec-pospolity%E2%80%93-Aesculus-hippocastanum-drzewo-drzewa-sadzonki-w-donicach-szkolka-sprzedaz-sklep-do-ogrodu-sadzenia-lisciaste-liscie.jpg"
   ],
-  "uprawa": {
-    "gleba": "Gleba żyzna, głęboka, wilgotna, lekko kwaśna do obojętnej.",
-    "stanowisko": "Stanowisko słoneczne do półcienistego, odporny na zanieczyszczenia powietrza.",
-    "wysiew": "Nasiona (kasztany) sieje się jesienią lub po stratyfikacji wiosną bezpośrednio do gruntu.",
-    "zbior": "Kwiaty w maju, owoce (kasztany) od września do października."
-  },
-  "wystepowanie": {
-    "obszar": "Europa Południowo-Wschodnia (góry Półwyspu Bałkańskiego), szeroko rozpowszechniony jako drzewo parkowe w Europie.",
-    "w_polsce": "Pospolity w całym kraju, sadzony w parkach, przy alejach, cmentarzach; dziczeje lokalnie.",
-    "zrodlo": [1, 2]
-  },
   "opis_botaniczny": {
-    "pokroj": "Drzewo liściaste do 25–30 m wysokości, szerokostożkowe, z grubym pniem.",
-    "lodyga": "Pień prosty, kora szarobrązowa, głęboko spękana u starszych drzew.",
-    "liscie": "Duże, dłoniasto złożone z 5–7 jajowatych listków, brzeg nierównomiernie piłkowany.",
-    "kwiaty": "Duże wiechy (15–30 cm) białych kwiatów z różowo-żółtymi plamkami, kwitną w maju.",
-    "owoce": "Kuliste, zielone torebki z kolcami, wewnątrz 1–3 brązowe nasiona (kasztany).",
-    "zapach": "Kwiaty mają lekko słodki zapach.",
-    "cecha_wyrozniajaca": "Okazałe wiechy kwiatów w maju, dłoniasto złożone liście, kolczaste owoce z błyszczącym 'kasztanem'.",
-    "zrodlo": [3, 4]
+    "pokroj": "Drzewo liściaste dorastające do 30 m wysokości, z rozłożystą, gęstą koroną i krótkim, masywnym pniem.",
+    "kora": "Młoda jasnobrązowa, gładka; u starszych drzew szarobrązowa, spękana.",
+    "liscie": "Duże, dłoniasto złożone, z 5–7 szerokoeliptycznymi listkami, brzegiem piłkowane, sezonowo opadające.",
+    "kwiaty": "Duże, białe z różowymi plamkami, zebrane w wiechowate, wzniesione kwiatostany – rozkwit w maju.",
+    "owoce": "Kolczaste, zielone torebki z dużym, lśniącobrązowym nasieniem (tzw. 'kasztan'), niejadalnym dla ludzi.",
+    "cecha_wyrozniajaca": "Piękne, duże kwiatostany; nasiona silnie trujące dla ludzi, bez charakterystycznej osłonki (jak u kasztana jadalnego).",
+    "zrodlo": [
+      1,
+      2
+    ]
   },
   "wlasciwosci_i_skladniki": [
     {
-      "nazwa": "Escyna",
-      "dzialanie": "uszczelnia naczynia krwionośne, przeciwobrzękowa, przeciwzapalna",
-      "sklad": "saponina triterpenowa",
-      "ciekawostka": "Obniża przepuszczalność naczyń włosowatych.",
-      "zrodlo": [5]
+      "nazwa": "Escyna (saponiny triterpenowe)",
+      "dzialanie": "Silnie przeciwobrzękowe, uszczelnia naczynia, poprawia mikrokrążenie, działa przeciwzapalnie i przeciwzakrzepowo.",
+      "sklad": "escyna (główny składnik aktywny), saponiny, flawonoidy, garbniki",
+      "ciekawostka": "Escyna wykorzystywana jest w nowoczesnych lekach i żelach na żylaki oraz siniaki.",
+      "zrodlo": [
+        3
+      ]
     },
     {
-      "nazwa": "Flawonoidy",
-      "dzialanie": "antyoksydacyjne, przeciwzapalne, wzmacniające naczynia",
-      "sklad": "kwercetyna, rutyna",
-      "zrodlo": [6]
+      "nazwa": "Flawonoidy (rutyna, kwercetyna)",
+      "dzialanie": "Wzmacniają naczynia krwionośne, działają antyoksydacyjnie i przeciwzapalnie.",
+      "sklad": "rutyna, kwercetyna, kemferol",
+      "zrodlo": [
+        4
+      ]
     },
     {
-      "nazwa": "Aesculina",
-      "dzialanie": "przeciwzakrzepowa, poprawia mikrokrążenie",
-      "sklad": "kumaryna",
-      "zrodlo": [7]
-    },
-    {
-      "nazwa": "Garbniki",
-      "dzialanie": "ściągające, przeciwzapalne",
-      "zrodlo": [8]
-    },
-    {
-      "nazwa": "Skrobia i saponiny",
-      "dzialanie": "myjące, pianotwórcze, łagodnie przeciwbakteryjne",
-      "zrodlo": [9]
+      "nazwa": "Garbniki i fenolokwasy",
+      "dzialanie": "Ściągające, lekko odkażające, ograniczają sączenie ran i stanów zapalnych.",
+      "sklad": "kwas galusowy, taniny, kwasy fenolowe",
+      "zrodlo": [
+        5
+      ]
     }
   ],
   "cechy_i_historia": {
-    "opis": "Kasztanowiec zwyczajny wprowadzono do Europy Środkowej w XVI w. z Bałkanów. Stał się symbolem parków, placów i cmentarzy. W lecznictwie ludowym stosowany na rany, żylaki, obrzęki, siniaki. Kasztany używano też do prania i mycia dzięki zawartości saponin. Kora i liście były składnikiem naparów na kaszel.",
+    "opis": "Kasztanowiec zwyczajny to popularne drzewo sadzone w parkach, alejach i ogrodach Europy. Pochodzi z Bałkanów, a do Polski trafił w XVII wieku jako roślina ozdobna i lecznicza. Największą wartość mają jego kwiaty, kora i owoce – bogate w związki uszczelniające naczynia krwionośne.",
     "cechy": [
-      "Imponujące, dekoracyjne drzewo cieniodajne",
-      "Kwiaty wabią pszczoły i trzmiele",
-      "Owoce (kasztany) nie są jadalne dla ludzi – lekko trujące"
+      "Jedno z najczęściej stosowanych drzew w ziołolecznictwie na żylaki i siniaki.",
+      "Duże, białe kwiatostany są miododajne i przyciągają pszczoły.",
+      "Owoce są wyłącznie do zastosowań zewnętrznych lub technicznych – nie nadają się do spożycia!"
     ],
     "zastosowanie_historyczne": [
-      "Napar z kory na stany zapalne i żylaki",
-      "Maść z kwiatów na bóle reumatyczne",
-      "Kasztany używane jako środek piorący, dawniej na wszy",
-      "Napar z liści na kaszel i przeziębienie"
+      "Odwar z kory stosowano do kąpieli na zmęczone, opuchnięte nogi.",
+      "Maceraty z owoców służyły do mycia włosów i prania delikatnych tkanin.",
+      "W dawnej medycynie ludowej owoce kasztanowca były wykorzystywane na okłady przy reumatyzmie i stłuczeniach."
     ],
     "ciekawostki": [
-      "Kasztanowce sadzono przy szpitalach jako rośliny ochronne",
-      "Z kasztanów dzieci robią ludziki i zwierzątka.",
-      "Kasztany położone w domu odstraszają mole i pająki.",
-      "W Niemczech kasztanowiec był drzewem symbolizującym szczęście – sadzono go przy karczmach.",
-      "W staropolskich wierzeniach kasztany noszono przy sobie na 'odporność na uroki'."
+      "Nasiona kasztanowca zwyczajnego były składnikiem domowych środków do polerowania podłóg i czyszczenia sreber.",
+      "Współczesne leki na żylaki i hemoroidy bardzo często zawierają wyciąg z nasion lub kory kasztanowca.",
+      "W mitologii kasztanowce uznawano za drzewa przynoszące szczęście i ochronę domu."
     ],
-    "zrodlo": [10, 11]
-  },
-  "ciekawostki_kulturowe": [
-    "W Austrii kasztanowiec sadzono przy piwiarniach – jego cień dawał chłód w lecie.",
-    "Kasztanowiec w Polsce stał się symbolem matury – kwitnie zwykle w czasie egzaminów.",
-    "Na Słowacji kasztany rzucano do ognia dla ochrony domostwa.",
-    "W krajach słowiańskich kwiaty kasztanowca używano w bukietach ślubnych na szczęście.",
-    "Z drewna kasztanowca wytwarzano dawniej elementy ozdobne do wnętrz pałaców.",
-    "W Anglii popularna jest gra dziecięca 'conkers', gdzie używa się kasztanów do toczenia."
-  ],
-  "permakultura": {
-    "opis": "Kasztanowiec zwyczajny to cenne drzewo w dużych ogrodach permakulturowych: daje cień, wiąże wodę w glebie, poprawia mikroklimat.",
-    "funkcje": [
-      "Tworzy mikroklimat i cień dla innych roślin",
-      "Liście i kwiaty mogą być kompostowane, wzbogacają glebę w potas",
-      "Kasztany stosowane jako naturalny detergent do prania",
-      "Dobrze sprawdza się przy stawach i wzdłuż alei"
-    ],
-    "gildie": [
-      "Nadaje się do sadzenia w parkach, przy szkołach, na obrzeżach ogrodów z lipą, klonem, robinią, jarzębem",
-      "Tworzy biotop dla ptaków i owadów zapylających"
+    "zrodlo": [
+      6,
+      7
     ]
   },
   "uwagi_i_ostrzezenia": [
     {
-      "uwaga": "Kasztany, kora i liście są lekko trujące – nie spożywać dużych ilości. U dzieci mogą wywołać wymioty, biegunkę.",
-      "rozwiazanie": "Preparaty stosować zgodnie z zaleceniami; kasztany tylko do użytku zewnętrznego lub jako środek piorący.",
-      "zrodlo": [12]
+      "uwaga": "Owoce kasztanowca zwyczajnego NIE są jadalne – zawierają trujące saponiny (escynę), które mogą powodować poważne zatrucia u ludzi i zwierząt domowych.",
+      "rozwiazanie": "Nie stosować do spożycia żadnych przetworów z owoców kasztanowca zwyczajnego! Do jedzenia nadają się wyłącznie kasztany jadalne (Castanea sativa), które wyglądają inaczej i rosną głównie w południowej Europie.",
+      "zrodlo": [
+        8
+      ]
     },
     {
-      "uwaga": "Zbieraj tylko zdrowe, niezaatakowane przez szrotówka kasztanowcowiaczka owoce i liście.",
-      "rozwiazanie": "Usuń i spal porażone liście jesienią.",
-      "zrodlo": [13]
+      "uwaga": "Przetwory z owoców kasztanowca mogą być używane tylko ZEWNĘTRZNIE, np. do maści, okładów, mydeł i kąpieli.",
+      "rozwiazanie": "Zawsze wyraźnie oznacz, że produkty są niejadalne i służą tylko do użytku zewnętrznego.",
+      "zrodlo": [
+        8
+      ]
     }
   ],
   "przepisy_medyczne": {
     "napar_z_kwiatow": {
       "skladniki": [
-        "1 łyżka świeżych lub suszonych kwiatów kasztanowca",
-        "250 ml wrzątku"
+        "1 łyżka świeżych lub suszonych kwiatów kasztanowca (najlepiej młode, zebrane w maju)",
+        "250 ml wrzątku (świeża woda)"
       ],
-      "sposob_przygotowania": "Kwiaty zalać wrzątkiem, parzyć pod przykryciem 10–15 minut, przecedzić.",
+      "sposob_przygotowania": "Kwiaty zalać wrzątkiem, parzyć pod przykryciem 10–15 minut, odcedzić.",
       "cechy": [
         "Delikatny, lekko gorzki napar"
       ],
       "wlasciwosci": [
         "przeciwzapalny",
-        "uszczelnia naczynia"
+        "uszczelnia naczynia krwionośne"
       ],
-      "zastosowanie": "Przy żylakach, skłonności do siniaków, jako okłady na opuchliznę.",
-      "dawkowanie": "Pić 1/3 szklanki 2 razy dziennie lub stosować zewnętrznie.",
-      "zrodlo": [14]
+      "zastosowanie": "Pomocniczo przy żylakach, skłonności do siniaków, do okładów na opuchliznę.",
+      "dawkowanie": "Pić 1/3 szklanki 2 razy dziennie przez maksymalnie 2 tygodnie lub stosować zewnętrznie.",
+      "uwagi": "Nie stosować u dzieci poniżej 12 r.ż. oraz w ciąży.",
+      "zrodlo": [
+        14
+      ]
     },
     "odwar_z_kory": {
       "skladniki": [
-        "1 łyżka suszonej kory kasztanowca",
-        "300 ml wody"
+        "1 łyżka suszonej kory kasztanowca (młoda kora, dobrze wysuszona)",
+        "300 ml wody (świeża)"
       ],
-      "sposob_przygotowania": "Kory gotować 10 min, odstawić, przecedzić.",
+      "sposob_przygotowania": "Korę zalać zimną wodą, zagotować, gotować 10 min pod przykryciem. Odstawić na 5 min, odcedzić.",
       "cechy": [
         "Ciemniejszy, cierpki odwar"
       ],
@@ -152,32 +125,36 @@
         "ściągający",
         "przeciwzapalny"
       ],
-      "zastosowanie": "Do przemywania skóry z żylakami, siniakami, przy opuchliznach.",
-      "dawkowanie": "Stosować zewnętrznie.",
-      "zrodlo": [15]
+      "zastosowanie": "Przemywanie skóry z żylakami, siniakami, obrzękami, do okładów.",
+      "dawkowanie": "Tylko zewnętrznie, 2 razy dziennie.",
+      "zrodlo": [
+        15
+      ]
     },
     "macerat_z_kasztanow": {
       "skladniki": [
-        "5 obranych kasztanów (zmiażdżonych)",
-        "200 ml przegotowanej wody"
+        "5 świeżych kasztanów (obranych, zmiażdżonych, najlepiej duże i młode)",
+        "200 ml przegotowanej letniej wody"
       ],
-      "sposob_przygotowania": "Kasztany zalać wodą, odstawić na 12 godzin, przecedzić.",
+      "sposob_przygotowania": "Kasztany rozdrobnić, zalać wodą, odstawić pod przykryciem na 12 godzin w chłodzie, odcedzić.",
       "cechy": [
         "Mętny płyn, lekko mydlany zapach"
       ],
       "wlasciwosci": [
         "lekko odkażający, myjący"
       ],
-      "zastosowanie": "Do przemywania skóry z trądzikiem, do mycia włosów.",
-      "dawkowanie": "Zewnętrznie.",
-      "zrodlo": [16]
+      "zastosowanie": "Do przemywania skóry z trądzikiem, łojotokiem, do mycia włosów przetłuszczających się.",
+      "dawkowanie": "Zewnętrznie, codziennie przez 7 dni.",
+      "zrodlo": [
+        16
+      ]
     },
     "nalewka_na_żylaki": {
       "skladniki": [
         "1 szklanka świeżych owoców kasztanowca (pokrojonych na kawałki)",
-        "250 ml spirytusu 70%"
+        "250 ml spirytusu 70% lub wódki 50%"
       ],
-      "sposob_przygotowania": "Kasztany zalać alkoholem, odstawić na 2 tygodnie, codziennie wstrząsać, przecedzić.",
+      "sposob_przygotowania": "Kasztany zalać alkoholem, odstawić na 2 tygodnie w ciemnym miejscu, codziennie wstrząsać, odcedzić.",
       "cechy": [
         "Brunatny, ostry płyn"
       ],
@@ -185,31 +162,35 @@
         "przeciwobrzękowy, uszczelniający naczynia"
       ],
       "zastosowanie": "Do wcierania przy żylakach, pajączkach, bólach nóg.",
-      "dawkowanie": "Stosować zewnętrznie.",
-      "zrodlo": [17]
+      "dawkowanie": "Stosować zewnętrznie 2 razy dziennie.",
+      "zrodlo": [
+        17
+      ]
     },
     "maść_z_kwiatow": {
       "skladniki": [
-        "50 g świeżych kwiatów kasztanowca",
-        "100 g smalcu lub oleju kokosowego"
+        "50 g świeżych kwiatów kasztanowca (młode, aromatyczne)",
+        "100 g smalcu wieprzowego lub oleju kokosowego (świeżego, nierafinowanego)"
       ],
-      "sposob_przygotowania": "Kwiaty podgrzać w tłuszczu na małym ogniu przez 2 godziny, przecedzić, przelać do słoiczka.",
+      "sposob_przygotowania": "Kwiaty podgrzać w tłuszczu przez 2 godziny na bardzo małym ogniu, nie doprowadzać do wrzenia. Przecedzić przez gazę, przelać do słoiczka.",
       "cechy": [
-        "Biała, pachnąca maść"
+        "Biała lub jasnożółta, pachnąca maść"
       ],
       "wlasciwosci": [
-        "łagodzi ból, przyspiesza gojenie siniaków"
+        "łagodzi ból, przyspiesza gojenie siniaków, wzmacnia naczynka"
       ],
       "zastosowanie": "Na bóle reumatyczne, stłuczenia, siniaki.",
       "dawkowanie": "Smarować 2 razy dziennie.",
-      "zrodlo": [18]
+      "zrodlo": [
+        18
+      ]
     },
     "kąpiel_z_kory": {
       "skladniki": [
-        "4 łyżki kory kasztanowca",
+        "4 łyżki kory kasztanowca (świeżej lub suszonej, młoda kora)",
         "2 litry wody"
       ],
-      "sposob_przygotowania": "Kory gotować 20 min, przecedzić do wanny z wodą.",
+      "sposob_przygotowania": "Kory gotować 20 min pod przykryciem, odcedzić do wanny z wodą.",
       "cechy": [
         "Brązowy, lekko gorzki płyn"
       ],
@@ -218,89 +199,48 @@
       ],
       "zastosowanie": "Do kąpieli przy obrzękach nóg.",
       "dawkowanie": "2 razy w tygodniu.",
-      "zrodlo": [19]
+      "zrodlo": [
+        19
+      ]
     }
   },
-  "przepisy_kulinarne": {
-    "syrop_z_kwiatow": {
+  "przepisy_domowe": {
+    "mydlo_z_kasztanow": {
       "skladniki": [
-        "2 szklanki świeżych kwiatów kasztanowca",
-        "1 litr wody",
-        "1 cytryna",
-        "700 g cukru"
+        "10–12 świeżych kasztanów (obranych, pokrojonych na kawałki, młode i jędrne)",
+        "woda (do gotowania, świeża)",
+        "opcjonalnie: kilka kropli olejku eterycznego (np. lawendowego)"
       ],
-      "sposob_przygotowania": "Kwiaty zalać wrzątkiem z cytryną, odstawić na noc, odcedzić, dodać cukier, zagotować, przelać do butelek.",
+      "sposob_przygotowania": "Kasztany pokroić, zalać wodą, gotować 10 min na małym ogniu. Odcedzić, używać odwaru jako naturalnego mydła.",
       "cechy": [
-        "Jasny, aromatyczny syrop"
+        "Pieni się naturalnie, lekko mydlany zapach"
       ],
       "wlasciwosci": [
-        "łagodnie przeciwzapalny"
+        "naturalny detergent, łagodny dla skóry"
       ],
-      "zastosowanie": "Dodatek do herbaty, lemoniady.",
-      "zrodlo": [20]
+      "zastosowanie": "Do mycia rąk, prania delikatnych tkanin, mycia włosów przetłuszczających się.",
+      "uwagi": "Tylko do użytku zewnętrznego! Nie nadaje się do spożycia.",
+      "zrodlo": [
+        22
+      ]
     },
-    "lemoniada_z_kwiatow": {
+    "ocet_z_kwiatow": {
       "skladniki": [
-        "1 garść świeżych kwiatów kasztanowca",
-        "1 litr wody",
-        "1 limonka",
-        "2 łyżki miodu"
+        "2 szklanki świeżych kwiatów kasztanowca (aromatyczne, bez szypułek i zielonych części)",
+        "1 litr octu jabłkowego (naturalny, niefiltrowany)"
       ],
-      "sposob_przygotowania": "Kwiaty zalać wodą, dodać sok z limonki, miód, odstawić na 1–2 godziny, przecedzić.",
+      "sposob_przygotowania": "Kwiaty wsypać do dużego słoja, zalać octem, odstawić w ciemne miejsce na 2 tygodnie, codziennie wstrząsać. Przecedzić przez gazę, przelać do butelki.",
       "cechy": [
-        "Orzeźwiający napój"
+        "Aromatyczny ocet ziołowy, jasna barwa"
       ],
       "wlasciwosci": [
-        "gaszący pragnienie"
+        "działa tonizująco na skórę, odświeżająco"
       ],
-      "zastosowanie": "Napój letni.",
-      "zrodlo": [21]
-    },
-    "przepis_na_mydlo_z_kasztanow": {
-      "skladniki": [
-        "10–12 świeżych kasztanów",
-        "woda",
-        "opcjonalnie olejek eteryczny"
-      ],
-      "sposob_przygotowania": "Kasztany pokroić, zalać wodą, gotować 10 min, odcedzić, używać jako mydło.",
-      "cechy": [
-        "Pieni się naturalnie"
-      ],
-      "wlasciwosci": [
-        "naturalny detergent"
-      ],
-      "zastosowanie": "Do mycia rąk, prania.",
-      "zrodlo": [22]
-    },
-    "kawa_z_kasztanow": {
-      "skladniki": [
-        "5 suszonych kasztanów (obranych, pokrojonych)",
-        "250 ml wody"
-      ],
-      "sposob_przygotowania": "Kasztany uprażyć, zalać wrzątkiem, parzyć 10 min.",
-      "cechy": [
-        "Lekko gorzki smak"
-      ],
-      "wlasciwosci": [
-        "brak kofeiny"
-      ],
-      "zastosowanie": "Napój zastępujący kawę (nie do codziennego picia, raczej eksperyment).",
-      "zrodlo": [23]
-    },
-    "oct_z_kwiatow": {
-      "skladniki": [
-        "2 szklanki świeżych kwiatów kasztanowca",
-        "1 litr octu jabłkowego"
-      ],
-      "sposob_przygotowania": "Kwiaty zalać octem, odstawić na 2 tygodnie, przecedzić.",
-      "cechy": [
-        "Aromatyczny ocet ziołowy"
-      ],
-      "wlasciwosci": [
-        "wzbogaca sałatki, działa tonizująco"
-      ],
-      "zastosowanie": "Do przyprawiania potraw, tonik do twarzy.",
-      "zrodlo": [24]
+      "zastosowanie": "Tonik do twarzy (rozcieńczyć 1:3 z wodą), płukanka do włosów, do domowego sprzątania.",
+      "uwagi": "Tylko do użytku zewnętrznego!",
+      "zrodlo": [
+        24
+      ]
     }
   },
   "przepisy_z_innymi_roslinami": {
@@ -309,106 +249,121 @@
         "nazwa": "Maść na żylaki (kasztanowiec, nagietek, dziurawiec)",
         "skladniki": [
           "2 łyżki świeżych kwiatów kasztanowca",
-          "2 łyżki kwiatów nagietka",
-          "2 łyżki ziela dziurawca",
-          "100 g oleju kokosowego"
+          "2 łyżki kwiatów nagietka (świeże lub suszone)",
+          "2 łyżki ziela dziurawca (świeże lub suszone)",
+          "100 g oleju kokosowego (nierafinowanego)"
         ],
-        "sposob_przygotowania": "Zioła podgrzać w oleju przez 2 godziny, przecedzić, przelać do słoiczka.",
+        "sposob_przygotowania": "Zioła podgrzewać w oleju przez 2 godziny, przecedzić, przelać do słoiczka.",
         "cechy": [
           "Maść o żółtawym kolorze"
         ],
         "wlasciwosci": [
-          "przeciwobrzękowa, łagodząca ból"
+          "przeciwobrzękowa, łagodząca ból, wzmacniająca naczynia"
         ],
-        "zastosowanie": "Smarować miejsca z żylakami.",
-        "zrodlo": [25]
-      },
-      {
-        "nazwa": "Napar na przeziębienie (kora kasztanowca, kwiat lipy, owoc dzikiej róży)",
-        "skladniki": [
-          "1 łyżeczka kory kasztanowca",
-          "1 łyżka kwiatu lipy",
-          "1 łyżka owoców dzikiej róży",
-          "250 ml wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 min, przecedzić.",
-        "cechy": [
-          "Ciemniejszy, ziołowy napar"
-        ],
-        "wlasciwosci": [
-          "przeciwzapalny, wzmacniający odporność"
-        ],
-        "zastosowanie": "Przy infekcjach i osłabieniu.",
-        "zrodlo": [26]
-      }
-    ],
-    "kulinarne": [
-      {
-        "nazwa": "Lemoniada z kwiatów kasztanowca i bzu czarnego",
-        "skladniki": [
-          "1 garść kwiatów kasztanowca",
-          "1 garść kwiatów bzu czarnego",
-          "1 litr wody",
-          "sok z 1 cytryny",
-          "2 łyżki miodu"
-        ],
-        "sposob_przygotowania": "Kwiaty zalać wodą, dodać sok z cytryny, miód, odstawić na 1–2 godziny, przecedzić.",
-        "cechy": [
-          "Orzeźwiający smak"
-        ],
-        "wlasciwosci": [
-          "witaminizująca, gasząca pragnienie"
-        ],
-        "zastosowanie": "Napój letni.",
-        "zrodlo": [27]
+        "zastosowanie": "Smarować miejsca z żylakami, pajączkami.",
+        "uwagi": "Tylko do użytku zewnętrznego.",
+        "zrodlo": [
+          25
+        ]
       }
     ]
   },
   "inne_zastosowania": {
     "kosmetyki": {
-      "opis": "Wyciągi z kasztanowca używane są w kremach i żelach na żylaki, pajączki, siniaki, do kąpieli na zmęczone nogi.",
-      "zastosowanie": "Kremy, żele, kąpiele do stóp.",
-      "zrodlo": [28]
+      "opis": "Wyciągi z kwiatów, kory i owoców kasztanowca wykorzystywane są w nowoczesnych kremach i żelach na żylaki, pajączki, siniaki oraz do kąpieli wzmacniających naczynia. Szczególnie ceniony jest ekstrakt z escyny, która zmniejsza obrzęki i poprawia mikrokrążenie. Kąpiele na bazie odwaru z kory stosowane są także na zmęczone nogi.",
+      "zastosowanie": "Kremy i żele do pielęgnacji skóry nóg, balsamy do masażu, kąpiele do stóp, naturalne maseczki na naczynka.",
+      "ciekawostka": "Już w XIX wieku w aptekach przygotowywano maści kasztanowe dla osób z przewlekłymi obrzękami nóg.",
+      "zrodlo": [
+        28
+      ]
     },
     "barwniki": {
-      "opis": "Kora kasztanowca daje jasnożółty barwnik, a owoce barwią na brązowo – wykorzystywane w rękodziele.",
-      "zrodlo": [29]
+      "opis": "Kora kasztanowca daje jasnożółty barwnik, a owoce po obróbce termicznej barwią na brązowo – wykorzystywane w rękodziele i do farbowania tkanin.",
+      "zastosowanie": "Barwienie włóczki, tkanin, papieru, rękodzieło ludowe.",
+      "zrodlo": [
+        29
+      ]
     },
     "pasza_dla_zwierzat": {
-      "opis": "Owoce mogą być stosowane po specjalnym przygotowaniu jako pasza dla jeleni, dzików, koni (po wygotowaniu i usunięciu saponin).",
-      "zrodlo": [30]
+      "opis": "Owoce kasztanowca po wygotowaniu i wymianie wody mogą być stosowane jako pasza dla dzików, jeleni i koni. Nigdy nie wolno podawać surowych kasztanów zwierzętom domowym.",
+      "zastosowanie": "Karmienie dzików i jeleni zimą (po wygotowaniu), pasza dla koni na terenach leśnych.",
+      "zrodlo": [
+        30
+      ]
     }
   },
   "bibliografia": {
     "1": "https://www.atlas-roslin.pl/gatunki/Aesculus_hippocastanum.htm",
     "2": "https://pl.wikipedia.org/wiki/Kasztanowiec_zwyczajny",
-    "3": "https://www.ekologia.pl/wiedza/drzewa/kasztanowiec-zwyczajny",
-    "4": "https://www.gospodarz.pl/encyklopedia-roslin/drzewa/kasztanowiec-zwyczajny.html",
-    "5": "https://rozanski.li/1401/aesculus-hippocastanum-escyna/",
-    "6": "https://zielnikpolski.pl/flawonoidy-kasztanowiec/",
-    "7": "https://zielnikpolski.pl/aesculina-kasztanowiec/",
-    "8": "https://zielnikpolski.pl/garbniki-kasztanowiec/",
-    "9": "https://zielnikpolski.pl/saponiny-kasztanowiec/",
-    "10": "https://magicznyogrod.pl/kasztanowiec-historia-i-zastosowanie.html",
-    "11": "https://kalendarzrolnikow.pl/14426/kasztanowiec-zwyczajny-tradycja-i-symbolika",
-    "12": "https://zielnikpolski.pl/ostroznosc-kasztanowiec/",
-    "13": "https://zielnikpolski.pl/szrotowek-kasztanowcowiaczek/",
+    "3": "https://rozanski.li/1403/aesculus-hippocastanum-czyli-kasztanowiec-zwyczajny/",
+    "4": "https://www.doz.pl/czytelnia/a13538-Flawonoidy_w_zielarstwie",
+    "5": "https://panacea.pl/articles.php?id=1661",
+    "6": "https://kalendarzrolnikow.pl/14690/kasztanowiec-zwyczajny-historia",
+    "7": "https://zielnikpolski.pl/kasztanowiec-ciekawostki/",
+    "8": "https://www.ekologia.pl/wiedza/rosliny/drzewa/kasztanowiec-zwyczajny",
     "14": "https://zielnikpolski.pl/napar-kwiaty-kasztanowiec/",
     "15": "https://zielnikpolski.pl/odwar-kora-kasztanowiec/",
-    "16": "https://zielnikpolski.pl/macerat-kasztany/",
-    "17": "https://zielnikpolski.pl/nalewka-kasztanowiec-zylaki/",
+    "16": "https://zielnikpolski.pl/macerat-kasztany-mycie/",
+    "17": "https://zielnikpolski.pl/nalewka-zyly-kasztanowiec/",
     "18": "https://zielnikpolski.pl/masc-kwiaty-kasztanowiec/",
-    "19": "https://zielnikpolski.pl/kapiel-kasztanowiec/",
-    "20": "https://zielnikpolski.pl/syrop-kwiaty-kasztanowiec/",
-    "21": "https://zielnikpolski.pl/lemoniada-kwiaty-kasztanowiec/",
-    "22": "https://zielnikpolski.pl/mydlo-kasztanowiec/",
-    "23": "https://zielnikpolski.pl/kawa-kasztanowiec/",
-    "24": "https://zielnikpolski.pl/oct-kwiaty-kasztanowiec/",
-    "25": "https://zielnikpolski.pl/masc-kasztanowiec-nagietek-dziurawiec/",
-    "26": "https://zielnikpolski.pl/napar-kora-kasztanowiec-lipa-roza/",
-    "27": "https://zielnikpolski.pl/lemoniada-kasztanowiec-bez/",
+    "19": "https://zielnikpolski.pl/kapiel-kora-kasztanowiec/",
+    "22": "https://zielnikpolski.pl/mydlo-kasztany-domowe/",
+    "24": "https://zielnikpolski.pl/ocet-kwiaty-kasztanowiec/",
+    "25": "https://zielnikpolski.pl/masc-zyly-nagietek-dziurawiec-kasztanowiec/",
     "28": "https://zielnikpolski.pl/kosmetyki-kasztanowiec/",
-    "29": "https://zielnikpolski.pl/barwniki-kasztanowiec/",
-    "30": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
+    "29": "https://zielnikpolski.pl/barwnik-kasztanowiec/",
+    "30": "https://zielnikpolski.pl/pasza-kasztanowiec-dla-zwierzat/"
+  },
+  "permakultura": {
+    "opis": "Kasztanowiec zwyczajny jest doskonałym drzewem strukturalnym do dużych ogrodów naturalistycznych, parków, alej i permakulturowych nasadzeń jako drzewo cieniujące i poprawiające mikroklimat. Jego szeroka, gęsta korona rzuca cień na niższe piętra roślinności, zapewniając mikroklimat przyjazny dla mchów, paproci i wiosennych bylin. Opadające liście wzbogacają glebę w materię organiczną, sprzyjając mikroorganizmom i dżdżownicom. Kwiaty przyciągają pszczoły, trzmiele i motyle, wspierając bioróżnorodność zapylaczy. Owoce są ważnym pokarmem dla dzikich zwierząt – wiewiórek, sójek, dzików, jeleni. Mimo że nie jest polecany na glebach do upraw warzyw (liście powoli się rozkładają, mogą czasowo zakwaszać glebę), w permakulturze sadzi się go jako element graniczny – ochronny pas zieleni, osłona przeciwwiatrowa i cień dla ławek, uli lub rabat cienioznośnych.",
+    "funkcje": [
+      "Cieniowanie i poprawa mikroklimatu dla innych roślin i ludzi.",
+      "Dostarczanie materii organicznej poprzez obfity opad liści i kwiatów.",
+      "Ochrona przed wiatrem (drzewo osłonowe).",
+      "Przyciąganie zapylaczy – bogate źródło nektaru i pyłku dla pszczół.",
+      "Wspieranie bioróżnorodności ptaków i drobnych ssaków poprzez owoce jako pokarm.",
+      "Stosowany jako drzewo ozdobne na obrzeża siedlisk permakulturowych, parki, przy szkołach i placach zabaw."
+    ],
+    "gildie": [
+      "Można sadzić w towarzystwie głogów, jarzębiny, leszczyny i roślin runa leśnego (miodunka, konwalia, barwinek, fiołek).",
+      "Nie zaleca się sadzenia blisko upraw warzyw – duża ilość liści może hamować kiełkowanie niektórych roślin przez allelopatię."
+    ]
+  },
+  "kalendarz": {
+    "siew": [
+      10
+    ],
+    "sadzenie": [
+      3,
+      4
+    ],
+    "kwitnienie": [
+      5
+    ],
+    "zbior": [
+      9,
+      10
+    ]
+  },
+  "ciekawostki_kulturowe": [
+    "W dawnej Polsce kasztanowce sadzono w parkach dworskich, by symbolizowały dostatek i ochronę.",
+    "Dawniej liście i owoce kasztanowca wykorzystywano do odstraszania moli i pcheł w szafach i budynkach gospodarczych.",
+    "Z suszonych kasztanów dzieci wykonywały zabawki, ludziki oraz wykorzystywały je jako żetony w grach.",
+    "W XIX wieku kasztanowiec był uważany za drzewo magiczne – zasadzony przy domu miał chronić przed uderzeniem pioruna.",
+    "W tradycyjnej medycynie niemieckiej zalecano noszenie suszonego kasztana w kieszeni na szczęście i przeciw bólom reumatycznym."
+  ],
+  "uprawa": {
+    "gleba": "Kasztanowiec zwyczajny najlepiej rośnie na glebach żyznych, głębokich, umiarkowanie wilgotnych, bogatych w próchnicę. Preferuje odczyn lekko kwaśny do obojętnego. Źle znosi gleby piaszczyste i podmokłe.",
+    "stanowisko": "Stanowisko słoneczne lub półcieniste, osłonięte od silnych wiatrów. Ze względu na rozbudowany system korzeniowy potrzebuje dużo miejsca.",
+    "wysiew": "Nasiona (kasztany) sieje się zaraz po zbiorze jesienią do gruntu lub do skrzynek – wymagają naturalnej stratyfikacji przez zimę (w chłodzie). Siewki można przesadzać na miejsce stałe wczesną wiosną, gdy mają co najmniej 2–3 liście.",
+    "zbior": "Kwiaty zbiera się w pełni kwitnienia (maj), korę z młodych, zdrowych gałązek na przedwiośniu (marzec), owoce (kasztany) zbiera się we wrześniu-październiku, gdy naturalnie opadną.",
+    "tipy_ogrodowe": [
+      "Sadzenie marzec, kwiecień (najlepiej sadzonki z gołym korzeniem)",
+      "Drzewo nie wymaga szczególnej pielęgnacji, ale młode osobniki należy zabezpieczać przed przymrozkami.",
+      "Kasztanowce dobrze znoszą miejskie warunki, odporne na suszę po ukorzenieniu.",
+      "Ze względu na obszerny cień i intensywny opad liści nie sadzić blisko rabat warzywnych.",
+      "Co kilka lat wskazane jest przerzedzanie korony dla poprawy zdrowotności drzewa.",
+      "Unikać zbierania kory z żywych, starych drzew – najlepsza jest z młodych gałązek przy wiosennym cięciu."
+    ]
   }
 }

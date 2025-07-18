@@ -238,6 +238,8 @@ document.addEventListener('DOMContentLoaded', function() {
         function getUrl(group) {
             return urls[group] || buildUrl(group);
         }
+
+
         function loadPlantFragment(group) {
             if(!group) return;
             fetch(getUrl(group))
@@ -247,6 +249,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 })
                 .then(html => {
                     contentDiv.innerHTML = html;
+                    if(typeof activatePrzepisyAccordion === "function") activatePrzepisyAccordion();
+                    if(typeof setupAccordionSections === "function") setupAccordionSections();
                 });
         }
         // Domyślnie historia lub pierwszy kafelek
@@ -285,4 +289,31 @@ function toggleGarden(category, slug) {
     else g.push(key);
     localStorage.setItem("garden", JSON.stringify(g));
     updateFavIcons();
+}
+function setupAccordionSections() {
+    document.querySelectorAll("#plant-content .section-header").forEach(function(header){
+        header.onclick = function() {
+            toggleSection(header);
+        }
+        // Opcjonalnie: domyślnie zwinięte
+        let content = header.nextElementSibling;
+        if(content) content.style.display = "none";
+        let btn = header.querySelector('.toggle-btn');
+        if(!btn) {
+            let span = document.createElement('span');
+            span.className = "toggle-btn";
+            span.textContent = "rozwiń";
+            header.appendChild(span);
+        }
+    });
+}
+function activatePrzepisyAccordion() {
+    document.querySelectorAll("#plant-content .przepis-card").forEach(function(card){
+        let header = card.querySelector(".przepis-title");
+        if(header) {
+            header.onclick = function() {
+                card.classList.toggle("collapsed");
+            }
+        }
+    });
 }

@@ -9,7 +9,9 @@
     "Quercus",
     "Dąb bezszypułkowy"
   ],
-  "zdjecia": [],
+  "zdjecia": ["https://www1.up.poznan.pl/ogrod/images/nasze_drzewa/Quercus%20petraea%201.JPG",
+              "https://www.lasy.gov.pl/pl/edukacja/lesnoteka-1/drzewa/dab-bezszypulkowy/dab_bezsz_lisc.jpg",
+              "https://www.puls-art.pl/wp-content/uploads/2016/09/dab-bezszypulkowy-quercus-petraea-3.jpg"],
   "uprawa": {
     "gleba": "Gleba umiarkowanie żyzna, świeża, przepuszczalna, lekko kwaśna do obojętnej, piaszczysto-gliniasta.",
     "stanowisko": "Stanowisko słoneczne lub lekko zacienione, wymaga przestrzeni i głębokiego podłoża.",
@@ -114,373 +116,240 @@
     }
   ],
   "przepisy_medyczne": {
-    "odwar_z_kory": {
-      "skladniki": [
-        "1 łyżka suszonej kory dębu bezszypułkowego",
-        "300 ml wody"
-      ],
-      "sposob_przygotowania": "Kory gotować w wodzie 10 minut, przecedzić.",
-      "cechy": [
-        "Wyrazisty, cierpki smak"
-      ],
-      "wlasciwosci": [
-        "ściągający, przeciwzapalny"
-      ],
-      "zastosowanie": "Płukanki przy stanach zapalnych jamy ustnej, skóry.",
-      "dawkowanie": "Do płukania lub okładów 2–3 razy dziennie.",
-      "zrodlo": [13]
-    },
-    "kąpiel_na_egzemy": {
-      "skladniki": [
-        "3 garście kory dębu bezszypułkowego",
-        "2 litry wody"
-      ],
-      "sposob_przygotowania": "Kory gotować 20 minut, przecedzić do kąpieli.",
-      "cechy": [
-        "Cierpka, intensywna kąpiel"
-      ],
-      "wlasciwosci": [
-        "łagodzi stany zapalne, świąd, egzemę"
-      ],
-      "zastosowanie": "Kąpiele lecznicze przy problemach skórnych.",
-      "zrodlo": [14]
-    },
-    "herbatka_na_biegunki": {
-      "skladniki": [
-        "1 łyżeczka suszonej kory dębu bezszypułkowego",
-        "200 ml wrzątku"
-      ],
-      "sposob_przygotowania": "Zalać korę wrzątkiem, parzyć 20 minut pod przykryciem, przecedzić.",
-      "cechy": [
-        "Mocny, cierpki napar"
-      ],
-      "wlasciwosci": [
-        "ściągający, hamujący biegunki"
-      ],
-      "zastosowanie": "Biegunki, nieżyty żołądka (krótkotrwale).",
-      "zrodlo": [15]
-    },
-    "okład_z_kory": {
-      "skladniki": [
-        "1 łyżka mielonej kory dębu bezszypułkowego",
-        "szklanka wody"
-      ],
-      "sposob_przygotowania": "Kory gotować 10 minut, ostudzić, przykładać na skórę z opatrunkiem.",
-      "cechy": [
-        "Chłodzący, ściągający"
-      ],
-      "wlasciwosci": [
-        "przyspiesza gojenie, łagodzi podrażnienia"
-      ],
-      "zastosowanie": "Okłady na rany, otarcia, stłuczenia.",
-      "zrodlo": [16]
-    },
-    "maść_z_kory": {
-      "skladniki": [
-        "2 łyżki mielonej kory dębu bezszypułkowego",
-        "4 łyżki masła shea"
-      ],
-      "sposob_przygotowania": "Kory podgrzać w maśle shea, odcedzić, przelać do słoiczka.",
-      "cechy": [
-        "Gęsta, brązowa maść"
-      ],
-      "wlasciwosci": [
-        "gojąca, ściągająca"
-      ],
-      "zastosowanie": "Smarowanie podrażnionej skóry, drobnych ran.",
-      "zrodlo": [17]
-    }
-  },
-  "przepisy_kulinarne": {
-    "kawa_z_zoledzi": {
-      "skladniki": [
-        "1 szklanka żołędzi (obranych, bez łupiny)",
-        "woda do gotowania",
-        "opcjonalnie: mleko, cukier"
-      ],
-      "sposob_przygotowania": "Żołędzie wymoczyć przez 24 godziny, kilka razy zmieniając wodę, osuszyć, uprażyć na patelni, zmielić. Parzyć jak kawę.",
-      "cechy": [
-        "Orzechowy, lekko goryczkowy aromat"
-      ],
-      "wlasciwosci": [
-        "odżywcza, bezkofeinowa"
-      ],
-      "zastosowanie": "Zamiennik kawy, napój na jesień i zimę.",
-      "zrodlo": [18]
-    },
-    "chleb_zoledziowy": {
-      "skladniki": [
-        "2 szklanki mąki żołędziowej (z dębu bezszypułkowego)",
-        "2 szklanki mąki pszennej",
-        "1,5 łyżeczki drożdży",
-        "1 łyżka miodu",
-        "1,5 szklanki ciepłej wody",
-        "1 łyżeczka soli"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki wymieszać, wyrobić ciasto, zostawić do wyrośnięcia, upiec w 200°C przez 40 min.",
-      "cechy": [
-        "Ciemny, orzechowy chleb"
-      ],
-      "wlasciwosci": [
-        "odżywczy, sycący"
-      ],
-      "zastosowanie": "Pieczywo na co dzień, w trudnych czasach.",
-      "zrodlo": [19]
-    },
-    "placki_zoledziowe": {
-      "skladniki": [
-        "1 szklanka żołędzi (ugotowanych, rozdrobnionych)",
-        "2 jajka",
-        "3 łyżki mąki",
-        "szczypta soli",
-        "olej do smażenia"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki wymieszać na gęste ciasto, smażyć placuszki.",
-      "cechy": [
-        "Chrupiące, orzechowe"
-      ],
-      "wlasciwosci": [
-        "sycące, wysokokaloryczne"
-      ],
-      "zastosowanie": "Obiad, przekąska.",
-      "zrodlo": [20]
-    },
-    "prażone_zoledzie": {
-      "skladniki": [
-        "1 szklanka obranych żołędzi",
-        "szczypta soli"
-      ],
-      "sposob_przygotowania": "Żołędzie wymoczyć, uprażyć na patelni z solą.",
-      "cechy": [
-        "Chrupiące, orzechowe"
-      ],
-      "wlasciwosci": [
-        "odżywcze, energetyczne"
-      ],
-      "zastosowanie": "Przekąska, dodatek do musli.",
-      "zrodlo": [21]
-    },
-    "mus_zoledziowy": {
-      "skladniki": [
-        "1 szklanka żołędzi (gotowanych, zmiksowanych)",
-        "1 łyżka miodu",
-        "1/2 łyżeczki cynamonu"
-      ],
-      "sposob_przygotowania": "Żołędzie zmiksować z miodem i cynamonem, schłodzić.",
-      "cechy": [
-        "Gładki, słodki mus"
-      ],
-      "wlasciwosci": [
-        "energetyczny, lekki"
-      ],
-      "zastosowanie": "Deser, śniadanie.",
-      "zrodlo": [22]
-    },
-    "kiszone_zoledzie": {
-      "skladniki": [
-        "2 szklanki żołędzi",
-        "1 litr wody",
-        "1 łyżka soli"
-      ],
-      "sposob_przygotowania": "Żołędzie wymoczyć i zalać solanką, kisić przez 7–10 dni.",
-      "cechy": [
-        "Kwaśne, chrupiące"
-      ],
-      "wlasciwosci": [
-        "probiotyczne, lekko strawne"
-      ],
-      "zastosowanie": "Dodatek do sałatek, przystawek.",
-      "zrodlo": [23]
-    }
-  },
-  "przepisy_z_innymi_roslinami": {
-    "medyczne": [
-      {
-        "nazwa": "Mieszanka ściągająca (kora dębu, liść orzecha, babka, nagietek, fiołek, skrzyp, rumianek)",
-        "skladniki": [
-          "1 łyżka kory dębu bezszypułkowego",
-          "1 łyżka liści orzecha włoskiego",
-          "1 łyżka liści babki",
-          "1 łyżka kwiatów nagietka",
-          "1 łyżka fiołka trójbarwnego",
-          "1 łyżka ziela skrzypu",
-          "1 łyżka kwiatów rumianku",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zaparzyć, stosować do okładów lub przemywania skóry.",
-        "cechy": [
-          "Cierpki, ziołowy aromat"
-        ],
-        "wlasciwosci": [
-          "ściągająca, gojąca"
-        ],
-        "zastosowanie": "Rany, stany zapalne skóry.",
-        "zrodlo": [24]
-      },
-      {
-        "nazwa": "Mieszanka na potliwość (kora dębu, szałwia, brzoza, rumianek, pokrzywa, skrzyp)",
-        "skladniki": [
-          "1 łyżka kory dębu bezszypułkowego",
-          "1 łyżka liści szałwii",
-          "1 łyżka liści brzozy",
-          "1 łyżka kwiatów rumianku",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka ziela skrzypu",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zaparzyć, stosować do kąpieli lub płukanek.",
-        "cechy": [
-          "Aromatyczny, wytrawny napar"
-        ],
-        "wlasciwosci": [
-          "reguluje potliwość, ściągająca"
-        ],
-        "zastosowanie": "Kąpiele przy nadpotliwości.",
-        "zrodlo": [25]
-      },
-      {
-        "nazwa": "Mieszanka na jamę ustną (kora dębu, rumianek, nagietek, szałwia, mięta, babka, krwawnik)",
-        "skladniki": [
-          "1 łyżka kory dębu bezszypułkowego",
-          "1 łyżka kwiatów rumianku",
-          "1 łyżka kwiatów nagietka",
-          "1 łyżka liści szałwii",
-          "1 łyżka liści mięty",
-          "1 łyżka liści babki",
-          "1 łyżka ziela krwawnika",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zaparzyć, stosować do płukania jamy ustnej.",
-        "cechy": [
-          "Delikatny, ziołowy aromat"
-        ],
-        "wlasciwosci": [
-          "antyseptyczna, ściągająca"
-        ],
-        "zastosowanie": "Zapalenia dziąseł, afty, angina.",
-        "zrodlo": [26]
-      },
-      {
-        "nazwa": "Mieszanka kąpielowa (kora dębu, skrzyp, pokrzywa, rumianek, lawenda, babka)",
-        "skladniki": [
-          "2 garście kory dębu bezszypułkowego",
-          "1 łyżka ziela skrzypu",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka kwiatów rumianku",
-          "1 łyżka kwiatów lawendy",
-          "1 łyżka liści babki",
-          "2 litry wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zaparzyć, przecedzić do kąpieli.",
-        "cechy": [
-          "Relaksujący, leśny aromat"
-        ],
-        "wlasciwosci": [
-          "łagodząca, regenerująca"
-        ],
-        "zastosowanie": "Kąpiele lecznicze.",
-        "zrodlo": [27]
-      }
+  "odwar_z_kory": {
+    "skladniki": [
+      "1 łyżka suszonej kory dębu bezszypułkowego (najlepiej z młodych gałęzi, świeżo zebrana lub sezonowana do roku)",
+      "300 ml wody (świeża, przegotowana)"
     ],
-    "kulinarne": [
-      {
-        "nazwa": "Chleb żołędziowy z orzechami",
-        "skladniki": [
-          "1 szklanka mąki żołędziowej",
-          "2 szklanki mąki pszennej",
-          "1/2 szklanki orzechów włoskich",
-          "1,5 łyżeczki drożdży",
-          "1 łyżka miodu",
-          "1,5 szklanki ciepłej wody",
-          "1 łyżeczka soli"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki wymieszać, zostawić do wyrośnięcia, upiec w 200°C przez 40 min.",
-        "cechy": [
-          "Orzechowy, wilgotny chleb"
-        ],
-        "wlasciwosci": [
-          "sycący, bogaty w białko"
-        ],
-        "zastosowanie": "Pieczywo na co dzień.",
-        "zrodlo": [28]
-      },
-      {
-        "nazwa": "Placki żołędziowe z rodzynkami",
-        "skladniki": [
-          "1 szklanka mąki żołędziowej",
-          "1/2 szklanki rodzynek",
-          "2 jajka",
-          "3 łyżki mąki pszennej",
-          "1/2 szklanki mleka",
-          "szczypta soli",
-          "olej do smażenia"
-        ],
-        "sposob_przygotowania": "Składniki wymieszać na gęste ciasto, smażyć placuszki.",
-        "cechy": [
-          "Słodkie, orzechowe"
-        ],
-        "wlasciwosci": [
-          "energetyczne, lekkostrawne"
-        ],
-        "zastosowanie": "Śniadanie, deser.",
-        "zrodlo": [29]
-      },
-      {
-        "nazwa": "Mus żołędziowy z jabłkiem",
-        "skladniki": [
-          "1 szklanka gotowanych żołędzi",
-          "2 jabłka",
-          "1 łyżka miodu"
-        ],
-        "sposob_przygotowania": "Żołędzie i jabłka ugotować, zmiksować z miodem na gładki mus.",
-        "cechy": [
-          "Słodko-orzechowy, kremowy"
-        ],
-        "wlasciwosci": [
-          "energetyczny, bogaty w błonnik"
-        ],
-        "zastosowanie": "Deser, śniadanie.",
-        "zrodlo": [30]
-      },
-      {
-        "nazwa": "Kiszone żołędzie z koperkiem",
-        "skladniki": [
-          "2 szklanki żołędzi",
-          "2 gałązki koperku",
-          "1 litr wody",
-          "1 łyżka soli"
-        ],
-        "sposob_przygotowania": "Żołędzie i koperek zalać solanką, odstawić na 7–10 dni.",
-        "cechy": [
-          "Kwaśne, probiotyczne"
-        ],
-        "wlasciwosci": [
-          "probiotyczne, lekko strawne"
-        ],
-        "zastosowanie": "Dodatek do surówek, kanapek.",
-        "zrodlo": [31]
-      }
-    ]
+    "sposob_przygotowania": "Kory wsypać do zimnej wody, powoli doprowadzić do wrzenia. Gotować pod przykryciem 10 minut na małym ogniu, odstawić na 5 minut, przecedzić przez gazę.",
+    "cechy": [
+      "Wyrazisty, ciemny kolor",
+      "Cierpki, gorzkawy smak"
+    ],
+    "wlasciwosci": [
+      "silne działanie ściągające (obkurcza i uszczelnia naczynia, łagodzi obrzęki)",
+      "działa przeciwbakteryjnie, przeciwzapalnie i przeciwgrzybiczo"
+    ],
+    "zastosowanie": "Do płukania jamy ustnej i gardła przy stanach zapalnych, nadżerkach, aftach i pleśniawkach; do okładów i przemywania skóry przy podrażnieniach, wypryskach, świądzie, liszaju i po ukąszeniach owadów.",
+    "dawkowanie": "Do płukania ust lub okładów 2–3 razy dziennie przez 5–7 dni. Nie stosować długotrwale (maks. 2 tygodnie bez przerwy).",
+    "uwagi": "Nie stosować wewnętrznie u dzieci poniżej 6. roku życia ani u kobiet w ciąży bez konsultacji z lekarzem. Może powodować zaparcia przy nadmiernym użyciu doustnym.",
+    "zrodlo": [13]
   },
-  "inne_zastosowania": {
-    "kosmetyki": {
-      "opis": "Kora dębu stosowana w tonikach i okładach ściągających do cery tłustej, w kąpielach gojących oraz w maściach regenerujących.",
-      "zastosowanie": "Toniki, okłady, kąpiele, maści.",
-      "zrodlo": [32]
-    },
-    "barwniki": {
-      "opis": "Kora i żołędzie dębu były używane jako naturalny brązowy barwnik do tkanin, skór i pisanek.",
-      "zrodlo": [33]
-    },
-    "pasza_dla_zwierzat": {
-      "opis": "Żołędzie są chętnie zjadane przez dziki, jelenie, ptaki, a także świnie i bydło w małych ilościach.",
-      "zrodlo": [34]
-    },
-    "drewno": {
-      "opis": "Drewno dębu bezszypułkowego jest bardzo trwałe, wykorzystywane do produkcji beczek, podkładów kolejowych, statków i mebli.",
-      "zrodlo": [35]
-    }
+  "kąpiel_na_egzemy": {
+    "skladniki": [
+      "3 garście kory dębu bezszypułkowego (świeżej lub dobrze wysuszonej, grubo mielonej)",
+      "2 litry wody (świeża)"
+    ],
+    "sposob_przygotowania": "Kory wsypać do zimnej wody, zagotować i gotować 20 minut na bardzo małym ogniu pod przykryciem. Przecedzić, odwar wlać do wanny z ciepłą wodą. Kąpiel powinna trwać 15–20 minut.",
+    "cechy": [
+      "Cierpka, intensywna kąpiel o leśnym aromacie",
+      "Brązowa barwa wody"
+    ],
+    "wlasciwosci": [
+      "łagodzi stany zapalne skóry, świąd i podrażnienia",
+      "działa antyseptycznie, wspiera regenerację naskórka"
+    ],
+    "zastosowanie": "Lecznicze kąpiele przy egzemie, łuszczycy, atopowym zapaleniu skóry, nadmiernej potliwości stóp i dłoni.",
+    "uwagi": "Nie używać na świeże, sączące rany oraz u osób z rozległymi zmianami alergicznymi bez konsultacji lekarskiej.",
+    "zrodlo": [14]
   },
+  "herbatka_na_biegunki": {
+    "skladniki": [
+      "1 łyżeczka suszonej kory dębu bezszypułkowego (najlepiej młoda, jasno-brązowa)",
+      "200 ml wrzątku (świeża woda)"
+    ],
+    "sposob_przygotowania": "Korę zalać wrzątkiem, parzyć pod przykryciem 20 minut, odcedzić.",
+    "cechy": [
+      "Mocny, cierpki napar",
+      "Lekko gorzkawy posmak"
+    ],
+    "wlasciwosci": [
+      "ściągający, hamujący biegunki, łagodzący stany zapalne żołądka"
+    ],
+    "zastosowanie": "Stosować doraźnie przy biegunkach i niestrawności spowodowanej stanem zapalnym błon śluzowych.",
+    "dawkowanie": "Pół szklanki naparu 2 razy dziennie przez maksymalnie 2–3 dni.",
+    "uwagi": "Nie stosować długotrwale ani u dzieci do 6 lat. Nie stosować w zaparciach lub niedrożności przewodu pokarmowego.",
+    "zrodlo": [15]
+  },
+  "okład_z_kory": {
+    "skladniki": [
+      "1 łyżka mielonej kory dębu bezszypułkowego (świeża lub suszona, najlepiej młoda)",
+      "szklanka wody (250 ml, świeża)"
+    ],
+    "sposob_przygotowania": "Kory gotować 10 minut, ostudzić do temperatury ciała. Nasączyć gazę lub bawełniany materiał, przykładać na oczyszczoną skórę na 10–15 minut.",
+    "cechy": [
+      "Chłodzący, ściągający okład",
+      "Delikatny leśny aromat"
+    ],
+    "wlasciwosci": [
+      "przyspiesza gojenie drobnych ran, otarć, stłuczeń",
+      "zmniejsza obrzęki i zaczerwienienia"
+    ],
+    "zastosowanie": "Okłady na otarcia, drobne rany, stłuczenia, stany zapalne skóry, oparzenia słoneczne.",
+    "zrodlo": [16]
+  },
+  "maść_z_kory": {
+    "skladniki": [
+      "2 łyżki mielonej kory dębu bezszypułkowego (świeża lub dokładnie wysuszona)",
+      "4 łyżki masła shea (najlepiej nierafinowanego, świeżego)"
+    ],
+    "sposob_przygotowania": "Masło shea rozpuścić w kąpieli wodnej, dodać mieloną korę, podgrzewać ok. 20 minut na bardzo małym ogniu. Przefiltrować przez gazę do wyparzonego słoiczka, ostudzić.",
+    "cechy": [
+      "Gęsta, brązowa maść",
+      "Naturalny zapach leśny"
+    ],
+    "wlasciwosci": [
+      "działa regenerująco, gojąco, ściągająco",
+      "przyspiesza gojenie podrażnionej skóry"
+    ],
+    "zastosowanie": "Smarowanie miejsc podrażnionych, drobnych ran, otarć, odparzeń, zmian alergicznych.",
+    "uwagi": "Przechowywać w chłodnym miejscu do 3 miesięcy. Nie stosować na sączące się rany.",
+    "zrodlo": [17]
+  }
+},
+"przepisy_kulinarne": {
+  "kawa_z_zoledzi": {
+    "skladniki": [
+      "1 szklanka żołędzi dębu bezszypułkowego (dojrzałe, świeżo obrane, bez łupin i gorzkiej skórki)",
+      "woda do gotowania (świeża)",
+      "opcjonalnie: mleko (świeże), cukier, miód"
+    ],
+    "sposob_przygotowania": "Żołędzie wymoczyć przez 24 godziny, kilkakrotnie zmieniając wodę (usuwa garbniki i gorycz). Osuszyć, uprażyć na suchej patelni aż zbrązowieją, następnie zmielić. 2 łyżeczki proszku zalać wrzątkiem (200 ml), parzyć 5–7 min. Podawać jak kawę zbożową.",
+    "cechy": [
+      "Orzechowy, lekko goryczkowy aromat",
+      "ciemny kolor"
+    ],
+    "wlasciwosci": [
+      "odżywcza, bezkofeinowa, łagodna dla żołądka"
+    ],
+    "zastosowanie": "Zamiennik kawy dla osób wrażliwych na kofeinę; tradycyjny napój jesienno-zimowy.",
+    "uwagi": "Najlepiej używać żołędzi dojrzałych, świeżych lub sezonowanych do roku.",
+    "zrodlo": [18]
+  },
+  "chleb_zoledziowy": {
+    "skladniki": [
+      "2 szklanki mąki żołędziowej (uprażone, zmielone żołędzie dębu bezszypułkowego)",
+      "2 szklanki mąki pszennej (świeża)",
+      "1,5 łyżeczki drożdży (świeże lub suszone)",
+      "1 łyżka miodu (naturalny)",
+      "1,5 szklanki ciepłej wody",
+      "1 łyżeczka soli (drobnoziarnista)"
+    ],
+    "sposob_przygotowania": "Wszystkie składniki dokładnie wymieszać, wyrobić ciasto na gładko, zostawić do wyrośnięcia 1 godzinę. Piec w temp. 200°C przez 40 min. Najlepiej podawać lekko ciepły.",
+    "cechy": [
+      "Ciemny, orzechowy chleb",
+      "wilgotny miąższ"
+    ],
+    "wlasciwosci": [
+      "odżywczy, sycący, bogaty w błonnik i minerały"
+    ],
+    "zastosowanie": "Pieczywo na co dzień, polecane osobom aktywnym fizycznie lub podczas długich wędrówek.",
+    "uwagi": "Mąkę żołędziową najlepiej przygotować samodzielnie ze świeżych, dojrzałych żołędzi.",
+    "zrodlo": [19]
+  },
+  "placki_zoledziowe": {
+    "skladniki": [
+      "1 szklanka żołędzi (ugotowanych, rozdrobnionych, dojrzałych)",
+      "2 jajka (świeże)",
+      "3 łyżki mąki pszennej (świeża)",
+      "szczypta soli",
+      "olej do smażenia (świeży, rzepakowy lub słonecznikowy)"
+    ],
+    "sposob_przygotowania": "Żołędzie rozdrobnić lub zmielić, wymieszać z jajkami, mąką i solą. Z masy formować małe placki, smażyć na rozgrzanym oleju z obu stron na złoto.",
+    "cechy": [
+      "Chrupiące, orzechowe",
+      "delikatnie złote"
+    ],
+    "wlasciwosci": [
+      "sycące, wysokokaloryczne, bogate w minerały"
+    ],
+    "zastosowanie": "Obiad lub pożywna przekąska, szczególnie dla osób aktywnych.",
+    "zrodlo": [20]
+  },
+  "prażone_zoledzie": {
+    "skladniki": [
+      "1 szklanka obranych żołędzi dębu bezszypułkowego (najlepiej świeżych, dojrzałych)",
+      "szczypta soli (drobnoziarnista)"
+    ],
+    "sposob_przygotowania": "Żołędzie wymoczyć i dokładnie osuszyć, uprażyć na suchej patelni z dodatkiem soli do uzyskania złoto-brązowej barwy i chrupkości.",
+    "cechy": [
+      "Chrupiące, orzechowe",
+      "lekko słone"
+    ],
+    "wlasciwosci": [
+      "odżywcze, wysokokaloryczne, lekkostrawne"
+    ],
+    "zastosowanie": "Przekąska, dodatek do musli lub sałatek.",
+    "uwagi": "Podprażone żołędzie można przechowywać do 2 tygodni w szczelnym pojemniku.",
+    "zrodlo": [21]
+  },
+  "mus_zoledziowy": {
+    "skladniki": [
+      "1 szklanka żołędzi (gotowanych, zmiksowanych – najlepiej świeże, dojrzałe)",
+      "1 łyżka miodu (płynny, naturalny)",
+      "1/2 łyżeczki cynamonu (najlepiej cejlońskiego)"
+    ],
+    "sposob_przygotowania": "Żołędzie ugotować, zmiksować na gładką masę, wymieszać z miodem i cynamonem. Schłodzić przed podaniem.",
+    "cechy": [
+      "Gładki, słodki mus",
+      "wyraźny aromat orzechowy i cynamonowy"
+    ],
+    "wlasciwosci": [
+      "energetyczny, lekki, bogaty w błonnik i witaminy"
+    ],
+    "zastosowanie": "Deser, pożywne śniadanie lub przekąska dla dzieci.",
+    "zrodlo": [22]
+  },
+  "kiszone_zoledzie": {
+    "skladniki": [
+      "2 szklanki żołędzi dębu bezszypułkowego (najlepiej świeżych, dojrzałych)",
+      "1 litr wody (przegotowana, ostudzona)",
+      "1 łyżka soli (kamiennej, niejodowanej)"
+    ],
+    "sposob_przygotowania": "Żołędzie dokładnie wypłukać, zalać solanką, przykryć i odstawić w temperaturze pokojowej na 7–10 dni. Gdy staną się kwaśne i chrupiące, gotowe do spożycia.",
+    "cechy": [
+      "Kwaśne, chrupiące, lekko orzechowe"
+    ],
+    "wlasciwosci": [
+      "probiotyczne, lekko strawne, wspierają trawienie"
+    ],
+    "zastosowanie": "Dodatek do sałatek, kanapek, przekąska.",
+    "uwagi": "Przechowywać w lodówce do 2 tygodni. Nie używać żołędzi z oznakami pleśni.",
+    "zrodlo": [23]
+  }
+},
+"inne_zastosowania": {
+  "kosmetyki": {
+    "opis": "Kora dębu bezszypułkowego, dzięki wysokiej zawartości garbników, flawonoidów oraz kwasów fenolowych, znajduje szerokie zastosowanie w naturalnej pielęgnacji skóry. Wyciągi z kory są wykorzystywane do sporządzania toników ściągających przeznaczonych dla skóry tłustej i trądzikowej, a także w maseczkach oczyszczających, maściach łagodzących oraz płynach do kąpieli regenerujących skórę. Regularne stosowanie preparatów na bazie kory dębu pomaga ograniczać nadmierne wydzielanie sebum, przyspiesza gojenie zmian skórnych oraz wzmacnia naczynia włosowate. W tradycyjnej kosmetyce ludowej stosowano także okłady z kory przy pękających naczynkach i przyspieszaniu gojenia niewielkich ran.",
+    "zastosowanie": "Toniki do przemywania skóry tłustej i trądzikowej (na bazie naparu lub maceratu z kory – świeżej lub suszonej), okłady na zaczerwienienia i otarcia (kora mielona i parzona na ciepło), kąpiele z dodatkiem odwaru (wzmacniają i odświeżają skórę), domowe maści z maceratem z kory do smarowania podrażnionych miejsc.",
+    "ciekawostka": "W XIX i na początku XX wieku aptekarze i kosmetolodzy sporządzali toniki dębowe szczególnie polecane młodym kobietom borykającym się z nadmiernym błyszczeniem cery.",
+    "zrodlo": [32]
+  },
+  "barwniki": {
+    "opis": "Kora i żołędzie dębu bezszypułkowego zawierają naturalne garbniki i barwniki, które od wieków były używane do farbowania tkanin, wełny, skór, a także pisanek. Otrzymywano z nich trwałe odcienie brązu, złociste brązy i głębokie ciemne żółcie. W dawnych gospodarstwach wiejskich wywar z kory dębu służył jako barwnik do koszul lnianych oraz do ręcznego barwienia nici i sieci rybackich, co przedłużało ich trwałość. W Europie Zachodniej używano dębu także do przygotowywania bejc do drewna oraz do naturalnego przyciemniania instrumentów muzycznych.",
+    "zastosowanie": "Barwienie wełny, tkanin lnianych i bawełnianych, bejcowanie drewna, nadawanie barwy skórze garbowanej roślinnie, naturalne barwienie jaj wielkanocnych.",
+    "ciekawostka": "Szczególnie cenione były żołędzie zebrane jesienią – im bardziej dojrzałe i wysuszone, tym intensywniejszy kolor barwnika.",
+    "zrodlo": [33]
+  },
+  "pasza_dla_zwierzat": {
+    "opis": "Żołędzie dębu bezszypułkowego, po wcześniejszym wymoczeniu w wodzie w celu zmniejszenia zawartości garbników, stanowią wartościową paszę dla dzikich zwierząt leśnych – dzików, jeleni, saren, a także dla wielu gatunków ptaków, zwłaszcza sójek, wiewiórek i bażantów. W tradycyjnej polskiej i południowoeuropejskiej hodowli dodawano żołędzie do karmy dla świń i bydła (zawsze w niewielkich ilościach, aby uniknąć zatrucia garbnikami). Pasza żołędziowa jest kaloryczna, bogata w skrobię, tłuszcze i minerały, co wspiera zwierzęta w okresie zimowym.",
+    "zastosowanie": "Bezpośrednia pasza dla dzikiej zwierzyny (zwłaszcza w okresie niedoboru pokarmu), dodatek do karmy dla trzody chlewnej, okazjonalnie dla bydła i owiec – wyłącznie żołędzie dojrzałe, uprzednio wymoczone lub sparzone.",
+    "ciekawostka": "W staropolskich gospodarstwach chłopskich żołędzie były nawet przechowywane na zimę jako strategiczny zapas paszy dla trzody. Stanowiły też przysmak dla dzieci – po uprzednim obgotowaniu i uprażeniu.",
+    "zrodlo": [34]
+  },
+  "drewno": {
+    "opis": "Drewno dębu bezszypułkowego jest wyjątkowo twarde, ciężkie, bardzo odporne na wilgoć i czynniki biologiczne (grzyby, owady). Dzięki tym właściwościom od wieków jest cenione w szkutnictwie (budowa statków, łodzi), bednarstwie (beczki do win i piwa – nadają napojom aromat), do wyrobu podkładów kolejowych, mebli, schodów i podłóg. Z drewna dębowego wykonywano także narzędzia rolnicze, beczki maselnicze, koła młyńskie oraz ozdobne elementy architektoniczne. Drewno poddane długotrwałemu działaniu wody (np. palisady rzeczne) jeszcze bardziej zyskuje na trwałości i nabiera ciemnej barwy.",
+    "zastosowanie": "Produkcja wysokiej klasy mebli i parkietów, schodów, beczek do leżakowania wina, koniaku i whisky, konstrukcje wodne (mosty, pale), elementy architektury ogrodowej, rzeźba, snycerka.",
+    "ciekawostka": "Drewno dębowe z głębokich osadów rzecznych (tzw. dąb czarny, subfosylowy) jest szczególnie cenne i osiąga wysokie ceny jako ekskluzywny materiał stolarski i jubilerski.",
+    "zrodlo": [35]
+  }
+},
+"kalendarz": {
+    "siew": [10],
+    "sadzenie": [3, 4],
+    "kwitnienie": [5, 6],
+    "zbior": [9, 10, 11]
+},
   "bibliografia": {
     "1": "https://www.atlas-roslin.pl/gatunki/Quercus_petraea.htm",
     "2": "https://pl.wikipedia.org/wiki/D%C4%85b_bezszypu%C5%82kowy",

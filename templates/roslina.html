@@ -40,19 +40,16 @@
             data-url="{{ url_for('fragment', category=category, plant=slug, grupa='historia') }}">🧬 Historia, cechy
     </button>
     <button class="tile" data-group="wlasciwosci"
-            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='wlasciwosci') }}">⚗️ Właściwości,
-        składniki
+            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='wlasciwosci') }}">⚗️ Właściwości, składniki
     </button>
     <button class="tile" data-group="uprawa"
             data-url="{{ url_for('fragment', category=category, plant=slug, grupa='uprawa') }}">🌱 Uprawa i występowanie
     </button>
     <button class="tile" data-group="przepisy_medyczne"
-            data-url="{{ url_for('fragment_przepisy_medyczne_all', category=category, plant=slug) }}">💊 Przepisy
-        medyczne
+            data-url="{{ url_for('fragment_przepisy_medyczne_all', category=category, plant=slug) }}">💊 Przepisy medyczne
     </button>
     <button class="tile" data-group="przepisy_kulinarne"
-            data-url="{{ url_for('fragment_przepisy_kulinarne_all', category=category, plant=slug) }}">🥗 Przepisy
-        kulinarne
+            data-url="{{ url_for('fragment_przepisy_kulinarne_all', category=category, plant=slug) }}">🥗 Przepisy kulinarne
     </button>
     <button class="tile" data-group="permakultura"
             data-url="{{ url_for('fragment', category=category, plant=slug, grupa='permakultura') }}">🌿 Permakultura
@@ -79,18 +76,15 @@
     <a href="{{ url_for('bibliografia', category=category, plant=slug) }}">→ Zobacz pełną bibliografię rośliny</a>
 </div>
 <script>
-// Helpery
 function getFavs() { return JSON.parse(localStorage.getItem("favs") || "[]"); }
 function setFavs(v) { localStorage.setItem("favs", JSON.stringify(v)); }
 function getGarden() { return JSON.parse(localStorage.getItem("garden") || "[]"); }
 function setGarden(v) { localStorage.setItem("garden", JSON.stringify(v)); }
 
-// Inicjalizuj dynamiczne przyciski
 function updatePlantButtons(category, slug) {
     let path = category + '/' + slug;
     let favs = getFavs();
     let garden = getGarden();
-    // --- Ulubione
     let favBtn = document.getElementById('fav-main-btn');
     if(favs.includes(path)) {
         favBtn.innerHTML = `<span class="fav-icon" style="font-size:1.19em;">❌</span>
@@ -109,7 +103,6 @@ function updatePlantButtons(category, slug) {
             updatePlantButtons(category, slug);
         }
     }
-    // --- Ogród
     let gardenBtn = document.getElementById('garden-main-btn');
     if(garden.includes(path)) {
         gardenBtn.innerHTML = `<span class="garden-icon" style="font-size:1.15em;">🗑️</span>
@@ -129,14 +122,14 @@ function updatePlantButtons(category, slug) {
         }
     }
 }
-
-// Wywołaj po załadowaniu DOM – podaj aktualne category i slug!
 document.addEventListener("DOMContentLoaded", function() {
     updatePlantButtons('{{ category }}', '{{ slug }}');
+     if(typeof setupAccordionSections === "function") setupAccordionSections();
 });
+
+
 </script>
 <style>
-/* Aktywny kafelek */
 .tiles-menu .tile.active {
     background: #aedfa3 !important;
     color: #184e10;
@@ -194,7 +187,6 @@ document.addEventListener("DOMContentLoaded", function() {
     gap: 0.7em;
 }
 .plant-action-btn:hover { background: #e0f2dc; }
-
 </style>
 
 {% endblock %}
