@@ -17,16 +17,8 @@
         {% endif %}
     </div>
     <div class="plant-actions" style="margin: 1.1em 0 1.5em 0; display: flex; gap: 1.1em;">
-        <button type="button" class="plant-action-btn" id="fav-main-btn"
-        onclick="toggleFav('{{ category }}','{{ slug }}'); updateFavBtn('{{ category }}','{{ slug }}');">
-    <span class="fav-icon" style="font-size:1.19em;">💚</span>
-    <span class="fav-label">Dodaj do ulubionych</span>
-</button>
-<button type="button" class="plant-action-btn" id="garden-main-btn"
-        onclick="toggleGarden('{{ category }}','{{ slug }}'); updateGardenBtn('{{ category }}','{{ slug }}');">
-    <span class="garden-icon" style="font-size:1.15em;">🌱</span>
-    <span class="garden-label">Dodaj do ogrodu</span>
-</button>
+        <button type="button" class="plant-action-btn" id="fav-main-btn"></button>
+        <button type="button" class="plant-action-btn" id="garden-main-btn"></button>
     </div>
 </div>
 <!-- Karuzela zdjęć -->
@@ -86,105 +78,63 @@
     </ul>
     <a href="{{ url_for('bibliografia', category=category, plant=slug) }}">→ Zobacz pełną bibliografię rośliny</a>
 </div>
-
 <script>
-// ---- Karuzela zdjęć (jeśli jest) ----
-let current = 0;
-function carouselShow(idx) {
-    const imgs = document.querySelectorAll("#carousel img");
-    imgs.forEach((img,i) => img.style.display = (i===idx ? "block" : "none"));
-}
-function carouselPrev() {
-    const imgs = document.querySelectorAll("#carousel img");
-    current = (current-1+imgs.length)%imgs.length;
-    carouselShow(current);
-}
-function carouselNext() {
-    const imgs = document.querySelectorAll("#carousel img");
-    current = (current+1)%imgs.length;
-    carouselShow(current);
-}
+// Helpery
+function getFavs() { return JSON.parse(localStorage.getItem("favs") || "[]"); }
+function setFavs(v) { localStorage.setItem("favs", JSON.stringify(v)); }
+function getGarden() { return JSON.parse(localStorage.getItem("garden") || "[]"); }
+function setGarden(v) { localStorage.setItem("garden", JSON.stringify(v)); }
 
-// ---- Obsługa dynamicznego ładowania fragmentów rośliny ----
-document.addEventListener('DOMContentLoaded', function() {
-    // Karuzela (jeśli jest)
-    if(document.querySelectorAll("#carousel img").length > 0)
-        carouselShow(0);
-
-    // Fragmenty rośliny (kafelkowe menu)
-    const tilesMenu = document.getElementById("tiles-menu");
-    const contentDiv = document.getElementById("plant-content");
-    if(tilesMenu && contentDiv) {
-        const btns = tilesMenu.querySelectorAll('.tile');
-        function loadPlantFragment(group) {
-            let btn = tilesMenu.querySelector('.tile[data-group="'+group+'"]');
-            if(!btn) return;
-            let url = btn.dataset.url;
-            if(!url) return;
-            fetch(url)
-                .then(resp => {
-                    if(!resp.ok) throw new Error("Błąd fragmentu: " + resp.status);
-                    return resp.text();
-                })
-                .then(html => {
-                    contentDiv.innerHTML = html;
-                    if (typeof activatePrzepisyAccordion === "function") activatePrzepisyAccordion();
-                });
-        }
-        // Domyślnie historia lub pierwszy kafelek
-        let first = btns[0];
-        if(btns.length > 0) {
-            let defaultGroup = first.dataset.group;
-            loadPlantFragment(defaultGroup);
-            first.classList.add("active");
-        }
-        btns.forEach(btn => {
-            btn.onclick = function() {
-                btns.forEach(b=>b.classList.remove("active"));
-                btn.classList.add("active");
-                loadPlantFragment(btn.dataset.group);
-                setTimeout(() => {
-                    contentDiv.scrollIntoView({behavior:"smooth"});
-                }, 100);
-            };
-        });
-    }
-});
-function activatePrzepisyAccordion() {
-    document.querySelectorAll(".przepis-title").forEach(function(title){
-        if (!title.classList.contains("js-active")) {
-            title.classList.add("js-active");
-            title.addEventListener("click", function() {
-                var card = title.closest('.przepis-card');
-                card.classList.toggle("collapsed");
-            });
-        }
-    });
-}
-function updateFavBtn(slug) {
+// Inicjalizuj dynamiczne przyciski
+function updatePlantButtons(category, slug) {
+    let path = category + '/' + slug;
     let favs = getFavs();
-    let btn = document.getElementById('fav-main-btn');
-    let isFav = favs.includes(slug);
-    if(btn) {
-        btn.querySelector('.fav-label').textContent = isFav ? "Usuń z ulubionych" : "Dodaj do ulubionych";
-        btn.classList.toggle('active', isFav);
+    let garden = getGarden();
+    // --- Ulubione
+    let favBtn = document.getElementById('fav-main-btn');
+    if(favs.includes(path)) {
+        favBtn.innerHTML = `<span class="fav-icon" style="font-size:1.19em;">❌</span>
+            <span class="fav-label">Usuń z ulubionych</span>`;
+        favBtn.classList.add('active');
+        favBtn.onclick = function() {
+            setFavs(favs.filter(x=>x!==path));
+            updatePlantButtons(category, slug);
+        }
+    } else {
+        favBtn.innerHTML = `<span class="fav-icon" style="font-size:1.19em;">💚</span>
+            <span class="fav-label">Dodaj do ulubionych</span>`;
+        favBtn.classList.remove('active');
+        favBtn.onclick = function() {
+            setFavs(favs.concat([path]));
+            updatePlantButtons(category, slug);
+        }
+    }
+    // --- Ogród
+    let gardenBtn = document.getElementById('garden-main-btn');
+    if(garden.includes(path)) {
+        gardenBtn.innerHTML = `<span class="garden-icon" style="font-size:1.15em;">🗑️</span>
+            <span class="garden-label">Usuń z ogrodu</span>`;
+        gardenBtn.classList.add('active');
+        gardenBtn.onclick = function() {
+            setGarden(garden.filter(x=>x!==path));
+            updatePlantButtons(category, slug);
+        }
+    } else {
+        gardenBtn.innerHTML = `<span class="garden-icon" style="font-size:1.15em;">🌱</span>
+            <span class="garden-label">Dodaj do ogrodu</span>`;
+        gardenBtn.classList.remove('active');
+        gardenBtn.onclick = function() {
+            setGarden(garden.concat([path]));
+            updatePlantButtons(category, slug);
+        }
     }
 }
-function updateGardenBtn(slug) {
-    let g = getGarden();
-    let btn = document.getElementById('garden-main-btn');
-    let isInGarden = g.includes(slug);
-    if(btn) {
-        btn.querySelector('.garden-label').textContent = isInGarden ? "Usuń z ogrodu" : "Dodaj do ogrodu";
-        btn.classList.toggle('active', isInGarden);
-    }
-}
-document.addEventListener('DOMContentLoaded', function() {
-    updateFavBtn("{{ slug }}");
-    updateGardenBtn("{{ slug }}");
-});;
-</script>
 
+// Wywołaj po załadowaniu DOM – podaj aktualne category i slug!
+document.addEventListener("DOMContentLoaded", function() {
+    updatePlantButtons('{{ category }}', '{{ slug }}');
+});
+</script>
 <style>
 /* Aktywny kafelek */
 .tiles-menu .tile.active {
@@ -225,6 +175,25 @@ document.addEventListener('DOMContentLoaded', function() {
 .carousel-btn.prev { left: 8px; }
 .carousel-btn.next { right: 8px; }
 .carousel-btn:hover { background: #e5f5e0; }
+.plant-action-btn.active {
+    background: #d4ebcf;
+    color: #234e18;
+    border: 1px solid #9cd893;
+    transition: background 0.13s;
+}
+.plant-action-btn {
+    background: #f4faf2;
+    color: #184e10;
+    border: 1px solid #d6eed5;
+    border-radius: 10px;
+    padding: 0.85em 1.8em;
+    font-size: 1.08em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+}
+.plant-action-btn:hover { background: #e0f2dc; }
 
 </style>
 

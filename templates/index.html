@@ -6,8 +6,10 @@
                 <li class="tree-gatunek">
                     <a href="{{ url_for('roslina', category=g.category, plant=g.slug) }}">{{ g.name }}</a>
                     <i class="latin">({{ g.latin }})</i>
-                    <span class="fav-btn" data-plant="{{ g.slug }}" onclick="toggleFav('{{ g.slug }}')" title="Dodaj/usuń z ulubionych">💚</span>
-                    <span class="garden-btn" data-plant="{{ g.slug }}" onclick="toggleGarden('{{ g.slug }}')" title="Dodaj/usuń do ogrodu">🌱</span>
+                    <span class="fav-btn" data-plant="{{ g.category }}/{{ g.slug }}"
+                        onclick="toggleFav('{{ g.category }}/{{ g.slug }}')" title="Dodaj/usuń z ulubionych">💚</span>
+                    <span class="garden-btn" data-plant="{{ g.category }}/{{ g.slug }}"
+                        onclick="toggleGarden('{{ g.category }}/{{ g.slug }}')" title="Dodaj/usuń do ogrodu">🌱</span>
                 </li>
             {% endfor %}
         {% else %}
@@ -20,12 +22,61 @@
 </ul>
 {% endmacro %}
 
-
-{% extends "base.html" %}
+{% extends "lista.html" %}
 {% block title %}Kwiatownik – Spis treści{% endblock %}
 {% block content %}
 <h2>Spis treści Kwiatownika</h2>
+
+<!-- WYSZUKIWARKA -->
+<div class="search-panel" style="margin-bottom:1.8em;">
+    <form action="/szukaj" method="get" id="searchForm" autocomplete="off" style="display:flex;max-width:440px;gap:0.7em;">
+        <input type="search" name="q" id="searchInput"
+               placeholder="Wpisz nazwę rośliny lub słowo kluczowe…" minlength="3" maxlength="120"
+               required style="flex:1;padding:0.6em 1em;font-size:1.13em;border-radius:8px;border:1px solid #bcd7b7;">
+        <button type="submit" style="padding:0.58em 1.1em;background:#67a75d;color:#fff;font-weight:bold;border:none;border-radius:8px;">Szukaj 🔍</button>
+    </form>
+</div>
+
+<!-- KAFELKI FILTRUJĄCE -->
+<div class="category-tiles" style="display:flex;gap:1.1em;flex-wrap:wrap;justify-content:center;margin-bottom:2em;">
+    <a href="/drzewa/" class="tile-cat">🌳 Drzewa</a>
+    <a href="/ziola/" class="tile-cat">🌿 Zioła</a>
+    <a href="/cebule/" class="tile-cat">🧅 Cebule</a>
+    <a href="/bulwy/" class="tile-cat">🥔 Bulwy</a>
+</div>
+
+<!-- DRZEWO SPISU TREŚCI -->
 <div class="tree-content">
     {{ render_tree(tree) }}
 </div>
 {% endblock %}
+
+<style>
+.tile-cat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2em 2.3em;
+    background: #f3fbe7;
+    color: #184e10;
+    font-size: 1.15em;
+    border-radius: 15px;
+    box-shadow: 0 2px 9px #bcd7b7aa;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.15s, box-shadow 0.18s;
+}
+.tile-cat:hover, .tile-cat:focus {
+    background: #e7f7cf;
+    color: #124f07;
+    box-shadow: 0 3px 12px #bcd7b7;
+    text-decoration: none;
+}
+</style>
+
+<script>
+window.onload = function() {
+    if(typeof updateFavIcons === "function") updateFavIcons();
+};
+</script>

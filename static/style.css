@@ -3,13 +3,19 @@ html, body {
     margin: 0;
     padding: 0;
 }
-.wrapper {
+body.wrapper {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 main {
     flex: 1;
+}
+main.page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1em 2vw 2em 2vw;
+    width: 100%;
 }
 footer {
     background: #f2f8ee;
@@ -564,3 +570,8 @@ input, select, button {
     color: #226b13;
     border: 1.5px solid #83ba7d;
 }
+
+body.wrapper { min-height: 100vh; display: flex; flex-direction: column; }
+main { flex: 1 0 auto; }
+footer { flex-shrink: 0; }
+main { background: #f9f9f9; }

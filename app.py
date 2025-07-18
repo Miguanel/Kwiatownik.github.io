@@ -75,11 +75,6 @@ def all_plants():
     return out
 
 
-@app.route("/")
-def index():
-    tree = build_tree()
-    return render_template("index.html", tree=tree)
-
 
 @app.route("/<category>/")
 def lista(category):
@@ -238,5 +233,13 @@ def fragment_przepisy_medyczne_all(category, plant):
                            przepisy=przepisy_solo,
                            mieszanki=mieszanki,
                            data=data)
+
+
+@app.route("/")
+def index():
+    tree = build_tree()
+    return render_template("index.html", tree=tree)
+
+
 if __name__ == "__main__":
     app.run(debug=True)

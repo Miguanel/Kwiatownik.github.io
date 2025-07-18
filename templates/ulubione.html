@@ -1,108 +1,188 @@
 {% extends "base.html" %}
 {% block title %}Ulubione i ogród{% endblock %}
 {% block content %}
-<h2>Ulubione rośliny</h2>
-<ul id="fav-list"></ul>
 
-<h2>Rośliny mam w ogrodzie</h2>
-<ul id="garden-list"></ul>
+<div class="page">
+    <h2>Ulubione rośliny</h2>
+    <ul id="fav-list"></ul>
 
-<h2>Kalendarz siewu i zbioru (ulubione rośliny)</h2>
-<div id="calendar"></div>
+    <h2>Rośliny mam w ogrodzie</h2>
+    <ul id="garden-list"></ul>
+
+    <h2>Kalendarz siewu i zbioru (ulubione rośliny)</h2>
+    <div id="calendar"></div>
+
+    <div class="calendar-legend" style="margin:1.1em 0 1.8em 0; font-size:1.07em;">
+        <b>Legenda:</b>
+        <span style="margin-left:1.2em;">🌱 – siew</span>
+        <span style="margin-left:1.2em;">🥬 – sadzenie</span>
+        <span style="margin-left:1.2em;">🍃 – zbiór</span>
+        <span style="margin-left:1.2em;">
+            <span style="display:inline-block;width:20px;height:16px;background:#c7ebb8;border-radius:3px;border:1px solid #acd09a;margin-right:0.3em;vertical-align:middle;"></span>
+            – aktualny miesiąc
+        </span>
+    </div>
+
+    <h2 style="margin-top:2em;">Kalendarz siewu i zbioru (rośliny w ogrodzie)</h2>
+    <div id="calendar-garden"></div>
+</div>
 
 <script>
-const allPlantsData = {{ all_plants|tojson }};
+const allPlantsData = {{ all_plants|tojson|safe }};
 
+function getFavs() {
+    return JSON.parse(localStorage.getItem("favs") || "[]");
+}
+function setFavs(val) {
+    localStorage.setItem("favs", JSON.stringify(val));
+}
+function getGarden() {
+    return JSON.parse(localStorage.getItem("garden") || "[]");
+}
 
+function makePlantImage(urls, alt, thumbClass) {
+    if (!urls || urls.length === 0) {
+        return `<span class="${thumbClass}-empty"></span>`;
+    }
+    return `<img src="${urls[0]}" alt="${alt}" class="${thumbClass}" loading="lazy"
+                data-imglist='${JSON.stringify(urls)}' data-imgidx="0">`;
+}
+function makePlantMiniImage(urls, alt) {
+    if (!urls || urls.length === 0) {
+        return `<span class="plant-thumb-mini-empty"></span>`;
+    }
+    return `<img src="${urls[0]}" alt="${alt}" class="plant-thumb-mini" loading="lazy"
+                data-imglist='${JSON.stringify(urls)}' data-imgidx="0">`;
+}
 
-// Poprawione funkcje:
 function showFavList() {
     let favs = getFavs();
     let ul = document.getElementById("fav-list");
     ul.innerHTML = "";
-    if(favs.length==0) {ul.innerHTML = "<li>Brak ulubionych roślin.</li>"; return;}
-    favs.forEach(function(path){
+    if (favs.length === 0) {
+        ul.innerHTML = "<li>Brak ulubionych roślin.</li>";
+        return;
+    }
+    favs.forEach(function(path) {
         let [cat, slug] = path.split("/");
-        // Znajdź polską nazwę:
         let plant = allPlantsData.find(p => p.category === cat && p.slug === slug);
-        let name = plant ? plant.name : slug.replace("_"," ");
-        ul.innerHTML += `<li><a href="/${cat}/${slug}">${name}</a></li>`;
+        if (!plant) return;
+        let img = makePlantImage(plant.data.zdjecia, plant.name, 'plant-thumb');
+        ul.innerHTML += `
+        <li class="fav-li">
+            <div class="fav-main">
+                <a href="/${cat}/${slug}" class="fav-link"><b>${plant.name}</b></a>
+                <i class="fav-latin">(${plant.latin})</i>
+                <span class="fav-path">${plant.data.nazwa_zbioru ? plant.data.nazwa_zbioru.join(" → ") : ""}</span>
+                <button class="fav-remove" onclick="removeFav('${cat}/${slug}')" title="Usuń z ulubionych">❌</button>
+            </div>
+            ${img}
+        </li>`;
     });
 }
+
+function removeFav(path) {
+    let favs = getFavs();
+    let idx = favs.indexOf(path);
+    if(idx !== -1) {
+        favs.splice(idx, 1);
+        setFavs(favs);
+        showFavList();
+        showCalendar();
+        showCalendarGarden();
+    }
+}
+
 function showGardenList() {
     let g = getGarden();
     let ul = document.getElementById("garden-list");
     ul.innerHTML = "";
-    if(g.length==0) {ul.innerHTML = "<li>Nie masz roślin w ogrodzie.</li>"; return;}
-    g.forEach(function(path){
+    if (g.length === 0) {
+        ul.innerHTML = "<li>Nie masz roślin w ogrodzie.</li>";
+        return;
+    }
+    g.forEach(function(path) {
         let [cat, slug] = path.split("/");
         let plant = allPlantsData.find(p => p.category === cat && p.slug === slug);
-        let name = plant ? plant.name : slug.replace("_"," ");
-        ul.innerHTML += `<li><a href="/${cat}/${slug}">${name}</a></li>`;
+        if (!plant) return;
+        let img = makePlantImage(plant.data.zdjecia, plant.name, 'plant-thumb');
+        ul.innerHTML += `
+        <li class="fav-li">
+            <div class="fav-main">
+                <a href="/${cat}/${slug}" class="fav-link"><b>${plant.name}</b></a>
+                <i class="fav-latin">(${plant.latin})</i>
+                <span class="fav-path">${plant.data.nazwa_zbioru ? plant.data.nazwa_zbioru.join(" → ") : ""}</span>
+            </div>
+            ${img}
+        </li>`;
     });
 }
 
-// ---- KALENDARZ SIEWU I ZBIORU ----
-
 function findNextEvent(monthArray, label) {
-    if(!monthArray) return null;
+    if (!monthArray) return null;
     let now = new Date();
     let currentMonth = now.getMonth() + 1;
     let currentDay = now.getDate();
     let currentYear = now.getFullYear();
-    let sorted = monthArray.slice().sort((a,b)=>a-b);
-    for(let i=0; i<sorted.length; ++i) {
+    let sorted = monthArray.slice().sort((a, b) => a - b);
+    for (let i = 0; i < sorted.length; ++i) {
         let m = sorted[i];
-        if(m > currentMonth || (m === currentMonth && currentDay < 25)) {
-            let date = new Date(currentYear, m-1, 1);
-            let diff = Math.round((date - now) / (1000*60*60*24*7));
+        if (m > currentMonth || (m === currentMonth && currentDay < 25)) {
+            let date = new Date(currentYear, m - 1, 1);
+            let diff = Math.round((date - now) / (1000 * 60 * 60 * 24 * 7));
             return { label: label, month: m, weeks: diff };
         }
-        if(m === currentMonth && currentDay >= 1 && currentDay <= 25) {
+        if (m === currentMonth && currentDay >= 1 && currentDay <= 25) {
             return { label: label, month: m, weeks: 0 };
         }
     }
-    if(sorted.length) {
+    if (sorted.length) {
         let m = sorted[0];
-        let date = new Date(currentYear+1, m-1, 1);
-        let diff = Math.round((date - now) / (1000*60*60*24*7));
+        let date = new Date(currentYear + 1, m - 1, 1);
+        let diff = Math.round((date - now) / (1000 * 60 * 60 * 24 * 7));
         return { label: label, month: m, weeks: diff };
     }
     return null;
 }
 
-function showCalendar() {
-    let favs = getFavs();
-    let root = document.getElementById("calendar");
-    if(favs.length==0) {root.innerHTML = "<i>Brak roślin w ulubionych.</i>"; return;}
-    let months = ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"];
-    let html = "<table class='calendar-table'><tr><th>Roślina</th>";
-    for(let m=0;m<12;m++) html += `<th>${months[m]}</th>`;
+function renderCalendarTable(plants) {
+    let now = new Date();
+    let thisMonth = now.getMonth(); // 0-indexed!
+    let months = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"];
+    let html = `<div class="calendar-scrollbox"><table class='calendar-table' style='margin-top:0.9em; border-collapse:collapse;'>
+        <tr><th>Roślina</th>`;
+    for (let m = 0; m < 12; m++) {
+        html += `<th class="calendar-month${m === thisMonth ? ' calendar-month-current' : ''}">${months[m]}</th>`;
+    }
     html += "<th>Status</th></tr>";
-    favs.forEach(function(path){
-        let [cat, slug] = path.split("/");
-        let plant = allPlantsData.find(p=>p.category === cat && p.slug === slug);
-        if(!plant) return;
+    plants.forEach(function(plant) {
+        if (!plant) return;
         let kal = plant.data.kalendarz || {};
         let events = [];
         let nextZbior = findNextEvent(kal.zbior, "zbiór");
         let nextSiew = findNextEvent(kal.siew, "siew");
         let nextSadzenie = findNextEvent(kal.sadzenie, "sadzenie");
-        [nextZbior, nextSiew, nextSadzenie].forEach(e=>{
-            if(e && e.weeks >= 0 && e.weeks <= 8) events.push(e);
+        [nextZbior, nextSiew, nextSadzenie].forEach(e => {
+            if (e && e.weeks >= 0 && e.weeks <= 8) events.push(e);
         });
-        html += `<tr><td><b>${plant.name}</b> <i style="color:#789044;">(${plant.latin})</i></td>`;
-        for(let m=1;m<=12;m++) {
+        html += `<tr>
+        <td style="white-space:nowrap;">
+            <div style="display:flex;align-items:center;gap:0.7em;">
+                ${makePlantMiniImage(plant.data.zdjecia, plant.name)}
+                <span>${plant.name}</span>
+            </div>
+        </td>`;
+        for (let m = 1; m <= 12; m++) {
             let ikony = '';
-            if(kal.siew && kal.siew.includes(m)) ikony += '🌱';
-            if(kal.sadzenie && kal.sadzenie.includes(m)) ikony += '🥬';
-            if(kal.zbior && kal.zbior.includes(m)) ikony += '🍃';
-            html += `<td style="text-align:center;">${ikony}</td>`;
+            if (kal.siew && kal.siew.includes(m)) ikony += '🌱';
+            if (kal.sadzenie && kal.sadzenie.includes(m)) ikony += '🥬';
+            if (kal.zbior && kal.zbior.includes(m)) ikony += '🍃';
+            html += `<td style="text-align:center;min-width:28px;">${ikony}</td>`;
         }
-        if(events.length) {
+        if (events.length) {
             html += `<td style="color:#39790e;font-weight:bold;">`;
             events.forEach(e => {
-                if(e.weeks === 0)
+                if (e.weeks === 0)
                     html += `<span style="color:#d95d1a;">Trwa ${e.label}!</span><br>`;
                 else
                     html += `Za ${e.weeks} tyg. → <b>${e.label}</b><br>`;
@@ -113,14 +193,221 @@ function showCalendar() {
         }
         html += "</tr>";
     });
-    html += "</table>";
-    root.innerHTML = html;
+    html += "</table></div>";
+    return html;
 }
 
-window.onload = function() {
+function showCalendar() {
+    let favs = getFavs();
+    let root = document.getElementById("calendar");
+    if (favs.length == 0) {
+        root.innerHTML = "<i>Brak roślin w ulubionych.</i>";
+        return;
+    }
+    let plants = favs.map(function(path) {
+        let [cat, slug] = path.split("/");
+        return allPlantsData.find(p => p.category === cat && p.slug === slug);
+    }).filter(Boolean);
+    root.innerHTML = renderCalendarTable(plants);
+
+    // Przewiń na aktualny miesiąc
+    let scrollBox = root.querySelector('.calendar-scrollbox');
+    if(scrollBox) {
+        let active = scrollBox.querySelector('.calendar-month-current');
+        if(active) {
+            let boxWidth = scrollBox.offsetWidth;
+            let left = active.offsetLeft;
+            let thWidth = active.offsetWidth;
+            let scrollTo = left - (boxWidth / 2) + (thWidth / 2);
+            scrollBox.scrollLeft = Math.max(scrollTo, 0);
+        }
+    }
+}
+
+function showCalendarGarden() {
+    let garden = getGarden();
+    let root = document.getElementById("calendar-garden");
+    if (garden.length == 0) {
+        root.innerHTML = "<i>Nie masz roślin w ogrodzie.</i>";
+        return;
+    }
+    let plants = garden.map(function(path) {
+        let [cat, slug] = path.split("/");
+        return allPlantsData.find(p => p.category === cat && p.slug === slug);
+    }).filter(Boolean);
+    root.innerHTML = renderCalendarTable(plants);
+
+    // Przewiń na aktualny miesiąc
+    let scrollBox = root.querySelector('.calendar-scrollbox');
+    if(scrollBox) {
+        let active = scrollBox.querySelector('.calendar-month-current');
+        if(active) {
+            let boxWidth = scrollBox.offsetWidth;
+            let left = active.offsetLeft;
+            let thWidth = active.offsetWidth;
+            let scrollTo = left - (boxWidth / 2) + (thWidth / 2);
+            scrollBox.scrollLeft = Math.max(scrollTo, 0);
+        }
+    }
+}
+
+// Obsługa awarii ładowania obrazków
+document.body.addEventListener('error', function(e) {
+    let el = e.target;
+    if (el.classList.contains('plant-thumb') || el.classList.contains('plant-thumb-mini')) {
+        let imgs = [];
+        try { imgs = JSON.parse(el.getAttribute('data-imglist') || "[]"); } catch {}
+        let idx = Number(el.getAttribute('data-imgidx') || 0) + 1;
+        if (imgs && idx < imgs.length) {
+            el.setAttribute('data-imgidx', idx);
+            el.src = imgs[idx];
+        } else {
+            if (el.classList.contains('plant-thumb'))
+                el.outerHTML = '<span class="plant-thumb-empty"></span>';
+            else
+                el.outerHTML = '<span class="plant-thumb-mini-empty"></span>';
+        }
+    }
+}, true);
+
+document.addEventListener("DOMContentLoaded", function() {
     showFavList();
     showGardenList();
     showCalendar();
-};
+    showCalendarGarden();
+});
 </script>
+
+<style>
+body.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+}
+.page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1em 2vw 2em 2vw;
+    width: 100%;
+}
+.fav-li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.82em;
+    border-bottom: 1px solid #e3eed9;
+    padding-bottom: 0.39em;
+    padding-right: 0.4em;
+    gap: 1.3em;
+}
+.fav-main {
+    flex:1;
+    min-width: 0;
+}
+.fav-link { font-size: 1.13em; color: #184e10; font-weight: bold; text-decoration: underline;}
+.fav-link:hover { color: #39790e; }
+.fav-latin { font-size: 0.98em; color:#789044; margin-left:0.38em; }
+.fav-path { color:#aaa; font-size:0.98em; margin-left: 0.5em;}
+.fav-remove {
+    margin-left: 1.0em;
+    background: none;
+    border: none;
+    color: #b13722;
+    font-size: 1.18em;
+    cursor: pointer;
+    transition: color 0.14s;
+    vertical-align: middle;
+}
+.fav-remove:hover { color: #ee2211; }
+.plant-thumb {
+    width: 58px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 1px 6px #0002;
+    background: #f3fbe7;
+}
+.plant-thumb-empty {
+    display: inline-block;
+    width: 58px;
+    height: 45px;
+    border-radius: 12px;
+    background: #e5efe0;
+}
+.plant-thumb-mini {
+    width: 38px;
+    height: 29px;
+    object-fit: cover;
+    border-radius: 9px;
+    box-shadow: 0 1px 3px #0002;
+    background: #f3fbe7;
+    margin-right: 0.5em;
+}
+.plant-thumb-mini-empty {
+    display: inline-block;
+    width: 38px;
+    height: 29px;
+    border-radius: 9px;
+    background: #e5efe0;
+    margin-right: 0.5em;
+}
+.calendar-table th, .calendar-table td {
+    border: 1px solid #e3eed9;
+    padding: 0.3em 0.42em;
+    font-size: 0.99em;
+}
+.calendar-table th {
+    background: #f3fbe7;
+    color: #183e17;
+    font-weight: bold;
+}
+.calendar-month-current, .calendar-table th.calendar-month-current {
+    background: #c7ebb8 !important;
+    color: #195e17 !important;
+    border-bottom: 2px solid #5da44e !important;
+}
+.calendar-legend span {
+    margin-right: 1.1em;
+    color: #194c12;
+    font-size: 1.06em;
+}
+.calendar-scrollbox {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #bcd7b7 #f3fbe7;
+    position: relative;
+    margin-bottom: 1em;
+}
+/* Gradient maski po bokach scrolla (opcjonalnie, UX!) */
+.calendar-scrollbox::before,
+.calendar-scrollbox::after {
+    content: "";
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 18px;
+    pointer-events: none;
+    z-index: 2;
+}
+.calendar-scrollbox::before {
+    left: 0;
+    background: none;
+}
+.calendar-scrollbox::after {
+    right: 0;
+    background: none;
+}
+
+@media (max-width: 700px) {
+    .page { padding: 1em 0.4em 2em 0.4em; }
+    .calendar-table { min-width: 560px; font-size: 0.98em; }
+}
+
+</style>
 {% endblock %}

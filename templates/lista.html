@@ -31,10 +31,12 @@
                 <b>{{ data.gatunek }}</b>
             </a>
             {% if data.nazwa_lacinska %}<i>({{ data.nazwa_lacinska }})</i>{% endif %}
-            <span class="fav-btn" data-plant="{{ category }}/{{ slug }}" onclick="toggleFav('{{ category }}','{{ slug }}')" ...>💚</span>
-<span class="garden-btn" data-plant="{{ category }}/{{ slug }}" onclick="toggleGarden('{{ category }}','{{ slug }}')" ...>🌱</span>
+            <span class="fav-btn" data-plant="{{ category }}'/'{{ slug }}"
+                  onclick="toggleFav('{{ category }}','{{ slug }}')">💚</span>
+            <span class="garden-btn" data-plant="{{ category }}'/'{{ slug }}"
+                  onclick="toggleGarden('{{ category }}','{{ slug }}')">🌱</span>
 
-            <span class="compare-btn" onclick="addCompare('{{ category }}','{{ slug }}')" title="Porównaj">🔁</span>
+<!--            <span class="compare-btn" onclick="addCompare('{{ category }}','{{ slug }}')" title="Porównaj">🔁</span>-->
         </div>
         <div style="font-size:0.95em; margin-top:0.4em;">
             <b>Ścieżka:</b>
@@ -54,6 +56,7 @@
 </div>
 <script>
 window.onload = updateFavIcons;
+
 
 </script>
 {% endblock %}

@@ -34,7 +34,9 @@
         <a href="javascript:toggleNav()" class="close-menu">Zamknij ✕</a>
     </nav>
     <main>
-        {% block content %}{% endblock %}
+        <div class="page">
+            {% block content %}{% endblock %}
+        </div>
     </main>
     <footer>
         <small>&copy; {{ now().year if now else '1936' }} Kwiatownik. Wszelkie prawa zastrzeżone.</small>
