@@ -8,7 +8,11 @@
     "Matricaria",
     "Rumianek pospolity"
   ],
-  "zdjecia": [],
+  "zdjecia": [
+    "https://live.staticflickr.com/4025/4652366296_08af69a127_b.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Matricaria_chamomilla_sl11.jpg/250px-Matricaria_chamomilla_sl11.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Matricaria_recutita_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-091.jpg/1200px-Matricaria_recutita_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-091.jpg"
+  ],
   "uprawa": {
     "gleba": "Piaszczysto-gliniasta, lekka, umiarkowanie wilgotna, bogata w wapń, dobrze przepuszczalna.",
     "stanowisko": "Stanowisko słoneczne, roślina odporna na suszę.",
@@ -18,7 +22,10 @@
   "wystepowanie": {
     "obszar": "Europa, zachodnia Azja, Afryka Północna; szeroko rozpowszechniony jako chwast polny na całym świecie.",
     "w_polsce": "Bardzo pospolity na polach, łąkach, miedzach, przydrożach, ugorach i w ogrodach.",
-    "zrodlo": [1,2]
+    "zrodlo": [
+      1,
+      2
+    ]
   },
   "opis_botaniczny": {
     "pokroj": "Jednoroczna roślina zielna, 15–50 cm wysokości, silnie rozgałęziona, o drobnych, delikatnych liściach.",
@@ -27,36 +34,49 @@
     "kwiaty": "Koszyczki kwiatowe o średnicy 1,5–2,5 cm, z białymi kwiatami języczkowatymi i żółtym, stożkowatym dnem kwiatowym, które jest puste w środku (ważna cecha rozpoznawcza). Kwitnie od maja do września.",
     "zapach": "Intensywny, przyjemny, jabłkowy aromat – bardzo charakterystyczny.",
     "cecha_wyrozniajaca": "Puste, stożkowate dno koszyczka kwiatowego; silny, słodki zapach; brak łusek okrywy pod kwiatami.",
-    "zrodlo": [3,4]
+    "zrodlo": [
+      3,
+      4
+    ]
   },
   "wlasciwosci_i_skladniki": [
     {
       "nazwa": "Olejek eteryczny",
       "dzialanie": "przeciwzapalny, rozkurczowy, przeciwbakteryjny, uspokajający, łagodzący bóle brzucha",
       "sklad": "azulen (chamazulen), bisabolol, farnezen, flawonoidy",
-      "zrodlo": [5]
+      "zrodlo": [
+        5
+      ]
     },
     {
       "nazwa": "Flawonoidy",
       "dzialanie": "antyoksydacyjne, przeciwzapalne, uszczelniające naczynia krwionośne",
       "sklad": "apigenina, luteolina, kwercetyna",
-      "zrodlo": [6]
+      "zrodlo": [
+        6
+      ]
     },
     {
       "nazwa": "Śluzy roślinne",
       "dzialanie": "osłaniające, powlekające, łagodzące podrażnienia",
-      "zrodlo": [7]
+      "zrodlo": [
+        7
+      ]
     },
     {
       "nazwa": "Kwasy fenolowe",
       "dzialanie": "przeciwutleniające, ochraniające komórki",
       "sklad": "kwas kawowy, kwas chlorogenowy",
-      "zrodlo": [8]
+      "zrodlo": [
+        8
+      ]
     },
     {
       "nazwa": "Kumaryny, gorczyce",
       "dzialanie": "lekko rozkurczowe, wspomagające trawienie",
-      "zrodlo": [9]
+      "zrodlo": [
+        9
+      ]
     }
   ],
   "cechy_i_historia": {
@@ -79,267 +99,641 @@
       "To jedno z najważniejszych ziół dziecięcych w Europie – 'herbatka rumiankowa' polecana nawet niemowlętom.",
       "Olejek rumiankowy jest jednym z najdroższych olejków eterycznych na świecie (niewielka wydajność z kwiatów)."
     ],
-    "zrodlo": [10,11]
+    "zrodlo": [
+      10,
+      11
+    ]
   },
   "uwagi_i_ostrzezenia": [
     {
       "uwaga": "Możliwe reakcje alergiczne (wysypki, świąd, kichanie) – szczególnie u osób uczulonych na astrowate (np. arnikę, krwawnik).",
       "rozwiazanie": "Przerwać stosowanie w przypadku objawów uczulenia.",
-      "zrodlo": [12]
+      "zrodlo": [
+        12
+      ]
     },
     {
       "uwaga": "Przy bardzo dużych ilościach możliwe nudności i bóle głowy.",
       "rozwiazanie": "Nie przekraczać zalecanych dawek.",
-      "zrodlo": [13]
+      "zrodlo": [
+        13
+      ]
     }
   ],
   "przepisy_medyczne": {
     "napar_z_rumianku": {
       "skladniki": [
-        "1 łyżka suszonych koszyczków rumianku",
-        "250 ml wrzątku"
+        "1 łyżka suszonych koszyczków rumianku pospolitego",
+        "250 ml świeżo zagotowanej wody"
       ],
-      "sposob_przygotowania": "Ziele zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić.",
+      "sposob_przygotowania": "Suszone koszyczki rumianku zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić przez sitko lub gazę.",
       "cechy": [
         "Słomkowy kolor",
-        "Intensywny aromat"
+        "Intensywny, charakterystyczny aromat"
       ],
       "wlasciwosci": [
         "łagodzi bóle brzucha",
-        "rozkurcza mięśnie gładkie",
+        "rozkurcza mięśnie gładkie przewodu pokarmowego",
         "uspokaja",
-        "działa przeciwzapalnie"
+        "działa przeciwzapalnie i przeciwbakteryjnie"
       ],
-      "zastosowanie": "Bóle żołądka, wzdęcia, kolki, napięcie nerwowe.",
-      "dawkowanie": "Pić 2–3 razy dziennie po szklance.",
-      "zrodlo": [14]
+      "zastosowanie": "Bóle żołądka, wzdęcia, kolki, napięcie nerwowe, łagodne stany zapalne przewodu pokarmowego.",
+      "dawkowanie": "Pić 2–3 razy dziennie po szklance naparu.",
+      "zrodlo": [
+        14
+      ]
     },
     "odwar_do_kapieli": {
       "skladniki": [
-        "3 łyżki suszonych kwiatów rumianku",
-        "1 litr wody"
+        "3 łyżki suszonych kwiatów rumianku pospolitego",
+        "1 litr świeżej wody"
       ],
-      "sposob_przygotowania": "Kwiaty gotować 5–10 min, przecedzić do kąpieli.",
+      "sposob_przygotowania": "Suszone kwiaty rumianku zalać zimną wodą, doprowadzić do wrzenia, gotować na małym ogniu 5–10 minut, przecedzić do wanny z ciepłą wodą.",
       "cechy": [
         "Słomkowo-złoty płyn",
-        "Delikatny aromat"
+        "Delikatny, ziołowy aromat"
       ],
       "wlasciwosci": [
-        "łagodzi podrażnienia skóry",
-        "przyspiesza gojenie",
+        "łagodzi podrażnienia i świąd skóry",
+        "przyspiesza gojenie naskórka",
         "działa przeciwbakteryjnie"
       ],
-      "zastosowanie": "Kąpiele przy wysypkach, alergiach, odparzeniach.",
-      "zrodlo": [15]
+      "zastosowanie": "Kąpiele lecznicze przy wysypkach, alergiach, odparzeniach skóry.",
+      "dawkowanie": "Kąpiel 10–20 minut, 2–3 razy w tygodniu.",
+      "zrodlo": [
+        15
+      ]
     },
     "inhalacja": {
       "skladniki": [
-        "2 łyżki suszonych kwiatów rumianku",
+        "2 łyżki suszonych kwiatów rumianku pospolitego",
         "500 ml wrzątku"
       ],
-      "sposob_przygotowania": "Kwiaty zalać wrzątkiem w misce, pochylić się, nakryć głowę ręcznikiem, wdychać parę 10 minut.",
+      "sposob_przygotowania": "Suszone kwiaty zalać wrzątkiem w dużej misce. Pochylić się nad miską, nakryć głowę ręcznikiem, wdychać parę 10 minut.",
       "cechy": [
-        "Intensywny zapach",
+        "Intensywny zapach rumianku",
         "Kojąca para"
       ],
       "wlasciwosci": [
         "łagodzi katar",
         "udrażnia drogi oddechowe",
-        "działa przeciwzapalnie"
+        "działa przeciwzapalnie, nawilża śluzówki"
       ],
-      "zastosowanie": "Katar, przeziębienie, zapalenie zatok.",
-      "zrodlo": [16]
+      "zastosowanie": "Katar, przeziębienie, zapalenie zatok, kaszel.",
+      "dawkowanie": "Inhalacja raz dziennie przez 3–5 dni.",
+      "zrodlo": [
+        16
+      ]
     },
     "macerat_do_oczu": {
       "skladniki": [
-        "1 łyżeczka suszonych koszyczków rumianku",
+        "1 łyżeczka suszonych koszyczków rumianku pospolitego",
         "100 ml przegotowanej letniej wody"
       ],
-      "sposob_przygotowania": "Zalać wodą, odstawić na 1–2 godziny, przecedzić przez gazę.",
+      "sposob_przygotowania": "Zioło zalać wodą, odstawić na 1–2 godziny, przecedzić przez sterylną gazę.",
       "cechy": [
         "Bardzo delikatny napar",
-        "Lekki zapach"
+        "Lekki, świeży zapach"
       ],
       "wlasciwosci": [
-        "łagodzi podrażnienia spojówek",
-        "działa kojąco"
+        "łagodzi podrażnienia i zaczerwienienia spojówek",
+        "działa kojąco i lekko antybakteryjnie"
       ],
-      "zastosowanie": "Przemywanie oczu, okłady na powieki.",
-      "zrodlo": [17]
+      "zastosowanie": "Przemywanie oczu, okłady na powieki przy podrażnieniach.",
+      "dawkowanie": "Przemywać oczy 2–3 razy dziennie świeżym maceratem.",
+      "zrodlo": [
+        17
+      ]
+    },
+    "napar_do_płukania_jamy_ustnej": {
+      "skladniki": [
+        "2 łyżki suszonych koszyczków rumianku pospolitego",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Kwiaty zalać wrzątkiem, parzyć pod przykryciem 15 minut, przecedzić przez gazę.",
+      "cechy": [
+        "Ziołowy smak",
+        "Złocisty kolor"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalny, łagodzący ból i obrzęk dziąseł"
+      ],
+      "zastosowanie": "Płukanka do jamy ustnej przy aftach, zapaleniach dziąseł, po zabiegach stomatologicznych.",
+      "dawkowanie": "Płukać 3–5 razy dziennie świeżym naparem.",
+      "zrodlo": [
+        18
+      ]
+    },
+    "okład_na_powieki": {
+      "skladniki": [
+        "1 łyżeczka suszonych koszyczków rumianku",
+        "100 ml wrzątku",
+        "gaza"
+      ],
+      "sposob_przygotowania": "Kwiaty zalać wrzątkiem, parzyć 10 minut, przecedzić. Namoczyć gazę, przykładać na powieki.",
+      "cechy": [
+        "Delikatny, ziołowy napar"
+      ],
+      "wlasciwosci": [
+        "zmniejsza obrzęk, łagodzi podrażnienie"
+      ],
+      "zastosowanie": "Okłady na opuchnięte, zmęczone oczy.",
+      "dawkowanie": "Okład 10–15 minut, 1–2 razy dziennie.",
+      "zrodlo": [
+        19
+      ]
+    },
+    "parówka_na_twarz": {
+      "skladniki": [
+        "3 łyżki suszonych kwiatów rumianku",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Kwiaty zalać wrzątkiem w misce, nachylić się nad parą, przykryć głowę ręcznikiem, trzymać 5–10 minut.",
+      "cechy": [
+        "Intensywny aromat",
+        "Parujący napar"
+      ],
+      "wlasciwosci": [
+        "oczyszcza pory, łagodzi stany zapalne skóry"
+      ],
+      "zastosowanie": "Parówka do cery tłustej, trądzikowej, mieszanej.",
+      "dawkowanie": "Raz w tygodniu.",
+      "zrodlo": [
+        20
+      ]
+    },
+    "kąpiel_sitz_na_hemoroidy": {
+      "skladniki": [
+        "4 łyżki suszonych koszyczków rumianku",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Kwiaty zalać wrzątkiem, parzyć 20 minut, przecedzić do miski z wodą.",
+      "cechy": [
+        "Słomkowy kolor, intensywny aromat"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalny, łagodzący, przyspiesza gojenie"
+      ],
+      "zastosowanie": "Sitz-bad na hemoroidy, stany zapalne odbytu.",
+      "dawkowanie": "15 minut, 1–2 razy dziennie.",
+      "zrodlo": [
+        21
+      ]
+    },
+    "maść_rumiankowa": {
+      "skladniki": [
+        "2 łyżki suszonych kwiatów rumianku",
+        "4 łyżki oleju kokosowego lub oliwy",
+        "2 łyżeczki wosku pszczelego"
+      ],
+      "sposob_przygotowania": "Kwiaty podgrzewać w tłuszczu 30 minut w kąpieli wodnej (temp. 50–60°C), odcedzić, do ciepłego tłuszczu dodać wosk, przelać do słoiczka.",
+      "cechy": [
+        "Gęsta, jasnożółta maść"
+      ],
+      "wlasciwosci": [
+        "gojąca, łagodząca podrażnienia skóry"
+      ],
+      "zastosowanie": "Drobne rany, przesuszenia, pielęgnacja skóry dzieci.",
+      "dawkowanie": "Stosować 2–3 razy dziennie.",
+      "zrodlo": [
+        22
+      ]
+    },
+    "herbata_niemiecka_na_niestrawnosc": {
+      "skladniki": [
+        "1 łyżka suszonych kwiatów rumianku pospolitego",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Kwiaty zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić.",
+      "cechy": [
+        "Złocista barwa, intensywny aromat"
+      ],
+      "wlasciwosci": [
+        "łagodzi bóle brzucha, działa rozkurczowo"
+      ],
+      "zastosowanie": "Niestrawność, wzdęcia, bóle żołądka (stosowane codziennie w Niemczech i Austrii).",
+      "dawkowanie": "1 filiżanka po jedzeniu.",
+      "zrodlo": [
+        23
+      ]
+    },
+    "płukanka_francuska_na_stany_zapalne_gardla": {
+      "skladniki": [
+        "2 łyżki suszonych kwiatów rumianku",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzyć kwiaty rumianku, ostudzić do temperatury letniej, stosować do płukania gardła.",
+      "cechy": [
+        "Ziołowy, delikatny smak"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalny, kojący"
+      ],
+      "zastosowanie": "Ból gardła, chrypka, afty (klasyczna fitoterapia francuska).",
+      "dawkowanie": "Płukać gardło 2–4 razy dziennie.",
+      "zrodlo": [
+        24
+      ]
+    },
+    "okład_rosyjski_na_zapalenie_powiek": {
+      "skladniki": [
+        "1 łyżeczka suszonych kwiatów rumianku",
+        "100 ml wrzątku",
+        "gaza"
+      ],
+      "sposob_przygotowania": "Kwiaty zalać wrzątkiem, parzyć 10 minut, przecedzić. Nasączyć gazę, przykładać do powiek.",
+      "cechy": [
+        "Delikatny napar"
+      ],
+      "wlasciwosci": [
+        "łagodzi stany zapalne spojówek i powiek"
+      ],
+      "zastosowanie": "Okłady na oczy (stosowane w Rosji i Europie Wschodniej).",
+      "dawkowanie": "Okład 10 minut, 2 razy dziennie.",
+      "zrodlo": [
+        25
+      ]
+    },
+    "kąpiel_włoska_na_egzemę": {
+      "skladniki": [
+        "4 łyżki suszonych kwiatów rumianku",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Kwiaty zalać wrzątkiem, parzyć 20 minut, przecedzić do kąpieli.",
+      "cechy": [
+        "Słomkowa barwa, intensywny aromat"
+      ],
+      "wlasciwosci": [
+        "łagodzi egzemę, przyspiesza gojenie skóry"
+      ],
+      "zastosowanie": "Kąpiele lecznicze (stosowane w tradycyjnej medycynie włoskiej).",
+      "dawkowanie": "Kąpiel 10–20 minut, 2–3 razy w tygodniu.",
+      "zrodlo": [
+        26
+      ]
+    },
+    "inhalacja_angielska_na_zatoki": {
+      "skladniki": [
+        "3 łyżki suszonych kwiatów rumianku",
+        "500 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Kwiaty zalać wrzątkiem w misce, pochylać się nad parą, wdychać przez 10 minut.",
+      "cechy": [
+        "Intensywny, kojący zapach"
+      ],
+      "wlasciwosci": [
+        "udrażnia zatoki, łagodzi ból głowy"
+      ],
+      "zastosowanie": "Katar, zapalenie zatok (stosowane w Anglii, USA, krajach skandynawskich).",
+      "dawkowanie": "Inhalacja raz dziennie przez 3–5 dni.",
+      "zrodlo": [
+        27
+      ]
+    },
+    "maść_niemiecka_na_suche_pękające_dłonie": {
+      "skladniki": [
+        "2 łyżki suszonych kwiatów rumianku",
+        "4 łyżki naturalnego masła shea lub tłuszczu kokosowego",
+        "2 łyżeczki wosku pszczelego"
+      ],
+      "sposob_przygotowania": "Kwiaty podgrzać w tłuszczu 30 minut w kąpieli wodnej, odcedzić, wymieszać z woskiem, przelać do słoiczka.",
+      "cechy": [
+        "Żółtawa, aromatyczna maść"
+      ],
+      "wlasciwosci": [
+        "goi i chroni skórę, działa przeciwzapalnie"
+      ],
+      "zastosowanie": "Pękająca, sucha skóra dłoni, łokci (stosowana w Niemczech i Austrii).",
+      "dawkowanie": "Smarować 2–3 razy dziennie.",
+      "zrodlo": [
+        28
+      ]
     }
   },
   "przepisy_kulinarne": {
     "herbatka_rumiankowa": {
       "skladniki": [
-        "1 łyżeczka suszonych kwiatów rumianku",
-        "250 ml wrzątku"
+        "1 łyżeczka suszonych kwiatów rumianku pospolitego",
+        "250 ml świeżo zagotowanej wody"
       ],
-      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 7 minut pod przykryciem, przecedzić.",
+      "sposob_przygotowania": "Suszone kwiaty zalać wrzątkiem, parzyć 7 minut pod przykryciem, przecedzić przez sitko.",
       "cechy": [
         "Jasnozłoty kolor",
-        "Łagodny smak"
+        "Łagodny, kwiatowy smak"
       ],
       "wlasciwosci": [
         "uspokaja",
         "wspomaga trawienie"
       ],
       "zastosowanie": "Do picia na co dzień dla dzieci i dorosłych.",
-      "zrodlo": [18]
+      "zrodlo": [
+        18
+      ]
     },
     "syrop_rumiankowy": {
       "skladniki": [
-        "Garść świeżych kwiatów rumianku",
+        "1 garść świeżych kwiatów rumianku pospolitego (ok. 20–25 główek)",
         "200 ml wody",
-        "200 g cukru lub miodu"
+        "200 g cukru lub naturalnego miodu"
       ],
-      "sposob_przygotowania": "Kwiaty gotować w wodzie 5 min, przecedzić, dodać cukier/miód, odparować do konsystencji syropu.",
+      "sposob_przygotowania": "Kwiaty zalać wodą, gotować 5 minut na małym ogniu, przecedzić przez gazę. Do wywaru dodać cukier lub miód, podgrzewać do uzyskania konsystencji syropu.",
       "cechy": [
         "Jasnożółty syrop",
-        "Kwiatowy aromat"
+        "Kwiatowy, łagodny aromat"
       ],
       "wlasciwosci": [
         "łagodzi kaszel",
         "lekko uspokaja"
       ],
-      "zastosowanie": "Do herbaty, napojów, jako naturalny słodzik.",
-      "zrodlo": [19]
+      "zastosowanie": "Do słodzenia herbaty, wody, deserów, jako domowy syrop na kaszel.",
+      "zrodlo": [
+        19
+      ]
     },
     "cukier_rumiankowy": {
       "skladniki": [
-        "Sproszkowane kwiaty rumianku",
-        "Cukier puder"
+        "1 część sproszkowanych, dokładnie wysuszonych kwiatów rumianku pospolitego",
+        "4 części cukru pudru"
       ],
-      "sposob_przygotowania": "Kwiaty zmielić na proszek i wymieszać z cukrem pudrem (1:4).",
+      "sposob_przygotowania": "Kwiaty rumianku dokładnie wysuszyć, zmielić na drobny proszek, wymieszać z cukrem pudrem w proporcji 1:4.",
       "cechy": [
         "Lekko żółty kolor",
-        "Kwiatowy aromat"
+        "Wyraźny kwiatowy aromat"
       ],
       "wlasciwosci": [
         "dodaje aromatu",
         "naturalny słodzik"
       ],
-      "zastosowanie": "Do wypieków, deserów, dekoracji ciast.",
-      "zrodlo": [20]
+      "zastosowanie": "Do wypieków, ciast, deserów, dekoracji.",
+      "zrodlo": [
+        20
+      ]
     },
     "maslo_rumiankowe": {
       "skladniki": [
-        "Miękkie masło",
-        "Sproszkowane kwiaty rumianku",
-        "Sól"
+        "100 g miękkiego masła (prawdziwego, niesolonego)",
+        "1–2 łyżeczki sproszkowanych, dokładnie wysuszonych kwiatów rumianku",
+        "szczypta soli"
       ],
-      "sposob_przygotowania": "Masło wymieszać z rumiankiem i solą; przechowywać w lodówce.",
+      "sposob_przygotowania": "Masło pozostawić w temperaturze pokojowej do miękkości, wymieszać dokładnie z proszkiem rumiankowym i solą. Przechowywać w lodówce w zamkniętym naczyniu.",
       "cechy": [
         "Żółtawy kolor",
-        "Kwiatowy, delikatny smak"
+        "Delikatny, kwiatowy smak"
       ],
       "wlasciwosci": [
-        "wzbogaca pieczywo",
+        "wzbogaca smak pieczywa",
         "działa lekko uspokajająco"
       ],
-      "zastosowanie": "Do chleba, na grzanki.",
-      "zrodlo": [21]
+      "zastosowanie": "Do chleba, grzanek, świeżych bułek, jako składnik sosów ziołowych.",
+      "zrodlo": [
+        21
+      ]
+    },
+    "galaretka_z_rumianku": {
+      "skladniki": [
+        "2 szklanki mocnego naparu z suszonych kwiatów rumianku (2 łyżki na 500 ml wrzątku)",
+        "1 łyżka soku z cytryny",
+        "2 łyżki cukru",
+        "1 łyżka żelatyny"
+      ],
+      "sposob_przygotowania": "Żelatynę namoczyć w odrobinie wody. Napar przecedzić, dodać sok z cytryny i cukier, podgrzać, dodać żelatynę, dokładnie rozpuścić. Przelać do foremek, schłodzić.",
+      "cechy": [
+        "Przezroczysta, lekko złota galaretka"
+      ],
+      "wlasciwosci": [
+        "delikatnie uspokaja",
+        "łagodny deser"
+      ],
+      "zastosowanie": "Deser, przekąska dla dzieci i dorosłych.",
+      "zrodlo": [
+        22
+      ]
     }
   },
   "przepisy_z_innymi_roslinami": {
     "medyczne": [
       {
-        "nazwa": "Napar rozkurczowy (rumianek, mięta, koper włoski, melisa)",
+        "nazwa": "Mieszanka na ból brzucha (rumianek, mięta, koper włoski)",
         "skladniki": [
-          "1 łyżka koszyczków rumianku",
-          "1 łyżka liści mięty",
+          "1 łyżka suszonych kwiatów rumianku pospolitego",
+          "1 łyżka suszonych liści mięty pieprzowej",
           "1 łyżeczka nasion kopru włoskiego",
-          "1 łyżeczka liści melisy",
-          "500 ml wrzątku"
+          "300 ml wrzątku"
         ],
-        "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem, parzyć 10–15 min, przecedzić.",
+        "sposob_przygotowania": "Zioła i nasiona zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić.",
         "cechy": [
-          "Ziołowy aromat",
-          "Jasny kolor"
+          "Ziołowy, świeży smak"
         ],
         "wlasciwosci": [
-          "łagodzi bóle brzucha",
-          "rozkurcza mięśnie",
-          "działa lekko uspokajająco"
+          "łagodzi bóle brzucha, wzdęcia, działa rozkurczowo"
         ],
-        "zastosowanie": "Na kolki, bóle brzucha, nerwicę żołądka.",
-        "zrodlo": [22]
+        "zastosowanie": "Bóle żołądka, kolki, niestrawność.",
+        "dawkowanie": "1 szklanka po posiłku.",
+        "zrodlo": [
+          29
+        ]
       },
       {
-        "nazwa": "Mieszanka na gardło (rumianek, szałwia, tymianek, ślaz)",
+        "nazwa": "Herbatka uspokajająca (rumianek, melisa, lawenda)",
         "skladniki": [
-          "1 łyżka koszyczków rumianku",
-          "1 łyżka liści szałwii",
-          "1 łyżeczka ziela tymianku",
-          "1 łyżka kwiatu ślazu",
-          "500 ml wrzątku"
+          "1 łyżka suszonych kwiatów rumianku",
+          "1 łyżka suszonych liści melisy lekarskiej",
+          "1 łyżeczka suszonych kwiatów lawendy",
+          "250 ml wrzątku"
         ],
-        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 15 min, przecedzić. Używać do płukania lub popijać.",
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 minut pod przykryciem, przecedzić.",
         "cechy": [
-          "Ziołowy, delikatny smak",
-          "Złoto-słomkowy kolor"
+          "Delikatny, lekko kwiatowy aromat"
         ],
         "wlasciwosci": [
-          "działa przeciwzapalnie",
-          "powleka śluzówki",
-          "łagodzi ból gardła"
+          "uspokaja, łagodzi napięcie nerwowe, ułatwia zasypianie"
         ],
-        "zastosowanie": "Angina, przeziębienie, zapalenie gardła.",
-        "zrodlo": [23]
+        "zastosowanie": "Stres, bezsenność.",
+        "dawkowanie": "1 filiżanka wieczorem.",
+        "zrodlo": [
+          30
+        ]
       },
       {
-        "nazwa": "Kąpiel lecznicza dla dzieci (rumianek, nagietek, kora dębu)",
+        "nazwa": "Mieszanka na gardło (rumianek, szałwia, tymianek)",
         "skladniki": [
-          "2 łyżki kwiatów rumianku",
-          "2 łyżki kwiatów nagietka",
+          "1 łyżka suszonych kwiatów rumianku",
+          "1 łyżka suszonych liści szałwii lekarskiej",
+          "1 łyżka suszonego ziela tymianku",
+          "300 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 minut, przecedzić. Stosować do płukania gardła.",
+        "cechy": [
+          "Ziołowy, lekko gorzkawy smak"
+        ],
+        "wlasciwosci": [
+          "przeciwzapalne, antyseptyczne, łagodzące ból gardła"
+        ],
+        "zastosowanie": "Zapalenie gardła, afty, chrypka.",
+        "dawkowanie": "Płukać gardło 3–4 razy dziennie.",
+        "zrodlo": [
+          31
+        ]
+      },
+      {
+        "nazwa": "Herbatka wykrztuśna (rumianek, podbiał, prawoślaz)",
+        "skladniki": [
+          "1 łyżka suszonych kwiatów rumianku",
+          "1 łyżka suszonych liści podbiału",
+          "1 łyżeczka suszonego korzenia prawoślazu",
+          "250 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut, przecedzić.",
+        "cechy": [
+          "Ziołowy, słodkawy smak"
+        ],
+        "wlasciwosci": [
+          "łagodzi kaszel, działa powlekająco i wykrztuśnie"
+        ],
+        "zastosowanie": "Kaszel, chrypka.",
+        "dawkowanie": "1 szklanka 2 razy dziennie.",
+        "zrodlo": [
+          32
+        ]
+      },
+      {
+        "nazwa": "Płukanka niemiecka na dziąsła (rumianek, szałwia, dąb)",
+        "skladniki": [
+          "2 łyżki suszonych kwiatów rumianku",
+          "1 łyżka suszonych liści szałwii lekarskiej",
           "1 łyżka kory dębu",
+          "400 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 20 minut pod przykryciem, przecedzić.",
+        "cechy": [
+          "Ciemnozłoty, ziołowy napar"
+        ],
+        "wlasciwosci": [
+          "przeciwzapalny, ściągający, łagodzący ból dziąseł"
+        ],
+        "zastosowanie": "Stany zapalne jamy ustnej, afty, po zabiegach stomatologicznych.",
+        "dawkowanie": "Płukać jamę ustną 2–3 razy dziennie.",
+        "zrodlo": [
+          33
+        ]
+      },
+      {
+        "nazwa": "Napar francuski na trawienie (rumianek, mięta, anyż)",
+        "skladniki": [
+          "1 łyżka suszonych kwiatów rumianku",
+          "1 łyżka liści mięty pieprzowej",
+          "1 łyżeczka nasion anyżu",
+          "250 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 10 minut pod przykryciem, przecedzić.",
+        "cechy": [
+          "Ziołowy, lekko anyżowy smak"
+        ],
+        "wlasciwosci": [
+          "pobudza trawienie, łagodzi wzdęcia"
+        ],
+        "zastosowanie": "Po ciężkostrawnych posiłkach, na trawienie.",
+        "dawkowanie": "Filiżanka po posiłku.",
+        "zrodlo": [
+          34
+        ]
+      },
+      {
+        "nazwa": "Kąpiel austriacka na alergie (rumianek, fiołek, nagietek)",
+        "skladniki": [
+          "4 łyżki suszonych kwiatów rumianku",
+          "2 łyżki fiołka trójbarwnego",
+          "2 łyżki kwiatów nagietka",
           "2 litry wrzątku"
         ],
-        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 30 min, przecedzić do kąpieli.",
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 30 minut, przecedzić do kąpieli.",
         "cechy": [
-          "Aromatyczny, kojący zapach",
-          "Złocisty kolor"
+          "Ziołowo-kwiatowy aromat"
         ],
         "wlasciwosci": [
-          "łagodzi odparzenia",
-          "działa przeciwbakteryjnie",
-          "przyspiesza gojenie"
+          "łagodzi podrażnienia, zmniejsza świąd i stan zapalny"
         ],
-        "zastosowanie": "Do kąpieli niemowląt i małych dzieci.",
-        "zrodlo": [24]
+        "zastosowanie": "Alergie skórne, wysypki, egzemy.",
+        "dawkowanie": "Kąpiel 15–20 minut.",
+        "zrodlo": [
+          35
+        ]
       },
       {
-        "nazwa": "Inhalacja (rumianek, mięta, lawenda, sosna)",
+        "nazwa": "Stara mieszanka przeciwko kolce (rumianek, koper włoski, anyż, korzeń lukrecji)",
         "skladniki": [
-          "1 łyżka kwiatów rumianku",
-          "1 łyżka liści mięty",
-          "1 łyżka kwiatów lawendy",
-          "1 łyżeczka igieł sosny",
-          "700 ml wrzątku"
+          "1 łyżka suszonych kwiatów rumianku",
+          "1 łyżka nasion kopru włoskiego",
+          "1 łyżeczka nasion anyżu",
+          "1 łyżeczka suszonego korzenia lukrecji",
+          "300 ml wrzątku"
         ],
-        "sposob_przygotowania": "Zioła zalać wrzątkiem w misce, wdychać parę 10 min.",
+        "sposob_przygotowania": "Składniki zalać wrzątkiem, parzyć 15 minut, przecedzić.",
         "cechy": [
-          "Intensywny aromat",
-          "Odświeżający zapach"
+          "Ziołowo-słodkawy smak"
         ],
         "wlasciwosci": [
-          "udrażnia nos",
-          "działa przeciwzapalnie"
+          "łagodzi kolki, usprawnia trawienie, działa lekko wykrztuśnie"
         ],
-        "zastosowanie": "Katar, zapalenie zatok, przeziębienie.",
-        "zrodlo": [25]
+        "zastosowanie": "Kolka niemowlęca, bóle brzucha u dzieci (stosowane dawniej z umiarem).",
+        "dawkowanie": "Po łyżeczce kilka razy dziennie (niemowlę), po filiżance u dorosłych.",
+        "zrodlo": [
+          36
+        ]
+      },
+      {
+        "nazwa": "Płukanka z rumianku i kory dębu (tradycja wschodniosłowiańska)",
+        "skladniki": [
+          "2 łyżki suszonych kwiatów rumianku",
+          "1 łyżka kory dębu",
+          "300 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 20 minut pod przykryciem, przecedzić.",
+        "cechy": [
+          "Ziołowy, cierpki smak"
+        ],
+        "wlasciwosci": [
+          "ściągający, przeciwzapalny"
+        ],
+        "zastosowanie": "Płukanki przy paradontozie, krwawieniach dziąseł.",
+        "dawkowanie": "Płukać 3–4 razy dziennie.",
+        "zrodlo": [
+          37
+        ]
+      },
+      {
+        "nazwa": "Mieszanka uspokajająca dawnej apteki (rumianek, chmiel, ruta)",
+        "skladniki": [
+          "1 łyżka suszonych kwiatów rumianku",
+          "1 łyżeczka szyszek chmielu",
+          "1/2 łyżeczki ziela ruty zwyczajnej",
+          "250 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 minut, przecedzić.",
+        "cechy": [
+          "Kwiatowo-ziołowy aromat"
+        ],
+        "wlasciwosci": [
+          "uspokajająca, rozluźniająca, lekko nasenna"
+        ],
+        "zastosowanie": "Nerwowość, trudności z zasypianiem.",
+        "dawkowanie": "Filiżanka wieczorem (ruta wyłącznie dla dorosłych, w małych ilościach!).",
+        "zrodlo": [
+          38
+        ]
       }
     ],
     "kulinarne": [
       {
         "nazwa": "Herbatka kwiatowa (rumianek, płatki róży, liść poziomki, kwiat lipy)",
         "skladniki": [
-          "1 łyżka kwiatów rumianku",
-          "1 łyżeczka płatków róży",
-          "1 łyżeczka liści poziomki",
-          "1 łyżeczka kwiatów lipy",
+          "1 łyżka suszonych kwiatów rumianku pospolitego",
+          "1 łyżeczka suszonych płatków róży",
+          "1 łyżeczka suszonych liści poziomki",
+          "1 łyżeczka suszonych kwiatów lipy",
           "400 ml wrzątku"
         ],
-        "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 8 min, przecedzić.",
+        "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 8 minut pod przykryciem, przecedzić.",
         "cechy": [
           "Kwiatowo-ziołowy aromat",
           "Złocisto-różowy kolor"
@@ -349,17 +743,19 @@
           "wzmacnia organizm"
         ],
         "zastosowanie": "Herbata do picia na co dzień.",
-        "zrodlo": [26]
+        "zrodlo": [
+          26
+        ]
       },
       {
         "nazwa": "Pestomix rumiankowy (rumianek, orzechy laskowe, oliwa, sól)",
         "skladniki": [
-          "2 łyżki kwiatów rumianku",
-          "50 g orzechów laskowych",
-          "oliwa z oliwek",
+          "2 łyżki świeżych lub suszonych kwiatów rumianku",
+          "50 g prażonych orzechów laskowych",
+          "3 łyżki oliwy z oliwek",
           "szczypta soli"
         ],
-        "sposob_przygotowania": "Wszystko zmiksować na gładką pastę.",
+        "sposob_przygotowania": "Wszystkie składniki zmiksować na gładką pastę.",
         "cechy": [
           "Kwiatowo-orzechowy smak",
           "Złocisty kolor"
@@ -368,49 +764,228 @@
           "wzmacnia",
           "dodaje energii"
         ],
-        "zastosowanie": "Do kanapek, makaronów, krakersów.",
-        "zrodlo": [27]
+        "zastosowanie": "Do pieczywa, makaronów, krakersów.",
+        "zrodlo": [
+          27
+        ]
       },
       {
         "nazwa": "Letnia sałatka z rumiankiem i rukolą",
         "skladniki": [
-          "Garść kwiatów rumianku",
-          "Rukola",
-          "Płatki nagietka",
-          "oliwa z oliwek",
-          "sok z cytryny",
+          "1 garść świeżych, dobrze rozwiniętych kwiatów rumianku",
+          "1 garść rukoli (świeżej)",
+          "2 łyżki płatków nagietka (świeżych lub suszonych)",
+          "2 łyżki oliwy z oliwek",
+          "1 łyżka soku z cytryny",
           "sól, pieprz"
         ],
-        "sposob_przygotowania": "Wszystko wymieszać, skropić oliwą i cytryną.",
+        "sposob_przygotowania": "Wszystkie składniki wymieszać, skropić oliwą i sokiem z cytryny, doprawić solą i pieprzem.",
         "cechy": [
           "Kolorowa, chrupiąca",
-          "Kwiatowy aromat"
+          "Wyraźny kwiatowy aromat"
         ],
         "wlasciwosci": [
           "lekkostrawna",
           "bogata w witaminy"
         ],
         "zastosowanie": "Sałatka na upały, lekka przekąska.",
-        "zrodlo": [28]
+        "zrodlo": [
+          28
+        ]
       },
       {
         "nazwa": "Deser galaretkowy z rumiankiem i truskawkami",
         "skladniki": [
-          "Galaretka cytrynowa",
-          "Kwiaty rumianku",
-          "Świeże truskawki"
+          "1 opakowanie galaretki cytrynowej",
+          "2 łyżki świeżych lub suszonych kwiatów rumianku",
+          "1/2 szklanki świeżych truskawek"
         ],
-        "sposob_przygotowania": "Galaretkę przygotować, dodać kwiaty i truskawki tuż przed stężeniem.",
+        "sposob_przygotowania": "Galaretkę przygotować według przepisu na opakowaniu, kwiaty rumianku i pokrojone truskawki dodać tuż przed tężeniem, wymieszać.",
         "cechy": [
           "Dekoracyjny, złocisty efekt",
-          "Kwiatowy smak"
+          "Kwiatowy, lekko cytrusowy smak"
         ],
         "wlasciwosci": [
           "lekki deser",
           "naturalny aromat"
         ],
         "zastosowanie": "Deser na lato, przyjęcia.",
-        "zrodlo": [29]
+        "zrodlo": [
+          29
+        ]
+      },
+      {
+        "nazwa": "Dżem z rumiankiem i jabłkiem",
+        "skladniki": [
+          "3 duże jabłka (obrane, pokrojone w kostkę)",
+          "2 łyżki suszonych kwiatów rumianku pospolitego",
+          "1/2 szklanki wody",
+          "150 g cukru",
+          "sok z 1/2 cytryny"
+        ],
+        "sposob_przygotowania": "Jabłka zalać wodą, dodać rumianek i gotować na małym ogniu 10 minut. Dodać cukier i sok z cytryny, gotować do zgęstnienia. Gorący dżem przełożyć do słoików.",
+        "cechy": [
+          "Jasnożółty kolor, aromat jabłek i rumianku"
+        ],
+        "wlasciwosci": [
+          "łagodzi, pobudza trawienie"
+        ],
+        "zastosowanie": "Do pieczywa, naleśników, herbaty.",
+        "zrodlo": [
+          30
+        ]
+      },
+      {
+        "nazwa": "Chleb kwiatowy z rumiankiem",
+        "skladniki": [
+          "300 g mąki pszennej",
+          "2 łyżki suszonych kwiatów rumianku pospolitego",
+          "1/2 łyżeczki soli",
+          "1,5 łyżeczki suchych drożdży",
+          "200 ml letniej wody",
+          "1 łyżeczka cukru"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki wymieszać, wyrobić ciasto, odstawić do wyrośnięcia na 1 godzinę. Przełożyć do foremki, piec 30–35 min w 200°C.",
+        "cechy": [
+          "Chrupiąca skórka, lekki kwiatowy aromat"
+        ],
+        "wlasciwosci": [
+          "delikatny smak, wzbogacony o olejki rumiankowe"
+        ],
+        "zastosowanie": "Pieczywo śniadaniowe, do masła, na grzanki.",
+        "zrodlo": [
+          31
+        ]
+      },
+      {
+        "nazwa": "Słodkie bułeczki z rumiankiem i miodem",
+        "skladniki": [
+          "250 g mąki pszennej",
+          "1 łyżka suszonych kwiatów rumianku",
+          "1 jajko",
+          "50 g miękkiego masła",
+          "100 ml mleka",
+          "40 g cukru",
+          "1 łyżka miodu",
+          "1 łyżeczka suchych drożdży",
+          "szczypta soli"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki wymieszać, zagnieść ciasto, odstawić na 40 min do wyrośnięcia. Uformować bułeczki, piec w 180°C ok. 20 min.",
+        "cechy": [
+          "Puszyste, delikatne, lekko kwiatowe"
+        ],
+        "wlasciwosci": [
+          "łagodzące, lekkostrawne"
+        ],
+        "zastosowanie": "Do mleka, na śniadanie, dla dzieci.",
+        "zrodlo": [
+          32
+        ]
+      },
+      {
+        "nazwa": "Kisiel rumiankowo-jabłkowy",
+        "skladniki": [
+          "2 łyżki suszonych kwiatów rumianku pospolitego",
+          "2 średnie jabłka (obrane, starte na tarce)",
+          "500 ml wody",
+          "2 łyżki cukru",
+          "2 łyżki mąki ziemniaczanej"
+        ],
+        "sposob_przygotowania": "Kwiaty rumianku zalać wrzątkiem (500 ml), parzyć 10 min, przecedzić. Dodać starte jabłka i cukier, zagotować. W mniejszej ilości zimnego naparu rozprowadzić mąkę ziemniaczaną, wlać do gotującego się kisielu, mieszać aż zgęstnieje.",
+        "cechy": [
+          "Kremowy, delikatny, o aromacie rumianku"
+        ],
+        "wlasciwosci": [
+          "łagodzący, lekkostrawny"
+        ],
+        "zastosowanie": "Deser dla dzieci i dorosłych, na trawienie.",
+        "zrodlo": [
+          33
+        ]
+      },
+      {
+        "nazwa": "Marmolada morelowa z rumiankiem",
+        "skladniki": [
+          "500 g świeżych moreli (wydrylowanych, pokrojonych)",
+          "2 łyżki suszonych kwiatów rumianku",
+          "250 g cukru",
+          "sok z 1 cytryny",
+          "50 ml wody"
+        ],
+        "sposob_przygotowania": "Morele, cukier, sok z cytryny i wodę zagotować na małym ogniu. Kwiaty rumianku zalać odrobiną wrzątku, parzyć 7 minut, przecedzić do moreli. Gotować aż zgęstnieje. Przełożyć do wyparzonych słoików.",
+        "cechy": [
+          "Aromat moreli z nutą rumianku"
+        ],
+        "wlasciwosci": [
+          "delikatnie uspokajająca, witaminowa"
+        ],
+        "zastosowanie": "Do pieczywa, naleśników, jako nadzienie do ciast.",
+        "zrodlo": [
+          34
+        ]
+      },
+      {
+        "nazwa": "Miód rumiankowy (domowy)",
+        "skladniki": [
+          "3 łyżki suszonych kwiatów rumianku",
+          "250 ml wody",
+          "250 g naturalnego miodu"
+        ],
+        "sposob_przygotowania": "Rumiankiem zalać wrzątkiem (250 ml), parzyć 20 minut, przecedzić, ostudzić do temperatury poniżej 40°C. Wymieszać z miodem. Przelać do słoika, przechowywać w lodówce.",
+        "cechy": [
+          "Płynny, złoty miód o aromacie rumianku"
+        ],
+        "wlasciwosci": [
+          "łagodzi kaszel, wspomaga sen"
+        ],
+        "zastosowanie": "Do słodzenia napojów, herbaty, jako syrop na kaszel.",
+        "zrodlo": [
+          35
+        ]
+      },
+      {
+        "nazwa": "Ciasto biszkoptowe z rumiankiem",
+        "skladniki": [
+          "4 jajka",
+          "100 g cukru",
+          "80 g mąki pszennej",
+          "1 łyżka skrobi ziemniaczanej",
+          "2 łyżki suszonych kwiatów rumianku (dokładnie zmielonych na proszek)",
+          "szczypta soli"
+        ],
+        "sposob_przygotowania": "Białka ubić z solą na pianę, dodać cukier, żółtka, ubić. Delikatnie wmieszać mąkę, skrobię i rumianek. Piec 20–25 min w 180°C w formie 20 cm.",
+        "cechy": [
+          "Puszysty, lekko kwiatowy biszkopt"
+        ],
+        "wlasciwosci": [
+          "delikatny, łagodzący"
+        ],
+        "zastosowanie": "Podstawa do tortów, do kawy lub herbaty.",
+        "zrodlo": [
+          36
+        ]
+      },
+      {
+        "nazwa": "Zupa krem z rumiankiem i marchewką",
+        "skladniki": [
+          "4 marchewki (obrane, pokrojone w plastry)",
+          "1 cebula (pokrojona w kostkę)",
+          "2 łyżki masła",
+          "1,5 szklanki bulionu warzywnego",
+          "1 łyżka suszonych kwiatów rumianku",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Cebulę zeszklić na maśle, dodać marchew, zalać bulionem, gotować do miękkości. Dodać rumianek, gotować 3 minuty, zmiksować, doprawić.",
+        "cechy": [
+          "Aksamitny krem, złocisty kolor"
+        ],
+        "wlasciwosci": [
+          "lekkostrawna, aromatyczna"
+        ],
+        "zastosowanie": "Lekka zupa na obiad, kolację, dla dzieci i dorosłych.",
+        "zrodlo": [
+          37
+        ]
       }
     ]
   },
@@ -418,15 +993,21 @@
     "kosmetyki": {
       "opis": "Rumianek to podstawa toników, kremów i kąpieli łagodzących dla skóry wrażliwej, a także płukanek do jasnych włosów – rozjaśnia i nadaje blask.",
       "zastosowanie": "Toniki, kąpiele, maseczki, płukanki do włosów.",
-      "zrodlo": [30]
+      "zrodlo": [
+        30
+      ]
     },
     "barwniki": {
       "opis": "Suszone kwiaty rumianku dają jasnożółty barwnik – do barwienia tkanin, mydeł i tradycyjnych pisanek.",
-      "zrodlo": [31]
+      "zrodlo": [
+        31
+      ]
     },
     "pasza_dla_zwierzat": {
       "opis": "Dodatek do paszy dla królików, drobiu, trzody – działa wspomagająco na trawienie i chroni przed infekcjami.",
-      "zrodlo": [32]
+      "zrodlo": [
+        32
+      ]
     }
   },
   "bibliografia": {
@@ -464,14 +1045,41 @@
     "32": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
   },
   "kalendarz": {
-      "siew": [3, 4],
-      "kwitnienie": [5, 6, 7],
-      "zbior_kwiatow": [5, 6, 7],
-      "zbior_poranny": [5, 6, 7],
-      "zbior_pelnia": [6],
-      "ekstrakcja": [6, 7],
-      "miodobranie": [6],
-      "pielenie": [5, 6],
-      "przesadzanie": [4]
-    }
+    "siew": [
+      3,
+      4
+    ],
+    "kwitnienie": [
+      5,
+      6,
+      7
+    ],
+    "zbior_kwiatow": [
+      5,
+      6,
+      7
+    ],
+    "zbior_poranny": [
+      5,
+      6,
+      7
+    ],
+    "zbior_pelnia": [
+      6
+    ],
+    "ekstrakcja": [
+      6,
+      7
+    ],
+    "miodobranie": [
+      6
+    ],
+    "pielenie": [
+      5,
+      6
+    ],
+    "przesadzanie": [
+      4
+    ]
+  }
 }

@@ -8,7 +8,9 @@
     "Alliaria",
     "Czosnaczek pospolity"
   ],
-  "zdjecia": [],
+  "zdjecia": ["https://podlaskiogrod.pl/file/Picture_5a7959d466e99.png",
+    "https://lakikwietne.pl/wp-content/uploads/2024/12/Czosnaczek-pospolity-2.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Alliaria_officinalis_-_Billeder_af_nordens_flora_1%2C_pl._190_clean_no-description.jpg/250px-Alliaria_officinalis_-_Billeder_af_nordens_flora_1%2C_pl._190_clean_no-description.jpg"],
   "uprawa": {
     "gleba": "Gleba wilgotna, próchniczna, bogata w wapń, lekko zasadowa lub obojętna.",
     "stanowisko": "Stanowisko półcieniste do cienistego; dobrze rośnie pod drzewami, na skrajach lasów, przy płotach i murach.",

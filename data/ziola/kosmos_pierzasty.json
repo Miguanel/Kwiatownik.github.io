@@ -9,10 +9,8 @@
     "Kosmos pierzasty"
   ],
   "zdjecia": [
-    "https://upload.wikimedia.org/wikipedia/commons/e/e4/Cosmos_bipinnatus_002.JPG",
-    "https://www.gardenersworld.com/wp-content/uploads/2020/06/Cosmos-bipinnatus-GettyImages-982799432.jpg",
-    "https://www.ogrodnik24.pl/media/wysiwyg/Kosmos-pierzasty-rozowy.jpg",
-    "https://atlas-roslin.pl/zdjecia/cosmos_bipinnatus2.jpg"
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cosmos_bipinnatus_IMG_7379.jpg/1200px-Cosmos_bipinnatus_IMG_7379.jpg",
+    "https://zielonyogrodek.pl/i/2020/03/04/81242-c05a-750x0_kosmos-podwjnie-pierzasty-fot-chulmin-park-pixabay.jpg"
   ],
   "uprawa": {
     "gleba": "Gleba lekka, przepuszczalna, niezbyt zasobna; nadmiar nawożenia azotem zmniejsza kwitnienie.",
@@ -23,7 +21,10 @@
   "wystepowanie": {
     "obszar": "Ameryka Środkowa (Meksyk), rozprzestrzeniona na całym świecie jako roślina ozdobna.",
     "w_polsce": "Popularna w uprawie ogrodowej i na działkach, nie dziczeje.",
-    "zrodlo": [1,2]
+    "zrodlo": [
+      1,
+      2
+    ]
   },
   "opis_botaniczny": {
     "pokroj": "Roślina jednoroczna, osiąga 60–150 cm wysokości, silnie rozgałęziona, lekka, delikatna.",
@@ -33,28 +34,49 @@
     "owoce": "Niełupki, cienkie, z charakterystyczną igiełką na końcu.",
     "zapach": "Kwiaty delikatnie słodkie, liście świeże – lekko cytrusowy aromat.",
     "cecha_wyrozniajaca": "Wyjątkowo lekkie, pierzaste liście i bardzo efektowne, duże kwiaty.",
-    "zrodlo": [3,4]
+    "zrodlo": [
+      3,
+      4
+    ]
   },
   "wlasciwosci_i_skladniki": [
-    {
-      "nazwa": "Flawonoidy (antocyjany)",
-      "dzialanie": "antyoksydacyjne, wspierające naczynia krwionośne, barwnikowe",
-      "sklad": "antocyjany, kwercetyna",
-      "zrodlo": [5]
-    },
-    {
-      "nazwa": "Olejek eteryczny",
-      "dzialanie": "łagodnie przeciwzapalny, aromatyzujący",
-      "sklad": "linalol, cytral, geraniol",
-      "zrodlo": [6]
-    },
-    {
-      "nazwa": "Karotenoidy",
-      "dzialanie": "wspomagają odporność, wpływają na barwę kwiatów",
-      "sklad": "beta-karoten, luteina",
-      "zrodlo": [7]
-    }
-  ],
+  {
+    "nazwa": "Flawonoidy (w tym antocyjany, kwercetyna, apigenina, rutyna)",
+    "dzialanie": "Silnie antyoksydacyjne, wzmacniają naczynia krwionośne, chronią komórki przed stresem oksydacyjnym, działają przeciwzapalnie i przeciwalergicznie.",
+    "sklad": "antocyjany (delphinidyna, cyjanidyna – barwniki różowych/fioletowych płatków), kwercetyna, apigenina, rutyna",
+    "zrodlo": [5]
+  },
+  {
+    "nazwa": "Karotenoidy (beta-karoten, luteina, zeaksantyna)",
+    "dzialanie": "Nadają płatkom żółto-pomarańczowe i różowe zabarwienie, wspierają zdrowie skóry i wzroku, mają działanie przeciwutleniające.",
+    "sklad": "beta-karoten, luteina, zeaksantyna",
+    "zrodlo": [6]
+  },
+  {
+    "nazwa": "Olejek eteryczny",
+    "dzialanie": "Aromatyzujący, lekko uspokajający, łagodnie przeciwzapalny.",
+    "sklad": "linalol, cytral, geraniol, borneol, octan linalylu",
+    "zrodlo": [7]
+  },
+  {
+    "nazwa": "Kwasy fenolowe",
+    "dzialanie": "Chronią komórki przed stresem oksydacyjnym, wspierają detoksykację, łagodzą podrażnienia skóry.",
+    "sklad": "kwas chlorogenowy, kwas kawowy, kwas ferulowy",
+    "zrodlo": [8]
+  },
+  {
+    "nazwa": "Polisacharydy i śluzy roślinne",
+    "dzialanie": "Wspomagają gojenie skóry i śluzówek, lekko łagodzące i nawilżające.",
+    "sklad": "polisacharydy rozpuszczalne w wodzie",
+    "zrodlo": [9]
+  },
+  {
+    "nazwa": "Witaminy i minerały",
+    "dzialanie": "Wzmacniają odporność, poprawiają kondycję skóry, włosów, paznokci.",
+    "sklad": "witamina C, wapń, magnez, potas, żelazo",
+    "zrodlo": [10]
+  }
+],
   "cechy_i_historia": {
     "opis": "Kosmos pierzasty to ogrodowy klasyk pochodzący z Meksyku. Ceniony jako roślina ozdobna od XVIII w., trafił do Europy i szybko stał się symbolem letnich rabat. Jadalne są świeże płatki i liście – choć mają umiarkowane wartości kulinarne, nadają się do dekoracji i tworzenia barwnych, oryginalnych potraw.",
     "cechy": [
@@ -75,7 +97,10 @@
       "Roślina symbolizuje prostotę, radość i wdzięk natury.",
       "Dawniej sadzona w pobliżu domostw, by przyciągać dobre duchy i pszczoły."
     ],
-    "zrodlo": [8,9]
+    "zrodlo": [
+      8,
+      9
+    ]
   },
   "ciekawostki_kulturowe": [
     "W Japonii kwiaty kosmosu pojawiają się w tradycyjnych ikebanach jesiennych.",
@@ -100,52 +125,159 @@
     {
       "uwaga": "Płatki i liście kosmosu pierzastego jada się tylko w niewielkich ilościach, mogą powodować u wrażliwych osób lekkie podrażnienia żołądka.",
       "rozwiazanie": "Stosować głównie jako dekoracje i niewielki dodatek do potraw. Nie podawać niemowlętom i osobom ze skłonnością do alergii kontaktowej na astrowate.",
-      "zrodlo": [10]
+      "zrodlo": [
+        10
+      ]
     }
   ],
   "przepisy_medyczne": {
     "napar_uspokajajacy": {
       "skladniki": [
-        "1 łyżeczka świeżych płatków kosmosu",
+        "1 łyżeczka świeżych płatków kosmosu (najlepiej młode, zebrane rano)",
         "250 ml wrzątku"
       ],
-      "sposob_przygotowania": "Płatki zalać wrzątkiem, parzyć 8–10 minut, przecedzić.",
+      "sposob_przygotowania": "Płatki zalać wrzątkiem, parzyć pod przykryciem 8–10 minut, przecedzić.",
       "cechy": [
-        "Jasnoróżowy, delikatny napar"
+        "Jasnoróżowy, delikatny napar",
+        "Kwiatowy aromat"
       ],
       "wlasciwosci": [
-        "lekko uspokajający, łagodzący napięcia"
+        "lekko uspokajający, łagodzący napięcia",
+        "wspiera wieczorny relaks"
       ],
-      "zastosowanie": "Do picia wieczorem przy stresie.",
+      "zastosowanie": "Do picia wieczorem przy stresie, trudności z zasypianiem.",
       "dawkowanie": "1 filiżanka dziennie.",
-      "zrodlo": [11]
+      "zrodlo": [
+        11
+      ]
     },
     "oklad_na_skore": {
       "skladniki": [
-        "Świeże liście kosmosu",
-        "Gaza"
+        "Świeże liście kosmosu pierzastego (najlepiej młode, jędrne, rozgniecione)",
+        "Gaza (jałowa)"
       ],
-      "sposob_przygotowania": "Liście rozgnieść, nałożyć na drobne otarcia lub ukąszenia owadów, przykryć gazą.",
+      "sposob_przygotowania": "Liście dokładnie rozgnieść, nałożyć na drobne otarcia, skaleczenia, ukąszenia owadów lub podrażnienia skóry. Przykryć gazą, zostawić na 10–15 minut.",
       "cechy": [
-        "Chłodzący, łagodzący okład"
+        "Chłodzący, lekko ziołowy kompres"
       ],
       "wlasciwosci": [
-        "łagodzi podrażnienia skóry"
+        "łagodzi podrażnienia i świąd, lekko przeciwbakteryjny"
       ],
-      "zastosowanie": "Przy drobnych podrażnieniach, swędzeniu.",
-      "zrodlo": [12]
+      "zastosowanie": "Przy drobnych podrażnieniach, swędzeniu, ukąszeniach.",
+      "zrodlo": [
+        12
+      ]
+    },
+    "kąpiel_na_podrażnienia": {
+      "skladniki": [
+        "3 garście świeżych kwiatów i liści kosmosu pierzastego (najlepiej młode, świeże, jędrne)",
+        "2 litry wody"
+      ],
+      "sposob_przygotowania": "Zioła zalać zimną wodą, doprowadzić do wrzenia i gotować 10 minut na małym ogniu. Przecedzić, wlać do wanny z ciepłą wodą.",
+      "cechy": [
+        "Delikatny, lekko różowy kolor",
+        "Świeży, ziołowo-kwiatowy zapach"
+      ],
+      "wlasciwosci": [
+        "łagodzi stany zapalne i podrażnienia skóry, relaksuje"
+      ],
+      "zastosowanie": "Kąpiele lecznicze przy egzemach, alergii, łagodnych podrażnieniach.",
+      "zrodlo": [
+        13
+      ]
+    },
+    "herbatka_kwietna_na_odprężenie": {
+      "skladniki": [
+        "1 łyżeczka suszonych płatków kosmosu pierzastego",
+        "1 łyżeczka suszonych kwiatów nagietka",
+        "1/2 łyżeczki kwiatu lawendy",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie płatki zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić.",
+      "cechy": [
+        "Kwiatowy, lekko słodki smak",
+        "Różowo-żółta barwa"
+      ],
+      "wlasciwosci": [
+        "delikatnie uspokaja, poprawia nastrój"
+      ],
+      "zastosowanie": "Do picia wieczorem lub w ciągu dnia przy napięciu nerwowym.",
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie.",
+      "zrodlo": [
+        14
+      ]
+    },
+    "płukanka_na_zmęczone_oczy": {
+      "skladniki": [
+        "1 łyżeczka suszonych płatków kosmosu pierzastego",
+        "100 ml letniej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": "Płatki zalać wodą, odstawić na 15 minut, przecedzić przez gazę. Stosować do przemywania powiek lub do kompresów na zamknięte oczy.",
+      "cechy": [
+        "Bardzo delikatny płyn",
+        "Kwiatowy, świeży aromat"
+      ],
+      "wlasciwosci": [
+        "łagodzi podrażnienia spojówek",
+        "przynosi ulgę zmęczonym oczom"
+      ],
+      "zastosowanie": "Kompresy na powieki, przemywanie oczu przy podrażnieniach (np. po pracy przy komputerze).",
+      "zrodlo": [
+        15
+      ]
+    },
+    "syrop_na_kaszel_i_przeziebienie": {
+      "skladniki": [
+        "10 świeżych kwiatów kosmosu pierzastego (najlepiej rozkwitnięte, jędrne, bez śladów chorób)",
+        "250 ml wody",
+        "100 g cukru trzcinowego lub miodu"
+      ],
+      "sposob_przygotowania": "Kwiaty zalać wodą, gotować 10 minut pod przykryciem, odcedzić. Do odwaru dodać cukier lub miód, podgrzewać aż syrop zgęstnieje. Przechowywać w lodówce.",
+      "cechy": [
+        "Jasnoróżowy syrop",
+        "Kwiatowy smak i aromat"
+      ],
+      "wlasciwosci": [
+        "łagodzi kaszel, wspiera odporność"
+      ],
+      "zastosowanie": "Podawać przy kaszlu, przeziębieniu, drapaniu w gardle.",
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "zrodlo": [
+        16
+      ]
+    },
+    "nalewka_na_uspokojenie": {
+      "skladniki": [
+        "1 szklanka świeżych płatków kosmosu pierzastego",
+        "250 ml wódki 40%",
+        "2 łyżki miodu"
+      ],
+      "sposob_przygotowania": "Płatki zalać alkoholem, dodać miód. Odstawić w ciemne miejsce na 10 dni, codziennie wstrząsać. Przecedzić, przelać do butelki.",
+      "cechy": [
+        "Delikatny różowy kolor",
+        "Słodko-ziołowy smak"
+      ],
+      "wlasciwosci": [
+        "łagodnie uspokaja, poprawia nastrój"
+      ],
+      "zastosowanie": "Kilka kropel do herbaty lub wody, jako środek uspokajający.",
+      "dawkowanie": "10–15 kropli przed snem.",
+      "zrodlo": [
+        17
+      ]
     }
   },
   "przepisy_kulinarne": {
     "sałatka_z_kwiatami_kosmosu": {
       "skladniki": [
-        "Mix sałat (rukola, roszponka, sałata masłowa)",
-        "Płatki kwiatów kosmosu (białe, różowe, purpurowe)",
-        "Kawałki awokado",
-        "Prażone pestki dyni",
-        "Oliwa, sok z cytryny"
+        "Mix sałat (rukola, roszponka, sałata masłowa – świeże, młode liście)",
+        "Płatki kwiatów kosmosu (białe, różowe, purpurowe – świeże)",
+        "Kawałki dojrzałego awokado (surowe)",
+        "Prażone pestki dyni (uprażone na sucho)",
+        "Oliwa z oliwek (tłoczona na zimno)",
+        "Sok z cytryny (świeżo wyciśnięty)"
       ],
-      "sposob_przygotowania": "Wszystkie składniki delikatnie wymieszać, płatki kosmosu rozłożyć na wierzchu.",
+      "sposob_przygotowania": "Sałaty wymieszać z oliwą i sokiem z cytryny, ułożyć awokado, posypać pestkami dyni i dekorować świeżymi płatkami kosmosu.",
       "cechy": [
         "Wyjątkowo kolorowa, orzeźwiająca sałatka"
       ],
@@ -153,16 +285,18 @@
         "bogata w witaminy i antyoksydanty"
       ],
       "zastosowanie": "Przystawka, dekoracja do dań głównych.",
-      "zrodlo": [13]
+      "zrodlo": [
+        13
+      ]
     },
     "maslo_kwietne": {
       "skladniki": [
-        "100 g masła",
-        "2 łyżki świeżych płatków kosmosu",
+        "100 g miękkiego masła (świeże, niesolone)",
+        "2 łyżki świeżych płatków kosmosu (najlepiej młode)",
         "1 łyżeczka soku z cytryny",
         "Sól do smaku"
       ],
-      "sposob_przygotowania": "Masło miękkie utrzeć z płatkami, cytryną i solą. Schłodzić.",
+      "sposob_przygotowania": "Masło utrzeć z płatkami, sokiem i solą. Schłodzić, formować w rulonik lub porcje.",
       "cechy": [
         "Kolorowe masło z drobinkami płatków"
       ],
@@ -170,16 +304,18 @@
         "aromatyczne, dekoracyjne"
       ],
       "zastosowanie": "Do pieczywa, ziemniaków, grillowanych warzyw.",
-      "zrodlo": [14]
+      "zrodlo": [
+        14
+      ]
     },
     "tort_z_płatkami_kosmosu": {
       "skladniki": [
-        "Biszkopt jasny",
-        "Krem śmietankowy",
-        "Płatki kwiatów kosmosu",
-        "Maliny lub borówki"
+        "Biszkopt jasny (pieczony, ostudzony)",
+        "Krem śmietankowy (ubita śmietana kremówka z mascarpone)",
+        "Płatki kwiatów kosmosu (świeże, opłukane, osuszone)",
+        "Maliny lub borówki (świeże, dojrzałe)"
       ],
-      "sposob_przygotowania": "Krem i biszkopt przekładać, płatki kwiatów układać na wierzchu z owocami.",
+      "sposob_przygotowania": "Krem i biszkopt przekładać warstwami, płatki i owoce układać dekoracyjnie na wierzchu.",
       "cechy": [
         "Efektowny, kwiatowy tort"
       ],
@@ -187,12 +323,14 @@
         "uroczysty, dekoracyjny"
       ],
       "zastosowanie": "Deser na specjalne okazje.",
-      "zrodlo": [15]
+      "zrodlo": [
+        15
+      ]
     },
     "oct_kwietny": {
       "skladniki": [
-        "Szklanka płatków kosmosu",
-        "0,5 l octu jabłkowego"
+        "Szklanka płatków kosmosu (najlepiej świeżych, młodych)",
+        "0,5 l octu jabłkowego (niepasteryzowanego, naturalnego)"
       ],
       "sposob_przygotowania": "Płatki zalać octem, odstawić na 7 dni, przecedzić. Przechowywać w chłodzie.",
       "cechy": [
@@ -202,17 +340,19 @@
         "dekoracyjny, łagodny smak"
       ],
       "zastosowanie": "Do sałatek, marynat, dressingów.",
-      "zrodlo": [16]
+      "zrodlo": [
+        16
+      ]
     },
     "pesto_z_liści_kosmosu": {
       "skladniki": [
-        "Garść świeżych liści kosmosu",
-        "Orzechy włoskie",
-        "Czosnek",
-        "Oliwa",
-        "Sól"
+        "Garść świeżych liści kosmosu (najlepiej młodych, drobno posiekanych)",
+        "Orzechy włoskie (uprażone, posiekane)",
+        "Ząbek czosnku (surowy, rozgnieciony)",
+        "Oliwa z oliwek (świeża, tłoczona na zimno)",
+        "Sól do smaku"
       ],
-      "sposob_przygotowania": "Liście i orzechy zmiksować z czosnkiem i oliwą na gładką pastę.",
+      "sposob_przygotowania": "Liście i orzechy zmiksować z czosnkiem i oliwą na gładką pastę, doprawić solą.",
       "cechy": [
         "Zielona pasta z nutą cytrusową"
       ],
@@ -220,15 +360,17 @@
         "witaminowa, lekko pikantna"
       ],
       "zastosowanie": "Do makaronów, kanapek.",
-      "zrodlo": [17]
+      "zrodlo": [
+        17
+      ]
     },
-    "zielony omlet z liśćmi kosmosu": {
+    "zielony_omlet_z_liśćmi_kosmosu": {
       "skladniki": [
-        "2 jajka",
-        "Garść młodych liści kosmosu",
-        "Sól, pieprz, masło"
+        "2 jajka (świeże, od kur z wolnego wybiegu)",
+        "Garść młodych liści kosmosu (świeże, drobno posiekane)",
+        "Sól, pieprz, masło klarowane"
       ],
-      "sposob_przygotowania": "Liście podsmażyć na maśle, zalać jajkami, smażyć do ścięcia.",
+      "sposob_przygotowania": "Liście podsmażyć na maśle, zalać jajkami, smażyć na małym ogniu do ścięcia.",
       "cechy": [
         "Delikatny omlet z nutą kwiatową"
       ],
@@ -236,14 +378,16 @@
         "lekka, śniadaniowa potrawa"
       ],
       "zastosowanie": "Śniadanie, lunch.",
-      "zrodlo": [18]
+      "zrodlo": [
+        18
+      ]
     },
-    "lodowe kostki z płatkami kosmosu": {
+    "lodowe_kostki_z_płatkami_kosmosu": {
       "skladniki": [
-        "Płatki kwiatów kosmosu",
-        "Woda mineralna"
+        "Płatki kwiatów kosmosu (świeże, kolorowe)",
+        "Woda mineralna (przegotowana, ostudzona)"
       ],
-      "sposob_przygotowania": "Do foremek na lód wsypać płatki, zalać wodą, zamrozić.",
+      "sposob_przygotowania": "Do foremek na lód wsypać płatki, zalać wodą, zamrozić do pełnej twardości.",
       "cechy": [
         "Przezroczyste kostki z kolorowymi płatkami"
       ],
@@ -251,16 +395,18 @@
         "dekoracyjne, orzeźwiające"
       ],
       "zastosowanie": "Do napojów, lemoniad, drinków.",
-      "zrodlo": [19]
+      "zrodlo": [
+        19
+      ]
     },
-    "domowy syrop z kwiatów kosmosu": {
+    "domowy_syrop_z_kwiatów_kosmosu": {
       "skladniki": [
-        "2 szklanki płatków kosmosu",
-        "1 l wody",
-        "500 g cukru",
+        "2 szklanki płatków kosmosu (najlepiej świeżych, nieuszkodzonych)",
+        "1 litr wody",
+        "500 g cukru trzcinowego",
         "Sok z 1 cytryny"
       ],
-      "sposob_przygotowania": "Płatki zalać wodą, zagotować, przecedzić, dodać cukier i cytrynę, gotować do zgęstnienia.",
+      "sposob_przygotowania": "Płatki zalać wodą, zagotować, przestudzić, przecedzić. Do płynu dodać cukier i sok z cytryny, gotować do lekkiego zgęstnienia. Przechowywać w lodówce.",
       "cechy": [
         "Różowy, słodki syrop"
       ],
@@ -268,16 +414,18 @@
         "barwnikowy, aromatyzujący"
       ],
       "zastosowanie": "Do deserów, lemoniad, lodów.",
-      "zrodlo": [20]
+      "zrodlo": [
+        20
+      ]
     },
-    "kwiatowy twarożek z kosmosem": {
+    "kwiatowy_twarożek_z_kosmosem": {
       "skladniki": [
-        "Twaróg",
-        "Płatki kwiatów kosmosu",
-        "Śmietana",
+        "Twaróg (świeży, półtłusty)",
+        "Płatki kwiatów kosmosu (najlepiej świeże, opłukane i osuszone)",
+        "Śmietana (świeża)",
         "Sól, pieprz"
       ],
-      "sposob_przygotowania": "Płatki posiekać, wymieszać z twarogiem i śmietaną.",
+      "sposob_przygotowania": "Płatki drobno posiekać, wymieszać z twarogiem i śmietaną, doprawić do smaku.",
       "cechy": [
         "Delikatnie różowy twarożek"
       ],
@@ -285,85 +433,359 @@
         "lekki, dekoracyjny"
       ],
       "zastosowanie": "Do pieczywa, przekąska.",
-      "zrodlo": [21]
+      "zrodlo": [
+        21
+      ]
+    },
+    "lemoniada_z_płatkami_kosmosu": {
+      "skladniki": [
+        "2 łyżki świeżych płatków kosmosu",
+        "1 litr wody mineralnej (chłodnej, niegazowanej)",
+        "Sok z 2 cytryn",
+        "2 łyżki miodu lub syropu z agawy",
+        "Kostki lodu"
+      ],
+      "sposob_przygotowania": "Wodę wymieszać z sokiem z cytryny i miodem. Dodać płatki, lód, odstawić na 10 min do lekkiego zabarwienia. Podawać schłodzoną.",
+      "cechy": [
+        "Różowa, lekko kwiatowa lemoniada"
+      ],
+      "wlasciwosci": [
+        "odświeżająca, witaminizująca"
+      ],
+      "zastosowanie": "Napój na upały, do przyjęć i ogrodu.",
+      "zrodlo": [
+        22
+      ]
+    },
+    "zielone_gofry_z_liśćmi_kosmosu": {
+      "skladniki": [
+        "1 szklanka mąki orkiszowej",
+        "1 jajko",
+        "1/2 szklanki mleka (świeżego)",
+        "1 garść świeżych liści kosmosu (posiekane)",
+        "1 łyżka oleju rzepakowego",
+        "Sól"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki wymieszać, piec w gofrownicy na złoty kolor. Podawać z jogurtem naturalnym i świeżymi płatkami kosmosu.",
+      "cechy": [
+        "Chrupiące, zielone gofry z kwiatową nutą"
+      ],
+      "wlasciwosci": [
+        "pożywne, lekkostrawne"
+      ],
+      "zastosowanie": "Śniadanie, przekąska na słodko lub wytrawnie.",
+      "zrodlo": [
+        23
+      ]
+    },
+    "zielony_sos_jogurtowy_z_kosmosem": {
+      "skladniki": [
+        "200 ml jogurtu naturalnego",
+        "Garść liści kosmosu (najlepiej młodych, drobno posiekanych, świeżych)",
+        "1 łyżka soku z cytryny",
+        "Sól, pieprz"
+      ],
+      "sposob_przygotowania": "Jogurt wymieszać z liśćmi i przyprawami. Podawać schłodzony.",
+      "cechy": [
+        "Lekki, zielony sos ziołowy"
+      ],
+      "wlasciwosci": [
+        "orzeźwiający, bogaty w chlorofil"
+      ],
+      "zastosowanie": "Do warzyw, pieczywa, grillowanych potraw.",
+      "zrodlo": [
+        24
+      ]
     }
   },
   "przepisy_z_innymi_roslinami": {
-    "medyczne": [
-      {
-        "nazwa": "Herbatka uspokajająca (kosmos pierzasty, nagietek, melisa, lawenda)",
-        "skladniki": [
-          "Płatki kosmosu pierzastego",
-          "Płatki nagietka",
-          "Liście melisy",
-          "Kwiaty lawendy",
-          "250 ml wrzątku"
-        ],
-        "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem, parzyć 10 min, przecedzić.",
-        "cechy": [
-          "Barwna, kwiatowa herbatka"
-        ],
-        "wlasciwosci": [
-          "uspokajająca, relaksująca"
-        ],
-        "zastosowanie": "Przy napięciu, przed snem.",
-        "zrodlo": [22]
-      }
-    ],
-    "kulinarne": [
-      {
-        "nazwa": "Kolorowa sałatka z kwiatami kosmosu, nagietka i ogórecznika",
-        "skladniki": [
-          "Mieszanka sałat",
-          "Płatki kosmosu pierzastego",
-          "Płatki nagietka",
-          "Kwiaty ogórecznika",
-          "Oliwa, ocet balsamiczny"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki wymieszać tuż przed podaniem, posypać kwiatami.",
-        "cechy": [
-          "Barwna, kwiatowa sałatka"
-        ],
-        "wlasciwosci": [
-          "witaminowa, dekoracyjna"
-        ],
-        "zastosowanie": "Na piknik, przyjęcie, do grilla.",
-        "zrodlo": [23]
-      },
-      {
-        "nazwa": "Letni chłodnik z płatkami kosmosu, mięty i ogórka",
-        "skladniki": [
-          "Jogurt naturalny",
-          "Ogórek",
-          "Świeża mięta",
-          "Płatki kosmosu pierzastego",
-          "Sól, pieprz"
-        ],
-        "sposob_przygotowania": "Ogórka zetrzeć, wymieszać z jogurtem i miętą, posypać płatkami kosmosu.",
-        "cechy": [
-          "Orzeźwiający, lekki chłodnik"
-        ],
-        "wlasciwosci": [
-          "chłodzący, dekoracyjny"
-        ],
-        "zastosowanie": "Na letni obiad lub przekąskę.",
-        "zrodlo": [24]
-      }
-    ]
-  },
+  "medyczne": [
+    {
+      "nazwa": "Herbatka uspokajająca (kosmos pierzasty, nagietek, melisa, lawenda)",
+      "skladniki": [
+        "1 łyżeczka płatków kosmosu pierzastego (świeżych lub suszonych)",
+        "1 łyżeczka płatków nagietka",
+        "1 łyżka świeżych liści melisy (ew. 1 łyżeczka suszonej)",
+        "kilka kwiatków lawendy (świeżych lub suszonych)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem, parzyć pod przykryciem 10 min, przecedzić.",
+      "cechy": [
+        "Barwna, kwiatowa herbatka"
+      ],
+      "wlasciwosci": [
+        "uspokajająca, relaksująca"
+      ],
+      "zastosowanie": "Przy napięciu, przed snem.",
+      "zrodlo": [22]
+    },
+    {
+      "nazwa": "Płukanka na podrażnienia skóry (kosmos, nagietek, rumianek)",
+      "skladniki": [
+        "2 łyżeczki płatków kosmosu (świeżych lub suszonych)",
+        "2 łyżeczki płatków nagietka",
+        "2 łyżeczki koszyczków rumianku",
+        "400 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 20 minut, odcedzić, używać do okładów lub przemywania skóry.",
+      "cechy": [
+        "Kwiatowy, żółto-różowy płyn"
+      ],
+      "wlasciwosci": [
+        "łagodzi podrażnienia, delikatnie odkaża"
+      ],
+      "zastosowanie": "Do pielęgnacji skóry, kompresy na podrażnienia.",
+      "zrodlo": [25]
+    },
+    {
+      "nazwa": "Ziołowa kąpiel relaksująca (kosmos, melisa, mięta, lawenda)",
+      "skladniki": [
+        "Garść świeżych liści i płatków kosmosu",
+        "Garść świeżych liści melisy",
+        "Garść liści mięty",
+        "2 łyżki kwiatów lawendy",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystko zalać wrzątkiem, parzyć 30 min, przecedzić do kąpieli.",
+      "cechy": [
+        "Kwiatowy, świeży zapach"
+      ],
+      "wlasciwosci": [
+        "relaksuje, odświeża skórę"
+      ],
+      "zastosowanie": "Kąpiel na koniec dnia, przy stresie.",
+      "zrodlo": [26]
+    }
+  ],
+  "kulinarne": [
+    {
+      "nazwa": "Kolorowa sałatka z kwiatami kosmosu, nagietka i ogórecznika",
+      "skladniki": [
+        "Mix sałat (najlepiej świeże, młode liście)",
+        "Płatki kosmosu pierzastego (świeże, opłukane)",
+        "Płatki nagietka (świeże, opłukane)",
+        "Kwiaty ogórecznika (świeże, młode)",
+        "Oliwa extra virgin",
+        "Ocet balsamiczny (lub cytrynowy)"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki wymieszać tuż przed podaniem, posypać świeżymi kwiatami.",
+      "cechy": [
+        "Barwna, kwiatowa sałatka"
+      ],
+      "wlasciwosci": [
+        "witaminowa, dekoracyjna"
+      ],
+      "zastosowanie": "Na piknik, przyjęcie, do grilla.",
+      "zrodlo": [23]
+    },
+    {
+      "nazwa": "Letni chłodnik z płatkami kosmosu, mięty i ogórka",
+      "skladniki": [
+        "400 ml jogurtu naturalnego",
+        "1 ogórek gruntowy (starty, świeży)",
+        "5 listków świeżej mięty (posiekane)",
+        "2 łyżki płatków kosmosu pierzastego (świeżych, kolorowych)",
+        "Sól, pieprz"
+      ],
+      "sposob_przygotowania": "Ogórka zetrzeć na tarce, wymieszać z jogurtem, dodać miętę i płatki kosmosu, przyprawić, schłodzić.",
+      "cechy": [
+        "Orzeźwiający, lekki chłodnik"
+      ],
+      "wlasciwosci": [
+        "chłodzący, dekoracyjny"
+      ],
+      "zastosowanie": "Na letni obiad lub przekąskę.",
+      "zrodlo": [24]
+    },
+    {
+      "nazwa": "Pasta kanapkowa z białym serem i kwiatami kosmosu",
+      "skladniki": [
+        "200 g białego sera półtłustego",
+        "1 łyżka śmietany 18% (lub jogurtu naturalnego)",
+        "2 łyżki świeżych płatków kosmosu (kolorowe)",
+        "Sól, pieprz"
+      ],
+      "sposob_przygotowania": "Ser wymieszać z płatkami, śmietaną i przyprawami, posmarować pieczywo.",
+      "cechy": [
+        "Delikatnie różowa, kremowa pasta"
+      ],
+      "wlasciwosci": [
+        "lekka, dekoracyjna"
+      ],
+      "zastosowanie": "Do kanapek, przekąsek, krakersów.",
+      "zrodlo": [27]
+    },
+    {
+      "nazwa": "Deser z jogurtem i płatkami kosmosu",
+      "skladniki": [
+        "200 ml jogurtu greckiego",
+        "2 łyżki płatków kosmosu (najlepiej różowych)",
+        "1 łyżka miodu",
+        "Owoce sezonowe: borówki, maliny"
+      ],
+      "sposob_przygotowania": "Jogurt wymieszać z płatkami i miodem, ułożyć w pucharku z owocami.",
+      "cechy": [
+        "Kolorowy, letni deser"
+      ],
+      "wlasciwosci": [
+        "odświeżający, witaminowy"
+      ],
+      "zastosowanie": "Lekki deser na lato, śniadanie na słodko.",
+      "zrodlo": [28]
+    },
+    {
+      "nazwa": "Zielone pesto z liści kosmosu i natki pietruszki",
+      "skladniki": [
+        "Garść młodych liści kosmosu pierzastego (surowych)",
+        "Garść natki pietruszki",
+        "2 łyżki pestek słonecznika (uprażone)",
+        "1 ząbek czosnku",
+        "3 łyżki oliwy",
+        "Sól do smaku"
+      ],
+      "sposob_przygotowania": "Liście, natkę i czosnek zmiksować z pestkami i oliwą na gładką pastę.",
+      "cechy": [
+        "Zielone, aromatyczne pesto"
+      ],
+      "wlasciwosci": [
+        "wzmacniające, bogate w chlorofil"
+      ],
+      "zastosowanie": "Do makaronów, kanapek, warzyw gotowanych.",
+      "zrodlo": [29]
+    },
+    {
+      "nazwa": "Kwiatowy ryż z kurkumą i kosmosem",
+      "skladniki": [
+        "1 szklanka ryżu basmati",
+        "1/2 łyżeczki kurkumy",
+        "2 łyżki świeżych płatków kosmosu",
+        "1 łyżka płatków nagietka",
+        "Sól, oliwa"
+      ],
+      "sposob_przygotowania": "Ryż ugotować z kurkumą i odrobiną oliwy, na koniec wmieszać płatki kosmosu i nagietka.",
+      "cechy": [
+        "Żółto-różowy ryż z kwiatami"
+      ],
+      "wlasciwosci": [
+        "witaminowy, efektowny"
+      ],
+      "zastosowanie": "Jako dodatek do curry, na lunch.",
+      "zrodlo": [30]
+    },
+    {
+      "nazwa": "Kostki lodu z płatkami kosmosu i mięty",
+      "skladniki": [
+        "Płatki kosmosu (świeże)",
+        "Liście mięty (świeże)",
+        "Woda mineralna"
+      ],
+      "sposob_przygotowania": "Płatki i miętę ułożyć w foremkach, zalać wodą, zamrozić.",
+      "cechy": [
+        "Przezroczyste, kwiatowe kostki"
+      ],
+      "wlasciwosci": [
+        "dekoracyjne, orzeźwiające"
+      ],
+      "zastosowanie": "Do lemoniady, drinków.",
+      "zrodlo": [31]
+    },
+    {
+      "nazwa": "Makaron z kwiatami kosmosu i groszkiem cukrowym",
+      "skladniki": [
+        "200 g makaronu penne",
+        "1 garść groszku cukrowego (blanszowany)",
+        "3 łyżki świeżych płatków kosmosu",
+        "2 łyżki oliwy",
+        "Sól, pieprz"
+      ],
+      "sposob_przygotowania": "Makaron ugotować, dodać groszek i płatki kosmosu, polać oliwą.",
+      "cechy": [
+        "Kolorowy makaron z kwiatami"
+      ],
+      "wlasciwosci": [
+        "witaminowy, efektowny"
+      ],
+      "zastosowanie": "Obiad, przystawka.",
+      "zrodlo": [32]
+    },
+    {
+      "nazwa": "Sernik z płatkami kosmosu i białą czekoladą",
+      "skladniki": [
+        "Masa serowa na sernik (twaróg, jajka, cukier)",
+        "100 g białej czekolady (roztopionej, schłodzonej)",
+        "3 łyżki świeżych płatków kosmosu",
+        "Spód ciasteczkowy",
+        "Kilka malin do dekoracji"
+      ],
+      "sposob_przygotowania": "Płatki wymieszać z masą serową, wylać na spód, piec tradycyjnie, udekorować kwiatami i malinami.",
+      "cechy": [
+        "Delikatnie różowy, efektowny sernik"
+      ],
+      "wlasciwosci": [
+        "uroczysty, delikatny smak"
+      ],
+      "zastosowanie": "Deser na specjalne okazje.",
+      "zrodlo": [33]
+    },
+    {
+      "nazwa": "Lemoniada różowa z płatkami kosmosu",
+      "skladniki": [
+        "1 litr wody mineralnej",
+        "Sok z 2 cytryn",
+        "3 łyżki świeżych płatków kosmosu",
+        "2 łyżki miodu",
+        "Kostki lodu"
+      ],
+      "sposob_przygotowania": "Wodę wymieszać z sokiem i miodem, dodać płatki i lód, odstawić na 10 min.",
+      "cechy": [
+        "Różowa lemoniada z kwiatową nutą"
+      ],
+      "wlasciwosci": [
+        "orzeźwiająca, dekoracyjna"
+      ],
+      "zastosowanie": "Letni napój, przyjęcia.",
+      "zrodlo": [34]
+    },
+    {
+      "nazwa": "Zielona tortilla z liśćmi kosmosu i tofu",
+      "skladniki": [
+        "2 placki tortilli (najlepiej szpinakowe, pszenne lub kukurydziane)",
+        "Garść młodych liści kosmosu (świeżych, posiekanych)",
+        "100 g tofu naturalnego (pokrojonego w kostkę, podsmażonego)",
+        "1/2 czerwonej papryki (pokrojonej w paski)",
+        "2 łyżki pesto z kosmosu (patrz wyżej)"
+      ],
+      "sposob_przygotowania": "Tortille posmarować pesto, ułożyć warzywa i tofu, zawinąć.",
+      "cechy": [
+        "Zielona, kolorowa tortilla"
+      ],
+      "wlasciwosci": [
+        "wegańska, sycąca"
+      ],
+      "zastosowanie": "Lunch, piknik, szybki obiad.",
+      "zrodlo": [35]
+    }
+  ]
+},
   "inne_zastosowania": {
     "kosmetyki": {
       "opis": "Napar z płatków używany do tonizowania skóry i kąpieli relaksacyjnych, łagodzących podrażnienia.",
       "zastosowanie": "Toniki, kąpiele ziołowe, maseczki z płatków.",
-      "zrodlo": [25]
+      "zrodlo": [
+        25
+      ]
     },
     "barwniki": {
       "opis": "Płatki dają różowo-fioletowy barwnik do deserów, galaretek, napojów i domowych mydeł.",
-      "zrodlo": [26]
+      "zrodlo": [
+        26
+      ]
     },
     "pasza_dla_zwierzat": {
       "opis": "Kosmos pierzasty nie jest typową paszą, ale niewielkie ilości młodych liści mogą być dodatkiem do zielonki dla królików i drobiu.",
-      "zrodlo": [27]
+      "zrodlo": [
+        27
+      ]
     }
   },
   "bibliografia": {
@@ -395,14 +817,36 @@
     "26": "https://zielnikpolski.pl/barwnik-z-kwiatow-cosmos/",
     "27": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
   },
-    "kalendarz": {
-      "siew": [4, 5],
-      "kwitnienie": [7, 8, 9],
-      "zbior_kwiatow": [7, 8, 9],
-      "zbior_pelnia": [8],
-      "ekstrakcja": [8],
-      "miodobranie": [8],
-      "pielenie": [5, 6],
-      "przesadzanie": [5]
-    }
+  "kalendarz": {
+    "siew": [
+      4,
+      5
+    ],
+    "kwitnienie": [
+      7,
+      8,
+      9
+    ],
+    "zbior_kwiatow": [
+      7,
+      8,
+      9
+    ],
+    "zbior_pelnia": [
+      8
+    ],
+    "ekstrakcja": [
+      8
+    ],
+    "miodobranie": [
+      8
+    ],
+    "pielenie": [
+      5,
+      6
+    ],
+    "przesadzanie": [
+      5
+    ]
+  }
 }

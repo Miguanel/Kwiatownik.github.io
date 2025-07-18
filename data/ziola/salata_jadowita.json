@@ -20,7 +20,10 @@
   "wystepowanie": {
     "obszar": "Europa, Azja Zachodnia, Afryka Północna. Zawleczona i miejscami zadomowiona w Ameryce Północnej.",
     "w_polsce": "Rzadko, głównie na południu i zachodzie kraju; nasypy kolejowe, zarośla, tereny ruderalne, czasem uprawiana.",
-    "zrodlo": [1,2]
+    "zrodlo": [
+      1,
+      2
+    ]
   },
   "opis_botaniczny": {
     "pokroj": "Dwuletnia roślina zielna, osiąga 1–2 m wysokości, silnie rozgałęziona, o grubych, pustych łodygach.",
@@ -30,26 +33,36 @@
     "owoce": "Podłużne niełupki z puchem kielichowym ułatwiającym rozsiewanie.",
     "zapach": "Liście i łodygi po skaleczeniu wydzielają biały, gorzki, silnie aromatyczny sok mleczny (lactucarium).",
     "cecha_wyrozniajaca": "Wysoka, szorstka roślina o kolczastych liściach, z mlecznym sokiem, który brunatnieje na powietrzu.",
-    "zrodlo": [3,4]
+    "zrodlo": [
+      3,
+      4
+    ]
   },
   "wlasciwosci_i_skladniki": [
     {
       "nazwa": "Lactucarium (sok mleczny)",
       "dzialanie": "działa uspokajająco, przeciwbólowo, nasennie, rozkurczowo, łagodnie przeciwkaszlowo",
       "sklad": "laktucyna, laktukopikryna, laktucerol, triterpeny, flawonoidy, kwasy fenolowe",
-      "zrodlo": [5,6]
+      "zrodlo": [
+        5,
+        6
+      ]
     },
     {
       "nazwa": "Gorycze seskwiterpenowe",
       "dzialanie": "pobudzają trawienie, działają przeciwzapalnie i przeciwbakteryjnie",
       "sklad": "laktucyna, laktukopikryna",
-      "zrodlo": [7]
+      "zrodlo": [
+        7
+      ]
     },
     {
       "nazwa": "Flawonoidy i fenolokwasy",
       "dzialanie": "antyoksydacyjne, ochronne na naczynia, łagodzące podrażnienia",
       "sklad": "kwercetyna, apigenina, kwas chlorogenowy",
-      "zrodlo": [8]
+      "zrodlo": [
+        8
+      ]
     }
   ],
   "cechy_i_historia": {
@@ -72,7 +85,10 @@
       "Roślina trująca w większych dawkach, szczególnie dla dzieci i zwierząt domowych.",
       "Uwaga: W USA i Europie Zachodniej używana przez niektórych zielarzy jako legalny zamiennik opium."
     ],
-    "zrodlo": [9,10]
+    "zrodlo": [
+      9,
+      10
+    ]
   },
   "ciekawostki_kulturowe": [
     "W starożytnym Rzymie sok sałaty uważano za święty środek na dobry sen i spokojne sny.",
@@ -98,147 +114,164 @@
     {
       "uwaga": "Roślina trująca w dużych dawkach – powoduje senność, zawroty głowy, mdłości, w skrajnych przypadkach halucynacje i zatrucia.",
       "rozwiazanie": "Nie stosować bez nadzoru i wiedzy zielarskiej; nie podawać dzieciom, kobietom w ciąży i osobom starszym.",
-      "zrodlo": [11]
+      "zrodlo": [
+        11
+      ]
     },
     {
       "uwaga": "Lactucarium w nadmiarze może powodować porażenie ośrodka oddechowego.",
       "rozwiazanie": "Stosować jedynie w ziołolecznictwie pod kontrolą specjalisty.",
-      "zrodlo": [12]
+      "zrodlo": [
+        12
+      ]
     }
   ],
-  "przepisy_medyczne": {
-    "napar_uspokajający": {
+  "przepisy_medyczne": [
+    {
+      "nazwa": "Napar uspokajający z liści sałaty jadowitej",
       "skladniki": [
-        "1 łyżeczka suszonych liści sałaty jadowitej",
+        "1 łyżeczka suszonych, rozdrobnionych liści sałaty jadowitej",
         "250 ml wrzątku"
       ],
-      "sposob_przygotowania": "Zalać wrzątkiem, parzyć pod przykryciem 8-10 minut, przecedzić.",
+      "sposob_przygotowania": "Liście zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić przez gazę.",
       "cechy": [
-        "Złocisty napar o gorzkim smaku"
+        "Ciemnożółty napar, gorzki smak"
       ],
       "wlasciwosci": [
-        "działa uspokajająco, nasennie, rozkurczowo"
+        "działa uspokajająco",
+        "łagodnie nasennie",
+        "rozkurczowo"
       ],
-      "zastosowanie": "Bezsenność, niepokój, lekkie stany napięcia nerwowego.",
-      "dawkowanie": "1 filiżanka przed snem, nie dłużej niż przez 5 dni.",
-      "zrodlo": [13]
+      "zastosowanie": "Napięcie nerwowe, trudności z zasypianiem, lekki ból.",
+      "dawkowanie": "1 filiżanka wieczorem (nie przekraczać zalecanej dawki!).",
+      "zrodlo": [
+        38
+      ]
     },
-    "syrop_na_kaszel": {
+    {
+      "nazwa": "Wyciąg laktucarium (lateksu) z sałaty jadowitej",
       "skladniki": [
-        "2 łyżki świeżych liści lub łodyg sałaty jadowitej",
-        "200 ml wody",
-        "200 g miodu"
+        "Świeże, nacięte łodygi sałaty jadowitej (zbiór soku lateksowego)"
       ],
-      "sposob_przygotowania": "Liście gotować w wodzie 5 minut, odcedzić, dodać miód. Pić po łyżeczce 2–3 razy dziennie.",
+      "sposob_przygotowania": "Naciąć łodygi i liście rośliny w południe, zebrać wyciekający biały sok (lateks), suszyć na powietrzu do uzyskania ciemnej, lepkiej masy. Używać wyłącznie pod nadzorem specjalisty.",
       "cechy": [
-        "Brunatny, lekko gorzki syrop"
+        "Gorzki, gęsty ekstrakt"
       ],
       "wlasciwosci": [
-        "łagodzi kaszel, uspokaja"
+        "silnie uspokajające, nasenne, przeciwbólowe"
       ],
-      "zastosowanie": "Kaszel, napady nerwicowe, trudności z zasypianiem.",
-      "dawkowanie": "Łyżeczka 2–3 razy dziennie przez max 3 dni.",
-      "zrodlo": [14]
+      "zastosowanie": "Tradycyjnie stosowany jako „opium dla biednych” w XIX-wiecznej Europie do łagodzenia bólu, bezsenności, kaszlu.",
+      "dawkowanie": "Wyłącznie pod ścisłą kontrolą (dawki apteczne 30–60 mg laktucarium na dobę).",
+      "zrodlo": [
+        39
+      ]
     },
-    "okład_na_bóle_stawów": {
+    {
+      "nazwa": "Syrop na kaszel z sałaty jadowitej (historyczny, XIX wiek)",
       "skladniki": [
-        "Świeże liście sałaty jadowitej",
-        "Oliwa"
+        "1 łyżka suszonych liści sałaty jadowitej",
+        "250 ml wody",
+        "2 łyżki cukru lub miodu"
       ],
-      "sposob_przygotowania": "Liście rozetrzeć, zalać lekko podgrzaną oliwą, stosować zewnętrznie na bolące miejsca.",
+      "sposob_przygotowania": "Liście gotować w wodzie na małym ogniu 10 minut, przecedzić, rozpuścić cukier/miód w ciepłym wywarze.",
       "cechy": [
-        "Chłodzący okład, gorzki zapach"
+        "Gorzki, słodkawy syrop"
       ],
       "wlasciwosci": [
-        "łagodzi bóle, działa przeciwzapalnie"
+        "łagodzi kaszel, uspokaja, lekko rozkurczowy"
       ],
-      "zastosowanie": "Bóle reumatyczne, bóle mięśni.",
-      "dawkowanie": "Stosować przez kilka godzin, nie na otwarte rany.",
-      "zrodlo": [15]
+      "zastosowanie": "Kaszel suchy, podrażnienia dróg oddechowych (dawniej podawany wyłącznie dorosłym).",
+      "dawkowanie": "1 łyżeczka przed snem (nie częściej niż 2 razy na dobę!).",
+      "zrodlo": [
+        40
+      ]
     }
-  },
+  ],
   "przepisy_kulinarne": {
-    "młode_liście_na_salatke": {
+    "Wyjaśnienie": {
       "skladniki": [
-        "Garść młodych liści sałaty jadowitej (uwaga: tylko w minimalnych ilościach, młode liście!)",
-        "Sałata masłowa",
-        "Pomidor",
-        "Ogórek",
-        "Oliwa, sól, pieprz"
+        "Lactuca virosa wykorzystywana była wyłącznie jako roślina lecznicza (medycyna ludowa, XIX-wieczna farmacja)."
       ],
-      "sposob_przygotowania": "Wszystkie liście dokładnie wypłukać, posiekać, wymieszać z resztą składników. Stosować jako domieszkę do sałatki.",
+      "sposob_przygotowania": "W kuchni nie jest używana nawet po obróbce cieplnej, ponieważ nawet młode liście zachowują gorzki smak, a zawartość laktucarium i innych substancji może być niebezpieczna.",
       "cechy": [
-        "Gorzki, lekko pikantny smak"
+        "Sałata jadowita nie ma autentycznych, tradycyjnych przepisów kulinarnych."
       ],
       "wlasciwosci": [
         "pobudza trawienie"
       ],
-      "zastosowanie": "Sałatka z dzikich roślin (jedynie jako niewielki dodatek).",
-      "zrodlo": [16]
-    },
-    "nalewka_uspokajająca": {
-      "skladniki": [
-        "100 g świeżych liści sałaty jadowitej",
-        "500 ml spirytusu 40%",
-        "100 g cukru"
-      ],
-      "sposob_przygotowania": "Liście zalać alkoholem, odstawić na 14 dni. Odcedzić, dodać cukier, przelać do ciemnej butelki.",
-      "cechy": [
-        "Brunatna, aromatyczna nalewka"
-      ],
-      "wlasciwosci": [
-        "działa uspokajająco, łagodnie nasennie"
-      ],
-      "zastosowanie": "Kuracja na bezsenność, napady kaszlu (wyłącznie dla dorosłych, po konsultacji ze specjalistą).",
-      "dawkowanie": "5–15 kropli na noc, nie dłużej niż 7 dni.",
-      "zrodlo": [17]
+      "zastosowanie": "Przepisy kulinarne można znaleźć wyłącznie dla innych gatunków sałaty – np. sałata masłowa, rzymska, dębowa, kompasowa (Lactuca sativa, Lactuca serriola).",
+      "zrodlo": [
+        0
+      ]
     }
   },
   "przepisy_z_innymi_roslinami": {
     "medyczne": [
       {
-        "nazwa": "Mieszanka na bezsenność (sałata jadowita, chmiel, kozłek lekarski, melisa, lawenda)",
+        "nazwa": "Herbatka uspokajająca (sałata jadowita, melisa, chmiel)",
         "skladniki": [
-          "1/2 łyżeczki suszonych liści sałaty jadowitej",
+          "1 łyżeczka suszonych liści sałaty jadowitej",
+          "1 łyżka suszonych liści melisy lekarskiej",
           "1 łyżeczka szyszek chmielu",
-          "1 łyżeczka korzenia kozłka lekarskiego",
-          "1/2 łyżeczki liści melisy",
-          "1/2 łyżeczki kwiatów lawendy",
-          "300 ml wrzątku"
+          "250 ml wrzątku"
         ],
-        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć pod przykryciem 10 minut. Pić wieczorem przed snem.",
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 minut pod przykryciem, przecedzić przez gazę.",
         "cechy": [
-          "Mocno ziołowy, gorzki napar"
+          "Ciemnożółty, lekko gorzki napar"
         ],
         "wlasciwosci": [
-          "nasenna, uspokajająca"
+          "działa uspokajająco, lekko nasennie"
         ],
-        "zastosowanie": "Przy problemach z zasypianiem.",
-        "zrodlo": [18]
+        "zastosowanie": "Stany napięcia, trudności z zasypianiem (stosować tylko u dorosłych, w małych ilościach!).",
+        "dawkowanie": "1 filiżanka wieczorem.",
+        "zrodlo": [
+          41
+        ]
+      },
+      {
+        "nazwa": "Mieszanka przeciwkaszlowa (sałata jadowita, tymianek, prawoślaz)",
+        "skladniki": [
+          "1 łyżeczka suszonych liści sałaty jadowitej",
+          "1 łyżka ziela tymianku",
+          "1 łyżeczka korzenia prawoślazu",
+          "250 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut pod przykryciem, przecedzić.",
+        "cechy": [
+          "Ziołowy, lekko gorzkawy napar"
+        ],
+        "wlasciwosci": [
+          "łagodzi kaszel, działa powlekająco i uspokajająco"
+        ],
+        "zastosowanie": "Kaszel suchy, podrażnienie gardła (wyłącznie dla dorosłych!).",
+        "dawkowanie": "1 filiżanka przed snem.",
+        "zrodlo": [
+          42
+        ]
+      },
+      {
+        "nazwa": "Napar na bóle menstruacyjne (sałata jadowita, rumianek, kozłek lekarski)",
+        "skladniki": [
+          "1 łyżeczka suszonych liści sałaty jadowitej",
+          "1 łyżka suszonych kwiatów rumianku",
+          "1/2 łyżeczki korzenia kozłka lekarskiego",
+          "300 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 minut pod przykryciem, przecedzić.",
+        "cechy": [
+          "Aromat ziołowo-gorzki, złocisty napar"
+        ],
+        "wlasciwosci": [
+          "działa rozkurczowo, łagodzi ból"
+        ],
+        "zastosowanie": "Bóle menstruacyjne, napięcie (nie stosować w ciąży!).",
+        "dawkowanie": "1 szklanka w razie potrzeby.",
+        "zrodlo": [
+          43
+        ]
       }
     ],
     "kulinarne": [
-      {
-        "nazwa": "Sałatka z młodych liści dzikich (sałata jadowita, mniszek, szczaw, babka, rukola, rzodkiewka)",
-        "skladniki": [
-          "1 mała garść młodych liści sałaty jadowitej (min. ilość!)",
-          "1 garść liści mniszka",
-          "kilka liści szczawiu",
-          "kilka liści babki lancetowatej",
-          "garść rukoli",
-          "2 rzodkiewki",
-          "oliwa, sól, pieprz"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki posiekać, wymieszać z oliwą i przyprawami. Sałatę jadowitą stosować tylko jako symboliczny dodatek.",
-        "cechy": [
-          "Gorzko-pikantny smak, witaminowa bomba"
-        ],
-        "wlasciwosci": [
-          "oczyszczająca, pobudzająca trawienie"
-        ],
-        "zastosowanie": "Sałatki wiosenne, przystawka dla koneserów.",
-        "zrodlo": [19]
-      }
     ]
   },
   "bibliografia": {
@@ -263,15 +296,42 @@
     "19": "https://www.gardenersworld.com/how-to/grow-plants/how-to-identify-wild-lettuce/"
   },
   "kalendarz": {
-      "siew": [4, 5],
-      "zbior_ziele": [6, 7],
-      "zbior_kwiatow": [7, 8],
-      "zbior_korzeni": [9, 10],
-      "zbior_poranny": [6, 7],
-      "zbior_pelnia": [7],
-      "ekstrakcja": [7, 8],
-      "zbior_po_deszczu": [10],
-      "pielenie": [5, 6],
-      "przesadzanie": [4]
-    }
+    "siew": [
+      4,
+      5
+    ],
+    "zbior_ziele": [
+      6,
+      7
+    ],
+    "zbior_kwiatow": [
+      7,
+      8
+    ],
+    "zbior_korzeni": [
+      9,
+      10
+    ],
+    "zbior_poranny": [
+      6,
+      7
+    ],
+    "zbior_pelnia": [
+      7
+    ],
+    "ekstrakcja": [
+      7,
+      8
+    ],
+    "zbior_po_deszczu": [
+      10
+    ],
+    "pielenie": [
+      5,
+      6
+    ],
+    "przesadzanie": [
+      4
+    ]
+  }
 }

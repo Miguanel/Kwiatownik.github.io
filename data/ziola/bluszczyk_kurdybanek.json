@@ -8,7 +8,9 @@
     "Glechoma",
     "Bluszczyk kurdybanek"
   ],
-  "zdjecia": [],
+  "zdjecia": ["https://florens.pl/wp-content/uploads/2024/03/BLUSZCZYK-KURDYBANEK-Glechoma-hederacea-don-10cm-5.jpg",
+  "https://zielnik-karpacki.pl/application/images/uploads/albums/album_20/roslina_80/1770.jpeg",
+  "https://browsk.bialystok.lasy.gov.pl/image/journal/article?img_id=38299027&t=1589783755003&width=560"],
   "uprawa": {
     "gleba": "Przepuszczalna, próchniczna, lekko wilgotna",
     "stanowisko": "Półcień, cień; toleruje także stanowiska słoneczne",
