@@ -330,21 +330,18 @@
     ]
   },
   "kalendarz": {
-    "siew": [
-      10
-    ],
-    "sadzenie": [
-      3,
-      4
-    ],
-    "kwitnienie": [
-      5
-    ],
-    "zbior": [
-      9,
-      10
-    ]
-  },
+      "siew": [10],
+      "sadzenie": [3, 4],
+      "kwitnienie": [5],
+      "zbior": [9, 10],
+      "ciecie": [2, 3, 8],
+      "nawozenie": [4, 5, 8],
+      "zabezpieczanie": [11],
+      "ochrona": [5, 6],
+      "zbior_lisci": [6],
+      "przesadzanie": [3, 10],
+      "rozmnazanie": [4, 5]
+    },
   "ciekawostki_kulturowe": [
     "W dawnej Polsce kasztanowce sadzono w parkach dworskich, by symbolizowały dostatek i ochronę.",
     "Dawniej liście i owoce kasztanowca wykorzystywano do odstraszania moli i pcheł w szafach i budynkach gospodarczych.",

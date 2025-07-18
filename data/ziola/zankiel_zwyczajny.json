@@ -698,5 +698,15 @@
     "40": "https://zielnikpolski.pl/kosmetyki-zankiel/",
     "41": "https://zielnikpolski.pl/barwnik-zankiel/",
     "42": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
-  }
+  },
+  "kalendarz": {
+      "siew": [4, 5],
+      "zbior_ziele": [5, 6],
+      "zbior_poranny": [5, 6],
+      "kwitnienie": [6],
+      "zbior_pelnia": [6],
+      "ekstrakcja": [6],
+      "pielenie": [5, 6],
+      "przesadzanie": [4]
+    }
 }

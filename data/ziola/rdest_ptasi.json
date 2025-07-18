@@ -803,5 +803,15 @@
     "45": "https://zielnikpolski.pl/kosmetyki-rdest/",
     "46": "https://zielnikpolski.pl/barwnik-rdest/",
     "47": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
-  }
+  },
+  "kalendarz": {
+      "siew": [4, 5],
+      "zbior_ziele": [5, 6, 7, 8],
+      "zbior_nasion": [8, 9],
+      "zbior_poranny": [5, 6, 7, 8],
+      "zbior_pelnia": [6],
+      "ekstrakcja": [7],
+      "pielenie": [5, 6, 7],
+      "przesadzanie": [4]
+    }
 }

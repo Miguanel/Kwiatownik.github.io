@@ -414,5 +414,15 @@
     "26": "https://zielnikpolski.pl/kosmetyki-kosmos-siarkowy/",
     "27": "https://zielnikpolski.pl/barwnik-kosmos-siarkowy/",
     "28": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
-  }
+  },
+  "kalendarz": {
+      "siew": [4, 5],
+      "kwitnienie": [7, 8, 9],
+      "zbior_kwiatow": [7, 8, 9],
+      "zbior_pelnia": [8],
+      "ekstrakcja": [8],
+      "miodobranie": [8],
+      "pielenie": [5, 6],
+      "przesadzanie": [5]
+    }
 }

@@ -411,5 +411,16 @@
     "28": "https://kulinaria.pl/barwniki-roslinne/",
     "29": "https://tradycjeeuropy.pl/mak-w-alkoholu/",
     "30": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
-  }
+  },
+  "kalendarz": {
+      "siew": [3, 4],
+      "kwitnienie": [6, 7],
+      "zbior_kwiatow": [6, 7],
+      "zbior_pelnia": [6],
+      "zbior_nasion": [7, 8],
+      "ekstrakcja": [6, 7],
+      "miodobranie": [6],
+      "pielenie": [5, 6],
+      "przesadzanie": [4]
+    }
 }

@@ -894,5 +894,15 @@
     "46": "https://zielnikpolski.pl/kosmetyki-gwiazdnica/",
     "47": "https://zielnikpolski.pl/barwniki-gwiazdnica/",
     "48": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
-  }
+  },
+  "kalendarz": {
+      "siew": [3, 4, 8, 9],
+      "zbior_ziele": [4, 5, 6, 7, 8, 9],
+      "zbior_poranny": [4, 5, 6, 7, 8, 9],
+      "zbior_pelnia": [6],
+      "ekstrakcja": [5, 6, 7],
+      "zbior_po_deszczu": [6],
+      "rozmnazanie": [4, 9],
+      "pielenie": [4, 5, 6, 7, 8, 9]
+    }
 }

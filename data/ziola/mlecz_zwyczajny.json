@@ -623,5 +623,14 @@
     "37": "https://zielnikpolski.pl/kosmetyki-mniszek/",
     "38": "https://zielnikpolski.pl/barwnik-mniszek/",
     "39": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
-  }
+  },
+  "kalendarz": {
+      "siew": [4, 5, 9, 10],
+      "zbior_ziele": [4, 5, 6, 7, 8],
+      "zbior_po_deszczu": [5, 6],
+      "zbior_pelnia": [5],
+      "ekstrakcja": [6],
+      "pielenie": [5, 6, 7],
+      "przesadzanie": [4]
+    }
 }

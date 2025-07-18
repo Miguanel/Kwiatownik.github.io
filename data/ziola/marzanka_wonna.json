@@ -796,5 +796,16 @@
     "45": "https://zielnikpolski.pl/kosmetyki-marzanka/",
     "46": "https://zielnikpolski.pl/barwnik-marzanka/",
     "47": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
-  }
+  },
+  "kalendarz": {
+      "siew": [3, 4],
+      "zbior_ziele": [5, 6, 7],
+      "zbior_poranny": [5, 6, 7],
+      "zbior_kwiatow": [5, 6],
+      "zbior_pelnia": [6],
+      "ekstrakcja": [6],
+      "rozmnazanie": [4, 9],
+      "przycinanie": [7],
+      "przesadzanie": [4, 9]
+    }
 }

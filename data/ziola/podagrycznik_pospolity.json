@@ -458,5 +458,17 @@
     "33": "https://kulinaria.pl/barwniki-roslinne/",
     "34": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html",
     "35": "https://tradycjeeuropy.pl/podagrycznik-w-alkoholu/"
-  }
+  },
+  "kalendarz": {
+      "siew": [3, 4],
+      "zbior_ziele": [4, 5, 6, 7],
+      "zbior_poranny": [4, 5, 6, 7],
+      "zbior_kwiatow": [6, 7],
+      "zbior_pelnia": [6],
+      "ekstrakcja": [6, 7],
+      "miodobranie": [6],
+      "rozmnazanie": [4, 9],
+      "pielenie": [5, 6, 7],
+      "przesadzanie": [4, 9]
+    }
 }

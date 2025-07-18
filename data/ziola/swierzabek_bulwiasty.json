@@ -849,5 +849,18 @@
     "48": "https://zielnikpolski.pl/kosmetyki-swierzabek/",
     "49": "https://zielnikpolski.pl/barwnik-swierzabek/",
     "50": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
+  },
+  "kalendarz": {
+    "siew": [9, 10, 11],
+    "sadzenie": [3, 4],
+    "zbior_bulw": [7, 8],
+    "zbior_lisci": [4, 5],
+    "zbior_nasion": [8, 9],
+    "zbior_poranny": [7, 8],
+    "zbior_po_deszczu": [7, 8],
+    "ekstrakcja": [8],
+    "pielenie": [5, 6],
+    "przesadzanie": [3, 4],
+    "rozmnazanie": [8, 9]
   }
 }

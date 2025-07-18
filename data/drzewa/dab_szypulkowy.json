@@ -546,19 +546,18 @@
     "42": "https://zielnikpolski.pl/drewno-dab/"
   },
   "kalendarz": {
-    "siew": [
-      10,
-      11
-    ],
-    "sadzenie": [
-      3,
-      4
-    ],
-    "zbior": [
-      9,
-      10
-    ]
-  },
+      "siew": [10],
+      "sadzenie": [3, 4],
+      "kwitnienie": [5, 6],
+      "zbior": [9, 10, 11],
+      "ciecie": [2, 3, 8],
+      "nawozenie": [4, 5, 9],
+      "zabezpieczanie": [11],
+      "ochrona": [5, 6],
+      "zbior_lisci": [6],
+      "przesadzanie": [3, 10],
+      "rozmnazanie": [4, 5]
+    },
   "uprawa": {
     "gleba": "Gleba głęboka, żyzna, próchniczna, umiarkowanie wilgotna do świeżej, o odczynie lekko kwaśnym lub obojętnym.",
     "stanowisko": "Stanowisko słoneczne lub lekko zacienione; wymaga dużo przestrzeni i światła. Po dobrym ukorzenieniu dobrze znosi suszę.",

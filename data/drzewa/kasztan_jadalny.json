@@ -291,11 +291,18 @@
     ]
   },
   "kalendarz": {
-    "siew": [10],
-    "sadzenie": [3, 4],
-    "kwitnienie": [6, 7],
-    "zbior": [10, 11]
-  },
+      "siew": [10],
+      "sadzenie": [3, 4],
+      "kwitnienie": [6, 7],
+      "zbior": [10, 11],
+      "ciecie": [2, 3, 8],
+      "nawozenie": [4, 5, 8],
+      "zabezpieczanie": [11],
+      "ochrona": [6, 7],
+      "zbior_lisci": [6],
+      "przesadzanie": [3, 10],
+      "rozmnazanie": [4, 5]
+    },
   "ciekawostki_kulturowe": [
     "W regionach południowej Francji i Włoch do dziś kasztany nazywane są 'chlebem lasu'.",
     "W starożytności kasztan jadalny był symbolem płodności i długowieczności.",

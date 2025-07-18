@@ -426,5 +426,16 @@
     "27": "https://kosmetologia.com.pl/mak-polny-w-kosmetyce/",
     "28": "https://kulinaria.pl/barwniki-naturalne-mak/",
     "29": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
-  }
+  },
+  "kalendarz": {
+      "siew": [3, 4, 9, 10],
+      "kwitnienie": [5, 6, 7],
+      "zbior_kwiatow": [5, 6, 7],
+      "zbior_pelnia": [6],
+      "zbior_nasion": [7, 8],
+      "ekstrakcja": [6, 7],
+      "miodobranie": [6],
+      "pielenie": [5, 6],
+      "przesadzanie": [4]
+    }
 }

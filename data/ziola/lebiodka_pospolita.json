@@ -807,5 +807,16 @@
     "45": "https://zielnikpolski.pl/kosmetyki-lebiodka/",
     "46": "https://zielnikpolski.pl/barwnik-lebiodka/",
     "47": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
-  }
+  },
+  "kalendarz": {
+      "siew": [4, 5],
+      "zbior_ziele": [7, 8],
+      "zbior_poranny": [7, 8],
+      "zbior_kwiatow": [7, 8],
+      "zbior_pelnia": [8],
+      "ekstrakcja": [7, 8],
+      "miodobranie": [8],
+      "przycinanie": [8],
+      "przesadzanie": [4, 9]
+    }
 }
