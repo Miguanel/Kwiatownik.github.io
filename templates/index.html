@@ -21,7 +21,36 @@
     {% endfor %}
 </ul>
 {% endmacro %}
-
+{% macro render_tree_flat(node, prefix=[]) %}
+    {% if node.get('gatunki') %}
+        {% if prefix %}
+            <div class="tree-group-label">{{ prefix|join(' → ') }}</div>
+        {% endif %}
+        <ul>
+        {% for g in node['gatunki'] %}
+            <li class="tree-gatunek">
+                <a href="{{ url_for('roslina', category=g.category, plant=g.slug) }}">{{ g.name }}</a>
+                <i class="latin">({{ g.latin }})</i>
+                <span class="fav-btn" data-plant="{{ g.category }}/{{ g.slug }}"
+                      onclick="toggleFav('{{ g.category }}/{{ g.slug }}')" title="Dodaj/usuń z ulubionych">💚</span>
+                <span class="garden-btn" data-plant="{{ g.category }}/{{ g.slug }}"
+                      onclick="toggleGarden('{{ g.category }}/{{ g.slug }}')" title="Dodaj/usuń do ogrodu">🌱</span>
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        {% set keys = node.keys()|list %}
+        {% set real_keys = keys|reject('equalto', 'gatunki')|list %}
+        {% if real_keys|length == 1 %}
+            {% set new_prefix = prefix + [real_keys[0]] %}
+            {{ render_tree_flat(node[real_keys[0]], new_prefix) }}
+        {% else %}
+            {% for key in real_keys %}
+                {{ render_tree_flat(node[key], prefix + [key]) }}
+            {% endfor %}
+        {% endif %}
+    {% endif %}
+{% endmacro %}
 {% extends "lista.html" %}
 {% block title %}Kwiatownik – Spis treści{% endblock %}
 {% block content %}
@@ -47,7 +76,7 @@
 
 <!-- DRZEWO SPISU TREŚCI -->
 <div class="tree-content">
-    {{ render_tree(tree) }}
+    {{ render_tree_flat(tree) }}
 </div>
 {% endblock %}
 
@@ -73,6 +102,26 @@
     box-shadow: 0 3px 12px #bcd7b7;
     text-decoration: none;
 }
+
+.tree-content {
+    color: #e0e0e0;
+}
+.tree-content .tree-group-label {
+    color: #dadada !important;
+    font-weight: 500;
+    font-size: 0.7em;
+    margin-bottom: 0.2em;
+    margin-top: 0.7em;
+}
+.tree-content .tree-gatunek a {
+    color: #c5c5c5;
+    margin-left: 2.5em;
+    padding-left: 4.7em;
+}
+.tree-content .latin {
+    color: #ededed;
+}
+
 </style>
 
 <script>

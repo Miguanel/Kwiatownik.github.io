@@ -6,14 +6,14 @@
     <h1>{{ data.gatunek }}</h1>
     <div class="plant-hierarchy">
         {% if data.nazwa_zbioru %}
-            <span>
+        <span>
                 {% for n in data.nazwa_zbioru %}
                     {{ n }}{% if not loop.last %} → {% endif %}
                 {% endfor %}
             </span>
         {% endif %}
         {% if data.nazwa_lacinska %}
-            <span class="latin">({{ data.nazwa_lacinska }})</span>
+        <span class="latin">({{ data.nazwa_lacinska }})</span>
         {% endif %}
     </div>
     <div class="plant-actions" style="margin: 1.1em 0 1.5em 0; display: flex; gap: 1.1em;">
@@ -40,17 +40,30 @@
             data-url="{{ url_for('fragment', category=category, plant=slug, grupa='historia') }}">🧬 Historia, cechy
     </button>
     <button class="tile" data-group="wlasciwosci"
-            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='wlasciwosci') }}">⚗️ Właściwości, składniki
+            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='wlasciwosci') }}">⚗️ Właściwości,
+        składniki
     </button>
     <button class="tile" data-group="uprawa"
             data-url="{{ url_for('fragment', category=category, plant=slug, grupa='uprawa') }}">🌱 Uprawa i występowanie
     </button>
+
+    {% set przepisy_med = (data.przepisy_medyczne|length if data.przepisy_medyczne else 0)
+    + (data.przepisy_z_innymi_roslinami.medyczne|length if data.przepisy_z_innymi_roslinami and
+    data.przepisy_z_innymi_roslinami.medyczne else 0) %}
+    {% set przepisy_kul = (data.przepisy_kulinarne|length if data.przepisy_kulinarne else 0)
+    + (data.przepisy_z_innymi_roslinami.kulinarne|length if data.przepisy_z_innymi_roslinami and
+    data.przepisy_z_innymi_roslinami.kulinarne else 0) %}
+
     <button class="tile" data-group="przepisy_medyczne"
-            data-url="{{ url_for('fragment_przepisy_medyczne_all', category=category, plant=slug) }}">💊 Przepisy medyczne
+            data-url="{{ url_for('fragment_przepisy_medyczne_all', category=category, plant=slug) }}">
+        💊 Przepisy medyczne <span class="badge">{{ przepisy_med }}</span>
     </button>
     <button class="tile" data-group="przepisy_kulinarne"
-            data-url="{{ url_for('fragment_przepisy_kulinarne_all', category=category, plant=slug) }}">🥗 Przepisy kulinarne
+            data-url="{{ url_for('fragment_przepisy_kulinarne_all', category=category, plant=slug) }}">
+        🥗 Przepisy kulinarne <span class="badge">{{ przepisy_kul }}</span>
     </button>
+
+
     <button class="tile" data-group="permakultura"
             data-url="{{ url_for('fragment', category=category, plant=slug, grupa='permakultura') }}">🌿 Permakultura
     </button>
@@ -128,6 +141,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+
 </script>
 <style>
 .tiles-menu .tile.active {
@@ -187,6 +201,20 @@ document.addEventListener("DOMContentLoaded", function() {
     gap: 0.7em;
 }
 .plant-action-btn:hover { background: #e0f2dc; }
+
+.tile .badge {
+    display: inline-block;
+    min-width: 1.8em;
+    padding: 0.09em 0.43em;
+    margin-left: 0.39em;
+    font-size: 0.97em;
+    color: #4c7441;
+    background: #e9fbe0;
+    border-radius: 9px;
+    font-weight: bold;
+    border: 1.5px solid #b6deac;
+}
+
 </style>
 
 {% endblock %}

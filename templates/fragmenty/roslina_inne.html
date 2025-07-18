@@ -1,3 +1,4 @@
+{% block content %}
 <style>
 .inne-card {
     background: #f0fbe7;
@@ -52,132 +53,74 @@
     text-decoration: underline dotted;
     color: #395820;
 }
+.section-header {
+    font-size: 1.18em;
+    font-weight: bold;
+    margin: 2em 0 1.2em 0;
+    color: #466337;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
 </style>
 
-{% set inne = data.inne_zastosowania or {} %}
-
-{% for typ, zastosowanie in inne.items() %}
-    <div class="inne-card">
-        <div class="inne-title">
-            {% if typ == 'kosmetyki' %}Kosmetyki naturalne
-            {% elif typ == 'barwniki' %}Barwniki spożywcze / użytkowe
-            {% elif typ == 'pasza_dla_zwierzat' %}Pasza / suplementy dla zwierząt
-            {% elif typ == 'czyszczenie' %}Środki czystości
-            {% else %}{{ typ|replace('_', ' ')|capitalize }}
-            {% endif %}
-        </div>
-        {% if zastosowanie.opis %}
-            <div class="inne-blok">
-                <span class="inne-label">Opis:</span>
-                <span class="inne-tresc">{{ zastosowanie.opis }}</span>
-                {% if zastosowanie.opis_zrodlo %}
-                    <span class="inne-zrodlo">
-                        [
-                        {% if zastosowanie.opis_zrodlo is string %}
-                            <a href="#bib{{ zastosowanie.opis_zrodlo }}">{{ zastosowanie.opis_zrodlo }}</a>
-                        {% else %}
-                            {% for num in zastosowanie.opis_zrodlo %}
-                                <a href="#bib{{ num }}">{{ num }}</a>{% if not loop.last %}, {% endif %}
-                            {% endfor %}
+{% if data.inne_zastosowania %}
+    <div>
+        {% for typ, zastosowanie in data.inne_zastosowania.items() %}
+            <div class="inne-card">
+                <div class="inne-title">
+                    {% if typ == 'kosmetyki' %}Kosmetyki naturalne
+                    {% elif typ == 'barwniki' %}Barwniki spożywcze / użytkowe
+                    {% elif typ == 'pasza_dla_zwierzat' %}Pasza / suplementy dla zwierząt
+                    {% elif typ == 'czyszczenie' %}Środki czystości
+                    {% else %}{{ typ|replace('_', ' ')|capitalize }}
+                    {% endif %}
+                </div>
+                {% if zastosowanie.opis %}
+                    <div class="inne-blok">
+                        <span class="inne-label">Opis:</span>
+                        <span class="inne-tresc">{{ zastosowanie.opis }}</span>
+                        {% if zastosowanie.opis_zrodlo %}
+                            <span class="inne-zrodlo">
+                                [
+                                {% if zastosowanie.opis_zrodlo is string %}
+                                    <a href="#bib{{ zastosowanie.opis_zrodlo }}">{{ zastosowanie.opis_zrodlo }}</a>
+                                {% else %}
+                                    {% for num in zastosowanie.opis_zrodlo %}
+                                        <a href="#bib{{ num }}">{{ num }}</a>{% if not loop.last %}, {% endif %}
+                                    {% endfor %}
+                                {% endif %}
+                                ]
+                            </span>
                         {% endif %}
-                        ]
-                    </span>
+                    </div>
+                    {% if zastosowanie.zastosowanie %}<hr class="inne-divider">{% endif %}
+                {% endif %}
+                {% if zastosowanie.zastosowanie %}
+                    <div class="inne-blok">
+                        <span class="inne-label">Zastosowanie:</span>
+                        <span class="inne-tresc">{{ zastosowanie.zastosowanie }}</span>
+                        {% if zastosowanie.zrodlo %}
+                            <span class="inne-zrodlo">
+                                [
+                                {% if zastosowanie.zrodlo is string %}
+                                    <a href="#bib{{ zastosowanie.zrodlo }}">{{ zastosowanie.zrodlo }}</a>
+                                {% else %}
+                                    {% for num in zastosowanie.zrodlo %}
+                                        <a href="#bib{{ num }}">{{ num }}</a>{% if not loop.last %}, {% endif %}
+                                    {% endfor %}
+                                {% endif %}
+                                ]
+                            </span>
+                        {% endif %}
+                    </div>
                 {% endif %}
             </div>
-            {% if zastosowanie.zastosowanie %}<hr class="inne-divider">{% endif %}
-        {% endif %}
-        {% if zastosowanie.zastosowanie %}
-            <div class="inne-blok">
-                <span class="inne-label">Zastosowanie:</span>
-                <span class="inne-tresc">{{ zastosowanie.zastosowanie }}</span>
-                {% if zastosowanie.zrodlo %}
-                    <span class="inne-zrodlo">
-                        [
-                        {% if zastosowanie.zrodlo is string %}
-                            <a href="#bib{{ zastosowanie.zrodlo }}">{{ zastosowanie.zrodlo }}</a>
-                        {% else %}
-                            {% for num in zastosowanie.zrodlo %}
-                                <a href="#bib{{ num }}">{{ num }}</a>{% if not loop.last %}, {% endif %}
-                            {% endfor %}
-                        {% endif %}
-                        ]
-                    </span>
-                {% endif %}
-            </div>
-        {% endif %}
-    </div>
-<div class="section-header">
-    🧴 Inne zastosowania
-</div>
-<div class="section-content">
-    {% if data.inne_zastosowania %}
-        <ul>
-        {% for key, val in data.inne_zastosowania.items() %}
-            <li style="margin-bottom:1.1em;">
-                <b>{{ key|replace("_"," ")|capitalize }}:</b>
-                {% if val.opis %}<div>{{ val.opis }}</div>{% endif %}
-                {% if val.zastosowanie %}<div><b>Zastosowanie:</b> {{ val.zastosowanie }}</div>{% endif %}
-                {% if val.zrodlo %}
-                    <div style="font-size:0.95em; color:#898;"><a href="#bib{{ val.zrodlo[0] }}">[{{ val.zrodlo|join(', ') }}]</a></div>
-                {% endif %}
-            </li>
         {% endfor %}
-        </ul>
-    {% endif %}
-
-    {% if data.zamienniki_tytoniu %}
-    <div class="section-header" style="margin-top:1.6em;">🚬 Zamienniki tytoniu</div>
-    <div class="section-content">
-        <ul>
-        {% for z in data.zamienniki_tytoniu %}
-            <li style="margin-bottom:1.1em;">
-                <b>{{ z.nazwa }}</b><br>
-                <b>Składniki:</b>
-                <ul>
-                    {% for s in z.skladniki %}
-                    <li>{{ s }}</li>
-                    {% endfor %}
-                </ul>
-                <b>Sposób przygotowania:</b> {{ z.sposob_przygotowania }}<br>
-                {% if z.wlasciwosci %}<b>Właściwości:</b> {{ z.wlasciwosci|join(', ') }}<br>{% endif %}
-                {% if z.uwagi %}<b>Uwagi:</b> {{ z.uwagi }}<br>{% endif %}
-                {% if z.zrodlo %}
-                    <div style="font-size:0.95em; color:#898;"><a href="#bib{{ z.zrodlo[0] }}">[{{ z.zrodlo|join(', ') }}]</a></div>
-                {% endif %}
-            </li>
-        {% endfor %}
-        </ul>
     </div>
-    {% endif %}
-
-    {% if data.produkcja_alkoholu %}
-    <div class="section-header" style="margin-top:1.6em;">🍷 Produkcja alkoholu</div>
-    <div class="section-content">
-        <ul>
-        {% for k, nalewka in data.produkcja_alkoholu.items() %}
-            <li style="margin-bottom:1.1em;">
-                <b>{{ k|replace("_"," ")|capitalize }}</b><br>
-                <b>Składniki:</b>
-                <ul>
-                    {% for s in nalewka.skladniki %}
-                    <li>{{ s }}</li>
-                    {% endfor %}
-                </ul>
-                <b>Sposób przygotowania:</b> {{ nalewka.sposob_przygotowania }}<br>
-                {% if nalewka.cechy %}<b>Cechy:</b> {{ nalewka.cechy|join(', ') }}<br>{% endif %}
-                {% if nalewka.wlasciwosci %}<b>Właściwości:</b> {{ nalewka.wlasciwosci|join(', ') }}<br>{% endif %}
-                {% if nalewka.zastosowanie %}<b>Zastosowanie:</b> {{ nalewka.zastosowanie }}<br>{% endif %}
-                {% if nalewka.zrodlo %}
-                    <div style="font-size:0.95em; color:#898;"><a href="#bib{{ nalewka.zrodlo[0] }}">[{{ nalewka.zrodlo|join(', ') }}]</a></div>
-                {% endif %}
-            </li>
-        {% endfor %}
-        </ul>
-    </div>
-    {% endif %}
-</div>
 {% else %}
     <div class="inne-card">
         <div>Brak informacji o innych zastosowaniach tej rośliny.</div>
     </div>
-{% endfor %}
+{% endif %}
+{% endblock %}
