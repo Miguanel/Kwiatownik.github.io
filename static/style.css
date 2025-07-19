@@ -575,3 +575,96 @@ body.wrapper { min-height: 100vh; display: flex; flex-direction: column; }
 main { flex: 1 0 auto; }
 footer { flex-shrink: 0; }
 main { background: #f9f9f9; }
+
+
+#tree-scrollbox {
+  max-height: 560px;
+  overflow-y: auto;
+  background: #f6faee;
+  border-radius: 17px;
+  box-shadow: 0 2px 12px #cdeedb40;
+  padding: 1.5em 1.7em;
+  margin-bottom: 1.5em;
+}
+
+.tree-segment { margin-bottom: 2.7em; }
+.tree-segment-title {
+    font-size: 1.19em;
+    color: #26753e;
+    margin-bottom: 0.9em;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    padding-left: 0.3em;
+}
+
+.tree-group-label {
+    color: #4e6750;
+    font-weight: 500;
+    font-size: 1.05em;
+    margin: 0.7em 0 0.2em 0.8em;
+    padding-left: 0.8em;
+    letter-spacing: 0.01em;
+}
+
+.tree-list { list-style: none; margin:0; padding:0; }
+.tree-gatunek {
+    border-radius: 11px;
+    padding: 0.75em 1.1em 0.6em 1.4em;
+    margin-bottom: 0.23em;
+    font-size: 1.07em;
+    display: flex; align-items: center; gap: 0.7em;
+    box-shadow: 0 2px 10px #e8eeda20;
+    transition: background 0.15s, box-shadow 0.17s;
+}
+.tree-gatunek a {
+    color: #154d25;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.tree-gatunek .latin { color: #497a2c; font-style: italic; font-size:0.97em; }
+.fav-btn, .garden-btn { font-size:1.3em; cursor:pointer; opacity:0.55; margin-left:0.4em; transition:opacity 0.13s;}
+.fav-btn[style*="opacity: 1"], .garden-btn[style*="opacity: 1"] { opacity:1; }
+.fav-btn:hover, .garden-btn:hover { opacity:1; }
+
+/* Tło według segmentu */
+.bg-drzewa .tree-gatunek   { background: #eef7ec; }
+.bg-ziola .tree-gatunek    { background: #e6f8f0; }
+.bg-krzewy .tree-gatunek   { background: #f1f5e6; }
+.bg-korzenie .tree-gatunek { background: #f8f6e3; }
+
+@media (max-width: 700px) {
+    #tree-scrollbox { max-height: 62vh; padding:1em 0.4em; }
+    .tree-gatunek { font-size: 0.99em; padding: 0.7em 0.4em 0.6em 1em; }
+}
+
+.tree-breadcrumb {
+    font-size: 1.03em;
+    color: #174d26;
+    font-weight: 500;
+    margin-right: 0.6em;
+    letter-spacing: 0.01em;
+    word-break: break-word;
+}
+.tree-breadcrumb-groups {
+    font-size: 0.80em;
+    color: #979696;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-family: 'Inter', Arial, sans-serif;
+}
+.tree-breadcrumb-arrow {
+    color: #bbb;
+    font-size: 1.01em;
+    margin: 0 0.12em;
+}
+.tree-breadcrumb-main {
+    font-size: 1.10em;
+    color: #184e10;
+    font-weight: 600;
+    font-family: 'Inter', Arial, sans-serif;
+    letter-spacing: 0.01em;
+}
+.tree-breadcrumb {
+    display: inline-block;
+    margin-right: 0.7em;
+}

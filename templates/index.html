@@ -1,35 +1,19 @@
-{% macro render_tree(node, level=0) %}
-<ul class="tree-level tree-level-{{ level }}">
-    {% for key, val in node.items() %}
-        {% if key == "gatunki" %}
-            {% for g in val %}
-                <li class="tree-gatunek">
-                    <a href="{{ url_for('roslina', category=g.category, plant=g.slug) }}">{{ g.name }}</a>
-                    <i class="latin">({{ g.latin }})</i>
-                    <span class="fav-btn" data-plant="{{ g.category }}/{{ g.slug }}"
-                        onclick="toggleFav('{{ g.category }}/{{ g.slug }}')" title="Dodaj/usuń z ulubionych">💚</span>
-                    <span class="garden-btn" data-plant="{{ g.category }}/{{ g.slug }}"
-                        onclick="toggleGarden('{{ g.category }}/{{ g.slug }}')" title="Dodaj/usuń do ogrodu">🌱</span>
-                </li>
-            {% endfor %}
-        {% else %}
-            <li class="tree-group">
-                <span class="tree-group-label">{{ key }}</span>
-                {{ render_tree(val, level+1) }}
-            </li>
-        {% endif %}
-    {% endfor %}
-</ul>
-{% endmacro %}
-{% macro render_tree_flat(node, prefix=[]) %}
-    {% if node.get('gatunki') %}
-        {% if prefix %}
-            <div class="tree-group-label">{{ prefix|join(' → ') }}</div>
-        {% endif %}
-        <ul>
-        {% for g in node['gatunki'] %}
+{% extends "base.html" %}
+{% block title %}Kwiatownik – Spis treści{% endblock %}
+{% macro render_flat_group(tree, group_name, bgclass, prefix=[]) %}
+    {% if tree.get('gatunki') %}
+        <ul class="tree-list {{ bgclass }}">
+        {% for g in tree['gatunki'] %}
             <li class="tree-gatunek">
-                <a href="{{ url_for('roslina', category=g.category, plant=g.slug) }}">{{ g.name }}</a>
+                <span class="tree-breadcrumb">
+                  {% if prefix %}
+                    <span class="tree-breadcrumb-groups">
+                      [{{ prefix|join(' → ') }}]
+                    </span>
+                    <span class="tree-breadcrumb-arrow"> → </span>
+                  {% endif %}
+                  <span class="tree-breadcrumb-main">{{ g.name }}</span>
+                </span>
                 <i class="latin">({{ g.latin }})</i>
                 <span class="fav-btn" data-plant="{{ g.category }}/{{ g.slug }}"
                       onclick="toggleFav('{{ g.category }}/{{ g.slug }}')" title="Dodaj/usuń z ulubionych">💚</span>
@@ -39,93 +23,43 @@
         {% endfor %}
         </ul>
     {% else %}
-        {% set keys = node.keys()|list %}
-        {% set real_keys = keys|reject('equalto', 'gatunki')|list %}
-        {% if real_keys|length == 1 %}
-            {% set new_prefix = prefix + [real_keys[0]] %}
-            {{ render_tree_flat(node[real_keys[0]], new_prefix) }}
-        {% else %}
-            {% for key in real_keys %}
-                {{ render_tree_flat(node[key], prefix + [key]) }}
-            {% endfor %}
-        {% endif %}
+        {% for key, node in tree.items() %}
+            {% if key != "gatunki" %}
+                {{ render_flat_group(node, group_name, bgclass, prefix + [key]) }}
+            {% endif %}
+        {% endfor %}
     {% endif %}
 {% endmacro %}
-{% extends "lista.html" %}
-{% block title %}Kwiatownik – Spis treści{% endblock %}
+
+
+
 {% block content %}
-<h2>Spis treści Kwiatownika</h2>
+<h2>Spis treści</h2>
+
+<!--<pre style="font-size:0.9em;color:#888;">DEBUG TREE KEYS: {{ tree.keys()|list }}</pre>-->
 
 <!-- WYSZUKIWARKA -->
-<div class="search-panel" style="margin-bottom:1.8em;">
-    <form action="/szukaj" method="get" id="searchForm" autocomplete="off" style="display:flex;max-width:440px;gap:0.7em;">
-        <input type="search" name="q" id="searchInput"
-               placeholder="Wpisz nazwę rośliny lub słowo kluczowe…" minlength="3" maxlength="120"
-               required style="flex:1;padding:0.6em 1em;font-size:1.13em;border-radius:8px;border:1px solid #bcd7b7;">
-        <button type="submit" style="padding:0.58em 1.1em;background:#67a75d;color:#fff;font-weight:bold;border:none;border-radius:8px;">Szukaj 🔍</button>
-    </form>
+<div class="search-panel" style="margin-bottom:1.6em;">
+    <input type="search" id="tree-search"
+        placeholder="Szukaj w spisie treści..." minlength="3" maxlength="80"
+        style="width:100%;padding:0.67em 1em;font-size:1.13em;border-radius:8px;border:1.2px solid #bcd7b7;">
 </div>
 
-<!-- KAFELKI FILTRUJĄCE -->
-<div class="category-tiles" style="display:flex;gap:1.1em;flex-wrap:wrap;justify-content:center;margin-bottom:2em;">
-    <a href="/drzewa/" class="tile-cat">🌳 Drzewa</a>
-    <a href="/ziola/" class="tile-cat">🌿 Zioła</a>
-    <a href="/cebule/" class="tile-cat">🧅 Cebule</a>
-    <a href="/bulwy/" class="tile-cat">🥔 Bulwy</a>
-</div>
-
-<!-- DRZEWO SPISU TREŚCI -->
-<div class="tree-content">
-    {{ render_tree_flat(tree) }}
+<!-- DRZEWO PODZIELONE NA SEGMENTY -->
+<div id="tree-scrollbox">
+    {% set segments = [
+    ("Drzewa", "Drzewa", "bg-drzewa"),
+    ("Zioła", "Rośliny zielne (Zioła)", "bg-ziola"),
+    ("Egzotyczne", "Rośliny egzotyczne", "bg-egzotyczne"),
+    ("Korzenie i bulwy", "Korzenie i bulwy", "bg-korzenie")
+] %}
+{% for label, key, bgclass in segments %}
+    {% if tree.get(key) %}
+    <section class="tree-segment" data-segment="{{ label }}">
+        <h3 class="tree-segment-title">{{ label }}</h3>
+        {{ render_flat_group(tree[key], label, bgclass) }}
+    </section>
+    {% endif %}
+{% endfor %}
 </div>
 {% endblock %}
-
-<style>
-.tile-cat {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.2em 2.3em;
-    background: #f3fbe7;
-    color: #184e10;
-    font-size: 1.15em;
-    border-radius: 15px;
-    box-shadow: 0 2px 9px #bcd7b7aa;
-    margin-bottom: 0.5em;
-    font-weight: 600;
-    text-decoration: none;
-    transition: background 0.15s, box-shadow 0.18s;
-}
-.tile-cat:hover, .tile-cat:focus {
-    background: #e7f7cf;
-    color: #124f07;
-    box-shadow: 0 3px 12px #bcd7b7;
-    text-decoration: none;
-}
-
-.tree-content {
-    color: #e0e0e0;
-}
-.tree-content .tree-group-label {
-    color: #dadada !important;
-    font-weight: 500;
-    font-size: 0.7em;
-    margin-bottom: 0.2em;
-    margin-top: 0.7em;
-}
-.tree-content .tree-gatunek a {
-    color: #c5c5c5;
-    margin-left: 2.5em;
-    padding-left: 4.7em;
-}
-.tree-content .latin {
-    color: #ededed;
-}
-
-</style>
-
-<script>
-window.onload = function() {
-    if(typeof updateFavIcons === "function") updateFavIcons();
-};
-</script>

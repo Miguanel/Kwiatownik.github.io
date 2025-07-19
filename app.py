@@ -74,6 +74,9 @@ def all_plants():
             })
     return out
 
+@app.route("/generator_przepisow")
+def generator_przepisow():
+    return render_template("generator_przepisow.html", all_plants=all_plants())
 
 
 @app.route("/<category>/")
@@ -238,7 +241,7 @@ def fragment_przepisy_medyczne_all(category, plant):
 @app.route("/")
 def index():
     tree = build_tree()
-    return render_template("index.html", tree=tree)
+    return render_template("index.html", tree=tree, all_plants=all_plants())
 
 
 if __name__ == "__main__":
