@@ -1,10 +1,25 @@
 {% extends "base.html" %}
 {% block title %}Kwiatownik – Spis treści{% endblock %}
+
+{% macro count_gatunki(tree) %}
+    {% set ns = namespace(total=0) %}
+    {% if tree.get('gatunki') is defined and tree['gatunki'] is iterable %}
+        {% set ns.total = ns.total + (tree['gatunki'] | length) %}
+    {% endif %}
+    {% for v in tree.values() %}
+        {% if v is mapping %}
+            {% set ns.total = ns.total + (count_gatunki(v) | int) %}
+        {% endif %}
+    {% endfor %}
+    {{ ns.total }}
+{% endmacro %}
+
+
 {% macro render_flat_group(tree, group_name, bgclass, prefix=[]) %}
-    {% if tree.get('gatunki') %}
-        <ul class="tree-list {{ bgclass }}">
-        {% for g in tree['gatunki'] %}
-            <li class="tree-gatunek">
+{% if tree.get('gatunki') %}
+<ul class="tree-list {{ bgclass }}">
+    {% for g in tree['gatunki'] %}
+    <li class="tree-gatunek">
                 <span class="tree-breadcrumb">
                   {% if prefix %}
                     <span class="tree-breadcrumb-groups">
@@ -14,23 +29,22 @@
                   {% endif %}
                   <span class="tree-breadcrumb-main">{{ g.name }}</span>
                 </span>
-                <i class="latin">({{ g.latin }})</i>
-                <span class="fav-btn" data-plant="{{ g.category }}/{{ g.slug }}"
-                      onclick="toggleFav('{{ g.category }}/{{ g.slug }}')" title="Dodaj/usuń z ulubionych">💚</span>
-                <span class="garden-btn" data-plant="{{ g.category }}/{{ g.slug }}"
-                      onclick="toggleGarden('{{ g.category }}/{{ g.slug }}')" title="Dodaj/usuń do ogrodu">🌱</span>
-            </li>
-        {% endfor %}
-        </ul>
-    {% else %}
-        {% for key, node in tree.items() %}
-            {% if key != "gatunki" %}
-                {{ render_flat_group(node, group_name, bgclass, prefix + [key]) }}
-            {% endif %}
-        {% endfor %}
-    {% endif %}
+        <i class="latin">({{ g.latin }})</i>
+        <span class="fav-btn" data-plant="{{ g.category }}/{{ g.slug }}"
+              onclick="toggleFav('{{ g.category }}/{{ g.slug }}')" title="Dodaj/usuń z ulubionych">💚</span>
+        <span class="garden-btn" data-plant="{{ g.category }}/{{ g.slug }}"
+              onclick="toggleGarden('{{ g.category }}/{{ g.slug }}')" title="Dodaj/usuń do ogrodu">🌱</span>
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+{% for key, node in tree.items() %}
+{% if key != "gatunki" %}
+{{ render_flat_group(node, group_name, bgclass, prefix + [key]) }}
+{% endif %}
+{% endfor %}
+{% endif %}
 {% endmacro %}
-
 
 
 {% block content %}
@@ -39,10 +53,11 @@
 <!--<pre style="font-size:0.9em;color:#888;">DEBUG TREE KEYS: {{ tree.keys()|list }}</pre>-->
 
 <!-- WYSZUKIWARKA -->
+
 <div class="search-panel" style="margin-bottom:1.6em;">
     <input type="search" id="tree-search"
-        placeholder="Szukaj w spisie treści..." minlength="3" maxlength="80"
-        style="width:100%;padding:0.67em 1em;font-size:1.13em;border-radius:8px;border:1.2px solid #bcd7b7;">
+           placeholder="Szukaj w spisie treści..." minlength="3" maxlength="80"
+           style="width:100%;padding:0.67em 1em;font-size:1.13em;border-radius:8px;border:1.2px solid #bcd7b7;">
 </div>
 
 <!-- DRZEWO PODZIELONE NA SEGMENTY -->
@@ -52,14 +67,18 @@
     ("Zioła", "Rośliny zielne (Zioła)", "bg-ziola"),
     ("Egzotyczne", "Rośliny egzotyczne", "bg-egzotyczne"),
     ("Korzenie i bulwy", "Korzenie i bulwy", "bg-korzenie")
-] %}
-{% for label, key, bgclass in segments %}
+    ] %}
+    {% for label, key, bgclass in segments %}
     {% if tree.get(key) %}
     <section class="tree-segment" data-segment="{{ label }}">
-        <h3 class="tree-segment-title">{{ label }}</h3>
+        <h3 class="tree-segment-title">
+            {{ label }} <span class="tree-group-count">[{{ count_gatunki(tree[key]) }}]</span>
+        </h3>
+
+        <!--        <pre>{{ tree[key]|tojson(indent=2) }}</pre>-->
         {{ render_flat_group(tree[key], label, bgclass) }}
     </section>
     {% endif %}
-{% endfor %}
+    {% endfor %}
 </div>
 {% endblock %}

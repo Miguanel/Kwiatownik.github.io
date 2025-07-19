@@ -19,7 +19,6 @@
     {% if results_names or results_details %}
         <ul class="search-results">
 
-        {# --- Sekcja 1: TYLKO w nazwie (gatunek/podgatunek/nazwa łacińska) --- #}
         {% if results_names %}
             <li class="results-header"><b>Znaleziono w nazwie rośliny:</b></li>
             {% for plant in results_names %}
@@ -42,7 +41,6 @@
             {% endfor %}
         {% endif %}
 
-        {# --- Sekcja 2: W szczegółach (dowolne inne pole, także jeśli było wyżej) --- #}
         {% if results_details %}
             <li class="results-header" style="margin-top:1.7em;"><b>Znaleziono w szczegółach:</b></li>
             {% for plant in results_details %}
@@ -81,8 +79,8 @@ document.getElementById("searchForm").onsubmit = function(e) {
         e.preventDefault();
         return false;
     }
-    if(v.length > 120) {
-        hint.textContent = "Wpisz maksymalnie 120 znaków!";
+    if(v.length > 80) {
+        hint.textContent = "Wpisz maksymalnie 80 znaków!";
         hint.style.display = "block";
         e.preventDefault();
         return false;
