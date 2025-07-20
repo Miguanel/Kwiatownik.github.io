@@ -198,7 +198,7 @@ def generator_ogrodu():
 @app.route("/<category>/<plant>")
 def roslina(category, plant):
     data = load_plant(category, plant)
-    return render_template("roslina.html", data=data, slug=plant, category=category)
+    return render_template("roslina.html", data=data, slug=plant, category=category,all_plants=all_plants())
 
 
 @app.route("/<category>/<plant>/bibliografia")

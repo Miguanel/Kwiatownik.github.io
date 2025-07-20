@@ -27,7 +27,8 @@
                     </span>
                     <span class="tree-breadcrumb-arrow"> → </span>
                   {% endif %}
-                  <span class="tree-breadcrumb-main">{{ g.name }}</span>
+                  <a class="tree-breadcrumb-main" href="/{{ g.category }}/{{ g.slug }}">{{ g.name }}</a>
+
                 </span>
         <i class="latin">({{ g.latin }})</i>
         <span class="fav-btn" data-plant="{{ g.category }}/{{ g.slug }}"
