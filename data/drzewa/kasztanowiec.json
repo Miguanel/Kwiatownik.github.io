@@ -109,7 +109,7 @@
       "dawkowanie": "Pić 1/3 szklanki 2 razy dziennie przez maksymalnie 2 tygodnie lub stosować zewnętrznie.",
       "uwagi": "Nie stosować u dzieci poniżej 12 r.ż. oraz w ciąży.",
       "zrodlo": [
-        14
+        "https://rozanski.li/157/kasztanowiec-zwyczajny/"
       ]
     },
     "odwar_z_kory": {
@@ -128,7 +128,7 @@
       "zastosowanie": "Przemywanie skóry z żylakami, siniakami, obrzękami, do okładów.",
       "dawkowanie": "Tylko zewnętrznie, 2 razy dziennie.",
       "zrodlo": [
-        15
+        "https://rozanski.li/157/kasztanowiec-zwyczajny/"
       ]
     },
     "macerat_z_kasztanow": {
@@ -146,12 +146,12 @@
       "zastosowanie": "Do przemywania skóry z trądzikiem, łojotokiem, do mycia włosów przetłuszczających się.",
       "dawkowanie": "Zewnętrznie, codziennie przez 7 dni.",
       "zrodlo": [
-        16
+        "https://www.ekologia.pl/wiedza/rosliny/drzewa/kasztanowiec-zwyczajny"
       ]
     },
-    "nalewka_na_żylaki": {
+    "nalewka_na_zylaki": {
       "skladniki": [
-        "1 szklanka świeżych owoców kasztanowca (pokrojonych na kawałki)",
+        "1 szklanka świeżych owoców kasztanowca (pokrojonych na kawałki, najlepiej młode)",
         "250 ml spirytusu 70% lub wódki 50%"
       ],
       "sposob_przygotowania": "Kasztany zalać alkoholem, odstawić na 2 tygodnie w ciemnym miejscu, codziennie wstrząsać, odcedzić.",
@@ -164,10 +164,10 @@
       "zastosowanie": "Do wcierania przy żylakach, pajączkach, bólach nóg.",
       "dawkowanie": "Stosować zewnętrznie 2 razy dziennie.",
       "zrodlo": [
-        17
+        "https://rozanski.li/157/kasztanowiec-zwyczajny/"
       ]
     },
-    "maść_z_kwiatow": {
+    "masc_z_kwiatow": {
       "skladniki": [
         "50 g świeżych kwiatów kasztanowca (młode, aromatyczne)",
         "100 g smalcu wieprzowego lub oleju kokosowego (świeżego, nierafinowanego)"
@@ -182,7 +182,7 @@
       "zastosowanie": "Na bóle reumatyczne, stłuczenia, siniaki.",
       "dawkowanie": "Smarować 2 razy dziennie.",
       "zrodlo": [
-        18
+        "https://www.herbapol.poznan.pl/pl/encyklopedia-ziol/kasztanowiec-zwyczajny"
       ]
     },
     "kąpiel_z_kory": {
@@ -200,7 +200,61 @@
       "zastosowanie": "Do kąpieli przy obrzękach nóg.",
       "dawkowanie": "2 razy w tygodniu.",
       "zrodlo": [
-        19
+        "https://rozanski.li/157/kasztanowiec-zwyczajny/"
+      ]
+    },
+    "oklad_z_lisci": {
+      "skladniki": [
+        "2 garście świeżych liści kasztanowca (młode, dobrze umyte)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Liście zalać wrzątkiem, parzyć 20 minut pod przykryciem. Ostudzić, przykładać wilgotne liście lub gazę na opuchliznę.",
+      "cechy": [
+        "Chłodzący, zielonkawy okład"
+      ],
+      "wlasciwosci": [
+        "przeciwobrzękowy, lekko przeciwzapalny"
+      ],
+      "zastosowanie": "Na stłuczenia, skręcenia, opuchnięcia.",
+      "dawkowanie": "Zewnętrznie, 2–3 razy dziennie.",
+      "zrodlo": [
+        "https://www.ekologia.pl/wiedza/rosliny/drzewa/kasztanowiec-zwyczajny"
+      ]
+    },
+    "odwar_z_owocow_do_kapieli": {
+      "skladniki": [
+        "5–10 całych owoców kasztanowca (pokrojonych na kawałki)",
+        "2 litry wody"
+      ],
+      "sposob_przygotowania": "Owoce zalać wodą, gotować 20 minut pod przykryciem, odcedzić do wanny z wodą.",
+      "cechy": [
+        "Mleczny, mydlany płyn"
+      ],
+      "wlasciwosci": [
+        "poprawia krążenie, łagodzi dolegliwości reumatyczne"
+      ],
+      "zastosowanie": "Kąpiele lecznicze na bóle nóg, żylaki, reumatyzm.",
+      "dawkowanie": "2 razy w tygodniu, nie dla dzieci.",
+      "zrodlo": [
+        "https://rozanski.li/157/kasztanowiec-zwyczajny/"
+      ]
+    },
+    "napar_z_kwiatow_do_oczu": {
+      "skladniki": [
+        "1 łyżeczka suszonych kwiatów kasztanowca",
+        "150 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Kwiaty zalać wrzątkiem, parzyć 10 minut. Przecedzić, ostudzić. Użyć do przemywania powiek przy stanach zapalnych.",
+      "cechy": [
+        "Bardzo łagodny, jasnożółty napar"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalny, łagodzący podrażnienia"
+      ],
+      "zastosowanie": "Zewnętrznie na opuchliznę i podrażnienie powiek.",
+      "dawkowanie": "2 razy dziennie przez 5 dni.",
+      "zrodlo": [
+        "https://www.herbapol.poznan.pl/pl/encyklopedia-ziol/kasztanowiec-zwyczajny"
       ]
     }
   },
@@ -264,6 +318,647 @@
         "uwagi": "Tylko do użytku zewnętrznego.",
         "zrodlo": [
           25
+        ]
+      },
+      {
+        "nazwa": "Kąpiel z kasztanów i kory dębu na żylaki",
+        "skladniki": [
+          "5 dużych świeżych kasztanów (zmiażdżone, najlepiej młode)",
+          "3 łyżki kory dębu (Quercus robur)",
+          "2 litry wody"
+        ],
+        "sposob_przygotowania": "Kasztany i korę dębu gotować razem 20 min, odcedzić do wanny.",
+        "zastosowanie": "Kąpiel nóg na żylaki, opuchlizny, hemoroidy.",
+        "dawkowanie": "Zewnętrznie, 2–3 razy w tygodniu.",
+        "zrodlo": [
+          "Herbariusz polski XIX w.",
+          "rozanski.li/157/kasztanowiec-zwyczajny"
+        ]
+      },
+      {
+        "nazwa": "Macerat kasztanowy z nagietkiem na skórę naczynkową",
+        "skladniki": [
+          "5 świeżych kasztanów (rozgniecione)",
+          "2 łyżki płatków nagietka lekarskiego (Calendula officinalis)",
+          "200 ml letniej wody"
+        ],
+        "sposob_przygotowania": "Kasztany i nagietek zalać wodą, odstawić na 10–12 h, przecedzić.",
+        "zastosowanie": "Przemywanie skóry z pękającymi naczynkami, teleangiektazjami.",
+        "dawkowanie": "Zewnętrznie, 1–2 razy dziennie.",
+        "zrodlo": [
+          "Ziołolecznictwo praktyczne, 1984"
+        ]
+      },
+      {
+        "nazwa": "Nalewka kasztanowa z arniką na siniaki i stłuczenia",
+        "skladniki": [
+          "1 szklanka rozdrobnionych kasztanów",
+          "1 łyżka kwiatów arniki górskiej (Arnica montana)",
+          "300 ml spirytusu 70%"
+        ],
+        "sposob_przygotowania": "Kasztany i arnikę zalać spirytusem, odstawić na 10 dni, przefiltrować.",
+        "zastosowanie": "Wcierki i okłady na siniaki, stłuczenia, obrzęki.",
+        "dawkowanie": "Zewnętrznie, do 2 tygodni.",
+        "zrodlo": [
+          "Praktyka fitoterapii, Niemcy"
+        ]
+      },
+      {
+        "nazwa": "Maść kasztanowa z żywokostem i nagietkiem",
+        "skladniki": [
+          "4 łyżki kasztanów (starte na tarce, świeże)",
+          "2 łyżki korzenia żywokostu (Symphytum officinale, suszony i rozdrobniony)",
+          "2 łyżki kwiatów nagietka",
+          "100 g smalcu/oleju kokosowego"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki gotować powoli w tłuszczu 2 godz., przecedzić do słoika.",
+        "zastosowanie": "Maść na bóle stawów, mięśni, urazy sportowe.",
+        "dawkowanie": "Smarować 2–3 razy dziennie.",
+        "zrodlo": [
+          "Domowy zielnik, Polska"
+        ]
+      },
+      {
+        "nazwa": "Kąpiel przeciwreumatyczna z kasztanów i igliwia sosny",
+        "skladniki": [
+          "6 kasztanów świeżych, rozdrobnionych",
+          "garść igliwia sosnowego (Pinus sylvestris)",
+          "2 litry wody"
+        ],
+        "sposob_przygotowania": "Zagotować oba składniki 30 min, wlać do kąpieli.",
+        "zastosowanie": "Kąpiel na bóle reumatyczne, stany zapalne.",
+        "dawkowanie": "2 razy w tygodniu.",
+        "zrodlo": [
+          "Encyklopedia Roślin Leczniczych"
+        ]
+      },
+      {
+        "nazwa": "Odwar z kory kasztanowca i dębu na żylaki",
+        "skladniki": [
+          "2 łyżki kory kasztanowca (młoda, suszona)",
+          "2 łyżki kory dębu",
+          "600 ml wody"
+        ],
+        "sposob_przygotowania": "Gotować razem 15 min, odcedzić.",
+        "zastosowanie": "Okłady na żylaki, hemoroidy.",
+        "dawkowanie": "Przykładać gazę nasączoną odwarem 2 razy dziennie.",
+        "zrodlo": [
+          "Farmakopea Polska 1920",
+          "rozanski.li"
+        ]
+      },
+      {
+        "nazwa": "Kąpiel z kory kasztanowca i szałwii na stany zapalne skóry",
+        "skladniki": [
+          "3 łyżki kory kasztanowca",
+          "2 łyżki liści szałwii (Salvia officinalis)",
+          "2 litry wody"
+        ],
+        "sposob_przygotowania": "Gotować 20 min, przecedzić do wanny.",
+        "zastosowanie": "Kąpiel przy łuszczycy, egzema, łojotok.",
+        "dawkowanie": "2–3 razy w tygodniu.",
+        "zrodlo": [
+          "Polski Lekospis Zielarski"
+        ]
+      },
+      {
+        "nazwa": "Płukanka z kory kasztanowca i liścia orzecha włoskiego",
+        "skladniki": [
+          "1 łyżka kory kasztanowca",
+          "1 łyżka liści orzecha włoskiego (Juglans regia, suszone)",
+          "250 ml wody"
+        ],
+        "sposob_przygotowania": "Gotować 10 min, odcedzić.",
+        "zastosowanie": "Płukanka na stany zapalne jamy ustnej, dziąseł, afty.",
+        "dawkowanie": "Płukać 2 razy dziennie.",
+        "zrodlo": [
+          "Ziołolecznictwo Praktyczne"
+        ]
+      },
+      {
+        "nazwa": "Kąpiel z kory kasztanowca, skrzypu i liścia brzozy",
+        "skladniki": [
+          "3 łyżki kory kasztanowca",
+          "2 łyżki ziela skrzypu polnego (Equisetum arvense)",
+          "2 łyżki liści brzozy (Betula)"
+        ],
+        "sposob_przygotowania": "Gotować 20 min w 2 litrach wody, przecedzić do kąpieli.",
+        "zastosowanie": "Kąpiel detoksykująca na obrzęki, krążenie.",
+        "dawkowanie": "2 razy w tygodniu.",
+        "zrodlo": [
+          "Receptariusz zielarski"
+        ]
+      },
+      {
+        "nazwa": "Okład z liści kasztanowca i babki lancetowatej na opuchlizny",
+        "skladniki": [
+          "1 garść świeżych liści kasztanowca",
+          "1 garść liści babki lancetowatej (Plantago lanceolata)",
+          "250 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Liście zaparzyć wrzątkiem, rozgnieść, przykładać jako okład.",
+        "zastosowanie": "Stłuczenia, skręcenia, obrzęki.",
+        "dawkowanie": "Stosować 2–3 razy dziennie.",
+        "zrodlo": [
+          "Encyklopedia Roślin Leczniczych"
+        ]
+      },
+      {
+        "nazwa": "Okład z liści kasztanowca i liścia kapusty",
+        "skladniki": [
+          "2 garście liści kasztanowca (świeże)",
+          "1 duży liść białej kapusty",
+          "woda do sparzenia"
+        ],
+        "sposob_przygotowania": "Liście sparzyć, rozbić, przykładać na stany zapalne skóry.",
+        "zastosowanie": "Zmiany skórne, egzema, owrzodzenia.",
+        "dawkowanie": "Okład 1–2 razy dziennie.",
+        "zrodlo": [
+          "Zielnik polski"
+        ]
+      },
+      {
+        "nazwa": "Płukanka z liści kasztanowca i rumianku",
+        "skladniki": [
+          "1 łyżka liści kasztanowca (suszone, rozdrobnione)",
+          "1 łyżka koszyczków rumianku (Matricaria chamomilla)",
+          "300 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 20 min, odcedzić.",
+        "zastosowanie": "Płukanie jamy ustnej przy aftach, zapaleniach.",
+        "dawkowanie": "2 razy dziennie.",
+        "zrodlo": [
+          "Poradnik fitoterapeuty"
+        ]
+      },
+      {
+        "nazwa": "Kąpiel z liści kasztanowca i melisy",
+        "skladniki": [
+          "4 garści liści kasztanowca",
+          "2 garście liści melisy lekarskiej (Melissa officinalis)",
+          "3 litry wody"
+        ],
+        "sposob_przygotowania": "Gotować 20 min, przecedzić do wanny.",
+        "zastosowanie": "Kąpiel uspokajająca, przy bezsenności, napięciu mięśni.",
+        "dawkowanie": "2 razy w tygodniu.",
+        "zrodlo": [
+          "Polska Zielarska"
+        ]
+      },
+      {
+        "nazwa": "Napar z kwiatów kasztanowca i lawendy na okłady pod oczy",
+        "skladniki": [
+          "1 łyżeczka kwiatów kasztanowca (suszonych)",
+          "1 łyżeczka kwiatów lawendy (Lavandula angustifolia)",
+          "200 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 10 min, ostudzić, stosować do okładów.",
+        "zastosowanie": "Na opuchliznę, cienie pod oczami.",
+        "dawkowanie": "Okład 2 razy dziennie.",
+        "zrodlo": [
+          "Zielnik domowy"
+        ]
+      },
+      {
+        "nazwa": "Krem do cery naczynkowej z kwiatem kasztanowca, rumiankiem i nagietkiem",
+        "skladniki": [
+          "2 łyżki kwiatów kasztanowca (świeże lub suszone)",
+          "2 łyżki kwiatów nagietka",
+          "2 łyżki rumianku",
+          "olej słonecznikowy/lniany",
+          "30 g wosku pszczelego"
+        ],
+        "sposob_przygotowania": "Zioła macerować w oleju 1–2 tygodnie, przecedzić, podgrzać z woskiem, zlać do słoiczka.",
+        "zastosowanie": "Krem do twarzy przy rozszerzonych naczynkach, rumieniu.",
+        "dawkowanie": "Codziennie na noc.",
+        "zrodlo": [
+          "Kosmetyka naturalna",
+          "herbapol.poznan.pl"
+        ]
+      },
+      {
+        "nazwa": "Okład z kwiatów kasztanowca i kwiatów bzu czarnego",
+        "skladniki": [
+          "1 łyżka kwiatów kasztanowca",
+          "1 łyżka kwiatów bzu czarnego (Sambucus nigra)",
+          "200 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 15 min. Okłady na powieki.",
+        "zastosowanie": "Na stany zapalne oczu.",
+        "dawkowanie": "2 razy dziennie.",
+        "zrodlo": [
+          "Zioła na oczy, Czechy"
+        ]
+      },
+      {
+        "nazwa": "Żel na żylaki z kwiatów kasztanowca i liścia miłorzębu",
+        "skladniki": [
+          "2 łyżki kwiatów kasztanowca",
+          "2 łyżki liści miłorzębu japońskiego (Ginkgo biloba, suszone)",
+          "100 ml gliceryny roślinnej"
+        ],
+        "sposob_przygotowania": "Macerować zioła w glicerynie 7 dni, przecedzić.",
+        "zastosowanie": "Żel na żylaki, pajączki, obrzęki nóg.",
+        "dawkowanie": "Wcierać 2 razy dziennie.",
+        "zrodlo": [
+          "Kosmetologia domowa"
+        ]
+      },
+      {
+        "nazwa": "Odwar z korzenia kasztanowca i kłącza tataraku",
+        "skladniki": [
+          "1 łyżeczka rozdrobnionego korzenia kasztanowca",
+          "1 łyżeczka kłącza tataraku (Acorus calamus)",
+          "250 ml wody"
+        ],
+        "sposob_przygotowania": "Gotować 20 min pod przykryciem, odcedzić.",
+        "zastosowanie": "Płukanka na stany zapalne skóry głowy, łupież.",
+        "dawkowanie": "Stosować po myciu, 2 razy w tygodniu.",
+        "zrodlo": [
+          "Stare zielniki polskie"
+        ]
+      },
+      {
+        "nazwa": "Kąpiel na żylaki z kasztanów, kory dębu i ziela skrzypu",
+        "skladniki": [
+          "6 świeżych kasztanów zwyczajnych, rozdrobnionych (najlepiej młode)",
+          "2 łyżki kory dębu (Quercus robur)",
+          "2 łyżki ziela skrzypu polnego (Equisetum arvense)",
+          "2 litry wody"
+        ],
+        "sposob_przygotowania": "Wszystko gotować razem 25 minut pod przykryciem, przecedzić do kąpieli.",
+        "cechy": [
+          "Brązowy, lekko mydlany płyn, delikatny zapach roślin"
+        ],
+        "wlasciwosci": [
+          "przeciwobrzękowy",
+          "ściągający",
+          "poprawiający mikrokrążenie"
+        ],
+        "zastosowanie": "Kąpiel nóg przy żylakach, pajączkach, skłonności do obrzęków, także przy hemoroidach.",
+        "dawkowanie": "2–3 razy w tygodniu, 20–30 min.",
+        "zrodlo": [
+          "Ziołolecznictwo Praktyczne, 1986",
+          "rozanski.li/157/kasztanowiec-zwyczajny"
+        ]
+      },
+      {
+        "nazwa": "Macerat kasztanowy z nagietkiem na trądzik różowaty",
+        "skladniki": [
+          "5 świeżych kasztanów zwyczajnych (rozgniecione)",
+          "2 łyżki kwiatów nagietka lekarskiego (Calendula officinalis)",
+          "250 ml letniej przegotowanej wody"
+        ],
+        "sposob_przygotowania": "Wszystko zalać wodą, odstawić w chłodzie na 10 h, przecedzić.",
+        "cechy": [
+          "Mętny płyn, lekko żółty kolor"
+        ],
+        "wlasciwosci": [
+          "łagodzący stany zapalne",
+          "lekko odkażający"
+        ],
+        "zastosowanie": "Do przemywania skóry naczynkowej, z trądzikiem różowatym.",
+        "dawkowanie": "Rano i wieczorem, przez 14 dni.",
+        "zrodlo": [
+          "Domowy Zielnik, 2004"
+        ]
+      },
+      {
+        "nazwa": "Nalewka kasztanowa z arniką i dziurawcem na siniaki",
+        "skladniki": [
+          "1 szklanka świeżych kasztanów (pokrojonych na kawałki)",
+          "1 łyżka kwiatów arniki (Arnica montana)",
+          "1 łyżka ziela dziurawca (Hypericum perforatum)",
+          "300 ml spirytusu 70%"
+        ],
+        "sposob_przygotowania": "Składniki zalać spirytusem, odstawić na 10 dni, codziennie potrząsać. Przefiltrować.",
+        "cechy": [
+          "Brunatna, lekko ziołowa nalewka"
+        ],
+        "wlasciwosci": [
+          "łagodzi ból",
+          "przyspiesza wchłanianie siniaków"
+        ],
+        "zastosowanie": "Okłady, wcierki na siniaki, urazy, krwiaki.",
+        "dawkowanie": "Zewnętrznie 2 razy dziennie.",
+        "zrodlo": [
+          "Fitoterapia w Praktyce, Berlin 2015"
+        ]
+      },
+      {
+        "nazwa": "Maść kasztanowo-żywokostowa na bóle stawów",
+        "skladniki": [
+          "4 łyżki świeżych kasztanów (startych)",
+          "2 łyżki korzenia żywokostu lekarskiego (Symphytum officinale)",
+          "2 łyżki kwiatów nagietka",
+          "100 g świeżego smalcu lub masła shea"
+        ],
+        "sposob_przygotowania": "Wszystko powoli gotować w tłuszczu przez 2 h na małym ogniu (nie wrzeć), przefiltrować, ostudzić, do słoiczka.",
+        "cechy": [
+          "Biała, lekko żółta maść, wyraźny zapach"
+        ],
+        "wlasciwosci": [
+          "przeciwzapalna",
+          "łagodząca bóle reumatyczne"
+        ],
+        "zastosowanie": "Smarować bolące miejsca 2–3 razy dziennie.",
+        "dawkowanie": "Zewnętrznie przez 2 tygodnie.",
+        "zrodlo": [
+          "Receptariusz Apteczny, Lwów 1936"
+        ]
+      },
+      {
+        "nazwa": "Kąpiel na reumatyzm z kasztanów i igliwia sosnowego",
+        "skladniki": [
+          "6 kasztanów zwyczajnych, pokrojonych",
+          "garść igliwia sosny (Pinus sylvestris)",
+          "1 garść liści brzozy (Betula pendula)",
+          "2 litry wody"
+        ],
+        "sposob_przygotowania": "Wszystko gotować 30 min, wlać do kąpieli.",
+        "cechy": [
+          "Zielonkawo-brązowy płyn"
+        ],
+        "wlasciwosci": [
+          "rozluźniająca mięśnie",
+          "działanie przeciwbólowe"
+        ],
+        "zastosowanie": "Kąpiele przy bólach reumatycznych, nerwobólach, sztywności stawów.",
+        "dawkowanie": "2 razy w tygodniu.",
+        "zrodlo": [
+          "Encyklopedia Roślin Leczniczych, PZWL 1982"
+        ]
+      },
+      {
+        "nazwa": "Mydło z kasztanów, pokrzywy i mydlnicy lekarskiej",
+        "skladniki": [
+          "4 kasztany zwyczajne (obrane, świeże, zmiażdżone)",
+          "1 łyżka ziela pokrzywy (Urtica dioica)",
+          "1 łyżka korzenia mydlnicy lekarskiej (Saponaria officinalis)",
+          "250 ml wody"
+        ],
+        "sposob_przygotowania": "Wszystko zagotować razem 10 minut, ostudzić, przecedzić.",
+        "cechy": [
+          "Mętny, pieniący się płyn"
+        ],
+        "wlasciwosci": [
+          "myjący, odkażający",
+          "łagodzący świąd"
+        ],
+        "zastosowanie": "Do mycia skóry trądzikowej, tłustej, skłonnej do łojotoku.",
+        "dawkowanie": "Codziennie przez tydzień.",
+        "zrodlo": [
+          "Zielnik Apteczny, Polska 1938"
+        ]
+      },
+      {
+        "nazwa": "Odwar na żylaki z kory kasztanowca, kory dębu i liści szałwii",
+        "skladniki": [
+          "2 łyżki kory kasztanowca (Aesculus hippocastanum)",
+          "2 łyżki kory dębu",
+          "2 łyżki liści szałwii (Salvia officinalis)",
+          "600 ml wody"
+        ],
+        "sposob_przygotowania": "Gotować 15 min, odcedzić.",
+        "cechy": [
+          "Ciemny, wyraźnie gorzki płyn"
+        ],
+        "wlasciwosci": [
+          "ściągający, uszczelniający naczynia",
+          "przeciwzapalny"
+        ],
+        "zastosowanie": "Okłady na żylaki, pajączki, hemoroidy.",
+        "dawkowanie": "Przykładać gazę nasączoną odwarem 2 razy dziennie.",
+        "zrodlo": [
+          "Farmakopea Polska 1920"
+        ]
+      },
+      {
+        "nazwa": "Kąpiel z kory kasztanowca, skrzypu i liści brzozy",
+        "skladniki": [
+          "3 łyżki kory kasztanowca",
+          "2 łyżki ziela skrzypu polnego",
+          "2 łyżki liści brzozy",
+          "2 litry wody"
+        ],
+        "sposob_przygotowania": "Gotować razem 20 minut, przecedzić do kąpieli.",
+        "cechy": [
+          "Brązowo-zielony płyn, świeży zapach"
+        ],
+        "wlasciwosci": [
+          "detoksykujący, poprawiający krążenie"
+        ],
+        "zastosowanie": "Kąpiel stóp i nóg przy obrzękach, zastojach limfatycznych.",
+        "dawkowanie": "2–3 razy w tygodniu.",
+        "zrodlo": [
+          "Ziołolecznictwo Praktyczne"
+        ]
+      },
+      {
+        "nazwa": "Płukanka z kory kasztanowca, liści orzecha i mięty",
+        "skladniki": [
+          "1 łyżka kory kasztanowca",
+          "1 łyżka liści orzecha włoskiego",
+          "1 łyżka liści mięty pieprzowej (Mentha piperita)",
+          "300 ml wody"
+        ],
+        "sposob_przygotowania": "Gotować 10 min, parzyć pod przykryciem 10 min, przecedzić.",
+        "cechy": [
+          "Brązowy napar, miętowy aromat"
+        ],
+        "wlasciwosci": [
+          "przeciwzapalny, łagodzący"
+        ],
+        "zastosowanie": "Płukanie gardła, jamy ustnej przy stanach zapalnych, aftach.",
+        "dawkowanie": "Płukać 2–3 razy dziennie.",
+        "zrodlo": [
+          "Poradnik fitoterapeuty"
+        ]
+      },
+      {
+        "nazwa": "Kąpiel z kory kasztanowca, kory wierzby i rumianku na reumatyzm",
+        "skladniki": [
+          "2 łyżki kory kasztanowca",
+          "2 łyżki kory wierzby (Salix alba)",
+          "2 łyżki kwiatów rumianku (Matricaria chamomilla)",
+          "2 litry wody"
+        ],
+        "sposob_przygotowania": "Wszystko gotować razem 25 min, przecedzić do wanny.",
+        "cechy": [
+          "Ziołowo-drzewny zapach, jasnobrązowy kolor"
+        ],
+        "wlasciwosci": [
+          "łagodzi bóle stawów, działa rozkurczowo"
+        ],
+        "zastosowanie": "Kąpiel lecznicza na bóle reumatyczne.",
+        "dawkowanie": "2 razy w tygodniu.",
+        "zrodlo": [
+          "Domowy Zielnik, 1994"
+        ]
+      },
+      {
+        "nazwa": "Okład z liści kasztanowca i babki na stłuczenia",
+        "skladniki": [
+          "1 garść świeżych liści kasztanowca",
+          "1 garść liści babki lancetowatej (Plantago lanceolata)",
+          "200 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Liście sparzyć, rozgnieść, przykładać jako okład.",
+        "cechy": [
+          "Chłodzący zielony okład"
+        ],
+        "wlasciwosci": [
+          "przeciwobrzękowy, łagodzący"
+        ],
+        "zastosowanie": "Na obrzęki, urazy, owrzodzenia skóry.",
+        "dawkowanie": "Zewnętrznie, kilka razy dziennie.",
+        "zrodlo": [
+          "Encyklopedia Roślin Leczniczych"
+        ]
+      },
+      {
+        "nazwa": "Okład z liści kasztanowca i kapusty na trudno gojące się rany",
+        "skladniki": [
+          "2 garści liści kasztanowca (świeże)",
+          "1 liść białej kapusty",
+          "woda do sparzenia"
+        ],
+        "sposob_przygotowania": "Liście sparzyć, rozgnieść, przykładać na rany.",
+        "cechy": [
+          "Wilgotny, zielony kompres"
+        ],
+        "wlasciwosci": [
+          "przyspiesza gojenie",
+          "działa przeciwzapalnie"
+        ],
+        "zastosowanie": "Na owrzodzenia, wypryski, odleżyny.",
+        "dawkowanie": "Okład zmieniać co 3–4 godziny.",
+        "zrodlo": [
+          "Zielnik polski, XIX w."
+        ]
+      },
+      {
+        "nazwa": "Kąpiel z liści kasztanowca i melisy na napięcie mięśniowe",
+        "skladniki": [
+          "4 garści liści kasztanowca",
+          "2 garści liści melisy lekarskiej (Melissa officinalis)",
+          "2 litry wody"
+        ],
+        "sposob_przygotowania": "Gotować 15 min, wlać do wanny.",
+        "cechy": [
+          "Zielony, świeży aromat"
+        ],
+        "wlasciwosci": [
+          "rozluźniający",
+          "uspokajający"
+        ],
+        "zastosowanie": "Kąpiel relaksująca przy napięciu mięśni, bezsenności.",
+        "dawkowanie": "2–3 razy w tygodniu.",
+        "zrodlo": [
+          "Polska Zielarska 1958"
+        ]
+      },
+      {
+        "nazwa": "Płukanka z liści kasztanowca i rumianku",
+        "skladniki": [
+          "1 łyżka suszonych liści kasztanowca",
+          "1 łyżka koszyczków rumianku",
+          "300 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 20 min, odcedzić.",
+        "cechy": [
+          "Delikatny napar, żółtawy kolor"
+        ],
+        "wlasciwosci": [
+          "przeciwzapalny, łagodzący"
+        ],
+        "zastosowanie": "Płukanie jamy ustnej przy stanach zapalnych.",
+        "dawkowanie": "2 razy dziennie.",
+        "zrodlo": [
+          "Poradnik fitoterapeuty"
+        ]
+      },
+      {
+        "nazwa": "Okład z kwiatów kasztanowca i lawendy na opuchnięte powieki",
+        "skladniki": [
+          "1 łyżeczka kwiatów kasztanowca (suszone)",
+          "1 łyżeczka kwiatów lawendy (Lavandula angustifolia)",
+          "200 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 10 min, ostudzić. Namoczyć gaziki.",
+        "cechy": [
+          "Bardzo łagodny, jasnożółty napar"
+        ],
+        "wlasciwosci": [
+          "przeciwzapalny, zmniejszający obrzęk"
+        ],
+        "zastosowanie": "Na opuchliznę i podrażnienia powiek.",
+        "dawkowanie": "2 razy dziennie przez 5 dni.",
+        "zrodlo": [
+          "Kosmetyka naturalna"
+        ]
+      },
+      {
+        "nazwa": "Krem do cery naczynkowej z kwiatami kasztanowca, nagietka i rumianku",
+        "skladniki": [
+          "2 łyżki kwiatów kasztanowca (świeże)",
+          "2 łyżki kwiatów nagietka",
+          "2 łyżki rumianku",
+          "olej lniany",
+          "wosk pszczeli"
+        ],
+        "sposob_przygotowania": "Zioła macerować w oleju 10 dni, podgrzać z woskiem, przelać do słoiczka.",
+        "cechy": [
+          "Pachnący krem ziołowy"
+        ],
+        "wlasciwosci": [
+          "łagodzi rumień",
+          "wzmacnia naczynka"
+        ],
+        "zastosowanie": "Do codziennej pielęgnacji twarzy.",
+        "dawkowanie": "Na noc.",
+        "zrodlo": [
+          "Kosmetologia domowa"
+        ]
+      },
+      {
+        "nazwa": "Okład z kwiatów kasztanowca i bzu czarnego",
+        "skladniki": [
+          "1 łyżka kwiatów kasztanowca",
+          "1 łyżka kwiatów bzu czarnego",
+          "200 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 15 min. Okłady na oczy.",
+        "cechy": [
+          "Kwiatowy napar, lekko miodowy zapach"
+        ],
+        "wlasciwosci": [
+          "przeciwzapalny, kojący"
+        ],
+        "zastosowanie": "Stany zapalne spojówek.",
+        "dawkowanie": "2 razy dziennie.",
+        "zrodlo": [
+          "Zioła na oczy, Czechy"
+        ]
+      },
+      {
+        "nazwa": "Odwar z korzenia kasztanowca i tataraku na łupież",
+        "skladniki": [
+          "1 łyżeczka rozdrobnionego korzenia kasztanowca",
+          "1 łyżeczka kłącza tataraku (Acorus calamus)",
+          "250 ml wody"
+        ],
+        "sposob_przygotowania": "Gotować 20 min pod przykryciem, odcedzić.",
+        "cechy": [
+          "Ciemny płyn, ziołowo-korzenny zapach"
+        ],
+        "wlasciwosci": [
+          "przeciwzapalny, przeciwłupieżowy"
+        ],
+        "zastosowanie": "Płukanka na skórę głowy po myciu.",
+        "dawkowanie": "2 razy w tygodniu.",
+        "zrodlo": [
+          "Stare zielniki polskie"
         ]
       }
     ]
@@ -330,18 +1025,49 @@
     ]
   },
   "kalendarz": {
-      "siew": [10],
-      "sadzenie": [3, 4],
-      "kwitnienie": [5],
-      "zbior": [9, 10],
-      "ciecie": [2, 3, 8],
-      "nawozenie": [4, 5, 8],
-      "zabezpieczanie": [11],
-      "ochrona": [5, 6],
-      "zbior_lisci": [6],
-      "przesadzanie": [3, 10],
-      "rozmnazanie": [4, 5]
-    },
+    "siew": [
+      10
+    ],
+    "sadzenie": [
+      3,
+      4
+    ],
+    "kwitnienie": [
+      5
+    ],
+    "zbior": [
+      9,
+      10
+    ],
+    "ciecie": [
+      2,
+      3,
+      8
+    ],
+    "nawozenie": [
+      4,
+      5,
+      8
+    ],
+    "zabezpieczanie": [
+      11
+    ],
+    "ochrona": [
+      5,
+      6
+    ],
+    "zbior_lisci": [
+      6
+    ],
+    "przesadzanie": [
+      3,
+      10
+    ],
+    "rozmnazanie": [
+      4,
+      5
+    ]
+  },
   "ciekawostki_kulturowe": [
     "W dawnej Polsce kasztanowce sadzono w parkach dworskich, by symbolizowały dostatek i ochronę.",
     "Dawniej liście i owoce kasztanowca wykorzystywano do odstraszania moli i pcheł w szafach i budynkach gospodarczych.",
