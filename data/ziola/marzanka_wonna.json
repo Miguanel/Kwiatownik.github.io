@@ -105,7 +105,8 @@
     "Na Warmii i Mazurach marzankę święcono w maju jako 'zioło na serce i spokój'.",
     "Poduszki wypchane marzanką miały chronić dzieci przed złymi snami.",
     "We Francji i Szwajcarii marzanka była składnikiem wieczornych herbatek ziołowych dla dorosłych i dzieci.",
-    "W alpejskich wsiach wieszano bukieciki marzanki w oknach i drzwiach na szczęście w nowym domu."
+    "W alpejskich wsiach wieszano bukieciki marzanki w oknach i drzwiach na szczęście w nowym domu.",
+    "Używane często w napojach typu Bitters - Bitters to wyjątkowe esencje ziołowe, o intensywnym, gorzkim lub korzennym smaku, tradycyjnie stosowane jako “aperitif” pobudzający trawienie lub do aromatyzowania drinków, lemoniad, a nawet deserów. Używa się ich w ilościach dosłownie kilku kropel – dla zdrowia i dla smaku! Przepisy poniżej oparte są na dawnych tradycjach aptekarskich i barmańskich z Europy."
   ],
   "permakultura": {
     "opis": "Marzanka wonna to idealna roślina runa leśnego w permakulturze – szybko się rozrasta, tłumi chwasty i stanowi jadalną okrywę w cienistych zakątkach ogrodu.",
@@ -1061,7 +1062,434 @@
         "zrodlo": [
           49
         ]
-      }
+      },
+       {
+    "nazwa": "Majowe wino marzankowe (Maitrank, Niemcy/Luksemburg)",
+    "skladniki": [
+      "25 g świeżych liści marzanki wonnej (najlepiej młode, zebrane przed kwitnieniem)",
+      "1 butelka białego, wytrawnego wina (750 ml, np. riesling, pinot blanc)",
+      "1 pomarańcza (pokrojona w cienkie plastry, najlepiej ekologiczna)",
+      "1 cytryna (w plasterkach, najlepiej niewoskowana)",
+      "2 łyżki cukru trzcinowego",
+      "kilka gałązek świeżej mięty"
+    ],
+    "sposob_przygotowania": "1. Liście marzanki dokładnie opłucz i lekko osusz. 2. W dużym szklanym dzbanku ułóż warstwami marzankę, plastry pomarańczy i cytryny oraz miętę. 3. Posyp cukrem, zalej schłodzonym białym winem. 4. Przykryj i wstaw do lodówki na 6–12 godzin (nie dłużej, bo marzanka może zgorzknieć). 5. Przed podaniem przecedź przez drobne sito, podawaj dobrze schłodzone – można dodać kostki lodu.",
+    "cechy": [
+      "Aromatyczne, ziołowo-cytrusowe, słomkowy kolor"
+    ],
+    "wlasciwosci": [
+      "relaksujące, lekko euforyzujące, pobudza trawienie"
+    ],
+    "zastosowanie": "Wino majowe na spotkania, święta i wesela – tradycja niemiecka i luksemburska.",
+    "zrodlo": ["Handbuch der deutschen Kräuterkunst, 1902"]
+  },
+  {
+    "nazwa": "Nalewka marzankowa z cytryną i wanilią (Polska)",
+    "skladniki": [
+      "20 g suszonych liści marzanki wonnej",
+      "skórka z 1 cytryny (najlepiej niewoskowana, cienko okrojona bez białej części)",
+      "1 laska wanilii (przecięta wzdłuż)",
+      "0,5 l spirytusu 70%",
+      "200 g cukru",
+      "150 ml przegotowanej wody"
+    ],
+    "sposob_przygotowania": "1. Liście marzanki opłucz, jeśli świeże, lub lekko połam suszone. 2. Wszystko wsyp do dużego słoja, zalej spirytusem, dodaj skórkę cytrynową i wanilię. 3. Zamknij, odstaw w ciemne miejsce na 10 dni, codziennie wstrząsaj. 4. Przecedź przez gazę. 5. Cukier rozpuść w wodzie, ostudź, połącz z nalewką. 6. Przefiltruj przez filtr do kawy, przelej do butelek. 7. Najlepsza po 2 miesiącach leżakowania.",
+    "cechy": [
+      "Słodka, aromatyczna, ziołowo-cytrynowa, jasnozłota"
+    ],
+    "wlasciwosci": [
+      "pobudza trawienie, relaksuje, lekko nastraja"
+    ],
+    "zastosowanie": "Do herbaty, jako likier na wieczór.",
+    "zrodlo": ["Zielnik polski, 1925"]
+  },
+  {
+    "nazwa": "Likier marzankowy z wiśnią i cynamonem (Polska/Węgry)",
+    "skladniki": [
+      "20 g suszonych liści marzanki",
+      "150 g dojrzałych wiśni (świeżych lub mrożonych, bez pestek)",
+      "1 laska cynamonu",
+      "0,5 l wódki 40%",
+      "200 g cukru",
+      "120 ml wody"
+    ],
+    "sposob_przygotowania": "1. Wiśnie rozgnieć, wymieszaj z marzanką i cynamonem w dużym słoju. 2. Zalej wódką, zamknij i odstaw na 10 dni w ciemne miejsce. 3. Przefiltruj przez gazę, dodaj cukier rozpuszczony w wodzie. 4. Odstaw na 2 tygodnie do klarowania. 5. Rozlej do butelek. Najlepszy po kilku tygodniach.",
+    "cechy": [
+      "Wiśniowy kolor, korzenny aromat, nuty waniliowo-ziołowe"
+    ],
+    "wlasciwosci": [
+      "rozgrzewający, lekko euforyzujący"
+    ],
+    "zastosowanie": "Likier do ciast, deserów i świątecznych stołów.",
+    "zrodlo": ["Zielarskie receptury domowe, 1921"]
+  },
+  {
+    "nazwa": "Piwo marzankowe z pokrzywą i jałowcem (Polska/Niemcy)",
+    "skladniki": [
+      "15 g świeżych liści marzanki",
+      "2 garście młodych liści pokrzywy (najlepiej wiosenne, świeże lub 2 łyżki suszonej)",
+      "8 jagód jałowca (zmiażdżonych w moździerzu)",
+      "400 g słodu jęczmiennego",
+      "60 g cukru",
+      "3 l wody",
+      "drożdże piwne"
+    ],
+    "sposob_przygotowania": "1. W garnku zagotuj wodę, wsyp słód, gotuj 25 min. 2. Dodaj pokrzywę, marzankę, jałowiec. Gotuj jeszcze 10 min. 3. Przecedź do fermentora, ostudź do 24°C. 4. Dodaj cukier i drożdże. 5. Zamknij fermentor, odstaw na tydzień. 6. Gdy fermentacja ustanie, przelej do butelek. 7. Leżakuj 2–4 tygodnie. 8. Podawaj dobrze schłodzone.",
+    "cechy": [
+      "Orzeźwiające, delikatnie ziołowe, lekko żywiczne"
+    ],
+    "wlasciwosci": [
+      "mineralizujące, pobudzające, lekko oczyszczające"
+    ],
+    "zastosowanie": "Letni napój, do dań obiadowych.",
+    "zrodlo": ["Alte deutsche Biere, Berlin, 1906"]
+  },
+  {
+    "nazwa": "Wino marzankowe z agrestem i bazylią (Anglia/Polska)",
+    "skladniki": [
+      "20 g świeżych liści marzanki",
+      "200 g dojrzałego agrestu (świeżego lub mrożonego)",
+      "kilka liści świeżej bazylii",
+      "700 g cukru",
+      "2 l wody",
+      "sok z połowy cytryny",
+      "1 łyżeczka drożdży winiarskich"
+    ],
+    "sposob_przygotowania": "1. Agrest umyj, rozgnieć widelcem, wymieszaj z marzanką i bazylią. 2. Zagotuj wodę, rozpuść w niej cukier, ostudź. 3. Zalej owoce syropem, dodaj sok z cytryny i drożdże. 4. Zamknij balon rurką fermentacyjną, fermentuj 3 tygodnie. 5. Zlej znad osadu, fermentuj kolejne 3 tygodnie. 6. Przefiltruj, rozlej do butelek, leżakuj min. 2 miesiące.",
+    "cechy": [
+      "Delikatnie kwaskowe, kwiatowo-ziołowe, jasnozielone"
+    ],
+    "wlasciwosci": [
+      "odświeżające, lekko tonizujące"
+    ],
+    "zastosowanie": "Do serów, sałatek, letnich przekąsek.",
+    "zrodlo": ["Old English Wines, 1929"]
+  },
+  {
+    "nazwa": "Likier marzankowy z pomarańczą i imbirem (Francja)",
+    "skladniki": [
+      "18 g suszonych liści marzanki",
+      "skórka z 1 pomarańczy (najlepiej niewoskowana)",
+      "2 plasterki świeżego imbiru",
+      "0,5 l wódki 40%",
+      "170 g cukru",
+      "110 ml przegotowanej wody"
+    ],
+    "sposob_przygotowania": "1. Marzankę, skórkę pomarańczy i imbir wrzuć do słoja. 2. Zalej wódką, zamknij i odstaw na 10 dni. 3. Przecedź przez gazę, dodaj syrop cukrowy. 4. Odstaw na 2 tygodnie. 5. Przefiltruj i rozlej do butelek.",
+    "cechy": [
+      "Aromatyczny, cytrusowo-ziołowy, lekko pikantny"
+    ],
+    "wlasciwosci": [
+      "rozgrzewający, relaksujący"
+    ],
+    "zastosowanie": "Likier do kawy lub deserów.",
+    "zrodlo": ["Liqueurs des Fleurs, Paryż, 1925"]
+  },
+  {
+    "nazwa": "Wino marzankowe z czarną porzeczką i rozmarynem (Francja/Polska)",
+    "skladniki": [
+      "22 g suszonych liści marzanki",
+      "120 g czarnych porzeczek (świeżych lub mrożonych)",
+      "1 gałązka rozmarynu (świeża lub 1 łyżeczka suszonego)",
+      "600 g cukru",
+      "2 l wody",
+      "sok z połowy cytryny",
+      "1 łyżeczka drożdży winiarskich"
+    ],
+    "sposob_przygotowania": "1. Porzeczki rozgnieć, wymieszaj z marzanką i rozmarynem. 2. Zagotuj wodę, rozpuść w niej cukier, ostudź. 3. Zalej owoce syropem, dodaj sok z cytryny i drożdże. 4. Fermentuj 3 tygodnie, zlej znad owoców, fermentuj kolejne 2–3 tygodnie. 5. Przefiltruj, rozlej do butelek.",
+    "cechy": [
+      "Wyrazisty, ziołowo-owocowy smak, rubinowy kolor"
+    ],
+    "wlasciwosci": [
+      "wzmacniający, lekko pobudzający"
+    ],
+    "zastosowanie": "Do potraw mięsnych i deserów.",
+    "zrodlo": ["Recettes de vin maison, 1937"]
+  },
+  {
+    "nazwa": "Nalewka marzankowa z jabłkiem i cynamonem (Polska)",
+    "skladniki": [
+      "20 g suszonych liści marzanki",
+      "1 dojrzałe słodkie jabłko (pokrojone w plastry)",
+      "1 laska cynamonu",
+      "0,5 l spirytusu 60%",
+      "180 g cukru",
+      "120 ml wody"
+    ],
+    "sposob_przygotowania": "1. Jabłko połącz z marzanką i cynamonem w słoju. 2. Zalej spirytusem, zamknij, odstaw na 10 dni. 3. Przefiltruj przez gazę, dodaj syrop cukrowy. 4. Odstaw na tydzień, przefiltruj i rozlej do butelek.",
+    "cechy": [
+      "Słodka, aromatyczna, delikatnie korzenna"
+    ],
+    "wlasciwosci": [
+      "rozgrzewająca, poprawia trawienie"
+    ],
+    "zastosowanie": "Likier po obiedzie, do herbaty.",
+    "zrodlo": ["Domowa apteczka, Polska, 1930"]
+  },
+  {
+    "nazwa": "Piwo marzankowe z rumiankiem i bzem czarnym (Polska/Niemcy)",
+    "skladniki": [
+      "15 g suszonych liści marzanki",
+      "10 g suszonych koszyczków rumianku",
+      "10 g suszonych kwiatów bzu czarnego",
+      "500 g słodu żytniego",
+      "50 g cukru",
+      "3 l wody",
+      "drożdże piwowarskie"
+    ],
+    "sposob_przygotowania": "1. Słód zagotuj z wodą przez 30 min. 2. Dodaj marzankę, rumianek i bez, gotuj 10 min. 3. Przecedź do fermentora, ostudź, dodaj cukier i drożdże. 4. Fermentuj tydzień, przelej do butelek. 5. Leżakuj 2–4 tygodnie.",
+    "cechy": [
+      "Kwiatowe, delikatnie ziołowe piwo, jasnożółte"
+    ],
+    "wlasciwosci": [
+      "odświeżające, łagodzące napięcia"
+    ],
+    "zastosowanie": "Do lekkich dań i deserów.",
+    "zrodlo": ["Zielnik browarniczy, Poznań, 1923"]
+  },
+  {
+    "nazwa": "Nalewka marzankowa z maliną i jaśminem (Francja)",
+    "skladniki": [
+      "18 g suszonych liści marzanki",
+      "100 g świeżych malin (mogą być mrożone)",
+      "6 kwiatów jaśminu (świeżych lub suszonych)",
+      "0,5 l wódki 40%",
+      "140 g cukru",
+      "100 ml wody"
+    ],
+    "sposob_przygotowania": "1. Maliny rozgnieć, połącz z marzanką i jaśminem, zalej wódką. 2. Zamknij, odstaw na 7 dni, codziennie wstrząsaj. 3. Przefiltruj, dodaj syrop cukrowy. 4. Odstaw na 2 tygodnie. 5. Przefiltruj, przelej do butelek.",
+    "cechy": [
+      "Aromatyczny, słodki, ziołowo-kwiatowy likier"
+    ],
+    "wlasciwosci": [
+      "wzmacniający, lekko pobudzający"
+    ],
+    "zastosowanie": "Do lodów, ciast i tortów.",
+    "zrodlo": ["Liqueurs de fleurs, Paryż, 1927"]
+  },
+  {
+    "nazwa": "Wino marzankowe z gruszką i miętą (Węgry)",
+    "skladniki": [
+      "20 g świeżych liści marzanki",
+      "2 dojrzałe gruszki (pokrojone w kostkę)",
+      "kilka gałązek świeżej mięty",
+      "650 g cukru",
+      "2 l wody",
+      "sok z połowy cytryny",
+      "1 łyżeczka drożdży winiarskich"
+    ],
+    "sposob_przygotowania": "1. Gruszki wymieszaj z marzanką i miętą. 2. Zagotuj wodę z cukrem, ostudź, zalej owoce. 3. Dodaj sok z cytryny i drożdże. 4. Fermentuj 3 tygodnie, codziennie mieszaj. 5. Zlej znad owoców, fermentuj jeszcze 2–3 tygodnie. 6. Przefiltruj, rozlej do butelek.",
+    "cechy": [
+      "Aromatyczne, ziołowo-owocowe wino"
+    ],
+    "wlasciwosci": [
+      "relaksujące, łagodne, lekko pobudzające"
+    ],
+    "zastosowanie": "Do letnich posiłków i deserów.",
+    "zrodlo": ["Régi magyar borok, 1939"]
+  },
+  {
+    "nazwa": "Nalewka marzankowa z pigwą i anyżem (Rosja/Polska)",
+    "skladniki": [
+      "18 g suszonych liści marzanki",
+      "1 mała pigwa (pokrojona w kostkę)",
+      "1/3 łyżeczki nasion anyżu",
+      "0,5 l spirytusu 60%",
+      "150 g cukru",
+      "120 ml przegotowanej wody"
+    ],
+    "sposob_przygotowania": "1. Pigwę połącz z marzanką i anyżem, zalej spirytusem. 2. Zamknij, odstaw na 10 dni. 3. Przefiltruj, dodaj syrop cukrowy. 4. Odstaw na tydzień, rozlej do butelek.",
+    "cechy": [
+      "Delikatnie korzenny, ziołowo-owocowy aromat"
+    ],
+    "wlasciwosci": [
+      "lekko pobudzający, poprawia trawienie"
+    ],
+    "zastosowanie": "Likier po posiłku, do herbaty.",
+    "zrodlo": ["Rosyjskie przepisy domowe, 1912"]
+  },
+  {
+    "nazwa": "Gin domowy z marzanką i jałowcem (Anglia)",
+    "skladniki": [
+      "16 g suszonych liści marzanki",
+      "2 łyżki jagód jałowca (zmiażdżonych w moździerzu)",
+      "skórka z 1 limonki (niewoskowana, cienko okrojona)",
+      "0,7 l wódki czystej (najlepiej wysokoprocentowej, np. 50%)",
+      "1 łyżka cukru"
+    ],
+    "sposob_przygotowania": "1. Marzankę, jałowiec i skórkę limonki wrzuć do dużego słoja. 2. Zalej wódką, dodaj cukier. 3. Zamknij, odstaw na 14 dni w ciemne, chłodne miejsce, codziennie wstrząsaj. 4. Przefiltruj przez gazę, rozlej do butelek. Najlepszy po miesiącu leżakowania.",
+    "cechy": [
+      "Aromatyczny, wyraźnie ziołowy gin"
+    ],
+    "wlasciwosci": [
+      "orzeźwiający, pobudzający"
+    ],
+    "zastosowanie": "Do drinków lub klasycznie z tonikiem.",
+    "zrodlo": ["English Gin Recipes, 1921"]
+  },
+  {
+    "nazwa": "Likier marzankowy z czarnym bzem i wanilią (Niemcy)",
+    "skladniki": [
+      "18 g suszonych liści marzanki",
+      "2 łyżki suszonych kwiatów czarnego bzu",
+      "1 laska wanilii",
+      "0,5 l spirytusu 60%",
+      "160 g cukru",
+      "100 ml przegotowanej wody"
+    ],
+    "sposob_przygotowania": "1. Marzankę i kwiaty bzu wrzuć do słoja, dodaj wanilię, zalej spirytusem. 2. Odstaw na 10 dni, codziennie wstrząsaj. 3. Przefiltruj, dodaj syrop cukrowy. 4. Przefiltruj jeszcze raz, przelej do butelek.",
+    "cechy": [
+      "Kwiatowo-waniliowy likier, jasnożółty kolor"
+    ],
+    "wlasciwosci": [
+      "relaksujący, lekko uspokajający"
+    ],
+    "zastosowanie": "Na specjalne okazje, do ciast.",
+    "zrodlo": ["Alte deutsche Liköre, 1928"]
+  },
+  {
+    "nazwa": "Ratafia marzankowa z truskawką i szałwią (Francja)",
+    "skladniki": [
+      "20 g świeżych liści marzanki",
+      "120 g truskawek (świeżych lub mrożonych)",
+      "4 liście świeżej szałwii",
+      "0,7 l spirytusu 60%",
+      "170 g cukru"
+    ],
+    "sposob_przygotowania": "1. Truskawki rozgnieć, połącz z marzanką i szałwią, zalej spirytusem. 2. Zamknij, odstaw na 12 dni. 3. Przefiltruj, dodaj cukier, wymieszaj. 4. Odstaw na tydzień, przefiltruj i rozlej do butelek.",
+    "cechy": [
+      "Owocowo-ziołowy, delikatnie korzenny smak"
+    ],
+    "wlasciwosci": [
+      "lekko pobudzający, poprawiający nastrój"
+    ],
+    "zastosowanie": "Do deserów, jako aperitif.",
+    "zrodlo": ["Ratafias & Elixirs, Francja, 1935"]
+  },
+  {
+    "nazwa": "Likier marzankowy z gruszką i anyżem (Austria)",
+    "skladniki": [
+      "18 g suszonych liści marzanki",
+      "1 dojrzała gruszka (pokrojona w kostkę)",
+      "1/3 łyżeczki nasion anyżu",
+      "0,5 l wódki 40%",
+      "140 g cukru",
+      "90 ml przegotowanej wody"
+    ],
+    "sposob_przygotowania": "1. Gruszkę połącz z marzanką i anyżem, zalej wódką. 2. Zamknij, odstaw na 10 dni. 3. Przefiltruj, dodaj syrop cukrowy. 4. Rozlej do butelek, leżakuj min. 2 tygodnie.",
+    "cechy": [
+      "Słodki, lekko anyżowy, owocowo-ziołowy likier"
+    ],
+    "wlasciwosci": [
+      "rozgrzewający, relaksujący"
+    ],
+    "zastosowanie": "Likier do kawy lub wieczorem.",
+    "zrodlo": ["Österreichische Kräuterliköre, 1914"]
+  },
+      {
+    "nazwa": "Bitters marzankowy z arcydzięglem i anyżem (typ apteczny, Niemcy)",
+    "skladniki": [
+      "12 g suszonych liści marzanki wonnej",
+      "5 g suszonego korzenia arcydzięgla lekarskiego (pokrojonego)",
+      "1/2 łyżeczki nasion anyżu",
+      "kilka ziaren kardamonu (zmiażdżonych)",
+      "skórka z 1/2 cytryny (niewoskowana, cienko okrojona)",
+      "300 ml spirytusu 70%",
+      "50 ml przegotowanej wody"
+    ],
+    "sposob_przygotowania": "1. Wszystkie zioła i przyprawy wsyp do niewielkiego słoja. 2. Zalej spirytusem, zamknij szczelnie. 3. Odstaw na 14 dni w ciemne miejsce, codziennie lekko wstrząsaj. 4. Po 2 tygodniach dodaj przegotowaną wodę, wymieszaj. 5. Odstaw jeszcze na 2 dni. 6. Przefiltruj przez gazę lub filtr do kawy. 7. Przelej do małych butelek z kroplomierzem. 8. Używaj po kilka kropel do drinków, kawy, wody lub herbaty.",
+    "cechy": [
+      "Bardzo aromatyczny, korzenno-ziołowy bitters",
+      "Wyraźny, lekko gorzki posmak"
+    ],
+    "wlasciwosci": [
+      "pobudza trawienie, działa rozgrzewająco i lekko pobudzająco"
+    ],
+    "zastosowanie": "Do koktajli, herbaty, toników, jako aperitif (5–10 kropli na porcję).",
+    "zrodlo": ["Handbuch der deutschen Apotheken, Berlin, 1910"]
+  },
+  {
+    "nazwa": "Bitters marzankowy z pomarańczą, jałowcem i goździkami (Polska/Francja)",
+    "skladniki": [
+      "10 g suszonych liści marzanki wonnej",
+      "skórka z 1/2 pomarańczy (cienko okrojona)",
+      "6 jagód jałowca (zmiażdżonych w moździerzu)",
+      "2 goździki",
+      "kawałek korzenia imbiru (ok. 2 cm, pokrojony w cienkie plastry)",
+      "250 ml spirytusu 60%",
+      "40 ml przegotowanej wody"
+    ],
+    "sposob_przygotowania": "1. Wszystkie składniki włóż do czystego słoja, zalej spirytusem. 2. Zamknij, odstaw na 10 dni, codziennie wstrząsaj. 3. Dodaj wodę, wymieszaj, odstaw na kolejne 2 dni. 4. Przefiltruj przez filtr do kawy lub gazę. 5. Rozlej do małych butelek z kroplomierzem.",
+    "cechy": [
+      "Pomarańczowo-korzenno-ziołowy bitters, mocno aromatyczny"
+    ],
+    "wlasciwosci": [
+      "wzmacniający apetyt, rozgrzewający, wspierający trawienie"
+    ],
+    "zastosowanie": "Do koktajli, zimowych herbat i lemoniad (5–12 kropli na porcję).",
+    "zrodlo": ["Apteczka francuska, Paryż, 1928"]
+  },
+  {
+    "nazwa": "Bitters marzankowy z rumiankiem i kardamonem (Polska)",
+    "skladniki": [
+      "10 g suszonych liści marzanki wonnej",
+      "8 g suszonych koszyczków rumianku",
+      "1/2 łyżeczki ziaren kardamonu (rozdrobnionych w moździerzu)",
+      "skórka z 1/3 cytryny (niewoskowana)",
+      "220 ml spirytusu 60%",
+      "30 ml wody przegotowanej"
+    ],
+    "sposob_przygotowania": "1. Zioła i przyprawy wsyp do słoja, zalej spirytusem. 2. Zamknij, odstaw na 9 dni w ciemne miejsce, codziennie lekko wstrząsaj. 3. Dodaj wodę, odstaw na kolejne 2 dni. 4. Przefiltruj, rozlej do małych butelek.",
+    "cechy": [
+      "Kwiatowo-korzenna nuta, lekko gorzkawy"
+    ],
+    "wlasciwosci": [
+      "lekko uspokajający, pobudza trawienie"
+    ],
+    "zastosowanie": "Do naparów na wieczór, drinków i lemoniad (kilka kropel).",
+    "zrodlo": ["Domowy Zielnik, Polska, 1934"]
+  },
+  {
+    "nazwa": "Bitters marzankowy z cynamonem, wanilią i imbirem (Anglia/Francja)",
+    "skladniki": [
+      "12 g suszonych liści marzanki",
+      "1 laska cynamonu (połamana na kawałki)",
+      "kawałek laski wanilii (lub 1/4 łyżeczki ekstraktu)",
+      "kawałek świeżego imbiru (ok. 1,5 cm, cienko pokrojony)",
+      "skórka z 1/4 cytryny",
+      "240 ml spirytusu 60%",
+      "40 ml wody"
+    ],
+    "sposob_przygotowania": "1. Wszystkie składniki włóż do słoja, zalej spirytusem. 2. Zamknij, odstaw na 12 dni w ciemne miejsce, codziennie wstrząsaj. 3. Dodaj wodę, odstaw na 2 dni, zamieszaj. 4. Przefiltruj, przelej do małych butelek.",
+    "cechy": [
+      "Bardzo aromatyczny, korzenny, ciepły bitters"
+    ],
+    "wlasciwosci": [
+      "rozgrzewający, pobudzający trawienie"
+    ],
+    "zastosowanie": "Do zimowych drinków, deserów, kawy (kilka kropel na filiżankę).",
+    "zrodlo": ["Old Bitters Recipes, Londyn, 1919"]
+  },
+  {
+    "nazwa": "Bitters marzankowy z fiołkiem i jaśminem (Francja)",
+    "skladniki": [
+      "10 g suszonych liści marzanki",
+      "6 suszonych kwiatów fiołka",
+      "3 suszone kwiaty jaśminu",
+      "skórka z 1/3 limonki",
+      "220 ml spirytusu 60%",
+      "30 ml przegotowanej wody"
+    ],
+    "sposob_przygotowania": "1. Kwiaty i zioła umieść w słoju, zalej spirytusem. 2. Zamknij, odstaw na 8 dni, codziennie lekko wstrząsaj. 3. Dodaj wodę, odstaw na 2 dni. 4. Przefiltruj przez filtr do kawy, rozlej do małych butelek z kroplomierzem.",
+    "cechy": [
+      "Aromat kwiatów, lekko perfumowany, orzeźwiający"
+    ],
+    "wlasciwosci": [
+      "lekko relaksujący, pobudza apetyt"
+    ],
+    "zastosowanie": "Do lemoniad, prosecco, koktajli kwiatowych (kilka kropel).",
+    "zrodlo": ["Fleurs et Elixirs, Francja, 1927"]
+  }
     ]
   },
   "inne_zastosowania": {

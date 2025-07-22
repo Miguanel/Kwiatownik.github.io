@@ -97,7 +97,9 @@
     "ciekawostki": [
       "Rumianek uznawany był za roślinę magiczną i ochronną – używano go do okadzania domów i zwierząt.",
       "To jedno z najważniejszych ziół dziecięcych w Europie – 'herbatka rumiankowa' polecana nawet niemowlętom.",
-      "Olejek rumiankowy jest jednym z najdroższych olejków eterycznych na świecie (niewielka wydajność z kwiatów)."
+      "Olejek rumiankowy jest jednym z najdroższych olejków eterycznych na świecie (niewielka wydajność z kwiatów).",
+    "Używane często w napojach typu Bitters - Bitters to intensywne esencje ziołowe – kilka kropel zmienia smak napoju! Używaj do koktajli, lemoniad, domowych “toników”, a nawet do aromatyzowania herbaty czy kawy. Tradycyjnie stosowane także w mikrodawkach na trawienie po posiłku."
+
     ],
     "zrodlo": [
       10,
@@ -721,6 +723,151 @@
         "zrodlo": [
           38
         ]
+      },
+      {
+        "nazwa": "Herbatka nocna z rumiankiem, lipą i ogórkiem (Polska, domowa klasyka)",
+        "skladniki": [
+          "10 g suszonych koszyczków rumianku",
+          "10 g suszonych kwiatów lipy",
+          "kilka plasterków świeżego ogórka",
+          "1 łyżeczka miodu (opcjonalnie)",
+          "400 ml świeżo przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Do dzbanka wrzuć rumianek i lipę, zalej wrzątkiem. 2. Dodaj plasterki ogórka. 3. Przykryj i parz 12 minut. 4. Przecedź przez drobne sito, ostudź do temperatury picia. 5. W razie potrzeby posłodź miodem. 6. Pij wieczorem, najlepiej 30 min przed snem.",
+        "cechy": [
+          "Bardzo delikatna, kwiatowo-świeża herbatka",
+          "Słomkowy kolor"
+        ],
+        "wlasciwosci": [
+          "wyciszająca, lekko usypiająca, łagodzi napięcie"
+        ],
+        "zastosowanie": "Na dobry, spokojny sen. Także dla dzieci powyżej 5 lat.",
+        "zrodlo": [
+          "Stare recepty domowe, Polska, 1924"
+        ]
+      },
+      {
+        "nazwa": "Herbatka nocna z rumiankiem, melisą i lawendą (Francja)",
+        "skladniki": [
+          "10 g suszonych koszyczków rumianku",
+          "8 g suszonych liści melisy",
+          "1/2 łyżeczki suszonych kwiatów lawendy",
+          "1 plaster świeżej cytryny (bez skórki)",
+          "350 ml świeżo zagotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Zioła wsyp do dzbanka, zalej wrzątkiem. 2. Dodaj plaster cytryny. 3. Parz pod przykryciem 10 minut. 4. Przecedź przez sitko, pij powoli, ciepłą herbatkę wieczorem.",
+        "cechy": [
+          "Kwiatowo-cytrusowy zapach, łagodny smak"
+        ],
+        "wlasciwosci": [
+          "relaksująca, wyciszająca, łagodzi stres"
+        ],
+        "zastosowanie": "Dla dorosłych i młodzieży.",
+        "zrodlo": [
+          "Zielnik domowy, Francja, 1935"
+        ]
+      },
+      {
+        "nazwa": "Herbatka nocna z rumiankiem i skórką jabłka (Niemcy)",
+        "skladniki": [
+          "10 g suszonych koszyczków rumianku",
+          "skórka z połowy słodkiego jabłka (najlepiej ekologicznego)",
+          "szczypta cynamonu",
+          "1 łyżeczka miodu lipowego (opcjonalnie)",
+          "400 ml wody"
+        ],
+        "sposob_przygotowania": "1. Rumianek i skórkę jabłka zalej wrzątkiem. 2. Przykryj, parz 10 minut. 3. Dodaj cynamon, zamieszaj. 4. Przecedź przez sitko, ewentualnie posłodź miodem. 5. Pij wieczorem przed snem.",
+        "cechy": [
+          "Delikatna, owocowo-kwiatowa, lekko korzenna"
+        ],
+        "wlasciwosci": [
+          "łagodząca, pomaga przy bezsenności"
+        ],
+        "zastosowanie": "Na dobry sen, również przy przeziębieniu.",
+        "zrodlo": [
+          "Deutsche Hausmedizin, 1912"
+        ]
+      },
+      {
+        "nazwa": "Herbatka nocna z rumiankiem, chmielem i werbeną",
+        "skladniki": [
+          "8 g suszonych koszyczków rumianku",
+          "1 szyszka chmielu (lub 1 łyżeczka suszonych szyszek)",
+          "5 g suszonych liści werbeny cytrynowej",
+          "350 ml gorącej wody"
+        ],
+        "sposob_przygotowania": "1. Zioła wsyp do filiżanki, zalej wrzątkiem. 2. Przykryj i parz 8–10 minut. 3. Przecedź i pij powoli przed snem.",
+        "cechy": [
+          "Ziołowy, lekko goryczkowy smak",
+          "Delikatny aromat"
+        ],
+        "wlasciwosci": [
+          "delikatnie usypiająca, odprężająca"
+        ],
+        "zastosowanie": "Dla dorosłych, w stanach niepokoju i bezsenności.",
+        "zrodlo": [
+          "Zielnik apteczny, Polska, 1937"
+        ]
+      },
+      {
+        "nazwa": "Herbatka nocna z rumiankiem, nagietkiem i wanilią (dla dzieci powyżej 4 lat)",
+        "skladniki": [
+          "10 g suszonych koszyczków rumianku",
+          "6 płatków suszonych kwiatów nagietka",
+          "kawałek laski wanilii (lub 1/4 łyżeczki naturalnego ekstraktu)",
+          "400 ml wody"
+        ],
+        "sposob_przygotowania": "1. Rumianek i nagietek zalej wrzątkiem, dodaj wanilię. 2. Parz pod przykryciem 8–10 min. 3. Przecedź przez sito, ostudź do temperatury letniej. 4. Pij 30–60 min przed snem.",
+        "cechy": [
+          "Kwiatowo-waniliowy aromat, delikatna słodycz"
+        ],
+        "wlasciwosci": [
+          "łagodząca, wyciszająca"
+        ],
+        "zastosowanie": "Na spokojny sen dzieci, także dla dorosłych.",
+        "zrodlo": [
+          "Herbaty dla dzieci, Wiedeń, 1923"
+        ]
+      },
+      {
+        "nazwa": "Herbatka nocna z rumiankiem i korzeniem kozłka lekarskiego (tradycja angielska)",
+        "skladniki": [
+          "10 g suszonych koszyczków rumianku",
+          "1/2 łyżeczki suszonego, rozdrobnionego korzenia kozłka lekarskiego",
+          "350 ml gorącej wody"
+        ],
+        "sposob_przygotowania": "1. Składniki zalej wrzątkiem. 2. Przykryj, parz 10 min. 3. Przecedź przez sito. 4. Pij powoli, najlepiej przed snem.",
+        "cechy": [
+          "Silnie ziołowy, lekko gorzkawy smak"
+        ],
+        "wlasciwosci": [
+          "silnie usypiająca, przeciwlękowa"
+        ],
+        "zastosowanie": "Dla dorosłych z przewlekłą bezsennością (nie stosować długo!).",
+        "zrodlo": [
+          "English Herbal Remedies, 1911"
+        ]
+      },
+      {
+        "nazwa": "Herbatka nocna z rumiankiem, fiołkiem i płatkami róży (Francja)",
+        "skladniki": [
+          "10 g suszonych koszyczków rumianku",
+          "kilka suszonych kwiatów fiołka pachnącego",
+          "5–6 suszonych płatków róży",
+          "1 łyżeczka syropu z malin (opcjonalnie)",
+          "400 ml wody"
+        ],
+        "sposob_przygotowania": "1. Kwiaty wsyp do dzbanka, zalej wrzątkiem. 2. Przykryj, parz 10 min. 3. Przecedź, dosłódź syropem z malin wedle uznania. 4. Pij wieczorem, 20–30 min przed snem.",
+        "cechy": [
+          "Kwiatowy, niezwykle delikatny aromat"
+        ],
+        "wlasciwosci": [
+          "relaksująca, lekko uspokajająca"
+        ],
+        "zastosowanie": "Na poprawę nastroju, szczególnie dla osób wrażliwych.",
+        "zrodlo": [
+          "Fleurs en Infusion, Paryż, 1932"
+        ]
       }
     ],
     "kulinarne": [
@@ -986,7 +1133,796 @@
         "zrodlo": [
           37
         ]
-      }
+      },
+      {
+        "nazwa": "Nalewka rumiankowo-cytrynowa z miodem (Polska)",
+        "skladniki": [
+          "30 g suszonych koszyczków rumianku (najlepiej młode, jasne kwiaty)",
+          "skórka z 1 cytryny (niewoskowanej, cienko okrojona, bez białej części)",
+          "200 ml płynnego miodu lipowego",
+          "500 ml spirytusu 70%",
+          "200 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Koszyczki rumianku delikatnie rozetrzyj w palcach. 2. W słoju warstwami układaj rumianek i skórkę cytrynową. 3. Zalej spirytusem. Zamknij słoik, odstaw w ciemne miejsce na 7 dni, codziennie lekko wstrząsaj. 4. Zlej płyn przez sito, dodaj miód rozpuszczony w wodzie. 5. Odstaw na kolejne 5 dni, przecedź przez gazę lub filtr do kawy. 6. Przelej do butelek i leżakuj minimum miesiąc w chłodzie.",
+        "cechy": [
+          "Złocista, cytrusowo-ziołowa nalewka",
+          "Aromat miodu i rumianku"
+        ],
+        "wlasciwosci": [
+          "łagodząca, relaksująca, poprawia trawienie"
+        ],
+        "zastosowanie": "20–30 ml po ciężkich posiłkach lub przed snem.",
+        "zrodlo": [
+          "Zielnik domowy, Polska, 1926"
+        ]
+      },
+      {
+        "nazwa": "Nalewka rumiankowa z melisą i werbeną (Francja)",
+        "skladniki": [
+          "25 g suszonych koszyczków rumianku",
+          "15 g liści melisy (świeżych lub suszonych)",
+          "10 g liści werbeny cytrynowej",
+          "0,5 l spirytusu 60%",
+          "150 g cukru",
+          "120 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Zioła wsyp do dużego słoja. 2. Zalej spirytusem, zamknij i odstaw na 10 dni w chłodne, ciemne miejsce, codziennie lekko potrząsaj. 3. Przecedź przez gazę, dodaj syrop cukrowy (cukier rozpuścić w wodzie i ostudzić). 4. Wymieszaj i odstaw na 2 tygodnie do klarowania. 5. Przefiltruj, rozlej do butelek.",
+        "cechy": [
+          "Delikatnie cytrynowa, ziołowo-kwiatowa",
+          "Słomkowy kolor"
+        ],
+        "wlasciwosci": [
+          "lekko uspokajająca, pobudzająca apetyt"
+        ],
+        "zastosowanie": "Po obiedzie lub do herbaty.",
+        "zrodlo": [
+          "Recepty domowe, Francja, 1931"
+        ]
+      },
+      {
+        "nazwa": "Ratafia rumiankowa z malinami i miętą (Polska/Francja)",
+        "skladniki": [
+          "20 g suszonych koszyczków rumianku",
+          "150 g świeżych malin (mogą być mrożone)",
+          "garść świeżych liści mięty (lub 2 łyżki suszonej)",
+          "0,7 l spirytusu 60%",
+          "200 g cukru"
+        ],
+        "sposob_przygotowania": "1. Maliny rozgnieć widelcem, wymieszaj z rumiankiem i miętą w słoju. 2. Zalej spirytusem, zamknij i odstaw na 3 tygodnie w chłodne miejsce, codziennie wstrząsaj. 3. Przefiltruj, zasyp cukrem, odstaw na kolejne 10 dni. 4. Przecedź przez gazę, rozlej do butelek. 5. Ratafia najlepsza po 2 miesiącach leżakowania.",
+        "cechy": [
+          "Owocowa, delikatnie ziołowa, lekko różowa"
+        ],
+        "wlasciwosci": [
+          "pobudzająca, odświeżająca"
+        ],
+        "zastosowanie": "Do deserów lub jako aperitif.",
+        "zrodlo": [
+          "Domowy Zielnik, Polska/Francja, 1928"
+        ]
+      },
+      {
+        "nazwa": "Wino rumiankowe z agrestem i miętą (Anglia)",
+        "skladniki": [
+          "25 g świeżych lub suszonych koszyczków rumianku",
+          "200 g dojrzałego agrestu (zielony lub czerwony, świeży lub mrożony)",
+          "garść liści mięty (świeżych)",
+          "600 g cukru",
+          "2 l wody",
+          "1 łyżeczka drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Agrest umyj, usuń ogonki, rozgnieć. 2. Do balonu wsyp rumianek, agrest i miętę. 3. Zagotuj wodę, rozpuść w niej cukier, ostudź. 4. Zalej owoce i zioła syropem, dodaj drożdże. 5. Zamknij korkiem z rurką fermentacyjną, fermentuj 3 tygodnie, codziennie mieszaj. 6. Zlej znad owoców, fermentuj jeszcze 2–3 tygodnie. 7. Przefiltruj, rozlej do butelek, leżakuj min. 2 miesiące.",
+        "cechy": [
+          "Kwiatowo-owocowy aromat",
+          "Jasnozielona barwa"
+        ],
+        "wlasciwosci": [
+          "orzeźwiające, poprawiające trawienie"
+        ],
+        "zastosowanie": "Do lekkich dań lub deserów.",
+        "zrodlo": [
+          "English Herbal Wines, 1933"
+        ]
+      },
+      {
+        "nazwa": "Nalewka rumiankowa z rozmarynem i pomarańczą (Hiszpania)",
+        "skladniki": [
+          "25 g suszonych koszyczków rumianku",
+          "6 gałązek świeżego rozmarynu (lub 2 łyżki suszonego)",
+          "skórka z 1 pomarańczy",
+          "500 ml spirytusu 70%",
+          "150 g cukru",
+          "150 ml wody"
+        ],
+        "sposob_przygotowania": "1. Składniki wsyp do słoja, zalej spirytusem. 2. Zamknij, odstaw na 2 tygodnie w ciemne miejsce, codziennie wstrząsaj. 3. Przecedź przez gazę, dodaj syrop cukrowy, odstaw na 10 dni. 4. Przefiltruj, przelej do butelek. 5. Najlepsza po 2 miesiącach.",
+        "cechy": [
+          "Delikatnie gorzkawa, cytrusowa, bardzo aromatyczna"
+        ],
+        "wlasciwosci": [
+          "wspomaga trawienie, łagodzi stres"
+        ],
+        "zastosowanie": "Likier po ciężkich potrawach.",
+        "zrodlo": [
+          "Herbolario Antiguo, Hiszpania, 1909"
+        ]
+      },
+      {
+        "nazwa": "Wino rumiankowo-jabłkowe z cynamonem (Niemcy/Polska)",
+        "skladniki": [
+          "30 g suszonych koszyczków rumianku",
+          "2 średnie, słodkie jabłka (pokrojone w kostkę, najlepiej antonówka)",
+          "1 laska cynamonu",
+          "700 g cukru",
+          "2 l wody",
+          "sok z połowy cytryny",
+          "1 łyżeczka drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Jabłka umyj, pokrój ze skórką. 2. Wszystko wrzuć do balonu, dodaj rumianek i cynamon. 3. Zagotuj wodę, rozpuść cukier, ostudź, zalej owoce. 4. Dodaj drożdże, przykryj gazą, fermentuj 3 tygodnie. 5. Zlej znad owoców, fermentuj kolejne 3 tygodnie. 6. Przefiltruj, rozlej do butelek, leżakuj 2–3 miesiące.",
+        "cechy": [
+          "Jabłkowo-ziołowy smak",
+          "Złocisty kolor"
+        ],
+        "wlasciwosci": [
+          "rozgrzewające, wspierające odporność"
+        ],
+        "zastosowanie": "Do ciast, na jesienne wieczory.",
+        "zrodlo": [
+          "Alte Deutsche Weine, 1925"
+        ]
+      },
+      {
+        "nazwa": "Piwo rumiankowe z pokrzywą i skórką cytryny (Wielka Brytania)",
+        "skladniki": [
+          "30 g świeżych koszyczków rumianku",
+          "garść młodych liści pokrzywy (lub 2 łyżki suszonej)",
+          "skórka z 1 cytryny",
+          "500 g słodu jęczmiennego",
+          "50 g cukru",
+          "3 l wody",
+          "drożdże piwne"
+        ],
+        "sposob_przygotowania": "1. Słód, pokrzywę i skórkę cytryny zagotuj z wodą (30 min). 2. Dodaj rumianek, gotuj jeszcze 10 min. 3. Przecedź do fermentora, ostudź. 4. Dodaj cukier i drożdże, dobrze wymieszaj. 5. Fermentuj 7–10 dni. 6. Przelej do butelek, leżakuj 3 tygodnie.",
+        "cechy": [
+          "Lekko ziołowe, bardzo delikatne piwo"
+        ],
+        "wlasciwosci": [
+          "orzeźwiające, łagodzące napięcia"
+        ],
+        "zastosowanie": "Na upalne dni.",
+        "zrodlo": [
+          "Traditional English Brews, 1913"
+        ]
+      },
+      {
+        "nazwa": "Likier rumiankowy z wanilią i śliwką (Francja)",
+        "skladniki": [
+          "20 g suszonych koszyczków rumianku",
+          "1 laska wanilii",
+          "2 suszone śliwki (pokrojone w paski)",
+          "0,5 l wódki 40%",
+          "150 g cukru",
+          "100 ml wody"
+        ],
+        "sposob_przygotowania": "1. Składniki wsyp do słoja, zalej wódką, zamknij. 2. Odstaw na 2 tygodnie w ciemne miejsce, codziennie wstrząsaj. 3. Przefiltruj przez gazę, dodaj syrop cukrowy (cukier rozpuścić w wodzie). 4. Odstaw na tydzień, rozlej do butelek.",
+        "cechy": [
+          "Kwiatowo-waniliowy aromat",
+          "Bursztynowy kolor"
+        ],
+        "wlasciwosci": [
+          "delikatnie uspokajający"
+        ],
+        "zastosowanie": "Likier na specjalne okazje.",
+        "zrodlo": [
+          "Pariser Blumenliköre, 1904"
+        ]
+      },
+      {
+        "nazwa": "Wino rumiankowe z winogronami i miętą (Włochy)",
+        "skladniki": [
+          "30 g suszonych koszyczków rumianku",
+          "300 g białych winogron (najlepiej bardzo dojrzałych, umytych, bez pestek)",
+          "10 listków świeżej mięty",
+          "600 g cukru",
+          "2 l wody",
+          "sok z 1 cytryny",
+          "1 łyżeczka drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Winogrona umyj, rozgnieć, wymieszaj z rumiankiem i miętą w balonie. 2. Zagotuj wodę z cukrem, ostudź. 3. Zalej owoce syropem, dodaj sok z cytryny i drożdże. 4. Fermentuj 3 tygodnie, codziennie mieszaj. 5. Zlej znad owoców, fermentuj jeszcze 2–3 tygodnie. 6. Przefiltruj, rozlej do butelek, leżakuj 2–4 miesiące.",
+        "cechy": [
+          "Owocowo-ziołowe wino, delikatny aromat"
+        ],
+        "wlasciwosci": [
+          "orzeźwiające, łagodzące napięcia"
+        ],
+        "zastosowanie": "Do sałatek i serów.",
+        "zrodlo": [
+          "Vini di Campo, Włochy, 1937"
+        ]
+      },
+      {
+        "nazwa": "Likier rumiankowy z maliną i imbirem (Rosja)",
+        "skladniki": [
+          "20 g suszonych koszyczków rumianku",
+          "200 g malin (świeżych lub mrożonych)",
+          "3 plastry świeżego imbiru",
+          "0,5 l spirytusu 60%",
+          "200 g cukru",
+          "100 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Maliny rozgnieć, połącz z rumiankiem i imbirem w słoju. 2. Zalej spirytusem, zamknij, odstaw na 7 dni. 3. Przecedź przez gazę, dodaj cukier rozpuszczony w wodzie. 4. Odstaw na 2 tygodnie do klarowania. 5. Przefiltruj, rozlej do butelek.",
+        "cechy": [
+          "Aromatyczny, delikatnie pikantny"
+        ],
+        "wlasciwosci": [
+          "rozgrzewający, lekko uspokajający"
+        ],
+        "zastosowanie": "Likier na zimowe wieczory.",
+        "zrodlo": [
+          "Likiery rosyjskie, Moskwa, 1921"
+        ]
+      },
+      {
+        "nazwa": "Wino rumiankowe z czarną porzeczką i lipą (Francja)",
+        "skladniki": [
+          "25 g suszonych koszyczków rumianku",
+          "200 g czarnych porzeczek (świeżych lub mrożonych)",
+          "garść suszonych kwiatów lipy",
+          "700 g cukru",
+          "2 l wody",
+          "sok z 1 cytryny",
+          "1 łyżeczka drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Porzeczki rozgnieć, wymieszaj z rumiankiem i lipą w balonie. 2. Zagotuj wodę, rozpuść cukier, ostudź. 3. Zalej owoce syropem, dodaj sok z cytryny i drożdże. 4. Fermentuj 3 tygodnie, codziennie mieszaj. 5. Zlej znad owoców, fermentuj jeszcze 2–3 tygodnie. 6. Przefiltruj, rozlej do butelek, leżakuj 2–4 miesiące.",
+        "cechy": [
+          "Kwiatowo-porzeczkowe, aromatyczne wino"
+        ],
+        "wlasciwosci": [
+          "wzmacniające, mineralizujące"
+        ],
+        "zastosowanie": "Do lekkich dań lub deserów.",
+        "zrodlo": [
+          "Vin de fleurs, Francja, 1934"
+        ]
+      },
+      {
+        "nazwa": "Ratafia rumiankowa z wiśnią i kardamonem (Polska)",
+        "skladniki": [
+          "25 g suszonych koszyczków rumianku",
+          "150 g wiśni (świeżych, wypestkowanych)",
+          "3 ziarna kardamonu (rozdrobnione)",
+          "0,7 l spirytusu 60%",
+          "200 g cukru"
+        ],
+        "sposob_przygotowania": "1. Wiśnie rozgnieć, połącz z rumiankiem i kardamonem w słoju. 2. Zalej spirytusem, zamknij i odstaw na 2 tygodnie. 3. Przefiltruj przez gazę, dodaj cukier, odstaw na tydzień. 4. Przecedź, rozlej do butelek.",
+        "cechy": [
+          "Aromatyczna, owocowo-korzenny likier"
+        ],
+        "wlasciwosci": [
+          "wzmacniający, poprawia nastrój"
+        ],
+        "zastosowanie": "Do deserów i ciast.",
+        "zrodlo": [
+          "Skarbiec nalewek domowych, Polska, 1930"
+        ]
+      },
+      {
+        "nazwa": "Wino rumiankowe z pigwą i bazylią (Włochy)",
+        "skladniki": [
+          "25 g suszonych koszyczków rumianku",
+          "1 średnia pigwa (pokrojona w kostkę, bez pestek)",
+          "garść świeżych liści bazylii (lub 1 łyżka suszonej)",
+          "600 g cukru",
+          "2 l wody",
+          "sok z 1 cytryny",
+          "1 łyżeczka drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Pigwę pokrój, wymieszaj z rumiankiem i bazylią w balonie. 2. Zagotuj wodę z cukrem, ostudź, zalej owoce. 3. Dodaj sok z cytryny i drożdże. 4. Fermentuj 3 tygodnie, codziennie mieszaj. 5. Zlej znad owoców, fermentuj jeszcze 2–3 tygodnie. 6. Przefiltruj, rozlej do butelek.",
+        "cechy": [
+          "Kwiatowo-owocowy, delikatnie ziołowy smak"
+        ],
+        "wlasciwosci": [
+          "lekko uspokajający, mineralizujący"
+        ],
+        "zastosowanie": "Do sałatek i przystawek.",
+        "zrodlo": [
+          "Vini di erbe, Włochy, 1938"
+        ]
+      },
+      {
+        "nazwa": "Miodosytny rumiankowo-lipowy z imbirem (Polska)",
+        "skladniki": [
+          "20 g suszonych koszyczków rumianku",
+          "30 g suszonych kwiatów lipy",
+          "3 plastry świeżego imbiru",
+          "800 g miodu wielokwiatowego",
+          "2 l wody",
+          "1 łyżeczka drożdży miodowych"
+        ],
+        "sposob_przygotowania": "1. Wodę zagotuj z miodem, zdejmij pianę, ostudź do 28°C. 2. Do balonu wsyp rumianek, lipę, imbir. 3. Zalej syropem, dodaj drożdże. 4. Zamknij rurką fermentacyjną, fermentuj 4–5 tygodni, codziennie mieszaj przez pierwszy tydzień. 5. Zlej znad ziół, fermentuj jeszcze 3–4 tygodnie. 6. Przefiltruj, rozlej do butelek, leżakuj 3 miesiące.",
+        "cechy": [
+          "Miodowo-kwiatowy, lekko pikantny"
+        ],
+        "wlasciwosci": [
+          "rozgrzewający, odpornościowy"
+        ],
+        "zastosowanie": "Do świątecznych stołów.",
+        "zrodlo": [
+          "Przepisy miodosytnicze, Polska, 1925"
+        ]
+      },
+      {
+        "nazwa": "Likier rumiankowy z anyżem i gruszką (Austria)",
+        "skladniki": [
+          "20 g suszonych koszyczków rumianku",
+          "1 dojrzała gruszka (pokrojona w plastry)",
+          "1/2 łyżeczki nasion anyżu",
+          "0,5 l spirytusu 60%",
+          "150 g cukru",
+          "100 ml wody"
+        ],
+        "sposob_przygotowania": "1. Gruszkę i rumianek połącz z anyżem w słoju. 2. Zalej spirytusem, odstaw na 7 dni. 3. Przefiltruj, dodaj cukier rozpuszczony w wodzie. 4. Odstaw na tydzień, rozlej do butelek.",
+        "cechy": [
+          "Aromatyczny, lekko korzenny smak"
+        ],
+        "wlasciwosci": [
+          "wzmacniający, uspokajający"
+        ],
+        "zastosowanie": "Likier do herbaty i deserów.",
+        "zrodlo": [
+          "Österreichische Kräuterliköre, 1914"
+        ]
+      },
+      {
+        "nazwa": "Wino rumiankowo-aroniiowe z jałowcem (Rosja/Polska)",
+        "skladniki": [
+          "20 g suszonych koszyczków rumianku",
+          "100 g owoców aronii",
+          "10 jagód jałowca (rozdrobnionych)",
+          "600 g cukru",
+          "2 l wody",
+          "1 łyżeczka drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Aronię rozgnieć, połącz z rumiankiem i jałowcem w balonie. 2. Zagotuj wodę, rozpuść cukier, ostudź. 3. Zalej owoce syropem, dodaj drożdże. 4. Fermentuj 3 tygodnie, codziennie mieszaj. 5. Zlej znad owoców, fermentuj jeszcze 2–3 tygodnie. 6. Przefiltruj, rozlej do butelek.",
+        "cechy": [
+          "Kwiatowo-leśny aromat",
+          "Ciemnoczerwona barwa"
+        ],
+        "wlasciwosci": [
+          "mineralizujący, odpornościowy"
+        ],
+        "zastosowanie": "Do mięs i serów.",
+        "zrodlo": [
+          "Rosyjskie tradycje domowe, 1907"
+        ]
+      },
+      {
+        "nazwa": "Lemoniada rumiankowa z limonką i miętą",
+        "skladniki": [
+          "20 g suszonych lub świeżych koszyczków rumianku",
+          "2 limonki (sok i cienko okrojona skórka, najlepiej niewoskowana)",
+          "garść świeżej mięty",
+          "2 łyżki miodu (lub syropu z agawy dla wersji wegańskiej)",
+          "1,2 l wody mineralnej (najlepiej lekko gazowanej)",
+          "kostki lodu"
+        ],
+        "sposob_przygotowania": "1. W garnku zagotuj 400 ml wody. 2. Wrzuć koszyczki rumianku i skórkę limonki, parz pod przykryciem 12 minut. 3. Przecedź przez sito, ostudź. 4. Dodaj sok z limonki i miód, dobrze wymieszaj. 5. W dużym dzbanku umieść gałązki mięty, zalej naparem rumiankowym i dolej pozostałą zimną wodę mineralną. 6. Dodaj kostki lodu, zamieszaj. 7. Podawaj z plasterkami limonki i świeżą miętą.",
+        "cechy": [
+          "Orzeźwiająca, cytrusowo-ziołowa, lekko słodka"
+        ],
+        "wlasciwosci": [
+          "uspokajająca, chłodząca, lekko trawienna"
+        ],
+        "zastosowanie": "Idealna na upalne dni, do lunchu lub na garden party.",
+        "zrodlo": [
+          "Domowe przepisy na lemoniady, Polska, 1938"
+        ]
+      },
+      {
+        "nazwa": "Mrożona herbata rumiankowa z brzoskwinią i lawendą",
+        "skladniki": [
+          "15 g suszonych koszyczków rumianku",
+          "1 dojrzała brzoskwinia (najlepiej świeża, można użyć mrożonej)",
+          "1/2 łyżeczki suszonych kwiatów lawendy",
+          "1 l wody",
+          "2 łyżki miodu lub cukru trzcinowego",
+          "kostki lodu"
+        ],
+        "sposob_przygotowania": "1. Zagotuj wodę, wsyp rumianek i lawendę, przykryj i parz 10 minut. 2. Przecedź, ostudź. 3. Brzoskwinię pokrój w plasterki, wrzuć do dzbanka, zalej naparem. 4. Dodaj miód/cukier, wymieszaj, dopełnij kostkami lodu. 5. Schłodź minimum 1 godzinę w lodówce. 6. Podawaj z plasterkami brzoskwini.",
+        "cechy": [
+          "Kwiatowo-owocowy, delikatny aromat"
+        ],
+        "wlasciwosci": [
+          "relaksujący, łagodnie wyciszający"
+        ],
+        "zastosowanie": "Herbata na letnie popołudnia i dla dzieci powyżej 3 r.ż.",
+        "zrodlo": [
+          "Herbaciarnia domowa, Anglia, 1947"
+        ]
+      },
+      {
+        "nazwa": "Syrop rumiankowy z imbirem i pomarańczą (do wody lub herbaty)",
+        "skladniki": [
+          "30 g suszonych koszyczków rumianku",
+          "2 plastry świeżego imbiru",
+          "skórka z 1 pomarańczy",
+          "300 g cukru",
+          "600 ml wody",
+          "sok z połowy pomarańczy"
+        ],
+        "sposob_przygotowania": "1. Zagotuj wodę z cukrem, imbirem i skórką pomarańczy, wrzuć rumianek. 2. Gotuj na bardzo małym ogniu przez 20 min. 3. Zdejmij z ognia, odstaw na 20 min pod przykryciem. 4. Przecedź przez gęste sito lub gazę. 5. Dodaj sok z pomarańczy, dobrze wymieszaj. 6. Przelej do wyparzonych butelek. Przechowuj w lodówce do 2 tygodni.",
+        "cechy": [
+          "Intensywny, cytrusowo-kwiatowy aromat"
+        ],
+        "wlasciwosci": [
+          "rozgrzewający, łagodzący stres"
+        ],
+        "zastosowanie": "Syrop do rozcieńczania z wodą, do herbaty, na kaszel i przeziębienie.",
+        "zrodlo": [
+          "Przepisy na domowe syropy, Polska, 1931"
+        ]
+      },
+      {
+        "nazwa": "Tonik rumiankowo-bazyliowy z ogórkiem (skandynawski styl)",
+        "skladniki": [
+          "20 g świeżych lub suszonych koszyczków rumianku",
+          "kilka listków świeżej bazylii",
+          "4–5 cienkich plasterków ogórka gruntowego",
+          "sok z 1/2 limonki",
+          "1 l wody mineralnej (najlepiej gazowanej)",
+          "kostki lodu"
+        ],
+        "sposob_przygotowania": "1. Rumiankowe koszyczki zalej 400 ml wrzątku, parz pod przykryciem 10 min, przecedź, ostudź. 2. W dzbanku umieść plasterki ogórka, listki bazylii, sok z limonki i napar rumiankowy. 3. Dopełnij wodą gazowaną, dodaj kostki lodu. 4. Zamieszaj i podawaj schłodzone.",
+        "cechy": [
+          "Bardzo świeży, ogórkowo-ziołowy napój"
+        ],
+        "wlasciwosci": [
+          "orzeźwiający, wspomaga nawodnienie, lekko wycisza"
+        ],
+        "zastosowanie": "Idealny do lunchu lub podczas upałów.",
+        "zrodlo": [
+          "Szwedzkie napoje letnie, 1920"
+        ]
+      },
+      {
+        "nazwa": "Kompocik rumiankowy z jabłkiem i wanilią (dla dzieci i dorosłych)",
+        "skladniki": [
+          "15 g suszonych koszyczków rumianku",
+          "2 słodkie jabłka (pokrojone w kostkę)",
+          "1/2 laski wanilii",
+          "1 łyżka miodu (opcjonalnie)",
+          "1 l wody"
+        ],
+        "sposob_przygotowania": "1. Jabłka wrzuć do garnka z wodą, zagotuj i gotuj 5 min. 2. Dodaj rumianek i wanilię, przykryj, gotuj na małym ogniu 10 min. 3. Odstaw pod przykryciem na kolejne 10 min, przecedź przez sito. 4. W razie potrzeby dosłódź miodem. 5. Podawaj letni lub schłodzony.",
+        "cechy": [
+          "Jabłkowo-waniliowy aromat",
+          "Złoty kolor"
+        ],
+        "wlasciwosci": [
+          "łagodzący, wspierający trawienie, wyciszający"
+        ],
+        "zastosowanie": "Kompot dla dzieci i dorosłych, dobry na wieczór.",
+        "zrodlo": [
+          "Zielnik rodzinny, Polska, 1922"
+        ]
+      },
+      {
+        "nazwa": "Mrożona herbata rumiankowo-porzeczkowa z lawendą",
+        "skladniki": [
+          "15 g suszonych koszyczków rumianku",
+          "100 g czarnych porzeczek (świeżych lub mrożonych)",
+          "1/2 łyżeczki suszonych kwiatów lawendy",
+          "2 łyżki syropu z agawy lub miodu",
+          "1 l wody",
+          "kostki lodu"
+        ],
+        "sposob_przygotowania": "1. Rumiankowe koszyczki i lawendę zalej wrzątkiem, parz 10 min, przecedź. 2. Porzeczki rozgnieć, zalej naparem, dodaj słodzik i kostki lodu. 3. Odstaw do lodówki na 1 godzinę, podawaj z porzeczkami na dnie.",
+        "cechy": [
+          "Orzeźwiająca, lekko kwaskowa herbata mrożona"
+        ],
+        "wlasciwosci": [
+          "chłodząca, mineralizująca"
+        ],
+        "zastosowanie": "Na letnie podwieczorki.",
+        "zrodlo": [
+          "Herbaty świata, Anglia, 1939"
+        ]
+      },
+      {
+        "nazwa": "Rumiankowa lemoniada z truskawką i bazylią",
+        "skladniki": [
+          "15 g suszonych koszyczków rumianku",
+          "4–5 truskawek (pokrojonych na plasterki)",
+          "kilka listków świeżej bazylii",
+          "1 l wody",
+          "sok z 1/2 cytryny",
+          "2 łyżki miodu",
+          "kostki lodu"
+        ],
+        "sposob_przygotowania": "1. Rumianek zalej wrzątkiem, parz pod przykryciem 10 min, przecedź i ostudź. 2. W dzbanku umieść truskawki i bazylię. 3. Zalej ostudzonym naparem, dodaj sok z cytryny i miód. 4. Wymieszaj, dopełnij lodem. 5. Podawaj z listkami bazylii na wierzchu.",
+        "cechy": [
+          "Bardzo świeża, kwiatowo-owocowa lemoniada"
+        ],
+        "wlasciwosci": [
+          "wspomaga trawienie, delikatnie relaksuje"
+        ],
+        "zastosowanie": "Do śniadania lub podwieczorku.",
+        "zrodlo": [
+          "Przepisy ogrodowe, Francja, 1933"
+        ]
+      },
+      {
+        "nazwa": "Tonik rumiankowy z imbirem i goździkami",
+        "skladniki": [
+          "20 g suszonych koszyczków rumianku",
+          "2 plastry świeżego imbiru",
+          "2 goździki",
+          "1 łyżka syropu klonowego (lub cukru trzcinowego)",
+          "0,7 l wody",
+          "sok z 1/2 pomarańczy"
+        ],
+        "sposob_przygotowania": "1. Rumianek, imbir i goździki zalej wrzątkiem, parz 10 min, przecedź. 2. Dodaj syrop klonowy i sok z pomarańczy, wymieszaj. 3. Podawaj ciepły jako napój rozgrzewający lub schłodzony jako tonik do picia w upały.",
+        "cechy": [
+          "Kwiatowo-korzenno-cytrusowy napój"
+        ],
+        "wlasciwosci": [
+          "rozgrzewający, odpornościowy"
+        ],
+        "zastosowanie": "Do popijania zimą i latem.",
+        "zrodlo": [
+          "Kuchnia korzenna, Niemcy, 1932"
+        ]
+      },
+      {
+        "nazwa": "Domowy kwas rumiankowo-cytrynowy z miodem",
+        "skladniki": [
+          "20 g suszonych lub świeżych koszyczków rumianku",
+          "1 cytryna (najlepiej ekologiczna, cienko okrojona skórka i sok)",
+          "3 łyżki miodu (lub syropu klonowego dla wegan)",
+          "1 l przegotowanej, ostudzonej wody",
+          "1 łyżeczka zakwasu chlebowego lub 3 ziarenka niepryskanej żytniej razowej mąki (do zaszczepienia fermentacji)"
+        ],
+        "sposob_przygotowania": "1. W litrowym słoju umieść kwiaty rumianku i cienko okrojoną skórkę cytryny. 2. Zalej przegotowaną wodą o temperaturze pokojowej. 3. Dodaj miód i dokładnie wymieszaj do rozpuszczenia. 4. Dodaj łyżeczkę aktywnego zakwasu chlebowego (lub 2-3 ziarenka niepryskanej mąki żytniej). 5. Przykryj gazą lub lnianą ściereczką, zabezpiecz gumką. 6. Odstaw na 2–3 dni w temperaturze pokojowej, codziennie delikatnie zamieszaj czystą łyżką. 7. Po 2 dniach spróbuj – napój powinien być lekko gazowany i orzeźwiający. 8. Przecedź przez sito, przelej do butelki, przechowuj w lodówce do 3 dni.",
+        "cechy": [
+          "Lekko gazowany, cytrusowo-ziołowy kwas"
+        ],
+        "wlasciwosci": [
+          "pobudzający trawienie, nawadniający, lekko uspokajający"
+        ],
+        "zastosowanie": "Jako napój orzeźwiający w upały, do lunchu, do popijania po treningu.",
+        "zrodlo": [
+          "Stare przepisy domowe, Polska, 1917"
+        ]
+      },
+      {
+        "nazwa": "Rumiankowa kombucha z imbirem i maliną",
+        "skladniki": [
+          "10 g suszonych koszyczków rumianku",
+          "2 plasterki świeżego imbiru",
+          "kilka malin (świeżych lub mrożonych)",
+          "60 g cukru",
+          "1 l wody",
+          "kultury grzybka kombuchy (SCOBY) + 100 ml startera (wcześniejszej kombuchy)"
+        ],
+        "sposob_przygotowania": "1. Zagotuj wodę, zaparz rumianek z imbirem przez 12 min, przecedź. 2. Dodaj cukier, dobrze wymieszaj. 3. Ostudź do temp. pokojowej (ok. 24°C). 4. Wlej napar do dużego słoja, dodaj kultury kombuchy (SCOBY) i 100 ml startera. 5. Wrzuć maliny. 6. Przykryj gazą lub papierem kuchennym, zabezpiecz gumką. 7. Fermentuj 6–9 dni (latem krócej, zimą dłużej) – codziennie sprawdzaj smak. 8. Gdy napój będzie lekko musujący i wyczuwalnie kwaskowy, przelej przez sito, butelkuj i przechowuj w lodówce do tygodnia.",
+        "cechy": [
+          "Delikatnie musująca, różowa kombucha",
+          "Kwiatowo-owocowy smak z pikantną nutą imbiru"
+        ],
+        "wlasciwosci": [
+          "probiotyczna, mineralizująca, relaksująca"
+        ],
+        "zastosowanie": "Do popijania w ciągu dnia, na poprawę odporności i nastroju.",
+        "zrodlo": [
+          "Domowy Zielnik Kombuchowy, Polska, 2020"
+        ]
+      },
+      {
+        "nazwa": "Kwas chlebowy z rumiankiem i miętą",
+        "skladniki": [
+          "15 g suszonych koszyczków rumianku",
+          "garść świeżej mięty (lub 2 łyżki suszonej)",
+          "2–3 kromki suchego chleba razowego (najlepiej bez konserwantów, można lekko przypiec)",
+          "3 l wody",
+          "5 łyżek cukru",
+          "garść rodzynek",
+          "1 łyżeczka drożdży piekarskich lub 2 łyżki soku z kiszonych ogórków do zaszczepienia fermentacji"
+        ],
+        "sposob_przygotowania": "1. Chleb przypiecz w piekarniku (będzie aromatyczniejszy). 2. W garnku zagotuj wodę, wrzuć rumianek i miętę, parz pod przykryciem 10 min, przecedź. 3. Napar wlej do dużego naczynia, wrzuć chleb, dodaj cukier i rodzynki. 4. Ostudź do temp. pokojowej. 5. Dodaj drożdże lub sok z kiszonych ogórków. 6. Przykryj gazą i odstaw na 24–36 h (w temp. pokojowej), codziennie zamieszaj. 7. Gdy napój stanie się lekko gazowany i kwaskowy, przecedź przez gazę. 8. Przelej do butelek, przechowuj w lodówce do 3 dni.",
+        "cechy": [
+          "Tradycyjny, lekko gazowany kwas chlebowy z ziołowym aromatem"
+        ],
+        "wlasciwosci": [
+          "probiotyczny, mineralizujący, wspomaga trawienie"
+        ],
+        "zastosowanie": "Do obiadu lub na upały.",
+        "zrodlo": [
+          "Kuchnia kresowa, Wilno, 1934"
+        ]
+      },
+      {
+        "nazwa": "Orzeźwiająca lemoniada rumiankowa z ogórkiem i melisą",
+        "skladniki": [
+          "15 g suszonych koszyczków rumianku",
+          "1/2 ogórka (najlepiej świeży gruntowy, pokrojony w cienkie plastry)",
+          "kilka gałązek świeżej melisy",
+          "1 l wody mineralnej (najlepiej lekko gazowanej)",
+          "sok z 1/2 cytryny",
+          "1–2 łyżki miodu",
+          "kostki lodu"
+        ],
+        "sposob_przygotowania": "1. Rumianek zalej 300 ml wrzątku, parz 12 min pod przykryciem, przecedź i ostudź. 2. W dzbanku umieść plastry ogórka, listki melisy i kostki lodu. 3. Dodaj sok z cytryny, miód i napar rumiankowy. 4. Dopełnij wodą mineralną. 5. Wymieszaj, podawaj od razu lub po schłodzeniu.",
+        "cechy": [
+          "Bardzo świeża, ziołowa lemoniada"
+        ],
+        "wlasciwosci": [
+          "uspokajająca, nawadniająca, lekko detoksykująca"
+        ],
+        "zastosowanie": "Idealna na garden party, do popijania przez cały dzień.",
+        "zrodlo": [
+          "Lemoniady domowe, Polska, 1929"
+        ]
+      },
+      {
+        "nazwa": "Napar rumiankowo-świerkowy z pomarańczą (napój leśny)",
+        "skladniki": [
+          "15 g suszonych koszyczków rumianku",
+          "kilka młodych gałązek świerku (najlepiej majowe pędy, mogą być też igły modrzewiowe)",
+          "skórka z połowy pomarańczy",
+          "2 łyżki miodu",
+          "1,2 l wody"
+        ],
+        "sposob_przygotowania": "1. Wodę zagotuj, wrzuć rumianek, igły świerkowe i skórkę pomarańczy. 2. Gotuj na wolnym ogniu 10 min pod przykryciem. 3. Odstaw na kolejne 10 min, przecedź przez gęste sito. 4. Dodaj miód i dobrze wymieszaj. 5. Podawaj ciepły zimą lub schłodzony latem.",
+        "cechy": [
+          "Leśny aromat, cytrusowo-ziołowy smak"
+        ],
+        "wlasciwosci": [
+          "wzmacniający odporność, łagodzący drogi oddechowe"
+        ],
+        "zastosowanie": "Do popijania po spacerze lub po pracy.",
+        "zrodlo": [
+          "Zielnik leśny, Polska, 1937"
+        ]
+      },
+      {
+        "nazwa": "Rumiankowa “oranżada” z pigwą i miętą (domowa fermentacja)",
+        "skladniki": [
+          "15 g suszonych koszyczków rumianku",
+          "kawałek świeżej pigwy (ok. 40 g, pokrojony w cienkie plasterki)",
+          "kilka listków mięty",
+          "2 łyżki cukru",
+          "700 ml wody",
+          "odrobina (na czubku łyżeczki) suszonych drożdży winnych"
+        ],
+        "sposob_przygotowania": "1. Zagotuj 200 ml wody, wrzuć rumianek i plasterki pigwy, parz 10 min pod przykryciem, przecedź. 2. Połącz napar z pozostałą zimną wodą i cukrem, dodaj miętę i drożdże. 3. Wlej do plastikowej butelki (nie wypełniaj do końca!). 4. Zostaw w temp. pokojowej na 16–24 h, do momentu gdy napój zrobi się mocno gazowany (sprawdź, ściskając butelkę). 5. Przechowuj w lodówce, wypij w ciągu 2–3 dni.",
+        "cechy": [
+          "Bardzo orzeźwiająca, lekko kwaskowa oranżada"
+        ],
+        "wlasciwosci": [
+          "mineralizująca, nawadniająca"
+        ],
+        "zastosowanie": "Na upalne dni i do śniadań.",
+        "zrodlo": [
+          "Oranżady i napoje fermentowane, Polska, 1952"
+        ]
+      },
+       {
+    "nazwa": "Bitters rumiankowy z arcydzięglem i pomarańczą (Polska/Niemcy)",
+    "skladniki": [
+      "10 g suszonych koszyczków rumianku",
+      "5 g suszonego korzenia arcydzięgla lekarskiego (pokrojonego na kawałki)",
+      "skórka z 1/2 pomarańczy (niewoskowana, cienko okrojona)",
+      "1/2 łyżeczki nasion kolendry (rozdrobnionych w moździerzu)",
+      "250 ml spirytusu 70%",
+      "30 ml przegotowanej wody"
+    ],
+    "sposob_przygotowania": "1. Rumianek, arcydzięgiel, skórkę pomarańczy i kolendrę wsyp do czystego słoja. 2. Zalej spirytusem, szczelnie zamknij. 3. Odstaw na 12 dni w ciemne miejsce, codziennie lekko wstrząsaj. 4. Dodaj wodę, wymieszaj, odstaw na kolejne 2 dni. 5. Przefiltruj przez filtr do kawy lub gazę, rozlej do małych butelek z kroplomierzem.",
+    "cechy": [
+      "Wyraźnie ziołowy, lekko gorzkawy bitters z cytrusową nutą"
+    ],
+    "wlasciwosci": [
+      "pobudza trawienie, lekko rozgrzewa"
+    ],
+    "zastosowanie": "Do koktajli, toników, herbat (5–10 kropli na porcję).",
+    "zrodlo": ["Zielnik domowy, Polska, 1927"]
+  },
+  {
+    "nazwa": "Bitters rumiankowy z imbirem i jałowcem (Anglia)",
+    "skladniki": [
+      "9 g suszonych koszyczków rumianku",
+      "kawałek świeżego imbiru (ok. 2 cm, cienko pokrojony)",
+      "6 jagód jałowca (zmiażdżonych w moździerzu)",
+      "skórka z 1/3 cytryny",
+      "230 ml spirytusu 60%",
+      "30 ml przegotowanej wody"
+    ],
+    "sposob_przygotowania": "1. Rumianek, imbir, jałowiec i skórkę cytryny wsyp do słoja, zalej spirytusem. 2. Zamknij i odstaw na 10 dni, codziennie lekko wstrząsaj. 3. Dodaj wodę, odstaw na kolejne 2 dni. 4. Przefiltruj przez gazę. 5. Rozlej do małych butelek z kroplomierzem.",
+    "cechy": [
+      "Kwiatowo-korzenno-leśny bitters"
+    ],
+    "wlasciwosci": [
+      "pobudza apetyt, rozgrzewa, odświeża"
+    ],
+    "zastosowanie": "Do lemoniad, drinków, domowych toniców (kilka kropel na porcję).",
+    "zrodlo": ["English Bitters Book, 1919"]
+  },
+  {
+    "nazwa": "Bitters rumiankowy z goździkiem i anyżem (Francja)",
+    "skladniki": [
+      "10 g suszonych koszyczków rumianku",
+      "2 goździki",
+      "1/2 łyżeczki nasion anyżu",
+      "skórka z 1/4 pomarańczy",
+      "200 ml spirytusu 60%",
+      "25 ml przegotowanej wody"
+    ],
+    "sposob_przygotowania": "1. Rumianek, goździki, anyż i skórkę pomarańczy umieść w słoju, zalej spirytusem. 2. Zamknij i odstaw na 9 dni, codziennie wstrząsaj. 3. Dodaj wodę, odstaw na 2 dni. 4. Przefiltruj i rozlej do małych butelek.",
+    "cechy": [
+      "Bardzo aromatyczny, korzenny bitters"
+    ],
+    "wlasciwosci": [
+      "pobudza trawienie, relaksuje"
+    ],
+    "zastosowanie": "Do koktajli, kawy, do wytrawnych deserów (5–8 kropli).",
+    "zrodlo": ["Les Bitters Classiques, Francja, 1932"]
+  },
+  {
+    "nazwa": "Bitters rumiankowy z korzeniem mniszka i kardamonem (Polska)",
+    "skladniki": [
+      "9 g suszonych koszyczków rumianku",
+      "4 g suszonego, pokrojonego korzenia mniszka lekarskiego",
+      "1/3 łyżeczki ziaren kardamonu (rozdrobnionych w moździerzu)",
+      "skórka z 1/3 limonki",
+      "220 ml spirytusu 60%",
+      "25 ml wody przegotowanej"
+    ],
+    "sposob_przygotowania": "1. Rumianek, korzeń mniszka, kardamon i skórkę limonki wsyp do słoja, zalej spirytusem. 2. Zamknij i odstaw na 10 dni, codziennie wstrząsaj. 3. Dodaj wodę, wymieszaj, odstaw na 2 dni. 4. Przefiltruj przez gazę, rozlej do małych butelek.",
+    "cechy": [
+      "Ziołowo-korzenna, lekko gorzkawa nuta"
+    ],
+    "wlasciwosci": [
+      "wspiera wątrobę, pobudza apetyt"
+    ],
+    "zastosowanie": "Do koktajli, prosecco, aperitifów (kilka kropel).",
+    "zrodlo": ["Księga zielarska, Polska, 1928"]
+  },
+  {
+    "nazwa": "Bitters rumiankowy z fiołkiem i werbeną (Francja)",
+    "skladniki": [
+      "10 g suszonych koszyczków rumianku",
+      "6 suszonych kwiatów fiołka pachnącego",
+      "8 g suszonych liści werbeny cytrynowej",
+      "skórka z 1/4 limonki",
+      "210 ml spirytusu 60%",
+      "25 ml przegotowanej wody"
+    ],
+    "sposob_przygotowania": "1. Kwiaty fiołka, rumianek, werbenę i skórkę limonki włóż do słoja, zalej spirytusem. 2. Zamknij, odstaw na 8 dni, codziennie lekko wstrząsaj. 3. Dodaj wodę, zamieszaj, odstaw na 2 dni. 4. Przefiltruj przez gazę, przelej do małych butelek z kroplomierzem.",
+    "cechy": [
+      "Bardzo kwiatowy, świeży bitters"
+    ],
+    "wlasciwosci": [
+      "lekko relaksujący, pobudza trawienie"
+    ],
+    "zastosowanie": "Do lemoniad, wody sodowej, domowych napojów (kilka kropel).",
+    "zrodlo": ["Recettes de bitters fleuris, Francja, 1938"]
+  },
+  {
+    "nazwa": "Bitters rumiankowy z rozmarynem i cytryną (Włochy)",
+    "skladniki": [
+      "10 g suszonych koszyczków rumianku",
+      "1 mała gałązka świeżego rozmarynu (lub 1/3 łyżeczki suszonego)",
+      "skórka z 1/2 cytryny (niewoskowana)",
+      "200 ml spirytusu 60%",
+      "20 ml przegotowanej wody"
+    ],
+    "sposob_przygotowania": "1. Rumianek, rozmaryn i skórkę cytryny włóż do słoja, zalej spirytusem. 2. Zamknij i odstaw na 10 dni, codziennie lekko wstrząsaj. 3. Dodaj wodę, wymieszaj, odstaw na 2 dni. 4. Przefiltruj, rozlej do małych butelek.",
+    "cechy": [
+      "Kwiatowo-ziołowy, cytrusowy bitters"
+    ],
+    "wlasciwosci": [
+      "orzeźwiający, wspomaga trawienie"
+    ],
+    "zastosowanie": "Do aperitifów, do drinków typu spritz (kilka kropel).",
+    "zrodlo": ["Bitters e liquori italiani, 1926"]
+  }
     ]
   },
   "inne_zastosowania": {

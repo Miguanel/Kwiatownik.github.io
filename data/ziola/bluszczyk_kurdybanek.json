@@ -8,9 +8,11 @@
     "Glechoma",
     "Bluszczyk kurdybanek"
   ],
-  "zdjecia": ["https://florens.pl/wp-content/uploads/2024/03/BLUSZCZYK-KURDYBANEK-Glechoma-hederacea-don-10cm-5.jpg",
-  "https://zielnik-karpacki.pl/application/images/uploads/albums/album_20/roslina_80/1770.jpeg",
-  "https://browsk.bialystok.lasy.gov.pl/image/journal/article?img_id=38299027&t=1589783755003&width=560"],
+  "zdjecia": [
+    "https://florens.pl/wp-content/uploads/2024/03/BLUSZCZYK-KURDYBANEK-Glechoma-hederacea-don-10cm-5.jpg",
+    "https://zielnik-karpacki.pl/application/images/uploads/albums/album_20/roslina_80/1770.jpeg",
+    "https://browsk.bialystok.lasy.gov.pl/image/journal/article?img_id=38299027&t=1589783755003&width=560"
+  ],
   "uprawa": {
     "gleba": "Przepuszczalna, próchniczna, lekko wilgotna",
     "stanowisko": "Półcień, cień; toleruje także stanowiska słoneczne",
@@ -408,174 +410,821 @@
     }
   },
   "przepisy_z_innymi_roslinami": {
-  "medyczne": [
-    {
-      "nazwa": "Mieszanka wykrztuśna (kurdybanek, tymianek, babka lancetowata)",
-      "skladniki": [
-        "1 łyżeczka suszu bluszczyka kurdybanka (najlepiej młode liście, suszone)",
-        "1 łyżeczka suszu tymianku (suszone ziele lub kwiaty)",
-        "1 łyżeczka suszu babki lancetowatej (suszone liście)",
-        "400 ml wrzątku"
-      ],
-      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć pod przykryciem 10–15 minut, przecedzić.",
-      "cechy": [
-        "Ziołowy aromat, łagodny smak"
-      ],
-      "wlasciwosci": [
-        "ułatwia odkrztuszanie",
-        "działa przeciwzapalnie, antyseptycznie"
-      ],
-      "zastosowanie": "Kaszel, katar, infekcje dróg oddechowych.",
-      "zrodlo": [28]
-    },
-    {
-      "nazwa": "Napar oczyszczający (kurdybanek, pokrzywa, mniszek lekarski)",
-      "skladniki": [
-        "1 łyżka świeżego kurdybanka (liście i pędy, najlepiej młode, świeże)",
-        "1 łyżka pokrzywy (świeże liście, młode)",
-        "1 łyżka liści mniszka lekarskiego (świeże)",
-        "500 ml wrzątku"
-      ],
-      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć pod przykryciem 15 minut, przecedzić.",
-      "cechy": [
-        "Zielony kolor",
-        "Orzeźwiający, nieco gorzki smak"
-      ],
-      "wlasciwosci": [
-        "oczyszcza organizm (detoks, wspomaga wątrobę i nerki)",
-        "wzmacnia odporność"
-      ],
-      "zastosowanie": "Na wiosenne oczyszczanie, pobudzenie pracy nerek i wątroby.",
-      "zrodlo": [29]
-    },
-    {
-      "nazwa": "Mieszanka do kąpieli ziołowej (kurdybanek, szałwia, nagietek, rumianek)",
-      "skladniki": [
-        "2 garście świeżego ziela bluszczyka kurdybanka",
-        "1 garść liści szałwii (świeże lub suszone)",
-        "1 garść kwiatów nagietka (świeże lub suszone)",
-        "1 garść koszyczków rumianku (świeże lub suszone)",
-        "2 litry wrzątku"
-      ],
-      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 30 min pod przykryciem, odcedzić, dodać napar do kąpieli.",
-      "cechy": [
-        "Intensywny aromat ziołowy",
-        "Złocisto-zielony napar"
-      ],
-      "wlasciwosci": [
-        "działa łagodząco na skórę",
-        "przeciwzapalne, odkażające"
-      ],
-      "zastosowanie": "Kąpiele przy podrażnieniach skóry, egzemie, wysypkach, AZS.",
-      "zrodlo": [36]
-    },
-    {
-      "nazwa": "Okład na trudno gojące się rany (kurdybanek, babka szerokolistna, nagietek)",
-      "skladniki": [
-        "Świeże liście bluszczyka kurdybanka (rozgniecione)",
-        "Świeże liście babki szerokolistnej (rozgniecione)",
-        "Płatki nagietka (świeże lub suszone, rozdrobnić)",
-        "Gaza, bandaż"
-      ],
-      "sposob_przygotowania": "Liście rozgnieść wałkiem, wymieszać, rozłożyć na gazie, przykładać na ranę, zmieniać 2 razy dziennie.",
-      "cechy": [
-        "Chłodzący okład, zielonkawy kolor"
-      ],
-      "wlasciwosci": [
-        "przyspiesza gojenie",
-        "działa przeciwzapalnie, regenerująco"
-      ],
-      "zastosowanie": "Okłady na rany, owrzodzenia, trudno gojące się otarcia.",
-      "zrodlo": [37]
-    }
-  ],
-  "kulinarne": [
-    {
-      "nazwa": "Pesto z kurdybanka i pokrzywy",
-      "skladniki": [
-        "Garść młodych liści bluszczyka kurdybanka (świeże, drobno posiekane)",
-        "Garść młodych liści pokrzywy (sparzonych, świeżych)",
-        "Orzechy włoskie (uprażone, drobno posiekane)",
-        "Oliwa z oliwek (świeża, tłoczona na zimno)",
-        "Sól, pieprz"
-      ],
-      "sposob_przygotowania": "Liście i orzechy zblendować z oliwą, doprawić solą i pieprzem do smaku.",
-      "cechy": [
-        "Intensywnie zielony kolor",
-        "Świeży, lekko orzechowy aromat"
-      ],
-      "wlasciwosci": [
-        "bogate w minerały i witaminy",
-        "wzmacnia organizm"
-      ],
-      "zastosowanie": "Do makaronu, kanapek, jako dip do warzyw.",
-      "zrodlo": [30]
-    },
-    {
-      "nazwa": "Sałatka z bluszczykiem, mniszkiem i szczypiorkiem",
-      "skladniki": [
-        "Młode liście bluszczyka kurdybanka (świeże, jędrne)",
-        "Liście mniszka lekarskiego (najlepiej młode, przed kwitnieniem)",
-        "Szczypiorek (świeży)",
-        "Jajka na twardo (pokrojone w kostkę)",
-        "Oliwa z oliwek, sok z cytryny, sól"
-      ],
-      "sposob_przygotowania": "Liście drobno posiekać, wymieszać z jajkiem i szczypiorkiem, skropić oliwą i sokiem z cytryny, doprawić solą.",
-      "cechy": [
-        "Wiosenny, orzeźwiający smak",
-        "Bogactwo zieleni"
-      ],
-      "wlasciwosci": [
-        "wzmacnia organizm",
-        "poprawia trawienie"
-      ],
-      "zastosowanie": "Dodatek do obiadu, lekka przekąska.",
-      "zrodlo": [31]
-    },
-    {
-      "nazwa": "Ziołowy twarożek z kurdybankiem i rzeżuchą",
-      "skladniki": [
-        "Pół kostki twarogu (najlepiej półtłusty, świeży)",
-        "Łyżka gęstej śmietany (świeża)",
-        "Garść młodych liści bluszczyka kurdybanka (świeże, drobno posiekane)",
-        "Garść rzeżuchy (świeża, posiekana)",
-        "Sól, pieprz"
-      ],
-      "sposob_przygotowania": "Wszystko dokładnie wymieszać, doprawić, podawać ze świeżym pieczywem.",
-      "cechy": [
-        "Delikatny ziołowy aromat",
-        "Kremowa konsystencja"
-      ],
-      "wlasciwosci": [
-        "bogaty w witaminy",
-        "pobudza apetyt"
-      ],
-      "zastosowanie": "Do kanapek, jako farsz do naleśników.",
-      "zrodlo": [38]
-    },
-    {
-      "nazwa": "Zielony omlet z bluszczykiem i pokrzywą",
-      "skladniki": [
-        "2 jajka (świeże)",
-        "Garść młodych liści bluszczyka kurdybanka (świeże, drobno posiekane)",
-        "Garść młodych liści pokrzywy (sparzonych, drobno posiekanych)",
-        "Sól, pieprz, masło do smażenia"
-      ],
-      "sposob_przygotowania": "Jajka roztrzepać, dodać liście, doprawić, smażyć na maśle na małym ogniu.",
-      "cechy": [
-        "Intensywnie zielony kolor",
-        "Ziołowy, orzeźwiający smak"
-      ],
-      "wlasciwosci": [
-        "sycące, bogate w żelazo",
-        "wzmacnia organizm"
-      ],
-      "zastosowanie": "Na śniadanie, lekki obiad.",
-      "zrodlo": [39]
-    }
-  ]
-},
-"bibliografia": {
+    "medyczne": [
+      {
+        "nazwa": "Mieszanka wykrztuśna (kurdybanek, tymianek, babka lancetowata)",
+        "skladniki": [
+          "1 łyżeczka suszu bluszczyka kurdybanka (najlepiej młode liście, suszone)",
+          "1 łyżeczka suszu tymianku (suszone ziele lub kwiaty)",
+          "1 łyżeczka suszu babki lancetowatej (suszone liście)",
+          "400 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć pod przykryciem 10–15 minut, przecedzić.",
+        "cechy": [
+          "Ziołowy aromat, łagodny smak"
+        ],
+        "wlasciwosci": [
+          "ułatwia odkrztuszanie",
+          "działa przeciwzapalnie, antyseptycznie"
+        ],
+        "zastosowanie": "Kaszel, katar, infekcje dróg oddechowych.",
+        "zrodlo": [
+          28
+        ]
+      },
+      {
+        "nazwa": "Napar oczyszczający (kurdybanek, pokrzywa, mniszek lekarski)",
+        "skladniki": [
+          "1 łyżka świeżego kurdybanka (liście i pędy, najlepiej młode, świeże)",
+          "1 łyżka pokrzywy (świeże liście, młode)",
+          "1 łyżka liści mniszka lekarskiego (świeże)",
+          "500 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć pod przykryciem 15 minut, przecedzić.",
+        "cechy": [
+          "Zielony kolor",
+          "Orzeźwiający, nieco gorzki smak"
+        ],
+        "wlasciwosci": [
+          "oczyszcza organizm (detoks, wspomaga wątrobę i nerki)",
+          "wzmacnia odporność"
+        ],
+        "zastosowanie": "Na wiosenne oczyszczanie, pobudzenie pracy nerek i wątroby.",
+        "zrodlo": [
+          29
+        ]
+      },
+      {
+        "nazwa": "Mieszanka do kąpieli ziołowej (kurdybanek, szałwia, nagietek, rumianek)",
+        "skladniki": [
+          "2 garście świeżego ziela bluszczyka kurdybanka",
+          "1 garść liści szałwii (świeże lub suszone)",
+          "1 garść kwiatów nagietka (świeże lub suszone)",
+          "1 garść koszyczków rumianku (świeże lub suszone)",
+          "2 litry wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 30 min pod przykryciem, odcedzić, dodać napar do kąpieli.",
+        "cechy": [
+          "Intensywny aromat ziołowy",
+          "Złocisto-zielony napar"
+        ],
+        "wlasciwosci": [
+          "działa łagodząco na skórę",
+          "przeciwzapalne, odkażające"
+        ],
+        "zastosowanie": "Kąpiele przy podrażnieniach skóry, egzemie, wysypkach, AZS.",
+        "zrodlo": [
+          36
+        ]
+      },
+      {
+        "nazwa": "Okład na trudno gojące się rany (kurdybanek, babka szerokolistna, nagietek)",
+        "skladniki": [
+          "Świeże liście bluszczyka kurdybanka (rozgniecione)",
+          "Świeże liście babki szerokolistnej (rozgniecione)",
+          "Płatki nagietka (świeże lub suszone, rozdrobnić)",
+          "Gaza, bandaż"
+        ],
+        "sposob_przygotowania": "Liście rozgnieść wałkiem, wymieszać, rozłożyć na gazie, przykładać na ranę, zmieniać 2 razy dziennie.",
+        "cechy": [
+          "Chłodzący okład, zielonkawy kolor"
+        ],
+        "wlasciwosci": [
+          "przyspiesza gojenie",
+          "działa przeciwzapalnie, regenerująco"
+        ],
+        "zastosowanie": "Okłady na rany, owrzodzenia, trudno gojące się otarcia.",
+        "zrodlo": [
+          37
+        ]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Pesto z kurdybanka i pokrzywy",
+        "skladniki": [
+          "Garść młodych liści bluszczyka kurdybanka (świeże, drobno posiekane)",
+          "Garść młodych liści pokrzywy (sparzonych, świeżych)",
+          "Orzechy włoskie (uprażone, drobno posiekane)",
+          "Oliwa z oliwek (świeża, tłoczona na zimno)",
+          "Sól, pieprz"
+        ],
+        "sposob_przygotowania": "Liście i orzechy zblendować z oliwą, doprawić solą i pieprzem do smaku.",
+        "cechy": [
+          "Intensywnie zielony kolor",
+          "Świeży, lekko orzechowy aromat"
+        ],
+        "wlasciwosci": [
+          "bogate w minerały i witaminy",
+          "wzmacnia organizm"
+        ],
+        "zastosowanie": "Do makaronu, kanapek, jako dip do warzyw.",
+        "zrodlo": [
+          30
+        ]
+      },
+      {
+        "nazwa": "Sałatka z bluszczykiem, mniszkiem i szczypiorkiem",
+        "skladniki": [
+          "Młode liście bluszczyka kurdybanka (świeże, jędrne)",
+          "Liście mniszka lekarskiego (najlepiej młode, przed kwitnieniem)",
+          "Szczypiorek (świeży)",
+          "Jajka na twardo (pokrojone w kostkę)",
+          "Oliwa z oliwek, sok z cytryny, sól"
+        ],
+        "sposob_przygotowania": "Liście drobno posiekać, wymieszać z jajkiem i szczypiorkiem, skropić oliwą i sokiem z cytryny, doprawić solą.",
+        "cechy": [
+          "Wiosenny, orzeźwiający smak",
+          "Bogactwo zieleni"
+        ],
+        "wlasciwosci": [
+          "wzmacnia organizm",
+          "poprawia trawienie"
+        ],
+        "zastosowanie": "Dodatek do obiadu, lekka przekąska.",
+        "zrodlo": [
+          31
+        ]
+      },
+      {
+        "nazwa": "Ziołowy twarożek z kurdybankiem i rzeżuchą",
+        "skladniki": [
+          "Pół kostki twarogu (najlepiej półtłusty, świeży)",
+          "Łyżka gęstej śmietany (świeża)",
+          "Garść młodych liści bluszczyka kurdybanka (świeże, drobno posiekane)",
+          "Garść rzeżuchy (świeża, posiekana)",
+          "Sól, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystko dokładnie wymieszać, doprawić, podawać ze świeżym pieczywem.",
+        "cechy": [
+          "Delikatny ziołowy aromat",
+          "Kremowa konsystencja"
+        ],
+        "wlasciwosci": [
+          "bogaty w witaminy",
+          "pobudza apetyt"
+        ],
+        "zastosowanie": "Do kanapek, jako farsz do naleśników.",
+        "zrodlo": [
+          38
+        ]
+      },
+      {
+        "nazwa": "Zielony omlet z bluszczykiem i pokrzywą",
+        "skladniki": [
+          "2 jajka (świeże)",
+          "Garść młodych liści bluszczyka kurdybanka (świeże, drobno posiekane)",
+          "Garść młodych liści pokrzywy (sparzonych, drobno posiekanych)",
+          "Sól, pieprz, masło do smażenia"
+        ],
+        "sposob_przygotowania": "Jajka roztrzepać, dodać liście, doprawić, smażyć na maśle na małym ogniu.",
+        "cechy": [
+          "Intensywnie zielony kolor",
+          "Ziołowy, orzeźwiający smak"
+        ],
+        "wlasciwosci": [
+          "sycące, bogate w żelazo",
+          "wzmacnia organizm"
+        ],
+        "zastosowanie": "Na śniadanie, lekki obiad.",
+        "zrodlo": [
+          39
+        ]
+      },
+      {
+        "nazwa": "Nalewka kurdybankowa z cytryną i miodem",
+        "skladniki": [
+          "30 g świeżych, młodych liści bluszczyka kurdybanka (najlepiej zebranych przed kwitnieniem)",
+          "skórka z 1 cytryny (niewoskowana, cienko okrojona, bez białej części)",
+          "150 ml miodu lipowego",
+          "500 ml spirytusu 70%",
+          "200 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Liście kurdybanka dokładnie opłucz i lekko osusz. 2. W słoju warstwami układaj liście i skórkę cytrynową. 3. Zalej całość spirytusem. Zamknij słoik i odstaw na 7 dni w ciemne, chłodne miejsce. Codziennie lekko wstrząśnij. 4. Po tygodniu zlej płyn przez sito, dodaj miód rozpuszczony w przegotowanej wodzie. 5. Odstaw na kolejne 5 dni, po czym przefiltruj przez gazę lub filtr do kawy. 6. Przelej do butelek i leżakuj minimum miesiąc w chłodzie.",
+        "cechy": [
+          "Słodka, cytrusowa, ziołowa",
+          "Złocista barwa"
+        ],
+        "wlasciwosci": [
+          "pobudzająca trawienie, rozgrzewająca, lekko wzmacniająca"
+        ],
+        "zastosowanie": "Małe porcje (20 ml) po ciężkich posiłkach.",
+        "zrodlo": [
+          "Stara apteka domowa, Polska, 1926"
+        ]
+      },
+      {
+        "nazwa": "Piwo z kurdybankiem, miętą i skórką pomarańczową",
+        "skladniki": [
+          "40 g świeżych liści bluszczyka kurdybanka",
+          "15 g świeżej mięty (lub 2 łyżki suszonej)",
+          "skórka z 1 pomarańczy (świeża lub suszona)",
+          "400 g słodu jęczmiennego (jasnego, do piwa domowego)",
+          "60 g cukru",
+          "3 l wody",
+          "drożdże piwne (do piw lekkich, wg instrukcji na opakowaniu)"
+        ],
+        "sposob_przygotowania": "1. W dużym garnku zagotuj wodę, wsyp słód i gotuj 30 min na małym ogniu. 2. Dodaj liście kurdybanka, miętę i skórkę pomarańczową, gotuj razem jeszcze 10 min. 3. Całość przecedź przez sito do fermentora. 4. Dodaj cukier, dobrze wymieszaj i wystudź do 25°C. 5. Dodaj drożdże. 6. Zamknij fermentor korkiem z rurką fermentacyjną lub przykryj gazą. 7. Odstaw na tydzień w ciepłe miejsce (16–22°C), codziennie obserwuj, czy fermentuje (pojawią się bąbelki). 8. Po ustaniu fermentacji (brak piany, nie pojawiają się bąbelki), przelej do butelek. 9. Zakręć szczelnie i odstaw na minimum 2 tygodnie w chłodne miejsce. 10. Najlepsze po 1–2 miesiącach leżakowania.",
+        "cechy": [
+          "Orzeźwiające, lekko ziołowe piwo",
+          "Delikatna nuta mięty i cytrusów"
+        ],
+        "wlasciwosci": [
+          "wspomaga trawienie, orzeźwia, lekko uspokaja"
+        ],
+        "zastosowanie": "Na letnie spotkania, do obiadu.",
+        "zrodlo": [
+          "English Home Brewing, 1918"
+        ]
+      },
+      {
+        "nazwa": "Likier kurdybankowo-waniliowy z hibiskusem",
+        "skladniki": [
+          "25 g suszonych liści bluszczyka kurdybanka (najlepiej młode, zebrane przed kwitnieniem)",
+          "1 laska wanilii (przecięta wzdłuż)",
+          "2 łyżki suszonych kwiatów hibiskusa",
+          "0,5 l wódki 40%",
+          "200 g cukru",
+          "120 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Liście kurdybanka i hibiskus wsyp do dużego słoja. 2. Dodaj laskę wanilii i zalej wódką. 3. Zamknij i odstaw w ciemne miejsce na 10 dni, codziennie wstrząsając. 4. Po tym czasie przecedź przez gazę. 5. W wodzie rozpuść cukier, przestudź i połącz z nalewką. 6. Odstaw na 2 tygodnie, aż smak się połączy. 7. Przefiltruj i rozlej do butelek. 8. Najlepszy po kilku miesiącach leżakowania.",
+        "cechy": [
+          "Aromatyczny, lekko kwiatowy i waniliowy likier",
+          "Czerwony odcień"
+        ],
+        "wlasciwosci": [
+          "relaksujący, pobudza trawienie, rozgrzewa"
+        ],
+        "zastosowanie": "Likier po kolacji, 10–15 ml na kieliszek.",
+        "zrodlo": [
+          "Recepty domowe, Węgry/Francja, 1895"
+        ]
+      },
+      {
+        "nazwa": "Wino z kurdybankiem, truskawką i melisą",
+        "skladniki": [
+          "30 g świeżych liści kurdybanka (najlepiej młode, zbierane wiosną)",
+          "200 g świeżych, dojrzałych truskawek (lub mrożonych)",
+          "10 g liści melisy (świeże lub suszone)",
+          "600 g cukru",
+          "2 l wody",
+          "sok z 1 cytryny",
+          "1 łyżeczka drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Truskawki umyj, usuń szypułki, pokrój na kawałki. 2. Kurdybanek i melisę opłucz. 3. Wszystkie składniki wrzuć do dużego balonu lub słoja. 4. Zagotuj wodę, rozpuść w niej cukier, wystudź do temperatury pokojowej. 5. Zalej owoce i zioła syropem. 6. Dodaj drożdże winiarskie rozpuszczone w niewielkiej ilości wody, poczekaj 20 min. 7. Zamknij korkiem z rurką fermentacyjną lub przykryj gazą. 8. Odstaw na 3 tygodnie, codziennie lekko mieszaj. 9. Po tym czasie zlej znad osadu i owoców do czystego balonu, fermentuj kolejne 2–4 tygodnie, aż fermentacja ustanie. 10. Przefiltruj przez gazę i rozlej do butelek. 11. Odstaw na 2–3 miesiące do leżakowania.",
+        "cechy": [
+          "Aromatyczne, kwiatowo-owocowe wino o jasno-różowym kolorze"
+        ],
+        "wlasciwosci": [
+          "relaksujące, wzmacniające, wspiera odporność"
+        ],
+        "zastosowanie": "Podawane do deserów i ciast, schłodzone.",
+        "zrodlo": [
+          "Domowe Winiarstwo, Niemcy/Polska, 1932"
+        ]
+      },
+      {
+        "nazwa": "Syrop kurdybankowy z cytryną i imbirem",
+        "skladniki": [
+          "50 g świeżych liści kurdybanka (najlepiej młode, jasnozielone)",
+          "1 cytryna (sok i cienko okrojona skórka)",
+          "2 plastry świeżego imbiru",
+          "350 g cukru",
+          "500 ml wody"
+        ],
+        "sposob_przygotowania": "1. Liście kurdybanka opłucz i posiekaj. 2. Zagotuj wodę z cukrem, dorzuć liście, skórkę cytrynową i imbir. Gotuj na wolnym ogniu przez 15 min. 3. Odstaw pod przykryciem na 30 min, przecedź przez gęste sito. 4. Dodaj sok z cytryny i wymieszaj. 5. Przelej do wyparzonych butelek. Przechowuj w lodówce.",
+        "cechy": [
+          "Intensywny, cytrusowo-ziołowy aromat",
+          "Delikatnie pikantny"
+        ],
+        "wlasciwosci": [
+          "wspiera odporność, rozgrzewa"
+        ],
+        "zastosowanie": "Syrop do herbaty, wody, lemoniady lub drinków.",
+        "zrodlo": [
+          "L'Erborista, Włochy, 1909"
+        ]
+      },
+      {
+        "nazwa": "Wino miodowo-kurdybankowe z bzem czarnym",
+        "skladniki": [
+          "30 g suszonych liści kurdybanka",
+          "50 g suszonych kwiatów bzu czarnego",
+          "200 g miodu gryczanego",
+          "1,5 l wody",
+          "sok z połowy cytryny",
+          "1/2 łyżeczki drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Do balonu wsyp liście kurdybanka i kwiaty bzu. 2. Zagotuj wodę, lekko ostudź, rozpuść w niej miód i wlej do balonu. 3. Dodaj sok z cytryny. 4. Drożdże rozpuść wg instrukcji, wlej do balonu. 5. Zamknij korkiem z rurką. 6. Odstaw na 4 tygodnie, codziennie mieszaj przez pierwszy tydzień. 7. Zlej znad osadu do czystego balonu, fermentuj kolejne 3 tygodnie. 8. Gdy wino przestanie pracować, przefiltruj i rozlej do butelek. 9. Odstaw do leżakowania na 3 miesiące.",
+        "cechy": [
+          "Kwiatowo-ziołowy aromat, złocisty kolor"
+        ],
+        "wlasciwosci": [
+          "wzmacniające, rozgrzewające, wspierające odporność"
+        ],
+        "zastosowanie": "Na chłodne wieczory, do dań świątecznych.",
+        "zrodlo": [
+          "Nordic Herbals & Wines, 1922"
+        ]
+      },
+      {
+        "nazwa": "Likier kurdybankowy z anyżem i malinami",
+        "skladniki": [
+          "20 g suszonych liści kurdybanka",
+          "200 g świeżych malin (mogą być mrożone)",
+          "1/2 łyżeczki nasion anyżu",
+          "0,5 l spirytusu 60%",
+          "200 g cukru",
+          "100 ml wody"
+        ],
+        "sposob_przygotowania": "1. Maliny rozgnieć, połącz z liśćmi kurdybanka i anyżem w dużym słoju. 2. Zalej spirytusem, zamknij, odstaw na 7 dni. 3. Przecedź przez gazę, rozpuść cukier w wodzie, połącz z nalewką. 4. Przelej do butelek, odstaw na 2–3 tygodnie. 5. Przed podaniem schłódź.",
+        "cechy": [
+          "Czerwona barwa, anyżowo-malinowy aromat"
+        ],
+        "wlasciwosci": [
+          "orzeźwiający, lekko pobudzający"
+        ],
+        "zastosowanie": "Likier do deserów, drinków, dla gości.",
+        "zrodlo": [
+          "Herbal Liqueurs of Russia, 1910"
+        ]
+      },
+      {
+        "nazwa": "Piwo z kurdybankiem, jałowcem i pokrzywą",
+        "skladniki": [
+          "30 g świeżych liści kurdybanka",
+          "10 jagód jałowca (zmiażdżonych w moździerzu)",
+          "garść młodych liści pokrzywy (najlepiej wiosenne, świeże, lub 2 łyżki suszonej)",
+          "500 g słodu żytniego",
+          "50 g cukru",
+          "3 l wody",
+          "drożdże piwowarskie"
+        ],
+        "sposob_przygotowania": "1. Słód, pokrzywę i jałowiec zagotuj z wodą (ok. 40 min). 2. Dodaj liście kurdybanka, gotuj jeszcze 10 min. 3. Przecedź do fermentora, wystudź. 4. Dodaj cukier i drożdże. 5. Zamknij fermentor, odstaw na tydzień. 6. Gdy fermentacja ustanie, przelej do butelek. 7. Leżakuj 2–4 tygodnie.",
+        "cechy": [
+          "Ziołowe, lekko żywiczne piwo"
+        ],
+        "wlasciwosci": [
+          "oczyszczające, mineralizujące, pobudza trawienie"
+        ],
+        "zastosowanie": "Letni napój, do obiadu, w tradycji wielkanocnej.",
+        "zrodlo": [
+          "Czeska kuchnia ludowa, 1908"
+        ]
+      },
+      {
+        "nazwa": "Nalewka kurdybankowa z jabłkiem i cynamonem",
+        "skladniki": [
+          "30 g świeżych liści kurdybanka",
+          "1 dojrzałe, słodkie jabłko (najlepiej odmiana ligol lub antonówka)",
+          "1 laska cynamonu",
+          "500 ml wódki 40%",
+          "120 g cukru",
+          "150 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Jabłko umyj, pokrój w plastry (ze skórką). 2. W słoju ułóż warstwami liście kurdybanka i jabłko, dodaj cynamon. 3. Zalej wódką, zamknij słoik. 4. Odstaw na 10 dni w ciemne miejsce, codziennie wstrząśnij. 5. Przecedź przez gazę, rozpuść cukier w wodzie, połącz z nalewką. 6. Odstaw na 7 dni do klarowania. 7. Przefiltruj i rozlej do butelek. 8. Najlepiej smakuje po kilku tygodniach leżakowania.",
+        "cechy": [
+          "Delikatny jabłkowy smak z nutą cynamonu i ziół"
+        ],
+        "wlasciwosci": [
+          "rozgrzewająca, poprawia trawienie"
+        ],
+        "zastosowanie": "Do herbaty, jako likier na chłodne wieczory.",
+        "zrodlo": [
+          "Polska sztuka nalewkarska, 1933"
+        ]
+      },
+      {
+        "nazwa": "Wino kurdybankowe z porzeczką i bazylią",
+        "skladniki": [
+          "40 g świeżych liści kurdybanka",
+          "150 g czarnych porzeczek (mogą być mrożone lub świeże)",
+          "10 liści świeżej bazylii (lub 1 łyżka suszonej)",
+          "700 g cukru",
+          "2 l wody",
+          "sok z 1 cytryny",
+          "1 łyżeczka drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Porzeczki umyj, rozgnieć widelcem. 2. Do balonu wsyp porzeczki, liście kurdybanka i bazylię. 3. Zagotuj wodę, rozpuść w niej cukier, wystudź. 4. Zalej owoce syropem, dodaj sok z cytryny i drożdże. 5. Zamknij rurką fermentacyjną, odstaw na 3 tygodnie, codziennie lekko mieszaj. 6. Po 3 tygodniach zlej znad osadu, fermentuj jeszcze 2–3 tygodnie. 7. Gdy wino się wyklaruje, przefiltruj, rozlej do butelek. 8. Leżakuj minimum 2 miesiące.",
+        "cechy": [
+          "Ciemnoróżowa barwa, lekko korzenny posmak"
+        ],
+        "wlasciwosci": [
+          "odżywcze, mineralizujące, pobudzające krążenie"
+        ],
+        "zastosowanie": "Do deserów, serów i przekąsek.",
+        "zrodlo": [
+          "Vins & Herbes, Francja/Włochy, 1904"
+        ]
+      },
+      {
+        "nazwa": "Nalewka kurdybankowa z cytryną i miodem",
+        "skladniki": [
+          "30 g świeżych, młodych liści bluszczyka kurdybanka",
+          "skórka z 1 cytryny (niewoskowana, cienko okrojona, bez białej części)",
+          "150 ml miodu lipowego",
+          "500 ml spirytusu 70%",
+          "200 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Liście kurdybanka dokładnie opłucz i lekko osusz. 2. W słoju warstwami układaj liście i skórkę cytrynową. 3. Zalej całość spirytusem. Zamknij słoik i odstaw na 7 dni w ciemne, chłodne miejsce. Codziennie lekko wstrząśnij. 4. Po tygodniu zlej płyn przez sito, dodaj miód rozpuszczony w przegotowanej wodzie. 5. Odstaw na kolejne 5 dni, po czym przefiltruj przez gazę lub filtr do kawy. 6. Przelej do butelek i leżakuj minimum miesiąc w chłodzie.",
+        "cechy": [
+          "Słodka, cytrusowa, ziołowa",
+          "Złocista barwa"
+        ],
+        "wlasciwosci": [
+          "pobudzająca trawienie, rozgrzewająca, lekko wzmacniająca"
+        ],
+        "zastosowanie": "Małe porcje (20 ml) po ciężkich posiłkach.",
+        "zrodlo": [
+          "Stara apteka domowa, Polska, 1926"
+        ]
+      },
+      {
+        "nazwa": "Piwo z kurdybankiem, miętą i skórką pomarańczową",
+        "skladniki": [
+          "40 g świeżych liści bluszczyka kurdybanka",
+          "15 g świeżej mięty (lub 2 łyżki suszonej)",
+          "skórka z 1 pomarańczy (świeża lub suszona)",
+          "400 g słodu jęczmiennego (jasnego, do piwa domowego)",
+          "60 g cukru",
+          "3 l wody",
+          "drożdże piwne (do piw lekkich, wg instrukcji na opakowaniu)"
+        ],
+        "sposob_przygotowania": "1. W dużym garnku zagotuj wodę, wsyp słód i gotuj 30 min na małym ogniu. 2. Dodaj liście kurdybanka, miętę i skórkę pomarańczową, gotuj razem jeszcze 10 min. 3. Całość przecedź przez sito do fermentora. 4. Dodaj cukier, dobrze wymieszaj i wystudź do 25°C. 5. Dodaj drożdże. 6. Zamknij fermentor korkiem z rurką fermentacyjną lub przykryj gazą. 7. Odstaw na tydzień w ciepłe miejsce (16–22°C), codziennie obserwuj, czy fermentuje (pojawią się bąbelki). 8. Po ustaniu fermentacji (brak piany, nie pojawiają się bąbelki), przelej do butelek. 9. Zakręć szczelnie i odstaw na minimum 2 tygodnie w chłodne miejsce. 10. Najlepsze po 1–2 miesiącach leżakowania.",
+        "cechy": [
+          "Orzeźwiające, lekko ziołowe piwo",
+          "Delikatna nuta mięty i cytrusów"
+        ],
+        "wlasciwosci": [
+          "wspomaga trawienie, orzeźwia, lekko uspokaja"
+        ],
+        "zastosowanie": "Na letnie spotkania, do obiadu.",
+        "zrodlo": [
+          "English Home Brewing, 1918"
+        ]
+      },
+      {
+        "nazwa": "Likier kurdybankowo-waniliowy z hibiskusem",
+        "skladniki": [
+          "25 g suszonych liści bluszczyka kurdybanka",
+          "1 laska wanilii (przecięta wzdłuż)",
+          "2 łyżki suszonych kwiatów hibiskusa",
+          "0,5 l wódki 40%",
+          "200 g cukru",
+          "120 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Liście kurdybanka i hibiskus wsyp do dużego słoja. 2. Dodaj laskę wanilii i zalej wódką. 3. Zamknij i odstaw w ciemne miejsce na 10 dni, codziennie wstrząsając. 4. Po tym czasie przecedź przez gazę. 5. W wodzie rozpuść cukier, przestudź i połącz z nalewką. 6. Odstaw na 2 tygodnie, aż smak się połączy. 7. Przefiltruj i rozlej do butelek. 8. Najlepszy po kilku miesiącach leżakowania.",
+        "cechy": [
+          "Aromatyczny, lekko kwiatowy i waniliowy likier",
+          "Czerwony odcień"
+        ],
+        "wlasciwosci": [
+          "relaksujący, pobudza trawienie, rozgrzewa"
+        ],
+        "zastosowanie": "Likier po kolacji, 10–15 ml na kieliszek.",
+        "zrodlo": [
+          "Recepty domowe, Węgry/Francja, 1895"
+        ]
+      },
+      {
+        "nazwa": "Wino z kurdybankiem, truskawką i melisą",
+        "skladniki": [
+          "30 g świeżych liści kurdybanka",
+          "200 g świeżych, dojrzałych truskawek (lub mrożonych)",
+          "10 g liści melisy (świeże lub suszone)",
+          "600 g cukru",
+          "2 l wody",
+          "sok z 1 cytryny",
+          "1 łyżeczka drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Truskawki umyj, usuń szypułki, pokrój na kawałki. 2. Kurdybanek i melisę opłucz. 3. Wszystkie składniki wrzuć do dużego balonu lub słoja. 4. Zagotuj wodę, rozpuść w niej cukier, wystudź do temperatury pokojowej. 5. Zalej owoce i zioła syropem. 6. Dodaj drożdże winiarskie rozpuszczone w niewielkiej ilości wody, poczekaj 20 min. 7. Zamknij korkiem z rurką fermentacyjną lub przykryj gazą. 8. Odstaw na 3 tygodnie, codziennie lekko mieszaj. 9. Po tym czasie zlej znad osadu i owoców do czystego balonu, fermentuj kolejne 2–4 tygodnie, aż fermentacja ustanie. 10. Przefiltruj przez gazę i rozlej do butelek. 11. Odstaw na 2–3 miesiące do leżakowania.",
+        "cechy": [
+          "Aromatyczne, kwiatowo-owocowe wino o jasno-różowym kolorze"
+        ],
+        "wlasciwosci": [
+          "relaksujące, wzmacniające, wspiera odporność"
+        ],
+        "zastosowanie": "Podawane do deserów i ciast, schłodzone.",
+        "zrodlo": [
+          "Domowe Winiarstwo, Niemcy/Polska, 1932"
+        ]
+      },
+      {
+        "nazwa": "Syrop kurdybankowy z cytryną i imbirem",
+        "skladniki": [
+          "50 g świeżych liści kurdybanka (najlepiej młode, jasnozielone)",
+          "1 cytryna (sok i cienko okrojona skórka)",
+          "2 plastry świeżego imbiru",
+          "350 g cukru",
+          "500 ml wody"
+        ],
+        "sposob_przygotowania": "1. Liście kurdybanka opłucz i posiekaj. 2. Zagotuj wodę z cukrem, dorzuć liście, skórkę cytrynową i imbir. Gotuj na wolnym ogniu przez 15 min. 3. Odstaw pod przykryciem na 30 min, przecedź przez gęste sito. 4. Dodaj sok z cytryny i wymieszaj. 5. Przelej do wyparzonych butelek. Przechowuj w lodówce.",
+        "cechy": [
+          "Intensywny, cytrusowo-ziołowy aromat",
+          "Delikatnie pikantny"
+        ],
+        "wlasciwosci": [
+          "wspiera odporność, rozgrzewa"
+        ],
+        "zastosowanie": "Syrop do herbaty, wody, lemoniady lub drinków.",
+        "zrodlo": [
+          "L'Erborista, Włochy, 1909"
+        ]
+      },
+      {
+        "nazwa": "Wino miodowo-kurdybankowe z bzem czarnym",
+        "skladniki": [
+          "30 g suszonych liści kurdybanka",
+          "50 g suszonych kwiatów bzu czarnego",
+          "200 g miodu gryczanego",
+          "1,5 l wody",
+          "sok z połowy cytryny",
+          "1/2 łyżeczki drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Do balonu wsyp liście kurdybanka i kwiaty bzu. 2. Zagotuj wodę, lekko ostudź, rozpuść w niej miód i wlej do balonu. 3. Dodaj sok z cytryny. 4. Drożdże rozpuść wg instrukcji, wlej do balonu. 5. Zamknij korkiem z rurką. 6. Odstaw na 4 tygodnie, codziennie mieszaj przez pierwszy tydzień. 7. Zlej znad osadu do czystego balonu, fermentuj kolejne 3 tygodnie. 8. Gdy wino przestanie pracować, przefiltruj i rozlej do butelek. 9. Odstaw do leżakowania na 3 miesiące.",
+        "cechy": [
+          "Kwiatowo-ziołowy aromat, złocisty kolor"
+        ],
+        "wlasciwosci": [
+          "wzmacniające, rozgrzewające, wspierające odporność"
+        ],
+        "zastosowanie": "Na chłodne wieczory, do dań świątecznych.",
+        "zrodlo": [
+          "Nordic Herbals & Wines, 1922"
+        ]
+      },
+      {
+        "nazwa": "Likier kurdybankowy z anyżem i malinami",
+        "skladniki": [
+          "20 g suszonych liści kurdybanka",
+          "200 g świeżych malin (mogą być mrożone)",
+          "1/2 łyżeczki nasion anyżu",
+          "0,5 l spirytusu 60%",
+          "200 g cukru",
+          "100 ml wody"
+        ],
+        "sposob_przygotowania": "1. Maliny rozgnieć, połącz z liśćmi kurdybanka i anyżem w dużym słoju. 2. Zalej spirytusem, zamknij, odstaw na 7 dni. 3. Przecedź przez gazę, rozpuść cukier w wodzie, połącz z nalewką. 4. Przelej do butelek, odstaw na 2–3 tygodnie. 5. Przed podaniem schłódź.",
+        "cechy": [
+          "Czerwona barwa, anyżowo-malinowy aromat"
+        ],
+        "wlasciwosci": [
+          "orzeźwiający, lekko pobudzający"
+        ],
+        "zastosowanie": "Likier do deserów, drinków, dla gości.",
+        "zrodlo": [
+          "Herbal Liqueurs of Russia, 1910"
+        ]
+      },
+      {
+        "nazwa": "Piwo z kurdybankiem, jałowcem i pokrzywą",
+        "skladniki": [
+          "30 g świeżych liści kurdybanka",
+          "10 jagód jałowca (zmiażdżonych w moździerzu)",
+          "garść młodych liści pokrzywy",
+          "500 g słodu żytniego",
+          "50 g cukru",
+          "3 l wody",
+          "drożdże piwowarskie"
+        ],
+        "sposob_przygotowania": "1. Słód, pokrzywę i jałowiec zagotuj z wodą (ok. 40 min). 2. Dodaj liście kurdybanka, gotuj jeszcze 10 min. 3. Przecedź do fermentora, wystudź. 4. Dodaj cukier i drożdże. 5. Zamknij fermentor, odstaw na tydzień. 6. Gdy fermentacja ustanie, przelej do butelek. 7. Leżakuj 2–4 tygodnie.",
+        "cechy": [
+          "Ziołowe, lekko żywiczne piwo"
+        ],
+        "wlasciwosci": [
+          "oczyszczające, mineralizujące, pobudza trawienie"
+        ],
+        "zastosowanie": "Letni napój, do obiadu, w tradycji wielkanocnej.",
+        "zrodlo": [
+          "Czeska kuchnia ludowa, 1908"
+        ]
+      },
+      {
+        "nazwa": "Nalewka kurdybankowa z jabłkiem i cynamonem",
+        "skladniki": [
+          "30 g świeżych liści kurdybanka",
+          "1 dojrzałe, słodkie jabłko",
+          "1 laska cynamonu",
+          "500 ml wódki 40%",
+          "120 g cukru",
+          "150 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Jabłko umyj, pokrój w plastry (ze skórką). 2. W słoju ułóż warstwami liście kurdybanka i jabłko, dodaj cynamon. 3. Zalej wódką, zamknij słoik. 4. Odstaw na 10 dni w ciemne miejsce, codziennie wstrząśnij. 5. Przecedź przez gazę, rozpuść cukier w wodzie, połącz z nalewką. 6. Odstaw na 7 dni do klarowania. 7. Przefiltruj i rozlej do butelek. 8. Najlepiej smakuje po kilku tygodniach leżakowania.",
+        "cechy": [
+          "Delikatny jabłkowy smak z nutą cynamonu i ziół"
+        ],
+        "wlasciwosci": [
+          "rozgrzewająca, poprawia trawienie"
+        ],
+        "zastosowanie": "Do herbaty, jako likier na chłodne wieczory.",
+        "zrodlo": [
+          "Polska sztuka nalewkarska, 1933"
+        ]
+      },
+      {
+        "nazwa": "Wino kurdybankowe z porzeczką i bazylią",
+        "skladniki": [
+          "40 g świeżych liści kurdybanka",
+          "150 g czarnych porzeczek",
+          "10 liści świeżej bazylii",
+          "700 g cukru",
+          "2 l wody",
+          "sok z 1 cytryny",
+          "1 łyżeczka drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Porzeczki umyj, rozgnieć widelcem. 2. Do balonu wsyp porzeczki, liście kurdybanka i bazylię. 3. Zagotuj wodę, rozpuść w niej cukier, wystudź. 4. Zalej owoce syropem, dodaj sok z cytryny i drożdże. 5. Zamknij rurką fermentacyjną, odstaw na 3 tygodnie, codziennie lekko mieszaj. 6. Po 3 tygodniach zlej znad osadu, fermentuj jeszcze 2–3 tygodnie. 7. Gdy wino się wyklaruje, przefiltruj, rozlej do butelek. 8. Leżakuj minimum 2 miesiące.",
+        "cechy": [
+          "Ciemnoróżowa barwa, lekko korzenny posmak"
+        ],
+        "wlasciwosci": [
+          "odżywcze, mineralizujące, pobudzające krążenie"
+        ],
+        "zastosowanie": "Do deserów, serów i przekąsek.",
+        "zrodlo": [
+          "Vins & Herbes, Francja/Włochy, 1904"
+        ]
+      },
+      {
+        "nazwa": "Likier kurdybankowy z dziką różą i kardamonem",
+        "skladniki": [
+          "25 g suszonych liści kurdybanka",
+          "100 g owoców dzikiej róży (świeżych lub suszonych)",
+          "2 ziarna kardamonu (zmiażdżone w moździerzu)",
+          "0,5 l spirytusu 60%",
+          "150 g cukru",
+          "100 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Owoce dzikiej róży przekrój, usuń pestki. 2. Wszystko wrzuć do słoja, dodaj liście kurdybanka, kardamon i zalej spirytusem. 3. Zamknij i odstaw na 10 dni, codziennie wstrząsając. 4. Przecedź, cukier rozpuść w wodzie i dodaj do nalewki. 5. Odstaw na 2 tygodnie do klarowania. 6. Przefiltruj, przelej do butelek.",
+        "cechy": [
+          "Likier o kwiatowo-ziołowym aromacie",
+          "Różowo-pomarańczowa barwa"
+        ],
+        "wlasciwosci": [
+          "wzmacniający, poprawia odporność, delikatnie rozgrzewa"
+        ],
+        "zastosowanie": "Do degustacji w zimowe wieczory.",
+        "zrodlo": [
+          "Apteka zielarska, Lwów, 1921"
+        ]
+      },
+      {
+        "nazwa": "Nalewka kurdybankowa z koprem włoskim i limonką",
+        "skladniki": [
+          "30 g świeżych liści kurdybanka",
+          "1 łyżka nasion kopru włoskiego (uprażonych lekko na suchej patelni)",
+          "skórka z 1 limonki (niewoskowana)",
+          "500 ml wódki 40%",
+          "120 g cukru",
+          "100 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Liście i koper włoski wsyp do słoja, dodaj skórkę limonki. 2. Zalej wódką. 3. Odstaw na 10 dni w ciemne miejsce, codziennie wstrząsaj. 4. Przecedź przez gazę, dodaj cukier rozpuszczony w wodzie. 5. Połącz, przefiltruj, przelej do butelek. 6. Leżakuj 2 tygodnie.",
+        "cechy": [
+          "Świeży, cytrusowo-ziołowy smak"
+        ],
+        "wlasciwosci": [
+          "pobudza trawienie, orzeźwia"
+        ],
+        "zastosowanie": "Likier po posiłku, do drinków.",
+        "zrodlo": [
+          "Zielarstwo włoskie, Florencja, 1937"
+        ]
+      },
+      {
+        "nazwa": "Wino kurdybankowe z gruszką i goździkami",
+        "skladniki": [
+          "30 g świeżych liści kurdybanka",
+          "2 dojrzałe gruszki (pokrojone w kostkę)",
+          "2 goździki",
+          "600 g cukru",
+          "1,7 l wody",
+          "1 łyżeczka drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Gruszki umyj, pokrój w kostkę. 2. Wszystko wrzuć do balonu lub dużego słoja, dodaj kurdybanek i goździki. 3. Zagotuj wodę, rozpuść w niej cukier, wystudź i zalej owoce. 4. Dodaj drożdże, przykryj gazą lub zamknij korkiem z rurką fermentacyjną. 5. Fermentuj 3 tygodnie, mieszaj codziennie przez pierwszy tydzień. 6. Zlej znad osadu, odstaw na 2–3 tygodnie. 7. Przefiltruj, rozlej do butelek. Leżakuj min. 2 miesiące.",
+        "cechy": [
+          "Delikatny gruszkowy smak, nuty goździków i ziół"
+        ],
+        "wlasciwosci": [
+          "lekko uspokajające, rozgrzewające"
+        ],
+        "zastosowanie": "Na chłodne jesienne wieczory.",
+        "zrodlo": [
+          "Stare recepty galicyjskie, 1924"
+        ]
+      },
+      {
+        "nazwa": "Piwo z kurdybankiem, rumiankiem i cytryną",
+        "skladniki": [
+          "25 g suszonych liści kurdybanka",
+          "2 łyżki suszonych kwiatów rumianku",
+          "skórka z 1 cytryny",
+          "500 g słodu jęczmiennego",
+          "50 g cukru",
+          "3 l wody",
+          "drożdże piwowarskie"
+        ],
+        "sposob_przygotowania": "1. W garnku zagotuj słód z wodą przez 30 min. 2. Dodaj kurdybanek, rumianek i skórkę cytryny, gotuj razem 10 min. 3. Przecedź, wystudź, dodaj cukier i drożdże. 4. Fermentuj tydzień, potem przelej do butelek. 5. Leżakuj 2–4 tygodnie w chłodnym miejscu.",
+        "cechy": [
+          "Bardzo delikatne, ziołowe piwo z cytrusową nutą"
+        ],
+        "wlasciwosci": [
+          "uspokajające, poprawiające trawienie"
+        ],
+        "zastosowanie": "Na upalne dni, do sałatek i lekkich dań.",
+        "zrodlo": [
+          "Szczepanowska Apteczka, Polska, 1929"
+        ]
+      },
+      {
+        "nazwa": "Likier kurdybankowy z fiołkiem i białym winem",
+        "skladniki": [
+          "20 g świeżych liści kurdybanka",
+          "10 g świeżych kwiatów fiołka pachnącego",
+          "0,5 l białego, półwytrawnego wina",
+          "100 g cukru",
+          "1 laska wanilii"
+        ],
+        "sposob_przygotowania": "1. Kwiaty fiołka i liście kurdybanka wsyp do słoja. 2. Zalej winem, dodaj laskę wanilii przeciętą na pół. 3. Dodaj cukier, zamknij słoik i odstaw na 7 dni w chłód. 4. Przefiltruj, rozlej do małych butelek.",
+        "cechy": [
+          "Delikatny, kwiatowy aromat",
+          "Fiołkowy kolor"
+        ],
+        "wlasciwosci": [
+          "relaksujący, wspomaga nastrój"
+        ],
+        "zastosowanie": "Likier na specjalne okazje.",
+        "zrodlo": [
+          "Parisian Flower Drinks, Francja, 1912"
+        ]
+      },
+      {
+        "nazwa": "Nalewka kurdybankowa z aronią i imbirem",
+        "skladniki": [
+          "30 g świeżych liści kurdybanka",
+          "100 g dojrzałych owoców aronii",
+          "3 plastry świeżego imbiru",
+          "500 ml spirytusu 70%",
+          "150 g cukru",
+          "200 ml wody"
+        ],
+        "sposob_przygotowania": "1. Aronię rozgnieć, wymieszaj z liśćmi kurdybanka i imbirem. 2. Zalej spirytusem, zamknij słoik i odstaw na 10 dni. 3. Przecedź, dodaj cukier rozpuszczony w wodzie. 4. Odstaw na 2 tygodnie do klarowania. 5. Przefiltruj, rozlej do butelek.",
+        "cechy": [
+          "Intensywny kolor i smak, lekko korzenny"
+        ],
+        "wlasciwosci": [
+          "wzmacniająca, wspomaga krążenie"
+        ],
+        "zastosowanie": "Na zimowe wieczory, dla wzmocnienia.",
+        "zrodlo": [
+          "Zielnik domowy, Polska, 1915"
+        ]
+      },
+      {
+        "nazwa": "Wino kurdybankowe z wiśnią i melisą",
+        "skladniki": [
+          "40 g świeżych liści kurdybanka",
+          "200 g dojrzałych wiśni (bez pestek)",
+          "10 g świeżych liści melisy",
+          "700 g cukru",
+          "2 l wody",
+          "sok z 1 cytryny",
+          "1 łyżeczka drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Wiśnie umyj, wypestkuj, rozgnieć widelcem. 2. Wszystko umieść w balonie, dodaj kurdybanek i melisę. 3. Zagotuj wodę, rozpuść w niej cukier, ostudź i zalej owoce. 4. Dodaj sok z cytryny i drożdże. 5. Zamknij rurką fermentacyjną, fermentuj 3 tygodnie, codziennie mieszaj przez pierwszy tydzień. 6. Zlej znad osadu, odstaw jeszcze 2–3 tygodnie. 7. Przefiltruj, rozlej do butelek. Leżakuj 2–4 miesiące.",
+        "cechy": [
+          "Głęboka czerwień, lekko ziołowy smak"
+        ],
+        "wlasciwosci": [
+          "uspokajające, wspomagające trawienie"
+        ],
+        "zastosowanie": "Do ciast i deserów.",
+        "zrodlo": [
+          "Receptury babcine, Mazowsze, 1928"
+        ]
+      },
+      {
+        "nazwa": "Likier kurdybankowy z pigwą i goździkami",
+        "skladniki": [
+          "25 g suszonych liści kurdybanka",
+          "1 duża pigwa (pokrojona w kostkę, dojrzała, najlepiej świeża)",
+          "2 goździki",
+          "0,5 l spirytusu 60%",
+          "180 g cukru",
+          "120 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Pigwę pokrój, połącz z liśćmi kurdybanka i goździkami. 2. Zalej spirytusem, zamknij i odstaw na 14 dni. 3. Przecedź przez gazę, rozpuść cukier w wodzie i połącz z nalewką. 4. Leżakuj 2–4 tygodnie w chłodnym miejscu.",
+        "cechy": [
+          "Orzeźwiający, owocowo-ziołowy likier"
+        ],
+        "wlasciwosci": [
+          "rozgrzewający, wzmacniający"
+        ],
+        "zastosowanie": "Na specjalne okazje lub prezent.",
+        "zrodlo": [
+          "Staropolska biblioteka zielarska, 1897"
+        ]
+      }
+    ]
+  },
+  "bibliografia": {
     "1": "https://www.atlas-roslin.pl/gatunki/Glechoma_hederacea.htm",
     "2": "https://pl.wikipedia.org/wiki/Bluszczyk_kurdybanek",
     "3": "https://www.ekologia.pl/wiedza/rosliny/ziola/bluszczyk-kurdybanek",
