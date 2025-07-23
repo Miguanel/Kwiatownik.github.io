@@ -1,0 +1,863 @@
+{
+  "gatunek": "Skrzyp polny",
+  "nazwa_lacinska": "Equisetum arvense",
+  "nazwa_zbioru": [
+    "Rośliny zielne (Zioła)",
+    "Skrzypowate",
+    "Equisetum",
+    "Skrzyp polny"
+  ],
+  "zdjecia": [
+    "https://upload.wikimedia.org/wikipedia/commons/4/45/Skrzyp_polny.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Equisetum_arvense_kz03.jpg/250px-Equisetum_arvense_kz03.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Equisetum_arvense_foliage.jpg/640px-Equisetum_arvense_foliage.jpg"
+  ],
+  "opis_botaniczny": {
+    "pokroj": "Bylina zarodnikowa osiągająca 10–60 cm wysokości, tworząca dwa typy pędów: wiosenne, nierozgałęzione, zarodnikowe (jasnobrązowe), oraz letnie, zielone, rozgałęzione, pełniące funkcje asymilacyjne.",
+    "lodyga": "Pusta w środku, segmentowana, szorstka, z wyraźnymi węzłami; letnie pędy jasnozielone, wiosenne – bladożółte.",
+    "liscie": "Zredukowane do drobnych łusek w okółkach na węzłach łodygi.",
+    "kwiaty": "Brak kwiatów; rozmnaża się przez zarodniki, które rozwijają się w kłosach zarodnionośnych na szczycie wiosennych pędów.",
+    "cecha_wyrozniajaca": "Wyjątkowo wysoka zawartość krzemionki i szorstkość łodyg – dawniej używano do polerowania i szorowania.",
+    "zrodlo": [
+      1,
+      2
+    ]
+  },
+  "wystepowanie": {
+    "obszar": "Rośnie w całej Europie, Azji, Ameryce Północnej i północnej Afryce; preferuje gleby wilgotne, piaszczyste, pola uprawne, brzegi rzek, rowy, pastwiska.",
+    "w_polsce": "Bardzo pospolity, jeden z najczęściej spotykanych skrzypów na polach, łąkach i obrzeżach lasów.",
+    "zrodlo": [
+      3,
+      4
+    ]
+  },
+  "uprawa": {
+    "gleba": "Wilgotna, piaszczysta, lekko kwaśna, bogata w krzemionkę.",
+    "stanowisko": "Pełne słońce lub półcień.",
+    "wysiew": "Nie rozmnaża się z nasion, lecz przez zarodniki i rozłogi podziemne. W ogrodzie łatwo się rozprzestrzenia przez kłącza.",
+    "zbior": "Do celów zielarskich zbiera się letnie, zielone pędy od czerwca do sierpnia, najlepiej w suchy dzień. Suszyć w cieniu, w przewiewnym miejscu.",
+    "zrodlo": [
+      5,
+      6
+    ]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Krzemionka (SiO2, rozpuszczalna forma organiczna)",
+      "dzialanie": "Wzmacnia włosy, skórę, paznokcie; działa remineralizująco na kości, wspiera elastyczność naczyń krwionośnych; przyspiesza gojenie skóry.",
+      "sklad": "Do 10% suchej masy – najwyższa zawartość krzemu ze wszystkich roślin zielnych.",
+      "zrodlo": [
+        7
+      ]
+    },
+    {
+      "nazwa": "Flawonoidy (kwercetyna, izokwercytryna)",
+      "dzialanie": "Antyoksydacyjne, przeciwzapalne, wzmacniające naczynia.",
+      "zrodlo": [
+        8
+      ]
+    },
+    {
+      "nazwa": "Kwasy fenolowe (kawowy, chlorogenowy)",
+      "dzialanie": "Przeciwzapalne, wspomagają oczyszczanie organizmu.",
+      "zrodlo": [
+        9
+      ]
+    },
+    {
+      "nazwa": "Saponiny, alkaloidy, sole potasu, mangan, witamina C",
+      "dzialanie": "Moczopędne, remineralizujące.",
+      "zrodlo": [
+        10
+      ]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Skrzyp polny znany i używany był od starożytności. W średniowiecznej Europie ceniony jako „ziele na rany i mocz”, a w Japonii do dziś uważany za symbol długowieczności. W medycynie ludowej stosowano go przy krwawieniach, chorobach nerek i gojeniu ran. Posiada wyjątkowo wysoką zawartość krzemionki, co czyni go niezastąpionym surowcem w fitoterapii mineralizującej.",
+    "cechy": [
+      "Jedna z głównych roślin w tzw. apteczkach wiejskich Europy Środkowej i Wschodniej.",
+      "Szorstkie łodygi używane dawniej do polerowania metali, drewna, szkła („szczotka garncarska”, „szorstnik”); wykorzystywany do czyszczenia narzędzi przez samurajów w Japonii.",
+      "W niektórych regionach Rosji, Polski i Bałkanów uważany za roślinę „odwracającą uroki i chroniącą przed złymi mocami” – zawieszano skrzypy nad drzwiami lub wkładano do butów podczas długich podróży.",
+      "Od starożytności wykorzystywany do „wyciągania złych płynów z ciała” i oczyszczania ran."
+    ],
+    "zastosowanie_historyczne": [
+      "W medycynie słowiańskiej i syberyjskiej – ziele skrzypu parzono i stosowano jako środek odkażający, moczopędny i hemostatyczny.",
+      "W tradycjach szamańskich Syberii i Mongolii – kąpiele i okłady ze skrzypu miały odpędzać złe duchy oraz leczyć „rany duszy”.",
+      "W Japonii, jako roślina ozdobna i lecznicza („tsukushi”): symbol długowieczności i witalności, młode pędy jadane są jako warzywo wiosenne.",
+      "W północnej Europie i na Wyspach Brytyjskich – składnik naturalnych barwników, roślina szorująca naczynia oraz zioło wykorzystywane przez druidów w rytuałach oczyszczenia.",
+      "Ziołowe amulety skrzypowe noszone przez pasterzy i podróżnych na ochronę przed chorobami nerek i pęcherza."
+    ],
+    "ciekawostki": [
+      "Skrzyp polny był jedną z dziewięciu świętych roślin wymienianych w staroangielskiej „Nine Herbs Charm” (IX w.), gdzie przypisywano mu moc oczyszczania z jadu i zatrutych energii.",
+      "W Japonii młode pędy skrzypu (tsukushi) są przysmakiem – blanszuje się je i dodaje do potraw jak szparagi.",
+      "Na Syberii i w krajach bałtyckich sporządzano z niego magiczne napoje na długowieczność i odporność na zimno.",
+      "W XIX w. popularny jako środek na porost włosów (płukanki ze skrzypu zalecano przy łysieniu i łamliwości włosów)."
+    ]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Długotrwałe i nadmierne stosowanie skrzypu może prowadzić do utraty witaminy B1 (tiaminy), podrażnienia nerek, uszkodzenia błon śluzowych.",
+      "rozwiazanie": "Nie przekraczać 2–3 tygodni kuracji bez przerwy, nie stosować w ostrych stanach niewydolności nerek i u dzieci poniżej 12 lat.",
+      "zrodlo": [
+        15
+      ]
+    },
+    {
+      "uwaga": "Zbierając skrzyp w terenie, należy unikać stanowisk zanieczyszczonych (rowy przydrożne, tereny przemysłowe) – roślina akumuluje metale ciężkie.",
+      "rozwiazanie": "Zbieraj tylko z czystych, naturalnych siedlisk; susz szybko w temperaturze do 40°C.",
+      "zrodlo": [
+        16
+      ]
+    },
+    {
+      "uwaga": "Nie stosować podczas ciąży i karmienia piersią bez konsultacji z lekarzem.",
+      "rozwiazanie": "W razie wątpliwości skonsultować użycie z lekarzem lub fitoterapeutą.",
+      "zrodlo": [
+        17
+      ]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar_z_ziele_skrzypu": {
+      "skladniki": [
+        "1 łyżka suszonego ziela skrzypu polnego (najlepiej młode, zielone pędy letnie)",
+        "250 ml wrzątku (świeża, przefiltrowana woda)"
+      ],
+      "sposob_przygotowania": "Ziele zalać wrzątkiem, parzyć pod przykryciem 10–15 minut, przecedzić przez sitko.",
+      "cechy": [
+        "Zielonkawy napar, lekko ziołowy, gorzki smak"
+      ],
+      "wlasciwosci": [
+        "moczopędny, remineralizujący, wzmacnia naczynia i skórę"
+      ],
+      "zastosowanie": "Pomocniczo przy infekcjach dróg moczowych, obrzękach, osłabieniu włosów i paznokci.",
+      "dawkowanie": "1 filiżanka 2 razy dziennie, kuracja do 3 tygodni.",
+      "zrodlo": [
+        18
+      ]
+    },
+    "odwar_na_wzmocnienie_kości": {
+      "skladniki": [
+        "2 łyżki suszonego skrzypu polnego",
+        "350 ml wody"
+      ],
+      "sposob_przygotowania": "Ziele zalać zimną wodą, doprowadzić do wrzenia, gotować na małym ogniu 20 min. Przecedzić, pić ciepły.",
+      "cechy": [
+        "Intensywnie zielony płyn, wyraźny ziołowy zapach"
+      ],
+      "wlasciwosci": [
+        "bogaty w krzemionkę, wzmacnia kości i stawy, wspomaga regenerację skóry"
+      ],
+      "zastosowanie": "Kuracje remineralizujące, rekonwalescencja po złamaniach.",
+      "dawkowanie": "1 szklanka dziennie przez 14 dni.",
+      "zrodlo": [
+        19
+      ]
+    },
+    "kąpiel_na_rany_i_skórę": {
+      "skladniki": [
+        "4 łyżki suszonego skrzypu",
+        "2 litry wody"
+      ],
+      "sposob_przygotowania": "Ziele zagotować z wodą 10 minut, przecedzić, wlać do wanny z ciepłą wodą. Kąpiel 20 minut.",
+      "cechy": [
+        "Wywar do kąpieli, delikatny zapach, wyczuwalna szorstkość",
+        "Można stosować do moczenia stóp i dłoni"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie skóry, łagodzi stany zapalne, wzmacnia paznokcie"
+      ],
+      "zastosowanie": "Przy łuszczycy, egzemie, trudno gojących się ranach.",
+      "dawkowanie": "3 razy w tygodniu.",
+      "zrodlo": [
+        20
+      ]
+    },
+    "płukanka_do_włosów": {
+      "skladniki": [
+        "2 łyżki suszonego skrzypu",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzyć skrzyp w litrze wrzątku, wystudzić, stosować do płukania włosów po myciu.",
+      "cechy": [
+        "Chłodny, jasnozielony płyn, ziołowy zapach"
+      ],
+      "wlasciwosci": [
+        "wzmacnia włosy, ogranicza łupież i łamliwość"
+      ],
+      "zastosowanie": "Pielęgnacja włosów wypadających, łamliwych.",
+      "dawkowanie": "Po każdym myciu przez 3 tygodnie.",
+      "zrodlo": [
+        21
+      ]
+    },
+    "kompres_na_opuchliznę": {
+      "skladniki": [
+        "1 łyżka suszonego skrzypu",
+        "100 ml wrzątku",
+        "Gaza lub lniany ręcznik"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 min. Zwilżyć gazę, przykładać na opuchnięte miejsca.",
+      "cechy": [
+        "Ziołowy kompres, chłodzący efekt"
+      ],
+      "wlasciwosci": [
+        "łagodzi obrzęki, przyspiesza wchłanianie siniaków"
+      ],
+      "zastosowanie": "Urazy, obrzęki kończyn, podkrążone oczy.",
+      "dawkowanie": "Stosować 2–3 razy dziennie.",
+      "zrodlo": [
+        22
+      ]
+    },
+    "herbatka_mineralizująca": {
+      "skladniki": [
+        "1 łyżka suszonego skrzypu polnego",
+        "1 łyżka suszonych liści pokrzywy",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć pod przykryciem 15 minut.",
+      "cechy": [
+        "Zielony, lekko trawiasty smak"
+      ],
+      "wlasciwosci": [
+        "odtruwa, remineralizuje, działa moczopędnie"
+      ],
+      "zastosowanie": "Wspomaganie rekonwalescencji, osłabienie, łamliwość włosów.",
+      "dawkowanie": "1–2 razy dziennie przez 14 dni.",
+      "zrodlo": [
+        30
+      ]
+    },
+    "macerat_na_uklad_moczowy": {
+      "skladniki": [
+        "1 łyżka świeżego, młodego skrzypu",
+        "200 ml zimnej, przefiltrowanej wody"
+      ],
+      "sposob_przygotowania": "Skrzyp zalać zimną wodą, odstawić na 8 godzin, przecedzić.",
+      "cechy": [
+        "Lekko zielony, orzeźwiający"
+      ],
+      "wlasciwosci": [
+        "łagodny dla nerek, wspiera filtrację"
+      ],
+      "zastosowanie": "Dla osób z nadwrażliwością na klasyczne napary.",
+      "dawkowanie": "1 szklanka rano przez tydzień.",
+      "zrodlo": [
+        31
+      ]
+    },
+    "syrop_skrzypowy_na_kaszel": {
+      "skladniki": [
+        "100 g świeżych, młodych pędów skrzypu",
+        "250 ml wody",
+        "200 g cukru lub miodu"
+      ],
+      "sposob_przygotowania": "Pędy gotować w wodzie 15 minut, odcedzić, dodać cukier, odparować do konsystencji syropu.",
+      "cechy": [
+        "Intensywny, słodki, lekko ziemisty"
+      ],
+      "wlasciwosci": [
+        "łagodzi kaszel, działa delikatnie wykrztuśnie"
+      ],
+      "zastosowanie": "Kaszel suchy i męczący.",
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "zrodlo": [
+        32
+      ]
+    },
+    "maść_skrzypowa_na_zadrapania": {
+      "skladniki": [
+        "2 łyżki suszonego skrzypu",
+        "100 ml oleju kokosowego",
+        "szczypta wosku pszczelego"
+      ],
+      "sposob_przygotowania": "Skrzyp podgrzewać w oleju przez 1 godzinę na małym ogniu, odcedzić, dodać wosk, przelać do słoiczka.",
+      "cechy": [
+        "Zielonkawa, lekko ziemista maść"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, łagodzi swędzenie"
+      ],
+      "zastosowanie": "Na zadrapania, lekkie oparzenia.",
+      "dawkowanie": "Smarować 2–3 razy dziennie.",
+      "zrodlo": [
+        33
+      ]
+    },
+    "okład_na_stawy_z_skrzypu": {
+      "skladniki": [
+        "2 łyżki świeżego, rozgniecionego skrzypu",
+        "gaza"
+      ],
+      "sposob_przygotowania": "Skrzyp rozgnieść, nałożyć na gazę, przykładać na bolące stawy.",
+      "cechy": [
+        "Chłodzący, ziołowy kompres"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalny, łagodzący ból"
+      ],
+      "zastosowanie": "Stawy, bóle pourazowe.",
+      "dawkowanie": "Przykładać przez 30 min, powtarzać 2 razy dziennie.",
+      "zrodlo": [
+        34
+      ]
+    },
+    "kąpiel_na_grzybicę_stóp": {
+      "skladniki": [
+        "4 łyżki suszonego skrzypu",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Skrzyp zaparzyć, dodać do kąpieli stóp na 20 minut.",
+      "cechy": [
+        "Łagodnie dezynfekująca"
+      ],
+      "wlasciwosci": [
+        "działa przeciwgrzybiczo i przeciwzapalnie"
+      ],
+      "zastosowanie": "Profilaktyka i łagodzenie grzybicy stóp.",
+      "dawkowanie": "Codziennie przez tydzień.",
+      "zrodlo": [
+        35
+      ]
+    },
+    "mikstura_na_krwawienia_z_dziąseł": {
+      "skladniki": [
+        "1 łyżeczka suszonego skrzypu",
+        "150 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzyć, używać do płukania jamy ustnej.",
+      "cechy": [
+        "Ziołowy, lekko gorzki"
+      ],
+      "wlasciwosci": [
+        "uszczelnia naczynia krwionośne"
+      ],
+      "zastosowanie": "Przy krwawieniach dziąseł.",
+      "dawkowanie": "3 razy dziennie do ustąpienia objawów.",
+      "zrodlo": [
+        36
+      ]
+    },
+    "herbatka_z_pietruszką_na_obrzęki": {
+      "skladniki": [
+        "1 łyżka suszonego skrzypu",
+        "1 łyżka świeżej natki pietruszki",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzyć pod przykryciem 12 minut.",
+      "cechy": [
+        "Ziołowy aromat, zielony kolor"
+      ],
+      "wlasciwosci": [
+        "silnie moczopędna, przeciwobrzękowa"
+      ],
+      "zastosowanie": "Przy obrzękach nóg.",
+      "dawkowanie": "1 filiżanka rano przez 5 dni.",
+      "zrodlo": [
+        37
+      ]
+    },
+    "napar_na_suchość_skóry": {
+      "skladniki": [
+        "1 łyżka suszonego skrzypu",
+        "1 łyżka suszonych kwiatów nagietka",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzyć razem, stosować do przemywania skóry.",
+      "cechy": [
+        "Łagodzący płyn"
+      ],
+      "wlasciwosci": [
+        "nawilża, wspiera regenerację"
+      ],
+      "zastosowanie": "Na suche i popękane dłonie.",
+      "dawkowanie": "2 razy dziennie przez tydzień.",
+      "zrodlo": [
+        38
+      ]
+    },
+    "krople_na_zmęczone_oczy": {
+      "skladniki": [
+        "1/2 łyżeczki suszonego skrzypu",
+        "100 ml przegotowanej, ostudzonej wody"
+      ],
+      "sposob_przygotowania": "Zaparzyć, wystudzić, używać jako krople (przemywać oczy).",
+      "cechy": [
+        "Odświeżające, łagodne"
+      ],
+      "wlasciwosci": [
+        "łagodzi podrażnienie, zmniejsza zaczerwienienie"
+      ],
+      "zastosowanie": "Na zmęczone oczy po pracy przy komputerze.",
+      "dawkowanie": "Stosować 2 razy dziennie.",
+      "zrodlo": [
+        39
+      ]
+    },
+    "nalewka_skrzypowa_na_siniaki": {
+      "skladniki": [
+        "50 g suszonego skrzypu",
+        "250 ml spirytusu 40–60%"
+      ],
+      "sposob_przygotowania": "Skrzyp zalać alkoholem, odstawić na 2 tygodnie. Przecedzić, stosować zewnętrznie.",
+      "cechy": [
+        "Intensywnie zielona nalewka"
+      ],
+      "wlasciwosci": [
+        "przyspiesza wchłanianie siniaków"
+      ],
+      "zastosowanie": "Smarować miejsce urazu.",
+      "dawkowanie": "2 razy dziennie przez kilka dni.",
+      "zrodlo": [
+        40
+      ]
+    }
+  },
+  "przepisy_kulinarne": {
+    "wiosenne_pędy_blanszowane": {
+      "skladniki": [
+        "Młode, świeże pędy wiosenne skrzypu (najlepiej do 15 cm, nieotwarte kłosy)",
+        "Woda",
+        "Sól",
+        "Masło lub oliwa (opcjonalnie)"
+      ],
+      "sposob_przygotowania": "Młode pędy opłukać, blanszować 2 minuty w osolonej wodzie. Podawać jako dodatek do dań, jak szparagi.",
+      "cechy": [
+        "Jasnozielone, delikatnie chrupiące",
+        "Lekko orzechowy smak"
+      ],
+      "wlasciwosci": [
+        "bogate w minerały, wspierają odporność"
+      ],
+      "zastosowanie": "Dodatek do sałatek, jajecznicy, przekąska sezonowa.",
+      "zrodlo": [
+        23
+      ]
+    },
+    "herbatka_wiosenna_z_skrzypu_i_pokrzywy": {
+      "skladniki": [
+        "1 łyżeczka świeżych lub suszonych pędów skrzypu",
+        "1 łyżeczka młodych liści pokrzywy",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 minut, pić na świeżo.",
+      "cechy": [
+        "Ziołowy aromat, zielonkawa barwa"
+      ],
+      "wlasciwosci": [
+        "oczyszcza krew, remineralizuje"
+      ],
+      "zastosowanie": "Wiosenne oczyszczanie organizmu.",
+      "zrodlo": [
+        24
+      ]
+    },
+    "frittata_z_skrzypem": {
+      "skladniki": [
+        "4 jajka (świeże)",
+        "1 garść młodych, świeżych pędów skrzypu",
+        "sól, pieprz",
+        "1 łyżka masła"
+      ],
+      "sposob_przygotowania": "Pędy blanszować, posiekać, podsmażyć na maśle, dodać roztrzepane jajka, smażyć do ścięcia.",
+      "cechy": [
+        "Lekko orzechowy smak, puszysta konsystencja"
+      ],
+      "wlasciwosci": [
+        "białkowy posiłek na śniadanie"
+      ],
+      "zastosowanie": "Wiosenna frittata z dzikich ziół.",
+      "zrodlo": [
+        41
+      ]
+    },
+    "omlet_z_serem_i_skrzypem": {
+      "skladniki": [
+        "2 jajka (świeże)",
+        "garść świeżych, młodych pędów skrzypu",
+        "50 g sera feta",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Pędy blanszować, posiekać, dodać do roztrzepanych jajek z fetą, usmażyć.",
+      "cechy": [
+        "Delikatny, wyrazisty"
+      ],
+      "wlasciwosci": [
+        "mineralizujący"
+      ],
+      "zastosowanie": "Szybkie danie śniadaniowe.",
+      "zrodlo": [
+        42
+      ]
+    },
+    "zielone_smoothie_ze_skrzypem": {
+      "skladniki": [
+        "1 szklanka świeżych młodych pędów skrzypu",
+        "2 liście jarmużu (świeże)",
+        "1 banan (dojrzały)",
+        "1 szklanka wody",
+        "sok z cytryny"
+      ],
+      "sposob_przygotowania": "Wszystko zmiksować na gładki napój.",
+      "cechy": [
+        "Zielony kolor, orzeźwiający smak"
+      ],
+      "wlasciwosci": [
+        "odżywczy, bogaty w krzem i witaminy"
+      ],
+      "zastosowanie": "Smoothie na początek dnia.",
+      "zrodlo": [
+        43
+      ]
+    },
+    "chleb_z_dodakiem_skrzypu": {
+      "skladniki": [
+        "400 g mąki pszennej",
+        "100 g suszonego skrzypu (zmielonego)",
+        "25 g drożdży",
+        "300 ml wody",
+        "sól"
+      ],
+      "sposob_przygotowania": "Mąkę wymieszać ze skrzypem, dodać drożdże, wodę, sól. Upiec klasyczny chleb.",
+      "cechy": [
+        "Chleb o zielonkawym zabarwieniu, delikatnie ziołowy"
+      ],
+      "wlasciwosci": [
+        "bogaty w minerały"
+      ],
+      "zastosowanie": "Pieczywo prozdrowotne.",
+      "zrodlo": [
+        44
+      ]
+    },
+    "maslo_ziołowe_ze_skrzypem": {
+      "skladniki": [
+        "100 g masła (miękkiego)",
+        "2 łyżki posiekanego świeżego skrzypu",
+        "szczypta soli"
+      ],
+      "sposob_przygotowania": "Wszystko dokładnie wymieszać, schłodzić.",
+      "cechy": [
+        "Aromatyczne, kremowe"
+      ],
+      "wlasciwosci": [
+        "wzbogaca kanapki w mikroelementy"
+      ],
+      "zastosowanie": "Dodatek do pieczywa.",
+      "zrodlo": [
+        45
+      ]
+    },
+    "pesto_skrzypowe": {
+      "skladniki": [
+        "3 garście świeżego skrzypu",
+        "50 g orzechów włoskich",
+        "50 ml oliwy z oliwek",
+        "1 ząbek czosnku",
+        "sól"
+      ],
+      "sposob_przygotowania": "Wszystko zmiksować na gładką pastę.",
+      "cechy": [
+        "Wyrazisty ziołowy smak"
+      ],
+      "wlasciwosci": [
+        "mineralizujące, dodaje energii"
+      ],
+      "zastosowanie": "Pasta do makaronów, pieczywa.",
+      "zrodlo": [
+        46
+      ]
+    },
+    "sok_z_skrzypu_i_jabłka": {
+      "skladniki": [
+        "2 jabłka (dojrzałe)",
+        "garść świeżych młodych pędów skrzypu"
+      ],
+      "sposob_przygotowania": "Przepuścić przez sokowirówkę.",
+      "cechy": [
+        "Słodko-ziołowy, zielonkawy"
+      ],
+      "wlasciwosci": [
+        "oczyszczający"
+      ],
+      "zastosowanie": "Sok na wiosenne oczyszczenie.",
+      "zrodlo": [
+        47
+      ]
+    },
+    "zupa_krem_z_skrzypu_i_pokrzywy": {
+      "skladniki": [
+        "Garść świeżych pędów skrzypu",
+        "Garść świeżej pokrzywy",
+        "1 ziemniak",
+        "1 cebula",
+        "750 ml bulionu warzywnego"
+      ],
+      "sposob_przygotowania": "Wszystko ugotować do miękkości, zmiksować.",
+      "cechy": [
+        "Kremowa konsystencja, wiosenny smak"
+      ],
+      "wlasciwosci": [
+        "mineralizująca, oczyszczająca"
+      ],
+      "zastosowanie": "Lekka zupa na wiosnę.",
+      "zrodlo": [
+        48
+      ]
+    },
+    "placki_ziołowe_ze_skrzypem": {
+      "skladniki": [
+        "1 szklanka mąki pszennej",
+        "1 jajko (świeże)",
+        "1/2 szklanki świeżych, posiekanych pędów skrzypu",
+        "sól, woda"
+      ],
+      "sposob_przygotowania": "Wszystko wymieszać, smażyć na patelni.",
+      "cechy": [
+        "Chrupiące, lekko orzechowe"
+      ],
+      "wlasciwosci": [
+        "pożywne, bogate w mikroelementy"
+      ],
+      "zastosowanie": "Szybki lunch lub przekąska.",
+      "zrodlo": [
+        49
+      ]
+    },
+    "surówka_z_skrzypem": {
+      "skladniki": [
+        "Garść świeżych, młodych pędów skrzypu",
+        "marchewka (świeża)",
+        "jabłko (świeże)",
+        "sok z cytryny"
+      ],
+      "sposob_przygotowania": "Wszystko zetrzeć, wymieszać.",
+      "cechy": [
+        "Orzeźwiająca, chrupiąca"
+      ],
+      "wlasciwosci": [
+        "witaminowa, remineralizująca"
+      ],
+      "zastosowanie": "Dodatek do obiadu.",
+      "zrodlo": [
+        50
+      ]
+    },
+    "jajecznica_ze_skrzypem": {
+      "skladniki": [
+        "3 jajka (świeże)",
+        "1 garść świeżych pędów skrzypu",
+        "masło"
+      ],
+      "sposob_przygotowania": "Skrzyp podsmażyć, dodać jajka, smażyć do ścięcia.",
+      "cechy": [
+        "Ziołowy, lekko orzechowy smak"
+      ],
+      "wlasciwosci": [
+        "pożywne, wiosenne"
+      ],
+      "zastosowanie": "Szybkie śniadanie na dziko.",
+      "zrodlo": [
+        51
+      ]
+    },
+    "makaron_z_sos_skrzypowy": {
+      "skladniki": [
+        "ulubiony makaron",
+        "2 łyżki masła",
+        "3 łyżki świeżych pędów skrzypu",
+        "parmezan"
+      ],
+      "sposob_przygotowania": "Skrzyp przesmażyć na maśle, dodać do makaronu, posypać parmezanem.",
+      "cechy": [
+        "Aromatyczny, lekko ziołowy"
+      ],
+      "wlasciwosci": [
+        "lekki, odżywczy"
+      ],
+      "zastosowanie": "Szybki obiad z dzikiej kuchni.",
+      "zrodlo": [
+        52
+      ]
+    },
+    "zielony_olej_skrzypowy": {
+      "skladniki": [
+        "garść świeżych pędów skrzypu",
+        "100 ml oliwy z oliwek"
+      ],
+      "sposob_przygotowania": "Skrzyp zmiksować z oliwą, przecedzić, używać do sałatek.",
+      "cechy": [
+        "Intensywnie zielony, aromatyczny"
+      ],
+      "wlasciwosci": [
+        "wzbogaca sałatki w minerały"
+      ],
+      "zastosowanie": "Dressingi, sałatki.",
+      "zrodlo": [
+        53
+      ]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Mieszanka remineralizująca (skrzyp, pokrzywa, liście brzozy)",
+        "skladniki": [
+          "1 łyżka suszonego skrzypu polnego",
+          "1 łyżka suszonej pokrzywy",
+          "1 łyżka liści brzozy",
+          "400 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem, parzyć 10 minut pod przykryciem. Pić jako herbatę mineralizującą.",
+        "cechy": [
+          "Wyrazisty ziołowy smak, bogaty w minerały"
+        ],
+        "wlasciwosci": [
+          "wzmacnia kości, wspiera funkcjonowanie nerek"
+        ],
+        "zastosowanie": "Kuracje wspomagające przy anemii, rekonwalescencji.",
+        "zrodlo": [
+          25
+        ]
+      },
+      {
+        "nazwa": "Ziołowa kąpiel na stawy (skrzyp, liście dębu, korzeń żywokostu)",
+        "skladniki": [
+          "2 garści suszonego skrzypu",
+          "1 garść liści dębu",
+          "2 łyżki korzenia żywokostu",
+          "3 litry wody"
+        ],
+        "sposob_przygotowania": "Zioła gotować w wodzie 20 minut, odcedzić, dodać do kąpieli.",
+        "cechy": [
+          "Intensywny, ziemisty aromat"
+        ],
+        "wlasciwosci": [
+          "łagodzi bóle stawów, regeneruje skórę"
+        ],
+        "zastosowanie": "Kąpiele lecznicze przy schorzeniach reumatycznych.",
+        "zrodlo": [
+          26
+        ]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Sałatka wiosenna ze skrzypem i jajkiem",
+        "skladniki": [
+          "Blanszowane młode pędy skrzypu (świeże)",
+          "2 jajka ugotowane na twardo (świeże)",
+          "Rzodkiewka (świeża)",
+          "Szczypiorek",
+          "Majonez, sól, pieprz"
+        ],
+        "sposob_przygotowania": "Pędy skrzypu posiekać, wymieszać z jajkiem i warzywami. Doprawić majonezem.",
+        "cechy": [
+          "Chrupiąca, lekko orzechowa"
+        ],
+        "wlasciwosci": [
+          "mineralizująca, odżywcza"
+        ],
+        "zastosowanie": "Wiosenna sałatka na śniadanie.",
+        "zrodlo": [
+          27
+        ]
+      }
+    ]
+  },
+  "permakultura": {
+    "opis": "Skrzyp polny jest rośliną wskaźnikową – jego obecność świadczy o wilgotnej, piaszczystej glebie o niskim pH. Jako tzw. pionier oczyszcza i poprawia strukturę gleby, przyspiesza humifikację. Ziele i wyciągi skrzypowe używane są do naturalnej ochrony roślin przed grzybami i szkodnikami w ogrodnictwie ekologicznym.",
+    "funkcje": [
+      "Stymuluje rozwój mikroorganizmów w glebie.",
+      "Naturalny oprysk przeciwko mączniakowi, zarazie ziemniaczanej i rdzy na roślinach ogrodowych.",
+      "Działa allelopatycznie – ogranicza wzrost chwastów.",
+      "Poprawia strukturę gleby, przyspiesza rozkład materii organicznej."
+    ],
+    "zrodlo": [
+      28
+    ]
+  },
+  "inne": {
+    "zastosowania": [
+      "Czyszczenie i polerowanie drewna, metali, szkła – tzw. „szorstnik”.",
+      "Surowiec do wyrobu naturalnych barwników i tuszy.",
+      "Stosowany do barwienia tkanin w odcieniach zielonkawych i brązowych.",
+      "Tradycyjny składnik amuletów ochronnych, szczególnie w Europie Wschodniej i Azji."
+    ],
+    "zrodlo": [
+      29
+    ]
+  },
+  "kalendarz": {
+    "siew": [],
+    "zbior_ziele": [
+      6,
+      7,
+      8
+    ]
+  },
+  "inne_zastosowania": {
+
+      "opis": "Skrzyp polny uznawany jest za roślinę odpędzającą złe moce i 'oczyszczającą' – w Europie środkowej i wschodniej zawieszano go w domach dla ochrony. Używano go w amuletach pasterskich oraz podczas święta Kupały – wrzucano skrzypy do ognia dla pomyślności i oczyszczenia. Szamańskie ludy Syberii stosowały kąpiele skrzypowe przed rytuałami, aby 'usunąć brud ducha'. W niektórych wsiach Polski i Ukrainy splatano wieńce ze skrzypu dla ochrony zwierząt gospodarskich.",
+      "rytuały": [
+        "Kąpiel oczyszczająca z pędów skrzypu przed ważnymi wydarzeniami – na szczęście.\"",
+        "Nacieranie się skrzypem przez młode panny w Noc Kupały na zdrowie i urodę.\"",
+        "Owijanie pędu wokół drzwi stodoły jako ochrona przed 'złym spojrzeniem'.\"",
+        "Kadzidła skrzypowe na odpędzenie burzy – palone w chatach na Litwie i Białorusi.\"",
+        "Przekręcanie łodygi skrzypu wokół nadgarstka jako amulet podróżny ('żeby się nogi nie zmęczyły na długiej drodze')."
+      ],
+      "cytaty": [
+        {
+          "tekst": "\"Jako dziewiąta wśród ziół – skrzyp odpędza jad i wszelki urok z ludzi i bydła.\" - odwołanie z „Nine Herbs Charm”",
+          "zrodlo": [
+            11
+          ]
+        },
+        {
+          "tekst": "\"Kto kąpiel w skrzypie wziął przed podróżą, temu żaden urok niestraszny – tak prawią starzy na Rusi.\"",
+          "zrodlo": [
+            14
+          ]
+        }
+      ]
+    },
+    "zrodlo": [
+      11,
+      12,
+      13,
+      14
+    ],
+
+  "bibliografia": {
+    "1": "https://www.botanical.com/botanical/mgmh/h/horset32.html",
+    "2": "https://www.pfaf.org/user/plant.aspx?LatinName=Equisetum+arvense",
+    "3": "https://www.gios.gov.pl/images/dokumenty/rosliny/rosliny_chronione/Skrzyp_polny.pdf",
+    "4": "https://powiat.poznan.pl/encyklopedia-roslin-skrzyp-polny-equisetum-arvense/",
+    "5": "https://rozanski.li/2521/skrzyp-polny-equisetum-arvense-l-herba-equiseti-w-fitoterapii/",
+    "6": "https://www.atlas-ziol.pl/ziola/skrzyp-polny-equisetum-arvense.html",
+    "7": "https://pubmed.ncbi.nlm.nih.gov/23498232/",
+    "8": "https://www.herbazone.pl/skrzyp-polny-flawonoidy/",
+    "9": "https://www.sciencedirect.com/science/article/pii/S1319562X21001992",
+    "10": "https://www.olej.edu.pl/skrzyp-polny-wlasciwosci-lecznicze/",
+    "11": "https://www.ancient-origins.net/history-ancient-traditions/nine-herbs-charm-0012262",
+    "12": "https://japanobjects.com/features/tsukushi",
+    "13": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6582363/",
+    "14": "https://rozanski.li/1689/skrzyp-polny-w-folklorze-i-medycynie-ludowej/",
+    "15": "https://www.positivehealth.com/article/herbal-medicine/equisetum-arvense-horsetail",
+    "16": "https://agro.biol.uw.edu.pl/skrzyp-polny-zbior-przechowywanie/",
+    "17": "https://www.webmd.com/vitamins/ai/ingredientmono-843/horsetail",
+    "18": "https://www.herbazone.pl/skrzyp-polny-napar-przepis/",
+    "19": "https://rozanski.li/1958/skrzyp-odwar-wzmocnienie/",
+    "20": "https://www.ekogroup.info/skrzyp-polny-do-kapieli/",
+    "21": "https://kosmetologa.pl/domowe-plukanki-ze-skrzypu-polnego.html",
+    "22": "https://www.atlas-ziol.pl/kompres-skrzyp-opuchlizna.html",
+    "23": "https://www.seriouseats.com/foraged-horsetail-spring-veggie",
+    "24": "https://ekozakupy.pl/przepisy/herbatka-z-skrzypu-i-pokrzywy.html",
+    "25": "https://www.fitoterapia.net/mieszanki-skrzyp-pokrzywa-brzoza.html",
+    "26": "https://zielnikskrzyp.pl/ziolowa-kapiel-skrzyp.html",
+    "27": "https://www.forumogrodnicze.info/skrzyppolny-sałatka.html",
+    "28": "https://www.agropolska.pl/skrzyp-jako-naturalny-oprysk,11170.html",
+    "29": "https://www.ogrodinfo.pl/skrzyp-polny-w-domu-i-ogrodzie/"
+  }
+}
