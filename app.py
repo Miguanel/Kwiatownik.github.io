@@ -74,6 +74,7 @@ def all_plants():
             })
     return out
 
+
 @app.route("/generator_przepisow")
 def generator_przepisow():
     return render_template("generator_przepisow.html", all_plants=all_plants())
@@ -113,6 +114,7 @@ def lista(category):
     return render_template("lista.html", category=category, wyniki=wyniki, q=q, dzialanie=dzialanie,
                            tylko_trujace=tylko_trujace, sort=sort)
 
+
 @app.route("/szukaj")
 def search():
     q = request.args.get("q", "").strip()
@@ -126,11 +128,11 @@ def search():
 
         # Sekcja 1: TYLKO nazwa gatunku i podgatunku (oraz łacińska)
         if (
-            q_lower in (data.get("gatunek", "").lower())
-            or q_lower in (data.get("podgatunek") or "").lower()
-            or q_lower in (data.get("nazwa_lacinska") or "").lower()
+                q_lower in (data.get("gatunek", "").lower())
+                or q_lower in (data.get("podgatunek") or "").lower()
+                or q_lower in (data.get("nazwa_lacinska") or "").lower()
         ):
-            name_match.append(("Nazwa", highlight(f"{data.get('gatunek','')} ({data.get('nazwa_lacinska','')})", q)))
+            name_match.append(("Nazwa", highlight(f"{data.get('gatunek', '')} ({data.get('nazwa_lacinska', '')})", q)))
             plant_copy = plant.copy()
             plant_copy["matches"] = name_match
             results_names.append(plant_copy)
@@ -141,7 +143,8 @@ def search():
         # ...tu wrzuć logikę z wcześniejszego search_in_plant, ale pomiń pole 'gatunek', 'podgatunek', 'nazwa_lacinska'
         # przykład uproszczony poniżej:
         # (wyciągnij, jeśli chcesz bardziej zaawansowane szukanie w szczegółach)
-        for key in ["opis_botaniczny", "wlasciwosci_i_skladniki", "cechy_i_historia", "uwagi_i_ostrzezenia", "przepisy_medyczne", "przepisy_kulinarne"]:
+        for key in ["opis_botaniczny", "wlasciwosci_i_skladniki", "cechy_i_historia", "uwagi_i_ostrzezenia",
+                    "przepisy_medyczne", "przepisy_kulinarne"]:
             value = data.get(key)
             if not value:
                 continue
@@ -170,9 +173,16 @@ def search():
         results_details=results_details,
     )
 
+
 @app.route("/ulubione")
 def ulubione():
     return render_template("ulubione.html", all_plants=all_plants())
+
+
+@app.route("/kontakt")
+def kontakt():
+    return render_template("kontakt.html")
+
 
 @app.route("/porownaj")
 def porownaj():
@@ -198,7 +208,7 @@ def generator_ogrodu():
 @app.route("/<category>/<plant>")
 def roslina(category, plant):
     data = load_plant(category, plant)
-    return render_template("roslina.html", data=data, slug=plant, category=category,all_plants=all_plants())
+    return render_template("roslina.html", data=data, slug=plant, category=category, all_plants=all_plants())
 
 
 @app.route("/<category>/<plant>/bibliografia")
@@ -217,6 +227,7 @@ def fragment(category, plant, grupa):
         slug=plant
     )
 
+
 @app.route("/<category>/<plant>/fragment/przepisy_kulinarne_all")
 def fragment_przepisy_kulinarne_all(category, plant):
     data = load_plant(category, plant)
@@ -226,6 +237,7 @@ def fragment_przepisy_kulinarne_all(category, plant):
                            przepisy=przepisy_solo,
                            mieszanki=mieszanki,
                            data=data)
+
 
 @app.route("/<category>/<plant>/fragment/przepisy_medyczne_all")
 def fragment_przepisy_medyczne_all(category, plant):

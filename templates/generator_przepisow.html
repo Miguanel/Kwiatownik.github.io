@@ -14,26 +14,29 @@
 </div>
 
 <section id="results-section">
-  <div id="searchResults"></div>
+    <div id="searchResults"></div>
 </section>
 <div id="pdf-export-dialog" style="display:none;">
-  <div id="pdf-dialog-bg"></div>
-  <form id="pdf-dialog-form">
-    <h3>Eksport wyników do PDF – opcje</h3>
-    <label style="display:flex;align-items:center;gap:0.8em;margin-bottom:1.1em;">
-      <input type="checkbox" id="pdf-include-highlights" checked>
-      <span>Kolorowe podświetlenia wyszukiwanych fraz</span>
-    </label>
-    <label>
-      Skalowanie czcionki w PDF:<br>
-      <input type="number" id="pdf-font-scale" value="1.0" step="0.1" min="0.5" max="1.5" style="width:4.5em;font-size:1.15em;margin-top:0.2em;">
-      <span style="font-size:0.99em;color:#777;">(0.5–1.5, domyślnie 1.0)</span>
-    </label>
-    <div style="margin-top:1.5em;display:flex;gap:1.3em;">
-      <button type="submit" class="export-pdf-btn" style="margin-right:0;">Eksportuj PDF</button>
-      <button type="button" class="clear-all-btn" style="background:#bbb;color:#333;" onclick="hidePdfDialog()">Anuluj</button>
-    </div>
-  </form>
+    <div id="pdf-dialog-bg"></div>
+    <form id="pdf-dialog-form">
+        <h3>Eksport wyników do PDF – opcje</h3>
+        <label style="display:flex;align-items:center;gap:0.8em;margin-bottom:1.1em;">
+            <input type="checkbox" id="pdf-include-highlights" checked>
+            <span>Kolorowe podświetlenia wyszukiwanych fraz</span>
+        </label>
+        <label>
+            Skalowanie czcionki w PDF:<br>
+            <input type="number" id="pdf-font-scale" value="1.0" step="0.1" min="0.5" max="1.5"
+                   style="width:4.5em;font-size:1.15em;margin-top:0.2em;">
+            <span style="font-size:0.99em;color:#777;">(0.5–1.5, domyślnie 1.0)</span>
+        </label>
+        <div style="margin-top:1.5em;display:flex;gap:1.3em;">
+            <button type="submit" class="export-pdf-btn" style="margin-right:0;">Eksportuj PDF</button>
+            <button type="button" class="clear-all-btn" style="background:#bbb;color:#333;" onclick="hidePdfDialog()">
+                Anuluj
+            </button>
+        </div>
+    </form>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <script>
@@ -356,6 +359,7 @@ searchInputsDiv.innerHTML = '';
 addInputField();
 triggerSearch();
 
+
 </script>
 
 <style>
@@ -524,5 +528,6 @@ triggerSearch();
 @media (max-width: 700px) {
   #pdf-dialog-form { padding: 1.3em 0.5em 1em 0.5em; min-width: unset; }
 }
+
 </style>
 {% endblock %}
