@@ -1,12 +1,54 @@
-<section id="sekcja-biologiczne">
-  <h2>💪 Działanie biologiczne</h2>
-  {% for item in data.wlasciwosci_i_skladniki %}
-    <details class="recepta">
-      <summary>{{ item.nazwa }}</summary>
-      {% if item.sklad %}<p><b>Skład:</b> {{ item.sklad }}</p>{% endif %}
-      {% if item.dzialanie %}<p><b>Działanie:</b> {{ item.dzialanie }}</p>{% endif %}
-      {% if item.ciekawostka %}<p><i>{{ item.ciekawostka }}</i></p>{% endif %}
-      {% if item.zrodlo %}<p>{{ item.zrodlo | join(" ") }}</p>{% endif %}
-    </details>
-  {% endfor %}
-</section>
+
+{% block content %}
+<div class="page">
+  <h2>🧬 Opis botaniczny</h2>
+
+  {% if data.opis_botaniczny %}
+    <ul class="botanic-info">
+      {% if data.opis_botaniczny.pokroj %}
+        <li><b>Pokrój:</b> {{ data.opis_botaniczny.pokroj }}</li>
+      {% endif %}
+      {% if data.opis_botaniczny.kora %}
+        <li><b>Kora:</b> {{ data.opis_botaniczny.kora }}</li>
+      {% endif %}
+      {% if data.opis_botaniczny.liscie %}
+        <li><b>Liście:</b> {{ data.opis_botaniczny.liscie }}</li>
+      {% endif %}
+      {% if data.opis_botaniczny.kwiaty %}
+        <li><b>Kwiaty:</b> {{ data.opis_botaniczny.kwiaty }}</li>
+      {% endif %}
+      {% if data.opis_botaniczny.owoce %}
+        <li><b>Owoce:</b> {{ data.opis_botaniczny.owoce }}</li>
+      {% endif %}
+      {% if data.opis_botaniczny.cecha_wyrozniajaca %}
+        <li><b>Cechy wyróżniające:</b> {{ data.opis_botaniczny.cecha_wyrozniajaca }}</li>
+      {% endif %}
+    </ul>
+
+    {% if data.opis_botaniczny.zrodlo %}
+      <p><small><b>Źródła:</b>
+        {% for z in data.opis_botaniczny.zrodlo %}
+          <a href="{{ data.bibliografia[z|string] }}" target="_blank">[{{ z }}]</a>{% if not loop.last %}, {% endif %}
+        {% endfor %}
+      </small></p>
+    {% endif %}
+  {% else %}
+    <p>Brak danych botanicznych dla tej rośliny.</p>
+  {% endif %}
+</div>
+{% endblock %}
+
+
+<style>
+
+  .botanic-info {
+  margin: 1em 0;
+  padding-left: 1.2em;
+  list-style-type: disc;
+  color: #2f3b2f;
+  font-size: 1.05em;
+}
+.botanic-info li {
+  margin-bottom: 0.6em;
+}
+</style>

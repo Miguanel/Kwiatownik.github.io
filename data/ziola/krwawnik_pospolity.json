@@ -552,7 +552,25 @@
           38
         ]
       }
-    ]
+    ],
+"nalewka_z_krwawnika": {
+  "nazwa": "Nalewka z krwawnika pospolitego",
+  "skladniki": [
+    "50 g świeżego ziela krwawnika (najlepiej młodego, kwitnącego)",
+    "250 ml spirytusu 70%"
+  ],
+  "sposob_przygotowania": "Ziele rozdrobnić, zalać spirytusem w słoiku, odstawić na 14 dni w ciemnym miejscu, codziennie wstrząsać. Po tym czasie przefiltrować do ciemnej butelki.",
+  "wlasciwosci": [
+    "przeciwkrwotoczna",
+    "przeciwzapalna",
+    "regulująca trawienie"
+  ],
+  "zastosowanie": "Pomaga przy problemach trawiennych, skurczach jelit, krwawieniach z nosa (zewnętrznie).",
+  "dawkowanie": "3 razy dziennie po 15–20 kropli w 1/4 szklanki wody.",
+  "zrodlo": [
+    "https://rozanski.li/1446/krwawnik-achillea-millefolium-l-subsp-millefolium-nalewka-z-ziele-i-kwiatu/"
+  ]
+}
   },
   "inne_zastosowania": {
     "kosmetyki": {

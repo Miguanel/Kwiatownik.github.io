@@ -887,6 +887,24 @@
         ]
       }
     ],
+    "nalewka_z_podagrycznika": {
+  "nazwa": "Nalewka z podagrycznika",
+  "skladniki": [
+    "50 g świeżego ziela podagrycznika (najlepiej młodego)",
+    "250 ml wódki 40%"
+  ],
+  "sposob_przygotowania": "Ziele rozdrobnić, zalać alkoholem, odstawić na 10 dni w ciemnym miejscu. Codziennie wstrząsnąć. Przecedzić do butelki.",
+  "wlasciwosci": [
+    "przeciwzapalna",
+    "moczopędna"
+  ],
+  "zastosowanie": "Pomocniczo w leczeniu dny moczanowej, stanów zapalnych stawów.",
+  "dawkowanie": "15 kropli 2 razy dziennie w 1/4 szklanki wody.",
+  "zrodlo": [
+    "https://rozanski.li/1619/podagrycznik-aegopodium-podagraria/"
+  ]
+},
+
     "kiszone_liście_podagrycznika": [
       {
         "nazwa": "Kiszone liście podagrycznika",

@@ -1,114 +1,119 @@
-<section id="sekcja-uprawa">
-  <h2>🌱 Uprawa</h2>
+<h2>🌱 Uprawa</h2>
+<ul class="kwiatownik-uprawa-box">
+  {% if data.uprawa.gleba %}
+    <li><span class="up-label">Gleba:</span> {{ data.uprawa.gleba }}</li>
+  {% endif %}
+  {% if data.uprawa.stanowisko %}
+    <li><span class="up-label">Stanowisko:</span> {{ data.uprawa.stanowisko }}</li>
+  {% endif %}
+  {% if data.uprawa.wysiew %}
+    <li><span class="up-label">Wysiew:</span> {{ data.uprawa.wysiew }}</li>
+  {% endif %}
+  {% if data.uprawa.zbior %}
+    <li><span class="up-label">Zbiór:</span> {{ data.uprawa.zbior }}</li>
+  {% endif %}
+</ul>
 
-  <ul>
-    {% if data.uprawa.gleba %}<li><b>Gleba:</b> {{ data.uprawa.gleba }}</li>{% endif %}
-    {% if data.uprawa.stanowisko %}<li><b>Stanowisko:</b> {{ data.uprawa.stanowisko }}</li>{% endif %}
-    {% if data.uprawa.wysiew %}<li><b>Wysiew:</b> {{ data.uprawa.wysiew }}</li>{% endif %}
-  </ul>
-
-  {% if data.kalendarz %}
-  <section id="sekcja-kalendarz">
+{% if data.kalendarz %}
+<section id="sekcja-kalendarz">
     <h3>📆 Kalendarz zabiegów</h3>
 
     {% set legenda_ikony = {
-      "ekstrakcja": "🧪", "pielenie": "🧤", "przesadzanie": "🧱", "siew": "🌱",
-      "zbior_ksiezyc": "🌕", "zbior_deszcz": "💧", "zbior_ziela": "🍃",
-      "kwitnienie": "🌸", "miodobranie": "🐝", "zbior_kwiatow": "🌼", "zbior_nasion": "🌰",
-      "sadzenie": "🌿", "zbior": "🧺", "cięcie": "✂️", "nawożenie": "",
-      "zabezpieczanie": "🧯", "ochrona": "🛡️", "zbior_lisci": "🍂", "rozmnazanie": "🌾"
+    "ekstrakcja": "🧪", "pielenie": "🧤", "przesadzanie": "🧱", "siew": "🌱",
+    "zbior_ksiezyc": "🌕", "zbior_deszcz": "💧", "zbior_ziela": "🍃",
+    "kwitnienie": "🌸", "miodobranie": "🐝", "zbior_kwiatow": "🌼", "zbior_nasion": "🌰",
+    "sadzenie": "🌿", "zbior": "🧺", "cięcie": "✂️", "nawożenie": "",
+    "zabezpieczanie": "🧯", "ochrona": "🛡️", "zbior_lisci": "🍂", "rozmnazanie": "🌾"
     } %}
 
     <table class="kalendarz-tabela">
-      <thead>
+        <thead>
         <tr>
-          <th>Zabieg</th>
-          {% for m in range(1, 13) %}
+            <th>Zabieg</th>
+            {% for m in range(1, 13) %}
             <th class="{% if m == current_month %}current-month{% endif %}">
-              {{ ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"][m-1] }}
+                {{ ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"][m-1] }}
             </th>
-          {% endfor %}
+            {% endfor %}
         </tr>
-      </thead>
-      <tbody>
+        </thead>
+        <tbody>
         {% for zabieg, dane in data.kalendarz.items() %}
         <tr>
-          <td>
-            {{ legenda_ikony.get(zabieg, "?") }} {{ zabieg.replace("_", " ")|capitalize }}
-          </td>
-          {% for m in range(1, 13) %}
+            <td>
+                {{ legenda_ikony.get(zabieg, "?") }} {{ zabieg.replace("_", " ")|capitalize }}
+            </td>
+            {% for m in range(1, 13) %}
             <td class="
               {% if m in dane.miesiące %} aktywny {% endif %}
               {% if m == current_month %} current {% endif %}
             ">
-              {% if m in dane.miesiące %}✔️{% endif %}
+                {% if m in dane.miesiące %}✔️{% endif %}
             </td>
-          {% endfor %}
+            {% endfor %}
         </tr>
         {% endfor %}
-      </tbody>
+        </tbody>
     </table>
 
-<!--    <div class="kalendarz-status">-->
-<!--      <h3>📍 Status uprawy</h3>-->
-
-<!--      {% set miesiac = current_month|int %}-->
-<!--      {% set aktywne = [] %}-->
-<!--      {% set przyszle = [] %}-->
-
-<!--      {% for zabieg, dane in data.kalendarz.items() %}-->
-<!--        {% set miesiace_raw = dane.miesiące %}-->
-<!--        {% set miesiace_int = miesiace_raw | map('int') | list %}-->
-<!--        {% set jest_teraz = current_month in miesiace_int %}-->
-<!--        {% set pozniejsze = miesiace_int | select('>', current_month) | list %}-->
-
-<!--        {% if jest_teraz %}-->
-<!--          {% set aktywne = aktywne + [zabieg] %}-->
-<!--        {% elif pozniejsze %}-->
-<!--          {% set przyszle = przyszle + [(pozniejsze[0], zabieg)] %}-->
-<!--        {% endif %}-->
-<!--      {% endfor %}-->
-
-
-<!--      {% set przyszle = przyszle|sort(attribute=0) %}-->
-<!--      {% set najblizszy = przyszle[0][1] if przyszle else None %}-->
-
-<!--      {% if aktywne %}-->
-<!--        <p>Obecnie trwa:-->
-<!--          {% for z in aktywne %}-->
-<!--            <span class="status-zabieg">{{ legenda_ikony.get(z, "?") }} {{ z.replace("_", " ")|capitalize }}</span>{% if not loop.last %}, {% endif %}-->
-<!--          {% endfor %}-->
-<!--        </p>-->
-<!--      {% elif najblizszy %}-->
-<!--        <p>Najbliższy zabieg:-->
-<!--          <span class="status-zabieg">{{ legenda_ikony.get(najblizszy, "?") }} {{ najblizszy.replace("_", " ")|capitalize }}</span>-->
-<!--          (w {{ data.kalendarz[najblizszy].miesiące|map('string')|join(', ') }})-->
-<!--        </p>-->
-<!--      {% else %}-->
-<!--        <p>Brak zaplanowanych zabiegów w nadchodzących miesiącach.</p>-->
-<!--      {% endif %}-->
-    </div>
 
     <div class="kalendarz-legenda">
-      <h3>📖 Legenda zabiegów</h3>
-      {% for zabieg, dane in data.kalendarz.items() %}
-      <div class="legenda-zabieg {% if current_month in dane.miesiące %}aktywny-teraz{% endif %}">
+        <h3>📖 Legenda zabiegów</h3>
+        {% for zabieg, dane in data.kalendarz.items() %}
+        <div class="legenda-zabieg {% if current_month in dane.miesiące %}aktywny-teraz{% endif %}">
+            <span class="ikona">{{ legenda_ikony.get(zabieg, "?") }}</span>
+            <strong>{{ zabieg.replace("_", " ")|capitalize }}</strong>
 
-        <span class="ikona">{{ legenda_ikony.get(zabieg, "?") }}</span>
-        <strong>{{ zabieg.replace("_", " ")|capitalize }}</strong><br>
-        <p>{{ dane.czynności }}</p>
-        {% if dane.źródło %}
-          <small>Źródła:
-            {% for z in dane.źródło %}
-              <a href="{{ z }}" target="_blank">[{{ loop.index }}]</a>{% if not loop.last %}, {% endif %}
-            {% endfor %}
-          </small>
-        {% endif %}
-      </div>
-      {% endfor %}
+            <ul style="margin-top:0.5em;">
+                {% if dane.typ %}
+                <li><b>Typ:</b> {{ dane.typ }}</li>
+                {% endif %}
+
+                {% if dane.zalecana_faza_ksiezyca %}
+                <li><b>Faza księżyca:</b> {{ dane.zalecana_faza_ksiezyca }}</li>
+                {% endif %}
+
+                {% if dane.czas_dnia %}
+                <li><b>Pora dnia:</b> {{ dane.czas_dnia }}</li>
+                {% endif %}
+
+                {% if dane.intensywność %}
+                <li><b>Intensywność:</b> {{ dane.intensywność }}</li>
+                {% endif %}
+
+                {% if dane.miesiące %}
+                <li><b>Miesiące:</b>
+                    {{ dane.miesiące | map('string') | join(', ') }}
+                </li>
+                {% endif %}
+
+                {% if dane.czynności %}
+                <li><b>Czynność:</b> {{ dane.czynności }}</li>
+                {% endif %}
+
+                {% if dane.uwagi %}
+                <li><b>Uwagi:</b> {{ dane.uwagi }}</li>
+                {% endif %}
+
+
+            </ul>
+
+            {% if dane.źródło %}
+            <p><small><b>Źródła:</b>
+                {% if dane.źródło is string %}
+                <a href="{{ dane.źródło }}" target="_blank">[link]</a>
+                {% elif dane.źródło is iterable %}
+                {% for z in dane.źródło %}
+                <a href="{{ z }}" target="_blank">[{{ loop.index }}]</a>{% if not loop.last %}, {% endif %}
+                {% endfor %}
+                {% endif %}
+            </small></p>
+            {% endif %}
+        </div>
+        {% endfor %}
     </div>
-  </section>
-  {% endif %}
+</section>
+{% endif %}
 </section>
 
 <style>
@@ -201,5 +206,53 @@
 .legenda-zabieg.aktywny-teraz strong {
   color: #3c6e3c; /* ciemna zieleń dla kontrastu nagłówka */
 }
+
+
+.uprawa-lista {
+  margin: 1.2em 0;
+  padding: 1em 1.5em;
+  background: #f5faf5;
+  border-left: 5px solid #7aa97a;
+  border-radius: 8px;
+  list-style-type: none;
+  box-shadow: 0 1px 3px rgba(120, 150, 120, 0.15);
+  font-size: 1.05em;
+}
+
+.uprawa-lista li {
+  margin-bottom: 0.7em;
+  line-height: 1.5em;
+  position: relative;
+  padding-left: 1.2em;
+}
+
+
+.uprawa-lista .up-label {
+  font-weight: 600;
+  color: #3a653a;
+}
+.kwiatownik-uprawa-box {
+  margin: 1.5em 0;
+  padding: 1.4em 1.8em;
+  background: #f4fdf4;
+  border-left: 6px solid #8bbf91;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(130, 160, 130, 0.12);
+  list-style: none;
+  font-size: 1.05em;
+  color: #2d3d2d;
+}
+
+.kwiatownik-uprawa-box li {
+  margin-bottom: 1em;
+}
+
+.kwiatownik-uprawa-box .up-label {
+  display: inline-block;
+  min-width: 110px;
+  font-weight: 600;
+  color: #4c6e4c;
+}
+
 </style>
 

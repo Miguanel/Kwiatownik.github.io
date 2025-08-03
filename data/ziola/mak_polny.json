@@ -316,6 +316,24 @@
         "nazwa": "Herbatka kwiatowa"
       }
     ],
+    "nalewka_z_maku_polnego": {
+  "nazwa": "Nalewka z płatków maku polnego",
+  "skladniki": [
+    "1 garść świeżych płatków maku polnego",
+    "250 ml czerwonego wytrawnego wina"
+  ],
+  "sposob_przygotowania": "Zalać płatki winem, odstawić na 5 dni w ciemnym miejscu, przefiltrować. Przechowywać w chłodzie.",
+  "wlasciwosci": [
+    "uspokajająca",
+    "łagodząca kaszel"
+  ],
+  "zastosowanie": "Przy bezsenności, kaszlu, napięciu nerwowym.",
+  "dawkowanie": "1 łyżka na noc, nie dłużej niż 7 dni.",
+  "uwagi": "Nie stosować u dzieci i kobiet w ciąży.",
+  "zrodlo": [
+    "https://rozanski.li/1044/papaver-rhoeas-l-mak-polny-w-fitoterapii/"
+  ]
+},
     "dodatek_do_deserow": [
       {
         "skladniki": [

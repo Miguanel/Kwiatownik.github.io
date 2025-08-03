@@ -870,6 +870,25 @@
         ]
       }
     ],
+    "nalewka_z_czosnaczka": {
+  "nazwa": "Nalewka z czosnaczka pospolitego",
+  "skladniki": [
+    "100 g świeżych liści czosnaczka (młodych, wiosennych)",
+    "200 ml alkoholu 40–50%"
+  ],
+  "sposob_przygotowania": "Liście umyć, rozdrobnić, zalać alkoholem, macerować 10 dni w ciemnym miejscu. Odcedzić.",
+  "wlasciwosci": [
+    "lekko przeciwbakteryjna",
+    "wzmacniająca",
+    "poprawiająca apetyt"
+  ],
+  "zastosowanie": "Jako wzmacniający tonik przy osłabieniu wiosennym, niestrawności.",
+  "dawkowanie": "2 razy dziennie po 10–15 kropli przed posiłkiem.",
+  "zrodlo": [
+    "https://swiatziol.pl/czosnaczek-pospolity/"
+  ]
+},
+
     "jajka_faszerowane_czosnaczkiem_i_koperkiem": [
       {
         "nazwa": "Jajka faszerowane czosnaczkiem i koperkiem",
