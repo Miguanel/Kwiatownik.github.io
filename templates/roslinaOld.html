@@ -1,0 +1,222 @@
+{% extends "base.html" %}
+{% block title %}{{ data.gatunek }} – Kwiatownik{% endblock %}
+{% block content %}
+
+<div class="plant-header">
+    <h1>{{ data.gatunek }}</h1>
+    <div class="plant-hierarchy">
+        {% if data.nazwa_zbioru %}
+        <span>
+                {% for n in data.nazwa_zbioru %}
+                    {{ n }}{% if not loop.last %} → {% endif %}
+                {% endfor %}
+            </span>
+        {% endif %}
+        {% if data.nazwa_lacinska %}
+        <span class="latin">({{ data.nazwa_lacinska }})</span>
+        {% endif %}
+    </div>
+    <div class="plant-actions" style="margin: 1.1em 0 1.5em 0; display: flex; gap: 1.1em;">
+        <button type="button" class="plant-action-btn" id="fav-main-btn"></button>
+        <button type="button" class="plant-action-btn" id="garden-main-btn"></button>
+    </div>
+</div>
+<!-- Karuzela zdjęć -->
+{% if data.zdjecia and data.zdjecia|length > 0 %}
+<div class="carousel-container">
+    <div id="carousel" class="carousel">
+        {% for img in data.zdjecia %}
+        <img src="{{ img }}" loading="lazy" alt="Zdjęcie {{ data.gatunek }}">
+        {% endfor %}
+    </div>
+    <button class="carousel-btn prev" onclick="carouselPrev()">&#9664;</button>
+    <button class="carousel-btn next" onclick="carouselNext()">&#9654;</button>
+</div>
+{% endif %}
+
+<h2 style="margin:1em 0 0.5em 0; font-size:1.4em;">Wybierz grupę informacji</h2>
+<div class="tiles-menu" id="tiles-menu">
+    <button class="tile" data-group="historia"
+            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='historia') }}">🧬 Historia, cechy
+    </button>
+    <button class="tile" data-group="wlasciwosci"
+            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='wlasciwosci') }}">⚗️ Właściwości,
+        składniki
+    </button>
+    <button class="tile" data-group="uprawa"
+            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='uprawa') }}">🌱 Uprawa i występowanie
+    </button>
+
+    {% set przepisy_med = (data.przepisy_medyczne|length if data.przepisy_medyczne else 0)
+    + (data.przepisy_z_innymi_roslinami.medyczne|length if data.przepisy_z_innymi_roslinami and
+    data.przepisy_z_innymi_roslinami.medyczne else 0) %}
+    {% set przepisy_kul = (data.przepisy_kulinarne|length if data.przepisy_kulinarne else 0)
+    + (data.przepisy_z_innymi_roslinami.kulinarne|length if data.przepisy_z_innymi_roslinami and
+    data.przepisy_z_innymi_roslinami.kulinarne else 0) %}
+
+    <button class="tile" data-group="przepisy_medyczne"
+            data-url="{{ url_for('fragment_przepisy_medyczne_all', category=category, plant=slug) }}">
+        💊 Przepisy medyczne <span class="badge">{{ przepisy_med }}</span>
+    </button>
+    <button class="tile" data-group="przepisy_kulinarne"
+            data-url="{{ url_for('fragment_przepisy_kulinarne_all', category=category, plant=slug) }}">
+        🥗 Przepisy kulinarne <span class="badge">{{ przepisy_kul }}</span>
+    </button>
+
+
+    <button class="tile" data-group="permakultura"
+            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='permakultura') }}">🌿 Permakultura
+    </button>
+    <button class="tile" data-group="inne"
+            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='inne') }}">🧴 Inne zastosowania
+    </button>
+    <button class="tile" data-group="uwagi"
+            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='uwagi') }}">⚠️ Uwagi i ostrzeżenia
+    </button>
+</div>
+
+<!-- Miejsce na ładowane fragmenty -->
+<div id="plant-content" style="margin-top:2em;scroll-margin-top:80px;"></div>
+
+<!-- Bibliografia -->
+<div class="bibliografia-section" id="bibliografia">
+    <h3>Bibliografia / Źródła</h3>
+    <ul>
+        {% for num, url in data.bibliografia.items() %}
+        <li id="bib{{ num }}">[{{ num }}] <a href="{{ url }}" target="_blank">{{ url }}</a></li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('bibliografia', category=category, plant=slug) }}">→ Zobacz pełną bibliografię rośliny</a>
+</div>
+<script>
+function getFavs() { return JSON.parse(localStorage.getItem("favs") || "[]"); }
+function setFavs(v) { localStorage.setItem("favs", JSON.stringify(v)); }
+function getGarden() { return JSON.parse(localStorage.getItem("garden") || "[]"); }
+function setGarden(v) { localStorage.setItem("garden", JSON.stringify(v)); }
+
+function updatePlantButtons(category, slug) {
+    let path = category + '/' + slug;
+    let favs = getFavs();
+    let garden = getGarden();
+    let favBtn = document.getElementById('fav-main-btn');
+    if(favs.includes(path)) {
+        favBtn.innerHTML = `<span class="fav-icon" style="font-size:1.19em;">❌</span>
+            <span class="fav-label">Usuń z ulubionych</span>`;
+        favBtn.classList.add('active');
+        favBtn.onclick = function() {
+            setFavs(favs.filter(x=>x!==path));
+            updatePlantButtons(category, slug);
+        }
+    } else {
+        favBtn.innerHTML = `<span class="fav-icon" style="font-size:1.19em;">💚</span>
+            <span class="fav-label">Dodaj do ulubionych</span>`;
+        favBtn.classList.remove('active');
+        favBtn.onclick = function() {
+            setFavs(favs.concat([path]));
+            updatePlantButtons(category, slug);
+        }
+    }
+    let gardenBtn = document.getElementById('garden-main-btn');
+    if(garden.includes(path)) {
+        gardenBtn.innerHTML = `<span class="garden-icon" style="font-size:1.15em;">🗑️</span>
+            <span class="garden-label">Usuń z ogrodu</span>`;
+        gardenBtn.classList.add('active');
+        gardenBtn.onclick = function() {
+            setGarden(garden.filter(x=>x!==path));
+            updatePlantButtons(category, slug);
+        }
+    } else {
+        gardenBtn.innerHTML = `<span class="garden-icon" style="font-size:1.15em;">🌱</span>
+            <span class="garden-label">Dodaj do ogrodu</span>`;
+        gardenBtn.classList.remove('active');
+        gardenBtn.onclick = function() {
+            setGarden(garden.concat([path]));
+            updatePlantButtons(category, slug);
+        }
+    }
+}
+document.addEventListener("DOMContentLoaded", function() {
+    updatePlantButtons('{{ category }}', '{{ slug }}');
+     if(typeof setupAccordionSections === "function") setupAccordionSections();
+});
+
+
+
+
+</script>
+<style>
+.tiles-menu .tile.active {
+    background: #aedfa3 !important;
+    color: #184e10;
+    font-weight: bold;
+    border: 2px solid #67a75d;
+}
+.carousel-container {
+    position: relative;
+    margin-bottom: 1em;
+}
+.carousel {
+    width: 100%;
+    max-width: 420px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 9px;
+    box-shadow: 0 2px 8px #0001;
+}
+.carousel img {
+    width: 100%;
+    display: none;
+}
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    border: none;
+    font-size: 2em;
+    padding: 0.1em 0.3em;
+    cursor: pointer;
+    opacity: 0.7;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+.carousel-btn.prev { left: 8px; }
+.carousel-btn.next { right: 8px; }
+.carousel-btn:hover { background: #e5f5e0; }
+.plant-action-btn.active {
+    background: #d4ebcf;
+    color: #234e18;
+    border: 1px solid #9cd893;
+    transition: background 0.13s;
+}
+.plant-action-btn {
+    background: #f4faf2;
+    color: #184e10;
+    border: 1px solid #d6eed5;
+    border-radius: 10px;
+    padding: 0.85em 1.8em;
+    font-size: 1.08em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+}
+.plant-action-btn:hover { background: #e0f2dc; }
+
+.tile .badge {
+    display: inline-block;
+    min-width: 1.8em;
+    padding: 0.09em 0.43em;
+    margin-left: 0.39em;
+    font-size: 0.97em;
+    color: #4c7441;
+    background: #e9fbe0;
+    border-radius: 9px;
+    font-weight: bold;
+    border: 1.5px solid #b6deac;
+}
+
+
+</style>
+
+{% endblock %}

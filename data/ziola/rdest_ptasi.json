@@ -154,7 +154,8 @@
       "dawkowanie": "1 szklanka 2–3 razy dziennie przez 1–2 tygodnie.",
       "zrodlo": [
         13
-      ]
+      ],
+      "nazwa": "napar moczopędny"
     },
     "odwar_na_stawy": {
       "skladniki": [
@@ -172,7 +173,8 @@
       "dawkowanie": "Zewnętrznie – 1–2 razy dziennie.",
       "zrodlo": [
         14
-      ]
+      ],
+      "nazwa": "odwar na stawy"
     },
     "herbatka_na_kamienie": {
       "skladniki": [
@@ -191,7 +193,8 @@
       "dawkowanie": "Szklanka naparu 2 razy dziennie przez 14 dni.",
       "zrodlo": [
         15
-      ]
+      ],
+      "nazwa": "herbatka na kamienie"
     },
     "kąpiel_na_skórę": {
       "skladniki": [
@@ -210,7 +213,8 @@
       "dawkowanie": "Kąpiel 15–20 minut, 2–3 razy w tygodniu.",
       "zrodlo": [
         16
-      ]
+      ],
+      "nazwa": "kąpiel na skórę"
     },
     "syrop_na_kaszel": {
       "skladniki": [
@@ -229,7 +233,8 @@
       "dawkowanie": "1 łyżeczka 3 razy dziennie.",
       "zrodlo": [
         17
-      ]
+      ],
+      "nazwa": "syrop na kaszel"
     },
     "mieszanka_na_płuca": {
       "skladniki": [
@@ -249,7 +254,8 @@
       "dawkowanie": "1 szklanka 2 razy dziennie.",
       "zrodlo": [
         18
-      ]
+      ],
+      "nazwa": "mieszanka na płuca"
     },
     "okład_na_opuchliznę": {
       "skladniki": [
@@ -267,7 +273,8 @@
       "dawkowanie": "Okład 15–20 min, 2 razy dziennie.",
       "zrodlo": [
         19
-      ]
+      ],
+      "nazwa": "okład na opuchliznę"
     },
     "maść_na_zanokcicę": {
       "skladniki": [
@@ -285,7 +292,8 @@
       "dawkowanie": "Stosować miejscowo 2–3 razy dziennie.",
       "zrodlo": [
         20
-      ]
+      ],
+      "nazwa": "maść na zanokcicę"
     },
     "płukanka_na_jamę_ustną": {
       "skladniki": [
@@ -303,6 +311,207 @@
       "dawkowanie": "Płukać 3–4 razy dziennie.",
       "zrodlo": [
         21
+      ],
+      "nazwa": "płukanka na jamę ustną"
+    },
+    "mieszanka_moczopędna": {
+      "nazwa": "mieszanka moczopędna",
+      "skladniki": [
+        "1 łyżka suszonego rdestu ptasiego",
+        "1 łyżka suszonego ziela skrzypu polnego",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka liści brzozy",
+        "1 łyżeczka suszonej nawłoci pospolitej",
+        "1 łyżka korzenia pietruszki",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżeczka ziela krwawnika",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie zioła wymieszać, zalać wrzątkiem, parzyć pod przykryciem 20 minut. Pić w 3 porcjach w ciągu dnia.",
+      "cechy": [
+        "Ziołowy, intensywny aromat"
+      ],
+      "wlasciwosci": [
+        "moczopędna, oczyszczająca, wspomaga usuwanie obrzęków"
+      ],
+      "zastosowanie": "Obrzęki, przewlekłe stany zapalne nerek, pomocniczo przy kamicy nerkowej.",
+      "zrodlo": [
+        29
+      ]
+    },
+    "mieszanka_oddechowa": {
+      "nazwa": "mieszanka oddechowa",
+      "skladniki": [
+        "1 łyżka suszonego rdestu ptasiego",
+        "1 łyżka kwiatów podbiału",
+        "1 łyżka kwiatów dziewanny",
+        "1 łyżka ziela tymianku",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka kwiatów rumianku",
+        "1 łyżeczka pączków sosny",
+        "1 łyżeczka korzenia prawoślazu",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła wymieszać, zalać wrzątkiem, parzyć pod przykryciem 20 minut. Pić ciepły napar, można dosładzać miodem.",
+      "cechy": [
+        "Ziołowy, łagodny napar"
+      ],
+      "wlasciwosci": [
+        "wykrztuśna, łagodząca kaszel, powlekająca"
+      ],
+      "zastosowanie": "Kaszel, infekcje dróg oddechowych, chrypka.",
+      "zrodlo": [
+        30
+      ]
+    },
+    "mieszanka_na_skórę": {
+      "nazwa": "mieszanka na skórę",
+      "skladniki": [
+        "1 łyżka suszonego rdestu ptasiego",
+        "1 łyżka kwiatów nagietka lekarskiego",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżka kwiatów rumianku",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżeczka liści szałwii",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć pod przykryciem 20 minut. Stosować do przemywania skóry, kąpieli lub okładów.",
+      "cechy": [
+        "Aromatyczny, łagodny napar"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, regeneruje, łagodzi podrażnienia"
+      ],
+      "zastosowanie": "Egzemy, rany, podrażnienia skóry, wysypki.",
+      "zrodlo": [
+        31
+      ]
+    },
+    "mieszanka_na_reumatyzm": {
+      "nazwa": "mieszanka na reumatyzm",
+      "skladniki": [
+        "1 łyżka suszonego rdestu ptasiego",
+        "1 łyżka korzenia żywokostu lekarskiego",
+        "1 łyżka kory wierzby",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu polnego",
+        "1 łyżka ziela tymianku",
+        "1 łyżeczka liści szałwii",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła wymieszać, zalać wrzątkiem, parzyć pod przykryciem 20 minut. Pić 2 razy dziennie.",
+      "cechy": [
+        "Wytrawny, ziołowy napar"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalna, łagodząca bóle stawów i mięśni"
+      ],
+      "zastosowanie": "Bóle stawów, reumatyzm, artretyzm.",
+      "zrodlo": [
+        32
+      ]
+    },
+    "mieszanka_oczyszczająca": {
+      "nazwa": "mieszanka oczyszczająca",
+      "skladniki": [
+        "1 łyżka suszonego rdestu ptasiego",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu polnego",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżka ziela krwawnika",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżka kwiatów nagietka",
+        "1 łyżka bratka polnego",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 15 minut, przecedzić. Pić w 2–3 porcjach dziennie.",
+      "cechy": [
+        "Orzeźwiający, wytrawny smak"
+      ],
+      "wlasciwosci": [
+        "detoksykująca, wzmacniająca, oczyszczająca organizm"
+      ],
+      "zastosowanie": "Kuracje oczyszczające, rekonwalescencja, wsparcie w chorobach skóry.",
+      "zrodlo": [
+        33
+      ]
+    },
+    "mieszanka_wykrztuśna": {
+      "nazwa": "mieszanka wykrztuśna",
+      "skladniki": [
+        "1 łyżka suszonego rdestu ptasiego",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka korzenia prawoślazu",
+        "1 łyżka ziela tymianku",
+        "1 łyżka kwiatu dziewanny",
+        "1 łyżeczka korzenia lukrecji",
+        "1 łyżka liści podbiału",
+        "1 łyżeczka nasion anyżu",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła wymieszać, zalać wrzątkiem, parzyć 20 minut. Pić ciepły napar.",
+      "cechy": [
+        "Aromatyczny, słodkawy napar"
+      ],
+      "wlasciwosci": [
+        "wykrztuśna, łagodząca kaszel, powlekająca"
+      ],
+      "zastosowanie": "Kaszel, przeziębienia, infekcje dróg oddechowych.",
+      "zrodlo": [
+        34
+      ]
+    },
+    "mieszanka_kąpielowa": {
+      "nazwa": "mieszanka kąpielowa",
+      "skladniki": [
+        "2 garście świeżego rdestu ptasiego",
+        "1 łyżka kwiatów rumianku",
+        "1 łyżka kwiatów nagietka",
+        "1 łyżka ziela skrzypu",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka kwiatów lawendy",
+        "1 łyżka kwiatów lipy",
+        "1 łyżka kwiatów krwawnika",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 30 minut, odcedzić do kąpieli.",
+      "cechy": [
+        "Relaksujący, ziołowy aromat"
+      ],
+      "wlasciwosci": [
+        "regenerująca, przeciwzapalna, łagodząca skórę"
+      ],
+      "zastosowanie": "Kąpiele lecznicze przy zmianach skórnych, wysypkach.",
+      "zrodlo": [
+        35
+      ]
+    },
+    "mieszanka_na_włosy": {
+      "nazwa": "mieszanka na włosy",
+      "skladniki": [
+        "1 łyżka suszonego rdestu ptasiego",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu polnego",
+        "1 łyżka kwiatów rumianku",
+        "1 łyżka korzenia mydlnicy lekarskiej",
+        "1 łyżka liści szałwii",
+        "1 łyżka rozmarynu",
+        "1 łyżka liści brzozy",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła wymieszać, zalać wrzątkiem, parzyć pod przykryciem 30 minut. Stosować do płukania włosów po myciu.",
+      "cechy": [
+        "Aromatyczny, wytrawny napar"
+      ],
+      "wlasciwosci": [
+        "wzmacnia włosy, pobudza wzrost, ogranicza przetłuszczanie"
+      ],
+      "zastosowanie": "Naturalna płukanka do włosów przy łupieżu, osłabieniu włosów.",
+      "zrodlo": [
+        36
       ]
     }
   },
@@ -327,7 +536,8 @@
       "zastosowanie": "Sałatka, dodatek do pieczywa lub przekąska.",
       "zrodlo": [
         21
-      ]
+      ],
+      "nazwa": "sałatka wiosenna"
     },
     "pesto_z_rdestu": {
       "skladniki": [
@@ -347,7 +557,8 @@
       "zastosowanie": "Do makaronu, kanapek, jako dip do warzyw.",
       "zrodlo": [
         22
-      ]
+      ],
+      "nazwa": "pesto z rdestu"
     },
     "zupa_krem_z_rdestu": {
       "skladniki": [
@@ -369,7 +580,8 @@
       "zastosowanie": "Zupa na wiosnę, lekki obiad.",
       "zrodlo": [
         23
-      ]
+      ],
+      "nazwa": "zupa krem z rdestu"
     },
     "jajecznica_z_rdestem": {
       "skladniki": [
@@ -389,7 +601,8 @@
       "zastosowanie": "Śniadanie, przekąska.",
       "zrodlo": [
         24
-      ]
+      ],
+      "nazwa": "jajecznica z rdestem"
     },
     "placki_z_rdestu": {
       "skladniki": [
@@ -411,7 +624,8 @@
       "zastosowanie": "Obiad, przekąska.",
       "zrodlo": [
         25
-      ]
+      ],
+      "nazwa": "placki z rdestu"
     },
     "nasiona_gotowane_na_kaszke": {
       "skladniki": [
@@ -429,7 +643,8 @@
       "zastosowanie": "Dodatek do zup, kasz, dla dzieci i ptaków.",
       "zrodlo": [
         26
-      ]
+      ],
+      "nazwa": "nasiona gotowane na kaszke"
     },
     "twarożek_z_rdestem": {
       "skladniki": [
@@ -448,7 +663,8 @@
       "zastosowanie": "Śniadanie, kolacja.",
       "zrodlo": [
         27
-      ]
+      ],
+      "nazwa": "twarożek z rdestem"
     },
     "kiszonka_z_rdestu": {
       "skladniki": [
@@ -468,396 +684,208 @@
       "zastosowanie": "Dodatek do kanapek, surówek, jako samodzielna przekąska.",
       "zrodlo": [
         28
+      ],
+      "nazwa": "kiszonka z rdestu"
+    },
+    "sałatka_dzika_z_rdestem_i_ziołami": {
+      "nazwa": "sałatka dzika z rdestem i ziołami",
+      "skladniki": [
+        "1 garść młodych liści rdestu ptasiego (świeżych, drobno posiekanych)",
+        "1 garść liści pokrzywy (sparzonych, drobno posiekanych)",
+        "1 garść liści mniszka lekarskiego",
+        "1 garść rukoli",
+        "kilka liści szczawiu",
+        "1 pomidor",
+        "1/2 cebuli",
+        "1 łyżka oliwy",
+        "szczypta soli, pieprz"
+      ],
+      "sposob_przygotowania": "Liście i warzywa drobno posiekać, wymieszać, polać oliwą, przyprawić.",
+      "cechy": [
+        "Zielona, orzeźwiająca"
+      ],
+      "wlasciwosci": [
+        "bogata w witaminy"
+      ],
+      "zastosowanie": "Sałatka, przystawka.",
+      "zrodlo": [
+        37
+      ]
+    },
+    "twarożek_z_rdestem_szczypiorkiem_i_rzodkiewką": {
+      "nazwa": "twarożek z rdestem szczypiorkiem i rzodkiewką",
+      "skladniki": [
+        "150 g twarogu",
+        "2 łyżki posiekanych liści rdestu ptasiego",
+        "2 łyżki szczypiorku",
+        "2 rzodkiewki",
+        "1 łyżka jogurtu",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki wymieszać, podawać do pieczywa.",
+      "cechy": [
+        "Chrupiący, świeży smak"
+      ],
+      "wlasciwosci": [
+        "białkowy, witaminowy"
+      ],
+      "zastosowanie": "Kanapka, przystawka.",
+      "zrodlo": [
+        38
+      ]
+    },
+    "pesto_z_rdestu_ptasiego_i_orzechów_włoskich_wariant_włoski/ukraiński": {
+      "nazwa": "pesto z rdestu ptasiego i orzechów włoskich wariant włoski/ukraiński",
+      "skladniki": [
+        "2 garście świeżych liści rdestu ptasiego",
+        "1/4 szklanki orzechów włoskich (uprażonych)",
+        "3 łyżki oliwy",
+        "1 ząbek czosnku",
+        "szczypta soli"
+      ],
+      "sposob_przygotowania": "Liście, orzechy, oliwę, czosnek i sól zmiksować na pastę.",
+      "cechy": [
+        "Ziołowy, orzechowy smak"
+      ],
+      "wlasciwosci": [
+        "wysokobiałkowy, zdrowe tłuszcze"
+      ],
+      "zastosowanie": "Makaron, pieczywo, dip.",
+      "zrodlo": [
+        39
+      ]
+    },
+    "omlet_z_rdestem_ptasim_i_szczawiem_kuchnia_polska/francuska": {
+      "nazwa": "omlet z rdestem ptasim i szczawiem kuchnia polska/francuska",
+      "skladniki": [
+        "3 jajka",
+        "1 garść liści rdestu ptasiego",
+        "1 garść liści szczawiu",
+        "1 łyżka masła",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Liście podsmażyć na maśle, dodać jajka, usmażyć omlet.",
+      "cechy": [
+        "Zielony, aromatyczny"
+      ],
+      "wlasciwosci": [
+        "sycący, lekkostrawny"
+      ],
+      "zastosowanie": "Śniadanie, lunch.",
+      "zrodlo": [
+        40
+      ]
+    },
+    "chlebek_dziki_z_rdestem_ptasim_i_ziarnami_wariant_nordycki": {
+      "nazwa": "chlebek dziki z rdestem ptasim i ziarnami wariant nordycki",
+      "skladniki": [
+        "300 g mąki pszennej lub żytniej",
+        "2 łyżki suszonego rdestu ptasiego",
+        "2 łyżki nasion słonecznika",
+        "1/2 łyżki soli",
+        "1,5 łyżeczki suchych drożdży",
+        "200 ml ciepłej wody"
+      ],
+      "sposob_przygotowania": "Składniki wymieszać, wyrobić ciasto, odstawić do wyrośnięcia, piec 30 minut w 200°C.",
+      "cechy": [
+        "Chrupiąca skórka, ziołowy smak"
+      ],
+      "wlasciwosci": [
+        "bogaty w błonnik, witaminy"
+      ],
+      "zastosowanie": "Pieczywo na co dzień.",
+      "zrodlo": [
+        41
+      ]
+    },
+    "zupa_jarzynowa_z_rdestem_marchewką_i_koperkiem_wariant_polsko-litewski": {
+      "nazwa": "zupa jarzynowa z rdestem marchewką i koperkiem wariant polsko-litewski",
+      "skladniki": [
+        "1 garść młodych liści rdestu ptasiego",
+        "2 marchewki",
+        "1 pietruszka",
+        "2 ziemniaki",
+        "1 litr bulionu warzywnego",
+        "1/2 pęczka koperku",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Warzywa ugotować w bulionie, dodać rdest i koperek, gotować jeszcze 5 minut.",
+      "cechy": [
+        "Orzeźwiająca, wiosenna"
+      ],
+      "wlasciwosci": [
+        "lekkostrawna, witaminowa"
+      ],
+      "zastosowanie": "Obiad, zupa na co dzień.",
+      "zrodlo": [
+        42
+      ]
+    },
+    "roladki_z_tortilli_z_pastą_z_rdestu_ptasiego_wariant_niemiecki/lunchowy": {
+      "nazwa": "roladki z tortilli z pastą z rdestu ptasiego wariant niemiecki/lunchowy",
+      "skladniki": [
+        "2 tortille pszenne",
+        "3 łyżki pasty z rdestu ptasiego (liście rdestu ptasiego, serek śmietankowy, orzechy, jogurt naturalny)",
+        "kilka liści sałaty",
+        "kilka plasterków czerwonej papryki",
+        "kilka plasterków ogórka"
+      ],
+      "sposob_przygotowania": "Tortille posmarować pastą, ułożyć warzywa, zwinąć i pokroić na roladki.",
+      "cechy": [
+        "Aromatyczna, zielona, sycąca"
+      ],
+      "wlasciwosci": [
+        "lekka, odżywcza"
+      ],
+      "zastosowanie": "Lunch, przekąska, piknik.",
+      "zrodlo": [
+        43
+      ]
+    },
+    "kiszone_liście_rdestu_ptasiego_z_koperkiem_i_czosnkiem_tradycja_wschodnioeuropejska": {
+      "nazwa": "kiszone liście rdestu ptasiego z koperkiem i czosnkiem tradycja wschodnioeuropejska",
+      "skladniki": [
+        "3 garście młodych liści rdestu ptasiego",
+        "1/2 pęczka koperku",
+        "2 ząbki czosnku",
+        "1 litr wody",
+        "1 łyżka soli kamiennej"
+      ],
+      "sposob_przygotowania": "Liście i koperek ułożyć w słoiku, dodać czosnek, zalać solanką. Kiszenie 4–7 dni w temperaturze pokojowej.",
+      "cechy": [
+        "Kwaśne, chrupiące, wyraziste"
+      ],
+      "wlasciwosci": [
+        "probiotyczne, odżywcze"
+      ],
+      "zastosowanie": "Dodatek do surówek, kanapek.",
+      "zrodlo": [
+        44
+      ]
+    },
+    "placuszki_ziemniaczane_z_rdestem_ptasim_wariant_polsko-niemiecki": {
+      "nazwa": "placuszki ziemniaczane z rdestem ptasim wariant polsko-niemiecki",
+      "skladniki": [
+        "1 garść młodych liści rdestu ptasiego",
+        "2 ziemniaki",
+        "1 jajko",
+        "2 łyżki mąki",
+        "1/2 cebuli",
+        "szczypta soli, pieprz",
+        "olej do smażenia"
+      ],
+      "sposob_przygotowania": "Ziemniaki zetrzeć, wymieszać z liśćmi, jajkiem, mąką i przyprawami. Smażyć placuszki na złoto.",
+      "cechy": [
+        "Chrupiące, ziołowe"
+      ],
+      "wlasciwosci": [
+        "pożywne, sycące"
+      ],
+      "zastosowanie": "Obiad, przekąska.",
+      "zrodlo": [
+        45
       ]
     }
-  },
-  "przepisy_z_innymi_roslinami": {
-    "medyczne": [
-      {
-        "nazwa": "Mieszanka moczopędna",
-        "skladniki": [
-          "1 łyżka suszonego rdestu ptasiego",
-          "1 łyżka suszonego ziela skrzypu polnego",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka liści brzozy",
-          "1 łyżeczka suszonej nawłoci pospolitej",
-          "1 łyżka korzenia pietruszki",
-          "1 łyżka korzenia mniszka lekarskiego",
-          "1 łyżeczka ziela krwawnika",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Wszystkie zioła wymieszać, zalać wrzątkiem, parzyć pod przykryciem 20 minut. Pić w 3 porcjach w ciągu dnia.",
-        "cechy": [
-          "Ziołowy, intensywny aromat"
-        ],
-        "wlasciwosci": [
-          "moczopędna, oczyszczająca, wspomaga usuwanie obrzęków"
-        ],
-        "zastosowanie": "Obrzęki, przewlekłe stany zapalne nerek, pomocniczo przy kamicy nerkowej.",
-        "zrodlo": [
-          29
-        ]
-      },
-      {
-        "nazwa": "Mieszanka oddechowa",
-        "skladniki": [
-          "1 łyżka suszonego rdestu ptasiego",
-          "1 łyżka kwiatów podbiału",
-          "1 łyżka kwiatów dziewanny",
-          "1 łyżka ziela tymianku",
-          "1 łyżka liści babki lancetowatej",
-          "1 łyżka kwiatów rumianku",
-          "1 łyżeczka pączków sosny",
-          "1 łyżeczka korzenia prawoślazu",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła wymieszać, zalać wrzątkiem, parzyć pod przykryciem 20 minut. Pić ciepły napar, można dosładzać miodem.",
-        "cechy": [
-          "Ziołowy, łagodny napar"
-        ],
-        "wlasciwosci": [
-          "wykrztuśna, łagodząca kaszel, powlekająca"
-        ],
-        "zastosowanie": "Kaszel, infekcje dróg oddechowych, chrypka.",
-        "zrodlo": [
-          30
-        ]
-      },
-      {
-        "nazwa": "Mieszanka na skórę",
-        "skladniki": [
-          "1 łyżka suszonego rdestu ptasiego",
-          "1 łyżka kwiatów nagietka lekarskiego",
-          "1 łyżka fiołka trójbarwnego",
-          "1 łyżka kwiatów rumianku",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka ziela skrzypu",
-          "1 łyżka liści babki lancetowatej",
-          "1 łyżeczka liści szałwii",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć pod przykryciem 20 minut. Stosować do przemywania skóry, kąpieli lub okładów.",
-        "cechy": [
-          "Aromatyczny, łagodny napar"
-        ],
-        "wlasciwosci": [
-          "przyspiesza gojenie, regeneruje, łagodzi podrażnienia"
-        ],
-        "zastosowanie": "Egzemy, rany, podrażnienia skóry, wysypki.",
-        "zrodlo": [
-          31
-        ]
-      },
-      {
-        "nazwa": "Mieszanka na reumatyzm",
-        "skladniki": [
-          "1 łyżka suszonego rdestu ptasiego",
-          "1 łyżka korzenia żywokostu lekarskiego",
-          "1 łyżka kory wierzby",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka ziela skrzypu polnego",
-          "1 łyżka ziela tymianku",
-          "1 łyżeczka liści szałwii",
-          "1 łyżka korzenia mniszka lekarskiego",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła wymieszać, zalać wrzątkiem, parzyć pod przykryciem 20 minut. Pić 2 razy dziennie.",
-        "cechy": [
-          "Wytrawny, ziołowy napar"
-        ],
-        "wlasciwosci": [
-          "przeciwzapalna, łagodząca bóle stawów i mięśni"
-        ],
-        "zastosowanie": "Bóle stawów, reumatyzm, artretyzm.",
-        "zrodlo": [
-          32
-        ]
-      },
-      {
-        "nazwa": "Mieszanka oczyszczająca",
-        "skladniki": [
-          "1 łyżka suszonego rdestu ptasiego",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka ziela skrzypu polnego",
-          "1 łyżka korzenia mniszka lekarskiego",
-          "1 łyżka ziela krwawnika",
-          "1 łyżka fiołka trójbarwnego",
-          "1 łyżka kwiatów nagietka",
-          "1 łyżka bratka polnego",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 15 minut, przecedzić. Pić w 2–3 porcjach dziennie.",
-        "cechy": [
-          "Orzeźwiający, wytrawny smak"
-        ],
-        "wlasciwosci": [
-          "detoksykująca, wzmacniająca, oczyszczająca organizm"
-        ],
-        "zastosowanie": "Kuracje oczyszczające, rekonwalescencja, wsparcie w chorobach skóry.",
-        "zrodlo": [
-          33
-        ]
-      },
-      {
-        "nazwa": "Mieszanka wykrztuśna",
-        "skladniki": [
-          "1 łyżka suszonego rdestu ptasiego",
-          "1 łyżka liści babki lancetowatej",
-          "1 łyżka korzenia prawoślazu",
-          "1 łyżka ziela tymianku",
-          "1 łyżka kwiatu dziewanny",
-          "1 łyżeczka korzenia lukrecji",
-          "1 łyżka liści podbiału",
-          "1 łyżeczka nasion anyżu",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła wymieszać, zalać wrzątkiem, parzyć 20 minut. Pić ciepły napar.",
-        "cechy": [
-          "Aromatyczny, słodkawy napar"
-        ],
-        "wlasciwosci": [
-          "wykrztuśna, łagodząca kaszel, powlekająca"
-        ],
-        "zastosowanie": "Kaszel, przeziębienia, infekcje dróg oddechowych.",
-        "zrodlo": [
-          34
-        ]
-      },
-      {
-        "nazwa": "Mieszanka kąpielowa",
-        "skladniki": [
-          "2 garście świeżego rdestu ptasiego",
-          "1 łyżka kwiatów rumianku",
-          "1 łyżka kwiatów nagietka",
-          "1 łyżka ziela skrzypu",
-          "1 łyżka liści babki lancetowatej",
-          "1 łyżka kwiatów lawendy",
-          "1 łyżka kwiatów lipy",
-          "1 łyżka kwiatów krwawnika",
-          "2 litry wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 30 minut, odcedzić do kąpieli.",
-        "cechy": [
-          "Relaksujący, ziołowy aromat"
-        ],
-        "wlasciwosci": [
-          "regenerująca, przeciwzapalna, łagodząca skórę"
-        ],
-        "zastosowanie": "Kąpiele lecznicze przy zmianach skórnych, wysypkach.",
-        "zrodlo": [
-          35
-        ]
-      },
-      {
-        "nazwa": "Mieszanka na włosy",
-        "skladniki": [
-          "1 łyżka suszonego rdestu ptasiego",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka ziela skrzypu polnego",
-          "1 łyżka kwiatów rumianku",
-          "1 łyżka korzenia mydlnicy lekarskiej",
-          "1 łyżka liści szałwii",
-          "1 łyżka rozmarynu",
-          "1 łyżka liści brzozy",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła wymieszać, zalać wrzątkiem, parzyć pod przykryciem 30 minut. Stosować do płukania włosów po myciu.",
-        "cechy": [
-          "Aromatyczny, wytrawny napar"
-        ],
-        "wlasciwosci": [
-          "wzmacnia włosy, pobudza wzrost, ogranicza przetłuszczanie"
-        ],
-        "zastosowanie": "Naturalna płukanka do włosów przy łupieżu, osłabieniu włosów.",
-        "zrodlo": [
-          36
-        ]
-      }
-    ],
-    "kulinarne": [
-  {
-    "nazwa": "Sałatka dzika z rdestem i ziołami",
-    "skladniki": [
-      "1 garść młodych liści rdestu ptasiego (świeżych, drobno posiekanych)",
-      "1 garść liści pokrzywy (sparzonych, drobno posiekanych)",
-      "1 garść liści mniszka lekarskiego",
-      "1 garść rukoli",
-      "kilka liści szczawiu",
-      "1 pomidor",
-      "1/2 cebuli",
-      "1 łyżka oliwy",
-      "szczypta soli, pieprz"
-    ],
-    "sposob_przygotowania": "Liście i warzywa drobno posiekać, wymieszać, polać oliwą, przyprawić.",
-    "cechy": [
-      "Zielona, orzeźwiająca"
-    ],
-    "wlasciwosci": [
-      "bogata w witaminy"
-    ],
-    "zastosowanie": "Sałatka, przystawka.",
-    "zrodlo": [37]
-  },
-  {
-    "nazwa": "Twarożek z rdestem, szczypiorkiem i rzodkiewką",
-    "skladniki": [
-      "150 g twarogu",
-      "2 łyżki posiekanych liści rdestu ptasiego",
-      "2 łyżki szczypiorku",
-      "2 rzodkiewki",
-      "1 łyżka jogurtu",
-      "sól, pieprz"
-    ],
-    "sposob_przygotowania": "Wszystkie składniki wymieszać, podawać do pieczywa.",
-    "cechy": [
-      "Chrupiący, świeży smak"
-    ],
-    "wlasciwosci": [
-      "białkowy, witaminowy"
-    ],
-    "zastosowanie": "Kanapka, przystawka.",
-    "zrodlo": [38]
-  },
-  {
-    "nazwa": "Pesto z rdestu ptasiego i orzechów włoskich (wariant włoski/ukraiński)",
-    "skladniki": [
-      "2 garście świeżych liści rdestu ptasiego",
-      "1/4 szklanki orzechów włoskich (uprażonych)",
-      "3 łyżki oliwy",
-      "1 ząbek czosnku",
-      "szczypta soli"
-    ],
-    "sposob_przygotowania": "Liście, orzechy, oliwę, czosnek i sól zmiksować na pastę.",
-    "cechy": [
-      "Ziołowy, orzechowy smak"
-    ],
-    "wlasciwosci": [
-      "wysokobiałkowy, zdrowe tłuszcze"
-    ],
-    "zastosowanie": "Makaron, pieczywo, dip.",
-    "zrodlo": [39]
-  },
-  {
-    "nazwa": "Omlet z rdestem ptasim i szczawiem (kuchnia polska/francuska)",
-    "skladniki": [
-      "3 jajka",
-      "1 garść liści rdestu ptasiego",
-      "1 garść liści szczawiu",
-      "1 łyżka masła",
-      "sól, pieprz"
-    ],
-    "sposob_przygotowania": "Liście podsmażyć na maśle, dodać jajka, usmażyć omlet.",
-    "cechy": [
-      "Zielony, aromatyczny"
-    ],
-    "wlasciwosci": [
-      "sycący, lekkostrawny"
-    ],
-    "zastosowanie": "Śniadanie, lunch.",
-    "zrodlo": [40]
-  },
-  {
-    "nazwa": "Chlebek dziki z rdestem ptasim i ziarnami (wariant nordycki)",
-    "skladniki": [
-      "300 g mąki pszennej lub żytniej",
-      "2 łyżki suszonego rdestu ptasiego",
-      "2 łyżki nasion słonecznika",
-      "1/2 łyżki soli",
-      "1,5 łyżeczki suchych drożdży",
-      "200 ml ciepłej wody"
-    ],
-    "sposob_przygotowania": "Składniki wymieszać, wyrobić ciasto, odstawić do wyrośnięcia, piec 30 minut w 200°C.",
-    "cechy": [
-      "Chrupiąca skórka, ziołowy smak"
-    ],
-    "wlasciwosci": [
-      "bogaty w błonnik, witaminy"
-    ],
-    "zastosowanie": "Pieczywo na co dzień.",
-    "zrodlo": [41]
-  },
-  {
-    "nazwa": "Zupa jarzynowa z rdestem, marchewką i koperkiem (wariant polsko-litewski)",
-    "skladniki": [
-      "1 garść młodych liści rdestu ptasiego",
-      "2 marchewki",
-      "1 pietruszka",
-      "2 ziemniaki",
-      "1 litr bulionu warzywnego",
-      "1/2 pęczka koperku",
-      "sól, pieprz"
-    ],
-    "sposob_przygotowania": "Warzywa ugotować w bulionie, dodać rdest i koperek, gotować jeszcze 5 minut.",
-    "cechy": [
-      "Orzeźwiająca, wiosenna"
-    ],
-    "wlasciwosci": [
-      "lekkostrawna, witaminowa"
-    ],
-    "zastosowanie": "Obiad, zupa na co dzień.",
-    "zrodlo": [42]
-  },
-  {
-    "nazwa": "Roladki z tortilli z pastą z rdestu ptasiego (wariant niemiecki/lunchowy)",
-    "skladniki": [
-      "2 tortille pszenne",
-      "3 łyżki pasty z rdestu ptasiego (liście rdestu ptasiego, serek śmietankowy, orzechy, jogurt naturalny)",
-      "kilka liści sałaty",
-      "kilka plasterków czerwonej papryki",
-      "kilka plasterków ogórka"
-    ],
-    "sposob_przygotowania": "Tortille posmarować pastą, ułożyć warzywa, zwinąć i pokroić na roladki.",
-    "cechy": [
-      "Aromatyczna, zielona, sycąca"
-    ],
-    "wlasciwosci": [
-      "lekka, odżywcza"
-    ],
-    "zastosowanie": "Lunch, przekąska, piknik.",
-    "zrodlo": [43]
-  },
-  {
-    "nazwa": "Kiszone liście rdestu ptasiego z koperkiem i czosnkiem (tradycja wschodnioeuropejska)",
-    "skladniki": [
-      "3 garście młodych liści rdestu ptasiego",
-      "1/2 pęczka koperku",
-      "2 ząbki czosnku",
-      "1 litr wody",
-      "1 łyżka soli kamiennej"
-    ],
-    "sposob_przygotowania": "Liście i koperek ułożyć w słoiku, dodać czosnek, zalać solanką. Kiszenie 4–7 dni w temperaturze pokojowej.",
-    "cechy": [
-      "Kwaśne, chrupiące, wyraziste"
-    ],
-    "wlasciwosci": [
-      "probiotyczne, odżywcze"
-    ],
-    "zastosowanie": "Dodatek do surówek, kanapek.",
-    "zrodlo": [44]
-  },
-  {
-    "nazwa": "Placuszki ziemniaczane z rdestem ptasim (wariant polsko-niemiecki)",
-    "skladniki": [
-      "1 garść młodych liści rdestu ptasiego",
-      "2 ziemniaki",
-      "1 jajko",
-      "2 łyżki mąki",
-      "1/2 cebuli",
-      "szczypta soli, pieprz",
-      "olej do smażenia"
-    ],
-    "sposob_przygotowania": "Ziemniaki zetrzeć, wymieszać z liśćmi, jajkiem, mąką i przyprawami. Smażyć placuszki na złoto.",
-    "cechy": [
-      "Chrupiące, ziołowe"
-    ],
-    "wlasciwosci": [
-      "pożywne, sycące"
-    ],
-    "zastosowanie": "Obiad, przekąska.",
-    "zrodlo": [45]
-  }
-]
-
   },
   "inne_zastosowania": {
     "kosmetyki": {
@@ -930,39 +958,133 @@
     "47": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
   },
   "kalendarz": {
-    "siew": [
-      4,
-      5
-    ],
-    "zbior_ziele": [
-      5,
-      6,
-      7,
-      8
-    ],
-    "zbior_nasion": [
-      8,
-      9
-    ],
-    "zbior_poranny": [
-      5,
-      6,
-      7,
-      8
-    ],
-    "zbior_pelnia": [
-      6
-    ],
-    "ekstrakcja": [
-      7
-    ],
-    "pielenie": [
-      5,
-      6,
-      7
-    ],
-    "przesadzanie": [
-      4
-    ]
+    "siew": {
+      "miesiące": [
+        3,
+        4
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Wysiew płytki w wilgotną, przepuszczalną glebę. Roślina samosiewna – nie wymaga wiele pracy.",
+      "źródło": [
+        "https://pfaf.org/user/Plant.aspx?LatinName=Polygonum+aviculare"
+      ]
+    },
+    "kwitnienie": {
+      "miesiące": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "obserwacyjny",
+      "czas_dnia": "dowolny",
+      "intensywność": "symboliczna",
+      "uwagi": "Obserwacja kwiatów pozwala ocenić gotowość rośliny do zbioru zielarskiego.",
+      "źródło": [
+        "https://en.wikipedia.org/wiki/Polygonum_aviculare"
+      ]
+    },
+    "zbior_kwiatow": {
+      "miesiące": [
+        6,
+        7
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "zielarski",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Zbieraj w suchy poranek – najlepiej, gdy kwiaty są świeżo rozwinięte. Unikaj zbioru po deszczu.",
+      "źródło": [
+        "https://www.ekologia.pl/wiedza/rosliny/ziola/rdest-ptasi"
+      ]
+    },
+    "zbior_nasion": {
+      "miesiące": [
+        9,
+        10
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "zbiorczy",
+      "czas_dnia": "po południu",
+      "intensywność": "średnia",
+      "uwagi": "Nasiona są bardzo drobne – zbieraj całe uschnięte grona i przechowuj w papierowych torebkach.",
+      "źródło": [
+        "https://pfaf.org/user/Plant.aspx?LatinName=Polygonum+aviculare"
+      ]
+    },
+    "pielenie": {
+      "miesiące": [
+        5,
+        6,
+        7
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "techniczny",
+      "czas_dnia": "dowolny",
+      "intensywność": "średnia",
+      "uwagi": "Choć rdest jest użytkowy, bywa też ekspansywny – kontroluj jego rozprzestrzenianie.",
+      "źródło": [
+        "https://en.wikipedia.org/wiki/Mechanical_weed_control"
+      ]
+    },
+    "przesadzanie": {
+      "miesiące": [
+        4,
+        10
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Najlepiej przesadzać młode rośliny. Rdest dobrze znosi przesadzanie.",
+      "źródło": [
+        "https://www.gardenersworld.com/how-to/maintain-the-garden/how-to-transplant-young-plants/"
+      ]
+    },
+    "miodobranie": {
+      "miesiące": [
+        7,
+        8
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "pszczelarski",
+      "czas_dnia": "w ciągu dnia",
+      "intensywność": "symboliczna",
+      "uwagi": "Kwiaty przyciągają owady – jest to roślina nektarodajna. Zbieraj miód po kilku dniach intensywnych oblotów.",
+      "źródło": [
+        "https://www.beelistener.co.uk/other-insects/pollinators/gardening-for-bees-and-other-pollinators/"
+      ]
+    },
+    "zbior_ksiezyc": {
+      "miesiące": [
+        9
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "rytualny",
+      "czas_dnia": "wieczór",
+      "intensywność": "symboliczna",
+      "uwagi": "Zbieraj nasiona w pełnię księżyca – zgodnie z tradycją, wzmacnia to właściwości ochronne i oczyszczające.",
+      "źródło": [
+        "https://www.thespruce.com/moon-phase-gardening-5219263"
+      ]
+    },
+    "zbior_deszcz": {
+      "miesiące": [
+        10
+      ],
+      "zalecana_faza_ksiezyca": "bez znaczenia",
+      "typ": "techniczny",
+      "czas_dnia": "dowolny",
+      "intensywność": "symboliczna",
+      "uwagi": "Gromadzenie wody opadowej na późniejsze podlewanie roślin – rdest lubi wilgotną glebę.",
+      "źródło": [
+        "https://en.wikipedia.org/wiki/Rainwater_harvesting"
+      ]
+    }
   }
 }

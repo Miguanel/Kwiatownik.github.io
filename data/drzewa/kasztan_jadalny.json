@@ -20,7 +20,10 @@
     "kwiaty": "Drobne, jednopłciowe, zebrane w długie, wyraźnie pachnące kotki. Kwiaty męskie żółtawe, kwiaty żeńskie – niewielkie, otoczone okrywą, z których powstają owoce.",
     "owoce": "Jadalne, błyszczące, brązowe orzechy (nasiona) po 2–3 zamknięte w kolczastej okrywie. Kasztany jadalne różnią się od nasion kasztanowca zwyczajnego: mają spłaszczony bok i charakterystyczny czubek.",
     "cecha_wyrozniajaca": "Tylko kasztan jadalny ma owoce spożywcze! Owoce kasztanowca zwyczajnego są trujące.",
-    "zrodlo": [1,2]
+    "zrodlo": [
+      1,
+      2
+    ]
   },
   "wlasciwosci_i_skladniki": [
     {
@@ -28,37 +31,49 @@
       "dzialanie": "Główne źródło energii, zapewnia sytość, dobrze przyswajalne także dla osób z wrażliwym układem trawiennym.",
       "sklad": "do 45% skrobi, 8% cukrów prostych",
       "ciekawostka": "Kasztany jadalne są jednym z niewielu orzechów o tak wysokiej zawartości skrobi – to czyni je podobnymi do ziemniaka i batata.",
-      "zrodlo": [3]
+      "zrodlo": [
+        3
+      ]
     },
     {
       "nazwa": "Białko i tłuszcze",
       "dzialanie": "Zawierają 2–4% białka i bardzo mało tłuszczu w porównaniu do innych orzechów; polecane osobom na diecie niskotłuszczowej.",
       "sklad": "2–4% białka, 2–3% tłuszczu (głównie nienasycone kwasy tłuszczowe)",
-      "zrodlo": [4]
+      "zrodlo": [
+        4
+      ]
     },
     {
       "nazwa": "Błonnik pokarmowy",
       "dzialanie": "Wspomaga trawienie, reguluje perystaltykę jelit, obniża poziom cholesterolu.",
       "sklad": "ok. 8–10% błonnika",
-      "zrodlo": [5]
+      "zrodlo": [
+        5
+      ]
     },
     {
       "nazwa": "Witaminy",
       "dzialanie": "Kasztany jadalne to bogate źródło witamin z grupy B (B1, B2, B6, kwas foliowy) oraz witaminy C (w surowych owocach nawet 40 mg/100g!).",
       "sklad": "Witaminy B1, B2, B6, kwas foliowy, witamina C, witamina E",
-      "zrodlo": [6]
+      "zrodlo": [
+        6
+      ]
     },
     {
       "nazwa": "Minerały",
       "dzialanie": "Dostarczają potasu, fosforu, magnezu, miedzi, żelaza i manganu, niezbędnych do pracy układu nerwowego i mięśni.",
       "sklad": "Potas (do 700 mg/100g), fosfor, magnez, miedź, żelazo, mangan",
-      "zrodlo": [7]
+      "zrodlo": [
+        7
+      ]
     },
     {
       "nazwa": "Polifenole, garbniki",
       "dzialanie": "Działają antyoksydacyjnie, chronią komórki przed starzeniem.",
       "sklad": "polifenole (taniny), kwas galusowy",
-      "zrodlo": [8]
+      "zrodlo": [
+        8
+      ]
     }
   ],
   "cechy_i_historia": {
@@ -79,202 +94,172 @@
       "Największe okazy kasztana jadalnego rosną na Sycylii – tzw. „Stulatek z Sant’Alfio” ma ponad 2000 lat.",
       "W XIX wieku w południowej Europie kasztan nazywano 'drzewem chleba'."
     ],
-    "zrodlo": [9,10]
+    "zrodlo": [
+      9,
+      10
+    ]
   },
   "uwagi_i_ostrzezenia": [
     {
       "uwaga": "Nie mylić kasztana jadalnego (Castanea sativa) z kasztanowcem zwyczajnym (Aesculus hippocastanum) – ten drugi ma owoce niejadalne i trujące!",
       "rozwiazanie": "Przed spożyciem zawsze sprawdzaj gatunek drzewa. Kasztan jadalny ma spłaszczone owoce, w kolczastej okrywie o długich kolcach; kasztanowiec zwyczajny – okrągłe nasiona, okrywa z krótkimi kolcami.",
-      "zrodlo": [8]
+      "zrodlo": [
+        8
+      ]
     },
     {
       "uwaga": "Osoby z alergią na orzechy lub skrobię powinny spożywać kasztany ostrożnie, w małych ilościach.",
       "rozwiazanie": "W przypadku nietolerancji objawiających się swędzeniem, wysypką lub bólami brzucha, unikać spożywania kasztanów.",
-      "zrodlo": [11]
+      "zrodlo": [
+        11
+      ]
     }
   ],
   "przepisy_medyczne": {
-    "odwar_z_liści": {
-      "skladniki": [
-        "1 łyżka suszonych liści kasztana jadalnego (najlepiej młode, zbierane wiosną)",
-        "300 ml wody (świeża)"
-      ],
-      "sposob_przygotowania": "Liście zalać zimną wodą, zagotować, gotować 10 min pod przykryciem. Odstawić, przecedzić.",
-      "cechy": [
-        "Ziołowy, lekko gorzki płyn"
-      ],
-      "wlasciwosci": [
-        "przeciwkaszlowy, przeciwzapalny"
-      ],
-      "zastosowanie": "Stosować do płukania gardła przy stanach zapalnych i infekcjach, można pić przy suchym kaszlu.",
-      "dawkowanie": "1/3 szklanki 2 razy dziennie lub jako płukanka.",
-      "zrodlo": [12]
-    },
-    "napar_z_kwiatow": {
-      "skladniki": [
-        "1 łyżka świeżych kwiatów kasztana jadalnego",
-        "250 ml wrzątku"
-      ],
-      "sposob_przygotowania": "Kwiaty zalać wrzątkiem, parzyć 10 minut pod przykryciem, przecedzić.",
-      "cechy": [
-        "Delikatny, lekko słodki napar"
-      ],
-      "wlasciwosci": [
-        "łagodzi kaszel, działa wykrztuśnie"
-      ],
-      "zastosowanie": "Do picia przy infekcjach górnych dróg oddechowych.",
-      "dawkowanie": "1/2 szklanki 2 razy dziennie.",
-      "zrodlo": [13]
-    },
-    "syrop_z_owocow": {
-      "skladniki": [
-        "10 dojrzałych kasztanów jadalnych (obrane, świeże)",
-        "1 szklanka wody",
-        "3 łyżki miodu"
-      ],
-      "sposob_przygotowania": "Kasztany ugotować do miękkości, zmiksować, połączyć z wodą i miodem, zagotować, ostudzić. Przechowywać w lodówce.",
-      "cechy": [
-        "Gęsty, jasnobrązowy syrop"
-      ],
-      "wlasciwosci": [
-        "łagodzący podrażnienia gardła"
-      ],
-      "zastosowanie": "Do picia przy przeziębieniach i suchym kaszlu.",
-      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
-      "zrodlo": [14]
-    }
-  },
-  "przepisy_kulinarne": {
-    "pieczone_kasztany": {
-      "skladniki": [
-        "500 g świeżych, dojrzałych kasztanów jadalnych"
-      ],
-      "sposob_przygotowania": "Kasztany ponacinać na wypukłej stronie na krzyż. Ułożyć na blasze, piec 20–25 min w 200°C, aż popękają i staną się miękkie. Obierać jeszcze ciepłe.",
-      "cechy": [
-        "Aromatyczne, kremowe, lekko słodkie"
-      ],
-      "wlasciwosci": [
-        "wysokoenergetyczne, lekkostrawne"
-      ],
-      "zastosowanie": "Tradycyjna jesienna przekąska.",
-      "zrodlo": [15]
-    },
-    "gotowane_kasztany": {
-      "skladniki": [
-        "400 g świeżych kasztanów jadalnych",
-        "woda (do gotowania)",
-        "szczypta soli"
-      ],
-      "sposob_przygotowania": "Kasztany ponacinać, gotować 30 min w osolonej wodzie. Obierać ciepłe.",
-      "cechy": [
-        "Miękkie, lekko orzechowe"
-      ],
-      "wlasciwosci": [
-        "sycące, źródło skrobi i minerałów"
-      ],
-      "zastosowanie": "Samodzielnie, do zup lub sałatek.",
-      "zrodlo": [16]
-    },
-    "puree_z_kasztanow": {
-      "skladniki": [
-        "300 g gotowanych kasztanów",
-        "50 ml mleka (krowiego lub roślinnego, świeże)",
-        "1 łyżka masła (lub oleju roślinnego)"
-      ],
-      "sposob_przygotowania": "Ugotowane kasztany zmiksować z mlekiem i masłem do uzyskania gładkiej masy.",
-      "cechy": [
-        "Delikatne, kremowe, słodkawe"
-      ],
-      "wlasciwosci": [
-        "bogate w błonnik, lekkostrawne"
-      ],
-      "zastosowanie": "Do mięs, warzyw, jako nadzienie do ciast.",
-      "zrodlo": [17]
-    },
-    "zupa_kasztanowa": {
-      "skladniki": [
-        "200 g kasztanów jadalnych (gotowanych i obranych)",
-        "1 marchew (świeża)",
-        "1 ziemniak (obrany, świeży)",
-        "1 cebula (świeża)",
-        "1 litr bulionu warzywnego",
-        "sól, pieprz"
-      ],
-      "sposob_przygotowania": "Warzywa pokroić, ugotować z kasztanami w bulionie do miękkości. Zmiksować na krem, doprawić.",
-      "cechy": [
-        "Gęsta, kremowa, delikatnie słodka"
-      ],
-      "wlasciwosci": [
-        "energetyczna, rozgrzewająca"
-      ],
-      "zastosowanie": "Obiad, przystawka na jesień i zimę.",
-      "zrodlo": [18]
-    },
-    "ciasto_kasztanowe": {
-      "skladniki": [
-        "200 g puree z kasztanów jadalnych (najlepiej domowe, świeże)",
-        "3 jajka (świeże)",
-        "100 g cukru",
-        "100 g masła (roztopionego, świeżego)",
-        "80 g mąki pszennej",
-        "1 łyżeczka proszku do pieczenia"
-      ],
-      "sposob_przygotowania": "Jajka ubić z cukrem, dodać masło, puree, mąkę i proszek do pieczenia. Piec w 180°C ok. 30 minut.",
-      "cechy": [
-        "Wilgotne, aromatyczne, orzechowe"
-      ],
-      "wlasciwosci": [
-        "energetyczne, bogate w witaminy"
-      ],
-      "zastosowanie": "Deser, świąteczne ciasto.",
-      "zrodlo": [19]
-    }
-  },
-  "przepisy_z_innymi_roslinami": {
-    "medyczne": [
-      {
-        "nazwa": "Napar wzmacniający (liść kasztana, lipa, owoce dzikiej róży)",
-        "skladniki": [
-          "1 łyżeczka suszonych liści kasztana jadalnego",
-          "1 łyżka kwiatów lipy",
-          "1 łyżka owoców dzikiej róży (pokruszonych)",
-          "250 ml wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć pod przykryciem 15 min, przecedzić.",
-        "cechy": [
-          "Ziołowo-owocowy, aromatyczny"
-        ],
-        "wlasciwosci": [
-          "wzmacniający odporność, łagodzący stany zapalne"
-        ],
-        "zastosowanie": "Przy przeziębieniach, osłabieniu.",
-        "zrodlo": [20]
-      }
+  "Odwar z liści": {
+    "skladniki": [
+      "1 łyżka suszonych liści kasztana jadalnego (najlepiej młode, zbierane wiosną)",
+      "300 ml wody (świeża)"
     ],
-    "kulinarne": [
-      {
-        "nazwa": "Sałatka z pieczonymi kasztanami i rukolą",
-        "skladniki": [
-          "6–8 pieczonych kasztanów jadalnych (pokrojonych na kawałki)",
-          "2 garście rukoli (świeżej)",
-          "1 gruszka (dojrzała, pokrojona w kostkę)",
-          "2 łyżki orzechów włoskich (uprażonych)",
-          "1 łyżka oliwy z oliwek",
-          "sok z 1/2 cytryny",
-          "sól, pieprz"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki delikatnie wymieszać, skropić oliwą i sokiem z cytryny, doprawić.",
-        "cechy": [
-          "Chrupiąca, słodko-orzechowa"
-        ],
-        "wlasciwosci": [
-          "witaminowa, lekkostrawna"
-        ],
-        "zastosowanie": "Przystawka, lunch, sałatka świąteczna.",
-        "zrodlo": [21]
-      }
-    ]
+    "sposob_przygotowania": "Liście zalać zimną wodą, zagotować, gotować 10 min pod przykryciem. Odstawić, przecedzić.",
+    "cechy": ["Ziołowy, lekko gorzki płyn"],
+    "wlasciwosci": ["przeciwkaszlowy, przeciwzapalny"],
+    "zastosowanie": "Stosować do płukania gardła przy stanach zapalnych i infekcjach, można pić przy suchym kaszlu.",
+    "dawkowanie": "1/3 szklanki 2 razy dziennie lub jako płukanka.",
+    "zrodlo": [12],
+    "nazwa": "Odwar z liści"
   },
+  "Napar z kwiatow": {
+    "skladniki": [
+      "1 łyżka świeżych kwiatów kasztana jadalnego",
+      "250 ml wrzątku"
+    ],
+    "sposob_przygotowania": "Kwiaty zalać wrzątkiem, parzyć 10 minut pod przykryciem, przecedzić.",
+    "cechy": ["Delikatny, lekko słodki napar"],
+    "wlasciwosci": ["łagodzi kaszel, działa wykrztuśnie"],
+    "zastosowanie": "Do picia przy infekcjach górnych dróg oddechowych.",
+    "dawkowanie": "1/2 szklanki 2 razy dziennie.",
+    "zrodlo": [13],
+    "nazwa": "Napar z kwiatow"
+  },
+  "Syrop z owocow": {
+    "skladniki": [
+      "10 dojrzałych kasztanów jadalnych (obrane, świeże)",
+      "1 szklanka wody",
+      "3 łyżki miodu"
+    ],
+    "sposob_przygotowania": "Kasztany ugotować do miękkości, zmiksować, połączyć z wodą i miodem, zagotować, ostudzić. Przechowywać w lodówce.",
+    "cechy": ["Gęsty, jasnobrązowy syrop"],
+    "wlasciwosci": ["łagodzący podrażnienia gardła"],
+    "zastosowanie": "Do picia przy przeziębieniach i suchym kaszlu.",
+    "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+    "zrodlo": [14],
+    "nazwa": "Syrop z owocow"
+  },
+  "Napar wzmacniający liść kasztana lipa owoce dzikiej róży": {
+    "skladniki": [
+      "1 łyżeczka suszonych liści kasztana jadalnego",
+      "1 łyżka kwiatów lipy",
+      "1 łyżka owoców dzikiej róży (pokruszonych)",
+      "250 ml wrzątku"
+    ],
+    "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć pod przykryciem 15 min, przecedzić.",
+    "cechy": ["Ziołowo-owocowy, aromatyczny"],
+    "wlasciwosci": ["wzmacniający odporność, łagodzący stany zapalne"],
+    "zastosowanie": "Przy przeziębieniach, osłabieniu.",
+    "zrodlo": [20],
+    "nazwa": "Napar wzmacniający liść kasztana lipa owoce dzikiej róży"
+  }
+},
+  "przepisy_kulinarne": {
+  "Pieczone kasztany": {
+    "skladniki": [
+      "500 g świeżych, dojrzałych kasztanów jadalnych"
+    ],
+    "sposob_przygotowania": "Kasztany ponacinać na wypukłej stronie na krzyż. Ułożyć na blasze, piec 20–25 min w 200°C, aż popękają i staną się miękkie. Obierać jeszcze ciepłe.",
+    "cechy": ["Aromatyczne, kremowe, lekko słodkie"],
+    "wlasciwosci": ["wysokoenergetyczne, lekkostrawne"],
+    "zastosowanie": "Tradycyjna jesienna przekąska.",
+    "zrodlo": [15],
+    "nazwa": "Pieczone kasztany"
+  },
+  "Gotowane kasztany": {
+    "skladniki": [
+      "400 g świeżych kasztanów jadalnych",
+      "woda (do gotowania)",
+      "szczypta soli"
+    ],
+    "sposob_przygotowania": "Kasztany ponacinać, gotować 30 min w osolonej wodzie. Obierać ciepłe.",
+    "cechy": ["Miękkie, lekko orzechowe"],
+    "wlasciwosci": ["sycące, źródło skrobi i minerałów"],
+    "zastosowanie": "Samodzielnie, do zup lub sałatek.",
+    "zrodlo": [16],
+    "nazwa": "Gotowane kasztany"
+  },
+  "Puree z kasztanow": {
+    "skladniki": [
+      "300 g gotowanych kasztanów",
+      "50 ml mleka (krowiego lub roślinnego, świeże)",
+      "1 łyżka masła (lub oleju roślinnego)"
+    ],
+    "sposob_przygotowania": "Ugotowane kasztany zmiksować z mlekiem i masłem do uzyskania gładkiej masy.",
+    "cechy": ["Delikatne, kremowe, słodkawe"],
+    "wlasciwosci": ["bogate w błonnik, lekkostrawne"],
+    "zastosowanie": "Do mięs, warzyw, jako nadzienie do ciast.",
+    "zrodlo": [17],
+    "nazwa": "Puree z kasztanow"
+  },
+  "Zupa kasztanowa": {
+    "skladniki": [
+      "200 g kasztanów jadalnych (gotowanych i obranych)",
+      "1 marchew (świeża)",
+      "1 ziemniak (obrany, świeży)",
+      "1 cebula (świeża)",
+      "1 litr bulionu warzywnego",
+      "sól, pieprz"
+    ],
+    "sposob_przygotowania": "Warzywa pokroić, ugotować z kasztanami w bulionie do miękkości. Zmiksować na krem, doprawić.",
+    "cechy": ["Gęsta, kremowa, delikatnie słodka"],
+    "wlasciwosci": ["energetyczna, rozgrzewająca"],
+    "zastosowanie": "Obiad, przystawka na jesień i zimę.",
+    "zrodlo": [18],
+    "nazwa": "Zupa kasztanowa"
+  },
+  "Ciasto kasztanowe": {
+    "skladniki": [
+      "200 g puree z kasztanów jadalnych (najlepiej domowe, świeże)",
+      "3 jajka (świeże)",
+      "100 g cukru",
+      "100 g masła (roztopionego, świeżego)",
+      "80 g mąki pszennej",
+      "1 łyżeczka proszku do pieczenia"
+    ],
+    "sposob_przygotowania": "Jajka ubić z cukrem, dodać masło, puree, mąkę i proszek do pieczenia. Piec w 180°C ok. 30 minut.",
+    "cechy": ["Wilgotne, aromatyczne, orzechowe"],
+    "wlasciwosci": ["energetyczne, bogate w witaminy"],
+    "zastosowanie": "Deser, świąteczne ciasto.",
+    "zrodlo": [19],
+    "nazwa": "Ciasto kasztanowe"
+  },
+  "Sałatka z pieczonymi kasztanami i rukola": {
+    "skladniki": [
+      "6–8 pieczonych kasztanów jadalnych (pokrojonych na kawałki)",
+      "2 garście rukoli (świeżej)",
+      "1 gruszka (dojrzała, pokrojona w kostkę)",
+      "2 łyżki orzechów włoskich (uprażonych)",
+      "1 łyżka oliwy z oliwek",
+      "sok z 1/2 cytryny",
+      "sól, pieprz"
+    ],
+    "sposob_przygotowania": "Wszystkie składniki delikatnie wymieszać, skropić oliwą i sokiem z cytryny, doprawić.",
+    "cechy": ["Chrupiąca, słodko-orzechowa"],
+    "wlasciwosci": ["witaminowa, lekkostrawna"],
+    "zastosowanie": "Przystawka, lunch, sałatka świąteczna.",
+    "zrodlo": [21],
+    "nazwa": "Sałatka z pieczonymi kasztanami i rukola"
+  }
+}
+,
   "permakultura": {
     "opis": "Kasztan jadalny to długowieczne drzewo o wielu zastosowaniach w permakulturze. Stanowi wysokie piętro ogrodu leśnego, daje obfity cień i poprawia mikroklimat, przyciąga zapylacze dzięki kwiatom, a jesienią zapewnia wartościowy pokarm dla ludzi i zwierząt. Opadające liście wzbogacają glebę w próchnicę, a system korzeniowy stabilizuje zbocza. Można sadzić go w pobliżu sadów, jako drzewo osłonowe na obrzeżach ogrodu, w dużych grupach na plantacjach orzechów i podagrowych, a także jako element agroleśnictwa.",
     "funkcje": [
@@ -291,18 +276,177 @@
     ]
   },
   "kalendarz": {
-      "siew": [10],
-      "sadzenie": [3, 4],
-      "kwitnienie": [6, 7],
-      "zbior": [10, 11],
-      "ciecie": [2, 3, 8],
-      "nawozenie": [4, 5, 8],
-      "zabezpieczanie": [11],
-      "ochrona": [6, 7],
-      "zbior_lisci": [6],
-      "przesadzanie": [3, 10],
-      "rozmnazanie": [4, 5]
+    "siew": {
+      "miesiące": [
+        10
+      ],
+      "czynności": "Przygotowanie nasion do siewu: wybór zdrowych, dojrzałych orzechów; namaczanie w letniej wodzie przez 24–48 godzin; warstwowanie zimne (stratyfikacja) przez 8–12 tygodni w wilgotnym piasku lub torfie w temperaturze około 2–5 °C; wysiew do doniczek lub na inspekt na głębokość 2–3 cm, zachowanie wilgotności podłoża i ochrona przed mrozem.",
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Stratyfikowane nasiona lepiej kiełkują – warto trzymać je w lodówce z piaskiem przez ok. 3 miesiące.",
+      "źródło": [
+        "https://www.farmanddairy.com/columns/growing-chestnut-trees-seed/168823.html",
+        "https://tacf.org/wp-content/uploads/2020/12/planting_manual-1.pdf"
+      ]
     },
+    "sadzenie": {
+      "miesiące": [
+        3,
+        4
+      ],
+      "czynności": "Wiosenne sadzenie młodych drzewek: wybór słonecznego, osłoniętego stanowiska; przygotowanie dołków o głębokości i szerokości około 50 cm; spulchnienie i wzbogacenie gleby kompostem lub obornikiem; sadzenie tak, aby szyjka korzeniowa znajdowała się na poziomie gruntu; podlanie obficie po posadzeniu; ściółkowanie podstawy.",
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Sadzonka potrzebuje dobrego ukorzenienia przed nadejściem letnich upałów.",
+      "źródło": [
+        "https://tacf.org/wp-content/uploads/2020/12/planting_manual-1.pdf",
+        "https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-a-sweet-chestnut-tree/"
+      ]
+    },
+    "kwitnienie": {
+      "miesiące": [
+        6,
+        7
+      ],
+      "czynności": "Monitorowanie rozwoju kwiatostanów: kontrola pełnego kwitnienia w czerwcu–lipcu; usuwanie przekwitłych kwiatów w celu przedłużenia okresu kwitnienia; regularne podlewanie w okresach suszy.",
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "pszczelarski",
+      "czas_dnia": "dowolny",
+      "intensywność": "symboliczna",
+      "uwagi": "Kwiaty przyciągają pszczoły – to jeden z najważniejszych okresów dla zapylaczy.",
+      "źródło": [
+        "https://en.wikipedia.org/wiki/Sweet_chestnut",
+        "https://www.gardenersworld.com/how-to/grow-plants/how-to-grow-a-sweet-chestnut-tree/"
+      ]
+    },
+    "zbior": {
+      "miesiące": [
+        10,
+        11
+      ],
+      "czynności": "Zbieranie dojrzałych kasztanów jadalnych: użycie płachty lub maty pod drzewem; zbiór orzechów bezpośrednio po opadnięciu łupin; codzienne zbieranie, by zapobiec infekcjom; suszenie w przewiewnym miejscu przez kilka dni; przechowywanie w chłodnym, suchym pomieszczeniu.",
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "zbiorczy",
+      "czas_dnia": "po południu",
+      "intensywność": "wysoka",
+      "uwagi": "Zbieraj tylko orzechy, które same opadły – są w pełni dojrzałe.",
+      "źródło": [
+        "https://postharvest.ucdavis.edu/produce-facts-sheets/chestnut",
+        "https://en.wikipedia.org/wiki/Sweet_chestnut"
+      ]
+    },
+    "ciecie": {
+      "miesiące": [
+        2,
+        3,
+        8
+      ],
+      "czynności": "Cięcie sanitarne i formujące: usuwanie uschniętych, uszkodzonych i krzyżujących się gałęzi w lutym–marcu; lekkie przycięcie pędów w sierpniu, by poprawić przewiewność i dostęp światła; użycie ostrych narzędzi i zabezpieczanie ran pastą ogrodniczą.",
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "techniczny",
+      "czas_dnia": "w ciągu dnia",
+      "intensywność": "średnia",
+      "uwagi": "Nie należy ciąć w czasie opadów ani w silnych mrozach – zwiększa to ryzyko infekcji.",
+      "źródło": [
+        "https://www.rhs.org.uk/plants/types/trees/pruning-guide",
+        "https://www.rhs.org.uk/plants/3191/castanea-sativa/details"
+      ]
+    },
+    "nawozenie": {
+      "miesiące": [
+        4,
+        5,
+        8
+      ],
+      "czynności": "Nawożenie mineralne i organiczne: wczesna aplikacja azotu w kwietniu–maju; stosowanie nawozu NPK 30-10-10 lub organicznego kompostu; podlewanie po nawożeniu; ostatnia dawka potasowa przed połową sierpnia, by przygotować drzewo do zimy.",
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "po południu",
+      "intensywność": "niska",
+      "uwagi": "Nie nawozić zbyt późno – może to opóźnić zdrewnienie pędów przed zimą.",
+      "źródło": [
+        "https://www.canr.msu.edu/chestnuts/horticultural_care/nutrient-management",
+        "https://tacf.org/wp-content/uploads/2020/12/planting_manual-1.pdf"
+      ]
+    },
+    "zabezpieczanie": {
+      "miesiące": [
+        11
+      ],
+      "czynności": "Przygotowanie do zimy: ściółkowanie korzeni 5–10 cm warstwą kory, liści lub siana, zachowując odstęp ok. 6 cm od pnia; owijanie pni siatką lub agrotkaniną, by chronić przed gryzoniami i mrozem.",
+      "zalecana_faza_ksiezyca": "nów",
+      "typ": "techniczny",
+      "czas_dnia": "po południu",
+      "intensywność": "średnia",
+      "uwagi": "Młode drzewa są szczególnie wrażliwe na przemarzanie i uszkodzenia kory przez zwierzynę.",
+      "źródło": [
+        "https://www.starkbros.com/growing-guide/article/protecting-fruit-trees-in-winter"
+      ]
+    },
+    "ochrona": {
+      "miesiące": [
+        6,
+        7
+      ],
+      "czynności": "Ochrona przed chorobami i szkodnikami: monitorowanie objawów raka kasztanowca i zgnilizny; zwalczanie owadów fitoseidami lub opryskami na bazie olejów parafinowych; usuwanie porażonych fragmentów i dezynfekcja narzędzi.",
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "obserwacyjny",
+      "czas_dnia": "dowolny",
+      "intensywność": "symboliczna",
+      "uwagi": "Wczesne wykrycie choroby znacznie zwiększa szansę na uratowanie drzewa.",
+      "źródło": [
+        "https://gardenerspath.com/plants/nut-trees/grow-chestnuts/"
+      ]
+    },
+    "zbior_lisci": {
+      "miesiące": [
+        6
+      ],
+      "czynności": "Zbiór liści na cele lecznicze: zbieranie młodych, świeżych liści w suchy dzień; delikatne oczyszczanie; suszenie w cieniu w przewiewnym miejscu; przechowywanie w szczelnych pojemnikach.",
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "zielarski",
+      "czas_dnia": "ranek",
+      "intensywność": "niska",
+      "uwagi": "Najlepsze właściwości mają liście zbierane tuż po pełnym rozwinięciu.",
+      "źródło": [
+        "https://pfaf.org/user/Plant.aspx?LatinName=Castanea+sativa"
+      ]
+    },
+    "przesadzanie": {
+      "miesiące": [
+        3,
+        10
+      ],
+      "czynności": "Przesadzanie młodych sadzonek z bryłą ziemi w marcu i październiku: delikatne wykopanie, przygotowanie nowego stanowiska; zachowanie nienaruszonej bryły korzeniowej; podlewanie i ściółkowanie po posadzeniu.",
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Najlepiej przesadzać w pochmurny, chłodny dzień – ograniczy to stres rośliny.",
+      "źródło": [
+        "https://route9cooperative.com/growing-trees-from-seed/"
+      ]
+    },
+    "rozmnazanie": {
+      "miesiące": [
+        4,
+        5
+      ],
+      "czynności": "Rozmnażanie przez sadzonki i szczepienie: pobieranie bocznych sadzonek długości 15–20 cm w kwietniu–maju; ukorzenianie w piaskowo-torfowym podłożu pod folią; szczepienie metodą „niedźwiedziego ucha” na jesionie.",
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "zielarski",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Kasztan niełatwo się rozmnaża – szczepienie to metoda preferowana na plantacjach.",
+      "źródło": [
+        "https://www.rhs.org.uk/plants/3191/castanea-sativa/details"
+      ]
+    }
+  },
   "ciekawostki_kulturowe": [
     "W regionach południowej Francji i Włoch do dziś kasztany nazywane są 'chlebem lasu'.",
     "W starożytności kasztan jadalny był symbolem płodności i długowieczności.",
@@ -327,22 +471,30 @@
     "kosmetyki": {
       "opis": "Wodny odwar z liści kasztana jadalnego bywa używany w płukankach do włosów, nadaje im połysk i działa wzmacniająco na cebulki.",
       "zastosowanie": "Płukanki, domowe maseczki do skóry głowy, kremy odżywcze.",
-      "zrodlo": [22]
+      "zrodlo": [
+        22
+      ]
     },
     "barwniki": {
       "opis": "Liście i łupiny owoców kasztana jadalnego zawierają naturalne garbniki, z których uzyskuje się jasnobrązowe barwniki do tkanin i skór.",
       "zastosowanie": "Barwienie tkanin, garbowanie skór, bejcowanie drewna.",
-      "zrodlo": [23]
+      "zrodlo": [
+        23
+      ]
     },
     "pasza_dla_zwierzat": {
       "opis": "Kasztany jadalne po ugotowaniu mogą być paszą dla świń i bydła – są pożywne i łatwo przyswajalne.",
       "zastosowanie": "Dodatkowa pasza zimowa dla zwierząt gospodarskich.",
-      "zrodlo": [24]
+      "zrodlo": [
+        24
+      ]
     },
     "drewno": {
       "opis": "Drewno kasztana jadalnego jest twarde, trwałe, odporne na wilgoć i szkodniki. Od wieków wykorzystywane do produkcji mebli, beczek na wino, domów i mostów.",
       "zastosowanie": "Meble, podłogi, beczki, konstrukcje ogrodowe, wyroby rzeźbiarskie.",
-      "zrodlo": [25]
+      "zrodlo": [
+        25
+      ]
     }
   },
   "bibliografia": {
@@ -370,6 +522,7 @@
     "22": "https://zielnikpolski.pl/kosmetyki-kasztan-jadalny/",
     "23": "https://zielnikpolski.pl/barwnik-kasztan-jadalny/",
     "24": "https://zielnikpolski.pl/pasza-kasztan-jadalny/",
-    "25": "https://zielnikpolski.pl/drewno-kasztan-jadalny/"
+    "25": "https://zielnikpolski.pl/drewno-kasztan-jadalny/",
+    "": ""
   }
 }

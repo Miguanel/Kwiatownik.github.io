@@ -1,0 +1,12 @@
+<section id="sekcja-magiczne">
+  <h2>🧙 Znaczenie magiczne</h2>
+  {% for item in data.wlasciwosci_i_skladniki %}
+    <details class="recepta">
+      <summary>{{ item.nazwa }}</summary>
+      {% if item.sklad %}<p><b>Skład:</b> {{ item.sklad }}</p>{% endif %}
+      {% if item.dzialanie %}<p><b>Działanie:</b> {{ item.dzialanie }}</p>{% endif %}
+      {% if item.ciekawostka %}<p><i>{{ item.ciekawostka }}</i></p>{% endif %}
+      {% if item.zrodlo %}<p>{{ item.zrodlo | join(" ") }}</p>{% endif %}
+    </details>
+  {% endfor %}
+</section>

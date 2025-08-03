@@ -1,0 +1,9 @@
+<section id="sekcja-uwagi">
+  <h2>🚨 Uwagi i ostrzeżenia</h2>
+  {% for uwaga in data.uwagi_i_ostrzezenia %}
+    <details class="recepta">
+      <summary>{{ uwaga.uwaga }}</summary>
+      {% if uwaga.rozwiazanie %}<p><b>Rozwiązanie:</b> {{ uwaga.rozwiazanie }}</p>{% endif %}
+    </details>
+  {% endfor %}
+</section>

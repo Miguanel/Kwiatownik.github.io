@@ -1,0 +1,516 @@
+{
+  "gatunek": "Dąb bezszypułkowy",
+  "nazwa_lacinska": "Quercus petraea",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Drzewa",
+    "Drzewa liściaste",
+    "Bukowate",
+    "Quercus",
+    "Dąb bezszypułkowy"
+  ],
+  "zdjecia": [
+    "https://www1.up.poznan.pl/ogrod/images/nasze_drzewa/Quercus%20petraea%201.JPG",
+    "https://www.lasy.gov.pl/pl/edukacja/lesnoteka-1/drzewa/dab-bezszypulkowy/dab_bezsz_lisc.jpg",
+    "https://www.puls-art.pl/wp-content/uploads/2016/09/dab-bezszypulkowy-quercus-petraea-3.jpg"
+  ],
+  "uprawa": {
+    "gleba": "Gleba umiarkowanie żyzna, świeża, przepuszczalna, lekko kwaśna do obojętnej, piaszczysto-gliniasta.",
+    "stanowisko": "Stanowisko słoneczne lub lekko zacienione, wymaga przestrzeni i głębokiego podłoża.",
+    "wysiew": "Żołędzie wysiewać jesienią do gruntu lub wiosną po stratyfikacji. Dąb rośnie powoli, ale osiąga wiek kilkuset lat.",
+    "zbior": "Kora – wczesną wiosną z młodych gałęzi, żołędzie – jesienią, liście – na przełomie czerwca i lipca."
+  },
+  "wystepowanie": {
+    "obszar": "Europa Zachodnia i Środkowa, Kaukaz, Azja Mniejsza.",
+    "w_polsce": "Rozproszony, głównie na południu, w lasach mieszanych, na suchych zboczach, wzgórzach i glebach piaszczystych.",
+    "zrodlo": [
+      1,
+      2
+    ]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Drzewo dorastające do 35 m wysokości, z szeroką, nieregularną koroną.",
+    "kora": "Szara do ciemnobrązowej, spękana, na młodych gałęziach gładka.",
+    "liscie": "Podłużne, odwrotnie jajowate, mniej klapowane niż u dębu szypułkowego, o krótkich ogonkach, długości 7–15 cm.",
+    "kwiaty": "Drobne, jednopłciowe, kwiaty męskie w żółtych kotkach, żeńskie w niewielkich skupieniach, bez szypułek.",
+    "owoce": "Żołędzie, siedzące (bez szypułek), pojedyncze lub po 2–3, w miseczce z łusek.",
+    "korzeń": "Palowy, głęboko sięgający z silnymi bocznymi odnogami.",
+    "cecha_wyrozniajaca": "Żołędzie bez szypułek, mniej klapowane liście, sucholubny charakter.",
+    "zrodlo": [
+      3,
+      4
+    ]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Garbniki (taniny)",
+      "dzialanie": "ściągające, przeciwbakteryjne, przeciwzapalne",
+      "sklad": "kwas galusowy, kwas elagowy, tanina",
+      "zrodlo": [
+        5
+      ]
+    },
+    {
+      "nazwa": "Kwasy fenolowe",
+      "dzialanie": "przeciwutleniające, chroniące komórki",
+      "sklad": "kwas kawowy, kwas chlorogenowy",
+      "zrodlo": [
+        6
+      ]
+    },
+    {
+      "nazwa": "Flawonoidy",
+      "dzialanie": "uszczelniające naczynia, antyoksydacyjne",
+      "sklad": "kwercetyna, rutyna",
+      "zrodlo": [
+        7
+      ]
+    },
+    {
+      "nazwa": "Skrobia, białko, tłuszcze (żołędzie)",
+      "dzialanie": "odżywcze, energetyczne",
+      "sklad": "skrobia, tłuszcze, białko, cukry proste",
+      "zrodlo": [
+        8
+      ]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Dąb bezszypułkowy przez wieki był symbolem siły, wytrzymałości i trwałości. Kora i żołędzie stosowano jako surowiec leczniczy i spożywczy, szczególnie w czasach głodu. Żołędzie tej odmiany są nieco mniej gorzkie od szypułkowych i lepiej nadają się do celów kulinarnych po odpowiedniej obróbce.",
+    "cechy": [
+      "Kora bogata w taniny, silne działanie ściągające i antyseptyczne",
+      "Żołędzie po wymoczeniu i prażeniu jadalne – baza do mąki i kawy",
+      "Drzewo długowieczne, odporne na suszę, nieco wolniej rośnie niż dąb szypułkowy",
+      "Drewno bardzo trwałe, odporne na wilgoć, cenione w szkutnictwie"
+    ],
+    "zastosowanie_historyczne": [
+      "Kora na okłady i płukanki przy stanach zapalnych skóry i jamy ustnej",
+      "Żołędzie na mąkę, kawę, kaszę, podstawowe źródło żywności podczas wojen i klęsk",
+      "Wywar z kory na biegunki, krwawienia i stany zapalne przewodu pokarmowego",
+      "Drewno dębowe do produkcji beczek, podkładów kolejowych, statków i mebli"
+    ],
+    "ciekawostki": [
+      "W mitologii celtyckiej i słowiańskiej dąb bezszypułkowy był drzewem granicznym, sadzonym na rozdrożach.",
+      "W Europie Zachodniej z żołędzi pieczono specjalne ciasta dla dzieci i osób osłabionych.",
+      "Polskie dęby bezszypułkowe bywają starsze niż 500 lat i są objęte ochroną jako pomniki przyrody.",
+      "W czasach głodu dąb bezszypułkowy ratował lokalne społeczności przed niedożywieniem."
+    ],
+    "zrodlo": [
+      9,
+      10
+    ]
+  },
+  "ciekawostki_kulturowe": [
+    "Na Śląsku dąb bezszypułkowy sadzono na miedzach i wzgórzach – symbol przetrwania i granic.",
+    "W Bretanii z żołędzi dębu robiono amulety ochronne dla dzieci.",
+    "W Hiszpanii liście dębu wkładano do poduszki, by odpędzać złe sny.",
+    "W kulturze polskiej żołędzie dębowe były wykorzystywane do produkcji kawy i mąki w czasach okupacji.",
+    "Na Podkarpaciu przy ważnych uroczystościach sadzono dęby bezszypułkowe dla uczczenia rodu.",
+    "W Anglii dąb bezszypułkowy był nazywany 'drzewem królów', sadzonym przy zamkach."
+  ],
+  "permakultura": {
+    "opis": "Dąb bezszypułkowy pełni ważną funkcję w permakulturze – buduje mikroklimat, stabilizuje glebę, dostarcza żywności i tworzy siedliska dla wielu gatunków zwierząt.",
+    "funkcje": [
+      "Wzmacnia i stabilizuje skarpy oraz gleby ubogie w wodę",
+      "Poprawia mikroklimat, zapewnia cień dla niższych roślin i runa leśnego",
+      "Żołędzie są pożywieniem dla dzików, jeleni, ptaków oraz mogą być wykorzystane przez ludzi",
+      "Liście i opadłe gałązki wzbogacają glebę w próchnicę",
+      "Nadaje się do zakładania leśnych ogrodów i bioróżnorodnych alei"
+    ],
+    "gildie": [
+      "Dobrze rośnie z leszczyną, jarzębiną, głogiem, tarniną, konwalią, marzanką, poziomkami",
+      "Można łączyć z brzozą, sosną, świerkiem i runem leśnym: borówką, wrzosem"
+    ]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Kora i żołędzie zawierają taniny, których nadmiar może być szkodliwy, powodować zaparcia, podrażnienia żołądka.",
+      "rozwiazanie": "Żołędzie należy dokładnie wymoczyć i/lub uprażyć przed spożyciem; nie podawać dzieciom poniżej 6 lat.",
+      "zrodlo": [
+        11
+      ]
+    },
+    {
+      "uwaga": "Nie zbierać kory z drzew chronionych ani pomnikowych.",
+      "rozwiazanie": "Surowiec pozyskiwać wyłącznie z młodych gałęzi lub z drzew przeznaczonych do cięcia.",
+      "zrodlo": [
+        12
+      ]
+    }
+  ],
+  "przepisy_medyczne": {
+    "odwar": [
+      {
+        "nazwa": "odwar_z_kory",
+        "skladniki": [
+          "1 łyżka suszonej kory dębu bezszypułkowego (najlepiej z młodych gałęzi, świeżo zebrana lub sezonowana do roku)",
+          "300 ml wody (świeża, przegotowana)"
+        ],
+        "sposob_przygotowania": "Kory wsypać do zimnej wody, powoli doprowadzić do wrzenia. Gotować pod przykryciem 10 minut na małym ogniu, odstawić na 5 minut, przecedzić przez gazę.",
+        "cechy": [
+          "Wyrazisty, ciemny kolor",
+          "Cierpki, gorzkawy smak"
+        ],
+        "wlasciwosci": [
+          "silne działanie ściągające (obkurcza i uszczelnia naczynia, łagodzi obrzęki)",
+          "działa przeciwbakteryjnie, przeciwzapalnie i przeciwgrzybiczo"
+        ],
+        "zastosowanie": "Do płukania jamy ustnej i gardła przy stanach zapalnych, nadżerkach, aftach i pleśniawkach; do okładów i przemywania skóry przy podrażnieniach, wypryskach, świądzie, liszaju i po ukąszeniach owadów.",
+        "dawkowanie": "Do płukania ust lub okładów 2–3 razy dziennie przez 5–7 dni. Nie stosować długotrwale (maks. 2 tygodnie bez przerwy).",
+        "uwagi": "Nie stosować wewnętrznie u dzieci poniżej 6. roku życia ani u kobiet w ciąży bez konsultacji z lekarzem. Może powodować zaparcia przy nadmiernym użyciu doustnym.",
+        "zrodlo": [
+          13
+        ]
+      }
+    ],
+    "kąpiel": [
+      {
+        "nazwa": "kąpiel_na_egzemy",
+        "skladniki": [
+          "3 garście kory dębu bezszypułkowego (świeżej lub dobrze wysuszonej, grubo mielonej)",
+          "2 litry wody (świeża)"
+        ],
+        "sposob_przygotowania": "Kory wsypać do zimnej wody, zagotować i gotować 20 minut na bardzo małym ogniu pod przykryciem. Przecedzić, odwar wlać do wanny z ciepłą wodą. Kąpiel powinna trwać 15–20 minut.",
+        "cechy": [
+          "Cierpka, intensywna kąpiel o leśnym aromacie",
+          "Brązowa barwa wody"
+        ],
+        "wlasciwosci": [
+          "łagodzi stany zapalne skóry, świąd i podrażnienia",
+          "działa antyseptycznie, wspiera regenerację naskórka"
+        ],
+        "zastosowanie": "Lecznicze kąpiele przy egzemie, łuszczycy, atopowym zapaleniu skóry, nadmiernej potliwości stóp i dłoni.",
+        "uwagi": "Nie używać na świeże, sączące rany oraz u osób z rozległymi zmianami alergicznymi bez konsultacji lekarskiej.",
+        "zrodlo": [
+          14
+        ]
+      }
+    ],
+    "herbatka": [
+      {
+        "nazwa": "herbatka_na_biegunki",
+        "skladniki": [
+          "1 łyżeczka suszonej kory dębu bezszypułkowego (najlepiej młoda, jasno-brązowa)",
+          "200 ml wrzątku (świeża woda)"
+        ],
+        "sposob_przygotowania": "Korę zalać wrzątkiem, parzyć pod przykryciem 20 minut, odcedzić.",
+        "cechy": [
+          "Mocny, cierpki napar",
+          "Lekko gorzkawy posmak"
+        ],
+        "wlasciwosci": [
+          "ściągający, hamujący biegunki, łagodzący stany zapalne żołądka"
+        ],
+        "zastosowanie": "Stosować doraźnie przy biegunkach i niestrawności spowodowanej stanem zapalnym błon śluzowych.",
+        "dawkowanie": "Pół szklanki naparu 2 razy dziennie przez maksymalnie 2–3 dni.",
+        "uwagi": "Nie stosować długotrwale ani u dzieci do 6 lat. Nie stosować w zaparciach lub niedrożności przewodu pokarmowego.",
+        "zrodlo": [
+          15
+        ]
+      }
+    ],
+    "okład": [
+      {
+        "nazwa": "okład_z_kory",
+        "skladniki": [
+          "1 łyżka mielonej kory dębu bezszypułkowego (świeża lub suszona, najlepiej młoda)",
+          "szklanka wody (250 ml, świeża)"
+        ],
+        "sposob_przygotowania": "Kory gotować 10 minut, ostudzić do temperatury ciała. Nasączyć gazę lub bawełniany materiał, przykładać na oczyszczoną skórę na 10–15 minut.",
+        "cechy": [
+          "Chłodzący, ściągający okład",
+          "Delikatny leśny aromat"
+        ],
+        "wlasciwosci": [
+          "przyspiesza gojenie drobnych ran, otarć, stłuczeń",
+          "zmniejsza obrzęki i zaczerwienienia"
+        ],
+        "zastosowanie": "Okłady na otarcia, drobne rany, stłuczenia, stany zapalne skóry, oparzenia słoneczne.",
+        "zrodlo": [
+          16
+        ]
+      }
+    ],
+    "maść": [
+      {
+        "nazwa": "maść_z_kory",
+        "skladniki": [
+          "2 łyżki mielonej kory dębu bezszypułkowego (świeża lub dokładnie wysuszona)",
+          "4 łyżki masła shea (najlepiej nierafinowanego, świeżego)"
+        ],
+        "sposob_przygotowania": "Masło shea rozpuścić w kąpieli wodnej, dodać mieloną korę, podgrzewać ok. 20 minut na bardzo małym ogniu. Przefiltrować przez gazę do wyparzonego słoiczka, ostudzić.",
+        "cechy": [
+          "Gęsta, brązowa maść",
+          "Naturalny zapach leśny"
+        ],
+        "wlasciwosci": [
+          "działa regenerująco, gojąco, ściągająco",
+          "przyspiesza gojenie podrażnionej skóry"
+        ],
+        "zastosowanie": "Smarowanie miejsc podrażnionych, drobnych ran, otarć, odparzeń, zmian alergicznych.",
+        "uwagi": "Przechowywać w chłodnym miejscu do 3 miesięcy. Nie stosować na sączące się rany.",
+        "zrodlo": [
+          17
+        ]
+      }
+    ]
+  },
+  "przepisy_kulinarne": {
+    "kawa": [
+      {
+        "nazwa": "kawa_z_zoledzi",
+        "skladniki": [
+          "1 szklanka żołędzi dębu bezszypułkowego (dojrzałe, świeżo obrane, bez łupin i gorzkiej skórki)",
+          "woda do gotowania (świeża)",
+          "opcjonalnie: mleko (świeże), cukier, miód"
+        ],
+        "sposob_przygotowania": "Żołędzie wymoczyć przez 24 godziny, kilkakrotnie zmieniając wodę (usuwa garbniki i gorycz). Osuszyć, uprażyć na suchej patelni aż zbrązowieją, następnie zmielić. 2 łyżeczki proszku zalać wrzątkiem (200 ml), parzyć 5–7 min. Podawać jak kawę zbożową.",
+        "cechy": [
+          "Orzechowy, lekko goryczkowy aromat",
+          "ciemny kolor"
+        ],
+        "wlasciwosci": [
+          "odżywcza, bezkofeinowa, łagodna dla żołądka"
+        ],
+        "zastosowanie": "Zamiennik kawy dla osób wrażliwych na kofeinę; tradycyjny napój jesienno-zimowy.",
+        "uwagi": "Najlepiej używać żołędzi dojrzałych, świeżych lub sezonowanych do roku.",
+        "zrodlo": [
+          18
+        ]
+      }
+    ],
+    "chleb": [
+      {
+        "nazwa": "chleb_zoledziowy",
+        "skladniki": [
+          "2 szklanki mąki żołędziowej (uprażone, zmielone żołędzie dębu bezszypułkowego)",
+          "2 szklanki mąki pszennej (świeża)",
+          "1,5 łyżeczki drożdży (świeże lub suszone)",
+          "1 łyżka miodu (naturalny)",
+          "1,5 szklanki ciepłej wody",
+          "1 łyżeczka soli (drobnoziarnista)"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki dokładnie wymieszać, wyrobić ciasto na gładko, zostawić do wyrośnięcia 1 godzinę. Piec w temp. 200°C przez 40 min. Najlepiej podawać lekko ciepły.",
+        "cechy": [
+          "Ciemny, orzechowy chleb",
+          "wilgotny miąższ"
+        ],
+        "wlasciwosci": [
+          "odżywczy, sycący, bogaty w błonnik i minerały"
+        ],
+        "zastosowanie": "Pieczywo na co dzień, polecane osobom aktywnym fizycznie lub podczas długich wędrówek.",
+        "uwagi": "Mąkę żołędziową najlepiej przygotować samodzielnie ze świeżych, dojrzałych żołędzi.",
+        "zrodlo": [
+          19
+        ]
+      }
+    ],
+    "placki": [
+      {
+        "nazwa": "placki_zoledziowe",
+        "skladniki": [
+          "1 szklanka żołędzi (ugotowanych, rozdrobnionych, dojrzałych)",
+          "2 jajka (świeże)",
+          "3 łyżki mąki pszennej (świeża)",
+          "szczypta soli",
+          "olej do smażenia (świeży, rzepakowy lub słonecznikowy)"
+        ],
+        "sposob_przygotowania": "Żołędzie rozdrobnić lub zmielić, wymieszać z jajkami, mąką i solą. Z masy formować małe placki, smażyć na rozgrzanym oleju z obu stron na złoto.",
+        "cechy": [
+          "Chrupiące, orzechowe",
+          "delikatnie złote"
+        ],
+        "wlasciwosci": [
+          "sycące, wysokokaloryczne, bogate w minerały"
+        ],
+        "zastosowanie": "Obiad lub pożywna przekąska, szczególnie dla osób aktywnych.",
+        "zrodlo": [
+          20
+        ]
+      }
+    ],
+    "prażone": [
+      {
+        "nazwa": "prażone_zoledzie",
+        "skladniki": [
+          "1 szklanka obranych żołędzi dębu bezszypułkowego (najlepiej świeżych, dojrzałych)",
+          "szczypta soli (drobnoziarnista)"
+        ],
+        "sposob_przygotowania": "Żołędzie wymoczyć i dokładnie osuszyć, uprażyć na suchej patelni z dodatkiem soli do uzyskania złoto-brązowej barwy i chrupkości.",
+        "cechy": [
+          "Chrupiące, orzechowe",
+          "lekko słone"
+        ],
+        "wlasciwosci": [
+          "odżywcze, wysokokaloryczne, lekkostrawne"
+        ],
+        "zastosowanie": "Przekąska, dodatek do musli lub sałatek.",
+        "uwagi": "Podprażone żołędzie można przechowywać do 2 tygodni w szczelnym pojemniku.",
+        "zrodlo": [
+          21
+        ]
+      }
+    ],
+    "mus": [
+      {
+        "nazwa": "mus_zoledziowy",
+        "skladniki": [
+          "1 szklanka żołędzi (gotowanych, zmiksowanych – najlepiej świeże, dojrzałe)",
+          "1 łyżka miodu (płynny, naturalny)",
+          "1/2 łyżeczki cynamonu (najlepiej cejlońskiego)"
+        ],
+        "sposob_przygotowania": "Żołędzie ugotować, zmiksować na gładką masę, wymieszać z miodem i cynamonem. Schłodzić przed podaniem.",
+        "cechy": [
+          "Gładki, słodki mus",
+          "wyraźny aromat orzechowy i cynamonowy"
+        ],
+        "wlasciwosci": [
+          "energetyczny, lekki, bogaty w błonnik i witaminy"
+        ],
+        "zastosowanie": "Deser, pożywne śniadanie lub przekąska dla dzieci.",
+        "zrodlo": [
+          22
+        ]
+      }
+    ],
+    "kiszone": [
+      {
+        "nazwa": "kiszone_zoledzie",
+        "skladniki": [
+          "2 szklanki żołędzi dębu bezszypułkowego (najlepiej świeżych, dojrzałych)",
+          "1 litr wody (przegotowana, ostudzona)",
+          "1 łyżka soli (kamiennej, niejodowanej)"
+        ],
+        "sposob_przygotowania": "Żołędzie dokładnie wypłukać, zalać solanką, przykryć i odstawić w temperaturze pokojowej na 7–10 dni. Gdy staną się kwaśne i chrupiące, gotowe do spożycia.",
+        "cechy": [
+          "Kwaśne, chrupiące, lekko orzechowe"
+        ],
+        "wlasciwosci": [
+          "probiotyczne, lekko strawne, wspierają trawienie"
+        ],
+        "zastosowanie": "Dodatek do sałatek, kanapek, przekąska.",
+        "uwagi": "Przechowywać w lodówce do 2 tygodni. Nie używać żołędzi z oznakami pleśni.",
+        "zrodlo": [
+          23
+        ]
+      }
+    ]
+  },
+  "inne_zastosowania": {
+    "kosmetyki": {
+      "opis": "Kora dębu bezszypułkowego, dzięki wysokiej zawartości garbników, flawonoidów oraz kwasów fenolowych, znajduje szerokie zastosowanie w naturalnej pielęgnacji skóry. Wyciągi z kory są wykorzystywane do sporządzania toników ściągających przeznaczonych dla skóry tłustej i trądzikowej, a także w maseczkach oczyszczających, maściach łagodzących oraz płynach do kąpieli regenerujących skórę. Regularne stosowanie preparatów na bazie kory dębu pomaga ograniczać nadmierne wydzielanie sebum, przyspiesza gojenie zmian skórnych oraz wzmacnia naczynia włosowate. W tradycyjnej kosmetyce ludowej stosowano także okłady z kory przy pękających naczynkach i przyspieszaniu gojenia niewielkich ran.",
+      "zastosowanie": "Toniki do przemywania skóry tłustej i trądzikowej (na bazie naparu lub maceratu z kory – świeżej lub suszonej), okłady na zaczerwienienia i otarcia (kora mielona i parzona na ciepło), kąpiele z dodatkiem odwaru (wzmacniają i odświeżają skórę), domowe maści z maceratem z kory do smarowania podrażnionych miejsc.",
+      "ciekawostka": "W XIX i na początku XX wieku aptekarze i kosmetolodzy sporządzali toniki dębowe szczególnie polecane młodym kobietom borykającym się z nadmiernym błyszczeniem cery.",
+      "zrodlo": [
+        32
+      ]
+    },
+    "barwniki": {
+      "opis": "Kora i żołędzie dębu bezszypułkowego zawierają naturalne garbniki i barwniki, które od wieków były używane do farbowania tkanin, wełny, skór, a także pisanek. Otrzymywano z nich trwałe odcienie brązu, złociste brązy i głębokie ciemne żółcie. W dawnych gospodarstwach wiejskich wywar z kory dębu służył jako barwnik do koszul lnianych oraz do ręcznego barwienia nici i sieci rybackich, co przedłużało ich trwałość. W Europie Zachodniej używano dębu także do przygotowywania bejc do drewna oraz do naturalnego przyciemniania instrumentów muzycznych.",
+      "zastosowanie": "Barwienie wełny, tkanin lnianych i bawełnianych, bejcowanie drewna, nadawanie barwy skórze garbowanej roślinnie, naturalne barwienie jaj wielkanocnych.",
+      "ciekawostka": "Szczególnie cenione były żołędzie zebrane jesienią – im bardziej dojrzałe i wysuszone, tym intensywniejszy kolor barwnika.",
+      "zrodlo": [
+        33
+      ]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "Żołędzie dębu bezszypułkowego, po wcześniejszym wymoczeniu w wodzie w celu zmniejszenia zawartości garbników, stanowią wartościową paszę dla dzikich zwierząt leśnych – dzików, jeleni, saren, a także dla wielu gatunków ptaków, zwłaszcza sójek, wiewiórek i bażantów. W tradycyjnej polskiej i południowoeuropejskiej hodowli dodawano żołędzie do karmy dla świń i bydła (zawsze w niewielkich ilościach, aby uniknąć zatrucia garbnikami). Pasza żołędziowa jest kaloryczna, bogata w skrobię, tłuszcze i minerały, co wspiera zwierzęta w okresie zimowym.",
+      "zastosowanie": "Bezpośrednia pasza dla dzikiej zwierzyny (zwłaszcza w okresie niedoboru pokarmu), dodatek do karmy dla trzody chlewnej, okazjonalnie dla bydła i owiec – wyłącznie żołędzie dojrzałe, uprzednio wymoczone lub sparzone.",
+      "ciekawostka": "W staropolskich gospodarstwach chłopskich żołędzie były nawet przechowywane na zimę jako strategiczny zapas paszy dla trzody. Stanowiły też przysmak dla dzieci – po uprzednim obgotowaniu i uprażeniu.",
+      "zrodlo": [
+        34
+      ]
+    },
+    "drewno": {
+      "opis": "Drewno dębu bezszypułkowego jest wyjątkowo twarde, ciężkie, bardzo odporne na wilgoć i czynniki biologiczne (grzyby, owady). Dzięki tym właściwościom od wieków jest cenione w szkutnictwie (budowa statków, łodzi), bednarstwie (beczki do win i piwa – nadają napojom aromat), do wyrobu podkładów kolejowych, mebli, schodów i podłóg. Z drewna dębowego wykonywano także narzędzia rolnicze, beczki maselnicze, koła młyńskie oraz ozdobne elementy architektoniczne. Drewno poddane długotrwałemu działaniu wody (np. palisady rzeczne) jeszcze bardziej zyskuje na trwałości i nabiera ciemnej barwy.",
+      "zastosowanie": "Produkcja wysokiej klasy mebli i parkietów, schodów, beczek do leżakowania wina, koniaku i whisky, konstrukcje wodne (mosty, pale), elementy architektury ogrodowej, rzeźba, snycerka.",
+      "ciekawostka": "Drewno dębowe z głębokich osadów rzecznych (tzw. dąb czarny, subfosylowy) jest szczególnie cenne i osiąga wysokie ceny jako ekskluzywny materiał stolarski i jubilerski.",
+      "zrodlo": [
+        35
+      ]
+    }
+  },
+  "kalendarz": {
+    "siew": [
+      10
+    ],
+    "sadzenie": [
+      3,
+      4
+    ],
+    "kwitnienie": [
+      5,
+      6
+    ],
+    "zbior": [
+      9,
+      10,
+      11
+    ],
+    "ciecie": [
+      2,
+      3,
+      8
+    ],
+    "nawozenie": [
+      4,
+      5,
+      9
+    ],
+    "zabezpieczanie": [
+      11
+    ],
+    "ochrona": [
+      5,
+      6
+    ],
+    "zbior_lisci": [
+      6
+    ],
+    "przesadzanie": [
+      3,
+      10
+    ],
+    "rozmnazanie": [
+      4,
+      5
+    ]
+  },
+  "bibliografia": {
+    "1": "https://www.atlas-roslin.pl/gatunki/Quercus_petraea.htm",
+    "2": "https://pl.wikipedia.org/wiki/D%C4%85b_bezszypu%C5%82kowy",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/drzewa/dab-bezszypulkowy",
+    "4": "https://www.gospodarz.pl/encyklopedia-roslin/drzewa/dab-bezszypulkowy.html",
+    "5": "https://rozanski.li/998/quercus-petraea-chemizm-kora/",
+    "6": "https://zielnikpolski.pl/kwasy-fenolowe-dab-bezszypulkowy/",
+    "7": "https://zielnikpolski.pl/flawonoidy-dab-bezszypulkowy/",
+    "8": "https://zielnikpolski.pl/zoledzie-sklad-odzywczy/",
+    "9": "https://magicznyogrod.pl/dab-bezszypulkowy-historia-i-zastosowanie.html",
+    "10": "https://kalendarzrolnikow.pl/14892/dab-bezszypulkowy-tradycja-i-symbolika",
+    "11": "https://zielnikpolski.pl/ostroznosc-dab-bezszypulkowy-garbniki/",
+    "12": "https://zielnikpolski.pl/zbiory-dab-bezszypulkowy/",
+    "13": "https://zielnikpolski.pl/odwar-kora-dab-bezszypulkowy/",
+    "14": "https://zielnikpolski.pl/kapiel-egzema-dab-bezszypulkowy/",
+    "15": "https://zielnikpolski.pl/herbatka-biegunki-dab-bezszypulkowy/",
+    "16": "https://zielnikpolski.pl/oklad-kora-dab-bezszypulkowy/",
+    "17": "https://zielnikpolski.pl/masc-kora-dab-bezszypulkowy/",
+    "18": "https://zielnikpolski.pl/kawa-zoledzie-dab-bezszypulkowy/",
+    "19": "https://zielnikpolski.pl/chleb-maka-zoledziowa-dab-bezszypulkowy/",
+    "20": "https://zielnikpolski.pl/placki-zoledziowe-dab-bezszypulkowy/",
+    "21": "https://zielnikpolski.pl/prazone-zoledzie-dab-bezszypulkowy/",
+    "22": "https://zielnikpolski.pl/mus-zoledziowy-dab-bezszypulkowy/",
+    "23": "https://zielnikpolski.pl/kiszone-zoledzie-dab-bezszypulkowy/",
+    "24": "https://zielnikpolski.pl/mieszanka-sciagajaca-dab-bezszypulkowy/",
+    "25": "https://zielnikpolski.pl/mieszanka-potliwosc-dab-bezszypulkowy/",
+    "26": "https://zielnikpolski.pl/mieszanka-jama-ustna-dab-bezszypulkowy/",
+    "27": "https://zielnikpolski.pl/mieszanka-kapielowa-dab-bezszypulkowy/",
+    "28": "https://zielnikpolski.pl/chleb-zoledziowy-orzechy-dab-bezszypulkowy/",
+    "29": "https://zielnikpolski.pl/placki-zoledziowe-rodzynki-dab-bezszypulkowy/",
+    "30": "https://zielnikpolski.pl/mus-zoledziowy-jablko-dab-bezszypulkowy/",
+    "31": "https://zielnikpolski.pl/kiszone-zoledzie-koper-dab-bezszypulkowy/",
+    "32": "https://zielnikpolski.pl/kosmetyki-dab-bezszypulkowy/",
+    "33": "https://zielnikpolski.pl/barwnik-dab-bezszypulkowy/",
+    "34": "https://www.farmer.pl/zwierzeta/zywienie/zoledzie-dla-zwierzat,79271.html",
+    "35": "https://zielnikpolski.pl/drewno-dab-bezszypulkowy/"
+  }
+}

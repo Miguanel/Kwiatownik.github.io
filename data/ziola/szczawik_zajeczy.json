@@ -154,7 +154,8 @@
       "dawkowanie": "Szklanka 1–2 razy dziennie.",
       "zrodlo": [
         13
-      ]
+      ],
+      "nazwa": "napar na goraczke"
     },
     "herbatka_witaminowa": {
       "skladniki": [
@@ -172,7 +173,8 @@
       "zastosowanie": "Okres osłabienia, rekonwalescencja.",
       "zrodlo": [
         14
-      ]
+      ],
+      "nazwa": "herbatka witaminowa"
     },
     "kompres_na_oparzenia": {
       "skladniki": [
@@ -189,7 +191,8 @@
       "zastosowanie": "Okłady na oparzenia i rany.",
       "zrodlo": [
         15
-      ]
+      ],
+      "nazwa": "kompres na oparzenia"
     },
     "syrop_na_kaszel": {
       "skladniki": [
@@ -208,7 +211,8 @@
       "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
       "zrodlo": [
         16
-      ]
+      ],
+      "nazwa": "syrop na kaszel"
     },
     "mieszanka_na_nerki": {
       "skladniki": [
@@ -227,7 +231,8 @@
       "zastosowanie": "Kuracja wspierająca nerki.",
       "zrodlo": [
         17
-      ]
+      ],
+      "nazwa": "mieszanka na nerki"
     },
     "kąpiel_ziołowa_na_skórę": {
       "skladniki": [
@@ -244,7 +249,8 @@
       "zastosowanie": "Kąpiel na podrażnienia skóry.",
       "zrodlo": [
         18
-      ]
+      ],
+      "nazwa": "kąpiel ziołowa na skórę"
     },
     "maść_na_rany": {
       "skladniki": [
@@ -261,7 +267,8 @@
       "zastosowanie": "Drobne rany, zadrapania.",
       "zrodlo": [
         19
-      ]
+      ],
+      "nazwa": "maść na rany"
     },
     "szwedzka mieszanka na wątrobę": {
       "skladniki": [
@@ -281,7 +288,8 @@
       "zastosowanie": "Herbata na trawienie i pracę wątroby.",
       "zrodlo": [
         28
-      ]
+      ],
+      "nazwa": "szwedzka mieszanka na wątrobę"
     },
     "rosyjska mieszanka witaminowa": {
       "skladniki": [
@@ -300,7 +308,8 @@
       "zastosowanie": "Kuracje wzmacniające, osłabienie.",
       "zrodlo": [
         29
-      ]
+      ],
+      "nazwa": "rosyjska mieszanka witaminowa"
     },
     "niemiecka kąpiel na wysypki": {
       "skladniki": [
@@ -319,7 +328,8 @@
       "zastosowanie": "Kąpiele lecznicze przy egzemach, wysypkach.",
       "zrodlo": [
         30
-      ]
+      ],
+      "nazwa": "niemiecka kąpiel na wysypki"
     },
     "francuska mieszanka na kaszel": {
       "skladniki": [
@@ -339,7 +349,8 @@
       "zastosowanie": "Kuracje przy kaszlu suchym i podrażnieniach gardła.",
       "zrodlo": [
         31
-      ]
+      ],
+      "nazwa": "francuska mieszanka na kaszel"
     },
     "herbatka dla dzieci na wiosenne zmęczenie": {
       "skladniki": [
@@ -359,7 +370,8 @@
       "dawkowanie": "1 filiżanka dziennie, nie dłużej niż 7 dni.",
       "zrodlo": [
         32
-      ]
+      ],
+      "nazwa": "herbatka dla dzieci na wiosenne zmęczenie"
     },
     "litewska mieszanka na anemię": {
       "skladniki": [
@@ -378,7 +390,8 @@
       "zastosowanie": "Kuracja dla osób z objawami anemii.",
       "zrodlo": [
         33
-      ]
+      ],
+      "nazwa": "litewska mieszanka na anemię"
     },
     "napar dla kobiet w okresie menopauzy": {
       "skladniki": [
@@ -398,7 +411,8 @@
       "zastosowanie": "Napój łagodzący objawy menopauzy.",
       "zrodlo": [
         34
-      ]
+      ],
+      "nazwa": "napar dla kobiet w okresie menopauzy"
     },
     "balsam historyczny na owrzodzenia i odciski": {
       "skladniki": [
@@ -416,7 +430,8 @@
       "zastosowanie": "Okłady na owrzodzenia, odciski, drobne rany stóp.",
       "zrodlo": [
         35
-      ]
+      ],
+      "nazwa": "balsam historyczny na owrzodzenia i odciski"
     },
     "estońska mieszanka chłodząca do płukania jamy ustnej": {
       "skladniki": [
@@ -435,7 +450,8 @@
       "zastosowanie": "Płukanki przy stanach zapalnych jamy ustnej, aftach.",
       "zrodlo": [
         36
-      ]
+      ],
+      "nazwa": "estońska mieszanka chłodząca do płukania jamy ustnej"
     },
     "skandynawska mieszanka na kamicę moczową": {
       "skladniki": [
@@ -455,7 +471,8 @@
       "zastosowanie": "Kuracje wspierające nerki przy kamicy moczowej.",
       "zrodlo": [
         37
-      ]
+      ],
+      "nazwa": "skandynawska mieszanka na kamicę moczową"
     },
     "rosyjska mieszanka dla rekonwalescentów": {
       "skladniki": [
@@ -475,7 +492,8 @@
       "zastosowanie": "Dla dzieci i dorosłych w trakcie rekonwalescencji.",
       "zrodlo": [
         38
-      ]
+      ],
+      "nazwa": "rosyjska mieszanka dla rekonwalescentów"
     },
     "polski kompres na ukąszenia owadów": {
       "skladniki": [
@@ -492,6 +510,298 @@
       "zastosowanie": "Przy ukąszeniach komarów, meszek, os.",
       "zrodlo": [
         39
+      ],
+      "nazwa": "polski kompres na ukąszenia owadów"
+    },
+    "mieszanka_napotna_szczawik_kwiat_lipy_rumianek_sok_z_malin_krwawnik_babka_liść_porzeczki_dzika_róża": {
+      "nazwa": "mieszanka napotna szczawik kwiat lipy rumianek sok z malin krwawnik babka liść porzeczki dzika róża",
+      "skladniki": [
+        "1 łyżka świeżych lub suszonych liści szczawika",
+        "1 łyżka kwiatów lipy",
+        "1 łyżka kwiatów rumianku",
+        "2 łyżki świeżego soku z malin",
+        "1 łyżeczka ziela krwawnika",
+        "1 łyżeczka liści babki lancetowatej",
+        "1 łyżeczka liści czarnej porzeczki",
+        "1 łyżka owoców dzikiej róży",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 15 min pod przykryciem, pić przy przeziębieniu.",
+      "cechy": [
+        "Delikatny, kwiatowy aromat"
+      ],
+      "wlasciwosci": [
+        "napotna, przeciwgorączkowa"
+      ],
+      "zastosowanie": "Przeziębienie, grypa.",
+      "zrodlo": [
+        28
+      ]
+    },
+    "mieszanka_na_odporność_szczawik_pokrzywa_mniszek_babka_kwiat_czarnego_bzu_głóg_fiołek_nagietek": {
+      "nazwa": "mieszanka na odporność szczawik pokrzywa mniszek babka kwiat czarnego bzu głóg fiołek nagietek",
+      "skladniki": [
+        "1 łyżka liści szczawika",
+        "1 łyżka liści pokrzywy (świeżych lub suszonych)",
+        "1 łyżka korzenia mniszka lekarskiego (świeżego, pokrojonego lub suszonego)",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka kwiatów czarnego bzu",
+        "1 łyżeczka owoców głogu",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżka kwiatów nagietka",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki zaparzyć, pić przez 7 dni wiosną.",
+      "cechy": [
+        "Ziołowy, orzeźwiający napar"
+      ],
+      "wlasciwosci": [
+        "wzmacniająca odporność"
+      ],
+      "zastosowanie": "Kuracje wiosenne.",
+      "zrodlo": [
+        29
+      ]
+    },
+    "mieszanka_moczopędna_szczawik_skrzyp_liść_brzozy_pokrzywa_mniszek_fiołek_liść_truskawki_krwawnik": {
+      "nazwa": "mieszanka moczopędna szczawik skrzyp liść brzozy pokrzywa mniszek fiołek liść truskawki krwawnik",
+      "skladniki": [
+        "1 łyżka liści szczawika",
+        "1 łyżka ziela skrzypu polnego",
+        "1 łyżka liści brzozy",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżeczka fiołka trójbarwnego",
+        "1 łyżeczka liści truskawki",
+        "1 łyżeczka ziela krwawnika",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć, pić przez 5 dni.",
+      "cechy": [
+        "Łagodny, cytrynowy aromat"
+      ],
+      "wlasciwosci": [
+        "moczopędna, oczyszczająca"
+      ],
+      "zastosowanie": "Obrzęki, oczyszczanie organizmu.",
+      "zrodlo": [
+        30
+      ]
+    },
+    "mieszanka_na_trawienie_szczawik_mięta_koper_włoski_anyż_babka_mniszek_rumianek_nagietek": {
+      "nazwa": "mieszanka na trawienie szczawik mięta koper włoski anyż babka mniszek rumianek nagietek",
+      "skladniki": [
+        "1 łyżka liści szczawika",
+        "1 łyżka liści mięty",
+        "1 łyżeczka nasion kopru włoskiego",
+        "1/2 łyżeczki nasion anyżu",
+        "1 łyżka liści babki",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżka kwiatów rumianku",
+        "1 łyżka kwiatów nagietka",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć, pić po ciężkostrawnych posiłkach.",
+      "cechy": [
+        "Ziołowy, lekko kwaśny napar"
+      ],
+      "wlasciwosci": [
+        "pobudza trawienie"
+      ],
+      "zastosowanie": "Kuracje po zimie, przy problemach żołądkowych.",
+      "zrodlo": [
+        31
+      ]
+    },
+    "mieszanka_na_skórę_szczawik_nagietek_rumianek_fiołek_pokrzywa_skrzyp_babka_koniczyna": {
+      "nazwa": "mieszanka na skórę szczawik nagietek rumianek fiołek pokrzywa skrzyp babka koniczyna",
+      "skladniki": [
+        "1 łyżka świeżych lub suszonych liści szczawika",
+        "1 łyżka kwiatów nagietka",
+        "1 łyżka kwiatów rumianku",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka kwiatów koniczyny czerwonej",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć, stosować do kąpieli lub przemywania skóry.",
+      "cechy": [
+        "Łagodny, ziołowy napar"
+      ],
+      "wlasciwosci": [
+        "regenerująca, gojąca"
+      ],
+      "zastosowanie": "Podrażnienia skóry, egzemy.",
+      "zrodlo": [
+        32
+      ]
+    },
+    "mieszanka_wykrztuśna_szczawik_tymianek_babka_podbiał_miodunka_dziewanna_lukrecja_anyż": {
+      "nazwa": "mieszanka wykrztuśna szczawik tymianek babka podbiał miodunka dziewanna lukrecja anyż",
+      "skladniki": [
+        "1 łyżka liści szczawika",
+        "1 łyżka ziela tymianku",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka liści podbiału",
+        "1 łyżka ziela miodunki",
+        "1 łyżka kwiatu dziewanny",
+        "1 łyżeczka korzenia lukrecji",
+        "1 łyżeczka nasion anyżu",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, pić ciepły napar.",
+      "cechy": [
+        "Orzeźwiający, lekko słodki"
+      ],
+      "wlasciwosci": [
+        "wykrztuśna, łagodząca kaszel"
+      ],
+      "zastosowanie": "Przy infekcjach dróg oddechowych.",
+      "zrodlo": [
+        33
+      ]
+    },
+    "mieszanka_chłodnikowa_szczawik_szczaw_pokrzywa_szpinak_koper_rzodkiewka_ogórek_kefir": {
+      "nazwa": "mieszanka chłodnikowa szczawik szczaw pokrzywa szpinak koper rzodkiewka ogórek kefir",
+      "skladniki": [
+        "1 garść świeżych liści szczawika",
+        "1 garść liści szczawiu",
+        "1 garść młodej pokrzywy (sparzonej, drobno posiekanej)",
+        "1 garść szpinaku",
+        "1/2 pęczka koperku (drobno posiekanego)",
+        "3 rzodkiewki (pokrojone w plasterki)",
+        "1 ogórek (pokrojony w kostkę)",
+        "500 ml kefiru",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Liście szczawika, szczawiu, pokrzywy i szpinaku sparzyć, posiekać, wymieszać z pozostałymi składnikami, zalać kefirem.",
+      "cechy": [
+        "Orzeźwiający, wiosenny smak"
+      ],
+      "wlasciwosci": [
+        "witaminowy, chłodzący"
+      ],
+      "zastosowanie": "Chłodnik na wiosnę i lato.",
+      "zrodlo": [
+        35
+      ]
+    },
+    "skandynawska_mieszanka_witaminowa_szczawik_żurawina_liść_borówki_pokrzywa_mięta_dzika_róża": {
+      "nazwa": "skandynawska mieszanka witaminowa szczawik żurawina liść borówki pokrzywa mięta dzika róża",
+      "skladniki": [
+        "1 łyżka świeżych liści szczawika zajęczego",
+        "1 łyżeczka suszonych owoców żurawiny",
+        "1 łyżka liści borówki brusznicy",
+        "1 łyżka liści pokrzywy",
+        "1/2 łyżki liści mięty",
+        "1 łyżeczka owoców dzikiej róży",
+        "400 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 12 minut, przecedzić.",
+      "cechy": [
+        "Kwaśno-owocowy, świeży napar"
+      ],
+      "wlasciwosci": [
+        "bogaty w witaminę C, mineralizujący"
+      ],
+      "zastosowanie": "Kuracje dla dzieci i dorosłych, osłabienie.",
+      "zrodlo": [
+        36
+      ]
+    },
+    "rosyjska_mieszanka_na_żółtaczkę_szczawik_liść_brzozy_korzeń_mniszka_korzeń_cykorii_kora_kruszyny_liść_babki": {
+      "nazwa": "rosyjska mieszanka na żółtaczkę szczawik liść brzozy korzeń mniszka korzeń cykorii kora kruszyny liść babki",
+      "skladniki": [
+        "1 łyżka świeżych liści szczawika zajęczego",
+        "1 łyżka liści brzozy",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżka korzenia cykorii",
+        "1 łyżeczka kory kruszyny",
+        "1 łyżka liści babki lancetowatej",
+        "500 ml wody"
+      ],
+      "sposob_przygotowania": "Korzenie i korę gotować 10 min, dodać liście, parzyć 10 min, przecedzić.",
+      "cechy": [
+        "Lekko gorzki, żółtawy wywar"
+      ],
+      "wlasciwosci": [
+        "żółciopędna, wspomaga wątrobę"
+      ],
+      "zastosowanie": "Kuracje wątroby, po zatruciach.",
+      "zrodlo": [
+        37
+      ]
+    },
+    "francuska_mieszanka_oczyszczająca_szczawik_fiołek_bratek_korzeń_łopianu_liść_pokrzywy_mniszek_szałwia": {
+      "nazwa": "francuska mieszanka oczyszczająca szczawik fiołek bratek korzeń łopianu liść pokrzywy mniszek szałwia",
+      "skladniki": [
+        "1 łyżka świeżych liści szczawika",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżka bratka polnego",
+        "1 łyżka korzenia łopianu (pokrojonego)",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżka liści szałwii",
+        "800 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Korzenie gotować 10 min, dodać zioła, parzyć 10 min, przecedzić.",
+      "cechy": [
+        "Ziołowy, lekko kwaskowy napar"
+      ],
+      "wlasciwosci": [
+        "oczyszczająca, detoksykująca"
+      ],
+      "zastosowanie": "Wiosenna kuracja oczyszczająca.",
+      "zrodlo": [
+        39
+      ]
+    },
+    "mieszanka_kąpielowa_szczawik_rumianek_nagietek_babka_lawenda_pokrzywa_skrzyp_mięta": {
+      "nazwa": "mieszanka kąpielowa szczawik rumianek nagietek babka lawenda pokrzywa skrzyp mięta",
+      "skladniki": [
+        "2 garście świeżych liści szczawika",
+        "1 łyżka kwiatów rumianku",
+        "1 łyżka kwiatów nagietka",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka kwiatów lawendy",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu",
+        "1 łyżka liści mięty",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć 20 min, przecedzić do kąpieli.",
+      "cechy": [
+        "Relaksujący, ziołowy zapach"
+      ],
+      "wlasciwosci": [
+        "łagodząca, regenerująca"
+      ],
+      "zastosowanie": "Kąpiele lecznicze.",
+      "zrodlo": [
+        34
+      ]
+    },
+    "niemiecki_okład_na_rany_i_stłuczenia_szczawik_nagietek_liść_babki_liść_szałwii": {
+      "nazwa": "niemiecki okład na rany i stłuczenia szczawik nagietek liść babki liść szałwii",
+      "skladniki": [
+        "2 łyżki świeżych liści szczawika zajęczego (rozdrobnionych)",
+        "2 łyżki świeżych kwiatów nagietka (rozdrobnionych)",
+        "2 łyżki świeżych liści babki lancetowatej (rozdrobnionych)",
+        "1 łyżeczka świeżych liści szałwii",
+        "gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki rozgnieść, ułożyć na gazie, przykładać na ranę na 20–30 minut.",
+      "cechy": [
+        "Chłodzący, łagodzący kompres"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, dezynfekuje"
+      ],
+      "zastosowanie": "Stłuczenia, zadrapania, rany.",
+      "zrodlo": [
+        38
       ]
     }
   },
@@ -515,7 +825,8 @@
       "zastosowanie": "Chłodnik na wiosnę i lato.",
       "zrodlo": [
         20
-      ]
+      ],
+      "nazwa": "chłodnik leśny"
     },
     "sałatka_wiosenna": {
       "skladniki": [
@@ -537,7 +848,8 @@
       "zastosowanie": "Sałatka, przekąska.",
       "zrodlo": [
         21
-      ]
+      ],
+      "nazwa": "sałatka wiosenna"
     },
     "omlet_ze_szczawikiem": {
       "skladniki": [
@@ -556,7 +868,8 @@
       "zastosowanie": "Śniadanie, lunch.",
       "zrodlo": [
         22
-      ]
+      ],
+      "nazwa": "omlet ze szczawikiem"
     },
     "twarożek_leśny": {
       "skladniki": [
@@ -575,7 +888,8 @@
       "zastosowanie": "Śniadanie, kanapka.",
       "zrodlo": [
         23
-      ]
+      ],
+      "nazwa": "twarożek leśny"
     },
     "sorbet_szczawikowy": {
       "skladniki": [
@@ -594,7 +908,8 @@
       "zastosowanie": "Letni deser.",
       "zrodlo": [
         24
-      ]
+      ],
+      "nazwa": "sorbet szczawikowy"
     },
     "galaretka_leśna": {
       "skladniki": [
@@ -613,7 +928,8 @@
       "zastosowanie": "Deser, kolacja.",
       "zrodlo": [
         25
-      ]
+      ],
+      "nazwa": "galaretka leśna"
     },
     "kiszonka_z_szczawika": {
       "skladniki": [
@@ -631,7 +947,8 @@
       "zastosowanie": "Dodatek do kanapek, sałatek.",
       "zrodlo": [
         26
-      ]
+      ],
+      "nazwa": "kiszonka z szczawika"
     },
     "lemoniada_szczawikowa": {
       "skladniki": [
@@ -650,7 +967,8 @@
       "zastosowanie": "Napój na upały.",
       "zrodlo": [
         27
-      ]
+      ],
+      "nazwa": "lemoniada szczawikowa"
     },
     "estoński chleb szczawikowy": {
       "skladniki": [
@@ -673,7 +991,8 @@
       "zastosowanie": "Pieczywo codzienne, do masła, na kanapki.",
       "zrodlo": [
         28
-      ]
+      ],
+      "nazwa": "estoński chleb szczawikowy"
     },
     "skandynawskie bułeczki z dodatkiem szczawika": {
       "skladniki": [
@@ -696,7 +1015,8 @@
       "zastosowanie": "Do mleka, na śniadanie.",
       "zrodlo": [
         29
-      ]
+      ],
+      "nazwa": "skandynawskie bułeczki z dodatkiem szczawika"
     },
     "francuski krem cytrynowo-szczawikowy": {
       "skladniki": [
@@ -716,7 +1036,8 @@
       "zastosowanie": "Letni deser, podwieczorek.",
       "zrodlo": [
         30
-      ]
+      ],
+      "nazwa": "francuski krem cytrynowo-szczawikowy"
     },
     "rosyjski kwas szczawikowy": {
       "skladniki": [
@@ -736,7 +1057,8 @@
       "zastosowanie": "Tradycyjny napój chłodzący.",
       "zrodlo": [
         31
-      ]
+      ],
+      "nazwa": "rosyjski kwas szczawikowy"
     },
     "szczawikowy dżem z jabłkiem": {
       "skladniki": [
@@ -755,568 +1077,272 @@
       "zastosowanie": "Do pieczywa, naleśników, wypieków.",
       "zrodlo": [
         32
+      ],
+      "nazwa": "szczawikowy dżem z jabłkiem"
+    },
+    "sałatka_leśna_szczawik_marzanka_czosnek_niedźwiedzi_truskawki_ser_kozi_pestki_dyni_oliwa": {
+      "nazwa": "sałatka leśna szczawik marzanka czosnek niedźwiedzi truskawki ser kozi pestki dyni oliwa",
+      "skladniki": [
+        "1 garść świeżych liści szczawika",
+        "1 garść świeżych liści marzanki wonnej",
+        "1 garść świeżych liści czosnku niedźwiedziego",
+        "5 świeżych truskawek (pokrojonych w plasterki)",
+        "30 g sera koziego (pokruszonego)",
+        "1 łyżka pestek dyni (uprażonych)",
+        "1 łyżka oliwy z oliwek",
+        "sok z 1/4 cytryny"
+      ],
+      "sposob_przygotowania": "Wszystkie liście i truskawki pokroić, wymieszać z serem i pestkami, skropić oliwą i sokiem z cytryny.",
+      "cechy": [
+        "Kwaśno-słodka, aromatyczna"
+      ],
+      "wlasciwosci": [
+        "witaminowa, odżywcza"
+      ],
+      "zastosowanie": "Sałatka piknikowa.",
+      "zrodlo": [
+        36
+      ]
+    },
+    "pesto_ze_szczawika_orzechów_i_koperku": {
+      "nazwa": "pesto ze szczawika orzechów i koperku",
+      "skladniki": [
+        "2 garście świeżych liści szczawika",
+        "1/4 szklanki orzechów włoskich (uprażonych)",
+        "2 łyżki świeżego koperku (posiekanego)",
+        "3 łyżki oliwy z oliwek",
+        "1 ząbek czosnku (rozgnieciony)",
+        "szczypta soli"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki zmiksować na pastę.",
+      "cechy": [
+        "Kwaśno-orzechowe, aromatyczne"
+      ],
+      "wlasciwosci": [
+        "naturalny antyoksydant"
+      ],
+      "zastosowanie": "Do makaronu, kanapek.",
+      "zrodlo": [
+        38
+      ]
+    },
+    "kanapki_z_pastą_szczawikową_i_rzodkiewką": {
+      "nazwa": "kanapki z pastą szczawikową i rzodkiewką",
+      "skladniki": [
+        "3 łyżki pasty ze szczawika (świeże liście szczawika, twarożek, jogurt, oliwa z oliwek, sól – wszystko zmiksowane na gładko)",
+        "4 świeże rzodkiewki (pokrojone w plasterki)",
+        "4 kromki świeżego pieczywa żytniego"
+      ],
+      "sposob_przygotowania": "Pieczywo posmarować pastą, udekorować rzodkiewką.",
+      "cechy": [
+        "Chrupiące, kwaśno-orzeźwiające"
+      ],
+      "wlasciwosci": [
+        "lekkostrawne, witaminowe"
+      ],
+      "zastosowanie": "Śniadanie, przekąska.",
+      "zrodlo": [
+        39
+      ]
+    },
+    "placki_z_liści_szczawika_i_ziemniaków": {
+      "nazwa": "placki z liści szczawika i ziemniaków",
+      "skladniki": [
+        "2 garście świeżych liści szczawika",
+        "2 średnie ziemniaki (obrane, starte na tarce)",
+        "1 jajko",
+        "2 łyżki mąki pszennej",
+        "1/2 cebuli (drobno posiekanej)",
+        "sól, pieprz",
+        "olej do smażenia"
+      ],
+      "sposob_przygotowania": "Liście i cebulę drobno posiekać, wymieszać z ziemniakami, jajkiem, mąką i przyprawami. Smażyć placuszki na rozgrzanym oleju.",
+      "cechy": [
+        "Zielone, chrupiące"
+      ],
+      "wlasciwosci": [
+        "sycące, lekkostrawne"
+      ],
+      "zastosowanie": "Obiad, przekąska.",
+      "zrodlo": [
+        40
+      ]
+    },
+    "chłodnik_szczawikowo-szczawiowy_z_ogórkiem": {
+      "nazwa": "chłodnik szczawikowo-szczawiowy z ogórkiem",
+      "skladniki": [
+        "1 garść świeżych liści szczawika",
+        "1 garść świeżych liści szczawiu",
+        "1 ogórek gruntowy (pokrojony w kostkę)",
+        "2 łyżki kwaśnej śmietany",
+        "1/2 pęczka koperku (posiekanego)",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Liście i ogórek pokroić, wymieszać z resztą składników, podawać mocno schłodzony.",
+      "cechy": [
+        "Kwaśny, orzeźwiający"
+      ],
+      "wlasciwosci": [
+        "pobudzający trawienie"
+      ],
+      "zastosowanie": "Zupa na wiosnę i lato.",
+      "zrodlo": [
+        41
+      ]
+    },
+    "galaretka_szczawikowa_z_sokiem_malinowym": {
+      "nazwa": "galaretka szczawikowa z sokiem malinowym",
+      "skladniki": [
+        "1 garść świeżych liści szczawika",
+        "1 szklanka świeżego soku malinowego",
+        "1 łyżeczka żelatyny",
+        "1 łyżka cukru"
+      ],
+      "sposob_przygotowania": "Sok z liśćmi podgrzać, dodać cukier i żelatynę, dokładnie wymieszać, przelać do pucharków, schłodzić.",
+      "cechy": [
+        "Różowy kolor, kwaśno-słodki smak"
+      ],
+      "wlasciwosci": [
+        "witaminowa, lekka"
+      ],
+      "zastosowanie": "Deser na zimno.",
+      "zrodlo": [
+        42
+      ]
+    },
+    "niemiecki_szczawikowy_aufstrich_smarowidło_do_pieczywa": {
+      "nazwa": "niemiecki szczawikowy aufstrich smarowidło do pieczywa",
+      "skladniki": [
+        "1/2 szklanki twarożku",
+        "2 łyżki świeżych liści szczawika (drobno posiekanych)",
+        "1 łyżka świeżego szczypiorku (posiekanego)",
+        "1 łyżka jogurtu naturalnego",
+        "sól, biały pieprz"
+      ],
+      "sposob_przygotowania": "Wszystko dokładnie wymieszać, podawać na chlebie razowym.",
+      "cechy": [
+        "Kremowa, lekko kwaśna"
+      ],
+      "wlasciwosci": [
+        "lekka, białkowa"
+      ],
+      "zastosowanie": "Do pieczywa na śniadanie.",
+      "zrodlo": [
+        45
+      ]
+    },
+    "litewski_chłodnik_szczawikowo-buraczany": {
+      "nazwa": "litewski chłodnik szczawikowo-buraczany",
+      "skladniki": [
+        "1 garść świeżych liści szczawika",
+        "1 mały burak (ugotowany, starty na tarce)",
+        "1 ogórek świeży (pokrojony w kostkę)",
+        "2 jajka (ugotowane na twardo, pokrojone w ćwiartki)",
+        "1/2 pęczka koperku",
+        "400 ml kefiru lub zsiadłego mleka",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Liście szczawika sparzyć, posiekać, wymieszać z burakiem, ogórkiem i koperkiem, zalać kefirem, doprawić. Podawać z jajkiem.",
+      "cechy": [
+        "Różowy kolor, kwaskowy smak"
+      ],
+      "wlasciwosci": [
+        "chłodzący, sycący"
+      ],
+      "zastosowanie": "Chłodnik na lato.",
+      "zrodlo": [
+        46
+      ]
+    },
+    "skandynawskie_bułeczki_z_liśćmi_szczawika": {
+      "nazwa": "skandynawskie bułeczki z liśćmi szczawika",
+      "skladniki": [
+        "250 g mąki pszennej",
+        "60 g świeżych liści szczawika (drobno posiekanych)",
+        "1 jajko",
+        "60 g masła",
+        "120 ml mleka",
+        "10 g drożdży",
+        "2 łyżki cukru",
+        "szczypta soli"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki zagnieść, odstawić do wyrośnięcia. Uformować bułeczki, piec 15 min w 190°C.",
+      "cechy": [
+        "Puszyste, lekko kwaśne"
+      ],
+      "wlasciwosci": [
+        "delikatne, śniadaniowe"
+      ],
+      "zastosowanie": "Do mleka, śniadanie.",
+      "zrodlo": [
+        47
+      ]
+    },
+    "omlet_wiosenny_szczawik_pokrzywa_szczypiorek_jajka_masło": {
+      "nazwa": "omlet wiosenny szczawik pokrzywa szczypiorek jajka masło",
+      "skladniki": [
+        "2 jajka",
+        "1 garść świeżych liści szczawika",
+        "1 garść młodej pokrzywy (sparzonej, drobno posiekanej)",
+        "1 łyżka świeżego szczypiorku",
+        "1 łyżka masła",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Liście pokrzywy i szczawika zeszklić na maśle, dodać roztrzepane jajka i szczypiorek, smażyć do ścięcia.",
+      "cechy": [
+        "Zielony, lekki omlet"
+      ],
+      "wlasciwosci": [
+        "wiosenny, bogaty w żelazo"
+      ],
+      "zastosowanie": "Śniadanie, lunch.",
+      "zrodlo": [
+        37
+      ]
+    },
+    "kiszone_liście_szczawika_z_koprem": {
+      "nazwa": "kiszone liście szczawika z koprem",
+      "skladniki": [
+        "3 garście świeżych liści szczawika",
+        "2 gałązki świeżego koperku",
+        "1 litr przegotowanej wody",
+        "1 łyżka soli kamiennej"
+      ],
+      "sposob_przygotowania": "Liście i koper zalać solanką, odstawić na 5–7 dni do fermentacji.",
+      "cechy": [
+        "Kwaśne, probiotyczne"
+      ],
+      "wlasciwosci": [
+        "probiotyczne, odżywcze"
+      ],
+      "zastosowanie": "Dodatek do surówek, kanapek.",
+      "zrodlo": [
+        43
+      ]
+    },
+    "francuska_tarta_z_liśćmi_szczawika_i_pokrzywą": {
+      "nazwa": "francuska tarta z liśćmi szczawika i pokrzywą",
+      "skladniki": [
+        "Ciasto kruche (gotowe lub własnej roboty)",
+        "2 garście świeżych liści szczawika (drobno posiekanych)",
+        "1 garść młodej pokrzywy (sparzonej, posiekanej)",
+        "3 jajka",
+        "150 ml śmietanki 30%",
+        "1 ząbek czosnku (przeciśnięty)",
+        "sól, pieprz, gałka muszkatołowa"
+      ],
+      "sposob_przygotowania": "Na podpieczonym cieście rozłożyć liście, zalać masą jajeczną ze śmietanką, doprawić. Piec 25–30 min w 180°C.",
+      "cechy": [
+        "Kruche, ziołowe, wyraziste"
+      ],
+      "wlasciwosci": [
+        "pożywna, domowa"
+      ],
+      "zastosowanie": "Obiad, kolacja, piknik.",
+      "zrodlo": [
+        44
       ]
     }
-  },
-  "przepisy_z_innymi_roslinami": {
-    "medyczne": [
-      {
-        "nazwa": "Mieszanka napotna (szczawik, kwiat lipy, rumianek, sok z malin, krwawnik, babka, liść porzeczki, dzika róża)",
-        "skladniki": [
-          "1 łyżka świeżych lub suszonych liści szczawika",
-          "1 łyżka kwiatów lipy",
-          "1 łyżka kwiatów rumianku",
-          "2 łyżki świeżego soku z malin",
-          "1 łyżeczka ziela krwawnika",
-          "1 łyżeczka liści babki lancetowatej",
-          "1 łyżeczka liści czarnej porzeczki",
-          "1 łyżka owoców dzikiej róży",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 15 min pod przykryciem, pić przy przeziębieniu.",
-        "cechy": [
-          "Delikatny, kwiatowy aromat"
-        ],
-        "wlasciwosci": [
-          "napotna, przeciwgorączkowa"
-        ],
-        "zastosowanie": "Przeziębienie, grypa.",
-        "zrodlo": [
-          28
-        ]
-      },
-      {
-        "nazwa": "Mieszanka na odporność (szczawik, pokrzywa, mniszek, babka, kwiat czarnego bzu, głóg, fiołek, nagietek)",
-        "skladniki": [
-          "1 łyżka liści szczawika",
-          "1 łyżka liści pokrzywy (świeżych lub suszonych)",
-          "1 łyżka korzenia mniszka lekarskiego (świeżego, pokrojonego lub suszonego)",
-          "1 łyżka liści babki lancetowatej",
-          "1 łyżka kwiatów czarnego bzu",
-          "1 łyżeczka owoców głogu",
-          "1 łyżka fiołka trójbarwnego",
-          "1 łyżka kwiatów nagietka",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki zaparzyć, pić przez 7 dni wiosną.",
-        "cechy": [
-          "Ziołowy, orzeźwiający napar"
-        ],
-        "wlasciwosci": [
-          "wzmacniająca odporność"
-        ],
-        "zastosowanie": "Kuracje wiosenne.",
-        "zrodlo": [
-          29
-        ]
-      },
-      {
-        "nazwa": "Mieszanka moczopędna (szczawik, skrzyp, liść brzozy, pokrzywa, mniszek, fiołek, liść truskawki, krwawnik)",
-        "skladniki": [
-          "1 łyżka liści szczawika",
-          "1 łyżka ziela skrzypu polnego",
-          "1 łyżka liści brzozy",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka korzenia mniszka lekarskiego",
-          "1 łyżeczka fiołka trójbarwnego",
-          "1 łyżeczka liści truskawki",
-          "1 łyżeczka ziela krwawnika",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zaparzyć, pić przez 5 dni.",
-        "cechy": [
-          "Łagodny, cytrynowy aromat"
-        ],
-        "wlasciwosci": [
-          "moczopędna, oczyszczająca"
-        ],
-        "zastosowanie": "Obrzęki, oczyszczanie organizmu.",
-        "zrodlo": [
-          30
-        ]
-      },
-      {
-        "nazwa": "Mieszanka na trawienie (szczawik, mięta, koper włoski, anyż, babka, mniszek, rumianek, nagietek)",
-        "skladniki": [
-          "1 łyżka liści szczawika",
-          "1 łyżka liści mięty",
-          "1 łyżeczka nasion kopru włoskiego",
-          "1/2 łyżeczki nasion anyżu",
-          "1 łyżka liści babki",
-          "1 łyżka korzenia mniszka lekarskiego",
-          "1 łyżka kwiatów rumianku",
-          "1 łyżka kwiatów nagietka",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zaparzyć, pić po ciężkostrawnych posiłkach.",
-        "cechy": [
-          "Ziołowy, lekko kwaśny napar"
-        ],
-        "wlasciwosci": [
-          "pobudza trawienie"
-        ],
-        "zastosowanie": "Kuracje po zimie, przy problemach żołądkowych.",
-        "zrodlo": [
-          31
-        ]
-      },
-      {
-        "nazwa": "Mieszanka na skórę (szczawik, nagietek, rumianek, fiołek, pokrzywa, skrzyp, babka, koniczyna)",
-        "skladniki": [
-          "1 łyżka świeżych lub suszonych liści szczawika",
-          "1 łyżka kwiatów nagietka",
-          "1 łyżka kwiatów rumianku",
-          "1 łyżka fiołka trójbarwnego",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka ziela skrzypu",
-          "1 łyżka liści babki lancetowatej",
-          "1 łyżka kwiatów koniczyny czerwonej",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zaparzyć, stosować do kąpieli lub przemywania skóry.",
-        "cechy": [
-          "Łagodny, ziołowy napar"
-        ],
-        "wlasciwosci": [
-          "regenerująca, gojąca"
-        ],
-        "zastosowanie": "Podrażnienia skóry, egzemy.",
-        "zrodlo": [
-          32
-        ]
-      },
-      {
-        "nazwa": "Mieszanka wykrztuśna (szczawik, tymianek, babka, podbiał, miodunka, dziewanna, lukrecja, anyż)",
-        "skladniki": [
-          "1 łyżka liści szczawika",
-          "1 łyżka ziela tymianku",
-          "1 łyżka liści babki lancetowatej",
-          "1 łyżka liści podbiału",
-          "1 łyżka ziela miodunki",
-          "1 łyżka kwiatu dziewanny",
-          "1 łyżeczka korzenia lukrecji",
-          "1 łyżeczka nasion anyżu",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zalać wrzątkiem, pić ciepły napar.",
-        "cechy": [
-          "Orzeźwiający, lekko słodki"
-        ],
-        "wlasciwosci": [
-          "wykrztuśna, łagodząca kaszel"
-        ],
-        "zastosowanie": "Przy infekcjach dróg oddechowych.",
-        "zrodlo": [
-          33
-        ]
-      },
-      {
-        "nazwa": "Mieszanka kąpielowa (szczawik, rumianek, nagietek, babka, lawenda, pokrzywa, skrzyp, mięta)",
-        "skladniki": [
-          "2 garście świeżych liści szczawika",
-          "1 łyżka kwiatów rumianku",
-          "1 łyżka kwiatów nagietka",
-          "1 łyżka liści babki lancetowatej",
-          "1 łyżka kwiatów lawendy",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka ziela skrzypu",
-          "1 łyżka liści mięty",
-          "2 litry wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zaparzyć 20 min, przecedzić do kąpieli.",
-        "cechy": [
-          "Relaksujący, ziołowy zapach"
-        ],
-        "wlasciwosci": [
-          "łagodząca, regenerująca"
-        ],
-        "zastosowanie": "Kąpiele lecznicze.",
-        "zrodlo": [
-          34
-        ]
-      },
-      {
-        "nazwa": "Mieszanka chłodnikowa (szczawik, szczaw, pokrzywa, szpinak, koper, rzodkiewka, ogórek, kefir)",
-        "skladniki": [
-          "1 garść świeżych liści szczawika",
-          "1 garść liści szczawiu",
-          "1 garść młodej pokrzywy (sparzonej, drobno posiekanej)",
-          "1 garść szpinaku",
-          "1/2 pęczka koperku (drobno posiekanego)",
-          "3 rzodkiewki (pokrojone w plasterki)",
-          "1 ogórek (pokrojony w kostkę)",
-          "500 ml kefiru",
-          "sól, pieprz"
-        ],
-        "sposob_przygotowania": "Liście szczawika, szczawiu, pokrzywy i szpinaku sparzyć, posiekać, wymieszać z pozostałymi składnikami, zalać kefirem.",
-        "cechy": [
-          "Orzeźwiający, wiosenny smak"
-        ],
-        "wlasciwosci": [
-          "witaminowy, chłodzący"
-        ],
-        "zastosowanie": "Chłodnik na wiosnę i lato.",
-        "zrodlo": [
-          35
-        ]
-      },
-      {
-        "nazwa": "Skandynawska mieszanka witaminowa (szczawik, żurawina, liść borówki, pokrzywa, mięta, dzika róża)",
-        "skladniki": [
-          "1 łyżka świeżych liści szczawika zajęczego",
-          "1 łyżeczka suszonych owoców żurawiny",
-          "1 łyżka liści borówki brusznicy",
-          "1 łyżka liści pokrzywy",
-          "1/2 łyżki liści mięty",
-          "1 łyżeczka owoców dzikiej róży",
-          "400 ml wrzątku"
-        ],
-        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 12 minut, przecedzić.",
-        "cechy": [
-          "Kwaśno-owocowy, świeży napar"
-        ],
-        "wlasciwosci": [
-          "bogaty w witaminę C, mineralizujący"
-        ],
-        "zastosowanie": "Kuracje dla dzieci i dorosłych, osłabienie.",
-        "zrodlo": [
-          36
-        ]
-      },
-      {
-        "nazwa": "Rosyjska mieszanka na żółtaczkę (szczawik, liść brzozy, korzeń mniszka, korzeń cykorii, kora kruszyny, liść babki)",
-        "skladniki": [
-          "1 łyżka świeżych liści szczawika zajęczego",
-          "1 łyżka liści brzozy",
-          "1 łyżka korzenia mniszka lekarskiego",
-          "1 łyżka korzenia cykorii",
-          "1 łyżeczka kory kruszyny",
-          "1 łyżka liści babki lancetowatej",
-          "500 ml wody"
-        ],
-        "sposob_przygotowania": "Korzenie i korę gotować 10 min, dodać liście, parzyć 10 min, przecedzić.",
-        "cechy": [
-          "Lekko gorzki, żółtawy wywar"
-        ],
-        "wlasciwosci": [
-          "żółciopędna, wspomaga wątrobę"
-        ],
-        "zastosowanie": "Kuracje wątroby, po zatruciach.",
-        "zrodlo": [
-          37
-        ]
-      },
-      {
-        "nazwa": "Niemiecki okład na rany i stłuczenia (szczawik, nagietek, liść babki, liść szałwii)",
-        "skladniki": [
-          "2 łyżki świeżych liści szczawika zajęczego (rozdrobnionych)",
-          "2 łyżki świeżych kwiatów nagietka (rozdrobnionych)",
-          "2 łyżki świeżych liści babki lancetowatej (rozdrobnionych)",
-          "1 łyżeczka świeżych liści szałwii",
-          "gaza opatrunkowa"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki rozgnieść, ułożyć na gazie, przykładać na ranę na 20–30 minut.",
-        "cechy": [
-          "Chłodzący, łagodzący kompres"
-        ],
-        "wlasciwosci": [
-          "przyspiesza gojenie, dezynfekuje"
-        ],
-        "zastosowanie": "Stłuczenia, zadrapania, rany.",
-        "zrodlo": [
-          38
-        ]
-      },
-      {
-        "nazwa": "Francuska mieszanka oczyszczająca (szczawik, fiołek, bratek, korzeń łopianu, liść pokrzywy, mniszek, szałwia)",
-        "skladniki": [
-          "1 łyżka świeżych liści szczawika",
-          "1 łyżka fiołka trójbarwnego",
-          "1 łyżka bratka polnego",
-          "1 łyżka korzenia łopianu (pokrojonego)",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka korzenia mniszka lekarskiego",
-          "1 łyżka liści szałwii",
-          "800 ml wrzątku"
-        ],
-        "sposob_przygotowania": "Korzenie gotować 10 min, dodać zioła, parzyć 10 min, przecedzić.",
-        "cechy": [
-          "Ziołowy, lekko kwaskowy napar"
-        ],
-        "wlasciwosci": [
-          "oczyszczająca, detoksykująca"
-        ],
-        "zastosowanie": "Wiosenna kuracja oczyszczająca.",
-        "zrodlo": [
-          39
-        ]
-      }
-    ],
-    "kulinarne": [
-      {
-        "nazwa": "Sałatka leśna (szczawik, marzanka, czosnek niedźwiedzi, truskawki, ser kozi, pestki dyni, oliwa)",
-        "skladniki": [
-          "1 garść świeżych liści szczawika",
-          "1 garść świeżych liści marzanki wonnej",
-          "1 garść świeżych liści czosnku niedźwiedziego",
-          "5 świeżych truskawek (pokrojonych w plasterki)",
-          "30 g sera koziego (pokruszonego)",
-          "1 łyżka pestek dyni (uprażonych)",
-          "1 łyżka oliwy z oliwek",
-          "sok z 1/4 cytryny"
-        ],
-        "sposob_przygotowania": "Wszystkie liście i truskawki pokroić, wymieszać z serem i pestkami, skropić oliwą i sokiem z cytryny.",
-        "cechy": [
-          "Kwaśno-słodka, aromatyczna"
-        ],
-        "wlasciwosci": [
-          "witaminowa, odżywcza"
-        ],
-        "zastosowanie": "Sałatka piknikowa.",
-        "zrodlo": [
-          36
-        ]
-      },
-      {
-        "nazwa": "Omlet wiosenny (szczawik, pokrzywa, szczypiorek, jajka, masło)",
-        "skladniki": [
-          "2 jajka",
-          "1 garść świeżych liści szczawika",
-          "1 garść młodej pokrzywy (sparzonej, drobno posiekanej)",
-          "1 łyżka świeżego szczypiorku",
-          "1 łyżka masła",
-          "sól, pieprz"
-        ],
-        "sposob_przygotowania": "Liście pokrzywy i szczawika zeszklić na maśle, dodać roztrzepane jajka i szczypiorek, smażyć do ścięcia.",
-        "cechy": [
-          "Zielony, lekki omlet"
-        ],
-        "wlasciwosci": [
-          "wiosenny, bogaty w żelazo"
-        ],
-        "zastosowanie": "Śniadanie, lunch.",
-        "zrodlo": [
-          37
-        ]
-      },
-      {
-        "nazwa": "Pesto ze szczawika, orzechów i koperku",
-        "skladniki": [
-          "2 garście świeżych liści szczawika",
-          "1/4 szklanki orzechów włoskich (uprażonych)",
-          "2 łyżki świeżego koperku (posiekanego)",
-          "3 łyżki oliwy z oliwek",
-          "1 ząbek czosnku (rozgnieciony)",
-          "szczypta soli"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki zmiksować na pastę.",
-        "cechy": [
-          "Kwaśno-orzechowe, aromatyczne"
-        ],
-        "wlasciwosci": [
-          "naturalny antyoksydant"
-        ],
-        "zastosowanie": "Do makaronu, kanapek.",
-        "zrodlo": [
-          38
-        ]
-      },
-      {
-        "nazwa": "Kanapki z pastą szczawikową i rzodkiewką",
-        "skladniki": [
-          "3 łyżki pasty ze szczawika (świeże liście szczawika, twarożek, jogurt, oliwa z oliwek, sól – wszystko zmiksowane na gładko)",
-          "4 świeże rzodkiewki (pokrojone w plasterki)",
-          "4 kromki świeżego pieczywa żytniego"
-        ],
-        "sposob_przygotowania": "Pieczywo posmarować pastą, udekorować rzodkiewką.",
-        "cechy": [
-          "Chrupiące, kwaśno-orzeźwiające"
-        ],
-        "wlasciwosci": [
-          "lekkostrawne, witaminowe"
-        ],
-        "zastosowanie": "Śniadanie, przekąska.",
-        "zrodlo": [
-          39
-        ]
-      },
-      {
-        "nazwa": "Placki z liści szczawika i ziemniaków",
-        "skladniki": [
-          "2 garście świeżych liści szczawika",
-          "2 średnie ziemniaki (obrane, starte na tarce)",
-          "1 jajko",
-          "2 łyżki mąki pszennej",
-          "1/2 cebuli (drobno posiekanej)",
-          "sól, pieprz",
-          "olej do smażenia"
-        ],
-        "sposob_przygotowania": "Liście i cebulę drobno posiekać, wymieszać z ziemniakami, jajkiem, mąką i przyprawami. Smażyć placuszki na rozgrzanym oleju.",
-        "cechy": [
-          "Zielone, chrupiące"
-        ],
-        "wlasciwosci": [
-          "sycące, lekkostrawne"
-        ],
-        "zastosowanie": "Obiad, przekąska.",
-        "zrodlo": [
-          40
-        ]
-      },
-      {
-        "nazwa": "Chłodnik szczawikowo-szczawiowy z ogórkiem",
-        "skladniki": [
-          "1 garść świeżych liści szczawika",
-          "1 garść świeżych liści szczawiu",
-          "1 ogórek gruntowy (pokrojony w kostkę)",
-          "2 łyżki kwaśnej śmietany",
-          "1/2 pęczka koperku (posiekanego)",
-          "sól, pieprz"
-        ],
-        "sposob_przygotowania": "Liście i ogórek pokroić, wymieszać z resztą składników, podawać mocno schłodzony.",
-        "cechy": [
-          "Kwaśny, orzeźwiający"
-        ],
-        "wlasciwosci": [
-          "pobudzający trawienie"
-        ],
-        "zastosowanie": "Zupa na wiosnę i lato.",
-        "zrodlo": [
-          41
-        ]
-      },
-      {
-        "nazwa": "Galaretka szczawikowa z sokiem malinowym",
-        "skladniki": [
-          "1 garść świeżych liści szczawika",
-          "1 szklanka świeżego soku malinowego",
-          "1 łyżeczka żelatyny",
-          "1 łyżka cukru"
-        ],
-        "sposob_przygotowania": "Sok z liśćmi podgrzać, dodać cukier i żelatynę, dokładnie wymieszać, przelać do pucharków, schłodzić.",
-        "cechy": [
-          "Różowy kolor, kwaśno-słodki smak"
-        ],
-        "wlasciwosci": [
-          "witaminowa, lekka"
-        ],
-        "zastosowanie": "Deser na zimno.",
-        "zrodlo": [
-          42
-        ]
-      },
-      {
-        "nazwa": "Kiszone liście szczawika z koprem",
-        "skladniki": [
-          "3 garście świeżych liści szczawika",
-          "2 gałązki świeżego koperku",
-          "1 litr przegotowanej wody",
-          "1 łyżka soli kamiennej"
-        ],
-        "sposob_przygotowania": "Liście i koper zalać solanką, odstawić na 5–7 dni do fermentacji.",
-        "cechy": [
-          "Kwaśne, probiotyczne"
-        ],
-        "wlasciwosci": [
-          "probiotyczne, odżywcze"
-        ],
-        "zastosowanie": "Dodatek do surówek, kanapek.",
-        "zrodlo": [
-          43
-        ]
-      },
-      {
-        "nazwa": "Francuska tarta z liśćmi szczawika i pokrzywą",
-        "skladniki": [
-          "Ciasto kruche (gotowe lub własnej roboty)",
-          "2 garście świeżych liści szczawika (drobno posiekanych)",
-          "1 garść młodej pokrzywy (sparzonej, posiekanej)",
-          "3 jajka",
-          "150 ml śmietanki 30%",
-          "1 ząbek czosnku (przeciśnięty)",
-          "sól, pieprz, gałka muszkatołowa"
-        ],
-        "sposob_przygotowania": "Na podpieczonym cieście rozłożyć liście, zalać masą jajeczną ze śmietanką, doprawić. Piec 25–30 min w 180°C.",
-        "cechy": [
-          "Kruche, ziołowe, wyraziste"
-        ],
-        "wlasciwosci": [
-          "pożywna, domowa"
-        ],
-        "zastosowanie": "Obiad, kolacja, piknik.",
-        "zrodlo": [
-          44
-        ]
-      },
-      {
-        "nazwa": "Niemiecki szczawikowy Aufstrich (smarowidło do pieczywa)",
-        "skladniki": [
-          "1/2 szklanki twarożku",
-          "2 łyżki świeżych liści szczawika (drobno posiekanych)",
-          "1 łyżka świeżego szczypiorku (posiekanego)",
-          "1 łyżka jogurtu naturalnego",
-          "sól, biały pieprz"
-        ],
-        "sposob_przygotowania": "Wszystko dokładnie wymieszać, podawać na chlebie razowym.",
-        "cechy": [
-          "Kremowa, lekko kwaśna"
-        ],
-        "wlasciwosci": [
-          "lekka, białkowa"
-        ],
-        "zastosowanie": "Do pieczywa na śniadanie.",
-        "zrodlo": [
-          45
-        ]
-      },
-      {
-        "nazwa": "Litewski chłodnik szczawikowo-buraczany",
-        "skladniki": [
-          "1 garść świeżych liści szczawika",
-          "1 mały burak (ugotowany, starty na tarce)",
-          "1 ogórek świeży (pokrojony w kostkę)",
-          "2 jajka (ugotowane na twardo, pokrojone w ćwiartki)",
-          "1/2 pęczka koperku",
-          "400 ml kefiru lub zsiadłego mleka",
-          "sól, pieprz"
-        ],
-        "sposob_przygotowania": "Liście szczawika sparzyć, posiekać, wymieszać z burakiem, ogórkiem i koperkiem, zalać kefirem, doprawić. Podawać z jajkiem.",
-        "cechy": [
-          "Różowy kolor, kwaskowy smak"
-        ],
-        "wlasciwosci": [
-          "chłodzący, sycący"
-        ],
-        "zastosowanie": "Chłodnik na lato.",
-        "zrodlo": [
-          46
-        ]
-      },
-      {
-        "nazwa": "Skandynawskie bułeczki z liśćmi szczawika",
-        "skladniki": [
-          "250 g mąki pszennej",
-          "60 g świeżych liści szczawika (drobno posiekanych)",
-          "1 jajko",
-          "60 g masła",
-          "120 ml mleka",
-          "10 g drożdży",
-          "2 łyżki cukru",
-          "szczypta soli"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki zagnieść, odstawić do wyrośnięcia. Uformować bułeczki, piec 15 min w 190°C.",
-        "cechy": [
-          "Puszyste, lekko kwaśne"
-        ],
-        "wlasciwosci": [
-          "delikatne, śniadaniowe"
-        ],
-        "zastosowanie": "Do mleka, śniadanie.",
-        "zrodlo": [
-          47
-        ]
-      }
-    ]
   },
   "inne_zastosowania": {
     "kosmetyki": {
@@ -1388,30 +1414,100 @@
     "46": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
   },
   "kalendarz": {
-    "siew": [
-      4,
-      5
-    ],
-    "zbior_lisci": [
-      4,
-      5,
-      6,
-      7
-    ],
-    "zbior_poranny": [
-      4,
-      5,
-      6,
-      7
-    ],
-    "zbior_pelnia": [
-      6
-    ],
-    "ekstrakcja": [
-      6
-    ],
-    "przesadzanie": [
-      4
-    ]
+    "zbior_lisci": {
+      "miesiące": [
+        4,
+        5
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "zielarski",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Zbieraj tylko młode, soczyste liście przed kwitnieniem. Zawierają najwięcej kwasu szczawiowego i witaminy C.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Oxalis+acetosella"
+    },
+    "kwitnienie": {
+      "miesiące": [
+        4,
+        5
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "obserwacyjny",
+      "czas_dnia": "w ciągu dnia",
+      "intensywność": "symboliczna",
+      "uwagi": "Kwitnie wczesną wiosną – biało-różowe kwiaty są zwiastunem dobrej wilgotności gleby i światła pośredniego.",
+      "źródło": "https://en.wikipedia.org/wiki/Oxalis_acetosella"
+    },
+    "zbior_kwiatow": {
+      "miesiące": [
+        4,
+        5
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "zielarski",
+      "czas_dnia": "ranek",
+      "intensywność": "niska",
+      "uwagi": "Kwiaty zbiera się rzadko, głównie do celów dekoracyjnych lub symbolicznych. Mają lekki smak cytrynowy.",
+      "źródło": "https://www.first-nature.com/flowers/oxalis-acetosella.php"
+    },
+    "zbior_korzeni": {
+      "miesiące": [
+        9,
+        10
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "zielarski",
+      "czas_dnia": "po południu",
+      "intensywność": "średnia",
+      "uwagi": "Zbieraj delikatnie – szczawik ma drobne, kruche korzenie, które trudno przechowywać. Rzadko wykorzystywane.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Oxalis+acetosella"
+    },
+    "suszenie": {
+      "miesiące": [
+        4,
+        5
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "zielarski",
+      "czas_dnia": "po południu",
+      "intensywność": "niska",
+      "uwagi": "Liście można suszyć w cieniu, ale tracą na smaku i właściwościach – najlepiej stosować świeże.",
+      "źródło": "https://rozanski.li/1202/szczawik-zajeczy-oxalis-acetosella-l-zastosowanie/"
+    },
+    "zbior_ksiezycowy": {
+      "miesiące": [
+        4
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "rytualny",
+      "czas_dnia": "wieczór",
+      "intensywność": "symboliczna",
+      "uwagi": "Tradycyjnie zbierany w noc majową – symbol oczyszczenia, odświeżenia i nowego początku.",
+      "źródło": "https://www.thespruce.com/moon-phase-gardening-5219263"
+    },
+    "pielenie": {
+      "miesiące": [
+        5,
+        6
+      ],
+      "zalecana_faza_ksiezyca": "bez znaczenia",
+      "typ": "techniczny",
+      "czas_dnia": "dowolny",
+      "intensywność": "niska",
+      "uwagi": "Szczawik może zachwaszczać cieniste rabaty – usuwać tylko w miejscach niepożądanych.",
+      "źródło": "https://en.wikipedia.org/wiki/Oxalis"
+    },
+    "rozmnażanie": {
+      "miesiące": [
+        3,
+        9
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Rozmnaża się przez podział kłącza – sadzić w miejscach zacienionych i wilgotnych.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Oxalis+acetosella"
+    }
   }
 }

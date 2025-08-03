@@ -139,446 +139,252 @@
     }
   ],
   "przepisy_medyczne": {
-    "napar_uspokajający": {
-      "skladniki": [
-        "1 łyżeczka suszonego ziela marzanki (najlepiej młode wierzchołki, delikatnie pachnące wanilią)",
-        "250 ml wrzątku (świeża, przegotowana woda)"
-      ],
-      "sposob_przygotowania": "Zioło wsypać do filiżanki, zalać wrzątkiem, przykryć, parzyć 10 minut. Przecedzić, pić na ciepło.",
-      "cechy": [
-        "Złocisty kolor, słodkawy, waniliowo-trawiasty zapach"
-      ],
-      "wlasciwosci": [
-        "uspokajający, łagodnie nasenny, rozluźniający"
-      ],
-      "zastosowanie": "Przy nerwowości, napięciu, problemach ze snem, migrenach.",
-      "dawkowanie": "1 filiżanka wieczorem, najlepiej 30 minut przed snem.",
-      "zrodlo": [
-        13
-      ]
-    },
-    "herbatka_na_serce": {
-      "skladniki": [
-        "1 łyżeczka suszonej marzanki",
-        "1 łyżeczka suszonych kwiatów głogu (najlepiej świeżo rozkwitniętych)",
-        "250 ml wrzątku"
-      ],
-      "sposob_przygotowania": "Zioła wsypać do kubka, zalać wrzątkiem, parzyć 15 minut, przecedzić.",
-      "cechy": [
-        "Łagodny, ziołowy smak",
-        "Delikatny aromat łąki"
-      ],
-      "wlasciwosci": [
-        "wzmacnia serce, lekko uspokaja, wspomaga krążenie"
-      ],
-      "zastosowanie": "Kuracje wspomagające pracę serca, stres, skoki ciśnienia.",
-      "dawkowanie": "1–2 razy dziennie przez tydzień.",
-      "zrodlo": [
-        14
-      ]
-    },
-    "odwar_na_watrobe": {
-      "skladniki": [
-        "1 łyżka suszonej marzanki (najlepiej zebranej tuż przed kwitnieniem)",
-        "300 ml wody"
-      ],
-      "sposob_przygotowania": "Ziele wsypać do rondelka, zalać zimną wodą, doprowadzić do wrzenia, gotować 5 minut pod przykryciem. Przecedzić. Pić letni, nie na czczo.",
-      "cechy": [
-        "Delikatny, słodki aromat, jasny kolor"
-      ],
-      "wlasciwosci": [
-        "oczyszcza wątrobę, lekko żółciopędny"
-      ],
-      "zastosowanie": "Przy obciążeniu wątroby, po lekach, tłustych posiłkach.",
-      "dawkowanie": "1 szklanka dziennie przez 5 dni.",
-      "zrodlo": [
-        15
-      ]
-    },
-    "kąpiel_relaksująca": {
-      "skladniki": [
-        "2 garście suszonej marzanki (najlepiej kwitnącej, młodej)",
-        "2 litry wrzątku"
-      ],
-      "sposob_przygotowania": "Marzankę wsypać do garnka, zalać wrzątkiem, parzyć pod przykryciem 20 minut. Przecedzić napar do wanny z ciepłą wodą (temp. 36–38°C). Kąpiel trwać 15–20 minut.",
-      "cechy": [
-        "Słodkawy aromat, relaksujący efekt"
-      ],
-      "wlasciwosci": [
-        "odprężająca, poprawia nastrój, koi podrażnienia skóry"
-      ],
-      "zastosowanie": "Kąpiel na napięcie nerwowe, bezsenność, po wysiłku fizycznym.",
-      "dawkowanie": "2–3 razy w tygodniu.",
-      "zrodlo": [
-        16
-      ]
-    },
-    "kompres_na_stluczenia": {
-      "skladniki": [
-        "1 łyżka suszonej marzanki",
-        "200 ml wrzątku",
-        "gaza opatrunkowa (czysta, najlepiej jałowa)"
-      ],
-      "sposob_przygotowania": "Zioło zalać wrzątkiem, parzyć 10 minut, odcedzić. W letnim naparze zanurzyć gazę i przykładać na stłuczenia lub opuchlizny na 10–15 minut.",
-      "cechy": [
-        "Chłodzący, delikatny zapach",
-        "Ziołowy kolor"
-      ],
-      "wlasciwosci": [
-        "łagodzi opuchliznę, przyspiesza gojenie, działa lekko przeciwbólowo"
-      ],
-      "zastosowanie": "Okład na siniaki, opuchliznę, stłuczenia.",
-      "dawkowanie": "2 razy dziennie do ustąpienia objawów.",
-      "zrodlo": [
-        17
-      ]
-    },
-    "mieszanka_na_sen": {
-      "skladniki": [
-        "1 łyżeczka suszonej marzanki (lub świeżej – zwiększ ilość do 2 łyżeczek)",
-        "1 łyżeczka suszonych kwiatów lipy (najlepiej młode, pachnące)",
-        "1/2 łyżeczki suszonej melisy (lub świeżej – 1 łyżeczka)",
-        "250 ml wrzątku"
-      ],
-      "sposob_przygotowania": "Zioła wsypać do kubka, zalać wrzątkiem, parzyć 10 minut. Przecedzić, pić na ciepło wieczorem.",
-      "cechy": [
-        "Słodkawy, kwiatowy aromat",
-        "Jasny, miodowy kolor"
-      ],
-      "wlasciwosci": [
-        "nasenna, odprężająca, delikatnie wyciszająca"
-      ],
-      "zastosowanie": "Kuracja na bezsenność, trudności w zasypianiu, stres.",
-      "dawkowanie": "1 filiżanka przed snem.",
-      "zrodlo": [
-        18
-      ]
-    },
-    "syrop_na_kaszel": {
-      "skladniki": [
-        "3 łyżki świeżej marzanki wonnej (najlepiej młodej, drobno posiekanej)",
-        "250 ml wody (świeża)",
-        "2 łyżki miodu lipowego (lub akacjowego)"
-      ],
-      "sposob_przygotowania": "Ziele zagotować w wodzie przez 5 minut, przecedzić, lekko ostudzić. Dodać miód, wymieszać, przelać do słoiczka. Przechowywać w lodówce do 7 dni.",
-      "cechy": [
-        "Słodki, ziołowy syrop",
-        "Jasny kolor"
-      ],
-      "wlasciwosci": [
-        "łagodzi kaszel, nawilża gardło, działa przeciwzapalnie"
-      ],
-      "zastosowanie": "Syrop na kaszel suchy i mokry, dla dorosłych i dzieci powyżej 6 lat.",
-      "dawkowanie": "1 łyżeczka 3 razy dziennie.",
-      "zrodlo": [
-        19
-      ]
-    },
-    "maść_na_siniaki": {
-      "skladniki": [
-        "2 łyżki suszonej marzanki (lub 3 łyżki świeżej, drobno posiekanej)",
-        "4 łyżki oleju kokosowego (nierafinowanego, świeżego)"
-      ],
-      "sposob_przygotowania": "Marzankę podgrzać delikatnie w oleju (kąpiel wodna, ok. 60°C) przez 30 minut. Przecedzić przez gazę, przelać do słoiczka. Stosować miejscowo.",
-      "cechy": [
-        "Delikatnie zielona maść",
-        "Słodkawy, świeży zapach"
-      ],
-      "wlasciwosci": [
-        "przyspiesza gojenie, łagodzi ból, regeneruje skórę"
-      ],
-      "zastosowanie": "Stłuczenia, drobne rany, siniaki.",
-      "dawkowanie": "2–3 razy dziennie na czystą skórę.",
-      "zrodlo": [
-        20
-      ]
-    },
-    "szwajcarski_napar_na_wycieńczenie": {
-      "skladniki": [
-        "1 łyżka suszonej marzanki (najlepiej młodej, pachnącej)",
-        "1 łyżeczka suszonych liści pokrzywy",
-        "1 łyżeczka suszonych kwiatów nagietka",
-        "300 ml wrzątku"
-      ],
-      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut. Przecedzić, pić raz dziennie po ciężkim wysiłku lub chorobie.",
-      "cechy": [
-        "Ziołowy, lekko orzeźwiający aromat"
-      ],
-      "wlasciwosci": [
-        "wzmacnia, regeneruje organizm"
-      ],
-      "zastosowanie": "Wycieńczenie, rekonwalescencja, ogólne osłabienie.",
-      "dawkowanie": "1 filiżanka przez 5 dni.",
-      "zrodlo": [
-        21
-      ]
-    },
-    "olej_relaksujący_na_noc": {
-      "skladniki": [
-        "3 łyżki świeżej marzanki wonnej (najlepiej z wierzchołków kwitnących)",
-        "100 ml oliwy z oliwek extra vergine"
-      ],
-      "sposob_przygotowania": "Zioła drobno posiekać, zalać oliwą, podgrzewać w kąpieli wodnej przez 20 minut, przelać do ciemnej butelki. Stosować do masażu ciała lub jako dodatek do kąpieli.",
-      "cechy": [
-        "Słodki, waniliowo-ziołowy aromat",
-        "Jasnozielony olej"
-      ],
-      "wlasciwosci": [
-        "relaksuje, ułatwia zasypianie, nawilża skórę"
-      ],
-      "zastosowanie": "Masaż wieczorny, aromaterapia.",
-      "dawkowanie": "Kilka kropli wmasować w skórę przed snem.",
-      "zrodlo": [
-        22
-      ]
-    },
-    "francuska_płukanka_do_ust": {
-      "skladniki": [
-        "1 łyżeczka suszonej marzanki",
-        "1 łyżeczka suszonych kwiatów rumianku",
-        "250 ml wrzątku"
-      ],
-      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 minut, przecedzić. Używać do płukania jamy ustnej 2 razy dziennie.",
-      "cechy": [
-        "Świeży, lekko słodki aromat"
-      ],
-      "wlasciwosci": [
-        "odświeża oddech, działa łagodząco na dziąsła"
-      ],
-      "zastosowanie": "Codzienna higiena jamy ustnej, podrażnienia dziąseł.",
-      "dawkowanie": "Nie połykać naparu.",
-      "zrodlo": [
-        23
-      ]
-    }
-  },
-  "przepisy_kulinarne": {
-    "napój_majowy_maibowle": {
-      "skladniki": [
-        "1 duży pęczek świeżej marzanki wonnej (ok. 10–15 łodyżek, najlepiej zebranych tuż przed kwitnieniem, podsuszonych przez 2-3 godziny)",
-        "1 butelka białego wytrawnego wina (750 ml, schłodzone)",
-        "1 cytryna (świeża, pokrojona w cienkie plastry, najlepiej ekologiczna)",
-        "2 łyżki cukru trzcinowego",
-        "opcjonalnie: 200 ml wody gazowanej (świeża, schłodzona)"
-      ],
-      "sposob_przygotowania": "Marzankę lekko podsuszyć, by wydobyć aromat. Włożyć do wina razem z cukrem i plastrami cytryny na 2–4 godziny do lodówki. Wyjąć zioła, ewentualnie dolać wodę gazowaną przed podaniem.",
-      "cechy": [
-        "Aromatyczny, orzeźwiający napój o waniliowym zapachu",
-        "Delikatnie zielony kolor"
-      ],
-      "wlasciwosci": [
-        "łagodnie relaksujący, pobudzający trawienie, lekko rozgrzewający"
-      ],
-      "zastosowanie": "Tradycyjny niemiecki napój majowy na majówki, grill, imprezy plenerowe.",
-      "zrodlo": [
-        21
-      ]
-    },
-    "herbata_marzankowa": {
-      "skladniki": [
-        "1 łyżeczka suszonej marzanki wonnej (lub 2 łyżeczki świeżej, młodej, pachnącej marzanki)",
-        "250 ml wrzątku (świeża, przegotowana woda)"
-      ],
-      "sposob_przygotowania": "Zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić. Pić na ciepło, najlepiej wieczorem.",
-      "cechy": [
-        "Złocisty kolor, słodki aromat wanilii i świeżego siana"
-      ],
-      "wlasciwosci": [
-        "rozluźniająca, delikatnie nasenna, uspokajająca"
-      ],
-      "zastosowanie": "Wieczorny napój na relaks, wspomaga spokojny sen.",
-      "zrodlo": [
-        22
-      ]
-    },
-    "syrop_marzankowy": {
-      "skladniki": [
-        "10 łodyżek świeżej marzanki wonnej (najlepiej młodej, lekko podsuszonej)",
-        "500 ml wody",
-        "300 g cukru",
-        "sok z 1/2 cytryny (świeżo wyciśnięty)"
-      ],
-      "sposob_przygotowania": "Marzankę zagotować w wodzie z cukrem i sokiem z cytryny, gotować na małym ogniu 15 minut. Odcedzić przez gazę, przelać do wyparzonej butelki. Przechowywać w lodówce do 2 tygodni.",
-      "cechy": [
-        "Gęsty, jasnozielony syrop, waniliowy zapach"
-      ],
-      "wlasciwosci": [
-        "aromatyzujący, uspokajający, delikatnie wyciszający"
-      ],
-      "zastosowanie": "Dodatek do lemoniady, deserów, lodów, napojów dla dzieci.",
-      "zrodlo": [
-        23
-      ]
-    },
-    "deser_z_marzanką": {
-      "skladniki": [
-        "200 ml śmietanki 30% (schłodzonej)",
-        "1/2 szklanki mleka (świeże, pełne)",
-        "4 łodyżki świeżej marzanki wonnej (najlepiej młodej)",
-        "1 łyżka cukru",
-        "1 łyżeczka żelatyny spożywczej"
-      ],
-      "sposob_przygotowania": "Mleko i śmietankę zagotować z marzanką i cukrem, dodać rozpuszczoną żelatynę, przelać do pucharków. Usunąć zioła, schłodzić w lodówce 3–4 godziny.",
-      "cechy": [
-        "Waniliowy, ziołowy smak",
-        "Delikatna, kremowa konsystencja"
-      ],
-      "wlasciwosci": [
-        "delikatnie relaksujący, aromatyczny, chłodzący"
-      ],
-      "zastosowanie": "Letni deser na zimno, panna cotta ziołowa.",
-      "zrodlo": [
-        24
-      ]
-    },
-    "ciasto_marzankowe": {
-      "skladniki": [
-        "200 g mąki pszennej (najlepiej typ 450 lub 500)",
-        "100 g cukru",
-        "2 jajka (świeże, średniej wielkości)",
-        "100 g masła (roztopionego, niesolonego)",
-        "2 łyżki suszonej marzanki wonnej (roztartej na pył)",
-        "1 łyżeczka proszku do pieczenia",
-        "szczypta soli"
-      ],
-      "sposob_przygotowania": "Składniki dokładnie wymieszać, przelać do foremki i piec w 180°C przez 35 minut. Po upieczeniu wystudzić.",
-      "cechy": [
-        "Złocista, wilgotna babka",
-        "Waniliowy aromat"
-      ],
-      "wlasciwosci": [
-        "aromatyczna, lekkostrawna, pobudzająca apetyt"
-      ],
-      "zastosowanie": "Ciasto do kawy lub na śniadanie, aromatyczne śniadanie w stylu francuskim.",
-      "zrodlo": [
-        25
-      ]
-    },
-    "galaretka_z_marzanką": {
-      "skladniki": [
-        "500 ml soku jabłkowego (klarownego, najlepiej świeżo tłoczonego)",
-        "5 łodyżek świeżej marzanki wonnej",
-        "2 łyżeczki żelatyny spożywczej",
-        "1 łyżka cukru trzcinowego"
-      ],
-      "sposob_przygotowania": "Sok zagotować z marzanką, dodać żelatynę i cukier, mieszać do rozpuszczenia, przelać do pucharków. Po stężeniu udekorować świeżymi ziołami.",
-      "cechy": [
-        "Orzeźwiający, lekko waniliowy smak",
-        "Delikatny, zielonkawy kolor"
-      ],
-      "wlasciwosci": [
-        "niskokaloryczna, pobudzająca trawienie"
-      ],
-      "zastosowanie": "Deser, lekka kolacja, letnia przekąska.",
-      "zrodlo": [
-        26
-      ]
-    },
-    "lody_marzankowe": {
-      "skladniki": [
-        "250 ml śmietanki 30% (świeżej)",
-        "100 ml mleka",
-        "3 łodyżki świeżej marzanki wonnej",
-        "2 żółtka",
-        "50 g cukru"
-      ],
-      "sposob_przygotowania": "Śmietankę i mleko zagotować z marzanką, pozostawić do przestygnięcia, odcedzić. Żółtka utrzeć z cukrem na puszysto, powoli dodać przestudzoną śmietankę z mlekiem. Wlać do maszyny do lodów lub zamrozić mieszając co 30 minut przez 2–3 godziny.",
-      "cechy": [
-        "Waniliowy aromat, kremowa konsystencja"
-      ],
-      "wlasciwosci": [
-        "pobudzające trawienie, relaksujące"
-      ],
-      "zastosowanie": "Deser letni, kuchnia francuska.",
-      "zrodlo": [
-        27
-      ]
-    },
-    "nalewka_marzankowa": {
-      "skladniki": [
-        "10 łodyżek świeżej marzanki wonnej (podsuszonych przez 2–3 godziny)",
-        "0,5 l wódki 40% (czysta, dobrej jakości)",
-        "100 g cukru (można zastąpić miodem lipowym)",
-        "sok z 1/2 cytryny"
-      ],
-      "sposob_przygotowania": "Marzankę zalać alkoholem, dodać cukier i sok z cytryny, odstawić w ciemne miejsce na 7 dni. Przecedzić, przelać do butelki. Najlepiej smakuje po kilku tygodniach leżakowania.",
-      "cechy": [
-        "Złocisty kolor, intensywny aromat z nutą wanilii i świeżych ziół"
-      ],
-      "wlasciwosci": [
-        "aromatyczna, pobudza trawienie, likier relaksujący"
-      ],
-      "zastosowanie": "Likier poobiedni, dodatek do deserów, napój świąteczny.",
-      "zrodlo": [
-        28
-      ]
-    },
-    "staroniemiecka_nalewka_żołądkowa_ziołowa": {
-      "skladniki": [
-        "5 łodyżek świeżej marzanki wonnej (lekko podsuszonej)",
-        "2 gałązki świeżego piołunu",
-        "2 gałązki mięty pieprzowej",
-        "skórka z połowy cytryny (ekologicznej)",
-        "0,7 l wódki 40%",
-        "150 g cukru trzcinowego"
-      ],
-      "sposob_przygotowania": "Zioła lekko rozdrobnić, zalać alkoholem i cukrem, dodać skórkę cytryny. Odstawić na 2 tygodnie w ciemne miejsce, codziennie wstrząsnąć. Przecedzić, przelać do butelki.",
-      "cechy": [
-        "Ziołowo-cytrusowy aromat, goryczka, piękny złocisty kolor"
-      ],
-      "wlasciwosci": [
-        "pobudza trawienie, łagodzi wzdęcia"
-      ],
-      "zastosowanie": "Likier żołądkowy, tradycyjny niemiecki digestif.",
-      "zrodlo": [
-        29
-      ]
-    },
-    "japońska_galaretka_wagashi_z_marzanką": {
-      "skladniki": [
-        "300 ml wody",
-        "3 łodyżki świeżej marzanki wonnej (lub 1 łyżeczka suszonej)",
-        "2 łyżeczki agaru (japońska żelatyna z wodorostów)",
-        "2 łyżki cukru",
-        "kilka listków mięty lub kwiatów do dekoracji"
-      ],
-      "sposob_przygotowania": "Marzankę zagotować w wodzie z agarem i cukrem przez 3 minuty. Odcedzić, przelać do małych foremek. Po zastygnięciu udekorować listkami mięty. Podawać schłodzone.",
-      "cechy": [
-        "Przezroczysta, delikatna galaretka o nutach wanilii",
-        "Lekka, niskokaloryczna"
-      ],
-      "wlasciwosci": [
-        "odświeżająca, idealna na upały"
-      ],
-      "zastosowanie": "Deser inspirowany japońskim wagashi – hanami (kwiatowy smak lata).",
-      "zrodlo": [
-        30
-      ]
-    },
-    "japoński_poncz_ziołowy_na_wiosnę": {
-      "skladniki": [
-        "1 pęczek świeżej marzanki wonnej (ok. 10 łodyżek, podsuszonych)",
-        "500 ml sake (chłodzonej, lekkiej)",
-        "200 ml wody gazowanej (świeżej, zimnej)",
-        "1 cytryna (pokrojona w plastry)",
-        "2 łyżki syropu marzankowego (patrz wyżej) lub cukru"
-      ],
-      "sposob_przygotowania": "Marzankę lekko podsuszyć, włożyć do sake z syropem/cukrem i cytryną na 2 godziny w lodówce. Przed podaniem dolać wodę gazowaną.",
-      "cechy": [
-        "Delikatny aromat wiosny i wanilii",
-        "Klarowny, lekko zielonkawy napój"
-      ],
-      "wlasciwosci": [
-        "lekko relaksujący, odświeżający"
-      ],
-      "zastosowanie": "Napój na hanami (japońskie święto kwiatów), majowe spotkania.",
-      "zrodlo": [
-        31
-      ]
-    }
-  },
-  "przepisy_z_innymi_roslinami": {
-    "medyczne": [
+    "napar_uspokajający": [
+      {
+        "skladniki": [
+          "1 łyżeczka suszonego ziela marzanki (najlepiej młode wierzchołki, delikatnie pachnące wanilią)",
+          "250 ml wrzątku (świeża, przegotowana woda)"
+        ],
+        "sposob_przygotowania": "Zioło wsypać do filiżanki, zalać wrzątkiem, przykryć, parzyć 10 minut. Przecedzić, pić na ciepło.",
+        "cechy": [
+          "Złocisty kolor, słodkawy, waniliowo-trawiasty zapach"
+        ],
+        "wlasciwosci": [
+          "uspokajający, łagodnie nasenny, rozluźniający"
+        ],
+        "zastosowanie": "Przy nerwowości, napięciu, problemach ze snem, migrenach.",
+        "dawkowanie": "1 filiżanka wieczorem, najlepiej 30 minut przed snem.",
+        "zrodlo": [
+          13
+        ],
+        "nazwa": "Napar uspokajający"
+      }
+    ],
+    "herbatka_na_serce": [
+      {
+        "skladniki": [
+          "1 łyżeczka suszonej marzanki",
+          "1 łyżeczka suszonych kwiatów głogu (najlepiej świeżo rozkwitniętych)",
+          "250 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła wsypać do kubka, zalać wrzątkiem, parzyć 15 minut, przecedzić.",
+        "cechy": [
+          "Łagodny, ziołowy smak",
+          "Delikatny aromat łąki"
+        ],
+        "wlasciwosci": [
+          "wzmacnia serce, lekko uspokaja, wspomaga krążenie"
+        ],
+        "zastosowanie": "Kuracje wspomagające pracę serca, stres, skoki ciśnienia.",
+        "dawkowanie": "1–2 razy dziennie przez tydzień.",
+        "zrodlo": [
+          14
+        ],
+        "nazwa": "Herbatka na serce"
+      }
+    ],
+    "odwar_na_watrobe": [
+      {
+        "skladniki": [
+          "1 łyżka suszonej marzanki (najlepiej zebranej tuż przed kwitnieniem)",
+          "300 ml wody"
+        ],
+        "sposob_przygotowania": "Ziele wsypać do rondelka, zalać zimną wodą, doprowadzić do wrzenia, gotować 5 minut pod przykryciem. Przecedzić. Pić letni, nie na czczo.",
+        "cechy": [
+          "Delikatny, słodki aromat, jasny kolor"
+        ],
+        "wlasciwosci": [
+          "oczyszcza wątrobę, lekko żółciopędny"
+        ],
+        "zastosowanie": "Przy obciążeniu wątroby, po lekach, tłustych posiłkach.",
+        "dawkowanie": "1 szklanka dziennie przez 5 dni.",
+        "zrodlo": [
+          15
+        ],
+        "nazwa": "Odwar na watrobe"
+      }
+    ],
+    "kąpiel_relaksująca": [
+      {
+        "skladniki": [
+          "2 garście suszonej marzanki (najlepiej kwitnącej, młodej)",
+          "2 litry wrzątku"
+        ],
+        "sposob_przygotowania": "Marzankę wsypać do garnka, zalać wrzątkiem, parzyć pod przykryciem 20 minut. Przecedzić napar do wanny z ciepłą wodą (temp. 36–38°C). Kąpiel trwać 15–20 minut.",
+        "cechy": [
+          "Słodkawy aromat, relaksujący efekt"
+        ],
+        "wlasciwosci": [
+          "odprężająca, poprawia nastrój, koi podrażnienia skóry"
+        ],
+        "zastosowanie": "Kąpiel na napięcie nerwowe, bezsenność, po wysiłku fizycznym.",
+        "dawkowanie": "2–3 razy w tygodniu.",
+        "zrodlo": [
+          16
+        ],
+        "nazwa": "Kąpiel relaksująca"
+      }
+    ],
+    "kompres_na_stluczenia": [
+      {
+        "skladniki": [
+          "1 łyżka suszonej marzanki",
+          "200 ml wrzątku",
+          "gaza opatrunkowa (czysta, najlepiej jałowa)"
+        ],
+        "sposob_przygotowania": "Zioło zalać wrzątkiem, parzyć 10 minut, odcedzić. W letnim naparze zanurzyć gazę i przykładać na stłuczenia lub opuchlizny na 10–15 minut.",
+        "cechy": [
+          "Chłodzący, delikatny zapach",
+          "Ziołowy kolor"
+        ],
+        "wlasciwosci": [
+          "łagodzi opuchliznę, przyspiesza gojenie, działa lekko przeciwbólowo"
+        ],
+        "zastosowanie": "Okład na siniaki, opuchliznę, stłuczenia.",
+        "dawkowanie": "2 razy dziennie do ustąpienia objawów.",
+        "zrodlo": [
+          17
+        ],
+        "nazwa": "Kompres na stluczenia"
+      }
+    ],
+    "mieszanka_na_sen": [
+      {
+        "skladniki": [
+          "1 łyżeczka suszonej marzanki (lub świeżej – zwiększ ilość do 2 łyżeczek)",
+          "1 łyżeczka suszonych kwiatów lipy (najlepiej młode, pachnące)",
+          "1/2 łyżeczki suszonej melisy (lub świeżej – 1 łyżeczka)",
+          "250 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła wsypać do kubka, zalać wrzątkiem, parzyć 10 minut. Przecedzić, pić na ciepło wieczorem.",
+        "cechy": [
+          "Słodkawy, kwiatowy aromat",
+          "Jasny, miodowy kolor"
+        ],
+        "wlasciwosci": [
+          "nasenna, odprężająca, delikatnie wyciszająca"
+        ],
+        "zastosowanie": "Kuracja na bezsenność, trudności w zasypianiu, stres.",
+        "dawkowanie": "1 filiżanka przed snem.",
+        "zrodlo": [
+          18
+        ],
+        "nazwa": "Mieszanka na sen"
+      }
+    ],
+    "syrop_na_kaszel": [
+      {
+        "skladniki": [
+          "3 łyżki świeżej marzanki wonnej (najlepiej młodej, drobno posiekanej)",
+          "250 ml wody (świeża)",
+          "2 łyżki miodu lipowego (lub akacjowego)"
+        ],
+        "sposob_przygotowania": "Ziele zagotować w wodzie przez 5 minut, przecedzić, lekko ostudzić. Dodać miód, wymieszać, przelać do słoiczka. Przechowywać w lodówce do 7 dni.",
+        "cechy": [
+          "Słodki, ziołowy syrop",
+          "Jasny kolor"
+        ],
+        "wlasciwosci": [
+          "łagodzi kaszel, nawilża gardło, działa przeciwzapalnie"
+        ],
+        "zastosowanie": "Syrop na kaszel suchy i mokry, dla dorosłych i dzieci powyżej 6 lat.",
+        "dawkowanie": "1 łyżeczka 3 razy dziennie.",
+        "zrodlo": [
+          19
+        ],
+        "nazwa": "Syrop na kaszel"
+      }
+    ],
+    "maść_na_siniaki": [
+      {
+        "skladniki": [
+          "2 łyżki suszonej marzanki (lub 3 łyżki świeżej, drobno posiekanej)",
+          "4 łyżki oleju kokosowego (nierafinowanego, świeżego)"
+        ],
+        "sposob_przygotowania": "Marzankę podgrzać delikatnie w oleju (kąpiel wodna, ok. 60°C) przez 30 minut. Przecedzić przez gazę, przelać do słoiczka. Stosować miejscowo.",
+        "cechy": [
+          "Delikatnie zielona maść",
+          "Słodkawy, świeży zapach"
+        ],
+        "wlasciwosci": [
+          "przyspiesza gojenie, łagodzi ból, regeneruje skórę"
+        ],
+        "zastosowanie": "Stłuczenia, drobne rany, siniaki.",
+        "dawkowanie": "2–3 razy dziennie na czystą skórę.",
+        "zrodlo": [
+          20
+        ],
+        "nazwa": "Maść na siniaki"
+      }
+    ],
+    "szwajcarski_napar_na_wycieńczenie": [
+      {
+        "skladniki": [
+          "1 łyżka suszonej marzanki (najlepiej młodej, pachnącej)",
+          "1 łyżeczka suszonych liści pokrzywy",
+          "1 łyżeczka suszonych kwiatów nagietka",
+          "300 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut. Przecedzić, pić raz dziennie po ciężkim wysiłku lub chorobie.",
+        "cechy": [
+          "Ziołowy, lekko orzeźwiający aromat"
+        ],
+        "wlasciwosci": [
+          "wzmacnia, regeneruje organizm"
+        ],
+        "zastosowanie": "Wycieńczenie, rekonwalescencja, ogólne osłabienie.",
+        "dawkowanie": "1 filiżanka przez 5 dni.",
+        "zrodlo": [
+          21
+        ],
+        "nazwa": "Szwajcarski napar na wycieńczenie"
+      }
+    ],
+    "olej_relaksujący_na_noc": [
+      {
+        "skladniki": [
+          "3 łyżki świeżej marzanki wonnej (najlepiej z wierzchołków kwitnących)",
+          "100 ml oliwy z oliwek extra vergine"
+        ],
+        "sposob_przygotowania": "Zioła drobno posiekać, zalać oliwą, podgrzewać w kąpieli wodnej przez 20 minut, przelać do ciemnej butelki. Stosować do masażu ciała lub jako dodatek do kąpieli.",
+        "cechy": [
+          "Słodki, waniliowo-ziołowy aromat",
+          "Jasnozielony olej"
+        ],
+        "wlasciwosci": [
+          "relaksuje, ułatwia zasypianie, nawilża skórę"
+        ],
+        "zastosowanie": "Masaż wieczorny, aromaterapia.",
+        "dawkowanie": "Kilka kropli wmasować w skórę przed snem.",
+        "zrodlo": [
+          22
+        ],
+        "nazwa": "Olej relaksujący na noc"
+      }
+    ],
+    "francuska_płukanka_do_ust": [
+      {
+        "skladniki": [
+          "1 łyżeczka suszonej marzanki",
+          "1 łyżeczka suszonych kwiatów rumianku",
+          "250 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 minut, przecedzić. Używać do płukania jamy ustnej 2 razy dziennie.",
+        "cechy": [
+          "Świeży, lekko słodki aromat"
+        ],
+        "wlasciwosci": [
+          "odświeża oddech, działa łagodząco na dziąsła"
+        ],
+        "zastosowanie": "Codzienna higiena jamy ustnej, podrażnienia dziąseł.",
+        "dawkowanie": "Nie połykać naparu.",
+        "zrodlo": [
+          23
+        ],
+        "nazwa": "Francuska płukanka do ust"
+      }
+    ],
+    "mieszanka_na_spokojny_sen_marzanka_melisa_lipa_lawenda_rumianek_szyszki_chmielu_owoc_głogu_kwiat_bzu_czarnego": [
       {
         "nazwa": "Mieszanka na spokojny sen (marzanka, melisa, lipa, lawenda, rumianek, szyszki chmielu, owoc głogu, kwiat bzu czarnego)",
         "skladniki": [
@@ -606,7 +412,9 @@
         "zrodlo": [
           29
         ]
-      },
+      }
+    ],
+    "mieszanka_na_serce_i_nerwy_marzanka_serdecznik_głóg_ruta_mniszek_pokrzywa_konwalia_kozłek_lekarski": [
       {
         "nazwa": "Mieszanka na serce i nerwy (marzanka, serdecznik, głóg, ruta, mniszek, pokrzywa, konwalia, kozłek lekarski)",
         "skladniki": [
@@ -633,7 +441,9 @@
         "zrodlo": [
           30
         ]
-      },
+      }
+    ],
+    "mieszanka_oczyszczająca_marzanka_mniszek_pokrzywa_fiołek_bratek_nagietek_skrzyp_krwawnik": [
       {
         "nazwa": "Mieszanka oczyszczająca (marzanka, mniszek, pokrzywa, fiołek, bratek, nagietek, skrzyp, krwawnik)",
         "skladniki": [
@@ -660,7 +470,9 @@
         "zrodlo": [
           31
         ]
-      },
+      }
+    ],
+    "mieszanka_na_bóle_głowy_marzanka_mięta_melisa_lawenda_rumianek_liść_malin_ziele_krwawnika_szyszki_chmielu": [
       {
         "nazwa": "Mieszanka na bóle głowy (marzanka, mięta, melisa, lawenda, rumianek, liść malin, ziele krwawnika, szyszki chmielu)",
         "skladniki": [
@@ -687,7 +499,9 @@
         "zrodlo": [
           32
         ]
-      },
+      }
+    ],
+    "mieszanka_na_skórę_marzanka_nagietek_fiołek_rumianek_babka_skrzyp_pokrzywa_mniszek": [
       {
         "nazwa": "Mieszanka na skórę (marzanka, nagietek, fiołek, rumianek, babka, skrzyp, pokrzywa, mniszek)",
         "skladniki": [
@@ -714,7 +528,9 @@
         "zrodlo": [
           33
         ]
-      },
+      }
+    ],
+    "mieszanka_kąpielowa_marzanka_lawenda_rumianek_melisa_nagietek_skrzyp_lipa_szyszki_chmielu": [
       {
         "nazwa": "Mieszanka kąpielowa (marzanka, lawenda, rumianek, melisa, nagietek, skrzyp, lipa, szyszki chmielu)",
         "skladniki": [
@@ -741,7 +557,9 @@
         "zrodlo": [
           34
         ]
-      },
+      }
+    ],
+    "mieszanka_na_trawienie_marzanka_mięta_koper_włoski_anyż_melisa_krwawnik_rumianek_kminek": [
       {
         "nazwa": "Mieszanka na trawienie (marzanka, mięta, koper włoski, anyż, melisa, krwawnik, rumianek, kminek)",
         "skladniki": [
@@ -768,7 +586,9 @@
         "zrodlo": [
           35
         ]
-      },
+      }
+    ],
+    "mieszanka_na_przeziębienie_marzanka_lipa_tymianek_dziewanna_miodunka_babka_nagietek_fiołek": [
       {
         "nazwa": "Mieszanka na przeziębienie (marzanka, lipa, tymianek, dziewanna, miodunka, babka, nagietek, fiołek)",
         "skladniki": [
@@ -796,8 +616,266 @@
           36
         ]
       }
+    ]
+  },
+  "przepisy_kulinarne": {
+    "napój_majowy_maibowle": [
+      {
+        "skladniki": [
+          "1 duży pęczek świeżej marzanki wonnej (ok. 10–15 łodyżek, najlepiej zebranych tuż przed kwitnieniem, podsuszonych przez 2-3 godziny)",
+          "1 butelka białego wytrawnego wina (750 ml, schłodzone)",
+          "1 cytryna (świeża, pokrojona w cienkie plastry, najlepiej ekologiczna)",
+          "2 łyżki cukru trzcinowego",
+          "opcjonalnie: 200 ml wody gazowanej (świeża, schłodzona)"
+        ],
+        "sposob_przygotowania": "Marzankę lekko podsuszyć, by wydobyć aromat. Włożyć do wina razem z cukrem i plastrami cytryny na 2–4 godziny do lodówki. Wyjąć zioła, ewentualnie dolać wodę gazowaną przed podaniem.",
+        "cechy": [
+          "Aromatyczny, orzeźwiający napój o waniliowym zapachu",
+          "Delikatnie zielony kolor"
+        ],
+        "wlasciwosci": [
+          "łagodnie relaksujący, pobudzający trawienie, lekko rozgrzewający"
+        ],
+        "zastosowanie": "Tradycyjny niemiecki napój majowy na majówki, grill, imprezy plenerowe.",
+        "zrodlo": [
+          21
+        ],
+        "nazwa": "Napój majowy maibowle"
+      }
     ],
-    "kulinarne": [
+    "herbata_marzankowa": [
+      {
+        "skladniki": [
+          "1 łyżeczka suszonej marzanki wonnej (lub 2 łyżeczki świeżej, młodej, pachnącej marzanki)",
+          "250 ml wrzątku (świeża, przegotowana woda)"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić. Pić na ciepło, najlepiej wieczorem.",
+        "cechy": [
+          "Złocisty kolor, słodki aromat wanilii i świeżego siana"
+        ],
+        "wlasciwosci": [
+          "rozluźniająca, delikatnie nasenna, uspokajająca"
+        ],
+        "zastosowanie": "Wieczorny napój na relaks, wspomaga spokojny sen.",
+        "zrodlo": [
+          22
+        ],
+        "nazwa": "Herbata marzankowa"
+      }
+    ],
+    "syrop_marzankowy": [
+      {
+        "skladniki": [
+          "10 łodyżek świeżej marzanki wonnej (najlepiej młodej, lekko podsuszonej)",
+          "500 ml wody",
+          "300 g cukru",
+          "sok z 1/2 cytryny (świeżo wyciśnięty)"
+        ],
+        "sposob_przygotowania": "Marzankę zagotować w wodzie z cukrem i sokiem z cytryny, gotować na małym ogniu 15 minut. Odcedzić przez gazę, przelać do wyparzonej butelki. Przechowywać w lodówce do 2 tygodni.",
+        "cechy": [
+          "Gęsty, jasnozielony syrop, waniliowy zapach"
+        ],
+        "wlasciwosci": [
+          "aromatyzujący, uspokajający, delikatnie wyciszający"
+        ],
+        "zastosowanie": "Dodatek do lemoniady, deserów, lodów, napojów dla dzieci.",
+        "zrodlo": [
+          23
+        ],
+        "nazwa": "Syrop marzankowy"
+      }
+    ],
+    "deser_z_marzanką": [
+      {
+        "skladniki": [
+          "200 ml śmietanki 30% (schłodzonej)",
+          "1/2 szklanki mleka (świeże, pełne)",
+          "4 łodyżki świeżej marzanki wonnej (najlepiej młodej)",
+          "1 łyżka cukru",
+          "1 łyżeczka żelatyny spożywczej"
+        ],
+        "sposob_przygotowania": "Mleko i śmietankę zagotować z marzanką i cukrem, dodać rozpuszczoną żelatynę, przelać do pucharków. Usunąć zioła, schłodzić w lodówce 3–4 godziny.",
+        "cechy": [
+          "Waniliowy, ziołowy smak",
+          "Delikatna, kremowa konsystencja"
+        ],
+        "wlasciwosci": [
+          "delikatnie relaksujący, aromatyczny, chłodzący"
+        ],
+        "zastosowanie": "Letni deser na zimno, panna cotta ziołowa.",
+        "zrodlo": [
+          24
+        ],
+        "nazwa": "Deser z marzanką"
+      }
+    ],
+    "ciasto_marzankowe": [
+      {
+        "skladniki": [
+          "200 g mąki pszennej (najlepiej typ 450 lub 500)",
+          "100 g cukru",
+          "2 jajka (świeże, średniej wielkości)",
+          "100 g masła (roztopionego, niesolonego)",
+          "2 łyżki suszonej marzanki wonnej (roztartej na pył)",
+          "1 łyżeczka proszku do pieczenia",
+          "szczypta soli"
+        ],
+        "sposob_przygotowania": "Składniki dokładnie wymieszać, przelać do foremki i piec w 180°C przez 35 minut. Po upieczeniu wystudzić.",
+        "cechy": [
+          "Złocista, wilgotna babka",
+          "Waniliowy aromat"
+        ],
+        "wlasciwosci": [
+          "aromatyczna, lekkostrawna, pobudzająca apetyt"
+        ],
+        "zastosowanie": "Ciasto do kawy lub na śniadanie, aromatyczne śniadanie w stylu francuskim.",
+        "zrodlo": [
+          25
+        ],
+        "nazwa": "Ciasto marzankowe"
+      }
+    ],
+    "galaretka_z_marzanką": [
+      {
+        "skladniki": [
+          "500 ml soku jabłkowego (klarownego, najlepiej świeżo tłoczonego)",
+          "5 łodyżek świeżej marzanki wonnej",
+          "2 łyżeczki żelatyny spożywczej",
+          "1 łyżka cukru trzcinowego"
+        ],
+        "sposob_przygotowania": "Sok zagotować z marzanką, dodać żelatynę i cukier, mieszać do rozpuszczenia, przelać do pucharków. Po stężeniu udekorować świeżymi ziołami.",
+        "cechy": [
+          "Orzeźwiający, lekko waniliowy smak",
+          "Delikatny, zielonkawy kolor"
+        ],
+        "wlasciwosci": [
+          "niskokaloryczna, pobudzająca trawienie"
+        ],
+        "zastosowanie": "Deser, lekka kolacja, letnia przekąska.",
+        "zrodlo": [
+          26
+        ],
+        "nazwa": "Galaretka z marzanką"
+      }
+    ],
+    "lody_marzankowe": [
+      {
+        "skladniki": [
+          "250 ml śmietanki 30% (świeżej)",
+          "100 ml mleka",
+          "3 łodyżki świeżej marzanki wonnej",
+          "2 żółtka",
+          "50 g cukru"
+        ],
+        "sposob_przygotowania": "Śmietankę i mleko zagotować z marzanką, pozostawić do przestygnięcia, odcedzić. Żółtka utrzeć z cukrem na puszysto, powoli dodać przestudzoną śmietankę z mlekiem. Wlać do maszyny do lodów lub zamrozić mieszając co 30 minut przez 2–3 godziny.",
+        "cechy": [
+          "Waniliowy aromat, kremowa konsystencja"
+        ],
+        "wlasciwosci": [
+          "pobudzające trawienie, relaksujące"
+        ],
+        "zastosowanie": "Deser letni, kuchnia francuska.",
+        "zrodlo": [
+          27
+        ],
+        "nazwa": "Lody marzankowe"
+      }
+    ],
+    "nalewka_marzankowa": [
+      {
+        "skladniki": [
+          "10 łodyżek świeżej marzanki wonnej (podsuszonych przez 2–3 godziny)",
+          "0,5 l wódki 40% (czysta, dobrej jakości)",
+          "100 g cukru (można zastąpić miodem lipowym)",
+          "sok z 1/2 cytryny"
+        ],
+        "sposob_przygotowania": "Marzankę zalać alkoholem, dodać cukier i sok z cytryny, odstawić w ciemne miejsce na 7 dni. Przecedzić, przelać do butelki. Najlepiej smakuje po kilku tygodniach leżakowania.",
+        "cechy": [
+          "Złocisty kolor, intensywny aromat z nutą wanilii i świeżych ziół"
+        ],
+        "wlasciwosci": [
+          "aromatyczna, pobudza trawienie, likier relaksujący"
+        ],
+        "zastosowanie": "Likier poobiedni, dodatek do deserów, napój świąteczny.",
+        "zrodlo": [
+          28
+        ],
+        "nazwa": "Nalewka marzankowa"
+      }
+    ],
+    "staroniemiecka_nalewka_żołądkowa_ziołowa": [
+      {
+        "skladniki": [
+          "5 łodyżek świeżej marzanki wonnej (lekko podsuszonej)",
+          "2 gałązki świeżego piołunu",
+          "2 gałązki mięty pieprzowej",
+          "skórka z połowy cytryny (ekologicznej)",
+          "0,7 l wódki 40%",
+          "150 g cukru trzcinowego"
+        ],
+        "sposob_przygotowania": "Zioła lekko rozdrobnić, zalać alkoholem i cukrem, dodać skórkę cytryny. Odstawić na 2 tygodnie w ciemne miejsce, codziennie wstrząsnąć. Przecedzić, przelać do butelki.",
+        "cechy": [
+          "Ziołowo-cytrusowy aromat, goryczka, piękny złocisty kolor"
+        ],
+        "wlasciwosci": [
+          "pobudza trawienie, łagodzi wzdęcia"
+        ],
+        "zastosowanie": "Likier żołądkowy, tradycyjny niemiecki digestif.",
+        "zrodlo": [
+          29
+        ],
+        "nazwa": "Staroniemiecka nalewka żołądkowa ziołowa"
+      }
+    ],
+    "japońska_galaretka_wagashi_z_marzanką": [
+      {
+        "skladniki": [
+          "300 ml wody",
+          "3 łodyżki świeżej marzanki wonnej (lub 1 łyżeczka suszonej)",
+          "2 łyżeczki agaru (japońska żelatyna z wodorostów)",
+          "2 łyżki cukru",
+          "kilka listków mięty lub kwiatów do dekoracji"
+        ],
+        "sposob_przygotowania": "Marzankę zagotować w wodzie z agarem i cukrem przez 3 minuty. Odcedzić, przelać do małych foremek. Po zastygnięciu udekorować listkami mięty. Podawać schłodzone.",
+        "cechy": [
+          "Przezroczysta, delikatna galaretka o nutach wanilii",
+          "Lekka, niskokaloryczna"
+        ],
+        "wlasciwosci": [
+          "odświeżająca, idealna na upały"
+        ],
+        "zastosowanie": "Deser inspirowany japońskim wagashi – hanami (kwiatowy smak lata).",
+        "zrodlo": [
+          30
+        ],
+        "nazwa": "Japońska galaretka wagashi z marzanką"
+      }
+    ],
+    "japoński_poncz_ziołowy_na_wiosnę": [
+      {
+        "skladniki": [
+          "1 pęczek świeżej marzanki wonnej (ok. 10 łodyżek, podsuszonych)",
+          "500 ml sake (chłodzonej, lekkiej)",
+          "200 ml wody gazowanej (świeżej, zimnej)",
+          "1 cytryna (pokrojona w plastry)",
+          "2 łyżki syropu marzankowego (patrz wyżej) lub cukru"
+        ],
+        "sposob_przygotowania": "Marzankę lekko podsuszyć, włożyć do sake z syropem/cukrem i cytryną na 2 godziny w lodówce. Przed podaniem dolać wodę gazowaną.",
+        "cechy": [
+          "Delikatny aromat wiosny i wanilii",
+          "Klarowny, lekko zielonkawy napój"
+        ],
+        "wlasciwosci": [
+          "lekko relaksujący, odświeżający"
+        ],
+        "zastosowanie": "Napój na hanami (japońskie święto kwiatów), majowe spotkania.",
+        "zrodlo": [
+          31
+        ],
+        "nazwa": "Japoński poncz ziołowy na wiosnę"
+      }
+    ],
+    "sałatka_wiosenna_z_marzanką_à_la_française": [
       {
         "nazwa": "Sałatka wiosenna z marzanką à la française",
         "skladniki": [
@@ -822,7 +900,9 @@
         "zrodlo": [
           37
         ]
-      },
+      }
+    ],
+    "pesto_z_marzanki_orzechów_i_parmezanu_inspiracja_włoska": [
       {
         "nazwa": "Pesto z marzanki, orzechów i parmezanu (inspiracja włoska)",
         "skladniki": [
@@ -843,7 +923,9 @@
         "zrodlo": [
           38
         ]
-      },
+      }
+    ],
+    "twarożek_skandynawski_z_marzanką_i_szczypiorkiem": [
       {
         "nazwa": "Twarożek skandynawski z marzanką i szczypiorkiem",
         "skladniki": [
@@ -864,7 +946,9 @@
         "zrodlo": [
           39
         ]
-      },
+      }
+    ],
+    "japońska_chłodna_zupa_majowa_z_marzanką_i_shiso": [
       {
         "nazwa": "Japońska chłodna zupa majowa z marzanką i shiso",
         "skladniki": [
@@ -887,7 +971,31 @@
         "zrodlo": [
           45
         ]
-      },
+      }
+    ],
+    "japońska_sake_z_marzanką_inspirowana_hanami": [
+      {
+        "nazwa": "Japońska sake z marzanką (inspirowana hanami)",
+        "skladniki": [
+          "6 łodyżek świeżej marzanki (lekko podsuszonych)",
+          "350 ml sake (najlepiej junmai, lekko schłodzonej)",
+          "1/2 łyżeczki cukru trzcinowego",
+          "kilka listków świeżej mięty"
+        ],
+        "sposob_przygotowania": "Marzankę i miętę zanurzyć w sake na 1–2 godziny w lodówce. Przed podaniem usunąć zioła. Podawać w małych czarkach.",
+        "cechy": [
+          "Delikatny, lekko waniliowy i miętowy aromat"
+        ],
+        "wlasciwosci": [
+          "lekko relaksująca, ziołowa, harmonizująca"
+        ],
+        "zastosowanie": "Hanami, letni wieczór, do sushi.",
+        "zrodlo": [
+          49
+        ]
+      }
+    ],
+    "placuszki_z_marzanką_i_jabłkami_babka_niemiecka": [
       {
         "nazwa": "Placuszki z marzanką i jabłkami (babka niemiecka)",
         "skladniki": [
@@ -911,7 +1019,9 @@
         "zrodlo": [
           41
         ]
-      },
+      }
+    ],
+    "lemoniada_z_marzanką_cytryną_i_limonką_wersja_śródziemnomorska": [
       {
         "nazwa": "Lemoniada z marzanką, cytryną i limonką (wersja śródziemnomorska)",
         "skladniki": [
@@ -933,7 +1043,9 @@
         "zrodlo": [
           42
         ]
-      },
+      }
+    ],
+    "kisiel_z_marzanką_truskawkami_i_zielonym_herbatą_matcha_inspiracja_japońska": [
       {
         "nazwa": "Kisiel z marzanką, truskawkami i zielonym herbatą matcha (inspiracja japońska)",
         "skladniki": [
@@ -955,7 +1067,9 @@
         "zrodlo": [
           43
         ]
-      },
+      }
+    ],
+    "jogurt_domowy_z_marzanką_i_malinami_skandynawski_jogurt_kwiatowy": [
       {
         "nazwa": "Jogurt domowy z marzanką i malinami (skandynawski jogurt kwiatowy)",
         "skladniki": [
@@ -975,7 +1089,9 @@
         "zrodlo": [
           44
         ]
-      },
+      }
+    ],
+    "hiszpańska_sangria_kwiatowa_z_marzanką": [
       {
         "nazwa": "Hiszpańska sangria kwiatowa z marzanką",
         "skladniki": [
@@ -999,7 +1115,9 @@
         "zrodlo": [
           46
         ]
-      },
+      }
+    ],
+    "niemiecki_koktajl_marzankowy_z_prosecco_waldmeister_spritz": [
       {
         "nazwa": "Niemiecki koktajl marzankowy z prosecco (Waldmeister Spritz)",
         "skladniki": [
@@ -1020,7 +1138,9 @@
         "zrodlo": [
           47
         ]
-      },
+      }
+    ],
+    "francuski_likier_marzankowy_z_anyżem_creme_de_waldmeister": [
       {
         "nazwa": "Francuski likier marzankowy z anyżem (Creme de Waldmeister)",
         "skladniki": [
@@ -1042,454 +1162,518 @@
         "zrodlo": [
           48
         ]
-      },
+      }
+    ],
+    "majowe_wino_marzankowe_maitrank_niemcy/luksemburg": [
       {
-        "nazwa": "Japońska sake z marzanką (inspirowana hanami)",
+        "nazwa": "Majowe wino marzankowe (Maitrank, Niemcy/Luksemburg)",
         "skladniki": [
-          "6 łodyżek świeżej marzanki (lekko podsuszonych)",
-          "350 ml sake (najlepiej junmai, lekko schłodzonej)",
-          "1/2 łyżeczki cukru trzcinowego",
-          "kilka listków świeżej mięty"
+          "25 g świeżych liści marzanki wonnej (najlepiej młode, zebrane przed kwitnieniem)",
+          "1 butelka białego, wytrawnego wina (750 ml, np. riesling, pinot blanc)",
+          "1 pomarańcza (pokrojona w cienkie plastry, najlepiej ekologiczna)",
+          "1 cytryna (w plasterkach, najlepiej niewoskowana)",
+          "2 łyżki cukru trzcinowego",
+          "kilka gałązek świeżej mięty"
         ],
-        "sposob_przygotowania": "Marzankę i miętę zanurzyć w sake na 1–2 godziny w lodówce. Przed podaniem usunąć zioła. Podawać w małych czarkach.",
+        "sposob_przygotowania": "1. Liście marzanki dokładnie opłucz i lekko osusz. 2. W dużym szklanym dzbanku ułóż warstwami marzankę, plastry pomarańczy i cytryny oraz miętę. 3. Posyp cukrem, zalej schłodzonym białym winem. 4. Przykryj i wstaw do lodówki na 6–12 godzin (nie dłużej, bo marzanka może zgorzknieć). 5. Przed podaniem przecedź przez drobne sito, podawaj dobrze schłodzone – można dodać kostki lodu.",
         "cechy": [
-          "Delikatny, lekko waniliowy i miętowy aromat"
+          "Aromatyczne, ziołowo-cytrusowe, słomkowy kolor"
         ],
         "wlasciwosci": [
-          "lekko relaksująca, ziołowa, harmonizująca"
+          "relaksujące, lekko euforyzujące, pobudza trawienie"
         ],
-        "zastosowanie": "Hanami, letni wieczór, do sushi.",
+        "zastosowanie": "Wino majowe na spotkania, święta i wesela – tradycja niemiecka i luksemburska.",
         "zrodlo": [
-          49
+          "Handbuch der deutschen Kräuterkunst, 1902"
         ]
-      },
-       {
-    "nazwa": "Majowe wino marzankowe (Maitrank, Niemcy/Luksemburg)",
-    "skladniki": [
-      "25 g świeżych liści marzanki wonnej (najlepiej młode, zebrane przed kwitnieniem)",
-      "1 butelka białego, wytrawnego wina (750 ml, np. riesling, pinot blanc)",
-      "1 pomarańcza (pokrojona w cienkie plastry, najlepiej ekologiczna)",
-      "1 cytryna (w plasterkach, najlepiej niewoskowana)",
-      "2 łyżki cukru trzcinowego",
-      "kilka gałązek świeżej mięty"
+      }
     ],
-    "sposob_przygotowania": "1. Liście marzanki dokładnie opłucz i lekko osusz. 2. W dużym szklanym dzbanku ułóż warstwami marzankę, plastry pomarańczy i cytryny oraz miętę. 3. Posyp cukrem, zalej schłodzonym białym winem. 4. Przykryj i wstaw do lodówki na 6–12 godzin (nie dłużej, bo marzanka może zgorzknieć). 5. Przed podaniem przecedź przez drobne sito, podawaj dobrze schłodzone – można dodać kostki lodu.",
-    "cechy": [
-      "Aromatyczne, ziołowo-cytrusowe, słomkowy kolor"
-    ],
-    "wlasciwosci": [
-      "relaksujące, lekko euforyzujące, pobudza trawienie"
-    ],
-    "zastosowanie": "Wino majowe na spotkania, święta i wesela – tradycja niemiecka i luksemburska.",
-    "zrodlo": ["Handbuch der deutschen Kräuterkunst, 1902"]
-  },
-  {
-    "nazwa": "Nalewka marzankowa z cytryną i wanilią (Polska)",
-    "skladniki": [
-      "20 g suszonych liści marzanki wonnej",
-      "skórka z 1 cytryny (najlepiej niewoskowana, cienko okrojona bez białej części)",
-      "1 laska wanilii (przecięta wzdłuż)",
-      "0,5 l spirytusu 70%",
-      "200 g cukru",
-      "150 ml przegotowanej wody"
-    ],
-    "sposob_przygotowania": "1. Liście marzanki opłucz, jeśli świeże, lub lekko połam suszone. 2. Wszystko wsyp do dużego słoja, zalej spirytusem, dodaj skórkę cytrynową i wanilię. 3. Zamknij, odstaw w ciemne miejsce na 10 dni, codziennie wstrząsaj. 4. Przecedź przez gazę. 5. Cukier rozpuść w wodzie, ostudź, połącz z nalewką. 6. Przefiltruj przez filtr do kawy, przelej do butelek. 7. Najlepsza po 2 miesiącach leżakowania.",
-    "cechy": [
-      "Słodka, aromatyczna, ziołowo-cytrynowa, jasnozłota"
-    ],
-    "wlasciwosci": [
-      "pobudza trawienie, relaksuje, lekko nastraja"
-    ],
-    "zastosowanie": "Do herbaty, jako likier na wieczór.",
-    "zrodlo": ["Zielnik polski, 1925"]
-  },
-  {
-    "nazwa": "Likier marzankowy z wiśnią i cynamonem (Polska/Węgry)",
-    "skladniki": [
-      "20 g suszonych liści marzanki",
-      "150 g dojrzałych wiśni (świeżych lub mrożonych, bez pestek)",
-      "1 laska cynamonu",
-      "0,5 l wódki 40%",
-      "200 g cukru",
-      "120 ml wody"
-    ],
-    "sposob_przygotowania": "1. Wiśnie rozgnieć, wymieszaj z marzanką i cynamonem w dużym słoju. 2. Zalej wódką, zamknij i odstaw na 10 dni w ciemne miejsce. 3. Przefiltruj przez gazę, dodaj cukier rozpuszczony w wodzie. 4. Odstaw na 2 tygodnie do klarowania. 5. Rozlej do butelek. Najlepszy po kilku tygodniach.",
-    "cechy": [
-      "Wiśniowy kolor, korzenny aromat, nuty waniliowo-ziołowe"
-    ],
-    "wlasciwosci": [
-      "rozgrzewający, lekko euforyzujący"
-    ],
-    "zastosowanie": "Likier do ciast, deserów i świątecznych stołów.",
-    "zrodlo": ["Zielarskie receptury domowe, 1921"]
-  },
-  {
-    "nazwa": "Piwo marzankowe z pokrzywą i jałowcem (Polska/Niemcy)",
-    "skladniki": [
-      "15 g świeżych liści marzanki",
-      "2 garście młodych liści pokrzywy (najlepiej wiosenne, świeże lub 2 łyżki suszonej)",
-      "8 jagód jałowca (zmiażdżonych w moździerzu)",
-      "400 g słodu jęczmiennego",
-      "60 g cukru",
-      "3 l wody",
-      "drożdże piwne"
-    ],
-    "sposob_przygotowania": "1. W garnku zagotuj wodę, wsyp słód, gotuj 25 min. 2. Dodaj pokrzywę, marzankę, jałowiec. Gotuj jeszcze 10 min. 3. Przecedź do fermentora, ostudź do 24°C. 4. Dodaj cukier i drożdże. 5. Zamknij fermentor, odstaw na tydzień. 6. Gdy fermentacja ustanie, przelej do butelek. 7. Leżakuj 2–4 tygodnie. 8. Podawaj dobrze schłodzone.",
-    "cechy": [
-      "Orzeźwiające, delikatnie ziołowe, lekko żywiczne"
-    ],
-    "wlasciwosci": [
-      "mineralizujące, pobudzające, lekko oczyszczające"
-    ],
-    "zastosowanie": "Letni napój, do dań obiadowych.",
-    "zrodlo": ["Alte deutsche Biere, Berlin, 1906"]
-  },
-  {
-    "nazwa": "Wino marzankowe z agrestem i bazylią (Anglia/Polska)",
-    "skladniki": [
-      "20 g świeżych liści marzanki",
-      "200 g dojrzałego agrestu (świeżego lub mrożonego)",
-      "kilka liści świeżej bazylii",
-      "700 g cukru",
-      "2 l wody",
-      "sok z połowy cytryny",
-      "1 łyżeczka drożdży winiarskich"
-    ],
-    "sposob_przygotowania": "1. Agrest umyj, rozgnieć widelcem, wymieszaj z marzanką i bazylią. 2. Zagotuj wodę, rozpuść w niej cukier, ostudź. 3. Zalej owoce syropem, dodaj sok z cytryny i drożdże. 4. Zamknij balon rurką fermentacyjną, fermentuj 3 tygodnie. 5. Zlej znad osadu, fermentuj kolejne 3 tygodnie. 6. Przefiltruj, rozlej do butelek, leżakuj min. 2 miesiące.",
-    "cechy": [
-      "Delikatnie kwaskowe, kwiatowo-ziołowe, jasnozielone"
-    ],
-    "wlasciwosci": [
-      "odświeżające, lekko tonizujące"
-    ],
-    "zastosowanie": "Do serów, sałatek, letnich przekąsek.",
-    "zrodlo": ["Old English Wines, 1929"]
-  },
-  {
-    "nazwa": "Likier marzankowy z pomarańczą i imbirem (Francja)",
-    "skladniki": [
-      "18 g suszonych liści marzanki",
-      "skórka z 1 pomarańczy (najlepiej niewoskowana)",
-      "2 plasterki świeżego imbiru",
-      "0,5 l wódki 40%",
-      "170 g cukru",
-      "110 ml przegotowanej wody"
-    ],
-    "sposob_przygotowania": "1. Marzankę, skórkę pomarańczy i imbir wrzuć do słoja. 2. Zalej wódką, zamknij i odstaw na 10 dni. 3. Przecedź przez gazę, dodaj syrop cukrowy. 4. Odstaw na 2 tygodnie. 5. Przefiltruj i rozlej do butelek.",
-    "cechy": [
-      "Aromatyczny, cytrusowo-ziołowy, lekko pikantny"
-    ],
-    "wlasciwosci": [
-      "rozgrzewający, relaksujący"
-    ],
-    "zastosowanie": "Likier do kawy lub deserów.",
-    "zrodlo": ["Liqueurs des Fleurs, Paryż, 1925"]
-  },
-  {
-    "nazwa": "Wino marzankowe z czarną porzeczką i rozmarynem (Francja/Polska)",
-    "skladniki": [
-      "22 g suszonych liści marzanki",
-      "120 g czarnych porzeczek (świeżych lub mrożonych)",
-      "1 gałązka rozmarynu (świeża lub 1 łyżeczka suszonego)",
-      "600 g cukru",
-      "2 l wody",
-      "sok z połowy cytryny",
-      "1 łyżeczka drożdży winiarskich"
-    ],
-    "sposob_przygotowania": "1. Porzeczki rozgnieć, wymieszaj z marzanką i rozmarynem. 2. Zagotuj wodę, rozpuść w niej cukier, ostudź. 3. Zalej owoce syropem, dodaj sok z cytryny i drożdże. 4. Fermentuj 3 tygodnie, zlej znad owoców, fermentuj kolejne 2–3 tygodnie. 5. Przefiltruj, rozlej do butelek.",
-    "cechy": [
-      "Wyrazisty, ziołowo-owocowy smak, rubinowy kolor"
-    ],
-    "wlasciwosci": [
-      "wzmacniający, lekko pobudzający"
-    ],
-    "zastosowanie": "Do potraw mięsnych i deserów.",
-    "zrodlo": ["Recettes de vin maison, 1937"]
-  },
-  {
-    "nazwa": "Nalewka marzankowa z jabłkiem i cynamonem (Polska)",
-    "skladniki": [
-      "20 g suszonych liści marzanki",
-      "1 dojrzałe słodkie jabłko (pokrojone w plastry)",
-      "1 laska cynamonu",
-      "0,5 l spirytusu 60%",
-      "180 g cukru",
-      "120 ml wody"
-    ],
-    "sposob_przygotowania": "1. Jabłko połącz z marzanką i cynamonem w słoju. 2. Zalej spirytusem, zamknij, odstaw na 10 dni. 3. Przefiltruj przez gazę, dodaj syrop cukrowy. 4. Odstaw na tydzień, przefiltruj i rozlej do butelek.",
-    "cechy": [
-      "Słodka, aromatyczna, delikatnie korzenna"
-    ],
-    "wlasciwosci": [
-      "rozgrzewająca, poprawia trawienie"
-    ],
-    "zastosowanie": "Likier po obiedzie, do herbaty.",
-    "zrodlo": ["Domowa apteczka, Polska, 1930"]
-  },
-  {
-    "nazwa": "Piwo marzankowe z rumiankiem i bzem czarnym (Polska/Niemcy)",
-    "skladniki": [
-      "15 g suszonych liści marzanki",
-      "10 g suszonych koszyczków rumianku",
-      "10 g suszonych kwiatów bzu czarnego",
-      "500 g słodu żytniego",
-      "50 g cukru",
-      "3 l wody",
-      "drożdże piwowarskie"
-    ],
-    "sposob_przygotowania": "1. Słód zagotuj z wodą przez 30 min. 2. Dodaj marzankę, rumianek i bez, gotuj 10 min. 3. Przecedź do fermentora, ostudź, dodaj cukier i drożdże. 4. Fermentuj tydzień, przelej do butelek. 5. Leżakuj 2–4 tygodnie.",
-    "cechy": [
-      "Kwiatowe, delikatnie ziołowe piwo, jasnożółte"
-    ],
-    "wlasciwosci": [
-      "odświeżające, łagodzące napięcia"
-    ],
-    "zastosowanie": "Do lekkich dań i deserów.",
-    "zrodlo": ["Zielnik browarniczy, Poznań, 1923"]
-  },
-  {
-    "nazwa": "Nalewka marzankowa z maliną i jaśminem (Francja)",
-    "skladniki": [
-      "18 g suszonych liści marzanki",
-      "100 g świeżych malin (mogą być mrożone)",
-      "6 kwiatów jaśminu (świeżych lub suszonych)",
-      "0,5 l wódki 40%",
-      "140 g cukru",
-      "100 ml wody"
-    ],
-    "sposob_przygotowania": "1. Maliny rozgnieć, połącz z marzanką i jaśminem, zalej wódką. 2. Zamknij, odstaw na 7 dni, codziennie wstrząsaj. 3. Przefiltruj, dodaj syrop cukrowy. 4. Odstaw na 2 tygodnie. 5. Przefiltruj, przelej do butelek.",
-    "cechy": [
-      "Aromatyczny, słodki, ziołowo-kwiatowy likier"
-    ],
-    "wlasciwosci": [
-      "wzmacniający, lekko pobudzający"
-    ],
-    "zastosowanie": "Do lodów, ciast i tortów.",
-    "zrodlo": ["Liqueurs de fleurs, Paryż, 1927"]
-  },
-  {
-    "nazwa": "Wino marzankowe z gruszką i miętą (Węgry)",
-    "skladniki": [
-      "20 g świeżych liści marzanki",
-      "2 dojrzałe gruszki (pokrojone w kostkę)",
-      "kilka gałązek świeżej mięty",
-      "650 g cukru",
-      "2 l wody",
-      "sok z połowy cytryny",
-      "1 łyżeczka drożdży winiarskich"
-    ],
-    "sposob_przygotowania": "1. Gruszki wymieszaj z marzanką i miętą. 2. Zagotuj wodę z cukrem, ostudź, zalej owoce. 3. Dodaj sok z cytryny i drożdże. 4. Fermentuj 3 tygodnie, codziennie mieszaj. 5. Zlej znad owoców, fermentuj jeszcze 2–3 tygodnie. 6. Przefiltruj, rozlej do butelek.",
-    "cechy": [
-      "Aromatyczne, ziołowo-owocowe wino"
-    ],
-    "wlasciwosci": [
-      "relaksujące, łagodne, lekko pobudzające"
-    ],
-    "zastosowanie": "Do letnich posiłków i deserów.",
-    "zrodlo": ["Régi magyar borok, 1939"]
-  },
-  {
-    "nazwa": "Nalewka marzankowa z pigwą i anyżem (Rosja/Polska)",
-    "skladniki": [
-      "18 g suszonych liści marzanki",
-      "1 mała pigwa (pokrojona w kostkę)",
-      "1/3 łyżeczki nasion anyżu",
-      "0,5 l spirytusu 60%",
-      "150 g cukru",
-      "120 ml przegotowanej wody"
-    ],
-    "sposob_przygotowania": "1. Pigwę połącz z marzanką i anyżem, zalej spirytusem. 2. Zamknij, odstaw na 10 dni. 3. Przefiltruj, dodaj syrop cukrowy. 4. Odstaw na tydzień, rozlej do butelek.",
-    "cechy": [
-      "Delikatnie korzenny, ziołowo-owocowy aromat"
-    ],
-    "wlasciwosci": [
-      "lekko pobudzający, poprawia trawienie"
-    ],
-    "zastosowanie": "Likier po posiłku, do herbaty.",
-    "zrodlo": ["Rosyjskie przepisy domowe, 1912"]
-  },
-  {
-    "nazwa": "Gin domowy z marzanką i jałowcem (Anglia)",
-    "skladniki": [
-      "16 g suszonych liści marzanki",
-      "2 łyżki jagód jałowca (zmiażdżonych w moździerzu)",
-      "skórka z 1 limonki (niewoskowana, cienko okrojona)",
-      "0,7 l wódki czystej (najlepiej wysokoprocentowej, np. 50%)",
-      "1 łyżka cukru"
-    ],
-    "sposob_przygotowania": "1. Marzankę, jałowiec i skórkę limonki wrzuć do dużego słoja. 2. Zalej wódką, dodaj cukier. 3. Zamknij, odstaw na 14 dni w ciemne, chłodne miejsce, codziennie wstrząsaj. 4. Przefiltruj przez gazę, rozlej do butelek. Najlepszy po miesiącu leżakowania.",
-    "cechy": [
-      "Aromatyczny, wyraźnie ziołowy gin"
-    ],
-    "wlasciwosci": [
-      "orzeźwiający, pobudzający"
-    ],
-    "zastosowanie": "Do drinków lub klasycznie z tonikiem.",
-    "zrodlo": ["English Gin Recipes, 1921"]
-  },
-  {
-    "nazwa": "Likier marzankowy z czarnym bzem i wanilią (Niemcy)",
-    "skladniki": [
-      "18 g suszonych liści marzanki",
-      "2 łyżki suszonych kwiatów czarnego bzu",
-      "1 laska wanilii",
-      "0,5 l spirytusu 60%",
-      "160 g cukru",
-      "100 ml przegotowanej wody"
-    ],
-    "sposob_przygotowania": "1. Marzankę i kwiaty bzu wrzuć do słoja, dodaj wanilię, zalej spirytusem. 2. Odstaw na 10 dni, codziennie wstrząsaj. 3. Przefiltruj, dodaj syrop cukrowy. 4. Przefiltruj jeszcze raz, przelej do butelek.",
-    "cechy": [
-      "Kwiatowo-waniliowy likier, jasnożółty kolor"
-    ],
-    "wlasciwosci": [
-      "relaksujący, lekko uspokajający"
-    ],
-    "zastosowanie": "Na specjalne okazje, do ciast.",
-    "zrodlo": ["Alte deutsche Liköre, 1928"]
-  },
-  {
-    "nazwa": "Ratafia marzankowa z truskawką i szałwią (Francja)",
-    "skladniki": [
-      "20 g świeżych liści marzanki",
-      "120 g truskawek (świeżych lub mrożonych)",
-      "4 liście świeżej szałwii",
-      "0,7 l spirytusu 60%",
-      "170 g cukru"
-    ],
-    "sposob_przygotowania": "1. Truskawki rozgnieć, połącz z marzanką i szałwią, zalej spirytusem. 2. Zamknij, odstaw na 12 dni. 3. Przefiltruj, dodaj cukier, wymieszaj. 4. Odstaw na tydzień, przefiltruj i rozlej do butelek.",
-    "cechy": [
-      "Owocowo-ziołowy, delikatnie korzenny smak"
-    ],
-    "wlasciwosci": [
-      "lekko pobudzający, poprawiający nastrój"
-    ],
-    "zastosowanie": "Do deserów, jako aperitif.",
-    "zrodlo": ["Ratafias & Elixirs, Francja, 1935"]
-  },
-  {
-    "nazwa": "Likier marzankowy z gruszką i anyżem (Austria)",
-    "skladniki": [
-      "18 g suszonych liści marzanki",
-      "1 dojrzała gruszka (pokrojona w kostkę)",
-      "1/3 łyżeczki nasion anyżu",
-      "0,5 l wódki 40%",
-      "140 g cukru",
-      "90 ml przegotowanej wody"
-    ],
-    "sposob_przygotowania": "1. Gruszkę połącz z marzanką i anyżem, zalej wódką. 2. Zamknij, odstaw na 10 dni. 3. Przefiltruj, dodaj syrop cukrowy. 4. Rozlej do butelek, leżakuj min. 2 tygodnie.",
-    "cechy": [
-      "Słodki, lekko anyżowy, owocowo-ziołowy likier"
-    ],
-    "wlasciwosci": [
-      "rozgrzewający, relaksujący"
-    ],
-    "zastosowanie": "Likier do kawy lub wieczorem.",
-    "zrodlo": ["Österreichische Kräuterliköre, 1914"]
-  },
+    "nalewka_marzankowa_z_cytryną_i_wanilią_polska": [
       {
-    "nazwa": "Bitters marzankowy z arcydzięglem i anyżem (typ apteczny, Niemcy)",
-    "skladniki": [
-      "12 g suszonych liści marzanki wonnej",
-      "5 g suszonego korzenia arcydzięgla lekarskiego (pokrojonego)",
-      "1/2 łyżeczki nasion anyżu",
-      "kilka ziaren kardamonu (zmiażdżonych)",
-      "skórka z 1/2 cytryny (niewoskowana, cienko okrojona)",
-      "300 ml spirytusu 70%",
-      "50 ml przegotowanej wody"
+        "nazwa": "Nalewka marzankowa z cytryną i wanilią (Polska)",
+        "skladniki": [
+          "20 g suszonych liści marzanki wonnej",
+          "skórka z 1 cytryny (najlepiej niewoskowana, cienko okrojona bez białej części)",
+          "1 laska wanilii (przecięta wzdłuż)",
+          "0,5 l spirytusu 70%",
+          "200 g cukru",
+          "150 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Liście marzanki opłucz, jeśli świeże, lub lekko połam suszone. 2. Wszystko wsyp do dużego słoja, zalej spirytusem, dodaj skórkę cytrynową i wanilię. 3. Zamknij, odstaw w ciemne miejsce na 10 dni, codziennie wstrząsaj. 4. Przecedź przez gazę. 5. Cukier rozpuść w wodzie, ostudź, połącz z nalewką. 6. Przefiltruj przez filtr do kawy, przelej do butelek. 7. Najlepsza po 2 miesiącach leżakowania.",
+        "cechy": [
+          "Słodka, aromatyczna, ziołowo-cytrynowa, jasnozłota"
+        ],
+        "wlasciwosci": [
+          "pobudza trawienie, relaksuje, lekko nastraja"
+        ],
+        "zastosowanie": "Do herbaty, jako likier na wieczór.",
+        "zrodlo": [
+          "Zielnik polski, 1925"
+        ]
+      }
     ],
-    "sposob_przygotowania": "1. Wszystkie zioła i przyprawy wsyp do niewielkiego słoja. 2. Zalej spirytusem, zamknij szczelnie. 3. Odstaw na 14 dni w ciemne miejsce, codziennie lekko wstrząsaj. 4. Po 2 tygodniach dodaj przegotowaną wodę, wymieszaj. 5. Odstaw jeszcze na 2 dni. 6. Przefiltruj przez gazę lub filtr do kawy. 7. Przelej do małych butelek z kroplomierzem. 8. Używaj po kilka kropel do drinków, kawy, wody lub herbaty.",
-    "cechy": [
-      "Bardzo aromatyczny, korzenno-ziołowy bitters",
-      "Wyraźny, lekko gorzki posmak"
+    "nalewka_marzankowa_z_jabłkiem_i_cynamonem_polska": [
+      {
+        "nazwa": "Nalewka marzankowa z jabłkiem i cynamonem (Polska)",
+        "skladniki": [
+          "20 g suszonych liści marzanki",
+          "1 dojrzałe słodkie jabłko (pokrojone w plastry)",
+          "1 laska cynamonu",
+          "0,5 l spirytusu 60%",
+          "180 g cukru",
+          "120 ml wody"
+        ],
+        "sposob_przygotowania": "1. Jabłko połącz z marzanką i cynamonem w słoju. 2. Zalej spirytusem, zamknij, odstaw na 10 dni. 3. Przefiltruj przez gazę, dodaj syrop cukrowy. 4. Odstaw na tydzień, przefiltruj i rozlej do butelek.",
+        "cechy": [
+          "Słodka, aromatyczna, delikatnie korzenna"
+        ],
+        "wlasciwosci": [
+          "rozgrzewająca, poprawia trawienie"
+        ],
+        "zastosowanie": "Likier po obiedzie, do herbaty.",
+        "zrodlo": [
+          "Domowa apteczka, Polska, 1930"
+        ]
+      }
     ],
-    "wlasciwosci": [
-      "pobudza trawienie, działa rozgrzewająco i lekko pobudzająco"
+    "nalewka_marzankowa_z_maliną_i_jaśminem_francja": [
+      {
+        "nazwa": "Nalewka marzankowa z maliną i jaśminem (Francja)",
+        "skladniki": [
+          "18 g suszonych liści marzanki",
+          "100 g świeżych malin (mogą być mrożone)",
+          "6 kwiatów jaśminu (świeżych lub suszonych)",
+          "0,5 l wódki 40%",
+          "140 g cukru",
+          "100 ml wody"
+        ],
+        "sposob_przygotowania": "1. Maliny rozgnieć, połącz z marzanką i jaśminem, zalej wódką. 2. Zamknij, odstaw na 7 dni, codziennie wstrząsaj. 3. Przefiltruj, dodaj syrop cukrowy. 4. Odstaw na 2 tygodnie. 5. Przefiltruj, przelej do butelek.",
+        "cechy": [
+          "Aromatyczny, słodki, ziołowo-kwiatowy likier"
+        ],
+        "wlasciwosci": [
+          "wzmacniający, lekko pobudzający"
+        ],
+        "zastosowanie": "Do lodów, ciast i tortów.",
+        "zrodlo": [
+          "Liqueurs de fleurs, Paryż, 1927"
+        ]
+      }
     ],
-    "zastosowanie": "Do koktajli, herbaty, toników, jako aperitif (5–10 kropli na porcję).",
-    "zrodlo": ["Handbuch der deutschen Apotheken, Berlin, 1910"]
-  },
-  {
-    "nazwa": "Bitters marzankowy z pomarańczą, jałowcem i goździkami (Polska/Francja)",
-    "skladniki": [
-      "10 g suszonych liści marzanki wonnej",
-      "skórka z 1/2 pomarańczy (cienko okrojona)",
-      "6 jagód jałowca (zmiażdżonych w moździerzu)",
-      "2 goździki",
-      "kawałek korzenia imbiru (ok. 2 cm, pokrojony w cienkie plastry)",
-      "250 ml spirytusu 60%",
-      "40 ml przegotowanej wody"
+    "nalewka_marzankowa_z_pigwą_i_anyżem_rosja/polska": [
+      {
+        "nazwa": "Nalewka marzankowa z pigwą i anyżem (Rosja/Polska)",
+        "skladniki": [
+          "18 g suszonych liści marzanki",
+          "1 mała pigwa (pokrojona w kostkę)",
+          "1/3 łyżeczki nasion anyżu",
+          "0,5 l spirytusu 60%",
+          "150 g cukru",
+          "120 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Pigwę połącz z marzanką i anyżem, zalej spirytusem. 2. Zamknij, odstaw na 10 dni. 3. Przefiltruj, dodaj syrop cukrowy. 4. Odstaw na tydzień, rozlej do butelek.",
+        "cechy": [
+          "Delikatnie korzenny, ziołowo-owocowy aromat"
+        ],
+        "wlasciwosci": [
+          "lekko pobudzający, poprawia trawienie"
+        ],
+        "zastosowanie": "Likier po posiłku, do herbaty.",
+        "zrodlo": [
+          "Rosyjskie przepisy domowe, 1912"
+        ]
+      }
     ],
-    "sposob_przygotowania": "1. Wszystkie składniki włóż do czystego słoja, zalej spirytusem. 2. Zamknij, odstaw na 10 dni, codziennie wstrząsaj. 3. Dodaj wodę, wymieszaj, odstaw na kolejne 2 dni. 4. Przefiltruj przez filtr do kawy lub gazę. 5. Rozlej do małych butelek z kroplomierzem.",
-    "cechy": [
-      "Pomarańczowo-korzenno-ziołowy bitters, mocno aromatyczny"
+    "likier_marzankowy_z_wiśnią_i_cynamonem_polska/węgry": [
+      {
+        "nazwa": "Likier marzankowy z wiśnią i cynamonem (Polska/Węgry)",
+        "skladniki": [
+          "20 g suszonych liści marzanki",
+          "150 g dojrzałych wiśni (świeżych lub mrożonych, bez pestek)",
+          "1 laska cynamonu",
+          "0,5 l wódki 40%",
+          "200 g cukru",
+          "120 ml wody"
+        ],
+        "sposob_przygotowania": "1. Wiśnie rozgnieć, wymieszaj z marzanką i cynamonem w dużym słoju. 2. Zalej wódką, zamknij i odstaw na 10 dni w ciemne miejsce. 3. Przefiltruj przez gazę, dodaj cukier rozpuszczony w wodzie. 4. Odstaw na 2 tygodnie do klarowania. 5. Rozlej do butelek. Najlepszy po kilku tygodniach.",
+        "cechy": [
+          "Wiśniowy kolor, korzenny aromat, nuty waniliowo-ziołowe"
+        ],
+        "wlasciwosci": [
+          "rozgrzewający, lekko euforyzujący"
+        ],
+        "zastosowanie": "Likier do ciast, deserów i świątecznych stołów.",
+        "zrodlo": [
+          "Zielarskie receptury domowe, 1921"
+        ]
+      }
     ],
-    "wlasciwosci": [
-      "wzmacniający apetyt, rozgrzewający, wspierający trawienie"
+    "likier_marzankowy_z_pomarańczą_i_imbirem_francja": [
+      {
+        "nazwa": "Likier marzankowy z pomarańczą i imbirem (Francja)",
+        "skladniki": [
+          "18 g suszonych liści marzanki",
+          "skórka z 1 pomarańczy (najlepiej niewoskowana)",
+          "2 plasterki świeżego imbiru",
+          "0,5 l wódki 40%",
+          "170 g cukru",
+          "110 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Marzankę, skórkę pomarańczy i imbir wrzuć do słoja. 2. Zalej wódką, zamknij i odstaw na 10 dni. 3. Przecedź przez gazę, dodaj syrop cukrowy. 4. Odstaw na 2 tygodnie. 5. Przefiltruj i rozlej do butelek.",
+        "cechy": [
+          "Aromatyczny, cytrusowo-ziołowy, lekko pikantny"
+        ],
+        "wlasciwosci": [
+          "rozgrzewający, relaksujący"
+        ],
+        "zastosowanie": "Likier do kawy lub deserów.",
+        "zrodlo": [
+          "Liqueurs des Fleurs, Paryż, 1925"
+        ]
+      }
     ],
-    "zastosowanie": "Do koktajli, zimowych herbat i lemoniad (5–12 kropli na porcję).",
-    "zrodlo": ["Apteczka francuska, Paryż, 1928"]
-  },
-  {
-    "nazwa": "Bitters marzankowy z rumiankiem i kardamonem (Polska)",
-    "skladniki": [
-      "10 g suszonych liści marzanki wonnej",
-      "8 g suszonych koszyczków rumianku",
-      "1/2 łyżeczki ziaren kardamonu (rozdrobnionych w moździerzu)",
-      "skórka z 1/3 cytryny (niewoskowana)",
-      "220 ml spirytusu 60%",
-      "30 ml wody przegotowanej"
+    "likier_marzankowy_z_czarnym_bzem_i_wanilią_niemcy": [
+      {
+        "nazwa": "Likier marzankowy z czarnym bzem i wanilią (Niemcy)",
+        "skladniki": [
+          "18 g suszonych liści marzanki",
+          "2 łyżki suszonych kwiatów czarnego bzu",
+          "1 laska wanilii",
+          "0,5 l spirytusu 60%",
+          "160 g cukru",
+          "100 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Marzankę i kwiaty bzu wrzuć do słoja, dodaj wanilię, zalej spirytusem. 2. Odstaw na 10 dni, codziennie wstrząsaj. 3. Przefiltruj, dodaj syrop cukrowy. 4. Przefiltruj jeszcze raz, przelej do butelek.",
+        "cechy": [
+          "Kwiatowo-waniliowy likier, jasnożółty kolor"
+        ],
+        "wlasciwosci": [
+          "relaksujący, lekko uspokajający"
+        ],
+        "zastosowanie": "Na specjalne okazje, do ciast.",
+        "zrodlo": [
+          "Alte deutsche Liköre, 1928"
+        ]
+      }
     ],
-    "sposob_przygotowania": "1. Zioła i przyprawy wsyp do słoja, zalej spirytusem. 2. Zamknij, odstaw na 9 dni w ciemne miejsce, codziennie lekko wstrząsaj. 3. Dodaj wodę, odstaw na kolejne 2 dni. 4. Przefiltruj, rozlej do małych butelek.",
-    "cechy": [
-      "Kwiatowo-korzenna nuta, lekko gorzkawy"
+    "likier_marzankowy_z_gruszką_i_anyżem_austria": [
+      {
+        "nazwa": "Likier marzankowy z gruszką i anyżem (Austria)",
+        "skladniki": [
+          "18 g suszonych liści marzanki",
+          "1 dojrzała gruszka (pokrojona w kostkę)",
+          "1/3 łyżeczki nasion anyżu",
+          "0,5 l wódki 40%",
+          "140 g cukru",
+          "90 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Gruszkę połącz z marzanką i anyżem, zalej wódką. 2. Zamknij, odstaw na 10 dni. 3. Przefiltruj, dodaj syrop cukrowy. 4. Rozlej do butelek, leżakuj min. 2 tygodnie.",
+        "cechy": [
+          "Słodki, lekko anyżowy, owocowo-ziołowy likier"
+        ],
+        "wlasciwosci": [
+          "rozgrzewający, relaksujący"
+        ],
+        "zastosowanie": "Likier do kawy lub wieczorem.",
+        "zrodlo": [
+          "Österreichische Kräuterliköre, 1914"
+        ]
+      }
     ],
-    "wlasciwosci": [
-      "lekko uspokajający, pobudza trawienie"
+    "piwo_marzankowe_z_pokrzywą_i_jałowcem_polska/niemcy": [
+      {
+        "nazwa": "Piwo marzankowe z pokrzywą i jałowcem (Polska/Niemcy)",
+        "skladniki": [
+          "15 g świeżych liści marzanki",
+          "2 garście młodych liści pokrzywy (najlepiej wiosenne, świeże lub 2 łyżki suszonej)",
+          "8 jagód jałowca (zmiażdżonych w moździerzu)",
+          "400 g słodu jęczmiennego",
+          "60 g cukru",
+          "3 l wody",
+          "drożdże piwne"
+        ],
+        "sposob_przygotowania": "1. W garnku zagotuj wodę, wsyp słód, gotuj 25 min. 2. Dodaj pokrzywę, marzankę, jałowiec. Gotuj jeszcze 10 min. 3. Przecedź do fermentora, ostudź do 24°C. 4. Dodaj cukier i drożdże. 5. Zamknij fermentor, odstaw na tydzień. 6. Gdy fermentacja ustanie, przelej do butelek. 7. Leżakuj 2–4 tygodnie. 8. Podawaj dobrze schłodzone.",
+        "cechy": [
+          "Orzeźwiające, delikatnie ziołowe, lekko żywiczne"
+        ],
+        "wlasciwosci": [
+          "mineralizujące, pobudzające, lekko oczyszczające"
+        ],
+        "zastosowanie": "Letni napój, do dań obiadowych.",
+        "zrodlo": [
+          "Alte deutsche Biere, Berlin, 1906"
+        ]
+      }
     ],
-    "zastosowanie": "Do naparów na wieczór, drinków i lemoniad (kilka kropel).",
-    "zrodlo": ["Domowy Zielnik, Polska, 1934"]
-  },
-  {
-    "nazwa": "Bitters marzankowy z cynamonem, wanilią i imbirem (Anglia/Francja)",
-    "skladniki": [
-      "12 g suszonych liści marzanki",
-      "1 laska cynamonu (połamana na kawałki)",
-      "kawałek laski wanilii (lub 1/4 łyżeczki ekstraktu)",
-      "kawałek świeżego imbiru (ok. 1,5 cm, cienko pokrojony)",
-      "skórka z 1/4 cytryny",
-      "240 ml spirytusu 60%",
-      "40 ml wody"
+    "piwo_marzankowe_z_rumiankiem_i_bzem_czarnym_polska/niemcy": [
+      {
+        "nazwa": "Piwo marzankowe z rumiankiem i bzem czarnym (Polska/Niemcy)",
+        "skladniki": [
+          "15 g suszonych liści marzanki",
+          "10 g suszonych koszyczków rumianku",
+          "10 g suszonych kwiatów bzu czarnego",
+          "500 g słodu żytniego",
+          "50 g cukru",
+          "3 l wody",
+          "drożdże piwowarskie"
+        ],
+        "sposob_przygotowania": "1. Słód zagotuj z wodą przez 30 min. 2. Dodaj marzankę, rumianek i bez, gotuj 10 min. 3. Przecedź do fermentora, ostudź, dodaj cukier i drożdże. 4. Fermentuj tydzień, przelej do butelek. 5. Leżakuj 2–4 tygodnie.",
+        "cechy": [
+          "Kwiatowe, delikatnie ziołowe piwo, jasnożółte"
+        ],
+        "wlasciwosci": [
+          "odświeżające, łagodzące napięcia"
+        ],
+        "zastosowanie": "Do lekkich dań i deserów.",
+        "zrodlo": [
+          "Zielnik browarniczy, Poznań, 1923"
+        ]
+      }
     ],
-    "sposob_przygotowania": "1. Wszystkie składniki włóż do słoja, zalej spirytusem. 2. Zamknij, odstaw na 12 dni w ciemne miejsce, codziennie wstrząsaj. 3. Dodaj wodę, odstaw na 2 dni, zamieszaj. 4. Przefiltruj, przelej do małych butelek.",
-    "cechy": [
-      "Bardzo aromatyczny, korzenny, ciepły bitters"
+    "wino_marzankowe_z_agrestem_i_bazylią_anglia/polska": [
+      {
+        "nazwa": "Wino marzankowe z agrestem i bazylią (Anglia/Polska)",
+        "skladniki": [
+          "20 g świeżych liści marzanki",
+          "200 g dojrzałego agrestu (świeżego lub mrożonego)",
+          "kilka liści świeżej bazylii",
+          "700 g cukru",
+          "2 l wody",
+          "sok z połowy cytryny",
+          "1 łyżeczka drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Agrest umyj, rozgnieć widelcem, wymieszaj z marzanką i bazylią. 2. Zagotuj wodę, rozpuść w niej cukier, ostudź. 3. Zalej owoce syropem, dodaj sok z cytryny i drożdże. 4. Zamknij balon rurką fermentacyjną, fermentuj 3 tygodnie. 5. Zlej znad osadu, fermentuj kolejne 3 tygodnie. 6. Przefiltruj, rozlej do butelek, leżakuj min. 2 miesiące.",
+        "cechy": [
+          "Delikatnie kwaskowe, kwiatowo-ziołowe, jasnozielone"
+        ],
+        "wlasciwosci": [
+          "odświeżające, lekko tonizujące"
+        ],
+        "zastosowanie": "Do serów, sałatek, letnich przekąsek.",
+        "zrodlo": [
+          "Old English Wines, 1929"
+        ]
+      }
     ],
-    "wlasciwosci": [
-      "rozgrzewający, pobudzający trawienie"
+    "wino_marzankowe_z_czarną_porzeczką_i_rozmarynem_francja/polska": [
+      {
+        "nazwa": "Wino marzankowe z czarną porzeczką i rozmarynem (Francja/Polska)",
+        "skladniki": [
+          "22 g suszonych liści marzanki",
+          "120 g czarnych porzeczek (świeżych lub mrożonych)",
+          "1 gałązka rozmarynu (świeża lub 1 łyżeczka suszonego)",
+          "600 g cukru",
+          "2 l wody",
+          "sok z połowy cytryny",
+          "1 łyżeczka drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Porzeczki rozgnieć, wymieszaj z marzanką i rozmarynem. 2. Zagotuj wodę, rozpuść w niej cukier, ostudź. 3. Zalej owoce syropem, dodaj sok z cytryny i drożdże. 4. Fermentuj 3 tygodnie, zlej znad owoców, fermentuj kolejne 2–3 tygodnie. 5. Przefiltruj, rozlej do butelek.",
+        "cechy": [
+          "Wyrazisty, ziołowo-owocowy smak, rubinowy kolor"
+        ],
+        "wlasciwosci": [
+          "wzmacniający, lekko pobudzający"
+        ],
+        "zastosowanie": "Do potraw mięsnych i deserów.",
+        "zrodlo": [
+          "Recettes de vin maison, 1937"
+        ]
+      }
     ],
-    "zastosowanie": "Do zimowych drinków, deserów, kawy (kilka kropel na filiżankę).",
-    "zrodlo": ["Old Bitters Recipes, Londyn, 1919"]
-  },
-  {
-    "nazwa": "Bitters marzankowy z fiołkiem i jaśminem (Francja)",
-    "skladniki": [
-      "10 g suszonych liści marzanki",
-      "6 suszonych kwiatów fiołka",
-      "3 suszone kwiaty jaśminu",
-      "skórka z 1/3 limonki",
-      "220 ml spirytusu 60%",
-      "30 ml przegotowanej wody"
+    "wino_marzankowe_z_gruszką_i_miętą_węgry": [
+      {
+        "nazwa": "Wino marzankowe z gruszką i miętą (Węgry)",
+        "skladniki": [
+          "20 g świeżych liści marzanki",
+          "2 dojrzałe gruszki (pokrojone w kostkę)",
+          "kilka gałązek świeżej mięty",
+          "650 g cukru",
+          "2 l wody",
+          "sok z połowy cytryny",
+          "1 łyżeczka drożdży winiarskich"
+        ],
+        "sposob_przygotowania": "1. Gruszki wymieszaj z marzanką i miętą. 2. Zagotuj wodę z cukrem, ostudź, zalej owoce. 3. Dodaj sok z cytryny i drożdże. 4. Fermentuj 3 tygodnie, codziennie mieszaj. 5. Zlej znad owoców, fermentuj jeszcze 2–3 tygodnie. 6. Przefiltruj, rozlej do butelek.",
+        "cechy": [
+          "Aromatyczne, ziołowo-owocowe wino"
+        ],
+        "wlasciwosci": [
+          "relaksujące, łagodne, lekko pobudzające"
+        ],
+        "zastosowanie": "Do letnich posiłków i deserów.",
+        "zrodlo": [
+          "Régi magyar borok, 1939"
+        ]
+      }
     ],
-    "sposob_przygotowania": "1. Kwiaty i zioła umieść w słoju, zalej spirytusem. 2. Zamknij, odstaw na 8 dni, codziennie lekko wstrząsaj. 3. Dodaj wodę, odstaw na 2 dni. 4. Przefiltruj przez filtr do kawy, rozlej do małych butelek z kroplomierzem.",
-    "cechy": [
-      "Aromat kwiatów, lekko perfumowany, orzeźwiający"
+    "gin_domowy_z_marzanką_i_jałowcem_anglia": [
+      {
+        "nazwa": "Gin domowy z marzanką i jałowcem (Anglia)",
+        "skladniki": [
+          "16 g suszonych liści marzanki",
+          "2 łyżki jagód jałowca (zmiażdżonych w moździerzu)",
+          "skórka z 1 limonki (niewoskowana, cienko okrojona)",
+          "0,7 l wódki czystej (najlepiej wysokoprocentowej, np. 50%)",
+          "1 łyżka cukru"
+        ],
+        "sposob_przygotowania": "1. Marzankę, jałowiec i skórkę limonki wrzuć do dużego słoja. 2. Zalej wódką, dodaj cukier. 3. Zamknij, odstaw na 14 dni w ciemne, chłodne miejsce, codziennie wstrząsaj. 4. Przefiltruj przez gazę, rozlej do butelek. Najlepszy po miesiącu leżakowania.",
+        "cechy": [
+          "Aromatyczny, wyraźnie ziołowy gin"
+        ],
+        "wlasciwosci": [
+          "orzeźwiający, pobudzający"
+        ],
+        "zastosowanie": "Do drinków lub klasycznie z tonikiem.",
+        "zrodlo": [
+          "English Gin Recipes, 1921"
+        ]
+      }
     ],
-    "wlasciwosci": [
-      "lekko relaksujący, pobudza apetyt"
+    "ratafia_marzankowa_z_truskawką_i_szałwią_francja": [
+      {
+        "nazwa": "Ratafia marzankowa z truskawką i szałwią (Francja)",
+        "skladniki": [
+          "20 g świeżych liści marzanki",
+          "120 g truskawek (świeżych lub mrożonych)",
+          "4 liście świeżej szałwii",
+          "0,7 l spirytusu 60%",
+          "170 g cukru"
+        ],
+        "sposob_przygotowania": "1. Truskawki rozgnieć, połącz z marzanką i szałwią, zalej spirytusem. 2. Zamknij, odstaw na 12 dni. 3. Przefiltruj, dodaj cukier, wymieszaj. 4. Odstaw na tydzień, przefiltruj i rozlej do butelek.",
+        "cechy": [
+          "Owocowo-ziołowy, delikatnie korzenny smak"
+        ],
+        "wlasciwosci": [
+          "lekko pobudzający, poprawiający nastrój"
+        ],
+        "zastosowanie": "Do deserów, jako aperitif.",
+        "zrodlo": [
+          "Ratafias & Elixirs, Francja, 1935"
+        ]
+      }
     ],
-    "zastosowanie": "Do lemoniad, prosecco, koktajli kwiatowych (kilka kropel).",
-    "zrodlo": ["Fleurs et Elixirs, Francja, 1927"]
-  }
+    "bitters_marzankowy_z_arcydzięglem_i_anyżem_typ_apteczny_niemcy": [
+      {
+        "nazwa": "Bitters marzankowy z arcydzięglem i anyżem (typ apteczny, Niemcy)",
+        "skladniki": [
+          "12 g suszonych liści marzanki wonnej",
+          "5 g suszonego korzenia arcydzięgla lekarskiego (pokrojonego)",
+          "1/2 łyżeczki nasion anyżu",
+          "kilka ziaren kardamonu (zmiażdżonych)",
+          "skórka z 1/2 cytryny (niewoskowana, cienko okrojona)",
+          "300 ml spirytusu 70%",
+          "50 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Wszystkie zioła i przyprawy wsyp do niewielkiego słoja. 2. Zalej spirytusem, zamknij szczelnie. 3. Odstaw na 14 dni w ciemne miejsce, codziennie lekko wstrząsaj. 4. Po 2 tygodniach dodaj przegotowaną wodę, wymieszaj. 5. Odstaw jeszcze na 2 dni. 6. Przefiltruj przez gazę lub filtr do kawy. 7. Przelej do małych butelek z kroplomierzem. 8. Używaj po kilka kropel do drinków, kawy, wody lub herbaty.",
+        "cechy": [
+          "Bardzo aromatyczny, korzenno-ziołowy bitters",
+          "Wyraźny, lekko gorzki posmak"
+        ],
+        "wlasciwosci": [
+          "pobudza trawienie, działa rozgrzewająco i lekko pobudzająco"
+        ],
+        "zastosowanie": "Do koktajli, herbaty, toników, jako aperitif (5–10 kropli na porcję).",
+        "zrodlo": [
+          "Handbuch der deutschen Apotheken, Berlin, 1910"
+        ]
+      }
+    ],
+    "bitters_marzankowy_z_pomarańczą_jałowcem_i_goździkami_polska/francja": [
+      {
+        "nazwa": "Bitters marzankowy z pomarańczą, jałowcem i goździkami (Polska/Francja)",
+        "skladniki": [
+          "10 g suszonych liści marzanki wonnej",
+          "skórka z 1/2 pomarańczy (cienko okrojona)",
+          "6 jagód jałowca (zmiażdżonych w moździerzu)",
+          "2 goździki",
+          "kawałek korzenia imbiru (ok. 2 cm, pokrojony w cienkie plastry)",
+          "250 ml spirytusu 60%",
+          "40 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Wszystkie składniki włóż do czystego słoja, zalej spirytusem. 2. Zamknij, odstaw na 10 dni, codziennie wstrząsaj. 3. Dodaj wodę, wymieszaj, odstaw na kolejne 2 dni. 4. Przefiltruj przez filtr do kawy lub gazę. 5. Rozlej do małych butelek z kroplomierzem.",
+        "cechy": [
+          "Pomarańczowo-korzenno-ziołowy bitters, mocno aromatyczny"
+        ],
+        "wlasciwosci": [
+          "wzmacniający apetyt, rozgrzewający, wspierający trawienie"
+        ],
+        "zastosowanie": "Do koktajli, zimowych herbat i lemoniad (5–12 kropli na porcję).",
+        "zrodlo": [
+          "Apteczka francuska, Paryż, 1928"
+        ]
+      }
+    ],
+    "bitters_marzankowy_z_rumiankiem_i_kardamonem_polska": [
+      {
+        "nazwa": "Bitters marzankowy z rumiankiem i kardamonem (Polska)",
+        "skladniki": [
+          "10 g suszonych liści marzanki wonnej",
+          "8 g suszonych koszyczków rumianku",
+          "1/2 łyżeczki ziaren kardamonu (rozdrobnionych w moździerzu)",
+          "skórka z 1/3 cytryny (niewoskowana)",
+          "220 ml spirytusu 60%",
+          "30 ml wody przegotowanej"
+        ],
+        "sposob_przygotowania": "1. Zioła i przyprawy wsyp do słoja, zalej spirytusem. 2. Zamknij, odstaw na 9 dni w ciemne miejsce, codziennie lekko wstrząsaj. 3. Dodaj wodę, odstaw na kolejne 2 dni. 4. Przefiltruj, rozlej do małych butelek.",
+        "cechy": [
+          "Kwiatowo-korzenna nuta, lekko gorzkawy"
+        ],
+        "wlasciwosci": [
+          "lekko uspokajający, pobudza trawienie"
+        ],
+        "zastosowanie": "Do naparów na wieczór, drinków i lemoniad (kilka kropel).",
+        "zrodlo": [
+          "Domowy Zielnik, Polska, 1934"
+        ]
+      }
+    ],
+    "bitters_marzankowy_z_cynamonem_wanilią_i_imbirem_anglia/francja": [
+      {
+        "nazwa": "Bitters marzankowy z cynamonem, wanilią i imbirem (Anglia/Francja)",
+        "skladniki": [
+          "12 g suszonych liści marzanki",
+          "1 laska cynamonu (połamana na kawałki)",
+          "kawałek laski wanilii (lub 1/4 łyżeczki ekstraktu)",
+          "kawałek świeżego imbiru (ok. 1,5 cm, cienko pokrojony)",
+          "skórka z 1/4 cytryny",
+          "240 ml spirytusu 60%",
+          "40 ml wody"
+        ],
+        "sposob_przygotowania": "1. Wszystkie składniki włóż do słoja, zalej spirytusem. 2. Zamknij, odstaw na 12 dni w ciemne miejsce, codziennie wstrząsaj. 3. Dodaj wodę, odstaw na 2 dni, zamieszaj. 4. Przefiltruj, przelej do małych butelek.",
+        "cechy": [
+          "Bardzo aromatyczny, korzenny, ciepły bitters"
+        ],
+        "wlasciwosci": [
+          "rozgrzewający, pobudzający trawienie"
+        ],
+        "zastosowanie": "Do zimowych drinków, deserów, kawy (kilka kropel na filiżankę).",
+        "zrodlo": [
+          "Old Bitters Recipes, Londyn, 1919"
+        ]
+      }
+    ],
+    "bitters_marzankowy_z_fiołkiem_i_jaśminem_francja": [
+      {
+        "nazwa": "Bitters marzankowy z fiołkiem i jaśminem (Francja)",
+        "skladniki": [
+          "10 g suszonych liści marzanki",
+          "6 suszonych kwiatów fiołka",
+          "3 suszone kwiaty jaśminu",
+          "skórka z 1/3 limonki",
+          "220 ml spirytusu 60%",
+          "30 ml przegotowanej wody"
+        ],
+        "sposob_przygotowania": "1. Kwiaty i zioła umieść w słoju, zalej spirytusem. 2. Zamknij, odstaw na 8 dni, codziennie lekko wstrząsaj. 3. Dodaj wodę, odstaw na 2 dni. 4. Przefiltruj przez filtr do kawy, rozlej do małych butelek z kroplomierzem.",
+        "cechy": [
+          "Aromat kwiatów, lekko perfumowany, orzeźwiający"
+        ],
+        "wlasciwosci": [
+          "lekko relaksujący, pobudza apetyt"
+        ],
+        "zastosowanie": "Do lemoniad, prosecco, koktajli kwiatowych (kilka kropel).",
+        "zrodlo": [
+          "Fleurs et Elixirs, Francja, 1927"
+        ]
+      }
     ]
   },
   "inne_zastosowania": {
@@ -1563,40 +1747,102 @@
     "47": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
   },
   "kalendarz": {
-    "siew": [
-      3,
-      4
-    ],
-    "zbior_ziele": [
-      5,
-      6,
-      7
-    ],
-    "zbior_poranny": [
-      5,
-      6,
-      7
-    ],
-    "zbior_kwiatow": [
-      5,
-      6
-    ],
-    "zbior_pelnia": [
-      6
-    ],
-    "ekstrakcja": [
-      6
-    ],
-    "rozmnazanie": [
-      4,
-      9
-    ],
-    "przycinanie": [
-      7
-    ],
-    "przesadzanie": [
-      4,
-      9
-    ]
+    "siew": {
+      "miesiące": [
+        3,
+        4,
+        10
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Nasiona wymagają stratyfikacji – siew do gruntu lub skrzynek jesienią albo wczesną wiosną.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Galium+odoratum"
+    },
+    "przesadzanie": {
+      "miesiące": [
+        3,
+        4,
+        10
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "po południu",
+      "intensywność": "średnia",
+      "uwagi": "Roślina dobrze znosi przesadzanie kępami – rozrasta się podziemnymi rozłogami.",
+      "źródło": "https://www.gardenersworld.com/plants/how-to-grow-sweet-woodruff/"
+    },
+    "kwitnienie": {
+      "miesiące": [
+        5,
+        6
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "obserwacyjny",
+      "czas_dnia": "dowolny",
+      "intensywność": "symboliczna",
+      "uwagi": "Charakterystyczne białe gwiazdkowate kwiaty pojawiają się na początku maja.",
+      "źródło": "https://en.wikipedia.org/wiki/Galium_odoratum"
+    },
+    "zbior_lisci": {
+      "miesiące": [
+        5,
+        6
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "zielarski",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Największa zawartość kumaryny przed kwitnieniem i tuż po nim. Zbiór młodych, aromatycznych liści.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Galium+odoratum"
+    },
+    "suszenie": {
+      "miesiące": [
+        5,
+        6
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "zielarski",
+      "czas_dnia": "po południu",
+      "intensywność": "niska",
+      "uwagi": "Suszenie zwiększa zawartość kumaryny – susz powoli w cieniu, aż do uzyskania charakterystycznego zapachu siana.",
+      "źródło": "https://www.herbal-supplement-resource.com/sweet-woodruff.html"
+    },
+    "zbior_ksiezycowy": {
+      "miesiące": [
+        5
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "rytualny",
+      "czas_dnia": "wieczór",
+      "intensywność": "symboliczna",
+      "uwagi": "Zbierana w pełni księżyca była wykorzystywana do kadzideł i bukietów ochronnych w kulturze słowiańskiej i niemieckiej.",
+      "źródło": "https://www.thespruce.com/moon-phase-gardening-5219263"
+    },
+    "pielenie": {
+      "miesiące": [
+        5,
+        6
+      ],
+      "zalecana_faza_ksiezyca": "bez znaczenia",
+      "typ": "techniczny",
+      "czas_dnia": "dowolny",
+      "intensywność": "średnia",
+      "uwagi": "Choć marzanka szybko zadarnia glebę, zaleca się usuwanie konkurencyjnych traw i chwastów w młodym stadium.",
+      "źródło": "https://en.wikipedia.org/wiki/Groundcover"
+    },
+    "rozmnażanie_wegetatywne": {
+      "miesiące": [
+        4,
+        10
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Najłatwiej rozmnażać przez podział rozłogów – szybko się przyjmuje w wilgotnej glebie.",
+      "źródło": "https://www.gardenia.net/plant/galium-odoratum"
+    }
   }
 }

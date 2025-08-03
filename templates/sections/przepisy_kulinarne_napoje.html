@@ -1,0 +1,21 @@
+<section id="sekcja-przepisy_kulinarne_napoje">
+  <h2>🧪 Napoje i alkohole</h2>
+  {% if data.przepisy_kulinarne_napoje %}
+    {% for typ, lista in data.przepisy_kulinarne_napoje.items() %}
+      {% for przepis in lista %}
+        <details class="recepta">
+          <summary>{{ przepis.nazwa }}</summary>
+          {% if przepis.skladniki %}<p><b>Składniki:</b> {{ przepis.skladniki | join(", ") if przepis.skladniki is iterable else przepis.skladniki }}</p>{% endif %}
+          {% if przepis.sposob %}<p><b>Sposób:</b> {{ przepis.sposob }}</p>{% endif %}
+          {% if przepis.zastosowanie %}<p><b>Zastosowanie:</b> {{ przepis.zastosowanie }}</p>{% endif %}
+          {% if przepis.wlasciwosci %}<p><b>Właściwości:</b> {{ przepis.wlasciwosci | join(", ") if przepis.wlasciwosci is iterable else przepis.wlasciwosci }}</p>{% endif %}
+          {% if przepis.dawkowanie %}<p><b>Dawkowanie:</b> {{ przepis.dawkowanie }}</p>{% endif %}
+          {% if przepis.uwagi %}<p><b>Uwagi:</b> {{ przepis.uwagi }}</p>{% endif %}
+          {% if przepis.zrodlo %}<p>{{ przepis.zrodlo | join(" ") }}</p>{% endif %}
+        </details>
+      {% endfor %}
+    {% endfor %}
+  {% else %}
+    <p class="empty">Brak danych o napojach i alkoholach.</p>
+  {% endif %}
+</section>

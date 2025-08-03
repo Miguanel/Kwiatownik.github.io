@@ -133,462 +133,161 @@
     }
   ],
   "przepisy_medyczne": {
-    "napar": {
-      "skladniki": [
-        "1 łyżka świeżych liści podagrycznika pospolitego (najlepiej młodych, zebranych przed kwitnieniem, drobno posiekanych) lub 1 płaska łyżka suszonych liści",
-        "250 ml wrzątku (świeża, przegotowana woda)"
-      ],
-      "sposob_przygotowania": "Liście zalać wrzątkiem w kubku lub filiżance, przykryć, parzyć 10–15 minut. Przecedzić, pić ciepły.",
-      "cechy": [
-        "Świeży, selerowy smak",
-        "Jasnozielona barwa"
-      ],
-      "wlasciwosci": [
-        "działa moczopędnie, oczyszcza organizm z kwasu moczowego, łagodzi stany zapalne stawów"
-      ],
-      "zastosowanie": "Pomocniczo w dnie moczanowej, obrzękach, reumatyzmie, zatrzymaniu wody w organizmie.",
-      "dawkowanie": "Pić 1–2 razy dziennie przez 2 tygodnie (najlepiej rano i wieczorem).",
-      "warianty": [
-        "Możesz dodać plaster imbiru lub kilka listków mięty (inspiracja rosyjska – na wzmocnienie efektu przeciwzapalnego)",
-        "Dla lepszego smaku: 1/2 łyżeczki suszonej skórki cytryny"
-      ],
-      "zrodlo": [
-        16
-      ]
-    },
-    "odwar": {
-      "skladniki": [
-        "2 łyżki świeżych liści lub cienko pokrojonych korzeni podagrycznika (świeżych lub suszonych)",
-        "300 ml wody (zimna, świeża)"
-      ],
-      "sposob_przygotowania": "Zioła zalać wodą, powoli doprowadzić do wrzenia, gotować pod przykryciem 10 minut, odstawić na 10 minut, przecedzić.",
-      "cechy": [
-        "Intensywny, ziołowy zapach",
-        "Gorzki, wyrazisty posmak"
-      ],
-      "wlasciwosci": [
-        "działa przeciwzapalnie, ściągająco, wspiera gojenie skóry"
-      ],
-      "zastosowanie": "Przemywanie stawów, okłady na opuchlizny, kąpiele lecznicze przy reumatyzmie i dnie moczanowej.",
-      "dawkowanie": "Stosować zewnętrznie, według potrzeby (np. 2 razy dziennie).",
-      "warianty": [
-        "Do kąpieli stóp: wymieszaj odwar z 1 szklanką wywaru z kory wierzby (inspiracja niemiecka – podwójna moc przeciwzapalna)"
-      ],
-      "zrodlo": [
-        17
-      ]
-    },
-    "macerat": {
-      "skladniki": [
-        "1 łyżka świeżych, młodych liści podagrycznika (drobno posiekanych)",
-        "100 ml zimnej, przegotowanej wody"
-      ],
-      "sposob_przygotowania": "Liście zalać wodą w szklanym naczyniu, odstawić na 6–8 godzin w chłodnym miejscu (najlepiej lodówka), przecedzić.",
-      "cechy": [
-        "Łagodny smak, świeży zapach"
-      ],
-      "wlasciwosci": [
-        "delikatny dla błon śluzowych, łagodzi podrażnienia, lekko odświeża"
-      ],
-      "zastosowanie": "Przemywanie skóry, płukanki, okłady na oczy przy zmęczeniu, lekkie stany zapalne skóry.",
-      "dawkowanie": "Stosować miejscowo lub jako kompres kilka razy dziennie.",
-      "warianty": [
-        "Dodaj 1 łyżeczkę płatków nagietka (wersja regenerująca)",
-        "Wariant do oczu: macerat z dodatkiem rumianku"
-      ],
-      "zrodlo": [
-        18
-      ]
-    },
-    "oklad": {
-      "skladniki": [
-        "Świeże, rozgniecione liście podagrycznika (najlepiej młode, mięsiste, oczyszczone)",
-        "Gaza lub bandaż"
-      ],
-      "sposob_przygotowania": "Liście dokładnie rozgnieść w moździerzu lub między palcami, rozłożyć na gazie i przykładać na bolące, opuchnięte miejsca. Przebandażować.",
-      "cechy": [
-        "Chłodzący efekt, selerowy aromat"
-      ],
-      "wlasciwosci": [
-        "zmniejsza opuchliznę, łagodzi ból i pieczenie, przyspiesza gojenie"
-      ],
-      "zastosowanie": "Okłady na stawy, stłuczenia, siniaki, urazy sportowe.",
-      "dawkowanie": "Okład trzymać 20–30 minut, powtarzać 2–3 razy dziennie.",
-      "warianty": [
-        "Dla lepszego efektu regeneracyjnego: wymieszaj liście z odrobiną świeżego soku z aloesu",
-        "Możesz dodać posiekane liście żywokostu (tradycja niemiecka)"
-      ],
-      "zrodlo": [
-        19
-      ]
-    },
-    "syrop": {
-      "skladniki": [
-        "5 łyżek świeżych liści podagrycznika (drobno posiekanych)",
-        "300 ml wody",
-        "200 g cukru (biały lub trzcinowy) lub 3 łyżki miodu",
-        "sok z 1/2 cytryny"
-      ],
-      "sposob_przygotowania": "Liście zagotować w wodzie 10 minut, przecedzić. Dodać cukier/miód i sok z cytryny, gotować do uzyskania syropu (ok. 15 min), przelać do słoiczka.",
-      "cechy": [
-        "Ziołowy, słodkawy smak, zielony kolor"
-      ],
-      "wlasciwosci": [
-        "działa lekko przeciwzapalnie, wzmacnia organizm, łagodzi kaszel"
-      ],
-      "zastosowanie": "Na wiosenne osłabienie, łagodzenie kaszlu, wzmocnienie odporności.",
-      "dawkowanie": "1 łyżka 2 razy dziennie (dzieci: 1 łyżeczka).",
-      "warianty": [
-        "Zamiast cytryny: sok z limonki dla świeżości",
-        "Dodaj świeży imbir lub goździk (wersja rozgrzewająca)"
-      ],
-      "zrodlo": [
-        20
-      ]
-    },
-    "maść_łagodząca (tradycja ludowa)": {
-      "skladniki": [
-        "2 łyżki świeżych liści podagrycznika (posiekanych)",
-        "3 łyżki oleju kokosowego lub oliwy",
-        "2 łyżeczki wosku pszczelego (startego)"
-      ],
-      "sposob_przygotowania": "Liście podgrzewać w oleju ok. 30 minut w kąpieli wodnej (temp. 60°C), odcedzić, do ciepłego tłuszczu dodać wosk, wymieszać, przelać do słoiczka.",
-      "cechy": [
-        "Gęsta, zielonkawa maść, ziołowy zapach"
-      ],
-      "wlasciwosci": [
-        "przyspiesza gojenie skóry, łagodzi stany zapalne, działa ochronnie"
-      ],
-      "zastosowanie": "Stosować miejscowo na podrażnienia, opuchlizny, rany.",
-      "dawkowanie": "2–3 razy dziennie na oczyszczoną skórę.",
-      "warianty": [
-        "Dodaj 1 łyżkę suszonego nagietka lub kwiatów rumianku",
-        "Zamiast oleju kokosowego: smalec gęsi (wersja staropolska, bardzo regenerująca)"
-      ],
-      "zrodlo": [
-        21
-      ]
-    }
-  },
-  "przepisy_kulinarne": {
-    "swieze_dodatki": {
-      "skladniki": [
-        "Duża garść młodych, świeżych liści podagrycznika (najlepiej zebranych wiosną, delikatnych, jasnozielonych)"
-      ],
-      "sposob_przygotowania": "Liście dokładnie opłukać, drobno posiekać i dodawać do sałatek, twarożku, past jajecznych, surówek, kanapek, wrapów.",
-      "cechy": [
-        "Lekko selerowy smak",
-        "Soczysta, chrupiąca struktura"
-      ],
-      "wlasciwosci": [
-        "bogaty w witaminy C, A, żelazo, magnez",
-        "dodaje świeżości i wiosennego aromatu"
-      ],
-      "zastosowanie": "Sałatki, kanapki, twarożki, spring rollsy, zielone smoothie.",
-      "warianty": [
-        "W sałatkach mieszaj z młodą pokrzywą, szczawiem i rukolą",
-        "Dodaj do świeżego serka koziego (francuski wariant)",
-        "Zblenduj z awokado na pastę kanapkową"
-      ],
-      "zrodlo": [
-        21
-      ]
-    },
-    "gotowanie_blanszowanie": {
-      "skladniki": [
-        "Liście podagrycznika (najlepiej młode, świeże)",
-        "Zupa jarzynowa lub szczawiowa (świeża lub domowa)"
-      ],
-      "sposob_przygotowania": "Liście dodawać pod koniec gotowania zupy, można wcześniej blanszować (wrzucić na 30 sekund do wrzątku, odcedzić). Doskonałe także do farszu na pierogi, tarty i zapiekanki.",
-      "cechy": [
-        "Ziołowy aromat",
-        "Wyrazisty smak"
-      ],
-      "wlasciwosci": [
-        "wzbogaca smak, podnosi wartość odżywczą",
-        "dodaje naturalnej zieleni"
-      ],
-      "zastosowanie": "Zupy, farsze do pierogów, tart, naleśników, warzyw faszerowanych.",
-      "warianty": [
-        "Zupa-krem z podagrycznikiem i ziemniakami (wariant francuski)",
-        "Farsz do pierogów z białym serem i podagrycznikiem (ukraiński)",
-        "Dodaj do omletu z warzywami (wariant hiszpański)"
-      ],
-      "zrodlo": [
-        22
-      ]
-    },
-    "smazenie_duszenie": {
-      "skladniki": [
-        "Liście podagrycznika (świeże, drobno pokrojone)",
-        "1 cebula (pokrojona w kostkę)",
-        "1 łyżka masła klarowanego lub oleju"
-      ],
-      "sposob_przygotowania": "Cebulę podsmażyć na maśle, dodać liście, dusić kilka minut. Stosować jako dodatek do jajecznicy, omletów, makaronów.",
-      "cechy": [
-        "Lekko słodki, selerowy aromat",
-        "Delikatna, miękka tekstura"
-      ],
-      "wlasciwosci": [
-        "sycące, bogate w mikroelementy"
-      ],
-      "zastosowanie": "Dodatek do jaj, farszów, makaronów, pieczywa.",
-      "warianty": [
-        "Dodaj pomidora i bazylię (wariant śródziemnomorski)",
-        "Zamiast cebuli: czosnek niedźwiedzi lub szczypiorek"
-      ],
-      "zrodlo": [
-        23
-      ]
-    },
-    "przyprawa_z_suszonych_lisci": {
-      "skladniki": [
-        "Suszone liście podagrycznika (najlepiej młode, suszone w cieniu)"
-      ],
-      "sposob_przygotowania": "Liście suszyć rozłożone pojedynczo, zmielić lub rozkruszyć, używać jako przyprawę do zup, sosów, mięs, ziemniaków, jajek.",
-      "cechy": [
-        "Subtelny ziołowy smak",
-        "Delikatny aromat"
-      ],
-      "wlasciwosci": [
-        "wzmacnia smak potraw",
-        "dodaje świeżości"
-      ],
-      "zastosowanie": "Przyprawa do zup, dań warzywnych, sosów.",
-      "warianty": [
-        "Zmieszaj z solą morską – zielona sól ziołowa (wariant skandynawski)",
-        "Użyj do marynowania mięs, ryb (kuchnia rosyjska)"
-      ],
-      "zrodlo": [
-        24
-      ]
-    },
-    "herbata_napoj": {
-      "skladniki": [
-        "1 łyżeczka suszonych liści podagrycznika",
-        "250 ml wrzątku"
-      ],
-      "sposob_przygotowania": "Susz zalać wrzątkiem, parzyć pod przykryciem 10 minut, odcedzić. Pić na gorąco lub zimno.",
-      "cechy": [
-        "Świeży, łagodny smak",
-        "Zielonkawy kolor"
-      ],
-      "wlasciwosci": [
-        "pobudza trawienie, działa lekko uspokajająco"
-      ],
-      "zastosowanie": "Napój do picia na co dzień, także jako baza do lemoniad i koktajli.",
-      "warianty": [
-        "Dodaj plaster cytryny i świeżą miętę (napój letni)",
-        "Zamiast wody: mleko roślinne – powstaje latte ziołowe"
-      ],
-      "zrodlo": [
-        25
-      ]
-    },
-    "zielone_nalesniki": {
-      "skladniki": [
-        "Duża garść młodych liści podagrycznika (drobno posiekanych, najlepiej świeżych)",
-        "Ciasto naleśnikowe: 1 szklanka mąki, 1 jajko, 1 szklanka mleka, szczypta soli",
-        "Olej do smażenia"
-      ],
-      "sposob_przygotowania": "Liście wmieszać w ciasto naleśnikowe, smażyć cienkie placki. Podawać na słono (z twarożkiem, łososiem, szpinakiem) lub słodko (z serem i miodem).",
-      "cechy": [
-        "Delikatny ziołowy smak",
-        "Naturalnie zielony kolor"
-      ],
-      "wlasciwosci": [
-        "bogate w minerały i błonnik",
-        "pożywne"
-      ],
-      "zastosowanie": "Naleśniki na słono, wrapy, krokiety.",
-      "warianty": [
-        "Wersja francuska: naleśniki z sosem serowym i świeżym szczypiorkiem",
-        "Podawaj na słodko z ricottą i miodem (wariant włoski)"
-      ],
-      "zrodlo": [
-        26
-      ]
-    },
-    "pesto_z_podagrycznika": {
-      "skladniki": [
-        "Duża garść młodych liści podagrycznika (świeżych, jasnozielonych)",
-        "3 łyżki orzechów włoskich (uprażonych, posiekanych)",
-        "3 łyżki oliwy z oliwek extra vergine",
-        "1 ząbek czosnku",
-        "sól morska do smaku",
-        "2 łyżki tartego parmezanu (opcjonalnie)"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki zmiksować na gładką pastę. Przechowywać w lodówce do 3 dni.",
-      "cechy": [
-        "Intensywnie zielony kolor",
-        "Świeży, lekko orzechowy aromat"
-      ],
-      "wlasciwosci": [
-        "wzmacnia organizm, bogate w witaminy, nienasycone kwasy tłuszczowe"
-      ],
-      "zastosowanie": "Do makaronów, pieczywa, ziemniaków, jako dip.",
-      "warianty": [
-        "Dodaj listki bazylii lub pietruszki (wariant śródziemnomorski)",
-        "Zamiast orzechów włoskich: pestki dyni lub słonecznika (wariant ukraiński)",
-        "Wersja z czosnkiem niedźwiedzim i ricottą"
-      ],
-      "zrodlo": [
-        27
-      ]
-    },
-    "pierogi_z_podagrycznikiem": {
-      "skladniki": [
-        "2 garście młodych liści podagrycznika (świeżych, drobno pokrojonych)",
-        "200 g białego sera",
-        "1 jajko",
-        "sól, pieprz",
-        "Ciasto pierogowe (mąka, woda, jajko, sól)"
-      ],
-      "sposob_przygotowania": "Liście wymieszać z serem, jajkiem i przyprawami. Nakładać farsz na ciasto pierogowe, sklejać pierogi, gotować w osolonej wodzie. Podawać z masłem i koperkiem.",
-      "cechy": [
-        "Soczysty, zielony farsz",
-        "Delikatny aromat"
-      ],
-      "wlasciwosci": [
-        "pożywne, bogate w białko i wapń"
-      ],
-      "zastosowanie": "Pierogi na obiad, kolację, przystawkę.",
-      "warianty": [
-        "Dodaj do farszu ugotowaną kaszę gryczaną (wariant litewski)",
-        "Podawaj z sosem grzybowym lub śmietanowym"
-      ],
-      "zrodlo": [
-        28
-      ]
-    },
-    "zielone_ciasto_marchewkowe": {
-      "skladniki": [
-        "1 szklanka startej marchewki",
-        "1/2 szklanki drobno posiekanych liści podagrycznika",
-        "2 jajka",
-        "1 szklanka mąki",
-        "1/2 szklanki cukru trzcinowego",
-        "1/2 szklanki oleju",
-        "1 łyżeczka proszku do pieczenia",
-        "1 łyżeczka cynamonu"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki wymieszać, piec w 180°C ok. 40 minut. Po upieczeniu udekorować kremem serowym.",
-      "cechy": [
-        "Wilgotne, aromatyczne, lekko zielonkawe"
-      ],
-      "wlasciwosci": [
-        "bogate w błonnik i witaminy",
-        "pożywne"
-      ],
-      "zastosowanie": "Ciasto do kawy, deser.",
-      "warianty": [
-        "Dodaj rodzynki, orzechy, startą skórkę pomarańczową",
-        "Wersja z kremem waniliowym lub cytrynowym"
-      ],
-      "zrodlo": [
-        29
-      ]
-    },
-    "azjatycka_salatka_z_podagrycznikiem": {
-      "skladniki": [
-        "1 garść młodych liści podagrycznika",
-        "1 ogórek (pokrojony w cienkie paski)",
-        "1 marchew (starta)",
-        "2 łyżki sosu sojowego",
-        "1 łyżka oleju sezamowego",
-        "sok z 1 limonki",
-        "1 łyżka prażonego sezamu"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki wymieszać, podawać schłodzoną.",
-      "cechy": [
-        "Świeża, chrupiąca, lekko pikantna"
-      ],
-      "wlasciwosci": [
-        "lekka, orzeźwiająca, bogata w mikroelementy"
-      ],
-      "zastosowanie": "Sałatka, dodatek do sushi, azjatyckich dań.",
-      "warianty": [
-        "Dodaj świeżą kolendrę lub miętę",
-        "Możesz dodać płatki chili"
-      ],
-      "zrodlo": [
-        30
-      ]
-    },
-    "kiszone_liscie_podagrycznika": {
-      "skladniki": [
-        "Duży pęczek młodych liści podagrycznika",
-        "2 ząbki czosnku",
-        "1 gałązka kopru",
-        "1 litr wody",
-        "1 łyżka soli kamiennej"
-      ],
-      "sposob_przygotowania": "Liście, czosnek i koperek ułożyć w słoiku, zalać solanką. Dociążyć, fermentować 3–5 dni. Przechowywać w lodówce.",
-      "cechy": [
-        "Kwaśne, lekko chrupiące, aromatyczne"
-      ],
-      "wlasciwosci": [
-        "probiotyczne, oczyszczające"
-      ],
-      "zastosowanie": "Dodatek do kanapek, wrapów, sałatek, sushi.",
-      "warianty": [
-        "Dodaj plasterek papryki chili (wariant ukraiński)",
-        "Możesz dodać liść chrzanu lub dębu (polska tradycja kiszenia)"
-      ],
-      "zrodlo": [
-        31
-      ]
-    },
-    "koktajl_z_podagrycznikiem": {
-      "skladniki": [
-        "Duża garść młodych liści podagrycznika",
-        "1 banan",
-        "1 kiwi",
-        "1 szklanka wody lub soku jabłkowego"
-      ],
-      "sposob_przygotowania": "Wszystko zblendować na gładki koktajl.",
-      "cechy": [
-        "Orzeźwiający, zielony, słodko-kwaskowy"
-      ],
-      "wlasciwosci": [
-        "detoksykujący, bogaty w witaminy"
-      ],
-      "zastosowanie": "Napój śniadaniowy, przekąska po treningu.",
-      "warianty": [
-        "Dodaj pół limonki lub natkę pietruszki",
-        "Wersja z maślanką lub jogurtem naturalnym"
-      ],
-      "zrodlo": [
-        32
-      ]
-    },
-    "nalewka_z_podagrycznika": {
-      "skladniki": [
-        "2 garście świeżych liści podagrycznika",
-        "0,5 l spirytusu 60–70%",
-        "1 cytryna (skórka i sok)",
-        "200 g cukru lub 3 łyżki miodu",
-        "250 ml wody"
-      ],
-      "sposob_przygotowania": "Liście zalać alkoholem z sokiem i skórką cytryny, odstawić na 7 dni. Przecedzić, połączyć z wodą i cukrem/miodem. Przelać do butelek, leżakować min. 2 tygodnie.",
-      "cechy": [
-        "Ziołowy, cytrusowy aromat, lekko zielonkawy kolor"
-      ],
-      "wlasciwosci": [
-        "likier ziołowy, pobudza trawienie"
-      ],
-      "zastosowanie": "Aperitif, digestif, do drinków.",
-      "warianty": [
-        "Dodaj 2 goździki i kawałek imbiru (wersja rozgrzewająca)",
-        "Użyj miodu zamiast cukru (łagodniejszy smak)"
-      ],
-      "zrodlo": [
-        33
-      ]
-    }
-  },
-  "przepisy_z_innymi_roslinami": {
-    "medyczne": [
+    "napar": [
+      {
+        "nazwa": "napar",
+        "skladniki": [
+          "1 łyżka świeżych liści podagrycznika pospolitego (najlepiej młodych, zebranych przed kwitnieniem, drobno posiekanych) lub 1 płaska łyżka suszonych liści",
+          "250 ml wrzątku (świeża, przegotowana woda)"
+        ],
+        "sposob_przygotowania": "Liście zalać wrzątkiem w kubku lub filiżance, przykryć, parzyć 10–15 minut. Przecedzić, pić ciepły.",
+        "cechy": [
+          "Świeży, selerowy smak",
+          "Jasnozielona barwa"
+        ],
+        "wlasciwosci": [
+          "działa moczopędnie, oczyszcza organizm z kwasu moczowego, łagodzi stany zapalne stawów"
+        ],
+        "zastosowanie": "Pomocniczo w dnie moczanowej, obrzękach, reumatyzmie, zatrzymaniu wody w organizmie.",
+        "dawkowanie": "Pić 1–2 razy dziennie przez 2 tygodnie (najlepiej rano i wieczorem).",
+        "warianty": [
+          "Możesz dodać plaster imbiru lub kilka listków mięty (inspiracja rosyjska – na wzmocnienie efektu przeciwzapalnego)",
+          "Dla lepszego smaku: 1/2 łyżeczki suszonej skórki cytryny"
+        ],
+        "zrodlo": [
+          16
+        ]
+      }
+    ],
+    "odwar": [
+      {
+        "nazwa": "odwar",
+        "skladniki": [
+          "2 łyżki świeżych liści lub cienko pokrojonych korzeni podagrycznika (świeżych lub suszonych)",
+          "300 ml wody (zimna, świeża)"
+        ],
+        "sposob_przygotowania": "Zioła zalać wodą, powoli doprowadzić do wrzenia, gotować pod przykryciem 10 minut, odstawić na 10 minut, przecedzić.",
+        "cechy": [
+          "Intensywny, ziołowy zapach",
+          "Gorzki, wyrazisty posmak"
+        ],
+        "wlasciwosci": [
+          "działa przeciwzapalnie, ściągająco, wspiera gojenie skóry"
+        ],
+        "zastosowanie": "Przemywanie stawów, okłady na opuchlizny, kąpiele lecznicze przy reumatyzmie i dnie moczanowej.",
+        "dawkowanie": "Stosować zewnętrznie, według potrzeby (np. 2 razy dziennie).",
+        "warianty": [
+          "Do kąpieli stóp: wymieszaj odwar z 1 szklanką wywaru z kory wierzby (inspiracja niemiecka – podwójna moc przeciwzapalna)"
+        ],
+        "zrodlo": [
+          17
+        ]
+      }
+    ],
+    "macerat": [
+      {
+        "nazwa": "macerat",
+        "skladniki": [
+          "1 łyżka świeżych, młodych liści podagrycznika (drobno posiekanych)",
+          "100 ml zimnej, przegotowanej wody"
+        ],
+        "sposob_przygotowania": "Liście zalać wodą w szklanym naczyniu, odstawić na 6–8 godzin w chłodnym miejscu (najlepiej lodówka), przecedzić.",
+        "cechy": [
+          "Łagodny smak, świeży zapach"
+        ],
+        "wlasciwosci": [
+          "delikatny dla błon śluzowych, łagodzi podrażnienia, lekko odświeża"
+        ],
+        "zastosowanie": "Przemywanie skóry, płukanki, okłady na oczy przy zmęczeniu, lekkie stany zapalne skóry.",
+        "dawkowanie": "Stosować miejscowo lub jako kompres kilka razy dziennie.",
+        "warianty": [
+          "Dodaj 1 łyżeczkę płatków nagietka (wersja regenerująca)",
+          "Wariant do oczu: macerat z dodatkiem rumianku"
+        ],
+        "zrodlo": [
+          18
+        ]
+      }
+    ],
+    "oklad": [
+      {
+        "nazwa": "okład",
+        "skladniki": [
+          "Świeże, rozgniecione liście podagrycznika (najlepiej młode, mięsiste, oczyszczone)",
+          "Gaza lub bandaż"
+        ],
+        "sposob_przygotowania": "Liście dokładnie rozgnieść w moździerzu lub między palcami, rozłożyć na gazie i przykładać na bolące, opuchnięte miejsca. Przebandażować.",
+        "cechy": [
+          "Chłodzący efekt, selerowy aromat"
+        ],
+        "wlasciwosci": [
+          "zmniejsza opuchliznę, łagodzi ból i pieczenie, przyspiesza gojenie"
+        ],
+        "zastosowanie": "Okłady na stawy, stłuczenia, siniaki, urazy sportowe.",
+        "dawkowanie": "Okład trzymać 20–30 minut, powtarzać 2–3 razy dziennie.",
+        "warianty": [
+          "Dla lepszego efektu regeneracyjnego: wymieszaj liście z odrobiną świeżego soku z aloesu",
+          "Możesz dodać posiekane liście żywokostu (tradycja niemiecka)"
+        ],
+        "zrodlo": [
+          19
+        ]
+      }
+    ],
+    "syrop": [
+      {
+        "nazwa": "syrop",
+        "skladniki": [
+          "5 łyżek świeżych liści podagrycznika (drobno posiekanych)",
+          "300 ml wody",
+          "200 g cukru (biały lub trzcinowy) lub 3 łyżki miodu",
+          "sok z 1/2 cytryny"
+        ],
+        "sposob_przygotowania": "Liście zagotować w wodzie 10 minut, przecedzić. Dodać cukier/miód i sok z cytryny, gotować do uzyskania syropu (ok. 15 min), przelać do słoiczka.",
+        "cechy": [
+          "Ziołowy, słodkawy smak, zielony kolor"
+        ],
+        "wlasciwosci": [
+          "działa lekko przeciwzapalnie, wzmacnia organizm, łagodzi kaszel"
+        ],
+        "zastosowanie": "Na wiosenne osłabienie, łagodzenie kaszlu, wzmocnienie odporności.",
+        "dawkowanie": "1 łyżka 2 razy dziennie (dzieci: 1 łyżeczka).",
+        "warianty": [
+          "Zamiast cytryny: sok z limonki dla świeżości",
+          "Dodaj świeży imbir lub goździk (wersja rozgrzewająca)"
+        ],
+        "zrodlo": [
+          20
+        ]
+      }
+    ],
+    "maść_łagodząca (tradycja ludowa)": [
+      {
+        "nazwa": "maść łagodząca (tradycja ludowa)",
+        "skladniki": [
+          "2 łyżki świeżych liści podagrycznika (posiekanych)",
+          "3 łyżki oleju kokosowego lub oliwy",
+          "2 łyżeczki wosku pszczelego (startego)"
+        ],
+        "sposob_przygotowania": "Liście podgrzewać w oleju ok. 30 minut w kąpieli wodnej (temp. 60°C), odcedzić, do ciepłego tłuszczu dodać wosk, wymieszać, przelać do słoiczka.",
+        "cechy": [
+          "Gęsta, zielonkawa maść, ziołowy zapach"
+        ],
+        "wlasciwosci": [
+          "przyspiesza gojenie skóry, łagodzi stany zapalne, działa ochronnie"
+        ],
+        "zastosowanie": "Stosować miejscowo na podrażnienia, opuchlizny, rany.",
+        "dawkowanie": "2–3 razy dziennie na oczyszczoną skórę.",
+        "warianty": [
+          "Dodaj 1 łyżkę suszonego nagietka lub kwiatów rumianku",
+          "Zamiast oleju kokosowego: smalec gęsi (wersja staropolska, bardzo regenerująca)"
+        ],
+        "zrodlo": [
+          21
+        ]
+      }
+    ],
+    "mieszanka_na_stawy_i_reumatyzm_podagrycznik_pokrzywa_skrzyp": [
       {
         "nazwa": "Mieszanka na stawy i reumatyzm (podagrycznik, pokrzywa, skrzyp)",
         "skladniki": [
@@ -609,28 +308,9 @@
         "zrodlo": [
           28
         ]
-      },
-      {
-        "nazwa": "Napar wzmacniający (podagrycznik, mniszek, melisa)",
-        "skladniki": [
-          "1 łyżka świeżych liści podagrycznika",
-          "1 łyżka świeżych lub suszonych liści mniszka lekarskiego",
-          "1 łyżeczka suszonej melisy",
-          "400 ml wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut, odcedzić. Pić ciepły napar.",
-        "cechy": [
-          "Lekko gorzkawy, delikatnie cytrynowy aromat"
-        ],
-        "wlasciwosci": [
-          "wzmacnia organizm, działa lekko uspokajająco"
-        ],
-        "zastosowanie": "Po osłabieniu, rekonwalescencji.",
-        "dawkowanie": "1 szklanka dziennie przez 10–14 dni.",
-        "zrodlo": [
-          29
-        ]
-      },
+      }
+    ],
+    "mieszanka_oczyszczająca_podagrycznik_perz_liść_brzozy": [
       {
         "nazwa": "Mieszanka oczyszczająca (podagrycznik, perz, liść brzozy)",
         "skladniki": [
@@ -651,7 +331,32 @@
         "zrodlo": [
           30
         ]
-      },
+      }
+    ],
+    "napar_wzmacniający_podagrycznik_mniszek_melisa": [
+      {
+        "nazwa": "Napar wzmacniający (podagrycznik, mniszek, melisa)",
+        "skladniki": [
+          "1 łyżka świeżych liści podagrycznika",
+          "1 łyżka świeżych lub suszonych liści mniszka lekarskiego",
+          "1 łyżeczka suszonej melisy",
+          "400 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut, odcedzić. Pić ciepły napar.",
+        "cechy": [
+          "Lekko gorzkawy, delikatnie cytrynowy aromat"
+        ],
+        "wlasciwosci": [
+          "wzmacnia organizm, działa lekko uspokajająco"
+        ],
+        "zastosowanie": "Po osłabieniu, rekonwalescencji.",
+        "dawkowanie": "1 szklanka dziennie przez 10–14 dni.",
+        "zrodlo": [
+          29
+        ]
+      }
+    ],
+    "herbatka_odpornościowa_podagrycznik_czarny_bez_lipa_liść_maliny": [
       {
         "nazwa": "Herbatka odpornościowa (podagrycznik, czarny bez, lipa, liść maliny)",
         "skladniki": [
@@ -673,7 +378,9 @@
         "zrodlo": [
           31
         ]
-      },
+      }
+    ],
+    "kąpiel_lecznicza_na_bóle_stawów_podagrycznik_nagietek_igły_sosnowe": [
       {
         "nazwa": "Kąpiel lecznicza na bóle stawów (podagrycznik, nagietek, igły sosnowe)",
         "skladniki": [
@@ -695,8 +402,364 @@
           32
         ]
       }
+    ]
+  },
+  "przepisy_kulinarne": {
+    "swieze_dodatki": [
+      {
+        "skladniki": [
+          "Duża garść młodych, świeżych liści podagrycznika (najlepiej zebranych wiosną, delikatnych, jasnozielonych)"
+        ],
+        "sposob_przygotowania": "Liście dokładnie opłukać, drobno posiekać i dodawać do sałatek, twarożku, past jajecznych, surówek, kanapek, wrapów.",
+        "cechy": [
+          "Lekko selerowy smak",
+          "Soczysta, chrupiąca struktura"
+        ],
+        "wlasciwosci": [
+          "bogaty w witaminy C, A, żelazo, magnez",
+          "dodaje świeżości i wiosennego aromatu"
+        ],
+        "zastosowanie": "Sałatki, kanapki, twarożki, spring rollsy, zielone smoothie.",
+        "warianty": [
+          "W sałatkach mieszaj z młodą pokrzywą, szczawiem i rukolą",
+          "Dodaj do świeżego serka koziego (francuski wariant)",
+          "Zblenduj z awokado na pastę kanapkową"
+        ],
+        "zrodlo": [
+          21
+        ],
+        "nazwa": "Swieze dodatki"
+      }
     ],
-    "kulinarne": [
+    "gotowanie_blanszowanie": [
+      {
+        "skladniki": [
+          "Liście podagrycznika (najlepiej młode, świeże)",
+          "Zupa jarzynowa lub szczawiowa (świeża lub domowa)"
+        ],
+        "sposob_przygotowania": "Liście dodawać pod koniec gotowania zupy, można wcześniej blanszować (wrzucić na 30 sekund do wrzątku, odcedzić). Doskonałe także do farszu na pierogi, tarty i zapiekanki.",
+        "cechy": [
+          "Ziołowy aromat",
+          "Wyrazisty smak"
+        ],
+        "wlasciwosci": [
+          "wzbogaca smak, podnosi wartość odżywczą",
+          "dodaje naturalnej zieleni"
+        ],
+        "zastosowanie": "Zupy, farsze do pierogów, tart, naleśników, warzyw faszerowanych.",
+        "warianty": [
+          "Zupa-krem z podagrycznikiem i ziemniakami (wariant francuski)",
+          "Farsz do pierogów z białym serem i podagrycznikiem (ukraiński)",
+          "Dodaj do omletu z warzywami (wariant hiszpański)"
+        ],
+        "zrodlo": [
+          22
+        ],
+        "nazwa": "Gotowanie blanszowanie"
+      }
+    ],
+    "smazenie_duszenie": [
+      {
+        "skladniki": [
+          "Liście podagrycznika (świeże, drobno pokrojone)",
+          "1 cebula (pokrojona w kostkę)",
+          "1 łyżka masła klarowanego lub oleju"
+        ],
+        "sposob_przygotowania": "Cebulę podsmażyć na maśle, dodać liście, dusić kilka minut. Stosować jako dodatek do jajecznicy, omletów, makaronów.",
+        "cechy": [
+          "Lekko słodki, selerowy aromat",
+          "Delikatna, miękka tekstura"
+        ],
+        "wlasciwosci": [
+          "sycące, bogate w mikroelementy"
+        ],
+        "zastosowanie": "Dodatek do jaj, farszów, makaronów, pieczywa.",
+        "warianty": [
+          "Dodaj pomidora i bazylię (wariant śródziemnomorski)",
+          "Zamiast cebuli: czosnek niedźwiedzi lub szczypiorek"
+        ],
+        "zrodlo": [
+          23
+        ],
+        "nazwa": "Smazenie duszenie"
+      }
+    ],
+    "przyprawa_z_suszonych_lisci": [
+      {
+        "skladniki": [
+          "Suszone liście podagrycznika (najlepiej młode, suszone w cieniu)"
+        ],
+        "sposob_przygotowania": "Liście suszyć rozłożone pojedynczo, zmielić lub rozkruszyć, używać jako przyprawę do zup, sosów, mięs, ziemniaków, jajek.",
+        "cechy": [
+          "Subtelny ziołowy smak",
+          "Delikatny aromat"
+        ],
+        "wlasciwosci": [
+          "wzmacnia smak potraw",
+          "dodaje świeżości"
+        ],
+        "zastosowanie": "Przyprawa do zup, dań warzywnych, sosów.",
+        "warianty": [
+          "Zmieszaj z solą morską – zielona sól ziołowa (wariant skandynawski)",
+          "Użyj do marynowania mięs, ryb (kuchnia rosyjska)"
+        ],
+        "zrodlo": [
+          24
+        ],
+        "nazwa": "Przyprawa z suszonych lisci"
+      }
+    ],
+    "herbata_napoj": [
+      {
+        "skladniki": [
+          "1 łyżeczka suszonych liści podagrycznika",
+          "250 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Susz zalać wrzątkiem, parzyć pod przykryciem 10 minut, odcedzić. Pić na gorąco lub zimno.",
+        "cechy": [
+          "Świeży, łagodny smak",
+          "Zielonkawy kolor"
+        ],
+        "wlasciwosci": [
+          "pobudza trawienie, działa lekko uspokajająco"
+        ],
+        "zastosowanie": "Napój do picia na co dzień, także jako baza do lemoniad i koktajli.",
+        "warianty": [
+          "Dodaj plaster cytryny i świeżą miętę (napój letni)",
+          "Zamiast wody: mleko roślinne – powstaje latte ziołowe"
+        ],
+        "zrodlo": [
+          25
+        ],
+        "nazwa": "Herbata napoj"
+      }
+    ],
+    "zielone_nalesniki": [
+      {
+        "skladniki": [
+          "Duża garść młodych liści podagrycznika (drobno posiekanych, najlepiej świeżych)",
+          "Ciasto naleśnikowe: 1 szklanka mąki, 1 jajko, 1 szklanka mleka, szczypta soli",
+          "Olej do smażenia"
+        ],
+        "sposob_przygotowania": "Liście wmieszać w ciasto naleśnikowe, smażyć cienkie placki. Podawać na słono (z twarożkiem, łososiem, szpinakiem) lub słodko (z serem i miodem).",
+        "cechy": [
+          "Delikatny ziołowy smak",
+          "Naturalnie zielony kolor"
+        ],
+        "wlasciwosci": [
+          "bogate w minerały i błonnik",
+          "pożywne"
+        ],
+        "zastosowanie": "Naleśniki na słono, wrapy, krokiety.",
+        "warianty": [
+          "Wersja francuska: naleśniki z sosem serowym i świeżym szczypiorkiem",
+          "Podawaj na słodko z ricottą i miodem (wariant włoski)"
+        ],
+        "zrodlo": [
+          26
+        ],
+        "nazwa": "Zielone nalesniki"
+      }
+    ],
+    "pesto_z_podagrycznika": [
+      {
+        "skladniki": [
+          "Duża garść młodych liści podagrycznika (świeżych, jasnozielonych)",
+          "3 łyżki orzechów włoskich (uprażonych, posiekanych)",
+          "3 łyżki oliwy z oliwek extra vergine",
+          "1 ząbek czosnku",
+          "sól morska do smaku",
+          "2 łyżki tartego parmezanu (opcjonalnie)"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki zmiksować na gładką pastę. Przechowywać w lodówce do 3 dni.",
+        "cechy": [
+          "Intensywnie zielony kolor",
+          "Świeży, lekko orzechowy aromat"
+        ],
+        "wlasciwosci": [
+          "wzmacnia organizm, bogate w witaminy, nienasycone kwasy tłuszczowe"
+        ],
+        "zastosowanie": "Do makaronów, pieczywa, ziemniaków, jako dip.",
+        "warianty": [
+          "Dodaj listki bazylii lub pietruszki (wariant śródziemnomorski)",
+          "Zamiast orzechów włoskich: pestki dyni lub słonecznika (wariant ukraiński)",
+          "Wersja z czosnkiem niedźwiedzim i ricottą"
+        ],
+        "zrodlo": [
+          27
+        ],
+        "nazwa": "Pesto z podagrycznika"
+      }
+    ],
+    "pierogi_z_podagrycznikiem": [
+      {
+        "skladniki": [
+          "2 garście młodych liści podagrycznika (świeżych, drobno pokrojonych)",
+          "200 g białego sera",
+          "1 jajko",
+          "sól, pieprz",
+          "Ciasto pierogowe (mąka, woda, jajko, sól)"
+        ],
+        "sposob_przygotowania": "Liście wymieszać z serem, jajkiem i przyprawami. Nakładać farsz na ciasto pierogowe, sklejać pierogi, gotować w osolonej wodzie. Podawać z masłem i koperkiem.",
+        "cechy": [
+          "Soczysty, zielony farsz",
+          "Delikatny aromat"
+        ],
+        "wlasciwosci": [
+          "pożywne, bogate w białko i wapń"
+        ],
+        "zastosowanie": "Pierogi na obiad, kolację, przystawkę.",
+        "warianty": [
+          "Dodaj do farszu ugotowaną kaszę gryczaną (wariant litewski)",
+          "Podawaj z sosem grzybowym lub śmietanowym"
+        ],
+        "zrodlo": [
+          28
+        ],
+        "nazwa": "Pierogi z podagrycznikiem"
+      }
+    ],
+    "zielone_ciasto_marchewkowe": [
+      {
+        "skladniki": [
+          "1 szklanka startej marchewki",
+          "1/2 szklanki drobno posiekanych liści podagrycznika",
+          "2 jajka",
+          "1 szklanka mąki",
+          "1/2 szklanki cukru trzcinowego",
+          "1/2 szklanki oleju",
+          "1 łyżeczka proszku do pieczenia",
+          "1 łyżeczka cynamonu"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki wymieszać, piec w 180°C ok. 40 minut. Po upieczeniu udekorować kremem serowym.",
+        "cechy": [
+          "Wilgotne, aromatyczne, lekko zielonkawe"
+        ],
+        "wlasciwosci": [
+          "bogate w błonnik i witaminy",
+          "pożywne"
+        ],
+        "zastosowanie": "Ciasto do kawy, deser.",
+        "warianty": [
+          "Dodaj rodzynki, orzechy, startą skórkę pomarańczową",
+          "Wersja z kremem waniliowym lub cytrynowym"
+        ],
+        "zrodlo": [
+          29
+        ],
+        "nazwa": "Zielone ciasto marchewkowe"
+      }
+    ],
+    "azjatycka_salatka_z_podagrycznikiem": [
+      {
+        "skladniki": [
+          "1 garść młodych liści podagrycznika",
+          "1 ogórek (pokrojony w cienkie paski)",
+          "1 marchew (starta)",
+          "2 łyżki sosu sojowego",
+          "1 łyżka oleju sezamowego",
+          "sok z 1 limonki",
+          "1 łyżka prażonego sezamu"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki wymieszać, podawać schłodzoną.",
+        "cechy": [
+          "Świeża, chrupiąca, lekko pikantna"
+        ],
+        "wlasciwosci": [
+          "lekka, orzeźwiająca, bogata w mikroelementy"
+        ],
+        "zastosowanie": "Sałatka, dodatek do sushi, azjatyckich dań.",
+        "warianty": [
+          "Dodaj świeżą kolendrę lub miętę",
+          "Możesz dodać płatki chili"
+        ],
+        "zrodlo": [
+          30
+        ],
+        "nazwa": "Azjatycka salatka z podagrycznikiem"
+      }
+    ],
+    "kiszone_liscie_podagrycznika": [
+      {
+        "skladniki": [
+          "Duży pęczek młodych liści podagrycznika",
+          "2 ząbki czosnku",
+          "1 gałązka kopru",
+          "1 litr wody",
+          "1 łyżka soli kamiennej"
+        ],
+        "sposob_przygotowania": "Liście, czosnek i koperek ułożyć w słoiku, zalać solanką. Dociążyć, fermentować 3–5 dni. Przechowywać w lodówce.",
+        "cechy": [
+          "Kwaśne, lekko chrupiące, aromatyczne"
+        ],
+        "wlasciwosci": [
+          "probiotyczne, oczyszczające"
+        ],
+        "zastosowanie": "Dodatek do kanapek, wrapów, sałatek, sushi.",
+        "warianty": [
+          "Dodaj plasterek papryki chili (wariant ukraiński)",
+          "Możesz dodać liść chrzanu lub dębu (polska tradycja kiszenia)"
+        ],
+        "zrodlo": [
+          31
+        ],
+        "nazwa": "Kiszone liscie podagrycznika"
+      }
+    ],
+    "koktajl_z_podagrycznikiem": [
+      {
+        "skladniki": [
+          "Duża garść młodych liści podagrycznika",
+          "1 banan",
+          "1 kiwi",
+          "1 szklanka wody lub soku jabłkowego"
+        ],
+        "sposob_przygotowania": "Wszystko zblendować na gładki koktajl.",
+        "cechy": [
+          "Orzeźwiający, zielony, słodko-kwaskowy"
+        ],
+        "wlasciwosci": [
+          "detoksykujący, bogaty w witaminy"
+        ],
+        "zastosowanie": "Napój śniadaniowy, przekąska po treningu.",
+        "warianty": [
+          "Dodaj pół limonki lub natkę pietruszki",
+          "Wersja z maślanką lub jogurtem naturalnym"
+        ],
+        "zrodlo": [
+          32
+        ],
+        "nazwa": "Koktajl z podagrycznikiem"
+      }
+    ],
+    "nalewka_z_podagrycznika": [
+      {
+        "skladniki": [
+          "2 garście świeżych liści podagrycznika",
+          "0,5 l spirytusu 60–70%",
+          "1 cytryna (skórka i sok)",
+          "200 g cukru lub 3 łyżki miodu",
+          "250 ml wody"
+        ],
+        "sposob_przygotowania": "Liście zalać alkoholem z sokiem i skórką cytryny, odstawić na 7 dni. Przecedzić, połączyć z wodą i cukrem/miodem. Przelać do butelek, leżakować min. 2 tygodnie.",
+        "cechy": [
+          "Ziołowy, cytrusowy aromat, lekko zielonkawy kolor"
+        ],
+        "wlasciwosci": [
+          "likier ziołowy, pobudza trawienie"
+        ],
+        "zastosowanie": "Aperitif, digestif, do drinków.",
+        "warianty": [
+          "Dodaj 2 goździki i kawałek imbiru (wersja rozgrzewająca)",
+          "Użyj miodu zamiast cukru (łagodniejszy smak)"
+        ],
+        "zrodlo": [
+          33
+        ],
+        "nazwa": "Nalewka z podagrycznika"
+      }
+    ],
+    "sałatka_z_podagrycznikiem_pokrzywą_i_jajkiem": [
       {
         "nazwa": "Sałatka z podagrycznikiem, pokrzywą i jajkiem",
         "skladniki": [
@@ -721,7 +784,9 @@
         "zrodlo": [
           30
         ]
-      },
+      }
+    ],
+    "twarożek_z_podagrycznikiem_i_szczypiorkiem": [
       {
         "nazwa": "Twarożek z podagrycznikiem i szczypiorkiem",
         "skladniki": [
@@ -744,7 +809,9 @@
         "zrodlo": [
           31
         ]
-      },
+      }
+    ],
+    "pesto_z_podagrycznika_1": [
       {
         "nazwa": "Pesto z podagrycznika",
         "skladniki": [
@@ -768,7 +835,9 @@
         "zrodlo": [
           32
         ]
-      },
+      }
+    ],
+    "zielone_naleśniki_z_podagrycznikiem": [
       {
         "nazwa": "Zielone naleśniki z podagrycznikiem",
         "skladniki": [
@@ -792,7 +861,9 @@
         "zrodlo": [
           26
         ]
-      },
+      }
+    ],
+    "pierogi_z_podagrycznikiem_i_białym_serem": [
       {
         "nazwa": "Pierogi z podagrycznikiem i białym serem",
         "skladniki": [
@@ -814,7 +885,9 @@
         "zrodlo": [
           28
         ]
-      },
+      }
+    ],
+    "kiszone_liście_podagrycznika": [
       {
         "nazwa": "Kiszone liście podagrycznika",
         "skladniki": [
@@ -904,48 +977,110 @@
     "35": "https://tradycjeeuropy.pl/podagrycznik-w-alkoholu/"
   },
   "kalendarz": {
-    "siew": [
-      3,
-      4
-    ],
-    "zbior_ziele": [
-      4,
-      5,
-      6,
-      7
-    ],
-    "zbior_poranny": [
-      4,
-      5,
-      6,
-      7
-    ],
-    "zbior_kwiatow": [
-      6,
-      7
-    ],
-    "zbior_pelnia": [
-      6
-    ],
-    "ekstrakcja": [
-      6,
-      7
-    ],
-    "miodobranie": [
-      6
-    ],
-    "rozmnazanie": [
-      4,
-      9
-    ],
-    "pielenie": [
-      5,
-      6,
-      7
-    ],
-    "przesadzanie": [
-      4,
-      9
-    ]
+    "siew": {
+      "miesiące": [
+        3,
+        4
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Siej płytko do wilgotnej ziemi; dobrze sprawdza się rozmnażanie przez rozłogi. Roślina szybko się rozprzestrzenia.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Aegopodium+podagraria"
+    },
+    "kwitnienie": {
+      "miesiące": [
+        5,
+        6
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "obserwacyjny",
+      "czas_dnia": "w ciągu dnia",
+      "intensywność": "symboliczna",
+      "uwagi": "Kwitnie obficie na glebach wilgotnych; obserwuj, aby zebrać nasiona przed ich rozsiewem.",
+      "źródło": "https://plants.ces.ncsu.edu/plants/aegopodium-podagraria/"
+    },
+    "zbior_kwiatow": {
+      "miesiące": [
+        6,
+        7
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "zielarski",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Zbieraj całe baldachy w suchy dzień – najlepiej rano po opadnięciu rosy.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Aegopodium+podagraria"
+    },
+    "zbior_nasion": {
+      "miesiące": [
+        9,
+        10
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "zbiorczy",
+      "czas_dnia": "po południu",
+      "intensywność": "średnia",
+      "uwagi": "Zbieraj suche baldachy i susz w przewiewnym miejscu. Przechowuj nasiona w szczelnym opakowaniu.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Aegopodium+podagraria"
+    },
+    "pielenie": {
+      "miesiące": [
+        5,
+        7
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "techniczny",
+      "czas_dnia": "dowolny",
+      "intensywność": "wysoka",
+      "uwagi": "Podagrycznik jest bardzo ekspansywny – regularne pielenie zapobiega jego rozrostowi.",
+      "źródło": "https://harvesttotable.com/how-to-grow-aegopodium/"
+    },
+    "przesadzanie": {
+      "miesiące": [
+        4,
+        10
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Najlepiej dzielić przez rozłogi. Sadzić z zachowaniem 20–30 cm rozstawy.",
+      "źródło": "https://www.rhs.org.uk/plants/298/Aegopodium-podagraria/Details"
+    },
+    "miodobranie": {
+      "miesiące": [
+        7
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "pszczelarski",
+      "czas_dnia": "w ciągu dnia",
+      "intensywność": "średnia",
+      "uwagi": "Podagrycznik to dobra roślina nektarodajna. Obserwuj aktywność pszczół przed zbiorem.",
+      "źródło": "https://www.beelistener.co.uk/other-insects/pollinators/gardening-for-bees-and-other-pollinators/"
+    },
+    "zbior_ksiezyc": {
+      "miesiące": [
+        9
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "rytualny",
+      "czas_dnia": "wieczór",
+      "intensywność": "symboliczna",
+      "uwagi": "Zgodnie z praktykami zielarskimi: zbieraj nasiona i kwiaty w pełni księżyca dla silniejszego działania oczyszczającego.",
+      "źródło": "https://www.thespruce.com/moon-phase-gardening-5219263"
+    },
+    "zbior_deszcz": {
+      "miesiące": [
+        10
+      ],
+      "zalecana_faza_ksiezyca": "bez znaczenia",
+      "typ": "techniczny",
+      "czas_dnia": "dowolny",
+      "intensywność": "symboliczna",
+      "uwagi": "Gromadź wodę deszczową jesienią – idealna do podlewania tej rośliny w okresach suszy.",
+      "źródło": "https://en.wikipedia.org/wiki/Rainwater_harvesting"
+    }
   }
 }

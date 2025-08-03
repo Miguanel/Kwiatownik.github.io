@@ -126,67 +126,71 @@
       ]
     }
   ],
-  "przepisy_medyczne": [
-    {
-      "nazwa": "Napar uspokajający z liści sałaty jadowitej",
+  "przepisy_medyczne": {
+    "herbatka_uspokajająca_sałata_jadowita_melisa_chmiel": {
+      "nazwa": "herbatka uspokajająca sałata jadowita melisa chmiel",
       "skladniki": [
-        "1 łyżeczka suszonych, rozdrobnionych liści sałaty jadowitej",
+        "1 łyżeczka suszonych liści sałaty jadowitej",
+        "1 łyżka suszonych liści melisy lekarskiej",
+        "1 łyżeczka szyszek chmielu",
         "250 ml wrzątku"
       ],
-      "sposob_przygotowania": "Liście zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić przez gazę.",
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 minut pod przykryciem, przecedzić przez gazę.",
       "cechy": [
-        "Ciemnożółty napar, gorzki smak"
+        "Ciemnożółty, lekko gorzki napar"
       ],
       "wlasciwosci": [
-        "działa uspokajająco",
-        "łagodnie nasennie",
-        "rozkurczowo"
+        "działa uspokajająco, lekko nasennie"
       ],
-      "zastosowanie": "Napięcie nerwowe, trudności z zasypianiem, lekki ból.",
-      "dawkowanie": "1 filiżanka wieczorem (nie przekraczać zalecanej dawki!).",
+      "zastosowanie": "Stany napięcia, trudności z zasypianiem (stosować tylko u dorosłych, w małych ilościach!).",
+      "dawkowanie": "1 filiżanka wieczorem.",
       "zrodlo": [
-        38
+        41
       ]
     },
-    {
-      "nazwa": "Wyciąg laktucarium (lateksu) z sałaty jadowitej",
+    "mieszanka_przeciwkaszlowa_sałata_jadowita_tymianek_prawoślaz": {
+      "nazwa": "mieszanka przeciwkaszlowa sałata jadowita tymianek prawoślaz",
       "skladniki": [
-        "Świeże, nacięte łodygi sałaty jadowitej (zbiór soku lateksowego)"
+        "1 łyżeczka suszonych liści sałaty jadowitej",
+        "1 łyżka ziela tymianku",
+        "1 łyżeczka korzenia prawoślazu",
+        "250 ml wrzątku"
       ],
-      "sposob_przygotowania": "Naciąć łodygi i liście rośliny w południe, zebrać wyciekający biały sok (lateks), suszyć na powietrzu do uzyskania ciemnej, lepkiej masy. Używać wyłącznie pod nadzorem specjalisty.",
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut pod przykryciem, przecedzić.",
       "cechy": [
-        "Gorzki, gęsty ekstrakt"
+        "Ziołowy, lekko gorzkawy napar"
       ],
       "wlasciwosci": [
-        "silnie uspokajające, nasenne, przeciwbólowe"
+        "łagodzi kaszel, działa powlekająco i uspokajająco"
       ],
-      "zastosowanie": "Tradycyjnie stosowany jako „opium dla biednych” w XIX-wiecznej Europie do łagodzenia bólu, bezsenności, kaszlu.",
-      "dawkowanie": "Wyłącznie pod ścisłą kontrolą (dawki apteczne 30–60 mg laktucarium na dobę).",
+      "zastosowanie": "Kaszel suchy, podrażnienie gardła (wyłącznie dla dorosłych!).",
+      "dawkowanie": "1 filiżanka przed snem.",
       "zrodlo": [
-        39
+        42
       ]
     },
-    {
-      "nazwa": "Syrop na kaszel z sałaty jadowitej (historyczny, XIX wiek)",
+    "napar_na_bóle_menstruacyjne_sałata_jadowita_rumianek_kozłek_lekarski": {
+      "nazwa": "napar na bóle menstruacyjne sałata jadowita rumianek kozłek lekarski",
       "skladniki": [
-        "1 łyżka suszonych liści sałaty jadowitej",
-        "250 ml wody",
-        "2 łyżki cukru lub miodu"
+        "1 łyżeczka suszonych liści sałaty jadowitej",
+        "1 łyżka suszonych kwiatów rumianku",
+        "1/2 łyżeczki korzenia kozłka lekarskiego",
+        "300 ml wrzątku"
       ],
-      "sposob_przygotowania": "Liście gotować w wodzie na małym ogniu 10 minut, przecedzić, rozpuścić cukier/miód w ciepłym wywarze.",
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 minut pod przykryciem, przecedzić.",
       "cechy": [
-        "Gorzki, słodkawy syrop"
+        "Aromat ziołowo-gorzki, złocisty napar"
       ],
       "wlasciwosci": [
-        "łagodzi kaszel, uspokaja, lekko rozkurczowy"
+        "działa rozkurczowo, łagodzi ból"
       ],
-      "zastosowanie": "Kaszel suchy, podrażnienia dróg oddechowych (dawniej podawany wyłącznie dorosłym).",
-      "dawkowanie": "1 łyżeczka przed snem (nie częściej niż 2 razy na dobę!).",
+      "zastosowanie": "Bóle menstruacyjne, napięcie (nie stosować w ciąży!).",
+      "dawkowanie": "1 szklanka w razie potrzeby.",
       "zrodlo": [
-        40
+        43
       ]
     }
-  ],
+  },
   "przepisy_kulinarne": {
     "Wyjaśnienie": {
       "skladniki": [
@@ -202,77 +206,9 @@
       "zastosowanie": "Przepisy kulinarne można znaleźć wyłącznie dla innych gatunków sałaty – np. sałata masłowa, rzymska, dębowa, kompasowa (Lactuca sativa, Lactuca serriola).",
       "zrodlo": [
         0
-      ]
+      ],
+      "nazwa": "Wyjaśnienie"
     }
-  },
-  "przepisy_z_innymi_roslinami": {
-    "medyczne": [
-      {
-        "nazwa": "Herbatka uspokajająca (sałata jadowita, melisa, chmiel)",
-        "skladniki": [
-          "1 łyżeczka suszonych liści sałaty jadowitej",
-          "1 łyżka suszonych liści melisy lekarskiej",
-          "1 łyżeczka szyszek chmielu",
-          "250 ml wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 minut pod przykryciem, przecedzić przez gazę.",
-        "cechy": [
-          "Ciemnożółty, lekko gorzki napar"
-        ],
-        "wlasciwosci": [
-          "działa uspokajająco, lekko nasennie"
-        ],
-        "zastosowanie": "Stany napięcia, trudności z zasypianiem (stosować tylko u dorosłych, w małych ilościach!).",
-        "dawkowanie": "1 filiżanka wieczorem.",
-        "zrodlo": [
-          41
-        ]
-      },
-      {
-        "nazwa": "Mieszanka przeciwkaszlowa (sałata jadowita, tymianek, prawoślaz)",
-        "skladniki": [
-          "1 łyżeczka suszonych liści sałaty jadowitej",
-          "1 łyżka ziela tymianku",
-          "1 łyżeczka korzenia prawoślazu",
-          "250 ml wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut pod przykryciem, przecedzić.",
-        "cechy": [
-          "Ziołowy, lekko gorzkawy napar"
-        ],
-        "wlasciwosci": [
-          "łagodzi kaszel, działa powlekająco i uspokajająco"
-        ],
-        "zastosowanie": "Kaszel suchy, podrażnienie gardła (wyłącznie dla dorosłych!).",
-        "dawkowanie": "1 filiżanka przed snem.",
-        "zrodlo": [
-          42
-        ]
-      },
-      {
-        "nazwa": "Napar na bóle menstruacyjne (sałata jadowita, rumianek, kozłek lekarski)",
-        "skladniki": [
-          "1 łyżeczka suszonych liści sałaty jadowitej",
-          "1 łyżka suszonych kwiatów rumianku",
-          "1/2 łyżeczki korzenia kozłka lekarskiego",
-          "300 ml wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 minut pod przykryciem, przecedzić.",
-        "cechy": [
-          "Aromat ziołowo-gorzki, złocisty napar"
-        ],
-        "wlasciwosci": [
-          "działa rozkurczowo, łagodzi ból"
-        ],
-        "zastosowanie": "Bóle menstruacyjne, napięcie (nie stosować w ciąży!).",
-        "dawkowanie": "1 szklanka w razie potrzeby.",
-        "zrodlo": [
-          43
-        ]
-      }
-    ],
-    "kulinarne": [
-    ]
   },
   "bibliografia": {
     "1": "https://pl.wikipedia.org/wiki/Sa%C5%82ata_jadowita",
@@ -296,42 +232,133 @@
     "19": "https://www.gardenersworld.com/how-to/grow-plants/how-to-identify-wild-lettuce/"
   },
   "kalendarz": {
-    "siew": [
-      4,
-      5
-    ],
-    "zbior_ziele": [
-      6,
-      7
-    ],
-    "zbior_kwiatow": [
-      7,
-      8
-    ],
-    "zbior_korzeni": [
-      9,
-      10
-    ],
-    "zbior_poranny": [
-      6,
-      7
-    ],
-    "zbior_pelnia": [
-      7
-    ],
-    "ekstrakcja": [
-      7,
-      8
-    ],
-    "zbior_po_deszczu": [
-      10
-    ],
-    "pielenie": [
-      5,
-      6
-    ],
-    "przesadzanie": [
-      4
-    ]
+    "siew": {
+      "miesiące": [
+        3,
+        4
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Wysiewaj bezpośrednio do gruntu lub w inspekcie. Nasiona wymagają światła – nie przykrywaj zbyt głęboko.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Lactuca+virosa"
+    },
+    "pikowanie": {
+      "miesiące": [
+        4
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "po południu",
+      "intensywność": "średnia",
+      "uwagi": "Gdy siewki mają 2–3 liście, przesadź do większych rozstaw – zachowaj wilgotne podłoże.",
+      "źródło": "https://www.gardeningknowhow.com/edible/vegetables/lettuce/growing-lettuce.htm"
+    },
+    "przesadzanie": {
+      "miesiące": [
+        4,
+        5
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Przesadzaj tylko młode sadzonki – późniejsze mogą gorzknieć lub wystrzelać w pęd kwiatowy.",
+      "źródło": "https://www.rhs.org.uk/vegetables/lettuce/grow-your-own"
+    },
+    "zbior_ziele": {
+      "miesiące": [
+        5,
+        6
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "zielarski",
+      "czas_dnia": "ranek",
+      "intensywność": "wysoka",
+      "uwagi": "Zbieraj całe pędy przed kwitnieniem – wtedy roślina zawiera najwięcej laktukarium.",
+      "źródło": "https://rozanski.li/2273/lactuca-virosa-l-sa%C5%82ata-jadowita-lactucarium-zawartosc-i-dzialanie/"
+    },
+    "zbior_korzeni": {
+      "miesiące": [
+        9,
+        10
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "zielarski",
+      "czas_dnia": "po południu",
+      "intensywność": "średnia",
+      "uwagi": "Zbieraj korzenie roślin dwuletnich – najlepiej po przekwitnięciu. Oczyść i susz w cieniu.",
+      "źródło": "https://www.herbal-supplement-resource.com/wild-lettuce.html"
+    },
+    "zbior_poranny": {
+      "miesiące": [
+        5,
+        6
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "zielarski",
+      "czas_dnia": "ranek",
+      "intensywność": "wysoka",
+      "uwagi": "Poranny zbiór ziela gwarantuje najwyższe stężenie soków mlecznych w tkankach.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Lactuca+virosa"
+    },
+    "zbior_pelnia": {
+      "miesiące": [
+        6
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "rytualny",
+      "czas_dnia": "wieczór",
+      "intensywność": "symboliczna",
+      "uwagi": "Zgodnie z tradycją zbiór w pełni zwiększa siłę działania uspokajającego i nasennego.",
+      "źródło": "https://www.thespruce.com/moon-phase-gardening-5219263"
+    },
+    "suszenie": {
+      "miesiące": [
+        6,
+        7
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "zielarski",
+      "czas_dnia": "po południu",
+      "intensywność": "średnia",
+      "uwagi": "Susz w przewiewnym i cienistym miejscu. Przekłuwaj łodygi, by wyciekło laktukarium przed suszeniem.",
+      "źródło": "https://www.botanical.com/botanical/mgmh/l/lettwi22.html"
+    },
+    "fermentacja": {
+      "miesiące": [
+        6
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "techniczny",
+      "czas_dnia": "wieczór",
+      "intensywność": "symboliczna",
+      "uwagi": "Laktukarium powstaje naturalnie przez utlenianie lateksu w kontakcie z powietrzem – ciemnieje i twardnieje.",
+      "źródło": "https://www.researchgate.net/publication/336579684_Lactucarium_-_Natural_opium_like_sedative"
+    },
+    "ekstrakcja": {
+      "miesiące": [
+        6,
+        7
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "techniczny",
+      "czas_dnia": "po południu",
+      "intensywność": "wysoka",
+      "uwagi": "Ekstrakcja na bazie alkoholu (nalewka z laktukarium) – wymaga wysuszonego, przetartego surowca.",
+      "źródło": "https://www.herbal-supplement-resource.com/wild-lettuce-extract.html"
+    },
+    "zbior_deszcz": {
+      "miesiące": [
+        10
+      ],
+      "zalecana_faza_ksiezyca": "bez znaczenia",
+      "typ": "techniczny",
+      "czas_dnia": "dowolny",
+      "intensywność": "symboliczna",
+      "uwagi": "Zbieraj deszczówkę do podlewania. Sałata preferuje wilgoć, ale nie znosi zalewania.",
+      "źródło": "https://en.wikipedia.org/wiki/Rainwater_harvesting"
+    }
   }
 }

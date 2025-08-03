@@ -1,0 +1,205 @@
+<section id="sekcja-uprawa">
+  <h2>🌱 Uprawa</h2>
+
+  <ul>
+    {% if data.uprawa.gleba %}<li><b>Gleba:</b> {{ data.uprawa.gleba }}</li>{% endif %}
+    {% if data.uprawa.stanowisko %}<li><b>Stanowisko:</b> {{ data.uprawa.stanowisko }}</li>{% endif %}
+    {% if data.uprawa.wysiew %}<li><b>Wysiew:</b> {{ data.uprawa.wysiew }}</li>{% endif %}
+  </ul>
+
+  {% if data.kalendarz %}
+  <section id="sekcja-kalendarz">
+    <h3>📆 Kalendarz zabiegów</h3>
+
+    {% set legenda_ikony = {
+      "ekstrakcja": "🧪", "pielenie": "🧤", "przesadzanie": "🧱", "siew": "🌱",
+      "zbior_ksiezyc": "🌕", "zbior_deszcz": "💧", "zbior_ziela": "🍃",
+      "kwitnienie": "🌸", "miodobranie": "🐝", "zbior_kwiatow": "🌼", "zbior_nasion": "🌰",
+      "sadzenie": "🌿", "zbior": "🧺", "cięcie": "✂️", "nawożenie": "",
+      "zabezpieczanie": "🧯", "ochrona": "🛡️", "zbior_lisci": "🍂", "rozmnazanie": "🌾"
+    } %}
+
+    <table class="kalendarz-tabela">
+      <thead>
+        <tr>
+          <th>Zabieg</th>
+          {% for m in range(1, 13) %}
+            <th class="{% if m == current_month %}current-month{% endif %}">
+              {{ ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"][m-1] }}
+            </th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for zabieg, dane in data.kalendarz.items() %}
+        <tr>
+          <td>
+            {{ legenda_ikony.get(zabieg, "?") }} {{ zabieg.replace("_", " ")|capitalize }}
+          </td>
+          {% for m in range(1, 13) %}
+            <td class="
+              {% if m in dane.miesiące %} aktywny {% endif %}
+              {% if m == current_month %} current {% endif %}
+            ">
+              {% if m in dane.miesiące %}✔️{% endif %}
+            </td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+<!--    <div class="kalendarz-status">-->
+<!--      <h3>📍 Status uprawy</h3>-->
+
+<!--      {% set miesiac = current_month|int %}-->
+<!--      {% set aktywne = [] %}-->
+<!--      {% set przyszle = [] %}-->
+
+<!--      {% for zabieg, dane in data.kalendarz.items() %}-->
+<!--        {% set miesiace_raw = dane.miesiące %}-->
+<!--        {% set miesiace_int = miesiace_raw | map('int') | list %}-->
+<!--        {% set jest_teraz = current_month in miesiace_int %}-->
+<!--        {% set pozniejsze = miesiace_int | select('>', current_month) | list %}-->
+
+<!--        {% if jest_teraz %}-->
+<!--          {% set aktywne = aktywne + [zabieg] %}-->
+<!--        {% elif pozniejsze %}-->
+<!--          {% set przyszle = przyszle + [(pozniejsze[0], zabieg)] %}-->
+<!--        {% endif %}-->
+<!--      {% endfor %}-->
+
+
+<!--      {% set przyszle = przyszle|sort(attribute=0) %}-->
+<!--      {% set najblizszy = przyszle[0][1] if przyszle else None %}-->
+
+<!--      {% if aktywne %}-->
+<!--        <p>Obecnie trwa:-->
+<!--          {% for z in aktywne %}-->
+<!--            <span class="status-zabieg">{{ legenda_ikony.get(z, "?") }} {{ z.replace("_", " ")|capitalize }}</span>{% if not loop.last %}, {% endif %}-->
+<!--          {% endfor %}-->
+<!--        </p>-->
+<!--      {% elif najblizszy %}-->
+<!--        <p>Najbliższy zabieg:-->
+<!--          <span class="status-zabieg">{{ legenda_ikony.get(najblizszy, "?") }} {{ najblizszy.replace("_", " ")|capitalize }}</span>-->
+<!--          (w {{ data.kalendarz[najblizszy].miesiące|map('string')|join(', ') }})-->
+<!--        </p>-->
+<!--      {% else %}-->
+<!--        <p>Brak zaplanowanych zabiegów w nadchodzących miesiącach.</p>-->
+<!--      {% endif %}-->
+    </div>
+
+    <div class="kalendarz-legenda">
+      <h3>📖 Legenda zabiegów</h3>
+      {% for zabieg, dane in data.kalendarz.items() %}
+      <div class="legenda-zabieg {% if current_month in dane.miesiące %}aktywny-teraz{% endif %}">
+
+        <span class="ikona">{{ legenda_ikony.get(zabieg, "?") }}</span>
+        <strong>{{ zabieg.replace("_", " ")|capitalize }}</strong><br>
+        <p>{{ dane.czynności }}</p>
+        {% if dane.źródło %}
+          <small>Źródła:
+            {% for z in dane.źródło %}
+              <a href="{{ z }}" target="_blank">[{{ loop.index }}]</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+          </small>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</section>
+
+<style>
+.kalendarz-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.95em;
+  border: 1px solid #ccc;
+}
+
+.kalendarz-tabela th,
+.kalendarz-tabela td {
+  border: 1px solid #ddd;
+  padding: 0.3em 0.6em;
+  text-align: center;
+}
+
+.kalendarz-tabela th {
+  background: #f9f9f9;
+}
+
+.kalendarz-tabela td.aktywny {
+  background-color: #d4edda;
+  font-weight: bold;
+}
+
+.kalendarz-tabela td.current {
+  outline: 2px solid #007744;
+}
+
+.kalendarz-tabela th.current-month {
+  background: #c2e8d0;
+  font-weight: bold;
+}
+
+.kalendarz-status {
+  background: #f1f8ed;
+  padding: 1em;
+  border-left: 5px solid #8dbf7e;
+  margin-top: 1.5em;
+  border-radius: 8px;
+}
+
+.status-zabieg {
+  background: #d4edda;
+  padding: 0.2em 0.6em;
+  border-radius: 6px;
+  margin-right: 0.4em;
+  font-weight: bold;
+  font-size: 0.95em;
+}
+
+.kalendarz-legenda {
+  margin-top: 2em;
+}
+
+.legenda-zabieg {
+  background: #fefefe;
+  border: 1px solid #ddd;
+  border-left: 5px solid #97bd7d;
+  padding: 0.8em 1.2em;
+  margin-bottom: 1em;
+  border-radius: 8px;
+}
+
+.legenda-zabieg .ikona {
+  font-size: 1.3em;
+  margin-right: 0.4em;
+}
+.kalendarz-tabela td.aktywny-teraz {
+  background-color: #4caf50; /* intensywniejszy zielony */
+  color: white;
+  font-weight: bold;
+  box-shadow: inset 0 0 5px #2e7d32;
+  animation: pulsuj 1.5s infinite alternate;
+}
+
+@keyframes pulsuj {
+  from { background-color: #4caf50; }
+  to { background-color: #66bb6a; }
+}
+.legenda-zabieg.aktywny-teraz {
+  background: #f3fbe9; /* delikatna zieleń, lekko beżowa */
+  border-left: 6px solid #8dbf7e; /* oliwkowo-ziołowy akcent */
+  box-shadow: 0 1px 3px rgba(140, 170, 120, 0.15); /* subtelny cień */
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.legenda-zabieg.aktywny-teraz strong {
+  color: #3c6e3c; /* ciemna zieleń dla kontrastu nagłówka */
+}
+</style>
+

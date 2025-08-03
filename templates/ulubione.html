@@ -13,41 +13,113 @@
         <ul id="garden-list"></ul>
     </div>
 
-    <h2>Kalendarz siewu i zbioru (ulubione rośliny)</h2>
-    <div id="calendar-legend"></div>
+    <h2>Kalendarz (ulubione rośliny)</h2>
+
+    <details class="calendar-legend">
+        <summary><strong>Legenda:</strong></summary>
+        <div class="legend-grid" id="calendar-legend"></div>
+    </details>
+
     <div id="calendar"></div>
 
-    <h2 style="margin-top:2em;">Kalendarz siewu i zbioru (rośliny w ogrodzie)</h2>
+    <h2 style="margin-top:2em;">Kalendarz(rośliny w ogrodzie)</h2>
     <div id="calendar-garden"></div>
 </div>
 
 <script>
 const allPlantsData = {{ all_plants|tojson|safe }};
-
+const moonPhase = "{{ moon_phase }}";
+const moonPercent = {{ moon_percent }};
+if (typeof allPlantsData === 'undefined') {
+    const allPlantsData = {{ all_plants|tojson|safe }};
+}
 const eventIcons = {
-    siew: '🌱', sadzenie: '🥬', zbior: '🍃', zbior_ziele: '🌿', zbior_lisci: '🍃',
-    zbior_kwiatow: '🌼', zbior_korzeni: '🦷', zbior_nasion: '🌾', kwitnienie: '🌸',
-    przesadzanie: '🪴', pielenie: '🧤', przycinanie: '✂️', rozmnazanie: '🧬',
-    zabezpieczanie: '🧣', ciecie: '✂️', nawozenie: '💩', ochrona: '🛡️',
-    zbior_poranny: '🌅', zbior_pelnia: '🌕', ekstrakcja: '🧪', miodobranie: '🐝', zbior_po_deszczu: '💧'
+  kwitnienie: '🌸',
+  miodobranie: '🐝',
+  pielenie: '🧹',
+  przesadzanie: '🪴',
+  siew: '🌱',
+  zbior_deszcz: '💧',
+  zbior_ksiezyc: '🌙',
+  zbior_kwiatow: '🌼',
+  zbior_nasion: '🍓',
+  ekstrakcja: '🧪',
+  fermentacja: '🧬',
+  zbior_przy_fazie_ksiezyca: '🌕',
+  nawozenie: '🧃',
+  pikowanie: '🧷',
+  pozyskiwanie_nasion: '🌾',
+  produkcja_nalewek: '🥃',
+  przycinanie: '✂️',
+  sporządzanie_kiszonek: '🥒',
+  sporządzanie_mazidel: '🧴',
+  sporządzanie_pudrów: '🧂',
+  sporządzanie_syropu: '🍯',
+  suszenie: '🌬️',
+  zbior_korzeni: '🪓',
+  zbior_pelnia: '🌝',
+  zbior_poranny: '🌅',
+  zbior_ziele: '🌿',
+  zbior_ksiezycowy: '🔮'
 };
 const eventNames = {
-    siew: 'Siew', sadzenie: 'Sadzenie', zbior: 'Zbiór owoców', zbior_ziele: 'Zbiór ziela',
-    zbior_lisci: 'Zbiór liści', zbior_kwiatow: 'Zbiór kwiatów', zbior_korzeni: 'Zbiór korzeni',
-    zbior_nasion: 'Zbiór nasion', kwitnienie: 'Kwitnienie', przesadzanie: 'Przesadzanie',
-    pielenie: 'Pielenie', przycinanie: 'Przycinanie', rozmnazanie: 'Rozmnażanie',
-    zabezpieczanie: 'Zabezpieczanie', ciecie: 'Cięcie', nawozenie: 'Nawożenie', ochrona: 'Ochrona',
-    zbior_poranny: 'Zbiór poranny', zbior_pelnia: 'Zbiór w pełni księżyca',
-    ekstrakcja: 'Ekstrakcja', miodobranie: 'Miodobranie', zbior_po_deszczu: 'Zbiór po deszczu'
+    ciecie: 'Cięcie',
+    ekstrakcja: 'Ekstrakcja',
+    księżycowy_zbior: 'Zbiór przy fazie księżyca',
+    kwitnienie: 'Kwitnienie',
+    miodobranie: 'Miodobranie',
+    nawozenie: 'Nawożenie',
+    ochrona: 'Zabiegi ochronne',
+    pielenie: 'Pielenie',
+    pozyskiwanie_nasion: 'Pozyskiwanie nasion',
+    przesadzanie: 'Przesadzanie',
+    przycinanie: 'Przycinanie',
+    produkcja_nalewek: 'Produkcja nalewek',
+    rozmnazanie: 'Rozmnażanie',
+    siew: 'Siew',
+    sadzenie: 'Sadzenie',
+    sporządzanie_kiszonek: 'Sporządzanie kiszonek',
+    sporządzanie_mazidel: 'Sporządzanie maści i okładów',
+    sporządzanie_pudrów: 'Sporządzanie pudrów',
+    sporządzanie_syropu: 'Sporządzanie syropu',
+    zabezpieczanie: 'Zabezpieczanie roślin',
+    zbior: 'Zbiór owoców',
+    zbior_korzeni: 'Zbiór korzeni',
+    zbior_kwiatow: 'Zbiór kwiatów',
+    zbior_lisci: 'Zbiór liści',
+    zbior_nasion: 'Zbiór nasion',
+    zbior_pelnia: 'Zbiór przy pełni księżyca',
+    zbior_po_deszczu: 'Zbiór po deszczu',
+    zbior_poranny: 'Zbiór poranny',
+    zbior_ziele: 'Zbiór ziela'
 };
+function getMoonEmoji(faza) {
+    if (!faza) return '🌙';
+    faza = faza.toLowerCase();
+    if (faza.includes('pełnia')) return '🌕';
+    if (faza.includes('nów')) return '🌑';
+    if (faza.includes('pierwsza')) return '🌓';
+    if (faza.includes('ostatnia')) return '🌗';
+    return '🌙';
+}
 
+function getDaytimeEmoji(pora) {
+    if (!pora) return '☀️';
+    pora = pora.toLowerCase();
+    if (pora.includes('poranek') || pora.includes('rano')) return '🌅';
+    if (pora.includes('południe')) return '☀️';
+    if (pora.includes('popołudnie') || pora.includes('po południu')) return '🌇';
+    if (pora.includes('wieczór') || pora.includes('wieczorem')) return '🌆';
+    if (pora.includes('noc')) return '🌃';
+    return '☀️';
+}
 function getAllEventTypes(plants) {
-    let eventTypes = new Set();
+    const types = new Set();
     plants.forEach(plant => {
-        if (!plant || !plant.data || !plant.data.kalendarz) return;
-        Object.keys(plant.data.kalendarz).forEach(ev => eventTypes.add(ev));
+        const kal = plant?.data?.kalendarz || {};
+        Object.keys(kal).forEach(key => types.add(key));
     });
-    return Array.from(eventTypes);
+    return Array.from(types);
 }
 
 // --- LEGEND STATE z localStorage ---
@@ -59,6 +131,8 @@ function loadLegendState() {
         if (typeof v === "object") visibleTypes = v;
     } catch(e) {}
 }
+allTypes.forEach(ev => visibleTypes[ev] = true);
+
 function saveLegendState() {
     localStorage.setItem("calendar_legend_types", JSON.stringify(visibleTypes));
 }
@@ -72,98 +146,61 @@ window.onLegendChange = function(type, isChecked) {
 
 // --- FLEX legend (ikonka, checkbox, nazwa) ---
 function renderLegend(eventTypes, visibleTypes) {
-    return `<div class="legend-flex"><b>Legenda:</b>` +
-        eventTypes.map(ev => `
-            <label class="legend-item">
-                <input type="checkbox" data-type="${ev}" ${visibleTypes[ev] ? "checked" : ""} onchange="window.onLegendChange && window.onLegendChange('${ev}', this.checked)">
-                <span class="legend-icon" title="${eventNames[ev] || ev}">${eventIcons[ev] || '❓'}</span>
-                <span class="legend-name">${eventNames[ev] || ev}</span>
-            </label>
-        `).join('') +
-        `<span style="margin-left:1.2em;">
-            <span style="display:inline-block;width:20px;height:16px;background:#c7ebb8;border-radius:3px;border:1px solid #acd09a;margin-right:0.3em;vertical-align:middle;"></span>
-            – aktualny miesiąc
-        </span></div>`;
-}
+    const groups = {
+        "Siew i pielęgnacja": ["siew", "pikowanie", "przesadzanie", "nawozenie", "przycinanie", "ciecie", "ochrona", "zabezpieczanie", "sadzenie", "rozmnazanie"],
+        "Zbiory": ["zbior", "zbior_kwiatow", "zbior_nasion", "zbior_korzeni", "zbior_lisci", "zbior_poranny", "zbior_pelnia", "zbior_ziele", "zbior_ksiezycowy", "zbior_po_deszczu", "pozyskiwanie_nasion"],
+        "Przetwarzanie": ["ekstrakcja", "fermentacja", "sporządzanie_syropu", "sporządzanie_kiszonek", "sporządzanie_mazidel", "sporządzanie_pudrów", "produkcja_nalewek", "suszenie"],
+        "Inne": ["kwitnienie", "miodobranie"]
+    };
 
-function renderCalendarTable(plants, visibleTypes) {
-    let now = new Date();
-    let thisMonth = now.getMonth() + 1; // 1-indexed
-    let months = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"];
-    let html = `<div class="calendar-scrollbox"><table class='calendar-table' style='margin-top:0.9em; border-collapse:collapse;'>
-        <tr><th>Roślina</th>`;
-    for (let m = 0; m < 12; m++) {
-        html += `<th class="calendar-month${m + 1 === thisMonth ? ' calendar-month-current' : ''}">${months[m]}</th>`;
+    let html = `
+    <div class="legend-controls">
+        <button class="legend-toggle-btn" onclick="toggleAllLegend(true)">✔️ Zaznacz wszystko</button>
+        <button class="legend-toggle-btn" onclick="toggleAllLegend(false)">❌ Odznacz wszystko</button>
+    </div>
+    `;
+
+    for (const [groupName, keys] of Object.entries(groups)) {
+        html += `<div><strong>${groupName}:</strong><br><div class="legend-grid">`;
+        keys.forEach(type => {
+            if (!eventTypes.includes(type)) return;
+            const icon = eventIcons[type] || '❓';
+            const label = eventNames[type] || type;
+            const checked = visibleTypes[type] ? "checked" : "";
+            html += `
+                <label class="legend-item" title="${label}">
+                    <input type="checkbox" onchange="toggleEventVisibility('${type}')" ${checked}>
+                    <span class="legend-icon">${icon}</span> ${label}
+                </label>`;
+        });
+        html += `</div></div>`;
     }
-    html += "<th>Status</th></tr>";
-    plants.forEach(function(plant) {
-        if (!plant) return;
-        let kal = plant.data.kalendarz || {};
-        let eventList = [];
-        Object.keys(kal).forEach(ev => {
-            if (!visibleTypes[ev]) return;
-            let arr = kal[ev];
-            arr.forEach(m => {
-                eventList.push({ month: m, label: ev });
-            });
-        });
-        let minWeeks = null;
-        let eventsByMonth = {};
-        eventList.forEach(ev => {
-            let m = Number(ev.month);
-            let eventYear = now.getFullYear();
-            if (m < thisMonth) eventYear += 1;
-            let isCurrentMonth = (m === thisMonth);
-            let eventDate = new Date(eventYear, m - 1, 1);
-            let weeks = Math.round((eventDate - now) / (1000 * 60 * 60 * 24 * 7));
-            if (isCurrentMonth) weeks = 0;
-            if (minWeeks === null || weeks < minWeeks) minWeeks = weeks;
-            if (!eventsByMonth[weeks]) eventsByMonth[weeks] = [];
-            eventsByMonth[weeks].push(ev.label);
-        });
 
-        html += `<tr>
-        <td style="white-space:nowrap;">
-            <div style="display:flex;align-items:center;gap:0.7em;">
-                ${makePlantMiniImage(plant.data.zdjecia, plant.name)}
-                <span>${plant.name}</span>
-            </div>
-        </td>`;
-        for (let m = 1; m <= 12; m++) {
-            let ikony = '';
-            Object.keys(kal).forEach(ev => {
-            if (!visibleTypes[ev]) return;
-            if (kal[ev] && kal[ev].includes(m)) {
-                let icon = eventIcons[ev] || '';
-                let name = eventNames[ev] || ev;
-                ikony += `<span class="event-icon" title="${name}" data-tooltip="${name}">${icon}</span>`;
-            }
-        });
-    html += `<td style="text-align:center;min-width:28px;">${ikony}</td>`;
-        }
-
-        if (minWeeks !== null && minWeeks >= 0) {
-            let uniqueLabels = Array.from(new Set(eventsByMonth[minWeeks])).sort();
-            let textLabels = uniqueLabels.map(l => `<b>${eventNames[l] || l}</b>`).join(", ");
-            html += `<td style="color:#39790e;font-weight:bold;">`;
-            if (minWeeks === 0)
-                html += `<span style="color:#d95d1a;">Trwa ${textLabels}!</span>`;
-            else
-                html += `Za ${minWeeks} tyg. → ${textLabels}`;
-            html += `</td>`;
-        } else {
-            html += `<td style="color:#999;">Brak nadchodzących wydarzeń</td>`;
-        }
-        html += "</tr>";
-    });
-    html += "</table></div>";
+    html += `
+        <div class="legend-grid">
+            <label class="legend-item legend-current">
+                <span style="display:inline-block;width:1em;height:1em;background:#e7ddd1;border-radius:3px;"></span>
+                – aktualny miesiąc
+            </label>
+        </div>`;
     return html;
 }
+
+function toggleAllLegend(state) {
+    allTypes.forEach(ev => visibleTypes[ev] = state);
+    saveLegendState();
+    document.getElementById('calendar-legend').innerHTML = renderLegend(allTypes, visibleTypes);
+    showCalendar();
+    showCalendarGarden();
+}
+
+
 
 document.addEventListener("DOMContentLoaded", function() {
     showFavList();
     showGardenList();
 
+    // Zbierz dane o wszystkich roślinach
     let plants = [];
     getFavs().forEach(function(path) {
         let [cat, slug] = path.split("/");
@@ -175,20 +212,28 @@ document.addEventListener("DOMContentLoaded", function() {
         let plant = allPlantsData.find(p => p.category === cat && p.slug === slug);
         if (plant) plants.push(plant);
     });
-    allTypes = getAllEventTypes(plants);
 
-    // LEGEND STATE: ładowanie i domyślne ustawienie
+<!--    console.log("🌿 Zebrane rośliny do analizy:", plants);-->
+
+    // 1. Wygeneruj typy wydarzeń
+    allTypes = getAllEventTypes(plants);
+<!--    console.log("📘 Wydarzenia do legendy:", allTypes);-->
+
+    // 2. Wczytaj poprzedni stan widoczności typów lub ustaw wszystkie jako aktywne
     loadLegendState();
     if (!Object.keys(visibleTypes).length) {
-        allTypes.forEach(ev => visibleTypes[ev] = true);
+        Object.keys(eventIcons).forEach(ev => visibleTypes[ev] = true);
     }
 
+
+    // 3. Renderuj legendę, kalendarze i dodaj przewijanie
+    document.getElementById('calendar-legend').innerHTML = renderLegend(allTypes, visibleTypes);
     showCalendar();
     showCalendarGarden();
     enableCalendarScroll('calendar');
     enableCalendarScroll('calendar-garden');
-    document.getElementById('calendar-legend').innerHTML = renderLegend(allTypes, visibleTypes);
 });
+
 
 function showCalendar() {
     let favs = getFavs();
@@ -282,16 +327,27 @@ function showFavList() {
         ul.innerHTML += `
         <li class="fav-li">
             <div class="fav-main">
+                <button class="fav-remove" onclick="removeFav('${cat}/${slug}')" title="Usuń z ulubionych">❌</button>
                 <a href="/${cat}/${slug}" class="fav-link"><b>${plant.name}</b></a>
                 <i class="fav-latin">(${plant.latin})</i>
                 <span class="fav-path">${plant.data.nazwa_zbioru ? plant.data.nazwa_zbioru.join(" → ") : ""}</span>
-                <button class="fav-remove" onclick="removeFav('${cat}/${slug}')" title="Usuń z ulubionych">❌</button>
             </div>
             ${img}
         </li>`;
     });
 }
 
+function removeFromGarden(path) {
+    let garden = getGarden();
+    let idx = garden.indexOf(path);
+    if(idx !== -1) {
+        garden.splice(idx, 1);
+        localStorage.setItem("garden", JSON.stringify(garden));
+        showGardenList();
+        showCalendar();
+        showCalendarGarden();
+    }
+}
 function removeFav(path) {
     let favs = getFavs();
     let idx = favs.indexOf(path);
@@ -320,12 +376,15 @@ function showGardenList() {
         ul.innerHTML += `
         <li class="fav-li">
             <div class="fav-main">
+                <button class="fav-remove" onclick="removeFromGarden('${cat}/${slug}')" title="Usuń z ogrodu">❌</button>
                 <a href="/${cat}/${slug}" class="fav-link"><b>${plant.name}</b></a>
                 <i class="fav-latin">(${plant.latin})</i>
                 <span class="fav-path">${plant.data.nazwa_zbioru ? plant.data.nazwa_zbioru.join(" → ") : ""}</span>
             </div>
             ${img}
         </li>`;
+
+
     });
 }
 
@@ -387,6 +446,119 @@ function enableCalendarScroll(id) {
         box.scrollTop = scrollTop - (y - startY);
     }
 }
+
+<!--console.log("allPlantsData", allPlantsData);-->
+<!--console.log("allTypes", allTypes);-->
+
+window.testAddIconToCalendar = function(month = 6, icon = "🔥", text = "Test") {
+    const cell = [...document.querySelectorAll(".calendar-table tr")].slice(1).flatMap(row =>
+        row.querySelectorAll("td")[month]
+    );
+    if (!cell.length) return;
+    cell.forEach(c => {
+        c.innerHTML += `<span class="event-icon" title="${text}">${icon}</span>`;
+    });
+<!--    console.log(`✅ Dodano ikonę ${icon} do kolumny miesiąca ${month}`);-->
+}
+function renderCalendarTable(plants, visibleTypes) {
+    const now = new Date();
+    const thisMonth = now.getMonth() + 1;
+    const thisYear = now.getFullYear();
+    const months = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"];
+    let html = `<div class="calendar-scrollbox"><table class='calendar-table' style='margin-top:0.9em; border-collapse:collapse;'>
+        <tr class="kalendarz-naglowek"><th>Roślina</th>`;
+
+    for (let m = 0; m < 12; m++) {
+        html += `<th class="calendar-month${m + 1 === thisMonth ? ' calendar-month-current' : ''}">${months[m]}</th>`;
+    }
+    html += "<th>Status</th></tr>";
+
+    plants.forEach(plant => {
+        if (!plant || !plant.data || !plant.data.kalendarz) return;
+        const kal = plant.data.kalendarz;
+
+        html += `<tr>
+        <td style="white-space:nowrap;">
+            <div style="display:flex;align-items:center;gap:0.7em;">
+                ${makePlantMiniImage(plant.data.zdjecia, plant.name)}
+                <a href="/${plant.category}/${plant.slug}" class="fav-link"><b>${plant.name}</b></a>
+            </div>
+        </td>`;
+
+        let hasEvent = false;
+        let nearestEventWeeks = null;
+        let nearestEventName = null;
+
+        for (let m = 1; m <= 12; m++) {
+            let cellContent = '';
+            Object.entries(kal).forEach(([ev, value]) => {
+                if (!visibleTypes[ev]) return;
+                let miesiace = Array.isArray(value.miesiace) ? value.miesiace : Array.isArray(value.miesiące) ? value.miesiące : [];
+                let faza = value.zalecana_faza_ksiezyca || null;
+                let pora = value.pora_dnia || value.czas_dnia || null;
+
+                miesiace.forEach(miesiac => {
+                    if (miesiac !== m) return;
+
+                    const icon = eventIcons[ev] || '❓';
+                    const tooltip = eventNames[ev] || ev;
+                    let groupTooltip = `${tooltip}`;
+                    if (faza) groupTooltip += `\nFaza księżyca: ${faza}`;
+                    if (pora) groupTooltip += `\nPora dnia: ${pora}`;
+
+                    let groupHTML = `<div class="event-icon-group" title="${groupTooltip.replace(/\n/g, ' ')}">`;
+                    groupHTML += `<span class="event-icon" title="${tooltip}">${icon}</span>`;
+
+                    if (faza) {
+                        const moonIcon = getMoonEmoji(faza);
+                        groupHTML += `<span class="event-icon" title="Faza księżyca: ${faza}" data-tooltip="Faza księżyca: ${faza}">${moonIcon}</span>`;
+                    }
+                    if (pora) {
+                        const dayIcon = getDaytimeEmoji(pora);
+                        groupHTML += `<span class="event-icon" title="Pora dnia: ${pora}" data-tooltip="Pora dnia: ${pora}">${dayIcon}</span>`;
+                    }
+                    groupHTML += `</div>`;
+                    cellContent += groupHTML;
+
+                    const eventDate = new Date(thisYear, miesiac - 1, 15);
+                    const diffWeeks = Math.round((eventDate - now) / (1000 * 60 * 60 * 24 * 7));
+                    if (diffWeeks >= 0 && (nearestEventWeeks === null || diffWeeks < nearestEventWeeks)) {
+                        nearestEventWeeks = diffWeeks;
+                        nearestEventName = tooltip;
+                    }
+                });
+            });
+
+            if (cellContent !== '') hasEvent = true;
+            html += `<td style="text-align:center;min-width:28px;">${cellContent}</td>`;
+        }
+
+        let statusText = '';
+        if (nearestEventWeeks !== null) {
+            const displayName = nearestEventName.replace(/_/g, ' ');
+            if (nearestEventWeeks === 0) {
+                statusText = `Dziś!`;
+            } else if (nearestEventWeeks === 1) {
+                statusText = `Za tydzień: ${displayName}`;
+            } else {
+                statusText = `Za ${nearestEventWeeks} tyg.: ${displayName}`;
+            }
+        } else {
+            statusText = 'Brak nadchodzących wydarzeń';
+        }
+
+        html += `<td style="color:#39790e;font-weight:bold;">${statusText}</td>`;
+        html += "</tr>";
+    });
+
+    html += "</table></div>";
+    return html;
+}
+
+
+
+
+
 </script>
 
 <style>
@@ -414,15 +586,17 @@ function enableCalendarScroll(id) {
     gap: 1.3em;
 }
 .fav-main {
-    flex:1;
+    flex: 1;
     min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
 }
 .fav-link { font-size: 1.13em; color: #184e10; font-weight: bold; text-decoration: underline;}
 .fav-link:hover { color: #39790e; }
 .fav-latin { font-size: 0.98em; color:#789044; margin-left:0.38em; }
 .fav-path { color:#aaa; font-size:0.98em; margin-left: 0.5em;}
 .fav-remove {
-    margin-left: 1.0em;
     background: none;
     border: none;
     color: #b13722;
@@ -431,7 +605,9 @@ function enableCalendarScroll(id) {
     transition: color 0.14s;
     vertical-align: middle;
 }
-.fav-remove:hover { color: #ee2211; }
+.fav-remove:hover {
+    color: #ee2211;
+}
 .plant-thumb {
     width: 58px;
     height: 45px;
@@ -471,19 +647,54 @@ function enableCalendarScroll(id) {
     gap: 1.1em 1.9em;
     margin-bottom: 0.3em;
 }
+.calendar-legend {
+  border: 1px solid #ccc;
+  background: #fefefe;
+  padding: 0.6em 1em;
+  margin-bottom: 1.2em;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.08);
+}
+
+.calendar-legend summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  list-style: none;
+  outline: none;
+}
+
+.calendar-legend summary::marker {
+  display: none;
+}
+
+.legend-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em 1.2em;
+  margin-top: 0.8em;
+}
+
+.legend-grid label {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  white-space: nowrap;
+  font-size: 0.95rem;
+}
+
 .legend-item {
-    display: flex;
-    align-items: center;
-    gap: 0.35em;
-    margin-bottom: 0.12em;
-    margin-right: 1.7em;
-    font-size: 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+  font-size: 0.9em;
+  cursor: pointer;
 }
 .legend-icon {
-    font-size: 1.18em;
-    margin-right: 0.21em;
-    vertical-align: middle;
+  font-size: 1.1em;
+  line-height: 1;
 }
+
 .legend-name {
     font-size: 1em;
 }
@@ -533,5 +744,106 @@ function enableCalendarScroll(id) {
 }
 .calendar-scrollbox::before { left: 0; background: none; }
 .calendar-scrollbox::after { right: 0; background: none; }
+
+.event-icon {
+  font-size: 1.3em;
+  margin: 0 0.12em;
+  vertical-align: middle;
+}
+.event-icon-group {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  padding: 3px 4px;
+  border-radius: 999px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
+  margin: 1px;
+  min-width: 26px;
+  min-height: 26px;
+  line-height: 1;
+}
+
+.event-icon {
+  font-size: 0.95em;
+  line-height: 1;
+  user-select: none;
+}
+
+.calendar-legend[open] > summary::after {
+  content: "▲";
+  margin-left: 0.4em;
+  font-size: 0.8em;
+}
+.calendar-legend > summary::after {
+  content: "▼";
+  margin-left: 0.4em;
+  font-size: 0.8em;
+  transition: transform 0.3s ease;
+}
+.calendar-legend[open] {
+  animation: expandDown 0.3s ease;
+}
+
+@keyframes expandDown {
+  from { opacity: 0; transform: scaleY(0.95); }
+  to { opacity: 1; transform: scaleY(1); }
+}
+.event-icon[data-tooltip]:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  white-space: pre-line;
+  background: #333;
+  color: #fff;
+  font-size: 0.75em;
+  padding: 5px 8px;
+  border-radius: 6px;
+  z-index: 1000;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.kalendarz-naglowek {
+  position: sticky;
+  top: 0;
+  background-color: #f9fafb; /* dopasuj do tła strony */
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* opcjonalnie cień pod spodem */
+}
+
+.legend-controls {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1em;
+  justify-content: center;
+}
+
+.legend-toggle-btn {
+  background-color: #eaf7ed;
+  color: #1d4d24;
+  border: 1px solid #c8e6c9;
+  padding: 0.5em 1.2em;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.95rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease;
+}
+
+.legend-toggle-btn:hover {
+  background-color: #d7f2e0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: #174c1a;
+}
+
+.legend-toggle-btn:active {
+  transform: scale(0.98);
+  background-color: #c2e8cd;
+}
 </style>
 {% endblock %}

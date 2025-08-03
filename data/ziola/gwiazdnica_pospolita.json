@@ -128,647 +128,183 @@
     }
   ],
   "przepisy_medyczne": {
-    "napar": {
-      "skladniki": [
-        "1 łyżka świeżego lub suszonego ziela gwiazdnicy pospolitej (najlepiej młode, świeżo zebrane liście i pędy)",
-        "250 ml wrzątku (świeża, przefiltrowana woda)"
-      ],
-      "sposob_przygotowania": "Ziele zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić. Pić najlepiej na świeżo.",
-      "cechy": [
-        "Zielono-słomkowy kolor",
-        "Delikatny, świeży smak"
-      ],
-      "wlasciwosci": [
-        "łagodnie moczopędny",
-        "oczyszcza organizm",
-        "łagodzi stany zapalne układu moczowego"
-      ],
-      "zastosowanie": "Problemy z nerkami, lekka niestrawność, wsparcie wiosennego detoksu.",
-      "dawkowanie": "Szklanka 1–2 razy dziennie przez 1–2 tygodnie.",
-      "zrodlo": [
-        15
-      ]
-    },
-    "odwar_do_okladów": {
-      "skladniki": [
-        "2 łyżki świeżego ziela gwiazdnicy pospolitej (najlepiej młode, zielone pędy)",
-        "300 ml wody (najlepiej źródlanej lub przegotowanej)"
-      ],
-      "sposob_przygotowania": "Ziele gotować na małym ogniu 10 minut pod przykryciem, przecedzić. Letni odwar stosować do okładów na skórę.",
-      "cechy": [
-        "Lekko zielonkawy płyn",
-        "Delikatny, ziołowy zapach"
-      ],
-      "wlasciwosci": [
-        "przyspiesza gojenie ran",
-        "łagodzi świąd, podrażnienia i egzemy"
-      ],
-      "zastosowanie": "Okłady na rany, egzemy, alergie, oparzenia.",
-      "zrodlo": [
-        16
-      ]
-    },
-    "macerat_do_oczu": {
-      "skladniki": [
-        "1 łyżeczka świeżego ziela gwiazdnicy pospolitej (najlepiej młode, drobno posiekane)",
-        "100 ml letniej, przegotowanej wody"
-      ],
-      "sposob_przygotowania": "Ziele zalać wodą, odstawić pod przykryciem na 1–2 godziny, przecedzić przez gazę. Używać zawsze świeży napar.",
-      "cechy": [
-        "Bardzo delikatny napar",
-        "Świeży zapach"
-      ],
-      "wlasciwosci": [
-        "łagodzi podrażnienia spojówek",
-        "przyspiesza gojenie drobnych urazów oka"
-      ],
-      "zastosowanie": "Okłady na oczy, przemywanie powiek (np. przy podrażnieniach, alergiach).",
-      "zrodlo": [
-        17
-      ]
-    },
-    "maść_na_swiad": {
-      "skladniki": [
-        "Świeże ziele gwiazdnicy pospolitej (najlepiej młode, dokładnie rozdrobnione)",
-        "Smalec gęsi lub olej kokosowy (świeży, nierafinowany)",
-        "Opcjonalnie: lanolina"
-      ],
-      "sposob_przygotowania": "Ziele rozgnieść, podgrzewać w tłuszczu na bardzo małym ogniu przez 1–2 godziny (nie doprowadzać do wrzenia), przecedzić przez gazę, przelać do czystego słoiczka.",
-      "cechy": [
-        "Zielony kolor, tłusta konsystencja",
-        "Delikatny, ziołowy zapach"
-      ],
-      "wlasciwosci": [
-        "łagodzi świąd, goi podrażnienia",
-        "regeneruje skórę"
-      ],
-      "zastosowanie": "Smarowanie skóry przy alergii, atopii, egzemie.",
-      "zrodlo": [
-        18
-      ]
-    },
-    "kapiel_ziołowa": {
-      "skladniki": [
-        "Garść świeżego ziela gwiazdnicy pospolitej (najlepiej młode, całe pędy i liście)",
-        "Opcjonalnie: 1 łyżka suszonych koszyczków rumianku, 1 łyżka kwiatów nagietka",
-        "2 litry wody"
-      ],
-      "sposob_przygotowania": "Zioła gotować 15 minut, przecedzić do wanny z ciepłą wodą. Kąpiel ok. 15–20 min.",
-      "cechy": [
-        "Zielonkawy płyn",
-        "Kojący, delikatnie ziołowy zapach"
-      ],
-      "wlasciwosci": [
-        "łagodzi świąd, regeneruje skórę, wspomaga gojenie"
-      ],
-      "zastosowanie": "Kąpiele przy atopii, alergiach, łuszczycy, egzemie.",
-      "zrodlo": [
-        19
-      ]
-    },
-    "oklad_na_stawy": {
-      "skladniki": [
-        "Rozdrobnione, świeże ziele gwiazdnicy pospolitej (najlepiej młode, rozgniecione w moździerzu)",
-        "Czysta gaza lub bandaż"
-      ],
-      "sposob_przygotowania": "Rozgniecione ziele nałożyć bezpośrednio na bolące miejsce, przykryć gazą, zostawić na 30–60 minut.",
-      "cechy": [
-        "Chłodzący, łagodzący efekt",
-        "Lekko trawiasty aromat"
-      ],
-      "wlasciwosci": [
-        "łagodzi ból, zmniejsza obrzęk i stan zapalny"
-      ],
-      "zastosowanie": "Okłady na stawy, skręcenia, obrzęki, siniaki, bóle pourazowe.",
-      "zrodlo": [
-        20
-      ]
-    },
-    "nalewka_na_reumatyzm": {
-      "skladniki": [
-        "Świeże ziele gwiazdnicy pospolitej (najlepiej młode, drobno posiekane)",
-        "Alkohol 40–60% (np. wódka lub spirytus rozcieńczony do 50%)"
-      ],
-      "sposob_przygotowania": "Ziele zalać alkoholem w proporcji 1:2 (np. 100 g ziela na 200 ml alkoholu), odstawić w ciemnym miejscu na 14 dni, co kilka dni wstrząsać. Przecedzić przez gazę.",
-      "cechy": [
-        "Zielonkawy płyn",
-        "Ostry, alkoholowy zapach"
-      ],
-      "wlasciwosci": [
-        "przeciwbólowy, rozgrzewający, lekko przeciwzapalny"
-      ],
-      "zastosowanie": "Wcierki na bóle reumatyczne, mięśniowe, stawy.",
-      "zrodlo": [
-        21
-      ]
-    },
-    "kompres_na_owrzodzenia": {
-      "skladniki": [
-        "Sok świeży z gwiazdnicy pospolitej (najlepiej wyciśnięty ze świeżych, młodych liści)",
-        "Jałowa gaza"
-      ],
-      "sposob_przygotowania": "Świeży sok nakładać na gazę, przykładać na chore miejsce, zmieniać 2–3 razy dziennie.",
-      "cechy": [
-        "Lekko zielony, lekko śluzowaty płyn",
-        "Naturalny, świeży zapach"
-      ],
-      "wlasciwosci": [
-        "goi rany, wrzody, łagodzi podrażnienia skóry"
-      ],
-      "zastosowanie": "Trudno gojące się rany, wrzody, odleżyny, oparzenia.",
-      "zrodlo": [
-        22
-      ]
-    }
-  },
-  "przepisy_kulinarne": {
-    "swieze_dodatki": {
-      "skladniki": [
-        "1–2 garście młodych, świeżych liści i pędów gwiazdnicy pospolitej (najlepiej surowe, wiosenne)"
-      ],
-      "sposob_przygotowania": "Liście i pędy dokładnie umyć, drobno posiekać i dodawać do sałatek, twarożku, past jajecznych, zielonych smoothie. Najlepiej używać na surowo, tuż po zbiorze.",
-      "cechy": [
-        "Delikatny, lekko orzechowy smak",
-        "Soczysta, chrupiąca struktura"
-      ],
-      "wlasciwosci": [
-        "bogata w witaminę C, żelazo i magnez",
-        "dodaje świeżości i lekkości potrawom"
-      ],
-      "zastosowanie": "Sałatki, kanapki, pasty twarogowe, zielone koktajle, dekoracja dań.",
-      "zrodlo": [
-        23
-      ]
-    },
-    "duszenie_z_jajkiem": {
-      "skladniki": [
-        "1 garść młodych pędów gwiazdnicy pospolitej (świeże, drobno posiekane)",
-        "2 jajka (najlepiej świeże, od kur z wolnego wybiegu)",
-        "1 mała cebula (pokrojona w kostkę)",
-        "1 łyżeczka masła",
-        "sól, pieprz"
-      ],
-      "sposob_przygotowania": "Na maśle zeszklić cebulkę, dodać pędy gwiazdnicy, smażyć 2 minuty, następnie wbić jajka i całość wymieszać. Smażyć do uzyskania preferowanej konsystencji.",
-      "cechy": [
-        "Zielony, świeży aromat",
-        "Łagodny, lekko ziołowy smak"
-      ],
-      "wlasciwosci": [
-        "pożywna, sycąca potrawa",
-        "lekko oczyszczająca"
-      ],
-      "zastosowanie": "Jajecznica, omlet, farsz do naleśników lub pierogów.",
-      "zrodlo": [
-        24
-      ]
-    },
-    "pesto_z_gwiazdnicy": {
-      "skladniki": [
-        "2 garście młodych liści gwiazdnicy pospolitej (najlepiej świeże, surowe)",
-        "2 łyżki orzechów włoskich lub pestek słonecznika (uprażone)",
-        "1 mały ząbek czosnku (świeży, drobno posiekany)",
-        "3–4 łyżki oliwy z oliwek (tłoczona na zimno)",
-        "sól do smaku"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki zblendować na jednolitą pastę, dodać oliwy do uzyskania pożądanej konsystencji. Doprawić do smaku.",
-      "cechy": [
-        "Intensywnie zielony kolor",
-        "Świeży, lekko orzechowy aromat"
-      ],
-      "wlasciwosci": [
-        "bogate w minerały, witaminę E i C",
-        "wzmacnia organizm, wspiera odporność"
-      ],
-      "zastosowanie": "Do makaronu, pieczywa, kanapek, dipów, jako dressing do sałatek.",
-      "zrodlo": [
-        25
-      ]
-    },
-    "zupa_z_gwiazdnicy": {
-      "skladniki": [
-        "2 garście świeżych liści gwiazdnicy (najlepiej młode, surowe)",
-        "2 ziemniaki (obrane, pokrojone w kostkę)",
-        "1 mała cebula (pokrojona w kostkę)",
-        "700 ml bulionu warzywnego (świeżego lub domowego)",
-        "1 łyżka masła",
-        "sól, pieprz"
-      ],
-      "sposob_przygotowania": "Ziemniaki i cebulę ugotować do miękkości w bulionie, dodać liście gwiazdnicy, gotować jeszcze 2–3 minuty. Zblendować całość na krem, doprawić do smaku.",
-      "cechy": [
-        "Jasnozielony kolor",
-        "Delikatny, świeży smak"
-      ],
-      "wlasciwosci": [
-        "lekko oczyszczająca, bogata w minerały",
-        "sycąca, wspiera detoks organizmu"
-      ],
-      "zastosowanie": "Wiosenna zupa, posiłek detoksykujący.",
-      "zrodlo": [
-        26
-      ]
-    },
-    "placki_z_gwiazdnicy": {
-      "skladniki": [
-        "1 garść młodych pędów gwiazdnicy pospolitej (świeże, drobno posiekane)",
-        "1 jajko",
-        "2 łyżki mąki (dowolnej, najlepiej pełnoziarnistej)",
-        "1 mała cebula (starta na tarce lub drobno posiekana)",
-        "sól, pieprz",
-        "olej do smażenia"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki dokładnie wymieszać, smażyć małe placuszki na rozgrzanym oleju na złoty kolor.",
-      "cechy": [
-        "Chrupiące, delikatnie zielone",
-        "Ziołowy akcent"
-      ],
-      "wlasciwosci": [
-        "bogate w białko i minerały",
-        "pożywne i lekkostrawne"
-      ],
-      "zastosowanie": "Obiad, kolacja, przekąska, lunchbox.",
-      "zrodlo": [
-        27
-      ]
-    },
-    "zielony_koktajl": {
-      "skladniki": [
-        "1–2 garście świeżych liści gwiazdnicy pospolitej (najlepiej młode, surowe)",
-        "1 banan (dojrzały, świeży, obrany)",
-        "1 jabłko (świeże, pokrojone w kostkę)",
-        "sok z 1/2 cytryny",
-        "3/4 szklanki wody (najlepiej przefiltrowanej)"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki dokładnie zblendować na gładki koktajl. Podawać od razu po przygotowaniu.",
-      "cechy": [
-        "Intensywnie zielony kolor",
-        "Orzeźwiający, lekko słodki smak"
-      ],
-      "wlasciwosci": [
-        "detoksykujący, wspiera odporność",
-        "wzmacniający, orzeźwiający"
-      ],
-      "zastosowanie": "Śniadanie, napój wiosenny, lekki podwieczorek.",
-      "zrodlo": [
-        28
-      ]
-    },
-    "omlet_z_gwiazdnica": {
-      "skladniki": [
-        "2–3 jajka (najlepiej świeże, od kur z wolnego wybiegu)",
-        "1 garść liści gwiazdnicy pospolitej (najlepiej młode, drobno posiekane)",
-        "1 łyżeczka masła (świeże)",
-        "sól, pieprz"
-      ],
-      "sposob_przygotowania": "Na rozgrzanym maśle podsmażyć krótko liście gwiazdnicy, następnie wlać roztrzepane jajka i smażyć na małym ogniu do ścięcia.",
-      "cechy": [
-        "Puszysty, soczyście zielony omlet"
-      ],
-      "wlasciwosci": [
-        "sycący, odżywczy",
-        "lekko oczyszczający"
-      ],
-      "zastosowanie": "Śniadanie, lekki obiad, szybka kolacja.",
-      "zrodlo": [
-        29
-      ]
-    },
-    "pasztet_z_gwiazdnicy": {
-      "skladniki": [
-        "2 garście liści gwiazdnicy pospolitej (najlepiej świeże, młode, drobno posiekane)",
-        "1 mała cebula (drobno pokrojona, podsmażona)",
-        "1 szklanka ugotowanej kaszy jaglanej",
-        "1 jajko",
-        "sól, pieprz"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki zblendować na jednolitą masę, przełożyć do foremki i zapiec ok. 30 min w 180°C.",
-      "cechy": [
-        "Delikatny, lekko zielony pasztet",
-        "Wilgotny, aromatyczny"
-      ],
-      "wlasciwosci": [
-        "bogaty w białko, witaminy i minerały",
-        "roślinny, bezglutenowy (jeśli użyta kasza jaglana)"
-      ],
-      "zastosowanie": "Do kanapek, na śniadanie, jako główne danie z warzywami.",
-      "zrodlo": [
-        30
-      ]
-    },
-    "kiszonka_z_gwiazdnicy": {
-      "skladniki": [
-        "2 garście świeżych, młodych liści gwiazdnicy (surowe)",
-        "1 marchewka (starta na tarce, surowa)",
-        "1/2 łyżki soli kamiennej niejodowanej",
-        "opcjonalnie: 2 ząbki czosnku, 3 ziarna pieprzu"
-      ],
-      "sposob_przygotowania": "Liście gwiazdnicy i marchew wymieszać z solą, mocno ugniatać aż puszczą sok. Dodać czosnek, przełożyć do słoika, docisnąć, aby płyn przykrył całość. Fermentować 3–5 dni w temp. pokojowej, po czym przechowywać w lodówce.",
-      "cechy": [
-        "Kwaśny, lekko ziołowy aromat",
-        "Chrupiąca, lekko musująca struktura"
-      ],
-      "wlasciwosci": [
-        "probiotyczna, oczyszczająca",
-        "wspiera florę jelitową"
-      ],
-      "zastosowanie": "Dodatek do sałatek, kanapek, do obiadu.",
-      "zrodlo": [
-        31
-      ]
-    },
-    "ocet_z_gwiazdnicy": {
-      "skladniki": [
-        "1 szklanka świeżych liści gwiazdnicy (surowe, pokrojone)",
-        "2 łyżeczki cukru",
-        "1 litr wody przegotowanej",
-        "skórka z cytryny (opcjonalnie)",
-        "zakwas chlebowy lub 1 łyżka naturalnego octu jabłkowego"
-      ],
-      "sposob_przygotowania": "Wszystko przełożyć do dużego słoja, odstawić na 2–3 tygodnie, codziennie zamieszać. Po sfermentowaniu przefiltrować. Przechowywać w chłodnym miejscu.",
-      "cechy": [
-        "Ziołowo-cytrynowy aromat",
-        "Kwaśny, świeży smak"
-      ],
-      "wlasciwosci": [
-        "probiotyczny, wspiera trawienie"
-      ],
-      "zastosowanie": "Do sałatek, marynat, jako napój z wodą.",
-      "zrodlo": [
-        32
-      ]
-    },
-    "nalewka_z_gwiazdnicy": {
-      "skladniki": [
-        "1 szklanka świeżych liści gwiazdnicy (surowe, posiekane)",
-        "250 ml spirytusu 40–50%",
-        "100 ml przegotowanej wody",
-        "2 łyżki miodu (opcjonalnie, do smaku)"
-      ],
-      "sposob_przygotowania": "Ziele zalać spirytusem i wodą, odstawić na 2 tygodnie, codziennie wstrząsać. Przecedzić, dodać miód i przelać do butelki.",
-      "cechy": [
-        "Zielonkawy kolor",
-        "Ziołowo-alkoholowy aromat"
-      ],
-      "wlasciwosci": [
-        "wzmacniająca, rozgrzewająca",
-        "łagodzi objawy przeziębienia"
-      ],
-      "zastosowanie": "Po łyżeczce na przeziębienie, jako krople do wody.",
-      "zrodlo": [
-        33
-      ]
-    },
-    "sos_do_makaronu_z_gwiazdnica_i_pomidorami": {
-      "skladniki": [
-        "1 szklanka liści gwiazdnicy (świeże, surowe)",
-        "2 dojrzałe pomidory (obrane, pokrojone w kostkę)",
-        "1 mała cebula",
-        "1 ząbek czosnku",
-        "2 łyżki oliwy",
-        "sól, pieprz, oregano"
-      ],
-      "sposob_przygotowania": "Cebulę i czosnek podsmażyć na oliwie, dodać pomidory, dusić 5 min, następnie dodać gwiazdnicę i zioła, dusić jeszcze 1–2 min. Wymieszać z ugotowanym makaronem.",
-      "cechy": [
-        "Soczysty, aromatyczny sos",
-        "Ziołowy, lekko kwaśny smak"
-      ],
-      "wlasciwosci": [
-        "wzbogacający potrawy w witaminy"
-      ],
-      "zastosowanie": "Do makaronu, ryżu, kaszy.",
-      "zrodlo": [
-        34
-      ]
-    },
-    "farsz_do_pierogow_z_gwiazdnica": {
-      "skladniki": [
-        "2 garście świeżych liści gwiazdnicy (posiekane, sparzone wrzątkiem)",
-        "200 g białego sera półtłustego",
-        "1 jajko",
-        "sól, pieprz"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki wymieszać na jednolitą masę. Nadziewać ciasto pierogowe, gotować w osolonym wrzątku.",
-      "cechy": [
-        "Ziołowy, lekko słonawy smak",
-        "Delikatny aromat"
-      ],
-      "wlasciwosci": [
-        "bogaty w białko, lekkostrawny"
-      ],
-      "zastosowanie": "Pierogi, naleśniki, paszteciki.",
-      "zrodlo": [
-        35
-      ]
-    },
-    "maslo_ziołowe_z_gwiazdnica": {
-      "skladniki": [
-        "100 g miękkiego masła (świeże, nie solone)",
-        "1 garść liści gwiazdnicy (świeże, drobno posiekane)",
-        "1 łyżeczka soku z cytryny",
-        "szczypta soli"
-      ],
-      "sposob_przygotowania": "Masło utrzeć z liśćmi, sokiem z cytryny i solą na gładką pastę. Schłodzić.",
-      "cechy": [
-        "Jasnozielony kolor",
-        "Aromat ziołowy"
-      ],
-      "wlasciwosci": [
-        "dodaje świeżości i smaku potrawom"
-      ],
-      "zastosowanie": "Do pieczywa, ziemniaków, gotowanych warzyw.",
-      "zrodlo": [
-        36
-      ]
-    },
-    "zupa_krem_z_gwiazdnicy_i_groszku": {
-      "skladniki": [
-        "2 garście liści gwiazdnicy (świeże, surowe)",
-        "1 szklanka zielonego groszku (świeży lub mrożony)",
-        "1 ziemniak",
-        "1 cebula",
-        "750 ml bulionu warzywnego",
-        "2 łyżki śmietany",
-        "sól, pieprz"
-      ],
-      "sposob_przygotowania": "Warzywa ugotować do miękkości, dodać gwiazdnicę, gotować jeszcze 2 min, całość zblendować. Podawać z kleksem śmietany.",
-      "cechy": [
-        "Kremowa, zielona konsystencja",
-        "Delikatny, słodki smak"
-      ],
-      "wlasciwosci": [
-        "sycąca, bogata w białko i witaminy"
-      ],
-      "zastosowanie": "Obiad, pierwsze danie.",
-      "zrodlo": [
-        37
-      ]
-    },
-    "sałatka_z_kiszoną_gwiazdnicą_i_warzywami": {
-      "skladniki": [
-        "1 szklanka kiszonej gwiazdnicy (wg przepisu na kiszonkę powyżej)",
-        "1 ogórek małosolny",
-        "1 marchewka (starta)",
-        "1 łyżka oliwy",
-        "sól, pieprz"
-      ],
-      "sposob_przygotowania": "Warzywa pokroić, wymieszać z kiszoną gwiazdnicą i oliwą, doprawić.",
-      "cechy": [
-        "Chrupiąca, lekko kwaśna",
-        "Orzeźwiająca"
-      ],
-      "wlasciwosci": [
-        "probiotyczna, bogata w błonnik"
-      ],
-      "zastosowanie": "Sałatka, przekąska, dodatek do obiadu.",
-      "zrodlo": [
-        38
-      ]
-    },
-    "zielony_majonez_z_gwiazdnica": {
-      "skladniki": [
-        "3 łyżki majonezu (domowy lub sklepowy, bez konserwantów)",
-        "1 garść liści gwiazdnicy (najlepiej świeże, surowe, drobno posiekane)",
-        "1 łyżeczka soku z cytryny",
-        "szczypta soli, pieprz"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki dokładnie wymieszać. Schłodzić przed podaniem.",
-      "cechy": [
-        "Zielony kolor, kremowa konsystencja"
-      ],
-      "wlasciwosci": [
-        "dodaje świeżości i aromatu kanapkom"
-      ],
-      "zastosowanie": "Do kanapek, sałatek, jajek na twardo.",
-      "zrodlo": [
-        39
-      ]
-    },
-    "zielony_serek_z_gwiazdnica": {
-      "skladniki": [
-        "200 g serka twarogowego (świeży, kremowy)",
-        "1 garść liści gwiazdnicy (świeże, drobno posiekane)",
-        "2 łyżki jogurtu naturalnego",
-        "szczypta soli"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki dokładnie wymieszać. Podawać na kanapkach lub do warzyw.",
-      "cechy": [
-        "Puszysty, lekko zielony",
-        "Delikatny smak"
-      ],
-      "wlasciwosci": [
-        "bogaty w białko, lekki"
-      ],
-      "zastosowanie": "Kanapki, dip do warzyw.",
-      "zrodlo": [
-        40
-      ]
-    },
-    "zielone_placuszki_z_serem_i_gwiazdnica": {
-      "skladniki": [
-        "1 szklanka twarogu (świeży, półtłusty)",
-        "2 łyżki mąki",
-        "1 jajko",
-        "1 garść liści gwiazdnicy (świeże, drobno posiekane)",
-        "sól, pieprz",
-        "olej do smażenia"
-      ],
-      "sposob_przygotowania": "Składniki wymieszać na gęste ciasto, smażyć małe placuszki na rozgrzanym oleju.",
-      "cechy": [
-        "Miękkie, zielonkawe",
-        "Ziołowy aromat"
-      ],
-      "wlasciwosci": [
-        "bogate w białko, sycące"
-      ],
-      "zastosowanie": "Śniadanie, przekąska, podwieczorek.",
-      "zrodlo": [
-        41
-      ]
-    },
-    "sol_ziolowa_z_gwiazdnica": {
-      "skladniki": [
-        "1/2 szklanki soli kamiennej (nie jodowanej)",
-        "2 łyżki świeżych liści gwiazdnicy (najlepiej młode, posiekane)",
-        "1 łyżeczka suszonego czosnku",
-        "1/2 łyżeczki pieprzu ziołowego"
-      ],
-      "sposob_przygotowania": "Liście rozetrzeć z solą i przyprawami w moździerzu. Przechowywać w szczelnym słoiku.",
-      "cechy": [
-        "Aromatyczna, jasnozielona sól",
-        "Wyrazisty smak"
-      ],
-      "wlasciwosci": [
-        "wzbogaca smak potraw, naturalny konserwant"
-      ],
-      "zastosowanie": "Do zup, sałatek, masła ziołowego.",
-      "zrodlo": [
-        42
-      ]
-    },
-    "zielony_chlodnik_jogurtowy_z_gwiazdnica": {
-      "skladniki": [
-        "2 garście liści gwiazdnicy (najlepiej młode, surowe)",
-        "400 ml jogurtu naturalnego",
-        "2 ogórki gruntowe (surowe, pokrojone w kostkę)",
-        "1 łyżka soku z cytryny",
-        "sól, pieprz"
-      ],
-      "sposob_przygotowania": "Liście gwiazdnicy posiekać, dodać do jogurtu razem z ogórkiem i przyprawami. Schłodzić.",
-      "cechy": [
-        "Zielony, kremowy, orzeźwiający"
-      ],
-      "wlasciwosci": [
-        "lekkostrawny, bogaty w wapń i witaminy"
-      ],
-      "zastosowanie": "Zupa na zimno, przekąska w upalne dni.",
-      "zrodlo": [
-        43
-      ]
-    },
-    "pasta_z_ciecierzycy_i_gwiazdnicy": {
-      "skladniki": [
-        "1 szklanka ugotowanej ciecierzycy (może być z puszki, odsączona)",
-        "1 garść liści gwiazdnicy (najlepiej świeże, młode, surowe)",
-        "2 łyżki oliwy",
-        "1 łyżka soku z cytryny",
-        "1 ząbek czosnku",
-        "sól, pieprz"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki dokładnie zblendować na gładką pastę.",
-      "cechy": [
-        "Kremowa, zielona pasta",
-        "Ziołowy aromat"
-      ],
-      "wlasciwosci": [
-        "białkowa, odżywcza, lekko oczyszczająca"
-      ],
-      "zastosowanie": "Kanapki, dip do warzyw, wrapy.",
-      "zrodlo": [
-        44
-      ]
-    },
-    "herbatka_miodowo_ziolowa_z_gwiazdnica": {
-      "skladniki": [
-        "1 łyżka świeżych liści gwiazdnicy (surowe)",
-        "1 łyżeczka kwiatu lipy (susz)",
-        "1/2 łyżeczki rumianku (susz)",
-        "250 ml wrzątku",
-        "1 łyżeczka miodu"
-      ],
-      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć pod przykryciem 7–10 min. Posłodzić miodem tuż przed podaniem.",
-      "cechy": [
-        "Ziołowy, lekko słodki napar"
-      ],
-      "wlasciwosci": [
-        "łagodzi, wspiera odporność, rozgrzewa"
-      ],
-      "zastosowanie": "Napar do picia na wieczór lub w czasie infekcji.",
-      "zrodlo": [
-        45
-      ]
-    }
-  },
-  "przepisy_z_innymi_roslinami": {
-    "medyczne": [
+    "napar": [
+      {
+        "skladniki": [
+          "1 łyżka świeżego lub suszonego ziela gwiazdnicy pospolitej (najlepiej młode, świeżo zebrane liście i pędy)",
+          "250 ml wrzątku (świeża, przefiltrowana woda)"
+        ],
+        "sposob_przygotowania": "Ziele zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić. Pić najlepiej na świeżo.",
+        "cechy": [
+          "Zielono-słomkowy kolor",
+          "Delikatny, świeży smak"
+        ],
+        "wlasciwosci": [
+          "łagodnie moczopędny",
+          "oczyszcza organizm",
+          "łagodzi stany zapalne układu moczowego"
+        ],
+        "zastosowanie": "Problemy z nerkami, lekka niestrawność, wsparcie wiosennego detoksu.",
+        "dawkowanie": "Szklanka 1–2 razy dziennie przez 1–2 tygodnie.",
+        "zrodlo": [
+          15
+        ],
+        "nazwa": "Napar"
+      }
+    ],
+    "odwar_do_okladów": [
+      {
+        "skladniki": [
+          "2 łyżki świeżego ziela gwiazdnicy pospolitej (najlepiej młode, zielone pędy)",
+          "300 ml wody (najlepiej źródlanej lub przegotowanej)"
+        ],
+        "sposob_przygotowania": "Ziele gotować na małym ogniu 10 minut pod przykryciem, przecedzić. Letni odwar stosować do okładów na skórę.",
+        "cechy": [
+          "Lekko zielonkawy płyn",
+          "Delikatny, ziołowy zapach"
+        ],
+        "wlasciwosci": [
+          "przyspiesza gojenie ran",
+          "łagodzi świąd, podrażnienia i egzemy"
+        ],
+        "zastosowanie": "Okłady na rany, egzemy, alergie, oparzenia.",
+        "zrodlo": [
+          16
+        ],
+        "nazwa": "Odwar do okladów"
+      }
+    ],
+    "macerat_do_oczu": [
+      {
+        "skladniki": [
+          "1 łyżeczka świeżego ziela gwiazdnicy pospolitej (najlepiej młode, drobno posiekane)",
+          "100 ml letniej, przegotowanej wody"
+        ],
+        "sposob_przygotowania": "Ziele zalać wodą, odstawić pod przykryciem na 1–2 godziny, przecedzić przez gazę. Używać zawsze świeży napar.",
+        "cechy": [
+          "Bardzo delikatny napar",
+          "Świeży zapach"
+        ],
+        "wlasciwosci": [
+          "łagodzi podrażnienia spojówek",
+          "przyspiesza gojenie drobnych urazów oka"
+        ],
+        "zastosowanie": "Okłady na oczy, przemywanie powiek (np. przy podrażnieniach, alergiach).",
+        "zrodlo": [
+          17
+        ],
+        "nazwa": "Macerat do oczu"
+      }
+    ],
+    "maść_na_swiad": [
+      {
+        "skladniki": [
+          "Świeże ziele gwiazdnicy pospolitej (najlepiej młode, dokładnie rozdrobnione)",
+          "Smalec gęsi lub olej kokosowy (świeży, nierafinowany)",
+          "Opcjonalnie: lanolina"
+        ],
+        "sposob_przygotowania": "Ziele rozgnieść, podgrzewać w tłuszczu na bardzo małym ogniu przez 1–2 godziny (nie doprowadzać do wrzenia), przecedzić przez gazę, przelać do czystego słoiczka.",
+        "cechy": [
+          "Zielony kolor, tłusta konsystencja",
+          "Delikatny, ziołowy zapach"
+        ],
+        "wlasciwosci": [
+          "łagodzi świąd, goi podrażnienia",
+          "regeneruje skórę"
+        ],
+        "zastosowanie": "Smarowanie skóry przy alergii, atopii, egzemie.",
+        "zrodlo": [
+          18
+        ],
+        "nazwa": "Maść na swiad"
+      }
+    ],
+    "kapiel_ziołowa": [
+      {
+        "skladniki": [
+          "Garść świeżego ziela gwiazdnicy pospolitej (najlepiej młode, całe pędy i liście)",
+          "Opcjonalnie: 1 łyżka suszonych koszyczków rumianku, 1 łyżka kwiatów nagietka",
+          "2 litry wody"
+        ],
+        "sposob_przygotowania": "Zioła gotować 15 minut, przecedzić do wanny z ciepłą wodą. Kąpiel ok. 15–20 min.",
+        "cechy": [
+          "Zielonkawy płyn",
+          "Kojący, delikatnie ziołowy zapach"
+        ],
+        "wlasciwosci": [
+          "łagodzi świąd, regeneruje skórę, wspomaga gojenie"
+        ],
+        "zastosowanie": "Kąpiele przy atopii, alergiach, łuszczycy, egzemie.",
+        "zrodlo": [
+          19
+        ],
+        "nazwa": "Kapiel ziołowa"
+      }
+    ],
+    "oklad_na_stawy": [
+      {
+        "skladniki": [
+          "Rozdrobnione, świeże ziele gwiazdnicy pospolitej (najlepiej młode, rozgniecione w moździerzu)",
+          "Czysta gaza lub bandaż"
+        ],
+        "sposob_przygotowania": "Rozgniecione ziele nałożyć bezpośrednio na bolące miejsce, przykryć gazą, zostawić na 30–60 minut.",
+        "cechy": [
+          "Chłodzący, łagodzący efekt",
+          "Lekko trawiasty aromat"
+        ],
+        "wlasciwosci": [
+          "łagodzi ból, zmniejsza obrzęk i stan zapalny"
+        ],
+        "zastosowanie": "Okłady na stawy, skręcenia, obrzęki, siniaki, bóle pourazowe.",
+        "zrodlo": [
+          20
+        ],
+        "nazwa": "Oklad na stawy"
+      }
+    ],
+    "nalewka_na_reumatyzm": [
+      {
+        "skladniki": [
+          "Świeże ziele gwiazdnicy pospolitej (najlepiej młode, drobno posiekane)",
+          "Alkohol 40–60% (np. wódka lub spirytus rozcieńczony do 50%)"
+        ],
+        "sposob_przygotowania": "Ziele zalać alkoholem w proporcji 1:2 (np. 100 g ziela na 200 ml alkoholu), odstawić w ciemnym miejscu na 14 dni, co kilka dni wstrząsać. Przecedzić przez gazę.",
+        "cechy": [
+          "Zielonkawy płyn",
+          "Ostry, alkoholowy zapach"
+        ],
+        "wlasciwosci": [
+          "przeciwbólowy, rozgrzewający, lekko przeciwzapalny"
+        ],
+        "zastosowanie": "Wcierki na bóle reumatyczne, mięśniowe, stawy.",
+        "zrodlo": [
+          21
+        ],
+        "nazwa": "Nalewka na reumatyzm"
+      }
+    ],
+    "kompres_na_owrzodzenia": [
+      {
+        "skladniki": [
+          "Sok świeży z gwiazdnicy pospolitej (najlepiej wyciśnięty ze świeżych, młodych liści)",
+          "Jałowa gaza"
+        ],
+        "sposob_przygotowania": "Świeży sok nakładać na gazę, przykładać na chore miejsce, zmieniać 2–3 razy dziennie.",
+        "cechy": [
+          "Lekko zielony, lekko śluzowaty płyn",
+          "Naturalny, świeży zapach"
+        ],
+        "wlasciwosci": [
+          "goi rany, wrzody, łagodzi podrażnienia skóry"
+        ],
+        "zastosowanie": "Trudno gojące się rany, wrzody, odleżyny, oparzenia.",
+        "zrodlo": [
+          22
+        ],
+        "nazwa": "Kompres na owrzodzenia"
+      }
+    ],
+    "napar_oczyszczający_gwiazdnica_pokrzywa_mniszek_bratek_skrzyp_liść_brzozy_fiołek_czystek": [
       {
         "nazwa": "Napar oczyszczający (gwiazdnica, pokrzywa, mniszek, bratek, skrzyp, liść brzozy, fiołek, czystek)",
         "skladniki": [
@@ -796,7 +332,9 @@
         "zrodlo": [
           31
         ]
-      },
+      }
+    ],
+    "mieszanka_na_skórę_gwiazdnica_nagietek_rumianek_babka_lancetowata_krwawnik_fiołek_tymianek_korzeń_mydlnicy": [
       {
         "nazwa": "Mieszanka na skórę (gwiazdnica, nagietek, rumianek, babka lancetowata, krwawnik, fiołek, tymianek, korzeń mydlnicy)",
         "skladniki": [
@@ -822,7 +360,9 @@
         "zrodlo": [
           32
         ]
-      },
+      }
+    ],
+    "kąpiel_ziołowa_gwiazdnica_liść_brzozy_lawenda_szałwia_mięta_rumianek_tymianek_melisa": [
       {
         "nazwa": "Kąpiel ziołowa (gwiazdnica, liść brzozy, lawenda, szałwia, mięta, rumianek, tymianek, melisa)",
         "skladniki": [
@@ -848,7 +388,9 @@
         "zrodlo": [
           33
         ]
-      },
+      }
+    ],
+    "mieszanka_wykrztuśna_gwiazdnica_podbiał_dziewanna_babka_lancetowata_tymianek_pierwiosnek_anyż_lukrecja": [
       {
         "nazwa": "Mieszanka wykrztuśna (gwiazdnica, podbiał, dziewanna, babka lancetowata, tymianek, pierwiosnek, anyż, lukrecja)",
         "skladniki": [
@@ -873,7 +415,9 @@
         "zrodlo": [
           34
         ]
-      },
+      }
+    ],
+    "mieszanka_na_układ_moczowy_gwiazdnica_liść_brzozy_nawłoć_skrzyp_korzeń_pietruszki_liść_żurawiny_liść_mącznicy": [
       {
         "nazwa": "Mieszanka na układ moczowy (gwiazdnica, liść brzozy, nawłoć, skrzyp, korzeń pietruszki, liść żurawiny, liść mącznicy)",
         "skladniki": [
@@ -898,7 +442,9 @@
         "zrodlo": [
           35
         ]
-      },
+      }
+    ],
+    "mieszanka_przeciwzapalna_gwiazdnica_skrzyp_nagietek_krwawnik_ziele_pięciornika_fiołek": [
       {
         "nazwa": "Mieszanka przeciwzapalna (gwiazdnica, skrzyp, nagietek, krwawnik, ziele pięciornika, fiołek)",
         "skladniki": [
@@ -922,7 +468,9 @@
         "zrodlo": [
           36
         ]
-      },
+      }
+    ],
+    "mieszanka_na_alergię_gwiazdnica_rumianek_pokrzywa_fiołek_perz_skrzyp_mniszek": [
       {
         "nazwa": "Mieszanka na alergię (gwiazdnica, rumianek, pokrzywa, fiołek, perz, skrzyp, mniszek)",
         "skladniki": [
@@ -947,8 +495,563 @@
           37
         ]
       }
+    ]
+  },
+  "przepisy_kulinarne": {
+    "swieze_dodatki": [
+      {
+        "skladniki": [
+          "1–2 garście młodych, świeżych liści i pędów gwiazdnicy pospolitej (najlepiej surowe, wiosenne)"
+        ],
+        "sposob_przygotowania": "Liście i pędy dokładnie umyć, drobno posiekać i dodawać do sałatek, twarożku, past jajecznych, zielonych smoothie. Najlepiej używać na surowo, tuż po zbiorze.",
+        "cechy": [
+          "Delikatny, lekko orzechowy smak",
+          "Soczysta, chrupiąca struktura"
+        ],
+        "wlasciwosci": [
+          "bogata w witaminę C, żelazo i magnez",
+          "dodaje świeżości i lekkości potrawom"
+        ],
+        "zastosowanie": "Sałatki, kanapki, pasty twarogowe, zielone koktajle, dekoracja dań.",
+        "zrodlo": [
+          23
+        ],
+        "nazwa": "Swieze dodatki"
+      }
     ],
-    "kulinarne": [
+    "duszenie_z_jajkiem": [
+      {
+        "skladniki": [
+          "1 garść młodych pędów gwiazdnicy pospolitej (świeże, drobno posiekane)",
+          "2 jajka (najlepiej świeże, od kur z wolnego wybiegu)",
+          "1 mała cebula (pokrojona w kostkę)",
+          "1 łyżeczka masła",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Na maśle zeszklić cebulkę, dodać pędy gwiazdnicy, smażyć 2 minuty, następnie wbić jajka i całość wymieszać. Smażyć do uzyskania preferowanej konsystencji.",
+        "cechy": [
+          "Zielony, świeży aromat",
+          "Łagodny, lekko ziołowy smak"
+        ],
+        "wlasciwosci": [
+          "pożywna, sycąca potrawa",
+          "lekko oczyszczająca"
+        ],
+        "zastosowanie": "Jajecznica, omlet, farsz do naleśników lub pierogów.",
+        "zrodlo": [
+          24
+        ],
+        "nazwa": "Duszenie z jajkiem"
+      }
+    ],
+    "pesto_z_gwiazdnicy": [
+      {
+        "skladniki": [
+          "2 garście młodych liści gwiazdnicy pospolitej (najlepiej świeże, surowe)",
+          "2 łyżki orzechów włoskich lub pestek słonecznika (uprażone)",
+          "1 mały ząbek czosnku (świeży, drobno posiekany)",
+          "3–4 łyżki oliwy z oliwek (tłoczona na zimno)",
+          "sól do smaku"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki zblendować na jednolitą pastę, dodać oliwy do uzyskania pożądanej konsystencji. Doprawić do smaku.",
+        "cechy": [
+          "Intensywnie zielony kolor",
+          "Świeży, lekko orzechowy aromat"
+        ],
+        "wlasciwosci": [
+          "bogate w minerały, witaminę E i C",
+          "wzmacnia organizm, wspiera odporność"
+        ],
+        "zastosowanie": "Do makaronu, pieczywa, kanapek, dipów, jako dressing do sałatek.",
+        "zrodlo": [
+          25
+        ],
+        "nazwa": "Pesto z gwiazdnicy"
+      }
+    ],
+    "zupa_z_gwiazdnicy": [
+      {
+        "skladniki": [
+          "2 garście świeżych liści gwiazdnicy (najlepiej młode, surowe)",
+          "2 ziemniaki (obrane, pokrojone w kostkę)",
+          "1 mała cebula (pokrojona w kostkę)",
+          "700 ml bulionu warzywnego (świeżego lub domowego)",
+          "1 łyżka masła",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Ziemniaki i cebulę ugotować do miękkości w bulionie, dodać liście gwiazdnicy, gotować jeszcze 2–3 minuty. Zblendować całość na krem, doprawić do smaku.",
+        "cechy": [
+          "Jasnozielony kolor",
+          "Delikatny, świeży smak"
+        ],
+        "wlasciwosci": [
+          "lekko oczyszczająca, bogata w minerały",
+          "sycąca, wspiera detoks organizmu"
+        ],
+        "zastosowanie": "Wiosenna zupa, posiłek detoksykujący.",
+        "zrodlo": [
+          26
+        ],
+        "nazwa": "Zupa z gwiazdnicy"
+      }
+    ],
+    "placki_z_gwiazdnicy": [
+      {
+        "skladniki": [
+          "1 garść młodych pędów gwiazdnicy pospolitej (świeże, drobno posiekane)",
+          "1 jajko",
+          "2 łyżki mąki (dowolnej, najlepiej pełnoziarnistej)",
+          "1 mała cebula (starta na tarce lub drobno posiekana)",
+          "sól, pieprz",
+          "olej do smażenia"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki dokładnie wymieszać, smażyć małe placuszki na rozgrzanym oleju na złoty kolor.",
+        "cechy": [
+          "Chrupiące, delikatnie zielone",
+          "Ziołowy akcent"
+        ],
+        "wlasciwosci": [
+          "bogate w białko i minerały",
+          "pożywne i lekkostrawne"
+        ],
+        "zastosowanie": "Obiad, kolacja, przekąska, lunchbox.",
+        "zrodlo": [
+          27
+        ],
+        "nazwa": "Placki z gwiazdnicy"
+      }
+    ],
+    "zielony_koktajl": [
+      {
+        "skladniki": [
+          "1–2 garście świeżych liści gwiazdnicy pospolitej (najlepiej młode, surowe)",
+          "1 banan (dojrzały, świeży, obrany)",
+          "1 jabłko (świeże, pokrojone w kostkę)",
+          "sok z 1/2 cytryny",
+          "3/4 szklanki wody (najlepiej przefiltrowanej)"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki dokładnie zblendować na gładki koktajl. Podawać od razu po przygotowaniu.",
+        "cechy": [
+          "Intensywnie zielony kolor",
+          "Orzeźwiający, lekko słodki smak"
+        ],
+        "wlasciwosci": [
+          "detoksykujący, wspiera odporność",
+          "wzmacniający, orzeźwiający"
+        ],
+        "zastosowanie": "Śniadanie, napój wiosenny, lekki podwieczorek.",
+        "zrodlo": [
+          28
+        ],
+        "nazwa": "Zielony koktajl"
+      }
+    ],
+    "omlet_z_gwiazdnica": [
+      {
+        "skladniki": [
+          "2–3 jajka (najlepiej świeże, od kur z wolnego wybiegu)",
+          "1 garść liści gwiazdnicy pospolitej (najlepiej młode, drobno posiekane)",
+          "1 łyżeczka masła (świeże)",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Na rozgrzanym maśle podsmażyć krótko liście gwiazdnicy, następnie wlać roztrzepane jajka i smażyć na małym ogniu do ścięcia.",
+        "cechy": [
+          "Puszysty, soczyście zielony omlet"
+        ],
+        "wlasciwosci": [
+          "sycący, odżywczy",
+          "lekko oczyszczający"
+        ],
+        "zastosowanie": "Śniadanie, lekki obiad, szybka kolacja.",
+        "zrodlo": [
+          29
+        ],
+        "nazwa": "Omlet z gwiazdnica"
+      }
+    ],
+    "pasztet_z_gwiazdnicy": [
+      {
+        "skladniki": [
+          "2 garście liści gwiazdnicy pospolitej (najlepiej świeże, młode, drobno posiekane)",
+          "1 mała cebula (drobno pokrojona, podsmażona)",
+          "1 szklanka ugotowanej kaszy jaglanej",
+          "1 jajko",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki zblendować na jednolitą masę, przełożyć do foremki i zapiec ok. 30 min w 180°C.",
+        "cechy": [
+          "Delikatny, lekko zielony pasztet",
+          "Wilgotny, aromatyczny"
+        ],
+        "wlasciwosci": [
+          "bogaty w białko, witaminy i minerały",
+          "roślinny, bezglutenowy (jeśli użyta kasza jaglana)"
+        ],
+        "zastosowanie": "Do kanapek, na śniadanie, jako główne danie z warzywami.",
+        "zrodlo": [
+          30
+        ],
+        "nazwa": "Pasztet z gwiazdnicy"
+      }
+    ],
+    "kiszonka_z_gwiazdnicy": [
+      {
+        "skladniki": [
+          "2 garście świeżych, młodych liści gwiazdnicy (surowe)",
+          "1 marchewka (starta na tarce, surowa)",
+          "1/2 łyżki soli kamiennej niejodowanej",
+          "opcjonalnie: 2 ząbki czosnku, 3 ziarna pieprzu"
+        ],
+        "sposob_przygotowania": "Liście gwiazdnicy i marchew wymieszać z solą, mocno ugniatać aż puszczą sok. Dodać czosnek, przełożyć do słoika, docisnąć, aby płyn przykrył całość. Fermentować 3–5 dni w temp. pokojowej, po czym przechowywać w lodówce.",
+        "cechy": [
+          "Kwaśny, lekko ziołowy aromat",
+          "Chrupiąca, lekko musująca struktura"
+        ],
+        "wlasciwosci": [
+          "probiotyczna, oczyszczająca",
+          "wspiera florę jelitową"
+        ],
+        "zastosowanie": "Dodatek do sałatek, kanapek, do obiadu.",
+        "zrodlo": [
+          31
+        ],
+        "nazwa": "Kiszonka z gwiazdnicy"
+      }
+    ],
+    "ocet_z_gwiazdnicy": [
+      {
+        "skladniki": [
+          "1 szklanka świeżych liści gwiazdnicy (surowe, pokrojone)",
+          "2 łyżeczki cukru",
+          "1 litr wody przegotowanej",
+          "skórka z cytryny (opcjonalnie)",
+          "zakwas chlebowy lub 1 łyżka naturalnego octu jabłkowego"
+        ],
+        "sposob_przygotowania": "Wszystko przełożyć do dużego słoja, odstawić na 2–3 tygodnie, codziennie zamieszać. Po sfermentowaniu przefiltrować. Przechowywać w chłodnym miejscu.",
+        "cechy": [
+          "Ziołowo-cytrynowy aromat",
+          "Kwaśny, świeży smak"
+        ],
+        "wlasciwosci": [
+          "probiotyczny, wspiera trawienie"
+        ],
+        "zastosowanie": "Do sałatek, marynat, jako napój z wodą.",
+        "zrodlo": [
+          32
+        ],
+        "nazwa": "Ocet z gwiazdnicy"
+      }
+    ],
+    "nalewka_z_gwiazdnicy": [
+      {
+        "skladniki": [
+          "1 szklanka świeżych liści gwiazdnicy (surowe, posiekane)",
+          "250 ml spirytusu 40–50%",
+          "100 ml przegotowanej wody",
+          "2 łyżki miodu (opcjonalnie, do smaku)"
+        ],
+        "sposob_przygotowania": "Ziele zalać spirytusem i wodą, odstawić na 2 tygodnie, codziennie wstrząsać. Przecedzić, dodać miód i przelać do butelki.",
+        "cechy": [
+          "Zielonkawy kolor",
+          "Ziołowo-alkoholowy aromat"
+        ],
+        "wlasciwosci": [
+          "wzmacniająca, rozgrzewająca",
+          "łagodzi objawy przeziębienia"
+        ],
+        "zastosowanie": "Po łyżeczce na przeziębienie, jako krople do wody.",
+        "zrodlo": [
+          33
+        ],
+        "nazwa": "Nalewka z gwiazdnicy"
+      }
+    ],
+    "sos_do_makaronu_z_gwiazdnica_i_pomidorami": [
+      {
+        "skladniki": [
+          "1 szklanka liści gwiazdnicy (świeże, surowe)",
+          "2 dojrzałe pomidory (obrane, pokrojone w kostkę)",
+          "1 mała cebula",
+          "1 ząbek czosnku",
+          "2 łyżki oliwy",
+          "sól, pieprz, oregano"
+        ],
+        "sposob_przygotowania": "Cebulę i czosnek podsmażyć na oliwie, dodać pomidory, dusić 5 min, następnie dodać gwiazdnicę i zioła, dusić jeszcze 1–2 min. Wymieszać z ugotowanym makaronem.",
+        "cechy": [
+          "Soczysty, aromatyczny sos",
+          "Ziołowy, lekko kwaśny smak"
+        ],
+        "wlasciwosci": [
+          "wzbogacający potrawy w witaminy"
+        ],
+        "zastosowanie": "Do makaronu, ryżu, kaszy.",
+        "zrodlo": [
+          34
+        ],
+        "nazwa": "Sos do makaronu z gwiazdnica i pomidorami"
+      }
+    ],
+    "farsz_do_pierogow_z_gwiazdnica": [
+      {
+        "skladniki": [
+          "2 garście świeżych liści gwiazdnicy (posiekane, sparzone wrzątkiem)",
+          "200 g białego sera półtłustego",
+          "1 jajko",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki wymieszać na jednolitą masę. Nadziewać ciasto pierogowe, gotować w osolonym wrzątku.",
+        "cechy": [
+          "Ziołowy, lekko słonawy smak",
+          "Delikatny aromat"
+        ],
+        "wlasciwosci": [
+          "bogaty w białko, lekkostrawny"
+        ],
+        "zastosowanie": "Pierogi, naleśniki, paszteciki.",
+        "zrodlo": [
+          35
+        ],
+        "nazwa": "Farsz do pierogow z gwiazdnica"
+      }
+    ],
+    "maslo_ziołowe_z_gwiazdnica": [
+      {
+        "skladniki": [
+          "100 g miękkiego masła (świeże, nie solone)",
+          "1 garść liści gwiazdnicy (świeże, drobno posiekane)",
+          "1 łyżeczka soku z cytryny",
+          "szczypta soli"
+        ],
+        "sposob_przygotowania": "Masło utrzeć z liśćmi, sokiem z cytryny i solą na gładką pastę. Schłodzić.",
+        "cechy": [
+          "Jasnozielony kolor",
+          "Aromat ziołowy"
+        ],
+        "wlasciwosci": [
+          "dodaje świeżości i smaku potrawom"
+        ],
+        "zastosowanie": "Do pieczywa, ziemniaków, gotowanych warzyw.",
+        "zrodlo": [
+          36
+        ],
+        "nazwa": "Maslo ziołowe z gwiazdnica"
+      }
+    ],
+    "zupa_krem_z_gwiazdnicy_i_groszku": [
+      {
+        "skladniki": [
+          "2 garście liści gwiazdnicy (świeże, surowe)",
+          "1 szklanka zielonego groszku (świeży lub mrożony)",
+          "1 ziemniak",
+          "1 cebula",
+          "750 ml bulionu warzywnego",
+          "2 łyżki śmietany",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Warzywa ugotować do miękkości, dodać gwiazdnicę, gotować jeszcze 2 min, całość zblendować. Podawać z kleksem śmietany.",
+        "cechy": [
+          "Kremowa, zielona konsystencja",
+          "Delikatny, słodki smak"
+        ],
+        "wlasciwosci": [
+          "sycąca, bogata w białko i witaminy"
+        ],
+        "zastosowanie": "Obiad, pierwsze danie.",
+        "zrodlo": [
+          37
+        ],
+        "nazwa": "Zupa krem z gwiazdnicy i groszku"
+      }
+    ],
+    "sałatka_z_kiszoną_gwiazdnicą_i_warzywami": [
+      {
+        "skladniki": [
+          "1 szklanka kiszonej gwiazdnicy (wg przepisu na kiszonkę powyżej)",
+          "1 ogórek małosolny",
+          "1 marchewka (starta)",
+          "1 łyżka oliwy",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Warzywa pokroić, wymieszać z kiszoną gwiazdnicą i oliwą, doprawić.",
+        "cechy": [
+          "Chrupiąca, lekko kwaśna",
+          "Orzeźwiająca"
+        ],
+        "wlasciwosci": [
+          "probiotyczna, bogata w błonnik"
+        ],
+        "zastosowanie": "Sałatka, przekąska, dodatek do obiadu.",
+        "zrodlo": [
+          38
+        ],
+        "nazwa": "Sałatka z kiszoną gwiazdnicą i warzywami"
+      }
+    ],
+    "zielony_majonez_z_gwiazdnica": [
+      {
+        "skladniki": [
+          "3 łyżki majonezu (domowy lub sklepowy, bez konserwantów)",
+          "1 garść liści gwiazdnicy (najlepiej świeże, surowe, drobno posiekane)",
+          "1 łyżeczka soku z cytryny",
+          "szczypta soli, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki dokładnie wymieszać. Schłodzić przed podaniem.",
+        "cechy": [
+          "Zielony kolor, kremowa konsystencja"
+        ],
+        "wlasciwosci": [
+          "dodaje świeżości i aromatu kanapkom"
+        ],
+        "zastosowanie": "Do kanapek, sałatek, jajek na twardo.",
+        "zrodlo": [
+          39
+        ],
+        "nazwa": "Zielony majonez z gwiazdnica"
+      }
+    ],
+    "zielony_serek_z_gwiazdnica": [
+      {
+        "skladniki": [
+          "200 g serka twarogowego (świeży, kremowy)",
+          "1 garść liści gwiazdnicy (świeże, drobno posiekane)",
+          "2 łyżki jogurtu naturalnego",
+          "szczypta soli"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki dokładnie wymieszać. Podawać na kanapkach lub do warzyw.",
+        "cechy": [
+          "Puszysty, lekko zielony",
+          "Delikatny smak"
+        ],
+        "wlasciwosci": [
+          "bogaty w białko, lekki"
+        ],
+        "zastosowanie": "Kanapki, dip do warzyw.",
+        "zrodlo": [
+          40
+        ],
+        "nazwa": "Zielony serek z gwiazdnica"
+      }
+    ],
+    "zielone_placuszki_z_serem_i_gwiazdnica": [
+      {
+        "skladniki": [
+          "1 szklanka twarogu (świeży, półtłusty)",
+          "2 łyżki mąki",
+          "1 jajko",
+          "1 garść liści gwiazdnicy (świeże, drobno posiekane)",
+          "sól, pieprz",
+          "olej do smażenia"
+        ],
+        "sposob_przygotowania": "Składniki wymieszać na gęste ciasto, smażyć małe placuszki na rozgrzanym oleju.",
+        "cechy": [
+          "Miękkie, zielonkawe",
+          "Ziołowy aromat"
+        ],
+        "wlasciwosci": [
+          "bogate w białko, sycące"
+        ],
+        "zastosowanie": "Śniadanie, przekąska, podwieczorek.",
+        "zrodlo": [
+          41
+        ],
+        "nazwa": "Zielone placuszki z serem i gwiazdnica"
+      }
+    ],
+    "sol_ziolowa_z_gwiazdnica": [
+      {
+        "skladniki": [
+          "1/2 szklanki soli kamiennej (nie jodowanej)",
+          "2 łyżki świeżych liści gwiazdnicy (najlepiej młode, posiekane)",
+          "1 łyżeczka suszonego czosnku",
+          "1/2 łyżeczki pieprzu ziołowego"
+        ],
+        "sposob_przygotowania": "Liście rozetrzeć z solą i przyprawami w moździerzu. Przechowywać w szczelnym słoiku.",
+        "cechy": [
+          "Aromatyczna, jasnozielona sól",
+          "Wyrazisty smak"
+        ],
+        "wlasciwosci": [
+          "wzbogaca smak potraw, naturalny konserwant"
+        ],
+        "zastosowanie": "Do zup, sałatek, masła ziołowego.",
+        "zrodlo": [
+          42
+        ],
+        "nazwa": "Sol ziolowa z gwiazdnica"
+      }
+    ],
+    "zielony_chlodnik_jogurtowy_z_gwiazdnica": [
+      {
+        "skladniki": [
+          "2 garście liści gwiazdnicy (najlepiej młode, surowe)",
+          "400 ml jogurtu naturalnego",
+          "2 ogórki gruntowe (surowe, pokrojone w kostkę)",
+          "1 łyżka soku z cytryny",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Liście gwiazdnicy posiekać, dodać do jogurtu razem z ogórkiem i przyprawami. Schłodzić.",
+        "cechy": [
+          "Zielony, kremowy, orzeźwiający"
+        ],
+        "wlasciwosci": [
+          "lekkostrawny, bogaty w wapń i witaminy"
+        ],
+        "zastosowanie": "Zupa na zimno, przekąska w upalne dni.",
+        "zrodlo": [
+          43
+        ],
+        "nazwa": "Zielony chlodnik jogurtowy z gwiazdnica"
+      }
+    ],
+    "pasta_z_ciecierzycy_i_gwiazdnicy": [
+      {
+        "skladniki": [
+          "1 szklanka ugotowanej ciecierzycy (może być z puszki, odsączona)",
+          "1 garść liści gwiazdnicy (najlepiej świeże, młode, surowe)",
+          "2 łyżki oliwy",
+          "1 łyżka soku z cytryny",
+          "1 ząbek czosnku",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki dokładnie zblendować na gładką pastę.",
+        "cechy": [
+          "Kremowa, zielona pasta",
+          "Ziołowy aromat"
+        ],
+        "wlasciwosci": [
+          "białkowa, odżywcza, lekko oczyszczająca"
+        ],
+        "zastosowanie": "Kanapki, dip do warzyw, wrapy.",
+        "zrodlo": [
+          44
+        ],
+        "nazwa": "Pasta z ciecierzycy i gwiazdnicy"
+      }
+    ],
+    "herbatka_miodowo_ziolowa_z_gwiazdnica": [
+      {
+        "skladniki": [
+          "1 łyżka świeżych liści gwiazdnicy (surowe)",
+          "1 łyżeczka kwiatu lipy (susz)",
+          "1/2 łyżeczki rumianku (susz)",
+          "250 ml wrzątku",
+          "1 łyżeczka miodu"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć pod przykryciem 7–10 min. Posłodzić miodem tuż przed podaniem.",
+        "cechy": [
+          "Ziołowy, lekko słodki napar"
+        ],
+        "wlasciwosci": [
+          "łagodzi, wspiera odporność, rozgrzewa"
+        ],
+        "zastosowanie": "Napar do picia na wieczór lub w czasie infekcji.",
+        "zrodlo": [
+          45
+        ],
+        "nazwa": "Herbatka miodowo ziolowa z gwiazdnica"
+      }
+    ],
+    "wiosenna_sałatka_gwiazdnica_szczaw_liść_mniszka_rzodkiewka_koper_oliwa": [
       {
         "nazwa": "Wiosenna sałatka (gwiazdnica, szczaw, liść mniszka, rzodkiewka, koper, oliwa)",
         "skladniki": [
@@ -971,7 +1074,9 @@
         "zrodlo": [
           38
         ]
-      },
+      }
+    ],
+    "zielone_smoothie_gwiazdnica_pokrzywa_banan_jabłko_cytryna_imbir_miód": [
       {
         "nazwa": "Zielone smoothie (gwiazdnica, pokrzywa, banan, jabłko, cytryna, imbir, miód)",
         "skladniki": [
@@ -996,7 +1101,9 @@
         "zrodlo": [
           39
         ]
-      },
+      }
+    ],
+    "pesto_z_gwiazdnicy_rukolą_pestkami_dyni_czosnkiem": [
       {
         "nazwa": "Pesto z gwiazdnicy, rukolą, pestkami dyni, czosnkiem",
         "skladniki": [
@@ -1019,7 +1126,9 @@
         "zrodlo": [
           40
         ]
-      },
+      }
+    ],
+    "jajecznica_z_gwiazdnicą_i_cebulką": [
       {
         "nazwa": "Jajecznica z gwiazdnicą i cebulką",
         "skladniki": [
@@ -1040,7 +1149,9 @@
         "zrodlo": [
           41
         ]
-      },
+      }
+    ],
+    "placki_z_gwiazdnicą_i_ziemniakami": [
       {
         "nazwa": "Placki z gwiazdnicą i ziemniakami",
         "skladniki": [
@@ -1062,7 +1173,9 @@
         "zrodlo": [
           42
         ]
-      },
+      }
+    ],
+    "zupa_krem_z_gwiazdnicy_ziemniaków_i_pora": [
       {
         "nazwa": "Zupa krem z gwiazdnicy, ziemniaków i pora",
         "skladniki": [
@@ -1083,7 +1196,9 @@
         "zrodlo": [
           43
         ]
-      },
+      }
+    ],
+    "sałatka_z_pomidorami_fetą_i_gwiazdnicą": [
       {
         "nazwa": "Sałatka z pomidorami, fetą i gwiazdnicą",
         "skladniki": [
@@ -1104,7 +1219,9 @@
         "zrodlo": [
           44
         ]
-      },
+      }
+    ],
+    "pasztet_z_gwiazdnicą_kaszą_jaglaną_i_marchewką": [
       {
         "nazwa": "Pasztet z gwiazdnicą, kaszą jaglaną i marchewką",
         "skladniki": [
@@ -1126,7 +1243,9 @@
         "zrodlo": [
           45
         ]
-      },
+      }
+    ],
+    "zielony_hummus_z_gwiazdnicą_i_pietruszką": [
       {
         "nazwa": "Zielony hummus z gwiazdnicą i pietruszką",
         "skladniki": [
@@ -1152,7 +1271,9 @@
         "zrodlo": [
           51
         ]
-      },
+      }
+    ],
+    "sałatka_z_gwiazdnicą_ogórkiem_i_koprem": [
       {
         "nazwa": "Sałatka z gwiazdnicą, ogórkiem i koprem",
         "skladniki": [
@@ -1176,7 +1297,9 @@
         "zrodlo": [
           52
         ]
-      },
+      }
+    ],
+    "placuszki_z_gwiazdnicy_i_pokrzywy": [
       {
         "nazwa": "Placuszki z gwiazdnicy i pokrzywy",
         "skladniki": [
@@ -1200,7 +1323,9 @@
         "zrodlo": [
           53
         ]
-      },
+      }
+    ],
+    "sos_pesto_z_gwiazdnicą_czosnaczkiem_i_bazylią": [
       {
         "nazwa": "Sos pesto z gwiazdnicą, czosnaczkiem i bazylią",
         "skladniki": [
@@ -1223,7 +1348,9 @@
         "zrodlo": [
           54
         ]
-      },
+      }
+    ],
+    "zupa_krem_z_gwiazdnicy_i_selera": [
       {
         "nazwa": "Zupa krem z gwiazdnicy i selera",
         "skladniki": [
@@ -1246,7 +1373,9 @@
         "zrodlo": [
           55
         ]
-      },
+      }
+    ],
+    "chłodnik_z_gwiazdnicą_szczypiorkiem_i_rzodkiewką": [
       {
         "nazwa": "Chłodnik z gwiazdnicą, szczypiorkiem i rzodkiewką",
         "skladniki": [
@@ -1269,7 +1398,9 @@
         "zrodlo": [
           56
         ]
-      },
+      }
+    ],
+    "sałatka_z_gwiazdnicy_jarmużu_i_kiszonego_ogórka": [
       {
         "nazwa": "Sałatka z gwiazdnicy, jarmużu i kiszonego ogórka",
         "skladniki": [
@@ -1292,7 +1423,9 @@
         "zrodlo": [
           57
         ]
-      },
+      }
+    ],
+    "zapiekanka_ziemniaczana_z_gwiazdnicą_i_szpinakiem": [
       {
         "nazwa": "Zapiekanka ziemniaczana z gwiazdnicą i szpinakiem",
         "skladniki": [
@@ -1315,7 +1448,9 @@
         "zrodlo": [
           58
         ]
-      },
+      }
+    ],
+    "tortilla_z_hummusem_z_gwiazdnicy_i_warzywami": [
       {
         "nazwa": "Tortilla z hummusem z gwiazdnicy i warzywami",
         "skladniki": [
@@ -1337,7 +1472,9 @@
         "zrodlo": [
           59
         ]
-      },
+      }
+    ],
+    "zielone_risotto_z_gwiazdnicą_i_koperkiem": [
       {
         "nazwa": "Zielone risotto z gwiazdnicą i koperkiem",
         "skladniki": [
@@ -1453,50 +1590,111 @@
     "48": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
   },
   "kalendarz": {
-    "siew": [
-      3,
-      4,
-      8,
-      9
-    ],
-    "zbior_ziele": [
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
-    "zbior_poranny": [
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
-    "zbior_pelnia": [
-      6
-    ],
-    "ekstrakcja": [
-      5,
-      6,
-      7
-    ],
-    "zbior_po_deszczu": [
-      6
-    ],
-    "rozmnazanie": [
-      4,
-      9
-    ],
-    "pielenie": [
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ]
+    "siew": {
+      "miesiące": [
+        3,
+        4,
+        9,
+        10
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Roślina samosiewna, ale można ją wysiewać ręcznie, by uzyskać zwartą pokrywę gruntu.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Stellaria+media"
+    },
+    "zbior_lisci": {
+      "miesiące": [
+        3,
+        4,
+        10,
+        11
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "zielarski",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Zbieraj przed kwitnieniem – liście są wtedy najdelikatniejsze i soczyste.",
+      "źródło": "https://rozanski.li/3043/stellaria-media-gwiazdnica-pospolita/"
+    },
+    "zbior_kwiatow": {
+      "miesiące": [
+        4,
+        5,
+        6
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "zielarski",
+      "czas_dnia": "ranek",
+      "intensywność": "niska",
+      "uwagi": "Kwiaty zbieraj w słoneczny poranek – można je suszyć lub używać świeżo jako ozdobę potraw.",
+      "źródło": "https://plantura.garden/uk/herbs/chickweed"
+    },
+    "zbior_calej_rosliny": {
+      "miesiące": [
+        3,
+        4,
+        10,
+        11
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "zielarski",
+      "czas_dnia": "w ciągu dnia",
+      "intensywność": "średnia",
+      "uwagi": "Całą nadziemną część rośliny można ścinać nożyczkami tuż nad ziemią – do suszenia lub soków.",
+      "źródło": "https://herbpathy.com/Uses-and-Benefits-of-Stellaria-Media-Cid3207"
+    },
+    "suszenie": {
+      "miesiące": [
+        4,
+        5,
+        6,
+        10
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "zielarski",
+      "czas_dnia": "po południu",
+      "intensywność": "symboliczna",
+      "uwagi": "Susz w cieniu, w temperaturze pokojowej, rozkładając cienką warstwą – liście łatwo ciemnieją.",
+      "źródło": "https://rozanski.li/3043/stellaria-media-gwiazdnica-pospolita/"
+    },
+    "nawozenie": {
+      "miesiące": [
+        3,
+        4
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "techniczny",
+      "czas_dnia": "w ciągu dnia",
+      "intensywność": "niska",
+      "uwagi": "Nie wymaga intensywnego nawożenia – korzysta z materii organicznej i próchnicy; dobrze reaguje na kompost roślinny.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Stellaria+media"
+    },
+    "przycinanie": {
+      "miesiące": [
+        4,
+        5,
+        9
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "techniczny",
+      "czas_dnia": "dowolny",
+      "intensywność": "średnia",
+      "uwagi": "Przycinanie zapobiega nadmiernemu rozrastaniu się – pobudza do tworzenia młodych pędów.",
+      "źródło": "https://www.gardenfocused.co.uk/vegetable/chickweed.php"
+    },
+    "zbior_ksiezycowy": {
+      "miesiące": [
+        4,
+        10
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "rytualny",
+      "czas_dnia": "wieczór",
+      "intensywność": "symboliczna",
+      "uwagi": "W tradycji ludowej zbierana przy pełni dla właściwości oczyszczających i ochronnych.",
+      "źródło": "https://www.thespruce.com/moon-phase-gardening-5219263"
+    }
   }
 }

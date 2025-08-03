@@ -1,98 +1,217 @@
 {% extends "base.html" %}
-{% block title %}{{ data.gatunek }} – Kwiatownik{% endblock %}
+{% block title %}{{ data.gatunek }}{% endblock %}
 {% block content %}
-
-<div class="plant-header">
-    <h1>{{ data.gatunek }}</h1>
+<div class="plant-container">
+    <!-- Hierarchia rodzinna -->
     <div class="plant-hierarchy">
-        {% if data.nazwa_zbioru %}
-        <span>
-                {% for n in data.nazwa_zbioru %}
-                    {{ n }}{% if not loop.last %} → {% endif %}
-                {% endfor %}
-            </span>
-        {% endif %}
-        {% if data.nazwa_lacinska %}
-        <span class="latin">({{ data.nazwa_lacinska }})</span>
-        {% endif %}
+        {% for part in data.nazwa_zbioru %}
+        <span>{{ part }} → </span>
+        {% endfor %}
     </div>
+
+    <!-- Tytuł rośliny -->
+    <h1 class="plant-name">{{ data.gatunek }}</h1>
+
+    <!-- Karuzela zdjęć -->
+    <div class="carousel-section">
+        <div class="carousel">
+            <span class="carousel-arrow left" onclick="prevImage()">&#x25C0;</span>
+            <img id="main-image" src="{{ data.zdjecia[0] }}" alt="{{ data.gatunek }}">
+            <span class="carousel-arrow right" onclick="nextImage()">&#x25B6;</span>
+        </div>
+        <div class="thumbnail-row">
+            {% for src in data.zdjecia %}
+            <img class="thumb" src="{{ src }}" onclick="setImage('{{ src }}', this)">
+            {% endfor %}
+        </div>
+    </div>
+    <!-- przyciski ulubione/ogród -->
     <div class="plant-actions" style="margin: 1.1em 0 1.5em 0; display: flex; gap: 1.1em;">
         <button type="button" class="plant-action-btn" id="fav-main-btn"></button>
         <button type="button" class="plant-action-btn" id="garden-main-btn"></button>
     </div>
-</div>
-<!-- Karuzela zdjęć -->
-{% if data.zdjecia and data.zdjecia|length > 0 %}
-<div class="carousel-container">
-    <div id="carousel" class="carousel">
-        {% for img in data.zdjecia %}
-        <img src="{{ img }}" loading="lazy" alt="Zdjęcie {{ data.gatunek }}">
-        {% endfor %}
+    <!-- MENU kafelkowe -->
+    <div class="tile-grid">
+        <div class="tile static">
+            <div class="tile-title">📜 Przepisy</div>
+            <div class="subtiles always-visible">
+                <div class="sub-tile" data-target="przepisy_medyczne">
+                    📘 Medyczne <span class="badge" id="count-medyczne"></span>
+                </div>
+                <div class="sub-tile" data-target="przepisy_kulinarne">
+                    🍲 Kulinarne <span class="badge" id="count-kulinarne"></span>
+                </div>
+                <!--        <div class="sub-tile" data-target="przepisy_kulinarne_napoje">-->
+                <!--          🧪 Napoje <span class="badge" id="count-napoje"></span>-->
+                <!--        </div>-->
+            </div>
+        </div>
+
+        <div class="tile static">
+            <div class="tile-title">🧬 Właściwości i składniki</div>
+            <div class="subtiles always-visible">
+                <div class="sub-tile" data-target="chemiczne">🧫 Skład chemiczny</div>
+                <div class="sub-tile" data-target="uprawa">🌱 Ogrodnictwo ‍🌾</div>
+                <!--        <div class="sub-tile" data-target="biologiczne">💪 Biologiczne</div>-->
+                <!--        <div class="sub-tile" data-target="magiczne">🧙 Magiczne</div>-->
+            </div>
+        </div>
+
+        <div class="tile static">
+            <div class="tile-title">📚 Historia i tradycja</div>
+            <div class="subtiles always-visible">
+                <div class="sub-tile" data-target="ziololecznictwo">🧙‍♀️ Ziołolecznictwo</div>
+                <div class="sub-tile" data-target="historyczne">⚔️ Historia</div>
+                <div class="sub-tile" data-target="legendy">🌍 Legendy</div>
+            </div>
+        </div>
+
+<!--        <div class="tile static">-->
+<!--            <div class="tile-title">⚠️ Uwagi i ostrzeżenia</div>-->
+<!--            <div class="subtiles always-visible">-->
+<!--                <div class="sub-tile" data-target="uwagi_i_ostrzezenia">🚨 Uwagi</div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <div class="tile static">-->
+<!--            <div class="tile-title">🧑‍🌾 Ogrodnictwo i ekologia</div>-->
+<!--            <div class="subtiles always-visible">-->
+
+<!--                &lt;!&ndash;        <div class="sub-tile" data-target="gleba">🌾 Gleba</div>&ndash;&gt;-->
+<!--                &lt;!&ndash;        <div class="sub-tile" data-target="nastepstwo">♻️ Następstwo</div>&ndash;&gt;-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
-    <button class="carousel-btn prev" onclick="carouselPrev()">&#9664;</button>
-    <button class="carousel-btn next" onclick="carouselNext()">&#9654;</button>
+
+    <!-- Statyczne sekcje (tytuły wewnątrz partiali) -->
+    <div id="dynamic-content" class="content-dynamic">
+
+        <div id="uwagi_i_ostrzezenia">
+            {% include "sections/uwagi.html" %}
+        </div>
+
+        <div id="chemiczne">
+            {% include "sections/chemiczne.html" %}
+        </div>
+
+        <div id="przepisy_medyczne">
+            {% include "sections/przepisy_medyczne.html" %}
+        </div>
+
+        <div id="przepisy_kulinarne">
+            {% include "sections/przepisy_kulinarne.html" %}
+        </div>
+
+        <div id="przepisy_kulinarne_napoje">
+            {% include "sections/przepisy_kulinarne_napoje.html" %}
+        </div>
+
+
+        <!--    <div id="biologiczne">-->
+        <!--      {% include "sections/biologiczne.html" %}-->
+        <!--    </div>-->
+
+        <!--    <div id="magiczne">-->
+        <!--      {% include "sections/magiczne.html" %}-->
+        <!--    </div>-->
+
+        <div id="ziololecznictwo">
+            {% include "sections/ziololecznictwo.html" %}
+        </div>
+
+        <div id="historyczne">
+            {% include "sections/historyczne.html" %}
+        </div>
+
+        <div id="legendy">
+            {% include "sections/legendy.html" %}
+        </div>
+
+        <div id="uprawa">
+            {% include "sections/uprawa.html" %}
+        </div>
+
+        <!--    <div id="gleba">-->
+        <!--      {% include "sections/gleba.html" %}-->
+        <!--    </div>-->
+
+        <!--    <div id="nastepstwo">-->
+        <!--      {% include "sections/nastepstwo.html" %}-->
+        <!--    </div>-->
+
+    </div>
+
+    <!-- Bibliografia -->
+    {% if data.bibliografia and data.bibliografia|length > 0 %}
+    <div class="bibliografia-section" id="bibliografia">
+        <h3>📚 Bibliografia / Źródła</h3>
+        <ul>
+            {% for num, url in data.bibliografia.items() %}
+            <li id="bib{{ num }}">
+                [{{ num }}] <a href="{{ url }}" target="_blank">{{ url }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        <a href="{{ url_for('bibliografia', category=category, plant=slug) }}">
+            → Zobacz pełną bibliografię rośliny
+        </a>
+    </div>
+    {% else %}
+    <div class="bibliografia-section" id="bibliografia">
+        <h3>📚 Bibliografia / Źródła</h3>
+        <p style="color:#999;">Brak przypisanych źródeł bibliograficznych.</p>
+    </div>
+    {% endif %}
+
 </div>
-{% endif %}
 
-<h2 style="margin:1em 0 0.5em 0; font-size:1.4em;">Wybierz grupę informacji</h2>
-<div class="tiles-menu" id="tiles-menu">
-    <button class="tile" data-group="historia"
-            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='historia') }}">🧬 Historia, cechy
-    </button>
-    <button class="tile" data-group="wlasciwosci"
-            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='wlasciwosci') }}">⚗️ Właściwości,
-        składniki
-    </button>
-    <button class="tile" data-group="uprawa"
-            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='uprawa') }}">🌱 Uprawa i występowanie
-    </button>
+<script src="/static/kafelki.js"></script>
 
-    {% set przepisy_med = (data.przepisy_medyczne|length if data.przepisy_medyczne else 0)
-    + (data.przepisy_z_innymi_roslinami.medyczne|length if data.przepisy_z_innymi_roslinami and
-    data.przepisy_z_innymi_roslinami.medyczne else 0) %}
-    {% set przepisy_kul = (data.przepisy_kulinarne|length if data.przepisy_kulinarne else 0)
-    + (data.przepisy_z_innymi_roslinami.kulinarne|length if data.przepisy_z_innymi_roslinami and
-    data.przepisy_z_innymi_roslinami.kulinarne else 0) %}
-
-    <button class="tile" data-group="przepisy_medyczne"
-            data-url="{{ url_for('fragment_przepisy_medyczne_all', category=category, plant=slug) }}">
-        💊 Przepisy medyczne <span class="badge">{{ przepisy_med }}</span>
-    </button>
-    <button class="tile" data-group="przepisy_kulinarne"
-            data-url="{{ url_for('fragment_przepisy_kulinarne_all', category=category, plant=slug) }}">
-        🥗 Przepisy kulinarne <span class="badge">{{ przepisy_kul }}</span>
-    </button>
-
-
-    <button class="tile" data-group="permakultura"
-            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='permakultura') }}">🌿 Permakultura
-    </button>
-    <button class="tile" data-group="inne"
-            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='inne') }}">🧴 Inne zastosowania
-    </button>
-    <button class="tile" data-group="uwagi"
-            data-url="{{ url_for('fragment', category=category, plant=slug, grupa='uwagi') }}">⚠️ Uwagi i ostrzeżenia
-    </button>
-</div>
-
-<!-- Miejsce na ładowane fragmenty -->
-<div id="plant-content" style="margin-top:2em;scroll-margin-top:80px;"></div>
-
-<!-- Bibliografia -->
-<div class="bibliografia-section" id="bibliografia">
-    <h3>Bibliografia / Źródła</h3>
-    <ul>
-        {% for num, url in data.bibliografia.items() %}
-        <li id="bib{{ num }}">[{{ num }}] <a href="{{ url }}" target="_blank">{{ url }}</a></li>
-        {% endfor %}
-    </ul>
-    <a href="{{ url_for('bibliografia', category=category, plant=slug) }}">→ Zobacz pełną bibliografię rośliny</a>
-</div>
 <script>
 function getFavs() { return JSON.parse(localStorage.getItem("favs") || "[]"); }
 function setFavs(v) { localStorage.setItem("favs", JSON.stringify(v)); }
 function getGarden() { return JSON.parse(localStorage.getItem("garden") || "[]"); }
 function setGarden(v) { localStorage.setItem("garden", JSON.stringify(v)); }
+
+  window.data = {{ data|tojson|safe }};
+  updateRecipeCounts(window.data);
+
+  // Scroll do danej sekcji
+  document.addEventListener("DOMContentLoaded", () => {
+    const HEADER_OFFSET = 80; // dostosuj w razie potrzeby
+
+    document.querySelectorAll(".sub-tile").forEach(el => {
+      el.addEventListener("click", () => {
+        const id = el.dataset.target;
+        const sec = document.getElementById(id);
+        if (sec) {
+          const top = sec.getBoundingClientRect().top + window.scrollY - HEADER_OFFSET;
+          window.scrollTo({ top, behavior: "smooth" });
+        }
+      });
+    });
+
+    // rozwijanie szczegółów
+    document.querySelectorAll('#dynamic-content details').forEach(detail => {
+      if (!detail.closest('#przepisy_medyczne') &&
+          !detail.closest('#przepisy_kulinarne') &&
+          !detail.closest('#przepisy_kulinarne_napoje')) {
+        detail.open = true;
+      }
+    });
+  });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    // wybieramy wszystkie <details> w dynamic-content
+    document.querySelectorAll('#dynamic-content details').forEach(detail => {
+      // ale pomijamy te, które są potomkami sekcji przepisów
+      if (!detail.closest('#przepisy_medyczne') &&
+          !detail.closest('#przepisy_kulinarne') &&
+          !detail.closest('#przepisy_kulinarne_napoje')) {
+        detail.open = true;
+      }
+    });
+  });
 
 function updatePlantButtons(category, slug) {
     let path = category + '/' + slug;
@@ -140,81 +259,80 @@ document.addEventListener("DOMContentLoaded", function() {
      if(typeof setupAccordionSections === "function") setupAccordionSections();
 });
 
+let currentIndex = 0;
+const images = window.data.zdjecia || [];
 
+function setImage(src, thumbElement) {
+    const mainImage = document.getElementById("main-image");
+    if (mainImage) mainImage.src = src;
 
+    document.querySelectorAll(".thumb").forEach(el => {
+        el.classList.remove("selected");
+    });
+    if (thumbElement) {
+        thumbElement.classList.add("selected");
+    }
+
+    currentIndex = images.indexOf(src);
+}
+
+function nextImage() {
+    if (!images.length) return;
+    currentIndex = (currentIndex + 1) % images.length;
+    setImage(images[currentIndex]);
+}
+
+function prevImage() {
+    if (!images.length) return;
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    setImage(images[currentIndex]);
+}
+document.addEventListener("DOMContentLoaded", () => {
+  const key = "{{ category }}/{{ slug }}";
+  const favBtn = document.getElementById("fav-btn");
+  const gardenBtn = document.getElementById("garden-btn");
+
+  if (!favBtn || !gardenBtn) return;
+
+  function updateButtons() {
+    const favs = JSON.parse(localStorage.getItem("favs") || "[]");
+    const garden = JSON.parse(localStorage.getItem("garden") || "[]");
+
+    const inFavs = favs.includes(key);
+    const inGarden = garden.includes(key);
+
+    favBtn.textContent = inFavs ? "Usuń z ulubionych" : "Dodaj do ulubionych";
+    gardenBtn.textContent = inGarden ? "Usuń z ogrodu" : "Dodaj do ogrodu";
+
+    favBtn.classList.toggle("active", inFavs);
+    gardenBtn.classList.toggle("active", inGarden);
+  }
+
+  function toggleItem(storageKey) {
+    const arr = JSON.parse(localStorage.getItem(storageKey) || "[]");
+    const idx = arr.indexOf(key);
+    if (idx > -1) arr.splice(idx, 1);
+    else arr.push(key);
+    localStorage.setItem(storageKey, JSON.stringify(arr));
+    updateButtons();
+  }
+
+  favBtn.addEventListener("click", () => toggleItem("favs"));
+  gardenBtn.addEventListener("click", () => toggleItem("garden"));
+
+  updateButtons();
+});
 </script>
 <style>
-.tiles-menu .tile.active {
-    background: #aedfa3 !important;
-    color: #184e10;
-    font-weight: bold;
-    border: 2px solid #67a75d;
-}
-.carousel-container {
-    position: relative;
-    margin-bottom: 1em;
-}
-.carousel {
-    width: 100%;
-    max-width: 420px;
-    margin: auto;
-    overflow: hidden;
-    border-radius: 9px;
-    box-shadow: 0 2px 8px #0001;
-}
-.carousel img {
-    width: 100%;
-    display: none;
-}
-.carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #fff;
-    border: none;
-    font-size: 2em;
-    padding: 0.1em 0.3em;
-    cursor: pointer;
-    opacity: 0.7;
-    border-radius: 50%;
-    transition: background 0.2s;
-}
-.carousel-btn.prev { left: 8px; }
-.carousel-btn.next { right: 8px; }
-.carousel-btn:hover { background: #e5f5e0; }
-.plant-action-btn.active {
-    background: #d4ebcf;
-    color: #234e18;
-    border: 1px solid #9cd893;
-    transition: background 0.13s;
-}
-.plant-action-btn {
-    background: #f4faf2;
-    color: #184e10;
-    border: 1px solid #d6eed5;
-    border-radius: 10px;
-    padding: 0.85em 1.8em;
-    font-size: 1.08em;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 0.7em;
-}
-.plant-action-btn:hover { background: #e0f2dc; }
-
-.tile .badge {
-    display: inline-block;
-    min-width: 1.8em;
-    padding: 0.09em 0.43em;
-    margin-left: 0.39em;
-    font-size: 0.97em;
-    color: #4c7441;
-    background: #e9fbe0;
-    border-radius: 9px;
-    font-weight: bold;
-    border: 1.5px solid #b6deac;
+  /* Zielone strzałki dla elementów details */
+  .medical-recipe-item summary::-webkit-details-marker { font-size: 1.2em; color: #16a34a; }
+  .medical-recipe-item summary::marker { font-size: 1.2em; color: #16a34a; }
+  .thumb.selected {
+  border: 2px solid #3c6;
+  border-radius: 4px;
 }
 
 </style>
-
+<link rel="stylesheet" href="/static/kafelki.css">
+<link rel="stylesheet" href="/static/przepisy_accordions.css">
 {% endblock %}

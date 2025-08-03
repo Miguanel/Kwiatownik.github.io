@@ -3,11 +3,37 @@ from markupsafe import Markup
 import os
 import json
 import re
+from datetime import datetime
+import ephem
+
+
+
+
+
 
 app = Flask(__name__)
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 CATEGORIES = ["drzewa", "krzewy", "ziola", "bulwy", "cebule", "egzotyczne"]
 
+
+
+def get_moon_phase():
+    now = datetime.utcnow()
+    moon = ephem.Moon(now)
+    phase = moon.phase  # 0–100
+
+    if phase < 1.5:
+        return ("🌑 Nów", round(phase, 1))
+    elif phase < 49:
+        return ("🌒 Faza rosnąca", round(phase, 1))
+    elif phase < 51:
+        return ("🌕 Pełnia", round(phase, 1))
+    elif phase < 99:
+        return ("🌘 Faza malejąca", round(phase, 1))
+    else:
+        return ("🌑 Nów", round(phase, 1))
+
+moon_phase, moon_percent = get_moon_phase()
 
 def highlight(text, q):
     # Bezpieczne podświetlenie
@@ -77,7 +103,13 @@ def all_plants():
 
 @app.route("/generator_przepisow")
 def generator_przepisow():
-    return render_template("generator_przepisow.html", all_plants=all_plants())
+    now = datetime.now()
+    moon_phase, moon_percent = get_moon_phase()
+    return render_template("generator_przepisow.html",
+                           all_plants=all_plants(),
+                           now=now,
+                           moon_phase=moon_phase,
+                           moon_percent=moon_percent)
 
 
 @app.route("/<category>/")
@@ -176,12 +208,23 @@ def search():
 
 @app.route("/ulubione")
 def ulubione():
-    return render_template("ulubione.html", all_plants=all_plants())
+    now = datetime.now()
+    moon_phase, moon_percent = get_moon_phase()
+    return render_template("ulubione.html",
+                           all_plants=all_plants(),
+                           now=now,
+                           moon_phase=moon_phase,
+                           moon_percent=moon_percent)
 
 
 @app.route("/kontakt")
 def kontakt():
-    return render_template("kontakt.html")
+    now = datetime.now()
+    moon_phase, moon_percent = get_moon_phase()
+    return render_template("kontakt.html",
+                           now=now,
+                           moon_phase=moon_phase,
+                           moon_percent=moon_percent)
 
 
 @app.route("/porownaj")
@@ -196,7 +239,14 @@ def porownaj():
             plant2 = (cat, load_plant(cat, roslina2))
     if not plant1 or not plant2:
         return "Nie znaleziono obu roślin", 404
-    return render_template("porownaj.html", plant1=plant1, plant2=plant2)
+    now = datetime.now()
+    moon_phase, moon_percent = get_moon_phase()
+    return render_template("porownaj.html",
+                           plant1=plant1,
+                           plant2=plant2,
+                           now=now,
+                           moon_phase=moon_phase,
+                           moon_percent=moon_percent)
 
 
 @app.route("/generator_ogrodu")
@@ -208,7 +258,19 @@ def generator_ogrodu():
 @app.route("/<category>/<plant>")
 def roslina(category, plant):
     data = load_plant(category, plant)
-    return render_template("roslina.html", data=data, slug=plant, category=category, all_plants=all_plants())
+    current_month = datetime.now().month  # 1 = styczeń, 12 = grudzień
+    now = datetime.now()
+    return render_template(
+        "roslina.html",
+        data=data,
+        slug=plant,
+        category=category,
+        all_plants=all_plants(),
+        now=now,
+        current_month=current_month,
+        moon_phase=moon_phase,
+        moon_percent=moon_percent
+    )
 
 
 @app.route("/<category>/<plant>/bibliografia")
@@ -250,11 +312,37 @@ def fragment_przepisy_medyczne_all(category, plant):
                            data=data)
 
 
+@app.route('/fragment/<category>/<plant>/przepisy/nalewki')
+def fragment_przepisy_nalewki_all(category, plant):
+    # Wczytaj dane i renderuj odpowiedni fragment
+    return render_template('fragment_przepisy_nalewki_all.html')
+
+
+@app.route('/fragment/<category>/<plant>/przepisy/napoje')
+def fragment_przepisy_napoje_all(category, plant):
+    # Wczytaj dane i renderuj odpowiedni fragment
+    return render_template('fragment_przepisy_napoje_all.html')
+
 @app.route("/")
 def index():
     tree = build_tree()
-    return render_template("index.html", tree=tree, all_plants=all_plants())
+    now = datetime.now()
+    moon_phase, moon_percent = get_moon_phase()
+    return render_template("index.html",
+                           tree=tree,
+                           all_plants=all_plants(),
+                           now=now,
+                           moon_phase=moon_phase,
+                           moon_percent=moon_percent)
 
+from flask import send_from_directory
 
+@app.route('/data/ziola/<path:filename>')
+def serve_data(filename):
+    return send_from_directory('data/ziola', filename)\
+
+@app.route('/data/drzewa/<path:filename>')
+def serve_datad(filename):
+    return send_from_directory('data/drzewa', filename)
 if __name__ == "__main__":
     app.run(debug=True)

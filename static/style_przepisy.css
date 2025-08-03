@@ -1,0 +1,83 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f8fc;
+  padding: 2em;
+  color: #2c3e50;
+}
+details.przepis-card {
+  background: #fff;
+  border-left: 6px solid #6b91b9;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(60,80,120,0.08);
+}
+summary.przepis-header {
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.icon {
+  display: inline-block;
+  width: 1.5em;
+  margin-right: 0.5em;
+  transition: transform 0.3s ease;
+}
+.przepis-content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.4s ease;
+  padding: 0 0.5em;
+}
+.przepis-content.expanded {
+  max-height: 1500px;
+  opacity: 1;
+  padding: 1.2em 1.5em;
+  background: #fcfdf9; /* jasno-kremowe tło */
+  border: 1px solid #d9e2d1; /* ziołowy akcent */
+  margin-top: 0.7em;
+  border-radius: 12px;
+  box-shadow: 0 1px 6px rgba(120, 140, 120, 0.12);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.przepis-content b {
+  color: #2c4c71;
+  display: block;
+  margin-top: 0.7em;
+  margin-bottom: 0.3em;
+  font-size: 1em;
+}
+.przepis-content b {
+  color: #3c5c3c;
+  font-weight: 600;
+  font-family: 'Georgia', serif;
+  margin-top: 1em;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.95rem;
+  border-bottom: 1px dotted #a9c3a2;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.4em;
+}
+
+.przepis-content ul {
+  padding-left: 1.2em;
+  margin-top: 0.3em;
+  margin-bottom: 0.8em;
+  list-style: square;
+  color: #5a7b5a;
+}
+
+.przepis-content a {
+  color: #6c8f6c;
+  text-decoration: none;
+}
+
+.przepis-content a:hover {
+  text-decoration: underline;
+}

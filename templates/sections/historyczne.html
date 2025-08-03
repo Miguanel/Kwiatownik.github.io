@@ -1,0 +1,16 @@
+<section id="sekcja-historyczne">
+  <h2>⚔️ Historia</h2>
+  {% if data.cechy_i_historia.opis %}<p>{{ data.cechy_i_historia.opis }}</p>{% endif %}
+  {% if data.cechy_i_historia.cechy %}
+    <h4>Cechy:</h4>
+    <ul>
+      {% for cecha in data.cechy_i_historia.cechy %}<li>{{ cecha }}</li>{% endfor %}
+    </ul>
+  {% endif %}
+  {% if data.cechy_i_historia.zastosowanie_historyczne %}
+    <h4>Zastosowania historyczne:</h4>
+    <ul>
+      {% for elem in data.cechy_i_historia.zastosowanie_historyczne %}<li>{{ elem }}</li>{% endfor %}
+    </ul>
+  {% endif %}
+</section>

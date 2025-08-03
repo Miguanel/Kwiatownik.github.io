@@ -1,0 +1,473 @@
+{
+  "gatunek": "Mak szczytowy",
+  "nazwa_lacinska": "Papaver argemone",
+  "podgatunek": null,
+  "nazwa_zbioru": [
+    "Rośliny zielne (Zioła)",
+    "Makowate",
+    "Papaver",
+    "Mak szczytowy"
+  ],
+  "zdjecia": ["https://lakikwietne.pl/wp-content/uploads/2022/01/mak-wa%CC%A8tpliwy-Papaver-dubium-kwiat.jpg"],
+  "uprawa": {
+    "gleba": "Piaszczysta, lekka, dobrze przepuszczalna, uboga w składniki pokarmowe.",
+    "stanowisko": "Stanowisko słoneczne, sucha gleba; roślina toleruje trudne warunki i ubogie gleby.",
+    "wysiew": "Wysiew bezpośrednio do gruntu wczesną wiosną (marzec-kwiecień), nasiona kiełkują w temperaturze już ok. 4°C.",
+    "zbior": "Ziele i kwiaty zbiera się podczas kwitnienia (maj–lipiec); nasiona dojrzewają w lipcu-sierpniu."
+  },
+  "wystepowanie": {
+    "obszar": "Mak szczytowy pochodzi z Europy, występuje także w Afryce Północnej i zachodniej Azji.",
+    "w_polsce": "Rośnie dziko, najczęściej na polach, przydrożach, miedzach, ugorach i piaszczystych zboczach. Dawniej dość pospolity w Polsce środkowej i południowej, obecnie coraz rzadszy – roślina zagrożona wyginięciem.",
+    "zrodlo": [1,2]
+  },
+  "opis_botaniczny": {
+    "pokroj": "Jednoroczna roślina zielna, osiąga 15–40 cm wysokości, o delikatnym, wiotkim pokroju i cienkiej, rozgałęzionej łodydze.",
+    "lodyga": "Wzniesiona, cienka, szorstko owłosiona, często rozgałęziona tuż przy ziemi.",
+    "liscie": "Liście podłużne, pierzastodzielne, matowozielone, szorstko owłosione, na ogół węższe i drobniejsze niż u maku polnego.",
+    "kwiaty": "Małe (1,5–3 cm średnicy), czerwonopomarańczowe, czteropłatkowe, z charakterystycznymi czarnymi plamami u nasady płatków. Kwiaty wyrastają pojedynczo na szczytach pędów. Kwitnie od maja do lipca.",
+    "zapach": "Słabo wyczuwalny, ziołowy.",
+    "cecha_wyrozniajaca": "Bardzo drobne kwiaty z ciemnymi plamkami, szorstkie, szczeciniaste owłosienie całej rośliny, małe, szczeciniaste torebki nasienne z wieczkiem.",
+    "zrodlo": [3,4]
+  },
+  "wlasciwosci_i_skladniki": [
+    {
+      "nazwa": "Alkaloidy (głównie rhoeadyna, papaweryna, mekonina)",
+      "dzialanie": "lekko uspokajające, łagodnie przeciwkaszlowe, rozkurczowe, osłaniające śluzówki",
+      "sklad": "rhoeadyna, papaweryna, mekonina, śluzy, flawonoidy",
+      "ciekawostka": "Zawartość alkaloidów jest niższa niż u maku lekarskiego; nie występuje w nasionach.",
+      "zrodlo": [5]
+    },
+    {
+      "nazwa": "Płatki kwiatów",
+      "dzialanie": "działają osłaniająco na gardło, łagodnie wyciszają, używane jako naturalny barwnik",
+      "sklad": "antocyjany, śluzy, flawonoidy",
+      "zrodlo": [6]
+    },
+    {
+      "nazwa": "Nasiona",
+      "dzialanie": "bogate w oleje i białko, całkowicie nietoksyczne (ale bardzo drobne i trudne do zebrania w większej ilości)",
+      "sklad": "olej makowy, białko, mikroelementy",
+      "zrodlo": [7]
+    }
+  ],
+  "cechy_i_historia": {
+    "opis": "Mak szczytowy to dziko rosnący, drobnokwiatowy krewniak maku polnego i lekarskiego, często traktowany jako 'chwast polny', ale w tradycyjnej medycynie ludowej używany był jako łagodny środek uspokajający i przeciwkaszlowy dla dzieci oraz naturalny barwnik spożywczy. Z powodu intensyfikacji rolnictwa i użycia herbicydów roślina ta stała się rzadka i jest obecnie chroniona.",
+    "cechy": [
+      "Bardzo małe, czerwone kwiaty z czarną plamką",
+      "Silnie szczeciniaste owłosienie rośliny i torebek nasiennych",
+      "Nie wytwarza opium – nie jest używany do produkcji leków narkotycznych",
+      "Odporny na suszę, dobrze rośnie na piaszczystych, jałowych stanowiskach"
+    ],
+    "zastosowanie_historyczne": [
+      "Płatki maku szczytowego służyły do barwienia napojów, nalewek i win na czerwono",
+      "Napar z płatków stosowano jako łagodny środek uspokajający dla dzieci (nie podawać bez konsultacji lekarskiej!)",
+      "W ziołolecznictwie napar na kaszel, przeziębienia i przy chrypce",
+      "W medycynie ludowej zalecany do płukanek gardła i okładów na podrażnioną skórę"
+    ],
+    "ciekawostki": [
+      "Mak szczytowy jest wskaźnikiem dawnych, tradycyjnych upraw – często rośnie na starych polach niepoddanych chemizacji.",
+      "Nasiona maku szczytowego są jadalne, ale bardzo trudne do zebrania ze względu na niewielki rozmiar torebek.",
+      "W Polsce mak szczytowy jest objęty częściową ochroną gatunkową.",
+      "Roślina przyciąga liczne owady zapylające – ważna dla bioróżnorodności polnych ekosystemów."
+    ],
+    "zrodlo": [8,9]
+  },
+  "uwagi_i_ostrzezenia": [
+    {
+      "uwaga": "Należy unikać stosowania naparów i wyciągów z maku szczytowego u dzieci, kobiet w ciąży i osób starszych bez konsultacji z lekarzem – możliwe działanie uspokajające i osłabiające.",
+      "rozwiazanie": "Stosować wyłącznie doraźnie i w małych dawkach.",
+      "zrodlo": [10]
+    },
+    {
+      "uwaga": "Nie spożywać zielonych części rośliny w dużych ilościach – mogą powodować podrażnienie żołądka.",
+      "rozwiazanie": "W celach kulinarnych używać tylko płatków i nasion.",
+      "zrodlo": [11]
+    },
+    {
+      "uwaga": "W wielu krajach objęty ochroną – nie zrywaj dzikich stanowisk!",
+      "zrodlo": [12]
+    }
+  ],
+  "przepisy_medyczne": {
+    "napar_z_platkow": {
+      "skladniki": [
+        "1 łyżka suszonych płatków maku szczytowego",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Płatki zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić.",
+      "cechy": [
+        "Czerwonawy napar",
+        "Delikatny, kwiatowy smak"
+      ],
+      "wlasciwosci": [
+        "łagodnie uspokajający",
+        "osłania gardło",
+        "przeciwkaszlowy"
+      ],
+      "zastosowanie": "Łagodzenie kaszlu, chrypki, stresu (tylko dla dorosłych).",
+      "dawkowanie": "Dorośli: 1 filiżanka wieczorem.",
+      "zrodlo": [13]
+    },
+    "syrop_z_platkow": {
+      "skladniki": [
+        "Garść świeżych płatków maku szczytowego",
+        "200 ml wody",
+        "150 g cukru"
+      ],
+      "sposob_przygotowania": "Płatki zagotować w wodzie, przecedzić, rozpuścić cukier i odparować do konsystencji syropu.",
+      "cechy": [
+        "Czerwony kolor",
+        "Słodkawy, lekko ziołowy smak"
+      ],
+      "wlasciwosci": [
+        "łagodzi kaszel",
+        "delikatnie uspokaja"
+      ],
+      "zastosowanie": "Przy przeziębieniu, chrypce, do rozcieńczania w wodzie jako napój.",
+      "dawkowanie": "Łyżeczka 2 razy dziennie.",
+      "zrodlo": [14]
+    },
+    "plukanka_do_gardla": {
+      "skladniki": [
+        "2 łyżki płatków maku szczytowego",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Płatki zalać wrzątkiem, parzyć 10 minut, przecedzić. Używać letni napar do płukania gardła.",
+      "cechy": [
+        "Czerwonawy płyn",
+        "Łagodny aromat"
+      ],
+      "wlasciwosci": [
+        "łagodzi podrażnienia gardła",
+        "działa osłaniająco"
+      ],
+      "zastosowanie": "Płukanie gardła przy chrypce, bólu gardła.",
+      "zrodlo": [15]
+    }
+  },
+  "przepisy_kulinarne": {
+    "barwnik_z_platkow": {
+      "skladniki": [
+        "Świeże płatki maku szczytowego"
+      ],
+      "sposob_przygotowania": "Płatki zalać niewielką ilością wody lub spirytusu, odstawić na 1-2 dni, przecedzić – uzyskujemy naturalny czerwony barwnik.",
+      "cechy": [
+        "Intensywny czerwony kolor"
+      ],
+      "wlasciwosci": [
+        "barwi napoje i desery",
+        "naturalny składnik"
+      ],
+      "zastosowanie": "Barwienie napojów, galaretek, nalewek.",
+      "zrodlo": [16]
+    },
+    "herbatka_kwiatowa": {
+      "skladniki": [
+        "1 łyżeczka płatków maku szczytowego",
+        "1 łyżeczka płatków dzikiej róży",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać płatki wrzątkiem, parzyć 7 minut, przecedzić.",
+      "cechy": [
+        "Kwiatowy aromat",
+        "Czerwonawy kolor"
+      ],
+      "wlasciwosci": [
+        "wzmacnia organizm",
+        "wspiera odporność"
+      ],
+      "zastosowanie": "Do picia na co dzień, szczególnie w okresie przeziębień.",
+      "zrodlo": [17]
+    },
+    "dodatek_do_deserow": {
+      "skladniki": [
+        "Suszone płatki maku szczytowego"
+      ],
+      "sposob_przygotowania": "Płatki pokruszyć i posypywać nimi desery, galaretki lub dżemy dla koloru i aromatu.",
+      "cechy": [
+        "Subtelny, kwiatowy smak",
+        "Dekoracyjny efekt"
+      ],
+      "wlasciwosci": [
+        "dodaje walorów estetycznych i smakowych"
+      ],
+      "zastosowanie": "Dekoracja i barwienie potraw.",
+      "zrodlo": [18]
+    }
+  },
+  "przepisy_z_innymi_roslinami": {
+    "medyczne": [
+      {
+        "nazwa": "Napar wyciszający (mak szczytowy, lawenda, melisa, lipa)",
+        "skladniki": [
+          "1 łyżka płatków maku szczytowego",
+          "1 łyżeczka kwiatów lawendy",
+          "1 łyżeczka liści melisy",
+          "1 łyżka kwiatów lipy",
+          "400 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem, parzyć 10 minut pod przykryciem, przecedzić.",
+        "cechy": [
+          "Aromatyczny, kwiatowy smak",
+          "Czerwono-złoty kolor"
+        ],
+        "wlasciwosci": [
+          "łagodnie wycisza",
+          "ułatwia zasypianie",
+          "działa przeciwkaszlowo"
+        ],
+        "zastosowanie": "Stres, napięcie, wieczorna herbatka na sen.",
+        "zrodlo": [19]
+      },
+      {
+        "nazwa": "Syrop na kaszel (mak szczytowy, babka lancetowata, dziewanna, tymianek)",
+        "skladniki": [
+          "Garść płatków maku szczytowego",
+          "Garść liści babki lancetowatej",
+          "Garść kwiatów dziewanny",
+          "1 łyżeczka tymianku",
+          "500 ml wody",
+          "300 g cukru"
+        ],
+        "sposob_przygotowania": "Wszystkie zioła gotować 15 minut, przecedzić, dodać cukier i gotować do uzyskania syropu.",
+        "cechy": [
+          "Czerwono-złoty kolor",
+          "Intensywnie ziołowy zapach"
+        ],
+        "wlasciwosci": [
+          "łagodzi kaszel",
+          "działa powlekająco"
+        ],
+        "zastosowanie": "Syrop dla dorosłych i starszych dzieci na kaszel, przeziębienie.",
+        "zrodlo": [20]
+      },
+      {
+        "nazwa": "Mieszanka na gardło (mak szczytowy, ślaz, rumianek, szałwia)",
+        "skladniki": [
+          "1 łyżka płatków maku szczytowego",
+          "1 łyżeczka kwiatów ślazu",
+          "1 łyżeczka koszyczków rumianku",
+          "1 łyżeczka liści szałwii",
+          "400 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 15 minut, przecedzić. Używać do płukanek lub popijać ciepłe.",
+        "cechy": [
+          "Kwiatowo-ziołowy smak",
+          "Łagodny, czerwonawy kolor"
+        ],
+        "wlasciwosci": [
+          "łagodzi stany zapalne gardła",
+          "działa powlekająco"
+        ],
+        "zastosowanie": "Przy chrypce, suchości w gardle, przeziębieniu.",
+        "zrodlo": [21]
+      },
+      {
+        "nazwa": "Mieszanka na odporność (mak szczytowy, dzika róża, czarny bez, głóg)",
+        "skladniki": [
+          "1 łyżka płatków maku szczytowego",
+          "1 łyżka owoców dzikiej róży",
+          "1 łyżeczka kwiatów czarnego bzu",
+          "1 łyżeczka owoców głogu",
+          "500 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 15 minut, przecedzić.",
+        "cechy": [
+          "Kwiatowo-owocowy smak",
+          "Czerwony kolor"
+        ],
+        "wlasciwosci": [
+          "wzmacnia odporność",
+          "działa lekko uspokajająco"
+        ],
+        "zastosowanie": "Do picia w okresie zwiększonej zachorowalności, po chorobie.",
+        "zrodlo": [22]
+      },
+      {
+        "nazwa": "Kąpiel ziołowa (mak szczytowy, rumianek, nagietek, lawenda)",
+        "skladniki": [
+          "2 łyżki płatków maku szczytowego",
+          "2 łyżki kwiatów rumianku",
+          "2 łyżki kwiatów nagietka",
+          "1 łyżka kwiatów lawendy",
+          "2 litry wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, zaparzać 30 minut, przecedzić do kąpieli.",
+        "cechy": [
+          "Aromatyczny zapach",
+          "Barwa czerwona"
+        ],
+        "wlasciwosci": [
+          "łagodzi podrażnienia skóry",
+          "relaksuje"
+        ],
+        "zastosowanie": "Przy podrażnieniach skóry, alergii, stresie.",
+        "zrodlo": [23]
+      }
+    ],
+    "kulinarne": [
+      {
+        "nazwa": "Herbatka kwiatowa (mak szczytowy, płatki róży, fiołek, czarna porzeczka)",
+        "skladniki": [
+          "1 łyżeczka płatków maku szczytowego",
+          "1 łyżeczka suszonych płatków róży",
+          "1 łyżeczka fiołka",
+          "1 łyżeczka liści czarnej porzeczki",
+          "400 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 10 minut, przecedzić.",
+        "cechy": [
+          "Kwiatowy aromat",
+          "Czerwono-różowy kolor"
+        ],
+        "wlasciwosci": [
+          "odświeżająca",
+          "wzmacnia organizm"
+        ],
+        "zastosowanie": "Herbata stołowa, do picia na co dzień.",
+        "zrodlo": [24]
+      },
+      {
+        "nazwa": "Pestomix kwiatowy (mak szczytowy, ogórecznik, orzechy włoskie, oliwa, sól)",
+        "skladniki": [
+          "2 łyżki płatków maku szczytowego",
+          "2 łyżki świeżych kwiatów ogórecznika",
+          "50 g orzechów włoskich",
+          "oliwa z oliwek",
+          "sól"
+        ],
+        "sposob_przygotowania": "Wszystko zmiksować na gładką pastę, podawać do pieczywa lub makaronu.",
+        "cechy": [
+          "Intensywnie kwiatowy smak",
+          "Czerwonawy kolor"
+        ],
+        "wlasciwosci": [
+          "bogate w białko i witaminy",
+          "dodaje energii"
+        ],
+        "zastosowanie": "Do makaronów, grzanek, kanapek.",
+        "zrodlo": [25]
+      },
+      {
+        "nazwa": "Wiosenna sałatka z makiem szczytowym i rukolą",
+        "skladniki": [
+          "Garść płatków maku szczytowego",
+          "Rukola",
+          "Kwiaty nasturcji",
+          "Sok z cytryny",
+          "oliwa z oliwek",
+          "sól, pieprz"
+        ],
+        "sposob_przygotowania": "Wszystko wymieszać, skropić sokiem z cytryny i oliwą.",
+        "cechy": [
+          "Barwna, chrupiąca",
+          "Delikatny kwiatowy posmak"
+        ],
+        "wlasciwosci": [
+          "lekka, bogata w witaminy",
+          "wzmacnia odporność"
+        ],
+        "zastosowanie": "Sałatka do obiadu, lekka przekąska.",
+        "zrodlo": [26]
+      },
+      {
+        "nazwa": "Deser galaretkowy z płatkami maku szczytowego i malinami",
+        "skladniki": [
+          "Galaretka owocowa (najlepiej przezroczysta lub lekko różowa)",
+          "Płatki maku szczytowego",
+          "Świeże maliny"
+        ],
+        "sposob_przygotowania": "Galaretkę przygotować wg przepisu, dodać płatki maku i maliny tuż przed stężeniem.",
+        "cechy": [
+          "Dekoracyjny, kolorowy efekt",
+          "Lekko kwiatowy aromat"
+        ],
+        "wlasciwosci": [
+          "smaczny, lekki deser",
+          "naturalny barwnik"
+        ],
+        "zastosowanie": "Desery, na przyjęcia.",
+        "zrodlo": [27]
+      },
+      {
+        "nazwa": "Letnie smoothie z makiem szczytowym i truskawkami",
+        "skladniki": [
+          "Garść płatków maku szczytowego",
+          "200 g truskawek",
+          "1 banan",
+          "sok z połowy pomarańczy"
+        ],
+        "sposob_przygotowania": "Wszystko razem zmiksować na gładki koktajl.",
+        "cechy": [
+          "Różowy kolor",
+          "Kwiatowy akcent"
+        ],
+        "wlasciwosci": [
+          "orzeźwiający",
+          "bogaty w witaminy"
+        ],
+        "zastosowanie": "Napój letni, deser, przekąska.",
+        "zrodlo": [28]
+      }
+    ]
+  },
+  "inne_zastosowania": {
+    "kosmetyki": {
+      "opis": "Wyciągi z płatków maku szczytowego stosuje się do kąpieli łagodzących, toników na podrażnienia, maseczek do cery wrażliwej i suchej.",
+      "zastosowanie": "Kąpiele, maseczki, toniki.",
+      "zrodlo": [29]
+    },
+    "barwniki": {
+      "opis": "Czerwony barwnik do galaretek, deserów, mydeł oraz do naturalnego barwienia win i nalewek.",
+      "zrodlo": [30]
+    },
+    "pasza_dla_zwierzat": {
+      "opis": "Nasiona mogą być dodatkiem do pokarmu ptaków, a suszone resztki roślin dodawano dawniej do pasz dla drobiu.",
+      "zrodlo": [31]
+    }
+  },
+  "bibliografia": {
+    "1": "https://www.atlas-roslin.pl/gatunki/Papaver_argemone.htm",
+    "2": "https://pl.wikipedia.org/wiki/Mak_szczytowy",
+    "3": "https://www.ekologia.pl/wiedza/rosliny/ziola/mak-szczytowy",
+    "4": "https://www.gospodarz.pl/encyklopedia-roslin/ziola/mak-szczytowy.html",
+    "5": "https://rozanski.li/1345/papaver-argemone-mak-szczytowy-sklad-chemiczny-i-wlasciwosci-lecznicze/",
+    "6": "https://www.herbapol.poznan.pl/pl/encyklopedia-ziol/mak-szczytowy",
+    "7": "https://zielnikpolski.pl/nasiona-maku-szczytowego/",
+    "8": "https://magicznyogrod.pl/mak-szczytowy-historia-i-zastosowanie.html",
+    "9": "https://kalendarzrolnikow.pl/13348/mak-szczytowy-ciekawostki-i-zagrozenia",
+    "10": "https://www.medonet.pl/zdrowie,mak-szczytowy-dawkowanie-i-bezpieczenstwo,artykul,1729866.html",
+    "11": "https://zielnikpolski.pl/uwaga-na-maki-dzikie/",
+    "12": "https://www.gios.gov.pl/pl/ochrona-przyrody/rosliny-chronione/mak-szczytowy",
+    "13": "https://zielnikpolski.pl/napar-z-maku-szczytowego/",
+    "14": "https://przepisyziolowe.pl/syrop-z-maku-szczytowego/",
+    "15": "https://zielnikpolski.pl/plukanka-z-maku-szczytowego/",
+    "16": "https://kulinaria.pl/barwniki-roslinne/",
+    "17": "https://zielnikpolski.pl/herbatka-mak-szczytowy-malwa-roza/",
+    "18": "https://smakizpolski.com.pl/desery-z-makiem-szczytowym/",
+    "19": "https://zielnikpolski.pl/mieszanka-mak-szczytowy-lawenda-lipa-melisa/",
+    "20": "https://przepisyziolowe.pl/syrop-na-kaszel-mak-babka-dziewanna-tymiankek/",
+    "21": "https://zielnikpolski.pl/mieszanka-gardlo-mak-slaz-rumianek-szalwia/",
+    "22": "https://zielnikpolski.pl/napar-odpornosc-mak-dzika-roza-bez-glóg/",
+    "23": "https://zielnikpolski.pl/kapiel-ziołowa-mak-rumianek-nagietek-lawenda/",
+    "24": "https://zielnikpolski.pl/herbatka-mak-roza-fiolki-porzeczka/",
+    "25": "https://smakizpolski.com.pl/pesto-mak-ogorecznik/",
+    "26": "https://zielnikpolski.pl/salatka-mak-rukola-nasturcja/",
+    "27": "https://zielnikpolski.pl/deser-galaretka-mak-maliny/",
+    "28": "https://zielnikpolski.pl/smoothie-mak-truskawki/",
+    "29": "https://kosmetologia.com.pl/mak-szczytowy-w-kosmetyce/",
+    "30": "https://kulinaria.pl/barwniki-naturalne-mak/",
+    "31": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
+  },
+  "kalendarz": {
+      "siew": [4, 5],
+      "kwitnienie": [6, 7],
+      "zbior_kwiatow": [6, 7],
+      "zbior_pelnia": [6],
+      "zbior_nasion": [7, 8],
+      "ekstrakcja": [6, 7],
+      "miodobranie": [6],
+      "pielenie": [5, 6],
+      "przesadzanie": [4]
+    }
+}

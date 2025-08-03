@@ -136,7 +136,10 @@ function highlightMultiple(text, queries) {
     });
     return text;
 }
-
+function formatTitle(rawTitle) {
+    const withSpaces = rawTitle.replaceAll('_', ' ');
+    return withSpaces.charAt(0).toUpperCase() + withSpaces.slice(1);
+}
 // Wyniki w eleganckiej sekcji
 function triggerSearch() {
     let queries = Array.from(document.querySelectorAll('.recipe-search-input'))
@@ -175,7 +178,8 @@ function triggerSearch() {
                 <span class="latin">(${plant.latin})</span>
                 <span class="przepis-type">${typ.replace('-',' ')}</span>
             </div>
-            <div class="przepis-title">${highlightMultiple(nazwa, queries)}</div>
+            <div class="przepis-title">${highlightMultiple(formatTitle(nazwa), queries)}</div>
+
             <div class="przepis-content">
                 <b>Składniki:</b>
                 <ul>${(przepis.skladniki||[]).map(s => `<li>${highlightMultiple(s, queries)}</li>`).join('')}</ul>

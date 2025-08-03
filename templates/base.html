@@ -25,7 +25,9 @@
             <a href="/ulubione">Ulubione w ogrodzie</a>
             <a href="/generator_przepisow">Generator przepisów - mam to</a>
             <a href="/kontakt">Kontakt</a>
-
+            <div class="moon-bar">
+                📅 {{ now.strftime('%d %B %Y') }} | 🌙 {{ moon_phase }} ({{ moon_percent }}%)
+            </div>
         </nav>
         <button class="search-btn" aria-label="Szukaj roślin" onclick="window.location.href='/szukaj'">🔍</button>
     </header>
@@ -36,7 +38,7 @@
         </div>
     </main>
     <footer>
-        <small>&copy; {{ now().year if now else '1936' }} Kwiatownik. Wszelkie prawa zastrzeżone.</small>
+        <small>&copy; {{ now.year if now else '1936' }} Kwiatownik. Wszelkie prawa zastrzeżone.</small>
     </footer>
 </div>
 
@@ -53,33 +55,46 @@ function validQuery(val) {
 
 // Zbierz przepisy (identycznie jak wcześniej)
 function gatherAllRecipes() {
-    let out = [];
-    allPlantsData.forEach(plant => {
-        ["przepisy_medyczne", "przepisy_kulinarne"].forEach(type => {
-            let group = plant.data[type] || {};
-            Object.entries(group).forEach(([nazwa, przepis]) => {
-                out.push({
-                    typ: type.includes("medyczne") ? "medyczny" : "kulinarny",
-                    plant: plant,
-                    nazwa: nazwa,
-                    przepis: przepis
-                });
-            });
+  let out = [];
+  allPlantsData.forEach(plant => {
+    ["przepisy_medyczne", "przepisy_kulinarne"].forEach(type => {
+      let group = plant.data[type] || {};
+      Object.entries(group).forEach(([nazwa, przepis]) => {
+        out.push({
+          typ: type.includes("medyczne") ? "medyczny" : "kulinarny",
+          plant: plant,
+          nazwa: nazwa,
+          przepis: przepis
         });
-        let zinnymi = plant.data.przepisy_z_innymi_roslinami || {};
-        Object.entries(zinnymi).forEach(([podtyp, arr]) => {
-            arr.forEach(przepis => {
-                out.push({
-                    typ: podtyp == "medyczne" ? "medyczny-z-innych" : "kulinarny-z-innych",
-                    plant: plant,
-                    nazwa: przepis.nazwa,
-                    przepis: przepis
-                });
-            });
-        });
+      });
     });
-    return out;
+
+    let zinnymi = plant.data.przepisy_z_innymi_roslinami || {};
+    Object.entries(zinnymi).forEach(([podtyp, grupy]) => {
+      if (typeof grupy === "object" && grupy !== null) {
+        Object.entries(grupy).forEach(([podkategoria, arr]) => {
+          if (Array.isArray(arr)) {
+            arr.forEach(przepis => {
+              out.push({
+                typ: podtyp == "medyczne" ? "medyczny-z-innych" : "kulinarny-z-innych",
+                podtyp: podkategoria,
+                plant: plant,
+                nazwa: przepis.nazwa,
+                przepis: przepis
+              });
+            });
+          } else {
+            console.warn("Oczekiwano tablicy w podkategorii:", podtyp, podkategoria, arr);
+          }
+        });
+      } else {
+        console.warn("Nieprawidłowe dane główne w przepisach z innymi roślinami:", podtyp, grupy);
+      }
+});
+  });
+  return out;
 }
+
 const ALL_RECIPES = gatherAllRecipes();
 
 function addInputField() {
@@ -134,58 +149,7 @@ function highlightMultiple(text, queries) {
     return text;
 }
 
-// Szukanie przepisów
-function triggerSearch() {
-    let queries = Array.from(document.querySelectorAll('.recipe-search-input'))
-        .map(e => e.value.trim().toLowerCase())
-        .filter(validQuery);
 
-    let resultsDiv = document.getElementById("searchResults");
-    if(queries.length === 0) {
-        resultsDiv.innerHTML = "<i>Wpisz co najmniej jedno słowo kluczowe (3–120 znaków)…</i>";
-        return;
-    }
-    // Filtrowanie przepisów
-    let found = ALL_RECIPES.filter(({przepis}) => {
-        return queries.every(q =>
-            (przepis.skladniki && przepis.skladniki.some(s => s.toLowerCase().includes(q))) ||
-            (przepis.wlasciwosci && przepis.wlasciwosci.some(w => w.toLowerCase().includes(q))) ||
-            (przepis.cechy && przepis.cechy.some(c => c.toLowerCase().includes(q))) ||
-            (przepis.zastosowanie && przepis.zastosowanie.toLowerCase().includes(q)) ||
-            (przepis.sposob_przygotowania && przepis.sposob_przygotowania.toLowerCase().includes(q)) ||
-            (przepis.nazwa && przepis.nazwa.toLowerCase().includes(q))
-        );
-    });
-
-    if(found.length === 0) {
-        resultsDiv.innerHTML = "<div style='margin-top:1.5em;color:#c43;font-weight:bold;'>Brak przepisów spełniających wszystkie warunki.</div>";
-        return;
-    }
-    let html = `<ul class="search-results">`;
-    found.forEach(({typ, plant, nazwa, przepis}) => {
-        html += `
-        <li class="result-item">
-            <div class="plant-title">
-                <a href="/${plant.category}/${plant.slug}">${plant.name}</a>
-                <span class="latin">(${plant.latin})</span>
-                <span style="margin-left:0.7em;font-size:0.98em;background:#e8f7df;padding:0.2em 0.6em;border-radius:7px;">${typ.replace('-',' ')}</span>
-            </div>
-            <div class="przepis-title" style="font-weight:bold;font-size:1.07em;margin:0.7em 0;">${highlightMultiple(nazwa, queries)}</div>
-            <div class="przepis-content">
-                <b>Składniki:</b>
-                <ul>${(przepis.skladniki||[]).map(s => `<li>${highlightMultiple(s, queries)}</li>`).join('')}</ul>
-                ${przepis.sposob_przygotowania ? `<b>Sposób przygotowania:</b> <div>${highlightMultiple(przepis.sposob_przygotowania, queries)}</div>` : ''}
-                ${przepis.cechy ? `<b>Cechy:</b> <ul>${(przepis.cechy||[]).map(c=>`<li>${highlightMultiple(c, queries)}</li>`).join('')}</ul>` : ''}
-                ${przepis.wlasciwosci ? `<b>Właściwości:</b> <ul>${(przepis.wlasciwosci||[]).map(w=>`<li>${highlightMultiple(w, queries)}</li>`).join('')}</ul>` : ''}
-                ${przepis.zastosowanie ? `<b>Zastosowanie:</b> <div>${highlightMultiple(przepis.zastosowanie, queries)}</div>` : ''}
-                ${przepis.dawkowanie ? `<b>Dawkowanie:</b> <div>${highlightMultiple(przepis.dawkowanie, queries)}</div>` : ''}
-            </div>
-        </li>
-        `;
-    });
-    html += `</ul>`;
-    resultsDiv.innerHTML = html;
-}
 
 // Inicjalizacja – tylko 1 pole na start
 if (searchInputsDiv) {
@@ -193,6 +157,7 @@ if (searchInputsDiv) {
     addInputField();
     triggerSearch();
 }
+
 
 </script>
 
@@ -256,6 +221,7 @@ if(localStorage.getItem("kwiatownik_greeting") !== GREETING_VERSION) {
             document.getElementById('welcome-modal').style.display = 'flex';
         });
 }
+
 
 </script>
 

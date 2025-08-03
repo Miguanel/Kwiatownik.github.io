@@ -123,365 +123,152 @@
     }
   ],
   "przepisy_medyczne": {
-    "napar_z_platkow": {
-      "skladniki": [
-        "1 łyżka suszonych płatków maku lekarskiego (najlepiej młode, czerwone płatki, bez zanieczyszczeń)",
-        "250 ml wrzątku (świeża, przefiltrowana woda)"
-      ],
-      "sposob_przygotowania": "Płatki zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić przez sitko.",
-      "cechy": [
-        "Czerwony lub różowy napar",
-        "Łagodny, lekko kwiatowy smak"
-      ],
-      "wlasciwosci": [
-        "łagodnie uspokajający",
-        "działa przeciwkaszlowo",
-        "lekko nasenny (nie powoduje głębokiego snu jak opiaty)"
-      ],
-      "zastosowanie": "Łagodzenie kaszlu, trudności w zasypianiu, delikatne napięcie nerwowe. Uwaga – nie podawać dzieciom i kobietom w ciąży bez konsultacji z lekarzem.",
-      "dawkowanie": "Dorośli: 1 filiżanka naparu na noc, nie dłużej niż przez 5 dni.",
-      "zrodlo": [
-        14
-      ]
-    },
-    "syrop_z_platkow": {
-      "skladniki": [
-        "Garść świeżych płatków maku lekarskiego (najlepiej młode, czyste płatki, bez pręcików)",
-        "250 ml wody (przegotowanej, przestudzonej)",
-        "200 g cukru (lub miodu – dla starszych dzieci i dorosłych)"
-      ],
-      "sposob_przygotowania": "Płatki zagotować w wodzie przez 3–5 minut na wolnym ogniu, odcedzić, dodać cukier lub miód, zagotować ponownie do zgęstnienia syropu. Przelać do ciemnej butelki.",
-      "cechy": [
-        "Intensywny czerwony syrop",
-        "Słodki, lekko korzenny smak"
-      ],
-      "wlasciwosci": [
-        "łagodzi kaszel",
-        "działa uspokajająco",
-        "lekko przeciwzapalny na gardło"
-      ],
-      "zastosowanie": "Kaszel suchy i męczący, podrażnienie gardła, przeziębienia. Dla dzieci powyżej 10 r.ż. i dorosłych.",
-      "dawkowanie": "Łyżeczka 2–3 razy dziennie. Nie przekraczać tygodnia stosowania.",
-      "zrodlo": [
-        15
-      ]
-    },
-    "odwar_z_glowek": {
-      "skladniki": [
-        "1 suszona główka maku lekarskiego (bez nasion, tylko główka)",
-        "250 ml wody"
-      ],
-      "sposob_przygotowania": "Pokruszoną główkę zalać wodą, gotować 15 minut pod przykryciem, odcedzić. Uwaga – napój silnie działający, dziś niezalecany w domowych warunkach (tylko do celów farmaceutycznych i pod ścisłą kontrolą lekarza).",
-      "cechy": [
-        "Ciemny, gęsty napar",
-        "Intensywny, lekko ziemisty aromat"
-      ],
-      "wlasciwosci": [
-        "silnie nasenny",
-        "działa przeciwbólowo",
-        "zawiera śladowe ilości naturalnych alkaloidów opium (morfina, kodeina, papaweryna)"
-      ],
-      "zastosowanie": "Dawniej stosowany na silne bóle, bezsenność, kolki. Obecnie – zakazany do użytku domowego w większości krajów, wymaga recepty i nadzoru lekarza.",
-      "dawkowanie": "Nie stosować samodzielnie! Uwaga – przedawkowanie grozi śmiercią.",
-      "zrodlo": [
-        16
-      ]
-    },
-    "macerat_z_nasion": {
-      "skladniki": [
-        "2 łyżki niebieskiego maku (nasiona maku lekarskiego, najlepiej świeżo zmielone lub rozdrobnione)",
-        "200 ml letniej, przegotowanej wody"
-      ],
-      "sposob_przygotowania": "Nasiona zalać letnią wodą, odstawić na 2–3 godziny, od czasu do czasu zamieszać. Przecedzić przez gazę. Pić płyn – nie nasiona.",
-      "cechy": [
-        "Biała lub lekko mleczna barwa (mleczko makowe)",
-        "Orzechowy, lekko słodkawy smak"
-      ],
-      "wlasciwosci": [
-        "łagodnie osłaniający błony śluzowe przewodu pokarmowego",
-        "delikatnie rozluźniający, lekko nasenny",
-        "bogaty w wapń i tłuszcze nienasycone"
-      ],
-      "zastosowanie": "Delikatne dolegliwości żołądkowo-jelitowe (np. zgaga, lekkie stany zapalne błon śluzowych), uspokojenie układu nerwowego.",
-      "dawkowanie": "1 szklanka dziennie przez maksymalnie 3–4 dni. Nie stosować u małych dzieci.",
-      "zrodlo": [
-        17
-      ]
-    },
-    "okład_z_płatków_na_oczy": {
-      "skladniki": [
-        "1 łyżka świeżych lub suszonych płatków maku",
-        "100 ml wrzątku"
-      ],
-      "sposob_przygotowania": "Płatki zalać wrzątkiem, parzyć 10 minut, przecedzić, ostudzić. Zwilżyć waciki i przykładać na zamknięte powieki.",
-      "cechy": [
-        "Łagodny, różowy napar",
-        "Chłodzący efekt"
-      ],
-      "wlasciwosci": [
-        "łagodzi zaczerwienienie i podrażnienie oczu",
-        "lekko przeciwzapalny"
-      ],
-      "zastosowanie": "Okłady na opuchliznę, zmęczone oczy, po pracy przy komputerze.",
-      "dawkowanie": "Stosować okłady 1–2 razy dziennie przez 5–10 minut.",
-      "zrodlo": [
-        18
-      ]
-    },
-    "kąpiel_z_płatków_na_sen": {
-      "skladniki": [
-        "Duża garść świeżych płatków maku lekarskiego",
-        "2 litry wrzątku"
-      ],
-      "sposob_przygotowania": "Płatki zalać wrzątkiem, parzyć pod przykryciem 20 minut. Przecedzić, dodać napar do kąpieli.",
-      "cechy": [
-        "Delikatnie czerwony napar",
-        "Relaksujący, kwiatowy aromat"
-      ],
-      "wlasciwosci": [
-        "działa uspokajająco",
-        "wspomaga zasypianie",
-        "łagodzi napięcie skóry"
-      ],
-      "zastosowanie": "Kąpiel relaksacyjna dla dorosłych i dzieci powyżej 12 r.ż.",
-      "dawkowanie": "Kąpiel 15–20 minut przed snem.",
-      "zrodlo": [
-        19
-      ]
-    }
-  },
-  "przepisy_kulinarne": {
-    "kutia": {
-      "skladniki": [
-        "200 g maku niebieskiego",
-        "100 g pszenicy",
-        "100 g miodu",
-        "50 g orzechów włoskich",
-        "rodzynki, skórka pomarańczowa, migdały"
-      ],
-      "sposob_przygotowania": "Mak sparzyć, trzykrotnie zemleć, wymieszać z ugotowaną pszenicą, miodem, bakaliami i skórką.",
-      "cechy": [
-        "Słodki, bogaty smak",
-        "Tradycyjny aromat"
-      ],
-      "wlasciwosci": [
-        "sycąca, energetyczna",
-        "bogata w białko i minerały"
-      ],
-      "zastosowanie": "Wigilijna kutia – danie symbolizujące dostatek.",
-      "zrodlo": [
-        18
-      ]
-    },
-    "makowiec": {
-      "skladniki": [
-        "400 g maku niebieskiego",
-        "ciasto drożdżowe",
-        "150 g cukru",
-        "2 jajka",
-        "100 g masła",
-        "rodzynki, orzechy, kandyzowane owoce"
-      ],
-      "sposob_przygotowania": "Mak sparzyć, zemleć, połączyć z bakaliami i resztą składników, zawinąć w ciasto drożdżowe, piec 40 min.",
-      "cechy": [
-        "Wilgotny, aromatyczny farsz",
-        "Złocista skórka"
-      ],
-      "wlasciwosci": [
-        "bogaty w wapń i żelazo",
-        "tradycyjny wypiek świąteczny"
-      ],
-      "zastosowanie": "Ciasto na Boże Narodzenie i Wielkanoc.",
-      "zrodlo": [
-        19
-      ]
-    },
-    "kluski_z_makiem": {
-      "skladniki": [
-        "Mak niebieski",
-        "Kluski pszenne",
-        "Masło",
-        "Miód",
-        "Bakalia"
-      ],
-      "sposob_przygotowania": "Mak sparzyć, zemleć, wymieszać z ugotowanymi kluskami, miodem, masłem i bakaliami.",
-      "cechy": [
-        "Słodki smak",
-        "Puszysta konsystencja"
-      ],
-      "wlasciwosci": [
-        "sycące",
-        "bogate w składniki mineralne"
-      ],
-      "zastosowanie": "Tradycyjna potrawa wigilijna.",
-      "zrodlo": [
-        20
-      ]
-    },
-    "olej_makowy": {
-      "skladniki": [
-        "Świeże, czyste nasiona maku"
-      ],
-      "sposob_przygotowania": "Nasiona tłoczyć na zimno (w warunkach domowych: utłuc i wycisnąć przez gazę, tradycyjnie w olejarniach).",
-      "cechy": [
-        "Złocisty kolor",
-        "Lekko orzechowy smak"
-      ],
-      "wlasciwosci": [
-        "źródło nienasyconych kwasów tłuszczowych",
-        "wzmacnia skórę i włosy"
-      ],
-      "zastosowanie": "Do sałatek, dań na zimno, do masażu.",
-      "zrodlo": [
-        21
-      ]
-    },
-    "ciasteczka_makowe": {
-      "skladniki": [
-        "200 g mąki",
-        "100 g masła",
-        "80 g cukru pudru",
-        "2 żółtka",
-        "3 łyżki nasion maku",
-        "skórka cytrynowa"
-      ],
-      "sposob_przygotowania": "Składniki zagnieść, schłodzić, formować ciasteczka, piec 15 minut w 180°C.",
-      "cechy": [
-        "Chrupiące",
-        "Wyraźny smak maku"
-      ],
-      "wlasciwosci": [
-        "bogate w wapń",
-        "energetyczne"
-      ],
-      "zastosowanie": "Przekąska, deser do kawy.",
-      "zrodlo": [
-        22
-      ]
-    },
-    "jewish_hamantaschen (ciastka Purim z makiem)": {
-      "skladniki": [
-        "250 g mąki",
-        "150 g masła",
-        "100 g cukru",
-        "2 żółtka",
-        "Nadzienie: 100 g maku, 2 łyżki miodu, 2 łyżki mleka, rodzynki"
-      ],
-      "sposob_przygotowania": "Zagnieść ciasto, rozwałkować, wycinać krążki, nadziewać masą makową, formować trójkąty. Piec 15 min w 180°C.",
-      "cechy": [
-        "Tradycyjne żydowskie ciastka z makiem"
-      ],
-      "wlasciwosci": [
-        "słodkie, sycące, symboliczne"
-      ],
-      "zastosowanie": "Deser na święto Purim.",
-      "zrodlo": [
-        23
-      ]
-    },
-    "grecki_chleb_makowy (Greek Makedonitiki)": {
-      "skladniki": [
-        "500 g mąki pszennej",
-        "20 g drożdży",
-        "300 ml wody",
-        "2 łyżki nasion maku",
-        "1 łyżka oliwy, sól"
-      ],
-      "sposob_przygotowania": "Zagnieść ciasto, dodać mak, pozostawić do wyrośnięcia, upiec na złoto.",
-      "cechy": [
-        "Chleb o chrupiącej skórce, makowa posypka"
-      ],
-      "wlasciwosci": [
-        "sycący, trwały"
-      ],
-      "zastosowanie": "Do dań kuchni śródziemnomorskiej.",
-      "zrodlo": [
-        24
-      ]
-    },
-    "indian_khus_khus_kheer (indyjski pudding makowy)": {
-      "skladniki": [
-        "100 g nasion maku",
-        "500 ml mleka",
-        "50 g cukru",
-        "Migdały, rodzynki, kardamon"
-      ],
-      "sposob_przygotowania": "Mak namoczyć, zemleć, zagotować z mlekiem i przyprawami na gęsty pudding.",
-      "cechy": [
-        "Gęsta, kremowa konsystencja, egzotyczny aromat"
-      ],
-      "wlasciwosci": [
-        "energetyczny, odżywczy"
-      ],
-      "zastosowanie": "Deser w kuchni indyjskiej.",
-      "zrodlo": [
-        25
-      ]
-    },
-    "czeska_strudla_z_makiem": {
-      "skladniki": [
-        "Ciasto drożdżowe lub francuskie",
-        "200 g maku",
-        "Cukier, mleko, rodzynki, orzechy"
-      ],
-      "sposob_przygotowania": "Mak ugotować z mlekiem i cukrem, wyłożyć na ciasto, zwinąć strudel, upiec.",
-      "cechy": [
-        "Aromatyczny, słodki farsz"
-      ],
-      "wlasciwosci": [
-        "klasyka kuchni czeskiej i niemieckiej"
-      ],
-      "zastosowanie": "Deser do kawy, świąteczne ciasto.",
-      "zrodlo": [
-        26
-      ]
-    },
-    "tureckie_makowe_pogaca": {
-      "skladniki": [
-        "500 g mąki pszennej",
-        "250 g maku niebieskiego",
-        "200 ml mleka",
-        "100 ml oleju",
-        "1 jajko",
-        "50 g cukru, drożdże, sól"
-      ],
-      "sposob_przygotowania": "Mak zemleć z cukrem i mlekiem. Ciasto wyrobić, nadziewać makiem, formować bułeczki. Piec na złoto.",
-      "cechy": [
-        "Puszyste bułeczki z makowym środkiem"
-      ],
-      "wlasciwosci": [
-        "sycące, miękkie"
-      ],
-      "zastosowanie": "Tradycyjna przekąska w Turcji.",
-      "zrodlo": [
-        27
-      ]
-    },
-    "perski_halva_z_makiem (Halva Shekari)": {
-      "skladniki": [
-        "100 g mąki pszennej",
-        "50 g masła",
-        "100 g cukru",
-        "50 g maku niebieskiego",
-        "Woda różana, szczypta kardamonu"
-      ],
-      "sposob_przygotowania": "Mąkę prażyć z masłem, dodać cukier, mak i przyprawy, wymieszać z wodą różaną na gładką masę.",
-      "cechy": [
-        "Gęsta, słodka pasta, makowa nuta"
-      ],
-      "wlasciwosci": [
-        "rozgrzewająca, aromatyczna"
-      ],
-      "zastosowanie": "Deser perski, święta i uroczystości.",
-      "zrodlo": [
-        28
-      ]
-    }
-  },
-  "przepisy_z_innymi_roslinami": {
-    "medyczne": [
+    "napar_z_platkow": [
       {
-        "nazwa": "Herbatka uspokajająca (mak lekarski, melisa, lawenda, chmiel, rumianek)",
+        "skladniki": [
+          "1 łyżka suszonych płatków maku lekarskiego (najlepiej młode, czerwone płatki, bez zanieczyszczeń)",
+          "250 ml wrzątku (świeża, przefiltrowana woda)"
+        ],
+        "sposob_przygotowania": "Płatki zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić przez sitko.",
+        "cechy": [
+          "Czerwony lub różowy napar",
+          "Łagodny, lekko kwiatowy smak"
+        ],
+        "wlasciwosci": [
+          "łagodnie uspokajający",
+          "działa przeciwkaszlowo",
+          "lekko nasenny (nie powoduje głębokiego snu jak opiaty)"
+        ],
+        "zastosowanie": "Łagodzenie kaszlu, trudności w zasypianiu, delikatne napięcie nerwowe. Uwaga – nie podawać dzieciom i kobietom w ciąży bez konsultacji z lekarzem.",
+        "dawkowanie": "Dorośli: 1 filiżanka naparu na noc, nie dłużej niż przez 5 dni.",
+        "zrodlo": [
+          14
+        ],
+        "nazwa": "Napar z platkow"
+      }
+    ],
+    "syrop_z_platkow": [
+      {
+        "skladniki": [
+          "Garść świeżych płatków maku lekarskiego (najlepiej młode, czyste płatki, bez pręcików)",
+          "250 ml wody (przegotowanej, przestudzonej)",
+          "200 g cukru (lub miodu – dla starszych dzieci i dorosłych)"
+        ],
+        "sposob_przygotowania": "Płatki zagotować w wodzie przez 3–5 minut na wolnym ogniu, odcedzić, dodać cukier lub miód, zagotować ponownie do zgęstnienia syropu. Przelać do ciemnej butelki.",
+        "cechy": [
+          "Intensywny czerwony syrop",
+          "Słodki, lekko korzenny smak"
+        ],
+        "wlasciwosci": [
+          "łagodzi kaszel",
+          "działa uspokajająco",
+          "lekko przeciwzapalny na gardło"
+        ],
+        "zastosowanie": "Kaszel suchy i męczący, podrażnienie gardła, przeziębienia. Dla dzieci powyżej 10 r.ż. i dorosłych.",
+        "dawkowanie": "Łyżeczka 2–3 razy dziennie. Nie przekraczać tygodnia stosowania.",
+        "zrodlo": [
+          15
+        ],
+        "nazwa": "Syrop z platkow"
+      }
+    ],
+    "odwar_z_glowek": [
+      {
+        "skladniki": [
+          "1 suszona główka maku lekarskiego (bez nasion, tylko główka)",
+          "250 ml wody"
+        ],
+        "sposob_przygotowania": "Pokruszoną główkę zalać wodą, gotować 15 minut pod przykryciem, odcedzić. Uwaga – napój silnie działający, dziś niezalecany w domowych warunkach (tylko do celów farmaceutycznych i pod ścisłą kontrolą lekarza).",
+        "cechy": [
+          "Ciemny, gęsty napar",
+          "Intensywny, lekko ziemisty aromat"
+        ],
+        "wlasciwosci": [
+          "silnie nasenny",
+          "działa przeciwbólowo",
+          "zawiera śladowe ilości naturalnych alkaloidów opium (morfina, kodeina, papaweryna)"
+        ],
+        "zastosowanie": "Dawniej stosowany na silne bóle, bezsenność, kolki. Obecnie – zakazany do użytku domowego w większości krajów, wymaga recepty i nadzoru lekarza.",
+        "dawkowanie": "Nie stosować samodzielnie! Uwaga – przedawkowanie grozi śmiercią.",
+        "zrodlo": [
+          16
+        ],
+        "nazwa": "Odwar z glowek"
+      }
+    ],
+    "macerat_z_nasion": [
+      {
+        "skladniki": [
+          "2 łyżki niebieskiego maku (nasiona maku lekarskiego, najlepiej świeżo zmielone lub rozdrobnione)",
+          "200 ml letniej, przegotowanej wody"
+        ],
+        "sposob_przygotowania": "Nasiona zalać letnią wodą, odstawić na 2–3 godziny, od czasu do czasu zamieszać. Przecedzić przez gazę. Pić płyn – nie nasiona.",
+        "cechy": [
+          "Biała lub lekko mleczna barwa (mleczko makowe)",
+          "Orzechowy, lekko słodkawy smak"
+        ],
+        "wlasciwosci": [
+          "łagodnie osłaniający błony śluzowe przewodu pokarmowego",
+          "delikatnie rozluźniający, lekko nasenny",
+          "bogaty w wapń i tłuszcze nienasycone"
+        ],
+        "zastosowanie": "Delikatne dolegliwości żołądkowo-jelitowe (np. zgaga, lekkie stany zapalne błon śluzowych), uspokojenie układu nerwowego.",
+        "dawkowanie": "1 szklanka dziennie przez maksymalnie 3–4 dni. Nie stosować u małych dzieci.",
+        "zrodlo": [
+          17
+        ],
+        "nazwa": "Macerat z nasion"
+      }
+    ],
+    "okład_z_płatków_na_oczy": [
+      {
+        "skladniki": [
+          "1 łyżka świeżych lub suszonych płatków maku",
+          "100 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Płatki zalać wrzątkiem, parzyć 10 minut, przecedzić, ostudzić. Zwilżyć waciki i przykładać na zamknięte powieki.",
+        "cechy": [
+          "Łagodny, różowy napar",
+          "Chłodzący efekt"
+        ],
+        "wlasciwosci": [
+          "łagodzi zaczerwienienie i podrażnienie oczu",
+          "lekko przeciwzapalny"
+        ],
+        "zastosowanie": "Okłady na opuchliznę, zmęczone oczy, po pracy przy komputerze.",
+        "dawkowanie": "Stosować okłady 1–2 razy dziennie przez 5–10 minut.",
+        "zrodlo": [
+          18
+        ],
+        "nazwa": "Okład z płatków na oczy"
+      }
+    ],
+    "kąpiel_z_płatków_na_sen": [
+      {
+        "skladniki": [
+          "Duża garść świeżych płatków maku lekarskiego",
+          "2 litry wrzątku"
+        ],
+        "sposob_przygotowania": "Płatki zalać wrzątkiem, parzyć pod przykryciem 20 minut. Przecedzić, dodać napar do kąpieli.",
+        "cechy": [
+          "Delikatnie czerwony napar",
+          "Relaksujący, kwiatowy aromat"
+        ],
+        "wlasciwosci": [
+          "działa uspokajająco",
+          "wspomaga zasypianie",
+          "łagodzi napięcie skóry"
+        ],
+        "zastosowanie": "Kąpiel relaksacyjna dla dorosłych i dzieci powyżej 12 r.ż.",
+        "dawkowanie": "Kąpiel 15–20 minut przed snem.",
+        "zrodlo": [
+          19
+        ],
+        "nazwa": "Kąpiel z płatków na sen"
+      }
+    ],
+    "herbatka_uspokajajaca_mak_lekarski_melisa_lawenda_chmiel_rumianek": [
+      {
         "skladniki": [
           "1 łyżeczka suszonych płatków maku lekarskiego",
           "1 łyżeczka liści melisy",
@@ -502,9 +289,10 @@
         "zrodlo": [
           30
         ]
-      },
+      }
+    ],
+    "syrop_na_kaszel_suchy_mak_lekarski_dziewanna_babka_lancetowata_miod": [
       {
-        "nazwa": "Syrop na kaszel suchy (mak lekarski, dziewanna, babka lancetowata, miód)",
         "skladniki": [
           "1 garść świeżych płatków maku lekarskiego",
           "1 łyżka kwiatów dziewanny",
@@ -524,9 +312,10 @@
         "zrodlo": [
           31
         ]
-      },
+      }
+    ],
+    "mieszanka_przeciwbolowo_przeciwzapalna_mak_lekarski_nagietek_rumianek_dziurawiec_liscie_szawii": [
       {
-        "nazwa": "Mieszanka przeciwbólowo-przeciwzapalna (mak lekarski, nagietek, rumianek, dziurawiec, liście szałwii)",
         "skladniki": [
           "1 łyżka suszonych płatków maku lekarskiego",
           "1 łyżka kwiatów nagietka",
@@ -547,9 +336,10 @@
         "zrodlo": [
           32
         ]
-      },
+      }
+    ],
+    "kapiel_z_makiem_i_lipa_mak_lekarski_kwiat_lipy_rumianek_lawenda": [
       {
-        "nazwa": "Kąpiel z makiem i lipą (mak lekarski, kwiat lipy, rumianek, lawenda)",
         "skladniki": [
           "2 garści świeżych płatków maku lekarskiego",
           "1 garść kwiatów lipy",
@@ -568,9 +358,10 @@
         "zrodlo": [
           33
         ]
-      },
+      }
+    ],
+    "papka_do_okadow_mak_lekarski_siemie_lniane_nagietek": [
       {
-        "nazwa": "Papka do okładów (mak lekarski, siemię lniane, nagietek)",
         "skladniki": [
           "2 łyżki świeżych płatków maku lekarskiego",
           "1 łyżka zmielonego siemienia lnianego",
@@ -588,9 +379,10 @@
         "zrodlo": [
           34
         ]
-      },
+      }
+    ],
+    "staroswiecki_napoj_nasenny_mak_lekarski_gog_melisa_szyszki_chmielu_miod": [
       {
-        "nazwa": "Staroświecki napój nasenny (mak lekarski, głóg, melisa, szyszki chmielu, miód)",
         "skladniki": [
           "1 łyżeczka suszonych płatków maku lekarskiego",
           "1 łyżeczka suszonych owoców głogu",
@@ -610,9 +402,10 @@
         "zrodlo": [
           35
         ]
-      },
+      }
+    ],
+    "nalewka_agodzaca_mak_lekarski_kwiat_nagietka_kora_wierzby_spirytus_4060": [
       {
-        "nazwa": "Nalewka łagodząca (mak lekarski, kwiat nagietka, kora wierzby, spirytus 40–60%)",
         "skladniki": [
           "2 łyżki suszonych płatków maku lekarskiego",
           "1 łyżka kwiatów nagietka",
@@ -630,9 +423,10 @@
         "zrodlo": [
           36
         ]
-      },
+      }
+    ],
+    "gorzki_napar_zoadkowy_mak_lekarski_pioun_mieta_arcydziegiel": [
       {
-        "nazwa": "Gorzki napar żołądkowy (mak lekarski, piołun, mięta, arcydzięgiel)",
         "skladniki": [
           "1 łyżeczka suszonych płatków maku",
           "1/2 łyżeczki ziela piołunu",
@@ -651,9 +445,10 @@
         "zrodlo": [
           37
         ]
-      },
+      }
+    ],
+    "makowy_syrop_z_fiokiem_i_dzika_roza": [
       {
-        "nazwa": "Makowy syrop z fiołkiem i dziką różą",
         "skladniki": [
           "Garść świeżych płatków maku lekarskiego",
           "Garść świeżych kwiatów fiołka wonnego",
@@ -674,9 +469,10 @@
         "zrodlo": [
           40
         ]
-      },
+      }
+    ],
+    "makowy_balsam_z_rumiankiem_i_jaowcem": [
       {
-        "nazwa": "Makowy balsam z rumiankiem i jałowcem",
         "skladniki": [
           "2 łyżki płatków maku lekarskiego",
           "1 łyżka koszyczków rumianku",
@@ -697,9 +493,10 @@
         "zrodlo": [
           41
         ]
-      },
+      }
+    ],
+    "napar_na_spokojny_sen_mak_lekarski_lipa_mieta_lawenda": [
       {
-        "nazwa": "Napar na spokojny sen (mak lekarski, lipa, mięta, lawenda)",
         "skladniki": [
           "1 łyżka płatków maku lekarskiego",
           "1 łyżka kwiatów lipy",
@@ -720,9 +517,10 @@
         "zrodlo": [
           42
         ]
-      },
+      }
+    ],
+    "makowe_krople_apteczne_na_kaszel": [
       {
-        "nazwa": "Makowe krople apteczne na kaszel",
         "skladniki": [
           "1 główka makowa (suszone makówki)",
           "1/2 l wina czerwonego lub porto",
@@ -743,9 +541,10 @@
         "zrodlo": [
           43
         ]
-      },
+      }
+    ],
+    "starozytna_polska_mikstura_na_bezsennosc_mak_lekarski_chmiel_szyszki_sosny": [
       {
-        "nazwa": "Starożytna polska mikstura na bezsenność (mak lekarski, chmiel, szyszki sosny)",
         "skladniki": [
           "1 łyżeczka płatków maku lekarskiego",
           "1 łyżeczka suszonych szyszek chmielu",
@@ -765,9 +564,10 @@
         "zrodlo": [
           44
         ]
-      },
+      }
+    ],
+    "kompres_makowo_rumiankowy_na_rany": [
       {
-        "nazwa": "Kompres makowo-rumiankowy na rany",
         "skladniki": [
           "2 łyżki płatków maku",
           "1 łyżka kwiatów rumianku",
@@ -786,9 +586,10 @@
         "zrodlo": [
           45
         ]
-      },
+      }
+    ],
+    "herbatka_makowa_z_lotosem_i_lukrecja": [
       {
-        "nazwa": "Herbatka makowa z lotosem i lukrecją",
         "skladniki": [
           "1 łyżeczka płatków maku lekarskiego",
           "1 łyżeczka suszonych kwiatów lotosu (Nelumbo nucifera)",
@@ -807,9 +608,10 @@
         "zrodlo": [
           46
         ]
-      },
+      }
+    ],
+    "ajurwedyjska_mikstura_makowo_aszwagandowa_na_bezsennosc": [
       {
-        "nazwa": "Ajurwedyjska mikstura makowo-aszwagandowa na bezsenność",
         "skladniki": [
           "1 łyżeczka maku lekarskiego (nasiona, świeżo zmielone)",
           "1 łyżeczka sproszkowanego korzenia ashwagandhy (Withania somnifera)",
@@ -829,9 +631,10 @@
         "zrodlo": [
           47
         ]
-      },
+      }
+    ],
+    "makowe_lepiszcze_przeciwbolowe_z_imbirem_i_anyzem": [
       {
-        "nazwa": "Makowe lepiszcze przeciwbólowe z imbirem i anyżem",
         "skladniki": [
           "2 łyżeczki świeżo mielonego maku lekarskiego (nasiona)",
           "1/2 łyżeczki proszku imbirowego",
@@ -850,9 +653,10 @@
         "zrodlo": [
           48
         ]
-      },
+      }
+    ],
+    "makowa_pasta_na_kaszel_z_kardamonem": [
       {
-        "nazwa": "Makowa pasta na kaszel z kardamonem",
         "skladniki": [
           "1 łyżeczka nasion maku lekarskiego",
           "3 strąki kardamonu (zmiażdżone nasionka)",
@@ -870,9 +674,10 @@
         "zrodlo": [
           49
         ]
-      },
+      }
+    ],
+    "tradycyjny_chinski_syrop_makowo_pomaranczowy_na_suchy_kaszel": [
       {
-        "nazwa": "Tradycyjny chiński syrop makowo-pomarańczowy na suchy kaszel",
         "skladniki": [
           "1 łyżka płatków maku lekarskiego",
           "Skórka z jednej pomarańczy (świeża lub suszona)",
@@ -891,539 +696,271 @@
         "zrodlo": [
           50
         ]
-      },
+      }
+    ]
+  },
+  "przepisy_kulinarne": {
+    "kutia": [
       {
-        "nazwa": "Eliksir makowy na dobry sen z melisą i lipą",
         "skladniki": [
-          "12 g suszonych płatków maku",
-          "1 łyżka suszonych liści melisy",
-          "2 łyżki suszonych kwiatów lipy",
-          "500 ml wody",
-          "1 łyżeczka miodu"
+          "200 g maku niebieskiego",
+          "100 g pszenicy",
+          "100 g miodu",
+          "50 g orzechów włoskich",
+          "rodzynki, skórka pomarańczowa, migdały"
         ],
-        "sposob_przygotowania": "1. Zioła zalej wrzątkiem, parz 12 min pod przykryciem. 2. Przecedź przez drobne sito, dosłódź do smaku. 3. Pij wieczorem 30 min przed snem.",
+        "sposob_przygotowania": "Mak sparzyć, trzykrotnie zemleć, wymieszać z ugotowaną pszenicą, miodem, bakaliami i skórką.",
         "cechy": [
-          "Łagodny, kwiatowy, delikatnie słodki"
+          "Słodki, bogaty smak",
+          "Tradycyjny aromat"
         ],
         "wlasciwosci": [
-          "wyciszający, łagodzący napięcia"
+          "sycąca, energetyczna",
+          "bogata w białko i minerały"
         ],
-        "zastosowanie": "Na spokojny sen, do picia wieczorem.",
+        "zastosowanie": "Wigilijna kutia – danie symbolizujące dostatek.",
         "zrodlo": [
-          "Zielnik domowy, Polska, 1931"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy dla dzieci z fiołkiem i wanilią",
-        "skladniki": [
-          "8 g suszonych płatków maku",
-          "4 kwiaty fiołka pachnącego (świeże lub suszone)",
-          "kawałek laski wanilii",
-          "400 ml wody",
-          "1 łyżeczka syropu z malin"
+          18
         ],
-        "sposob_przygotowania": "1. Wszystkie składniki zalej wrzątkiem, parz 10 min, przecedź. 2. Dosłódź syropem malinowym. 3. Podawaj letni, najlepiej wieczorem.",
-        "cechy": [
-          "Kwiatowo-waniliowy aromat, delikatny smak"
-        ],
-        "wlasciwosci": [
-          "łagodzący, uspokajający"
-        ],
-        "zastosowanie": "Dla dzieci powyżej 4 lat na wyciszenie.",
-        "zrodlo": [
-          "Herbatki dziecięce, Wiedeń, 1937"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy na odporność z czarnym bzem",
-        "skladniki": [
-          "10 g suszonych płatków maku",
-          "2 łyżki suszonych kwiatów czarnego bzu",
-          "1/2 łyżeczki startego świeżego imbiru",
-          "450 ml wrzątku",
-          "1 łyżeczka miodu gryczanego"
-        ],
-        "sposob_przygotowania": "1. Zioła i imbir zalej wrzątkiem, parz 15 min pod przykryciem. 2. Przecedź, ostudź do picia. 3. Dosłódź miodem. 4. Pij codziennie rano jesienią i zimą.",
-        "cechy": [
-          "Aromatyczny, lekko korzenny"
-        ],
-        "wlasciwosci": [
-          "odpornościowy, rozgrzewający"
-        ],
-        "zastosowanie": "Na przeziębienia, w chłodne dni.",
-        "zrodlo": [
-          "Recepty babcine, Polska, 1932"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy na szczęście z nagietkiem i różą",
-        "skladniki": [
-          "10 g suszonych płatków maku",
-          "5 płatków suszonych kwiatów nagietka",
-          "6 suszonych płatków róży",
-          "1 łyżka soku z malin",
-          "400 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Zioła zalej wrzątkiem, parz 10 min. 2. Przecedź przez sitko, dodaj sok z malin. 3. Pij w Nowy Rok lub na szczególne okazje.",
-        "cechy": [
-          "Kwiatowo-owocowy, delikatnie słodki"
-        ],
-        "wlasciwosci": [
-          "poprawia nastrój, wzmacnia"
-        ],
-        "zastosowanie": "Eliksir tradycyjny na szczęście.",
-        "zrodlo": [
-          "Herbarz legend, Polska, 1918"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy uspokajający z rumiankiem i chmielem",
-        "skladniki": [
-          "10 g suszonych płatków maku",
-          "1 łyżka suszonych koszyczków rumianku",
-          "1 szyszka chmielu (lub 1/2 łyżeczki suszonych szyszek)",
-          "420 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Wszystko zalej wrzątkiem w kubku, parz 8–10 min. 2. Przecedź, pij wieczorem.",
-        "cechy": [
-          "Ziołowo-chmielowy, bardzo delikatny"
-        ],
-        "wlasciwosci": [
-          "wyciszający, lekko usypiający"
-        ],
-        "zastosowanie": "Przy stresie i trudnościach z zasypianiem.",
-        "zrodlo": [
-          "Stare napary ziołowe, Polska, 1925"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy dla serca z głogiem i lipą",
-        "skladniki": [
-          "9 g suszonych płatków maku",
-          "2 łyżki suszonych owoców głogu",
-          "1 łyżka suszonych kwiatów lipy",
-          "450 ml wody",
-          "1 łyżeczka miodu"
-        ],
-        "sposob_przygotowania": "1. Zioła i owoce zalej wrzątkiem, parz 15 min pod przykryciem. 2. Przecedź, dodaj miód. 3. Pij rano lub po południu.",
-        "cechy": [
-          "Ziołowo-owocowy, słodki napar"
-        ],
-        "wlasciwosci": [
-          "wzmacniający serce, relaksujący"
-        ],
-        "zastosowanie": "Dla dorosłych, na wzmocnienie serca.",
-        "zrodlo": [
-          "Przepisy apteczne, Polska, 1931"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy antydepresyjny z lawendą i bazylią",
-        "skladniki": [
-          "10 g suszonych płatków maku",
-          "1/2 łyżeczki suszonych kwiatów lawendy",
-          "kilka listków bazylii",
-          "400 ml wrzątku",
-          "1 łyżeczka soku z pomarańczy"
-        ],
-        "sposob_przygotowania": "1. Zioła zalej wrzątkiem, parz 10 min pod przykryciem. 2. Przecedź przez sitko, dodaj sok z pomarańczy. 3. Pij na poprawę nastroju.",
-        "cechy": [
-          "Kwiatowo-cytrusowy aromat, delikatna nuta bazylii"
-        ],
-        "wlasciwosci": [
-          "poprawia nastrój, wycisza"
-        ],
-        "zastosowanie": "Na szare dni i smutek.",
-        "zrodlo": [
-          "Domowa apteka nastrojowa, Polska, 1927"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy wzmacniający z aronii i imbirem",
-        "skladniki": [
-          "9 g suszonych płatków maku",
-          "40 g owoców aronii (świeżych lub mrożonych)",
-          "1 cienki plaster świeżego imbiru",
-          "400 ml wody",
-          "1 łyżeczka miodu"
-        ],
-        "sposob_przygotowania": "1. Zalej składniki wrzątkiem, parz 12 min. 2. Przecedź, dosłódź miodem. 3. Pij do śniadania.",
-        "cechy": [
-          "Lekko kwaskowy, ziołowo-korzenny"
-        ],
-        "wlasciwosci": [
-          "wzmacniający, pobudzający"
-        ],
-        "zastosowanie": "W okresie rekonwalescencji.",
-        "zrodlo": [
-          "Zielnik zdrowia, Polska, 1939"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy na trawienie z anyżem i miętą",
-        "skladniki": [
-          "10 g suszonych płatków maku",
-          "1/2 łyżeczki nasion anyżu",
-          "kilka liści świeżej mięty",
-          "420 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Wszystko zalej wrzątkiem, parz 10 min, przecedź. 2. Pij po obiedzie.",
-        "cechy": [
-          "Lekko anyżowy, odświeżający smak"
-        ],
-        "wlasciwosci": [
-          "wspomaga trawienie, rozluźnia brzuch"
-        ],
-        "zastosowanie": "Po obfitych posiłkach.",
-        "zrodlo": [
-          "Apteczka zielarska, Polska, 1922"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy dla dzieci z jabłkiem i wanilią",
-        "skladniki": [
-          "8 g suszonych płatków maku",
-          "pół słodkiego jabłka (pokrojonego w plasterki)",
-          "kawałek laski wanilii",
-          "350 ml wody",
-          "1 łyżeczka miodu"
-        ],
-        "sposob_przygotowania": "1. Mak, jabłko i wanilię zalej wrzątkiem, parz 10 min pod przykryciem. 2. Przecedź, dosłódź miodem. 3. Pij letni.",
-        "cechy": [
-          "Owocowo-waniliowy, bardzo łagodny"
-        ],
-        "wlasciwosci": [
-          "wyciszający, delikatny"
-        ],
-        "zastosowanie": "Dla dzieci powyżej 3 lat.",
-        "zrodlo": [
-          "Herbaty dziecięce, Polska, 1938"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy na “szczęśliwe dni” z fiołkiem i maliną",
-        "skladniki": [
-          "9 g suszonych płatków maku",
-          "4 kwiaty fiołka pachnącego",
-          "6 malin (świeżych lub mrożonych)",
-          "400 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Zioła i maliny zalej wrzątkiem, parz 10 min, przecedź. 2. Pij w ważne dni – tradycja, by pić go przed ważnym spotkaniem lub świętem.",
-        "cechy": [
-          "Kwiatowo-owocowy, lekko słodki"
-        ],
-        "wlasciwosci": [
-          "poprawia nastrój, dodaje otuchy"
-        ],
-        "zastosowanie": "Na szczęście i powodzenie.",
-        "zrodlo": [
-          "Herbarz legend, Polska, 1923"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy na dobry nastrój z pomarańczą i imbirem",
-        "skladniki": [
-          "9 g suszonych płatków maku",
-          "skórka z 1/4 pomarańczy (niewoskowana)",
-          "2 cienkie plasterki świeżego imbiru",
-          "400 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Składniki zalej wrzątkiem, parz 12 min, przecedź. 2. Pij rano lub po południu.",
-        "cechy": [
-          "Kwiatowo-cytrusowy, lekko pikantny"
-        ],
-        "wlasciwosci": [
-          "dodaje energii, rozgrzewa"
-        ],
-        "zastosowanie": "Na szare dni, poprawę humoru.",
-        "zrodlo": [
-          "Przepisy domowe, Polska, 1936"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy na spokój z werbeną i melisą",
-        "skladniki": [
-          "9 g suszonych płatków maku",
-          "8 g suszonych liści werbeny cytrynowej",
-          "1 łyżeczka suszonych liści melisy",
-          "420 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Wszystkie zioła zalej wrzątkiem, parz 12 min pod przykryciem. 2. Przecedź, pij wieczorem.",
-        "cechy": [
-          "Kwiatowo-ziołowy, bardzo delikatny"
-        ],
-        "wlasciwosci": [
-          "wyciszający, uspokajający"
-        ],
-        "zastosowanie": "Przy napięciu, przed snem.",
-        "zrodlo": [
-          "Domowe eliksiry, Polska, 1940"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy na odporność z pigwą i lipą",
-        "skladniki": [
-          "9 g suszonych płatków maku",
-          "3 plasterki świeżej pigwy",
-          "1 łyżka suszonych kwiatów lipy",
-          "400 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Zioła i pigwę zalej wrzątkiem, parz 12 min, przecedź. 2. Pij w sezonie jesienno-zimowym.",
-        "cechy": [
-          "Kwiatowo-owocowy, lekko kwaskowy"
-        ],
-        "wlasciwosci": [
-          "odpornościowy, rozgrzewający"
-        ],
-        "zastosowanie": "Na jesienne i zimowe dni.",
-        "zrodlo": [
-          "Zielnik rodzinny, Polska, 1929"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy dla artystów z rozmarynem i cytryną",
-        "skladniki": [
-          "8 g suszonych płatków maku",
-          "szczypta suszonego rozmarynu",
-          "skórka z 1/4 cytryny",
-          "380 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Mak, rozmaryn i skórkę cytryny zalej wrzątkiem, parz 10 min. 2. Przecedź, pij podczas twórczej pracy.",
-        "cechy": [
-          "Lekko ziołowy, cytrusowy aromat"
-        ],
-        "wlasciwosci": [
-          "dodaje jasności umysłu, odpręża"
-        ],
-        "zastosowanie": "Dla artystów i osób twórczych.",
-        "zrodlo": [
-          "Eliksiry inspiracji, Polska, 1935"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy miłosny z różą i granatem",
-        "skladniki": [
-          "10 g suszonych płatków maku",
-          "6 płatków suszonej róży",
-          "ziarna z 1/4 owocu granatu",
-          "390 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Składniki zalej wrzątkiem, parz 8 min pod przykryciem. 2. Przecedź, pij wieczorem z ukochaną osobą.",
-        "cechy": [
-          "Kwiatowo-owocowy, bardzo aromatyczny"
-        ],
-        "wlasciwosci": [
-          "poprawia nastrój, wzmacnia uczucia"
-        ],
-        "zastosowanie": "Eliksir miłości na randki i ważne chwile.",
-        "zrodlo": [
-          "Herbarz miłosny, Polska, 1928"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy oczyszczający z pokrzywą i imbirem",
-        "skladniki": [
-          "10 g suszonych płatków maku",
-          "6 młodych liści pokrzywy (świeżych lub suszonych)",
-          "1 cienki plaster świeżego imbiru",
-          "400 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Składniki zalej wrzątkiem, parz 12 min, przecedź. 2. Pij rano przez tydzień.",
-        "cechy": [
-          "Ziołowo-korzenny, lekko pikantny"
-        ],
-        "wlasciwosci": [
-          "oczyszczający, mineralizujący"
-        ],
-        "zastosowanie": "Kuracja oczyszczająca organizm.",
-        "zrodlo": [
-          "Kuracje zielarskie, Polska, 1937"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy magiczny z jaśminem i szałwią",
-        "skladniki": [
-          "10 g suszonych płatków maku",
-          "4 suszone kwiaty jaśminu",
-          "1 liść szałwii (świeży lub suszony)",
-          "380 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Zioła zalej wrzątkiem, parz 10 min pod przykryciem. 2. Przecedź, pij podczas medytacji.",
-        "cechy": [
-          "Aromatyczny, kwiatowy, lekko szałwiowy"
-        ],
-        "wlasciwosci": [
-          "otwiera umysł, wycisza emocje"
-        ],
-        "zastosowanie": "Do medytacji i pracy duchowej.",
-        "zrodlo": [
-          "Magia zielarska, Polska, 1926"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy na odporność z miodem i czarnym bzem",
-        "skladniki": [
-          "10 g suszonych płatków maku",
-          "2 łyżki kwiatów czarnego bzu",
-          "1 łyżka miodu lipowego",
-          "400 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Zioła zalej wrzątkiem, parz 15 min pod przykryciem. 2. Przecedź, dosłódź miodem. 3. Pij w sezonie infekcyjnym.",
-        "cechy": [
-          "Słodki, kwiatowo-owocowy, bardzo łagodny"
-        ],
-        "wlasciwosci": [
-          "wzmacnia odporność, łagodzi infekcje"
-        ],
-        "zastosowanie": "Na jesień i zimę.",
-        "zrodlo": [
-          "Domowe eliksiry, Polska, 1943"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy energetyczny z granatem i imbirem",
-        "skladniki": [
-          "10 g suszonych płatków maku",
-          "ziarna z 1/3 owocu granatu",
-          "2 cienkie plasterki imbiru",
-          "420 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Składniki zalej wrzątkiem, parz 10 min, przecedź. 2. Pij rano na pobudzenie.",
-        "cechy": [
-          "Owocowy, lekko korzenny"
-        ],
-        "wlasciwosci": [
-          "energetyzujący, wzmacniający"
-        ],
-        "zastosowanie": "Do śniadania, przed wysiłkiem.",
-        "zrodlo": [
-          "Eliksiry siły, Polska, 1939"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy z bzem czarnym i skórką pomarańczy",
-        "skladniki": [
-          "10 g suszonych płatków maku",
-          "2 łyżki suszonych kwiatów bzu czarnego",
-          "skórka z 1/4 pomarańczy",
-          "400 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Zioła i skórkę zalej wrzątkiem, parz 10 min, przecedź. 2. Pij jako codzienny tonik.",
-        "cechy": [
-          "Kwiatowo-cytrusowy, bardzo aromatyczny"
-        ],
-        "wlasciwosci": [
-          "wzmacnia odporność, poprawia nastrój"
-        ],
-        "zastosowanie": "Codzienny eliksir zdrowia.",
-        "zrodlo": [
-          "Herbaty codzienne, Polska, 1937"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy z czarną porzeczką i lawendą",
-        "skladniki": [
-          "9 g suszonych płatków maku",
-          "30 g czarnej porzeczki (świeżej lub mrożonej)",
-          "1/2 łyżeczki suszonej lawendy",
-          "400 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Składniki zalej wrzątkiem, parz 12 min, przecedź. 2. Pij schłodzony.",
-        "cechy": [
-          "Kwiatowo-owocowy, lekko lawendowy"
-        ],
-        "wlasciwosci": [
-          "wyciszający, lekko chłodzący"
-        ],
-        "zastosowanie": "Na letnie popołudnia.",
-        "zrodlo": [
-          "Herbatki letnie, Polska, 1939"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy z hibiskusem i miętą",
-        "skladniki": [
-          "10 g suszonych płatków maku",
-          "1 łyżka suszonych kwiatów hibiskusa",
-          "kilka liści świeżej mięty",
-          "400 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Wszystkie składniki zalej wrzątkiem, parz 10 min, przecedź. 2. Pij schłodzony.",
-        "cechy": [
-          "Kwiatowo-owocowy, lekko kwaskowy"
-        ],
-        "wlasciwosci": [
-          "orzeźwiający, mineralizujący"
-        ],
-        "zastosowanie": "W gorące dni, do posiłków.",
-        "zrodlo": [
-          "Napoje ogrodowe, Polska, 1938"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy magiczny z nagietkiem i fiołkiem",
-        "skladniki": [
-          "9 g suszonych płatków maku",
-          "5 płatków suszonych kwiatów nagietka",
-          "4 kwiaty fiołka pachnącego",
-          "400 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Kwiaty zalej wrzątkiem, parz 12 min pod przykryciem, przecedź. 2. Pij rano lub wieczorem.",
-        "cechy": [
-          "Kwiatowy, lekko słodki"
-        ],
-        "wlasciwosci": [
-          "dodaje otuchy, poprawia humor"
-        ],
-        "zastosowanie": "Na ważne dni, podczas medytacji.",
-        "zrodlo": [
-          "Herbarz legend, Polska, 1917"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy z pigwą i imbirem na przeziębienie",
-        "skladniki": [
-          "10 g suszonych płatków maku",
-          "2 plasterki świeżej pigwy",
-          "1 cienki plaster imbiru",
-          "400 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Mak, pigwę i imbir zalej wrzątkiem, parz 10 min. 2. Przecedź, pij ciepły.",
-        "cechy": [
-          "Kwiatowo-owocowy, pikantny"
-        ],
-        "wlasciwosci": [
-          "rozgrzewający, odpornościowy"
-        ],
-        "zastosowanie": "Na pierwsze objawy przeziębienia.",
-        "zrodlo": [
-          "Eliksiry odpornościowe, Polska, 1941"
-        ]
-      },
-      {
-        "nazwa": "Eliksir makowy wieczorny z lipą i skórką cytryny",
-        "skladniki": [
-          "10 g suszonych płatków maku",
-          "2 łyżki suszonych kwiatów lipy",
-          "skórka z 1/4 cytryny",
-          "400 ml wrzątku"
-        ],
-        "sposob_przygotowania": "1. Składniki zalej wrzątkiem, parz 12 min pod przykryciem. 2. Przecedź, pij wieczorem.",
-        "cechy": [
-          "Kwiatowo-cytrusowy, bardzo łagodny"
-        ],
-        "wlasciwosci": [
-          "wyciszający, odprężający"
-        ],
-        "zastosowanie": "Na dobry wieczór i spokojny sen.",
-        "zrodlo": [
-          "Eliksiry domowe, Polska, 1934"
-        ]
+        "nazwa": "Kutia"
       }
     ],
-    "kulinarne": [
+    "makowiec": [
       {
-        "nazwa": "Pesto makowe z bazylią",
+        "skladniki": [
+          "400 g maku niebieskiego",
+          "ciasto drożdżowe",
+          "150 g cukru",
+          "2 jajka",
+          "100 g masła",
+          "rodzynki, orzechy, kandyzowane owoce"
+        ],
+        "sposob_przygotowania": "Mak sparzyć, zemleć, połączyć z bakaliami i resztą składników, zawinąć w ciasto drożdżowe, piec 40 min.",
+        "cechy": [
+          "Wilgotny, aromatyczny farsz",
+          "Złocista skórka"
+        ],
+        "wlasciwosci": [
+          "bogaty w wapń i żelazo",
+          "tradycyjny wypiek świąteczny"
+        ],
+        "zastosowanie": "Ciasto na Boże Narodzenie i Wielkanoc.",
+        "zrodlo": [
+          19
+        ],
+        "nazwa": "Makowiec"
+      }
+    ],
+    "kluski_z_makiem": [
+      {
+        "skladniki": [
+          "Mak niebieski",
+          "Kluski pszenne",
+          "Masło",
+          "Miód",
+          "Bakalia"
+        ],
+        "sposob_przygotowania": "Mak sparzyć, zemleć, wymieszać z ugotowanymi kluskami, miodem, masłem i bakaliami.",
+        "cechy": [
+          "Słodki smak",
+          "Puszysta konsystencja"
+        ],
+        "wlasciwosci": [
+          "sycące",
+          "bogate w składniki mineralne"
+        ],
+        "zastosowanie": "Tradycyjna potrawa wigilijna.",
+        "zrodlo": [
+          20
+        ],
+        "nazwa": "Kluski z makiem"
+      }
+    ],
+    "olej_makowy": [
+      {
+        "skladniki": [
+          "Świeże, czyste nasiona maku"
+        ],
+        "sposob_przygotowania": "Nasiona tłoczyć na zimno (w warunkach domowych: utłuc i wycisnąć przez gazę, tradycyjnie w olejarniach).",
+        "cechy": [
+          "Złocisty kolor",
+          "Lekko orzechowy smak"
+        ],
+        "wlasciwosci": [
+          "źródło nienasyconych kwasów tłuszczowych",
+          "wzmacnia skórę i włosy"
+        ],
+        "zastosowanie": "Do sałatek, dań na zimno, do masażu.",
+        "zrodlo": [
+          21
+        ],
+        "nazwa": "Olej makowy"
+      }
+    ],
+    "ciasteczka_makowe": [
+      {
+        "skladniki": [
+          "200 g mąki",
+          "100 g masła",
+          "80 g cukru pudru",
+          "2 żółtka",
+          "3 łyżki nasion maku",
+          "skórka cytrynowa"
+        ],
+        "sposob_przygotowania": "Składniki zagnieść, schłodzić, formować ciasteczka, piec 15 minut w 180°C.",
+        "cechy": [
+          "Chrupiące",
+          "Wyraźny smak maku"
+        ],
+        "wlasciwosci": [
+          "bogate w wapń",
+          "energetyczne"
+        ],
+        "zastosowanie": "Przekąska, deser do kawy.",
+        "zrodlo": [
+          22
+        ],
+        "nazwa": "Ciasteczka makowe"
+      }
+    ],
+    "jewish_hamantaschen (ciastka Purim z makiem)": [
+      {
+        "skladniki": [
+          "250 g mąki",
+          "150 g masła",
+          "100 g cukru",
+          "2 żółtka",
+          "Nadzienie: 100 g maku, 2 łyżki miodu, 2 łyżki mleka, rodzynki"
+        ],
+        "sposob_przygotowania": "Zagnieść ciasto, rozwałkować, wycinać krążki, nadziewać masą makową, formować trójkąty. Piec 15 min w 180°C.",
+        "cechy": [
+          "Tradycyjne żydowskie ciastka z makiem"
+        ],
+        "wlasciwosci": [
+          "słodkie, sycące, symboliczne"
+        ],
+        "zastosowanie": "Deser na święto Purim.",
+        "zrodlo": [
+          23
+        ],
+        "nazwa": "Jewish hamantaschen (ciastka purim z makiem)"
+      }
+    ],
+    "grecki_chleb_makowy (Greek Makedonitiki)": [
+      {
+        "skladniki": [
+          "500 g mąki pszennej",
+          "20 g drożdży",
+          "300 ml wody",
+          "2 łyżki nasion maku",
+          "1 łyżka oliwy, sól"
+        ],
+        "sposob_przygotowania": "Zagnieść ciasto, dodać mak, pozostawić do wyrośnięcia, upiec na złoto.",
+        "cechy": [
+          "Chleb o chrupiącej skórce, makowa posypka"
+        ],
+        "wlasciwosci": [
+          "sycący, trwały"
+        ],
+        "zastosowanie": "Do dań kuchni śródziemnomorskiej.",
+        "zrodlo": [
+          24
+        ],
+        "nazwa": "Grecki chleb makowy (greek makedonitiki)"
+      }
+    ],
+    "indian_khus_khus_kheer (indyjski pudding makowy)": [
+      {
+        "skladniki": [
+          "100 g nasion maku",
+          "500 ml mleka",
+          "50 g cukru",
+          "Migdały, rodzynki, kardamon"
+        ],
+        "sposob_przygotowania": "Mak namoczyć, zemleć, zagotować z mlekiem i przyprawami na gęsty pudding.",
+        "cechy": [
+          "Gęsta, kremowa konsystencja, egzotyczny aromat"
+        ],
+        "wlasciwosci": [
+          "energetyczny, odżywczy"
+        ],
+        "zastosowanie": "Deser w kuchni indyjskiej.",
+        "zrodlo": [
+          25
+        ],
+        "nazwa": "Indian khus khus kheer (indyjski pudding makowy)"
+      }
+    ],
+    "czeska_strudla_z_makiem": [
+      {
+        "skladniki": [
+          "Ciasto drożdżowe lub francuskie",
+          "200 g maku",
+          "Cukier, mleko, rodzynki, orzechy"
+        ],
+        "sposob_przygotowania": "Mak ugotować z mlekiem i cukrem, wyłożyć na ciasto, zwinąć strudel, upiec.",
+        "cechy": [
+          "Aromatyczny, słodki farsz"
+        ],
+        "wlasciwosci": [
+          "klasyka kuchni czeskiej i niemieckiej"
+        ],
+        "zastosowanie": "Deser do kawy, świąteczne ciasto.",
+        "zrodlo": [
+          26
+        ],
+        "nazwa": "Czeska strudla z makiem"
+      }
+    ],
+    "tureckie_makowe_pogaca": [
+      {
+        "skladniki": [
+          "500 g mąki pszennej",
+          "250 g maku niebieskiego",
+          "200 ml mleka",
+          "100 ml oleju",
+          "1 jajko",
+          "50 g cukru, drożdże, sól"
+        ],
+        "sposob_przygotowania": "Mak zemleć z cukrem i mlekiem. Ciasto wyrobić, nadziewać makiem, formować bułeczki. Piec na złoto.",
+        "cechy": [
+          "Puszyste bułeczki z makowym środkiem"
+        ],
+        "wlasciwosci": [
+          "sycące, miękkie"
+        ],
+        "zastosowanie": "Tradycyjna przekąska w Turcji.",
+        "zrodlo": [
+          27
+        ],
+        "nazwa": "Tureckie makowe pogaca"
+      }
+    ],
+    "perski_halva_z_makiem (Halva Shekari)": [
+      {
+        "skladniki": [
+          "100 g mąki pszennej",
+          "50 g masła",
+          "100 g cukru",
+          "50 g maku niebieskiego",
+          "Woda różana, szczypta kardamonu"
+        ],
+        "sposob_przygotowania": "Mąkę prażyć z masłem, dodać cukier, mak i przyprawy, wymieszać z wodą różaną na gładką masę.",
+        "cechy": [
+          "Gęsta, słodka pasta, makowa nuta"
+        ],
+        "wlasciwosci": [
+          "rozgrzewająca, aromatyczna"
+        ],
+        "zastosowanie": "Deser perski, święta i uroczystości.",
+        "zrodlo": [
+          28
+        ],
+        "nazwa": "Perski halva z makiem (halva shekari)"
+      }
+    ],
+    "pesto_makowe_z_bazylia": [
+      {
         "skladniki": [
           "50 g nasion maku",
           "Garść świeżej bazylii",
@@ -1445,9 +982,10 @@
         "zrodlo": [
           25
         ]
-      },
+      }
+    ],
+    "saatka_z_makiem_rukola_i_jabkiem": [
       {
-        "nazwa": "Sałatka z makiem, rukolą i jabłkiem",
         "skladniki": [
           "Garść rukoli",
           "1 jabłko",
@@ -1468,9 +1006,10 @@
         "zrodlo": [
           26
         ]
-      },
+      }
+    ],
+    "lassi_z_makiem_i_mango_indie": [
       {
-        "nazwa": "Lassi z makiem i mango (Indie)",
         "skladniki": [
           "1 dojrzałe mango",
           "1 szklanka jogurtu naturalnego",
@@ -1489,9 +1028,10 @@
         "zrodlo": [
           27
         ]
-      },
+      }
+    ],
+    "makowe_chapati_z_zioami_indie": [
       {
-        "nazwa": "Makowe chapati z ziołami (Indie)",
         "skladniki": [
           "200 g mąki pełnoziarnistej",
           "2 łyżki nasion maku",
@@ -1510,9 +1050,10 @@
         "zrodlo": [
           28
         ]
-      },
+      }
+    ],
+    "turecka_saatka_z_burakiem_makiem_i_natka": [
       {
-        "nazwa": "Turecka sałatka z burakiem, makiem i natką",
         "skladniki": [
           "2 średnie buraki (ugotowane)",
           "2 łyżki nasion maku",
@@ -1531,9 +1072,10 @@
         "zrodlo": [
           29
         ]
-      },
+      }
+    ],
+    "makowa_pasta_do_kanapek_z_cieciorka_i_koperkiem": [
       {
-        "nazwa": "Makowa pasta do kanapek z cieciorką i koperkiem",
         "skladniki": [
           "1 szklanka ugotowanej cieciorki",
           "2 łyżki nasion maku (uprażonych, zmielonych)",
@@ -1552,9 +1094,10 @@
         "zrodlo": [
           30
         ]
-      },
+      }
+    ],
+    "grecki_twarozek_z_makiem_oregano_i_cytryna": [
       {
-        "nazwa": "Grecki twarożek z makiem, oregano i cytryną",
         "skladniki": [
           "250 g sera feta",
           "3 łyżki nasion maku",
@@ -1574,9 +1117,10 @@
         "zrodlo": [
           31
         ]
-      },
+      }
+    ],
+    "japonska_saatka_z_ogorka_maku_i_wodorostow": [
       {
-        "nazwa": "Japońska sałatka z ogórka, maku i wodorostów",
         "skladniki": [
           "2 ogórki",
           "2 łyżeczki nasion maku (uprażonych)",
@@ -1595,9 +1139,10 @@
         "zrodlo": [
           32
         ]
-      },
+      }
+    ],
+    "niemieckie_kluski_makowe_z_szpinakiem_mohnspinatspatzle": [
       {
-        "nazwa": "Niemieckie kluski makowe z szpinakiem (Mohnspinatspätzle)",
         "skladniki": [
           "250 g mąki pszennej",
           "2 jajka",
@@ -1618,9 +1163,10 @@
         "zrodlo": [
           33
         ]
-      },
+      }
+    ],
+    "francuski_deser_z_gruszek_maku_i_wanilii": [
       {
-        "nazwa": "Francuski deser z gruszek, maku i wanilii",
         "skladniki": [
           "3 dojrzałe gruszki",
           "2 łyżki nasion maku",
@@ -1638,754 +1184,6 @@
         "zastosowanie": "Deser lub śniadanie.",
         "zrodlo": [
           34
-        ]
-      },
-      {
-        "nazwa": "Nalewka makowa z kwiatów i cytryny (Polska)",
-        "skladniki": [
-          "40 g świeżych płatków maku lekarskiego (najlepiej czerwonych, młodych)",
-          "skórka z 1 cytryny (niewoskowana, cienko okrojona bez białej części)",
-          "180 ml miodu lipowego",
-          "500 ml spirytusu 70%",
-          "200 ml przegotowanej wody"
-        ],
-        "sposob_przygotowania": "1. Płatki maku delikatnie opłucz, osusz papierowym ręcznikiem. 2. W dużym słoju układaj warstwami płatki i skórkę cytrynową. 3. Zalej spirytusem. 4. Zamknij szczelnie i odstaw w ciemne miejsce na 7 dni, codziennie lekko wstrząsając. 5. Po tygodniu przecedź przez gazę. 6. Dodaj miód rozpuszczony w wodzie. 7. Odstaw na kolejne 5 dni, po czym przecedź przez filtr do kawy. 8. Przelej do butelek, leżakuj min. 1 miesiąc w chłodzie.",
-        "cechy": [
-          "Złocista barwa, cytrusowy aromat, łagodny smak"
-        ],
-        "wlasciwosci": [
-          "delikatnie uspokajająca, rozgrzewająca"
-        ],
-        "zastosowanie": "10–20 ml wieczorem lub po ciężkim posiłku.",
-        "zrodlo": [
-          "Herbarz domowy, Polska, 1922"
-        ]
-      },
-      {
-        "nazwa": "Makowy likier z migdałami i wanilią (Włochy)",
-        "skladniki": [
-          "25 g świeżych lub suszonych płatków maku",
-          "12 obranych migdałów (sparzonych, lekko rozdrobnionych)",
-          "1 laska wanilii (przecięta wzdłuż)",
-          "0,5 l wódki 40%",
-          "200 g cukru",
-          "120 ml przegotowanej wody"
-        ],
-        "sposob_przygotowania": "1. Płatki maku, migdały i wanilię umieść w dużym słoju. 2. Zalej wódką, zamknij. 3. Odstaw na 14 dni w ciemne, chłodne miejsce, codziennie wstrząsając. 4. Przecedź przez gazę, dodaj cukier rozpuszczony w wodzie. 5. Wymieszaj, odstaw na 2 tygodnie do klarowania. 6. Przefiltruj, przelej do butelek.",
-        "cechy": [
-          "Słodki, gęsty, migdałowo-kwiatowy likier"
-        ],
-        "wlasciwosci": [
-          "łagodnie rozgrzewający, relaksujący"
-        ],
-        "zastosowanie": "Likier do kawy, deserów, lodów.",
-        "zrodlo": [
-          "Liquori delle Nonne, Włochy, 1915"
-        ]
-      },
-      {
-        "nazwa": "Makowa ratafia z maliną i miętą (Francja/Polska)",
-        "skladniki": [
-          "20 g świeżych płatków maku lekarskiego",
-          "150 g świeżych lub mrożonych malin",
-          "kilka gałązek świeżej mięty (lub łyżka suszonej)",
-          "0,7 l spirytusu 60%",
-          "180 g cukru"
-        ],
-        "sposob_przygotowania": "1. Maliny rozgnieć, połącz z płatkami maku i miętą w dużym słoju. 2. Zalej spirytusem, zamknij, odstaw na 3 tygodnie w ciemne miejsce, codziennie lekko wstrząsaj. 3. Przefiltruj, dodaj cukier i wymieszaj. 4. Odstaw na 10 dni, przefiltruj ponownie, rozlej do butelek.",
-        "cechy": [
-          "Czerwono-różowa barwa, kwiatowo-owocowy zapach"
-        ],
-        "wlasciwosci": [
-          "orzeźwiająca, lekko rozluźniająca"
-        ],
-        "zastosowanie": "Do deserów lub jako aperitif.",
-        "zrodlo": [
-          "Recettes de Ratafia, Francja, 1930"
-        ]
-      },
-      {
-        "nazwa": "Wino makowe z jabłkiem i cynamonem (Polska)",
-        "skladniki": [
-          "25 g świeżych płatków maku lekarskiego",
-          "2 średnie słodkie jabłka (pokrojone w kostkę, najlepiej antonówka)",
-          "1 laska cynamonu",
-          "650 g cukru",
-          "2 l wody",
-          "sok z 1/2 cytryny",
-          "1 łyżeczka drożdży winiarskich"
-        ],
-        "sposob_przygotowania": "1. Jabłka pokrój ze skórką. 2. Wszystko umieść w balonie lub dużym słoju. 3. Zagotuj wodę z cukrem, ostudź do temp. pokojowej, zalej owoce i mak. 4. Dodaj sok z cytryny, drożdże. 5. Zamknij rurką fermentacyjną lub przykryj gazą. 6. Fermentuj 3 tygodnie, codziennie mieszaj przez pierwszy tydzień. 7. Zlej znad owoców, fermentuj jeszcze 2–3 tygodnie. 8. Przefiltruj przez gazę, rozlej do butelek, leżakuj min. 2 miesiące.",
-        "cechy": [
-          "Kwiatowo-jabłkowe wino, złocisty kolor"
-        ],
-        "wlasciwosci": [
-          "delikatnie rozgrzewające, relaksujące"
-        ],
-        "zastosowanie": "Do deserów, wieczornego relaksu.",
-        "zrodlo": [
-          "Stare winiarstwo domowe, Polska, 1937"
-        ]
-      },
-      {
-        "nazwa": "Piwo makowe z jałowcem i rumiankiem (Niemcy/Polska)",
-        "skladniki": [
-          "18 g suszonych płatków maku lekarskiego",
-          "10 jagód jałowca (zmiażdżonych w moździerzu)",
-          "12 g suszonych koszyczków rumianku",
-          "400 g słodu jęczmiennego",
-          "60 g cukru",
-          "3 l wody",
-          "drożdże piwne"
-        ],
-        "sposob_przygotowania": "1. Słód, jałowiec i rumianek zagotuj z wodą 35 min. 2. Dodaj mak, gotuj jeszcze 10 min. 3. Przecedź do fermentora, wystudź. 4. Dodaj cukier i drożdże, wymieszaj. 5. Fermentuj tydzień, przelej do butelek. 6. Leżakuj 2–4 tygodnie.",
-        "cechy": [
-          "Lekko ziołowe, kwiatowe, delikatnie żywiczne piwo"
-        ],
-        "wlasciwosci": [
-          "oczyszczające, relaksujące"
-        ],
-        "zastosowanie": "Na letnie wieczory.",
-        "zrodlo": [
-          "Alte deutsche Biere, Niemcy, 1915"
-        ]
-      },
-      {
-        "nazwa": "Likier makowy z fiołkiem i białym winem (Francja)",
-        "skladniki": [
-          "18 g świeżych płatków maku lekarskiego",
-          "8 świeżych lub suszonych kwiatów fiołka",
-          "0,5 l półwytrawnego białego wina",
-          "120 g cukru",
-          "skórka z 1/2 cytryny"
-        ],
-        "sposob_przygotowania": "1. Płatki maku i kwiaty fiołka umieść w słoju, zalej winem, dodaj skórkę cytryny. 2. Odstaw na 5 dni w chłód, codziennie lekko wstrząsaj. 3. Przefiltruj przez gazę, dodaj cukier, wymieszaj. 4. Przelej do butelek, odstaw na 2 tygodnie w chłodne miejsce.",
-        "cechy": [
-          "Aromatyczny, delikatny, kwiatowo-wytrawny likier"
-        ],
-        "wlasciwosci": [
-          "relaksujący, łagodzący napięcie"
-        ],
-        "zastosowanie": "Do wieczornych degustacji, z deserami.",
-        "zrodlo": [
-          "Liqueurs de fleurs, Francja, 1918"
-        ]
-      },
-      {
-        "nazwa": "Wino makowe z czarną porzeczką i werbeną (Anglia)",
-        "skladniki": [
-          "20 g świeżych płatków maku lekarskiego",
-          "120 g czarnych porzeczek (świeżych lub mrożonych)",
-          "8 g suszonych liści werbeny cytrynowej",
-          "600 g cukru",
-          "2 l wody",
-          "1 łyżeczka drożdży winiarskich"
-        ],
-        "sposob_przygotowania": "1. Porzeczki rozgnieć, połącz z makiem i werbeną. 2. Zagotuj wodę z cukrem, ostudź do pokojowej. 3. Zalej owoce, dodaj drożdże. 4. Fermentuj 3 tygodnie, codziennie mieszaj. 5. Zlej znad owoców, fermentuj jeszcze 2–3 tygodnie. 6. Przefiltruj przez gazę, rozlej do butelek.",
-        "cechy": [
-          "Wytrawne, ziołowo-owocowe, ciemna barwa"
-        ],
-        "wlasciwosci": [
-          "lekko pobudzające, wspomagające krążenie"
-        ],
-        "zastosowanie": "Do serów, dań letnich.",
-        "zrodlo": [
-          "English Herbal Wines, 1929"
-        ]
-      },
-      {
-        "nazwa": "Likier makowy z lawendą i imbirem (Francja/Polska)",
-        "skladniki": [
-          "20 g świeżych płatków maku lekarskiego",
-          "1 łyżka suszonych kwiatów lawendy",
-          "2 cienkie plastry świeżego imbiru",
-          "0,5 l spirytusu 60%",
-          "160 g cukru",
-          "100 ml przegotowanej wody"
-        ],
-        "sposob_przygotowania": "1. Płatki maku, lawendę i imbir wsyp do słoja. 2. Zalej spirytusem, zamknij, odstaw na 10 dni w ciemne miejsce, codziennie wstrząsaj. 3. Przefiltruj przez gazę, dodaj syrop cukrowy. 4. Odstaw na tydzień do klarowania. 5. Przefiltruj, rozlej do butelek.",
-        "cechy": [
-          "Delikatnie kwiatowy, korzenny, aromatyczny"
-        ],
-        "wlasciwosci": [
-          "uspokajający, rozgrzewający"
-        ],
-        "zastosowanie": "Likier do ciast, kawy i wieczornej degustacji.",
-        "zrodlo": [
-          "Przepisy apteczne, Polska, 1926"
-        ]
-      },
-      {
-        "nazwa": "Piwo makowe z pokrzywą i bazylią (Polska)",
-        "skladniki": [
-          "15 g świeżych płatków maku",
-          "garść młodych liści pokrzywy (najlepiej świeże, wiosenne)",
-          "kilka liści świeżej bazylii",
-          "400 g słodu żytniego",
-          "55 g cukru",
-          "3 l wody",
-          "drożdże piwne"
-        ],
-        "sposob_przygotowania": "1. Słód, pokrzywę i bazylię zagotuj z wodą 30 min. 2. Dodaj płatki maku, gotuj jeszcze 8 min. 3. Przecedź, ostudź, dodaj cukier i drożdże. 4. Fermentuj 7–8 dni. 5. Przelej do butelek, leżakuj min. 2 tygodnie.",
-        "cechy": [
-          "Lekko ziołowe, wytrawne, delikatnie kwiatowe"
-        ],
-        "wlasciwosci": [
-          "mineralizujące, oczyszczające"
-        ],
-        "zastosowanie": "Do obiadu i na letnie wieczory.",
-        "zrodlo": [
-          "Sztuka piwowarska, Polska, 1932"
-        ]
-      },
-      {
-        "nazwa": "Makowa nalewka z dziką różą i wanilią (Polska)",
-        "skladniki": [
-          "18 g świeżych płatków maku",
-          "60 g owoców dzikiej róży (świeżych lub suszonych)",
-          "1/2 laski wanilii",
-          "0,5 l spirytusu 60%",
-          "130 g cukru",
-          "80 ml przegotowanej wody"
-        ],
-        "sposob_przygotowania": "1. Owoce dzikiej róży rozgnieć, połącz z makiem i wanilią w słoju. 2. Zalej spirytusem, zamknij, odstaw na 10 dni. 3. Przefiltruj przez gazę, dodaj cukier rozpuszczony w wodzie. 4. Odstaw na tydzień, przefiltruj, rozlej do butelek.",
-        "cechy": [
-          "Kwiatowo-owocowy aromat, bursztynowy kolor"
-        ],
-        "wlasciwosci": [
-          "wzmacniająca, poprawia odporność"
-        ],
-        "zastosowanie": "Likier na zimę, do deserów.",
-        "zrodlo": [
-          "Przepisy dworskie, Polska, 1924"
-        ]
-      },
-      {
-        "nazwa": "Likier makowy z głogiem i miodem (Niemcy)",
-        "skladniki": [
-          "18 g suszonych płatków maku",
-          "60 g owoców głogu (suszone lub świeże)",
-          "2 łyżki miodu wielokwiatowego",
-          "0,5 l spirytusu 60%",
-          "120 g cukru",
-          "90 ml przegotowanej wody"
-        ],
-        "sposob_przygotowania": "1. Głóg połącz z makiem w słoju, zalej spirytusem. 2. Zamknij, odstaw na 14 dni, codziennie wstrząsaj. 3. Przefiltruj przez gazę, dodaj miód i syrop cukrowy. 4. Przefiltruj ponownie, rozlej do butelek.",
-        "cechy": [
-          "Kwiatowo-owocowy smak, miodowy aromat"
-        ],
-        "wlasciwosci": [
-          "wzmacniająca serce, lekko uspokajająca"
-        ],
-        "zastosowanie": "Likier na długie wieczory.",
-        "zrodlo": [
-          "Apteka domowa, Niemcy, 1917"
-        ]
-      },
-      {
-        "nazwa": "Makowa ratafia z aronią i cynamonem (Rosja)",
-        "skladniki": [
-          "17 g świeżych płatków maku lekarskiego",
-          "80 g owoców aronii (świeżych lub mrożonych)",
-          "kawałek laski cynamonu",
-          "0,5 l spirytusu 60%",
-          "130 g cukru"
-        ],
-        "sposob_przygotowania": "1. Owoce aronii rozgnieć, połącz z makiem i cynamonem, zalej spirytusem. 2. Zamknij, odstaw na 10 dni, codziennie wstrząsaj. 3. Przefiltruj przez gazę, dodaj cukier, wymieszaj. 4. Przefiltruj, przelej do butelek.",
-        "cechy": [
-          "Ciemna, wytrawna ratafia o kwiatowo-korzennym aromacie"
-        ],
-        "wlasciwosci": [
-          "rozgrzewająca, poprawia krążenie"
-        ],
-        "zastosowanie": "Likier do ciężkich dań i ciast.",
-        "zrodlo": [
-          "Stare rosyjskie nalewki, 1931"
-        ]
-      },
-      {
-        "nazwa": "Makowa nalewka z anyżem i kawą (Austria/Polska)",
-        "skladniki": [
-          "20 g świeżych płatków maku lekarskiego",
-          "1/2 łyżeczki nasion anyżu",
-          "1 łyżka świeżo mielonej kawy",
-          "0,5 l spirytusu 60%",
-          "120 g cukru",
-          "100 ml przegotowanej wody"
-        ],
-        "sposob_przygotowania": "1. Mak, anyż i kawę wsyp do słoja, zalej spirytusem. 2. Zamknij i odstaw na 9 dni, codziennie wstrząsaj. 3. Przefiltruj, dodaj cukier rozpuszczony w wodzie, odstaw na 7 dni. 4. Przefiltruj, przelej do butelek.",
-        "cechy": [
-          "Makowo-kawowy smak, korzenny aromat"
-        ],
-        "wlasciwosci": [
-          "rozgrzewająca, poprawia nastrój"
-        ],
-        "zastosowanie": "Likier do kawy, ciast, wieczornych rozmów.",
-        "zrodlo": [
-          "Austriackie likiery domowe, 1927"
-        ]
-      },
-      {
-        "nazwa": "Wino makowe z winogronem i melisą (Włochy)",
-        "skladniki": [
-          "20 g świeżych płatków maku",
-          "200 g białych winogron (dojrzałych, pokrojonych na połówki)",
-          "8 g świeżej lub suszonej melisy",
-          "600 g cukru",
-          "2 l wody",
-          "sok z 1/2 cytryny",
-          "1 łyżeczka drożdży winiarskich"
-        ],
-        "sposob_przygotowania": "1. Winogrona wymieszaj z makiem i melisą w balonie. 2. Zagotuj wodę z cukrem, ostudź, zalej owoce. 3. Dodaj sok z cytryny i drożdże. 4. Fermentuj 3 tygodnie, codziennie mieszaj. 5. Zlej znad owoców, fermentuj jeszcze 2–3 tygodnie. 6. Przefiltruj, rozlej do butelek.",
-        "cechy": [
-          "Delikatne, kwiatowo-owocowe, słomkowe wino"
-        ],
-        "wlasciwosci": [
-          "odprężające, wspomagające trawienie"
-        ],
-        "zastosowanie": "Do sałatek, serów i lekkich dań.",
-        "zrodlo": [
-          "Winiarstwo włoskie, 1932"
-        ]
-      },
-      {
-        "nazwa": "Makowy bitters z arcydzięglem i rozmarynem (typ barmański, Niemcy)",
-        "skladniki": [
-          "12 g suszonych płatków maku lekarskiego",
-          "5 g suszonego korzenia arcydzięgla lekarskiego",
-          "1/3 łyżeczki suszonego rozmarynu",
-          "skórka z 1/3 cytryny",
-          "180 ml spirytusu 70%",
-          "25 ml przegotowanej wody"
-        ],
-        "sposob_przygotowania": "1. Mak, arcydzięgiel, rozmaryn i skórkę cytryny włóż do małego słoja. 2. Zalej spirytusem, zamknij, odstaw na 12 dni, codziennie lekko wstrząsaj. 3. Dodaj wodę, wymieszaj, odstaw na 2 dni. 4. Przefiltruj przez gazę, rozlej do małych butelek.",
-        "cechy": [
-          "Intensywny, ziołowy, lekko gorzkawy bitters"
-        ],
-        "wlasciwosci": [
-          "wzmacniający apetyt, rozgrzewający"
-        ],
-        "zastosowanie": "Do drinków, lemoniad, domowych koktajli (kilka kropel).",
-        "zrodlo": [
-          "Barmańska apteczka, Niemcy, 1930"
-        ]
-      },
-      {
-        "nazwa": "Syrop makowy z maliną i wanilią",
-        "skladniki": [
-          "30 g świeżych płatków maku lekarskiego (lub 15 g suszonych)",
-          "100 g malin (świeżych lub mrożonych)",
-          "1/3 laski wanilii",
-          "300 g cukru",
-          "500 ml wody"
-        ],
-        "sposob_przygotowania": "1. Płatki maku i maliny wsyp do garnka, zalej wodą, zagotuj. 2. Gotuj na bardzo małym ogniu przez 15 min pod przykryciem. 3. Dodaj wanilię, odstaw na 15 min. 4. Przecedź przez drobne sito lub gazę. 5. Do naparu dodaj cukier, zagotuj, mieszaj aż się rozpuści. 6. Przelej do wyparzonych butelek lub słoików. Przechowuj w lodówce do 10 dni.",
-        "cechy": [
-          "Kwiatowo-owocowy, lekko waniliowy syrop"
-        ],
-        "wlasciwosci": [
-          "łagodzący, relaksujący, lekko uspokajający"
-        ],
-        "zastosowanie": "Do herbaty, wody, lemoniad, na kaszel.",
-        "zrodlo": [
-          "Syropy domowe, Polska, 1937"
-        ]
-      },
-      {
-        "nazwa": "Makowa lemoniada z limonką i bazylią",
-        "skladniki": [
-          "25 g świeżych płatków maku lekarskiego",
-          "sok z 1 limonki + cienko okrojona skórka",
-          "kilka listków świeżej bazylii",
-          "2 łyżki miodu (lub syropu z agawy)",
-          "800 ml wody mineralnej (lekko gazowanej)",
-          "kostki lodu"
-        ],
-        "sposob_przygotowania": "1. Płatki maku zalej 250 ml wrzątku, parz 10 min pod przykryciem, przecedź i ostudź. 2. Dodaj sok i skórkę limonki, miód i bazylię. 3. Wlej do dzbanka, dopełnij wodą mineralną. 4. Dodaj kostki lodu, wymieszaj. 5. Podawaj schłodzoną z plasterkami limonki.",
-        "cechy": [
-          "Orzeźwiająca, cytrusowo-kwiatowa lemoniada"
-        ],
-        "wlasciwosci": [
-          "uspokajająca, łagodząca pragnienie"
-        ],
-        "zastosowanie": "Na upały, dla dorosłych i dzieci powyżej 5 lat.",
-        "zrodlo": [
-          "Lemoniady domowe, Polska, 1938"
-        ]
-      },
-      {
-        "nazwa": "Makowy syrop z czarną porzeczką i imbirem",
-        "skladniki": [
-          "18 g suszonych płatków maku",
-          "100 g czarnej porzeczki (świeżej lub mrożonej)",
-          "2 cienkie plastry świeżego imbiru",
-          "320 g cukru",
-          "600 ml wody"
-        ],
-        "sposob_przygotowania": "1. Płatki maku, porzeczki i imbir wrzuć do garnka, zalej wodą, zagotuj. 2. Gotuj na małym ogniu 12 min pod przykryciem. 3. Przecedź przez gęste sito. 4. Do naparu dodaj cukier, zagotuj aż się rozpuści. 5. Przelej do wyparzonych butelek, przechowuj w lodówce do 12 dni.",
-        "cechy": [
-          "Syrop o głębokim kolorze i lekko pikantnym smaku"
-        ],
-        "wlasciwosci": [
-          "rozgrzewający, łagodzący kaszel"
-        ],
-        "zastosowanie": "Do herbaty, wody, mleka roślinnego, lemoniad.",
-        "zrodlo": [
-          "Syropy ziołowe, Niemcy, 1934"
-        ]
-      },
-      {
-        "nazwa": "Makowy napój z jabłkiem i miętą",
-        "skladniki": [
-          "20 g świeżych płatków maku",
-          "1 słodkie jabłko (pokrojone w plasterki)",
-          "kilka listków świeżej mięty",
-          "1 l wody",
-          "sok z połowy cytryny",
-          "1–2 łyżki miodu"
-        ],
-        "sposob_przygotowania": "1. Płatki maku i jabłko wrzuć do dzbanka, zalej wrzątkiem (1 l). 2. Parz pod przykryciem 15 min. 3. Dodaj miętę, sok z cytryny i miód, wymieszaj. 4. Ostudź, przelej przez sito, podawaj schłodzone.",
-        "cechy": [
-          "Lekki, owocowo-ziołowy napój"
-        ],
-        "wlasciwosci": [
-          "lekko wyciszający, orzeźwiający"
-        ],
-        "zastosowanie": "Do śniadania, na popołudniowy relaks.",
-        "zrodlo": [
-          "Przepisy ogrodowe, Polska, 1931"
-        ]
-      },
-      {
-        "nazwa": "Makowa herbatka z maliną i lipą",
-        "skladniki": [
-          "15 g suszonych płatków maku",
-          "2 łyżki suszonych kwiatów lipy",
-          "70 g malin (świeżych lub mrożonych)",
-          "500 ml wrzątku",
-          "1 łyżka miodu"
-        ],
-        "sposob_przygotowania": "1. Mak, lipę i maliny zalej wrzątkiem w dzbanku. 2. Parz pod przykryciem 12 min. 3. Przecedź, dodaj miód, wymieszaj. 4. Pij ciepłe lub schłodzone.",
-        "cechy": [
-          "Aromatyczna, lekko słodka, kwiatowo-owocowa"
-        ],
-        "wlasciwosci": [
-          "łagodząca, uspokajająca"
-        ],
-        "zastosowanie": "Napar na wieczorny relaks.",
-        "zrodlo": [
-          "Herbaciarnia domowa, Polska, 1942"
-        ]
-      },
-      {
-        "nazwa": "Kompocik makowy z gruszką i wanilią",
-        "skladniki": [
-          "15 g suszonych płatków maku",
-          "1 dojrzała gruszka (pokrojona w kostkę)",
-          "kawałek laski wanilii",
-          "800 ml wody",
-          "1 łyżka miodu"
-        ],
-        "sposob_przygotowania": "1. Gruszkę i mak wrzuć do garnka, zalej wodą, zagotuj. 2. Gotuj 8 min na małym ogniu, dodaj wanilię. 3. Odstaw na 10 min pod przykryciem. 4. Przecedź przez sito, dodaj miód, wymieszaj. 5. Pij letni lub schłodzony.",
-        "cechy": [
-          "Delikatny, owocowo-waniliowy smak"
-        ],
-        "wlasciwosci": [
-          "relaksujący, lekko wyciszający"
-        ],
-        "zastosowanie": "Do śniadania lub na podwieczorek.",
-        "zrodlo": [
-          "Przepisy babcine, Polska, 1935"
-        ]
-      },
-      {
-        "nazwa": "Makowa lemoniada z porzeczką i bazylią",
-        "skladniki": [
-          "18 g suszonych płatków maku",
-          "70 g czerwonej porzeczki (świeżej lub mrożonej)",
-          "kilka listków bazylii",
-          "700 ml wody mineralnej (lekko gazowanej)",
-          "sok z 1/2 cytryny",
-          "kostki lodu"
-        ],
-        "sposob_przygotowania": "1. Mak i porzeczki zalej 300 ml wrzątku, parz 10 min, przecedź. 2. Dodaj sok z cytryny i bazylię, ostudź. 3. Wlej do dzbanka, dopełnij wodą mineralną, dodaj lód.",
-        "cechy": [
-          "Orzeźwiająca, kwiatowo-owocowa, lekko kwaskowa"
-        ],
-        "wlasciwosci": [
-          "chłodząca, mineralizująca"
-        ],
-        "zastosowanie": "Na upały, do lunchu.",
-        "zrodlo": [
-          "Letnie lemoniady, Polska, 1939"
-        ]
-      },
-      {
-        "nazwa": "Makowy napój z ogórkiem i melisą",
-        "skladniki": [
-          "15 g suszonych płatków maku",
-          "kilka cienkich plasterków świeżego ogórka",
-          "kilka liści świeżej melisy",
-          "700 ml wody",
-          "1 łyżka miodu"
-        ],
-        "sposob_przygotowania": "1. Mak zalej 300 ml wrzątku, parz 10 min, przecedź i ostudź. 2. W dzbanku umieść ogórek i melisę, zalej naparem, dodaj resztę wody i miód. 3. Podawaj schłodzone.",
-        "cechy": [
-          "Bardzo świeży, ziołowy, lekko relaksujący"
-        ],
-        "wlasciwosci": [
-          "nawadniający, uspokajający"
-        ],
-        "zastosowanie": "Idealny na lato, do kolacji.",
-        "zrodlo": [
-          "Napoje ogrodowe, Polska, 1945"
-        ]
-      },
-      {
-        "nazwa": "Makowy syrop z miodem i imbirem",
-        "skladniki": [
-          "20 g suszonych płatków maku",
-          "3 cienkie plasterki świeżego imbiru",
-          "200 ml miodu wielokwiatowego",
-          "400 ml wody"
-        ],
-        "sposob_przygotowania": "1. Mak i imbir zalej wodą, gotuj 10 min na małym ogniu. 2. Odstaw na 10 min, przecedź przez drobne sito. 3. W jeszcze ciepłym naparze rozpuść miód, przelej do wyparzonych butelek. 4. Przechowuj w lodówce do 10 dni.",
-        "cechy": [
-          "Bardzo aromatyczny, słodko-korzenny"
-        ],
-        "wlasciwosci": [
-          "łagodzący, rozgrzewający"
-        ],
-        "zastosowanie": "Do rozcieńczania w wodzie, do herbaty, na przeziębienie.",
-        "zrodlo": [
-          "Przepisy apteczne, Polska, 1928"
-        ]
-      },
-      {
-        "nazwa": "Makowy napój z aronią i werbeną",
-        "skladniki": [
-          "15 g suszonych płatków maku",
-          "40 g owoców aronii (świeżych lub mrożonych)",
-          "6 g suszonych liści werbeny cytrynowej",
-          "700 ml wody",
-          "1–2 łyżki syropu z agawy lub miodu"
-        ],
-        "sposob_przygotowania": "1. Mak, aronię i werbenę zalej wrzątkiem w dzbanku. 2. Parz 15 min pod przykryciem. 3. Przecedź, ostudź, dosłódź. 4. Podawaj schłodzone.",
-        "cechy": [
-          "Wyrazisty, kwiatowo-owocowy napój"
-        ],
-        "wlasciwosci": [
-          "wzmacniający, lekko pobudzający"
-        ],
-        "zastosowanie": "Do śniadania, letnich przekąsek.",
-        "zrodlo": [
-          "Herbaty świata, Polska, 1938"
-        ]
-      },
-      {
-        "nazwa": "Makowy eliksir na dobry sen z lipą i lawendą",
-        "skladniki": [
-          "12 g suszonych płatków maku",
-          "2 łyżki suszonych kwiatów lipy",
-          "1/2 łyżeczki suszonych kwiatów lawendy",
-          "500 ml wody",
-          "1 łyżeczka miodu"
-        ],
-        "sposob_przygotowania": "1. Wszystkie składniki zalej wrzątkiem w dzbanku, parz 12 min pod przykryciem. 2. Przecedź przez drobne sito, dosłódź do smaku. 3. Pij wieczorem, 30 min przed snem.",
-        "cechy": [
-          "Kwiatowo-ziołowy aromat, łagodny smak"
-        ],
-        "wlasciwosci": [
-          "wyciszający, relaksujący"
-        ],
-        "zastosowanie": "Eliksir wieczorny, także dla dzieci powyżej 5 lat.",
-        "zrodlo": [
-          "Zielnik domowy, Polska, 1930"
-        ]
-      },
-      {
-        "nazwa": "Makowy napój z pigwą i miętą",
-        "skladniki": [
-          "15 g suszonych płatków maku",
-          "50 g świeżej pigwy (pokrojonej w plasterki)",
-          "kilka listków świeżej mięty",
-          "700 ml wody",
-          "2 łyżki cukru"
-        ],
-        "sposob_przygotowania": "1. Mak i pigwę zalej wrzątkiem, parz 12 min, dodaj miętę na ostatnie 3 minuty. 2. Przecedź, ostudź, dosłódź. 3. Podawaj schłodzony, z listkami mięty na wierzchu.",
-        "cechy": [
-          "Aromatyczny, lekko kwaskowy, bardzo świeży"
-        ],
-        "wlasciwosci": [
-          "wzmacniający, lekko detoksykujący"
-        ],
-        "zastosowanie": "Na letnie popołudnia.",
-        "zrodlo": [
-          "Kuchnia wiejska, Polska, 1929"
-        ]
-      },
-      {
-        "nazwa": "Makowy syrop z miodem i cytryną (na kaszel)",
-        "skladniki": [
-          "18 g suszonych płatków maku",
-          "sok z 1 cytryny",
-          "120 g miodu",
-          "400 ml wody"
-        ],
-        "sposob_przygotowania": "1. Mak zalej wrzątkiem, parz 15 min pod przykryciem, przecedź. 2. Dodaj sok z cytryny i miód, dokładnie wymieszaj. 3. Przelej do butelki, przechowuj w lodówce do 7 dni.",
-        "cechy": [
-          "Łagodny, delikatnie kwiatowy syrop"
-        ],
-        "wlasciwosci": [
-          "łagodzi kaszel, uspokaja"
-        ],
-        "zastosowanie": "Po 1 łyżeczce 3 razy dziennie lub do napojów.",
-        "zrodlo": [
-          "Syropy apteczne, Polska, 1933"
-        ]
-      },
-      {
-        "nazwa": "Makowy napój z hibiskusem i miodem",
-        "skladniki": [
-          "14 g suszonych płatków maku",
-          "1 łyżka suszonych kwiatów hibiskusa",
-          "700 ml wody",
-          "1–2 łyżki miodu"
-        ],
-        "sposob_przygotowania": "1. Mak i hibiskus zalej wrzątkiem w dzbanku, parz 10 min, przecedź. 2. Ostudź, dosłódź miodem do smaku. 3. Podawaj letni lub schłodzony.",
-        "cechy": [
-          "Kwiatowo-kwaśny, różowy napój"
-        ],
-        "wlasciwosci": [
-          "wzmacniający, chłodzący"
-        ],
-        "zastosowanie": "Do picia w letnie popołudnia.",
-        "zrodlo": [
-          "Przepisy ogrodowe, Polska, 1942"
-        ]
-      },
-      {
-        "nazwa": "Makowy napój fermentowany z cytryną (domowa oranżada)",
-        "skladniki": [
-          "16 g suszonych płatków maku",
-          "sok i cienko okrojona skórka z 1 cytryny",
-          "2 łyżki cukru",
-          "700 ml wody",
-          "szczypta drożdży winnych (lub 2 ziarenka niepryskanej mąki żytniej)"
-        ],
-        "sposob_przygotowania": "1. Mak i skórkę cytryny zalej wrzątkiem, parz 10 min, przecedź, ostudź do temp. pokojowej. 2. Dodaj cukier, sok z cytryny, drożdże lub mąkę. 3. Wlej do plastikowej butelki (nie do pełna!), zostaw w temp. pokojowej na 16–24 h. 4. Gdy napój będzie gazowany, przechowuj w lodówce do 2 dni.",
-        "cechy": [
-          "Bardzo orzeźwiająca, lekko musująca, kwiatowa oranżada"
-        ],
-        "wlasciwosci": [
-          "mineralizująca, orzeźwiająca"
-        ],
-        "zastosowanie": "Na upalne dni, do śniadań.",
-        "zrodlo": [
-          "Oranżady domowe, Polska, 1951"
-        ]
-      },
-      {
-        "nazwa": "Makowy napój z rabarbarem i truskawką",
-        "skladniki": [
-          "14 g suszonych płatków maku",
-          "50 g rabarbaru (pokrojonego na kawałki)",
-          "50 g świeżych truskawek",
-          "700 ml wody",
-          "1–2 łyżki cukru"
-        ],
-        "sposob_przygotowania": "1. Rabarbar i truskawki zagotuj z wodą przez 5 min. 2. Dodaj mak, parz pod przykryciem 10 min. 3. Przecedź przez sito, ostudź, dosłódź. 4. Podawaj schłodzony.",
-        "cechy": [
-          "Bardzo świeży, lekko kwaskowy, kwiatowo-owocowy"
-        ],
-        "wlasciwosci": [
-          "wzmacniający, pobudzający"
-        ],
-        "zastosowanie": "Do letnich przekąsek.",
-        "zrodlo": [
-          "Letnie napoje, Polska, 1947"
-        ]
-      },
-      {
-        "nazwa": "Makowa herbatka z fiołkiem i melisą",
-        "skladniki": [
-          "12 g suszonych płatków maku",
-          "4 kwiaty fiołka (suszone lub świeże)",
-          "kilka liści melisy",
-          "400 ml wody"
-        ],
-        "sposob_przygotowania": "1. Wszystkie składniki zalej wrzątkiem w filiżance. 2. Parz pod przykryciem 10 min, przecedź. 3. Pij wieczorem przed snem.",
-        "cechy": [
-          "Kwiatowo-ziołowy, delikatny napar"
-        ],
-        "wlasciwosci": [
-          "wyciszający, poprawia nastrój"
-        ],
-        "zastosowanie": "Eliksir na spokojny wieczór.",
-        "zrodlo": [
-          "Zielnik rodzinny, Polska, 1933"
-        ]
-      },
-      {
-        "nazwa": "Makowy eliksir z lipą i skórką pomarańczy",
-        "skladniki": [
-          "12 g suszonych płatków maku",
-          "1 łyżka suszonych kwiatów lipy",
-          "cienko okrojona skórka z 1/4 pomarańczy",
-          "350 ml wody",
-          "1 łyżka miodu"
-        ],
-        "sposob_przygotowania": "1. Mak, lipę i skórkę pomarańczy zalej wrzątkiem, parz pod przykryciem 12 min. 2. Przecedź, dosłódź miodem. 3. Pij ciepły wieczorem.",
-        "cechy": [
-          "Kwiatowo-cytrusowy, bardzo łagodny"
-        ],
-        "wlasciwosci": [
-          "łagodzący, poprawiający nastrój"
-        ],
-        "zastosowanie": "Na wieczorne wyciszenie.",
-        "zrodlo": [
-          "Domowe eliksiry, Polska, 1944"
-        ]
-      },
-      {
-        "nazwa": "Makowy napój z czarną jagodą i rozmarynem",
-        "skladniki": [
-          "13 g suszonych płatków maku",
-          "30 g świeżych czarnych jagód (lub borówek)",
-          "szczypta suszonego rozmarynu",
-          "500 ml wody"
-        ],
-        "sposob_przygotowania": "1. Mak, jagody i rozmaryn zalej wrzątkiem, parz pod przykryciem 12 min. 2. Przecedź przez sito, podawaj ciepły lub chłodny.",
-        "cechy": [
-          "Kwiatowo-owocowy z lekką nutą ziołową"
-        ],
-        "wlasciwosci": [
-          "wzmacniający, łagodzący"
-        ],
-        "zastosowanie": "Do śniadania lub wieczornych przekąsek.",
-        "zrodlo": [
-          "Napoje leśne, Polska, 1941"
-        ]
-      },
-      {
-        "nazwa": "Makowy syrop z bzem czarnym i goździkiem",
-        "skladniki": [
-          "16 g suszonych płatków maku",
-          "2 łyżki suszonych kwiatów bzu czarnego",
-          "2 goździki",
-          "350 g cukru",
-          "600 ml wody"
-        ],
-        "sposob_przygotowania": "1. Mak, bez i goździki zalej wodą, zagotuj. 2. Gotuj 15 min na małym ogniu pod przykryciem. 3. Przecedź przez sito, dodaj cukier, zagotuj aż się rozpuści. 4. Przelej do butelek, przechowuj w lodówce do 2 tygodni.",
-        "cechy": [
-          "Bardzo aromatyczny, ziołowo-kwiatowy syrop"
-        ],
-        "wlasciwosci": [
-          "wzmacniający, odpornościowy"
-        ],
-        "zastosowanie": "Do rozcieńczania w wodzie, na kaszel.",
-        "zrodlo": [
-          "Syropy tradycyjne, Polska, 1927"
         ]
       }
     ]
@@ -2450,38 +1248,110 @@
     "30": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
   },
   "kalendarz": {
-    "siew": [
-      3,
-      4
-    ],
-    "kwitnienie": [
-      6,
-      7
-    ],
-    "zbior_kwiatow": [
-      6,
-      7
-    ],
-    "zbior_pelnia": [
-      6
-    ],
-    "zbior_nasion": [
-      7,
-      8
-    ],
-    "ekstrakcja": [
-      6,
-      7
-    ],
-    "miodobranie": [
-      6
-    ],
-    "pielenie": [
-      5,
-      6
-    ],
-    "przesadzanie": [
-      4
-    ]
+    "siew": {
+      "miesiące": [
+        3,
+        4
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Wysiewaj wprost do gruntu. Nasiona kiełkują już przy 2–4°C. Unikaj przesuszania gleby.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Papaver+somniferum"
+    },
+    "kwitnienie": {
+      "miesiące": [
+        6,
+        7
+      ],
+      "zalecana_faza_ksiezyca": "bez znaczenia",
+      "typ": "obserwacyjny",
+      "czas_dnia": "w ciągu dnia",
+      "intensywność": "symboliczna",
+      "uwagi": "Obserwuj kwiaty – opadają szybko, a to moment na zbiór płatków.",
+      "źródło": "https://www.growveg.com/guides/growing-poppies-for-seeds-and-bees/"
+    },
+    "zbior_kwiatow": {
+      "miesiące": [
+        6,
+        7
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "zielarski",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Zbieraj świeże płatki po odparowaniu rosy, najlepiej w suchy dzień.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Papaver+somniferum"
+    },
+    "zbior_pelnia": {
+      "miesiące": [
+        6
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "rytualny",
+      "czas_dnia": "wieczór",
+      "intensywność": "symboliczna",
+      "uwagi": "Zgodnie z tradycją – zbieranie w pełni ma zwiększać moc surowca.",
+      "źródło": "https://www.thespruce.com/moon-phase-gardening-5219263"
+    },
+    "zbior_nasion": {
+      "miesiące": [
+        7,
+        8
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "zbiorczy",
+      "czas_dnia": "po południu",
+      "intensywność": "wysoka",
+      "uwagi": "Zbieraj gdy torebki są suche i słychać grzechotanie nasion. Dosuszaj w przewiewnym miejscu.",
+      "źródło": "https://extension.usu.edu/yardandgarden/research/seed-poppy-in-the-garden"
+    },
+    "ekstrakcja": {
+      "miesiące": [
+        6,
+        7
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "techniczny",
+      "czas_dnia": "po południu",
+      "intensywność": "wysoka",
+      "uwagi": "Zbieranie soku mlecznego z główek to czynność precyzyjna i wymaga ostrożności – nielegalna w niektórych krajach.",
+      "źródło": "https://en.wikipedia.org/wiki/Papaver_somniferum#Cultivation_and_harvesting"
+    },
+    "miodobranie": {
+      "miesiące": [
+        6
+      ],
+      "zalecana_faza_ksiezyca": "bez znaczenia",
+      "typ": "pszczelarski",
+      "czas_dnia": "w ciągu dnia",
+      "intensywność": "średnia",
+      "uwagi": "Mak dostarcza pyłku pszczołom, ale nektaru niewiele – stawiaj ule blisko plantacji dla lepszego plonowania.",
+      "źródło": "https://www.growveg.com/guides/growing-poppies-for-seeds-and-bees/"
+    },
+    "pielenie": {
+      "miesiące": [
+        5,
+        6
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "dowolny",
+      "intensywność": "średnia",
+      "uwagi": "Mak nie lubi konkurencji – usuń chwasty wcześnie, najlepiej ręcznie, by nie uszkodzić siewek.",
+      "źródło": "https://en.wikipedia.org/wiki/Mechanical_weed_control"
+    },
+    "przesadzanie": {
+      "miesiące": [
+        4
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "niska",
+      "uwagi": "Mak źle znosi przesadzanie – wykonuj tylko w stanie siewek z zachowaniem bryły korzeniowej.",
+      "źródło": "https://www.castorama.pl/mak-uprawa-pielegnacja-zastosowanie-enc-12663635.html"
+    }
   }
 }

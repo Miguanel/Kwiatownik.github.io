@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>🍲 Przepisy kulinarne</title>
+  <link rel="stylesheet" href="/static/style_przepisy.css">
+
+  <script>
+    function toggleRecipeCard(header) {
+      const icon = header.querySelector(".icon");
+      const content = header.nextElementSibling;
+      const isExpanded = content.classList.contains("expanded");
+      content.classList.toggle("expanded");
+      icon.textContent = isExpanded ? "▶️" : "▼";
+    }
+  </script>
+</head>
+<body>
+  <h2>🍲 Przepisy kulinarne</h2>
+
+  {% for nazwa_przepisu, wpis in data.przepisy_kulinarne.items() %}
+  {% if wpis is mapping %}
+    {% set lista = [wpis] %}
+  {% else %}
+    {% set lista = wpis %}
+  {% endif %}
+  {% for przepis in lista %}
+    <details class="przepis-card">
+      <summary class="przepis-header" onclick="toggleRecipeCard(this)">
+        <span class="icon">▶️</span>
+        {{ przepis.nazwa or nazwa_przepisu.replace('_', ' ')|capitalize }}
+      </summary>
+      <div class="przepis-content">
+        {% if przepis.skladniki %}
+        <b>Składniki:</b>
+        <ul>
+          {% for s in przepis.skladniki %}
+          <li>{{ s }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if przepis.sposob_przygotowania %}
+        <b>Sposób przygotowania:</b>
+        <p>{{ przepis.sposob_przygotowania }}</p>
+        {% endif %}
+
+        {% if przepis.cechy %}
+        <b>Cechy:</b>
+        <ul>
+          {% for c in przepis.cechy %}
+          <li>{{ c }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if przepis.wlasciwosci %}
+        <b>Właściwości:</b>
+        <ul>
+          {% for w in przepis.wlasciwosci %}
+          <li>{{ w }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if przepis.zastosowanie %}
+        <b>Zastosowanie:</b>
+        <p>{{ przepis.zastosowanie }}</p>
+        {% endif %}
+
+        {% if przepis.uwagi %}
+        <b>Uwagi:</b>
+        <p>{{ przepis.uwagi }}</p>
+        {% endif %}
+
+        {% if przepis.zrodlo %}
+        <b>Źródła:</b>
+        <p>
+          {% for z in przepis.zrodlo %}
+            <a href="#bib{{ z }}">[{{ z }}]</a>{% if not loop.last %}, {% endif %}
+          {% endfor %}
+        </p>
+        {% endif %}
+      </div>
+    </details>
+  {% endfor %}
+{% endfor %}
+
+</body>
+</html>

@@ -156,324 +156,313 @@
     }
   ],
   "przepisy_medyczne": {
-    "odwar_z_kory_dębu": {
-      "skladniki": [
-        "1 łyżka kory młodych gałęzi dębu szypułkowego (świeża lub suszona, najlepiej świeża, młoda)",
-        "250 ml wody (świeża)"
-      ],
-      "sposob_przygotowania": "Korę rozdrobnić, zalać zimną wodą, gotować pod przykryciem 10 minut, przecedzić.",
-      "cechy": [
-        "ciemny kolor",
-        "gorzki smak"
-      ],
-      "wlasciwosci": [
-        "ściągający",
-        "przeciwzapalny"
-      ],
-      "zastosowanie": "Płukanki na stany zapalne gardła i jamy ustnej, kąpiele na podrażnienia skóry.",
-      "dawkowanie": "Płukać gardło 2–3 razy dziennie, stosować do przemywania skóry.",
-      "zrodlo": [
-        3
-      ]
-    },
-    "mąka_żołędziowa_na_biegunki": {
-      "skladniki": [
-        "1 łyżka mąki żołędziowej (uprażone, dojrzałe żołędzie, dobrze wysuszona i zmielona)",
-        "Szklanka letniej wody (świeża)"
-      ],
-      "sposob_przygotowania": "Mąkę wsypać do szklanki letniej wody, dokładnie wymieszać. Pić dwa razy dziennie.",
-      "cechy": [
-        "łagodny smak",
-        "lekko orzechowy posmak"
-      ],
-      "wlasciwosci": [
-        "działanie ściągające",
-        "łagodzi biegunkę"
-      ],
-      "zastosowanie": "Stany zapalne przewodu pokarmowego.",
-      "dawkowanie": "2 razy dziennie przez 2–3 dni.",
-      "zrodlo": [
-        4
-      ]
-    },
-    "kąpiel_na_skórę": {
-      "skladniki": [
-        "3 garście kory dębu (świeża lub suszona)",
-        "2 litry wody (świeża)"
-      ],
-      "sposob_przygotowania": "Kory gotować 20 min, przecedzić do wanny z ciepłą wodą.",
-      "cechy": [
-        "Cierpki, intensywny aromat"
-      ],
-      "wlasciwosci": [
-        "łagodzi stany zapalne, świąd, potliwość"
-      ],
-      "zastosowanie": "Kąpiele lecznicze przy egzemy, łuszczycy, nadmiernej potliwości.",
-      "zrodlo": [
-        14
-      ]
-    },
-    "herbatka_na_biegunki": {
-      "skladniki": [
-        "1 łyżeczka suszonej kory dębu (najlepiej młoda, świeżo suszona)",
-        "200 ml wrzątku"
-      ],
-      "sposob_przygotowania": "Zalać korę wrzątkiem, parzyć 20 min pod przykryciem, przecedzić.",
-      "cechy": [
-        "Cierpki, mocny napar"
-      ],
-      "wlasciwosci": [
-        "ściągający, hamujący biegunki"
-      ],
-      "zastosowanie": "Biegunki, nieżyty żołądka (krótkotrwale).",
-      "zrodlo": [
-        15
-      ]
-    },
-    "okład_z_kory": {
-      "skladniki": [
-        "1 łyżka mielonej kory dębu (świeża lub suszona, najlepiej świeża, młoda)",
-        "szklanka wody (świeża)"
-      ],
-      "sposob_przygotowania": "Kory gotować 10 min, ostudzić, przykładać na skórę z opatrunkiem.",
-      "cechy": [
-        "Łagodny, chłodzący efekt"
-      ],
-      "wlasciwosci": [
-        "przyspiesza gojenie, ściągający"
-      ],
-      "zastosowanie": "Okłady na rany, stłuczenia, stany zapalne skóry.",
-      "zrodlo": [
-        16
-      ]
-    },
-    "macerat_na_podrażnienia": {
-      "skladniki": [
-        "2 łyżki kory dębu (świeża, młoda lub świeżo suszona)",
-        "250 ml chłodnej wody (świeża)"
-      ],
-      "sposob_przygotowania": "Korę zalać zimną wodą, odstawić na 6-8 godzin, przecedzić. Stosować do przemywania skóry.",
-      "cechy": [
-        "jasnobrązowy płyn",
-        "delikatny zapach"
-      ],
-      "wlasciwosci": [
-        "łagodzący podrażnienia",
-        "przeciwzapalny"
-      ],
-      "zastosowanie": "Przemywanie skóry przy łagodnych stanach zapalnych, otarciach, oparzeniach słonecznych.",
-      "zrodlo": [
-        13
-      ]
-    },
-    "nalewka_na_płukanie_jamy_ustnej": {
-      "skladniki": [
-        "10 g kory dębu (suszonej, najlepiej młoda kora)",
-        "100 ml spirytusu 70%"
-      ],
-      "sposob_przygotowania": "Kora zalać spirytusem, macerować 14 dni, przecedzić. Do płukania rozcieńczyć 1:10 wodą.",
-      "cechy": [
-        "wyraźny, cierpki smak"
-      ],
-      "wlasciwosci": [
-        "ściągająca, antyseptyczna"
-      ],
-      "zastosowanie": "Płukanki przy paradontozie, stanach zapalnych dziąseł.",
-      "zrodlo": [
-        5
-      ]
-    },
-    "syrop_na_gardlo": {
-      "skladniki": [
-        "1 łyżka kory dębu (świeża, młoda lub suszona)",
-        "1 szklanka wody (świeża)",
-        "2 łyżki miodu (prawdziwy, płynny)"
-      ],
-      "sposob_przygotowania": "Korę gotować w wodzie 10 min, odcedzić, dodać miód do ciepłego naparu, wymieszać.",
-      "cechy": [
-        "gęsty, ciemny płyn",
-        "miodowy zapach"
-      ],
-      "wlasciwosci": [
-        "łagodzący podrażnienia",
-        "przeciwzapalny"
-      ],
-      "zastosowanie": "Na bóle gardła, chrypkę.",
-      "zrodlo": [
-        12
-      ]
-    },
-    "inhalacja_z_kory": {
-      "skladniki": [
-        "2 łyżki kory dębu (suszonej, najlepiej świeżo zmielonej)",
-        "0,5 litra wrzątku"
-      ],
-      "sposob_przygotowania": "Korę zalać wrzątkiem w misce, pochylić się nad naparem, wdychać parę przez 5–8 minut.",
-      "cechy": [
-        "wyraźny zapach garbników",
-        "ciepła para"
-      ],
-      "wlasciwosci": [
-        "działa ściągająco na śluzówki",
-        "przeciwbakteryjne"
-      ],
-      "zastosowanie": "Pomocniczo przy nieżytach nosa i zatok.",
-      "zrodlo": [
-        8
-      ]
-    },
-    "proszek_z_kory_na_otarcia": {
-      "skladniki": [
-        "Sproszkowana kora dębu (suszone, młode gałązki – proszek)"
-      ],
-      "sposob_przygotowania": "Suszoną korę zmielić na drobny proszek, posypywać lekko otarte miejsca na skórze.",
-      "cechy": [
-        "drobny, lekko brązowy proszek"
-      ],
-      "wlasciwosci": [
-        "działanie ściągające",
-        "przyspiesza gojenie"
-      ],
-      "zastosowanie": "Posypywanie otarć, drobnych ran, miejsc odparzonych.",
-      "zrodlo": [
-        13
-      ]
-    }
+    "odwar": [
+      {
+        "nazwa": "odwar_z_kory_dębu",
+        "skladniki": [
+          "1 łyżka kory młodych gałęzi dębu szypułkowego (świeża lub suszona, najlepiej świeża, młoda)",
+          "250 ml wody (świeża)"
+        ],
+        "sposob_przygotowania": "Korę rozdrobnić, zalać zimną wodą, gotować pod przykryciem 10 minut, przecedzić.",
+        "cechy": [
+          "ciemny kolor",
+          "gorzki smak"
+        ],
+        "wlasciwosci": [
+          "ściągający",
+          "przeciwzapalny"
+        ],
+        "zastosowanie": "Płukanki na stany zapalne gardła i jamy ustnej, kąpiele na podrażnienia skóry.",
+        "dawkowanie": "Płukać gardło 2–3 razy dziennie, stosować do przemywania skóry.",
+        "zrodlo": [
+          3
+        ]
+      }
+    ],
+    "mąka": [
+      {
+        "nazwa": "mąka_żołędziowa_na_biegunki",
+        "skladniki": [
+          "1 łyżka mąki żołędziowej (uprażone, dojrzałe żołędzie, dobrze wysuszona i zmielona)",
+          "Szklanka letniej wody (świeża)"
+        ],
+        "sposob_przygotowania": "Mąkę wsypać do szklanki letniej wody, dokładnie wymieszać. Pić dwa razy dziennie.",
+        "cechy": [
+          "łagodny smak",
+          "lekko orzechowy posmak"
+        ],
+        "wlasciwosci": [
+          "działanie ściągające",
+          "łagodzi biegunkę"
+        ],
+        "zastosowanie": "Stany zapalne przewodu pokarmowego.",
+        "dawkowanie": "2 razy dziennie przez 2–3 dni.",
+        "zrodlo": [
+          4
+        ]
+      }
+    ],
+    "kąpiel": [
+      {
+        "nazwa": "kąpiel_na_skórę",
+        "skladniki": [
+          "3 garście kory dębu (świeża lub suszona)",
+          "2 litry wody (świeża)"
+        ],
+        "sposob_przygotowania": "Kory gotować 20 min, przecedzić do wanny z ciepłą wodą.",
+        "cechy": [
+          "Cierpki, intensywny aromat"
+        ],
+        "wlasciwosci": [
+          "łagodzi stany zapalne, świąd, potliwość"
+        ],
+        "zastosowanie": "Kąpiele lecznicze przy egzemy, łuszczycy, nadmiernej potliwości.",
+        "zrodlo": [
+          14
+        ]
+      }
+    ],
+    "herbatka": [
+      {
+        "nazwa": "herbatka_na_biegunki",
+        "skladniki": [
+          "1 łyżeczka suszonej kory dębu (najlepiej młoda, świeżo suszona)",
+          "200 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać korę wrzątkiem, parzyć 20 min pod przykryciem, przecedzić.",
+        "cechy": [
+          "Cierpki, mocny napar"
+        ],
+        "wlasciwosci": [
+          "ściągający, hamujący biegunki"
+        ],
+        "zastosowanie": "Biegunki, nieżyty żołądka (krótkotrwale).",
+        "zrodlo": [
+          15
+        ]
+      }
+    ],
+    "okład": [
+      {
+        "nazwa": "okład_z_kory",
+        "skladniki": [
+          "1 łyżka mielonej kory dębu (świeża lub suszona, najlepiej świeża, młoda)",
+          "szklanka wody (świeża)"
+        ],
+        "sposob_przygotowania": "Kory gotować 10 min, ostudzić, przykładać na skórę z opatrunkiem.",
+        "cechy": [
+          "Łagodny, chłodzący efekt"
+        ],
+        "wlasciwosci": [
+          "przyspiesza gojenie, ściągający"
+        ],
+        "zastosowanie": "Okłady na rany, stłuczenia, stany zapalne skóry.",
+        "zrodlo": [
+          16
+        ]
+      }
+    ],
+    "macerat": [
+      {
+        "nazwa": "macerat_na_podrażnienia",
+        "skladniki": [
+          "2 łyżki kory dębu (świeża, młoda lub świeżo suszona)",
+          "250 ml chłodnej wody (świeża)"
+        ],
+        "sposob_przygotowania": "Korę zalać zimną wodą, odstawić na 6-8 godzin, przecedzić. Stosować do przemywania skóry.",
+        "cechy": [
+          "jasnobrązowy płyn",
+          "delikatny zapach"
+        ],
+        "wlasciwosci": [
+          "łagodzący podrażnienia",
+          "przeciwzapalny"
+        ],
+        "zastosowanie": "Przemywanie skóry przy łagodnych stanach zapalnych, otarciach, oparzeniach słonecznych.",
+        "zrodlo": [
+          13
+        ]
+      }
+    ],
+    "nalewka": [
+      {
+        "nazwa": "nalewka_na_płukanie_jamy_ustnej",
+        "skladniki": [
+          "10 g kory dębu (suszonej, najlepiej młoda kora)",
+          "100 ml spirytusu 70%"
+        ],
+        "sposob_przygotowania": "Kora zalać spirytusem, macerować 14 dni, przecedzić. Do płukania rozcieńczyć 1:10 wodą.",
+        "cechy": [
+          "wyraźny, cierpki smak"
+        ],
+        "wlasciwosci": [
+          "ściągająca, antyseptyczna"
+        ],
+        "zastosowanie": "Płukanki przy paradontozie, stanach zapalnych dziąseł.",
+        "zrodlo": [
+          5
+        ]
+      }
+    ],
+    "syrop": [
+      {
+        "nazwa": "syrop_na_gardlo",
+        "skladniki": [
+          "1 łyżka kory dębu (świeża, młoda lub suszona)",
+          "1 szklanka wody (świeża)",
+          "2 łyżki miodu (prawdziwy, płynny)"
+        ],
+        "sposob_przygotowania": "Korę gotować w wodzie 10 min, odcedzić, dodać miód do ciepłego naparu, wymieszać.",
+        "cechy": [
+          "gęsty, ciemny płyn",
+          "miodowy zapach"
+        ],
+        "wlasciwosci": [
+          "łagodzący podrażnienia",
+          "przeciwzapalny"
+        ],
+        "zastosowanie": "Na bóle gardła, chrypkę.",
+        "zrodlo": [
+          12
+        ]
+      }
+    ],
+    "inhalacja": [
+      {
+        "nazwa": "inhalacja z kory",
+        "skladniki": [
+          "2 łyżki kory dębu (suszonej, najlepiej świeżo zmielonej)",
+          "0,5 litra wrzątku"
+        ],
+        "sposob_przygotowania": "Korę zalać wrzątkiem w misce, pochylić się nad naparem, wdychać parę przez 5–8 minut.",
+        "cechy": [
+          "wyraźny zapach garbników",
+          "ciepła para"
+        ],
+        "wlasciwosci": [
+          "działa ściągająco na śluzówki",
+          "przeciwbakteryjne"
+        ],
+        "zastosowanie": "Pomocniczo przy nieżytach nosa i zatok.",
+        "zrodlo": [
+          8
+        ]
+      }
+    ],
+    "proszek": [
+      {
+        "nazwa": "proszek_z_kory_na_otarcia",
+        "skladniki": [
+          "Sproszkowana kora dębu (suszone, młode gałązki – proszek)"
+        ],
+        "sposob_przygotowania": "Suszoną korę zmielić na drobny proszek, posypywać lekko otarte miejsca na skórze.",
+        "cechy": [
+          "drobny, lekko brązowy proszek"
+        ],
+        "wlasciwosci": [
+          "działanie ściągające",
+          "przyspiesza gojenie"
+        ],
+        "zastosowanie": "Posypywanie otarć, drobnych ran, miejsc odparzonych.",
+        "zrodlo": [
+          13
+        ]
+      }
+    ]
   },
   "przepisy_kulinarne": {
-    "kawa_z_żołędzi": {
-      "skladniki": [
-        "Żołędzie dębu szypułkowego (uprażone, obrane, najlepiej dojrzałe)",
-        "Woda (świeża)"
-      ],
-      "sposob_przygotowania": "Żołędzie obrać z łupin i gorzkich osłonek, kilkukrotnie przelać wrzątkiem lub ugotować, następnie dokładnie wysuszyć i uprażyć na suchej patelni. Zmielić na proszek. 2 łyżeczki kawy żołędziowej zalać szklanką wrzątku, parzyć 5 minut pod przykryciem, przecedzić.",
-      "cechy": [
-        "ciemny, głęboki kolor",
-        "orzechowy aromat"
-      ],
-      "wlasciwosci": [
-        "bez kofeiny",
-        "łagodny dla żołądka"
-      ],
-      "zastosowanie": "Zamiennik kawy dla osób wrażliwych, dzieci.",
-      "zrodlo": [
-        1
-      ]
-    },
-    "pasztet_z_żołędzi": {
-      "skladniki": [
-        "1 szklanka żołędzi (uprażone, zmielone, dojrzałe)",
-        "0,5 szklanki ugotowanej ciecierzycy (najlepiej świeża, młoda)",
-        "2 łyżki oliwy z oliwek (świeża)",
-        "1 cebula (pokrojona, podsmażona)",
-        "1 łyżeczka suszonego tymianku",
-        "sól, pieprz"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki dokładnie zmiksować, doprawić do smaku, schłodzić. Podawać do pieczywa.",
-      "cechy": [
-        "gładki, kremowy",
-        "wyraźny aromat orzechowy"
-      ],
-      "wlasciwosci": [
-        "wysokobiałkowy",
-        "sycący"
-      ],
-      "zastosowanie": "Pasta do kanapek, przekąska.",
-      "zrodlo": [
-        7
-      ]
-    },
-    "placki_żołędziowe_z_jabłkiem": {
-      "skladniki": [
-        "1 szklanka mąki żołędziowej (z uprażonych, dojrzałych żołędzi)",
-        "1 jajko (świeże)",
-        "1 jabłko (starte, najlepiej świeże, dojrzałe)",
-        "3 łyżki mleka (świeże lub roślinne)",
-        "szczypta cynamonu",
-        "olej do smażenia"
-      ],
-      "sposob_przygotowania": "Wymieszać wszystkie składniki na gęste ciasto. Smażyć małe placuszki na rozgrzanym oleju do zrumienienia.",
-      "cechy": [
-        "słodko-orzechowy smak",
-        "delikatnie chrupiące"
-      ],
-      "wlasciwosci": [
-        "energetyczne",
-        "bogate w błonnik"
-      ],
-      "zastosowanie": "Śniadanie, podwieczorek.",
-      "zrodlo": [
-        20
-      ]
-    },
-    "ciastka_żołędziowe_z_orzechami": {
-      "skladniki": [
-        "1 szklanka mąki żołędziowej (z dojrzałych, uprażonych żołędzi)",
-        "1/2 szklanki mąki owsianej",
-        "2 łyżki masła (świeże, miękkie)",
-        "1/3 szklanki orzechów laskowych (uprażone, posiekane)",
-        "1 jajko (świeże)",
-        "3 łyżki miodu"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki wymieszać, formować małe ciasteczka, piec w 180°C przez 12–15 min.",
-      "cechy": [
-        "kruche, aromatyczne",
-        "orzechowy smak"
-      ],
-      "wlasciwosci": [
-        "wysokoenergetyczne",
-        "bogate w minerały"
-      ],
-      "zastosowanie": "Deser, zdrowa przekąska.",
-      "zrodlo": [
-        22
-      ]
-    },
-    "krokiety_z_mąki_żołędziowej": {
-      "skladniki": [
-        "1 szklanka mąki żołędziowej (uprażona, świeżo zmielona)",
-        "1 szklanka mleka (świeże lub roślinne)",
-        "2 jajka (świeże)",
-        "szczypta soli",
-        "olej do smażenia"
-      ],
-      "sposob_przygotowania": "Z podanych składników zrobić ciasto naleśnikowe, smażyć cienkie naleśniki, nadziewać np. warzywami lub twarogiem.",
-      "cechy": [
-        "delikatne, lekko orzechowe"
-      ],
-      "wlasciwosci": [
-        "odżywcze",
-        "lekkostrawne"
-      ],
-      "zastosowanie": "Obiad, danie główne.",
-      "zrodlo": [
-        21
-      ]
-    },
-    "owsianka_z_żołędziami": {
-      "skladniki": [
-        "1/3 szklanki płatków owsianych (świeże, górskie)",
-        "1/3 szklanki uprażonych żołędzi (drobno posiekane, dojrzałe)",
-        "1 szklanka mleka (świeże lub roślinne)",
-        "1 łyżka miodu",
-        "kilka orzechów włoskich (drobno pokrojone, świeże)",
-        "słodkie owoce sezonowe (np. jagody, maliny – świeże)"
-      ],
-      "sposob_przygotowania": "Płatki gotować z mlekiem 7–10 min, dodać żołędzie i miód. Po przestudzeniu posypać orzechami i owocami.",
-      "cechy": [
-        "kremowa, orzechowa",
-        "sycąca"
-      ],
-      "wlasciwosci": [
-        "bogata w błonnik, witaminy",
-        "sycąca"
-      ],
-      "zastosowanie": "Śniadanie, przekąska.",
-      "zrodlo": [
-        19
-      ]
-    }
+  "Kawa z żołędzi": {
+    "skladniki": [
+      "Żołędzie dębu szypułkowego (uprażone, obrane, najlepiej dojrzałe)",
+      "Woda (świeża)"
+    ],
+    "sposob_przygotowania": "Żołędzie obrać z łupin i gorzkich osłonek, kilkukrotnie przelać wrzątkiem lub ugotować, następnie dokładnie wysuszyć i uprażyć na suchej patelni. Zmielić na proszek. 2 łyżeczki kawy żołędziowej zalać szklanką wrzątku, parzyć 5 minut pod przykryciem, przecedzić.",
+    "cechy": ["ciemny, głęboki kolor", "orzechowy aromat"],
+    "wlasciwosci": ["bez kofeiny", "łagodny dla żołądka"],
+    "zastosowanie": "Zamiennik kawy dla osób wrażliwych, dzieci.",
+    "zrodlo": [1],
+    "nazwa": "kawa_z_żołędzi"
   },
+  "Pasztet z żołędzi": {
+    "skladniki": [
+      "1 szklanka żołędzi (uprażone, zmielone, dojrzałe)",
+      "0,5 szklanki ugotowanej ciecierzycy (najlepiej świeża, młoda)",
+      "2 łyżki oliwy z oliwek (świeża)",
+      "1 cebula (pokrojona, podsmażona)",
+      "1 łyżeczka suszonego tymianku",
+      "sól, pieprz"
+    ],
+    "sposob_przygotowania": "Wszystkie składniki dokładnie zmiksować, doprawić do smaku, schłodzić. Podawać do pieczywa.",
+    "cechy": ["gładki, kremowy", "wyraźny aromat orzechowy"],
+    "wlasciwosci": ["wysokobiałkowy", "sycący"],
+    "zastosowanie": "Pasta do kanapek, przekąska.",
+    "zrodlo": [7],
+    "nazwa": "pasztet_z_żołędzi"
+  },
+  "Placki żołędziowe z jabłkiem": {
+    "skladniki": [
+      "1 szklanka mąki żołędziowej (z uprażonych, dojrzałych żołędzi)",
+      "1 jajko (świeże)",
+      "1 jabłko (starte, najlepiej świeże, dojrzałe)",
+      "3 łyżki mleka (świeże lub roślinne)",
+      "szczypta cynamonu",
+      "olej do smażenia"
+    ],
+    "sposob_przygotowania": "Wymieszać wszystkie składniki na gęste ciasto. Smażyć małe placuszki na rozgrzanym oleju do zrumienienia.",
+    "cechy": ["słodko-orzechowy smak", "delikatnie chrupiące"],
+    "wlasciwosci": ["energetyczne", "bogate w błonnik"],
+    "zastosowanie": "Śniadanie, podwieczorek.",
+    "zrodlo": [20],
+    "nazwa": "placki_żołędziowe_z_jabłkiem"
+  },
+  "Ciastka żołędziowe z orzechami": {
+    "skladniki": [
+      "1 szklanka mąki żołędziowej (z dojrzałych, uprażonych żołędzi)",
+      "1/2 szklanki mąki owsianej",
+      "2 łyżki masła (świeże, miękkie)",
+      "1/3 szklanki orzechów laskowych (uprażone, posiekane)",
+      "1 jajko (świeże)",
+      "3 łyżki miodu"
+    ],
+    "sposob_przygotowania": "Wszystkie składniki wymieszać, formować małe ciasteczka, piec w 180°C przez 12–15 min.",
+    "cechy": ["kruche, aromatyczne", "orzechowy smak"],
+    "wlasciwosci": ["wysokoenergetyczne", "bogate w minerały"],
+    "zastosowanie": "Deser, zdrowa przekąska.",
+    "zrodlo": [22],
+    "nazwa": "ciastka_żołędziowe_z_orzechami"
+  },
+  "Krokiety z mąki żołędziowej": {
+    "skladniki": [
+      "1 szklanka mąki żołędziowej (uprażona, świeżo zmielona)",
+      "1 szklanka mleka (świeże lub roślinne)",
+      "2 jajka (świeże)",
+      "szczypta soli",
+      "olej do smażenia"
+    ],
+    "sposob_przygotowania": "Z podanych składników zrobić ciasto naleśnikowe, smażyć cienkie naleśniki, nadziewać np. warzywami lub twarogiem.",
+    "cechy": ["delikatne, lekko orzechowe"],
+    "wlasciwosci": ["odżywcze", "lekkostrawne"],
+    "zastosowanie": "Obiad, danie główne.",
+    "zrodlo": [21],
+    "nazwa": "krokiety_z_mąki_żołędziowej"
+  },
+  "Owsianka z żołędziami": {
+    "skladniki": [
+      "1/3 szklanki płatków owsianych (świeże, górskie)",
+      "1/3 szklanki uprażonych żołędzi (drobno posiekane, dojrzałe)",
+      "1 szklanka mleka (świeże lub roślinne)",
+      "1 łyżka miodu",
+      "kilka orzechów włoskich (drobno pokrojone, świeże)",
+      "słodkie owoce sezonowe (np. jagody, maliny – świeże)"
+    ],
+    "sposob_przygotowania": "Płatki gotować z mlekiem 7–10 min, dodać żołędzie i miód. Po przestudzeniu posypać orzechami i owocami.",
+    "cechy": ["kremowa, orzechowa", "sycąca"],
+    "wlasciwosci": ["bogata w błonnik, witaminy", "sycąca"],
+    "zastosowanie": "Śniadanie, przekąska.",
+    "zrodlo": [19],
+    "nazwa": "owsianka_z_żołędziami"
+  }
+},
   "inne_zastosowania": {
     "kosmetyki": {
       "opis": "Kora dębu stosowana w tonikach ściągających do cery tłustej i trądzikowej, okładach na stany zapalne skóry i kąpielach na nadpotliwość.",
@@ -546,18 +535,144 @@
     "42": "https://zielnikpolski.pl/drewno-dab/"
   },
   "kalendarz": {
-      "siew": [10],
-      "sadzenie": [3, 4],
-      "kwitnienie": [5, 6],
-      "zbior": [9, 10, 11],
-      "ciecie": [2, 3, 8],
-      "nawozenie": [4, 5, 9],
-      "zabezpieczanie": [11],
-      "ochrona": [5, 6],
-      "zbior_lisci": [6],
-      "przesadzanie": [3, 10],
-      "rozmnazanie": [4, 5]
+    "siew": {
+      "miesiące": [
+        3,
+        4
+      ],
+      "czynności": "Wiosenny wysiew nasion: wykorzystanie acorns zebranych poprzedniej jesieni i poddanych stratyfikacji (4–6 tygodni w wilgotnym piasku); wysiew nasion do doniczek lub inspektu na głębokość 2–4 cm, w rzędach co około 10 cm; zabezpieczenie przed gryzoniami i ptakami (siatka lub agrowłóknina); utrzymanie stałej wilgotności podłoża aż do wschodów (8–12 tygodni).",
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Faza rosnąca wspiera wzrost części nadziemnych.",
+      "źródło": [
+        "https://treegrowing.tcv.org.uk/grow/tree-recipes/pedunculateoak",
+        "https://www.thespruce.com/plant-acorns-grow-oaks-5203188"
+      ]
     },
+    "kwitnienie": {
+      "miesiące": [
+        5,
+        6
+      ],
+      "czynności": "Obserwacja rozwoju kwiatostanów w maju–czerwcu: kontrola stanu męskich kotek pylnych i żeńskich kotek słupkowych; wspomaganie zapylenia wietrznego przez zapewnienie przewiewności; usuwanie uschniętych kwiatostanów; podlewanie roślin w okresach suszy, aby wspierać prawidłowy rozwój organów generatywnych.",
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "obserwacyjny",
+      "czas_dnia": "południe",
+      "intensywność": "niska",
+      "uwagi": "Pełnia sprzyja pełnemu rozwojowi kwiatów i obserwacji fenologicznej.",
+      "źródło": [
+        "https://en.wikipedia.org/wiki/Quercus_robur",
+        "https://bygl.osu.edu/node/1579"
+      ]
+    },
+    "zbior_kwiatow": {
+      "miesiące": [
+        6,
+        7
+      ],
+      "czynności": "Zbieranie męskich kotek (kwiatostanów pylnych) w suchy, słoneczny dzień: delikatne odłamywanie kotek; suszenie rozłożonych części w cieniu na pergaminie do momentu uwolnienia pyłku; przechowywanie w suchym, przewiewnym miejscu przed dalszym przetwarzaniem.",
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "zbiorczy",
+      "czas_dnia": "ranek",
+      "intensywność": "niska",
+      "uwagi": "Pełnia wzmacnia właściwości aromatyczne i aktywne pyłku.",
+      "źródło": [
+        "https://en.wikipedia.org/wiki/Quercus_robur",
+        "https://bygl.osu.edu/node/1579"
+      ]
+    },
+    "zbior_nasion": {
+      "miesiące": [
+        9,
+        10
+      ],
+      "czynności": "Zbieranie dojrzałych orzechów tuż po ich opadnięciu: wybór tylko tych z pękniętymi łupinami, bez śladów pleśni czy uszkodzeń; codzienne zbieranie pod drzewem; wstępne oczyszczenie z osłonek; suszenie nasion w przewiewnym pomieszczeniu przez 1–2 tygodnie; oddzielanie nasion od resztek łupin i przechowywanie w suchym, chłodnym miejscu.",
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "zbiorczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Faza malejąca sprzyja dłuższej trwałości nasion.",
+      "źródło": [
+        "https://www.thespruce.com/plant-acorns-grow-oaks-5203188#when-to-collect",
+        "https://extension.msstate.edu/publications/managing-hardwood-stands-for-acorn-production"
+      ]
+    },
+    "pielenie": {
+      "miesiące": [
+        5,
+        7
+      ],
+      "czynności": "Usuwanie chwastów wokół młodych drzewek: ręczne wykaszanie lub zastosowanie motyczki przed zakwitnięciem chwastów; ściółkowanie (kora, zrębki drzewne) warstwą 5–10 cm, by ograniczyć odrastanie niepożądanej roślinności i utrzymać wilgoć gleby.",
+      "zalecana_faza_ksiezyca": "nów",
+      "typ": "pielęgnacyjny",
+      "czas_dnia": "poranek",
+      "intensywność": "średnia",
+      "uwagi": "Nów sprzyja eliminacji chwastów – najmniejsza regeneracja roślin niepożądanych.",
+      "źródło": [
+        "https://oaks.cnr.berkeley.edu/weed-control-methods-for-oak-plantings/"
+      ]
+    },
+    "przesadzanie": {
+      "miesiące": [
+        4,
+        10
+      ],
+      "czynności": "Przesadzanie młodych siewek wczesną wiosną (kwiecień) lub wczesną jesienią (październik): delikatne wykopanie rośliny z bryłą ziemi; przygotowanie nowego dołka o szerokości nieco większej niż bryła korzeniowa; sadzenie na tej samej głębokości; obfite podlewanie i ściółkowanie wokół pnia w celu ochrony korzeni.",
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Malejący Księżyc sprzyja rozwojowi korzeni.",
+      "źródło": [
+        "https://extension.msstate.edu/publications/growing-your-own-oak-seedlings"
+      ]
+    },
+    "miodobranie": {
+      "miesiące": [
+        7
+      ],
+      "czynności": "Wykorzystanie dębu jako rośliny miododajnej: ustawienie uli w pobliżu drzew w lipcu, podczas masowej emisji spadzi przez mszyce i inne owady; ocena aktywności pszczół; zbiór miodu spadziowego po zakończeniu oblotów; odsklepianie woskowych zakrywek i odwirowanie miodu, filtrowanie.",
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "pszczelarski",
+      "czas_dnia": "popołudnie",
+      "intensywność": "niska",
+      "uwagi": "Pełnia sprzyja zwiększonej aktywności pszczół i intensywniejszemu nektarowaniu.",
+      "źródło": [
+        "https://en.wikipedia.org/wiki/Honeydew_(secretion)",
+        "https://en.wikipedia.org/wiki/List_of_honeydew_sources"
+      ]
+    },
+    "zbior_ksiezyc": {
+      "miesiące": [
+        9
+      ],
+      "czynności": "Zbieranie nasion według faz księżyca (po pełni, podczas fazy waning moon): cięcie gałązek z dojrzałymi orzechami wieczorem, gdy rosa już osiadła; suszenie w cieniu i przechowywanie w suchym miejscu.",
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "rytualny",
+      "czas_dnia": "wieczór",
+      "intensywność": "symboliczna",
+      "uwagi": "Zbiór zgodnie z tradycją biodynamiczną – w okresie największej trwałości nasion.",
+      "źródło": [
+        "https://www.thespruce.com/moon-phase-gardening-5219263"
+      ]
+    },
+    "zbior_deszcz": {
+      "miesiące": [
+        10
+      ],
+      "czynności": "Instalacja systemu zbierania wody deszczowej: oczyszczenie rynien i montaż filtrów przeciwliściowych; ustawienie beczek lub zbiorników pod rynnami; gromadzenie wody do późniejszego podlewania i wspomagania wilgotności gleby podczas suchych okresów.",
+      "zalecana_faza_ksiezyca": "bez znaczenia",
+      "typ": "techniczny",
+      "czas_dnia": "dowolny",
+      "intensywność": "niska",
+      "uwagi": "Zbieranie wody nie zależy od fazy Księżyca.",
+      "źródło": [
+        "https://en.wikipedia.org/wiki/Rainwater_harvesting"
+      ]
+    }
+  },
   "uprawa": {
     "gleba": "Gleba głęboka, żyzna, próchniczna, umiarkowanie wilgotna do świeżej, o odczynie lekko kwaśnym lub obojętnym.",
     "stanowisko": "Stanowisko słoneczne lub lekko zacienione; wymaga dużo przestrzeni i światła. Po dobrym ukorzenieniu dobrze znosi suszę.",

@@ -1,0 +1,456 @@
+/* Kafelki główne */
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2em;
+  margin-top: 2em;
+}
+
+.tile {
+  background: #f9f8f7;
+  border-radius: 16px;
+  padding: 1em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  position: relative;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.tile-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #312a26;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  background: #d3cfc9;
+  padding: 0.2em 0.6em;
+  border-radius: 16px;
+  font-size: 0.85em;
+  color: #453d38;
+}
+
+/* Podkafelki jako lista pionowa */
+.subtiles.always-visible {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  margin-top: 0.8em;
+}
+
+.sub-tile {
+  background: #ffffff;
+  border: 1px solid #e0dedb;
+  padding: 0.45em 0.6em;
+  border-radius: 10px;
+  font-size: 0.88em;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  color: #3d3d3d;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  transition: background 0.2s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sub-tile:hover {
+  background: #efefef;
+  cursor: pointer;
+}
+
+/* Dynamiczna treść */
+.content-dynamic,
+.content-bibliografia {
+  background: #fffdfc;
+  border-radius: 12px;
+  padding: 1.5em;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+  max-width: 100%;
+  margin-top: 3em;
+}
+
+.content-dynamic h2,
+.content-bibliografia h2 {
+  font-size: 1.3em;
+  color: #3c3a38;
+  margin-bottom: 1em;
+}
+
+#bibliografia-list li {
+  margin-bottom: 0.5em;
+  padding-left: 1.2em;
+  position: relative;
+}
+
+#bibliografia-list li::before {
+  content: "\1F4CE";
+  position: absolute;
+  left: 0;
+}
+
+/* Karuzela */
+.carousel-section {
+  margin: 2em auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 12px;
+}
+
+.carousel-arrow {
+  font-size: 2em;
+  padding: 0.4em;
+  cursor: pointer;
+  user-select: none;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.carousel-arrow.left { left: -1.5em; }
+.carousel-arrow.right { right: -1.5em; }
+
+.thumbnail-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.4em;
+  margin-top: 1em;
+  flex-wrap: wrap;
+}
+
+.thumb {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 0.6;
+  border: 2px solid transparent;
+  transition: 0.2s;
+}
+
+.thumb.active {
+  opacity: 1;
+  border-color: #b89f84;
+}
+
+@media (max-width: 768px) {
+  .carousel-section {
+    max-width: 100%;
+    padding: 0 1em;
+  }
+
+  .tile-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel-arrow.left { left: 0; }
+  .carousel-arrow.right { right: 0; }
+
+  .thumb {
+    width: 48px;
+    height: 48px;
+  }
+}
+#main-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  max-height: 350px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+.sub-tile.active {
+  background-color: #f7f1eb;
+  border: 2px solid #ad7c50;
+  box-shadow: 0 0 6px rgba(173, 124, 80, 0.4);
+  transform: scale(1.03);
+  transition: all 0.15s ease;
+}
+.bib-link {
+  color: #7c4d24;
+  text-decoration: none;
+  font-weight: bold;
+}
+.bib-link:hover {
+  text-decoration: underline;
+  color: #a65e2e;
+}
+.uwagi-blok {
+  background: #ffecec;
+  border-left: 4px solid #c00;
+  padding: 0.8em 1em;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin-top: 0.5em;
+  line-height: 1.4;
+  color: #2a2a2a;
+}
+
+.uwagi-blok h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.uwagi-blok h4 {
+  font-size: 0.95rem;
+  margin: 0.7em 0 0.3em;
+  color: #a20000;
+  font-weight: 600;
+}
+
+.uwagi-blok ul {
+  padding-left: 1.2em;
+  margin: 0 0 1em 0;
+}
+
+.uwagi-blok li {
+  font-size: 0.85rem;
+  margin-bottom: 0.8em;
+}
+.recepta {
+  background: #f2f8f2;
+  border-left: 4px solid #5c9c5c;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.2rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.recepta h4,
+.recepta h5 {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #3a7b3a;
+}
+
+.recepta p {
+  margin: 0.3em 0;
+}
+
+.recepta b {
+  color: #2a4f2a;
+}
+
+.recepta small {
+  font-size: 0.8em;
+  color: #555;
+}
+.recepta {
+  background: #eef7ee;
+  border-left: 5px solid #5ca679;
+  border-radius: 10px;
+  padding: 1em 1.2em;
+  margin-bottom: 1.5em;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+}
+
+.recepta h4, .recepta h5 {
+  margin-top: 0;
+  color: #356c48;
+  font-size: 1.1rem;
+  margin-bottom: 0.5em;
+}
+
+.recepta p {
+  margin: 0.4em 0;
+}
+
+.recepta b {
+  color: #2f4f2f;
+}
+.sub-tile .badge {
+  font-weight: normal;
+  font-size: 0.9em;
+  margin-left: 4px;
+  color: #777;
+}
+.recepta {
+  background: #e8f5e9; /* jasna zieleń */
+  border-left: 4px solid #66bb6a;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+.recepta h4, .recepta h5 {
+  margin-top: 0;
+  color: #2e7d32;
+}
+.recepta-naglowek {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+}
+.recepta-kategoria {
+  font-size: 0.85em;
+  font-weight: bold;
+  color: #994444;
+  text-transform: capitalize;
+}
+.miesiace {
+  display: inline-block;
+  margin-left: 10px;
+}
+.miesiac {
+  display: inline-block;
+  padding: 2px 6px;
+  margin: 0 2px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  background-color: #eee;
+}
+.miesiac.active {
+  background-color: #cde;
+  font-weight: bold;
+}
+.warunki {
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+.zbior-karta {
+  margin-bottom: 10px;
+}
+.kalendarz-zabiegow {
+  margin-top: 1em;
+}
+.zbieg-linia {
+  margin: 6px 0;
+}
+.zbieg-linia .ikona {
+  font-size: 1.4em;
+  margin-right: 8px;
+}
+.zbieg-linia .opis {
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.plant-action-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 1.5em 0;
+}
+.plant-action-buttons .action-btn {
+  flex: 0 0 auto;
+  padding: 0.7em 1.2em;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--main2);
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.plant-action-buttons .action-btn:hover {
+  background: var(--main);
+}
+/* domyślnie słabszy kolor */
+.plant-action-buttons .action-btn {
+  background: var(--main2);
+  color: #fff;
+}
+
+/* kiedy element ma klasę .active — mocniejszy kolor */
+.plant-action-buttons .action-btn.active {
+  background: var(--main);
+}
+.plant-action-btn.active {
+    background: #d4ebcf;
+    color: #234e18;
+    border: 1px solid #9cd893;
+    transition: background 0.13s;
+}
+.plant-action-btn {
+    background: #f4faf2;
+    color: #184e10;
+    border: 1px solid #d6eed5;
+    border-radius: 10px;
+    padding: 0.85em 1.8em;
+    font-size: 1.08em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+}
+.plant-action-btn:hover { background: #e0f2dc; }
+/* CSS dla sekcji przepisów kulinarnych i medycznych */
+
+/* Nagłówki sekcji /
+.section .text-2xl {
+color: #2d3748; / ciemny grafit /
+border-bottom: 2px solid #48bb78; / zielone podkreślenie */
+padding-bottom: 0.5rem;
+}
+
+/* Style dla summary (tytułów przepisów) /
+details.recipe-item summary,
+details.medical-recipe-item summary {
+font-size: 1.125rem; / 18px /
+font-weight: 600;
+color: #22543d; / ciemniejszy odcień zieleni */
+margin-bottom: 0.5rem;
+position: relative;
+padding-left: 1.5rem;
+cursor: pointer;
+}
+
+details.recipe-item summary::marker,
+details.medical-recipe-item summary::marker {
+color: #48bb78; /* jasnozielony marker */
+font-size: 1.25rem;
+}
+
+
+p.font-semibold.uppercase.tracking-wide {
+color: #2f855a;
+font-size: 0.875rem;
+letter-spacing: 0.05em;
+margin-top: 1rem;
+margin-bottom: 0.25rem;
+text-transform: uppercase;
+}
+
+.recipe-item ul,
+.medical-recipe-item ul {
+list-style-type: disc;
+margin-left: 1rem;
+}
+
+a.underline.hover:text-green-600 {
+color: #276749;
+text-decoration: underline;
+}
+a.underline.hover:text-green-600:hover {
+color: #2f855a;
+}
+

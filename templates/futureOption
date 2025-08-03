@@ -1,0 +1,215 @@
+FUTURYSTYCZNA HIERARCHIA KAFELKÓW DLA KWITOWNIKA
+1. Główne kafelki:
+🧬 Identyfikacja & AI
+Wspomaganie rozpoznawania roślin, analizy DNA, AI–wizja, modele uczenia maszynowego
+
+Rozpoznawanie AI (foto, dźwięk, zapach)
+
+Analiza genomowa
+
+Crowdsourcing rozpoznań
+
+Zgłoś nową roślinę / AI feedback
+
+🗺️ Mapy & Obserwacje
+Interaktywne mapy, migracje, fenologia, zmiany klimatu
+
+Rozkład występowania (Europa, świat)
+
+Zgłoszenia użytkowników (Live Observations)
+
+Zmiany populacji (heatmapy)
+
+Powiązania ekosystemowe
+
+📖 Historia i kultura
+Ewolucja znaczenia, mitologia, folklor, kroniki, etnobotanika
+
+Mitologia i legendy
+
+Zastosowania dawniej
+
+Zielarze & postacie historyczne
+
+Przemiany kulturowe
+
+🥗 Przepisy i biotechnologia
+Nowoczesna i tradycyjna kuchnia, bioreceptury, molekularne gotowanie, domowe laboratorium
+
+Kuchnia tradycyjna
+
+AI–przepisy generowane (bio-chef AI)
+
+Przepisy molekularne (kuchnia przyszłości)
+
+Fermentacje i biotechnologia domowa
+
+Personalizowane suplementy
+
+🧴 Zastosowania i eksperymenty
+Medycyna, kosmetyki, domowe eksperymenty, biohacki
+
+Fitoterapia (tradycyjna & nowoczesna)
+
+Kosmetologia naturalna
+
+Hacki biologiczne
+
+Substancje eksperymentalne (nootropy, adaptogeny)
+
+Crowdsourcing efektów i testów
+
+🌱 Permakultura i przyszłość rolnictwa
+Projektowanie ekosystemów, agroAI, symbiozy, systemy zamknięte
+
+AI w ogrodzie / sensorium
+
+Interaktywne plany upraw
+
+Analiza gleby & mikrobiomu
+
+Rośliny przyszłości (CRISPR, GMO, hybrydy)
+
+Zamknięte ekosystemy / urban farming
+
+🧩 Bioarchitektura & design
+Rośliny w architekturze, generatywne projekty, bioluminescencja
+
+Zielone ściany, “living building”
+
+Rośliny w architekturze wnętrz
+
+Ścieżki świetlne z mchów / bioluminescencja
+
+Projekty generatywne AI–CAD
+
+🌌 Eksploratorium
+Strefa eksperymentów, laboratorium społeczności, sandbox, projekty citizen science
+
+Testuj hipotezy
+
+Bazy wiedzy (wiki, forum)
+
+Prototypuj własne bio–projekty
+
+Zgłaszaj odkrycia, publikuj eksperymenty
+
+2. Zaawansowana struktura do renderowania (JSON/Python, przykładowy fragment):
+python
+Kopiuj
+Edytuj
+tile_menu = [
+    {
+        "id": "ai_id",
+        "icon": "🧬",
+        "title": "Identyfikacja & AI",
+        "desc": "Wspomagane rozpoznawanie roślin, DNA, crowdsourcing",
+        "subtiles": [
+            {"id": "ai_photo", "icon": "📷", "title": "Rozpoznawanie AI (foto)", "desc": "Wgrywanie zdjęć, analiza modeli"},
+            {"id": "ai_sound", "icon": "🎤", "title": "Rozpoznawanie AI (dźwięk)", "desc": "Nagrywanie dźwięków, identyfikacja"},
+            {"id": "genome", "icon": "🧬", "title": "Genom i DNA", "desc": "Sekwencjonowanie, analizy genetyczne"},
+            {"id": "crowd", "icon": "👥", "title": "Crowdsourcing rozpoznań", "desc": "Oceny i wsparcie społeczności"},
+        ]
+    },
+    {
+        "id": "maps",
+        "icon": "🗺️",
+        "title": "Mapy & Obserwacje",
+        "desc": "Interaktywne mapy, fenologia, zmiany klimatu",
+        "subtiles": [
+            {"id": "live_obs", "icon": "📍", "title": "Live Observations", "desc": "Zgłoszenia użytkowników"},
+            {"id": "heatmaps", "icon": "🌡️", "title": "Zmiany populacji", "desc": "Heatmapy, trendy"},
+            {"id": "eco_links", "icon": "🔗", "title": "Powiązania ekosystemowe", "desc": "Relacje roślin"}
+        ]
+    },
+    {
+        "id": "history",
+        "icon": "📖",
+        "title": "Historia i kultura",
+        "desc": "Mitologia, folklor, ewolucja znaczeń",
+        "subtiles": [
+            {"id": "myth", "icon": "🧙", "title": "Mitologia", "desc": "Legendy, mity"},
+            {"id": "herb", "icon": "🌿", "title": "Zielarze", "desc": "Historie ludzi roślin"},
+            {"id": "culture", "icon": "🏺", "title": "Kultura", "desc": "Obyczaje, tradycje"}
+        ]
+    },
+    {
+        "id": "recipes",
+        "icon": "🥗",
+        "title": "Przepisy i biotechnologia",
+        "desc": "AI–kuchnia, fermentacje, suplementy",
+        "subtiles": [
+            {"id": "trad", "icon": "🥣", "title": "Tradycyjne", "desc": "Kuchnia regionalna"},
+            {"id": "ai_chef", "icon": "🤖", "title": "AI–przepisy", "desc": "Generowane algorytmicznie"},
+            {"id": "molec", "icon": "🧪", "title": "Molekularne", "desc": "Nowoczesne gotowanie"},
+            {"id": "ferment", "icon": "🧫", "title": "Fermentacje", "desc": "Domowe eksperymenty"}
+        ]
+    },
+    {
+        "id": "bioapps",
+        "icon": "🧴",
+        "title": "Zastosowania i eksperymenty",
+        "desc": "Medycyna, kosmetyki, biohacki, testy",
+        "subtiles": [
+            {"id": "fitoterapia", "icon": "🌱", "title": "Fitoterapia", "desc": "Receptury tradycyjne i współczesne"},
+            {"id": "cosmetic", "icon": "🧴", "title": "Kosmetyki", "desc": "Naturalne środki pielęgnacyjne"},
+            {"id": "biohack", "icon": "👾", "title": "Biohacki", "desc": "Nootropy, adaptogeny"},
+            {"id": "test_lab", "icon": "🧫", "title": "Testy eksperymentalne", "desc": "Społeczność testuje"}
+        ]
+    },
+    {
+        "id": "permakult",
+        "icon": "🌱",
+        "title": "Permakultura & Rolnictwo przyszłości",
+        "desc": "AI–rolnictwo, symbiozy, urban farming",
+        "subtiles": [
+            {"id": "ai_garden", "icon": "🤖", "title": "AI w ogrodzie", "desc": "Sensorium, monitoring"},
+            {"id": "soil", "icon": "🪨", "title": "Gleba & mikrobiom", "desc": "Analizy, wzbogacanie"},
+            {"id": "future_plants", "icon": "🧬", "title": "Rośliny przyszłości", "desc": "CRISPR, GMO"}
+        ]
+    },
+    {
+        "id": "bioarch",
+        "icon": "🧩",
+        "title": "Bioarchitektura & design",
+        "desc": "Zielone budynki, bioluminescencja, generatywne projekty",
+        "subtiles": [
+            {"id": "living_wall", "icon": "🟩", "title": "Zielone ściany", "desc": "Rośliny w architekturze"},
+            {"id": "bio_lum", "icon": "🌌", "title": "Bioluminescencja", "desc": "Ścieżki świetlne"},
+            {"id": "ai_cad", "icon": "🛠️", "title": "AI–CAD", "desc": "Projekty generatywne"}
+        ]
+    },
+    {
+        "id": "explore",
+        "icon": "🌌",
+        "title": "Eksploratorium",
+        "desc": "Laboratorium społeczności, sandbox",
+        "subtiles": [
+            {"id": "hypo", "icon": "🔬", "title": "Hipotezy", "desc": "Testowanie własnych teorii"},
+            {"id": "wiki", "icon": "📚", "title": "Baza wiedzy", "desc": "Wiki, forum"},
+            {"id": "citizen", "icon": "🤝", "title": "Citizen Science", "desc": "Wspólne projekty"}
+        ]
+    }
+]
+3. Jak wygląda przykładowe renderowanie kafelków/podkafelków?
+jinja
+Kopiuj
+Edytuj
+<div class="tiles-menu">
+  {% for tile in tile_menu %}
+    <button class="tile tile-{{ tile.id }} has-sub" id="tile-{{ tile.id }}">
+      <span class="tile-icon">{{ tile.icon }}</span>
+      <span>{{ tile.title }}</span>
+      <span class="tile-badge">[{{ tile.count or "" }}]</span>
+      <span class="sub-arrow">&#9650;</span>
+    </button>
+    <div class="sub-tiles tile-{{ tile.id }}" id="sub-tiles-{{ tile.id }}">
+      {% for subtile in tile.subtiles %}
+        <button class="sub-tile tile-{{ tile.id }}">
+          <span class="tile-icon">{{ subtile.icon }}</span>
+          {{ subtile.title }}
+        </button>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>

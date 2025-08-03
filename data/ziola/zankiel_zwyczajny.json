@@ -154,7 +154,8 @@
       "dawkowanie": "Szklanka 2 razy dziennie.",
       "zrodlo": [
         13
-      ]
+      ],
+      "nazwa": "napar ziolowy gojacy"
     },
     "odwar_na_krwawienia": {
       "skladniki": [
@@ -171,7 +172,8 @@
       "zastosowanie": "Krwawienia z nosa, obfite miesiączki, rekonwalescencja.",
       "zrodlo": [
         14
-      ]
+      ],
+      "nazwa": "odwar na krwawienia"
     },
     "mieszanka_na_kaszel": {
       "skladniki": [
@@ -190,7 +192,8 @@
       "zastosowanie": "Kaszel, infekcje górnych dróg oddechowych.",
       "zrodlo": [
         15
-      ]
+      ],
+      "nazwa": "mieszanka na kaszel"
     },
     "kąpiel_regenerująca": {
       "skladniki": [
@@ -207,7 +210,8 @@
       "zastosowanie": "Kąpiel lecznicza przy wysypkach, podrażnieniach skóry, po urazach.",
       "zrodlo": [
         16
-      ]
+      ],
+      "nazwa": "kąpiel regenerująca"
     },
     "maść_gojąca": {
       "skladniki": [
@@ -224,7 +228,8 @@
       "zastosowanie": "Okłady na rany, zadrapania, otarcia, spękane usta.",
       "zrodlo": [
         17
-      ]
+      ],
+      "nazwa": "maść gojąca"
     },
     "syrop_na_przeziebienie": {
       "skladniki": [
@@ -243,7 +248,8 @@
       "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
       "zrodlo": [
         18
-      ]
+      ],
+      "nazwa": "syrop na przeziebienie"
     },
     "napar gojący czeski": {
       "skladniki": [
@@ -262,7 +268,8 @@
       "zastosowanie": "Do picia przy trudno gojących się ranach, również do przemywania skóry.",
       "zrodlo": [
         19
-      ]
+      ],
+      "nazwa": "napar gojący czeski"
     },
     "francuska kąpiel odżywcza": {
       "skladniki": [
@@ -281,7 +288,8 @@
       "zastosowanie": "Kąpiele po wysypkach, oparzeniach słonecznych.",
       "zrodlo": [
         20
-      ]
+      ],
+      "nazwa": "francuska kąpiel odżywcza"
     },
     "okład gojący włoski": {
       "skladniki": [
@@ -299,7 +307,8 @@
       "zastosowanie": "Stłuczenia, trudno gojące się rany, owrzodzenia.",
       "zrodlo": [
         21
-      ]
+      ],
+      "nazwa": "okład gojący włoski"
     },
     "mieszanka szwajcarska na wrzody i afty": {
       "skladniki": [
@@ -318,7 +327,8 @@
       "zastosowanie": "Afty, pleśniawki, zapalenie dziąseł.",
       "zrodlo": [
         22
-      ]
+      ],
+      "nazwa": "mieszanka szwajcarska na wrzody i afty"
     },
     "okład gojący historyczny (Polska)": {
       "skladniki": [
@@ -335,11 +345,176 @@
       "zastosowanie": "Tradycyjne leczenie ran, owrzodzeń, otarć.",
       "zrodlo": [
         23
+      ],
+      "nazwa": "okład gojący historyczny (Polska)"
+    },
+    "Mieszanka gojąca (żankiel, nagietek, babka, rumianek, krwawnik, fiołek, pokrzywa, skrzyp)": {
+      "skladniki": [
+        "1 łyżka suszonego ziela żankiela (rozdrobnionego)",
+        "1 łyżka świeżych lub suszonych kwiatów nagietka",
+        "1 łyżka świeżych lub suszonych liści babki lancetowatej",
+        "1 łyżka suszonych kwiatów rumianku",
+        "1 łyżka suszonego ziela krwawnika",
+        "1 łyżka suszonych kwiatów fiołka trójbarwnego",
+        "1 łyżka świeżych lub suszonych liści pokrzywy",
+        "1 łyżka suszonego ziela skrzypu polnego",
+        "1 litr wrzątku (najlepiej przegotowanego)"
+      ],
+      "sposob_przygotowania": "Wszystkie zioła wsypać do termosu lub garnka, zalać wrzątkiem, parzyć pod przykryciem 20 minut. Używać ciepłego naparu do okładów, przemywania ran i owrzodzeń, można też stosować jako płukankę przy stanach zapalnych jamy ustnej.",
+      "cechy": [
+        "Łagodny, ziołowy aromat, jasny kolor"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, łagodzi stany zapalne, dezynfekuje"
+      ],
+      "zastosowanie": "Okłady, przemywanie skóry, płukanki do ust, kąpiele na rany i oparzenia.",
+      "zrodlo": [
+        27
+      ]
+    },
+    "Mieszanka na skórę (żankiel, nagietek, rumianek, fiołek, skrzyp, pokrzywa, babka, koniczyna)": {
+      "skladniki": [
+        "1 łyżka suszonego ziela żankiela",
+        "1 łyżka suszonych kwiatów nagietka",
+        "1 łyżka suszonych kwiatów rumianku",
+        "1 łyżka suszonych kwiatów fiołka trójbarwnego",
+        "1 łyżka suszonego ziela skrzypu polnego",
+        "1 łyżka świeżych liści pokrzywy (lub suszonych)",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka suszonych kwiatów koniczyny czerwonej",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć w dużym naczyniu, parzyć pod przykryciem 20 min, przecedzić. Używać ciepłego naparu do kąpieli, okładów i przemywania skóry.",
+      "cechy": [
+        "Ziołowy, łagodny aromat, żółtozielony kolor"
+      ],
+      "wlasciwosci": [
+        "regeneruje skórę, łagodzi podrażnienia, działa przeciwzapalnie"
+      ],
+      "zastosowanie": "Kąpiele lecznicze, kompresy na egzemy i oparzenia.",
+      "zrodlo": [
+        29
+      ]
+    },
+    "Mieszanka kąpielowa (żankiel, rumianek, nagietek, babka, lawenda, pokrzywa, skrzyp, mięta)": {
+      "skladniki": [
+        "2 garście świeżych liści żankiela (lub 4 łyżki suszonego ziela)",
+        "1 łyżka suszonych kwiatów rumianku",
+        "1 łyżka świeżych lub suszonych kwiatów nagietka",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka kwiatów lawendy",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka suszonego ziela skrzypu",
+        "1 łyżka liści mięty pieprzowej",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem w dużym garnku, parzyć pod przykryciem 20–30 min, przecedzić i dodać napar do wanny z ciepłą wodą.",
+      "cechy": [
+        "Relaksujący, intensywny ziołowy zapach, złocisto-zielony płyn"
+      ],
+      "wlasciwosci": [
+        "łagodząca, regenerująca, odprężająca"
+      ],
+      "zastosowanie": "Kąpiele lecznicze na podrażnienia skóry, stres, alergie.",
+      "zrodlo": [
+        32
+      ]
+    },
+    "Mieszanka wykrztuśna (żankiel, tymianek, babka, podbiał, lukrecja, dziewanna, rumianek, anyż)": {
+      "skladniki": [
+        "1 łyżka suszonego ziela żankiela (rozdrobnionego)",
+        "1 łyżka świeżego lub suszonego ziela tymianku",
+        "1 łyżka liści babki lancetowatej (najlepiej świeżych, posiekanych lub suszonych)",
+        "1 łyżka liści podbiału (świeżych lub suszonych)",
+        "1 łyżeczka korzenia lukrecji (drobno pokrojonego, suszonego)",
+        "1 łyżka świeżych lub suszonych kwiatów dziewanny",
+        "1 łyżka suszonych kwiatów rumianku",
+        "1 łyżeczka nasion anyżu (rozdrobnionych w moździerzu)",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła wsypać do naczynia, zalać wrzątkiem, parzyć pod przykryciem 15 minut, przecedzić. Pić ciepły napar 2–3 razy dziennie przy kaszlu i infekcjach.",
+      "cechy": [
+        "Ziołowy, łagodny, lekko anyżowy napar"
+      ],
+      "wlasciwosci": [
+        "wykrztuśna, łagodząca kaszel, powlekająca błony śluzowe"
+      ],
+      "zastosowanie": "Kaszel, chrypka, infekcje dróg oddechowych, także do inhalacji.",
+      "zrodlo": [
+        28
+      ]
+    },
+    "Mieszanka na reumatyzm (żankiel, korzeń żywokostu, kora wierzby, pokrzywa, skrzyp, tymianek, szałwia, mniszek)": {
+      "skladniki": [
+        "1 łyżka suszonego ziela żankiela",
+        "1 łyżka świeżego lub suszonego korzenia żywokostu (drobno pokrojonego)",
+        "1 łyżka kory wierzby (świeżej lub suszonej, rozdrobnionej)",
+        "1 łyżka świeżych lub suszonych liści pokrzywy",
+        "1 łyżka suszonego ziela skrzypu polnego",
+        "1 łyżka suszonego ziela tymianku",
+        "1 łyżeczka liści szałwii (świeżych lub suszonych)",
+        "1 łyżka korzenia mniszka (rozdrobnionego, świeżego lub suszonego)",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Korzenie i korę zalać wrzątkiem, gotować 10 min, dodać resztę ziół, parzyć kolejne 15 min. Pić 2 razy dziennie po szklance. Można używać do okładów.",
+      "cechy": [
+        "Wytrawny, ziołowy, lekko korzenny napar"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalna, łagodząca bóle stawów"
+      ],
+      "zastosowanie": "Bóle stawów, reumatyzm, okłady na bolące miejsca.",
+      "zrodlo": [
+        30
+      ]
+    },
+    "Mieszanka na odporność (żankiel, pokrzywa, skrzyp, fiołek, nagietek, czarna porzeczka, dzika róża, mniszek)": {
+      "skladniki": [
+        "1 łyżka suszonego ziela żankiela",
+        "1 łyżka liści pokrzywy (świeżych lub suszonych, posiekanych)",
+        "1 łyżka suszonego ziela skrzypu",
+        "1 łyżka suszonych kwiatów fiołka trójbarwnego",
+        "1 łyżka kwiatów nagietka (świeżych lub suszonych)",
+        "1 łyżka suszonych liści czarnej porzeczki",
+        "1 łyżka owoców dzikiej róży (suszone, rozdrobnione)",
+        "1 łyżka suszonego korzenia mniszka",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła wsypać do naczynia, zalać wrzątkiem, parzyć 20 min pod przykryciem. Pić przez tydzień wiosną lub jesienią, 1–2 szklanki dziennie.",
+      "cechy": [
+        "Orzeźwiający, ziołowy, lekko kwaskowy"
+      ],
+      "wlasciwosci": [
+        "wzmacnia odporność, wspomaga rekonwalescencję"
+      ],
+      "zastosowanie": "Kuracja wiosenna, jesienna.",
+      "zrodlo": [
+        31
+      ]
+    },
+    "Włoski okład na gojenie ran (żankiel, babka, żywokost)": {
+      "skladniki": [
+        "2 łyżki świeżych liści żankiela (rozdrobnionych)",
+        "2 łyżki świeżych liści babki lancetowatej (rozdrobnionych)",
+        "1 łyżka świeżego korzenia żywokostu (utartego)",
+        "czysta gaza"
+      ],
+      "sposob_przygotowania": "Wszystkie liście utrzeć na pastę, wymieszać z korzeniem żywokostu, rozsmarować na gazie, przykładać na rany i owrzodzenia. Stosować 2 razy dziennie.",
+      "cechy": [
+        "Wilgotny, chłodzący kompres"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, regeneruje tkanki"
+      ],
+      "zastosowanie": "Trudno gojące się rany, odleżyny, owrzodzenia.",
+      "zrodlo": [
+        33
       ]
     }
   },
   "przepisy_kulinarne": {
     "zupa_zielona_z_żankielem": {
+      "nazwa": "zupa zielona z żankielem",
       "skladniki": [
         "2 garście świeżych młodych liści żankiela (starannie opłukanych, grubo posiekanych)",
         "1 litr bulionu warzywnego (najlepiej domowego, niesolony lub lekko solony)",
@@ -383,7 +558,8 @@
       "zastosowanie": "Sałatka do obiadu, lunch na wynos.",
       "zrodlo": [
         20
-      ]
+      ],
+      "nazwa": "sałatka żankielowa"
     },
     "twarożek_z_żankielem": {
       "skladniki": [
@@ -403,7 +579,8 @@
       "zastosowanie": "Kanapka, farsz do naleśników.",
       "zrodlo": [
         21
-      ]
+      ],
+      "nazwa": "twarożek z żankielem"
     },
     "jajecznica_z_żankielem": {
       "skladniki": [
@@ -423,7 +600,8 @@
       "zastosowanie": "Pożywne śniadanie.",
       "zrodlo": [
         22
-      ]
+      ],
+      "nazwa": "jajecznica z żankielem"
     },
     "omlet_wiosenny": {
       "skladniki": [
@@ -443,7 +621,8 @@
       "zastosowanie": "Śniadanie, lunch.",
       "zrodlo": [
         23
-      ]
+      ],
+      "nazwa": "omlet wiosenny"
     },
     "pesto_z_żankiela": {
       "skladniki": [
@@ -463,7 +642,8 @@
       "zastosowanie": "Do makaronu, pieczywa, grillowanych warzyw.",
       "zrodlo": [
         24
-      ]
+      ],
+      "nazwa": "pesto z żankiela"
     },
     "kiszone_liscie_żankiela": {
       "skladniki": [
@@ -483,7 +663,8 @@
       "zastosowanie": "Dodatek do kanapek, sałatek, jako zakwaszacz do chłodników.",
       "zrodlo": [
         25
-      ]
+      ],
+      "nazwa": "kiszone liscie żankiela"
     },
     "leśny_chłodnik_z_żankielem": {
       "skladniki": [
@@ -504,7 +685,8 @@
       "zastosowanie": "Chłodnik na wiosnę i lato.",
       "zrodlo": [
         26
-      ]
+      ],
+      "nazwa": "leśny chłodnik z żankielem"
     },
     "francuska tarta z żankielem": {
       "skladniki": [
@@ -526,7 +708,8 @@
       "zastosowanie": "Obiad, kolacja, piknik.",
       "zrodlo": [
         27
-      ]
+      ],
+      "nazwa": "francuska tarta z żankielem"
     },
     "niemiecki Aufstrich z żankielem": {
       "skladniki": [
@@ -546,7 +729,8 @@
       "zastosowanie": "Do pieczywa, śniadanie.",
       "zrodlo": [
         28
-      ]
+      ],
+      "nazwa": "niemiecki Aufstrich z żankielem"
     },
     "wiosenne bułeczki z żankielem": {
       "skladniki": [
@@ -569,383 +753,200 @@
       "zastosowanie": "Do masła, na śniadanie, przekąska.",
       "zrodlo": [
         29
+      ],
+      "nazwa": "wiosenne bułeczki z żankielem"
+    },
+    "Chleb pełnoziarnisty z żankielem": {
+      "nazwa": "Chleb pełnoziarnisty z żankielem",
+      "skladniki": [
+        "400 g mąki pszennej pełnoziarnistej",
+        "2 garście świeżych liści żankiela (posiekanych)",
+        "250 ml letniej wody",
+        "15 g świeżych drożdży",
+        "1 łyżeczka soli",
+        "1 łyżeczka cukru",
+        "1 łyżka oliwy"
+      ],
+      "sposob_przygotowania": "Drożdże rozpuścić w wodzie z cukrem, połączyć z mąką, oliwą, solą i liśćmi żankiela, wyrobić ciasto. Odstawić na 1 h, przełożyć do formy, piec 45 min w 190°C.",
+      "cechy": [
+        "Wilgotny, aromatyczny, zielonkawy"
+      ],
+      "wlasciwosci": [
+        "wysoka zawartość błonnika, minerałów"
+      ],
+      "zastosowanie": "Pieczywo śniadaniowe, do zup i past.",
+      "zrodlo": [
+        30
+      ]
+    },
+    "Wiosenna tarta z żankielem i ricottą": {
+      "skladniki": [
+        "Ciasto kruche (gotowe lub domowe)",
+        "2 garście świeżych liści żankiela (drobno posiekanych)",
+        "200 g sera ricotta",
+        "2 jajka",
+        "1 łyżka śmietanki",
+        "skórka otarta z 1/2 cytryny (świeża, ekologiczna)",
+        "sól, biały pieprz"
+      ],
+      "sposob_przygotowania": "Na podpieczonym cieście rozłożyć ricottę wymieszaną z żankielem, jajkami, śmietanką, skórką cytrynową i przyprawami. Piec 25 min w 185°C.",
+      "cechy": [
+        "Lekka, kremowa, ziołowa"
+      ],
+      "wlasciwosci": [
+        "białkowa, odżywcza"
+      ],
+      "zastosowanie": "Obiad, kolacja, przekąska na zimno.",
+      "zrodlo": [
+        32
+      ]
+    },
+    "Francuski quiche z żankielem i łososiem": {
+      "skladniki": [
+        "Ciasto kruche (gotowe lub domowe)",
+        "2 garście świeżych liści żankiela (posiekanych)",
+        "100 g wędzonego łososia (pokrojonego w paseczki)",
+        "2 jajka",
+        "120 ml śmietanki 30%",
+        "1/3 szklanki tartego sera Gruyère",
+        "sól, pieprz, gałka muszkatołowa"
+      ],
+      "sposob_przygotowania": "Na cieście rozłożyć łososia i żankiel, zalać masą jajeczno-śmietankową z serem i przyprawami. Piec 30 min w 180°C.",
+      "cechy": [
+        "Wykwintny, kremowy, aromatyczny"
+      ],
+      "wlasciwosci": [
+        "białkowy, bogaty w kwasy omega-3"
+      ],
+      "zastosowanie": "Obiad, brunch, elegancka kolacja.",
+      "zrodlo": [
+        34
+      ]
+    },
+    "Bułeczki z żankielem i serem feta": {
+      "skladniki": [
+        "300 g mąki pszennej",
+        "1 garść świeżych liści żankiela (posiekanych)",
+        "80 g sera feta (rozdrobnionego)",
+        "150 ml mleka",
+        "7 g drożdży instant",
+        "2 łyżki oliwy",
+        "1 jajko",
+        "szczypta soli"
+      ],
+      "sposob_przygotowania": "Wyrobić ciasto z mąki, mleka, drożdży i oliwy, dodać żankiel i fetę, uformować bułeczki, odstawić do wyrośnięcia. Piec 18 min w 180°C.",
+      "cechy": [
+        "Puszyste, lekko słone, ziołowe"
+      ],
+      "wlasciwosci": [
+        "pożywne, bogate w wapń"
+      ],
+      "zastosowanie": "Na śniadanie, piknik.",
+      "zrodlo": [
+        31
+      ]
+    },
+    "Słodkie placuszki z żankielem": {
+      "skladniki": [
+        "1 szklanka mąki pszennej",
+        "1/2 szklanki mleka",
+        "1 jajko",
+        "1 łyżka drobno posiekanych liści żankiela",
+        "1 łyżka cukru",
+        "1/3 łyżeczki proszku do pieczenia",
+        "szczypta soli",
+        "olej do smażenia"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki wymieszać, smażyć małe placuszki na rozgrzanym oleju. Podawać z dżemem lub cukrem pudrem.",
+      "cechy": [
+        "Delikatne, lekko ziołowe"
+      ],
+      "wlasciwosci": [
+        "energetyczne, ciekawe dla dzieci"
+      ],
+      "zastosowanie": "Śniadanie, deser.",
+      "zrodlo": [
+        36
+      ]
+    },
+    "Dżem z jabłek, żankiela i mięty": {
+      "skladniki": [
+        "4 dojrzałe jabłka (obrane, pokrojone w kostkę)",
+        "2 łyżki świeżych liści żankiela (posiekanych)",
+        "1 łyżka świeżej mięty (posiekanej)",
+        "200 g cukru",
+        "1 łyżeczka soku z cytryny"
+      ],
+      "sposob_przygotowania": "Jabłka dusić z cukrem, gdy zmiękną dodać żankiel i miętę oraz sok z cytryny, gotować do uzyskania konsystencji dżemu.",
+      "cechy": [
+        "Aromatyczny, kwiatowo-miętowy"
+      ],
+      "wlasciwosci": [
+        "witaminowy, nietypowy"
+      ],
+      "zastosowanie": "Do pieczywa, naleśników, deserów.",
+      "zrodlo": [
+        38
+      ]
+    },
+    "Jajka faszerowane żankielem": {
+      "skladniki": [
+        "4 jajka (ugotowane na twardo, obrane)",
+        "2 łyżki drobno posiekanych świeżych liści żankiela",
+        "1 łyżka majonezu",
+        "1 łyżka twarożku śmietankowego",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Jajka przeciąć na pół, wyjąć żółtka, wymieszać z żankielem, majonezem i twarożkiem, doprawić. Masę nałożyć do białek.",
+      "cechy": [
+        "Ziołowe, świeże, kremowe"
+      ],
+      "wlasciwosci": [
+        "białkowe, lekkostrawne"
+      ],
+      "zastosowanie": "Przystawka, śniadanie wielkanocne.",
+      "zrodlo": [
+        33
+      ]
+    },
+    "Kiszone liście żankiela z koperkiem": {
+      "skladniki": [
+        "3 garście świeżych liści żankiela (całe, jędrne)",
+        "2 gałązki świeżego koperku",
+        "1 litr przegotowanej letniej wody",
+        "1 łyżka soli kamiennej"
+      ],
+      "sposob_przygotowania": "Liście i koperek ułożyć w słoju, zalać solanką, kisić w temp. pokojowej 5–7 dni.",
+      "cechy": [
+        "Kwaśne, aromatyczne"
+      ],
+      "wlasciwosci": [
+        "probiotyczne, odżywcze"
+      ],
+      "zastosowanie": "Dodatek do chłodników, kanapek.",
+      "zrodlo": [
+        35
+      ]
+    },
+    "Napój orzeźwiający z żankielem i cytryną": {
+      "skladniki": [
+        "1 garść świeżych liści żankiela (porwanych na mniejsze kawałki)",
+        "1 litr wody źródlanej",
+        "sok z 1 cytryny",
+        "1–2 łyżki miodu"
+      ],
+      "sposob_przygotowania": "Liście zalać wodą z sokiem cytrynowym i miodem, odstawić do schłodzenia na min. 1 h.",
+      "cechy": [
+        "Orzeźwiający, delikatnie ziołowy"
+      ],
+      "wlasciwosci": [
+        "gasi pragnienie, odżywia"
+      ],
+      "zastosowanie": "Napój na lato.",
+      "zrodlo": [
+        37
       ]
     }
-  },
-  "przepisy_z_innymi_roslinami": {
-    "medyczne": [
-      {
-        "nazwa": "Mieszanka gojąca (żankiel, nagietek, babka, rumianek, krwawnik, fiołek, pokrzywa, skrzyp)",
-        "skladniki": [
-          "1 łyżka suszonego ziela żankiela (rozdrobnionego)",
-          "1 łyżka świeżych lub suszonych kwiatów nagietka",
-          "1 łyżka świeżych lub suszonych liści babki lancetowatej",
-          "1 łyżka suszonych kwiatów rumianku",
-          "1 łyżka suszonego ziela krwawnika",
-          "1 łyżka suszonych kwiatów fiołka trójbarwnego",
-          "1 łyżka świeżych lub suszonych liści pokrzywy",
-          "1 łyżka suszonego ziela skrzypu polnego",
-          "1 litr wrzątku (najlepiej przegotowanego)"
-        ],
-        "sposob_przygotowania": "Wszystkie zioła wsypać do termosu lub garnka, zalać wrzątkiem, parzyć pod przykryciem 20 minut. Używać ciepłego naparu do okładów, przemywania ran i owrzodzeń, można też stosować jako płukankę przy stanach zapalnych jamy ustnej.",
-        "cechy": [
-          "Łagodny, ziołowy aromat, jasny kolor"
-        ],
-        "wlasciwosci": [
-          "przyspiesza gojenie, łagodzi stany zapalne, dezynfekuje"
-        ],
-        "zastosowanie": "Okłady, przemywanie skóry, płukanki do ust, kąpiele na rany i oparzenia.",
-        "zrodlo": [
-          27
-        ]
-      },
-      {
-        "nazwa": "Mieszanka wykrztuśna (żankiel, tymianek, babka, podbiał, lukrecja, dziewanna, rumianek, anyż)",
-        "skladniki": [
-          "1 łyżka suszonego ziela żankiela (rozdrobnionego)",
-          "1 łyżka świeżego lub suszonego ziela tymianku",
-          "1 łyżka liści babki lancetowatej (najlepiej świeżych, posiekanych lub suszonych)",
-          "1 łyżka liści podbiału (świeżych lub suszonych)",
-          "1 łyżeczka korzenia lukrecji (drobno pokrojonego, suszonego)",
-          "1 łyżka świeżych lub suszonych kwiatów dziewanny",
-          "1 łyżka suszonych kwiatów rumianku",
-          "1 łyżeczka nasion anyżu (rozdrobnionych w moździerzu)",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła wsypać do naczynia, zalać wrzątkiem, parzyć pod przykryciem 15 minut, przecedzić. Pić ciepły napar 2–3 razy dziennie przy kaszlu i infekcjach.",
-        "cechy": [
-          "Ziołowy, łagodny, lekko anyżowy napar"
-        ],
-        "wlasciwosci": [
-          "wykrztuśna, łagodząca kaszel, powlekająca błony śluzowe"
-        ],
-        "zastosowanie": "Kaszel, chrypka, infekcje dróg oddechowych, także do inhalacji.",
-        "zrodlo": [
-          28
-        ]
-      },
-      {
-        "nazwa": "Mieszanka na skórę (żankiel, nagietek, rumianek, fiołek, skrzyp, pokrzywa, babka, koniczyna)",
-        "skladniki": [
-          "1 łyżka suszonego ziela żankiela",
-          "1 łyżka suszonych kwiatów nagietka",
-          "1 łyżka suszonych kwiatów rumianku",
-          "1 łyżka suszonych kwiatów fiołka trójbarwnego",
-          "1 łyżka suszonego ziela skrzypu polnego",
-          "1 łyżka świeżych liści pokrzywy (lub suszonych)",
-          "1 łyżka liści babki lancetowatej",
-          "1 łyżka suszonych kwiatów koniczyny czerwonej",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zaparzyć w dużym naczyniu, parzyć pod przykryciem 20 min, przecedzić. Używać ciepłego naparu do kąpieli, okładów i przemywania skóry.",
-        "cechy": [
-          "Ziołowy, łagodny aromat, żółtozielony kolor"
-        ],
-        "wlasciwosci": [
-          "regeneruje skórę, łagodzi podrażnienia, działa przeciwzapalnie"
-        ],
-        "zastosowanie": "Kąpiele lecznicze, kompresy na egzemy i oparzenia.",
-        "zrodlo": [
-          29
-        ]
-      },
-      {
-        "nazwa": "Mieszanka na reumatyzm (żankiel, korzeń żywokostu, kora wierzby, pokrzywa, skrzyp, tymianek, szałwia, mniszek)",
-        "skladniki": [
-          "1 łyżka suszonego ziela żankiela",
-          "1 łyżka świeżego lub suszonego korzenia żywokostu (drobno pokrojonego)",
-          "1 łyżka kory wierzby (świeżej lub suszonej, rozdrobnionej)",
-          "1 łyżka świeżych lub suszonych liści pokrzywy",
-          "1 łyżka suszonego ziela skrzypu polnego",
-          "1 łyżka suszonego ziela tymianku",
-          "1 łyżeczka liści szałwii (świeżych lub suszonych)",
-          "1 łyżka korzenia mniszka (rozdrobnionego, świeżego lub suszonego)",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Korzenie i korę zalać wrzątkiem, gotować 10 min, dodać resztę ziół, parzyć kolejne 15 min. Pić 2 razy dziennie po szklance. Można używać do okładów.",
-        "cechy": [
-          "Wytrawny, ziołowy, lekko korzenny napar"
-        ],
-        "wlasciwosci": [
-          "przeciwzapalna, łagodząca bóle stawów"
-        ],
-        "zastosowanie": "Bóle stawów, reumatyzm, okłady na bolące miejsca.",
-        "zrodlo": [
-          30
-        ]
-      },
-      {
-        "nazwa": "Mieszanka na odporność (żankiel, pokrzywa, skrzyp, fiołek, nagietek, czarna porzeczka, dzika róża, mniszek)",
-        "skladniki": [
-          "1 łyżka suszonego ziela żankiela",
-          "1 łyżka liści pokrzywy (świeżych lub suszonych, posiekanych)",
-          "1 łyżka suszonego ziela skrzypu",
-          "1 łyżka suszonych kwiatów fiołka trójbarwnego",
-          "1 łyżka kwiatów nagietka (świeżych lub suszonych)",
-          "1 łyżka suszonych liści czarnej porzeczki",
-          "1 łyżka owoców dzikiej róży (suszone, rozdrobnione)",
-          "1 łyżka suszonego korzenia mniszka",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła wsypać do naczynia, zalać wrzątkiem, parzyć 20 min pod przykryciem. Pić przez tydzień wiosną lub jesienią, 1–2 szklanki dziennie.",
-        "cechy": [
-          "Orzeźwiający, ziołowy, lekko kwaskowy"
-        ],
-        "wlasciwosci": [
-          "wzmacnia odporność, wspomaga rekonwalescencję"
-        ],
-        "zastosowanie": "Kuracja wiosenna, jesienna.",
-        "zrodlo": [
-          31
-        ]
-      },
-      {
-        "nazwa": "Mieszanka kąpielowa (żankiel, rumianek, nagietek, babka, lawenda, pokrzywa, skrzyp, mięta)",
-        "skladniki": [
-          "2 garście świeżych liści żankiela (lub 4 łyżki suszonego ziela)",
-          "1 łyżka suszonych kwiatów rumianku",
-          "1 łyżka świeżych lub suszonych kwiatów nagietka",
-          "1 łyżka liści babki lancetowatej",
-          "1 łyżka kwiatów lawendy",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka suszonego ziela skrzypu",
-          "1 łyżka liści mięty pieprzowej",
-          "2 litry wrzątku"
-        ],
-        "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem w dużym garnku, parzyć pod przykryciem 20–30 min, przecedzić i dodać napar do wanny z ciepłą wodą.",
-        "cechy": [
-          "Relaksujący, intensywny ziołowy zapach, złocisto-zielony płyn"
-        ],
-        "wlasciwosci": [
-          "łagodząca, regenerująca, odprężająca"
-        ],
-        "zastosowanie": "Kąpiele lecznicze na podrażnienia skóry, stres, alergie.",
-        "zrodlo": [
-          32
-        ]
-      },
-      {
-        "nazwa": "Włoski okład na gojenie ran (żankiel, babka, żywokost)",
-        "skladniki": [
-          "2 łyżki świeżych liści żankiela (rozdrobnionych)",
-          "2 łyżki świeżych liści babki lancetowatej (rozdrobnionych)",
-          "1 łyżka świeżego korzenia żywokostu (utartego)",
-          "czysta gaza"
-        ],
-        "sposob_przygotowania": "Wszystkie liście utrzeć na pastę, wymieszać z korzeniem żywokostu, rozsmarować na gazie, przykładać na rany i owrzodzenia. Stosować 2 razy dziennie.",
-        "cechy": [
-          "Wilgotny, chłodzący kompres"
-        ],
-        "wlasciwosci": [
-          "przyspiesza gojenie, regeneruje tkanki"
-        ],
-        "zastosowanie": "Trudno gojące się rany, odleżyny, owrzodzenia.",
-        "zrodlo": [
-          33
-        ]
-      }
-    ],
-    "kulinarne": [
-      {
-        "nazwa": "Chleb pełnoziarnisty z żankielem",
-        "skladniki": [
-          "400 g mąki pszennej pełnoziarnistej",
-          "2 garście świeżych liści żankiela (posiekanych)",
-          "250 ml letniej wody",
-          "15 g świeżych drożdży",
-          "1 łyżeczka soli",
-          "1 łyżeczka cukru",
-          "1 łyżka oliwy"
-        ],
-        "sposob_przygotowania": "Drożdże rozpuścić w wodzie z cukrem, połączyć z mąką, oliwą, solą i liśćmi żankiela, wyrobić ciasto. Odstawić na 1 h, przełożyć do formy, piec 45 min w 190°C.",
-        "cechy": [
-          "Wilgotny, aromatyczny, zielonkawy"
-        ],
-        "wlasciwosci": [
-          "wysoka zawartość błonnika, minerałów"
-        ],
-        "zastosowanie": "Pieczywo śniadaniowe, do zup i past.",
-        "zrodlo": [
-          30
-        ]
-      },
-      {
-        "nazwa": "Bułeczki z żankielem i serem feta",
-        "skladniki": [
-          "300 g mąki pszennej",
-          "1 garść świeżych liści żankiela (posiekanych)",
-          "80 g sera feta (rozdrobnionego)",
-          "150 ml mleka",
-          "7 g drożdży instant",
-          "2 łyżki oliwy",
-          "1 jajko",
-          "szczypta soli"
-        ],
-        "sposob_przygotowania": "Wyrobić ciasto z mąki, mleka, drożdży i oliwy, dodać żankiel i fetę, uformować bułeczki, odstawić do wyrośnięcia. Piec 18 min w 180°C.",
-        "cechy": [
-          "Puszyste, lekko słone, ziołowe"
-        ],
-        "wlasciwosci": [
-          "pożywne, bogate w wapń"
-        ],
-        "zastosowanie": "Na śniadanie, piknik.",
-        "zrodlo": [
-          31
-        ]
-      },
-      {
-        "nazwa": "Wiosenna tarta z żankielem i ricottą",
-        "skladniki": [
-          "Ciasto kruche (gotowe lub domowe)",
-          "2 garście świeżych liści żankiela (drobno posiekanych)",
-          "200 g sera ricotta",
-          "2 jajka",
-          "1 łyżka śmietanki",
-          "skórka otarta z 1/2 cytryny (świeża, ekologiczna)",
-          "sól, biały pieprz"
-        ],
-        "sposob_przygotowania": "Na podpieczonym cieście rozłożyć ricottę wymieszaną z żankielem, jajkami, śmietanką, skórką cytrynową i przyprawami. Piec 25 min w 185°C.",
-        "cechy": [
-          "Lekka, kremowa, ziołowa"
-        ],
-        "wlasciwosci": [
-          "białkowa, odżywcza"
-        ],
-        "zastosowanie": "Obiad, kolacja, przekąska na zimno.",
-        "zrodlo": [
-          32
-        ]
-      },
-      {
-        "nazwa": "Jajka faszerowane żankielem",
-        "skladniki": [
-          "4 jajka (ugotowane na twardo, obrane)",
-          "2 łyżki drobno posiekanych świeżych liści żankiela",
-          "1 łyżka majonezu",
-          "1 łyżka twarożku śmietankowego",
-          "sól, pieprz"
-        ],
-        "sposob_przygotowania": "Jajka przeciąć na pół, wyjąć żółtka, wymieszać z żankielem, majonezem i twarożkiem, doprawić. Masę nałożyć do białek.",
-        "cechy": [
-          "Ziołowe, świeże, kremowe"
-        ],
-        "wlasciwosci": [
-          "białkowe, lekkostrawne"
-        ],
-        "zastosowanie": "Przystawka, śniadanie wielkanocne.",
-        "zrodlo": [
-          33
-        ]
-      },
-      {
-        "nazwa": "Francuski quiche z żankielem i łososiem",
-        "skladniki": [
-          "Ciasto kruche (gotowe lub domowe)",
-          "2 garście świeżych liści żankiela (posiekanych)",
-          "100 g wędzonego łososia (pokrojonego w paseczki)",
-          "2 jajka",
-          "120 ml śmietanki 30%",
-          "1/3 szklanki tartego sera Gruyère",
-          "sól, pieprz, gałka muszkatołowa"
-        ],
-        "sposob_przygotowania": "Na cieście rozłożyć łososia i żankiel, zalać masą jajeczno-śmietankową z serem i przyprawami. Piec 30 min w 180°C.",
-        "cechy": [
-          "Wykwintny, kremowy, aromatyczny"
-        ],
-        "wlasciwosci": [
-          "białkowy, bogaty w kwasy omega-3"
-        ],
-        "zastosowanie": "Obiad, brunch, elegancka kolacja.",
-        "zrodlo": [
-          34
-        ]
-      },
-      {
-        "nazwa": "Kiszone liście żankiela z koperkiem",
-        "skladniki": [
-          "3 garście świeżych liści żankiela (całe, jędrne)",
-          "2 gałązki świeżego koperku",
-          "1 litr przegotowanej letniej wody",
-          "1 łyżka soli kamiennej"
-        ],
-        "sposob_przygotowania": "Liście i koperek ułożyć w słoju, zalać solanką, kisić w temp. pokojowej 5–7 dni.",
-        "cechy": [
-          "Kwaśne, aromatyczne"
-        ],
-        "wlasciwosci": [
-          "probiotyczne, odżywcze"
-        ],
-        "zastosowanie": "Dodatek do chłodników, kanapek.",
-        "zrodlo": [
-          35
-        ]
-      },
-      {
-        "nazwa": "Słodkie placuszki z żankielem",
-        "skladniki": [
-          "1 szklanka mąki pszennej",
-          "1/2 szklanki mleka",
-          "1 jajko",
-          "1 łyżka drobno posiekanych liści żankiela",
-          "1 łyżka cukru",
-          "1/3 łyżeczki proszku do pieczenia",
-          "szczypta soli",
-          "olej do smażenia"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki wymieszać, smażyć małe placuszki na rozgrzanym oleju. Podawać z dżemem lub cukrem pudrem.",
-        "cechy": [
-          "Delikatne, lekko ziołowe"
-        ],
-        "wlasciwosci": [
-          "energetyczne, ciekawe dla dzieci"
-        ],
-        "zastosowanie": "Śniadanie, deser.",
-        "zrodlo": [
-          36
-        ]
-      },
-      {
-        "nazwa": "Napój orzeźwiający z żankielem i cytryną",
-        "skladniki": [
-          "1 garść świeżych liści żankiela (porwanych na mniejsze kawałki)",
-          "1 litr wody źródlanej",
-          "sok z 1 cytryny",
-          "1–2 łyżki miodu"
-        ],
-        "sposob_przygotowania": "Liście zalać wodą z sokiem cytrynowym i miodem, odstawić do schłodzenia na min. 1 h.",
-        "cechy": [
-          "Orzeźwiający, delikatnie ziołowy"
-        ],
-        "wlasciwosci": [
-          "gasi pragnienie, odżywia"
-        ],
-        "zastosowanie": "Napój na lato.",
-        "zrodlo": [
-          37
-        ]
-      },
-      {
-        "nazwa": "Dżem z jabłek, żankiela i mięty",
-        "skladniki": [
-          "4 dojrzałe jabłka (obrane, pokrojone w kostkę)",
-          "2 łyżki świeżych liści żankiela (posiekanych)",
-          "1 łyżka świeżej mięty (posiekanej)",
-          "200 g cukru",
-          "1 łyżeczka soku z cytryny"
-        ],
-        "sposob_przygotowania": "Jabłka dusić z cukrem, gdy zmiękną dodać żankiel i miętę oraz sok z cytryny, gotować do uzyskania konsystencji dżemu.",
-        "cechy": [
-          "Aromatyczny, kwiatowo-miętowy"
-        ],
-        "wlasciwosci": [
-          "witaminowy, nietypowy"
-        ],
-        "zastosowanie": "Do pieczywa, naleśników, deserów.",
-        "zrodlo": [
-          38
-        ]
-      }
-    ]
   },
   "inne_zastosowania": {
     "kosmetyki": {
@@ -1013,33 +1014,240 @@
     "42": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
   },
   "kalendarz": {
-    "siew": [
-      4,
-      5
-    ],
-    "zbior_ziele": [
-      5,
-      6
-    ],
-    "zbior_poranny": [
-      5,
-      6
-    ],
-    "kwitnienie": [
-      6
-    ],
-    "zbior_pelnia": [
-      6
-    ],
-    "ekstrakcja": [
-      6
-    ],
-    "pielenie": [
-      5,
-      6
-    ],
-    "przesadzanie": [
-      4
-    ]
+    "siew": {
+      "miesiące": [
+        3,
+        4
+      ],
+      "czynności": "Wysiew do skrzynek lub doniczek w marcu–kwietniu, wczesnym rankiem, najlepiej tuż po nowiu, gdy energia rośliny koncentruje się w korzeniach. Nasiona lekko przykryć podłożem, zachować wilgoć i półcień. Kiełkuje po 2–4 tygodniach.",
+      "źródło": [
+        "https://pfaf.org/user/Plant.aspx?LatinName=Sanicula+europaea"
+      ]
+    },
+    "pikowanie": {
+      "miesiące": [
+        4
+      ],
+      "czynności": "Gdy siewki wytworzą 2–3 liście, przepikować do osobnych doniczek lub rzędów. Najlepiej w dzień pochmurny lub wieczorem, by uniknąć przegrzania. Faza księżyca: pierwsza kwadra – wspiera rozwój części nadziemnych.",
+      "źródło": [
+        "https://ogrodnik-amator.pl"
+      ]
+    },
+    "przesadzanie": {
+      "miesiące": [
+        4,
+        5
+      ],
+      "czynności": "Zahartowane sadzonki przenieść do gruntu w wilgotne dni, najlepiej po południu. Unikać pełnego słońca. Sadzenie najlepiej przeprowadzić w pierwszej kwadrze lub tuż przed pełnią.",
+      "źródło": [
+        "https://permakultura.edu.pl"
+      ]
+    },
+    "przycinanie": {
+      "miesiące": [
+        7
+      ],
+      "czynności": "Przycinanie przekwitłych łodyg pozwala na zagęszczenie rośliny i wydłużenie kwitnienia. Najlepiej wykonywać wczesnym rankiem lub wieczorem, w czasie ubywającego księżyca.",
+      "źródło": [
+        "https://zielnikpolski.pl"
+      ]
+    },
+    "nawożenie": {
+      "miesiące": [
+        4,
+        5
+      ],
+      "czynności": "Wczesną wiosną zastosować nawóz organiczny – kompost lub biohumus. W okresie wzrostu liści i pąków można dodać azotu. Najlepszy czas: rano po nowiu lub pierwsza kwadra.",
+      "źródło": [
+        "https://twojogrodek.pl"
+      ]
+    },
+    "pielenie": {
+      "miesiące": [
+        5,
+        6,
+        7
+      ],
+      "czynności": "Systematyczne usuwanie chwastów ręcznie lub motyczką w porze porannej – najlepiej tuż po deszczu. Uwaga: nie uszkodzić płytkich korzeni żankiela.",
+      "źródło": [
+        "https://ogrodnik-amator.pl"
+      ]
+    },
+    "zbior_ziele": {
+      "miesiące": [
+        5,
+        6
+      ],
+      "czynności": "Ziele zbieraj rano w słoneczny dzień, przed kwitnieniem lub w jego początku. Najlepszy czas: pierwszy dzień po pełni – najwięcej substancji aktywnych w nadziemnych częściach.",
+      "źródło": [
+        "https://zielnikpolski.pl"
+      ]
+    },
+    "zbior_korzeni": {
+      "miesiące": [
+        9,
+        10
+      ],
+      "czynności": "Korzeń wykopywać wieczorem w ostatniej kwadrze księżyca. Zbieraj po całkowitym zaschnięciu części nadziemnych. Korzeń oczyszczony susz natychmiast w cieniu.",
+      "źródło": [
+        "https://zielnikpolski.pl"
+      ]
+    },
+    "zbior_poranny": {
+      "miesiące": [
+        5,
+        6
+      ],
+      "czynności": "Zbiór prowadzony tuż po wschodzie słońca, kiedy roślina jest nasycona poranną wilgocią i zawiera najwięcej substancji lotnych. Idealny do suszenia i do naparów.",
+      "źródło": [
+        "https://zielnikpolski.pl"
+      ]
+    },
+    "zbior_pelnia": {
+      "miesiące": [
+        6
+      ],
+      "czynności": "Zbieranie w noc pełni, szczególnie kwiatów i pędów. Tradycyjnie rośliny zbierane wtedy są silniejsze energetycznie. Wskazany do celów magicznych i rytualnych.",
+      "źródło": [
+        "https://www.almanac.com/content/almanac-moon-planting-calendar"
+      ]
+    },
+    "kwitnienie": {
+      "miesiące": [
+        5,
+        6
+      ],
+      "czynności": "Obserwacja pełni kwitnienia – małe białe lub różowe kwiaty zebrane w główki. Kwitnienie trwa około 2–4 tygodni. Najlepszy czas na suszenie do kąpieli ziołowych.",
+      "źródło": [
+        "https://atlas-roslin.pl"
+      ]
+    },
+    "suszenie": {
+      "miesiące": [
+        6,
+        7
+      ],
+      "czynności": "Ścięte ziele suszyć w cieniu i przewiewnym miejscu. Liście rozłożyć cienką warstwą. Nie suszyć w słońcu – utrata olejków i kolorów. Najlepiej po południu.",
+      "źródło": [
+        "https://zielnikpolski.pl"
+      ]
+    },
+    "fermentacja": {
+      "miesiące": [
+        7
+      ],
+      "czynności": "Fermentacja ziela w ciemnym, szczelnym pojemniku przez 3 dni (20–24°C). Stosowana przy produkcji mieszanek tytoniowych i naparów leczniczych.",
+      "źródło": [
+        "https://permakultura.edu.pl"
+      ]
+    },
+    "ekstrakcja": {
+      "miesiące": [
+        6
+      ],
+      "czynności": "Ekstrakcja etanolem 40–70%: świeże liście zalać alkoholem 1:5, pozostawić na 14 dni w cieniu, codziennie wstrząsać. Najlepiej zacząć w pełnię księżyca.",
+      "źródło": [
+        "https://zielnikpolski.pl"
+      ]
+    },
+    "produkcja_nalewek": {
+      "miesiące": [
+        6,
+        7
+      ],
+      "czynności": "Świeże liście lub korzeń zalać alkoholem 1:5, macerować 14 dni w ciemnym miejscu. Idealny czas: pełnia lub pierwsza kwadra. Filtracja przez gazę.",
+      "źródło": [
+        "https://zielnikpolski.pl"
+      ]
+    },
+    "sporządzanie_syropu": {
+      "miesiące": [
+        6,
+        7
+      ],
+      "czynności": "Naparu z liści lub korzenia gotować z miodem lub cukrem w proporcji 1:1. Gdy zgęstnieje – przelać do słoików. Przechowywać w chłodzie. Rano lub wieczorem.",
+      "źródło": [
+        "https://zielnikpolski.pl"
+      ]
+    },
+    "sporządzanie_mazidel": {
+      "miesiące": [
+        6,
+        7
+      ],
+      "czynności": "Rozdrobnione suche ziele dusić na tłuszczu roślinnym (kokosowym lub oliwa) przez 15 min. Przecedzić i przelać do słoiczka. Sporządzać w ostatniej kwadrze.",
+      "źródło": [
+        "https://zielnikpolski.pl"
+      ]
+    },
+    "sporządzanie_kiszonek": {
+      "miesiące": [
+        6,
+        7
+      ],
+      "czynności": "Młode liście z dodatkiem czosnku i chrzanu kiszone w 2% solance przez 5–7 dni. Najlepiej rozpoczynać proces w pierwszej kwadrze lub tuż po nowiu.",
+      "źródło": [
+        "https://zielnikpolski.pl"
+      ]
+    },
+    "sporządzanie_pudrów": {
+      "miesiące": [
+        6
+      ],
+      "czynności": "Suszone ziele i korzeń zmielić na drobny proszek i przechowywać w suchym miejscu. Najlepsze efekty daje zbiór i suszenie przed pełnią, a mielenie w nowiu.",
+      "źródło": [
+        "https://zielnikpolski.pl"
+      ]
+    },
+    "pozyskiwanie_nasion": {
+      "miesiące": [
+        8,
+        9
+      ],
+      "czynności": "Zbiór nasion w ciepły, suchy dzień. Owoce zbierać, gdy haczykowate szczecinki zaczynają zasychać. Najlepiej w czasie ostatniej kwadry – wpływa na trwałość nasion.",
+      "źródło": [
+        "https://pfaf.org/user/Plant.aspx?LatinName=Sanicula+europaea"
+      ]
+    },
+    "księżycowy_zbior": {
+      "nów": {
+        "miesiące": [
+          3,
+          4
+        ],
+        "czynności": "Zbieranie korzeni i liści wieczorem tuż po nowiu – roślina gromadzi energię w podziemnych częściach.",
+        "źródło": [
+          "https://www.almanac.com/content/almanac-moon-planting-calendar"
+        ]
+      },
+      "pierwsza_kwadra": {
+        "miesiące": [
+          4,
+          5
+        ],
+        "czynności": "Zbiór liści i ziela, szczególnie rano – sprzyja koncentracji aktywnych składników w pędach.",
+        "źródło": [
+          "https://www.almanac.com/content/almanac-moon-planting-calendar"
+        ]
+      },
+      "pełnia": {
+        "miesiące": [
+          6
+        ],
+        "czynności": "Zbieraj kwiaty i ziele w noc pełni – wysoki poziom olejków i energii roślinnej.",
+        "źródło": [
+          "https://www.almanac.com/content/almanac-moon-planting-calendar"
+        ]
+      },
+      "ostatnia_kwadra": {
+        "miesiące": [
+          9
+        ],
+        "czynności": "Idealna faza do zbioru korzeni i kłączy – wieczorem po opadnięciu rosy.",
+        "źródło": [
+          "https://www.almanac.com/content/almanac-moon-planting-calendar"
+        ]
+      }
+    }
   }
 }

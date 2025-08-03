@@ -145,450 +145,439 @@
     }
   ],
   "przepisy_medyczne": {
-    "napar_rozkurczowy": {
-      "skladniki": [
-        "1 łyżeczka płatków kosmosu siarkowego (najlepiej świeżych, pomarańczowych)",
-        "1/2 łyżeczki suszonego nagietka lekarskiego",
-        "250 ml wrzątku"
-      ],
-      "sposob_przygotowania": "Płatki i nagietek zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić.",
-      "cechy": [
-        "Jasnopomarańczowy napar"
-      ],
-      "wlasciwosci": [
-        "łagodzi skurcze żołądka, działa lekko uspokajająco"
-      ],
-      "zastosowanie": "Do picia przy lekkich dolegliwościach trawiennych.",
-      "dawkowanie": "1 filiżanka dziennie.",
-      "zrodlo": [
-        11
-      ]
-    },
-    "oklad_na_ukąszenia": {
-      "skladniki": [
-        "Świeże liście kosmosu siarkowego (najlepiej młode, rozgniecione)",
-        "Gaza (jałowa)"
-      ],
-      "sposob_przygotowania": "Liście dokładnie rozgnieść, nałożyć na miejsce ukąszenia, zabezpieczyć gazą. Zostawić na 15–20 minut.",
-      "cechy": [
-        "Łagodzący, chłodny kompres"
-      ],
-      "wlasciwosci": [
-        "zmniejsza świąd i podrażnienia skóry"
-      ],
-      "zastosowanie": "Ukąszenia owadów, drobne stany zapalne skóry.",
-      "zrodlo": [
-        12
-      ]
-    },
-    "herbatka_antyoksydacyjna": {
-      "skladniki": [
-        "1 łyżeczka świeżych lub suszonych płatków kosmosu siarkowego",
-        "1/2 łyżeczki suszonych liści zielonej herbaty",
-        "250 ml wrzątku"
-      ],
-      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 7 minut pod przykryciem, przecedzić.",
-      "cechy": [
-        "Złotopomarańczowy napar"
-      ],
-      "wlasciwosci": [
-        "silnie antyoksydacyjny, lekko pobudzający"
-      ],
-      "zastosowanie": "Poranna lub popołudniowa herbatka dla poprawy odporności.",
-      "dawkowanie": "1 filiżanka dziennie.",
-      "zrodlo": [
-        13
-      ]
-    },
-    "kąpiel_kwiatowa_na_skórę": {
-      "skladniki": [
-        "2 garście świeżych kwiatów kosmosu siarkowego (płatki i całe główki)",
-        "2 litry wody"
-      ],
-      "sposob_przygotowania": "Kwiaty zalać zimną wodą, doprowadzić do wrzenia, gotować 5 minut. Przecedzić do wanny.",
-      "cechy": [
-        "Delikatny pomarańczowy odcień kąpieli"
-      ],
-      "wlasciwosci": [
-        "łagodzi podrażnienia skóry, relaksuje"
-      ],
-      "zastosowanie": "Do kąpieli leczniczych, przy alergii i egzemie.",
-      "zrodlo": [
-        14
-      ]
-    },
-    "płukanka_do_gardła": {
-      "skladniki": [
-        "1 łyżka świeżych płatków kosmosu siarkowego",
-        "1 łyżka szałwii",
-        "300 ml wrzątku"
-      ],
-      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 min, odcedzić, płukać gardło letnim naparem.",
-      "cechy": [
-        "Ziołowo-pomarańczowy napar"
-      ],
-      "wlasciwosci": [
-        "łagodzi stany zapalne jamy ustnej"
-      ],
-      "zastosowanie": "Płukanka przy bólu gardła, aftach.",
-      "dawkowanie": "2–3 razy dziennie.",
-      "zrodlo": [
-        15
-      ]
-    },
-    "syrop_na_przeziebienie": {
-      "skladniki": [
-        "15 świeżych kwiatów kosmosu siarkowego (najlepiej rozkwitnięte, pomarańczowe)",
-        "500 ml wody",
-        "200 g cukru trzcinowego lub miodu"
-      ],
-      "sposob_przygotowania": "Kwiaty gotować w wodzie 10 min, przecedzić, dodać cukier/miód, gotować do zgęstnienia.",
-      "cechy": [
-        "Jasnopomarańczowy, kwiatowy syrop"
-      ],
-      "wlasciwosci": [
-        "łagodzi kaszel, wspiera odporność"
-      ],
-      "zastosowanie": "Podawać przy przeziębieniu.",
-      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
-      "zrodlo": [
-        16
-      ]
-    },
-    "nalewka_na_układ_trawienny": {
-      "skladniki": [
-        "1 szklanka świeżych płatków kosmosu siarkowego",
-        "200 ml spirytusu 60%",
-        "2 łyżki miodu"
-      ],
-      "sposob_przygotowania": "Zalać płatki alkoholem i miodem, odstawić na 10 dni, przecedzić.",
-      "cechy": [
-        "Złoto-pomarańczowy płyn",
-        "Kwiatowy, lekko gorzki aromat"
-      ],
-      "wlasciwosci": [
-        "pobudza trawienie, lekko rozkurczowy"
-      ],
-      "zastosowanie": "Po ciężkostrawnych posiłkach, 5–10 kropli w wodzie.",
-      "zrodlo": [
-        17
-      ]
-    }
-  },
-  "przepisy_kulinarne": {
-    "sałatka_z_kwiatami_i_awokado": {
-      "skladniki": [
-        "Mix sałat (rukola, szpinak, młode liście roszponki – świeże)",
-        "Płatki kosmosu siarkowego (pomarańczowe, świeże)",
-        "Kawałki dojrzałego awokado (surowe)",
-        "Pomidorki koktajlowe (przekrojone na pół)",
-        "Sok z limonki",
-        "Oliwa z oliwek"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki wymieszać, udekorować płatkami kosmosu, skropić limonką i oliwą.",
-      "cechy": [
-        "Soczyście kolorowa sałatka"
-      ],
-      "wlasciwosci": [
-        "bogata w antyoksydanty, lekkostrawna"
-      ],
-      "zastosowanie": "Przystawka, letni lunch.",
-      "zrodlo": [
-        18
-      ]
-    },
-    "tortilla_z_kosmosu_i_papryki": {
-      "skladniki": [
-        "2 tortille pełnoziarniste",
-        "Garść płatków kosmosu siarkowego (świeże)",
-        "1/2 czerwonej papryki (pokrojonej w paski)",
-        "2 łyżki serka śmietankowego",
-        "Sól, pieprz"
-      ],
-      "sposob_przygotowania": "Tortille posmarować serkiem, ułożyć paprykę i płatki, zwinąć w rulon.",
-      "cechy": [
-        "Kolorowe, chrupiące roladki"
-      ],
-      "wlasciwosci": [
-        "lekka, dekoracyjna przekąska"
-      ],
-      "zastosowanie": "Na piknik, do lunchboxa.",
-      "zrodlo": [
-        19
-      ]
-    },
-    "meksykańska_salsa_z_kosmosu": {
-      "skladniki": [
-        "1 pomidor (drobno pokrojony)",
-        "1/2 cebuli czerwonej (drobno pokrojonej)",
-        "2 łyżki płatków kosmosu siarkowego (świeżych, posiekanych)",
-        "1 papryczka jalapeno (posiekana, bez pestek)",
-        "Sok z 1/2 limonki",
-        "Sól"
-      ],
-      "sposob_przygotowania": "Wszystko wymieszać, schłodzić 30 minut. Podawać do tacos, nachosów.",
-      "cechy": [
-        "Wyjątkowo barwna, kwiatowa salsa"
-      ],
-      "wlasciwosci": [
-        "orzeźwiająca, pobudzająca apetyt"
-      ],
-      "zastosowanie": "Do meksykańskich przekąsek, do grillowanych warzyw.",
-      "zrodlo": [
-        20
-      ]
-    },
-    "pesto_z_liści_kosmosu_siarkowego": {
-      "skladniki": [
-        "Garść młodych liści kosmosu siarkowego (świeże, drobno posiekane)",
-        "2 łyżki orzechów nerkowca",
-        "Ząbek czosnku",
-        "Oliwa z oliwek",
-        "Sól, pieprz"
-      ],
-      "sposob_przygotowania": "Liście, orzechy i czosnek zblendować z oliwą na gładką pastę, przyprawić.",
-      "cechy": [
-        "Zielone pesto z pomarańczowymi drobinkami"
-      ],
-      "wlasciwosci": [
-        "lekko pikantne, wzmacniające"
-      ],
-      "zastosowanie": "Do makaronów, kanapek, warzyw.",
-      "zrodlo": [
-        21
-      ]
-    },
-    "muffinki_kwietne_z_kosmosem": {
-      "skladniki": [
-        "1 szklanka mąki pszennej",
-        "1/2 szklanki cukru",
-        "1 jajko",
-        "1/2 szklanki jogurtu naturalnego",
-        "1/4 szklanki oleju rzepakowego",
-        "1/2 łyżeczki proszku do pieczenia",
-        "2 łyżki płatków kosmosu siarkowego (świeżych lub suszonych)",
-        "Skórka otarta z 1 cytryny"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki wymieszać, nakładać do foremek, piec 20 min w 180°C.",
-      "cechy": [
-        "Jasnożółte muffinki z pomarańczowymi drobinkami"
-      ],
-      "wlasciwosci": [
-        "wilgotne, lekko cytrynowe"
-      ],
-      "zastosowanie": "Do kawy, piknik, deser.",
-      "zrodlo": [
-        22
-      ]
-    },
-    "kwiatowy_chleb_na_zakwasie": {
-      "skladniki": [
-        "500 g mąki żytniej lub pszennej",
-        "300 ml wody",
-        "100 g zakwasu żytniego",
-        "2 łyżki świeżych płatków kosmosu siarkowego",
-        "Sól"
-      ],
-      "sposob_przygotowania": "Wszystko wyrobić, odstawić do wyrośnięcia, piec 45 min w 200°C. Na wierzchu posypać świeżymi płatkami.",
-      "cechy": [
-        "Chleb z pomarańczowymi akcentami"
-      ],
-      "wlasciwosci": [
-        "aromatyczny, bogaty w błonnik"
-      ],
-      "zastosowanie": "Do kanapek, zup, sałatek.",
-      "zrodlo": [
-        23
-      ]
-    },
-    "deser_panna_cotta_z_kwiatami": {
-      "skladniki": [
-        "300 ml śmietanki 30%",
-        "2 łyżki cukru",
-        "2 łyżeczki żelatyny",
-        "4 łyżki płatków kosmosu siarkowego (świeżych, opłukanych)",
-        "Kilka listków mięty"
-      ],
-      "sposob_przygotowania": "Śmietankę podgrzać z cukrem i żelatyną, dodać kwiaty, przelać do foremek, schłodzić, podawać z miętą.",
-      "cechy": [
-        "Biała panna cotta z kolorowymi płatkami"
-      ],
-      "wlasciwosci": [
-        "lekki, letni deser"
-      ],
-      "zastosowanie": "Na przyjęcia, do kawy.",
-      "zrodlo": [
-        24
-      ]
-    },
-    "ryż_z_kwiatami_i_kurkuma": {
-      "skladniki": [
-        "1 szklanka ryżu basmati",
-        "1/2 łyżeczki kurkumy",
-        "2 łyżki płatków kosmosu siarkowego",
-        "1 łyżka masła",
-        "Sól"
-      ],
-      "sposob_przygotowania": "Ryż ugotować z kurkumą i masłem, pod koniec dodać płatki kosmosu, wymieszać.",
-      "cechy": [
-        "Żółto-pomarańczowy ryż"
-      ],
-      "wlasciwosci": [
-        "delikatnie aromatyczny, dekoracyjny"
-      ],
-      "zastosowanie": "Dodatek do dań indyjskich i curry.",
-      "zrodlo": [
-        25
-      ]
-    },
-    "kiszone_pąki_kosmosu": {
-      "skladniki": [
-        "1 szklanka pąków kwiatowych kosmosu siarkowego (najlepiej młodych)",
-        "2 szklanki wody",
-        "1 łyżeczka soli",
-        "2 ziela angielskie",
-        "1 liść laurowy"
-      ],
-      "sposob_przygotowania": "Pąki zalać solanką z przyprawami, kisić 5–7 dni. Przechowywać w lodówce.",
-      "cechy": [
-        "Kwaśno-pikantne, lekko chrupiące"
-      ],
-      "wlasciwosci": [
-        "probiotyczne, orzeźwiające"
-      ],
-      "zastosowanie": "Dodatek do sałatek, kanapek.",
-      "zrodlo": [
-        26
-      ]
-    },
-    "herbata_japońska_z_kosmosu_i_miety": {
-      "skladniki": [
-        "1 łyżka świeżych płatków kosmosu siarkowego",
-        "1 łyżeczka zielonej herbaty japońskiej (np. sencha)",
-        "Kilka listków świeżej mięty",
-        "250 ml wrzątku"
-      ],
-      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 3–5 min pod przykryciem, przecedzić.",
-      "cechy": [
-        "Pomarańczowo-zielona herbata"
-      ],
-      "wlasciwosci": [
-        "orzeźwiająca, pobudzająca"
-      ],
-      "zastosowanie": "Do sushi, lekkich posiłków, jako napój chłodzący.",
-      "zrodlo": [
-        27
-      ]
-    },
-    "masło_z_kosmosu_i_czosnku": {
-      "skladniki": [
-        "100 g miękkiego masła",
-        "1 łyżka świeżych płatków kosmosu siarkowego",
-        "1 ząbek czosnku (drobno starty)",
-        "Sól"
-      ],
-      "sposob_przygotowania": "Wszystkie składniki utrzeć, schłodzić.",
-      "cechy": [
-        "Maślane, lekko pikantne"
-      ],
-      "wlasciwosci": [
-        "aromatyczne, dekoracyjne"
-      ],
-      "zastosowanie": "Do grzanek, pieczywa, pieczonych ziemniaków.",
-      "zrodlo": [
-        28
-      ]
-    },
-    "tajska_sałatka_z_kosmosu_i_limonką": {
-      "skladniki": [
-        "2 garście świeżych płatków kosmosu siarkowego",
-        "1 marchewka (starta w cienkie paski)",
-        "1 ogórek (pokrojony w słupki)",
-        "Sok z 1 limonki",
-        "1 łyżeczka sosu rybnego",
-        "1 łyżka posiekanych orzechów ziemnych"
-      ],
-      "sposob_przygotowania": "Wszystko wymieszać, schłodzić przed podaniem. Podawać z płatkami kosmosu na wierzchu.",
-      "cechy": [
-        "Egzotyczna, lekko pikantna"
-      ],
-      "wlasciwosci": [
-        "odświeżająca, witaminowa"
-      ],
-      "zastosowanie": "Sałatka, przystawka do dań orientalnych.",
-      "zrodlo": [
-        29
-      ]
-    }
-  },
-  "przepisy_z_innymi_roslinami": {
-    "medyczne": [
+    "napar_rozkurczowy": [
       {
-        "nazwa": "Herbatka wzmacniająca (kosmos siarkowy, nagietek, rumianek, mięta)",
         "skladniki": [
-          "1 łyżeczka płatków kosmosu siarkowego (świeżych lub suszonych)",
-          "1 łyżeczka płatków nagietka",
-          "1 łyżeczka koszyczków rumianku",
-          "1/2 łyżeczki liści mięty (świeżych lub suszonych)",
+          "1 łyżeczka płatków kosmosu siarkowego (najlepiej świeżych, pomarańczowych)",
+          "1/2 łyżeczki suszonego nagietka lekarskiego",
           "250 ml wrzątku"
         ],
-        "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem, parzyć 10 minut, przecedzić.",
+        "sposob_przygotowania": "Płatki i nagietek zalać wrzątkiem, parzyć pod przykryciem 10 minut, przecedzić.",
         "cechy": [
-          "Barwna, aromatyczna herbatka"
+          "Jasnopomarańczowy napar"
         ],
         "wlasciwosci": [
-          "wzmacniająca, lekko uspokajająca"
+          "łagodzi skurcze żołądka, działa lekko uspokajająco"
         ],
-        "zastosowanie": "Na odporność i relaks.",
+        "zastosowanie": "Do picia przy lekkich dolegliwościach trawiennych.",
+        "dawkowanie": "1 filiżanka dziennie.",
         "zrodlo": [
-          23
-        ]
-      },
-      {
-        "nazwa": "Kwiatowa mieszanka antyoksydacyjna (kosmos siarkowy, hibiskus, płatki róży, lipa)",
-        "skladniki": [
-          "1 łyżeczka płatków kosmosu siarkowego",
-          "1 łyżeczka suszonych kwiatów hibiskusa",
-          "Kilka płatków dzikiej róży (świeżych lub suszonych)",
-          "1 łyżeczka kwiatów lipy",
-          "250 ml wrzątku"
+          11
         ],
-        "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 8–10 minut, przecedzić.",
-        "cechy": [
-          "Rubinowo-pomarańczowy napar"
-        ],
-        "wlasciwosci": [
-          "przeciwutleniająca, łagodnie wzmacniająca"
-        ],
-        "zastosowanie": "Wiosenne oczyszczanie organizmu.",
-        "zrodlo": [
-          26
-        ]
-      },
-      {
-        "nazwa": "Relaksująca kąpiel ziołowa (kosmos siarkowy, lawenda, rozmaryn, nagietek, rumianek)",
-        "skladniki": [
-          "Garść świeżych płatków kosmosu siarkowego",
-          "2 łyżki suszonych kwiatów lawendy",
-          "2 gałązki rozmarynu (świeżego lub suszonego)",
-          "2 łyżki nagietka",
-          "2 łyżki rumianku",
-          "2 litry wrzątku"
-        ],
-        "sposob_przygotowania": "Zioła zaparzyć, przecedzić do wanny z wodą. Kąpać się 15–20 minut.",
-        "cechy": [
-          "Kwiatowo-ziołowy zapach, kolorowy płyn"
-        ],
-        "wlasciwosci": [
-          "relaksująca, łagodząca skórę"
-        ],
-        "zastosowanie": "Kąpiel odprężająca po stresującym dniu.",
-        "zrodlo": [
-          27
-        ]
+        "nazwa": "Napar rozkurczowy"
       }
     ],
-    "kulinarne": [
+    "oklad_na_ukąszenia": [
+      {
+        "skladniki": [
+          "Świeże liście kosmosu siarkowego (najlepiej młode, rozgniecione)",
+          "Gaza (jałowa)"
+        ],
+        "sposob_przygotowania": "Liście dokładnie rozgnieść, nałożyć na miejsce ukąszenia, zabezpieczyć gazą. Zostawić na 15–20 minut.",
+        "cechy": [
+          "Łagodzący, chłodny kompres"
+        ],
+        "wlasciwosci": [
+          "zmniejsza świąd i podrażnienia skóry"
+        ],
+        "zastosowanie": "Ukąszenia owadów, drobne stany zapalne skóry.",
+        "zrodlo": [
+          12
+        ],
+        "nazwa": "Oklad na ukąszenia"
+      }
+    ],
+    "herbatka_antyoksydacyjna": [
+      {
+        "skladniki": [
+          "1 łyżeczka świeżych lub suszonych płatków kosmosu siarkowego",
+          "1/2 łyżeczki suszonych liści zielonej herbaty",
+          "250 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 7 minut pod przykryciem, przecedzić.",
+        "cechy": [
+          "Złotopomarańczowy napar"
+        ],
+        "wlasciwosci": [
+          "silnie antyoksydacyjny, lekko pobudzający"
+        ],
+        "zastosowanie": "Poranna lub popołudniowa herbatka dla poprawy odporności.",
+        "dawkowanie": "1 filiżanka dziennie.",
+        "zrodlo": [
+          13
+        ],
+        "nazwa": "Herbatka antyoksydacyjna"
+      }
+    ],
+    "kąpiel_kwiatowa_na_skórę": [
+      {
+        "skladniki": [
+          "2 garście świeżych kwiatów kosmosu siarkowego (płatki i całe główki)",
+          "2 litry wody"
+        ],
+        "sposob_przygotowania": "Kwiaty zalać zimną wodą, doprowadzić do wrzenia, gotować 5 minut. Przecedzić do wanny.",
+        "cechy": [
+          "Delikatny pomarańczowy odcień kąpieli"
+        ],
+        "wlasciwosci": [
+          "łagodzi podrażnienia skóry, relaksuje"
+        ],
+        "zastosowanie": "Do kąpieli leczniczych, przy alergii i egzemie.",
+        "zrodlo": [
+          14
+        ],
+        "nazwa": "Kąpiel kwiatowa na skórę"
+      }
+    ],
+    "płukanka_do_gardła": [
+      {
+        "skladniki": [
+          "1 łyżka świeżych płatków kosmosu siarkowego",
+          "1 łyżka szałwii",
+          "300 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 min, odcedzić, płukać gardło letnim naparem.",
+        "cechy": [
+          "Ziołowo-pomarańczowy napar"
+        ],
+        "wlasciwosci": [
+          "łagodzi stany zapalne jamy ustnej"
+        ],
+        "zastosowanie": "Płukanka przy bólu gardła, aftach.",
+        "dawkowanie": "2–3 razy dziennie.",
+        "zrodlo": [
+          15
+        ],
+        "nazwa": "Płukanka do gardła"
+      }
+    ],
+    "syrop_na_przeziebienie": [
+      {
+        "skladniki": [
+          "15 świeżych kwiatów kosmosu siarkowego (najlepiej rozkwitnięte, pomarańczowe)",
+          "500 ml wody",
+          "200 g cukru trzcinowego lub miodu"
+        ],
+        "sposob_przygotowania": "Kwiaty gotować w wodzie 10 min, przecedzić, dodać cukier/miód, gotować do zgęstnienia.",
+        "cechy": [
+          "Jasnopomarańczowy, kwiatowy syrop"
+        ],
+        "wlasciwosci": [
+          "łagodzi kaszel, wspiera odporność"
+        ],
+        "zastosowanie": "Podawać przy przeziębieniu.",
+        "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+        "zrodlo": [
+          16
+        ],
+        "nazwa": "Syrop na przeziebienie"
+      }
+    ],
+    "nalewka_na_układ_trawienny": [
+      {
+        "skladniki": [
+          "1 szklanka świeżych płatków kosmosu siarkowego",
+          "200 ml spirytusu 60%",
+          "2 łyżki miodu"
+        ],
+        "sposob_przygotowania": "Zalać płatki alkoholem i miodem, odstawić na 10 dni, przecedzić.",
+        "cechy": [
+          "Złoto-pomarańczowy płyn",
+          "Kwiatowy, lekko gorzki aromat"
+        ],
+        "wlasciwosci": [
+          "pobudza trawienie, lekko rozkurczowy"
+        ],
+        "zastosowanie": "Po ciężkostrawnych posiłkach, 5–10 kropli w wodzie.",
+        "zrodlo": [
+          17
+        ],
+        "nazwa": "Nalewka na układ trawienny"
+      }
+    ]
+  },
+  "przepisy_kulinarne": {
+    "sałatka_z_kwiatami_i_awokado": [
+      {
+        "skladniki": [
+          "Mix sałat (rukola, szpinak, młode liście roszponki – świeże)",
+          "Płatki kosmosu siarkowego (pomarańczowe, świeże)",
+          "Kawałki dojrzałego awokado (surowe)",
+          "Pomidorki koktajlowe (przekrojone na pół)",
+          "Sok z limonki",
+          "Oliwa z oliwek"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki wymieszać, udekorować płatkami kosmosu, skropić limonką i oliwą.",
+        "cechy": [
+          "Soczyście kolorowa sałatka"
+        ],
+        "wlasciwosci": [
+          "bogata w antyoksydanty, lekkostrawna"
+        ],
+        "zastosowanie": "Przystawka, letni lunch.",
+        "zrodlo": [
+          18
+        ],
+        "nazwa": "Sałatka z kwiatami i awokado"
+      }
+    ],
+    "tortilla_z_kosmosu_i_papryki": [
+      {
+        "skladniki": [
+          "2 tortille pełnoziarniste",
+          "Garść płatków kosmosu siarkowego (świeże)",
+          "1/2 czerwonej papryki (pokrojonej w paski)",
+          "2 łyżki serka śmietankowego",
+          "Sól, pieprz"
+        ],
+        "sposob_przygotowania": "Tortille posmarować serkiem, ułożyć paprykę i płatki, zwinąć w rulon.",
+        "cechy": [
+          "Kolorowe, chrupiące roladki"
+        ],
+        "wlasciwosci": [
+          "lekka, dekoracyjna przekąska"
+        ],
+        "zastosowanie": "Na piknik, do lunchboxa.",
+        "zrodlo": [
+          19
+        ],
+        "nazwa": "Tortilla z kosmosu i papryki"
+      }
+    ],
+    "meksykańska_salsa_z_kosmosu": [
+      {
+        "skladniki": [
+          "1 pomidor (drobno pokrojony)",
+          "1/2 cebuli czerwonej (drobno pokrojonej)",
+          "2 łyżki płatków kosmosu siarkowego (świeżych, posiekanych)",
+          "1 papryczka jalapeno (posiekana, bez pestek)",
+          "Sok z 1/2 limonki",
+          "Sól"
+        ],
+        "sposob_przygotowania": "Wszystko wymieszać, schłodzić 30 minut. Podawać do tacos, nachosów.",
+        "cechy": [
+          "Wyjątkowo barwna, kwiatowa salsa"
+        ],
+        "wlasciwosci": [
+          "orzeźwiająca, pobudzająca apetyt"
+        ],
+        "zastosowanie": "Do meksykańskich przekąsek, do grillowanych warzyw.",
+        "zrodlo": [
+          20
+        ],
+        "nazwa": "Meksykańska salsa z kosmosu"
+      }
+    ],
+    "pesto_z_liści_kosmosu_siarkowego": [
+      {
+        "skladniki": [
+          "Garść młodych liści kosmosu siarkowego (świeże, drobno posiekane)",
+          "2 łyżki orzechów nerkowca",
+          "Ząbek czosnku",
+          "Oliwa z oliwek",
+          "Sól, pieprz"
+        ],
+        "sposob_przygotowania": "Liście, orzechy i czosnek zblendować z oliwą na gładką pastę, przyprawić.",
+        "cechy": [
+          "Zielone pesto z pomarańczowymi drobinkami"
+        ],
+        "wlasciwosci": [
+          "lekko pikantne, wzmacniające"
+        ],
+        "zastosowanie": "Do makaronów, kanapek, warzyw.",
+        "zrodlo": [
+          21
+        ],
+        "nazwa": "Pesto z liści kosmosu siarkowego"
+      }
+    ],
+    "muffinki_kwietne_z_kosmosem": [
+      {
+        "skladniki": [
+          "1 szklanka mąki pszennej",
+          "1/2 szklanki cukru",
+          "1 jajko",
+          "1/2 szklanki jogurtu naturalnego",
+          "1/4 szklanki oleju rzepakowego",
+          "1/2 łyżeczki proszku do pieczenia",
+          "2 łyżki płatków kosmosu siarkowego (świeżych lub suszonych)",
+          "Skórka otarta z 1 cytryny"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki wymieszać, nakładać do foremek, piec 20 min w 180°C.",
+        "cechy": [
+          "Jasnożółte muffinki z pomarańczowymi drobinkami"
+        ],
+        "wlasciwosci": [
+          "wilgotne, lekko cytrynowe"
+        ],
+        "zastosowanie": "Do kawy, piknik, deser.",
+        "zrodlo": [
+          22
+        ],
+        "nazwa": "Muffinki kwietne z kosmosem"
+      }
+    ],
+    "kwiatowy_chleb_na_zakwasie": [
+      {
+        "skladniki": [
+          "500 g mąki żytniej lub pszennej",
+          "300 ml wody",
+          "100 g zakwasu żytniego",
+          "2 łyżki świeżych płatków kosmosu siarkowego",
+          "Sól"
+        ],
+        "sposob_przygotowania": "Wszystko wyrobić, odstawić do wyrośnięcia, piec 45 min w 200°C. Na wierzchu posypać świeżymi płatkami.",
+        "cechy": [
+          "Chleb z pomarańczowymi akcentami"
+        ],
+        "wlasciwosci": [
+          "aromatyczny, bogaty w błonnik"
+        ],
+        "zastosowanie": "Do kanapek, zup, sałatek.",
+        "zrodlo": [
+          23
+        ],
+        "nazwa": "Kwiatowy chleb na zakwasie"
+      }
+    ],
+    "deser_panna_cotta_z_kwiatami": [
+      {
+        "skladniki": [
+          "300 ml śmietanki 30%",
+          "2 łyżki cukru",
+          "2 łyżeczki żelatyny",
+          "4 łyżki płatków kosmosu siarkowego (świeżych, opłukanych)",
+          "Kilka listków mięty"
+        ],
+        "sposob_przygotowania": "Śmietankę podgrzać z cukrem i żelatyną, dodać kwiaty, przelać do foremek, schłodzić, podawać z miętą.",
+        "cechy": [
+          "Biała panna cotta z kolorowymi płatkami"
+        ],
+        "wlasciwosci": [
+          "lekki, letni deser"
+        ],
+        "zastosowanie": "Na przyjęcia, do kawy.",
+        "zrodlo": [
+          24
+        ],
+        "nazwa": "Deser panna cotta z kwiatami"
+      }
+    ],
+    "ryż_z_kwiatami_i_kurkuma": [
+      {
+        "skladniki": [
+          "1 szklanka ryżu basmati",
+          "1/2 łyżeczki kurkumy",
+          "2 łyżki płatków kosmosu siarkowego",
+          "1 łyżka masła",
+          "Sól"
+        ],
+        "sposob_przygotowania": "Ryż ugotować z kurkumą i masłem, pod koniec dodać płatki kosmosu, wymieszać.",
+        "cechy": [
+          "Żółto-pomarańczowy ryż"
+        ],
+        "wlasciwosci": [
+          "delikatnie aromatyczny, dekoracyjny"
+        ],
+        "zastosowanie": "Dodatek do dań indyjskich i curry.",
+        "zrodlo": [
+          25
+        ],
+        "nazwa": "Ryż z kwiatami i kurkuma"
+      }
+    ],
+    "kiszone_pąki_kosmosu": [
+      {
+        "skladniki": [
+          "1 szklanka pąków kwiatowych kosmosu siarkowego (najlepiej młodych)",
+          "2 szklanki wody",
+          "1 łyżeczka soli",
+          "2 ziela angielskie",
+          "1 liść laurowy"
+        ],
+        "sposob_przygotowania": "Pąki zalać solanką z przyprawami, kisić 5–7 dni. Przechowywać w lodówce.",
+        "cechy": [
+          "Kwaśno-pikantne, lekko chrupiące"
+        ],
+        "wlasciwosci": [
+          "probiotyczne, orzeźwiające"
+        ],
+        "zastosowanie": "Dodatek do sałatek, kanapek.",
+        "zrodlo": [
+          26
+        ],
+        "nazwa": "Kiszone pąki kosmosu"
+      }
+    ],
+    "herbata_japońska_z_kosmosu_i_miety": [
+      {
+        "skladniki": [
+          "1 łyżka świeżych płatków kosmosu siarkowego",
+          "1 łyżeczka zielonej herbaty japońskiej (np. sencha)",
+          "Kilka listków świeżej mięty",
+          "250 ml wrzątku"
+        ],
+        "sposob_przygotowania": "Zalać wrzątkiem, parzyć 3–5 min pod przykryciem, przecedzić.",
+        "cechy": [
+          "Pomarańczowo-zielona herbata"
+        ],
+        "wlasciwosci": [
+          "orzeźwiająca, pobudzająca"
+        ],
+        "zastosowanie": "Do sushi, lekkich posiłków, jako napój chłodzący.",
+        "zrodlo": [
+          27
+        ],
+        "nazwa": "Herbata japońska z kosmosu i miety"
+      }
+    ],
+    "masło_z_kosmosu_i_czosnku": [
+      {
+        "skladniki": [
+          "100 g miękkiego masła",
+          "1 łyżka świeżych płatków kosmosu siarkowego",
+          "1 ząbek czosnku (drobno starty)",
+          "Sól"
+        ],
+        "sposob_przygotowania": "Wszystkie składniki utrzeć, schłodzić.",
+        "cechy": [
+          "Maślane, lekko pikantne"
+        ],
+        "wlasciwosci": [
+          "aromatyczne, dekoracyjne"
+        ],
+        "zastosowanie": "Do grzanek, pieczywa, pieczonych ziemniaków.",
+        "zrodlo": [
+          28
+        ],
+        "nazwa": "Masło z kosmosu i czosnku"
+      }
+    ],
+    "tajska_sałatka_z_kosmosu_i_limonką": [
+      {
+        "skladniki": [
+          "2 garście świeżych płatków kosmosu siarkowego",
+          "1 marchewka (starta w cienkie paski)",
+          "1 ogórek (pokrojony w słupki)",
+          "Sok z 1 limonki",
+          "1 łyżeczka sosu rybnego",
+          "1 łyżka posiekanych orzechów ziemnych"
+        ],
+        "sposob_przygotowania": "Wszystko wymieszać, schłodzić przed podaniem. Podawać z płatkami kosmosu na wierzchu.",
+        "cechy": [
+          "Egzotyczna, lekko pikantna"
+        ],
+        "wlasciwosci": [
+          "odświeżająca, witaminowa"
+        ],
+        "zastosowanie": "Sałatka, przystawka do dań orientalnych.",
+        "zrodlo": [
+          29
+        ],
+        "nazwa": "Tajska sałatka z kosmosu i limonką"
+      }
+    ],
+    "kolorowa_sałatka_z_kosmosem_ogórecznikiem_i_fiołkiem": [
       {
         "nazwa": "Kolorowa sałatka z kosmosem, ogórecznikiem i fiołkiem",
         "skladniki": [
@@ -610,7 +599,9 @@
         "zrodlo": [
           24
         ]
-      },
+      }
+    ],
+    "chłodnik_kwiatowy_z_kosmosem_i_ziołami": [
       {
         "nazwa": "Chłodnik kwiatowy z kosmosem i ziołami",
         "skladniki": [
@@ -633,7 +624,9 @@
         "zrodlo": [
           25
         ]
-      },
+      }
+    ],
+    "tempura_z_kwiatów_kosmosu_japonia": [
       {
         "nazwa": "Tempura z kwiatów kosmosu (Japonia)",
         "skladniki": [
@@ -655,7 +648,9 @@
         "zrodlo": [
           28
         ]
-      },
+      }
+    ],
+    "kwiatowy_krem_z_dyni_i_kosmosu": [
       {
         "nazwa": "Kwiatowy krem z dyni i kosmosu",
         "skladniki": [
@@ -679,7 +674,9 @@
         "zrodlo": [
           29
         ]
-      },
+      }
+    ],
+    "hiszpańska_tortilla_z_kosmosem_siarkowym": [
       {
         "nazwa": "Hiszpańska tortilla z kosmosem siarkowym",
         "skladniki": [
@@ -701,7 +698,9 @@
         "zrodlo": [
           30
         ]
-      },
+      }
+    ],
+    "indyjski_ryż_z_kwiatami_kosmosu_i_kolendrą": [
       {
         "nazwa": "Indyjski ryż z kwiatami kosmosu i kolendrą",
         "skladniki": [
@@ -724,7 +723,9 @@
         "zrodlo": [
           31
         ]
-      },
+      }
+    ],
+    "francuskie_masło_kwiatowe_z_kosmosem_i_estragonem": [
       {
         "nazwa": "Francuskie masło kwiatowe z kosmosem i estragonem",
         "skladniki": [
@@ -744,7 +745,9 @@
         "zrodlo": [
           32
         ]
-      },
+      }
+    ],
+    "pasta_kwiatowa_do_makaronu_włochy": [
       {
         "nazwa": "Pasta kwiatowa do makaronu (Włochy)",
         "skladniki": [
@@ -766,7 +769,9 @@
         "zrodlo": [
           33
         ]
-      },
+      }
+    ],
+    "zielone_smoothie_z_kosmosem_i_ananasem_kuchnia_fusion": [
       {
         "nazwa": "Zielone smoothie z kosmosem i ananasem (kuchnia fusion)",
         "skladniki": [
@@ -787,7 +792,9 @@
         "zrodlo": [
           34
         ]
-      },
+      }
+    ],
+    "chrupiące_placuszki_z_kwiatami_kosmosu_kuchnia_meksykańska": [
       {
         "nazwa": "Chrupiące placuszki z kwiatami kosmosu (kuchnia meksykańska)",
         "skladniki": [
@@ -866,34 +873,119 @@
   },
   "kalendarz": {
     "siew": [
-      4,
-      5
+      {
+        "miesiące": [
+          3,
+          4,
+          5
+        ],
+        "zalecana_faza_ksiezyca": "rosnący",
+        "typ": "ogrodniczy",
+        "czas_dnia": "ranek",
+        "intensywność": "średnia",
+        "uwagi": "Siej płytko (0,5–1 cm), zachowując rozstaw 25–30 cm. Roślina łatwa w uprawie, szybko kiełkuje.",
+        "źródło": "https://www.gardenersworld.com/plants/cosmos-sulphureus/"
+      }
     ],
-    "kwitnienie": [
-      7,
-      8,
-      9
-    ],
-    "zbior_kwiatow": [
-      7,
-      8,
-      9
-    ],
-    "zbior_pelnia": [
-      8
-    ],
-    "ekstrakcja": [
-      8
-    ],
-    "miodobranie": [
-      8
-    ],
-    "pielenie": [
-      5,
-      6
-    ],
-    "przesadzanie": [
-      5
-    ]
+    "przesadzanie": {
+      "miesiące": [
+        5
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "po południu",
+      "intensywność": "średnia",
+      "uwagi": "Rozsadę sadź po 15 maja. Hartuj wcześniej, wystawiając na zewnątrz stopniowo.",
+      "źródło": "https://www.johnnyseeds.com/growers-library/flowers/cosmos-sulphureus/"
+    },
+    "kwitnienie": {
+      "miesiące": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "obserwacyjny",
+      "czas_dnia": "w ciągu dnia",
+      "intensywność": "symboliczna",
+      "uwagi": "Roślina długo kwitnie, zwłaszcza przy regularnym usuwaniu przekwitłych kwiatów.",
+      "źródło": "https://www.rhs.org.uk/plants/4429/cosmos-sulphureus/details"
+    },
+    "zbior_kwiatow": {
+      "miesiące": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "zielarski",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Zbieraj świeże kwiaty w pełnym rozkwicie, najlepiej rano, po obeschnięciu rosy.",
+      "źródło": "https://zielnikpolski.pl/syrop-kosmos-siarkowy/"
+    },
+    "zbior_nasion": {
+      "miesiące": [
+        9,
+        10
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "zbiorczy",
+      "czas_dnia": "po południu",
+      "intensywność": "średnia",
+      "uwagi": "Nasiona zbieraj z suchych niełupków, susz i przechowuj w ciemnym miejscu.",
+      "źródło": "https://grow.edenbrothers.com/planting-guides/cosmos-seeds/"
+    },
+    "pielenie": {
+      "miesiące": [
+        5,
+        6
+      ],
+      "zalecana_faza_ksiezyca": "bez znaczenia",
+      "typ": "techniczny",
+      "czas_dnia": "dowolny",
+      "intensywność": "średnia",
+      "uwagi": "Roślina silnie rośnie, ale młode siewki mogą być zagłuszane przez chwasty – warto odchwaszczać.",
+      "źródło": "https://www.gardenia.net.pl/rosliny/kosmos-siarkowy-uprawa"
+    },
+    "miodobranie": {
+      "miesiące": [
+        7,
+        8
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "pszczelarski",
+      "czas_dnia": "po południu",
+      "intensywność": "średnia",
+      "uwagi": "Roślina intensywnie przyciąga pszczoły i motyle; miód z tego okresu ma delikatny aromat.",
+      "źródło": "https://beeinformed.org/2019/08/15/bee-forage-cosmos/"
+    },
+    "zbior_ksiezycowy": {
+      "miesiące": [
+        9
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "rytualny",
+      "czas_dnia": "wieczór",
+      "intensywność": "symboliczna",
+      "uwagi": "Zbieraj kwiaty i nasiona podczas pełni – w tradycji andyjskiej uważane za talizman słońca.",
+      "źródło": "https://www.thespruce.com/moon-phase-gardening-5219263"
+    },
+    "suszenie": {
+      "miesiące": [
+        7,
+        8,
+        9
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "zielarski",
+      "czas_dnia": "po południu",
+      "intensywność": "symboliczna",
+      "uwagi": "Susz kwiaty w cieniu, w przewiewnym miejscu, rozkładając je pojedynczo.",
+      "źródło": "https://zielnikpolski.pl/kosmetyki-kosmos-siarkowy/"
+    }
   }
 }

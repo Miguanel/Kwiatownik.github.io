@@ -161,7 +161,8 @@
       "dawkowanie": "Szklanka naparu 1–2 razy dziennie przez tydzień.",
       "zrodlo": [
         14
-      ]
+      ],
+      "nazwa": "napar z korzenia"
     },
     "odwar_na_zoladek": {
       "skladniki": [
@@ -181,7 +182,8 @@
       "dawkowanie": "Szklanka po ciężkostrawnym posiłku.",
       "zrodlo": [
         15
-      ]
+      ],
+      "nazwa": "odwar na zoladek"
     },
     "sok_z_bulw": {
       "skladniki": [
@@ -199,7 +201,8 @@
       "dawkowanie": "2–3 łyżki soku dziennie przez 7–10 dni.",
       "zrodlo": [
         16
-      ]
+      ],
+      "nazwa": "sok z bulw"
     },
     "oklad_na_stawy": {
       "skladniki": [
@@ -218,7 +221,8 @@
       "dawkowanie": "Okład 1–2 razy dziennie.",
       "zrodlo": [
         17
-      ]
+      ],
+      "nazwa": "oklad na stawy"
     },
     "kąpiel_korzeniowa": {
       "skladniki": [
@@ -237,7 +241,8 @@
       "dawkowanie": "Kąpiel 20 minut, 2–3 razy w tygodniu.",
       "zrodlo": [
         18
-      ]
+      ],
+      "nazwa": "kąpiel korzeniowa"
     },
     "maść_na_skórę": {
       "skladniki": [
@@ -255,7 +260,8 @@
       "dawkowanie": "Smarować 2 razy dziennie.",
       "zrodlo": [
         19
-      ]
+      ],
+      "nazwa": "maść na skórę"
     },
     "nalewka_oczyszczajaca": {
       "skladniki": [
@@ -274,7 +280,8 @@
       "dawkowanie": "1 łyżeczka 2 razy dziennie przez 7 dni.",
       "zrodlo": [
         20
-      ]
+      ],
+      "nazwa": "nalewka oczyszczajaca"
     },
     "kompres_na_opuchliznę": {
       "skladniki": [
@@ -292,7 +299,8 @@
       "dawkowanie": "Kompres 1–2 razy dziennie.",
       "zrodlo": [
         21
-      ]
+      ],
+      "nazwa": "kompres na opuchliznę"
     },
     "mieszanka_detoksykacyjna": {
       "skladniki": [
@@ -313,6 +321,372 @@
       "dawkowanie": "Szklanka naparu 1–2 razy dziennie przez 5–7 dni.",
       "zrodlo": [
         22
+      ],
+      "nazwa": "mieszanka detoksykacyjna"
+    },
+    "mieszanka_detoksykacyjna_świerząbek_bulwiasty_mniszek_pokrzywa_skrzyp_liść_brzozy_korzeń_pietruszki_fiołek_trójbarwny_czystek": {
+      "nazwa": "mieszanka detoksykacyjna świerząbek bulwiasty mniszek pokrzywa skrzyp liść brzozy korzeń pietruszki fiołek trójbarwny czystek",
+      "skladniki": [
+        "1 łyżka świeżych lub suszonych bulw świerząbka bulwiastego (pokrojonych)",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu polnego",
+        "1 łyżka liści brzozy",
+        "1 łyżka świeżego lub suszonego korzenia pietruszki",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżeczka ziela czystka",
+        "1 litr świeżej wody"
+      ],
+      "sposob_przygotowania": "Bulwy, korzenie i liście gotować w wodzie 15 min, dodać pozostałe zioła, parzyć kolejne 10 min pod przykryciem, przecedzić.",
+      "cechy": [
+        "Ziołowy, świeży smak",
+        "Jasnozielony kolor"
+      ],
+      "wlasciwosci": [
+        "oczyszczająca, moczopędna, przeciwzapalna"
+      ],
+      "zastosowanie": "Kuracja wiosenna oczyszczająca, wsparcie pracy nerek i wątroby.",
+      "zrodlo": [
+        32
+      ]
+    },
+    "mieszanka_wzmacniająca_świerząbek_bulwiasty_korzeń_marchwi_seler_por_natka_pietruszki_koper_pietruszka_korzeniowa_burak": {
+      "nazwa": "mieszanka wzmacniająca świerząbek bulwiasty korzeń marchwi seler por natka pietruszki koper pietruszka korzeniowa burak",
+      "skladniki": [
+        "2 bulwy świerząbka bulwiastego (świeże, pokrojone)",
+        "1 duża marchew (pokrojona)",
+        "1 mały korzeń selera",
+        "biała część 1 pora",
+        "pęczek natki pietruszki",
+        "2 łyżki koperku",
+        "1 korzeń pietruszki",
+        "1 mały burak",
+        "1 litr wody"
+      ],
+      "sposob_przygotowania": "Wszystkie warzywa pokroić, ugotować razem do miękkości, można zmiksować na krem. Doprawić solą, pieprzem, ziołami.",
+      "cechy": [
+        "Kolorowa, gęsta, warzywna zupa",
+        "Słodko-warzywny aromat"
+      ],
+      "wlasciwosci": [
+        "wzmacniająca, odżywcza, bogata w minerały"
+      ],
+      "zastosowanie": "Rekonwalescencja, wzmocnienie po chorobie, dieta dla osłabionych.",
+      "zrodlo": [
+        34
+      ]
+    },
+    "mieszanka_wykrztuśna_świerząbek_bulwiasty_prawoślaz_podbiał_dziewanna_anyż_tymianek_lukrecja_babka_lancetowata": {
+      "nazwa": "mieszanka wykrztuśna świerząbek bulwiasty prawoślaz podbiał dziewanna anyż tymianek lukrecja babka lancetowata",
+      "skladniki": [
+        "1 łyżka świeżych lub suszonych bulw świerząbka",
+        "1 łyżka korzenia prawoślazu",
+        "1 łyżka liści podbiału",
+        "1 łyżka kwiatów dziewanny",
+        "1 łyżeczka nasion anyżu",
+        "1 łyżka tymianku",
+        "1 łyżeczka korzenia lukrecji",
+        "1 łyżka liści babki lancetowatej",
+        "1 litr wody"
+      ],
+      "sposob_przygotowania": "Bulwy i korzenie gotować 15 min, dodać pozostałe zioła, parzyć 10 min pod przykryciem. Pić ciepły napar, 1/2 szklanki 2 razy dziennie.",
+      "cechy": [
+        "Słodki, ziołowy smak",
+        "Jasny napar"
+      ],
+      "wlasciwosci": [
+        "ułatwia odkrztuszanie, łagodzi kaszel, działa powlekająco"
+      ],
+      "zastosowanie": "Przy infekcjach dróg oddechowych, przewlekłym kaszlu.",
+      "zrodlo": [
+        37
+      ]
+    },
+    "mieszanka_na_skórę_świerząbek_bulwiasty_nagietek_fiołek_rumianek_krwawnik_babka_lancetowata_skrzyp_pokrzywa": {
+      "nazwa": "mieszanka na skórę świerząbek bulwiasty nagietek fiołek rumianek krwawnik babka lancetowata skrzyp pokrzywa",
+      "skladniki": [
+        "1 łyżka świeżych bulw świerząbka (startych)",
+        "1 łyżka kwiatów nagietka",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżka kwiatów rumianku",
+        "1 łyżka ziela krwawnika",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka ziela skrzypu",
+        "1 łyżka liści pokrzywy",
+        "700 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystko zaparzyć 20 min pod przykryciem, używać do przemywania skóry lub okładów.",
+      "cechy": [
+        "Łagodny, zielony płyn"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, łagodzi podrażnienia, działa antyseptycznie"
+      ],
+      "zastosowanie": "Na egzemy, podrażnienia, atopowe zapalenie skóry.",
+      "zrodlo": [
+        38
+      ]
+    },
+    "mieszanka_na_nerki_świerząbek_bulwiasty_pokrzywa_skrzyp_liść_żurawiny_liść_brzozy_korzeń_pietruszki_liść_mącznicy_liść_borówki": {
+      "nazwa": "mieszanka na nerki świerząbek bulwiasty pokrzywa skrzyp liść żurawiny liść brzozy korzeń pietruszki liść mącznicy liść borówki",
+      "skladniki": [
+        "1 łyżka pokrojonych bulw świerząbka",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu",
+        "1 łyżka liści żurawiny",
+        "1 łyżka liści brzozy",
+        "1 łyżka korzenia pietruszki",
+        "1 łyżeczka liści mącznicy lekarskiej",
+        "1 łyżka liści borówki",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 20 min, pić po pół szklanki 2–3 razy dziennie.",
+      "cechy": [
+        "Lekko słodkawy, ziołowy smak",
+        "Zielonkawy kolor"
+      ],
+      "wlasciwosci": [
+        "działa moczopędnie, wspomaga nerki, przeciwzapalnie"
+      ],
+      "zastosowanie": "Przy infekcjach układu moczowego, kamicy nerkowej.",
+      "zrodlo": [
+        39
+      ]
+    },
+    "mieszanka_detoksykacyjna_świerząbek_bulwiasty_mniszek_pokrzywa_skrzyp_liść_brzozy_korzeń_pietruszki_fiołek_czystek": {
+      "nazwa": "mieszanka detoksykacyjna świerząbek bulwiasty mniszek pokrzywa skrzyp liść brzozy korzeń pietruszki fiołek czystek",
+      "skladniki": [
+        "1 łyżka świeżych lub suszonych bulw świerząbka bulwiastego (pokrojonych)",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu polnego",
+        "1 łyżka liści brzozy",
+        "1 łyżka korzenia pietruszki",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżeczka ziela czystka",
+        "1 litr wody"
+      ],
+      "sposob_przygotowania": "Bulwy i korzenie gotować 15 min, dodać pozostałe zioła, parzyć kolejne 10 min pod przykryciem, przecedzić.",
+      "cechy": [
+        "Ziołowy, świeży smak"
+      ],
+      "wlasciwosci": [
+        "oczyszczająca, moczopędna"
+      ],
+      "zastosowanie": "Kuracja wiosenna oczyszczająca, wsparcie pracy nerek.",
+      "zrodlo": [
+        32
+      ]
+    },
+    "mieszanka_szwajcarska_na_nerki_świerząbek_bulwiasty_korzeń_łopianu_liście_brzozy_skrzyp_korzeń_selera_koper": {
+      "nazwa": "mieszanka szwajcarska na nerki świerząbek bulwiasty korzeń łopianu liście brzozy skrzyp korzeń selera koper",
+      "skladniki": [
+        "1 łyżka pokrojonych świeżych bulw świerząbka",
+        "1 łyżka korzenia łopianu (świeżego lub suszonego, pokrojonego)",
+        "1 łyżka liści brzozy",
+        "1 łyżka ziela skrzypu polnego",
+        "1 łyżka korzenia selera",
+        "1 łyżeczka nasion kopru włoskiego",
+        "1 litr wody"
+      ],
+      "sposob_przygotowania": "Bulwy i korzenie gotować 10 min, dodać pozostałe składniki, parzyć kolejne 10 min. Przecedzić, pić pół szklanki 2 razy dziennie.",
+      "cechy": [
+        "Ziołowy, lekko anyżowy aromat"
+      ],
+      "wlasciwosci": [
+        "wspomaga nerki, moczopędna, łagodnie rozkurczowa"
+      ],
+      "zastosowanie": "Kuracja wspierająca nerki i układ moczowy.",
+      "zrodlo": [
+        40
+      ]
+    },
+    "francuska_zupa_wzmacniająca_świerząbek_bulwiasty_por_marchew_pietruszka_lubczyk_tymianek_czosnek": {
+      "nazwa": "francuska zupa wzmacniająca świerząbek bulwiasty por marchew pietruszka lubczyk tymianek czosnek",
+      "skladniki": [
+        "2 bulwy świerząbka (obrane, pokrojone)",
+        "1 por (biała część, pokrojona w plastry)",
+        "2 marchewki (pokrojone w półplasterki)",
+        "1 korzeń pietruszki (pokrojony)",
+        "1 mała gałązka świeżego lubczyku",
+        "1/2 łyżeczki suszonego tymianku",
+        "1 ząbek czosnku (drobno posiekany)",
+        "1 litr bulionu warzywnego"
+      ],
+      "sposob_przygotowania": "Warzywa dusić chwilę w garnku, zalać bulionem, dodać przyprawy, gotować do miękkości. Podawać z natką.",
+      "cechy": [
+        "Aromatyczna, sycąca, ziołowa"
+      ],
+      "wlasciwosci": [
+        "wzmacniająca, rozgrzewająca, przeciwzapalna"
+      ],
+      "zastosowanie": "Zupa rekonwalescencyjna, po chorobach.",
+      "zrodlo": [
+        41
+      ]
+    },
+    "rosyjska_mieszanka_na_odporność_świerząbek_bulwiasty_owoce_dzikiej_róży_czarna_porzeczka_miód_korzeń_imbiru": {
+      "nazwa": "rosyjska mieszanka na odporność świerząbek bulwiasty owoce dzikiej róży czarna porzeczka miód korzeń imbiru",
+      "skladniki": [
+        "1 łyżka soku z bulw świerząbka",
+        "1 łyżka suszonych owoców dzikiej róży",
+        "1 łyżka suszonych owoców czarnej porzeczki",
+        "1 łyżka miodu naturalnego",
+        "1 łyżeczka świeżego startego imbiru",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Owoce i imbir zalać wrzątkiem, parzyć 20 min, przecedzić, dodać miód i sok z bulw świerząbka. Pić ciepłe.",
+      "cechy": [
+        "Słodki, owocowo-ziołowy napar"
+      ],
+      "wlasciwosci": [
+        "wzmacniająca, przeciwutleniająca, rozgrzewająca"
+      ],
+      "zastosowanie": "Kuracja wzmacniająca odporność w okresie jesienno-zimowym.",
+      "zrodlo": [
+        43
+      ]
+    },
+    "niemiecki_kompres_przeciwobrzękowy_świerząbek_bulwiasty_liść_kapusty_korzeń_żywokostu_liść_babki_lancetowatej_rumianek": {
+      "nazwa": "niemiecki kompres przeciwobrzękowy świerząbek bulwiasty liść kapusty korzeń żywokostu liść babki lancetowatej rumianek",
+      "skladniki": [
+        "1 łyżka świeżych bulw świerząbka (startych)",
+        "2 liście kapusty (sparzone, rozgniecione wałkiem)",
+        "1 łyżka korzenia żywokostu (świeżego, startego)",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka suszonych kwiatów rumianku"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki wymieszać, nałożyć na gazę i przykładać na opuchnięte miejsca 30–40 minut.",
+      "cechy": [
+        "Chłodzący, ziołowy okład"
+      ],
+      "wlasciwosci": [
+        "zmniejsza opuchliznę, łagodzi stany zapalne"
+      ],
+      "zastosowanie": "Kompresy na stłuczenia, bóle stawów, obrzęki.",
+      "zrodlo": [
+        44
+      ]
+    },
+    "francuska_mieszanka_wykrztuśna_świerząbek_bulwiasty_tymianek_podbiał_anyż_korzeń_prawoślazu": {
+      "nazwa": "francuska mieszanka wykrztuśna świerząbek bulwiasty tymianek podbiał anyż korzeń prawoślazu",
+      "skladniki": [
+        "1 łyżka świeżych bulw świerząbka (pokrojonych)",
+        "1 łyżka suszonego tymianku",
+        "1 łyżka liści podbiału",
+        "1 łyżeczka nasion anyżu",
+        "1 łyżka korzenia prawoślazu",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Bulwy i korzeń prawoślazu gotować 10 min, dodać pozostałe składniki, parzyć 10 min, przecedzić. Pić 1/2 szklanki 2 razy dziennie.",
+      "cechy": [
+        "Aromat ziołowy z nutą anyżu"
+      ],
+      "wlasciwosci": [
+        "wykrztuśna, łagodząca kaszel"
+      ],
+      "zastosowanie": "Przy kaszlu, infekcjach dróg oddechowych.",
+      "zrodlo": [
+        45
+      ]
+    },
+    "mieszanka_na_stawy_świerząbek_bulwiasty_liść_laurowy_korzeń_żywokostu_liść_pokrzywy_tymianek_rozmaryn_igły_sosny_skrzyp": {
+      "nazwa": "mieszanka na stawy świerząbek bulwiasty liść laurowy korzeń żywokostu liść pokrzywy tymianek rozmaryn igły sosny skrzyp",
+      "skladniki": [
+        "1 łyżka pokrojonych bulw świerząbka bulwiastego",
+        "2 liście laurowe",
+        "1 łyżka pokrojonego świeżego korzenia żywokostu",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka suszonego tymianku",
+        "1 łyżeczka rozmarynu",
+        "1 łyżka świeżych igieł sosny (drobno posiekanych)",
+        "1 łyżka ziela skrzypu",
+        "800 ml wody"
+      ],
+      "sposob_przygotowania": "Bulwy, korzenie, igły sosny i liście laurowe gotować 15 min, dodać zioła, parzyć kolejne 10 min, przecedzić. Stosować jako okład lub dodać do kąpieli.",
+      "cechy": [
+        "Aromatyczny, ziołowy zapach",
+        "Rozgrzewający efekt"
+      ],
+      "wlasciwosci": [
+        "łagodzi bóle reumatyczne, regeneruje, przeciwzapalna"
+      ],
+      "zastosowanie": "Okłady, kąpiele przy bólach i sztywności stawów.",
+      "zrodlo": [
+        33
+      ]
+    },
+    "kąpiel_regenerująca_świerząbek_bulwiasty_rumianek_nagietek_lawenda_liść_brzozy_szałwia_skrzyp_tymianek": {
+      "nazwa": "kąpiel regenerująca świerząbek bulwiasty rumianek nagietek lawenda liść brzozy szałwia skrzyp tymianek",
+      "skladniki": [
+        "1 garść pokrojonych bulw świerząbka bulwiastego (ok. 80 g)",
+        "3 łyżki suszonych koszyczków rumianku",
+        "2 łyżki suszonych kwiatów nagietka",
+        "2 łyżki suszonych kwiatów lawendy",
+        "2 łyżki liści brzozy",
+        "2 łyżki liści szałwii",
+        "2 łyżki ziela skrzypu",
+        "2 łyżki suszonego tymianku",
+        "2 litry wody"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki gotować razem 15 min, przecedzić, dodać odwar do kąpieli.",
+      "cechy": [
+        "Relaksujący, ziołowy zapach",
+        "Żółtozielony kolor"
+      ],
+      "wlasciwosci": [
+        "regeneruje skórę, rozluźnia mięśnie, przeciwzapalna"
+      ],
+      "zastosowanie": "Kąpiele po wysiłku, podrażnieniach, alergiach.",
+      "zrodlo": [
+        36
+      ]
+    },
+    "czeska_kąpiel_przeciwzapalna_świerząbek_bulwiasty_kora_dębu_rumianek_liście_pokrzywy_kwiat_nagietka_tymianek": {
+      "nazwa": "czeska kąpiel przeciwzapalna świerząbek bulwiasty kora dębu rumianek liście pokrzywy kwiat nagietka tymianek",
+      "skladniki": [
+        "1 garść świeżych bulw świerząbka (ok. 80 g, pokrojonych)",
+        "2 łyżki kory dębu",
+        "3 łyżki suszonych koszyczków rumianku",
+        "2 łyżki liści pokrzywy",
+        "2 łyżki kwiatów nagietka",
+        "1 łyżka suszonego tymianku",
+        "2 litry wody"
+      ],
+      "sposob_przygotowania": "Wszystko gotować 20 min, przecedzić, dolać do wanny z ciepłą wodą.",
+      "cechy": [
+        "Ziołowy, lekko korzenny zapach"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalna, kojąca, regenerująca skórę"
+      ],
+      "zastosowanie": "Kąpiele przy podrażnieniach, wypryskach, dolegliwościach stawów.",
+      "zrodlo": [
+        42
+      ]
+    },
+    "syrop_na_odporność_sok_z_bulw_świerząbka_miód_sok_z_cytryny_imbir_czosnek_dzika_róża_chrzan": {
+      "nazwa": "syrop na odporność sok z bulw świerząbka miód sok z cytryny imbir czosnek dzika róża chrzan",
+      "skladniki": [
+        "2 łyżki świeżo wyciśniętego soku z bulw świerząbka",
+        "2 łyżki miodu naturalnego",
+        "sok z 1/2 cytryny",
+        "1 łyżeczka świeżo startego imbiru",
+        "1 mały ząbek czosnku (starty na tarce)",
+        "1 łyżka rozdrobnionych suszonych owoców dzikiej róży",
+        "1 łyżeczka drobno startego korzenia chrzanu"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki dokładnie wymieszać, przechowywać w lodówce. Spożywać 1 łyżeczkę 2 razy dziennie.",
+      "cechy": [
+        "Ostry, słodko-korzenny smak",
+        "Jasnożółty syrop"
+      ],
+      "wlasciwosci": [
+        "wzmacnia odporność, oczyszcza, działa przeciwzapalnie"
+      ],
+      "zastosowanie": "Wspomagająco przy przeziębieniu, osłabieniu.",
+      "zrodlo": [
+        35
       ]
     }
   },
@@ -333,7 +707,8 @@
       "zastosowanie": "Przekąska, dodatek do surówek, sałatek warzywnych.",
       "zrodlo": [
         23
-      ]
+      ],
+      "nazwa": "swieze bulwy na surowo"
     },
     "bulwy_gotowane_jak_ziemniaki": {
       "skladniki": [
@@ -352,7 +727,8 @@
       "zastosowanie": "Dodatek do obiadu, puree, składnik zup.",
       "zrodlo": [
         24
-      ]
+      ],
+      "nazwa": "bulwy gotowane jak ziemniaki"
     },
     "bulwy_pieczone": {
       "skladniki": [
@@ -371,7 +747,8 @@
       "zastosowanie": "Dodatek do mięs, przekąska warzywna, zamiennik frytek.",
       "zrodlo": [
         25
-      ]
+      ],
+      "nazwa": "bulwy pieczone"
     },
     "placki_z_bulw": {
       "skladniki": [
@@ -392,7 +769,8 @@
       "zastosowanie": "Obiad, przekąska, dodatek do sałatek.",
       "zrodlo": [
         26
-      ]
+      ],
+      "nazwa": "placki z bulw"
     },
     "zupa_krem": {
       "skladniki": [
@@ -413,7 +791,8 @@
       "zastosowanie": "Obiad, przystawka.",
       "zrodlo": [
         27
-      ]
+      ],
+      "nazwa": "zupa krem"
     },
     "bulwy_duszone_z_warzywami": {
       "skladniki": [
@@ -435,7 +814,8 @@
       "zastosowanie": "Wegetariański obiad, dodatek do pieczywa.",
       "zrodlo": [
         28
-      ]
+      ],
+      "nazwa": "bulwy duszone z warzywami"
     },
     "gulasz_bulwowo-fasolowy": {
       "skladniki": [
@@ -457,7 +837,8 @@
       "zastosowanie": "Obiad jednogarnkowy, ciepła kolacja.",
       "zrodlo": [
         29
-      ]
+      ],
+      "nazwa": "gulasz bulwowo-fasolowy"
     },
     "farsz_do_pierogów": {
       "skladniki": [
@@ -476,7 +857,8 @@
       "zastosowanie": "Farsz do pierogów, krokietów, pasztecików.",
       "zrodlo": [
         30
-      ]
+      ],
+      "nazwa": "farsz do pierogów"
     },
     "sałatka_z_bulw_na_zimno": {
       "skladniki": [
@@ -497,648 +879,278 @@
       "zastosowanie": "Sałatka, przekąska, dodatek do pieczywa.",
       "zrodlo": [
         31
+      ],
+      "nazwa": "sałatka z bulw na zimno"
+    },
+    "sałatka_wiosenna_z_bulw_świerząbka_i_mniszkiem": {
+      "nazwa": "sałatka wiosenna z bulw świerząbka i mniszkiem",
+      "skladniki": [
+        "2 średnie bulwy świerząbka (świeże, obrane, pokrojone w cienkie plastry)",
+        "5 rzodkiewek (pokrojonych w półplasterki)",
+        "garść młodych liści mniszka lekarskiego (posiekanych)",
+        "2 łyżki drobno posiekanego koperku",
+        "3 łyżki jogurtu naturalnego",
+        "sól, pieprz do smaku"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki wymieszać, doprawić jogurtem, solą i pieprzem. Podawać schłodzoną.",
+      "cechy": [
+        "Świeży, chrupiący, orzechowy smak"
+      ],
+      "wlasciwosci": [
+        "lekka, witaminowa sałatka"
+      ],
+      "zastosowanie": "Sałatka na wiosnę, lekka przekąska.",
+      "zrodlo": [
+        40
+      ]
+    },
+    "pesto_korzeniowe_z_bulw_świerząbka_i_pietruszką": {
+      "nazwa": "pesto korzeniowe z bulw świerząbka i pietruszką",
+      "skladniki": [
+        "1 średnia bulwa świerząbka (ugotowana, pokrojona w kostkę)",
+        "pęczek natki pietruszki",
+        "50 g orzechów włoskich (uprażonych)",
+        "1 mały ząbek czosnku",
+        "3 łyżki oliwy z oliwek",
+        "szczypta soli"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki zmiksować na gładką pastę. Przechowywać w lodówce do 3 dni.",
+      "cechy": [
+        "Orzechowo-korzeniowy smak, zielony kolor"
+      ],
+      "wlasciwosci": [
+        "bogate w białko, witaminy i minerały"
+      ],
+      "zastosowanie": "Do makaronu, pieczywa, krakersów.",
+      "zrodlo": [
+        41
+      ]
+    },
+    "letnia_zupa_jarzynowa_z_bulw_świerząbka": {
+      "nazwa": "letnia zupa jarzynowa z bulw świerząbka",
+      "skladniki": [
+        "2 bulwy świerząbka (obrane, pokrojone w kostkę)",
+        "2 marchewki (pokrojone w plasterki)",
+        "1 mały seler (pokrojony w kostkę)",
+        "1 por (biała część, pokrojona w plasterki)",
+        "garść koperku",
+        "100 g fasolki szparagowej (pokrojonej na 3 cm kawałki)",
+        "1 litr bulionu warzywnego"
+      ],
+      "sposob_przygotowania": "Warzywa wrzucić do bulionu, gotować do miękkości. Dodać koperek przed podaniem.",
+      "cechy": [
+        "Letnia, lekka, aromatyczna zupa"
+      ],
+      "wlasciwosci": [
+        "odżywcza, bogata w minerały i błonnik"
+      ],
+      "zastosowanie": "Obiad na lato, zdrowa przystawka.",
+      "zrodlo": [
+        42
+      ]
+    },
+    "gulasz_warzywny_z_bulw_świerząbka": {
+      "nazwa": "gulasz warzywny z bulw świerząbka",
+      "skladniki": [
+        "2 bulwy świerząbka (obrane, pokrojone w kostkę)",
+        "1 mała cukinia (pokrojona w półplasterki)",
+        "2 pomidory (sparzone, obrane, pokrojone w kostkę)",
+        "1/2 szklanki ugotowanej białej fasoli",
+        "1 cebula (pokrojona w kostkę)",
+        "1 czerwona papryka (pokrojona w kostkę)",
+        "1 łyżka oliwy",
+        "sól, pieprz, zioła prowansalskie"
+      ],
+      "sposob_przygotowania": "Cebulę podsmażyć na oliwie, dodać bulwy i warzywa, dusić do miękkości, doprawić przyprawami.",
+      "cechy": [
+        "Gęsty, syty, kolorowy gulasz"
+      ],
+      "wlasciwosci": [
+        "bogaty w białko i węglowodany"
+      ],
+      "zastosowanie": "Obiad jednogarnkowy, ciepła kolacja.",
+      "zrodlo": [
+        43
+      ]
+    },
+    "zapiekanka_z_bulw_świerząbka_cebuli_i_sera": {
+      "nazwa": "zapiekanka z bulw świerząbka cebuli i sera",
+      "skladniki": [
+        "3 bulwy świerząbka (obrane, ugotowane, pokrojone w plasterki)",
+        "1 duża cebula (pokrojona w półplasterki, podsmażona)",
+        "100 g sera żółtego (startego)",
+        "2 jajka",
+        "100 ml śmietany 18%",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Bulwy i cebulę ułożyć w naczyniu żaroodpornym, zalać masą z jajek i śmietany, posypać serem, zapiec 25 min w 180°C.",
+      "cechy": [
+        "Kremowa, chrupiąca, z serową skórką"
+      ],
+      "wlasciwosci": [
+        "sycąca, domowa"
+      ],
+      "zastosowanie": "Obiad, kolacja.",
+      "zrodlo": [
+        44
+      ]
+    },
+    "puree_korzeniowe_z_bulw_świerząbka_i_pietruszki": {
+      "nazwa": "puree korzeniowe z bulw świerząbka i pietruszki",
+      "skladniki": [
+        "2 bulwy świerząbka (obrane, ugotowane)",
+        "1 korzeń pietruszki (obrany, ugotowany)",
+        "100 ml mleka",
+        "2 łyżki masła",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Ugotowane bulwy i pietruszkę utłuc z mlekiem i masłem na gładkie puree, doprawić.",
+      "cechy": [
+        "Puszyste, kremowe, lekko orzechowe"
+      ],
+      "wlasciwosci": [
+        "lekko słodkie, odżywcze"
+      ],
+      "zastosowanie": "Dodatek do mięs, ryb, warzyw.",
+      "zrodlo": [
+        45
+      ]
+    },
+    "placki_warzywne_z_bulwami_świerząbka_marchewką_i_cukinią": {
+      "nazwa": "placki warzywne z bulwami świerząbka marchewką i cukinią",
+      "skladniki": [
+        "1 bulwa świerząbka (starta na grubej tarce, świeża)",
+        "1 marchew (starta na tarce)",
+        "1/2 cukinii (startej, odciśniętej z soku)",
+        "1 jajko",
+        "2 łyżki mąki",
+        "sól, pieprz, olej do smażenia"
+      ],
+      "sposob_przygotowania": "Wszystko wymieszać, smażyć niewielkie placki na złoto z obu stron.",
+      "cechy": [
+        "Złociste, chrupiące, lekko słodkie"
+      ],
+      "wlasciwosci": [
+        "witaminowe, sycące"
+      ],
+      "zastosowanie": "Obiad, przekąska.",
+      "zrodlo": [
+        47
+      ]
+    },
+    "bułeczki_drożdżowe_z_bulwami_i_miodem": {
+      "nazwa": "bułeczki drożdżowe z bulwami i miodem",
+      "skladniki": [
+        "250 g mąki pszennej",
+        "50 g bulw świerząbka (ugotowanych, rozgniecionych)",
+        "1 jajko",
+        "50 g miękkiego masła",
+        "100 ml mleka",
+        "2 łyżki miodu naturalnego",
+        "10 g świeżych drożdży",
+        "szczypta soli"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki wymieszać, zagnieść ciasto, odstawić na 40 min do wyrośnięcia. Uformować bułeczki, piec w 180°C 18–20 min.",
+      "cechy": [
+        "Delikatne, puszyste, lekko orzechowe"
+      ],
+      "wlasciwosci": [
+        "pożywne, łagodne"
+      ],
+      "zastosowanie": "Do mleka, kawy, na śniadanie.",
+      "zrodlo": [
+        49
+      ]
+    },
+    "ciasto_korzeniowe_z_bulw_świerząbka_i_orzechami": {
+      "nazwa": "ciasto korzeniowe z bulw świerząbka i orzechami",
+      "skladniki": [
+        "200 g bulw świerząbka (ugotowanych, rozgniecionych na puree)",
+        "200 g mąki pszennej",
+        "3 jajka",
+        "100 g cukru",
+        "80 g masła",
+        "50 g orzechów włoskich (posiekanych)",
+        "1 łyżeczka proszku do pieczenia",
+        "szczypta cynamonu",
+        "szczypta soli"
+      ],
+      "sposob_przygotowania": "Masło utrzeć z cukrem, dodać jajka, puree z bulw, orzechy i resztę składników, wymieszać. Piec w 180°C ok. 35 min.",
+      "cechy": [
+        "Wilgotne, aromatyczne, lekko słodkie"
+      ],
+      "wlasciwosci": [
+        "energetyczne, domowe"
+      ],
+      "zastosowanie": "Deser do kawy, na podwieczorek.",
+      "zrodlo": [
+        50
+      ]
+    },
+    "koktajl_mleczny_z_bulwami_i_wanilią": {
+      "nazwa": "koktajl mleczny z bulwami i wanilią",
+      "skladniki": [
+        "1 mała bulwa świerząbka (obrana, ugotowana, rozgnieciona)",
+        "200 ml mleka",
+        "1 łyżeczka miodu",
+        "szczypta wanilii naturalnej"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki zmiksować na gładki koktajl, podawać schłodzony.",
+      "cechy": [
+        "Kremowy, słodki, lekko orzechowy"
+      ],
+      "wlasciwosci": [
+        "odżywczy napój, łagodny"
+      ],
+      "zastosowanie": "Drugie śniadanie, deser dla dzieci.",
+      "zrodlo": [
+        51
+      ]
+    },
+    "chleb_korzeniowy_z_bulwami_świerząbka": {
+      "nazwa": "chleb korzeniowy z bulwami świerząbka",
+      "skladniki": [
+        "350 g mąki pszennej",
+        "100 g świeżych bulw świerząbka (ugotowanych, rozgniecionych na puree)",
+        "7 g drożdży suchych (1 opakowanie)",
+        "1 łyżeczka soli",
+        "1 łyżeczka cukru",
+        "200 ml letniej wody",
+        "1 łyżka oleju"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki wyrobić na ciasto, odstawić do wyrośnięcia na 1 godzinę, uformować bochenek, piec 30 min w 200°C.",
+      "cechy": [
+        "Chleb z chrupiącą skórką, lekko orzechowym aromatem"
+      ],
+      "wlasciwosci": [
+        "sycący, delikatnie słodki"
+      ],
+      "zastosowanie": "Pieczywo codzienne, do masła, na kanapki.",
+      "zrodlo": [
+        48
+      ]
+    },
+    "napój_orzeźwiający_z_bulw_świerząbka_i_cytryną": {
+      "nazwa": "napój orzeźwiający z bulw świerząbka i cytryną",
+      "skladniki": [
+        "100 g świeżych bulw świerząbka (startych na tarce)",
+        "1 litr chłodnej wody",
+        "2 łyżki soku z cytryny",
+        "1 łyżka miodu"
+      ],
+      "sposob_przygotowania": "Bulwy zalać wodą, dodać miód i cytrynę, schłodzić. Przecedzić, podawać na zimno.",
+      "cechy": [
+        "Przezroczysty, lekko słomkowy napój",
+        "Odświeżający, lekko orzechowy"
+      ],
+      "wlasciwosci": [
+        "nawadniający, bogaty w witaminy"
+      ],
+      "zastosowanie": "Letni napój dla całej rodziny.",
+      "zrodlo": [
+        52
       ]
     }
-  },
-  "przepisy_z_innymi_roslinami": {
-    "medyczne": [
-      {
-        "nazwa": "Mieszanka detoksykacyjna (świerząbek bulwiasty, mniszek, pokrzywa, skrzyp, liść brzozy, korzeń pietruszki, fiołek trójbarwny, czystek)",
-        "skladniki": [
-          "1 łyżka świeżych lub suszonych bulw świerząbka bulwiastego (pokrojonych)",
-          "1 łyżka korzenia mniszka lekarskiego",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka ziela skrzypu polnego",
-          "1 łyżka liści brzozy",
-          "1 łyżka świeżego lub suszonego korzenia pietruszki",
-          "1 łyżka fiołka trójbarwnego",
-          "1 łyżeczka ziela czystka",
-          "1 litr świeżej wody"
-        ],
-        "sposob_przygotowania": "Bulwy, korzenie i liście gotować w wodzie 15 min, dodać pozostałe zioła, parzyć kolejne 10 min pod przykryciem, przecedzić.",
-        "cechy": [
-          "Ziołowy, świeży smak",
-          "Jasnozielony kolor"
-        ],
-        "wlasciwosci": [
-          "oczyszczająca, moczopędna, przeciwzapalna"
-        ],
-        "zastosowanie": "Kuracja wiosenna oczyszczająca, wsparcie pracy nerek i wątroby.",
-        "zrodlo": [
-          32
-        ]
-      },
-      {
-        "nazwa": "Mieszanka na stawy (świerząbek bulwiasty, liść laurowy, korzeń żywokostu, liść pokrzywy, tymianek, rozmaryn, igły sosny, skrzyp)",
-        "skladniki": [
-          "1 łyżka pokrojonych bulw świerząbka bulwiastego",
-          "2 liście laurowe",
-          "1 łyżka pokrojonego świeżego korzenia żywokostu",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka suszonego tymianku",
-          "1 łyżeczka rozmarynu",
-          "1 łyżka świeżych igieł sosny (drobno posiekanych)",
-          "1 łyżka ziela skrzypu",
-          "800 ml wody"
-        ],
-        "sposob_przygotowania": "Bulwy, korzenie, igły sosny i liście laurowe gotować 15 min, dodać zioła, parzyć kolejne 10 min, przecedzić. Stosować jako okład lub dodać do kąpieli.",
-        "cechy": [
-          "Aromatyczny, ziołowy zapach",
-          "Rozgrzewający efekt"
-        ],
-        "wlasciwosci": [
-          "łagodzi bóle reumatyczne, regeneruje, przeciwzapalna"
-        ],
-        "zastosowanie": "Okłady, kąpiele przy bólach i sztywności stawów.",
-        "zrodlo": [
-          33
-        ]
-      },
-      {
-        "nazwa": "Mieszanka wzmacniająca (świerząbek bulwiasty, korzeń marchwi, seler, por, natka pietruszki, koper, pietruszka korzeniowa, burak)",
-        "skladniki": [
-          "2 bulwy świerząbka bulwiastego (świeże, pokrojone)",
-          "1 duża marchew (pokrojona)",
-          "1 mały korzeń selera",
-          "biała część 1 pora",
-          "pęczek natki pietruszki",
-          "2 łyżki koperku",
-          "1 korzeń pietruszki",
-          "1 mały burak",
-          "1 litr wody"
-        ],
-        "sposob_przygotowania": "Wszystkie warzywa pokroić, ugotować razem do miękkości, można zmiksować na krem. Doprawić solą, pieprzem, ziołami.",
-        "cechy": [
-          "Kolorowa, gęsta, warzywna zupa",
-          "Słodko-warzywny aromat"
-        ],
-        "wlasciwosci": [
-          "wzmacniająca, odżywcza, bogata w minerały"
-        ],
-        "zastosowanie": "Rekonwalescencja, wzmocnienie po chorobie, dieta dla osłabionych.",
-        "zrodlo": [
-          34
-        ]
-      },
-      {
-        "nazwa": "Syrop na odporność (sok z bulw świerząbka, miód, sok z cytryny, imbir, czosnek, dzika róża, chrzan)",
-        "skladniki": [
-          "2 łyżki świeżo wyciśniętego soku z bulw świerząbka",
-          "2 łyżki miodu naturalnego",
-          "sok z 1/2 cytryny",
-          "1 łyżeczka świeżo startego imbiru",
-          "1 mały ząbek czosnku (starty na tarce)",
-          "1 łyżka rozdrobnionych suszonych owoców dzikiej róży",
-          "1 łyżeczka drobno startego korzenia chrzanu"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki dokładnie wymieszać, przechowywać w lodówce. Spożywać 1 łyżeczkę 2 razy dziennie.",
-        "cechy": [
-          "Ostry, słodko-korzenny smak",
-          "Jasnożółty syrop"
-        ],
-        "wlasciwosci": [
-          "wzmacnia odporność, oczyszcza, działa przeciwzapalnie"
-        ],
-        "zastosowanie": "Wspomagająco przy przeziębieniu, osłabieniu.",
-        "zrodlo": [
-          35
-        ]
-      },
-      {
-        "nazwa": "Kąpiel regenerująca (świerząbek bulwiasty, rumianek, nagietek, lawenda, liść brzozy, szałwia, skrzyp, tymianek)",
-        "skladniki": [
-          "1 garść pokrojonych bulw świerząbka bulwiastego (ok. 80 g)",
-          "3 łyżki suszonych koszyczków rumianku",
-          "2 łyżki suszonych kwiatów nagietka",
-          "2 łyżki suszonych kwiatów lawendy",
-          "2 łyżki liści brzozy",
-          "2 łyżki liści szałwii",
-          "2 łyżki ziela skrzypu",
-          "2 łyżki suszonego tymianku",
-          "2 litry wody"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki gotować razem 15 min, przecedzić, dodać odwar do kąpieli.",
-        "cechy": [
-          "Relaksujący, ziołowy zapach",
-          "Żółtozielony kolor"
-        ],
-        "wlasciwosci": [
-          "regeneruje skórę, rozluźnia mięśnie, przeciwzapalna"
-        ],
-        "zastosowanie": "Kąpiele po wysiłku, podrażnieniach, alergiach.",
-        "zrodlo": [
-          36
-        ]
-      },
-      {
-        "nazwa": "Mieszanka wykrztuśna (świerząbek bulwiasty, prawoślaz, podbiał, dziewanna, anyż, tymianek, lukrecja, babka lancetowata)",
-        "skladniki": [
-          "1 łyżka świeżych lub suszonych bulw świerząbka",
-          "1 łyżka korzenia prawoślazu",
-          "1 łyżka liści podbiału",
-          "1 łyżka kwiatów dziewanny",
-          "1 łyżeczka nasion anyżu",
-          "1 łyżka tymianku",
-          "1 łyżeczka korzenia lukrecji",
-          "1 łyżka liści babki lancetowatej",
-          "1 litr wody"
-        ],
-        "sposob_przygotowania": "Bulwy i korzenie gotować 15 min, dodać pozostałe zioła, parzyć 10 min pod przykryciem. Pić ciepły napar, 1/2 szklanki 2 razy dziennie.",
-        "cechy": [
-          "Słodki, ziołowy smak",
-          "Jasny napar"
-        ],
-        "wlasciwosci": [
-          "ułatwia odkrztuszanie, łagodzi kaszel, działa powlekająco"
-        ],
-        "zastosowanie": "Przy infekcjach dróg oddechowych, przewlekłym kaszlu.",
-        "zrodlo": [
-          37
-        ]
-      },
-      {
-        "nazwa": "Mieszanka na skórę (świerząbek bulwiasty, nagietek, fiołek, rumianek, krwawnik, babka lancetowata, skrzyp, pokrzywa)",
-        "skladniki": [
-          "1 łyżka świeżych bulw świerząbka (startych)",
-          "1 łyżka kwiatów nagietka",
-          "1 łyżka fiołka trójbarwnego",
-          "1 łyżka kwiatów rumianku",
-          "1 łyżka ziela krwawnika",
-          "1 łyżka liści babki lancetowatej",
-          "1 łyżka ziela skrzypu",
-          "1 łyżka liści pokrzywy",
-          "700 ml wrzątku"
-        ],
-        "sposob_przygotowania": "Wszystko zaparzyć 20 min pod przykryciem, używać do przemywania skóry lub okładów.",
-        "cechy": [
-          "Łagodny, zielony płyn"
-        ],
-        "wlasciwosci": [
-          "przyspiesza gojenie, łagodzi podrażnienia, działa antyseptycznie"
-        ],
-        "zastosowanie": "Na egzemy, podrażnienia, atopowe zapalenie skóry.",
-        "zrodlo": [
-          38
-        ]
-      },
-      {
-        "nazwa": "Mieszanka na nerki (świerząbek bulwiasty, pokrzywa, skrzyp, liść żurawiny, liść brzozy, korzeń pietruszki, liść mącznicy, liść borówki)",
-        "skladniki": [
-          "1 łyżka pokrojonych bulw świerząbka",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka ziela skrzypu",
-          "1 łyżka liści żurawiny",
-          "1 łyżka liści brzozy",
-          "1 łyżka korzenia pietruszki",
-          "1 łyżeczka liści mącznicy lekarskiej",
-          "1 łyżka liści borówki",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 20 min, pić po pół szklanki 2–3 razy dziennie.",
-        "cechy": [
-          "Lekko słodkawy, ziołowy smak",
-          "Zielonkawy kolor"
-        ],
-        "wlasciwosci": [
-          "działa moczopędnie, wspomaga nerki, przeciwzapalnie"
-        ],
-        "zastosowanie": "Przy infekcjach układu moczowego, kamicy nerkowej.",
-        "zrodlo": [
-          39
-        ]
-      },
-      {
-        "nazwa": "Mieszanka detoksykacyjna (świerząbek bulwiasty, mniszek, pokrzywa, skrzyp, liść brzozy, korzeń pietruszki, fiołek, czystek)",
-        "skladniki": [
-          "1 łyżka świeżych lub suszonych bulw świerząbka bulwiastego (pokrojonych)",
-          "1 łyżka korzenia mniszka lekarskiego",
-          "1 łyżka liści pokrzywy",
-          "1 łyżka ziela skrzypu polnego",
-          "1 łyżka liści brzozy",
-          "1 łyżka korzenia pietruszki",
-          "1 łyżka fiołka trójbarwnego",
-          "1 łyżeczka ziela czystka",
-          "1 litr wody"
-        ],
-        "sposob_przygotowania": "Bulwy i korzenie gotować 15 min, dodać pozostałe zioła, parzyć kolejne 10 min pod przykryciem, przecedzić.",
-        "cechy": [
-          "Ziołowy, świeży smak"
-        ],
-        "wlasciwosci": [
-          "oczyszczająca, moczopędna"
-        ],
-        "zastosowanie": "Kuracja wiosenna oczyszczająca, wsparcie pracy nerek.",
-        "zrodlo": [
-          32
-        ]
-      },
-      {
-        "nazwa": "Mieszanka szwajcarska na nerki (świerząbek bulwiasty, korzeń łopianu, liście brzozy, skrzyp, korzeń selera, koper)",
-        "skladniki": [
-          "1 łyżka pokrojonych świeżych bulw świerząbka",
-          "1 łyżka korzenia łopianu (świeżego lub suszonego, pokrojonego)",
-          "1 łyżka liści brzozy",
-          "1 łyżka ziela skrzypu polnego",
-          "1 łyżka korzenia selera",
-          "1 łyżeczka nasion kopru włoskiego",
-          "1 litr wody"
-        ],
-        "sposob_przygotowania": "Bulwy i korzenie gotować 10 min, dodać pozostałe składniki, parzyć kolejne 10 min. Przecedzić, pić pół szklanki 2 razy dziennie.",
-        "cechy": [
-          "Ziołowy, lekko anyżowy aromat"
-        ],
-        "wlasciwosci": [
-          "wspomaga nerki, moczopędna, łagodnie rozkurczowa"
-        ],
-        "zastosowanie": "Kuracja wspierająca nerki i układ moczowy.",
-        "zrodlo": [
-          40
-        ]
-      },
-      {
-        "nazwa": "Francuska zupa wzmacniająca (świerząbek bulwiasty, por, marchew, pietruszka, lubczyk, tymianek, czosnek)",
-        "skladniki": [
-          "2 bulwy świerząbka (obrane, pokrojone)",
-          "1 por (biała część, pokrojona w plastry)",
-          "2 marchewki (pokrojone w półplasterki)",
-          "1 korzeń pietruszki (pokrojony)",
-          "1 mała gałązka świeżego lubczyku",
-          "1/2 łyżeczki suszonego tymianku",
-          "1 ząbek czosnku (drobno posiekany)",
-          "1 litr bulionu warzywnego"
-        ],
-        "sposob_przygotowania": "Warzywa dusić chwilę w garnku, zalać bulionem, dodać przyprawy, gotować do miękkości. Podawać z natką.",
-        "cechy": [
-          "Aromatyczna, sycąca, ziołowa"
-        ],
-        "wlasciwosci": [
-          "wzmacniająca, rozgrzewająca, przeciwzapalna"
-        ],
-        "zastosowanie": "Zupa rekonwalescencyjna, po chorobach.",
-        "zrodlo": [
-          41
-        ]
-      },
-      {
-        "nazwa": "Czeska kąpiel przeciwzapalna (świerząbek bulwiasty, kora dębu, rumianek, liście pokrzywy, kwiat nagietka, tymianek)",
-        "skladniki": [
-          "1 garść świeżych bulw świerząbka (ok. 80 g, pokrojonych)",
-          "2 łyżki kory dębu",
-          "3 łyżki suszonych koszyczków rumianku",
-          "2 łyżki liści pokrzywy",
-          "2 łyżki kwiatów nagietka",
-          "1 łyżka suszonego tymianku",
-          "2 litry wody"
-        ],
-        "sposob_przygotowania": "Wszystko gotować 20 min, przecedzić, dolać do wanny z ciepłą wodą.",
-        "cechy": [
-          "Ziołowy, lekko korzenny zapach"
-        ],
-        "wlasciwosci": [
-          "przeciwzapalna, kojąca, regenerująca skórę"
-        ],
-        "zastosowanie": "Kąpiele przy podrażnieniach, wypryskach, dolegliwościach stawów.",
-        "zrodlo": [
-          42
-        ]
-      },
-      {
-        "nazwa": "Rosyjska mieszanka na odporność (świerząbek bulwiasty, owoce dzikiej róży, czarna porzeczka, miód, korzeń imbiru)",
-        "skladniki": [
-          "1 łyżka soku z bulw świerząbka",
-          "1 łyżka suszonych owoców dzikiej róży",
-          "1 łyżka suszonych owoców czarnej porzeczki",
-          "1 łyżka miodu naturalnego",
-          "1 łyżeczka świeżego startego imbiru",
-          "300 ml wrzątku"
-        ],
-        "sposob_przygotowania": "Owoce i imbir zalać wrzątkiem, parzyć 20 min, przecedzić, dodać miód i sok z bulw świerząbka. Pić ciepłe.",
-        "cechy": [
-          "Słodki, owocowo-ziołowy napar"
-        ],
-        "wlasciwosci": [
-          "wzmacniająca, przeciwutleniająca, rozgrzewająca"
-        ],
-        "zastosowanie": "Kuracja wzmacniająca odporność w okresie jesienno-zimowym.",
-        "zrodlo": [
-          43
-        ]
-      },
-      {
-        "nazwa": "Niemiecki kompres przeciwobrzękowy (świerząbek bulwiasty, liść kapusty, korzeń żywokostu, liść babki lancetowatej, rumianek)",
-        "skladniki": [
-          "1 łyżka świeżych bulw świerząbka (startych)",
-          "2 liście kapusty (sparzone, rozgniecione wałkiem)",
-          "1 łyżka korzenia żywokostu (świeżego, startego)",
-          "1 łyżka liści babki lancetowatej",
-          "1 łyżka suszonych kwiatów rumianku"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki wymieszać, nałożyć na gazę i przykładać na opuchnięte miejsca 30–40 minut.",
-        "cechy": [
-          "Chłodzący, ziołowy okład"
-        ],
-        "wlasciwosci": [
-          "zmniejsza opuchliznę, łagodzi stany zapalne"
-        ],
-        "zastosowanie": "Kompresy na stłuczenia, bóle stawów, obrzęki.",
-        "zrodlo": [
-          44
-        ]
-      },
-      {
-        "nazwa": "Francuska mieszanka wykrztuśna (świerząbek bulwiasty, tymianek, podbiał, anyż, korzeń prawoślazu)",
-        "skladniki": [
-          "1 łyżka świeżych bulw świerząbka (pokrojonych)",
-          "1 łyżka suszonego tymianku",
-          "1 łyżka liści podbiału",
-          "1 łyżeczka nasion anyżu",
-          "1 łyżka korzenia prawoślazu",
-          "1 litr wrzątku"
-        ],
-        "sposob_przygotowania": "Bulwy i korzeń prawoślazu gotować 10 min, dodać pozostałe składniki, parzyć 10 min, przecedzić. Pić 1/2 szklanki 2 razy dziennie.",
-        "cechy": [
-          "Aromat ziołowy z nutą anyżu"
-        ],
-        "wlasciwosci": [
-          "wykrztuśna, łagodząca kaszel"
-        ],
-        "zastosowanie": "Przy kaszlu, infekcjach dróg oddechowych.",
-        "zrodlo": [
-          45
-        ]
-      }
-    ],
-    "kulinarne": [
-      {
-        "nazwa": "Sałatka wiosenna z bulw świerząbka i mniszkiem",
-        "skladniki": [
-          "2 średnie bulwy świerząbka (świeże, obrane, pokrojone w cienkie plastry)",
-          "5 rzodkiewek (pokrojonych w półplasterki)",
-          "garść młodych liści mniszka lekarskiego (posiekanych)",
-          "2 łyżki drobno posiekanego koperku",
-          "3 łyżki jogurtu naturalnego",
-          "sól, pieprz do smaku"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki wymieszać, doprawić jogurtem, solą i pieprzem. Podawać schłodzoną.",
-        "cechy": [
-          "Świeży, chrupiący, orzechowy smak"
-        ],
-        "wlasciwosci": [
-          "lekka, witaminowa sałatka"
-        ],
-        "zastosowanie": "Sałatka na wiosnę, lekka przekąska.",
-        "zrodlo": [
-          40
-        ]
-      },
-      {
-        "nazwa": "Pesto korzeniowe z bulw świerząbka i pietruszką",
-        "skladniki": [
-          "1 średnia bulwa świerząbka (ugotowana, pokrojona w kostkę)",
-          "pęczek natki pietruszki",
-          "50 g orzechów włoskich (uprażonych)",
-          "1 mały ząbek czosnku",
-          "3 łyżki oliwy z oliwek",
-          "szczypta soli"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki zmiksować na gładką pastę. Przechowywać w lodówce do 3 dni.",
-        "cechy": [
-          "Orzechowo-korzeniowy smak, zielony kolor"
-        ],
-        "wlasciwosci": [
-          "bogate w białko, witaminy i minerały"
-        ],
-        "zastosowanie": "Do makaronu, pieczywa, krakersów.",
-        "zrodlo": [
-          41
-        ]
-      },
-      {
-        "nazwa": "Letnia zupa jarzynowa z bulw świerząbka",
-        "skladniki": [
-          "2 bulwy świerząbka (obrane, pokrojone w kostkę)",
-          "2 marchewki (pokrojone w plasterki)",
-          "1 mały seler (pokrojony w kostkę)",
-          "1 por (biała część, pokrojona w plasterki)",
-          "garść koperku",
-          "100 g fasolki szparagowej (pokrojonej na 3 cm kawałki)",
-          "1 litr bulionu warzywnego"
-        ],
-        "sposob_przygotowania": "Warzywa wrzucić do bulionu, gotować do miękkości. Dodać koperek przed podaniem.",
-        "cechy": [
-          "Letnia, lekka, aromatyczna zupa"
-        ],
-        "wlasciwosci": [
-          "odżywcza, bogata w minerały i błonnik"
-        ],
-        "zastosowanie": "Obiad na lato, zdrowa przystawka.",
-        "zrodlo": [
-          42
-        ]
-      },
-      {
-        "nazwa": "Gulasz warzywny z bulw świerząbka",
-        "skladniki": [
-          "2 bulwy świerząbka (obrane, pokrojone w kostkę)",
-          "1 mała cukinia (pokrojona w półplasterki)",
-          "2 pomidory (sparzone, obrane, pokrojone w kostkę)",
-          "1/2 szklanki ugotowanej białej fasoli",
-          "1 cebula (pokrojona w kostkę)",
-          "1 czerwona papryka (pokrojona w kostkę)",
-          "1 łyżka oliwy",
-          "sól, pieprz, zioła prowansalskie"
-        ],
-        "sposob_przygotowania": "Cebulę podsmażyć na oliwie, dodać bulwy i warzywa, dusić do miękkości, doprawić przyprawami.",
-        "cechy": [
-          "Gęsty, syty, kolorowy gulasz"
-        ],
-        "wlasciwosci": [
-          "bogaty w białko i węglowodany"
-        ],
-        "zastosowanie": "Obiad jednogarnkowy, ciepła kolacja.",
-        "zrodlo": [
-          43
-        ]
-      },
-      {
-        "nazwa": "Zapiekanka z bulw świerząbka, cebuli i sera",
-        "skladniki": [
-          "3 bulwy świerząbka (obrane, ugotowane, pokrojone w plasterki)",
-          "1 duża cebula (pokrojona w półplasterki, podsmażona)",
-          "100 g sera żółtego (startego)",
-          "2 jajka",
-          "100 ml śmietany 18%",
-          "sól, pieprz"
-        ],
-        "sposob_przygotowania": "Bulwy i cebulę ułożyć w naczyniu żaroodpornym, zalać masą z jajek i śmietany, posypać serem, zapiec 25 min w 180°C.",
-        "cechy": [
-          "Kremowa, chrupiąca, z serową skórką"
-        ],
-        "wlasciwosci": [
-          "sycąca, domowa"
-        ],
-        "zastosowanie": "Obiad, kolacja.",
-        "zrodlo": [
-          44
-        ]
-      },
-      {
-        "nazwa": "Puree korzeniowe z bulw świerząbka i pietruszki",
-        "skladniki": [
-          "2 bulwy świerząbka (obrane, ugotowane)",
-          "1 korzeń pietruszki (obrany, ugotowany)",
-          "100 ml mleka",
-          "2 łyżki masła",
-          "sól, pieprz"
-        ],
-        "sposob_przygotowania": "Ugotowane bulwy i pietruszkę utłuc z mlekiem i masłem na gładkie puree, doprawić.",
-        "cechy": [
-          "Puszyste, kremowe, lekko orzechowe"
-        ],
-        "wlasciwosci": [
-          "lekko słodkie, odżywcze"
-        ],
-        "zastosowanie": "Dodatek do mięs, ryb, warzyw.",
-        "zrodlo": [
-          45
-        ]
-      },
-      {
-        "nazwa": "Placki warzywne z bulwami świerząbka, marchewką i cukinią",
-        "skladniki": [
-          "1 bulwa świerząbka (starta na grubej tarce, świeża)",
-          "1 marchew (starta na tarce)",
-          "1/2 cukinii (startej, odciśniętej z soku)",
-          "1 jajko",
-          "2 łyżki mąki",
-          "sól, pieprz, olej do smażenia"
-        ],
-        "sposob_przygotowania": "Wszystko wymieszać, smażyć niewielkie placki na złoto z obu stron.",
-        "cechy": [
-          "Złociste, chrupiące, lekko słodkie"
-        ],
-        "wlasciwosci": [
-          "witaminowe, sycące"
-        ],
-        "zastosowanie": "Obiad, przekąska.",
-        "zrodlo": [
-          47
-        ]
-      },
-      {
-        "nazwa": "Chleb korzeniowy z bulwami świerząbka",
-        "skladniki": [
-          "350 g mąki pszennej",
-          "100 g świeżych bulw świerząbka (ugotowanych, rozgniecionych na puree)",
-          "7 g drożdży suchych (1 opakowanie)",
-          "1 łyżeczka soli",
-          "1 łyżeczka cukru",
-          "200 ml letniej wody",
-          "1 łyżka oleju"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki wyrobić na ciasto, odstawić do wyrośnięcia na 1 godzinę, uformować bochenek, piec 30 min w 200°C.",
-        "cechy": [
-          "Chleb z chrupiącą skórką, lekko orzechowym aromatem"
-        ],
-        "wlasciwosci": [
-          "sycący, delikatnie słodki"
-        ],
-        "zastosowanie": "Pieczywo codzienne, do masła, na kanapki.",
-        "zrodlo": [
-          48
-        ]
-      },
-      {
-        "nazwa": "Bułeczki drożdżowe z bulwami i miodem",
-        "skladniki": [
-          "250 g mąki pszennej",
-          "50 g bulw świerząbka (ugotowanych, rozgniecionych)",
-          "1 jajko",
-          "50 g miękkiego masła",
-          "100 ml mleka",
-          "2 łyżki miodu naturalnego",
-          "10 g świeżych drożdży",
-          "szczypta soli"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki wymieszać, zagnieść ciasto, odstawić na 40 min do wyrośnięcia. Uformować bułeczki, piec w 180°C 18–20 min.",
-        "cechy": [
-          "Delikatne, puszyste, lekko orzechowe"
-        ],
-        "wlasciwosci": [
-          "pożywne, łagodne"
-        ],
-        "zastosowanie": "Do mleka, kawy, na śniadanie.",
-        "zrodlo": [
-          49
-        ]
-      },
-      {
-        "nazwa": "Ciasto korzeniowe z bulw świerząbka i orzechami",
-        "skladniki": [
-          "200 g bulw świerząbka (ugotowanych, rozgniecionych na puree)",
-          "200 g mąki pszennej",
-          "3 jajka",
-          "100 g cukru",
-          "80 g masła",
-          "50 g orzechów włoskich (posiekanych)",
-          "1 łyżeczka proszku do pieczenia",
-          "szczypta cynamonu",
-          "szczypta soli"
-        ],
-        "sposob_przygotowania": "Masło utrzeć z cukrem, dodać jajka, puree z bulw, orzechy i resztę składników, wymieszać. Piec w 180°C ok. 35 min.",
-        "cechy": [
-          "Wilgotne, aromatyczne, lekko słodkie"
-        ],
-        "wlasciwosci": [
-          "energetyczne, domowe"
-        ],
-        "zastosowanie": "Deser do kawy, na podwieczorek.",
-        "zrodlo": [
-          50
-        ]
-      },
-      {
-        "nazwa": "Koktajl mleczny z bulwami i wanilią",
-        "skladniki": [
-          "1 mała bulwa świerząbka (obrana, ugotowana, rozgnieciona)",
-          "200 ml mleka",
-          "1 łyżeczka miodu",
-          "szczypta wanilii naturalnej"
-        ],
-        "sposob_przygotowania": "Wszystkie składniki zmiksować na gładki koktajl, podawać schłodzony.",
-        "cechy": [
-          "Kremowy, słodki, lekko orzechowy"
-        ],
-        "wlasciwosci": [
-          "odżywczy napój, łagodny"
-        ],
-        "zastosowanie": "Drugie śniadanie, deser dla dzieci.",
-        "zrodlo": [
-          51
-        ]
-      },
-      {
-        "nazwa": "Napój orzeźwiający z bulw świerząbka i cytryną",
-        "skladniki": [
-          "100 g świeżych bulw świerząbka (startych na tarce)",
-          "1 litr chłodnej wody",
-          "2 łyżki soku z cytryny",
-          "1 łyżka miodu"
-        ],
-        "sposob_przygotowania": "Bulwy zalać wodą, dodać miód i cytrynę, schłodzić. Przecedzić, podawać na zimno.",
-        "cechy": [
-          "Przezroczysty, lekko słomkowy napój",
-          "Odświeżający, lekko orzechowy"
-        ],
-        "wlasciwosci": [
-          "nawadniający, bogaty w witaminy"
-        ],
-        "zastosowanie": "Letni napój dla całej rodziny.",
-        "zrodlo": [
-          52
-        ]
-      }
-    ]
   },
   "inne_zastosowania": {
     "kosmetyki": {
@@ -1214,49 +1226,96 @@
     "50": "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
   },
   "kalendarz": {
-    "siew": [
-      9,
-      10,
-      11
-    ],
-    "sadzenie": [
-      3,
-      4
-    ],
-    "zbior_bulw": [
-      7,
-      8
-    ],
-    "zbior_lisci": [
-      4,
-      5
-    ],
-    "zbior_nasion": [
-      8,
-      9
-    ],
-    "zbior_poranny": [
-      7,
-      8
-    ],
-    "zbior_po_deszczu": [
-      7,
-      8
-    ],
-    "ekstrakcja": [
-      8
-    ],
-    "pielenie": [
-      5,
-      6
-    ],
-    "przesadzanie": [
-      3,
-      4
-    ],
-    "rozmnazanie": [
-      8,
-      9
-    ]
+    "siew": {
+      "miesiące": [
+        9,
+        10
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Siew jesienny pozwala przejść nasionom naturalną stratyfikację. Siej w rzędy na głębokość ok. 1–1,5 cm.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Chaerophyllum+bulbosum"
+    },
+    "pikowanie": {
+      "miesiące": [
+        3,
+        4
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "po południu",
+      "intensywność": "niska",
+      "uwagi": "Zalecane tylko przy siewie do inspektu. W gruncie nie wymagane – roślina nie lubi przesadzania.",
+      "źródło": "https://www.researchgate.net/publication/333025940_Cultivation_of_Chaerophyllum_bulbosum"
+    },
+    "nawożenie": {
+      "miesiące": [
+        4,
+        5
+      ],
+      "zalecana_faza_ksiezyca": "rosnący",
+      "typ": "ogrodniczy",
+      "czas_dnia": "ranek",
+      "intensywność": "średnia",
+      "uwagi": "Zaleca się nawożenie organiczne – kompost lub obornik dobrze przerobiony. Nie przesadzaj z azotem.",
+      "źródło": "https://www.gardenfocused.co.uk/vegetable/chaerophyllum-bulbosum.php"
+    },
+    "zbior_bulw": {
+      "miesiące": [
+        7
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "zbiorczy",
+      "czas_dnia": "ranek",
+      "intensywność": "wysoka",
+      "uwagi": "Zbiór po zaschnięciu naci. Delikatnie wykop, by nie uszkodzić cienkiej skórki bulw. Przechowuj jak marchew.",
+      "źródło": "https://pfaf.org/user/Plant.aspx?LatinName=Chaerophyllum+bulbosum"
+    },
+    "zbior_nasion": {
+      "miesiące": [
+        8,
+        9
+      ],
+      "zalecana_faza_ksiezyca": "malejący",
+      "typ": "zbiorczy",
+      "czas_dnia": "po południu",
+      "intensywność": "średnia",
+      "uwagi": "Zbieraj suche baldachy nasienne, gdy są brązowe i pękają przy dotyku. Dosuszaj w przewiewnym miejscu.",
+      "źródło": "https://www.hobbyzahrada.cz/clanek-3135-chaerophyllum-bulbosum-svireznik-hliznaty.htm"
+    },
+    "pielenie": {
+      "miesiące": [
+        4,
+        5
+      ],
+      "zalecana_faza_ksiezyca": "bez znaczenia",
+      "typ": "techniczny",
+      "czas_dnia": "dowolny",
+      "intensywność": "średnia",
+      "uwagi": "Roślina źle znosi konkurencję chwastów – piel w miarę potrzeb, szczególnie w fazie wschodów.",
+      "źródło": "https://pl.wikipedia.org/wiki/Chaerophyllum_bulbosum"
+    },
+    "przesadzanie": {
+      "miesiące": [],
+      "zalecana_faza_ksiezyca": "bez znaczenia",
+      "typ": "ogrodniczy",
+      "czas_dnia": "dowolny",
+      "intensywność": "symboliczna",
+      "uwagi": "Świerząbek bulwiasty nie znosi przesadzania – zaleca się tylko siew bezpośredni do gruntu.",
+      "źródło": "https://www.researchgate.net/publication/333025940"
+    },
+    "zbior_ksiezycowy": {
+      "miesiące": [
+        7
+      ],
+      "zalecana_faza_ksiezyca": "pełnia",
+      "typ": "rytualny",
+      "czas_dnia": "wieczór",
+      "intensywność": "symboliczna",
+      "uwagi": "W tradycji ludowej zbiór bulw w pełnię zapewniał dłuższą trwałość i głębszy smak.",
+      "źródło": "https://www.thespruce.com/moon-phase-gardening-5219263"
+    }
   }
 }
