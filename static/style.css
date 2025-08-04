@@ -1119,34 +1119,105 @@ main {
     font-size: 0.8em !important;
   }
 }
+@media (max-width: 500px) {
+  /* 1) Sam header: kolumna, ale z mniejszymi odstępami */
+  .top-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0.3em 0.5em;
+    gap: 0.3em;
+  }
+
+  /* 2) Logo u góry, mniejsze i wycentrowane */
+  .top-bar .logo {
+    justify-content: center;
+    padding: 0.2em 0;
+  }
+  .top-bar .logo img {
+    height: 30px;
+  }
+  .top-bar .logo span {
+    font-size: 1em;
+  }
+
+  /* 3) Nawigacja: poziomo, scrollowalna, bez tła */
+  .top-bar .main-navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 0.5em;
+    padding: 0 0.5em;
+  }
+  .top-bar .main-navbar a {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    padding: 0.3em 0;
+    font-size: 0.9em;
+    color: #184e10;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s;
+  }
+  .top-bar .main-navbar a:hover,
+  .top-bar .main-navbar a:focus {
+    border-color: #184e10;
+  }
+
+  /* 4) Przycisk wyszukiwania przy prawej krawędzi paska */
+  .top-bar .search-btn {
+    position: absolute;
+    top: 0.4em;
+    right: 0.5em;
+    background: transparent;
+    border: none;
+    font-size: 1.2em;
+    padding: 0.2em;
+  }
+
+  /* 5) Moon-bar pod paskiem, kompaktowy */
+  .top-bar .moon-bar {
+    order: 3;
+    padding: 0.3em 0.5em;
+    font-size: 0.8em;
+    background: #f4f1eb;
+    border-radius: 0.5em;
+    text-align: center;
+    margin: 0 0.5em;
+  }
+}
+.wrapper,
+.main {
+  background-color: #fff;
+}
+@media (max-width: 992px) {
+  .top-bar {
+    background-color: #f4f8f4;   /* nieco jaśniejszy lub ciemniejszy */
+  }
+}
 @media (max-width: 600px) {
-  /* 1) Kontener pojedynczej pozycji – nadaj mu display:flex */
-  .toc-entry,          /* przykładowa klasa kontenera pozycji */
-  .plant-list-item {    /* lub to co u Ciebie odpowiada za pojedynczy wiersz */
-    display: flex;
-    justify-content: space-between; /* nazwa po lewej, przyciski po prawej */
-    align-items: center;
-    padding: 0.6em;
-    gap: 0.5em;
+  .top-bar {
+    background-color: #ffffff;   /* czyste białe, by było ultra-czysto */
+    border-bottom: 2px solid #c8e6c8;  /* delikatna linia odcinająca */
+  }
+  /* ewentualnie możesz głównej zawartości dać lekki odcień */
+  .wrapper {
+    background-color: #fcfcfc;
+  }
+}
+@media (max-width: 400px) {
+  .top-bar .logo span {
+    display: inline !important;
+    font-size: 0.9em;        /* możesz dostosować wielkość czcionki */
+    white-space: nowrap;      /* żeby się nie łamało na nowe linie */
+    margin-left: 0.3em;       /* mały odstęp od ikonki */
+    vertical-align: middle;
   }
 
-  /* 2) Nazwa rośliny – niech rośnie, aby zajęła całą dostępną szerokość */
-  .toc-entry .title,
-  .plant-list-item .title {
-    flex: 1 1 auto;
-  }
-
-  /* 3) Wrapper dla przycisków – ustaw je obok siebie */
-  .toc-entry .actions,
-  .plant-list-item .actions {
-    display: flex;
-    gap: 0.5em;
-    flex-shrink: 0;     /* żeby nie kurczyły się razem z tytułem */
-  }
-
-  /* 4) Jeśli ikony były pod tytułem, usuń im margin-top */
-  .toc-entry .actions > *,
-  .plant-list-item .actions > * {
-    margin-top: 0;
+  /* ewentualnie skurcz ikonę, żeby wszystko się zmieściło */
+  .top-bar .logo img {
+    height: 28px !important;
   }
 }
