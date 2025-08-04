@@ -1074,3 +1074,48 @@ main {
   font-size: 1.1em;
   line-height: 1;
 }
+@media (max-width: 480px) {
+  /* Cały pasek: pionowo, wyśrodkuj */
+  .top-bar {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0.4em 0.6em !important;
+    gap: 0.4em !important;
+  }
+
+  /* Logo na samej górze */
+  .top-bar .logo {
+    margin-bottom: 0.3em !important;
+  }
+
+  /* Linki i lupa: kolumna, wąska szerokość */
+  .main-navbar {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0.3em !important;
+    width: 100% !important;
+  }
+  .main-navbar > a,
+  .top-bar .search-btn {
+    width: auto;              /* pozwala im kurczyć się do treści */
+    padding: 0.35em 0.7em !important;
+    font-size: 0.85em !important;
+    margin: 0 !important;
+  }
+
+  /* Przycisk szukaj trochę niżej */
+  .top-bar .search-btn {
+    margin-top: 0.3em !important;
+  }
+
+  /* Moon-bar pod linkami */
+  .moon-bar {
+    order: 3 !important;
+    width: 100% !important;
+    margin-top: 0.5em !important;
+    padding: 0.3em 0.5em !important;
+    font-size: 0.8em !important;
+  }
+}
