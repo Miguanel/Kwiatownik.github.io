@@ -1074,7 +1074,7 @@ main {
   font-size: 1.1em;
   line-height: 1;
 }
-@media (max-width: 480px) {
+@media (max-width: 520px) {
   /* Cały pasek: pionowo, wyśrodkuj */
   .top-bar {
     display: flex !important;
@@ -1117,5 +1117,36 @@ main {
     margin-top: 0.5em !important;
     padding: 0.3em 0.5em !important;
     font-size: 0.8em !important;
+  }
+}
+@media (max-width: 600px) {
+  /* 1) Kontener pojedynczej pozycji – nadaj mu display:flex */
+  .toc-entry,          /* przykładowa klasa kontenera pozycji */
+  .plant-list-item {    /* lub to co u Ciebie odpowiada za pojedynczy wiersz */
+    display: flex;
+    justify-content: space-between; /* nazwa po lewej, przyciski po prawej */
+    align-items: center;
+    padding: 0.6em;
+    gap: 0.5em;
+  }
+
+  /* 2) Nazwa rośliny – niech rośnie, aby zajęła całą dostępną szerokość */
+  .toc-entry .title,
+  .plant-list-item .title {
+    flex: 1 1 auto;
+  }
+
+  /* 3) Wrapper dla przycisków – ustaw je obok siebie */
+  .toc-entry .actions,
+  .plant-list-item .actions {
+    display: flex;
+    gap: 0.5em;
+    flex-shrink: 0;     /* żeby nie kurczyły się razem z tytułem */
+  }
+
+  /* 4) Jeśli ikony były pod tytułem, usuń im margin-top */
+  .toc-entry .actions > *,
+  .plant-list-item .actions > * {
+    margin-top: 0;
   }
 }
