@@ -1034,3 +1034,43 @@ main {
     border: 1px solid #ddd;
   }
 }
+
+
+
+.main-navbar a,
+.top-bar .search-btn {
+  display: inline-block;
+  padding: 0.45em 0.9em;
+  margin: 0 0.3em;
+  background-color: #f0f8f0;           /* jasny pastelowy zielony */
+  color: #184e10;                      /* ciemna leśna zieleń */
+  border: 1px solid #c8e6c8;           /* delikatna obwódka */
+  border-radius: 0.6em;                /* miękkie, kwiatowe kształty */
+  font-weight: 500;
+  text-decoration: none;
+  transition:
+    background-color 0.25s ease,
+    transform        0.15s ease,
+    box-shadow       0.15s ease;
+}
+
+/* Drobne podniesienie i ciemniejsze tło przy najechaniu */
+.main-navbar a:hover,
+.top-bar .search-btn:hover {
+  background-color: #daf2d8;
+  transform: translateY(-2px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Aktywny / bieżący link – wypełnienie pełne, bardziej nasycony kolor */
+.main-navbar a.active {
+  background-color: #b7e3b7;
+  color: #0f2e05;
+  border-color: #9fcd9f;
+}
+
+/* Ikonka lupki – otoczona w tej samej stylistyce */
+.top-bar .search-btn {
+  font-size: 1.1em;
+  line-height: 1;
+}
