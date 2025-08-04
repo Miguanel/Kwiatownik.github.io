@@ -149,6 +149,7 @@ def lista(category):
 
 @app.route("/szukaj")
 def search():
+    now = datetime.now()
     q = request.args.get("q", "").strip()
     q_lower = q.lower()
     results_names = []
@@ -203,6 +204,7 @@ def search():
         q=q,
         results_names=results_names,
         results_details=results_details,
+        now=now
     )
 
 

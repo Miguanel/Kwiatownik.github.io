@@ -11,8 +11,9 @@
     <script src="/static/js/favs.js"></script>
 </head>
 <body>
+
 <div class="wrapper">
-    <header class="top-bar">
+<header class="top-bar">
         <a href="/" class="logo" style="display:flex;align-items:center;gap:0.7em;text-decoration:none;">
             <img src="{{ url_for('static', filename='img/kwiatownik_logo.png') }}"
                  alt="Kwiatownik"
@@ -21,14 +22,16 @@
             Kwiatownik
         </span>
         </a>
+
         <nav class="main-navbar">
             <a href="/ulubione">Ulubione w ogrodzie</a>
             <a href="/generator_przepisow">Generator przepisów - mam to</a>
             <a href="/kontakt">Kontakt</a>
-            <div class="moon-bar">
+
+        </nav>
+    <div class="moon-bar">
                 📅 {{ now.strftime('%d %B %Y') }} | 🌙 {{ moon_phase }} ({{ moon_percent }}%)
             </div>
-        </nav>
         <button class="search-btn" aria-label="Szukaj roślin" onclick="window.location.href='/szukaj'">🔍</button>
     </header>
 

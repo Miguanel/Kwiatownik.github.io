@@ -53,18 +53,7 @@ body {
     --accent: #37503b;
     --main: #84b282;
 }
-.top-bar {
-    display: flex;
-    align-items: center;
-    background: #fff;
-    padding: 0.6em 1.3em;
-    border-bottom: 1px solid #e0e3e0;
-    box-shadow: 0 1px 8px rgba(0,0,0,0.04);
-    position: sticky;
-    top: 0;
-    z-index: 2000;
-    gap: 1.1em;
-}
+
 
 .logo {
     font-size: 1.6em;
@@ -577,7 +566,8 @@ body.wrapper {
     max-width: 1200px;
     display: flex;
     flex-direction:
-    margin: 0 auto;
+    margin-top: 0;
+  padding-top: 0;
     padding: 1em;
     column;
     }
@@ -911,11 +901,7 @@ main {
   color: #925a00;
   font-weight: 800; outline: none; z-index:2; position:relative;
 }
-// @media (max-width: 900px) {
-//   .tiles-menu { flex-direction: column; align-items: center; gap: 0.92em;}
-//   .tile, .sub-tile { min-width: 145px; padding: 1em 0.9em;}
-//   .sub-tiles { flex-direction: column; gap: 0.65em;}
-// }
+
 
 .moon-bar {
   background-color: #f4f1eb;
@@ -923,4 +909,128 @@ main {
   font-size: 0.95em;
   border-bottom: 1px solid #ccc;
   color: #4b3b2d;
+}
+
+@media (max-width: 600px) {
+  /* 1) Górny pasek: rząd z zawijaniem */
+  .top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    gap: 0.5em;
+  }
+
+  /* 2) Logo – ikona + ukryty tekst */
+  .top-bar .logo span {
+    display: none;
+  }
+  .top-bar .logo img {
+    height: 32px;
+  }
+
+  /* 3) Menu – rząd, centrowanie, kompaktowe linki */
+  .main-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    order: 1;
+    flex: 1 1 auto;
+    justify-content: center;
+  }
+  .main-navbar a {
+    padding: 0.3em 0.6em;
+    font-size: 0.85em;
+  }
+
+  /* 4) Przyciski akcji (np. wyszukiwanie, Kontakt) */
+  .search-btn,
+  .top-bar a[href*="kontakt"] {
+    order: 1;
+    font-size: 1.2em;
+    padding: 0.3em;
+  }
+
+  /* 5) Data i faza Księżyca – pełna szerokość w drugim wierszu */
+  .moon-bar {
+    order: 2;
+    width: 100%;
+    text-align: center;
+    font-size: 0.85em;
+    margin-top: 0.5em;
+    padding: 0.3em 0;
+  }
+}
+
+.wrapper {
+  padding: 0;
+  margin: 0;    /* możesz zostawić auto-centrowanie, ale bez bocznych odstepów */
+  max-width: none;   /* jeśli wcześniej była ograniczona szerokość */
+}
+
+
+/* 2) Wrapper bez bocznych odsunięć */
+.wrapper {
+  margin: 0;
+  padding: 0;
+  max-width: none;
+}
+
+
+/* 4) Upewnij się, że moon-bar nie wypycha paska */
+.moon-bar {
+  margin: 0;
+  padding: 0.5em 1em;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  max-width: none;
+}
+@media (max-width: 600px) {
+  .top-bar {
+    display: grid !important;
+    /* trzy kolumny: logo / nawigacja / lupa */
+    grid-template-columns: auto 1fr auto !important;
+    /* dwa wiersze: linki+lupa oraz moon-bar */
+    grid-template-rows: auto auto !important;
+    grid-template-areas:
+      "logo nav  search"
+      ".    moon  ." !important;
+    align-items: center;
+    padding: 0.6em 1rem;
+    gap: 0.5em 1em;
+  }
+
+  .top-bar .logo {
+    grid-area: logo;
+  }
+
+  .top-bar .main-navbar {
+    grid-area: nav;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+  }
+
+  .top-bar .search-btn {
+    grid-area: search;
+    justify-self: end;
+    align-self: center;
+    font-size: 1.2em;
+  }
+
+  .top-bar .moon-bar {
+    grid-area: moon;
+    justify-self: start;   /* pod linkami, przy lewej krawędzi kolumny */
+    width: 100%;           /* wypełni szerokość środkowej kolumny */
+    margin-top: 0.5em;
+    padding: 0.4em 0.6em;
+    background: #f4f1eb;
+    font-size: 0.9em;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+  }
 }
