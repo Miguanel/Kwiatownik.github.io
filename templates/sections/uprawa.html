@@ -1,117 +1,118 @@
 <h2>🌱 Uprawa</h2>
 <ul class="kwiatownik-uprawa-box">
-  {% if data.uprawa.gleba %}
+    {% if data.uprawa.gleba %}
     <li><span class="up-label">Gleba:</span> {{ data.uprawa.gleba }}</li>
-  {% endif %}
-  {% if data.uprawa.stanowisko %}
+    {% endif %}
+    {% if data.uprawa.stanowisko %}
     <li><span class="up-label">Stanowisko:</span> {{ data.uprawa.stanowisko }}</li>
-  {% endif %}
-  {% if data.uprawa.wysiew %}
+    {% endif %}
+    {% if data.uprawa.wysiew %}
     <li><span class="up-label">Wysiew:</span> {{ data.uprawa.wysiew }}</li>
-  {% endif %}
-  {% if data.uprawa.zbior %}
+    {% endif %}
+    {% if data.uprawa.zbior %}
     <li><span class="up-label">Zbiór:</span> {{ data.uprawa.zbior }}</li>
-  {% endif %}
+    {% endif %}
 </ul>
 
 {% if data.kalendarz %}
-<section id="sekcja-kalendarz">
-    <h3>📆 Kalendarz zabiegów</h3>
+<div class="calendar-wrapper">
+    <section id="sekcja-kalendarz">
+        <h3>📆 Kalendarz zabiegów</h3>
 
-    {% set legenda_ikony = {
-    "ekstrakcja": "🧪", "pielenie": "🧤", "przesadzanie": "🧱", "siew": "🌱",
-    "zbior_ksiezyc": "🌕", "zbior_deszcz": "💧", "zbior_ziela": "🍃",
-    "kwitnienie": "🌸", "miodobranie": "🐝", "zbior_kwiatow": "🌼", "zbior_nasion": "🌰",
-    "sadzenie": "🌿", "zbior": "🧺", "cięcie": "✂️", "nawożenie": "",
-    "zabezpieczanie": "🧯", "ochrona": "🛡️", "zbior_lisci": "🍂", "rozmnazanie": "🌾"
-    } %}
+        {% set legenda_ikony = {
+        "ekstrakcja": "🧪", "pielenie": "🧤", "przesadzanie": "🧱", "siew": "🌱",
+        "zbior_ksiezyc": "🌕", "zbior_deszcz": "💧", "zbior_ziela": "🍃",
+        "kwitnienie": "🌸", "miodobranie": "🐝", "zbior_kwiatow": "🌼", "zbior_nasion": "🌰",
+        "sadzenie": "🌿", "zbior": "🧺", "cięcie": "✂️", "nawożenie": "",
+        "zabezpieczanie": "🧯", "ochrona": "🛡️", "zbior_lisci": "🍂", "rozmnazanie": "🌾"
+        } %}
 
-    <table class="kalendarz-tabela">
-        <thead>
-        <tr>
-            <th>Zabieg</th>
-            {% for m in range(1, 13) %}
-            <th class="{% if m == current_month %}current-month{% endif %}">
-                {{ ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"][m-1] }}
-            </th>
-            {% endfor %}
-        </tr>
-        </thead>
-        <tbody>
-        {% for zabieg, dane in data.kalendarz.items() %}
-        <tr>
-            <td>
-                {{ legenda_ikony.get(zabieg, "?") }} {{ zabieg.replace("_", " ")|capitalize }}
-            </td>
-            {% for m in range(1, 13) %}
-            <td class="
+        <table class="kalendarz-tabela">
+            <thead>
+            <tr>
+                <th>Zabieg</th>
+                {% for m in range(1, 13) %}
+                <th class="{% if m == current_month %}current-month{% endif %}">
+                    {{ ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"][m-1] }}
+                </th>
+                {% endfor %}
+            </tr>
+            </thead>
+            <tbody>
+            {% for zabieg, dane in data.kalendarz.items() %}
+            <tr>
+                <td>
+                    {{ legenda_ikony.get(zabieg, "?") }} {{ zabieg.replace("_", " ")|capitalize }}
+                </td>
+                {% for m in range(1, 13) %}
+                <td class="
               {% if m in dane.miesiące %} aktywny {% endif %}
               {% if m == current_month %} current {% endif %}
             ">
-                {% if m in dane.miesiące %}✔️{% endif %}
-            </td>
-            {% endfor %}
-        </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-
-
-    <div class="kalendarz-legenda">
-        <h3>📖 Legenda zabiegów</h3>
-        {% for zabieg, dane in data.kalendarz.items() %}
-        <div class="legenda-zabieg {% if current_month in dane.miesiące %}aktywny-teraz{% endif %}">
-            <span class="ikona">{{ legenda_ikony.get(zabieg, "?") }}</span>
-            <strong>{{ zabieg.replace("_", " ")|capitalize }}</strong>
-
-            <ul style="margin-top:0.5em;">
-                {% if dane.typ %}
-                <li><b>Typ:</b> {{ dane.typ }}</li>
-                {% endif %}
-
-                {% if dane.zalecana_faza_ksiezyca %}
-                <li><b>Faza księżyca:</b> {{ dane.zalecana_faza_ksiezyca }}</li>
-                {% endif %}
-
-                {% if dane.czas_dnia %}
-                <li><b>Pora dnia:</b> {{ dane.czas_dnia }}</li>
-                {% endif %}
-
-                {% if dane.intensywność %}
-                <li><b>Intensywność:</b> {{ dane.intensywność }}</li>
-                {% endif %}
-
-                {% if dane.miesiące %}
-                <li><b>Miesiące:</b>
-                    {{ dane.miesiące | map('string') | join(', ') }}
-                </li>
-                {% endif %}
-
-                {% if dane.czynności %}
-                <li><b>Czynność:</b> {{ dane.czynności }}</li>
-                {% endif %}
-
-                {% if dane.uwagi %}
-                <li><b>Uwagi:</b> {{ dane.uwagi }}</li>
-                {% endif %}
-
-
-            </ul>
-
-            {% if dane.źródło %}
-            <p><small><b>Źródła:</b>
-                {% if dane.źródło is string %}
-                <a href="{{ dane.źródło }}" target="_blank">[link]</a>
-                {% elif dane.źródło is iterable %}
-                {% for z in dane.źródło %}
-                <a href="{{ z }}" target="_blank">[{{ loop.index }}]</a>{% if not loop.last %}, {% endif %}
+                    {% if m in dane.miesiące %}✔️{% endif %}
+                </td>
                 {% endfor %}
-                {% endif %}
-            </small></p>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+</div>
+
+<div class="kalendarz-legenda">
+    <h3>📖 Legenda zabiegów</h3>
+    {% for zabieg, dane in data.kalendarz.items() %}
+    <div class="legenda-zabieg {% if current_month in dane.miesiące %}aktywny-teraz{% endif %}">
+        <span class="ikona">{{ legenda_ikony.get(zabieg, "?") }}</span>
+        <strong>{{ zabieg.replace("_", " ")|capitalize }}</strong>
+
+        <ul style="margin-top:0.5em;">
+            {% if dane.typ %}
+            <li><b>Typ:</b> {{ dane.typ }}</li>
             {% endif %}
-        </div>
-        {% endfor %}
+
+            {% if dane.zalecana_faza_ksiezyca %}
+            <li><b>Faza księżyca:</b> {{ dane.zalecana_faza_ksiezyca }}</li>
+            {% endif %}
+
+            {% if dane.czas_dnia %}
+            <li><b>Pora dnia:</b> {{ dane.czas_dnia }}</li>
+            {% endif %}
+
+            {% if dane.intensywność %}
+            <li><b>Intensywność:</b> {{ dane.intensywność }}</li>
+            {% endif %}
+
+            {% if dane.miesiące %}
+            <li><b>Miesiące:</b>
+                {{ dane.miesiące | map('string') | join(', ') }}
+            </li>
+            {% endif %}
+
+            {% if dane.czynności %}
+            <li><b>Czynność:</b> {{ dane.czynności }}</li>
+            {% endif %}
+
+            {% if dane.uwagi %}
+            <li><b>Uwagi:</b> {{ dane.uwagi }}</li>
+            {% endif %}
+
+
+        </ul>
+
+        {% if dane.źródło %}
+        <p><small><b>Źródła:</b>
+            {% if dane.źródło is string %}
+            <a href="{{ dane.źródło }}" target="_blank">[link]</a>
+            {% elif dane.źródło is iterable %}
+            {% for z in dane.źródło %}
+            <a href="{{ z }}" target="_blank">[{{ loop.index }}]</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+            {% endif %}
+        </small></p>
+        {% endif %}
     </div>
+    {% endfor %}
+</div>
 </section>
 {% endif %}
 </section>
@@ -252,6 +253,21 @@
   min-width: 110px;
   font-weight: 600;
   color: #4c6e4c;
+}
+/* umożliwia poziome przewijanie kalendarza */
+.calendar-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* płynne na iOS */
+  cursor: grab;
+  margin: 1em 0;
+  padding-bottom: 0.3em;            /* miejsce na pasek przewijania */
+}
+.calendar-wrapper:active {
+  cursor: grabbing;
+}
+/* wymuść min. szerokość, żeby kolumny się nie ścieśniały */
+.kalendarz-tabela {
+  min-width: 800px;      /* np. 12 kolumn × ~70px – dostosuj do swojego layoutu */
 }
 
 </style>
