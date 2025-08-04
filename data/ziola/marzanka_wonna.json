@@ -619,6 +619,34 @@
     ]
   },
   "przepisy_kulinarne": {
+    "Nalewka z ziela marzanki wonnej": {
+    "typ": "nalewka",
+    "skladniki": [
+      {
+        "nazwa": "ziele marzanki wonnej",
+        "ilość": "20 g",
+        "stan": "suszone"
+      }
+    ],
+    "alkohol": {
+      "rodzaj": "wódka",
+      "zawartość_alkoholu": "40 %"
+    },
+    "proporcja": "1:8",
+    "sposob_przygotowania": [
+      "Zalać 160 ml wódki w słoju z 20 g ziela.",
+      "Macerować 7 dni w ciemnym miejscu.",
+      "Przecedzić, przechowywać w chłodnym miejscu."
+    ],
+    "czas_maceracji": "7 dni",
+    "dawkowanie": "5 ml 2 razy dziennie wieczorem",
+    "działanie": "uspokajające, nasenne",
+    "uwagi": "nie stosować z lekami nasennymi",
+    "źródła": [
+      "Galium odoratum L., Herbal Drugs and Phytopharmaceuticals",
+      "Zielnik Bartoszewicza (1919)"
+    ]
+  },
     "napój_majowy_maibowle": [
       {
         "skladniki": [

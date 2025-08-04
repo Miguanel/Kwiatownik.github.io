@@ -513,6 +513,35 @@
     }
   },
   "przepisy_kulinarne": {
+    "Nalewka z korzenia kozłka lekarskiego (żankiel zwyczajny)": {
+    "typ": "nalewka",
+    "skladniki": [
+      {
+        "nazwa": "korzeń kozłka lekarskiego",
+        "ilość": "50 g",
+        "stan": "suszone"
+      }
+    ],
+    "alkohol": {
+      "rodzaj": "spiritus dilutus 70 %",
+      "rozcieńczenie": "1:1 do 35 %"
+    },
+    "proporcja": "1:5",
+    "sposob_przygotowania": [
+      "Korzeń: zmiażdżyć, zalać 200 ml spirytusu 70 %.",
+      "Po 24 h dodać 200 ml wody dla uzyskania 35 %.",
+      "Macerować 14 dni w ciemnym miejscu, potrząsając codziennie.",
+      "Przecedzić, przelać do ciemnych butelek."
+    ],
+    "czas_maceracji": "14 dni",
+    "dawkowanie": "5 ml wieczorem, maks. 15 ml na dobę",
+    "działanie": "uspokajające, nasenne",
+    "uwagi": "unikać stosowania z innymi lekami sedatywnymi",
+    "źródła": [
+      "Commission E Monograph: Valeriana officinalis",
+      "Herbal Medicines, British Herbal Compendium"
+    ]
+  },
     "zupa_zielona_z_żankielem": {
       "nazwa": "zupa zielona z żankielem",
       "skladniki": [

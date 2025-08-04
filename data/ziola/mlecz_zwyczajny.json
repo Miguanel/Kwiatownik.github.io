@@ -325,6 +325,35 @@
     ]
   },
   "przepisy_kulinarne": {
+   "Nalewka z korzenia mniszka zwyczajnego":{
+    "typ": "nalewka",
+    "skladniki": [
+      {
+        "nazwa": "korzeń mniszka zwyczajnego",
+        "ilość": "50 g",
+        "stan": "suszone, młode"
+      }
+    ],
+    "alkohol": {
+      "rodzaj": "spirytus 60 %",
+      "rozcieńczenie": "1:1 do 30 %"
+    },
+    "proporcja": "1:5",
+    "sposob_przygotowania": [
+      "Korzeń: pokruszyć, zalać 200 ml spirytusu.",
+      "Po 24 h rozcieńczyć wodą do 30 %.",
+      "Macerować 14 dni, codziennie wstrząsać.",
+      "Przecedzić i rozlać do butelek."
+    ],
+    "czas_maceracji": "14 dni",
+    "dawkowanie": "10 ml 3 razy dziennie przed posiłkiem",
+    "działanie": "moczopędne, oczyszczające wątrobę",
+    "uwagi": "nie stosować przy kolce żółciowej",
+    "źródła": [
+      "Commission E Monograph: Taraxacum officinale",
+      "Herbal Medicines, British Herbal Compendium"
+    ]
+  },
     "sałatka_wiosenna_z_mniszka": [
       {
         "skladniki": [

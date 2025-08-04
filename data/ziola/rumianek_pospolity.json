@@ -782,6 +782,34 @@
     }
   },
   "przepisy_kulinarne": {
+    "Nalewka z koszyczków rumianku pospolitego": {
+    "typ": "nalewka",
+    "skladniki": [
+      {
+        "nazwa": "koszyczki rumianku pospolitego",
+        "ilość": "50 g",
+        "stan": "świeże, suche"
+      }
+    ],
+    "alkohol": {
+      "rodzaj": "wódka",
+      "zawartość_alkoholu": "38 %"
+    },
+    "proporcja": "1:6",
+    "sposob_przygotowania": [
+      "Koszyczki: lekko rozdrobnić.",
+      "Zalać 300 ml wódki, macerować 10 dni przy codziennym wstrząsaniu.",
+      "Przecedzić przez gazę, butelkować."
+    ],
+    "czas_maceracji": "10 dni",
+    "dawkowanie": "10 ml 2 razy dziennie",
+    "działanie": "przeciwskurczowe, uspokajające",
+    "uwagi": "bezpieczna dla dzieci powyżej 12 lat",
+    "źródła": [
+      "Commission E Monograph: Matricaria chamomilla",
+      "Herbal Medicines, British Herbal Compendium"
+    ]
+  },
     "herbatka_rumiankowa": {
       "skladniki": [
         "1 łyżeczka suszonych kwiatów rumianku pospolitego",

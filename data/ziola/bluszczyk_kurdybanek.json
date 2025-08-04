@@ -368,6 +368,33 @@
     ]
   },
   "przepisy_kulinarne": {
+    "Nalewka z ziela bluszczu kurdybańka": {
+    "typ": "nalewka",
+    "skladniki": [
+      {
+        "nazwa": "ziele bluszczu kurdybańka",
+        "ilość": "50 g",
+        "stan": "świeże lub suszone"
+      }
+    ],
+    "alkohol": {
+      "rodzaj": "wódka",
+      "zawartość_alkoholu": "40 %"
+    },
+    "proporcja": "1:4",
+    "sposob_przygotowania": [
+      "Ziele: drobno posiekać lub złamać.",
+      "Zalać 200 ml wódki, macerować 10 dni przy codziennym wstrząsaniu.",
+      "Przecedzić, rozlać do butelek."
+    ],
+    "czas_maceracji": "10 dni",
+    "dawkowanie": "10 ml 2–3 razy dziennie",
+    "działanie": "wykrztuśne, rozkurczowe",
+    "uwagi": "stosować nie dłużej niż 2 tygodnie",
+    "źródła": [
+      "Glechoma hederacea L., Herbal Drugs and Phytopharmaceuticals",
+      "Zielnik Bartoszewicza (1919)"
+    ]},
     "swieze_dodatki": [
       {
         "skladniki": [

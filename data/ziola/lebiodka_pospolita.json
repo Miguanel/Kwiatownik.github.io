@@ -407,6 +407,34 @@
     ]
   },
   "przepisy_kulinarne": {
+    "Nalewka z ziela lebiodki pospolitej": {
+    "typ": "nalewka",
+    "skladniki": [
+      {
+        "nazwa": "ziele lebiodki pospolitej",
+        "ilość": "30 g",
+        "stan": "świeże lub suszone"
+      }
+    ],
+    "alkohol": {
+      "rodzaj": "wódka",
+      "zawartość_alkoholu": "38–40 %"
+    },
+    "proporcja": "1:5",
+    "sposob_przygotowania": [
+      "Posiekać ziele, zalać 150 ml wódki.",
+      "Macerować 14 dni, wstrząsając co drugi dzień.",
+      "Przecedzić, butelkować."
+    ],
+    "czas_maceracji": "14 dni",
+    "dawkowanie": "10 ml 2 razy dziennie przed posiłkiem",
+    "działanie": "przeciwbakteryjne, odkażające",
+    "uwagi": "nie dla kobiet w ciąży",
+    "źródła": [
+      "EMA Monograph: Origanum vulgare",
+      "Zielnik Szafera (1829)"
+    ]
+  },
     "swieze_dodatki_do_salatki": [
       {
         "skladniki": [

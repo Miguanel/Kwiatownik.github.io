@@ -471,6 +471,35 @@
     }
   },
   "przepisy_kulinarne": {
+    "Nalewka z ziela skrzypu polnego": {
+    "typ": "nalewka",
+    "skladniki": [
+      {
+        "nazwa": "ziele skrzypu polnego",
+        "ilość": "50 g",
+        "stan": "suszone, młode"
+      }
+    ],
+    "alkohol": {
+      "rodzaj": "wódka",
+      "zawartość_alkoholu": "40 %"
+    },
+    "proporcja": "1:5",
+    "sposob_przygotowania": [
+      "Ziele: krótko zagotować w niewielkiej ilości wody (odwar), ostudzić.",
+      "Przelać odwar do słoja, uzupełnić wódką do 250 ml.",
+      "Macerować 7 dni, codziennie wstrząsać.",
+      "Przecedzić, przelać do butelek."
+    ],
+    "czas_maceracji": "7 dni",
+    "dawkowanie": "10 ml 2 razy dziennie",
+    "działanie": "moczopędne, remineralizujące",
+    "uwagi": "nie stosować w niewydolności nerek",
+    "źródła": [
+      "Commission E Monograph: Equiseti herba",
+      "Zielnik Szafera (1829)"
+    ]
+  },
     "wiosenne_pędy_blanszowane": {
       "skladniki": [
         "Młode, świeże pędy wiosenne skrzypu (najlepiej do 15 cm, nieotwarte kłosy)",
