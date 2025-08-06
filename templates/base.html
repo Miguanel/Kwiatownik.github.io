@@ -55,7 +55,7 @@
 const allPlantsData = {{ all_plants|default([])|tojson|safe }};
 
 
-<!--let searchInputsDiv = document.getElementById("search-inputs");-->
+let searchInputsDiv = document.getElementById("search-inputs");
 // Funkcja walidacji frazy
 function validQuery(val) {
     return val.length >= 3 && val.length <= 120;

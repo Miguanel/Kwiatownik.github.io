@@ -4,614 +4,396 @@
 
 <h2>Znajdź przepis według składników i efektów</h2>
 <div class="search-recipes-panel">
-    <form id="recipeQueryForm" autocomplete="off" onsubmit="return false;">
-        <div id="search-inputs"></div>
-        <div style="margin-top: 0.9em; display: flex; gap: 1em;">
-            <button type="button" class="export-pdf-btn" onclick="exportResultsToPDF()">Export wyników do PDF</button>
-            <button type="button" class="clear-all-btn" onclick="clearInputs()">Wyczyść wszystko</button>
-        </div>
-    </form>
+  <form id="recipeQueryForm" autocomplete="off" onsubmit="return false;">
+    <div id="search-inputs"></div>
+    <button type="button" id="add-input-btn" class="btn-add">➕ Dodaj składnik</button>
+    <div class="actions-row">
+      <button type="button" id="open-pdf-btn" class="export-pdf-btn">Export wyników do PDF</button>
+      <button type="button" class="clear-all-btn">Wyczyść wszystko</button>
+    </div>
+  </form>
 </div>
 
 <section id="results-section">
-    <div id="searchResults"></div>
+  <div id="searchResults"><i>Wpisz co najmniej jedno słowo kluczowe (3–120 znaków)…</i></div>
 </section>
+
 <div id="pdf-export-dialog" style="display:none;">
-    <div id="pdf-dialog-bg"></div>
-    <form id="pdf-dialog-form">
-        <h3>Eksport wyników do PDF – opcje</h3>
-        <label style="display:flex;align-items:center;gap:0.8em;margin-bottom:1.1em;">
-            <input type="checkbox" id="pdf-include-highlights" checked>
-            <span>Kolorowe podświetlenia wyszukiwanych fraz</span>
-        </label>
-        <label>
-            Skalowanie czcionki w PDF:<br>
-            <input type="number" id="pdf-font-scale" value="1.0" step="0.1" min="0.5" max="1.5"
-                   style="width:4.5em;font-size:1.15em;margin-top:0.2em;">
-            <span style="font-size:0.99em;color:#777;">(0.5–1.5, domyślnie 1.0)</span>
-        </label>
-        <div style="margin-top:1.5em;display:flex;gap:1.3em;">
-            <button type="submit" class="export-pdf-btn" style="margin-right:0;">Eksportuj PDF</button>
-            <button type="button" class="clear-all-btn" style="background:#bbb;color:#333;" onclick="hidePdfDialog()">
-                Anuluj
-            </button>
-        </div>
-    </form>
+  <div id="pdf-dialog-bg"></div>
+  <form id="pdf-dialog-form">
+    <h3>Eksport wyników do PDF – opcje</h3>
+    <label><input type="checkbox" id="pdf-include-highlights" checked> Kolorowe podświetlenia wyszukiwanych fraz</label>
+    <label>Skalowanie czcionki w PDF:<br>
+      <input type="number" id="pdf-font-scale" value="1.0" step="0.1" min="0.5" max="1.5">
+      <span>(0.5–1.5, domyślnie 1.0)</span>
+    </label>
+    <div class="pdf-actions">
+      <button type="submit" class="export-pdf-btn">Eksportuj PDF</button>
+      <button type="button" class="clear-all-btn" onclick="hidePdfDialog()">Anuluj</button>
+    </div>
+  </form>
 </div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <script>
-const allPlants = {{ all_plants|tojson|safe }};
-let searchInputsDiv = document.getElementById("search-inputs");
-
-
-function validQuery(val) {
-    return val.length >= 3 && val.length <= 120;
-}
-
-// Zbierz wszystkie przepisy
-function gatherAllRecipes() {
-    let out = [];
-    allPlants.forEach(plant => {
-        ["przepisy_medyczne", "przepisy_kulinarne"].forEach(type => {
-            let group = plant.data[type] || {};
-            Object.entries(group).forEach(([nazwa, przepis]) => {
-                out.push({
-                    typ: type.includes("medyczne") ? "medyczny" : "kulinarny",
-                    plant: plant,
-                    nazwa: nazwa,
-                    przepis: przepis
-                });
-            });
-        });
-        let zinnymi = plant.data.przepisy_z_innymi_roslinami || {};
-        Object.entries(zinnymi).forEach(([podtyp, arr]) => {
-            arr.forEach(przepis => {
-                out.push({
-                    typ: podtyp == "medyczne" ? "medyczny-z-innych" : "kulinarny-z-innych",
-                    plant: plant,
-                    nazwa: przepis.nazwa,
-                    przepis: przepis
-                });
-            });
-        });
-    });
-    return out;
-}
-const ALL_RECIPES = gatherAllRecipes();
-
-// Automatyczne inputy z glow tylko na focusie
-function addInputField(focusNow = false, returnFocusTo = null) {
-    const input = document.createElement("input");
-    input.type = "text";
-    input.className = "recipe-search-input";
-    input.placeholder = "Wpisz coś…";
-
-    input.addEventListener("input", (e) => {
-        handleInputFields(e);
-    });
-
-    searchInputsDiv.appendChild(input);
-
-    if (focusNow) {
-        setTimeout(() => input.focus(), 10);
-    }
-
-    // Jeśli nowy input został dodany – wracamy do poprzedniego
-    if (returnFocusTo) {
-        setTimeout(() => returnFocusTo.focus(), 10);
-    }
-}
-
-function handleFocus(e) {
-    const inputs = Array.from(document.querySelectorAll('.recipe-search-input'));
-    const index = inputs.indexOf(e.target);
-    if (index === 1) { // drugi input
-        maybeAddNextInput(index);
-    }
-    updateGlow();
-}
-function maybeAddNextInput(index) {
-    const inputs = Array.from(document.querySelectorAll('.recipe-search-input'));
-    if (inputs.length < 6 && index === inputs.length - 1) {
-        addInputField();
-    }
-}
-function updateGlow() {
-    document.querySelectorAll('.recipe-search-input').forEach(inp => inp.classList.remove('glow'));
-    let active = document.activeElement;
-    if (active && active.classList.contains('recipe-search-input')) active.classList.add('glow');
-}
-
-function handleInputFields(e) {
-    const inputs = Array.from(document.querySelectorAll(".recipe-search-input"));
-
-    // Dodaj nowy tylko jeśli ostatni input jest aktualnie edytowany i ma min 3 znaki
-    const last = inputs[inputs.length - 1];
-    if (e.target === last && validQuery(last.value) && inputs.length < 6) {
-        addInputField(false, e.target);
-    }
-}
-
-
-
-function clearInputs() {
-    searchInputsDiv.innerHTML = '';
-    addInputField(true);
-    triggerSearch();
-}
-
-// Kolorowe podświetlanie fraz
-function highlightMultiple(text, queries) {
-    let colors = ["#fceb94", "#a3e2e6", "#b2ffb6", "#ffb4b4", "#d1c3f7", "#ffd1b3"];
-    queries.forEach((q, idx) => {
-        if(q.length > 0) {
-            let rgx = new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), "gi");
-            text = text.replace(rgx, match => `<span style="background:${colors[idx % colors.length]};color:#222;border-radius:4px;padding:0 0.13em;">${match}</span>`);
-        }
-    });
-    return text;
-}
-function formatTitle(rawTitle) {
-    const withSpaces = rawTitle.replaceAll('_', ' ');
-    return withSpaces.charAt(0).toUpperCase() + withSpaces.slice(1);
-}
-// Wyniki w eleganckiej sekcji
-function triggerSearch() {
-    let queries = Array.from(document.querySelectorAll('.recipe-search-input'))
-        .map(e => e.value.trim().toLowerCase())
-        .filter(validQuery);
-
-    let resultsDiv = document.getElementById("searchResults");
-    let resultsTitle = document.querySelector(".results-title");
-    if(queries.length === 0) {
-        resultsDiv.innerHTML = "<i>Wpisz co najmniej jedno słowo kluczowe (3–120 znaków)…</i>";
-        if(resultsTitle) resultsTitle.style.display = "none";
-        return;
-    }
-    let found = ALL_RECIPES.filter(({ przepis }) => {
-      return queries.every(q =>
-        (Array.isArray(przepis.skladniki) &&
-          przepis.skladniki.some(s => typeof s === "string" && s.toLowerCase().includes(q))) ||
-
-        (Array.isArray(przepis.wlasciwosci) &&
-          przepis.wlasciwosci.some(w => typeof w === "string" && w.toLowerCase().includes(q))) ||
-
-        (Array.isArray(przepis.cechy) &&
-          przepis.cechy.some(c => typeof c === "string" && c.toLowerCase().includes(q))) ||
-
-        (typeof przepis.zastosowanie === "string" &&
-          przepis.zastosowanie.toLowerCase().includes(q)) ||
-
-        (typeof przepis.sposob_przygotowania === "string" &&
-          przepis.sposob_przygotowania.toLowerCase().includes(q)) ||
-
-        (typeof przepis.nazwa === "string" &&
-          przepis.nazwa.toLowerCase().includes(q))
-      );
-    });
-
-    if(found.length === 0) {
-        resultsDiv.innerHTML = "<div style='margin-top:1.5em;color:#c43;font-weight:bold;'>Brak przepisów spełniających wszystkie warunki.</div>";
-        if(resultsTitle) resultsTitle.style.display = "";
-        return;
-    }
-    if(resultsTitle) resultsTitle.style.display = "";
-    let html = `<ul class="search-results">`;
-    found.forEach(({typ, plant, nazwa, przepis}) => {
-        html += `
-        <li class="result-item">
-            <div class="plant-title">
-                <a href="/${plant.category}/${plant.slug}">${plant.name}</a>
-                <span class="latin">(${plant.latin})</span>
-                <span class="przepis-type">${typ.replace('-',' ')}</span>
-            </div>
-            <div class="przepis-title">${highlightMultiple(formatTitle(nazwa), queries)}</div>
-
-            <div class="przepis-content">
-                <b>Składniki:</b>
-                <ul>${(przepis.skladniki||[]).map(s => `<li>${highlightMultiple(s, queries)}</li>`).join('')}</ul>
-                ${przepis.sposob_przygotowania ? `<b>Sposób przygotowania:</b> <div>${highlightMultiple(przepis.sposob_przygotowania, queries)}</div>` : ''}
-                ${przepis.cechy ? `<b>Cechy:</b> <ul>${(przepis.cechy||[]).map(c=>`<li>${highlightMultiple(c, queries)}</li>`).join('')}</ul>` : ''}
-                ${przepis.wlasciwosci ? `<b>Właściwości:</b> <ul>${(przepis.wlasciwosci||[]).map(w=>`<li>${highlightMultiple(w, queries)}</li>`).join('')}</ul>` : ''}
-                ${przepis.zastosowanie ? `<b>Zastosowanie:</b> <div>${highlightMultiple(przepis.zastosowanie, queries)}</div>` : ''}
-                ${przepis.dawkowanie ? `<b>Dawkowanie:</b> <div>${highlightMultiple(przepis.dawkowanie, queries)}</div>` : ''}
-            </div>
-        </li>
-        `;
-    });
-    html += `</ul>`;
-    resultsDiv.innerHTML = html;
-}
-
-// Eksport do PDF zachowujący wygląd
-function exportResultsToPDF() {
-    // Zamiast eksportować od razu, pokaż dialog!
-    let dialog = document.getElementById('pdf-export-dialog');
-    if (!dialog) return;
-    let resultsSection = document.getElementById('results-section');
-    if (!resultsSection || resultsSection.querySelectorAll('.result-item').length === 0) {
-        alert("Brak wyników do eksportu!");
-        return;
-    }
-    // Zresetuj wartości
-    document.getElementById('pdf-include-highlights').checked = true;
-    document.getElementById('pdf-font-scale').value = 1.0;
-    dialog.style.display = "flex";
-    // Focus na pierwszym
-    setTimeout(() => document.getElementById('pdf-include-highlights').focus(), 30);
-    // Zablokuj przewijanie strony pod spodem
-    document.body.style.overflow = "hidden";
-}
-
-// Obsługa dialogu i eksportu PDF z logo
-document.getElementById('pdf-dialog-form').onsubmit = function(e) {
-    e.preventDefault();
-    hidePdfDialog();
-    // Pobierz opcje
-    let highlights = document.getElementById('pdf-include-highlights').checked;
-    let scale = parseFloat(document.getElementById('pdf-font-scale').value.replace(",", "."));
-    if (isNaN(scale) || scale < 0.5) scale = 0.5;
-    if (scale > 1.5) scale = 1.5;
-
-    // Tworzymy tymczasowy klon z odpowiednimi modyfikacjami
-    let section = document.getElementById('results-section');
-    let clone = section.cloneNode(true);
-
-    // --- DODAJ BLOK Z LOGO + NAZWĄ ---
-    let logoDiv = document.createElement('div');
-    logoDiv.style.display = 'flex';
-    logoDiv.style.alignItems = 'center';
-    logoDiv.style.gap = '1.1em';
-    logoDiv.style.marginBottom = '1.6em';
-    logoDiv.style.marginTop = '0.4em';
-    logoDiv.innerHTML = `
-        <img src="/static/img/kwiatownik_logo.png" alt="Kwiatownik" style="height:54px;width:auto;display:inline;">
-        <span style="font-size:2.3em;font-weight:bold;color:#184e10;font-family:'Inter',Arial,sans-serif;letter-spacing:0.01em;">Kwiatownik</span>
-    `;
-    clone.insertBefore(logoDiv, clone.firstChild);
-
-    // --- USUŃ tytuł "Wyniki wyszukiwania" z PDF ---
-    clone.querySelectorAll('.results-title').forEach(el => el.remove());
-
-    // Podświetlenia: usuń jeśli wyłączone (zamień span na czysty tekst)
-    if (!highlights) {
-        clone.querySelectorAll('span').forEach(s => {
-            if (s.style.background && s.style.background.startsWith('rgb')) {
-                let txt = document.createTextNode(s.textContent);
-                s.parentNode.replaceChild(txt, s);
-            }
-            if (s.style.background && s.style.background.match(/^#(fceb94|a3e2e6|b2ffb6|ffb4b4|d1c3f7|ffd1b3)/i)) {
-                let txt = document.createTextNode(s.textContent);
-                s.parentNode.replaceChild(txt, s);
-            }
-        });
-    }
-    // Zwiększ/zmniejsz font-size w wynikach
-    let base = 1.01 * scale;
-    let title = 1.17 * scale;
-    let subtitle = 1.09 * scale;
-    clone.querySelectorAll('.result-item').forEach(card => {
-        card.style.fontSize = base + "em";
-        let t = card.querySelector('.plant-title');
-        if (t) t.style.fontSize = title + "em";
-        let s = card.querySelector('.przepis-title');
-        if (s) s.style.fontSize = subtitle + "em";
-    });
-
-    // Ustaw skalowanie całości (np. marginesy też)
-    clone.style.fontSize = (1.0 * scale) + "em";
-
-    // Usuń przyciski, jeśli jakieś się skopiowały (niepotrzebne w PDF)
-    clone.querySelectorAll('button,.export-pdf-btn,.clear-all-btn').forEach(btn => btn.style.display = "none");
-
-    // Eksport przez html2pdf z aktualną skalą
-    let opt = {
-        margin: 0.18 * scale,
-        filename: 'przepisy-wyniki.pdf',
-        image: { type: 'jpeg', quality: 0.97 },
-        html2canvas: { scale: 2.2, backgroundColor: null },
-        jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
-    };
-    html2pdf().set(opt).from(clone).save();
-};
-
-function hidePdfDialog() {
-    document.getElementById('pdf-export-dialog').style.display = "none";
-    document.body.style.overflow = "";
-}
-
-// Obsługa dialogu i eksportu
-document.getElementById('pdf-dialog-form').onsubmit = function(e) {
-    e.preventDefault();
-    hidePdfDialog();
-    // Pobierz opcje
-    let highlights = document.getElementById('pdf-include-highlights').checked;
-    let scale = parseFloat(document.getElementById('pdf-font-scale').value.replace(",", "."));
-    if(isNaN(scale) || scale < 0.5) scale = 0.5;
-    if(scale > 1.5) scale = 1.5;
-
-    // Tworzymy tymczasowy klon z odpowiednimi modyfikacjami
-    let section = document.getElementById('results-section');
-    let clone = section.cloneNode(true);
-
-    // Podświetlenia: usuń jeśli wyłączone (zamień span na czysty tekst)
-    if(!highlights) {
-        clone.querySelectorAll('span').forEach(s=>{
-            if(s.style.background && s.style.background.startsWith('rgb')) {
-                let txt = document.createTextNode(s.textContent);
-                s.parentNode.replaceChild(txt, s);
-            }
-            if(s.style.background && s.style.background.match(/^#(fceb94|a3e2e6|b2ffb6|ffb4b4|d1c3f7|ffd1b3)/i)) {
-                let txt = document.createTextNode(s.textContent);
-                s.parentNode.replaceChild(txt, s);
-            }
-        });
-    }
-    // Zwiększ/zmniejsz font-size w wynikach
-    let base = 1.01 * scale;
-    let title = 1.17 * scale;
-    let subtitle = 1.09 * scale;
-    clone.querySelectorAll('.result-item').forEach(card=>{
-        card.style.fontSize = base + "em";
-        let t = card.querySelector('.plant-title');
-        if(t) t.style.fontSize = title + "em";
-        let s = card.querySelector('.przepis-title');
-        if(s) s.style.fontSize = subtitle + "em";
-    });
-
-    // Ustaw skalowanie całości (np. marginesy też)
-    clone.style.fontSize = (1.0 * scale) + "em";
-
-    // Usuń przyciski, jeśli jakieś się skopiowały (niepotrzebne w PDF)
-    clone.querySelectorAll('button,.export-pdf-btn,.clear-all-btn').forEach(btn=>btn.style.display="none");
-
-    // Eksport przez html2pdf z aktualną skalą
-    let opt = {
-        margin:       0.18 * scale,
-        filename:     'przepisy-wyniki.pdf',
-        image:        { type: 'jpeg', quality: 0.97 },
-        html2canvas:  { scale: 2.2, backgroundColor: null },
-        jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' }
-    };
-    html2pdf().set(opt).from(clone).save();
-};
-
-// Pozwól zamknąć dialog Esc lub klikając w tło
-document.getElementById('pdf-dialog-bg').onclick = hidePdfDialog;
-window.addEventListener('keydown', e=>{
-    if(e.key==="Escape" && document.getElementById('pdf-export-dialog').style.display==="flex") {
-        hidePdfDialog();
-    }
-});
-document.addEventListener('DOMContentLoaded', () => {
-  const searchInputsDiv = document.getElementById('search-inputs');
-  if (!searchInputsDiv) return;
-
-  // 1. Wyczyść stare pola
-  searchInputsDiv.innerHTML = '';
-
-  // 2. Dodaj 2 pola na start (focus na pierwszym)
-  addRecipeInput(true);
-  addRecipeInput(false);
-});
-
-// Wrapper nad Twoim starym addInputField, dopasowany do focus-driven
-function addRecipeInput(shouldFocus) {
-  const searchInputsDiv = document.getElementById('search-inputs');
-
-  const input = document.createElement('input');
-  input.type = 'text';
-  input.className = 'recipe-search-input';
-  input.placeholder = 'Wpisz składnik…';
-
-  // 3. Po wpisaniu – wywołaj Twoją wyszukiwarkę (bez ruszania focusu)
-  input.addEventListener('input', () => {
-    triggerSearch();
-  });
-
-  // 4. Gdy to **ostatnie** istniejące pole dostanie focus – dorzuć nowe
-  input.addEventListener('focus', () => {
-    const all = searchInputsDiv.querySelectorAll('.recipe-search-input');
-    const last = all[all.length - 1];
-    if (input === last) {
-      addRecipeInput(false);
-    }
-  });
-
-  searchInputsDiv.appendChild(input);
-
-  if (shouldFocus) {
-    input.focus();
-  }
-}
-
-document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', () => {
+    const allPlants = {{ all_plants|tojson|safe }};
+    const MAX_INPUTS = 6;
     const searchInputsDiv = document.getElementById('search-inputs');
-    if (!searchInputsDiv) return;
+    const addInputBtn = document.getElementById('add-input-btn');
 
-    // Wyczyść ewentualne stare pola
-    searchInputsDiv.innerHTML = '';
+    function validQuery(val) { return typeof val === 'string' && val.length >= 3 && val.length <= 120; }
+    function gatherAllRecipes() {
+      const out = [];
+      allPlants.forEach(plant => {
+        ['przepisy_medyczne','przepisy_kulinarne'].forEach(type => {
+          const group = plant.data[type]||{};
+          Object.entries(group).forEach(([nazwa,przepis]) => out.push({ typ: type==='przepisy_medyczne'?'medyczny':'kulinarny', plant, nazwa, przepis }));
+        });
+        const others = plant.data.przepisy_z_innymi_roslinami||{};
+        Object.entries(others).forEach(([sub,arr])=>arr.forEach(p=>out.push({ typ: sub==='medyczne'?'medyczny-z-innych':'kulinarny-z-innych', plant, nazwa:p.nazwa, przepis:p })));
+      }); return out;
+    }
+    const ALL_RECIPES = gatherAllRecipes();
 
-    // Dodaj dwa pola: pierwsze z focus, drugie bez
-    addInputField(true);
-    addInputField(false);
+    function addInputField() {
+      if (searchInputsDiv.querySelectorAll('input').length>=MAX_INPUTS) return;
+      const input = document.createElement('input');
+      input.type='text'; input.className='recipe-search-input';
+      input.placeholder='Wpisz składnik lub właściwości…'; input.autocomplete='off';
+      input.addEventListener('input',handleInputFields);
+      searchInputsDiv.appendChild(input); input.focus();
+    }
 
-    // Upewnij się, że focus jest na pierwszym inputcie
-    const first = searchInputsDiv.querySelector('.recipe-search-input');
-    if (first) first.focus();
+    function handleInputFields() {
+      const inputs=Array.from(document.querySelectorAll('.recipe-search-input'));
+      for(let i=inputs.length-2;i>=0;i--) if(!inputs[i].value&&!inputs[i+1].value) inputs[i].remove();
+      triggerSearch();
+    }
 
-    // Odpal jednorazowo wyszukiwanie (wyniki, ale nie ruszamy focusu)
-    triggerSearch();
-});
-input.addEventListener('focus', handleFocus);
-input.addEventListener('blur', updateGlow);
+    function clearInputs(){ searchInputsDiv.innerHTML=''; addInputField(); addInputField(); triggerSearch(); }
+
+    function highlightMultiple(text,queries){
+      const colors=['#fceb94','#a3e2e6','#b2ffb6','#ffb4b4','#d1c3f7','#ffd1b3'];
+      return queries.reduce((acc,q,idx)=>{ if(!q) return acc; const esc=q.replace(/[.*+?^${}()|[\\]\\]/g,'\\$&'); const rgx=new RegExp(esc,'gi'); return acc.replace(rgx,m=>`<span class="highlight-${idx}">${m}</span>`); }, text);
+    }
+
+    function formatTitle(raw){ const s=raw.replaceAll('_',' '); return s.charAt(0).toUpperCase()+s.slice(1); }
+
+    function triggerSearch(){
+      const queries=Array.from(document.querySelectorAll('.recipe-search-input')).map(i=>i.value.trim().toLowerCase()).filter(validQuery);
+      const resultsDiv=document.getElementById('searchResults');
+      if(!queries.length){ resultsDiv.innerHTML='<i>Wpisz co najmniej jedno słowo kluczowe (3–120 znaków)…</i>'; return; }
+      const found=ALL_RECIPES.filter(({przepis,nazwa})=>queries.every(q=>
+        (Array.isArray(przepis.skladniki)&&przepis.skladniki.some(s=>typeof s==='string'&&s.toLowerCase().includes(q)))||
+        (Array.isArray(przepis.wlasciwosci)&&przepis.wlasciwosci.some(w=>typeof w==='string'&&w.toLowerCase().includes(q)))||
+        (Array.isArray(przepis.cechy)&&przepis.cechy.some(c=>typeof c==='string'&&c.toLowerCase().includes(q)))||
+        (typeof przepis.zastosowanie==='string'&&przepis.zastosowanie.toLowerCase().includes(q))||
+        (typeof przepis.sposob_przygotowania==='string'&&przepis.sposob_przygotowania.toLowerCase().includes(q))||
+        nazwa.toLowerCase().includes(q)
+      ));
+      if(!found.length){ resultsDiv.innerHTML='<div class="no-results">Brak przepisów spełniających warunki.</div>'; return; }
+      let html='<ul class="search-results">';
+      found.forEach(({typ,plant,nazwa,przepis})=>{
+        html+=`<li class="result-item"><div class="plant-title"><a href="/${plant.category}/${plant.slug}">${plant.name}</a><span class="latin">(${plant.latin})</span><span class="przepis-type">${typ.replace('-',' ')}</span></div>`+
+              `<div class="przepis-title">${highlightMultiple(formatTitle(nazwa),queries)}</div>`+
+              `<div class="przepis-content"><b>Składniki:</b><ul>`+(przepis.skladniki||[]).map(s=>`<li>${highlightMultiple(s,queries)}</li>`).join('')+`</ul>`+
+              (typeof przepis.sposob_przygotowania==='string'?`<b>Sposób przygotowania:</b><div>${highlightMultiple(przepis.sposob_przygotowania,queries)}</div>`:'')+
+              (Array.isArray(przepis.cechy)?`<b>Cechy:</b><ul>`+przepis.cechy.map(c=>`<li>${highlightMultiple(c,queries)}</li>`).join('')+`</ul>`:'')+
+              (Array.isArray(przepis.wlasciwosci)?`<b>Właściwości:</b><ul>`+przepis.wlasciwosci.map(w=>`<li>${highlightMultiple(w,queries)}</li>`).join('')+`</ul>`:'')+
+              (typeof przepis.zastosowanie==='string'?`<b>Zastosowanie:</b><div>${highlightMultiple(przepis.zastosowanie,queries)}</div>`:'')+
+              (typeof przepis.dawkowanie==='string'?`<b>Dawkowanie:</b><div>${highlightMultiple(przepis.dawkowanie,queries)}</div>`:'')+`</div></li>`;
+      }); html+='</ul>'; resultsDiv.innerHTML=html;
+    }
+
+    function exportResultsToPDF(){ const d=document.getElementById('pdf-export-dialog'); if(!document.querySelector('.result-item')) return alert('Brak wyników do eksportu!'); d.style.display='flex'; document.body.style.overflow='hidden'; }
+    function hidePdfDialog(){ document.getElementById('pdf-export-dialog').style.display='none'; document.body.style.overflow=''; }
+    document.getElementById('pdf-dialog-form').addEventListener('submit',e=>{ e.preventDefault(); hidePdfDialog(); let scale=parseFloat(document.getElementById('pdf-font-scale').value)||1.0; scale=Math.min(Math.max(scale,0.5),1.5); const highlights=document.getElementById('pdf-include-highlights').checked; const section=document.getElementById('results-section'); const clone=section.cloneNode(true); const logoDiv=document.createElement('div'); logoDiv.className='pdf-logo'; logoDiv.innerHTML=`<img src="/static/img/kwiatownik_logo.png" alt="Kwiatownik"><span>Kwiatownik</span>`; clone.insertBefore(logoDiv,clone.firstChild); if(!highlights) clone.querySelectorAll('span').forEach(s=>s.replaceWith(document.createTextNode(s.textContent))); clone.style.fontSize=scale+'em'; clone.querySelectorAll('button,.export-pdf-btn,.clear-all-btn').forEach(b=>b.style.display='none'); html2pdf().set({margin:0.2*scale,filename:'przepisy-wyniki.pdf',image:{type:'jpeg',quality:0.97},html2canvas:{scale:2.2},jsPDF:{unit:'in',format:'a4',orientation:'portrait'}}).from(clone).save(); });
+    document.getElementById('pdf-dialog-bg').addEventListener('click',hidePdfDialog);
+    window.addEventListener('keydown',e=>{ if(e.key==='Escape') hidePdfDialog(); });
+
+    addInputBtn.addEventListener('click',addInputField);
+    // bind PDF export dialog opening
+    const openPdfBtn = document.getElementById('open-pdf-btn');
+    openPdfBtn.addEventListener('click', exportResultsToPDF);
+    document.querySelector('.clear-all-btn').addEventListener('click',clearInputs);
+
+    searchInputsDiv.innerHTML=''; addInputField(); addInputField(); triggerSearch();
+  });
 </script>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const allPlants = {{ all_plants|tojson|safe }};
+    const MAX_INPUTS = 6;
+    const searchInputsDiv = document.getElementById('search-inputs');
+    const addInputBtn = document.getElementById('add-input-btn');
+
+    function validQuery(val) {
+      return typeof val === 'string' && val.length >= 3 && val.length <= 120;
+    }
+
+    function gatherAllRecipes() {
+      const out = [];
+      allPlants.forEach(plant => {
+        ['przepisy_medyczne','przepisy_kulinarne'].forEach(type => {
+          const group = plant.data[type] || {};
+          Object.entries(group).forEach(([nazwa, przepis]) => {
+            out.push({ typ: type==='przepisy_medyczne'?'medyczny':'kulinarny', plant, nazwa, przepis });
+          });
+        });
+        const others = plant.data.przepisy_z_innymi_roslinami || {};
+        Object.entries(others).forEach(([sub, arr]) => {
+          arr.forEach(p => out.push({ typ: sub==='medyczne'?'medyczny-z-innych':'kulinarny-z-innych', plant, nazwa: p.nazwa, przepis: p }));
+        });
+      });
+      return out;
+    }
+    const ALL_RECIPES = gatherAllRecipes();
+
+    function addInputField() {
+      if (searchInputsDiv.querySelectorAll('input').length >= MAX_INPUTS) return;
+      const input = document.createElement('input');
+      input.type = 'text'; input.className = 'recipe-search-input';
+      input.placeholder = 'Wpisz składnik lub właściwości…'; input.autocomplete = 'off';
+      input.addEventListener('input', handleInputFields);
+      searchInputsDiv.appendChild(input); input.focus();
+    }
+
+    function handleInputFields() {
+      const inputs = Array.from(document.querySelectorAll('.recipe-search-input'));
+      for (let i = inputs.length - 2; i >= 0; i--) {
+        if (!inputs[i].value && !inputs[i+1].value) inputs[i].remove();
+      }
+      triggerSearch();
+    }
+
+    function clearInputs() {
+      searchInputsDiv.innerHTML = '';
+      addInputField(); addInputField(); triggerSearch();
+    }
+
+    function highlightMultiple(text, queries) {
+      const colors = ['#fceb94','#a3e2e6','#b2ffb6','#ffb4b4','#d1c3f7','#ffd1b3'];
+      queries.forEach((q, idx) => {
+        if (!q) return;
+<!--        const esc = q.replace(/[.*+?^${}()|[\]\]/g, '\$&');-->
+        const esc = q;
+        const rgx = new RegExp(esc, 'gi');
+        text = text.replace(rgx, m => `<span style="background:${colors[idx%colors.length]};padding:0 0.13em;border-radius:4px;">${m}</span>`);
+      });
+      return text;
+    }
+
+    function formatTitle(raw) {
+      const s = raw.replaceAll('_',' ');
+      return s.charAt(0).toUpperCase() + s.slice(1);
+    }
+
+    function triggerSearch() {
+      const queries = Array.from(document.querySelectorAll('.recipe-search-input'))
+        .map(i => i.value.trim().toLowerCase())
+        .filter(validQuery);
+      const resultsDiv = document.getElementById('searchResults');
+      if (!queries.length) {
+        resultsDiv.innerHTML = '<i>Wpisz co najmniej jedno słowo kluczowe (3–120 znaków)…</i>';
+        return;
+      }
+      const found = ALL_RECIPES.filter(({ przepis, nazwa }) =>
+        queries.every(q =>
+          (Array.isArray(przepis.skladniki) && przepis.skladniki.some(s => typeof s==='string' && s.toLowerCase().includes(q))) ||
+          (Array.isArray(przepis.wlasciwosci) && przepis.wlasciwosci.some(w => typeof w==='string' && w.toLowerCase().includes(q))) ||
+          (Array.isArray(przepis.cechy) && przepis.cechy.some(c => typeof c==='string' && c.toLowerCase().includes(q))) ||
+          (typeof przepis.zastosowanie==='string' && przepis.zastosowanie.toLowerCase().includes(q)) ||
+          (typeof przepis.sposob_przygotowania==='string' && przepis.sposob_przygotowania.toLowerCase().includes(q)) ||
+          nazwa.toLowerCase().includes(q)
+        )
+      );
+      if (!found.length) {
+        resultsDiv.innerHTML = '<div style="color:#c43;font-weight:bold;">Brak przepisów spełniających warunki.</div>';
+        return;
+      }
+      let html = '<ul class="search-results">';
+      found.forEach(({ typ, plant, nazwa, przepis }) => {
+        html += `<li class="result-item"><div class="plant-title"><a href="/${plant.category}/${plant.slug}">${plant.name}</a><span class="latin">(${plant.latin})</span><span class="przepis-type">${typ.replace('-',' ')}</span></div><div class="przepis-title">${highlightMultiple(formatTitle(nazwa),queries)}</div><div class="przepis-content"><b>Składniki:</b><ul>` +
+                (przepis.skladniki||[]).map(s=>`<li>${highlightMultiple(s,queries)}</li>`).join('') + `</ul>` +
+                (typeof przepis.sposob_przygotowania==='string'?`<b>Sposób przygotowania:</b><div>${highlightMultiple(przepis.sposob_przygotowania,queries)}</div>`:'') +
+                (Array.isArray(przepis.cechy)?`<b>Cechy:</b><ul>`+przepis.cechy.map(c=>`<li>${highlightMultiple(c,queries)}</li>`).join('')+`</ul>`:'') +
+                (Array.isArray(przepis.wlasciwosci)?`<b>Właściwości:</b><ul>`+przepis.wlasciwosci.map(w=>`<li>${highlightMultiple(w,queries)}</li>`).join('')+`</ul>`:'') +
+                (typeof przepis.zastosowanie==='string'?`<b>Zastosowanie:</b><div>${highlightMultiple(przepis.zastosowanie,queries)}</div>`:'') +
+                (typeof przepis.dawkowanie==='string'?`<b>Dawkowanie:</b><div>${highlightMultiple(przepis.dawkowanie,queries)}</div>`:'') +
+                `</div></li>`;
+      }); html += '</ul>';
+      resultsDiv.innerHTML = html;
+    }
+
+    function exportResultsToPDF() {
+      const dialog = document.getElementById('pdf-export-dialog');
+      if (!document.querySelector('.result-item')) return alert('Brak wyników do eksportu!');
+      document.getElementById('pdf-include-highlights').checked = true;
+      document.getElementById('pdf-font-scale').value = 1.0;
+      dialog.style.display = 'flex'; document.body.style.overflow = 'hidden';
+    }
+
+    function hidePdfDialog() { document.getElementById('pdf-export-dialog').style.display = 'none'; document.body.style.overflow = ''; }
+
+    document.getElementById('pdf-dialog-form').addEventListener('submit', e => {
+      e.preventDefault(); hidePdfDialog();
+      const highlights = document.getElementById('pdf-include-highlights').checked;
+      let scale = parseFloat(document.getElementById('pdf-font-scale').value) || 1.0; scale = Math.min(Math.max(scale,0.5),1.5);
+      const section = document.getElementById('results-section'); const clone = section.cloneNode(true);
+      const logoDiv = document.createElement('div'); logoDiv.style.display='flex'; logoDiv.style.alignItems='center'; logoDiv.style.gap='1em'; logoDiv.style.margin='0 0 1em 0'; logoDiv.innerHTML = `<img src="/static/img/kwiatownik_logo.png" alt="Kwiatownik" style="height:54px;"><span style="font-size:2em;font-weight:bold;color:#184e10;">Kwiatownik</span>`;
+      clone.insertBefore(logoDiv, clone.firstChild);
+      if (!highlights) clone.querySelectorAll('span').forEach(s => s.replaceWith(document.createTextNode(s.textContent)));
+      clone.style.fontSize = scale + 'em'; clone.querySelectorAll('.result-item').forEach(c => c.style.fontSize = (1.01*scale)+'em'); clone.querySelectorAll('button,.export-pdf-btn,.clear-all-btn').forEach(b => b.style.display='none');
+      html2pdf().set({ margin:0.2*scale, filename:'przepisy-wyniki.pdf', image:{type:'jpeg',quality:0.97}, html2canvas:{scale:2.2}, jsPDF:{unit:'in',format:'a4',orientation:'portrait'} }).from(clone).save();
+    });
+
+    document.getElementById('pdf-dialog-bg').addEventListener('click', hidePdfDialog);
+    window.addEventListener('keydown', e => { if (e.key==='Escape') hidePdfDialog(); });
+
+    addInputBtn.addEventListener('click', addInputField);
+    document.querySelector('.clear-all-btn').addEventListener('click', clearInputs);
+
+    // initialization
+    searchInputsDiv.innerHTML = '';
+    addInputField(); addInputField(); triggerSearch();
+  });
+/**
+ * Otwiera dialog eksportu do PDF.
+ */
+function openExportPdfDialog() {
+  const dialog = document.getElementById('pdf-export-dialog');
+  // Jeśli brak wyników – nie otwieraj dialogu
+  if (!document.querySelector('.result-item')) {
+    return alert('Brak wyników do eksportu!');
+  }
+  dialog.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+/**
+ * Zamyka dialog eksportu do PDF.
+ */
+function hidePdfDialog() {
+  const dialog = document.getElementById('pdf-export-dialog');
+  dialog.style.display = 'none';
+  document.body.style.overflow = '';
+}
+
+/**
+ * Generuje PDF z sekcji wyników i uruchamia jego pobranie.
+ * Uwzględnia:
+ *  – podświetlenia (checkbox #pdf-include-highlights)
+ *  – skalowanie czcionki (input #pdf-font-scale)
+ */
+function exportResultsToPDF() {
+  // Zanim zaczniemy, schowaj dialog
+  hidePdfDialog();
+
+  const includeHighlights = document.getElementById('pdf-include-highlights').checked;
+  let scale = parseFloat(document.getElementById('pdf-font-scale').value) || 1.0;
+  scale = Math.max(0.5, Math.min(1.5, scale));
+
+  // Klon sekcji, by nie modyfikować oryginału
+  const original = document.getElementById('results-section');
+  const clone = original.cloneNode(true);
+
+  // Dodaj nagłówek „Kwiatownik”
+  const logoDiv = document.createElement('div');
+  logoDiv.className = 'pdf-logo';
+  logoDiv.innerHTML = `
+    <img src="/static/img/kwiatownik_logo.png" alt="Kwiatownik" style="height:54px; margin-right:1em;">
+    <span style="font-size:2em; font-weight:bold; color:#184e10;">Kwiatownik</span>
+  `;
+  clone.insertBefore(logoDiv, clone.firstChild);
+
+  // Jeśli nie chcemy podświetleń – usuń znaczniki <span>
+  if (!includeHighlights) {
+    clone.querySelectorAll('span').forEach(s => {
+      s.replaceWith(document.createTextNode(s.textContent));
+    });
+  }
+
+  // Skalowanie czcionki
+  clone.style.fontSize = scale + 'em';
+  clone.querySelectorAll('.result-item').forEach(card => {
+    card.style.fontSize = (1.01 * scale) + 'em';
+  });
+
+  // Ukryj wszystkie przyciski w klonie
+  clone.querySelectorAll('button, .export-pdf-btn, .clear-all-btn').forEach(btn => {
+    btn.style.display = 'none';
+  });
+
+  // Generuj i pobierz PDF
+  html2pdf()
+    .set({
+      margin:       0.2 * scale,
+      filename:     'przepisy-wyniki.pdf',
+      image:        { type:'jpeg', quality:0.97 },
+      html2canvas:  { scale:2.2 },
+      jsPDF:        { unit:'in', format:'a4', orientation:'portrait' }
+    })
+    .from(clone)
+    .save();
+}
+
+/**
+ * Podpinamy przyciski – najlepiej poza jakimkolwiek IIFE, globalnie:
+ */
+document.querySelector('.export-pdf-btn').addEventListener('click', openExportPdfDialog);
+document.getElementById('pdf-dialog-bg').addEventListener('click', hidePdfDialog);
+document.getElementById('pdf-dialog-form').addEventListener('submit', e => {
+  e.preventDefault();
+  exportResultsToPDF();
+});
+
+</script>
 <style>
-.search-recipes-panel {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 1.1em;
-    margin: 2em 0 1em 0;
-}
-#search-inputs {
-    display: flex;
-    flex-direction: column;
-    gap: 0.7em;
-    width: 100%;
-    max-width: 540px;
-}
-.recipe-search-input {
-    padding: 0.63em 1em;
-    font-size: 1.11em;
-    border: 1.7px solid #bae6c2;
-    border-radius: 8px;
-    outline: none;
-    background: #fafdf7;
-    transition: box-shadow 0.18s, border 0.14s;
-}
-.recipe-search-input.glow {
-    box-shadow: 0 0 14px #b0e9c4bb, 0 0 0 #fff;
-    border-color: #67a75d;
-}
-.export-pdf-btn {
-    margin-top: 0.3em;
-    margin-right: 1em;
-    padding: 0.59em 1.3em;
-    background: #a3e2e6;
-    color: #222;
-    font-size: 1.02em;
-    font-weight: bold;
-    border: none;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: background 0.17s;
-}
-.export-pdf-btn:hover {
-    background: #37b7ca;
-    color: #fff;
-}
-.clear-all-btn {
-    margin-top: 0.3em;
-    padding: 0.59em 1.3em;
-    background: #67a75d;
-    color: #fff;
-    font-size: 1.02em;
-    font-weight: bold;
-    border: none;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: background 0.17s;
-}
-.clear-all-btn:hover {
-    background: #2b6526;
-}
-#results-section {
-  background: #f7fbf4;
-  border-radius: 19px;
-  box-shadow: 0 2px 24px #b5e6c7a8, 0 1.5px 2px #b3b3b360;
-  padding: 2.1em 1.7em 1.7em 1.7em;
-  margin-top: 2.1em;
-  margin-bottom: 2.3em;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.results-title {
-  font-size: 1.28em;
-  color: #224f2d;
-  letter-spacing: 0.01em;
-  font-weight: 600;
-  margin-bottom: 1.3em;
-}
-.result-item {
-  background: #fff;
-  border-radius: 15px;
-  box-shadow: 0 2px 10px #cdeedb40;
-  margin-bottom: 2em;
-  padding: 1.3em 1.2em 1em 1.2em;
-  border-left: 8px solid #97bd7d;
-  transition: box-shadow 0.15s;
-}
-.result-item:hover {
-  box-shadow: 0 5px 28px #b2e7ca99;
-}
-.plant-title {
-  font-size: 1.17em;
+/* Kwiatownik Theme */
+.search-recipes-panel { background: #e8f7df; padding: 1.5em; border-radius: 12px; box-shadow: 0 2px 8px rgba(24,78,16,0.1); }
+h2 { color: #184e10; font-size: 1.8em; margin-bottom: 0.5em; }
+.recipe-search-input { width: 100%; padding: 0.8em 1em; font-size: 1em; border: 2px solid #97bd7d; border-radius: 8px; background: #fafdf7; transition: border-color 0.2s; }
+.recipe-search-input:focus { outline: none; border-color: #67a75d; }
+.btn-add, .export-pdf-btn, .clear-all-btn { padding: 0.6em 1.2em; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; transition: background 0.2s; }
+.btn-add { background: #a3e2e6; color: #222; }
+.btn-add:hover { background: #8acdd2; }
+.export-pdf-btn { background: #67a75d; color: #fff; }
+.export-pdf-btn:hover { background: #5a8e54; }
+.clear-all-btn { background: #c43; color: #fff; }
+.clear-all-btn:hover { background: #a33636; }
+.actions-row { margin-top: 1em; display: flex; gap: 0.8em; }
+#results-section { margin: 2em 0; padding: 1.5em; background: #f7fbf4; border-radius: 12px; box-shadow: 0 2px 12px rgba(181,230,199,0.5); }
+.search-results { list-style: none; padding: 0; }
+.result-item { background: #fff; border-left: 6px solid #97bd7d; border-radius: 8px; box-shadow: 0 2px 8px rgba(205,238,219,0.4); padding: 1em; margin-bottom: 1em; }
+.plant-title { display: flex; align-items: center; gap: 0.5em; font-size: 1.1em; color: #184e10; font-weight: 700; }
+.latin { font-style: italic; color: #537c43; font-size: 0.9em; }
+.przepis-type { margin-left: auto; background: #e8f7df; color: #3b7b30; padding: 0.2em 0.6em; border-radius: 6px; font-size: 0.85em; }
+.przepis-title { font-size: 1em; font-weight: 600; color: #386945; margin: 0.5em 0; }
+.przepis-content { font-size: 0.95em; color: #293d28; }
+.przepis-content b { color: #184e10; }
+.no-results { color: #c43; font-weight: bold; }
+/* Highlight colors for queries */
+{% for idx in range(0,6) %}
+.highlight-{{idx}} { background-color: {{ ['#fceb94','#a3e2e6','#b2ffb6','#ffb4b4','#d1c3f7','#ffd1b3'][idx] }}; padding: 0 0.1em; border-radius: 4px; }
+{% endfor %}
+#add-input-btn {
+  margin-top: 0.5em;
+  padding: 0.6em 1.2em;
+  background-color: #a3e2e6;
   color: #184e10;
-  font-weight: 700;
-  margin-bottom: 0.6em;
-  display: flex;
-  align-items: center;
-  gap: 0.8em;
-}
-.plant-title .latin {
-  font-size: 0.99em;
-  font-style: italic;
-  color: #537c43;
-}
-.plant-title .przepis-type {
-  background: #e8f7df;
-  color: #3b7b30;
-  font-size: 0.97em;
+  border: none;
+  border-radius: 8px;
   font-weight: 600;
-  padding: 0.18em 0.82em;
-  border-radius: 7px;
-  margin-left: 0.7em;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
 }
-.przepis-title {
-  font-weight: bold;
-  font-size: 1.09em;
-  color: #386945;
-  margin: 0.2em 0 0.5em 0;
-}
-.przepis-content {
-  font-size: 1.01em;
-  color: #293d28;
-  margin-bottom: 0.2em;
-}
-.przepis-content b {
-  color: #7a7a6e;
-}
-.przepis-content ul {
-  margin: 0.35em 0 0.5em 1.1em;
-  padding-left: 0;
-}
-.przepis-content li {
-  margin-bottom: 0.1em;
-}
-@media (max-width: 750px) {
-  #results-section { padding: 1.2em 0.2em 1.1em 0.2em; }
-  .result-item { padding: 1.05em 0.4em 0.65em 0.8em; border-left-width: 5px; }
-  .plant-title { flex-direction: column; align-items: flex-start; gap: 0.1em; }
-}
-#pdf-export-dialog {
-  position: fixed;
-  z-index: 3000;
-  top: 0; left: 0; right: 0; bottom: 0;
-  display: flex; align-items: center; justify-content: center;
-}
-#pdf-dialog-bg {
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: #222b;
-  z-index: 0;
-}
-#pdf-dialog-form {
-  position: relative;
-  z-index: 10;
-  background: #fff;
-  border-radius: 19px;
-  box-shadow: 0 2px 34px #b5e6c7b8, 0 1.5px 3px #2223;
-  padding: 2.1em 2.3em 1.6em 2.3em;
-  min-width: 290px;
-  max-width: 95vw;
-}
-#pdf-dialog-form label { margin-bottom: 1em; display:block; }
-#pdf-dialog-form input[type="number"] { border:1.4px solid #aac; border-radius:6px; padding:0.26em 0.7em; }
-@media (max-width: 700px) {
-  #pdf-dialog-form { padding: 1.3em 0.5em 1em 0.5em; min-width: unset; }
+
+#add-input-btn:hover {
+  background-color: #8acdd2;
 }
 
 </style>
