@@ -29,7 +29,7 @@
 <details class="przepis-card">
     <summary class="przepis-header" onclick="toggleRecipeCard(this)">
         <span class="icon">▶️</span>
-        {{ przepis.nazwa or nazwa_przepisu.replace('_', ' ')|capitalize }}
+        {{ przepis.nazwa.replace('_', ' ')|capitalize or nazwa_przepisu.replace('_', ' ')|capitalize }}
     </summary>
     <div class="przepis-content">
         {% if przepis.skladniki %}

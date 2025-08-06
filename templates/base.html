@@ -6,14 +6,19 @@
     <title>{% block title %}Kwiatownik{% endblock %}</title>
     <link rel="stylesheet" href="/static/style.css">
     <link rel="icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <script src="/static/main.js"></script>
     <script src="/static/script.js"></script>
     <script src="/static/js/favs.js"></script>
+
+
 </head>
 <body>
 
 <div class="wrapper">
 <header class="top-bar">
+
         <a href="/" class="logo" style="display:flex;align-items:center;gap:0.7em;text-decoration:none;">
             <img src="{{ url_for('static', filename='img/kwiatownik_logo.png') }}"
                  alt="Kwiatownik"
@@ -22,7 +27,6 @@
             Kwiatownik <div style="font-size:0.31em;">- encyklopedia kulinarno-medyczna</div>
         </span>
         </a>
-
         <nav class="main-navbar">
             <a href="/">Spis treści</a>
             <a href="/ulubione">Ulubione w ogrodzie</a>

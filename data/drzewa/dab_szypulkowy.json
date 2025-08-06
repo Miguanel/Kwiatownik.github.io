@@ -446,6 +446,27 @@
     "zrodlo": [21],
     "nazwa": "krokiety_z_mąki_żołędziowej"
   },
+    "Nalewka z żołędzi": {
+      "skladniki": [
+        "250 g żołędzi dębu szypułkowego (uprażone, obrane, dojrzałe, dobrze wysuszone)",
+        "0,5 l spirytusu 70%",
+        "0,25 l miodu (naturalny, płynny)",
+        "Skórka cytrynowa (świeża, opcjonalnie)"
+      ],
+      "sposob_przygotowania": "Żołędzie uprażyć i rozdrobnić, zalać spirytusem, odstawić w ciemnym miejscu na 14 dni. Dodać miód i skórkę cytrynową, pozostawić na kolejne 7 dni. Przefiltrować, przelać do butelki.",
+      "cechy": [
+        "ciemna barwa",
+        "korzenny aromat"
+      ],
+      "wlasciwosci": [
+        "rozgrzewająca",
+        "wzmacniająca"
+      ],
+      "zastosowanie": "Nalewka do degustacji w małych ilościach (łyżeczka dziennie).",
+      "zrodlo": [
+        6
+      ]
+    },
   "Owsianka z żołędziami": {
     "skladniki": [
       "1/3 szklanki płatków owsianych (świeże, górskie)",
@@ -704,28 +725,6 @@
         5
       ]
     }
-  ],
-  "produkcja_alkoholu": {
-    "nalewka_z_żołędzi": {
-      "skladniki": [
-        "250 g żołędzi dębu szypułkowego (uprażone, obrane, dojrzałe, dobrze wysuszone)",
-        "0,5 l spirytusu 70%",
-        "0,25 l miodu (naturalny, płynny)",
-        "Skórka cytrynowa (świeża, opcjonalnie)"
-      ],
-      "sposob_przygotowania": "Żołędzie uprażyć i rozdrobnić, zalać spirytusem, odstawić w ciemnym miejscu na 14 dni. Dodać miód i skórkę cytrynową, pozostawić na kolejne 7 dni. Przefiltrować, przelać do butelki.",
-      "cechy": [
-        "ciemna barwa",
-        "korzenny aromat"
-      ],
-      "wlasciwosci": [
-        "rozgrzewająca",
-        "wzmacniająca"
-      ],
-      "zastosowanie": "Nalewka do degustacji w małych ilościach (łyżeczka dziennie).",
-      "zrodlo": [
-        6
-      ]
-    }
-  }
+  ]
+
 }

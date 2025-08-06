@@ -170,7 +170,7 @@
   ],
   "przepisy_medyczne": {
     "Odwar z kory": {
-      "nazwa": "odwar_z_kory",
+      "nazwa": "Odwar z kory",
       "skladniki": [
         "1 łyżka suszonej kory dębu bezszypułkowego (najlepiej z młodych gałęzi, świeżo zebrana lub sezonowana do roku)",
         "300 ml wody (świeża, przegotowana)"
@@ -192,7 +192,7 @@
       ]
     },
     "Kąpiel na egzemy": {
-      "nazwa": "kąpiel_na_egzemy",
+      "nazwa": "Kąpiel na egzemy",
       "skladniki": [
         "3 garście kory dębu bezszypułkowego (świeżej lub dobrze wysuszonej, grubo mielonej)",
         "2 litry wody (świeża)"
@@ -213,7 +213,7 @@
       ]
     },
     "Herbatka na biegunki": {
-      "nazwa": "herbatka_na_biegunki",
+      "nazwa": "Herbatka na biegunki",
       "skladniki": [
         "1 łyżeczka suszonej kory dębu bezszypułkowego (najlepiej młoda, jasno-brązowa)",
         "200 ml wrzątku (świeża woda)"
@@ -234,7 +234,7 @@
       ]
     },
     "Okład z kory": {
-      "nazwa": "okład_z_kory",
+      "nazwa": "Okład z kory",
       "skladniki": [
         "1 łyżka mielonej kory dębu bezszypułkowego (świeża lub suszona, najlepiej młoda)",
         "szklanka wody (250 ml, świeża)"
@@ -254,7 +254,7 @@
       ]
     },
     "Maść z kory": {
-      "nazwa": "maść_z_kory",
+      "nazwa": "Maść z kory",
       "skladniki": [
         "2 łyżki mielonej kory dębu bezszypułkowego (świeża lub dokładnie wysuszona)",
         "4 łyżki masła shea (najlepiej nierafinowanego, świeżego)"
@@ -302,7 +302,7 @@
       ]
     },
     "Kawa z żołędzi": {
-      "nazwa": "kawa_z_zoledzi",
+      "nazwa": "Kawa z żołędzi",
       "skladniki": [
         "1 szklanka żołędzi dębu bezszypułkowego (dojrzałe, świeżo obrane, bez łupin i gorzkiej skórki)",
         "woda do gotowania (świeża)",
@@ -389,7 +389,7 @@
       ]
     },
     "Mus żołędziowy": {
-      "nazwa": "mus_zoledziowy",
+      "nazwa": "Mus żołędziowy",
       "skladniki": [
         "1 szklanka żołędzi (gotowanych, zmiksowanych – najlepiej świeże, dojrzałe)",
         "1 łyżka miodu (płynny, naturalny)",
@@ -409,7 +409,7 @@
       ]
     },
     "Kiszone żołędzie": {
-      "nazwa": "kiszone_zoledzie",
+      "nazwa": "Kiszone żołędzie",
       "skladniki": [
         "2 szklanki żołędzi dębu bezszypułkowego (najlepiej świeżych, dojrzałych)",
         "1 litr wody (przegotowana, ostudzona)",
