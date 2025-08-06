@@ -43,6 +43,7 @@
 const allPlants = {{ all_plants|tojson|safe }};
 let searchInputsDiv = document.getElementById("search-inputs");
 
+
 function validQuery(val) {
     return val.length >= 3 && val.length <= 120;
 }
@@ -79,20 +80,42 @@ function gatherAllRecipes() {
 const ALL_RECIPES = gatherAllRecipes();
 
 // Automatyczne inputy z glow tylko na focusie
-function addInputField(focusNow = false) {
-    let input = document.createElement("input");
+function addInputField(focusNow = false, returnFocusTo = null) {
+    const input = document.createElement("input");
     input.type = "text";
     input.className = "recipe-search-input";
-    input.placeholder = "Wpisz składnik lub właściwości…";
-    input.autocomplete = "off";
-    input.addEventListener('input', handleInputFields);
-    input.addEventListener('focus', updateGlow);
-    input.addEventListener('blur', updateGlow);
+    input.placeholder = "Wpisz coś…";
+
+    input.addEventListener("input", (e) => {
+        handleInputFields(e);
+    });
+
     searchInputsDiv.appendChild(input);
-    if (focusNow) input.focus();
-    updateGlow();
+
+    if (focusNow) {
+        setTimeout(() => input.focus(), 10);
+    }
+
+    // Jeśli nowy input został dodany – wracamy do poprzedniego
+    if (returnFocusTo) {
+        setTimeout(() => returnFocusTo.focus(), 10);
+    }
 }
 
+function handleFocus(e) {
+    const inputs = Array.from(document.querySelectorAll('.recipe-search-input'));
+    const index = inputs.indexOf(e.target);
+    if (index === 1) { // drugi input
+        maybeAddNextInput(index);
+    }
+    updateGlow();
+}
+function maybeAddNextInput(index) {
+    const inputs = Array.from(document.querySelectorAll('.recipe-search-input'));
+    if (inputs.length < 6 && index === inputs.length - 1) {
+        addInputField();
+    }
+}
 function updateGlow() {
     document.querySelectorAll('.recipe-search-input').forEach(inp => inp.classList.remove('glow'));
     let active = document.activeElement;
@@ -100,24 +123,16 @@ function updateGlow() {
 }
 
 function handleInputFields(e) {
-    let inputs = Array.from(document.querySelectorAll('.recipe-search-input'));
-    let values = inputs.map(i => i.value);
-    // Usuń zbędne puste inputy (zostaw jeden pusty na końcu)
-    for (let i = inputs.length - 2; i >= 0; --i) {
-        if (!inputs[i].value && !inputs[i+1].value) {
-            inputs[i].remove();
-        }
+    const inputs = Array.from(document.querySelectorAll(".recipe-search-input"));
+
+    // Dodaj nowy tylko jeśli ostatni input jest aktualnie edytowany i ma min 3 znaki
+    const last = inputs[inputs.length - 1];
+    if (e.target === last && validQuery(last.value) && inputs.length < 6) {
+        addInputField(false, e.target);
     }
-    // Dodaj nowe pole tylko jeśli ostatnie jest poprawne
-    let last = inputs[inputs.length-1];
-    if (last && validQuery(last.value) && inputs.length < 6) {
-        addInputField();
-    }
-    // Jeśli wszystko puste – zostaje jedno pole
-    if (!searchInputsDiv.querySelector('.recipe-search-input')) addInputField();
-    updateGlow();
-    triggerSearch();
 }
+
+
 
 function clearInputs() {
     searchInputsDiv.innerHTML = '';
@@ -153,16 +168,28 @@ function triggerSearch() {
         if(resultsTitle) resultsTitle.style.display = "none";
         return;
     }
-    let found = ALL_RECIPES.filter(({przepis}) => {
-        return queries.every(q =>
-            (przepis.skladniki && przepis.skladniki.some(s => s.toLowerCase().includes(q))) ||
-            (przepis.wlasciwosci && przepis.wlasciwosci.some(w => w.toLowerCase().includes(q))) ||
-            (przepis.cechy && przepis.cechy.some(c => c.toLowerCase().includes(q))) ||
-            (przepis.zastosowanie && przepis.zastosowanie.toLowerCase().includes(q)) ||
-            (przepis.sposob_przygotowania && przepis.sposob_przygotowania.toLowerCase().includes(q)) ||
-            (przepis.nazwa && przepis.nazwa.toLowerCase().includes(q))
-        );
+    let found = ALL_RECIPES.filter(({ przepis }) => {
+      return queries.every(q =>
+        (Array.isArray(przepis.skladniki) &&
+          przepis.skladniki.some(s => typeof s === "string" && s.toLowerCase().includes(q))) ||
+
+        (Array.isArray(przepis.wlasciwosci) &&
+          przepis.wlasciwosci.some(w => typeof w === "string" && w.toLowerCase().includes(q))) ||
+
+        (Array.isArray(przepis.cechy) &&
+          przepis.cechy.some(c => typeof c === "string" && c.toLowerCase().includes(q))) ||
+
+        (typeof przepis.zastosowanie === "string" &&
+          przepis.zastosowanie.toLowerCase().includes(q)) ||
+
+        (typeof przepis.sposob_przygotowania === "string" &&
+          przepis.sposob_przygotowania.toLowerCase().includes(q)) ||
+
+        (typeof przepis.nazwa === "string" &&
+          przepis.nazwa.toLowerCase().includes(q))
+      );
     });
+
     if(found.length === 0) {
         resultsDiv.innerHTML = "<div style='margin-top:1.5em;color:#c43;font-weight:bold;'>Brak przepisów spełniających wszystkie warunki.</div>";
         if(resultsTitle) resultsTitle.style.display = "";
@@ -356,14 +383,68 @@ window.addEventListener('keydown', e=>{
         hidePdfDialog();
     }
 });
+document.addEventListener('DOMContentLoaded', () => {
+  const searchInputsDiv = document.getElementById('search-inputs');
+  if (!searchInputsDiv) return;
 
+  // 1. Wyczyść stare pola
+  searchInputsDiv.innerHTML = '';
 
-// Inicjalizacja na starcie
-searchInputsDiv.innerHTML = '';
-addInputField();
-triggerSearch();
+  // 2. Dodaj 2 pola na start (focus na pierwszym)
+  addRecipeInput(true);
+  addRecipeInput(false);
+});
 
+// Wrapper nad Twoim starym addInputField, dopasowany do focus-driven
+function addRecipeInput(shouldFocus) {
+  const searchInputsDiv = document.getElementById('search-inputs');
 
+  const input = document.createElement('input');
+  input.type = 'text';
+  input.className = 'recipe-search-input';
+  input.placeholder = 'Wpisz składnik…';
+
+  // 3. Po wpisaniu – wywołaj Twoją wyszukiwarkę (bez ruszania focusu)
+  input.addEventListener('input', () => {
+    triggerSearch();
+  });
+
+  // 4. Gdy to **ostatnie** istniejące pole dostanie focus – dorzuć nowe
+  input.addEventListener('focus', () => {
+    const all = searchInputsDiv.querySelectorAll('.recipe-search-input');
+    const last = all[all.length - 1];
+    if (input === last) {
+      addRecipeInput(false);
+    }
+  });
+
+  searchInputsDiv.appendChild(input);
+
+  if (shouldFocus) {
+    input.focus();
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const searchInputsDiv = document.getElementById('search-inputs');
+    if (!searchInputsDiv) return;
+
+    // Wyczyść ewentualne stare pola
+    searchInputsDiv.innerHTML = '';
+
+    // Dodaj dwa pola: pierwsze z focus, drugie bez
+    addInputField(true);
+    addInputField(false);
+
+    // Upewnij się, że focus jest na pierwszym inputcie
+    const first = searchInputsDiv.querySelector('.recipe-search-input');
+    if (first) first.focus();
+
+    // Odpal jednorazowo wyszukiwanie (wyniki, ale nie ruszamy focusu)
+    triggerSearch();
+});
+input.addEventListener('focus', handleFocus);
+input.addEventListener('blur', updateGlow);
 </script>
 
 <style>

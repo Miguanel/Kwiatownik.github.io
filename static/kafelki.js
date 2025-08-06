@@ -65,15 +65,27 @@ function triggerSearch() {
 
     // Filter recipes
     const found = ALL_RECIPES.filter(({ przepis }) =>
-        queries.every(q =>
-            (przepis.skladniki && przepis.skladniki.some(s => s.toLowerCase().includes(q))) ||
-            (przepis.wlasciwosci && przepis.wlasciwosci.some(w => w.toLowerCase().includes(q))) ||
-            (przepis.cechy && przepis.cechy.some(c => c.toLowerCase().includes(q))) ||
-            (przepis.zastosowanie && przepis.zastosowanie.toLowerCase().includes(q)) ||
-            (przepis.sposob_przygotowania && przepis.sposob_przygotowania.toLowerCase().includes(q)) ||
-            (przepis.nazwa && przepis.nazwa.toLowerCase().includes(q))
-        )
+      queries.every(q =>
+        (Array.isArray(przepis.skladniki) &&
+          przepis.skladniki.some(s => typeof s === "string" && s.toLowerCase().includes(q))) ||
+
+        (Array.isArray(przepis.wlasciwosci) &&
+          przepis.wlasciwosci.some(w => typeof w === "string" && w.toLowerCase().includes(q))) ||
+
+        (Array.isArray(przepis.cechy) &&
+          przepis.cechy.some(c => typeof c === "string" && c.toLowerCase().includes(q))) ||
+
+        (typeof przepis.zastosowanie === "string" &&
+          przepis.zastosowanie.toLowerCase().includes(q)) ||
+
+        (typeof przepis.sposob_przygotowania === "string" &&
+          przepis.sposob_przygotowania.toLowerCase().includes(q)) ||
+
+        (typeof przepis.nazwa === "string" &&
+          przepis.nazwa.toLowerCase().includes(q))
+      )
     );
+
 
     if (!found.length) {
         resultsDiv.innerHTML = "<div style='margin-top:1.5em;color:#c43;font-weight:bold;'>Brak przepisów spełniających wszystkie warunki.</div>";

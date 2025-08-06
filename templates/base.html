@@ -54,8 +54,8 @@
 
 const allPlantsData = {{ all_plants|default([])|tojson|safe }};
 
-let searchInputsDiv = document.getElementById("search-inputs");
 
+<!--let searchInputsDiv = document.getElementById("search-inputs");-->
 // Funkcja walidacji frazy
 function validQuery(val) {
     return val.length >= 3 && val.length <= 120;
@@ -103,7 +103,7 @@ function gatherAllRecipes() {
   return out;
 }
 
-const ALL_RECIPES = gatherAllRecipes();
+<!--const ALL_RECIPES = gatherAllRecipes();-->
 
 function addInputField() {
     let input = document.createElement("input");
@@ -140,9 +140,11 @@ function handleInputFields() {
 }
 
 function clearInputs() {
-    searchInputsDiv.innerHTML = '';
-    addInputField();
-    triggerSearch();
+    if (searchInputsDiv) {
+      searchInputsDiv.innerHTML = '';
+      addInputField();
+      triggerSearch();
+}
 }
 
 // Podświetlanie fraz w tekście na różne kolory
