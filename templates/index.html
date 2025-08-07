@@ -17,29 +17,45 @@
 {% macro render_flat_group(tree, group_name, bgclass, prefix=[]) %}
 {% if tree.get('gatunki') %}
 <ul class="tree-list {{ bgclass }}">
-    {% for g in tree['gatunki'] %}
+  {% for g in tree['gatunki'] %}
     {% if prefix %}
-    <li class="group-header group-sticky">{{ prefix|join(' → ') }}</li>
+      <li class="group-header group-sticky">{{ prefix|join(' → ') }}</li>
     {% endif %}
     <li class="tree-gatunek">
-    <div class="tree-main-row">
+      <div class="tree-main-row">
         {% if g.get('zdjecia') %}
-        <img src="{{ g.zdjecia[0] }}" alt="Zdjęcie {{ g.name }}" class="plant-thumb-list">
+          <img
+            src="{{ g.zdjecia[0] }}"
+            alt="Zdjęcie {{ g.name }}"
+            class="plant-thumb-list"
+          >
         {% endif %}
-        <a class="tree-breadcrumb-main"
-           href="{{ url_for('roslina', category=g.category, plant=g.slug) }}">
-            {{ g.name }}
-        </a>
-        <i class="latin">({{ g.latin }})</i>
-        <span class="fav-btn" data-plant="{{ g.category }}/{{ g.slug }}"
-               onclick="toggleFav('{{ g.category }}/{{ g.slug }}')" title="Dodaj/usuń z ulubionych">💚
-        </span>
-        <span class="garden-btn" data-plant="{{ g.category }}/{{ g.slug }}"
-              onclick="toggleGarden('{{ g.category }}/{{ g.slug }}')" title="Dodaj/usuń do ogrodu">🌱</span>
-    </div>
+        <div class="name-row">
+          <a
+            class="tree-breadcrumb-main"
+            href="{{ url_for('roslina', category=g.category, plant=g.slug) }}"
+          >{{ g.name }}</a>
+          <span
+            class="fav-btn"
+            data-plant="{{ g.category }}/{{ g.slug }}"
+            onclick="toggleFav('{{ g.category }}/{{ g.slug }}')"
+            title="Dodaj/usuń z ulubionych"
+          >💚</span>
+        </div>
+        <div class="latin-row">
+          <i class="latin">({{ g.latin }})</i>
+          <span
+            class="garden-btn"
+            data-plant="{{ g.category }}/{{ g.slug }}"
+            onclick="toggleGarden('{{ g.category }}/{{ g.slug }}')"
+            title="Dodaj/usuń do ogrodu"
+          >🌱</span>
+        </div>
+      </div>
     </li>
-    {% endfor %}
+  {% endfor %}
 </ul>
+
 {% else %}
 {% for key, node in tree.items() %}
 {% if key != "gatunki" %}
@@ -58,12 +74,14 @@
            style="width:100%;padding:0.67em 1em;font-size:1.13em;border-radius:8px;border:1.2px solid #bcd7b7;">
 </div>
 
-<div id="tree-scrollbox">
+
     {% set segments = [
     ("Drzewa", "Drzewa", "bg-drzewa"),
     ("Zioła", "Rośliny zielne (Zioła)", "bg-ziola"),
     ("Egzotyczne", "Rośliny egzotyczne", "bg-egzotyczne"),
-    ("Korzenie i bulwy", "Korzenie i bulwy", "bg-korzenie")
+    ("Korzenie i bulwy", "Korzenie i bulwy", "bg-korzenie"),
+    ("Mech", "Mech", "bg-mech"),
+    ("Grzyby", "Grzyby", "bg-grzyby")
     ] %}
     {% for label, key, bgclass in segments %}
     {% if tree.get(key) %}
@@ -75,7 +93,7 @@
     </section>
     {% endif %}
     {% endfor %}
-</div>
+
 {% endblock %}
 
 <style>
@@ -169,12 +187,44 @@ html, body {
   background: #e6efe0;
   flex-shrink: 0;
 }
-
 .tree-main-row {
   display: flex;
   align-items: center;
   gap: 0.8em;
 }
+
+.name-row,
+.latin-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+}
+
+/* Responsywnie dla szerokości ≤400px */
+@media (max-width: 400px) {
+  .tree-main-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.3em;
+  }
+  .name-row,
+  .latin-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .name-row a,
+  .latin-row i {
+    flex: 1;
+    text-align: left;
+  }
+  .fav-btn,
+  .garden-btn {
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+}
+
 </style>
 <script>
 
