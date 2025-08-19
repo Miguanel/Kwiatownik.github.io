@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Kwiatownik{% endblock %}</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/css/style.css">
     <link rel="icon" href="/static/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <script src="/static/main.js"></script>
-    <script src="/static/script.js"></script>
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/script.js"></script>
     <script src="/static/js/favs.js"></script>
 
 
@@ -35,7 +35,7 @@
 
         </nav>
     <div class="moon-bar">
-                📅 {{ now.strftime('%d %B %Y') }} | 🌙 {{ moon_phase }} ({{ moon_percent }}%)
+                📅 {{ now.year }} | 🌙 {{ moon_phase }} ({{ moon_percent }}%)
             </div>
 <!--        <button class="search-btn" aria-label="Szukaj roślin" onclick="window.location.href='/szukaj'">🔍</button>-->
     </header>
@@ -189,50 +189,110 @@ background:rgba(30,50,30,0.78);backdrop-filter:blur(2px);justify-content:center;
 </div>
 <script>
 const GREETING_VERSION = "1.2";
-if(localStorage.getItem("kwiatownik_greeting") !== GREETING_VERSION) {
-    fetch('/static/greeting.json')
-        .then(r=>r.json()).then(greet=>{
-            let box = document.getElementById("welcome-content");
-            box.innerHTML = `
-            <div style="
-              background:#fff;
-              border-radius: 20px;
-              box-shadow: 0 0 28px 10px #9c9696a0;
-              max-width:430px;
-              padding:2.0em 2.1em 1.35em 2.1em;
-              font-size:1.12em;
-              position:relative;
-              border: 0.6px solid #ececec;
-              ">
-              <button onclick="document.getElementById('welcome-modal').style.display='none';localStorage.setItem('kwiatownik_greeting','${GREETING_VERSION}')"
-                  style="position:absolute;right:1.1em;top:0.85em;font-size:1.45em;background:none;border:none;cursor:pointer;color:#4d4a4a;opacity:0.70;" aria-label="Zamknij">✖️</button>
 
-              <div style="display:flex;align-items:center;gap:0.8em;margin-bottom:0.4em;">
-                <img src="/static/img/kwiatownik_logo.png" alt="Logo Kwiatownika" style="width:38px;height:38px;box-shadow:0 1px 5px #e2e2e2b0;border-radius:50%;">
-                <h2 style="margin:0;font-size:1.31em;line-height:1.05;font-weight:800;letter-spacing:0.01em;color:#253521;">${greet.greeting_title.replace(/^🌱\s*/, "")}</h2>
-              </div>
-              <div style="margin-bottom:1em;color:#233f23;font-size:1.07em;">${greet.greeting_short}</div>
-              <ul style="margin-bottom:1.00em;color:#343a2e;font-size:1em;padding-left:1.1em;">
-                ${greet.greeting_features.map(f=>`<li style="margin-bottom:0.11em;">• ${f}</li>`).join('')}
-              </ul>
-              <div style="
-                background:#f8f5f0;
-                color:#233e1e;
-                border-radius:8px;
-                padding:0.79em 1em 0.92em 1em;
-                margin-bottom:0.10em;
-                border:1.3px solid #ececec;
-                font-size:1.045em;
-                box-shadow:0 2px 7px #e2e2e2a5;
-                ">
-                ${greet.greeting_footer}
-              </div>
-            </div>`;
-            document.getElementById('welcome-modal').style.display = 'flex';
-        });
-}
+(function () {
+  const modal = document.getElementById("welcome-modal");
+  const boxWrap = document.getElementById("welcome-content");
+  let welcomeStatePushed = false;
 
+  // Małe usprawnienia stylów kontenera, by ładniej wyglądał na fonie
+  modal.style.padding = "14px"; // margines od krawędzi ekranu
+  modal.style.boxSizing = "border-box";
 
+  function setSeen() {
+    try { localStorage.setItem("kwiatownik_greeting", GREETING_VERSION); } catch(e){}
+  }
+
+  function hideWelcome(fromPopstate=false) {
+    if (!modal) return;
+    modal.style.display = "none";
+    setSeen();
+    // Jeżeli zamknęliśmy ręcznie, cofamy tylko wtedy, gdy wcześniej dopisaliśmy stan
+    if (!fromPopstate && welcomeStatePushed) {
+      // usuwamy dodatkowy wpis z historii, bez opuszczania strony
+      history.back();
+    }
+    welcomeStatePushed = false;
+  }
+
+  function showWelcome(greet) {
+    // Zawartość z responsywnymi stylami (ważne: szerokość i max-wysokość)
+    boxWrap.innerHTML = `
+      <div style="
+        background:#fff;
+        border-radius:20px;
+        box-shadow:0 0 28px 10px #9c9696a0;
+        width:min(92vw, 430px);
+        max-height:85vh;
+        overflow:auto;
+        padding:clamp(16px, 4vw, 24px);
+        font-size:clamp(0.96rem, 2.6vw, 1.12rem);
+        position:relative;
+        border:0.6px solid #ececec;">
+
+        <button id="welcome-close-btn"
+          style="position:absolute;right:0.9em;top:0.75em;font-size:1.35em;background:none;border:none;cursor:pointer;color:#4d4a4a;opacity:0.75;"
+          aria-label="Zamknij">✖️</button>
+
+        <div style="display:flex;align-items:center;gap:0.8em;margin-bottom:0.4em;">
+          <img src="/static/img/kwiatownik_logo.png" alt="Logo Kwiatownika"
+               style="width:38px;height:38px;box-shadow:0 1px 5px #e2e2e2b0;border-radius:50%;">
+          <h2 style="margin:0;font-size:1.15em;line-height:1.15;font-weight:800;letter-spacing:0.01em;color:#253521;">
+            ${greet.greeting_title.replace(/^🌱\\s*/, "")}
+          </h2>
+        </div>
+
+        <div style="margin-bottom:0.9em;color:#233f23;font-size:1em;">
+          ${greet.greeting_short}
+        </div>
+
+        <ul style="margin-bottom:0.9em;color:#343a2e;font-size:0.98em;padding-left:1.1em;">
+          ${greet.greeting_features.map(f=>`<li style="margin-bottom:0.11em;">• ${f}</li>`).join('')}
+        </ul>
+
+        <div style="
+          background:#f8f5f0;color:#233e1e;border-radius:8px;
+          padding:0.75em 0.95em;border:1.3px solid #ececec;
+          font-size:1em;box-shadow:0 2px 7px #e2e2e2a5;">
+          ${greet.greeting_footer}
+        </div>
+      </div>
+    `;
+
+    // Pokaż modal
+    modal.style.display = "flex";
+
+    // Dopisz stan do historii, by „cofnij” zamknęło popup zamiast strony
+    history.pushState({ welcome: true }, "");
+    welcomeStatePushed = true;
+
+    // Zamknij krzyżykiem
+    const closeBtn = document.getElementById("welcome-close-btn");
+    if (closeBtn) closeBtn.addEventListener("click", () => hideWelcome(false));
+  }
+
+  // Klik poza okienkiem też zamyka
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) hideWelcome(false);
+  });
+
+  // Cofnięcie w przeglądarce/telefonie: zamknij popup
+  window.addEventListener("popstate", (event) => {
+    if (welcomeStatePushed) {
+      hideWelcome(true); // przyszło z historii
+    }
+  });
+
+  // Inicjalizacja
+  try {
+    if (localStorage.getItem("kwiatownik_greeting") !== GREETING_VERSION) {
+      fetch('/static/greeting.json')
+        .then(r => r.json())
+        .then(showWelcome)
+        .catch(() => {/* cicho pomiń */});
+    }
+  } catch(e) { /* cicho pomiń */ }
+})();
 </script>
 
 
