@@ -1,64 +1,6 @@
 <div class="fragment-section">
-  {% for przepis in przepisy %}
-    <div class="przepis-card collapsed">
-      <div class="przepis-title">{{ przepis.nazwa|default("Bez nazwy") }}</div>
-      <div class="przepis-content">
-
-        {% if przepis.typ %}
-        <span class="przepis-section-label">Typ przepisu:</span>
-        <div>{{ przepis.typ }}</div>
-        {% endif %}
-
-        {% if przepis.skladniki %}
-        <hr class="przepis-divider">
-        <span class="przepis-section-label">Składniki:</span>
-        <ul>
-          {% for item in przepis.skladniki %}<li>{{ item }}</li>{% endfor %}
-        </ul>
-        {% endif %}
-
-        {% if przepis.sposob_przygotowania %}
-        <hr class="przepis-divider">
-        <span class="przepis-section-label">Sposób przygotowania:</span>
-        <div>{{ przepis.sposob_przygotowania }}</div>
-        {% endif %}
-
-        {% if przepis.cechy %}
-        <hr class="przepis-divider">
-        <span class="przepis-section-label">Cechy:</span>
-        <ul>
-          {% for cecha in przepis.cechy %}<li>{{ cecha }}</li>{% endfor %}
-        </ul>
-        {% endif %}
-
-        {% if przepis.wlasciwosci %}
-        <hr class="przepis-divider">
-        <span class="przepis-section-label">Właściwości:</span>
-        <ul>
-          {% for w in przepis.wlasciwosci %}<li>{{ w }}</li>{% endfor %}
-        </ul>
-        {% endif %}
-
-        {% if przepis.zastosowanie %}
-        <hr class="przepis-divider">
-        <span class="przepis-section-label">Zastosowanie:</span>
-        <div>{{ przepis.zastosowanie }}</div>
-        {% endif %}
-
-        {% if przepis.dawkowanie %}
-        <hr class="przepis-divider">
-        <span class="przepis-section-label">Dawkowanie:</span>
-        <div>{{ przepis.dawkowanie }}</div>
-        {% endif %}
-
-        {% if przepis.zrodlo %}
-        <div class="przepis-zrodlo">Źródło: [{{ przepis.zrodlo|join(", ") }}]</div>
-        {% endif %}
-      </div>
-    </div>
-  {% endfor %}
 </div>
 
 <script>
-  if (typeof activatePrzepisyAccordion === "function") activatePrzepisyAccordion();
+<!--  if (typeof activatePrzepisyAccordion === "function") activatePrzepisyAccordion();-->
 </script>
