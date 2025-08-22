@@ -617,6 +617,12 @@ details.rest>summary{cursor:pointer;font-weight:600}
     margin: .2rem 0 1rem 0; /* odstęp pod nagłówkiem */
   }
 
+// po otwarciu papirusu
+stage.style.overflow = 'visible';
+
+// a gdy wracasz do kart (zamykanie papirusu)
+stage.style.overflow = 'hidden';
+
 
     </style>
 </head>
@@ -728,26 +734,31 @@ details.rest>summary{cursor:pointer;font-weight:600}
 </main>
 
 <footer class="site">© 1936 Kwiatownik. Wszystkie prawa zastrzeżone.</footer>
+
 <!--// === GREETING ===-->
 <script defer>
+window.hideCoffeeLayer = window.hideCoffeeLayer || function(){};
+
+function openFromHash(){
+  const h = (location.hash || '').replace('#','');
+  if (['legendy','przepisy','ogrodnictwo','kontakt'].includes(h)) {
+    // pokaż właściwą warstwę nawet jeśli modal jest na ekranie
+    hideCoffeeLayer();
+    if (h === 'kontakt' && typeof openKontaktPapyrus === 'function') {
+      openKontaktPapyrus();
+    } else if (typeof openPapyrus === 'function') {
+      openPapyrus(h);
+    }
+  }
+}
 
 document.addEventListener('DOMContentLoaded', () => {
-  window.hideCoffeeLayer = window.hideCoffeeLayer || function(){};
-
-  const openFromHash = () => {
-    const h = (location.hash || '').replace('#','');
-    if (['legendy','przepisy','ogrodnictwo','kontakt'].includes(h)) {
-      hideCoffeeLayer();
-      if (h === 'kontakt' && typeof openKontaktPapyrus === 'function') {
-        openKontaktPapyrus();
-      } else if (typeof openPapyrus === 'function') {
-        openPapyrus(h);
-      }
-    }
-  };
-
+  // 1) Najpierw wczytaj sekcję z hasha (to wypełni papirus/hierarchię)
   openFromHash();
+  // 2) Reaguj na późniejsze zmiany hasha
   window.addEventListener('hashchange', openFromHash);
+  // 3) Dopiero teraz pokaż modal powitalny
+  showGreeting();
 });
 
 const GREETING_URL = "{{ url_for('static', filename='greeting.json') }}";
@@ -758,13 +769,11 @@ async function showGreeting() {
     if (!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
 
-    // rozpakuj bezpiecznie
-    const title   = data.greeting_title   || "🌱 Dzień dobry!";
-    const lead    = data.greeting_short   || "";
-    const feats   = Array.isArray(data.greeting_features) ? data.greeting_features : [];
-    const footer  = data.greeting_footer  || "";
+    const title  = data.greeting_title  || "🌱 Dzień dobry!";
+    const lead   = data.greeting_short  || "";
+    const feats  = Array.isArray(data.greeting_features) ? data.greeting_features : [];
+    const footer = data.greeting_footer || "";
 
-    // zbuduj modal
     const overlay = document.createElement("div");
     overlay.className = "greet-overlay";
     overlay.innerHTML = `
@@ -776,21 +785,14 @@ async function showGreeting() {
         <button class="greet-ok" type="button">OK</button>
       </div>
     `;
-
-    // zamykanie
     overlay.querySelector(".greet-ok").addEventListener("click", () => overlay.remove());
-    overlay.addEventListener("click", (e) => {
-      if (e.target === overlay) overlay.remove();
-    });
+    overlay.addEventListener("click", (e) => { if (e.target === overlay) overlay.remove(); });
 
     document.body.appendChild(overlay);
   } catch (err) {
     console.error("Błąd ładowania greeting.json:", err);
   }
 }
-
-document.addEventListener("DOMContentLoaded", showGreeting);
-
 </script>
 
 <!--// === HIERARCHIA KWIATOWNIKA (dane) ===-->
@@ -1700,6 +1702,27 @@ function renderZbior(zbior){
     const papH = papyrus.scrollHeight;
     stage.style.height = Math.max(min, papH) + 'px';
   }
+    // ——— mobilny pasek adresu / obrót / top-bounce
+    function recalcAllHeights(){
+      setNavH();               // wysokość sticky nawigacji (gdy się ścieśnia/rozszerza)
+      setStageHeightToPapyrus();
+    }
+
+    // iOS/Android: zmiana "wizualnego" viewportu
+    if (window.visualViewport) {
+      visualViewport.addEventListener('resize', recalcAllHeights, {passive:true});
+    }
+
+    // Gdy wracamy na samą górę (bounce do y≈0) – dociągnij wysokość
+    window.addEventListener('scroll', () => {
+      if (window.scrollY < 4) recalcAllHeights();
+    }, {passive:true});
+
+    // rotacja ekranu
+    window.addEventListener('orientationchange', () => {
+      // drobne opóźnienie aż układ się ustali
+      setTimeout(recalcAllHeights, 60);
+    });
 
   function watchPapyrusResize(){
     if(papRO) papRO.disconnect();
@@ -2351,8 +2374,9 @@ window.hideCoffeeLayer = window.hideCoffeeLayer || function(){};
 
   // Otwórz po hashu
   const hash=(location.hash||'').replace('#','');
-  if(['legendy','przepisy','ogrodnictwo'].includes(hash)){ openPapyrus(hash); }
-
+    if(!window.__openedByHash && ['legendy','przepisy','ogrodnictwo'].includes(hash)){
+      openPapyrus(hash);
+    }
   // Startowa wysokość sceny = wysokość kart
   function setStageStart(){ stage.style.height = cardsLayer.scrollHeight + 'px'; }
   setStageStart(); window.addEventListener('resize', setStageStart);
