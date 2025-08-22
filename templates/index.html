@@ -1,232 +1,2243 @@
-{% extends "base.html" %}
-{% block title %}Kwiatownik – Spis treści{% endblock %}
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Kwiatownik — Papirus stage + peek</title>
+    <style>
+html { scroll-behavior: smooth; }
+  :root{
+    --paper: #efe3d1;
+    --paper-ink: #f7efe2;
+    --ink: #2b2318;
+    --ink-soft:#4a3a2f;
+    --line:#b99f90;
+    --line-strong:#9f8576;
+    --shadow: 0 10px 28px rgba(55,35,25,.12);
+    --emboss: inset 0 0 0 1px rgba(60,40,30,.08), inset 0 1px 0 rgba(255,255,255,.35);
+    --grain: radial-gradient( at 20% 10%, rgba(255,255,255,.25), transparent 40%),
+             radial-gradient( at 80% 90%, rgba(255,255,255,.15), transparent 40%);
+    --navH: 56px;
+    --stage-h: auto;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ height:100%; }
+  body{
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--ink);
+    line-height: 1.5;
+    padding: 48px 20px 40px;
+    background:
+      repeating-linear-gradient(0deg, rgba(0,0,0,.012) 0 1px, transparent 1px 3px),
+      linear-gradient(180deg, var(--paper) 0%, var(--paper-ink) 100%);
+  }
+  header{ text-align:center; margin-bottom: 36px; }
+  header h1{ font-size: clamp(42px, 6.2vw, 68px); letter-spacing: .5px; line-height: 1.05; color: var(--ink); text-shadow: 0 1px 0 rgba(255,255,255,.5); }
+  header .subtitle{ margin-top:8px; font-size:clamp(16px,2.2vw,22px); color:var(--ink-soft); letter-spacing:.04em; text-transform:uppercase; }
 
-{% macro count_gatunki(tree) %}
-{% set ns = namespace(total=0) %}
-{% if tree.get('gatunki') is defined and tree['gatunki'] is iterable %}
-{% set ns.total = ns.total + (tree['gatunki'] | length) %}
-{% endif %}
-{% for v in tree.values() %}
-{% if v is mapping %}
-{% set ns.total = ns.total + (count_gatunki(v) | int) %}
-{% endif %}
-{% endfor %}
-{{ ns.total }}
-{% endmacro %}
-
-{% macro render_flat_group(tree, group_name, bgclass, prefix=[]) %}
-{% if tree.get('gatunki') %}
-<ul class="tree-list {{ bgclass }}">
-  {% for g in tree['gatunki'] %}
-    {% if prefix %}
-      <li class="group-header group-sticky">{{ prefix|join(' → ') }}</li>
-    {% endif %}
-    <li class="tree-gatunek">
-      <div class="tree-main-row">
-        {% if g.get('zdjecia') %}
-          <img
-            src="{{ g.zdjecia[0] }}"
-            alt="Zdjęcie {{ g.name }}"
-            class="plant-thumb-list"
-          >
-        {% endif %}
-        <div class="name-row">
-          <a
-            class="tree-breadcrumb-main"
-            href="{{ url_for('roslina', category=g.category, plant=g.slug) }}"
-          >{{ g.name }}</a>
-          <span
-            class="fav-btn"
-            data-plant="{{ g.category }}/{{ g.slug }}"
-            onclick="toggleFav('{{ g.category }}/{{ g.slug }}')"
-            title="Dodaj/usuń z ulubionych"
-          >💚</span>
-        </div>
-        <div class="latin-row">
-          <i class="latin">({{ g.latin }})</i>
-          <span
-            class="garden-btn"
-            data-plant="{{ g.category }}/{{ g.slug }}"
-            onclick="toggleGarden('{{ g.category }}/{{ g.slug }}')"
-            title="Dodaj/usuń do ogrodu"
-          >🌱</span>
-        </div>
-      </div>
-    </li>
-  {% endfor %}
-</ul>
-
-{% else %}
-{% for key, node in tree.items() %}
-{% if key != "gatunki" %}
-{{ render_flat_group(node, group_name, bgclass, prefix + [key]) }}
-{% endif %}
-{% endfor %}
-{% endif %}
-{% endmacro %}
-
-{% block content %}
-<h2>Spis treści</h2>
-
-<div class="search-panel" style="margin-bottom:1.6em;">
-    <input type="search" id="tree-search"
-           placeholder="Szukaj w spisie treści..." minlength="3" maxlength="80"
-           style="width:100%;padding:0.67em 1em;font-size:1.13em;border-radius:8px;border:1.2px solid #bcd7b7;">
-</div>
+  nav.primary{
+    position: sticky; top: 0; z-index: 20;
+    display:flex; flex-wrap:wrap; justify-content:center; gap: 26px;
+    padding: 10px 10px;
+    margin: 14px auto 16px;
+    border-top: 2px solid var(--line);
+    border-bottom: 2px solid var(--line);
+    background: linear-gradient(180deg, rgba(255,255,255,.42), rgba(255,255,255,.18)), var(--paper);
+    backdrop-filter: blur(2px);
+  }
+  nav.primary a{ color: var(--ink); font-weight: 700; text-decoration: none; text-transform: uppercase; letter-spacing: .06em; }
+  nav.primary a:hover, nav.primary a:focus-visible{ text-decoration: underline; text-underline-offset: 4px; }
 
 
-    {% set segments = [
-    ("Drzewa", "Drzewa", "bg-drzewa"),
-    ("Zioła", "Rośliny zielne (Zioła)", "bg-ziola"),
-    ("Egzotyczne", "Rośliny egzotyczne", "bg-egzotyczne"),
-    ("Korzenie i bulwy", "Korzenie i bulwy", "bg-korzenie"),
-    ("Mech", "Mech", "bg-mech"),
-    ("Grzyby", "Grzyby", "bg-grzyby")
-    ] %}
-    {% for label, key, bgclass in segments %}
-    {% if tree.get(key) %}
-    <section class="tree-segment" data-segment="{{ label }}">
-        <h3 class="tree-segment-title group-sticky">
-            {{ label }} <span class="tree-group-count">[{{ count_gatunki(tree[key]) }}]</span>
-        </h3>
-        {{ render_flat_group(tree[key], label, bgclass) }}
-    </section>
-    {% endif %}
-    {% endfor %}
+  /* STAGE – jedna „scena” dla kart/papirusu */
+  .stage{
+    position: relative; max-width: 1180px; margin: 0 auto;
+    height: var(--stage-h); overflow: hidden;
+    transition: height .6s cubic-bezier(.2,.7,.2,1);
+  }
+  @media (prefers-reduced-motion: reduce){ .stage{ transition: none; } }
+  .layer{ position: absolute; left:0; right:0; top:0; will-change: transform; transform: translateY(0); transition: transform .6s cubic-bezier(.2,.7,.2,1); }
+  @media (prefers-reduced-motion: reduce){ .layer{ transition:none; } }
+  /* Papirus: DOMYŚLNIE UKRYTY (poza sceną) */
+  #papyrusLayer{
+    transform: translateY(100%);   /* „pod sceną” */
+    visibility: hidden;
+  }
 
-{% endblock %}
+  /* Animacja rozwijania samego zwoju (skalowanie w pionie) */
+  .papyrus.opening{
+    transform-origin: top center;
+    animation: pap-open 620ms cubic-bezier(.2,.7,.2,1) both;
+  }
+  @keyframes pap-open{
+    0%   { transform: scaleY(0.02); filter: saturate(.9) brightness(.98); }
+    60%  { transform: scaleY(1.02); }
+    100% { transform: scaleY(1); filter: none; }
+  }
 
-<style>
-html, body {
-  height: 100%;
-  margin: 0;
+  /* KARTY – tylko dwie (mobile friendly) */
+  .cards{ display: grid; grid-template-columns: repeat(2, minmax(260px, 1fr)); gap: 28px; padding: 2px 0 10px; }
+  @media (max-width: 720px){ .cards{ grid-template-columns: 1fr; gap:18px; } }
+  .card{ display:block; background:#f6eee4; border-radius:16px; padding:28px 22px 22px; text-align:center; color:var(--ink); text-decoration:none; box-shadow: var(--shadow); position:relative; }
+  .card::before{ content:""; position:absolute; inset:0; border-radius:16px; box-shadow: var(--emboss); pointer-events:none; }
+  .card h3{ font-size: clamp(22px, 2.6vw, 28px); margin-bottom:6px; letter-spacing:.02em; text-transform:uppercase; }
+  .card .lead{ color:var(--ink-soft); font-size:clamp(14px,1.8vw,16px); margin:0 6px 18px; }
+  .card figure{ margin:0 auto; width:min(320px,86%); padding:14px; border-radius:12px; background:linear-gradient(180deg, rgba(255,255,255,.45), rgba(255,255,255,.15)), #f8f1e6; border:1px solid var(--line-strong); box-shadow: inset 0 0 0 1px rgba(255,255,255,.35); }
+  .card img{ display:block; width:260px; max-width:100%; height:auto; margin:0 auto; filter:contrast(1.02) saturate(.96); }
+  @media (prefers-reduced-motion:no-preference){
+    .card{ transition: transform .18s ease, box-shadow .18s ease; }
+    .card:hover{ transform: translateY(-2px) rotate3d(.2,.6,0,1.2deg); box-shadow: 0 14px 34px rgba(55,35,25,.18); }
+    .card:active{ transform: scale(.98); }
+  }
+
+  /* PAPIRUS (pionowy zwój w dwóch członach) */
+  .papyrus{
+    position: relative; overflow: clip; border-radius: 18px;
+    box-shadow: 0 28px 70px rgba(30,15,10,.18), 0 2px 0 rgba(255,255,255,.35) inset;
+    background:
+      radial-gradient(110% 18px at 50% 0%, rgba(0,0,0,.18), transparent 60%),
+      radial-gradient(110% 18px at 50% 100%, rgba(0,0,0,.18), transparent 60%),
+      repeating-linear-gradient(0deg, rgba(0,0,0,.015) 0 2px, transparent 2px 5px),
+      linear-gradient(180deg, #f0e3ce, #ead9be 54%, #efdfc2);
+    background-blend-mode: overlay, overlay, normal, normal;
+    transform-origin: top center;
+  }
+  .papyrus__panel{ padding: 24px 22px; border-top: 1px dashed rgba(80,60,40,.35); }
+  .papyrus__panel:first-child{ border-top:0; padding-top:28px; }
+  .papyrus__title{ font-size:clamp(18px,2.1vw,22px); letter-spacing:.04em; text-transform:uppercase; color:var(--ink-soft); margin-bottom:10px; }
+
+  .content-area{ min-height: 240px; background: linear-gradient(180deg, rgba(255,255,255,.35), rgba(255,255,255,.08)), var(--grain); border: 1px solid rgba(0,0,0,.08); border-radius: 12px; padding: 18px 16px; }
+  .placeholder{ color: var(--ink-soft); font-style: italic; }
+
+  /* Hierarchia */
+  .tree{ columns: 2 320px; column-gap: 26px; }
+  @media (max-width: 720px){ .tree{ columns: 1; } }
+  .tree details{ break-inside: avoid; margin: 6px 0 10px; border-left: 2px solid rgba(0,0,0,.08); padding-left: 10px;}
+  .tree summary{ cursor: pointer; font-weight: 700; letter-spacing:.02em; list-style:none; color:var(--ink); }
+  .tree summary::before{ content:"▸"; margin-right:6px; display:inline-block; transform: translateY(-1px); opacity:.7; }
+  details[open] > summary::before{ content:"▾"; }
+  .tree ul{ list-style:none; margin:6px 0 0 16px; padding-left:0; }
+  .tree li{ margin:4px 0; }
+  .tree a{ color:var(--ink); text-decoration:none; border-bottom:1px dotted rgba(0,0,0,.22); }
+  .tree a:hover{ border-bottom-color: rgba(0,0,0,.5); }
+
+  /* Inputs (Przepisy) */
+  .inputs{ display:grid; grid-template-columns: repeat(2, minmax(220px,1fr)); gap:12px; }
+  @media (max-width: 720px){ .inputs{ grid-template-columns:1fr; } }
+  .inputs label{ font-weight:600; font-size:14px; display:block; margin-bottom:4px; color:var(--ink-soft); }
+  .inputs input{ width:100%; border:1px solid var(--line-strong); padding:10px 12px; border-radius:8px; background:#fff9f0; font:inherit; }
+  .btn{ appearance:none; border:0; background:#5d462f; color:#fff; padding:10px 14px; border-radius:10px; font-weight:700; letter-spacing:.02em; cursor:pointer; box-shadow:0 6px 18px rgba(0,0,0,.15); }
+  .btn:hover{ filter:brightness(1.05); }
+  .muted{ color:#6b5947; font-size:14px; }
+
+  .results-list{ list-style:none; padding:0; margin:0; display:grid; gap:10px; }
+  .result-item{ border:1px solid rgba(0,0,0,.1); border-radius:10px; padding:12px; background:#fffdf8; }
+  .result-item h4{ margin-bottom:4px; font-size:18px; }
+
+  footer.site{ text-align:center; margin-top: 32px; font-size:14px; color:var(--ink-soft); }
+  /* NAV z ikoną przy etykiecie */
+nav.primary {
+  gap: 18px;
 }
-
-.tree-segment {
-  margin-bottom: 2.5em;
-  padding-bottom: 1.5em;
-}
-
-.tree-segment-title {
-  position: sticky;
-  top: 0;
-  background: #f9fdf7;
-  padding: 0.5em 0.6em;
-  font-size: 1.3em;
-  font-weight: bold;
-  z-index: 5;
-  border-bottom: 2px solid #cce2cc;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  color: #194514;
-  display: flex;
+nav.primary .nav-item{
+  display: inline-flex;
   align-items: center;
-  gap: 0.7em;
+  gap: 10px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background-color .18s ease, transform .18s ease;
 }
-
-.group-header {
-  font-weight: bold;
-  font-size: 1.1em;
-  color: #2a421f;
-  margin-top: 1.2em;
-  margin-bottom: 0.3em;
-  border-bottom: 1px solid #bcd7b7;
-  padding-bottom: 0.2em;
-  background: #f9faf6;
-  padding-left: 0.5em;
+nav.primary .nav-item:hover,
+nav.primary .nav-item:focus-visible{
+  background: rgba(255,255,255,.4);
+  text-decoration: none;
+  transform: translateY(-1px);
 }
-
-.group-sticky {
-  position: sticky;
-  top: 0;
-  background: #f9fdf7;
-  z-index: 10;
-  padding: 0.6em 1em;
-  border-bottom: 1px solid #dcecdc;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
-}
-
-@media (max-width: 600px) {
-  .tree-segment-title {
-    font-size: 1.1em;
-    padding: 0.4em 0.5em;
-  }
-  .group-header {
-    font-size: 1em;
-    padding-left: 0.3em;
-  }
-  .tree-breadcrumb-main {
-    font-size: 0.95em;
-  }
-  .latin {
-    font-size: 0.85em;
-  }
-}
-
-.tree-gatunek:empty {
-  display: none !important;
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-
-#tree-scrollbox {
-  height: calc(100vh - 200px);
-  overflow-y: auto;
-  padding-right: 1em;
-  position: relative;
-  scroll-behavior: smooth;
-}
-
-.plant-thumb-list {
-  width: 42px;
-  height: 32px;
-  object-fit: cover;
+nav.primary .nav-img{
+  width: 28px; height: 28px;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 0 rgba(255,255,255,.35)) saturate(.95);
   border-radius: 6px;
-  margin-right: 0.6em;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-  background: #e6efe0;
-  flex-shrink: 0;
 }
-.tree-main-row {
-  display: flex;
+nav.primary .nav-label{
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+/* Responsywność – na bardzo wąskich ekranach zmniejszamy ikony i ściskamy odstępy */
+@media (max-width: 420px){
+  nav.primary { gap: 12px; }
+  nav.primary .nav-item{ gap: 8px; padding: 6px 10px; }
+  nav.primary .nav-img{ width: 22px; height: 22px; }
+  nav.primary .nav-label{ font-size: 0.92rem; letter-spacing: .03em; }
+}
+
+
+/* Ikony w podsumowaniach drzewek */
+.tree summary{
+  display: inline-flex;
   align-items: center;
-  gap: 0.8em;
+  gap: 10px;
+}
+.tree .tree-icon{
+  width: 28px; height: 28px;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 0 rgba(255,255,255,.35)) saturate(.95);
+  border-radius: 6px;
+}
+.tree .tree-label{
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+/* Ikony w nagłówkach grup */
+.tree summary{
+  display:flex; align-items:center; gap:10px;
+  cursor:pointer; font-weight:700; letter-spacing:.02em; list-style:none; color:var(--ink);
+}
+.tree summary::marker { content: ""; } /* dla Safari */
+.tree summary::before{ content:"▸"; margin-right:6px; transform:translateY(-1px); opacity:.7; }
+details[open] > summary::before{ content:"▾"; }
+
+/* TYLKO ikonki, nie skaluj innych obrazów na stronie */
+.tree .grp-ico{
+  width:24px; height:24px; flex:0 0 24px; object-fit:contain;
+  filter: drop-shadow(0 1px 0 rgba(255,255,255,.30));
+  opacity:.95;
 }
 
-.name-row,
-.latin-row {
-  display: flex;
-  align-items: center;
-  gap: 0.6em;
+/* Zapobiega przypadkowemu wklejeniu dużych obrazów do .tree */
+.tree > img, .tree ul > img, .tree details > img { display:none !important; }
+/* --- Papirus: sekcje artykułu rośliny --- */
+.pap-article h4{ margin:14px 0 6px; text-transform:uppercase; letter-spacing:.04em; font-size:15px; color:#4a3a2f;}
+.pap-article .meta{ color:#6b5947; font-size:14px; margin-bottom:8px;}
+.pap-article dl{ display:grid; grid-template-columns: 160px 1fr; gap:6px 12px; }
+.pap-article dt{ font-weight:700; color:#3c2f23; }
+.pap-article dd{ margin:0; }
+.pap-article ul{ margin:6px 0 10px 18px; }
+.pap-article li{ margin:2px 0; }
+.pap-article .gallery{ display:flex; gap:10px; flex-wrap:wrap; margin:8px 0 6px; }
+.pap-article .gallery img{ width:110px; height:82px; object-fit:cover; border-radius:8px; border:1px solid rgba(0,0,0,.12); }
+
+/* Tabela kalendarza */
+.calendar-wrapper { overflow-x:auto; -webkit-overflow-scrolling:touch; cursor:grab; margin:1em 0; padding-bottom:.3em; }
+.calendar-wrapper:active { cursor:grabbing; }
+.kalendarz-tabela { width:100%; min-width:800px; border-collapse:collapse; margin:1em 0; font-size:.95em; border:1px solid #ccc; }
+.kalendarz-tabela th, .kalendarz-tabela td { border:1px solid #ddd; padding:.3em .6em; text-align:center; }
+.kalendarz-tabela th { background:#f9f9f9; }
+.kalendarz-tabela td.aktywny { background:#d4edda; font-weight:600; }
+.kalendarz-tabela td.current { outline:2px solid #007744; }
+.kalendarz-tabela th.current-month { background:#c2e8d0; font-weight:700; }
+.zabieg-link{ color:#1e5b27; text-decoration:underline; }
+
+/* Szczegóły (kotwice docelowe) */
+.kalendarz-legenda { margin-top:2em; }
+.legenda-zabieg{
+  background:#fefefe; border:1px solid #ddd; border-left:5px solid #97bd7d;
+  padding:.8em 1.2em; margin-bottom:1em; border-radius:8px; scroll-margin-top:90px;
+}
+.legenda-zabieg.aktywny-teraz{ background:#f3fbe9; border-left-color:#8dbf7e; box-shadow:0 1px 3px rgba(140,170,120,.15); }
+
+
+.legenda-zabieg.hit { animation: flash 1.6s ease; }
+@keyframes flash { 0%{box-shadow:0 0 0 rgba(0,0,0,0)} 20%{box-shadow:0 0 0 6px #cfead1} 100%{box-shadow:0 0 0 rgba(0,0,0,0)} }
+
+
+.breadcrumbs{display:flex;flex-wrap:wrap;gap:.5em 1em;margin:0 0 1em}
+.crumb{background:#f5faf5;border:1px solid #dbead9;border-radius:999px;padding:.25em .6em;font-size:.92em;color:#2e522e}
+
+details.rest{margin-top:1em;border:1px solid #e6e6e6;border-radius:8px;padding:.5em 1em;background:#fff}
+details.rest>summary{cursor:pointer;font-weight:600}
+
+/* Przepisy: nowy pasek szukania + tagi (papirus) */
+.search-zone{position:relative;display:grid;gap:.6rem;margin-bottom:1rem}
+#recipeSearch{padding:.7rem 1rem;border:1px solid var(--line-strong);border-radius:12px;background:#fff9f0}
+.suggestions{display:flex;flex-wrap:wrap;gap:.4rem}
+.suggestion{padding:.35rem .6rem;border:1px dashed #b59b7a;border-radius:999px;cursor:pointer;font-size:.9rem;background:#fffdf8}
+.suggestion:hover{background:#f5ede5}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem}
+.tag{display:inline-flex;align-items:center;gap:.5rem;padding:.35rem .6rem;border-radius:999px;color:#1f140c;font-size:.9rem}
+.tag .x{cursor:pointer;font-weight:700}
+.c0{background:#ffe9b5}.c1{background:#fcd3d3}.c2{background:#d6f0ff}.c3{background:#dff7d9}.c4{background:#eadcff}.c5{background:#ffe6f7}
+
+/* --- Karty przepisów: pełna treść --- */
+.result-item{ padding:16px 14px; }
+.recipe-head{ display:flex; align-items:center; justify-content:space-between; gap:.6rem; }
+.badges{ display:flex; gap:.4rem; flex-wrap:wrap; }
+.badge{ padding:.2rem .55rem; border-radius:999px; font-size:.8rem; border:1px solid rgba(0,0,0,.12); background:#fff; white-space:nowrap; }
+.badge.med{ background:#eaf6ea; border-color:#b7d5b7; }
+.badge.kul{ background:#fff5d8; border-color:#e5cda0; }
+.badge.met{ background:#e8efff; border-color:#b8c8f5; }
+.tags-line{ margin-top:.35rem; font-size:.9rem; color:#6b5947; }
+.recipe-sec{ margin-top:.7rem; }
+.recipe-sec h5{ font-size:.95rem; margin:0 0 .25rem; letter-spacing:.02em; text-transform:uppercase; color:#4a3a2f; }
+.recipe-sec ul{ margin:.2rem 0 0 1.2rem; }
+.recipe-sec ol{ margin:.2rem 0 0 1.2rem; }
+.recipe-sec p{ margin:.2rem 0 0; }
+
+/* Źródła w kartach przepisu */
+.source-list{ margin:.2rem 0 0 1.2rem; font-size:.9rem; word-break: break-word; }
+.source-list a{ text-decoration: underline; }
+
+
+/* Karty przepisów – nagłówek + meta */
+.recipe-head{display:flex;justify-content:space-between;gap:.6rem;align-items:flex-start}
+.badges{display:flex;flex-wrap:wrap;gap:.35rem}
+.badge{border:1px solid #ddd;border-radius:999px;padding:.18rem .55rem;font-size:.78rem;background:#f7f7f7}
+.badge.med{background:#ffe5e5;border-color:#e7bcbc}
+.badge.kul{background:#fff1c7;border-color:#e4cfa0}
+.badge.met{background:#e9f6ff;border-color:#b9d5e6}
+.meta-line{margin:.25rem 0 .35rem;color:#6b5947;font-size:.9rem}
+.tags-line{margin:.2rem 0 .6rem;font-size:.85rem;color:#5a4a3a}
+.recipe-sec h5{margin:.6rem 0 .2rem;font-size:1rem}
+
+/* --- Karty: zawsze 3 kolumny w jednym rzędzie --- */
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 równe kolumny, zero zawijania */
+  gap: clamp(8px, 2vw, 24px);                       /* responsywny odstęp */
 }
 
-/* Responsywnie dla szerokości ≤400px */
-@media (max-width: 400px) {
-  .tree-main-row {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.3em;
+/* Nadpisujemy poprzednie mobile @media, które robiło 1 kolumnę */
+@media (max-width: 720px){
+  .cards{ grid-template-columns: repeat(3, 1fr); gap: clamp(6px, 2vw, 12px); }
+}
+
+/* Karty i zawartość – bardziej kompaktowo na małych ekranach */
+.card{
+  padding: clamp(12px, 2.6vw, 22px) clamp(10px, 2.4vw, 22px);
+  border-radius: 14px;
+}
+
+.card h3{
+  font-size: clamp(16px, 2.4vw, 24px);
+  margin-bottom: 4px;
+}
+
+.card .lead{
+  font-size: clamp(12px, 1.8vw, 14px);
+  margin-bottom: clamp(8px, 2vw, 14px);
+  line-height: 1.35;
+}
+
+/* Ramka obrazka niech nie ogranicza szerokości */
+.card figure{
+  width: 100%;
+  padding: clamp(8px, 1.8vw, 12px);
+  border-radius: 10px;
+}
+
+/* Obrazy – niech same się skalują do 1/3 ekranu */
+.card img{
+  width: clamp(80px, 22vw, 180px);  /* minimum 80px, typowo ~22% szerokości okna, max 180px */
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* ——— „Postaw mi kawę” w nav ——— */
+.nav-item.coffee-btn{
+  background: linear-gradient(180deg, #fff3c4, #ffe9a6);
+  border: 1px solid #e6c36a;
+  box-shadow: 0 2px 0 rgba(255,255,255,.35) inset, 0 6px 18px rgba(0,0,0,.08);
+}
+.nav-item.coffee-btn:hover,
+.nav-item.coffee-btn:focus-visible{
+  background: linear-gradient(180deg, #ffe9a6, #ffe093);
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+.coffee-ico{
+  width: 28px; height: 28px;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 6px;
+  background: #fffbe6;
+  border: 1px solid #e6c36a;
+  font-size: 16px; line-height: 1;
+  filter: drop-shadow(0 1px 0 rgba(255,255,255,.35));
+}
+@media (max-width:420px){
+  .coffee-ico{ width:22px; height:22px; font-size:14px; }
+}
+
+
+    </style>
+    <style>
+/* pełnoekranowa przyciemniona warstwa */
+.greet-overlay{
+  position: fixed; inset: 0; z-index: 9999;
+  background: rgba(0,0,0,.35);
+  display: grid; place-items: center;
+  backdrop-filter: blur(2px);
+}
+/* pudełko powitania */
+.greet-box{
+  max-width: 640px; width: min(92vw, 640px);
+  background: #fdf6e3;
+  border: 2px solid #a67c52;
+  border-radius: 14px;
+  box-shadow: 0 18px 50px rgba(0,0,0,.25);
+  font-family: Georgia, "Times New Roman", serif;
+  color: #2b2318;
+  padding: 18px 18px 14px;
+}
+.greet-box h3{ margin:0 0 .35em; font-size: clamp(20px, 2.2vw, 26px); }
+.greet-lead{ margin:.2em 0 .6em; }
+.greet-list{ margin:.4em 0 .8em 1.1em; }
+.greet-list li{ margin:.15em 0; }
+.greet-footer{ margin:.6em 0 0; font-size:.95em; color:#6b5947; }
+.greet-ok{
+  margin-top:.8em; padding:.5em 1.2em; cursor:pointer;
+  border:0; border-radius:10px; font-weight:700;
+  background:#a67c52; color:#fff;
+  box-shadow:0 6px 18px rgba(0,0,0,.15);
+}
+.greet-ok:hover{ filter:brightness(1.05); }
+
+.stage{ contain: layout; }
+.layer{ backface-visibility:hidden; transform:translateZ(0); }
+.papyrus{ contain: content; }
+
+
+
+
+    </style>
+</head>
+
+<body>
+<a href="#main" class="sr-only" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">Przejdź
+    do treści</a>
+
+<header class="site" role="banner">
+    <h1>Kwiatownik</h1>
+    <p class="subtitle">Encyklopedia kulinarno-ogrodnicza</p>
+</header>
+
+<nav class="primary" aria-label="Główna nawigacja" id="nav">
+    <a href="#przepisy" data-section="przepisy" class="nav-item">
+        <img class="nav-img" loading="lazy" decoding="async"
+             src="{{ url_for('static', filename='img/kwiatownik-przepisy_upscayl.png') }}"
+             alt="" aria-hidden="true" width="28" height="28">
+        <span class="nav-label">Przepisy kulinarne i medyczne</span>
+    </a>
+
+    <a href="#ogrodnictwo" data-section="ogrodnictwo" class="nav-item">
+        <img class="nav-img" loading="lazy" decoding="async"
+             src="{{ url_for('static', filename='img/kwiatownik-ogrodnictwo_upscayl.png') }}"
+             alt="" aria-hidden="true" width="28" height="28">
+        <span class="nav-label">Ogrodnictwo</span>
+    </a>
+
+    <a href="#legendy" data-section="legendy" class="nav-item">
+        <img class="nav-img" loading="lazy" decoding="async"
+             src="{{ url_for('static', filename='img/kwiatownik-legendy_upscayl.png') }}"
+             alt="" aria-hidden="true" width="28" height="28">
+        <span class="nav-label">Opisy i legendy</span>
+    </a>
+
+    <a href="https://buycoffee.to/miguana" target="_blank" rel="noopener" data-action="coffee">
+        <img class="nav-img" loading="lazy" decoding="async"
+             src="{{ url_for('static', filename='img/kwiatownik-kawa.png') }}"
+             alt="" aria-hidden="true" width="28" height="28">
+        <span class="nav-label">Postaw mi kawę</span>
+    </a>
+
+    <a href="#kontakt" data-section="kontakt" class="nav-item">
+        <img class="nav-img" src="{{ url_for('static', filename='img/kwiatownik-kontakt.png') }}" alt="" width="28"
+             height="28">
+        <span class="nav-label">Kontakt</span>
+    </a>
+
+</nav>
+
+
+<main id="main">
+    <section class="stage" id="stage" aria-live="polite">
+        <!-- LAYER: KARTY -->
+        <div class="layer" id="cardsLayer" aria-label="Szybkie wejście do sekcji">
+            <section class="cards" id="cards">
+                <a href="#przepisy" class="card" data-section="przepisy" role="button">
+                    <h3>Przepisy kulinarne i medyczne</h3>
+
+                    <p class="lead">Wpisz słowa klucze (np. kaszel + rumianek) i znajdź receptury.</p>
+                    <figure aria-hidden="true">
+                        <img loading="lazy" decoding="async"
+                             src="{{ url_for('static', filename='img/kwiatownik-przepisy_upscayl.png') }}"
+                             alt="Miska potrawy — sekcja przepisów">
+                    </figure>
+                </a>
+                <a href="#ogrodnictwo" class="card" data-section="ogrodnictwo" role="button">
+                    <h3>Ogrodnictwo</h3>
+                    <p class="lead">Jak sadzić, by nie przesadzić — uprawa, zbiory, płodozmian.</p>
+                    <figure aria-hidden="true">
+                        <img loading="lazy" decoding="async"
+                             src="{{ url_for('static', filename='img/kwiatownik-ogrodnictwo_upscayl.png') }}"
+                             alt="Sadzonka i szpadel — sekcja ogrodnictwa">
+                    </figure>
+                </a>
+                <a href="#legendy" class="card" data-section="legendy" role="button">
+                    <h3>Opisy i legendy</h3>
+                    <p class="lead">Historia, symbolika i ciekawostki o roślinach.</p>
+                    <figure aria-hidden="true">
+                        <img loading="lazy" decoding="async"
+                             src="{{ url_for('static', filename='img/kwiatownik-legendy_upscayl.png') }}"
+                             alt="Księga i motywy roślinne — sekcja legend">
+                    </figure>
+                </a>
+            </section>
+        </div>
+
+        <!-- LAYER: PAPIRUS -->
+        <div class="layer" id="papyrusLayer" aria-hidden="true">
+            <section class="papyrus" id="papyrus">
+                <div class="papyrus__panel">
+                    <h3 class="papyrus__title" id="pap-top-title">—</h3>
+                    <div id="pap-top-content"></div>
+                </div>
+                <div class="papyrus__panel">
+                    <div class="content-area" id="pap-bottom-content">
+                        <p class="placeholder">Wybierz roślinę albo wyszukaj przepisy.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- LAYER: GREETING CAFFEE -->
+        <div class="layer" id="coffeeLayer" aria-hidden="true" style="display:none; text-align:center; padding:2rem;">
+            <img src="{{ url_for('static', filename='img/kwiatownik-podziekowanie.png') }}"
+                 alt="Dziękujemy za kawę ☕" style="max-width:300px;">
+            <p style="margin-top:1rem; font-size:1.2rem;">☕ Dziękujemy za wsparcie! ☕</p>
+        </div>
+    </section>
+</main>
+
+<footer class="site">© 1936 Kwiatownik. Wszystkie prawa zastrzeżone.</footer>
+<!--// === GREETING ===-->
+<script defer>
+window.hideCoffeeLayer = window.hideCoffeeLayer || function(){};
+
+
+const hash = (location.hash||'').replace('#','');
+if(['legendy','przepisy','ogrodnictwo','kontakt'].includes(hash)){
+  hideCoffeeLayer();                            // ⬅️ NOWE
+  if(hash==='kontakt'){ openKontaktPapyrus(); }
+  else { openPapyrus(hash); }
+}
+window.addEventListener('hashchange', ()=>{
+  const h = (location.hash||'').replace('#','');
+  if(['legendy','przepisy','ogrodnictwo','kontakt'].includes(h)){
+    hideCoffeeLayer();                          // ⬅️ NOWE
+    if(h==='kontakt') openKontaktPapyrus();
+    else openPapyrus(h);
   }
-  .name-row,
-  .latin-row {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  .name-row a,
-  .latin-row i {
-    flex: 1;
-    text-align: left;
-  }
-  .fav-btn,
-  .garden-btn {
-    font-size: 1.2em;
-    cursor: pointer;
+});
+const GREETING_URL = "{{ url_for('static', filename='greeting.json') }}";
+
+async function showGreeting() {
+  try {
+    const res = await fetch(GREETING_URL, { credentials: "same-origin" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+
+    // rozpakuj bezpiecznie
+    const title   = data.greeting_title   || "🌱 Dzień dobry!";
+    const lead    = data.greeting_short   || "";
+    const feats   = Array.isArray(data.greeting_features) ? data.greeting_features : [];
+    const footer  = data.greeting_footer  || "";
+
+    // zbuduj modal
+    const overlay = document.createElement("div");
+    overlay.className = "greet-overlay";
+    overlay.innerHTML = `
+      <div class="greet-box" role="dialog" aria-label="Powitanie">
+        <h3>${title}</h3>
+        ${lead ? `<p class="greet-lead">${lead}</p>` : ""}
+        ${feats.length ? `<ul class="greet-list">${feats.map(f=>`<li>${f}</li>`).join("")}</ul>` : ""}
+        ${footer ? `<p class="greet-footer">${footer}</p>` : ""}
+        <button class="greet-ok" type="button">OK</button>
+      </div>
+    `;
+
+    // zamykanie
+    overlay.querySelector(".greet-ok").addEventListener("click", () => overlay.remove());
+    overlay.addEventListener("click", (e) => {
+      if (e.target === overlay) overlay.remove();
+    });
+
+    document.body.appendChild(overlay);
+  } catch (err) {
+    console.error("Błąd ładowania greeting.json:", err);
   }
 }
 
-</style>
+document.addEventListener("DOMContentLoaded", showGreeting);
+
+</script>
+
+<!--// === HIERARCHIA KWIATOWNIKA (dane) ===-->
 <script>
 
-    const allPlantsData = {{ all_plants|default([])|tojson|safe }};
+const HIERARCHY = [
+  {
+    title: "Drzewa",
+    groups: [
+      { title: "Drzewa iglaste", parts: ["igły/liście","kora","szyszki/nasiona","drewno","żywica"] },
+      { title: "Drzewa liściaste", parts: ["liście","kora","pąk","kwiaty","owoce","nasiona","drewno","soki"],
+        plants: [
+          {key:"dab_szypulkowy", label:"Dąb szypułkowy (Quercus robur)"},
+          {key:"dab_bezszypulkowy", label:"Dąb bezszypułkowy (Quercus petraea)"},
+          {key:"kasztan_jadalny", label:"Kasztan jadalny (Castanea sativa)"}
+        ]
+      },
+      { title: "Drzewa owocowe", parts: ["liście","kwiaty","owoce","nasiona","kora","drewno"] }
+    ]
+  },
+  {
+    title: "Krzewy",
+    groups: [
+      { title: "Krzewy ziołowe", parts:["liście","kwiaty","owoce","kora","pędy","nasiona","korzenie"] },
+      { title: "Krzewy owocowe", parts:["liście","kwiaty","owoce","pędy","kora"] }
+    ]
+  },
+  {
+    title: "Rośliny zielne (Zioła)",
+    groups: [
+      { title: "Jednoroczne" },
+      { title: "Wieloletnie",
+        plants: [
+          {key:"krwawnik_pospolity", label:"Krwawnik pospolity (Achillea millefolium)"},
+          // {key:"mniszek_lekarski", label:"Mniszek lekarski (Taraxacum officinale)"},
+          // {key:"rumianek_pospolity", label:"Rumianek pospolity (Matricaria chamomilla)"}
+        ]
+      },
+      { title: "Przyprawowe", parts:["liście","kwiaty","pędy","korzenie","cała część nadziemna","nasiona","owoce"] }
+    ]
+  },
+  {
+    title: "Korzenie i bulwy",
+    groups: [
+      { title: "Korzenie lecznicze", parts:["korzeń","liście","pędy"] },
+      { title: "Korzenie warzywne", parts:["korzeń","liście","pędy"] },
+      { title: "Bulwy", parts:["bulwa","liście","pędy"] }
+    ]
+  },
+  {
+    title: "Rośliny wodne i bagienne",
+    groups: [
+      { title: "Rośliny wodne jadalne", parts:["liście","kwiaty","kłącza","łodygi","owoce"] },
+      { title: "Rośliny bagienne lecznicze", parts:["liście","kwiaty","kłącza","łodygi","owoce"] }
+    ]
+  },
+  {
+    title: "Grzyby",
+    groups: [
+      { title: "Grzyby jadalne", parts:["owocnik","zarodniki","grzybnia"] },
+      { title: "Grzyby lecznicze", parts:["owocnik","zarodniki","grzybnia"] }
+    ]
+  },
+  { title: "Rośliny cebulowe", groups: [{ title:"(ogólnie)", parts:["cebula","liście","pędy kwiatowe"] }] },
+  {
+    title: "Trawy i zboża",
+    groups: [
+      { title: "Zboża", parts:["nasiona (ziarno)","liście","pędy","kwiaty"] },
+      { title: "Trawy dzikie", parts:["nasiona","liście","pędy","kwiaty"] }
+    ]
+  },
+  { title: "Pnącza", groups: [{ title:"(ogólnie)", parts:["pędy","liście","owoce","kwiaty"] }] },
+  {
+    title: "Rośliny egzotyczne",
+    groups: [{ title:"(ogólnie)", parts:["liście","owoce","łodygi","kwiaty","soki","nasiona"] }]
+  }
+];
+
+
+(function(){
+  const nav = document.getElementById('nav');
+  const peek = document.getElementById('peek');
+  const stage = document.getElementById('stage');
+  const cardsLayer = document.getElementById('cardsLayer');
+  const papLayer = document.getElementById('papyrusLayer');
+  const papyrus = document.getElementById('papyrus');
+  const topTitle = document.getElementById('pap-top-title');
+  const topContent = document.getElementById('pap-top-content');
+  const bottomContent = document.getElementById('pap-bottom-content');
+
+  // Aktualna wysokość nav dla sticky peeka
+  function setNavH(){
+    const h = nav.offsetHeight || 56;
+    document.documentElement.style.setProperty('--navH', h + 'px');
+  }
+  setNavH(); window.addEventListener('resize', setNavH);
+
+  // Budowa UI (hierarchia / inputy)
+  const TOP_ICONS = {
+  "Drzewa": "{{ url_for('static', filename='icons/drzewa.png') }}",
+  "Krzewy": "{{ url_for('static', filename='icons/krzewy.png') }}",
+  "Rośliny zielne (Zioła)": "{{ url_for('static', filename='icons/ziola.png') }}",
+  "Korzenie i bulwy": "{{ url_for('static', filename='icons/bulwy.png') }}",
+  "Rośliny wodne i bagienne": "{{ url_for('static', filename='icons/wodne.png') }}",
+  "Grzyby": "{{ url_for('static', filename='icons/grzyby.png') }}",
+  "Rośliny cebulowe": "{{ url_for('static', filename='icons/cebule.png') }}",
+  "Trawy i zboża": "{{ url_for('static', filename='icons/zboza.png') }}",
+  "Pnącza": "{{ url_for('static', filename='icons/pnacza.png') }}",
+  "Rośliny egzotyczne": "{{ url_for('static', filename='icons/egzotyczne.png') }}"
+};
+
+function groupByTop(plants) {
+  const map = new Map();
+  (plants || []).forEach(p => {
+    const top = p.top || 'Inne';
+    if (!map.has(top)) map.set(top, []);
+    map.get(top).push(p);
+  });
+  map.forEach(list => list.sort((a,b)=> a.name.localeCompare(b.name, 'pl')));
+  return Array.from(map.entries());
+}
+
+function buildHierarchy(mode){
+  const groups = groupByTop(PLANTS);
+  if (!groups.length) {
+    return `<p class="placeholder">Brak danych roślin w <code>/static/data</code>.</p>`;
+  }
+  let html = `
+    <p class="placeholder" style="margin-bottom:8px;">Wybierz grupę roślin i przeglądaj listy gatunków.</p>
+    <div class="tree" role="tree">`;
+
+  groups.forEach(([top, list], i) => {
+    const icon = TOP_ICONS[top] || "{{ url_for('static', filename='icons/egzotyczne.png') }}";
+    html += `<details ${i===0?'open':''}>
+      <summary role="treeitem" aria-expanded="${i===0?'true':'false'}">
+        <img class="grp-ico" alt="" aria-hidden="true" src="${icon}">${top}
+      </summary>
+      <ul>`;
+    list.forEach(p => {
+      html += `<li>
+        <a href="#" data-plant="${p.slug}">${p.name}</a>
+        ${p.latin ? ` <i style="color:#6b5947">(${p.latin})</i>` : ''}
+      </li>`;
+    });
+    html += `</ul></details>`;
+  });
+
+  html += `</div>`;
+  return html;
+}
+
+
+
+
+  // Prosty indeks plików JSON (możesz dopisać kolejne)
+const PLANTS = {{ all_plants|tojson|safe }};          // ← cały manifest z app.py
+const PLANT_INDEX = Object.fromEntries(
+  (PLANTS || []).map(p => [p.slug, "{{ url_for('static', filename='data') }}/" + p.slug + ".json"])
+);
+// === Globalne pliki przepisów (Jinja/Flask) ===
+const KUL_GLOBAL_URL = "{{ url_for('static', filename='data/przepisy_kulinarne_global.json') }}";
+const MED_GLOBAL_URL = "{{ url_for('static', filename='data/przepisy_medyczne_global.json') }}";
+
+// mapowanie rekordu z globalnych JSON do formatu używanego przez renderer
+function mapGlobalRecipe(rec){
+  return {
+    t: rec.tytul || rec.title || rec.nazwa || 'Przepis',
+    typ: rec.typ || '',              // 'kulinarne' / 'medyczny'
+    metoda: rec.metoda || '',
+    tagi: asArray(rec.tagi),
+    surowce: asArray(rec.skladniki).map(asString),
+    raw: rec                         // ← renderer czyta z tego Sposób przygotowania / Dawkowanie / Źródła
+  };
+}
+
+async function loadGlobalRecipes(){
+  const [kul, med] = await Promise.all([
+    fetch(KUL_GLOBAL_URL, {credentials:'same-origin'}).then(r=>r.json()).catch(()=>({przepisy:[]})),
+    fetch(MED_GLOBAL_URL, {credentials:'same-origin'}).then(r=>r.json()).catch(()=>({przepisy:[]}))
+  ]);
+  return []
+    .concat((kul.przepisy||[]).map(mapGlobalRecipe))
+    .concat((med.przepisy||[]).map(mapGlobalRecipe));
+}
+
+async function loadPlantData(slug){
+  const url = PLANT_INDEX[slug] || `/static/data/${slug}.json`; // ⬅️ fallback
+  if(!url){ throw new Error('Brak ścieżki do JSON dla: ' + slug); }
+  const res = await fetch(url, {credentials:'same-origin'});
+  if(!res.ok){ throw new Error('Nie mogę wczytać: ' + url); }
+  return await res.json();
+}
+
+
+
+/* ---------- SCHEMA NORMALIZER (obsługa nowych/różnych struktur JSON) ---------- */
+function normalizeData(raw){
+  return {
+    gatunek: getOneOf(raw, ['gatunek','gatunek_nazwa','nazwa','nazwa_pospolita'], 'Wybrany gatunek'),
+    nazwa_lacinska: getOneOf(raw, ['nazwa_lacinska','nazwa_łacińska','taksonomia.lacinska','taksonomia.łacińska','latin','scientific_name'], ''),
+
+    // NOWE:
+    sciezka: normalizeSciezka(raw),
+    taksonomia: normalizeTaksonomia(getOneOf(raw, ['taksonomia','taxonomia','taxonomy'])),
+
+    zdjecia: normalizePhotos(raw),
+
+    // Gałąź Ogrodnictwo (DODANE) + stare aliasy:
+    wystepowanie: normalizeWystepowanie(getOneOf(raw, ['Ogrodnictwo.wystepowanie','Ogrodnictwo.występowanie','wystepowanie','występowanie','range','wyst'])),
+    uprawa:       normalizeUprawa(getOneOf(raw, ['Ogrodnictwo.uprawa','uprawa','uprawa_i_pielegnacja','uprawa_i_pielęgnacja','cultivation'])),
+    kalendarz:    normalizeKalendarz(getOneOf(raw, ['Ogrodnictwo.kalendarz','kalendarz','kalendarz_prac','calendar'])),
+    permakultura: normalizePermakultura(getOneOf(raw, ['Ogrodnictwo.permakultura','permakultura','permaculture','gildie','companions'])),
+
+    wlasciwosci_i_skladniki: normalizeWlasciwosci(raw),
+    cechy_i_historia: normalizeCechyHistoria(getOneOf(raw, ['cechy_i_historia','historia','legendy'])),
+    uwagi_i_ostrzezenia: normalizeUwagi(getOneOf(raw, ['uwagi_i_ostrzezenia','uwagi_i_ostrzeżenia','uwagi','ostrzezenia'])),
+    inne_zastosowania: normalizeInneZastosowania(getOneOf(raw, ['inne_zastosowania','zastosowania_pozostale','other_uses'])),
+    recipes_flat: normalizeRecipes(raw),
+  };
+}
+
+
+function normalizeTaksonomia(t){
+  t = t || {};
+  return {
+    krolestwo: getOneOf(t, ['krolestwo','królestwo','kingdom']),
+    gromada:   getOneOf(t, ['gromada','phylum','dział']),
+    klasa:     getOneOf(t, ['klasa','class']),
+    rzad:      getOneOf(t, ['rząd','rzad','order']),
+    rodzina:   getOneOf(t, ['rodzina','family']),
+    rodzaj:    getOneOf(t, ['rodzaj','genus']),
+    gatunek:   getOneOf(t, ['gatunek','species']),
+    podgatunek:getOneOf(t, ['podgatunek','subspecies']),
+    odmiana:   getOneOf(t, ['odmiana','varietas','var']),
+    autor:     getOneOf(t, ['autor','author'])
+  };
+}
+function normalizeSciezka(raw){
+  let s = getOneOf(raw, ['nazwa_zbioru','ścieżka','sciezka','path','klasyfikacja']);
+  if(!s) return [];
+  if(Array.isArray(s)) return s.map(x=>String(x));
+  return String(s).split(/[>→]/).map(x=>x.trim()).filter(Boolean);
+}
+
+
+function getOneOf(obj, paths, fallback=null){
+  for(const p of paths){
+    // p może być np. "taksonomia.lacinska" albo "uprawa.zbior|uprawa.zbiór"
+    const variants = p.split('|');
+    for(const v of variants){
+      const val = v.split('.').reduce((o,k)=> (o && o[k]!==undefined) ? o[k] : undefined, obj);
+      if(val !== undefined && val !== null) return val;
+    }
+  }
+  return fallback;
+}
+
+function asArray(x){
+  if(!x) return [];
+  return Array.isArray(x) ? x : [x];
+}
+
+function asString(x){
+  if(x === undefined || x === null) return '';
+  if(typeof x === 'string') return x;
+  try{ return JSON.stringify(x); }catch{ return String(x); }
+}
+
+function normalizeKalendarz(kalRaw){
+  if(!kalRaw || typeof kalRaw!=='object') return null;
+  const out = {};
+  Object.entries(kalRaw).forEach(([event, payload])=>{
+    const mies  = getOneOf(payload, ['miesiące','miesiace','m','months'], []);
+    out[event] = {
+      miesiace:   asArray(mies),
+      warunki:    getOneOf(payload, ['warunki','war','conditions'], ''),
+      ksiezyc:    getOneOf(payload, ['zalecana_faza_ksiezyca','zalecana_faza_księżyca','faza_ksiezyca','moon_phase'], 'bez znaczenia'),
+      pora_dnia:  getOneOf(payload, ['pora_dnia','pory_dnia','daytime','czas_dnia'], '—'),
+      typ:        getOneOf(payload, ['typ','rodzaj','category'], ''),
+      intensywnosc: getOneOf(payload, ['intensywność','intensywnosc','intensity'], ''),
+      czynnosci:  getOneOf(payload, ['czynności','czynnosc','opis','description','notes'], ''),
+      uwagi:      getOneOf(payload, ['uwagi','notes','remark'], ''),
+      zrodla:     asArray(getOneOf(payload, ['źródło','zrodlo','zrodla','źródła','sources']))
+    };
+  });
+  return out;
+}
+
+
+function normalizeUprawa(up){
+  if(!up || typeof up!=='object') return null;
+  return {
+    gleba:        getOneOf(up, ['gleba','soil']),
+    stanowisko:   getOneOf(up, ['stanowisko','stanowisko_uprawy','exposure','position']),
+    wysiew:       getOneOf(up, ['wysiew','rozmnażanie','rozmnażanie_wegetatywne','siew','propagation']),
+    zbior:        getOneOf(up, ['zbior|zbiór','zbiory','harvest']),
+    podlewanie:   getOneOf(up, ['podlewanie','nawadnianie','watering']),
+    nawozenie:    getOneOf(up, ['nawożenie','nawozenie','fertilization']),
+    przycinanie:  getOneOf(up, ['cięcie','ciecie','przycinanie','pruning']),
+    ochrona:      getOneOf(up, ['ochrona','protection','choroby_i_szkodniki']),
+    plodozmian:   getOneOf(up, ['płodozmian','plodozmian','crop_rotation']),
+    tipy:         asArray(getOneOf(up, ['tipy_ogrodowe','wskazowki','wskazówki','tips'])).filter(Boolean)
+  };
+}
+
+function normalizeWystepowanie(w){
+  if(!w || typeof w!=='object') return null;
+  return {
+    obszar:   getOneOf(w, ['obszar','range','area']),
+    w_polsce: getOneOf(w, ['w_polsce','polska','in_poland'])
+  };
+}
+
+function normalizePermakultura(p){
+  if(!p || typeof p!=='object') return null;
+  return {
+    opis:     getOneOf(p, ['opis','desc','description']),
+    funkcje:  asArray(getOneOf(p, ['funkcje','functions'])),
+    gildie:   asArray(getOneOf(p, ['gildie','sąsiedztwo','companions','guilds']))
+  };
+}
+
+function normalizeWlasciwosci(raw){
+  const arr = asArray(getOneOf(raw, ['wlasciwosci_i_skladniki','właściwości_i_składniki','skladniki','składniki','properties','constituents']));
+  return arr.map(it=>{
+    if(typeof it==='string') return { nazwa: it, dzialanie: '', zrodla: [] };
+    return {
+      nazwa: getOneOf(it, ['nazwa','name'], 'Składnik'),
+      dzialanie: getOneOf(it, ['działanie','dzialanie','effect','action'], ''),
+      zrodla: asArray(getOneOf(it, ['zrodla','źródła','zrodlo','źródło','sources','refs']))
+    };
+  });
+}
+
+
+function normalizeCechyHistoria(chRaw){
+  const opis = getOneOf(chRaw||{}, ['opis','description','tekst']);
+  const cechy = asArray(getOneOf(chRaw||{}, ['cechy','features']));
+  const hist  = asArray(getOneOf(chRaw||{}, ['zastosowanie_historyczne','history','użycia_historyczne']));
+  const ciek  = asArray(getOneOf(chRaw||{}, ['ciekawostki','ciekawostki_kulturowe','curiosities']));
+  return { opis, cechy, zastosowanie_historyczne: hist, ciekawostki: ciek };
+}
+
+function normalizeUwagi(uwRaw){
+  const arr = asArray(getOneOf({uwRaw}, ['uwRaw','uwagi_i_ostrzezenia','uwagi_i_ostrzeżenia','uwagi','ostrzezenia','ostrzeżenia']));
+  return arr.map(u=>{
+    if(typeof u==='string') return { uwaga: u, rozwiazanie: '' };
+    return {
+      uwaga: getOneOf(u, ['uwaga','warning','note'], ''),
+      rozwiazanie: getOneOf(u, ['rozwiazanie','rozwiązanie','mitigation','remedy'], '')
+    };
+  });
+}
+
+function normalizeInneZastosowania(z){
+  if(!z || typeof z!=='object') return null;
+  const out = {};
+  Object.entries(z).forEach(([k,v])=>{
+    const opis = getOneOf(v||{}, ['opis','description','zastosowanie','use'], '');
+    out[k] = { opis };
+  });
+  return out;
+}
+
+function normalizePhotos(raw){
+  const arr = asArray(getOneOf(raw, ['zdjecia','zdjęcia','photos','images']));
+  return arr.filter(Boolean);
+}
+
+function normalizeBibliografia(raw){
+  const bib = getOneOf(raw, ['Bibliografia','bibliografia','references','zrodla_globalne','źródła_globalne']);
+  if(!bib) return {};
+  const map = {};
+  if(Array.isArray(bib)){
+    // lista: ["https://...", {id:"Kew", url:"..."}, ...]
+    bib.forEach((it,i)=>{
+      if(typeof it === 'string') map[String(i+1)] = it;
+      else if (it && typeof it === 'object') {
+        const id  = it.id || it.key || String(i+1);
+        const url = it.url || it.href || it.link || it.source || '';
+        if(url) map[String(id)] = url;
+      }
+    });
+  }else if(typeof bib === 'object'){
+    // słownik: { "Kew": "https://...", "PFAF": {url:"..."} }
+    Object.entries(bib).forEach(([k,v])=>{
+      map[String(k)] = (typeof v === 'string') ? v : (v?.url || v?.href || v?.link || '');
+    });
+  }
+  return map;
+}
+
+function asUrlMaybe(x){
+  if(typeof x !== 'string') return '';
+  return /^(https?:)?\/\//i.test(x) ? x : '';
+}
+
+function refLinks(refs, bibMap){
+  const arr = asArray(refs).filter(Boolean);
+  if(!arr.length) return '';
+  let n = 0;
+  const links = arr.map(r=>{
+    const byBib = bibMap && (bibMap[String(r)] || bibMap[r]);
+    const url = asUrlMaybe(byBib || r);
+    if(!url) return '';
+    n += 1;
+    return `<a href="${url}" target="_blank" rel="noopener">[${n}]</a>`;
+  }).filter(Boolean).join(' ');
+  return links ? ` <small>${links}</small>` : '';
+}
+function normalizeRecipes(raw){
+  const srcMed = asArray(getOneOf(raw, ['przepisy_medyczne','fitoterapia','recipes_medical']));
+  const srcKul = asArray(getOneOf(raw, ['przepisy_kulinarne','recipes_culinary']));
+
+  const med = srcMed.map(x => ({
+    typ: 'medyczny',
+    t: getOneOf(x, ['nazwa','tytul','tytuł','title'], 'Przepis'),
+    tagi: asArray(getOneOf(x, ['tagi','tags','skladniki','składniki'])).map(asString),
+    surowce: asArray(getOneOf(x, ['skladniki','składniki'])).map(asString),
+    metoda: getOneOf(x, ['metoda','forma','typ','rodzaj'], ''),
+    raw: x                               // ⬅️ zachowujemy oryginalny wpis
+  }));
+
+  const kul = srcKul.map(x => ({
+    typ: 'kulinarne',
+    t: getOneOf(x, ['nazwa','tytul','tytuł','title'], 'Przepis'),
+    tagi: asArray(getOneOf(x, ['tagi','tags','skladniki','składniki'])).map(asString),
+    surowce: asArray(getOneOf(x, ['skladniki','składniki'])).map(asString),
+    metoda: getOneOf(x, ['metoda','forma','typ','rodzaj'], ''),
+    raw: x                               // ⬅️ zachowujemy oryginalny wpis
+  }));
+
+  return [...med, ...kul];
+}
+
+
+
+
+
+
+const __DBG = true; // ← ustaw na false gdy skończysz
+function dbg(...a){ if(__DBG) console.log('[Kwiatownik]', ...a); }
+
+
+
+
+
+/* ---------- WSPÓLNE UTILSY DO RENDEROWANIA ---------- */
+
+function section(title, html){
+  if(!html) return '';
+  return `<h4>${title}</h4>${html}`;
+}
+
+function list(arr){
+  if(!arr || !arr.length) return '';
+  return `<ul>${arr.map(x=>`<li>${typeof x==='string' ? x : (x.nazwa||asString(x))}</li>`).join('')}</ul>`;
+}
+
+function dl(pairs){
+  if(!pairs || !Object.keys(pairs).length) return '';
+  return `<dl>${Object.entries(pairs).map(([k,v])=>`
+    <dt>${k}</dt><dd>${Array.isArray(v)? v.join(', ') : (typeof v==='object' ? asString(v) : v)}</dd>`).join('')}
+  </dl>`;
+}
+
+
+
+
+
+
+function renderAUTO(raw){
+  try{
+    // Pomiń oczywiste “ciężary” (zdjęcia itp.), pokaż resztę w czytelnej formie
+    const { zdjecia, zdjęcia, photos, images, ...rest } = raw || {};
+    const html = autoListify(rest);
+    return html || '<p class="muted">Brak rozpoznanych pól do wyświetlenia.</p>';
+  }catch(e){
+    return `<pre class="code">${(e && e.message) || String(e)}</pre>`;
+  }
+}
+
+function renderMetaTrail(norm){
+  const crumbs = [];
+  if(norm.sciezka?.length){
+    crumbs.push(`<span class="crumb">${norm.sciezka.join(' → ')}</span>`);
+  }
+  const t = norm.taksonomia || {};
+  const taxBits = ['rodzina','rodzaj','gatunek','podgatunek','odmiana']
+    .filter(k=>t[k]).map(k=>`${k}: <i>${t[k]}</i>`);
+  if(taxBits.length) crumbs.push(`<span class="crumb">${taxBits.join(' • ')}</span>`);
+  return crumbs.length ? `<div class="breadcrumbs">${crumbs.join('')}</div>` : '';
+}
+
+<!--function renderPozostale(raw){-->
+<!--  if(!raw || typeof raw!=='object') return '';-->
+<!--  const KNOWN = new Set([-->
+<!--    'gatunek','nazwa','nazwa_pospolita','nazwa_lacinska','nazwa_łacińska',-->
+<!--    'taksonomia','taxonomy','taxonomia','nazwa_zbioru','ścieżka','sciezka','path','klasyfikacja',-->
+<!--    'zdjecia','zdjęcia','photos','images',-->
+<!--    // Ogrodnictwo:-->
+<!--    'Ogrodnictwo','wystepowanie','występowanie','uprawa','kalendarz','permakultura',-->
+<!--    // Inne znane sekcje:-->
+<!--    'wlasciwosci_i_skladniki','właściwości_i_składniki','skladniki','składniki',-->
+<!--    'cechy_i_historia','historia','legendy','uwagi_i_ostrzezenia','uwagi_i_ostrzeżenia','uwagi','ostrzezenia','ostrzeżenia',-->
+<!--    'inne_zastosowania','zastosowania_pozostale','other_uses',-->
+<!--    'przepisy_medyczne','przepisy_kulinarne','recipes_medical','recipes_culinary'-->
+<!--  ]);-->
+<!--  const rest = {};-->
+<!--  Object.keys(raw).forEach(k=>{ if(!KNOWN.has(k)) rest[k]=raw[k]; });-->
+<!--  const html = autoListify(rest);-->
+<!--  return html ? `<details class="rest"><summary>Pozostałe dane z pliku JSON</summary>${html}</details>` : '';-->
+<!--}-->
+
+
+/* ---------- RENDER: OGRODNICTWO ---------- */
+function renderOGROD(norm){
+  const meta = renderMetaTrail(norm);
+  const thisMonth = (new Date()).getMonth() + 1;
+
+  // ——— U P R A W A ———
+  const U = norm.uprawa || {};
+  const upPairs = {};
+  let zbiorHTML = '';
+
+  if (U.gleba)       upPairs["Gleba"] = U.gleba;
+  if (U.stanowisko)  upPairs["Stanowisko"] = U.stanowisko;
+  if (U.wysiew)      upPairs["Wysiew / rozmnażanie"] = U.wysiew;
+
+  // Jeśli 'zbior' to obiekt — pokaż tabelę szczegółową
+  if (U.zbior){
+    if (typeof U.zbior === 'object' && !Array.isArray(U.zbior)) {
+      zbiorHTML = renderZbior(U.zbior);
+    } else {
+      upPairs["Zbiór"] = U.zbior;
+    }
+  }
+
+  if (U.podlewanie)  upPairs["Podlewanie"] = U.podlewanie;
+  if (U.nawozenie)   upPairs["Nawożenie"] = U.nawozenie;
+  if (U.przycinanie) upPairs["Przycinanie"] = U.przycinanie;
+  if (U.ochrona)     upPairs["Ochrona"] = U.ochrona;
+  if (U.plodozmian)  upPairs["Płodozmian"] = U.plodozmian;
+
+  const upHTML = dl(upPairs)
+    + (U.tipy?.length ? `<h5>Tipy ogrodowe</h5><ul>${U.tipy.map(t=>`<li>${t}</li>`).join('')}</ul>` : '')
+    + (zbiorHTML ? `<h5>Zbiory (szczegółowe)</h5>${zbiorHTML}` : '');
+
+  // ——— K A L E N D A R Z ———
+  let kalTable = '';
+  let kalDetails = '';
+
+  if (norm.kalendarz && Object.keys(norm.kalendarz).length){
+    const months = ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"];
+    const head = `<tr><th>Zabieg</th>${months.map((m,i)=>`<th class="${(i+1)===thisMonth?'current-month':''}">${m}</th>`).join('')}</tr>`;
+
+    const rows = Object.entries(norm.kalendarz).map(([ev,o])=>{
+      const mies = o.miesiace || [];
+      const tds = [];
+      for(let m=1;m<=12;m++){
+        const active = mies.includes(m);
+        tds.push(`<td class="${active?'aktywny':''} ${(m===thisMonth)?'current':''}">${active?'✔️':''}</td>`);
+      }
+      return `<tr>
+        <td><a class="zabieg-link" href="#zabieg-${ev}">${(ev||'').replaceAll('_',' ')}</a></td>
+        ${tds.join('')}
+      </tr>`;
+    }).join('');
+
+    kalTable = `
+      <div class="calendar-wrapper">
+        <label style="display:inline-flex;gap:.4em;align-items:center;">
+          <input id="only-current-toggle" type="checkbox"> tylko bieżący miesiąc
+        </label>
+        <table class="kalendarz-tabela">
+          <thead>${head}</thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
+
+    kalDetails = `
+      <div class="kalendarz-legenda">
+        <h3>📖 Opisy zabiegów</h3>
+        ${Object.entries(norm.kalendarz).map(([ev,o])=>{
+          const miesRoman = fmtMonths(o.miesiace || []);
+          const faza   = o.ksiezyc && o.ksiezyc!=='bez znaczenia' ? o.ksiezyc : '';
+          const pora   = o.pora_dnia && o.pora_dnia!=='—' ? o.pora_dnia : '';
+          const intens = o.intensywnosc || '';
+          const uwagi  = o.uwagi || '';
+          const czyn   = o.czynnosci || '';
+          const zrod   = o.zrodla || [];
+
+          const zrodHTML = Array.isArray(zrod) && zrod.length
+            ? `<p><small><b>Źródła:</b> ${zrod.map((u,i)=>`<a href="${u}" target="_blank" rel="noopener">[${i+1}]</a>`).join(' ')}</small></p>`
+            : '';
+
+          return `
+          <div id="zabieg-${ev}" class="legenda-zabieg ${ (o.miesiace||[]).includes(thisMonth) ? 'aktywny-teraz' : '' }">
+            <strong>${ev.replaceAll('_',' ')}</strong>
+            <ul style="margin-top:.5em">
+              ${o.typ ? `<li><b>Typ:</b> ${o.typ}</li>` : ''}
+              ${faza   ? `<li><b>Faza księżyca:</b> ${faza}</li>` : ''}
+              ${pora   ? `<li><b>Pora dnia:</b> ${pora}</li>` : ''}
+              ${intens ? `<li><b>Intensywność:</b> ${intens}</li>` : ''}
+              ${miesRoman ? `<li><b>Miesiące:</b> ${miesRoman}</li>` : ''}
+              ${czyn  ? `<li><b>Czynność:</b> ${czyn}</li>` : ''}
+              ${uwagi ? `<li><b>Uwagi:</b> ${uwagi}</li>` : ''}
+            </ul>
+            ${zrodHTML}
+          </div>`;
+        }).join('')}
+      </div>`;
+  }
+
+  // ——— Występowanie + Permakultura ———
+  const wyst = norm.wystepowanie ? dl({
+    "Obszar": norm.wystepowanie.obszar || '',
+    "W Polsce": norm.wystepowanie.w_polsce || ''
+  }) : '';
+
+  let perm = '';
+  if (norm.permakultura){
+    if (norm.permakultura.opis) perm += `<p>${norm.permakultura.opis}</p>`;
+    if (norm.permakultura.funkcje?.length) perm += `<h5>Funkcje w ogrodzie</h5><ul>${norm.permakultura.funkcje.map(x=>`<li>${x}</li>`).join('')}</ul>`;
+    if (norm.permakultura.gildie?.length)  perm += `<h5>Gildie / sąsiedztwo</h5><ul>${norm.permakultura.gildie.map(x=>`<li>${x}</li>`).join('')}</ul>`;
+  }
+
+  return `
+    <article class="pap-article">
+      ${meta}
+      ${section('Uprawa', upHTML)}
+      ${section('Kalendarz zabiegów', kalTable + kalDetails)}
+      ${section('Występowanie', wyst)}
+      ${section('Permakultura', perm)}
+    </article>
+  `;
+}
+
+/* ---------- RENDER: LEGENDY / OPISY ---------- */
+function renderLEGENDY(norm, raw){
+  const BIB = normalizeBibliografia(raw);
+  const meta  = renderMetaTrail(norm);
+  const fotos = (norm.zdjecia && norm.zdjecia.length)
+    ? `<div class="gallery">${norm.zdjecia.slice(0,4).map(src=>`<img src="${src}" alt="">`).join('')}</div>` : '';
+
+  // Właściwości/Składniki (z normalizera)
+  let skladList = Array.isArray(norm.wlasciwosci_i_skladniki) ? norm.wlasciwosci_i_skladniki : [];
+  const skladHTML = skladList.length
+    ? '<ul>' + skladList.map(it=>
+        `<li><b>${it.nazwa}</b>${it.dzialanie ? ' — '+it.dzialanie : ''}${refLinks(it.zrodla, BIB)}</li>`
+      ).join('') + '</ul>'
+    : '';
+
+  // Cechy i historia (z normalizera)
+  let chHTML = '';
+  if(norm.cechy_i_historia){
+    const CH = norm.cechy_i_historia;
+    if (CH.opis) chHTML += `<p>${CH.opis}</p>`;
+    if (CH.cechy?.length) chHTML += `<h5>Cechy</h5><ul>${CH.cechy.map(x=>`<li>${x}</li>`).join('')}</ul>`;
+    if (CH.zastosowanie_historyczne?.length) chHTML += `<h5>Zastosowanie historyczne</h5><ul>${CH.zastosowanie_historyczne.map(x=>`<li>${x}</li>`).join('')}</ul>`;
+    if (CH.ciekawostki?.length) chHTML += `<h5>Ciekawostki</h5><ul>${CH.ciekawostki.map(x=>`<li>${x}</li>`).join('')}</ul>`;
+  }
+
+  // Uwagi i ostrzeżenia (z normalizera) + linki
+  let uwHTML = '';
+  if(Array.isArray(norm.uwagi_i_ostrzezenia) && norm.uwagi_i_ostrzezenia.length){
+    uwHTML = '<ul>' + norm.uwagi_i_ostrzezenia.map(u=>{
+      if(typeof u==='string') return `<li><b>Uwaga:</b> ${u}</li>`;
+      const refs = u.zrodla || u.zrodlo || u.sources || u.refs;
+      return `<li><b>Uwaga:</b> ${u.uwaga||''}${u.rozwiazanie ? ' — <i>'+u.rozwiazanie+'</i>' : ''}${refLinks(refs, BIB)}</li>`;
+    }).join('') + '</ul>';
+  }
+
+  // Fallback z bloku "Cechy" w surowym JSON (jeśli normalizer nie dostarczył)
+  const CECHY = getOneOf(raw||{}, ['Cechy','cechy','CECHY']) || {};
+  // Opis botaniczny, Występowanie
+  const opisBot = getOneOf(CECHY, ['Opis Botaniczny','Opis botaniczny','opis_botaniczny','Opis','opis','opis rośliny']);
+  const opisBotHTML = opisBot ? (typeof opisBot === 'object' ? autoListify(opisBot) : `<p>${opisBot}</p>`) : '';
+  const wystRaw = getOneOf(CECHY, ['Występowanie','Wystepowanie','występowanie','wystepowanie']);
+  const wystHTML = wystRaw ? (typeof wystRaw === 'object' ? autoListify(wystRaw) : `<p>${wystRaw}</p>`) : '';
+
+  // Jeśli nie było właściwości/składników w normalizerze — spróbuj z "Cechy" + linki
+  let skladFromCechy = '';
+  if(!skladHTML){
+    const wRaw = getOneOf(CECHY, ['Właściwości i składniki','Wlasciwosci i skladniki','właściwości_i_składniki','wlasciwosci_i_skladniki']);
+    const arr = asArray(wRaw);
+    if(arr.length){
+      skladFromCechy = '<ul>' + arr.map(it=>{
+        if(typeof it==='string') return `<li>${it}</li>`;
+        const name = it.nazwa || it.name || 'Składnik';
+        const eff  = it.działanie || it.dzialanie || it.effect || '';
+        const refs = it.zrodla || it.zrodlo || it.sources || it.refs;
+        return `<li><b>${name}</b>${eff ? ' — '+eff : ''}${refLinks(refs, BIB)}</li>`;
+      }).join('') + '</ul>';
+    }
+  }
+
+  // Inne zastosowania (jak było)
+  let inne = '';
+  if(norm.inne_zastosowania){
+    const map = {};
+    Object.entries(norm.inne_zastosowania).forEach(([k,v])=>{
+      map[k.replaceAll('_',' ')] = v.opis || '';
+    });
+    inne = dl(map);
+  }
+
+  // (Opcjonalnie) lista bibliografii na dole
+  const bibHTML = (()=> {
+    const entries = Object.entries(BIB||{});
+    if(!entries.length) return '';
+    return '<ol>' + entries.map(([id,url])=> `<li><a href="${url}" target="_blank" rel="noopener">${id}</a></li>`).join('') + '</ol>';
+  })();
+
+  return `
+    <article class="pap-article">
+      ${meta}
+      ${fotos}
+      ${section('Opis botaniczny',   opisBotHTML)}
+      ${section('Występowanie',      wystHTML)}
+      ${section('Właściwości i składniki', skladHTML || skladFromCechy)}
+      ${section('Cechy i historia',  chHTML)}
+      ${section('Uwagi i ostrzeżenia', uwHTML)}
+      ${section('Inne zastosowania', inne)}
+      ${section('Bibliografia',      bibHTML)}
+    </article>
+  `;
+}
+
+/* ---------- RENDER: PRZEPISY (wyszukiwarka po nowych JSON-ach) ---------- */
+
+function renderRecipesTokens(recipes, tokens){
+  // każde słowo kluczowe musi się znaleźć w tytule, tagach albo surowcach
+  const Q = tokens.map(t=>t.trim().toLowerCase()).filter(Boolean);
+  if(!Q.length) return recipes;
+
+  return recipes.filter(r=>{
+    const hay = [
+      r.t,
+      ...(r.tagi||[]),
+      ...(r.surowce||[]),
+      r.metoda||'',
+      r.typ||''
+    ].join(' ').toLowerCase();
+    return Q.every(q => hay.includes(q));
+  });
+}
+
+function renderRecipesUI(norm, a, b){
+  const tokens = [a,b].join(' ').split(/[,\s]+/).filter(Boolean);
+  const found = renderRecipesTokens(norm.recipes_flat || [], tokens);
+
+  if(!found.length){
+    return `<p class="placeholder">Brak wyników dla: <b>${a||'—'}</b> + <b>${b||'—'}</b>. Spróbuj innych haseł.</p>`;
+  }
+
+  return `<ul class="results-list">${
+    found.map(r=>`
+      <li class="result-item">
+        <h4>${r.t}</h4>
+        <p class="muted">${[
+          r.typ==='medyczny' ? 'medyczny' : 'kulinarne',
+          r.metoda||null,
+          (r.tagi?.length ? r.tagi.join(' • ') : null)
+        ].filter(Boolean).join(' • ')}</p>
+      </li>
+    `).join('')
+  }</ul>`;
+}
+
+/* ---------- GŁÓWNY RENDER ROŚLINY Z ADAPTEREM ---------- */
+
+async function renderPlant(slug, mode){
+  bottomContent.innerHTML = `<p class="placeholder">Ładuję dane rośliny…</p>`;
+  try{
+    const raw  = await loadPlantData(slug);
+    const norm = normalizeData(raw);
+
+    const titleName = norm.gatunek || 'Wybrany gatunek';
+    const latin     = norm.nazwa_lacinska || '';
+    topTitle.textContent = `${titleName}${latin ? ' ('+latin+')' : ''}`;
+
+    let html = (mode === 'ogrodnictwo') ? renderOGROD(norm) : renderLEGENDY(norm, raw);
+
+
+    // Fallback, jeśli treści jest bardzo mało
+    const onlyGallery = !html.replace(/<img[^>]*>/g,'').replace(/<[^>]+>/g,'').trim();
+    if (onlyGallery) {
+      html += section('Auto-podgląd (surowe dane)', renderAUTO(raw));
+    }
+
+    // Zawsze pokaż „pozostałe pola”, jeśli są
+<!--    const leftovers = renderPozostale(raw);-->
+<!--    if (leftovers) {-->
+<!--      html += section('Pozostałe pola (auto-podgląd)', leftovers);-->
+<!--    }-->
+
+    bottomContent.innerHTML = `<article class="pap-article">${html}</article>`;
+
+    attachHeightObservers();
+    scheduleStageHeight();
+    wireCalendarUI(bottomContent);
+    watchImagesForHeightUpdates(bottomContent);
+    updateStageHeightAfterAsyncContent();
+
+  } catch(err){
+    bottomContent.innerHTML = `<p class="placeholder">Nie udało się wczytać danych. ${err.message}</p>`;
+    updateStageHeightAfterAsyncContent();
+  }
+}
+
+
+
+/* ---------- Nadpisanie zachowania sekcji "Przepisy" by używała nowego JSON ---------- */
+
+
+
+// === Helpers: formatowanie uprawy ===
+function wireCalendarUI(root = bottomContent){
+  // poczekaj jedną klatkę, aby DOM już był wstawiony
+  requestAnimationFrame(()=>{
+    const box   = root.querySelector('#only-current-toggle');     // checkbox „tylko bieżący miesiąc”
+    const table = root.querySelector('.kalendarz-tabela');         // tabela kalendarza
+    if(!box || !table) return;
+
+    box.addEventListener('change', ()=>{
+      table.querySelectorAll('tbody tr').forEach(tr=>{
+        tr.querySelectorAll('td').forEach((td,i)=>{
+          if(i===0) return; // kolumna z nazwą zabiegu
+          const isCurrent = td.classList.contains('current');
+          td.style.opacity = (box.checked && !isCurrent) ? .15 : '';
+        });
+      });
+    });
+  });
+}
+
+
+function isPlainObject(v){ return v && typeof v==='object' && !Array.isArray(v); }
+
+function fmtMonths(arr){
+  if(!arr) return '—';
+  const map = {1:'I',2:'II',3:'III',4:'IV',5:'V',6:'VI',7:'VII',8:'VIII',9:'IX',10:'X',11:'XI',12:'XII'};
+  return arr.map(m=>{
+    if(typeof m==='number') return map[m]||m;
+    // już rzymskie? zostaw
+    return m;
+  }).join(', ');
+}
+
+function renderZbior(zbior){
+  if(!zbior) return '<p class="muted">Brak danych o zbiorach.</p>';
+  if(typeof zbior==='string') return `<p>${zbior}</p>`;
+
+  if(isPlainObject(zbior)){
+    const rows = Object.entries(zbior).map(([surowiec, v])=>{
+      const mies = fmtMonths(v.miesiace || v['miesiące'] || []);
+      const war  = Array.isArray(v.warunki) ? v.warunki.join(' ') : (v.warunki || '—');
+      return `<tr>
+        <td><strong>${surowiec.replaceAll('_',' ')}</strong></td>
+        <td>${mies}</td>
+        <td>${war}</td>
+      </tr>`;
+    }).join('');
+    return `
+      <div class="table-wrap">
+        <table class="tbl">
+          <thead><tr><th>Surowiec</th><th>Miesiące</th><th>Warunki</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
+  }
+
+  // fallback dla rzadkich formatów
+  try{ return `<pre class="code">${JSON.stringify(zbior,null,2)}</pre>`; }
+  catch(e){ return `<p>${String(zbior)}</p>`; }
+}
+
+
+  // helpery openPapyrus
+  let papRO = null; // ResizeObserver dla papirusu
+
+  function setStageHeightToPapyrus(min = 560){
+    // Ustaw wysokość sceny do aktualnej wysokości papirusu
+    const papH = papyrus.scrollHeight;
+    stage.style.height = Math.max(min, papH) + 'px';
+  }
+
+  function watchPapyrusResize(){
+    if(papRO) papRO.disconnect();
+    papRO = new ResizeObserver(() => setStageHeightToPapyrus());
+    papRO.observe(papyrus);
+  }
+
+  function updateStageHeightAfterAsyncContent(){
+    // natychmiast
+    scheduleStageHeight();
+    attachHeightObservers();
+    // po następnym malowaniu (np. po wstawieniu HTML)
+    requestAnimationFrame(() => setStageHeightToPapyrus());
+    // po załadowaniu obrazków
+    papyrus.querySelectorAll('img').forEach(img=>{
+      if(img.complete) return;           // już gotowy
+      img.addEventListener('load', setStageHeightToPapyrus, {once:true});
+      img.addEventListener('error', setStageHeightToPapyrus, {once:true});
+    });
+  }
+
+/* === Przepisy: podpowiedzi + tagi (nowy silnik) === */
+function buildRecipeSearchUI(){
+  return `
+    <div class="search-zone">
+      <input id="recipeSearch" type="text" placeholder="Szukaj: składnik, efekt, objaw…" autocomplete="off" />
+      <div id="recipeSuggestions" class="suggestions" aria-live="polite"></div>
+      <div id="recipeTags" class="tags"></div>
+      <p class="muted">Podpowiedzi pojawiają się nad polem. Kliknij lub naciśnij Enter, by dodać filtr-tag.</p>
+    </div>
+  `;
+}
+
+let RECIPES = [];          // aktualnie dostępne przepisy (z wybranego JSON-a rośliny)
+let LEXICON = [];          // słownik słów kluczowych
+const ACTIVE_TAGS = new Set();
+const TAG_COLORS = new Map();
+const COLOR_CLASSES = ['c0','c1','c2','c3','c4','c5'];
+
+// normalizacja tekstu pod wyszukiwanie (usuwa znaki diakrytyczne i interpunkcję)
+const normalizeText = s => (s||'')
+  .toLowerCase()
+  .normalize('NFD').replace(/[\u0300-\u036f]/g,'')      // usuń diakrytyki
+  .replace(/[^\p{L}\p{N}\s-]/gu, ' ')                   // wytnij interpunkcję
+  .replace(/\s+/g,' ')
+  .trim();
+
+const splitTokens = s => normalizeText(s).split(' ').filter(Boolean);
+const isWord = t => /^[\p{L}\p{N}-]{2,}$/u.test(t);
+
+function buildLexiconFromRecipes(list){
+  const set = new Set();
+  list.forEach(r=>{
+    splitTokens(r.t).forEach(t => isWord(t) && set.add(t));
+    (r.tagi||[]).forEach(sk => splitTokens(sk).forEach(t => isWord(t) && set.add(t)));
+    (r.surowce||[]).forEach(sk => splitTokens(sk).forEach(t => isWord(t) && set.add(t)));
+    splitTokens(r.metoda||'').forEach(t => isWord(t) && set.add(t));
+    splitTokens(r.typ||'').forEach(t => isWord(t) && set.add(t));
+  });
+  // dorzuć kilka uniwersalnych haseł
+  ['napar','odwar','macerat','syrop','maść','okład','nalewka','herbata','blanszowane','świeże','suszone','młode']
+    .forEach(t=>set.add(normalizeText(t)));
+  return Array.from(set).sort();
+}
+
+
+function renderRecipeSuggestions(prefix){
+  const box = document.getElementById('recipeSuggestions');
+  if(!box) return;
+  box.innerHTML = '';
+  const q = normalizeText(prefix);
+  if(!q || q.length<2) return;
+  const items = LEXICON.filter(w => w.startsWith(q)).slice(0,12);
+  items.forEach(w=>{
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'suggestion';
+    b.textContent = w;
+    b.addEventListener('click', ()=> addRecipeTag(w));
+    box.appendChild(b);
+  });
+}
+
+function addRecipeTag(tag){
+  const t = normalizeText(tag);
+  if(!t || ACTIVE_TAGS.has(t)) return;
+  ACTIVE_TAGS.add(t);
+  if(!TAG_COLORS.has(t)){
+    TAG_COLORS.set(t, COLOR_CLASSES[(TAG_COLORS.size)%COLOR_CLASSES.length]);
+  }
+  const input = document.getElementById('recipeSearch');
+  if(input){ input.value = ''; }
+  const sugg = document.getElementById('recipeSuggestions');
+  if(sugg){ sugg.innerHTML = ''; }
+  renderRecipeTags();
+  applyRecipeFilters();
+}
+
+function removeRecipeTag(tag){
+  ACTIVE_TAGS.delete(tag);
+  renderRecipeTags();
+  applyRecipeFilters();
+}
+
+function renderRecipeTags(){
+  const wrap = document.getElementById('recipeTags');
+  if(!wrap) return;
+  wrap.innerHTML = '';
+  Array.from(ACTIVE_TAGS).forEach(t=>{
+    const span = document.createElement('span');
+    span.className = `tag ${TAG_COLORS.get(t)}`;
+    span.innerHTML = `<span>#${t}</span><span class="x" title="Usuń">×</span>`;
+    span.querySelector('.x').addEventListener('click', ()=> removeRecipeTag(t));
+    wrap.appendChild(span);
+  });
+}
+
+function recipeMatches(r, terms){
+  const hay = normalizeText([
+    r.t, r.metoda, r.typ,
+    ...(r.tagi||[]),
+    ...(r.surowce||[])
+  ].join(' '));
+  return terms.every(t => hay.includes(t));
+}
+
+function applyRecipeFilters(){
+  const terms = Array.from(ACTIVE_TAGS);
+  const list = terms.length ? RECIPES.filter(r=>recipeMatches(r, terms)) : RECIPES.slice();
+  renderRecipeResults(list, terms);
+}
+function renderRecipeResults(arr, terms){
+  const box = document.getElementById('pap-bottom-content');
+  if(!box) return;
+
+  if(!arr.length){
+    box.innerHTML = `<p class="placeholder">Brak wyników dla: ${terms.map(t=>`<b>#${t}</b>`).join(' ') || '—'}</p>`;
+    updateStageHeightAfterAsyncContent();
+    return;
+  }
+
+  const asHTML = (val) => {
+    if(val == null || val === '') return '';
+    if(Array.isArray(val)){
+      if(!val.length) return '';
+      const allStrings = val.every(x => typeof x === 'string');
+      if(allStrings) return '<ol>' + val.map(x=>`<li>${x}</li>`).join('') + '</ol>';
+      return '<ul>' + val.map(x=>`<li>${asString(x)}</li>`).join('') + '</ul>';
+    }
+    if(typeof val === 'object'){
+      const steps = getOneOf(val, ['kroki','steps']);
+      if(Array.isArray(steps)) return '<ol>' + steps.map(x=>`<li>${x}</li>`).join('') + '</ol>';
+      return autoListify(val);
+    }
+    return `<p>${val}</p>`;
+  };
+
+  const toUrl = (x) => {
+    if(!x) return '';
+    if(typeof x === 'string') return x;
+    if(typeof x === 'object') return x.url || x.href || x.link || x.source || x.src || '';
+    return '';
+  };
+  const renderSources = (arr) => {
+    const list = asArray(arr).map(toUrl).filter(Boolean);
+    if(!list.length) return '';
+    return '<ul class="source-list">' + list.map(u=>{
+      const isHttp = /^(https?:)?\/\//i.test(u);
+      return `<li>${isHttp ? `<a href="${u}" target="_blank" rel="noopener">${u}</a>` : u}</li>`;
+    }).join('') + '</ul>';
+  };
+
+  box.innerHTML = '<ul class="results-list">' + arr.map(r=>{
+    const R = r.raw || {};
+
+    // ===== META (BEZ typu) =====
+    const roslina = R.roslina || r.roslina || '';
+    const latin   = R.nazwa_lacinska || R['nazwa_łacińska'] || r.nazwa_lacinska || '';
+    const metaLine = [
+      r.metoda || null,
+      (roslina || latin) ? `roślina: ${roslina}${latin?` (${latin})`:''}` : null
+    ].filter(Boolean).join(' • ');
+
+    // ===== Cechy i Właściwości – pełne =====
+    const cechyArr = [
+      ...asArray(getOneOf(R, ['cechy','Cechy'])),
+      ...asArray(getOneOf(R, ['właściwości','wlasciwosci']))
+    ];
+    const skladProps = asArray(getOneOf(R, ['właściwości_i_składniki','wlasciwosci_i_skladniki']));
+    const cechyItems = [];
+    cechyArr.forEach(it => cechyItems.push(asString(it)));
+    skladProps.forEach(it => {
+      if(typeof it === 'string'){
+        cechyItems.push(it);
+      }else if(it && typeof it === 'object'){
+        const name = it.nazwa || it.name;
+        const eff  = it.działanie || it.dzialanie || it.effect || '';
+        cechyItems.push(name ? (eff ? `${name} — ${eff}` : name) : asString(it));
+      }
+    });
+    const cechyHTML = cechyItems.length ? `<ul>${cechyItems.map(x=>`<li>${x}</li>`).join('')}</ul>` : '';
+
+    // Składniki
+    const skladniki = r.surowce?.length
+      ? r.surowce
+      : asArray(getOneOf(R,['skladniki','składniki','surowce'])).map(asString);
+
+    // Sposób przygotowania
+    const przygotRaw = getOneOf(R, [
+      'sposób przygotowania','sposob przygotowania',
+      'sposob_przygotowania','sposób_przygotowania',
+      'przygotowanie','wykonanie','instrukcja','kroki','steps'
+    ]);
+    const prepHTML = asHTML(przygotRaw);
+
+    // Dawkowanie / Uwagi
+    const dawk = getOneOf(R, ['dawkowanie','dawka','porcja','ile_razy_dziennie','częstotliwość','czestotliwosc']);
+    const uwagi  = getOneOf(R, ['uwagi','przeciwwskazania','ostrzezenia','ostrzeżenia','notatki']);
+
+    // Źródła (pełne URL-e)
+    const zrodlaList = [
+      ...asArray(getOneOf(R, ['zrodla','źródła','sources','refs','bibliografia'])),
+      ...asArray(getOneOf(R, ['zrodlo','źródło','source','link']))
+    ].filter(Boolean);
+    const zrodlaUniq = Array.from(new Set(zrodlaList));
+
+    return `
+      <li class="result-item">
+        <div class="recipe-head">
+          <h4>${r.t}</h4>
+          <div class="badges">
+            <span class="badge ${r.typ==='medyczny'?'med':'kul'}">${r.typ==='medyczny'?'medyczny':'kulinarny'}</span>
+            ${r.metoda ? `<span class="badge met">${r.metoda}</span>` : ''}
+          </div>
+        </div>
+
+        ${ metaLine ? `<div class="meta-line">${metaLine}</div>` : '' }
+        ${ (r.tagi?.length) ? `<div class="tags-line">${r.tagi.map(t=>`#${t}`).join(' ')}</div>` : ''}
+
+        ${ cechyHTML ? `
+          <div class="recipe-sec">
+            <h5>Cechy i Właściwości</h5>
+            ${cechyHTML}
+          </div>` : '' }
+
+        ${ skladniki?.length ? `
+          <div class="recipe-sec">
+            <h5>Składniki</h5>
+            <ul>${skladniki.map(s=>`<li>${s}</li>`).join('')}</ul>
+          </div>` : '' }
+
+        ${ prepHTML ? `
+          <div class="recipe-sec">
+            <h5>Sposób przygotowania</h5>
+            ${prepHTML}
+          </div>` : '' }
+
+        ${ dawk ? `
+          <div class="recipe-sec">
+            <h5>Dawkowanie</h5>
+            ${asHTML(dawk)}
+          </div>` : '' }
+
+        ${ uwagi ? `
+          <div class="recipe-sec">
+            <h5>Uwagi</h5>
+            ${asHTML(uwagi)}
+          </div>` : '' }
+
+        ${ zrodlaUniq.length ? `
+          <div class="recipe-sec">
+            <h5>Źródło${zrodlaUniq.length>1?'a':''}</h5>
+            ${renderSources(zrodlaUniq)}
+          </div>` : '' }
+      </li>
+    `;
+  }).join('') + '</ul>';
+
+  updateStageHeightAfterAsyncContent();
+}
+
+
+
+async function openPapyrus(section){
+  // zakładamy, że te elementy są już pobrane gdzieś wyżej w Twoim kodzie:
+  // const stage = document.getElementById('stage');
+  // const cardsLayer = document.getElementById('cardsLayer');
+  // const papLayer = document.getElementById('papyrusLayer');
+  // const papyrus = document.getElementById('papyrus');
+  // const topTitle = document.getElementById('pap-top-title');
+  // const topContent = document.getElementById('pap-top-content');
+  // const bottomContent = document.getElementById('pap-bottom-content');
+
+  // pomocnicze: bezpieczne aktualizowanie wysokości po asynchronicznej treści
+  hideCoffeeLayer();
+  const updateAfterAsync = () => {
+    try{
+      if(typeof updateStageHeightAfterAsyncContent === 'function'){
+        updateStageHeightAfterAsyncContent();
+      }else{
+        // fallback – ustal wysokość sceny do wysokości papirusu
+        scheduleStageHeight();
+    attachHeightObservers();
+      }
+    }catch{}
+  };
+
+  // WSPÓLNA ANIMACJA WEJŚCIA PAPIRUSU
+  const animatePapyrusIn = () => {
+    const cardsH = cardsLayer.scrollHeight;
+    papLayer.style.visibility = 'hidden';
+    papLayer.removeAttribute('aria-hidden');
+    stage.style.height = cardsH + 'px';
+    papLayer.style.transform = 'translateY(100%)';
+    cardsLayer.style.transform = 'translateY(0)';
+
+    requestAnimationFrame(()=>{
+      papLayer.style.visibility = 'visible';
+      scheduleStageHeight();
+    attachHeightObservers();
+      cardsLayer.style.transform = 'translateY(-100%)';
+      papLayer.style.transform = 'translateY(0)';
+      document.body.classList.add('peek-hidden');
+      document.addEventListener('scroll', onScrollPeek, {passive:true});
+      if(typeof watchPapyrusResize === 'function') watchPapyrusResize();
+    });
+  };
+
+  // WSPÓLNY „efekt rozwinięcia” samego zwoju
+  const playOpenAnim = () => {
+    papyrus.classList.add('opening');
+    papyrus.addEventListener('animationend', () => {
+      papyrus.classList.remove('opening');
+    }, { once: true });
+  };
+
+  // ==== SEKCJE ====
+  if(section === 'przepisy'){
+    topTitle.textContent = 'Przepisy: kulinarne i medyczne';
+    topContent.innerHTML = buildRecipeSearchUI();
+    bottomContent.innerHTML = '<p class="placeholder">Zacznij pisać, a podpowiedzi pojawią się powyżej. Dodawaj je jako filtry‑tagi.</p>';
+
+    playOpenAnim();
+
+    (async ()=>{
+      try{
+        RECIPES = await loadGlobalRecipes();
+        LEXICON = buildLexiconFromRecipes(RECIPES);
+
+        const input = document.getElementById('recipeSearch');
+        input.addEventListener('input', (e)=> renderRecipeSuggestions(e.target.value));
+        input.addEventListener('keydown', (e)=>{
+          if(e.key==='Enter'){
+            e.preventDefault();
+            const q = normalizeText(input.value);
+            if(!q) return;
+            const first = LEXICON.find(w => w.startsWith(q));
+            addRecipeTag(first || q);
+          }
+        });
+
+        applyRecipeFilters(); // pokaż wszystko na start
+      }catch(err){
+        bottomContent.innerHTML = `<p class="placeholder">Nie udało się wczytać globalnych przepisów. ${err.message}</p>`;
+      }
+      updateAfterAsync();
+    })();
+
+    animatePapyrusIn();
+    return;
+  }
+
+  else if(section === 'ogrodnictwo'){
+    topTitle.textContent = 'Ogrodnictwo';
+    topContent.innerHTML = buildHierarchy('ogrodnictwo');
+    bottomContent.innerHTML = '<p class="placeholder">Wybierz roślinę, by o niej poczytać.</p>';
+    playOpenAnim();
+    topContent.querySelectorAll('[data-plant]').forEach(a=>{
+      a.addEventListener('click', (e)=>{
+        e.preventDefault();
+        renderPlant(a.getAttribute('data-plant'), 'ogrodnictwo');
+        updateAfterAsync();
+      });
+    });
+    updateAfterAsync();
+  }
+
+  else if(section === 'legendy'){
+    topTitle.textContent = 'Legendy i historia';
+    topContent.innerHTML = buildHierarchy('legendy');
+    bottomContent.innerHTML = '<p class="placeholder">Wybierz roślinę, by o niej poczytać.</p>';
+    playOpenAnim();
+    topContent.querySelectorAll('[data-plant]').forEach(a=>{
+      a.addEventListener('click', (e)=>{
+        e.preventDefault();
+        renderPlant(a.getAttribute('data-plant'), 'legendy');
+        updateAfterAsync();
+      });
+    });
+    updateAfterAsync();
+  }
+
+  // === NOWOŚĆ: KONTAKT ===
+
+
+  // ===== DOMYŚLNE (gdyby przyszły inne sekcje) =====
+  else{
+    topTitle.textContent = 'Sekcja';
+    topContent.innerHTML = '<p class="muted">Wybrano sekcję: ' + section + '</p>';
+    bottomContent.innerHTML = '<p class="placeholder">Treść w przygotowaniu…</p>';
+    playOpenAnim();
+  }
+
+  // wspólne domyślne wejście papirusu (dla ogrodnictwo/legendy/other)
+  const cardsH = cardsLayer.scrollHeight;
+  papLayer.style.visibility = 'hidden';
+  papLayer.removeAttribute('aria-hidden');
+  stage.style.height = cardsH + 'px';
+  papLayer.style.transform = 'translateY(100%)';
+  cardsLayer.style.transform = 'translateY(0)';
+
+  requestAnimationFrame(()=>{
+    papLayer.style.visibility = 'visible';
+    scheduleStageHeight();
+attachHeightObservers();
+    cardsLayer.style.transform = 'translateY(-100%)';
+    papLayer.style.transform = 'translateY(0)';
+    document.body.classList.add('peek-hidden');
+    document.addEventListener('scroll', onScrollPeek, {passive:true});
+    if(typeof watchPapyrusResize === 'function') watchPapyrusResize();
+  });
+}
+
+// no-op, gdy nie ma modułu z kawą
+window.hideCoffeeLayer = window.hideCoffeeLayer || function(){};
+
+
+  // ZAMKNIĘCIE (Esc): papirus w dół, karty wracają
+  function closePapyrus(){
+    heightRO.disconnect();
+    if(papRO){ papRO.disconnect(); papRO = null; }
+    const cardsH = cardsLayer.scrollHeight;
+    stage.style.height = cardsH + 'px';
+    cardsLayer.style.transform = 'translateY(0%)';
+    papLayer.style.transform = 'translateY(100%)';
+    setTimeout(()=>{
+      papLayer.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('peek-visible','peek-hidden');
+      document.removeEventListener('scroll', onScrollPeek);
+    }, 620);
+  }
+
+  // PEEK: pokazuj tylko na samej górze strony
+  function onScrollPeek(){
+    if (!peek) return; // ⬅️ brak peeka? nic nie rób
+    if (papLayer.getAttribute('aria-hidden') === 'true') return;
+    const atTop = window.scrollY <= 2;
+    document.body.classList.toggle('peek-visible', atTop);
+    document.body.classList.toggle('peek-hidden', !atTop);
+    peek.setAttribute('aria-hidden', atTop ? 'false' : 'true');
+  }
+
+
+
+  // Podpinanie klików (karty, nav, peek)
+  function hookOpeners(root){
+  if(!root) return;
+    root.querySelectorAll('[data-section]').forEach(el=>{
+      el.addEventListener('click', (e)=>{
+        e.preventDefault();
+        hideCoffeeLayer();
+        openPapyrus(el.getAttribute('data-section'));
+        history.replaceState(null, '', '#' + el.getAttribute('data-section'));
+      });
+    });
+  }
+  hookOpeners(document);
+  if (peek) hookOpeners(peek);
+
+  // ESC zamyka papirus
+  document.addEventListener('keydown', (e)=>{
+    if(e.key==='Escape' && papLayer.getAttribute('aria-hidden')==='false'){
+      closePapyrus();
+      history.replaceState(null, '', ' ');
+    }
+  });
+
+  // Otwórz po hashu
+  const hash=(location.hash||'').replace('#','');
+  if(['legendy','przepisy','ogrodnictwo'].includes(hash)){ openPapyrus(hash); }
+
+  // Startowa wysokość sceny = wysokość kart
+  function setStageStart(){ stage.style.height = cardsLayer.scrollHeight + 'px'; }
+  setStageStart(); window.addEventListener('resize', setStageStart);
+})();
+
+// ——— AUTO-DOPASOWANIE WYSOKOŚCI SCENY ———
+let __hRaf = null; // (jeśli nie przeniosłeś wyżej – zostaw tutaj)
+
+function updateStageHeight(){
+  // bezpiecznie pobierz elementy za każdym razem
+  requestAnimationFrame(()=>{
+    const papyrus = document.getElementById('papyrus');
+    const stage   = document.getElementById('stage');
+    if(!papyrus || !stage) return;
+    const papH = papyrus.scrollHeight;
+    stage.style.height = Math.max(560, papH) + 'px';
+  });
+}
+
+// Obserwuj zmiany rozmiaru i treści w papirusie
+const resizeObserver   = new ResizeObserver(()=> scheduleStageHeight());
+const mutationObserver = new MutationObserver(()=> scheduleStageHeight());
+
+const __pap = document.getElementById('papyrus');
+if (__pap){
+  resizeObserver.observe(__pap);
+  mutationObserver.observe(__pap, { childList: true, subtree: true });
+}
+
+// Helper: po każdej zmianie zawartości (np. klik w hierarchii) podepnij „load” na obrazkach
+function watchImagesForHeightUpdates(root = papyrus){
+  root.querySelectorAll('img').forEach(img=>{
+    if(!img.complete){
+      img.addEventListener('load', updateStageHeight, { once:true });
+      img.addEventListener('error', updateStageHeight, { once:true });
+    }
+  });
+}
+
+function scheduleStageHeight(min = 560){
+  if (__hRaf) return;
+  __hRaf = requestAnimationFrame(()=>{
+    __hRaf = null;
+    const papyrus = document.getElementById('papyrus');
+    const stage = document.getElementById('stage');
+    if(!papyrus || !stage) return;
+    const h = Math.max(min, papyrus.scrollHeight);
+    // wyłącz tranzycję na czas „ustawiania startu”, aby nie powodować zacięć
+    const prev = stage.style.transition;
+    stage.style.transition = (document.body.classList.contains('is-opening')) ? 'none' : prev;
+    stage.style.height = h + 'px';
+    // po klatce przywróć transition
+    if (document.body.classList.contains('is-opening')){
+      requestAnimationFrame(()=>{ stage.style.transition = prev; });
+    }
+  });
+}
+
+const heightRO = new ResizeObserver(()=> scheduleStageHeight());
+function attachHeightObservers(){
+  const papyrus = document.getElementById('papyrus');
+  heightRO.disconnect();
+  if (papyrus) heightRO.observe(papyrus);
+  // jednorazowe podbicie wysokości po doładowaniu obrazów
+  papyrus?.querySelectorAll('img').forEach(img=>{
+    if(!img.complete){
+      img.addEventListener('load', scheduleStageHeight, {once:true});
+      img.addEventListener('error', scheduleStageHeight, {once:true});
+    }
+  });
+}
+
+
+// === Fallback: zamień dowolne struktury na czytelny HTML ===
+function autoListify(val){
+  if(val == null) return '';
+  if(Array.isArray(val)){
+    if(!val.length) return '';
+    return '<ul>' + val.map(v=>{
+      if(typeof v === 'object') return `<li>${Object.entries(v).map(([k,x])=>`<b>${k}:</b> ${autoListify(x)}`).join('; ')}</li>`;
+      return `<li>${String(v)}</li>`;
+    }).join('') + '</ul>';
+  }
+  if(typeof val === 'object'){
+    const rows = Object.entries(val).map(([k,v])=>`<dt>${k.replaceAll('_',' ')}</dt><dd>${autoListify(v) || '—'}</dd>`).join('');
+    return rows ? `<dl>${rows}</dl>` : '';
+  }
+  return String(val);
+}
+
+function renderAUTO(raw){
+  try{
+    const { zdjecia, zdjęcia, photos, images, ...rest } = raw || {};
+    const html = autoListify(rest);
+    return html || '<p class="muted">Brak rozpoznanych pól do wyświetlenia.</p>';
+  }catch(e){
+    return `<pre class="code">${(e && e.message) || String(e)}</pre>`;
+  }
+}
+
+// klik w nazwę zabiegu = przewiń + podświetl cel
+document.addEventListener('click', (e) => {
+  const a = e.target.closest('.zabieg-link');
+  if (!a) return;
+  const id = a.getAttribute('href').slice(1);
+  const el = document.getElementById(id);
+  if (!el) return;
+  requestAnimationFrame(() => {
+    el.classList.add('hit');
+    setTimeout(() => el.classList.remove('hit'), 1700);
+  });
+});
+
 </script>
+
+<!--// === KONTAKT — papirus z formularzem Google Forms ===-->
+<script>
+
+
+function buildKontaktUI(){
+  return `
+    <h2 style="margin:0 0 .35rem;">Kontakt</h2>
+    <p>Masz pytanie lub sugestię? Napisz do nas 🌱</p>
+
+    <!-- ukryta ramka: przechwytujemy odpowiedź, zostajemy na stronie -->
+    <iframe name="kontakt_iframe" id="kontakt_iframe" style="display:none;"></iframe>
+
+    <form id="kontaktForm" class="form"
+      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc4Cj-klfVitmYBLLpwYHStZ7vTsIFJ3mugJm7LW5QkiVACGQ/formResponse"
+      method="POST" target="kontakt_iframe" novalidate
+      style="display:grid; gap:.6rem; margin-top:.8rem; max-width:600px">
+
+      <label for="kt_name">Imię</label>
+      <input id="kt_name" name="entry.1654482530" type="text" placeholder="Twoje imię"
+             style="padding:.65rem .8rem; border:1px solid var(--line-strong); border-radius:10px; background:#fff9f0; font:inherit;">
+
+      <label for="kt_email">E‑mail (jeśli chcesz odpowiedź)</label>
+      <input id="kt_email" name="entry.1776531128" type="email" placeholder="twoj@mail.com"
+             style="padding:.65rem .8rem; border:1px solid var(--line-strong); border-radius:10px; background:#fff9f0; font:inherit;">
+
+      <label for="kt_msg">Wiadomość</label>
+      <textarea id="kt_msg" name="entry.1817341887" rows="5" required placeholder="Napisz wiadomość…"
+                style="padding:.65rem .8rem; border:1px solid var(--line-strong); border-radius:10px; background:#fff9f0; font:inherit;"></textarea>
+
+      <input type="hidden" name="submit" value="Submit">
+
+      <div style="display:flex; gap:.6rem; align-items:center; margin-top:.2rem;">
+        <button type="submit" class="btn">Wyślij</button>
+        <span class="muted">Wiadomość wyśle się w tle — zostaniesz na tej stronie.</span>
+      </div>
+    </form>
+
+    <div id="kontaktOk" style="display:none; margin-top:1rem;">
+      ✅ Dziękujemy! Wiadomość została wysłana. Odezwiemy się wkrótce.
+    </div>
+  `;
+}
+
+function openKontaktPapyrus(){
+  hideCoffeeLayer();
+  // złap elementy papirusu jak w innych sekcjach
+  const stage       = document.getElementById('stage');
+  const cardsLayer  = document.getElementById('cardsLayer');
+  const papLayer    = document.getElementById('papyrusLayer');
+  const papyrus     = document.getElementById('papyrus');
+  const topTitle    = document.getElementById('pap-top-title');
+  const topContent  = document.getElementById('pap-top-content');
+  const bottomContent = document.getElementById('pap-bottom-content');
+
+  // nagłówek + treść
+  topTitle.textContent = 'Kontakt';
+  topContent.innerHTML = buildKontaktUI();
+  bottomContent.innerHTML = '<p class="placeholder">Formularz działa bez opuszczania strony.</p>';
+
+  // delikatna animacja rozwijania zwoju
+  papyrus.classList.add('opening');
+  papyrus.addEventListener('animationend', () => {
+    papyrus.classList.remove('opening');
+  }, { once: true });
+
+  // przejście warstw (dokładnie jak w przepisach/ogrodnictwie)
+  const cardsH = cardsLayer.scrollHeight;
+  papLayer.style.visibility = 'hidden';
+  papLayer.removeAttribute('aria-hidden');
+  stage.style.height = cardsH + 'px';
+  papLayer.style.transform = 'translateY(100%)';
+  cardsLayer.style.transform = 'translateY(0)';
+  requestAnimationFrame(() => {
+    papLayer.style.visibility = 'visible';
+    if (typeof setStageHeightToPapyrus === 'function') {scheduleStageHeight();
+attachHeightObservers();}
+    cardsLayer.style.transform = 'translateY(-100%)';
+    papLayer.style.transform   = 'translateY(0)';
+    document.body.classList.add('peek-hidden');
+    if (typeof onScrollPeek === 'function') {
+      document.addEventListener('scroll', onScrollPeek, { passive:true });
+    }
+    if (typeof watchPapyrusResize === 'function') watchPapyrusResize();
+  });
+
+  // obsługa sukcesu: po załadowaniu odpowiedzi w ukrytym iframe pokaż komunikat
+  const iframe = document.getElementById('kontakt_iframe');
+  const form   = document.getElementById('kontaktForm');
+  const okBox  = document.getElementById('kontaktOk');
+
+  // czyszczone i potwierdzenie po submit
+  iframe.addEventListener('load', () => {
+    okBox.style.display = 'block';
+    form.reset();
+    if (typeof updateStageHeightAfterAsyncContent === 'function') {
+      updateStageHeightAfterAsyncContent();
+    }
+  });
+
+  return false;
+}
+
+// (opcjonalnie) PODPIĘCIE KLIKNIĘCIA W NAV:
+// Upewnij się, że link w nawigacji ma data-section="kontakt"
+document.querySelectorAll('a[data-section="kontakt"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    openKontaktPapyrus();
+  });
+});
+function showCoffeeThanks(){
+  const stage       = document.getElementById('stage');
+  const cardsLayer  = document.getElementById('cardsLayer');
+  const papLayer    = document.getElementById('papyrusLayer');
+  const coffeeLayer = document.getElementById('coffeeLayer');
+
+  // schowaj papirus
+  papLayer.style.transform = 'translateY(100%)';
+  papLayer.setAttribute('aria-hidden','true');
+
+  // pokaż warstwę kawy
+  coffeeLayer.style.display = 'block';
+  coffeeLayer.removeAttribute('aria-hidden');
+
+  // animacja wejścia (jak papirus)
+  const cardsH = cardsLayer.scrollHeight;
+  stage.style.height = cardsH + 'px';
+  cardsLayer.style.transform = 'translateY(0)';
+
+  requestAnimationFrame(()=>{
+    // ustaw wysokość sceny do zawartości kawy
+    stage.style.height = Math.max(560, coffeeLayer.scrollHeight) + 'px';
+    cardsLayer.style.transform = 'translateY(-100%)';
+  });
+}
+
+document.querySelectorAll('[data-action="coffee"]').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    showCoffeeThanks();          // pokazujemy podziękowanie
+    // brak preventDefault -> link otwiera się w nowej karcie dzięki target="_blank"
+  });
+});
+
+function showPapyrusLayer(){
+  const papLayer = document.getElementById('papyrusLayer');
+  const stage = document.getElementById('stage');
+  const cardsLayer = document.getElementById('cardsLayer');
+  if(!papLayer) return;
+
+  papLayer.style.visibility = 'hidden';
+  papLayer.removeAttribute('aria-hidden');
+  papLayer.style.transform = 'translateY(100%)';
+  cardsLayer.style.transform = 'translateY(0)';
+
+  requestAnimationFrame(()=>{
+    papLayer.style.visibility = 'visible';
+    if (typeof setStageHeightToPapyrus === 'function') {
+        scheduleStageHeight();
+        attachHeightObservers();
+    }
+    cardsLayer.style.transform = 'translateY(-100%)';
+    papLayer.style.transform   = 'translateY(0)';
+  });
+}
+function hideCoffeeLayer(){
+  const coffeeLayer = document.getElementById('coffeeLayer');
+  if(!coffeeLayer) return;
+  coffeeLayer.style.display = 'none';
+  coffeeLayer.setAttribute('aria-hidden','true');
+}
+
+
+</script>
+
+
+</body>
+</html>
