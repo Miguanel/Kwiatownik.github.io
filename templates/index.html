@@ -1728,10 +1728,15 @@ function renderZbior(zbior){
   }
 
 function ensureResultsVisible(){
+  // autoscroll tylko w sekcji PRZEPISY i tylko na urządzeniach dotykowych
+  if (window.CURRENT_SECTION !== 'przepisy') return;
+  if (!matchMedia('(pointer: coarse)').matches) return;
+
   const box = document.getElementById('pap-bottom-content');
   if(!box) return;
-  // Delikatny scroll – na telefonie od razu widać wyniki
-  box.scrollIntoView({ behavior:'smooth', block:'start' });
+  try{
+    box.scrollIntoView({ behavior:'smooth', block:'start' });
+  }catch{}
 }
 
 function injectMatchModeToggle(){
@@ -2076,8 +2081,6 @@ function renderRecipeResults(arr, terms){
   }
   safeUpdate();
 
-  // przewiń papirus lekko do góry po każdym renderze (na mobile czasem „ucina” początek)
-  try { box.closest('#papyrusLayer')?.scrollTo({ top: 0, behavior: 'instant' }); } catch {}
 }
 
 
@@ -2097,11 +2100,16 @@ async function openPapyrus(section){
 
   // --- lokalne pomocnicze (bezpieczne dla mobile) ---
   function ensureResultsVisible(){
-    const box = document.getElementById('pap-bottom-content');
-    if(!box) return;
-    // na telefonie od razu pokaż wyniki
-    try{ box.scrollIntoView({ behavior:'smooth', block:'start' }); }catch{}
-  }
+      // autoscroll tylko w sekcji PRZEPISY i tylko na urządzeniach dotykowych
+      if (window.CURRENT_SECTION !== 'przepisy') return;
+      if (!matchMedia('(pointer: coarse)').matches) return;
+
+      const box = document.getElementById('pap-bottom-content');
+      if(!box) return;
+      try{
+        box.scrollIntoView({ behavior:'smooth', block:'start' });
+      }catch{}
+    }
 
   function injectMatchModeToggle(){
     const wrap = document.querySelector('#pap-top-content .search-zone');
