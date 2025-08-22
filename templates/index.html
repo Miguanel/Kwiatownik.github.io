@@ -31,6 +31,27 @@ html { scroll-behavior: smooth; }
       repeating-linear-gradient(0deg, rgba(0,0,0,.012) 0 1px, transparent 1px 3px),
       linear-gradient(180deg, var(--paper) 0%, var(--paper-ink) 100%);
   }
+  @media (max-width: 600px) {
+  body {
+    font-size: 0.9rem;       /* zmniejszamy bazową czcionkę */
+    line-height: 1.4;
+    padding: 32px 10px 28px; /* węższe boczne marginesy */
+  }
+
+  .papyrus__panel {
+    padding: 18px 14px;      /* ciaśniejsze wnętrze paneli */
+  }
+
+  .content-area {
+    padding: 12px 10px;
+    font-size: 0.9rem;
+  }
+
+  .kalendarz-tabela {
+    font-size: 0.85rem;      /* mniejsza czcionka tabeli */
+  }
+}
+
   header{ text-align:center; margin-bottom: 36px; }
   header h1{ font-size: clamp(42px, 6.2vw, 68px); letter-spacing: .5px; line-height: 1.05; color: var(--ink); text-shadow: 0 1px 0 rgba(255,255,255,.5); }
   header .subtitle{ margin-top:8px; font-size:clamp(16px,2.2vw,22px); color:var(--ink-soft); letter-spacing:.04em; text-transform:uppercase; }
@@ -210,6 +231,69 @@ details[open] > summary::before{ content:"▾"; }
 /* Zapobiega przypadkowemu wklejeniu dużych obrazów do .tree */
 .tree > img, .tree ul > img, .tree details > img { display:none !important; }
 /* --- Papirus: sekcje artykułu rośliny --- */
+/* Kolorowe panele sekcji w papirusie */
+.pap-article .pap-sec{
+  border-radius: 14px;
+  padding: 12px;
+  margin: 10px 0 14px;
+  border: 1px solid rgba(0,0,0,.08);
+  box-shadow: 0 1px 0 rgba(255,255,255,.35) inset;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,.10)),
+    #fffdf8;
+}
+
+/* Delikatne „paski” – co druga sekcja ma inne tło */
+.pap-article .pap-sec:nth-of-type(2n){
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,.10)),
+    #f7f2e9;
+  border-color: rgba(0,0,0,.10);
+}
+
+/* Główek sekcji */
+.pap-article .pap-sec__head{
+  margin: -2px 0 6px;
+  padding-bottom: 6px;
+  border-bottom: 1px dashed rgba(0,0,0,.14);
+}
+.pap-article .pap-sec__title{
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  font-size: 15px;
+  color: #4a3a2f;
+}
+
+/* Treść sekcji */
+.pap-article .pap-sec__body{ margin-top: 4px; }
+
+/* Listy definicji w sekcjach – desktop = 2 kolumny */
+.pap-article .pap-sec dl{
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 6px 12px;
+}
+.pap-article .pap-sec dt{ font-weight: 700; color:#3c2f23; }
+.pap-article .pap-sec dd{ margin: 0; }
+
+/* Mobile: tytuł nad treścią (koniec „ucinania”) */
+@media (max-width: 640px){
+  .pap-article .pap-sec{ padding: 10px 12px; border-radius: 12px; }
+  .pap-article .pap-sec dl{ grid-template-columns: 1fr; gap: 4px 10px; }
+  .pap-article .pap-sec dt{
+    display:block; padding-top:.2rem; font-size:14px;
+  }
+  .pap-article .pap-sec dd{
+    display:block; margin: 0 0 .6rem;
+  }
+  /* łamanie długich fraz */
+  .pap-article .pap-sec, .pap-article .pap-sec *{
+    overflow-wrap:anywhere; word-break:break-word; hyphens:auto;
+  }
+}
+
+
 .pap-article h4{ margin:14px 0 6px; text-transform:uppercase; letter-spacing:.04em; font-size:15px; color:#4a3a2f;}
 .pap-article .meta{ color:#6b5947; font-size:14px; margin-bottom:8px;}
 .pap-article dl{ display:grid; grid-template-columns: 160px 1fr; gap:6px 12px; }
@@ -417,6 +501,121 @@ details.rest>summary{cursor:pointer;font-weight:600}
 .card figure{ overflow: visible; }      /* upewnij się, że ramka nie tnie */
 .card img{ display:block; object-fit:contain; }  /* nic nie przytnie proporcji */
 
+
+
+    </style>
+    <!--/* MOBILE-->
+    <style>
+
+@media (max-width: 640px){
+  .pap-article dl{
+    grid-template-columns: 1fr;   /* było: 160px 1fr */
+    gap: 4px 10px;
+  }
+  .pap-article dt{
+    padding-top: .35rem;
+    font-size: 14px;
+  }
+  .pap-article dd{
+    margin: 0 0 .5rem;
+  }
+  /* łamanie wszystkiego co długie */
+  .pap-article, .pap-article *{
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    hyphens: auto;
+  }
+}
+/* MOBILE: wrapper na całą szerokość, wygodny swipe */
+@media (max-width: 640px){
+  .calendar-wrapper{
+    margin: .6rem calc(-1 * var(--content-pad, 12px)); /* wysuń do krawędzi */
+    padding: 0 var(--content-pad, 12px) .4rem;
+    overflow-x: auto;              /* wymuś poziomy scroll */
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-x pan-y;     /* pozwól przesuwać palcem w poziomie */
+  }
+  .kalendarz-tabela{
+    min-width: 720px;              /* tabela szersza niż ekran */
+    font-size: .9rem;
+  }
+  .kalendarz-tabela th,
+  .kalendarz-tabela td{
+    padding: .35rem .5rem;
+  }
+  /* etykieta + checkbox w jednym wierszu, nie „zawijaj” */
+  .calendar-wrapper > label{
+    display: inline-flex;
+    gap: .45rem;
+    align-items: center;
+    white-space: nowrap;
+    margin-bottom: .3rem;
+  }
+}
+/* ogólne wypełnienie treści papirusu (używane w edge‑to‑edge) */
+.content-area{ --content-pad: 12px; padding: 18px var(--content-pad); }
+
+/* === Zakładki: łamanie tekstu + 1 kolumna na mobile === */
+@media (max-width: 640px){
+  .pap-article dl{
+    grid-template-columns: 1fr !important; /* zamiast 160px 1fr */
+    gap: 6px 10px;
+  }
+  .pap-article dt{
+    font-size: 14px;
+    padding-top: .3rem;
+  }
+  .pap-article dd{
+    margin: 0 0 .6rem;
+  }
+  /* wymuszanie łamania tekstu */
+  .pap-article, .pap-article *{
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    hyphens: auto;
+  }
+}
+
+/* === Kalendarz: wrapper przewijalny w poziomie === */
+.calendar-wrapper{
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* płynny scroll iOS */
+  touch-action: pan-x pan-y;         /* łatwy swipe */
+}
+
+.kalendarz-tabela{
+  min-width: 720px;   /* tabela zawsze szersza od ekranu */
+  border-collapse: collapse;
+}
+.kalendarz-tabela th,
+.kalendarz-tabela td{
+  padding: .4rem .6rem;
+  text-align: center;
+}
+
+/* MOBILE: zmniejszona czcionka i marginesy */
+@media (max-width: 640px){
+  .kalendarz-tabela{
+    font-size: .9rem;
+  }
+  .calendar-wrapper{
+    margin: .5rem -12px; /* „edge-to-edge” */
+    padding: 0 12px .5rem;
+  }
+}
+@media (max-width: 640px){
+  .pap-article dl{
+    display: block; /* zamiast grid */
+  }
+  .pap-article dt{
+    display: block;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  .pap-article dd{
+    display: block;
+    margin: .2rem 0 1rem 0; /* odstęp pod nagłówkiem */
+  }
 
 
     </style>
@@ -980,6 +1179,14 @@ function normalizeBibliografia(raw){
   }
   return map;
 }
+function rootUrl(u){
+  try{
+    const url = new URL(u, window.location.origin); // obsłuży brak protokołu
+    return url.origin;                               // tylko protokół + domena
+  }catch{
+    return u;
+  }
+}
 
 function asUrlMaybe(x){
   if(typeof x !== 'string') return '';
@@ -995,10 +1202,13 @@ function refLinks(refs, bibMap){
     const url = asUrlMaybe(byBib || r);
     if(!url) return '';
     n += 1;
-    return `<a href="${url}" target="_blank" rel="noopener">[${n}]</a>`;
+    const short = rootUrl(url);
+    return `<a href="${short}" target="_blank" rel="noopener">[${n}]</a>`;
   }).filter(Boolean).join(' ');
   return links ? ` <small>${links}</small>` : '';
 }
+
+
 function normalizeRecipes(raw){
   const srcMed = asArray(getOneOf(raw, ['przepisy_medyczne','fitoterapia','recipes_medical']));
   const srcKul = asArray(getOneOf(raw, ['przepisy_kulinarne','recipes_culinary']));
@@ -1038,10 +1248,21 @@ function dbg(...a){ if(__DBG) console.log('[Kwiatownik]', ...a); }
 
 /* ---------- WSPÓLNE UTILSY DO RENDEROWANIA ---------- */
 
-function section(title, html){
+function section(title, html, id){
   if(!html) return '';
-  return `<h4>${title}</h4>${html}`;
+  const _id = id ? ` id="${id}"` : '';
+  return `
+    <section class="pap-sec"${_id}>
+      <header class="pap-sec__head">
+        <h4 class="pap-sec__title">${title}</h4>
+      </header>
+      <div class="pap-sec__body">
+        ${html}
+      </div>
+    </section>
+  `;
 }
+
 
 function list(arr){
   if(!arr || !arr.length) return '';
@@ -1182,8 +1403,13 @@ function renderOGROD(norm){
           const zrod   = o.zrodla || [];
 
           const zrodHTML = Array.isArray(zrod) && zrod.length
-            ? `<p><small><b>Źródła:</b> ${zrod.map((u,i)=>`<a href="${u}" target="_blank" rel="noopener">[${i+1}]</a>`).join(' ')}</small></p>`
-            : '';
+          ? `<p><small><b>Źródła:</b> ${
+              zrod.map((u,i)=>{
+                const short = rootUrl(u);
+                return `<a href="${short}" target="_blank" rel="noopener">[${i+1}]</a>`;
+              }).join(' ')
+            }</small></p>`
+          : '';
 
           return `
           <div id="zabieg-${ev}" class="legenda-zabieg ${ (o.miesiace||[]).includes(thisMonth) ? 'aktywny-teraz' : '' }">
@@ -1298,10 +1524,14 @@ function renderLEGENDY(norm, raw){
 
   // (Opcjonalnie) lista bibliografii na dole
   const bibHTML = (()=> {
-    const entries = Object.entries(BIB||{});
-    if(!entries.length) return '';
-    return '<ol>' + entries.map(([id,url])=> `<li><a href="${url}" target="_blank" rel="noopener">${id}</a></li>`).join('') + '</ol>';
-  })();
+      const entries = Object.entries(BIB||{});
+      if(!entries.length) return '';
+      return '<ol>' + entries.map(([id,url])=>{
+        const short = rootUrl(url);
+        return `<li><a href="${short}" target="_blank" rel="noopener">${id} — ${short}</a></li>`;
+      }).join('') + '</ol>';
+    })();
+
 
   return `
     <article class="pap-article">
@@ -1704,14 +1934,25 @@ function renderRecipeResults(arr, terms){
     if(typeof x === 'object') return x.url || x.href || x.link || x.source || x.src || '';
     return '';
   };
-  const renderSources = (arr) => {
-    const list = asArray(arr).map(toUrl).filter(Boolean);
-    if(!list.length) return '';
-    return '<ul class="source-list">' + list.map(u=>{
-      const isHttp = /^(https?:)?\/\//i.test(u);
-      return `<li>${isHttp ? `<a href="${u}" target="_blank" rel="noopener">${u}</a>` : u}</li>`;
-    }).join('') + '</ul>';
-  };
+      const simplifyUrl = (u) => {
+      try {
+        const url = new URL(u, window.location.href); // obsłuży też brak protokołu
+        return url.origin; // tylko protokół + domena
+      } catch {
+        return u;
+      }
+    };
+
+    const renderSources = (arr) => {
+      const list = asArray(arr).map(toUrl).filter(Boolean);
+      if(!list.length) return '';
+      return '<ul class="source-list">' + list.map(u=>{
+        const isHttp = /^(https?:)?\/\//i.test(u);
+        if(!isHttp) return `<li>${u}</li>`;
+        const short = rootUrl(u);
+        return `<li><a href="${short}" target="_blank" rel="noopener">${short}</a></li>`;
+      }).join('') + '</ul>';
+    };
 
   // NAGŁÓWEK listy (licznik + filtry)
   const header = `
