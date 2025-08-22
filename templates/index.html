@@ -2424,6 +2424,18 @@ function attachHeightObservers(){
     }
   });
 }
+function rootUrl(u){
+  try{
+    const url = new URL(u, location.origin);
+    const host = url.hostname.replace(/^www\./,'');
+    return `${url.protocol}//${host}/`;
+  }catch{ return u; }
+}
+function domainLabel(u){
+  try{
+    return new URL(u, location.origin).hostname.replace(/^www\./,'');
+  }catch{ return u; }
+}
 
 
 // === Fallback: zamień dowolne struktury na czytelny HTML ===
@@ -2432,13 +2444,26 @@ function autoListify(val){
   if(Array.isArray(val)){
     if(!val.length) return '';
     return '<ul>' + val.map(v=>{
-      if(typeof v === 'object') return `<li>${Object.entries(v).map(([k,x])=>`<b>${k}:</b> ${autoListify(x)}`).join('; ')}</li>`;
+      if(typeof v === 'object')
+        return `<li>${Object.entries(v).map(([k,x])=>`<b>${k}:</b> ${autoListify(x)}`).join('; ')}</li>`;
+      // << NOWE: domena zamiast pełnego URL
+      if(typeof v === 'string' && /^(https?:)?\/\//i.test(v)){
+        const href = rootUrl(v);
+        const txt  = domainLabel(v);
+        return `<li><a href="${href}" target="_blank" rel="noopener">${txt}</a></li>`;
+      }
       return `<li>${String(v)}</li>`;
     }).join('') + '</ul>';
   }
   if(typeof val === 'object'){
     const rows = Object.entries(val).map(([k,v])=>`<dt>${k.replaceAll('_',' ')}</dt><dd>${autoListify(v) || '—'}</dd>`).join('');
     return rows ? `<dl>${rows}</dl>` : '';
+  }
+  // << NOWE: domena zamiast pełnego URL także dla pojedynczego stringa
+  if(typeof val === 'string' && /^(https?:)?\/\//i.test(val)){
+    const href = rootUrl(val);
+    const txt  = domainLabel(val);
+    return `<a href="${href}" target="_blank" rel="noopener">${txt}</a>`;
   }
   return String(val);
 }
