@@ -9,10 +9,10 @@
       "metoda": "nalewka",
       "tagi": [],
       "skladniki": [
-          "ziele skrzypu polnego 50g suszone, młode",
-          "wódka 40 %",
-          "proporcja 1:5"
-        ],
+        "ziele skrzypu polnego 50g suszone, młode",
+        "wódka 40 %",
+        "proporcja 1:5"
+      ],
       "sposob_przygotowania": [
         "Ziele: krótko zagotować w niewielkiej ilości wody (odwar), ostudzić.",
         "Przelać odwar do słoja, uzupełnić wódką do 250 ml.",
@@ -369,11 +369,7 @@
       "metoda": "nalewka",
       "tagi": [],
       "skladniki": [
-        {
-          "nazwa": "młode igły sosny zwyczajnej",
-          "ilość": "100 g",
-          "stan": "świeże, młode"
-        }
+        "młode igły sosny zwyczajnej 100g świeże, młode"
       ],
       "sposob_przygotowania": [
         "Igły: lekko posiekać.",
@@ -1689,11 +1685,7 @@
       "metoda": "nalewka",
       "tagi": [],
       "skladniki": [
-        {
-          "nazwa": "korzeń kozłka lekarskiego",
-          "ilość": "50 g",
-          "stan": "suszone"
-        }
+        "korzeń kozłka lekarskiego 50g suszone"
       ],
       "sposob_przygotowania": [
         "Korzeń: zmiażdżyć, zalać 200 ml spirytusu 70 %.",
@@ -2172,6 +2164,139 @@
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
       "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Nalewka z czarnej porzeczki",
+      "skladniki": [
+        "1 kg czarnych porzeczek",
+        "0,5 kg cukru",
+        "0,5 l wody",
+        "0,5 l spirytusu"
+      ],
+      "przygotowanie": "Porzeczki dokładnie umyj, usuń szypułki, przełóż do słoja. Zalej mieszanką spirytusu przygotowaną z 0,5 l spirytusu i 0,5 l wody. Zamknij szczelnie i odstaw w ciemne, chłodne miejsce na około 1,5 miesiąca, codziennie wstrząsając. Po maceracji przygotuj syrop z 0,5 kg cukru i 0,5 l wody, ostudź i połącz z odcedzonym nalewem, przecedź, rozlej do butelek i odstaw na dojrzewanie nawet do roku.",
+      "wlasciwosci": "Czarne porzeczki są bogate w witaminy (zwłaszcza C), a nalewka działa przeciwutleniająco i wzmacniająco na odporność.",
+      "cechy": "Intensywny smak owocu porzeczki, zrównoważona słodycz syropu, głęboki kolor, aromat leśnych owoców, stopniowo łagodnieje w miarę dojrzewania.",
+      "zrodlo": "https://mojbar.pl/przepis-na-nalewke-z-czarnej-porzeczki-z-miodem-i-wanilia-z-czym-pic/"
+    },
+    {
+      "tytul": "Nalewka z czarnej porzeczki (wersja tradycyjna)",
+      "skladniki": [
+        "1 kg czarnych porzeczek",
+        "1 l spirytusu 70 %",
+        "0,5 kg cukru + 0,5 l wody (syrop cukrowy)"
+      ],
+      "przygotowanie": "Porzeczki opłucz z ogonków, przełóż do słoja i zalej 1 l spirytusu 70 %. Słój szczelnie zamknij i odstaw w ciemne, ciepłe miejsce na około 6 tygodni. Po tym czasie ugotuj syrop z cukru i wody, ostudź, dodaj do odcedzonego nalewu, dokładnie wymieszaj, przefiltruj i rozlej do butelek. Odstaw na kilka miesięcy w chłodne, ciemne miejsce, najlepiej na pół roku.",
+      "wlasciwosci": "Bogactwo antyoksydantów i witaminy C z porzeczek. Wspiera odporność, delikatnie pobudza trawienie.",
+      "cechy": "Pełny, owocowy smak czarnej porzeczki, słodki z wyraźną owocową kwasowością, głęboka barwa porzeczkowa, aromat leśnych jagód, dojrzały i łagodniejszy po leżakowaniu.",
+      "zrodlo": "https://www.zajadam.pl/alkohole-domowe/nalewka-z-czarnej-porzeczki"
+    },
+    {
+      "tytul": "Nalewka ziołowa (kolendra, kminek, czarnuszka, anyż i inne)",
+      "skladniki": [
+        "kolendra 12 g",
+        "kminek 6 g",
+        "czarnuszka 3 g",
+        "anyż 4 g",
+        "mięta suszona 5 g",
+        "majeranek 3 g",
+        "pieprz 6 ziaren",
+        "owoc jałowca 6 g",
+        "kurkuma mielona 4 g",
+        "imbir suszony 4 g",
+        "goździki 3 szt.",
+        "2 l wódki czystej",
+        "500 g cukru"
+      ],
+      "przygotowanie": "Wszystkie zioła i przyprawy wsyp do słoja, zalej 2 l wódki, szczelnie zamknij i odstaw w ciepłe miejsce na 2 tygodnie. Następnie rozpuść 500 g cukru w szklance wrzącej wody, ostudź i wlej do słoja, wymieszaj. Po przefiltrowaniu przez gazę lub bibułkę rozlej do butelek. Odstaw do leżakowania – co najmniej miesiąc, choć najlepsza po roku.",
+      "wlasciwosci": "Zioła wykazują działanie wspomagające trawienie, przeciwdrobnoustrojowe, rozkurczowe i relaksujące; poprawiają nastrój i wspierają trawienie.",
+      "cechy": "Aromatyczna, intensywna mieszanka ziół i przypraw – korzenna, pikantna, wyrazista; barwa złocisto-brązowa, smak złożony, wielowarstwowy, długi finisz.",
+      "zrodlo": "https://piwniczkachomika.pl/nalewka-ziolowa/"
+    },
+    {
+      "tytul": "Nalewka ziołowa (mięta, melisa, bazylia, tymianek, szałwia)",
+      "skladniki": [
+        "10 gałązek mięty",
+        "10 gałązek melisy",
+        "5 gałązek bazylii",
+        "garść gałązek tymianku",
+        "5 gałązek szałwii",
+        "2 szklanki wody",
+        "1 szklanka cukru",
+        "0,5 l spirytusu"
+      ],
+      "przygotowanie": "Zioła dokładnie umyj, osusz i obrywaj listki. Umieść same liście w dużym słoju. Wodę z cukrem podgrzej, zagotuj, przygotuj syrop i ostudź. Zimnym syropem zalej zioła w słoju. Naczynie szczelnie zamknij i odstaw w zaciemnione miejsce na 3 tygodnie. Po tym czasie odcedź (przez drobne sito, dobrze wyciśnij zioła), a czysty nalew wymieszaj ze spirytusem. Rozlej do butelek i odstaw w chłodne miejsce na około 2 miesiące (im dłużej leżakuje, tym bardziej wytrawna).",
+      "wlasciwosci": "Tymianek – działanie przeciwbakteryjne, wykrztuśne i rozkurczowe; melisa – uspokajająco i rozluźniająco; szałwia – wspomaga trawienie, działa antyseptycznie i grzybobójczo; bazylia – wspiera trawienie i poprawia nastrój; mięta – łagodzi dolegliwości żołądkowe, działa uspokajająco, przeciwwymiotnie i odświeżająco.",
+      "cechy": "Barwa zielonkawa, ziołowy, intensywny aromat i orzeźwiający, z wyraźną nutą mięty i tymianku; smak zbalansowany – słodkość syropu łagodzi ziołową moc, finalnie wytrawny po dojrzewaniu.",
+      "zrodlo": "https://www.limonkowy.com/2014/08/nalewka-zioowa.html"
+    },
+    {
+      "tytul": "Nalewka z malin",
+      "skladniki": [
+        "1 kg dojrzałych malin",
+        "0,5 kg cukru",
+        "10 g suszonych liści malin",
+        "0,5 l spirytusu"
+      ],
+      "przygotowanie": "Maliny wsypać do słoja, zasypać cukrem, dodać liście, zalać spirytusem. Odstawić na około 6 tygodni, co kilka dni wstrząsać. Po tym czasie przecedzić i leżakować przynajmniej 6 miesięcy.",
+      "wlasciwosci": "Działa napotnie, przeciwzapalnie, wzmacnia odporność, łagodzi objawy przeziębienia, PMS; zawiera antocyjany i witaminę C.",
+      "cechy": "Owocowa słodycz, ciemno-czerwona barwa, aromatyczny zapach.",
+      "zrodlo": "https://www.amol.pl/jak-przygotowac-zdrowe-nalewki-domowe"
+    },
+    {
+      "tytul": "Nalewka z dziurawca",
+      "skladniki": [
+        "100 g suszonego dziurawca",
+        "500 ml spirytusu 70%",
+        "500 ml przegotowanej wody"
+      ],
+      "przygotowanie": "Zioło zalać alkoholem wymieszanym z wodą, szczelnie zamknąć i odstawić w ciemne miejsce na 3–4 tygodnie, codziennie mieszać. Po tym czasie przecedzić przez gazę i rozlać do ciemnych butelek.",
+      "wlasciwosci": "Działa antydepresyjnie, przeciwbakteryjnie, wspomaga układ trawienny, poprawia nastrój.",
+      "cechy": "Ziołowy aromat, bursztynowy kolor, lekko gorzkawy smak.",
+      "zrodlo": "https://alkoportal.pl/przepisy/nalewki-ziolowe-przepisy-i-wlasciwosci"
+    },
+    {
+      "tytul": "Nalewka z melisy",
+      "skladniki": [
+        "200 g świeżych liści melisy",
+        "500 ml wódki 40%"
+      ],
+      "przygotowanie": "Liście umyć, osuszyć, posiekać i zalać wódką. Szczelnie zamknąć i odstawić w ciemne miejsce na 2–3 tygodnie, codziennie mieszać. Po maceracji przecedzić i przelać do ciemnych butelek.",
+      "wlasciwosci": "Uspokaja, poprawia sen, wspomaga trawienie.",
+      "cechy": "Delikatny, cytrynowy aromat, złocista barwa, łagodny smak.",
+      "zrodlo": "https://alkoportal.pl/przepisy/nalewki-ziolowe-przepisy-i-wlasciwosci"
+    },
+    {
+      "tytul": "Nalewka z ziół (mieszanka)",
+      "skladniki": [
+        "1 łyżeczka liści kolendry",
+        "0,5 łyżeczki jałowca",
+        "0,5 łyżeczki czarnuszki",
+        "0,5 łyżeczki kminku",
+        "6 ziaren pieprzu czarnego",
+        "2 goździki",
+        "1/4 łyżeczki mięty",
+        "1/4 łyżeczki majeranku",
+        "1/5 łyżeczki szafranu",
+        "1/5 łyżeczki anyżu",
+        "1 łyżeczka korzenia arcydzięgla",
+        "0,5 kg cukru",
+        "2 l wódki"
+      ],
+      "przygotowanie": "Zioła i przyprawy rozdrobnić, wsypać do dużego słoja, zalać wódką, szczelnie zamknąć i odstawić w ciemne miejsce na 2–3 tygodnie, codziennie wstrząsać. Po tym czasie rozpuścić cukier w niewielkiej ilości gorącej wody, przestudzić i dodać do słoja, wymieszać, przecedzić i odstawić na co najmniej miesiąc.",
+      "wlasciwosci": "Profilaktyczna, bogata w aromaty i antyoksydanty, wspomaga odporność i trawienie.",
+      "cechy": "Złożony aromat korzenny, mocny smak, złocisto-brązowy kolor.",
+      "zrodlo": "https://zielonyogrodek.pl/dom-i-balkon/kuchnia-z-ogrodka/14677-nalewka-z-ziol-przepis-na-prozdrowotny-trunek"
+    },
+    {
+      "tytul": "Nalewka walerianowa (z kozłka lekarskiego)",
+      "skladniki": [
+        "1 szklanka świeżych, drobno pokrojonych kłączy i korzeni kozłka lekarskiego",
+        "5 szklanek alkoholu 70%"
+      ],
+      "przygotowanie": "Kłączy i korzeni zalej alkoholem, szczelnie zamknąć słój i odstawić w ciemne miejsce na 1 miesiąc, codziennie wstrząsać. Następnie przecedzić przez sito, odcisnąć. Zażywać 15 ml zwłaszcza przy problemach ze snem, rozcieńczone w połowie szklanki wody, godzinę przed snem.",
+      "wlasciwosci": "Działanie uspokajające, przeciwlękowe, pomocne przy bezsenności.",
+      "cechy": "Gorzko-trawiasty aromat, ciemny kolor, ziołowy smak.",
+      "zrodlo": "https://klaudynahebda.pl/ziola-na-sen"
     }
   ]
 }

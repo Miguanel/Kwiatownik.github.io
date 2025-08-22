@@ -397,7 +397,25 @@ details.rest>summary{cursor:pointer;font-weight:600}
 .stage{ contain: layout; }
 .layer{ backface-visibility:hidden; transform:translateZ(0); }
 .papyrus{ contain: content; }
+/* Karty: responsywna siatka */
+.cards{
+  display: grid;
+  gap: clamp(8px, 2vw, 24px);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
 
+/* ≥900px: 3 kolumny (jak było) */
+@media (max-width: 900px){
+  .cards{ grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ≤520px: 1 kolumna — nic się nie „ucina” */
+@media (max-width: 520px){
+  .cards{ grid-template-columns: 1fr; }
+}
+
+.card figure{ overflow: visible; }      /* upewnij się, że ramka nie tnie */
+.card img{ display:block; object-fit:contain; }  /* nic nie przytnie proporcji */
 
 
 
@@ -1479,11 +1497,41 @@ function renderZbior(zbior){
     });
   }
 
+function ensureResultsVisible(){
+  const box = document.getElementById('pap-bottom-content');
+  if(!box) return;
+  // Delikatny scroll – na telefonie od razu widać wyniki
+  box.scrollIntoView({ behavior:'smooth', block:'start' });
+}
+
+function injectMatchModeToggle(){
+  const wrap = document.querySelector('#pap-top-content .search-zone');
+  if(!wrap || wrap.querySelector('[data-matchmode]')) return;
+
+  const bar = document.createElement('div');
+  bar.setAttribute('data-matchmode','');
+  bar.style.cssText = 'display:flex;gap:.6rem;align-items:center;font-size:.9rem;color:#6b5947';
+  bar.innerHTML = `
+    <span>Tryb dopasowania:</span>
+    <label><input type="radio" name="mmode" value="AND" checked> wszystkie słowa</label>
+    <label><input type="radio" name="mmode" value="OR"> dowolne słowo</label>
+  `;
+  bar.addEventListener('change', e => {
+    if(e.target.name === 'mmode'){
+      MATCH_MODE = e.target.value === 'OR' ? 'OR' : 'AND';
+      applyRecipeFilters();
+    }
+  });
+  wrap.appendChild(bar);
+}
+
+
+
 /* === Przepisy: podpowiedzi + tagi (nowy silnik) === */
 function buildRecipeSearchUI(){
   return `
     <div class="search-zone">
-      <input id="recipeSearch" type="text" placeholder="Szukaj: składnik, efekt, objaw…" autocomplete="off" />
+      <input id="recipeSearch" type="search" placeholder="Szukaj: składnik, efekt, objaw…" autocomplete="off" enterkeyhint="search" />
       <div id="recipeSuggestions" class="suggestions" aria-live="polite"></div>
       <div id="recipeTags" class="tags"></div>
       <p class="muted">Podpowiedzi pojawiają się nad polem. Kliknij lub naciśnij Enter, by dodać filtr-tag.</p>
@@ -1541,7 +1589,7 @@ function renderRecipeSuggestions(prefix){
   });
 }
 
-function addRecipeTag(tag){
+async function addRecipeTag(tag){
   const t = normalizeText(tag);
   if(!t || ACTIVE_TAGS.has(t)) return;
   ACTIVE_TAGS.add(t);
@@ -1552,9 +1600,16 @@ function addRecipeTag(tag){
   if(input){ input.value = ''; }
   const sugg = document.getElementById('recipeSuggestions');
   if(sugg){ sugg.innerHTML = ''; }
+
   renderRecipeTags();
+
+  // klucz: poczekaj, aż recepty będą wczytane
+  if(RECIPES_READY) { try{ await RECIPES_READY; }catch{} }
+
   applyRecipeFilters();
+  ensureResultsVisible();
 }
+
 
 function removeRecipeTag(tag){
   ACTIVE_TAGS.delete(tag);
@@ -1589,16 +1644,43 @@ function applyRecipeFilters(){
   const list = terms.length ? RECIPES.filter(r=>recipeMatches(r, terms)) : RECIPES.slice();
   renderRecipeResults(list, terms);
 }
+
 function renderRecipeResults(arr, terms){
   const box = document.getElementById('pap-bottom-content');
   if(!box) return;
 
-  if(!arr.length){
-    box.innerHTML = `<p class="placeholder">Brak wyników dla: ${terms.map(t=>`<b>#${t}</b>`).join(' ') || '—'}</p>`;
-    updateStageHeightAfterAsyncContent();
+  // Bezpieczna aktualizacja wysokości (fallback, gdy helpery nie istnieją)
+  const safeUpdate = () => {
+    try{
+      if (typeof updateStageHeightAfterAsyncContent === 'function') {
+        updateStageHeightAfterAsyncContent();
+      } else {
+        if (typeof scheduleStageHeight === 'function') scheduleStageHeight();
+        if (typeof attachHeightObservers === 'function') attachHeightObservers();
+      }
+    }catch{}
+  };
+
+  // Czytelna etykieta użytych filtrów
+  const filtersBadge = terms?.length
+    ? `<p class="muted" style="margin:0 0 .6rem;">
+         Filtry: ${terms.map(t=>`<b>#${t}</b>`).join(' ')}
+       </p>`
+    : '';
+
+  // Stan „brak wyników”
+  if(!arr || !arr.length){
+    box.innerHTML = `
+      ${filtersBadge || ''}
+      <p class="placeholder" role="status" aria-live="polite">
+        Brak wyników ${terms?.length ? `dla: ${terms.map(t=>`<b>#${t}</b>`).join(' ')}` : ''}.
+        Spróbuj innego słowa lub usuń część tagów.
+      </p>`;
+    safeUpdate();
     return;
   }
 
+  // Pomocnicze formatowanie wartości do HTML
   const asHTML = (val) => {
     if(val == null || val === '') return '';
     if(Array.isArray(val)){
@@ -1615,6 +1697,7 @@ function renderRecipeResults(arr, terms){
     return `<p>${val}</p>`;
   };
 
+  // Linki/źródła
   const toUrl = (x) => {
     if(!x) return '';
     if(typeof x === 'string') return x;
@@ -1630,7 +1713,15 @@ function renderRecipeResults(arr, terms){
     }).join('') + '</ul>';
   };
 
-  box.innerHTML = '<ul class="results-list">' + arr.map(r=>{
+  // NAGŁÓWEK listy (licznik + filtry)
+  const header = `
+    <div class="muted" style="display:flex;justify-content:space-between;align-items:center;margin:0 0 .6rem;">
+      <span role="status" aria-live="polite">Znaleziono: <b>${arr.length}</b></span>
+      <span>${terms?.length ? `Filtry: ${terms.map(t=>`<b>#${t}</b>`).join(' ')}` : ''}</span>
+    </div>`;
+
+  // KARTY wyników
+  const listHTML = '<ul class="results-list">' + arr.map(r=>{
     const R = r.raw || {};
 
     // ===== META (BEZ typu) =====
@@ -1736,9 +1827,17 @@ function renderRecipeResults(arr, terms){
     `;
   }).join('') + '</ul>';
 
-  updateStageHeightAfterAsyncContent();
-}
+  // Wstaw wynik + aktualizacja wysokości (przydatne na telefonie)
+  box.innerHTML = header + listHTML;
 
+  if (typeof watchImagesForHeightUpdates === 'function') {
+    watchImagesForHeightUpdates(box);
+  }
+  safeUpdate();
+
+  // przewiń papirus lekko do góry po każdym renderze (na mobile czasem „ucina” początek)
+  try { box.closest('#papyrusLayer')?.scrollTo({ top: 0, behavior: 'instant' }); } catch {}
+}
 
 
 async function openPapyrus(section){
@@ -1751,16 +1850,60 @@ async function openPapyrus(section){
   // const topContent = document.getElementById('pap-top-content');
   // const bottomContent = document.getElementById('pap-bottom-content');
 
+  // --- globalne „flagi” dla przepisów (jeśli jeszcze nie istnieją) ---
+  if (typeof window.RECIPES_READY === 'undefined') window.RECIPES_READY = null;  // Promise: wczytanie globalnych JSON-ów
+  if (typeof window.MATCH_MODE    === 'undefined') window.MATCH_MODE    = 'AND'; // 'AND' / 'OR'
+
+  // --- lokalne pomocnicze (bezpieczne dla mobile) ---
+  function ensureResultsVisible(){
+    const box = document.getElementById('pap-bottom-content');
+    if(!box) return;
+    // na telefonie od razu pokaż wyniki
+    try{ box.scrollIntoView({ behavior:'smooth', block:'start' }); }catch{}
+  }
+
+  function injectMatchModeToggle(){
+    const wrap = document.querySelector('#pap-top-content .search-zone');
+    if(!wrap || wrap.querySelector('[data-matchmode]')) return;
+
+    const bar = document.createElement('div');
+    bar.setAttribute('data-matchmode','');
+    bar.style.cssText = 'display:flex;gap:.6rem;align-items:center;font-size:.9rem;color:#6b5947';
+    bar.innerHTML = `
+      <span>Tryb dopasowania:</span>
+      <label><input type="radio" name="mmode" value="AND" checked> wszystkie słowa</label>
+      <label><input type="radio" name="mmode" value="OR"> dowolne słowo</label>
+    `;
+    bar.addEventListener('change', e => {
+      if(e.target.name === 'mmode'){
+        window.MATCH_MODE = e.target.value === 'OR' ? 'OR' : 'AND';
+        applyRecipeFilters?.();
+      }
+    });
+    wrap.appendChild(bar);
+  }
+
+  // Delikatny patch: uodpornij addRecipeTag na „wyścig” ładowania + przewiń do listy
+  if (typeof window.addRecipeTag === 'function' && typeof window.__origAddRecipeTag === 'undefined'){
+    window.__origAddRecipeTag = window.addRecipeTag;
+    window.addRecipeTag = async function(tag){
+      if (window.RECIPES_READY) { try{ await window.RECIPES_READY; }catch{} }
+      const res = window.__origAddRecipeTag.call(this, tag);
+      ensureResultsVisible();
+      return res;
+    };
+  }
+
   // pomocnicze: bezpieczne aktualizowanie wysokości po asynchronicznej treści
-  hideCoffeeLayer();
+  hideCoffeeLayer?.();
   const updateAfterAsync = () => {
     try{
       if(typeof updateStageHeightAfterAsyncContent === 'function'){
         updateStageHeightAfterAsyncContent();
       }else{
         // fallback – ustal wysokość sceny do wysokości papirusu
-        scheduleStageHeight();
-    attachHeightObservers();
+        scheduleStageHeight?.();
+        attachHeightObservers?.();
       }
     }catch{}
   };
@@ -1776,8 +1919,8 @@ async function openPapyrus(section){
 
     requestAnimationFrame(()=>{
       papLayer.style.visibility = 'visible';
-      scheduleStageHeight();
-    attachHeightObservers();
+      scheduleStageHeight?.();
+      attachHeightObservers?.();
       cardsLayer.style.transform = 'translateY(-100%)';
       papLayer.style.transform = 'translateY(0)';
       document.body.classList.add('peek-hidden');
@@ -1798,16 +1941,25 @@ async function openPapyrus(section){
   if(section === 'przepisy'){
     topTitle.textContent = 'Przepisy: kulinarne i medyczne';
     topContent.innerHTML = buildRecipeSearchUI();
-    bottomContent.innerHTML = '<p class="placeholder">Zacznij pisać, a podpowiedzi pojawią się powyżej. Dodawaj je jako filtry‑tagi.</p>';
+    bottomContent.innerHTML = '<p class="placeholder">Ładuję przepisy…</p>';
+
+    // drobny UX na mobile: dopnij enterkeyhint/type gdyby UI builder nie ustawił
+    const rs = document.getElementById('recipeSearch');
+    if (rs){
+      rs.setAttribute('type','search');
+      rs.setAttribute('enterkeyhint','search');
+    }
 
     playOpenAnim();
 
-    (async ()=>{
-      try{
-        RECIPES = await loadGlobalRecipes();
-        LEXICON = buildLexiconFromRecipes(RECIPES);
+    // Wczytaj przepisy PEWNIE i dopiero wtedy podpinaj logikę Enter + podpowiedzi
+    window.RECIPES_READY = (async () => {
+      const list = await loadGlobalRecipes();
+      RECIPES = list;
+      LEXICON  = buildLexiconFromRecipes(list);
 
-        const input = document.getElementById('recipeSearch');
+      const input = document.getElementById('recipeSearch');
+      if(input){
         input.addEventListener('input', (e)=> renderRecipeSuggestions(e.target.value));
         input.addEventListener('keydown', (e)=>{
           if(e.key==='Enter'){
@@ -1815,16 +1967,19 @@ async function openPapyrus(section){
             const q = normalizeText(input.value);
             if(!q) return;
             const first = LEXICON.find(w => w.startsWith(q));
-            addRecipeTag(first || q);
+            addRecipeTag(first || q);      // bezpośrednio dodaj filtr
           }
         });
-
-        applyRecipeFilters(); // pokaż wszystko na start
-      }catch(err){
-        bottomContent.innerHTML = `<p class="placeholder">Nie udało się wczytać globalnych przepisów. ${err.message}</p>`;
       }
+
+      injectMatchModeToggle();   // przełącznik AND/OR
+      applyRecipeFilters();      // startowo: pokaż wszystko
+    })().catch(err=>{
+      bottomContent.innerHTML = `<p class="placeholder">Nie udało się wczytać globalnych przepisów. ${err?.message||err}</p>`;
+    }).finally(()=>{
+      ensureResultsVisible();
       updateAfterAsync();
-    })();
+    });
 
     animatePapyrusIn();
     return;
@@ -1860,8 +2015,13 @@ async function openPapyrus(section){
     updateAfterAsync();
   }
 
-  // === NOWOŚĆ: KONTAKT ===
-
+  else if(section === 'kontakt'){
+    // sekcja kontakt ma własną funkcję z animacją – po prostu deleguj
+    if (typeof openKontaktPapyrus === 'function'){
+      openKontaktPapyrus();
+      return;
+    }
+  }
 
   // ===== DOMYŚLNE (gdyby przyszły inne sekcje) =====
   else{
@@ -1881,8 +2041,8 @@ async function openPapyrus(section){
 
   requestAnimationFrame(()=>{
     papLayer.style.visibility = 'visible';
-    scheduleStageHeight();
-attachHeightObservers();
+    scheduleStageHeight?.();
+    attachHeightObservers?.();
     cardsLayer.style.transform = 'translateY(-100%)';
     papLayer.style.transform = 'translateY(0)';
     document.body.classList.add('peek-hidden');
@@ -1890,6 +2050,7 @@ attachHeightObservers();
     if(typeof watchPapyrusResize === 'function') watchPapyrusResize();
   });
 }
+
 
 // no-op, gdy nie ma modułu z kawą
 window.hideCoffeeLayer = window.hideCoffeeLayer || function(){};
@@ -2236,6 +2397,32 @@ function hideCoffeeLayer(){
 }
 
 
+</script>
+<script>
+(function(){
+  const stage = document.getElementById('stage');
+  const cardsLayer = document.getElementById('cardsLayer');
+
+  function setStageHeightToCards(){
+    if(!stage || !cardsLayer) return;
+    stage.style.height = cardsLayer.scrollHeight + 'px';
+  }
+
+  // 1) Kiedy obrazki w kartach dokończą się ładować
+  document.querySelectorAll('#cards img').forEach(img=>{
+    if(!img.complete){
+      img.addEventListener('load', setStageHeightToCards, {once:true});
+      img.addEventListener('error', setStageHeightToCards, {once:true});
+    }
+  });
+
+  // 2) Na starcie i przy zmianie rozmiaru
+  window.addEventListener('load', setStageHeightToCards);
+  window.addEventListener('resize', setStageHeightToCards);
+
+  // 3) (opcjonalnie) krótka zwłoka na layout
+  requestAnimationFrame(setStageHeightToCards);
+})();
 </script>
 
 
