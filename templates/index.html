@@ -730,23 +730,26 @@ details.rest>summary{cursor:pointer;font-weight:600}
 <footer class="site">© 1936 Kwiatownik. Wszystkie prawa zastrzeżone.</footer>
 <!--// === GREETING ===-->
 <script defer>
-window.hideCoffeeLayer = window.hideCoffeeLayer || function(){};
 
+document.addEventListener('DOMContentLoaded', () => {
+  window.hideCoffeeLayer = window.hideCoffeeLayer || function(){};
 
-const hash = (location.hash||'').replace('#','');
-if(['legendy','przepisy','ogrodnictwo','kontakt'].includes(hash)){
-  hideCoffeeLayer();                            // ⬅️ NOWE
-  if(hash==='kontakt'){ openKontaktPapyrus(); }
-  else { openPapyrus(hash); }
-}
-window.addEventListener('hashchange', ()=>{
-  const h = (location.hash||'').replace('#','');
-  if(['legendy','przepisy','ogrodnictwo','kontakt'].includes(h)){
-    hideCoffeeLayer();                          // ⬅️ NOWE
-    if(h==='kontakt') openKontaktPapyrus();
-    else openPapyrus(h);
-  }
+  const openFromHash = () => {
+    const h = (location.hash || '').replace('#','');
+    if (['legendy','przepisy','ogrodnictwo','kontakt'].includes(h)) {
+      hideCoffeeLayer();
+      if (h === 'kontakt' && typeof openKontaktPapyrus === 'function') {
+        openKontaktPapyrus();
+      } else if (typeof openPapyrus === 'function') {
+        openPapyrus(h);
+      }
+    }
+  };
+
+  openFromHash();
+  window.addEventListener('hashchange', openFromHash);
 });
+
 const GREETING_URL = "{{ url_for('static', filename='greeting.json') }}";
 
 async function showGreeting() {
@@ -1455,66 +1458,58 @@ function renderOGROD(norm){
 
 /* ---------- RENDER: LEGENDY / OPISY ---------- */
 function renderLEGENDY(norm, raw){
-  const BIB = normalizeBibliografia(raw);
-  const meta  = renderMetaTrail(norm);
+  const BIB  = normalizeBibliografia(raw);
+  const meta = renderMetaTrail(norm);
+
+  // Galeria
   const fotos = (norm.zdjecia && norm.zdjecia.length)
     ? `<div class="gallery">${norm.zdjecia.slice(0,4).map(src=>`<img src="${src}" alt="">`).join('')}</div>` : '';
 
-  // Właściwości/Składniki (z normalizera)
-  let skladList = Array.isArray(norm.wlasciwosci_i_skladniki) ? norm.wlasciwosci_i_skladniki : [];
+  // Ciekawostki kulturowe – najpierw, przed opisem botanicznym
+  const ciekArr = (
+    (norm.cechy_i_historia && Array.isArray(norm.cechy_i_historia.ciekawostki) ? norm.cechy_i_historia.ciekawostki : [])
+      .concat(asArray(getOneOf(raw||{}, ['ciekawostki_kulturowe'])))
+  ).filter(Boolean);
+  const ciekHTML = ciekArr.length ? `<ul>${ciekArr.map(x=>`<li>${asString(x)}</li>`).join('')}</ul>` : '';
+
+  // Właściwości / Składniki
+  const skladList = Array.isArray(norm.wlasciwosci_i_skladniki) ? norm.wlasciwosci_i_skladniki : [];
   const skladHTML = skladList.length
-    ? '<ul>' + skladList.map(it=>
+    ? '<ul>' + skladList.map(it =>
         `<li><b>${it.nazwa}</b>${it.dzialanie ? ' — '+it.dzialanie : ''}${refLinks(it.zrodla, BIB)}</li>`
       ).join('') + '</ul>'
     : '';
 
-  // Cechy i historia (z normalizera)
+  // Cechy i historia (po ciekawostkach)
   let chHTML = '';
-  if(norm.cechy_i_historia){
+  if (norm.cechy_i_historia){
     const CH = norm.cechy_i_historia;
     if (CH.opis) chHTML += `<p>${CH.opis}</p>`;
     if (CH.cechy?.length) chHTML += `<h5>Cechy</h5><ul>${CH.cechy.map(x=>`<li>${x}</li>`).join('')}</ul>`;
     if (CH.zastosowanie_historyczne?.length) chHTML += `<h5>Zastosowanie historyczne</h5><ul>${CH.zastosowanie_historyczne.map(x=>`<li>${x}</li>`).join('')}</ul>`;
-    if (CH.ciekawostki?.length) chHTML += `<h5>Ciekawostki</h5><ul>${CH.ciekawostki.map(x=>`<li>${x}</li>`).join('')}</ul>`;
+    // CH.ciekawostki już pokazujemy wyżej jako ciekawostki kulturowe
   }
 
-  // Uwagi i ostrzeżenia (z normalizera) + linki
+  // Uwagi/Ostrzeżenia – **zdefiniuj zanim użyjesz w return**
   let uwHTML = '';
-  if(Array.isArray(norm.uwagi_i_ostrzezenia) && norm.uwagi_i_ostrzezenia.length){
+  if (Array.isArray(norm.uwagi_i_ostrzezenia) && norm.uwagi_i_ostrzezenia.length){
     uwHTML = '<ul>' + norm.uwagi_i_ostrzezenia.map(u=>{
-      if(typeof u==='string') return `<li><b>Uwaga:</b> ${u}</li>`;
+      if (typeof u === 'string') return `<li><b>Uwaga:</b> ${u}</li>`;
       const refs = u.zrodla || u.zrodlo || u.sources || u.refs;
       return `<li><b>Uwaga:</b> ${u.uwaga||''}${u.rozwiazanie ? ' — <i>'+u.rozwiazanie+'</i>' : ''}${refLinks(refs, BIB)}</li>`;
     }).join('') + '</ul>';
   }
 
-  // Fallback z bloku "Cechy" w surowym JSON (jeśli normalizer nie dostarczył)
-  const CECHY = getOneOf(raw||{}, ['Cechy','cechy','CECHY']) || {};
-  // Opis botaniczny, Występowanie
-  const opisBot = getOneOf(CECHY, ['Opis Botaniczny','Opis botaniczny','opis_botaniczny','Opis','opis','opis rośliny']);
-  const opisBotHTML = opisBot ? (typeof opisBot === 'object' ? autoListify(opisBot) : `<p>${opisBot}</p>`) : '';
-  const wystRaw = getOneOf(CECHY, ['Występowanie','Wystepowanie','występowanie','wystepowanie']);
-  const wystHTML = wystRaw ? (typeof wystRaw === 'object' ? autoListify(wystRaw) : `<p>${wystRaw}</p>`) : '';
+  // Fallbacki z bloku „Cechy” w surowym JSON
+  const CECHY     = getOneOf(raw||{}, ['Cechy','cechy','CECHY']) || {};
+  const opisBot   = getOneOf(CECHY, ['Opis Botaniczny','Opis botaniczny','opis_botaniczny','Opis','opis','opis rośliny']);
+  const opisHTML  = opisBot ? (typeof opisBot === 'object' ? autoListify(opisBot) : `<p>${opisBot}</p>`) : '';
+  const wystRaw   = getOneOf(CECHY, ['Występowanie','Wystepowanie','występowanie','wystepowanie']);
+  const wystHTML  = wystRaw ? (typeof wystRaw === 'object' ? autoListify(wystRaw) : `<p>${wystRaw}</p>`) : '';
 
-  // Jeśli nie było właściwości/składników w normalizerze — spróbuj z "Cechy" + linki
-  let skladFromCechy = '';
-  if(!skladHTML){
-    const wRaw = getOneOf(CECHY, ['Właściwości i składniki','Wlasciwosci i skladniki','właściwości_i_składniki','wlasciwosci_i_skladniki']);
-    const arr = asArray(wRaw);
-    if(arr.length){
-      skladFromCechy = '<ul>' + arr.map(it=>{
-        if(typeof it==='string') return `<li>${it}</li>`;
-        const name = it.nazwa || it.name || 'Składnik';
-        const eff  = it.działanie || it.dzialanie || it.effect || '';
-        const refs = it.zrodla || it.zrodlo || it.sources || it.refs;
-        return `<li><b>${name}</b>${eff ? ' — '+eff : ''}${refLinks(refs, BIB)}</li>`;
-      }).join('') + '</ul>';
-    }
-  }
-
-  // Inne zastosowania (jak było)
+  // Inne zastosowania
   let inne = '';
-  if(norm.inne_zastosowania){
+  if (norm.inne_zastosowania){
     const map = {};
     Object.entries(norm.inne_zastosowania).forEach(([k,v])=>{
       map[k.replaceAll('_',' ')] = v.opis || '';
@@ -1522,24 +1517,21 @@ function renderLEGENDY(norm, raw){
     inne = dl(map);
   }
 
-  // (Opcjonalnie) lista bibliografii na dole
+  // Bibliografia (lista linków)
   const bibHTML = (()=> {
-      const entries = Object.entries(BIB||{});
-      if(!entries.length) return '';
-      return '<ol>' + entries.map(([id,url])=>{
-        const short = rootUrl(url);
-        return `<li><a href="${short}" target="_blank" rel="noopener">${id} — ${short}</a></li>`;
-      }).join('') + '</ol>';
-    })();
-
+    const entries = Object.entries(BIB||{});
+    if(!entries.length) return '';
+    return '<ol>' + entries.map(([id,url])=> `<li><a href="${url}" target="_blank" rel="noopener">${id}</a></li>`).join('') + '</ol>';
+  })();
 
   return `
     <article class="pap-article">
       ${meta}
       ${fotos}
-      ${section('Opis botaniczny',   opisBotHTML)}
+      ${section('Ciekawostki kulturowe', ciekHTML)}
+      ${section('Opis botaniczny',   opisHTML)}
       ${section('Występowanie',      wystHTML)}
-      ${section('Właściwości i składniki', skladHTML || skladFromCechy)}
+      ${section('Właściwości i składniki', skladHTML)}
       ${section('Cechy i historia',  chHTML)}
       ${section('Uwagi i ostrzeżenia', uwHTML)}
       ${section('Inne zastosowania', inne)}
@@ -1547,6 +1539,8 @@ function renderLEGENDY(norm, raw){
     </article>
   `;
 }
+
+
 
 /* ---------- RENDER: PRZEPISY (wyszukiwarka po nowych JSON-ach) ---------- */
 
