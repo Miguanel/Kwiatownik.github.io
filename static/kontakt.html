@@ -1,0 +1,37 @@
+
+{% block title %}Kontakt{% endblock %}
+
+{% block content %}
+<h2>Kontakt</h2>
+<p>Masz pytanie lub sugestię? Napisz do nas 🌱</p>
+
+<!-- ukryta ramka pozwala pozostać na stronie po wysłaniu -->
+<iframe name="hidden_iframe" style="display:none;"></iframe>
+
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc4Cj-klfVitmYBLLpwYHStZ7vTsIFJ3mugJm7LW5QkiVACGQ/formResponse"
+      method="POST" target="hidden_iframe" onsubmit="kontaktWyslany()" class="form">
+  <label for="name">Imię</label>
+  <input id="name" name="entry.1654482530" type="text" placeholder="Twoje imię">
+
+  <label for="email">E‑mail (jeśli chcesz odpowiedź)</label>
+  <input id="email" name="entry.1776531128" type="email" placeholder="twoj@mail.com">
+
+  <label for="msg">Wiadomość</label>
+  <textarea id="msg" name="entry.1817341887" rows="5" required placeholder="Napisz wiadomość…"></textarea>
+
+  <!-- te pola nie są konieczne, ale niektórym pomagają -->
+  <input type="hidden" name="submit" value="Submit">
+  <button type="submit">Wyślij</button>
+</form>
+
+<div id="ok-box" style="display:none; margin-top:1rem;">
+  ✅ Dziękujemy! Wiadomość została wysłana. Odezwiemy się wkrótce.
+</div>
+
+<script>
+  function kontaktWyslany() {
+    // pokaż potwierdzenie po załadowaniu odpowiedzi w ukrytej ramce
+    setTimeout(function(){ document.getElementById('ok-box').style.display = 'block'; }, 500);
+  }
+</script>
+{% endblock %}

@@ -1,0 +1,2221 @@
+{
+  "typ": "medyczne",
+  "liczba_przepisow": 101,
+  "zrodlo_danych": "Zebrane z plików gatunków w Kwiatowniku",
+  "przepisy": [
+    {
+      "tytul": "napar z ziele skrzypu",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonego ziela skrzypu polnego (najlepiej młode, zielone pędy letnie)",
+        "250 ml wrzątku (świeża, przefiltrowana woda)"
+      ],
+      "sposob_przygotowania": "Ziele zalać wrzątkiem, parzyć pod przykryciem 10–15 minut, przecedzić przez sitko.",
+      "dawkowanie": "1 filiżanka 2 razy dziennie, kuracja do 3 tygodni.",
+      "uwagi": "",
+      "zrodla": [
+        "https://www.herbazone.pl/skrzyp-polny-napar-przepis/"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "odwar na wzmocnienie kości",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki suszonego skrzypu polnego",
+        "350 ml wody"
+      ],
+      "sposob_przygotowania": "Ziele zalać zimną wodą, doprowadzić do wrzenia, gotować na małym ogniu 20 min. Przecedzić, pić ciepły.",
+      "dawkowanie": "1 szklanka dziennie przez 14 dni.",
+      "uwagi": "",
+      "zrodla": [
+        "https://rozanski.li/1958/skrzyp-odwar-wzmocnienie/"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "kąpiel na rany i skórę",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "4 łyżki suszonego skrzypu",
+        "2 litry wody"
+      ],
+      "sposob_przygotowania": "Ziele zagotować z wodą 10 minut, przecedzić, wlać do wanny z ciepłą wodą. Kąpiel 20 minut.",
+      "dawkowanie": "3 razy w tygodniu.",
+      "uwagi": "",
+      "zrodla": [
+        "https://www.ekogroup.info/skrzyp-polny-do-kapieli/"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "płukanka do włosów",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki suszonego skrzypu",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzyć skrzyp w litrze wrzątku, wystudzić, stosować do płukania włosów po myciu.",
+      "dawkowanie": "Po każdym myciu przez 3 tygodnie.",
+      "uwagi": "",
+      "zrodla": [
+        "https://kosmetologa.pl/domowe-plukanki-ze-skrzypu-polnego.html"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "kompres na opuchliznę",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonego skrzypu",
+        "100 ml wrzątku",
+        "Gaza lub lniany ręcznik"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 min. Zwilżyć gazę, przykładać na opuchnięte miejsca.",
+      "dawkowanie": "Stosować 2–3 razy dziennie.",
+      "uwagi": "",
+      "zrodla": [
+        "https://www.atlas-ziol.pl/kompres-skrzyp-opuchlizna.html"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "herbatka mineralizująca",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonego skrzypu polnego",
+        "1 łyżka suszonych liści pokrzywy",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć pod przykryciem 15 minut.",
+      "dawkowanie": "1–2 razy dziennie przez 14 dni.",
+      "uwagi": "",
+      "zrodla": [
+        30
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "macerat na uklad moczowy",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżego, młodego skrzypu",
+        "200 ml zimnej, przefiltrowanej wody"
+      ],
+      "sposob_przygotowania": "Skrzyp zalać zimną wodą, odstawić na 8 godzin, przecedzić.",
+      "dawkowanie": "1 szklanka rano przez tydzień.",
+      "uwagi": "",
+      "zrodla": [
+        31
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "syrop skrzypowy na kaszel",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "100 g świeżych, młodych pędów skrzypu",
+        "250 ml wody",
+        "200 g cukru lub miodu"
+      ],
+      "sposob_przygotowania": "Pędy gotować w wodzie 15 minut, odcedzić, dodać cukier, odparować do konsystencji syropu.",
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "uwagi": "",
+      "zrodla": [
+        32
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "maść skrzypowa na zadrapania",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki suszonego skrzypu",
+        "100 ml oleju kokosowego",
+        "szczypta wosku pszczelego"
+      ],
+      "sposob_przygotowania": "Skrzyp podgrzewać w oleju przez 1 godzinę na małym ogniu, odcedzić, dodać wosk, przelać do słoiczka.",
+      "dawkowanie": "Smarować 2–3 razy dziennie.",
+      "uwagi": "",
+      "zrodla": [
+        33
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "okład na stawy z skrzypu",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki świeżego, rozgniecionego skrzypu",
+        "gaza"
+      ],
+      "sposob_przygotowania": "Skrzyp rozgnieść, nałożyć na gazę, przykładać na bolące stawy.",
+      "dawkowanie": "Przykładać przez 30 min, powtarzać 2 razy dziennie.",
+      "uwagi": "",
+      "zrodla": [
+        34
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "kąpiel na grzybicę stóp",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "4 łyżki suszonego skrzypu",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Skrzyp zaparzyć, dodać do kąpieli stóp na 20 minut.",
+      "dawkowanie": "Codziennie przez tydzień.",
+      "uwagi": "",
+      "zrodla": [
+        35
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "mikstura na krwawienia z dziąseł",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżeczka suszonego skrzypu",
+        "150 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzyć, używać do płukania jamy ustnej.",
+      "dawkowanie": "3 razy dziennie do ustąpienia objawów.",
+      "uwagi": "",
+      "zrodla": [
+        36
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "herbatka z pietruszką na obrzęki",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonego skrzypu",
+        "1 łyżka świeżej natki pietruszki",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzyć pod przykryciem 12 minut.",
+      "dawkowanie": "1 filiżanka rano przez 5 dni.",
+      "uwagi": "",
+      "zrodla": [
+        37
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "napar na suchość skóry",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonego skrzypu",
+        "1 łyżka suszonych kwiatów nagietka",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzyć razem, stosować do przemywania skóry.",
+      "dawkowanie": "2 razy dziennie przez tydzień.",
+      "uwagi": "",
+      "zrodla": [
+        38
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "krople na zmęczone oczy",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1/2 łyżeczki suszonego skrzypu",
+        "100 ml przegotowanej, ostudzonej wody"
+      ],
+      "sposob_przygotowania": "Zaparzyć, wystudzić, używać jako krople (przemywać oczy).",
+      "dawkowanie": "Stosować 2 razy dziennie.",
+      "uwagi": "",
+      "zrodla": [
+        39
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "nalewka skrzypowa na siniaki",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "50 g suszonego skrzypu",
+        "250 ml spirytusu 40–60%"
+      ],
+      "sposob_przygotowania": "Skrzyp zalać alkoholem, odstawić na 2 tygodnie. Przecedzić, stosować zewnętrznie.",
+      "dawkowanie": "2 razy dziennie przez kilka dni.",
+      "uwagi": "",
+      "zrodla": [
+        40
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "mieszanka remineralizująca skrzyp pokrzywa liście brzozy",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonego skrzypu polnego",
+        "1 łyżka suszonej pokrzywy",
+        "1 łyżka liści brzozy",
+        "400 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem, parzyć 10 minut pod przykryciem. Pić jako herbatę mineralizującą.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://www.fitoterapia.net/mieszanki-skrzyp-pokrzywa-brzoza.html"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "ziołowa kąpiel na stawy skrzyp liście dębu korzeń żywokostu",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 garści suszonego skrzypu",
+        "1 garść liści dębu",
+        "2 łyżki korzenia żywokostu",
+        "3 litry wody"
+      ],
+      "sposob_przygotowania": "Zioła gotować w wodzie 20 minut, odcedzić, dodać do kąpieli.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikskrzyp.pl/ziolowa-kapiel-skrzyp.html"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "Syrop z pędów sosny",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "0,5 kg młodych pędów sosny",
+        "0,5 kg cukru",
+        "sok z 1 cytryny"
+      ],
+      "sposob_przygotowania": "Pędy zasypać cukrem warstwowo w słoju, dodać sok z cytryny, odstawić na 2–3 tygodnie. Zlać powstały syrop.",
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/syrop-pedy-sosna/"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Napar z igieł",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych igieł sosny (posiekanych)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Igiełki zalać wrzątkiem, parzyć 15 min pod przykryciem, przecedzić.",
+      "dawkowanie": "Szklanka 1–2 razy dziennie.",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/napar-igly-sosna/"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "inhalacja z olejku sosnowego",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "3 krople olejku sosnowego",
+        "1 litr gorącej wody"
+      ],
+      "sposob_przygotowania": "Dodać olejek do gorącej wody, inhalować się 10 minut pod ręcznikiem.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/inhalacja-olejek-sosnowy/"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "kąpiel z pędów i igieł",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "3 garście świeżych pędów i igieł sosny",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Pędy i igły zalać wrzątkiem, parzyć 30 min, przecedzić do kąpieli.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/kapiel-pedy-igly-sosna/"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Maść żywiczna",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki żywicy sosnowej",
+        "4 łyżki masła shea lub smalcu"
+      ],
+      "sposob_przygotowania": "Żywicę rozpuścić w tłuszczu na małym ogniu, przefiltrować, przelać do słoiczka.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/masc-zywica-sosna/"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Mieszanka wykrztuśna (sosna, podbiał, dziewanna, tymianek, babka, lukrecja, anyż, miodunka)",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka pąków sosny",
+        "1 łyżka liści podbiału",
+        "1 łyżka kwiatu dziewanny",
+        "1 łyżka ziela tymianku",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżeczka korzenia lukrecji",
+        "1 łyżeczka nasion anyżu",
+        "1 łyżka ziela miodunki",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć, pić ciepły napar.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-wykrztusna-sosna-podbial/"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Mieszanka kąpielowa (sosna, rumianek, nagietek, skrzyp, pokrzywa, lawenda, krwawnik, babka)",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 garście igieł i pąków sosny",
+        "1 łyżka kwiatów rumianku",
+        "1 łyżka kwiatów nagietka",
+        "1 łyżka ziela skrzypu",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka kwiatów lawendy",
+        "1 łyżka ziela krwawnika",
+        "1 łyżka liści babki",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć, przecedzić do kąpieli.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-kapielowa-sosna-rumianek/"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Mieszanka odpornościowa (sosna, pokrzywa, mniszek, czarna porzeczka, fiołek, dzika róża, nagietek, skrzyp)",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka pąków sosny",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka korzenia mniszka",
+        "1 łyżka liści czarnej porzeczki",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżka owoców dzikiej róży",
+        "1 łyżka kwiatów nagietka",
+        "1 łyżka ziela skrzypu",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć, pić przez 7 dni.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-odpornosc-sosna-pokrzywa/"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Mieszanka na reumatyzm (sosna, korzeń żywokostu, kora wierzby, pokrzywa, skrzyp, tymianek, szałwia, nagietek)",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka pąków sosny",
+        "1 łyżka korzenia żywokostu",
+        "1 łyżka kory wierzby",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu",
+        "1 łyżka ziela tymianku",
+        "1 łyżeczka liści szałwii",
+        "1 łyżka kwiatów nagietka",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 20 min, pić 2 razy dziennie.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-reumatyzm-sosna-zywokost/"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Mieszanka oczyszczająca (sosna, brzoza, pokrzywa, skrzyp, fiołek, rumianek, nagietek, babka)",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka pąków sosny",
+        "1 łyżka liści brzozy",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżka kwiatów rumianku",
+        "1 łyżka kwiatów nagietka",
+        "1 łyżka liści babki",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie zioła zaparzyć, pić przez 5 dni.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-oczyszczajaca-sosna-brzoza/"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "napar z korzenia",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonych, rozdrobnionych bulw świerząbka bulwiastego",
+        "250 ml świeżo zagotowanej wody"
+      ],
+      "sposob_przygotowania": "Bulwy zalać wrzątkiem w kubku, parzyć 15 minut pod przykryciem, przecedzić.",
+      "dawkowanie": "Szklanka naparu 1–2 razy dziennie przez tydzień.",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/napar-swierzabek/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "odwar na zoladek",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki świeżego, drobno pokrojonego korzenia świerząbka",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Bulwy zalać zimną wodą, gotować 15 minut na małym ogniu, przecedzić, pić lekko ciepły.",
+      "dawkowanie": "Szklanka po ciężkostrawnym posiłku.",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/odwar-swierzabek-zoladek/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "sok z bulw",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "Świeże, dojrzałe bulwy świerząbka bulwiastego (najlepiej młode, wiosenne zbiory)"
+      ],
+      "sposob_przygotowania": "Bulwy dokładnie umyć, zetrzeć na drobnej tarce, wycisnąć sok przez gazę.",
+      "dawkowanie": "2–3 łyżki soku dziennie przez 7–10 dni.",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/sok-swierzabek/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "oklad na stawy",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "Starte, świeże bulwy świerząbka",
+        "Gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": "Starte bulwy rozłożyć na gazie, nałożyć na chore miejsce, owinąć na 30 minut.",
+      "dawkowanie": "Okład 1–2 razy dziennie.",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/oklad-swierzabek-stawy/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "kąpiel korzeniowa",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "Garść (ok. 100 g) świeżych lub suszonych bulw świerząbka",
+        "2 litry wody"
+      ],
+      "sposob_przygotowania": "Bulwy pokroić, gotować w wodzie 20 minut, odwar dolać do ciepłej kąpieli.",
+      "dawkowanie": "Kąpiel 20 minut, 2–3 razy w tygodniu.",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/kapiel-swierzabek/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "maść na skórę",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "Świeże liście i łodygi świerząbka bulwiastego (drobno posiekane)",
+        "4 łyżki oleju kokosowego lub oliwy"
+      ],
+      "sposob_przygotowania": "Liście i łodygi podgrzać w tłuszczu w kąpieli wodnej przez 30 minut, odcedzić, przechowywać w słoiczku.",
+      "dawkowanie": "Smarować 2 razy dziennie.",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/masc-swierzabek/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "nalewka oczyszczajaca",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "Pokrojone bulwy świerząbka (świeże)",
+        "Alkohol 40% (spirytus rozcieńczony, wódka czysta)"
+      ],
+      "sposob_przygotowania": "Pokrojone bulwy zalać alkoholem w proporcji 1:2 (np. 100 g bulw, 200 ml alkoholu), odstawić w ciemnym miejscu na 10 dni, co 2 dni wstrząsać. Po 10 dniach przecedzić.",
+      "dawkowanie": "1 łyżeczka 2 razy dziennie przez 7 dni.",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/nalewka-swierzabek/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "kompres na opuchliznę",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "Świeży sok z bulw świerząbka",
+        "Jałowa gaza"
+      ],
+      "sposob_przygotowania": "Gazę nasączyć świeżym sokiem, przykładać na opuchnięte lub stłuczone miejsce przez 15 minut.",
+      "dawkowanie": "Kompres 1–2 razy dziennie.",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/kompres-swierzabek-opuchlizna/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "mieszanka detoksykacyjna",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka rozdrobnionych bulw świerząbka bulwiastego (świeżych lub suszonych)",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżka liści brzozy",
+        "1 łyżka świeżego lub suszonego korzenia pietruszki",
+        "500 ml świeżej wody"
+      ],
+      "sposob_przygotowania": "Wszystkie korzenie i liście gotować w wodzie 15 minut, przecedzić.",
+      "dawkowanie": "Szklanka naparu 1–2 razy dziennie przez 5–7 dni.",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-swierzabek-mniszek-pokrzywa/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "mieszanka detoksykacyjna świerząbek bulwiasty mniszek pokrzywa skrzyp liść brzozy korzeń pietruszki fiołek trójbarwny czystek",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych lub suszonych bulw świerząbka bulwiastego (pokrojonych)",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu polnego",
+        "1 łyżka liści brzozy",
+        "1 łyżka świeżego lub suszonego korzenia pietruszki",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżeczka ziela czystka",
+        "1 litr świeżej wody"
+      ],
+      "sposob_przygotowania": "Bulwy, korzenie i liście gotować w wodzie 15 min, dodać pozostałe zioła, parzyć kolejne 10 min pod przykryciem, przecedzić.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-swierzabek-mniszek-pokrzywa-skrzyp-brzoza/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "mieszanka wzmacniająca świerząbek bulwiasty korzeń marchwi seler por natka pietruszki koper pietruszka korzeniowa burak",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 bulwy świerząbka bulwiastego (świeże, pokrojone)",
+        "1 duża marchew (pokrojona)",
+        "1 mały korzeń selera",
+        "biała część 1 pora",
+        "pęczek natki pietruszki",
+        "2 łyżki koperku",
+        "1 korzeń pietruszki",
+        "1 mały burak",
+        "1 litr wody"
+      ],
+      "sposob_przygotowania": "Wszystkie warzywa pokroić, ugotować razem do miękkości, można zmiksować na krem. Doprawić solą, pieprzem, ziołami.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-wzmacniajaca-swierzabek-marchwi-seler-por/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "mieszanka wykrztuśna świerząbek bulwiasty prawoślaz podbiał dziewanna anyż tymianek lukrecja babka lancetowata",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych lub suszonych bulw świerząbka",
+        "1 łyżka korzenia prawoślazu",
+        "1 łyżka liści podbiału",
+        "1 łyżka kwiatów dziewanny",
+        "1 łyżeczka nasion anyżu",
+        "1 łyżka tymianku",
+        "1 łyżeczka korzenia lukrecji",
+        "1 łyżka liści babki lancetowatej",
+        "1 litr wody"
+      ],
+      "sposob_przygotowania": "Bulwy i korzenie gotować 15 min, dodać pozostałe zioła, parzyć 10 min pod przykryciem. Pić ciepły napar, 1/2 szklanki 2 razy dziennie.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-wykrztusna-swierzabek-podbial-dziewanna/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "mieszanka na skórę świerząbek bulwiasty nagietek fiołek rumianek krwawnik babka lancetowata skrzyp pokrzywa",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych bulw świerząbka (startych)",
+        "1 łyżka kwiatów nagietka",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżka kwiatów rumianku",
+        "1 łyżka ziela krwawnika",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka ziela skrzypu",
+        "1 łyżka liści pokrzywy",
+        "700 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystko zaparzyć 20 min pod przykryciem, używać do przemywania skóry lub okładów.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-skora-swierzabek-nagietek-fiolek/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "mieszanka na nerki świerząbek bulwiasty pokrzywa skrzyp liść żurawiny liść brzozy korzeń pietruszki liść mącznicy liść borówki",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka pokrojonych bulw świerząbka",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu",
+        "1 łyżka liści żurawiny",
+        "1 łyżka liści brzozy",
+        "1 łyżka korzenia pietruszki",
+        "1 łyżeczka liści mącznicy lekarskiej",
+        "1 łyżka liści borówki",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 20 min, pić po pół szklanki 2–3 razy dziennie.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-nerki-swierzabek-pokrzywa/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "mieszanka detoksykacyjna świerząbek bulwiasty mniszek pokrzywa skrzyp liść brzozy korzeń pietruszki fiołek czystek",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych lub suszonych bulw świerząbka bulwiastego (pokrojonych)",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu polnego",
+        "1 łyżka liści brzozy",
+        "1 łyżka korzenia pietruszki",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżeczka ziela czystka",
+        "1 litr wody"
+      ],
+      "sposob_przygotowania": "Bulwy i korzenie gotować 15 min, dodać pozostałe zioła, parzyć kolejne 10 min pod przykryciem, przecedzić.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-swierzabek-mniszek-pokrzywa-skrzyp-brzoza/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "mieszanka szwajcarska na nerki świerząbek bulwiasty korzeń łopianu liście brzozy skrzyp korzeń selera koper",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka pokrojonych świeżych bulw świerząbka",
+        "1 łyżka korzenia łopianu (świeżego lub suszonego, pokrojonego)",
+        "1 łyżka liści brzozy",
+        "1 łyżka ziela skrzypu polnego",
+        "1 łyżka korzenia selera",
+        "1 łyżeczka nasion kopru włoskiego",
+        "1 litr wody"
+      ],
+      "sposob_przygotowania": "Bulwy i korzenie gotować 10 min, dodać pozostałe składniki, parzyć kolejne 10 min. Przecedzić, pić pół szklanki 2 razy dziennie.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/salatka-swierzabek-mniszek-rzodkiewka/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "francuska zupa wzmacniająca świerząbek bulwiasty por marchew pietruszka lubczyk tymianek czosnek",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 bulwy świerząbka (obrane, pokrojone)",
+        "1 por (biała część, pokrojona w plastry)",
+        "2 marchewki (pokrojone w półplasterki)",
+        "1 korzeń pietruszki (pokrojony)",
+        "1 mała gałązka świeżego lubczyku",
+        "1/2 łyżeczki suszonego tymianku",
+        "1 ząbek czosnku (drobno posiekany)",
+        "1 litr bulionu warzywnego"
+      ],
+      "sposob_przygotowania": "Warzywa dusić chwilę w garnku, zalać bulionem, dodać przyprawy, gotować do miękkości. Podawać z natką.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/pesto-swierzabek-pietruszka-orzechy/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "rosyjska mieszanka na odporność świerząbek bulwiasty owoce dzikiej róży czarna porzeczka miód korzeń imbiru",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka soku z bulw świerząbka",
+        "1 łyżka suszonych owoców dzikiej róży",
+        "1 łyżka suszonych owoców czarnej porzeczki",
+        "1 łyżka miodu naturalnego",
+        "1 łyżeczka świeżego startego imbiru",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Owoce i imbir zalać wrzątkiem, parzyć 20 min, przecedzić, dodać miód i sok z bulw świerząbka. Pić ciepłe.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/gulasz-swierzabek-cukinia/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "niemiecki kompres przeciwobrzękowy świerząbek bulwiasty liść kapusty korzeń żywokostu liść babki lancetowatej rumianek",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych bulw świerząbka (startych)",
+        "2 liście kapusty (sparzone, rozgniecione wałkiem)",
+        "1 łyżka korzenia żywokostu (świeżego, startego)",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka suszonych kwiatów rumianku"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki wymieszać, nałożyć na gazę i przykładać na opuchnięte miejsca 30–40 minut.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/zapiekanka-swierzabek-ser-cebula/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "francuska mieszanka wykrztuśna świerząbek bulwiasty tymianek podbiał anyż korzeń prawoślazu",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych bulw świerząbka (pokrojonych)",
+        "1 łyżka suszonego tymianku",
+        "1 łyżka liści podbiału",
+        "1 łyżeczka nasion anyżu",
+        "1 łyżka korzenia prawoślazu",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Bulwy i korzeń prawoślazu gotować 10 min, dodać pozostałe składniki, parzyć 10 min, przecedzić. Pić 1/2 szklanki 2 razy dziennie.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/puree-swierzabek-pietruszka/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "mieszanka na stawy świerząbek bulwiasty liść laurowy korzeń żywokostu liść pokrzywy tymianek rozmaryn igły sosny skrzyp",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka pokrojonych bulw świerząbka bulwiastego",
+        "2 liście laurowe",
+        "1 łyżka pokrojonego świeżego korzenia żywokostu",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka suszonego tymianku",
+        "1 łyżeczka rozmarynu",
+        "1 łyżka świeżych igieł sosny (drobno posiekanych)",
+        "1 łyżka ziela skrzypu",
+        "800 ml wody"
+      ],
+      "sposob_przygotowania": "Bulwy, korzenie, igły sosny i liście laurowe gotować 15 min, dodać zioła, parzyć kolejne 10 min, przecedzić. Stosować jako okład lub dodać do kąpieli.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-stawy-swierzabek-zywokost/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "kąpiel regenerująca świerząbek bulwiasty rumianek nagietek lawenda liść brzozy szałwia skrzyp tymianek",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 garść pokrojonych bulw świerząbka bulwiastego (ok. 80 g)",
+        "3 łyżki suszonych koszyczków rumianku",
+        "2 łyżki suszonych kwiatów nagietka",
+        "2 łyżki suszonych kwiatów lawendy",
+        "2 łyżki liści brzozy",
+        "2 łyżki liści szałwii",
+        "2 łyżki ziela skrzypu",
+        "2 łyżki suszonego tymianku",
+        "2 litry wody"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki gotować razem 15 min, przecedzić, dodać odwar do kąpieli.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/kapiel-swierzabek-nagietek-lawenda/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "czeska kąpiel przeciwzapalna świerząbek bulwiasty kora dębu rumianek liście pokrzywy kwiat nagietka tymianek",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 garść świeżych bulw świerząbka (ok. 80 g, pokrojonych)",
+        "2 łyżki kory dębu",
+        "3 łyżki suszonych koszyczków rumianku",
+        "2 łyżki liści pokrzywy",
+        "2 łyżki kwiatów nagietka",
+        "1 łyżka suszonego tymianku",
+        "2 litry wody"
+      ],
+      "sposob_przygotowania": "Wszystko gotować 20 min, przecedzić, dolać do wanny z ciepłą wodą.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/zupa-swierzabek-marchew-fasolka/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "syrop na odporność sok z bulw świerząbka miód sok z cytryny imbir czosnek dzika róża chrzan",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki świeżo wyciśniętego soku z bulw świerząbka",
+        "2 łyżki miodu naturalnego",
+        "sok z 1/2 cytryny",
+        "1 łyżeczka świeżo startego imbiru",
+        "1 mały ząbek czosnku (starty na tarce)",
+        "1 łyżka rozdrobnionych suszonych owoców dzikiej róży",
+        "1 łyżeczka drobno startego korzenia chrzanu"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki dokładnie wymieszać, przechowywać w lodówce. Spożywać 1 łyżeczkę 2 razy dziennie.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/syrop-swierzabek-odpornosc/"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "napar na goraczke",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych liści szczawika zajęczego",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 minut pod przykryciem, przecedzić.",
+      "dawkowanie": "Szklanka 1–2 razy dziennie.",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/napar-szczawik/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "herbatka witaminowa",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonych liści szczawika",
+        "1 łyżeczka suszonych kwiatów czarnego bzu",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Liście i kwiaty zalać wrzątkiem, parzyć 10 min.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/herbatka-szczawik-czarny-bez/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "kompres na oparzenia",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki świeżych liści szczawika",
+        "gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": "Liście rozgnieść, nałożyć na oparzone miejsce, przykryć gazą.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/oklad-szczawik-oparzenie/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "syrop na kaszel",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "3 łyżki świeżych liści szczawika",
+        "200 ml wody",
+        "2 łyżki miodu"
+      ],
+      "sposob_przygotowania": "Liście gotować w wodzie 10 min, odcedzić, dodać miód.",
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "uwagi": "",
+      "zrodla": [
+        "https://przepisyziolowe.pl/syrop-szczawik-miod/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "mieszanka na nerki",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonych liści szczawika",
+        "1 łyżka liści brzozy",
+        "1 łyżeczka ziela skrzypu",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 min.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-szczawik-brzoza-skrzyp/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "kąpiel ziołowa na skórę",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "4 garście świeżego szczawika",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Zioło zalać wrzątkiem, parzyć 15 min, przelać do kąpieli.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/kapiel-szczawik/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "maść na rany",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki suszonych liści szczawika",
+        "4 łyżki oleju kokosowego"
+      ],
+      "sposob_przygotowania": "Liście podgrzać w oleju, odcedzić, przechowywać w słoiczku.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/masc-szczawik/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "szwedzka mieszanka na wątrobę",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych liści szczawika zajęczego",
+        "1 łyżka suszonego dziurawca",
+        "1 łyżka liści mniszka lekarskiego",
+        "1 łyżeczka korzenia arcydzięgla",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 15 min, przecedzić.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-napotna-szczawik-lipa/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "rosyjska mieszanka witaminowa",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych liści szczawika",
+        "1 łyżka suszonego owocu dzikiej róży (zmiażdżonego)",
+        "1 łyżeczka liści czarnej porzeczki",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać wszystko wrzątkiem, parzyć 12 minut, przecedzić.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-odpornosc-szczawik-pokrzywa/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "niemiecka kąpiel na wysypki",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "3 garście świeżych liści szczawika",
+        "2 łyżki kwiatów nagietka",
+        "2 łyżki ziela skrzypu",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut, dodać do kąpieli.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-moczopedna-szczawik-skrzyp/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "francuska mieszanka na kaszel",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych liści szczawika",
+        "1 łyżka kwiatów ślazu",
+        "1 łyżeczka suszonych liści szałwii",
+        "1 łyżeczka kwiatu lipy",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 min pod przykryciem.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-trawienie-szczawik-mieta/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "herbatka dla dzieci na wiosenne zmęczenie",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżeczka świeżych liści szczawika zajęczego",
+        "1/2 łyżeczki suszonych owoców dzikiej róży",
+        "1/2 łyżeczki suszonych liści malin",
+        "200 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 5–7 minut, przecedzić.",
+      "dawkowanie": "1 filiżanka dziennie, nie dłużej niż 7 dni.",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-skora-szczawik-nagietek/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "litewska mieszanka na anemię",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych liści szczawika",
+        "1 łyżka pokrzywy (świeżej lub suszonej)",
+        "1/2 łyżki kwiatów jasnoty białej",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 12 min, przecedzić.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-wykrztusna-szczawik-tymianek/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "napar dla kobiet w okresie menopauzy",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonych liści szczawika zajęczego",
+        "1 łyżeczka kwiatu koniczyny czerwonej",
+        "1 łyżeczka suszonych liści melisy",
+        "1/2 łyżeczki suszonych owoców głogu",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem, parzyć 10–12 min pod przykryciem.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-kapielowa-szczawik-rumianek/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "balsam historyczny na owrzodzenia i odciski",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "Świeże liście szczawika zajęczego",
+        "Świeże liście babki lancetowatej",
+        "2 łyżki smalcu gęsiego"
+      ],
+      "sposob_przygotowania": "Liście szczawika i babki rozetrzeć, dodać do lekko ciepłego smalcu, dokładnie wymieszać, schłodzić, przechowywać w lodówce.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-chlodnikowa-szczawik-szczaw-pokrzywa/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "estońska mieszanka chłodząca do płukania jamy ustnej",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych liści szczawika",
+        "1/2 łyżki liści mięty pieprzowej",
+        "1/2 łyżeczki szałwii",
+        "200 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem, parzyć 10 min, przecedzić, stosować do płukania jamy ustnej po ostudzeniu.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/salatka-lesna-szczawik-marzanka/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "skandynawska mieszanka na kamicę moczową",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonych liści szczawika zajęczego",
+        "1 łyżka suszonych liści borówki brusznicy",
+        "1 łyżka liści brzozy",
+        "1/2 łyżeczki ziela rdestu ptasiego",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 12 min, pić małymi porcjami przez dzień.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/omlet-wiosenny-szczawik-pokrzywa/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "rosyjska mieszanka dla rekonwalescentów",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżeczka świeżych liści szczawika",
+        "1 łyżeczka suszonych liści maliny",
+        "1 łyżka owoców dzikiej róży (rozdrobnionych)",
+        "1/2 łyżeczki miodu",
+        "200 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki oprócz miodu zalać wrzątkiem, parzyć 8–10 min, dodać miód po lekkim przestudzeniu.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/pesto-szczawik-orzechy/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "polski kompres na ukąszenia owadów",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki świeżych liści szczawika",
+        "kilka liści babki lancetowatej"
+      ],
+      "sposob_przygotowania": "Liście rozetrzeć w moździerzu, papkę przykładać na ukąszenia i przykryć gazą.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/kanapka-szczawik-pasta/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "mieszanka napotna szczawik kwiat lipy rumianek sok z malin krwawnik babka liść porzeczki dzika róża",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych lub suszonych liści szczawika",
+        "1 łyżka kwiatów lipy",
+        "1 łyżka kwiatów rumianku",
+        "2 łyżki świeżego soku z malin",
+        "1 łyżeczka ziela krwawnika",
+        "1 łyżeczka liści babki lancetowatej",
+        "1 łyżeczka liści czarnej porzeczki",
+        "1 łyżka owoców dzikiej róży",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki zalać wrzątkiem, parzyć 15 min pod przykryciem, pić przy przeziębieniu.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-napotna-szczawik-lipa/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "mieszanka na odporność szczawik pokrzywa mniszek babka kwiat czarnego bzu głóg fiołek nagietek",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka liści szczawika",
+        "1 łyżka liści pokrzywy (świeżych lub suszonych)",
+        "1 łyżka korzenia mniszka lekarskiego (świeżego, pokrojonego lub suszonego)",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka kwiatów czarnego bzu",
+        "1 łyżeczka owoców głogu",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżka kwiatów nagietka",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki zaparzyć, pić przez 7 dni wiosną.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-odpornosc-szczawik-pokrzywa/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "mieszanka moczopędna szczawik skrzyp liść brzozy pokrzywa mniszek fiołek liść truskawki krwawnik",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka liści szczawika",
+        "1 łyżka ziela skrzypu polnego",
+        "1 łyżka liści brzozy",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżeczka fiołka trójbarwnego",
+        "1 łyżeczka liści truskawki",
+        "1 łyżeczka ziela krwawnika",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć, pić przez 5 dni.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-moczopedna-szczawik-skrzyp/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "mieszanka na trawienie szczawik mięta koper włoski anyż babka mniszek rumianek nagietek",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka liści szczawika",
+        "1 łyżka liści mięty",
+        "1 łyżeczka nasion kopru włoskiego",
+        "1/2 łyżeczki nasion anyżu",
+        "1 łyżka liści babki",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżka kwiatów rumianku",
+        "1 łyżka kwiatów nagietka",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć, pić po ciężkostrawnych posiłkach.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-trawienie-szczawik-mieta/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "mieszanka na skórę szczawik nagietek rumianek fiołek pokrzywa skrzyp babka koniczyna",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych lub suszonych liści szczawika",
+        "1 łyżka kwiatów nagietka",
+        "1 łyżka kwiatów rumianku",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka kwiatów koniczyny czerwonej",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć, stosować do kąpieli lub przemywania skóry.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-skora-szczawik-nagietek/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "mieszanka wykrztuśna szczawik tymianek babka podbiał miodunka dziewanna lukrecja anyż",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka liści szczawika",
+        "1 łyżka ziela tymianku",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka liści podbiału",
+        "1 łyżka ziela miodunki",
+        "1 łyżka kwiatu dziewanny",
+        "1 łyżeczka korzenia lukrecji",
+        "1 łyżeczka nasion anyżu",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, pić ciepły napar.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-wykrztusna-szczawik-tymianek/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "mieszanka chłodnikowa szczawik szczaw pokrzywa szpinak koper rzodkiewka ogórek kefir",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 garść świeżych liści szczawika",
+        "1 garść liści szczawiu",
+        "1 garść młodej pokrzywy (sparzonej, drobno posiekanej)",
+        "1 garść szpinaku",
+        "1/2 pęczka koperku (drobno posiekanego)",
+        "3 rzodkiewki (pokrojone w plasterki)",
+        "1 ogórek (pokrojony w kostkę)",
+        "500 ml kefiru",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": "Liście szczawika, szczawiu, pokrzywy i szpinaku sparzyć, posiekać, wymieszać z pozostałymi składnikami, zalać kefirem.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-chlodnikowa-szczawik-szczaw-pokrzywa/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "skandynawska mieszanka witaminowa szczawik żurawina liść borówki pokrzywa mięta dzika róża",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych liści szczawika zajęczego",
+        "1 łyżeczka suszonych owoców żurawiny",
+        "1 łyżka liści borówki brusznicy",
+        "1 łyżka liści pokrzywy",
+        "1/2 łyżki liści mięty",
+        "1 łyżeczka owoców dzikiej róży",
+        "400 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 12 minut, przecedzić.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/salatka-lesna-szczawik-marzanka/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "rosyjska mieszanka na żółtaczkę szczawik liść brzozy korzeń mniszka korzeń cykorii kora kruszyny liść babki",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych liści szczawika zajęczego",
+        "1 łyżka liści brzozy",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżka korzenia cykorii",
+        "1 łyżeczka kory kruszyny",
+        "1 łyżka liści babki lancetowatej",
+        "500 ml wody"
+      ],
+      "sposob_przygotowania": "Korzenie i korę gotować 10 min, dodać liście, parzyć 10 min, przecedzić.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/omlet-wiosenny-szczawik-pokrzywa/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "francuska mieszanka oczyszczająca szczawik fiołek bratek korzeń łopianu liść pokrzywy mniszek szałwia",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świeżych liści szczawika",
+        "1 łyżka fiołka trójbarwnego",
+        "1 łyżka bratka polnego",
+        "1 łyżka korzenia łopianu (pokrojonego)",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżka liści szałwii",
+        "800 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Korzenie gotować 10 min, dodać zioła, parzyć 10 min, przecedzić.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/kanapka-szczawik-pasta/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "mieszanka kąpielowa szczawik rumianek nagietek babka lawenda pokrzywa skrzyp mięta",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 garście świeżych liści szczawika",
+        "1 łyżka kwiatów rumianku",
+        "1 łyżka kwiatów nagietka",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka kwiatów lawendy",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka ziela skrzypu",
+        "1 łyżka liści mięty",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć 20 min, przecedzić do kąpieli.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-kapielowa-szczawik-rumianek/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "niemiecki okład na rany i stłuczenia szczawik nagietek liść babki liść szałwii",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki świeżych liści szczawika zajęczego (rozdrobnionych)",
+        "2 łyżki świeżych kwiatów nagietka (rozdrobnionych)",
+        "2 łyżki świeżych liści babki lancetowatej (rozdrobnionych)",
+        "1 łyżeczka świeżych liści szałwii",
+        "gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": "Wszystkie składniki rozgnieść, ułożyć na gazie, przykładać na ranę na 20–30 minut.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/pesto-szczawik-orzechy/"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "napar ziolowy gojacy",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonego ziela żankiela",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Ziele zalać wrzątkiem, parzyć 15 minut pod przykryciem, przecedzić.",
+      "dawkowanie": "Szklanka 2 razy dziennie.",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/napar-zankiel/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "odwar na krwawienia",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki świeżego lub suszonego korzenia żankiela (rozdrobnionego)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Korzeń gotować 10 minut pod przykryciem, odcedzić, pić letni odwar.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/odwar-zankiel-krwawienia/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "mieszanka na kaszel",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonego ziela żankiela",
+        "1 łyżka suszonych kwiatów dziewanny",
+        "1 łyżka świeżych lub suszonych liści babki lancetowatej",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 min pod przykryciem.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-zankiel-kaszel/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "kąpiel regenerująca",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "4 garście świeżego ziela żankiela (rozdrobnionego)",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Ziele zalać wrzątkiem, parzyć 20 min, przecedzić do kąpieli.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/kapiel-zankiel/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "maść gojąca",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki suszonego ziela żankiela (rozdrobnionego)",
+        "4 łyżki oleju kokosowego lub oliwy z oliwek"
+      ],
+      "sposob_przygotowania": "Ziele podgrzać w tłuszczu 15 min na małym ogniu, przecedzić, przelać do słoiczka.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/masc-zankiel/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "syrop na przeziebienie",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "3 łyżki świeżych liści żankiela (drobno posiekanych)",
+        "250 ml wody",
+        "2 łyżki miodu"
+      ],
+      "sposob_przygotowania": "Liście gotować w wodzie 10 min, odcedzić, dodać miód, dokładnie wymieszać.",
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "uwagi": "",
+      "zrodla": [
+        "https://przepisyziolowe.pl/syrop-zankiel-miod/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "napar gojący czeski",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonego ziela żankiela",
+        "1 łyżka suszonego ziela żywokostu lekarskiego",
+        "1 łyżka liści fiołka trójbarwnego",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 min, przecedzić.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/zupa-zankiel-ziola/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "francuska kąpiel odżywcza",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 garście świeżego ziela żankiela",
+        "1 garść świeżych liści pokrzywy",
+        "1 garść kwiatów nagietka",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 20 min, przecedzić do wanny z ciepłą wodą.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/salatka-zankiel-szczawik/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "okład gojący włoski",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "Świeże liście żankiela (rozdrobnione)",
+        "Świeże liście babki lancetowatej (rozdrobnione)",
+        "Gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": "Liście utrzeć na pastę, rozsmarować na gazie, przykładać na rany i otarcia 2 razy dziennie.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/twarozek-zankiel/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "mieszanka szwajcarska na wrzody i afty",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonego ziela żankiela",
+        "1 łyżka suszonych kwiatów rumianku",
+        "1 łyżka liści szałwii",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 10–12 min, używać do płukania jamy ustnej.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/jajecznica-zankiel-szczypiorek/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "okład gojący historyczny (Polska)",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "Świeże liście żankiela (rozdrobnione)",
+        "Smalec wieprzowy (lub masło klarowane)"
+      ],
+      "sposob_przygotowania": "Liście rozetrzeć, wymieszać z ciepłym smalcem, nałożyć na gazę, przykładać na rany.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/omlet-zankiel-pokrzywa/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Mieszanka gojąca (żankiel, nagietek, babka, rumianek, krwawnik, fiołek, pokrzywa, skrzyp)",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonego ziela żankiela (rozdrobnionego)",
+        "1 łyżka świeżych lub suszonych kwiatów nagietka",
+        "1 łyżka świeżych lub suszonych liści babki lancetowatej",
+        "1 łyżka suszonych kwiatów rumianku",
+        "1 łyżka suszonego ziela krwawnika",
+        "1 łyżka suszonych kwiatów fiołka trójbarwnego",
+        "1 łyżka świeżych lub suszonych liści pokrzywy",
+        "1 łyżka suszonego ziela skrzypu polnego",
+        "1 litr wrzątku (najlepiej przegotowanego)"
+      ],
+      "sposob_przygotowania": "Wszystkie zioła wsypać do termosu lub garnka, zalać wrzątkiem, parzyć pod przykryciem 20 minut. Używać ciepłego naparu do okładów, przemywania ran i owrzodzeń, można też stosować jako płukankę przy stanach zapalnych jamy ustnej.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-gojaca-zankiel-nagietek/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Mieszanka na skórę (żankiel, nagietek, rumianek, fiołek, skrzyp, pokrzywa, babka, koniczyna)",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonego ziela żankiela",
+        "1 łyżka suszonych kwiatów nagietka",
+        "1 łyżka suszonych kwiatów rumianku",
+        "1 łyżka suszonych kwiatów fiołka trójbarwnego",
+        "1 łyżka suszonego ziela skrzypu polnego",
+        "1 łyżka świeżych liści pokrzywy (lub suszonych)",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka suszonych kwiatów koniczyny czerwonej",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zaparzyć w dużym naczyniu, parzyć pod przykryciem 20 min, przecedzić. Używać ciepłego naparu do kąpieli, okładów i przemywania skóry.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-skora-zankiel-nagietek/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Mieszanka kąpielowa (żankiel, rumianek, nagietek, babka, lawenda, pokrzywa, skrzyp, mięta)",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 garście świeżych liści żankiela (lub 4 łyżki suszonego ziela)",
+        "1 łyżka suszonych kwiatów rumianku",
+        "1 łyżka świeżych lub suszonych kwiatów nagietka",
+        "1 łyżka liści babki lancetowatej",
+        "1 łyżka kwiatów lawendy",
+        "1 łyżka liści pokrzywy",
+        "1 łyżka suszonego ziela skrzypu",
+        "1 łyżka liści mięty pieprzowej",
+        "2 litry wrzątku"
+      ],
+      "sposob_przygotowania": "Wszystkie zioła zalać wrzątkiem w dużym garnku, parzyć pod przykryciem 20–30 min, przecedzić i dodać napar do wanny z ciepłą wodą.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-kapielowa-zankiel-rumianek/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Mieszanka wykrztuśna (żankiel, tymianek, babka, podbiał, lukrecja, dziewanna, rumianek, anyż)",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonego ziela żankiela (rozdrobnionego)",
+        "1 łyżka świeżego lub suszonego ziela tymianku",
+        "1 łyżka liści babki lancetowatej (najlepiej świeżych, posiekanych lub suszonych)",
+        "1 łyżka liści podbiału (świeżych lub suszonych)",
+        "1 łyżeczka korzenia lukrecji (drobno pokrojonego, suszonego)",
+        "1 łyżka świeżych lub suszonych kwiatów dziewanny",
+        "1 łyżka suszonych kwiatów rumianku",
+        "1 łyżeczka nasion anyżu (rozdrobnionych w moździerzu)",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła wsypać do naczynia, zalać wrzątkiem, parzyć pod przykryciem 15 minut, przecedzić. Pić ciepły napar 2–3 razy dziennie przy kaszlu i infekcjach.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-wykrztusna-zankiel-tymianek/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Mieszanka na reumatyzm (żankiel, korzeń żywokostu, kora wierzby, pokrzywa, skrzyp, tymianek, szałwia, mniszek)",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonego ziela żankiela",
+        "1 łyżka świeżego lub suszonego korzenia żywokostu (drobno pokrojonego)",
+        "1 łyżka kory wierzby (świeżej lub suszonej, rozdrobnionej)",
+        "1 łyżka świeżych lub suszonych liści pokrzywy",
+        "1 łyżka suszonego ziela skrzypu polnego",
+        "1 łyżka suszonego ziela tymianku",
+        "1 łyżeczka liści szałwii (świeżych lub suszonych)",
+        "1 łyżka korzenia mniszka (rozdrobnionego, świeżego lub suszonego)",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Korzenie i korę zalać wrzątkiem, gotować 10 min, dodać resztę ziół, parzyć kolejne 15 min. Pić 2 razy dziennie po szklance. Można używać do okładów.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-reumatyzm-zankiel-zywokost/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Mieszanka na odporność (żankiel, pokrzywa, skrzyp, fiołek, nagietek, czarna porzeczka, dzika róża, mniszek)",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka suszonego ziela żankiela",
+        "1 łyżka liści pokrzywy (świeżych lub suszonych, posiekanych)",
+        "1 łyżka suszonego ziela skrzypu",
+        "1 łyżka suszonych kwiatów fiołka trójbarwnego",
+        "1 łyżka kwiatów nagietka (świeżych lub suszonych)",
+        "1 łyżka suszonych liści czarnej porzeczki",
+        "1 łyżka owoców dzikiej róży (suszone, rozdrobnione)",
+        "1 łyżka suszonego korzenia mniszka",
+        "1 litr wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła wsypać do naczynia, zalać wrzątkiem, parzyć 20 min pod przykryciem. Pić przez tydzień wiosną lub jesienią, 1–2 szklanki dziennie.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/mieszanka-odpornosc-zankiel-pokrzywa/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Włoski okład na gojenie ran (żankiel, babka, żywokost)",
+      "typ": "medyczny",
+      "metoda": "",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki świeżych liści żankiela (rozdrobnionych)",
+        "2 łyżki świeżych liści babki lancetowatej (rozdrobnionych)",
+        "1 łyżka świeżego korzenia żywokostu (utartego)",
+        "czysta gaza"
+      ],
+      "sposob_przygotowania": "Wszystkie liście utrzeć na pastę, wymieszać z korzeniem żywokostu, rozsmarować na gazie, przykładać na rany i owrzodzenia. Stosować 2 razy dziennie.",
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "https://zielnikpolski.pl/salatka-lesna-zankiel-szczawik/"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    }
+  ]
+}
