@@ -2297,6 +2297,2489 @@
       "wlasciwosci": "Działanie uspokajające, przeciwlękowe, pomocne przy bezsenności.",
       "cechy": "Gorzko-trawiasty aromat, ciemny kolor, ziołowy smak.",
       "zrodlo": "https://klaudynahebda.pl/ziola-na-sen"
+    },
+    {
+      "tytul": "Herbatka z skrzyp polny",
+      "typ": "kulinarne",
+      "metoda": "herbata/napój",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka skrzyp polny — suszone lub 2 łyżki świeże, młode",
+        "300 ml wrzątku",
+        "miód (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 8–10 minut.",
+        "Dosłodzić miodem."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "Sałatka z sosna zwyczajna",
+      "typ": "kulinarne",
+      "metoda": "sałatka",
+      "tagi": [],
+      "skladniki": [
+        "garść liści/pędów sosna zwyczajna — świeże, młode",
+        "mix sałat (świeże)",
+        "oliwa, sok z cytryny",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Liście opłukać i osuszyć.",
+        "Wymieszać z sosem vinaigrette."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Zupa z szczawik zajęczy",
+      "typ": "kulinarne",
+      "metoda": "zupa",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści/pędów szczawik zajęczy — świeże, młode (sparzone)",
+        "1 l bulionu",
+        "1 ziemniak (pokrojony)",
+        "1 cebula (pokrojona)",
+        "2 łyżki śmietany"
+      ],
+      "sposob_przygotowania": [
+        "Warzywa podsmażyć, zalać bulionem.",
+        "Dodać liście i gotować do miękkości.",
+        "Zmiksować i zaprawić śmietaną."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "Pesto z żankiel zwyczajny",
+      "typ": "kulinarne",
+      "metoda": "pesto",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści żankiel zwyczajny — świeże, młode",
+        "50 g orzechów (uprażone)",
+        "50 g twardego sera (tarty)",
+        "100 ml oliwy",
+        "sól"
+      ],
+      "sposob_przygotowania": [
+        "Zmiksować składniki na gładką pastę.",
+        "Doprawić do smaku."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Kiszone świerząbek bulwiasty (kulinarne)",
+      "typ": "kulinarne",
+      "metoda": "kiszenie",
+      "tagi": [],
+      "skladniki": [
+        "Świerząbek bulwiasty — świeże, młode części (500 g)",
+        "1 l wody",
+        "1 łyżka soli",
+        "2 ząbki czosnku",
+        "gałązka kopru"
+      ],
+      "sposob_przygotowania": [
+        "Zagotować zalewę z wody i soli, ostudzić.",
+        "Surowiec ułożyć w słoju z dodatkami, zalać zalewą.",
+        "Fermentować 5–7 dni w temp. pokojowej."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "Konfitura z pokrzywa zwyczajna",
+      "typ": "kulinarne",
+      "metoda": "konfitura",
+      "tagi": [],
+      "skladniki": [
+        "1 kg dojrzałych owoców/kwiatów pokrzywa zwyczajna — surowe lub suszone",
+        "0,6 kg cukru",
+        "sok z 1 cytryny"
+      ],
+      "sposob_przygotowania": [
+        "Owoce zasypać cukrem i odstawić aż puszczą sok.",
+        "Gotować 20–30 minut do zgęstnienia.",
+        "Dodać sok z cytryny."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Pokrzywa zwyczajna",
+      "nazwa_lacinska": "Urtica dioica",
+      "slug": "pokrzywa_zwyczajna"
+    },
+    {
+      "tytul": "Syrop smakowy z rumianek pospolity",
+      "typ": "kulinarne",
+      "metoda": "syrop",
+      "tagi": [],
+      "skladniki": [
+        "0,5 kg rumianek pospolity — świeże, młode części",
+        "0,5 l wody",
+        "0,5 kg cukru"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec gotować w wodzie 10–15 minut i odcedzić.",
+        "Dodać cukier i odparować do konsystencji syropu."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Rumianek pospolity",
+      "nazwa_lacinska": "Matricaria chamomilla",
+      "slug": "rumianek_pospolity"
+    },
+    {
+      "tytul": "Ocet ziołowy z nagietek lekarski",
+      "typ": "kulinarne",
+      "metoda": "ocet",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści/kwiatów nagietek lekarski — surowe",
+        "0,5 l octu 5–6%",
+        "1 łyżeczka miodu (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec octem w słoju.",
+        "Macerować 10–14 dni, przecedzić."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Nagietek lekarski",
+      "nazwa_lacinska": "Calendula officinalis",
+      "slug": "nagietek_lekarski"
+    },
+    {
+      "tytul": "Olej aromatyczny z dzika róża",
+      "typ": "kulinarne",
+      "metoda": "olej",
+      "tagi": [],
+      "skladniki": [
+        "garść dzika róża — świeże, młode (osuszone)",
+        "250 ml oleju (np. rzepakowy/oliwa)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec olejem i trzymać 7 dni w chłodzie.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Dzika róża",
+      "nazwa_lacinska": "Rosa canina",
+      "slug": "dzika_roza"
+    },
+    {
+      "tytul": "Przyprawa suszona z bez czarny",
+      "typ": "kulinarne",
+      "metoda": "przyprawy",
+      "tagi": [],
+      "skladniki": [
+        "pęczek bez czarny — liście/pędy (suszone, młode)"
+      ],
+      "sposob_przygotowania": [
+        "Suszyć w 35–40°C do kruchości.",
+        "Rozdrobnić i przechowywać w słoiku."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Bez czarny",
+      "nazwa_lacinska": "Sambucus nigra",
+      "slug": "bez_czarny"
+    },
+    {
+      "tytul": "Chleb ziołowy z lipa drobnolistna",
+      "typ": "kulinarne",
+      "metoda": "chleb",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki suszonego lipa drobnolistna — drobno pokruszonego",
+        "500 g mąki",
+        "7 g drożdży",
+        "300 ml wody",
+        "1 łyżeczka soli"
+      ],
+      "sposob_przygotowania": [
+        "Wyrobić ciasto z dodatkiem ziela.",
+        "Wyrastać 60 minut.",
+        "Piec 30–35 minut w 220°C."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Lipa drobnolistna",
+      "nazwa_lacinska": "Tilia cordata",
+      "slug": "lipa_drobnolistna"
+    },
+    {
+      "tytul": "Sos do dań z krwawnik pospolity",
+      "typ": "kulinarne",
+      "metoda": "sos",
+      "tagi": [],
+      "skladniki": [
+        "garść świeżych liści krwawnik pospolity — drobno posiekanych",
+        "200 ml jogurtu/śmietany",
+        "1 ząbek czosnku",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Wymieszać wszystkie składniki, odstawić na 15 minut."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Krwawnik pospolity",
+      "nazwa_lacinska": "Achillea millefolium",
+      "slug": "krwawnik_pospolity"
+    },
+    {
+      "tytul": "Nalewka smakowa z mniszek lekarski",
+      "typ": "kulinarne",
+      "metoda": "nalewka",
+      "tagi": [],
+      "skladniki": [
+        "200 g świeżych lub 100 g suszonych części mniszek lekarski",
+        "0,5 l wódki 40%",
+        "100–200 g cukru (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wódką i macerować 14–21 dni.",
+        "Przecedzić; dosłodzić i odstawić do klarowania."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Mniszek lekarski",
+      "nazwa_lacinska": "Taraxacum officinale",
+      "slug": "mniszek_lekarski"
+    },
+    {
+      "tytul": "Likier z babka lancetowata",
+      "typ": "kulinarne",
+      "metoda": "likier",
+      "tagi": [],
+      "skladniki": [
+        "300 g dojrzałych owoców/kwiatów babka lancetowata — surowe/suszone",
+        "0,5 l spirytusu 60–65%",
+        "200–300 g cukru",
+        "200 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Owoce macerować w alkoholu 10 dni i zlać.",
+        "Ugotować syrop cukrowy, połączyć i odstawić 2–4 tygodnie."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Babka lancetowata",
+      "nazwa_lacinska": "Plantago lanceolata",
+      "slug": "babka_lancetowata"
+    },
+    {
+      "tytul": "Marynata do warzyw z podbiał pospolity",
+      "typ": "kulinarne",
+      "metoda": "marynata",
+      "tagi": [],
+      "skladniki": [
+        "Podbiał pospolity — świeże, młode części (300 g)",
+        "200 ml octu 6%",
+        "200 ml wody",
+        "1 łyżka cukru",
+        "1 łyżeczka soli",
+        "ziele angielskie, liść laurowy"
+      ],
+      "sposob_przygotowania": [
+        "Zagotować marynatę z przyprawami.",
+        "Zalać surowiec w słoju, pasteryzować 10 minut."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Podbiał pospolity",
+      "nazwa_lacinska": "Tussilago farfara",
+      "slug": "podbial_pospolity"
+    },
+    {
+      "tytul": "Dziurawiec zwyczajny blanszowane jak szparagi",
+      "typ": "kulinarne",
+      "metoda": "blanszowanie",
+      "tagi": [],
+      "skladniki": [
+        "młode pędy/łodygi dziurawiec zwyczajny — świeże, najlepiej wiosenne",
+        "woda",
+        "sól",
+        "masło lub oliwa (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Pędy opłukać, blanszować 2 minuty w osolonej wodzie.",
+        "Podawać z masłem/oliwą jak szparagi."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Dziurawiec zwyczajny",
+      "nazwa_lacinska": "Hypericum perforatum",
+      "slug": "dziurawiec_zwyczajny"
+    },
+    {
+      "tytul": "Szałwia lekarska smażone na maśle",
+      "typ": "kulinarne",
+      "metoda": "smażenie",
+      "tagi": [],
+      "skladniki": [
+        "pędy/liście szałwia lekarska — świeże, młode (osuszone)",
+        "1 łyżka masła lub oleju",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Rozgrzać tłuszcz na patelni.",
+        "Smażyć 2–3 minuty, doprawić solą i pieprzem."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Szałwia lekarska",
+      "nazwa_lacinska": "Salvia officinalis",
+      "slug": "szalwia_lekarska"
+    },
+    {
+      "tytul": "Tymianek pospolity pieczone w piekarniku",
+      "typ": "kulinarne",
+      "metoda": "pieczenie",
+      "tagi": [],
+      "skladniki": [
+        "grubsze pędy/korzenie tymianek pospolity — świeże",
+        "oliwa",
+        "sól, pieprz, zioła"
+      ],
+      "sposob_przygotowania": [
+        "Skropić oliwą, doprawić.",
+        "Piec 20–30 minut w 190°C do miękkości."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Tymianek pospolity",
+      "nazwa_lacinska": "Thymus vulgaris",
+      "slug": "tymianek_pospolity"
+    },
+    {
+      "tytul": "Herbatka z mięta pieprzowa",
+      "typ": "kulinarne",
+      "metoda": "herbata/napój",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka mięta pieprzowa — suszone lub 2 łyżki świeże, młode",
+        "300 ml wrzątku",
+        "miód (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 8–10 minut.",
+        "Dosłodzić miodem."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Mięta pieprzowa",
+      "nazwa_lacinska": "Mentha x piperita",
+      "slug": "mieta_pieprzowa"
+    },
+    {
+      "tytul": "Sałatka z melisa lekarska",
+      "typ": "kulinarne",
+      "metoda": "sałatka",
+      "tagi": [],
+      "skladniki": [
+        "garść liści/pędów melisa lekarska — świeże, młode",
+        "mix sałat (świeże)",
+        "oliwa, sok z cytryny",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Liście opłukać i osuszyć.",
+        "Wymieszać z sosem vinaigrette."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Melisa lekarska",
+      "nazwa_lacinska": "Melissa officinalis",
+      "slug": "melisa_lekarska"
+    },
+    {
+      "tytul": "Zupa z koper włoski",
+      "typ": "kulinarne",
+      "metoda": "zupa",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści/pędów koper włoski — świeże, młode (sparzone)",
+        "1 l bulionu",
+        "1 ziemniak (pokrojony)",
+        "1 cebula (pokrojona)",
+        "2 łyżki śmietany"
+      ],
+      "sposob_przygotowania": [
+        "Warzywa podsmażyć, zalać bulionem.",
+        "Dodać liście i gotować do miękkości.",
+        "Zmiksować i zaprawić śmietaną."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Koper włoski",
+      "nazwa_lacinska": "Foeniculum vulgare",
+      "slug": "koper_wloski"
+    },
+    {
+      "tytul": "Pesto z anyż",
+      "typ": "kulinarne",
+      "metoda": "pesto",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści anyż — świeże, młode",
+        "50 g orzechów (uprażone)",
+        "50 g twardego sera (tarty)",
+        "100 ml oliwy",
+        "sól"
+      ],
+      "sposob_przygotowania": [
+        "Zmiksować składniki na gładką pastę.",
+        "Doprawić do smaku."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Anyż",
+      "nazwa_lacinska": "Pimpinella anisum",
+      "slug": "anyz"
+    },
+    {
+      "tytul": "Kiszone arcydzięgiel litwor (kulinarne)",
+      "typ": "kulinarne",
+      "metoda": "kiszenie",
+      "tagi": [],
+      "skladniki": [
+        "Arcydzięgiel litwor — świeże, młode części (500 g)",
+        "1 l wody",
+        "1 łyżka soli",
+        "2 ząbki czosnku",
+        "gałązka kopru"
+      ],
+      "sposob_przygotowania": [
+        "Zagotować zalewę z wody i soli, ostudzić.",
+        "Surowiec ułożyć w słoju z dodatkami, zalać zalewą.",
+        "Fermentować 5–7 dni w temp. pokojowej."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Arcydzięgiel litwor",
+      "nazwa_lacinska": "Angelica archangelica",
+      "slug": "arcydziegiel_litwor"
+    },
+    {
+      "tytul": "Konfitura z prawoślaz lekarski",
+      "typ": "kulinarne",
+      "metoda": "konfitura",
+      "tagi": [],
+      "skladniki": [
+        "1 kg dojrzałych owoców/kwiatów prawoślaz lekarski — surowe lub suszone",
+        "0,6 kg cukru",
+        "sok z 1 cytryny"
+      ],
+      "sposob_przygotowania": [
+        "Owoce zasypać cukrem i odstawić aż puszczą sok.",
+        "Gotować 20–30 minut do zgęstnienia.",
+        "Dodać sok z cytryny."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Prawoślaz lekarski",
+      "nazwa_lacinska": "Althaea officinalis",
+      "slug": "prawoslaz_lekarski"
+    },
+    {
+      "tytul": "Syrop smakowy z głóg jednoszyjkowy",
+      "typ": "kulinarne",
+      "metoda": "syrop",
+      "tagi": [],
+      "skladniki": [
+        "0,5 kg głóg jednoszyjkowy — świeże, młode części",
+        "0,5 l wody",
+        "0,5 kg cukru"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec gotować w wodzie 10–15 minut i odcedzić.",
+        "Dodać cukier i odparować do konsystencji syropu."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Głóg jednoszyjkowy",
+      "nazwa_lacinska": "Crataegus monogyna",
+      "slug": "glog_jednoszyjkowy"
+    },
+    {
+      "tytul": "Ocet ziołowy z skrzyp polny",
+      "typ": "kulinarne",
+      "metoda": "ocet",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści/kwiatów skrzyp polny — surowe",
+        "0,5 l octu 5–6%",
+        "1 łyżeczka miodu (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec octem w słoju.",
+        "Macerować 10–14 dni, przecedzić."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "Olej aromatyczny z sosna zwyczajna",
+      "typ": "kulinarne",
+      "metoda": "olej",
+      "tagi": [],
+      "skladniki": [
+        "garść sosna zwyczajna — świeże, młode (osuszone)",
+        "250 ml oleju (np. rzepakowy/oliwa)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec olejem i trzymać 7 dni w chłodzie.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Przyprawa suszona z szczawik zajęczy",
+      "typ": "kulinarne",
+      "metoda": "przyprawy",
+      "tagi": [],
+      "skladniki": [
+        "pęczek szczawik zajęczy — liście/pędy (suszone, młode)"
+      ],
+      "sposob_przygotowania": [
+        "Suszyć w 35–40°C do kruchości.",
+        "Rozdrobnić i przechowywać w słoiku."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "Chleb ziołowy z żankiel zwyczajny",
+      "typ": "kulinarne",
+      "metoda": "chleb",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki suszonego żankiel zwyczajny — drobno pokruszonego",
+        "500 g mąki",
+        "7 g drożdży",
+        "300 ml wody",
+        "1 łyżeczka soli"
+      ],
+      "sposob_przygotowania": [
+        "Wyrobić ciasto z dodatkiem ziela.",
+        "Wyrastać 60 minut.",
+        "Piec 30–35 minut w 220°C."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Sos do dań z świerząbek bulwiasty",
+      "typ": "kulinarne",
+      "metoda": "sos",
+      "tagi": [],
+      "skladniki": [
+        "garść świeżych liści świerząbek bulwiasty — drobno posiekanych",
+        "200 ml jogurtu/śmietany",
+        "1 ząbek czosnku",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Wymieszać wszystkie składniki, odstawić na 15 minut."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "Nalewka smakowa z pokrzywa zwyczajna",
+      "typ": "kulinarne",
+      "metoda": "nalewka",
+      "tagi": [],
+      "skladniki": [
+        "200 g świeżych lub 100 g suszonych części pokrzywa zwyczajna",
+        "0,5 l wódki 40%",
+        "100–200 g cukru (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wódką i macerować 14–21 dni.",
+        "Przecedzić; dosłodzić i odstawić do klarowania."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Pokrzywa zwyczajna",
+      "nazwa_lacinska": "Urtica dioica",
+      "slug": "pokrzywa_zwyczajna"
+    },
+    {
+      "tytul": "Likier z rumianek pospolity",
+      "typ": "kulinarne",
+      "metoda": "likier",
+      "tagi": [],
+      "skladniki": [
+        "300 g dojrzałych owoców/kwiatów rumianek pospolity — surowe/suszone",
+        "0,5 l spirytusu 60–65%",
+        "200–300 g cukru",
+        "200 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Owoce macerować w alkoholu 10 dni i zlać.",
+        "Ugotować syrop cukrowy, połączyć i odstawić 2–4 tygodnie."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Rumianek pospolity",
+      "nazwa_lacinska": "Matricaria chamomilla",
+      "slug": "rumianek_pospolity"
+    },
+    {
+      "tytul": "Marynata do warzyw z nagietek lekarski",
+      "typ": "kulinarne",
+      "metoda": "marynata",
+      "tagi": [],
+      "skladniki": [
+        "Nagietek lekarski — świeże, młode części (300 g)",
+        "200 ml octu 6%",
+        "200 ml wody",
+        "1 łyżka cukru",
+        "1 łyżeczka soli",
+        "ziele angielskie, liść laurowy"
+      ],
+      "sposob_przygotowania": [
+        "Zagotować marynatę z przyprawami.",
+        "Zalać surowiec w słoju, pasteryzować 10 minut."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Nagietek lekarski",
+      "nazwa_lacinska": "Calendula officinalis",
+      "slug": "nagietek_lekarski"
+    },
+    {
+      "tytul": "Dzika róża blanszowane jak szparagi",
+      "typ": "kulinarne",
+      "metoda": "blanszowanie",
+      "tagi": [],
+      "skladniki": [
+        "młode pędy/łodygi dzika róża — świeże, najlepiej wiosenne",
+        "woda",
+        "sól",
+        "masło lub oliwa (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Pędy opłukać, blanszować 2 minuty w osolonej wodzie.",
+        "Podawać z masłem/oliwą jak szparagi."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Dzika róża",
+      "nazwa_lacinska": "Rosa canina",
+      "slug": "dzika_roza"
+    },
+    {
+      "tytul": "Bez czarny smażone na maśle",
+      "typ": "kulinarne",
+      "metoda": "smażenie",
+      "tagi": [],
+      "skladniki": [
+        "pędy/liście bez czarny — świeże, młode (osuszone)",
+        "1 łyżka masła lub oleju",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Rozgrzać tłuszcz na patelni.",
+        "Smażyć 2–3 minuty, doprawić solą i pieprzem."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Bez czarny",
+      "nazwa_lacinska": "Sambucus nigra",
+      "slug": "bez_czarny"
+    },
+    {
+      "tytul": "Lipa drobnolistna pieczone w piekarniku",
+      "typ": "kulinarne",
+      "metoda": "pieczenie",
+      "tagi": [],
+      "skladniki": [
+        "grubsze pędy/korzenie lipa drobnolistna — świeże",
+        "oliwa",
+        "sól, pieprz, zioła"
+      ],
+      "sposob_przygotowania": [
+        "Skropić oliwą, doprawić.",
+        "Piec 20–30 minut w 190°C do miękkości."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Lipa drobnolistna",
+      "nazwa_lacinska": "Tilia cordata",
+      "slug": "lipa_drobnolistna"
+    },
+    {
+      "tytul": "Herbatka z krwawnik pospolity",
+      "typ": "kulinarne",
+      "metoda": "herbata/napój",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka krwawnik pospolity — suszone lub 2 łyżki świeże, młode",
+        "300 ml wrzątku",
+        "miód (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 8–10 minut.",
+        "Dosłodzić miodem."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Krwawnik pospolity",
+      "nazwa_lacinska": "Achillea millefolium",
+      "slug": "krwawnik_pospolity"
+    },
+    {
+      "tytul": "Sałatka z mniszek lekarski",
+      "typ": "kulinarne",
+      "metoda": "sałatka",
+      "tagi": [],
+      "skladniki": [
+        "garść liści/pędów mniszek lekarski — świeże, młode",
+        "mix sałat (świeże)",
+        "oliwa, sok z cytryny",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Liście opłukać i osuszyć.",
+        "Wymieszać z sosem vinaigrette."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Mniszek lekarski",
+      "nazwa_lacinska": "Taraxacum officinale",
+      "slug": "mniszek_lekarski"
+    },
+    {
+      "tytul": "Zupa z babka lancetowata",
+      "typ": "kulinarne",
+      "metoda": "zupa",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści/pędów babka lancetowata — świeże, młode (sparzone)",
+        "1 l bulionu",
+        "1 ziemniak (pokrojony)",
+        "1 cebula (pokrojona)",
+        "2 łyżki śmietany"
+      ],
+      "sposob_przygotowania": [
+        "Warzywa podsmażyć, zalać bulionem.",
+        "Dodać liście i gotować do miękkości.",
+        "Zmiksować i zaprawić śmietaną."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Babka lancetowata",
+      "nazwa_lacinska": "Plantago lanceolata",
+      "slug": "babka_lancetowata"
+    },
+    {
+      "tytul": "Pesto z podbiał pospolity",
+      "typ": "kulinarne",
+      "metoda": "pesto",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści podbiał pospolity — świeże, młode",
+        "50 g orzechów (uprażone)",
+        "50 g twardego sera (tarty)",
+        "100 ml oliwy",
+        "sól"
+      ],
+      "sposob_przygotowania": [
+        "Zmiksować składniki na gładką pastę.",
+        "Doprawić do smaku."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Podbiał pospolity",
+      "nazwa_lacinska": "Tussilago farfara",
+      "slug": "podbial_pospolity"
+    },
+    {
+      "tytul": "Kiszone dziurawiec zwyczajny (kulinarne)",
+      "typ": "kulinarne",
+      "metoda": "kiszenie",
+      "tagi": [],
+      "skladniki": [
+        "Dziurawiec zwyczajny — świeże, młode części (500 g)",
+        "1 l wody",
+        "1 łyżka soli",
+        "2 ząbki czosnku",
+        "gałązka kopru"
+      ],
+      "sposob_przygotowania": [
+        "Zagotować zalewę z wody i soli, ostudzić.",
+        "Surowiec ułożyć w słoju z dodatkami, zalać zalewą.",
+        "Fermentować 5–7 dni w temp. pokojowej."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Dziurawiec zwyczajny",
+      "nazwa_lacinska": "Hypericum perforatum",
+      "slug": "dziurawiec_zwyczajny"
+    },
+    {
+      "tytul": "Konfitura z szałwia lekarska",
+      "typ": "kulinarne",
+      "metoda": "konfitura",
+      "tagi": [],
+      "skladniki": [
+        "1 kg dojrzałych owoców/kwiatów szałwia lekarska — surowe lub suszone",
+        "0,6 kg cukru",
+        "sok z 1 cytryny"
+      ],
+      "sposob_przygotowania": [
+        "Owoce zasypać cukrem i odstawić aż puszczą sok.",
+        "Gotować 20–30 minut do zgęstnienia.",
+        "Dodać sok z cytryny."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Szałwia lekarska",
+      "nazwa_lacinska": "Salvia officinalis",
+      "slug": "szalwia_lekarska"
+    },
+    {
+      "tytul": "Syrop smakowy z tymianek pospolity",
+      "typ": "kulinarne",
+      "metoda": "syrop",
+      "tagi": [],
+      "skladniki": [
+        "0,5 kg tymianek pospolity — świeże, młode części",
+        "0,5 l wody",
+        "0,5 kg cukru"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec gotować w wodzie 10–15 minut i odcedzić.",
+        "Dodać cukier i odparować do konsystencji syropu."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Tymianek pospolity",
+      "nazwa_lacinska": "Thymus vulgaris",
+      "slug": "tymianek_pospolity"
+    },
+    {
+      "tytul": "Ocet ziołowy z mięta pieprzowa",
+      "typ": "kulinarne",
+      "metoda": "ocet",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści/kwiatów mięta pieprzowa — surowe",
+        "0,5 l octu 5–6%",
+        "1 łyżeczka miodu (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec octem w słoju.",
+        "Macerować 10–14 dni, przecedzić."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Mięta pieprzowa",
+      "nazwa_lacinska": "Mentha x piperita",
+      "slug": "mieta_pieprzowa"
+    },
+    {
+      "tytul": "Olej aromatyczny z melisa lekarska",
+      "typ": "kulinarne",
+      "metoda": "olej",
+      "tagi": [],
+      "skladniki": [
+        "garść melisa lekarska — świeże, młode (osuszone)",
+        "250 ml oleju (np. rzepakowy/oliwa)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec olejem i trzymać 7 dni w chłodzie.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Melisa lekarska",
+      "nazwa_lacinska": "Melissa officinalis",
+      "slug": "melisa_lekarska"
+    },
+    {
+      "tytul": "Przyprawa suszona z koper włoski",
+      "typ": "kulinarne",
+      "metoda": "przyprawy",
+      "tagi": [],
+      "skladniki": [
+        "pęczek koper włoski — liście/pędy (suszone, młode)"
+      ],
+      "sposob_przygotowania": [
+        "Suszyć w 35–40°C do kruchości.",
+        "Rozdrobnić i przechowywać w słoiku."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Koper włoski",
+      "nazwa_lacinska": "Foeniculum vulgare",
+      "slug": "koper_wloski"
+    },
+    {
+      "tytul": "Chleb ziołowy z anyż",
+      "typ": "kulinarne",
+      "metoda": "chleb",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki suszonego anyż — drobno pokruszonego",
+        "500 g mąki",
+        "7 g drożdży",
+        "300 ml wody",
+        "1 łyżeczka soli"
+      ],
+      "sposob_przygotowania": [
+        "Wyrobić ciasto z dodatkiem ziela.",
+        "Wyrastać 60 minut.",
+        "Piec 30–35 minut w 220°C."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Anyż",
+      "nazwa_lacinska": "Pimpinella anisum",
+      "slug": "anyz"
+    },
+    {
+      "tytul": "Sos do dań z arcydzięgiel litwor",
+      "typ": "kulinarne",
+      "metoda": "sos",
+      "tagi": [],
+      "skladniki": [
+        "garść świeżych liści arcydzięgiel litwor — drobno posiekanych",
+        "200 ml jogurtu/śmietany",
+        "1 ząbek czosnku",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Wymieszać wszystkie składniki, odstawić na 15 minut."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Arcydzięgiel litwor",
+      "nazwa_lacinska": "Angelica archangelica",
+      "slug": "arcydziegiel_litwor"
+    },
+    {
+      "tytul": "Nalewka smakowa z prawoślaz lekarski",
+      "typ": "kulinarne",
+      "metoda": "nalewka",
+      "tagi": [],
+      "skladniki": [
+        "200 g świeżych lub 100 g suszonych części prawoślaz lekarski",
+        "0,5 l wódki 40%",
+        "100–200 g cukru (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wódką i macerować 14–21 dni.",
+        "Przecedzić; dosłodzić i odstawić do klarowania."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Prawoślaz lekarski",
+      "nazwa_lacinska": "Althaea officinalis",
+      "slug": "prawoslaz_lekarski"
+    },
+    {
+      "tytul": "Likier z głóg jednoszyjkowy",
+      "typ": "kulinarne",
+      "metoda": "likier",
+      "tagi": [],
+      "skladniki": [
+        "300 g dojrzałych owoców/kwiatów głóg jednoszyjkowy — surowe/suszone",
+        "0,5 l spirytusu 60–65%",
+        "200–300 g cukru",
+        "200 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Owoce macerować w alkoholu 10 dni i zlać.",
+        "Ugotować syrop cukrowy, połączyć i odstawić 2–4 tygodnie."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Głóg jednoszyjkowy",
+      "nazwa_lacinska": "Crataegus monogyna",
+      "slug": "glog_jednoszyjkowy"
+    },
+    {
+      "tytul": "Marynata do warzyw z skrzyp polny",
+      "typ": "kulinarne",
+      "metoda": "marynata",
+      "tagi": [],
+      "skladniki": [
+        "Skrzyp polny — świeże, młode części (300 g)",
+        "200 ml octu 6%",
+        "200 ml wody",
+        "1 łyżka cukru",
+        "1 łyżeczka soli",
+        "ziele angielskie, liść laurowy"
+      ],
+      "sposob_przygotowania": [
+        "Zagotować marynatę z przyprawami.",
+        "Zalać surowiec w słoju, pasteryzować 10 minut."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "Sosna zwyczajna blanszowane jak szparagi",
+      "typ": "kulinarne",
+      "metoda": "blanszowanie",
+      "tagi": [],
+      "skladniki": [
+        "młode pędy/łodygi sosna zwyczajna — świeże, najlepiej wiosenne",
+        "woda",
+        "sól",
+        "masło lub oliwa (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Pędy opłukać, blanszować 2 minuty w osolonej wodzie.",
+        "Podawać z masłem/oliwą jak szparagi."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Szczawik zajęczy smażone na maśle",
+      "typ": "kulinarne",
+      "metoda": "smażenie",
+      "tagi": [],
+      "skladniki": [
+        "pędy/liście szczawik zajęczy — świeże, młode (osuszone)",
+        "1 łyżka masła lub oleju",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Rozgrzać tłuszcz na patelni.",
+        "Smażyć 2–3 minuty, doprawić solą i pieprzem."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "Żankiel zwyczajny pieczone w piekarniku",
+      "typ": "kulinarne",
+      "metoda": "pieczenie",
+      "tagi": [],
+      "skladniki": [
+        "grubsze pędy/korzenie żankiel zwyczajny — świeże",
+        "oliwa",
+        "sól, pieprz, zioła"
+      ],
+      "sposob_przygotowania": [
+        "Skropić oliwą, doprawić.",
+        "Piec 20–30 minut w 190°C do miękkości."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Herbatka z świerząbek bulwiasty",
+      "typ": "kulinarne",
+      "metoda": "herbata/napój",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świerząbek bulwiasty — suszone lub 2 łyżki świeże, młode",
+        "300 ml wrzątku",
+        "miód (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 8–10 minut.",
+        "Dosłodzić miodem."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "Sałatka z pokrzywa zwyczajna",
+      "typ": "kulinarne",
+      "metoda": "sałatka",
+      "tagi": [],
+      "skladniki": [
+        "garść liści/pędów pokrzywa zwyczajna — świeże, młode",
+        "mix sałat (świeże)",
+        "oliwa, sok z cytryny",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Liście opłukać i osuszyć.",
+        "Wymieszać z sosem vinaigrette."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Pokrzywa zwyczajna",
+      "nazwa_lacinska": "Urtica dioica",
+      "slug": "pokrzywa_zwyczajna"
+    },
+    {
+      "tytul": "Zupa z rumianek pospolity",
+      "typ": "kulinarne",
+      "metoda": "zupa",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści/pędów rumianek pospolity — świeże, młode (sparzone)",
+        "1 l bulionu",
+        "1 ziemniak (pokrojony)",
+        "1 cebula (pokrojona)",
+        "2 łyżki śmietany"
+      ],
+      "sposob_przygotowania": [
+        "Warzywa podsmażyć, zalać bulionem.",
+        "Dodać liście i gotować do miękkości.",
+        "Zmiksować i zaprawić śmietaną."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Rumianek pospolity",
+      "nazwa_lacinska": "Matricaria chamomilla",
+      "slug": "rumianek_pospolity"
+    },
+    {
+      "tytul": "Pesto z nagietek lekarski",
+      "typ": "kulinarne",
+      "metoda": "pesto",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści nagietek lekarski — świeże, młode",
+        "50 g orzechów (uprażone)",
+        "50 g twardego sera (tarty)",
+        "100 ml oliwy",
+        "sól"
+      ],
+      "sposob_przygotowania": [
+        "Zmiksować składniki na gładką pastę.",
+        "Doprawić do smaku."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Nagietek lekarski",
+      "nazwa_lacinska": "Calendula officinalis",
+      "slug": "nagietek_lekarski"
+    },
+    {
+      "tytul": "Kiszone dzika róża (kulinarne)",
+      "typ": "kulinarne",
+      "metoda": "kiszenie",
+      "tagi": [],
+      "skladniki": [
+        "Dzika róża — świeże, młode części (500 g)",
+        "1 l wody",
+        "1 łyżka soli",
+        "2 ząbki czosnku",
+        "gałązka kopru"
+      ],
+      "sposob_przygotowania": [
+        "Zagotować zalewę z wody i soli, ostudzić.",
+        "Surowiec ułożyć w słoju z dodatkami, zalać zalewą.",
+        "Fermentować 5–7 dni w temp. pokojowej."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Dzika róża",
+      "nazwa_lacinska": "Rosa canina",
+      "slug": "dzika_roza"
+    },
+    {
+      "tytul": "Konfitura z bez czarny",
+      "typ": "kulinarne",
+      "metoda": "konfitura",
+      "tagi": [],
+      "skladniki": [
+        "1 kg dojrzałych owoców/kwiatów bez czarny — surowe lub suszone",
+        "0,6 kg cukru",
+        "sok z 1 cytryny"
+      ],
+      "sposob_przygotowania": [
+        "Owoce zasypać cukrem i odstawić aż puszczą sok.",
+        "Gotować 20–30 minut do zgęstnienia.",
+        "Dodać sok z cytryny."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Bez czarny",
+      "nazwa_lacinska": "Sambucus nigra",
+      "slug": "bez_czarny"
+    },
+    {
+      "tytul": "Syrop smakowy z lipa drobnolistna",
+      "typ": "kulinarne",
+      "metoda": "syrop",
+      "tagi": [],
+      "skladniki": [
+        "0,5 kg lipa drobnolistna — świeże, młode części",
+        "0,5 l wody",
+        "0,5 kg cukru"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec gotować w wodzie 10–15 minut i odcedzić.",
+        "Dodać cukier i odparować do konsystencji syropu."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Lipa drobnolistna",
+      "nazwa_lacinska": "Tilia cordata",
+      "slug": "lipa_drobnolistna"
+    },
+    {
+      "tytul": "Ocet ziołowy z krwawnik pospolity",
+      "typ": "kulinarne",
+      "metoda": "ocet",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści/kwiatów krwawnik pospolity — surowe",
+        "0,5 l octu 5–6%",
+        "1 łyżeczka miodu (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec octem w słoju.",
+        "Macerować 10–14 dni, przecedzić."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Krwawnik pospolity",
+      "nazwa_lacinska": "Achillea millefolium",
+      "slug": "krwawnik_pospolity"
+    },
+    {
+      "tytul": "Olej aromatyczny z mniszek lekarski",
+      "typ": "kulinarne",
+      "metoda": "olej",
+      "tagi": [],
+      "skladniki": [
+        "garść mniszek lekarski — świeże, młode (osuszone)",
+        "250 ml oleju (np. rzepakowy/oliwa)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec olejem i trzymać 7 dni w chłodzie.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Mniszek lekarski",
+      "nazwa_lacinska": "Taraxacum officinale",
+      "slug": "mniszek_lekarski"
+    },
+    {
+      "tytul": "Przyprawa suszona z babka lancetowata",
+      "typ": "kulinarne",
+      "metoda": "przyprawy",
+      "tagi": [],
+      "skladniki": [
+        "pęczek babka lancetowata — liście/pędy (suszone, młode)"
+      ],
+      "sposob_przygotowania": [
+        "Suszyć w 35–40°C do kruchości.",
+        "Rozdrobnić i przechowywać w słoiku."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Babka lancetowata",
+      "nazwa_lacinska": "Plantago lanceolata",
+      "slug": "babka_lancetowata"
+    },
+    {
+      "tytul": "Chleb ziołowy z podbiał pospolity",
+      "typ": "kulinarne",
+      "metoda": "chleb",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki suszonego podbiał pospolity — drobno pokruszonego",
+        "500 g mąki",
+        "7 g drożdży",
+        "300 ml wody",
+        "1 łyżeczka soli"
+      ],
+      "sposob_przygotowania": [
+        "Wyrobić ciasto z dodatkiem ziela.",
+        "Wyrastać 60 minut.",
+        "Piec 30–35 minut w 220°C."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Podbiał pospolity",
+      "nazwa_lacinska": "Tussilago farfara",
+      "slug": "podbial_pospolity"
+    },
+    {
+      "tytul": "Sos do dań z dziurawiec zwyczajny",
+      "typ": "kulinarne",
+      "metoda": "sos",
+      "tagi": [],
+      "skladniki": [
+        "garść świeżych liści dziurawiec zwyczajny — drobno posiekanych",
+        "200 ml jogurtu/śmietany",
+        "1 ząbek czosnku",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Wymieszać wszystkie składniki, odstawić na 15 minut."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Dziurawiec zwyczajny",
+      "nazwa_lacinska": "Hypericum perforatum",
+      "slug": "dziurawiec_zwyczajny"
+    },
+    {
+      "tytul": "Nalewka smakowa z szałwia lekarska",
+      "typ": "kulinarne",
+      "metoda": "nalewka",
+      "tagi": [],
+      "skladniki": [
+        "200 g świeżych lub 100 g suszonych części szałwia lekarska",
+        "0,5 l wódki 40%",
+        "100–200 g cukru (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wódką i macerować 14–21 dni.",
+        "Przecedzić; dosłodzić i odstawić do klarowania."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Szałwia lekarska",
+      "nazwa_lacinska": "Salvia officinalis",
+      "slug": "szalwia_lekarska"
+    },
+    {
+      "tytul": "Likier z tymianek pospolity",
+      "typ": "kulinarne",
+      "metoda": "likier",
+      "tagi": [],
+      "skladniki": [
+        "300 g dojrzałych owoców/kwiatów tymianek pospolity — surowe/suszone",
+        "0,5 l spirytusu 60–65%",
+        "200–300 g cukru",
+        "200 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Owoce macerować w alkoholu 10 dni i zlać.",
+        "Ugotować syrop cukrowy, połączyć i odstawić 2–4 tygodnie."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Tymianek pospolity",
+      "nazwa_lacinska": "Thymus vulgaris",
+      "slug": "tymianek_pospolity"
+    },
+    {
+      "tytul": "Marynata do warzyw z mięta pieprzowa",
+      "typ": "kulinarne",
+      "metoda": "marynata",
+      "tagi": [],
+      "skladniki": [
+        "Mięta pieprzowa — świeże, młode części (300 g)",
+        "200 ml octu 6%",
+        "200 ml wody",
+        "1 łyżka cukru",
+        "1 łyżeczka soli",
+        "ziele angielskie, liść laurowy"
+      ],
+      "sposob_przygotowania": [
+        "Zagotować marynatę z przyprawami.",
+        "Zalać surowiec w słoju, pasteryzować 10 minut."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Mięta pieprzowa",
+      "nazwa_lacinska": "Mentha x piperita",
+      "slug": "mieta_pieprzowa"
+    },
+    {
+      "tytul": "Melisa lekarska blanszowane jak szparagi",
+      "typ": "kulinarne",
+      "metoda": "blanszowanie",
+      "tagi": [],
+      "skladniki": [
+        "młode pędy/łodygi melisa lekarska — świeże, najlepiej wiosenne",
+        "woda",
+        "sól",
+        "masło lub oliwa (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Pędy opłukać, blanszować 2 minuty w osolonej wodzie.",
+        "Podawać z masłem/oliwą jak szparagi."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Melisa lekarska",
+      "nazwa_lacinska": "Melissa officinalis",
+      "slug": "melisa_lekarska"
+    },
+    {
+      "tytul": "Koper włoski smażone na maśle",
+      "typ": "kulinarne",
+      "metoda": "smażenie",
+      "tagi": [],
+      "skladniki": [
+        "pędy/liście koper włoski — świeże, młode (osuszone)",
+        "1 łyżka masła lub oleju",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Rozgrzać tłuszcz na patelni.",
+        "Smażyć 2–3 minuty, doprawić solą i pieprzem."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Koper włoski",
+      "nazwa_lacinska": "Foeniculum vulgare",
+      "slug": "koper_wloski"
+    },
+    {
+      "tytul": "Anyż pieczone w piekarniku",
+      "typ": "kulinarne",
+      "metoda": "pieczenie",
+      "tagi": [],
+      "skladniki": [
+        "grubsze pędy/korzenie anyż — świeże",
+        "oliwa",
+        "sól, pieprz, zioła"
+      ],
+      "sposob_przygotowania": [
+        "Skropić oliwą, doprawić.",
+        "Piec 20–30 minut w 190°C do miękkości."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Anyż",
+      "nazwa_lacinska": "Pimpinella anisum",
+      "slug": "anyz"
+    },
+    {
+      "tytul": "Herbatka z arcydzięgiel litwor",
+      "typ": "kulinarne",
+      "metoda": "herbata/napój",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka arcydzięgiel litwor — suszone lub 2 łyżki świeże, młode",
+        "300 ml wrzątku",
+        "miód (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 8–10 minut.",
+        "Dosłodzić miodem."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Arcydzięgiel litwor",
+      "nazwa_lacinska": "Angelica archangelica",
+      "slug": "arcydziegiel_litwor"
+    },
+    {
+      "tytul": "Sałatka z prawoślaz lekarski",
+      "typ": "kulinarne",
+      "metoda": "sałatka",
+      "tagi": [],
+      "skladniki": [
+        "garść liści/pędów prawoślaz lekarski — świeże, młode",
+        "mix sałat (świeże)",
+        "oliwa, sok z cytryny",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Liście opłukać i osuszyć.",
+        "Wymieszać z sosem vinaigrette."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Prawoślaz lekarski",
+      "nazwa_lacinska": "Althaea officinalis",
+      "slug": "prawoslaz_lekarski"
+    },
+    {
+      "tytul": "Zupa z głóg jednoszyjkowy",
+      "typ": "kulinarne",
+      "metoda": "zupa",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści/pędów głóg jednoszyjkowy — świeże, młode (sparzone)",
+        "1 l bulionu",
+        "1 ziemniak (pokrojony)",
+        "1 cebula (pokrojona)",
+        "2 łyżki śmietany"
+      ],
+      "sposob_przygotowania": [
+        "Warzywa podsmażyć, zalać bulionem.",
+        "Dodać liście i gotować do miękkości.",
+        "Zmiksować i zaprawić śmietaną."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Głóg jednoszyjkowy",
+      "nazwa_lacinska": "Crataegus monogyna",
+      "slug": "glog_jednoszyjkowy"
+    },
+    {
+      "tytul": "Pesto z skrzyp polny",
+      "typ": "kulinarne",
+      "metoda": "pesto",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści skrzyp polny — świeże, młode",
+        "50 g orzechów (uprażone)",
+        "50 g twardego sera (tarty)",
+        "100 ml oliwy",
+        "sól"
+      ],
+      "sposob_przygotowania": [
+        "Zmiksować składniki na gładką pastę.",
+        "Doprawić do smaku."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "Kiszone sosna zwyczajna (kulinarne)",
+      "typ": "kulinarne",
+      "metoda": "kiszenie",
+      "tagi": [],
+      "skladniki": [
+        "Sosna zwyczajna — świeże, młode części (500 g)",
+        "1 l wody",
+        "1 łyżka soli",
+        "2 ząbki czosnku",
+        "gałązka kopru"
+      ],
+      "sposob_przygotowania": [
+        "Zagotować zalewę z wody i soli, ostudzić.",
+        "Surowiec ułożyć w słoju z dodatkami, zalać zalewą.",
+        "Fermentować 5–7 dni w temp. pokojowej."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Konfitura z szczawik zajęczy",
+      "typ": "kulinarne",
+      "metoda": "konfitura",
+      "tagi": [],
+      "skladniki": [
+        "1 kg dojrzałych owoców/kwiatów szczawik zajęczy — surowe lub suszone",
+        "0,6 kg cukru",
+        "sok z 1 cytryny"
+      ],
+      "sposob_przygotowania": [
+        "Owoce zasypać cukrem i odstawić aż puszczą sok.",
+        "Gotować 20–30 minut do zgęstnienia.",
+        "Dodać sok z cytryny."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "Syrop smakowy z żankiel zwyczajny",
+      "typ": "kulinarne",
+      "metoda": "syrop",
+      "tagi": [],
+      "skladniki": [
+        "0,5 kg żankiel zwyczajny — świeże, młode części",
+        "0,5 l wody",
+        "0,5 kg cukru"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec gotować w wodzie 10–15 minut i odcedzić.",
+        "Dodać cukier i odparować do konsystencji syropu."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Ocet ziołowy z świerząbek bulwiasty",
+      "typ": "kulinarne",
+      "metoda": "ocet",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści/kwiatów świerząbek bulwiasty — surowe",
+        "0,5 l octu 5–6%",
+        "1 łyżeczka miodu (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec octem w słoju.",
+        "Macerować 10–14 dni, przecedzić."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "Olej aromatyczny z pokrzywa zwyczajna",
+      "typ": "kulinarne",
+      "metoda": "olej",
+      "tagi": [],
+      "skladniki": [
+        "garść pokrzywa zwyczajna — świeże, młode (osuszone)",
+        "250 ml oleju (np. rzepakowy/oliwa)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec olejem i trzymać 7 dni w chłodzie.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Pokrzywa zwyczajna",
+      "nazwa_lacinska": "Urtica dioica",
+      "slug": "pokrzywa_zwyczajna"
+    },
+    {
+      "tytul": "Przyprawa suszona z rumianek pospolity",
+      "typ": "kulinarne",
+      "metoda": "przyprawy",
+      "tagi": [],
+      "skladniki": [
+        "pęczek rumianek pospolity — liście/pędy (suszone, młode)"
+      ],
+      "sposob_przygotowania": [
+        "Suszyć w 35–40°C do kruchości.",
+        "Rozdrobnić i przechowywać w słoiku."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Rumianek pospolity",
+      "nazwa_lacinska": "Matricaria chamomilla",
+      "slug": "rumianek_pospolity"
+    },
+    {
+      "tytul": "Chleb ziołowy z nagietek lekarski",
+      "typ": "kulinarne",
+      "metoda": "chleb",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki suszonego nagietek lekarski — drobno pokruszonego",
+        "500 g mąki",
+        "7 g drożdży",
+        "300 ml wody",
+        "1 łyżeczka soli"
+      ],
+      "sposob_przygotowania": [
+        "Wyrobić ciasto z dodatkiem ziela.",
+        "Wyrastać 60 minut.",
+        "Piec 30–35 minut w 220°C."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Nagietek lekarski",
+      "nazwa_lacinska": "Calendula officinalis",
+      "slug": "nagietek_lekarski"
+    },
+    {
+      "tytul": "Sos do dań z dzika róża",
+      "typ": "kulinarne",
+      "metoda": "sos",
+      "tagi": [],
+      "skladniki": [
+        "garść świeżych liści dzika róża — drobno posiekanych",
+        "200 ml jogurtu/śmietany",
+        "1 ząbek czosnku",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Wymieszać wszystkie składniki, odstawić na 15 minut."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Dzika róża",
+      "nazwa_lacinska": "Rosa canina",
+      "slug": "dzika_roza"
+    },
+    {
+      "tytul": "Nalewka smakowa z bez czarny",
+      "typ": "kulinarne",
+      "metoda": "nalewka",
+      "tagi": [],
+      "skladniki": [
+        "200 g świeżych lub 100 g suszonych części bez czarny",
+        "0,5 l wódki 40%",
+        "100–200 g cukru (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wódką i macerować 14–21 dni.",
+        "Przecedzić; dosłodzić i odstawić do klarowania."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Bez czarny",
+      "nazwa_lacinska": "Sambucus nigra",
+      "slug": "bez_czarny"
+    },
+    {
+      "tytul": "Likier z lipa drobnolistna",
+      "typ": "kulinarne",
+      "metoda": "likier",
+      "tagi": [],
+      "skladniki": [
+        "300 g dojrzałych owoców/kwiatów lipa drobnolistna — surowe/suszone",
+        "0,5 l spirytusu 60–65%",
+        "200–300 g cukru",
+        "200 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Owoce macerować w alkoholu 10 dni i zlać.",
+        "Ugotować syrop cukrowy, połączyć i odstawić 2–4 tygodnie."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Lipa drobnolistna",
+      "nazwa_lacinska": "Tilia cordata",
+      "slug": "lipa_drobnolistna"
+    },
+    {
+      "tytul": "Marynata do warzyw z krwawnik pospolity",
+      "typ": "kulinarne",
+      "metoda": "marynata",
+      "tagi": [],
+      "skladniki": [
+        "Krwawnik pospolity — świeże, młode części (300 g)",
+        "200 ml octu 6%",
+        "200 ml wody",
+        "1 łyżka cukru",
+        "1 łyżeczka soli",
+        "ziele angielskie, liść laurowy"
+      ],
+      "sposob_przygotowania": [
+        "Zagotować marynatę z przyprawami.",
+        "Zalać surowiec w słoju, pasteryzować 10 minut."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Krwawnik pospolity",
+      "nazwa_lacinska": "Achillea millefolium",
+      "slug": "krwawnik_pospolity"
+    },
+    {
+      "tytul": "Mniszek lekarski blanszowane jak szparagi",
+      "typ": "kulinarne",
+      "metoda": "blanszowanie",
+      "tagi": [],
+      "skladniki": [
+        "młode pędy/łodygi mniszek lekarski — świeże, najlepiej wiosenne",
+        "woda",
+        "sól",
+        "masło lub oliwa (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Pędy opłukać, blanszować 2 minuty w osolonej wodzie.",
+        "Podawać z masłem/oliwą jak szparagi."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Mniszek lekarski",
+      "nazwa_lacinska": "Taraxacum officinale",
+      "slug": "mniszek_lekarski"
+    },
+    {
+      "tytul": "Babka lancetowata smażone na maśle",
+      "typ": "kulinarne",
+      "metoda": "smażenie",
+      "tagi": [],
+      "skladniki": [
+        "pędy/liście babka lancetowata — świeże, młode (osuszone)",
+        "1 łyżka masła lub oleju",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Rozgrzać tłuszcz na patelni.",
+        "Smażyć 2–3 minuty, doprawić solą i pieprzem."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Babka lancetowata",
+      "nazwa_lacinska": "Plantago lanceolata",
+      "slug": "babka_lancetowata"
+    },
+    {
+      "tytul": "Podbiał pospolity pieczone w piekarniku",
+      "typ": "kulinarne",
+      "metoda": "pieczenie",
+      "tagi": [],
+      "skladniki": [
+        "grubsze pędy/korzenie podbiał pospolity — świeże",
+        "oliwa",
+        "sól, pieprz, zioła"
+      ],
+      "sposob_przygotowania": [
+        "Skropić oliwą, doprawić.",
+        "Piec 20–30 minut w 190°C do miękkości."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Podbiał pospolity",
+      "nazwa_lacinska": "Tussilago farfara",
+      "slug": "podbial_pospolity"
+    },
+    {
+      "tytul": "Herbatka z dziurawiec zwyczajny",
+      "typ": "kulinarne",
+      "metoda": "herbata/napój",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka dziurawiec zwyczajny — suszone lub 2 łyżki świeże, młode",
+        "300 ml wrzątku",
+        "miód (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 8–10 minut.",
+        "Dosłodzić miodem."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Dziurawiec zwyczajny",
+      "nazwa_lacinska": "Hypericum perforatum",
+      "slug": "dziurawiec_zwyczajny"
+    },
+    {
+      "tytul": "Sałatka z szałwia lekarska",
+      "typ": "kulinarne",
+      "metoda": "sałatka",
+      "tagi": [],
+      "skladniki": [
+        "garść liści/pędów szałwia lekarska — świeże, młode",
+        "mix sałat (świeże)",
+        "oliwa, sok z cytryny",
+        "sól, pieprz"
+      ],
+      "sposob_przygotowania": [
+        "Liście opłukać i osuszyć.",
+        "Wymieszać z sosem vinaigrette."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Szałwia lekarska",
+      "nazwa_lacinska": "Salvia officinalis",
+      "slug": "szalwia_lekarska"
+    },
+    {
+      "tytul": "Zupa z tymianek pospolity",
+      "typ": "kulinarne",
+      "metoda": "zupa",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści/pędów tymianek pospolity — świeże, młode (sparzone)",
+        "1 l bulionu",
+        "1 ziemniak (pokrojony)",
+        "1 cebula (pokrojona)",
+        "2 łyżki śmietany"
+      ],
+      "sposob_przygotowania": [
+        "Warzywa podsmażyć, zalać bulionem.",
+        "Dodać liście i gotować do miękkości.",
+        "Zmiksować i zaprawić śmietaną."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Tymianek pospolity",
+      "nazwa_lacinska": "Thymus vulgaris",
+      "slug": "tymianek_pospolity"
+    },
+    {
+      "tytul": "Pesto z mięta pieprzowa",
+      "typ": "kulinarne",
+      "metoda": "pesto",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści mięta pieprzowa — świeże, młode",
+        "50 g orzechów (uprażone)",
+        "50 g twardego sera (tarty)",
+        "100 ml oliwy",
+        "sól"
+      ],
+      "sposob_przygotowania": [
+        "Zmiksować składniki na gładką pastę.",
+        "Doprawić do smaku."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Mięta pieprzowa",
+      "nazwa_lacinska": "Mentha x piperita",
+      "slug": "mieta_pieprzowa"
+    },
+    {
+      "tytul": "Kiszone melisa lekarska (kulinarne)",
+      "typ": "kulinarne",
+      "metoda": "kiszenie",
+      "tagi": [],
+      "skladniki": [
+        "Melisa lekarska — świeże, młode części (500 g)",
+        "1 l wody",
+        "1 łyżka soli",
+        "2 ząbki czosnku",
+        "gałązka kopru"
+      ],
+      "sposob_przygotowania": [
+        "Zagotować zalewę z wody i soli, ostudzić.",
+        "Surowiec ułożyć w słoju z dodatkami, zalać zalewą.",
+        "Fermentować 5–7 dni w temp. pokojowej."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Melisa lekarska",
+      "nazwa_lacinska": "Melissa officinalis",
+      "slug": "melisa_lekarska"
+    },
+    {
+      "tytul": "Konfitura z koper włoski",
+      "typ": "kulinarne",
+      "metoda": "konfitura",
+      "tagi": [],
+      "skladniki": [
+        "1 kg dojrzałych owoców/kwiatów koper włoski — surowe lub suszone",
+        "0,6 kg cukru",
+        "sok z 1 cytryny"
+      ],
+      "sposob_przygotowania": [
+        "Owoce zasypać cukrem i odstawić aż puszczą sok.",
+        "Gotować 20–30 minut do zgęstnienia.",
+        "Dodać sok z cytryny."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Koper włoski",
+      "nazwa_lacinska": "Foeniculum vulgare",
+      "slug": "koper_wloski"
+    },
+    {
+      "tytul": "Syrop smakowy z anyż",
+      "typ": "kulinarne",
+      "metoda": "syrop",
+      "tagi": [],
+      "skladniki": [
+        "0,5 kg anyż — świeże, młode części",
+        "0,5 l wody",
+        "0,5 kg cukru"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec gotować w wodzie 10–15 minut i odcedzić.",
+        "Dodać cukier i odparować do konsystencji syropu."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Anyż",
+      "nazwa_lacinska": "Pimpinella anisum",
+      "slug": "anyz"
+    },
+    {
+      "tytul": "Ocet ziołowy z arcydzięgiel litwor",
+      "typ": "kulinarne",
+      "metoda": "ocet",
+      "tagi": [],
+      "skladniki": [
+        "2 garście liści/kwiatów arcydzięgiel litwor — surowe",
+        "0,5 l octu 5–6%",
+        "1 łyżeczka miodu (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec octem w słoju.",
+        "Macerować 10–14 dni, przecedzić."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Arcydzięgiel litwor",
+      "nazwa_lacinska": "Angelica archangelica",
+      "slug": "arcydziegiel_litwor"
+    },
+    {
+      "tytul": "Olej aromatyczny z prawoślaz lekarski",
+      "typ": "kulinarne",
+      "metoda": "olej",
+      "tagi": [],
+      "skladniki": [
+        "garść prawoślaz lekarski — świeże, młode (osuszone)",
+        "250 ml oleju (np. rzepakowy/oliwa)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec olejem i trzymać 7 dni w chłodzie.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Prawoślaz lekarski",
+      "nazwa_lacinska": "Althaea officinalis",
+      "slug": "prawoslaz_lekarski"
+    },
+    {
+      "tytul": "Przyprawa suszona z głóg jednoszyjkowy",
+      "typ": "kulinarne",
+      "metoda": "przyprawy",
+      "tagi": [],
+      "skladniki": [
+        "pęczek głóg jednoszyjkowy — liście/pędy (suszone, młode)"
+      ],
+      "sposob_przygotowania": [
+        "Suszyć w 35–40°C do kruchości.",
+        "Rozdrobnić i przechowywać w słoiku."
+      ],
+      "dawkowanie": "",
+      "uwagi": "",
+      "zrodla": [
+        "Tradycyjne przepisy kuchni regionalnej",
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Głóg jednoszyjkowy",
+      "nazwa_lacinska": "Crataegus monogyna",
+      "slug": "glog_jednoszyjkowy"
     }
+
   ]
 }

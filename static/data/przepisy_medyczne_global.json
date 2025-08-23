@@ -2216,6 +2216,2253 @@
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
       "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Napar z skrzyp polny",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka skrzyp polny — suszone, młode części",
+        "250 ml wrzątku (świeża woda)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec zalać wrzątkiem.",
+        "Parzyć pod przykryciem 10–15 minut.",
+        "Przecedzić i pić świeży."
+      ],
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie przez 7–14 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Różański — Fitoterapia i leki roślinne"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "Odwar z sosna zwyczajna",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżeczki sosna zwyczajna — suszone (kora/korzeń/liście odpowiednio)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Doprowadzić do wrzenia i gotować 10–20 minut na małym ogniu.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku przez 5–10 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Farmakopea Polska"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Macerat na zimno z szczawik zajęczy",
+      "typ": "medyczne",
+      "metoda": "macerat",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka szczawik zajęczy — świeże, drobno posiekane, najlepiej młode",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Odstawić na 6–8 godzin pod przykryciem.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano przez 5–7 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Farmakopea Polska"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "Płukanka z żankiel zwyczajny",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka żankiel zwyczajny — suszone, młode części",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć jak napar (10–15 minut).",
+        "Po ostudzeniu używać do płukania jamy ustnej/gardła."
+      ],
+      "dawkowanie": "Płukać 2–3 razy dziennie przez 3–5 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Ożarowski, Jaroniewski — Rośliny lecznicze i ich praktyczne zastosowanie"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Okład z świerząbek bulwiasty",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [],
+      "skladniki": [
+        "Świeże liście/pędy świerząbek bulwiasty — najlepiej świeże i młode",
+        "Gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść na papkę.",
+        "Nałożyć na gazę i przyłożyć do skóry na 15–30 minut."
+      ],
+      "dawkowanie": "2–3 razy dziennie do ustąpienia dolegliwości.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "ESCOP Monographs"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "Maść z pokrzywa zwyczajna",
+      "typ": "medyczne",
+      "metoda": "maść",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki pokrzywa zwyczajna — suszone, rozdrobnione",
+        "100 ml oleju (oliwa/olej kokosowy)",
+        "szczypta wosku pszczelego (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec podgrzewać w oleju w kąpieli wodnej 45–60 minut.",
+        "Przecedzić, dodać wosk i przelać do słoiczka."
+      ],
+      "dawkowanie": "Stosować zewnętrznie 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Farmakopea Polska"
+      ],
+      "roslina": "Pokrzywa zwyczajna",
+      "nazwa_lacinska": "Urtica dioica",
+      "slug": "pokrzywa_zwyczajna"
+    },
+    {
+      "tytul": "Syrop z rumianek pospolity",
+      "typ": "medyczne",
+      "metoda": "syrop",
+      "tagi": [],
+      "skladniki": [
+        "100 g rumianek pospolity — świeże, młode części",
+        "250 ml wody",
+        "200 g cukru lub miodu"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec gotować w wodzie 10–15 minut.",
+        "Odcedzić, dodać cukier/miód i odparować do konsystencji syropu."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "ESCOP Monographs"
+      ],
+      "roslina": "Rumianek pospolity",
+      "nazwa_lacinska": "Matricaria chamomilla",
+      "slug": "rumianek_pospolity"
+    },
+    {
+      "tytul": "Inhalacja z nagietek lekarski",
+      "typ": "medyczne",
+      "metoda": "inhalacja",
+      "tagi": [],
+      "skladniki": [
+        "3–5 kropli olejku/odwaru z nagietek lekarski (jeśli dotyczy aromatycznych surowców)",
+        "1 litr gorącej wody"
+      ],
+      "sposob_przygotowania": [
+        "Dodać do gorącej wody.",
+        "Wdychać parę 5–10 minut, zachowując ostrożność."
+      ],
+      "dawkowanie": "1–2 razy dziennie przez 3 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Klimuszko — Wróćmy do ziół"
+      ],
+      "roslina": "Nagietek lekarski",
+      "nazwa_lacinska": "Calendula officinalis",
+      "slug": "nagietek_lekarski"
+    },
+    {
+      "tytul": "Kąpiel z odwarem z dzika róża",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [],
+      "skladniki": [
+        "3 garście świeżego lub 2 garście suszonego dzika róża",
+        "2–3 litry wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować surowiec 15–20 minut.",
+        "Odcedzić i wlać odwar do kąpieli (37–39°C), kąpać 15–20 minut."
+      ],
+      "dawkowanie": "2–3 razy w tygodniu.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Commission E Monograph"
+      ],
+      "roslina": "Dzika róża",
+      "nazwa_lacinska": "Rosa canina",
+      "slug": "dzika_roza"
+    },
+    {
+      "tytul": "Nalewka z bez czarny",
+      "typ": "medyczne",
+      "metoda": "nalewka",
+      "tagi": [],
+      "skladniki": [
+        "50 g bez czarny — suszone (lub 100 g świeże, młode)",
+        "250 ml alkoholu 40–60% (wódka/rozcieńczony spirytus)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec alkoholem w słoju.",
+        "Odstawić w ciemne miejsce na 10–14 dni, codziennie wstrząsać.",
+        "Przecedzić do butelki."
+      ],
+      "dawkowanie": "10–20 kropli 1–3 razy dziennie (zewnętrznie: do nacierania).",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Farmakopea Polska"
+      ],
+      "roslina": "Bez czarny",
+      "nazwa_lacinska": "Sambucus nigra",
+      "slug": "bez_czarny"
+    },
+    {
+      "tytul": "Proszek z suszu lipa drobnolistna",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [],
+      "skladniki": [
+        "Susz lipa drobnolistna — dobrze wysuszony, rozdrobniony (suszone, młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek w młynku.",
+        "Przechowywać w szczelnym słoiku; stosować wg potrzeb."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2 razy dziennie popić wodą.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "ESCOP Monographs"
+      ],
+      "roslina": "Lipa drobnolistna",
+      "nazwa_lacinska": "Tilia cordata",
+      "slug": "lipa_drobnolistna"
+    },
+    {
+      "tytul": "Napar z krwawnik pospolity",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka krwawnik pospolity — suszone, młode części",
+        "250 ml wrzątku (świeża woda)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec zalać wrzątkiem.",
+        "Parzyć pod przykryciem 10–15 minut.",
+        "Przecedzić i pić świeży."
+      ],
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie przez 7–14 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "EMA Community herbal monographs"
+      ],
+      "roslina": "Krwawnik pospolity",
+      "nazwa_lacinska": "Achillea millefolium",
+      "slug": "krwawnik_pospolity"
+    },
+    {
+      "tytul": "Odwar z mniszek lekarski",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżeczki mniszek lekarski — suszone (kora/korzeń/liście odpowiednio)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Doprowadzić do wrzenia i gotować 10–20 minut na małym ogniu.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku przez 5–10 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "ESCOP Monographs"
+      ],
+      "roslina": "Mniszek lekarski",
+      "nazwa_lacinska": "Taraxacum officinale",
+      "slug": "mniszek_lekarski"
+    },
+    {
+      "tytul": "Macerat na zimno z babka lancetowata",
+      "typ": "medyczne",
+      "metoda": "macerat",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka babka lancetowata — świeże, drobno posiekane, najlepiej młode",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Odstawić na 6–8 godzin pod przykryciem.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano przez 5–7 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Farmakopea Polska"
+      ],
+      "roslina": "Babka lancetowata",
+      "nazwa_lacinska": "Plantago lanceolata",
+      "slug": "babka_lancetowata"
+    },
+    {
+      "tytul": "Płukanka z podbiał pospolity",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka podbiał pospolity — suszone, młode części",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć jak napar (10–15 minut).",
+        "Po ostudzeniu używać do płukania jamy ustnej/gardła."
+      ],
+      "dawkowanie": "Płukać 2–3 razy dziennie przez 3–5 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "ESCOP Monographs"
+      ],
+      "roslina": "Podbiał pospolity",
+      "nazwa_lacinska": "Tussilago farfara",
+      "slug": "podbial_pospolity"
+    },
+    {
+      "tytul": "Okład z dziurawiec zwyczajny",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [],
+      "skladniki": [
+        "Świeże liście/pędy dziurawiec zwyczajny — najlepiej świeże i młode",
+        "Gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść na papkę.",
+        "Nałożyć na gazę i przyłożyć do skóry na 15–30 minut."
+      ],
+      "dawkowanie": "2–3 razy dziennie do ustąpienia dolegliwości.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Farmakopea Polska"
+      ],
+      "roslina": "Dziurawiec zwyczajny",
+      "nazwa_lacinska": "Hypericum perforatum",
+      "slug": "dziurawiec_zwyczajny"
+    },
+    {
+      "tytul": "Maść z szałwia lekarska",
+      "typ": "medyczne",
+      "metoda": "maść",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki szałwia lekarska — suszone, rozdrobnione",
+        "100 ml oleju (oliwa/olej kokosowy)",
+        "szczypta wosku pszczelego (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec podgrzewać w oleju w kąpieli wodnej 45–60 minut.",
+        "Przecedzić, dodać wosk i przelać do słoiczka."
+      ],
+      "dawkowanie": "Stosować zewnętrznie 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Szałwia lekarska",
+      "nazwa_lacinska": "Salvia officinalis",
+      "slug": "szalwia_lekarska"
+    },
+    {
+      "tytul": "Syrop z tymianek pospolity",
+      "typ": "medyczne",
+      "metoda": "syrop",
+      "tagi": [],
+      "skladniki": [
+        "100 g tymianek pospolity — świeże, młode części",
+        "250 ml wody",
+        "200 g cukru lub miodu"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec gotować w wodzie 10–15 minut.",
+        "Odcedzić, dodać cukier/miód i odparować do konsystencji syropu."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Commission E Monograph"
+      ],
+      "roslina": "Tymianek pospolity",
+      "nazwa_lacinska": "Thymus vulgaris",
+      "slug": "tymianek_pospolity"
+    },
+    {
+      "tytul": "Inhalacja z mięta pieprzowa",
+      "typ": "medyczne",
+      "metoda": "inhalacja",
+      "tagi": [],
+      "skladniki": [
+        "3–5 kropli olejku/odwaru z mięta pieprzowa (jeśli dotyczy aromatycznych surowców)",
+        "1 litr gorącej wody"
+      ],
+      "sposob_przygotowania": [
+        "Dodać do gorącej wody.",
+        "Wdychać parę 5–10 minut, zachowując ostrożność."
+      ],
+      "dawkowanie": "1–2 razy dziennie przez 3 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Ożarowski, Jaroniewski — Rośliny lecznicze i ich praktyczne zastosowanie"
+      ],
+      "roslina": "Mięta pieprzowa",
+      "nazwa_lacinska": "Mentha x piperita",
+      "slug": "mieta_pieprzowa"
+    },
+    {
+      "tytul": "Kąpiel z odwarem z melisa lekarska",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [],
+      "skladniki": [
+        "3 garście świeżego lub 2 garście suszonego melisa lekarska",
+        "2–3 litry wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować surowiec 15–20 minut.",
+        "Odcedzić i wlać odwar do kąpieli (37–39°C), kąpać 15–20 minut."
+      ],
+      "dawkowanie": "2–3 razy w tygodniu.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Farmakopea Polska"
+      ],
+      "roslina": "Melisa lekarska",
+      "nazwa_lacinska": "Melissa officinalis",
+      "slug": "melisa_lekarska"
+    },
+    {
+      "tytul": "Nalewka z koper włoski",
+      "typ": "medyczne",
+      "metoda": "nalewka",
+      "tagi": [],
+      "skladniki": [
+        "50 g koper włoski — suszone (lub 100 g świeże, młode)",
+        "250 ml alkoholu 40–60% (wódka/rozcieńczony spirytus)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec alkoholem w słoju.",
+        "Odstawić w ciemne miejsce na 10–14 dni, codziennie wstrząsać.",
+        "Przecedzić do butelki."
+      ],
+      "dawkowanie": "10–20 kropli 1–3 razy dziennie (zewnętrznie: do nacierania).",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "EMA Community herbal monographs"
+      ],
+      "roslina": "Koper włoski",
+      "nazwa_lacinska": "Foeniculum vulgare",
+      "slug": "koper_wloski"
+    },
+    {
+      "tytul": "Proszek z suszu anyż",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [],
+      "skladniki": [
+        "Susz anyż — dobrze wysuszony, rozdrobniony (suszone, młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek w młynku.",
+        "Przechowywać w szczelnym słoiku; stosować wg potrzeb."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2 razy dziennie popić wodą.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Klimuszko — Wróćmy do ziół"
+      ],
+      "roslina": "Anyż",
+      "nazwa_lacinska": "Pimpinella anisum",
+      "slug": "anyz"
+    },
+    {
+      "tytul": "Napar z arcydzięgiel litwor",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka arcydzięgiel litwor — suszone, młode części",
+        "250 ml wrzątku (świeża woda)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec zalać wrzątkiem.",
+        "Parzyć pod przykryciem 10–15 minut.",
+        "Przecedzić i pić świeży."
+      ],
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie przez 7–14 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Farmakopea Polska"
+      ],
+      "roslina": "Arcydzięgiel litwor",
+      "nazwa_lacinska": "Angelica archangelica",
+      "slug": "arcydziegiel_litwor"
+    },
+    {
+      "tytul": "Odwar z prawoślaz lekarski",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżeczki prawoślaz lekarski — suszone (kora/korzeń/liście odpowiednio)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Doprowadzić do wrzenia i gotować 10–20 minut na małym ogniu.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku przez 5–10 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Klimuszko — Wróćmy do ziół"
+      ],
+      "roslina": "Prawoślaz lekarski",
+      "nazwa_lacinska": "Althaea officinalis",
+      "slug": "prawoslaz_lekarski"
+    },
+    {
+      "tytul": "Macerat na zimno z głóg jednoszyjkowy",
+      "typ": "medyczne",
+      "metoda": "macerat",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka głóg jednoszyjkowy — świeże, drobno posiekane, najlepiej młode",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Odstawić na 6–8 godzin pod przykryciem.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano przez 5–7 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Klimuszko — Wróćmy do ziół"
+      ],
+      "roslina": "Głóg jednoszyjkowy",
+      "nazwa_lacinska": "Crataegus monogyna",
+      "slug": "glog_jednoszyjkowy"
+    },
+    {
+      "tytul": "Płukanka z skrzyp polny",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka skrzyp polny — suszone, młode części",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć jak napar (10–15 minut).",
+        "Po ostudzeniu używać do płukania jamy ustnej/gardła."
+      ],
+      "dawkowanie": "Płukać 2–3 razy dziennie przez 3–5 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Commission E Monograph"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "Okład z sosna zwyczajna",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [],
+      "skladniki": [
+        "Świeże liście/pędy sosna zwyczajna — najlepiej świeże i młode",
+        "Gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść na papkę.",
+        "Nałożyć na gazę i przyłożyć do skóry na 15–30 minut."
+      ],
+      "dawkowanie": "2–3 razy dziennie do ustąpienia dolegliwości.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Różański — Fitoterapia i leki roślinne"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Maść z szczawik zajęczy",
+      "typ": "medyczne",
+      "metoda": "maść",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki szczawik zajęczy — suszone, rozdrobnione",
+        "100 ml oleju (oliwa/olej kokosowy)",
+        "szczypta wosku pszczelego (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec podgrzewać w oleju w kąpieli wodnej 45–60 minut.",
+        "Przecedzić, dodać wosk i przelać do słoiczka."
+      ],
+      "dawkowanie": "Stosować zewnętrznie 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "Syrop z żankiel zwyczajny",
+      "typ": "medyczne",
+      "metoda": "syrop",
+      "tagi": [],
+      "skladniki": [
+        "100 g żankiel zwyczajny — świeże, młode części",
+        "250 ml wody",
+        "200 g cukru lub miodu"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec gotować w wodzie 10–15 minut.",
+        "Odcedzić, dodać cukier/miód i odparować do konsystencji syropu."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "EMA Community herbal monographs"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Inhalacja z świerząbek bulwiasty",
+      "typ": "medyczne",
+      "metoda": "inhalacja",
+      "tagi": [],
+      "skladniki": [
+        "3–5 kropli olejku/odwaru z świerząbek bulwiasty (jeśli dotyczy aromatycznych surowców)",
+        "1 litr gorącej wody"
+      ],
+      "sposob_przygotowania": [
+        "Dodać do gorącej wody.",
+        "Wdychać parę 5–10 minut, zachowując ostrożność."
+      ],
+      "dawkowanie": "1–2 razy dziennie przez 3 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "ESCOP Monographs"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "Kąpiel z odwarem z pokrzywa zwyczajna",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [],
+      "skladniki": [
+        "3 garście świeżego lub 2 garście suszonego pokrzywa zwyczajna",
+        "2–3 litry wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować surowiec 15–20 minut.",
+        "Odcedzić i wlać odwar do kąpieli (37–39°C), kąpać 15–20 minut."
+      ],
+      "dawkowanie": "2–3 razy w tygodniu.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Różański — Fitoterapia i leki roślinne"
+      ],
+      "roslina": "Pokrzywa zwyczajna",
+      "nazwa_lacinska": "Urtica dioica",
+      "slug": "pokrzywa_zwyczajna"
+    },
+    {
+      "tytul": "Nalewka z rumianek pospolity",
+      "typ": "medyczne",
+      "metoda": "nalewka",
+      "tagi": [],
+      "skladniki": [
+        "50 g rumianek pospolity — suszone (lub 100 g świeże, młode)",
+        "250 ml alkoholu 40–60% (wódka/rozcieńczony spirytus)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec alkoholem w słoju.",
+        "Odstawić w ciemne miejsce na 10–14 dni, codziennie wstrząsać.",
+        "Przecedzić do butelki."
+      ],
+      "dawkowanie": "10–20 kropli 1–3 razy dziennie (zewnętrznie: do nacierania).",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "ESCOP Monographs"
+      ],
+      "roslina": "Rumianek pospolity",
+      "nazwa_lacinska": "Matricaria chamomilla",
+      "slug": "rumianek_pospolity"
+    },
+    {
+      "tytul": "Proszek z suszu nagietek lekarski",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [],
+      "skladniki": [
+        "Susz nagietek lekarski — dobrze wysuszony, rozdrobniony (suszone, młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek w młynku.",
+        "Przechowywać w szczelnym słoiku; stosować wg potrzeb."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2 razy dziennie popić wodą.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Farmakopea Polska"
+      ],
+      "roslina": "Nagietek lekarski",
+      "nazwa_lacinska": "Calendula officinalis",
+      "slug": "nagietek_lekarski"
+    },
+    {
+      "tytul": "Napar z dzika róża",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka dzika róża — suszone, młode części",
+        "250 ml wrzątku (świeża woda)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec zalać wrzątkiem.",
+        "Parzyć pod przykryciem 10–15 minut.",
+        "Przecedzić i pić świeży."
+      ],
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie przez 7–14 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "ESCOP Monographs"
+      ],
+      "roslina": "Dzika róża",
+      "nazwa_lacinska": "Rosa canina",
+      "slug": "dzika_roza"
+    },
+    {
+      "tytul": "Odwar z bez czarny",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżeczki bez czarny — suszone (kora/korzeń/liście odpowiednio)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Doprowadzić do wrzenia i gotować 10–20 minut na małym ogniu.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku przez 5–10 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Różański — Fitoterapia i leki roślinne"
+      ],
+      "roslina": "Bez czarny",
+      "nazwa_lacinska": "Sambucus nigra",
+      "slug": "bez_czarny"
+    },
+    {
+      "tytul": "Macerat na zimno z lipa drobnolistna",
+      "typ": "medyczne",
+      "metoda": "macerat",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka lipa drobnolistna — świeże, drobno posiekane, najlepiej młode",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Odstawić na 6–8 godzin pod przykryciem.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano przez 5–7 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Commission E Monograph"
+      ],
+      "roslina": "Lipa drobnolistna",
+      "nazwa_lacinska": "Tilia cordata",
+      "slug": "lipa_drobnolistna"
+    },
+    {
+      "tytul": "Płukanka z krwawnik pospolity",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka krwawnik pospolity — suszone, młode części",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć jak napar (10–15 minut).",
+        "Po ostudzeniu używać do płukania jamy ustnej/gardła."
+      ],
+      "dawkowanie": "Płukać 2–3 razy dziennie przez 3–5 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "EMA Community herbal monographs"
+      ],
+      "roslina": "Krwawnik pospolity",
+      "nazwa_lacinska": "Achillea millefolium",
+      "slug": "krwawnik_pospolity"
+    },
+    {
+      "tytul": "Okład z mniszek lekarski",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [],
+      "skladniki": [
+        "Świeże liście/pędy mniszek lekarski — najlepiej świeże i młode",
+        "Gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść na papkę.",
+        "Nałożyć na gazę i przyłożyć do skóry na 15–30 minut."
+      ],
+      "dawkowanie": "2–3 razy dziennie do ustąpienia dolegliwości.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "EMA Community herbal monographs"
+      ],
+      "roslina": "Mniszek lekarski",
+      "nazwa_lacinska": "Taraxacum officinale",
+      "slug": "mniszek_lekarski"
+    },
+    {
+      "tytul": "Maść z babka lancetowata",
+      "typ": "medyczne",
+      "metoda": "maść",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki babka lancetowata — suszone, rozdrobnione",
+        "100 ml oleju (oliwa/olej kokosowy)",
+        "szczypta wosku pszczelego (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec podgrzewać w oleju w kąpieli wodnej 45–60 minut.",
+        "Przecedzić, dodać wosk i przelać do słoiczka."
+      ],
+      "dawkowanie": "Stosować zewnętrznie 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "EMA Community herbal monographs"
+      ],
+      "roslina": "Babka lancetowata",
+      "nazwa_lacinska": "Plantago lanceolata",
+      "slug": "babka_lancetowata"
+    },
+    {
+      "tytul": "Syrop z podbiał pospolity",
+      "typ": "medyczne",
+      "metoda": "syrop",
+      "tagi": [],
+      "skladniki": [
+        "100 g podbiał pospolity — świeże, młode części",
+        "250 ml wody",
+        "200 g cukru lub miodu"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec gotować w wodzie 10–15 minut.",
+        "Odcedzić, dodać cukier/miód i odparować do konsystencji syropu."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "EMA Community herbal monographs"
+      ],
+      "roslina": "Podbiał pospolity",
+      "nazwa_lacinska": "Tussilago farfara",
+      "slug": "podbial_pospolity"
+    },
+    {
+      "tytul": "Inhalacja z dziurawiec zwyczajny",
+      "typ": "medyczne",
+      "metoda": "inhalacja",
+      "tagi": [],
+      "skladniki": [
+        "3–5 kropli olejku/odwaru z dziurawiec zwyczajny (jeśli dotyczy aromatycznych surowców)",
+        "1 litr gorącej wody"
+      ],
+      "sposob_przygotowania": [
+        "Dodać do gorącej wody.",
+        "Wdychać parę 5–10 minut, zachowując ostrożność."
+      ],
+      "dawkowanie": "1–2 razy dziennie przez 3 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "EMA Community herbal monographs"
+      ],
+      "roslina": "Dziurawiec zwyczajny",
+      "nazwa_lacinska": "Hypericum perforatum",
+      "slug": "dziurawiec_zwyczajny"
+    },
+    {
+      "tytul": "Kąpiel z odwarem z szałwia lekarska",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [],
+      "skladniki": [
+        "3 garście świeżego lub 2 garście suszonego szałwia lekarska",
+        "2–3 litry wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować surowiec 15–20 minut.",
+        "Odcedzić i wlać odwar do kąpieli (37–39°C), kąpać 15–20 minut."
+      ],
+      "dawkowanie": "2–3 razy w tygodniu.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Klimuszko — Wróćmy do ziół"
+      ],
+      "roslina": "Szałwia lekarska",
+      "nazwa_lacinska": "Salvia officinalis",
+      "slug": "szalwia_lekarska"
+    },
+    {
+      "tytul": "Nalewka z tymianek pospolity",
+      "typ": "medyczne",
+      "metoda": "nalewka",
+      "tagi": [],
+      "skladniki": [
+        "50 g tymianek pospolity — suszone (lub 100 g świeże, młode)",
+        "250 ml alkoholu 40–60% (wódka/rozcieńczony spirytus)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec alkoholem w słoju.",
+        "Odstawić w ciemne miejsce na 10–14 dni, codziennie wstrząsać.",
+        "Przecedzić do butelki."
+      ],
+      "dawkowanie": "10–20 kropli 1–3 razy dziennie (zewnętrznie: do nacierania).",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Różański — Fitoterapia i leki roślinne"
+      ],
+      "roslina": "Tymianek pospolity",
+      "nazwa_lacinska": "Thymus vulgaris",
+      "slug": "tymianek_pospolity"
+    },
+    {
+      "tytul": "Proszek z suszu mięta pieprzowa",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [],
+      "skladniki": [
+        "Susz mięta pieprzowa — dobrze wysuszony, rozdrobniony (suszone, młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek w młynku.",
+        "Przechowywać w szczelnym słoiku; stosować wg potrzeb."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2 razy dziennie popić wodą.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Różański — Fitoterapia i leki roślinne"
+      ],
+      "roslina": "Mięta pieprzowa",
+      "nazwa_lacinska": "Mentha x piperita",
+      "slug": "mieta_pieprzowa"
+    },
+    {
+      "tytul": "Napar z melisa lekarska",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka melisa lekarska — suszone, młode części",
+        "250 ml wrzątku (świeża woda)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec zalać wrzątkiem.",
+        "Parzyć pod przykryciem 10–15 minut.",
+        "Przecedzić i pić świeży."
+      ],
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie przez 7–14 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Melisa lekarska",
+      "nazwa_lacinska": "Melissa officinalis",
+      "slug": "melisa_lekarska"
+    },
+    {
+      "tytul": "Odwar z koper włoski",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżeczki koper włoski — suszone (kora/korzeń/liście odpowiednio)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Doprowadzić do wrzenia i gotować 10–20 minut na małym ogniu.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku przez 5–10 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Koper włoski",
+      "nazwa_lacinska": "Foeniculum vulgare",
+      "slug": "koper_wloski"
+    },
+    {
+      "tytul": "Macerat na zimno z anyż",
+      "typ": "medyczne",
+      "metoda": "macerat",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka anyż — świeże, drobno posiekane, najlepiej młode",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Odstawić na 6–8 godzin pod przykryciem.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano przez 5–7 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Klimuszko — Wróćmy do ziół"
+      ],
+      "roslina": "Anyż",
+      "nazwa_lacinska": "Pimpinella anisum",
+      "slug": "anyz"
+    },
+    {
+      "tytul": "Płukanka z arcydzięgiel litwor",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka arcydzięgiel litwor — suszone, młode części",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć jak napar (10–15 minut).",
+        "Po ostudzeniu używać do płukania jamy ustnej/gardła."
+      ],
+      "dawkowanie": "Płukać 2–3 razy dziennie przez 3–5 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Arcydzięgiel litwor",
+      "nazwa_lacinska": "Angelica archangelica",
+      "slug": "arcydziegiel_litwor"
+    },
+    {
+      "tytul": "Okład z prawoślaz lekarski",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [],
+      "skladniki": [
+        "Świeże liście/pędy prawoślaz lekarski — najlepiej świeże i młode",
+        "Gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść na papkę.",
+        "Nałożyć na gazę i przyłożyć do skóry na 15–30 minut."
+      ],
+      "dawkowanie": "2–3 razy dziennie do ustąpienia dolegliwości.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Różański — Fitoterapia i leki roślinne"
+      ],
+      "roslina": "Prawoślaz lekarski",
+      "nazwa_lacinska": "Althaea officinalis",
+      "slug": "prawoslaz_lekarski"
+    },
+    {
+      "tytul": "Maść z głóg jednoszyjkowy",
+      "typ": "medyczne",
+      "metoda": "maść",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki głóg jednoszyjkowy — suszone, rozdrobnione",
+        "100 ml oleju (oliwa/olej kokosowy)",
+        "szczypta wosku pszczelego (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec podgrzewać w oleju w kąpieli wodnej 45–60 minut.",
+        "Przecedzić, dodać wosk i przelać do słoiczka."
+      ],
+      "dawkowanie": "Stosować zewnętrznie 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Farmakopea Polska"
+      ],
+      "roslina": "Głóg jednoszyjkowy",
+      "nazwa_lacinska": "Crataegus monogyna",
+      "slug": "glog_jednoszyjkowy"
+    },
+    {
+      "tytul": "Syrop z skrzyp polny",
+      "typ": "medyczne",
+      "metoda": "syrop",
+      "tagi": [],
+      "skladniki": [
+        "100 g skrzyp polny — świeże, młode części",
+        "250 ml wody",
+        "200 g cukru lub miodu"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec gotować w wodzie 10–15 minut.",
+        "Odcedzić, dodać cukier/miód i odparować do konsystencji syropu."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "Inhalacja z sosna zwyczajna",
+      "typ": "medyczne",
+      "metoda": "inhalacja",
+      "tagi": [],
+      "skladniki": [
+        "3–5 kropli olejku/odwaru z sosna zwyczajna (jeśli dotyczy aromatycznych surowców)",
+        "1 litr gorącej wody"
+      ],
+      "sposob_przygotowania": [
+        "Dodać do gorącej wody.",
+        "Wdychać parę 5–10 minut, zachowując ostrożność."
+      ],
+      "dawkowanie": "1–2 razy dziennie przez 3 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "EMA Community herbal monographs"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Kąpiel z odwarem z szczawik zajęczy",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [],
+      "skladniki": [
+        "3 garście świeżego lub 2 garście suszonego szczawik zajęczy",
+        "2–3 litry wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować surowiec 15–20 minut.",
+        "Odcedzić i wlać odwar do kąpieli (37–39°C), kąpać 15–20 minut."
+      ],
+      "dawkowanie": "2–3 razy w tygodniu.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "Nalewka z żankiel zwyczajny",
+      "typ": "medyczne",
+      "metoda": "nalewka",
+      "tagi": [],
+      "skladniki": [
+        "50 g żankiel zwyczajny — suszone (lub 100 g świeże, młode)",
+        "250 ml alkoholu 40–60% (wódka/rozcieńczony spirytus)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec alkoholem w słoju.",
+        "Odstawić w ciemne miejsce na 10–14 dni, codziennie wstrząsać.",
+        "Przecedzić do butelki."
+      ],
+      "dawkowanie": "10–20 kropli 1–3 razy dziennie (zewnętrznie: do nacierania).",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Klimuszko — Wróćmy do ziół"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Proszek z suszu świerząbek bulwiasty",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [],
+      "skladniki": [
+        "Susz świerząbek bulwiasty — dobrze wysuszony, rozdrobniony (suszone, młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek w młynku.",
+        "Przechowywać w szczelnym słoiku; stosować wg potrzeb."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2 razy dziennie popić wodą.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Ożarowski, Jaroniewski — Rośliny lecznicze i ich praktyczne zastosowanie"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "Napar z pokrzywa zwyczajna",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka pokrzywa zwyczajna — suszone, młode części",
+        "250 ml wrzątku (świeża woda)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec zalać wrzątkiem.",
+        "Parzyć pod przykryciem 10–15 minut.",
+        "Przecedzić i pić świeży."
+      ],
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie przez 7–14 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "EMA Community herbal monographs"
+      ],
+      "roslina": "Pokrzywa zwyczajna",
+      "nazwa_lacinska": "Urtica dioica",
+      "slug": "pokrzywa_zwyczajna"
+    },
+    {
+      "tytul": "Odwar z rumianek pospolity",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżeczki rumianek pospolity — suszone (kora/korzeń/liście odpowiednio)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Doprowadzić do wrzenia i gotować 10–20 minut na małym ogniu.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku przez 5–10 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Różański — Fitoterapia i leki roślinne"
+      ],
+      "roslina": "Rumianek pospolity",
+      "nazwa_lacinska": "Matricaria chamomilla",
+      "slug": "rumianek_pospolity"
+    },
+    {
+      "tytul": "Macerat na zimno z nagietek lekarski",
+      "typ": "medyczne",
+      "metoda": "macerat",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka nagietek lekarski — świeże, drobno posiekane, najlepiej młode",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Odstawić na 6–8 godzin pod przykryciem.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano przez 5–7 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Klimuszko — Wróćmy do ziół"
+      ],
+      "roslina": "Nagietek lekarski",
+      "nazwa_lacinska": "Calendula officinalis",
+      "slug": "nagietek_lekarski"
+    },
+    {
+      "tytul": "Płukanka z dzika róża",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka dzika róża — suszone, młode części",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć jak napar (10–15 minut).",
+        "Po ostudzeniu używać do płukania jamy ustnej/gardła."
+      ],
+      "dawkowanie": "Płukać 2–3 razy dziennie przez 3–5 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Klimuszko — Wróćmy do ziół"
+      ],
+      "roslina": "Dzika róża",
+      "nazwa_lacinska": "Rosa canina",
+      "slug": "dzika_roza"
+    },
+    {
+      "tytul": "Okład z bez czarny",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [],
+      "skladniki": [
+        "Świeże liście/pędy bez czarny — najlepiej świeże i młode",
+        "Gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść na papkę.",
+        "Nałożyć na gazę i przyłożyć do skóry na 15–30 minut."
+      ],
+      "dawkowanie": "2–3 razy dziennie do ustąpienia dolegliwości.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Farmakopea Polska"
+      ],
+      "roslina": "Bez czarny",
+      "nazwa_lacinska": "Sambucus nigra",
+      "slug": "bez_czarny"
+    },
+    {
+      "tytul": "Maść z lipa drobnolistna",
+      "typ": "medyczne",
+      "metoda": "maść",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki lipa drobnolistna — suszone, rozdrobnione",
+        "100 ml oleju (oliwa/olej kokosowy)",
+        "szczypta wosku pszczelego (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec podgrzewać w oleju w kąpieli wodnej 45–60 minut.",
+        "Przecedzić, dodać wosk i przelać do słoiczka."
+      ],
+      "dawkowanie": "Stosować zewnętrznie 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Różański — Fitoterapia i leki roślinne"
+      ],
+      "roslina": "Lipa drobnolistna",
+      "nazwa_lacinska": "Tilia cordata",
+      "slug": "lipa_drobnolistna"
+    },
+    {
+      "tytul": "Syrop z krwawnik pospolity",
+      "typ": "medyczne",
+      "metoda": "syrop",
+      "tagi": [],
+      "skladniki": [
+        "100 g krwawnik pospolity — świeże, młode części",
+        "250 ml wody",
+        "200 g cukru lub miodu"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec gotować w wodzie 10–15 minut.",
+        "Odcedzić, dodać cukier/miód i odparować do konsystencji syropu."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "EMA Community herbal monographs"
+      ],
+      "roslina": "Krwawnik pospolity",
+      "nazwa_lacinska": "Achillea millefolium",
+      "slug": "krwawnik_pospolity"
+    },
+    {
+      "tytul": "Inhalacja z mniszek lekarski",
+      "typ": "medyczne",
+      "metoda": "inhalacja",
+      "tagi": [],
+      "skladniki": [
+        "3–5 kropli olejku/odwaru z mniszek lekarski (jeśli dotyczy aromatycznych surowców)",
+        "1 litr gorącej wody"
+      ],
+      "sposob_przygotowania": [
+        "Dodać do gorącej wody.",
+        "Wdychać parę 5–10 minut, zachowując ostrożność."
+      ],
+      "dawkowanie": "1–2 razy dziennie przez 3 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Klimuszko — Wróćmy do ziół"
+      ],
+      "roslina": "Mniszek lekarski",
+      "nazwa_lacinska": "Taraxacum officinale",
+      "slug": "mniszek_lekarski"
+    },
+    {
+      "tytul": "Kąpiel z odwarem z babka lancetowata",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [],
+      "skladniki": [
+        "3 garście świeżego lub 2 garście suszonego babka lancetowata",
+        "2–3 litry wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować surowiec 15–20 minut.",
+        "Odcedzić i wlać odwar do kąpieli (37–39°C), kąpać 15–20 minut."
+      ],
+      "dawkowanie": "2–3 razy w tygodniu.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Babka lancetowata",
+      "nazwa_lacinska": "Plantago lanceolata",
+      "slug": "babka_lancetowata"
+    },
+    {
+      "tytul": "Nalewka z podbiał pospolity",
+      "typ": "medyczne",
+      "metoda": "nalewka",
+      "tagi": [],
+      "skladniki": [
+        "50 g podbiał pospolity — suszone (lub 100 g świeże, młode)",
+        "250 ml alkoholu 40–60% (wódka/rozcieńczony spirytus)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec alkoholem w słoju.",
+        "Odstawić w ciemne miejsce na 10–14 dni, codziennie wstrząsać.",
+        "Przecedzić do butelki."
+      ],
+      "dawkowanie": "10–20 kropli 1–3 razy dziennie (zewnętrznie: do nacierania).",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Farmakopea Polska"
+      ],
+      "roslina": "Podbiał pospolity",
+      "nazwa_lacinska": "Tussilago farfara",
+      "slug": "podbial_pospolity"
+    },
+    {
+      "tytul": "Proszek z suszu dziurawiec zwyczajny",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [],
+      "skladniki": [
+        "Susz dziurawiec zwyczajny — dobrze wysuszony, rozdrobniony (suszone, młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek w młynku.",
+        "Przechowywać w szczelnym słoiku; stosować wg potrzeb."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2 razy dziennie popić wodą.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Ożarowski, Jaroniewski — Rośliny lecznicze i ich praktyczne zastosowanie"
+      ],
+      "roslina": "Dziurawiec zwyczajny",
+      "nazwa_lacinska": "Hypericum perforatum",
+      "slug": "dziurawiec_zwyczajny"
+    },
+    {
+      "tytul": "Napar z szałwia lekarska",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka szałwia lekarska — suszone, młode części",
+        "250 ml wrzątku (świeża woda)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec zalać wrzątkiem.",
+        "Parzyć pod przykryciem 10–15 minut.",
+        "Przecedzić i pić świeży."
+      ],
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie przez 7–14 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Ożarowski, Jaroniewski — Rośliny lecznicze i ich praktyczne zastosowanie"
+      ],
+      "roslina": "Szałwia lekarska",
+      "nazwa_lacinska": "Salvia officinalis",
+      "slug": "szalwia_lekarska"
+    },
+    {
+      "tytul": "Odwar z tymianek pospolity",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżeczki tymianek pospolity — suszone (kora/korzeń/liście odpowiednio)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Doprowadzić do wrzenia i gotować 10–20 minut na małym ogniu.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku przez 5–10 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Różański — Fitoterapia i leki roślinne"
+      ],
+      "roslina": "Tymianek pospolity",
+      "nazwa_lacinska": "Thymus vulgaris",
+      "slug": "tymianek_pospolity"
+    },
+    {
+      "tytul": "Macerat na zimno z mięta pieprzowa",
+      "typ": "medyczne",
+      "metoda": "macerat",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka mięta pieprzowa — świeże, drobno posiekane, najlepiej młode",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Odstawić na 6–8 godzin pod przykryciem.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano przez 5–7 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Klimuszko — Wróćmy do ziół"
+      ],
+      "roslina": "Mięta pieprzowa",
+      "nazwa_lacinska": "Mentha x piperita",
+      "slug": "mieta_pieprzowa"
+    },
+    {
+      "tytul": "Płukanka z melisa lekarska",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka melisa lekarska — suszone, młode części",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć jak napar (10–15 minut).",
+        "Po ostudzeniu używać do płukania jamy ustnej/gardła."
+      ],
+      "dawkowanie": "Płukać 2–3 razy dziennie przez 3–5 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Commission E Monograph"
+      ],
+      "roslina": "Melisa lekarska",
+      "nazwa_lacinska": "Melissa officinalis",
+      "slug": "melisa_lekarska"
+    },
+    {
+      "tytul": "Okład z koper włoski",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [],
+      "skladniki": [
+        "Świeże liście/pędy koper włoski — najlepiej świeże i młode",
+        "Gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść na papkę.",
+        "Nałożyć na gazę i przyłożyć do skóry na 15–30 minut."
+      ],
+      "dawkowanie": "2–3 razy dziennie do ustąpienia dolegliwości.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "EMA Community herbal monographs"
+      ],
+      "roslina": "Koper włoski",
+      "nazwa_lacinska": "Foeniculum vulgare",
+      "slug": "koper_wloski"
+    },
+    {
+      "tytul": "Maść z anyż",
+      "typ": "medyczne",
+      "metoda": "maść",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki anyż — suszone, rozdrobnione",
+        "100 ml oleju (oliwa/olej kokosowy)",
+        "szczypta wosku pszczelego (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec podgrzewać w oleju w kąpieli wodnej 45–60 minut.",
+        "Przecedzić, dodać wosk i przelać do słoiczka."
+      ],
+      "dawkowanie": "Stosować zewnętrznie 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "ESCOP Monographs"
+      ],
+      "roslina": "Anyż",
+      "nazwa_lacinska": "Pimpinella anisum",
+      "slug": "anyz"
+    },
+    {
+      "tytul": "Syrop z arcydzięgiel litwor",
+      "typ": "medyczne",
+      "metoda": "syrop",
+      "tagi": [],
+      "skladniki": [
+        "100 g arcydzięgiel litwor — świeże, młode części",
+        "250 ml wody",
+        "200 g cukru lub miodu"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec gotować w wodzie 10–15 minut.",
+        "Odcedzić, dodać cukier/miód i odparować do konsystencji syropu."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Ożarowski, Jaroniewski — Rośliny lecznicze i ich praktyczne zastosowanie"
+      ],
+      "roslina": "Arcydzięgiel litwor",
+      "nazwa_lacinska": "Angelica archangelica",
+      "slug": "arcydziegiel_litwor"
+    },
+    {
+      "tytul": "Inhalacja z prawoślaz lekarski",
+      "typ": "medyczne",
+      "metoda": "inhalacja",
+      "tagi": [],
+      "skladniki": [
+        "3–5 kropli olejku/odwaru z prawoślaz lekarski (jeśli dotyczy aromatycznych surowców)",
+        "1 litr gorącej wody"
+      ],
+      "sposob_przygotowania": [
+        "Dodać do gorącej wody.",
+        "Wdychać parę 5–10 minut, zachowując ostrożność."
+      ],
+      "dawkowanie": "1–2 razy dziennie przez 3 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Ożarowski, Jaroniewski — Rośliny lecznicze i ich praktyczne zastosowanie"
+      ],
+      "roslina": "Prawoślaz lekarski",
+      "nazwa_lacinska": "Althaea officinalis",
+      "slug": "prawoslaz_lekarski"
+    },
+    {
+      "tytul": "Kąpiel z odwarem z głóg jednoszyjkowy",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [],
+      "skladniki": [
+        "3 garście świeżego lub 2 garście suszonego głóg jednoszyjkowy",
+        "2–3 litry wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować surowiec 15–20 minut.",
+        "Odcedzić i wlać odwar do kąpieli (37–39°C), kąpać 15–20 minut."
+      ],
+      "dawkowanie": "2–3 razy w tygodniu.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Różański — Fitoterapia i leki roślinne"
+      ],
+      "roslina": "Głóg jednoszyjkowy",
+      "nazwa_lacinska": "Crataegus monogyna",
+      "slug": "glog_jednoszyjkowy"
+    },
+    {
+      "tytul": "Nalewka z skrzyp polny",
+      "typ": "medyczne",
+      "metoda": "nalewka",
+      "tagi": [],
+      "skladniki": [
+        "50 g skrzyp polny — suszone (lub 100 g świeże, młode)",
+        "250 ml alkoholu 40–60% (wódka/rozcieńczony spirytus)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec alkoholem w słoju.",
+        "Odstawić w ciemne miejsce na 10–14 dni, codziennie wstrząsać.",
+        "Przecedzić do butelki."
+      ],
+      "dawkowanie": "10–20 kropli 1–3 razy dziennie (zewnętrznie: do nacierania).",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "Proszek z suszu sosna zwyczajna",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [],
+      "skladniki": [
+        "Susz sosna zwyczajna — dobrze wysuszony, rozdrobniony (suszone, młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek w młynku.",
+        "Przechowywać w szczelnym słoiku; stosować wg potrzeb."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2 razy dziennie popić wodą.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Ożarowski, Jaroniewski — Rośliny lecznicze i ich praktyczne zastosowanie"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Napar z szczawik zajęczy",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka szczawik zajęczy — suszone, młode części",
+        "250 ml wrzątku (świeża woda)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec zalać wrzątkiem.",
+        "Parzyć pod przykryciem 10–15 minut.",
+        "Przecedzić i pić świeży."
+      ],
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie przez 7–14 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Commission E Monograph"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "Odwar z żankiel zwyczajny",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżeczki żankiel zwyczajny — suszone (kora/korzeń/liście odpowiednio)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Doprowadzić do wrzenia i gotować 10–20 minut na małym ogniu.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku przez 5–10 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Macerat na zimno z świerząbek bulwiasty",
+      "typ": "medyczne",
+      "metoda": "macerat",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka świerząbek bulwiasty — świeże, drobno posiekane, najlepiej młode",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Odstawić na 6–8 godzin pod przykryciem.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano przez 5–7 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "PFAF (Plants For A Future) database"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "Płukanka z pokrzywa zwyczajna",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka pokrzywa zwyczajna — suszone, młode części",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć jak napar (10–15 minut).",
+        "Po ostudzeniu używać do płukania jamy ustnej/gardła."
+      ],
+      "dawkowanie": "Płukać 2–3 razy dziennie przez 3–5 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Klimuszko — Wróćmy do ziół"
+      ],
+      "roslina": "Pokrzywa zwyczajna",
+      "nazwa_lacinska": "Urtica dioica",
+      "slug": "pokrzywa_zwyczajna"
+    },
+    {
+      "tytul": "Okład z rumianek pospolity",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [],
+      "skladniki": [
+        "Świeże liście/pędy rumianek pospolity — najlepiej świeże i młode",
+        "Gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść na papkę.",
+        "Nałożyć na gazę i przyłożyć do skóry na 15–30 minut."
+      ],
+      "dawkowanie": "2–3 razy dziennie do ustąpienia dolegliwości.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Różański — Fitoterapia i leki roślinne"
+      ],
+      "roslina": "Rumianek pospolity",
+      "nazwa_lacinska": "Matricaria chamomilla",
+      "slug": "rumianek_pospolity"
+    },
+    {
+      "tytul": "Maść z nagietek lekarski",
+      "typ": "medyczne",
+      "metoda": "maść",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki nagietek lekarski — suszone, rozdrobnione",
+        "100 ml oleju (oliwa/olej kokosowy)",
+        "szczypta wosku pszczelego (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec podgrzewać w oleju w kąpieli wodnej 45–60 minut.",
+        "Przecedzić, dodać wosk i przelać do słoiczka."
+      ],
+      "dawkowanie": "Stosować zewnętrznie 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Ożarowski, Jaroniewski — Rośliny lecznicze i ich praktyczne zastosowanie"
+      ],
+      "roslina": "Nagietek lekarski",
+      "nazwa_lacinska": "Calendula officinalis",
+      "slug": "nagietek_lekarski"
+    },
+    {
+      "tytul": "Syrop z dzika róża",
+      "typ": "medyczne",
+      "metoda": "syrop",
+      "tagi": [],
+      "skladniki": [
+        "100 g dzika róża — świeże, młode części",
+        "250 ml wody",
+        "200 g cukru lub miodu"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec gotować w wodzie 10–15 minut.",
+        "Odcedzić, dodać cukier/miód i odparować do konsystencji syropu."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "EMA Community herbal monographs"
+      ],
+      "roslina": "Dzika róża",
+      "nazwa_lacinska": "Rosa canina",
+      "slug": "dzika_roza"
+    },
+    {
+      "tytul": "Inhalacja z bez czarny",
+      "typ": "medyczne",
+      "metoda": "inhalacja",
+      "tagi": [],
+      "skladniki": [
+        "3–5 kropli olejku/odwaru z bez czarny (jeśli dotyczy aromatycznych surowców)",
+        "1 litr gorącej wody"
+      ],
+      "sposob_przygotowania": [
+        "Dodać do gorącej wody.",
+        "Wdychać parę 5–10 minut, zachowując ostrożność."
+      ],
+      "dawkowanie": "1–2 razy dziennie przez 3 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "ESCOP Monographs"
+      ],
+      "roslina": "Bez czarny",
+      "nazwa_lacinska": "Sambucus nigra",
+      "slug": "bez_czarny"
+    },
+    {
+      "tytul": "Kąpiel z odwarem z lipa drobnolistna",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [],
+      "skladniki": [
+        "3 garście świeżego lub 2 garście suszonego lipa drobnolistna",
+        "2–3 litry wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować surowiec 15–20 minut.",
+        "Odcedzić i wlać odwar do kąpieli (37–39°C), kąpać 15–20 minut."
+      ],
+      "dawkowanie": "2–3 razy w tygodniu.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Commission E Monograph"
+      ],
+      "roslina": "Lipa drobnolistna",
+      "nazwa_lacinska": "Tilia cordata",
+      "slug": "lipa_drobnolistna"
+    },
+    {
+      "tytul": "Nalewka z krwawnik pospolity",
+      "typ": "medyczne",
+      "metoda": "nalewka",
+      "tagi": [],
+      "skladniki": [
+        "50 g krwawnik pospolity — suszone (lub 100 g świeże, młode)",
+        "250 ml alkoholu 40–60% (wódka/rozcieńczony spirytus)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec alkoholem w słoju.",
+        "Odstawić w ciemne miejsce na 10–14 dni, codziennie wstrząsać.",
+        "Przecedzić do butelki."
+      ],
+      "dawkowanie": "10–20 kropli 1–3 razy dziennie (zewnętrznie: do nacierania).",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Commission E Monograph"
+      ],
+      "roslina": "Krwawnik pospolity",
+      "nazwa_lacinska": "Achillea millefolium",
+      "slug": "krwawnik_pospolity"
+    },
+    {
+      "tytul": "Proszek z suszu mniszek lekarski",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [],
+      "skladniki": [
+        "Susz mniszek lekarski — dobrze wysuszony, rozdrobniony (suszone, młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek w młynku.",
+        "Przechowywać w szczelnym słoiku; stosować wg potrzeb."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2 razy dziennie popić wodą.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Commission E Monograph"
+      ],
+      "roslina": "Mniszek lekarski",
+      "nazwa_lacinska": "Taraxacum officinale",
+      "slug": "mniszek_lekarski"
+    },
+    {
+      "tytul": "Napar z babka lancetowata",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka babka lancetowata — suszone, młode części",
+        "250 ml wrzątku (świeża woda)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec zalać wrzątkiem.",
+        "Parzyć pod przykryciem 10–15 minut.",
+        "Przecedzić i pić świeży."
+      ],
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie przez 7–14 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Różański — Fitoterapia i leki roślinne"
+      ],
+      "roslina": "Babka lancetowata",
+      "nazwa_lacinska": "Plantago lanceolata",
+      "slug": "babka_lancetowata"
+    },
+    {
+      "tytul": "Odwar z podbiał pospolity",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżeczki podbiał pospolity — suszone (kora/korzeń/liście odpowiednio)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Doprowadzić do wrzenia i gotować 10–20 minut na małym ogniu.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku przez 5–10 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Ożarowski, Jaroniewski — Rośliny lecznicze i ich praktyczne zastosowanie"
+      ],
+      "roslina": "Podbiał pospolity",
+      "nazwa_lacinska": "Tussilago farfara",
+      "slug": "podbial_pospolity"
+    },
+    {
+      "tytul": "Macerat na zimno z dziurawiec zwyczajny",
+      "typ": "medyczne",
+      "metoda": "macerat",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka dziurawiec zwyczajny — świeże, drobno posiekane, najlepiej młode",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą.",
+        "Odstawić na 6–8 godzin pod przykryciem.",
+        "Przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano przez 5–7 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "ESCOP Monographs"
+      ],
+      "roslina": "Dziurawiec zwyczajny",
+      "nazwa_lacinska": "Hypericum perforatum",
+      "slug": "dziurawiec_zwyczajny"
+    },
+    {
+      "tytul": "Płukanka z szałwia lekarska",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka szałwia lekarska — suszone, młode części",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć jak napar (10–15 minut).",
+        "Po ostudzeniu używać do płukania jamy ustnej/gardła."
+      ],
+      "dawkowanie": "Płukać 2–3 razy dziennie przez 3–5 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Ożarowski, Jaroniewski — Rośliny lecznicze i ich praktyczne zastosowanie"
+      ],
+      "roslina": "Szałwia lekarska",
+      "nazwa_lacinska": "Salvia officinalis",
+      "slug": "szalwia_lekarska"
+    },
+    {
+      "tytul": "Okład z tymianek pospolity",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [],
+      "skladniki": [
+        "Świeże liście/pędy tymianek pospolity — najlepiej świeże i młode",
+        "Gaza opatrunkowa"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść na papkę.",
+        "Nałożyć na gazę i przyłożyć do skóry na 15–30 minut."
+      ],
+      "dawkowanie": "2–3 razy dziennie do ustąpienia dolegliwości.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Farmakopea Polska"
+      ],
+      "roslina": "Tymianek pospolity",
+      "nazwa_lacinska": "Thymus vulgaris",
+      "slug": "tymianek_pospolity"
+    },
+    {
+      "tytul": "Maść z mięta pieprzowa",
+      "typ": "medyczne",
+      "metoda": "maść",
+      "tagi": [],
+      "skladniki": [
+        "2 łyżki mięta pieprzowa — suszone, rozdrobnione",
+        "100 ml oleju (oliwa/olej kokosowy)",
+        "szczypta wosku pszczelego (opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec podgrzewać w oleju w kąpieli wodnej 45–60 minut.",
+        "Przecedzić, dodać wosk i przelać do słoiczka."
+      ],
+      "dawkowanie": "Stosować zewnętrznie 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "ESCOP Monographs"
+      ],
+      "roslina": "Mięta pieprzowa",
+      "nazwa_lacinska": "Mentha x piperita",
+      "slug": "mieta_pieprzowa"
+    },
+    {
+      "tytul": "Syrop z melisa lekarska",
+      "typ": "medyczne",
+      "metoda": "syrop",
+      "tagi": [],
+      "skladniki": [
+        "100 g melisa lekarska — świeże, młode części",
+        "250 ml wody",
+        "200 g cukru lub miodu"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec gotować w wodzie 10–15 minut.",
+        "Odcedzić, dodać cukier/miód i odparować do konsystencji syropu."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3 razy dziennie.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Farmakopea Polska"
+      ],
+      "roslina": "Melisa lekarska",
+      "nazwa_lacinska": "Melissa officinalis",
+      "slug": "melisa_lekarska"
+    },
+    {
+      "tytul": "Inhalacja z koper włoski",
+      "typ": "medyczne",
+      "metoda": "inhalacja",
+      "tagi": [],
+      "skladniki": [
+        "3–5 kropli olejku/odwaru z koper włoski (jeśli dotyczy aromatycznych surowców)",
+        "1 litr gorącej wody"
+      ],
+      "sposob_przygotowania": [
+        "Dodać do gorącej wody.",
+        "Wdychać parę 5–10 minut, zachowując ostrożność."
+      ],
+      "dawkowanie": "1–2 razy dziennie przez 3 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Commission E Monograph"
+      ],
+      "roslina": "Koper włoski",
+      "nazwa_lacinska": "Foeniculum vulgare",
+      "slug": "koper_wloski"
+    },
+    {
+      "tytul": "Kąpiel z odwarem z anyż",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [],
+      "skladniki": [
+        "3 garście świeżego lub 2 garście suszonego anyż",
+        "2–3 litry wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować surowiec 15–20 minut.",
+        "Odcedzić i wlać odwar do kąpieli (37–39°C), kąpać 15–20 minut."
+      ],
+      "dawkowanie": "2–3 razy w tygodniu.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "EMA Community herbal monographs"
+      ],
+      "roslina": "Anyż",
+      "nazwa_lacinska": "Pimpinella anisum",
+      "slug": "anyz"
+    },
+    {
+      "tytul": "Nalewka z arcydzięgiel litwor",
+      "typ": "medyczne",
+      "metoda": "nalewka",
+      "tagi": [],
+      "skladniki": [
+        "50 g arcydzięgiel litwor — suszone (lub 100 g świeże, młode)",
+        "250 ml alkoholu 40–60% (wódka/rozcieńczony spirytus)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać surowiec alkoholem w słoju.",
+        "Odstawić w ciemne miejsce na 10–14 dni, codziennie wstrząsać.",
+        "Przecedzić do butelki."
+      ],
+      "dawkowanie": "10–20 kropli 1–3 razy dziennie (zewnętrznie: do nacierania).",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "ESCOP Monographs"
+      ],
+      "roslina": "Arcydzięgiel litwor",
+      "nazwa_lacinska": "Angelica archangelica",
+      "slug": "arcydziegiel_litwor"
+    },
+    {
+      "tytul": "Proszek z suszu prawoślaz lekarski",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [],
+      "skladniki": [
+        "Susz prawoślaz lekarski — dobrze wysuszony, rozdrobniony (suszone, młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek w młynku.",
+        "Przechowywać w szczelnym słoiku; stosować wg potrzeb."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2 razy dziennie popić wodą.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Commission E Monograph"
+      ],
+      "roslina": "Prawoślaz lekarski",
+      "nazwa_lacinska": "Althaea officinalis",
+      "slug": "prawoslaz_lekarski"
+    },
+    {
+      "tytul": "Napar z głóg jednoszyjkowy",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [],
+      "skladniki": [
+        "1 łyżka głóg jednoszyjkowy — suszone, młode części",
+        "250 ml wrzątku (świeża woda)"
+      ],
+      "sposob_przygotowania": [
+        "Surowiec zalać wrzątkiem.",
+        "Parzyć pod przykryciem 10–15 minut.",
+        "Przecedzić i pić świeży."
+      ],
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie przez 7–14 dni.",
+      "uwagi": "Nie stosować w ciąży i u dzieci bez konsultacji; przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Różański — Fitoterapia i leki roślinne"
+      ],
+      "roslina": "Głóg jednoszyjkowy",
+      "nazwa_lacinska": "Crataegus monogyna",
+      "slug": "glog_jednoszyjkowy"
     }
+
   ]
 }
