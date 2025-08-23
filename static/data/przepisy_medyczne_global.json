@@ -9712,6 +9712,39 @@
       "roslina": "Chmiel zwyczajny",
       "nazwa_lacinska": "Humulus lupulus",
       "slug": "chmiel_zwyczajny"
+    },
+    {
+      "tytul": "Syrop z mniszka lekarskiego (miodek)",
+      "skladniki": [
+        "250–500 świeżych kwiatów mniszka lekarskiego (najlepiej młode, świeżo zebrane w słoneczny dzień)",
+        "0,5–1 litr wody",
+        "0,5–1 kg cukru",
+        "sok z 1–2 cytryn (świeżych, dojrzałych)",
+        "opcjonalnie: 1 gałązka tymianku (najlepiej świeżego) dla właściwości wykrztuśnych"
+      ],
+      "sposob_przygotowania": [
+        "Kwiaty mniszka lekarskiego oczyścić, zalać wodą i gotować około 10 minut na małym ogniu.",
+        "Odstawić wywar na 24 godziny w chłodne miejsce.",
+        "Następnie odcedzić płyn, dodać cukier i sok z cytryny, dokładnie wymieszać.",
+        "Gotować całość przez około 3 godziny na małym ogniu, aż syrop zgęstnieje i nabierze konsystencji miodu. Regularnie mieszać, by nie przywarł do dna garnka.",
+        "Przelać gorący syrop do wyparzonych słoików lub szklanych butelek i szczelnie zamknąć."
+      ],
+      "cechy": [
+        "Złocista barwa przypominająca miód",
+        "Słodki, kwiatowy smak z delikatną nutą cytryny",
+        "Gęsta konsystencja zbliżona do miodu"
+      ],
+      "wlasciwosci": [
+        "wzmacnia odporność",
+        "łagodzi podrażnienia gardła",
+        "działa przeciwzapalnie",
+        "wspiera rekonwalescencję przy przeziębieniach i infekcjach dróg oddechowych"
+      ],
+      "zastosowanie": "Spożywać w małych ilościach (2–3 łyżeczki dziennie) w celu profilaktyki i podczas infekcji. Można stosować jako dodatek do herbaty lub pieczywa.",
+      "dawkowanie": "Dorośli i dzieci powyżej 3 roku życia: 2–3 łyżeczki dziennie. Nie stosować w nadmiarze przy cukrzycy.",
+      "zrodlo": [
+        "https://superbutelki.pl/pl/blog/Przepis-na-domowy-syrop-z-mniszka-lekarskiego/20"
+      ]
     }
 
   ]
