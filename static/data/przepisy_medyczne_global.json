@@ -20,7 +20,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Zielonkawy napar, lekko ziołowy, gorzki smak"
+      ],
+      "wlasciwosci": [
+        "moczopędny, remineralizujący, wzmacnia naczynia i skórę"
+      ]
     },
     {
       "tytul": "odwar na wzmocnienie kości",
@@ -39,7 +45,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Intensywnie zielony płyn, wyraźny ziołowy zapach"
+      ],
+      "wlasciwosci": [
+        "bogaty w krzemionkę, wzmacnia kości i stawy, wspomaga regenerację skóry"
+      ]
     },
     {
       "tytul": "kąpiel na rany i skórę",
@@ -58,7 +70,14 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Wywar do kąpieli, delikatny zapach, wyczuwalna szorstkość",
+        "Można stosować do moczenia stóp i dłoni"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie skóry, łagodzi stany zapalne, wzmacnia paznokcie"
+      ]
     },
     {
       "tytul": "płukanka do włosów",
@@ -77,7 +96,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Chłodny, jasnozielony płyn, ziołowy zapach"
+      ],
+      "wlasciwosci": [
+        "wzmacnia włosy, ogranicza łupież i łamliwość"
+      ]
     },
     {
       "tytul": "kompres na opuchliznę",
@@ -97,7 +122,15 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Ziołowy kompres, chłodzący efekt",
+        "Orzeźwiający efekt"
+      ],
+      "wlasciwosci": [
+        "łagodzi obrzęki, przyspiesza wchłanianie siniaków",
+        "zmniejsza opuchliznę, przyspiesza regenerację"
+      ]
     },
     {
       "tytul": "herbatka mineralizująca",
@@ -117,7 +150,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Zielony, lekko trawiasty smak"
+      ],
+      "wlasciwosci": [
+        "odtruwa, remineralizuje, działa moczopędnie"
+      ]
     },
     {
       "tytul": "macerat na uklad moczowy",
@@ -136,7 +175,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Lekko zielony, orzeźwiający"
+      ],
+      "wlasciwosci": [
+        "łagodny dla nerek, wspiera filtrację"
+      ]
     },
     {
       "tytul": "syrop skrzypowy na kaszel",
@@ -156,7 +201,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Intensywny, słodki, lekko ziemisty"
+      ],
+      "wlasciwosci": [
+        "łagodzi kaszel, działa delikatnie wykrztuśnie"
+      ]
     },
     {
       "tytul": "maść skrzypowa na zadrapania",
@@ -176,7 +227,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Zielonkawa, lekko ziemista maść"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, łagodzi swędzenie"
+      ]
     },
     {
       "tytul": "okład na stawy z skrzypu",
@@ -195,7 +252,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Chłodzący, ziołowy kompres"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalny, łagodzący ból"
+      ]
     },
     {
       "tytul": "kąpiel na grzybicę stóp",
@@ -214,7 +277,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Łagodnie dezynfekująca"
+      ],
+      "wlasciwosci": [
+        "działa przeciwgrzybiczo i przeciwzapalnie"
+      ]
     },
     {
       "tytul": "mikstura na krwawienia z dziąseł",
@@ -233,7 +302,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Ziołowy, lekko gorzki"
+      ],
+      "wlasciwosci": [
+        "uszczelnia naczynia krwionośne"
+      ]
     },
     {
       "tytul": "herbatka z pietruszką na obrzęki",
@@ -253,7 +328,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Ziołowy aromat, zielony kolor"
+      ],
+      "wlasciwosci": [
+        "silnie moczopędna, przeciwobrzękowa"
+      ]
     },
     {
       "tytul": "napar na suchość skóry",
@@ -273,7 +354,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Łagodzący płyn"
+      ],
+      "wlasciwosci": [
+        "nawilża, wspiera regenerację"
+      ]
     },
     {
       "tytul": "krople na zmęczone oczy",
@@ -292,7 +379,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Odświeżające, łagodne"
+      ],
+      "wlasciwosci": [
+        "łagodzi podrażnienie, zmniejsza zaczerwienienie"
+      ]
     },
     {
       "tytul": "nalewka skrzypowa na siniaki",
@@ -311,7 +404,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Intensywnie zielona nalewka"
+      ],
+      "wlasciwosci": [
+        "przyspiesza wchłanianie siniaków"
+      ]
     },
     {
       "tytul": "mieszanka remineralizująca skrzyp pokrzywa liście brzozy",
@@ -332,7 +431,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Wyrazisty ziołowy smak, bogaty w minerały"
+      ],
+      "wlasciwosci": [
+        "wzmacnia kości, wspiera funkcjonowanie nerek"
+      ]
     },
     {
       "tytul": "ziołowa kąpiel na stawy skrzyp liście dębu korzeń żywokostu",
@@ -353,7 +458,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Intensywny, ziemisty aromat"
+      ],
+      "wlasciwosci": [
+        "łagodzi bóle stawów, regeneruje skórę"
+      ]
     },
     {
       "tytul": "Syrop z pędów sosny",
@@ -373,7 +484,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Słodki, intensywnie żywiczny aromat"
+      ],
+      "wlasciwosci": [
+        "wykrztuśny, wzmacniający"
+      ]
     },
     {
       "tytul": "Napar z igieł",
@@ -392,7 +509,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Orzeźwiający, żywiczny smak"
+      ],
+      "wlasciwosci": [
+        "bogaty w witaminę C, wzmacniający odporność"
+      ]
     },
     {
       "tytul": "inhalacja z olejku sosnowego",
@@ -411,7 +534,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Intensywny, świeży aromat"
+      ],
+      "wlasciwosci": [
+        "udrażnia drogi oddechowe, działa przeciwbakteryjnie"
+      ]
     },
     {
       "tytul": "kąpiel z pędów i igieł",
@@ -430,7 +559,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Aromatyczna, relaksująca kąpiel"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalna, łagodzi bóle mięśni i stawów"
+      ]
     },
     {
       "tytul": "Maść żywiczna",
@@ -449,7 +584,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Aromatyczna, półprzezroczysta maść"
+      ],
+      "wlasciwosci": [
+        "gojąca, antyseptyczna"
+      ]
     },
     {
       "tytul": "Mieszanka wykrztuśna (sosna, podbiał, dziewanna, tymianek, babka, lukrecja, anyż, miodunka)",
@@ -475,7 +616,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Ziołowy, żywiczny napar"
+      ],
+      "wlasciwosci": [
+        "wykrztuśna, łagodząca kaszel"
+      ]
     },
     {
       "tytul": "Mieszanka kąpielowa (sosna, rumianek, nagietek, skrzyp, pokrzywa, lawenda, krwawnik, babka)",
@@ -501,7 +648,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Relaksujący, leśny zapach"
+      ],
+      "wlasciwosci": [
+        "regenerująca, przeciwzapalna"
+      ]
     },
     {
       "tytul": "Mieszanka odpornościowa (sosna, pokrzywa, mniszek, czarna porzeczka, fiołek, dzika róża, nagietek, skrzyp)",
@@ -527,7 +680,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Ziołowy, wyrazisty napar"
+      ],
+      "wlasciwosci": [
+        "wzmacniająca odporność"
+      ]
     },
     {
       "tytul": "Mieszanka na reumatyzm (sosna, korzeń żywokostu, kora wierzby, pokrzywa, skrzyp, tymianek, szałwia, nagietek)",
@@ -553,7 +712,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Ziołowy, lekko żywiczny napar"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalna, łagodząca bóle"
+      ]
     },
     {
       "tytul": "Mieszanka oczyszczająca (sosna, brzoza, pokrzywa, skrzyp, fiołek, rumianek, nagietek, babka)",
@@ -579,7 +744,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Ziołowy, lekko żywiczny napar"
+      ],
+      "wlasciwosci": [
+        "oczyszczająca, wzmacniająca"
+      ]
     },
     {
       "tytul": "napar z korzenia",
@@ -598,7 +769,15 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Lekko żółtawy napar",
+        "Orzechowo-ziołowy smak"
+      ],
+      "wlasciwosci": [
+        "łagodnie moczopędny",
+        "wspomaga trawienie"
+      ]
     },
     {
       "tytul": "odwar na zoladek",
@@ -617,7 +796,15 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Słomkowy kolor",
+        "Delikatny, słodkawy aromat"
+      ],
+      "wlasciwosci": [
+        "wspomaga trawienie",
+        "działa lekko rozkurczowo"
+      ]
     },
     {
       "tytul": "sok z bulw",
@@ -635,7 +822,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Biało-żółty, klarowny sok",
+        "Słodki, lekko orzechowy smak"
+      ],
+      "wlasciwosci": [
+        "wzmacnia organizm, działa odżywczo"
+      ]
     },
     {
       "tytul": "oklad na stawy",
@@ -654,7 +848,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Chłodzący efekt",
+        "Słodkawy zapach"
+      ],
+      "wlasciwosci": [
+        "łagodzi bóle reumatyczne, zmniejsza obrzęk"
+      ]
     },
     {
       "tytul": "kąpiel korzeniowa",
@@ -673,7 +874,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Słomkowy płyn",
+        "Delikatny zapach"
+      ],
+      "wlasciwosci": [
+        "poprawia ukrwienie skóry, relaksuje, rozluźnia mięśnie"
+      ]
     },
     {
       "tytul": "maść na skórę",
@@ -692,7 +900,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Zielona, delikatnie orzechowa maść"
+      ],
+      "wlasciwosci": [
+        "łagodzi podrażnienia, przyspiesza gojenie drobnych ran i egzem"
+      ]
     },
     {
       "tytul": "nalewka oczyszczajaca",
@@ -711,7 +925,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Żółtawy, lekko mętny płyn",
+        "Wyraźny orzechowo-ziołowy aromat"
+      ],
+      "wlasciwosci": [
+        "lekko moczopędna, wzmacniająca, pobudzająca trawienie"
+      ]
     },
     {
       "tytul": "kompres na opuchliznę",
@@ -730,7 +951,15 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Ziołowy kompres, chłodzący efekt",
+        "Orzeźwiający efekt"
+      ],
+      "wlasciwosci": [
+        "łagodzi obrzęki, przyspiesza wchłanianie siniaków",
+        "zmniejsza opuchliznę, przyspiesza regenerację"
+      ]
     },
     {
       "tytul": "mieszanka detoksykacyjna",
@@ -752,7 +981,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Ziołowy, lekko słodkawy smak"
+      ],
+      "wlasciwosci": [
+        "moczopędna, oczyszczająca, wzmacniająca"
+      ]
     },
     {
       "tytul": "mieszanka detoksykacyjna świerząbek bulwiasty mniszek pokrzywa skrzyp liść brzozy korzeń pietruszki fiołek trójbarwny czystek",
@@ -778,7 +1013,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Ziołowy, świeży smak",
+        "Jasnozielony kolor"
+      ],
+      "wlasciwosci": [
+        "oczyszczająca, moczopędna, przeciwzapalna"
+      ]
     },
     {
       "tytul": "mieszanka wzmacniająca świerząbek bulwiasty korzeń marchwi seler por natka pietruszki koper pietruszka korzeniowa burak",
@@ -804,7 +1046,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Kolorowa, gęsta, warzywna zupa",
+        "Słodko-warzywny aromat"
+      ],
+      "wlasciwosci": [
+        "wzmacniająca, odżywcza, bogata w minerały"
+      ]
     },
     {
       "tytul": "mieszanka wykrztuśna świerząbek bulwiasty prawoślaz podbiał dziewanna anyż tymianek lukrecja babka lancetowata",
@@ -830,7 +1079,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Słodki, ziołowy smak",
+        "Jasny napar"
+      ],
+      "wlasciwosci": [
+        "ułatwia odkrztuszanie, łagodzi kaszel, działa powlekająco"
+      ]
     },
     {
       "tytul": "mieszanka na skórę świerząbek bulwiasty nagietek fiołek rumianek krwawnik babka lancetowata skrzyp pokrzywa",
@@ -856,7 +1112,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Łagodny, zielony płyn"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, łagodzi podrażnienia, działa antyseptycznie"
+      ]
     },
     {
       "tytul": "mieszanka na nerki świerząbek bulwiasty pokrzywa skrzyp liść żurawiny liść brzozy korzeń pietruszki liść mącznicy liść borówki",
@@ -882,7 +1144,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Lekko słodkawy, ziołowy smak",
+        "Zielonkawy kolor"
+      ],
+      "wlasciwosci": [
+        "działa moczopędnie, wspomaga nerki, przeciwzapalnie"
+      ]
     },
     {
       "tytul": "mieszanka detoksykacyjna świerząbek bulwiasty mniszek pokrzywa skrzyp liść brzozy korzeń pietruszki fiołek czystek",
@@ -908,7 +1177,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Ziołowy, świeży smak"
+      ],
+      "wlasciwosci": [
+        "oczyszczająca, moczopędna"
+      ]
     },
     {
       "tytul": "mieszanka szwajcarska na nerki świerząbek bulwiasty korzeń łopianu liście brzozy skrzyp korzeń selera koper",
@@ -932,7 +1207,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Ziołowy, lekko anyżowy aromat"
+      ],
+      "wlasciwosci": [
+        "wspomaga nerki, moczopędna, łagodnie rozkurczowa"
+      ]
     },
     {
       "tytul": "francuska zupa wzmacniająca świerząbek bulwiasty por marchew pietruszka lubczyk tymianek czosnek",
@@ -957,7 +1238,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Aromatyczna, sycąca, ziołowa"
+      ],
+      "wlasciwosci": [
+        "wzmacniająca, rozgrzewająca, przeciwzapalna"
+      ]
     },
     {
       "tytul": "rosyjska mieszanka na odporność świerząbek bulwiasty owoce dzikiej róży czarna porzeczka miód korzeń imbiru",
@@ -980,7 +1267,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Słodki, owocowo-ziołowy napar"
+      ],
+      "wlasciwosci": [
+        "wzmacniająca, przeciwutleniająca, rozgrzewająca"
+      ]
     },
     {
       "tytul": "niemiecki kompres przeciwobrzękowy świerząbek bulwiasty liść kapusty korzeń żywokostu liść babki lancetowatej rumianek",
@@ -1002,7 +1295,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Chłodzący, ziołowy okład"
+      ],
+      "wlasciwosci": [
+        "zmniejsza opuchliznę, łagodzi stany zapalne"
+      ]
     },
     {
       "tytul": "francuska mieszanka wykrztuśna świerząbek bulwiasty tymianek podbiał anyż korzeń prawoślazu",
@@ -1025,7 +1324,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Aromat ziołowy z nutą anyżu"
+      ],
+      "wlasciwosci": [
+        "wykrztuśna, łagodząca kaszel"
+      ]
     },
     {
       "tytul": "mieszanka na stawy świerząbek bulwiasty liść laurowy korzeń żywokostu liść pokrzywy tymianek rozmaryn igły sosny skrzyp",
@@ -1051,7 +1356,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Aromatyczny, ziołowy zapach",
+        "Rozgrzewający efekt"
+      ],
+      "wlasciwosci": [
+        "łagodzi bóle reumatyczne, regeneruje, przeciwzapalna"
+      ]
     },
     {
       "tytul": "kąpiel regenerująca świerząbek bulwiasty rumianek nagietek lawenda liść brzozy szałwia skrzyp tymianek",
@@ -1077,7 +1389,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Relaksujący, ziołowy zapach",
+        "Żółtozielony kolor"
+      ],
+      "wlasciwosci": [
+        "regeneruje skórę, rozluźnia mięśnie, przeciwzapalna"
+      ]
     },
     {
       "tytul": "czeska kąpiel przeciwzapalna świerząbek bulwiasty kora dębu rumianek liście pokrzywy kwiat nagietka tymianek",
@@ -1101,7 +1420,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Ziołowy, lekko korzenny zapach"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalna, kojąca, regenerująca skórę"
+      ]
     },
     {
       "tytul": "syrop na odporność sok z bulw świerząbka miód sok z cytryny imbir czosnek dzika róża chrzan",
@@ -1125,7 +1450,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Ostry, słodko-korzenny smak",
+        "Jasnożółty syrop"
+      ],
+      "wlasciwosci": [
+        "wzmacnia odporność, oczyszcza, działa przeciwzapalnie"
+      ]
     },
     {
       "tytul": "napar na goraczke",
@@ -1144,7 +1476,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Orzeźwiający, kwaśny smak"
+      ],
+      "wlasciwosci": [
+        "lekko napotny, przeciwgorączkowy"
+      ]
     },
     {
       "tytul": "herbatka witaminowa",
@@ -1164,7 +1502,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Delikatnie cytrynowy smak"
+      ],
+      "wlasciwosci": [
+        "wzmacnia odporność, dostarcza witamin"
+      ]
     },
     {
       "tytul": "kompres na oparzenia",
@@ -1183,7 +1527,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Chłodzący, orzeźwiający efekt"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, łagodzi pieczenie"
+      ]
     },
     {
       "tytul": "syrop na kaszel",
@@ -1203,7 +1553,15 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Słodki, ziołowy syrop",
+        "Kwaśny, słodki syrop"
+      ],
+      "wlasciwosci": [
+        "wykrztuśny, łagodzący, powlekający drogi oddechowe",
+        "wykrztuśny, łagodzący"
+      ]
     },
     {
       "tytul": "mieszanka na nerki",
@@ -1224,7 +1582,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Delikatny, cytrynowy aromat"
+      ],
+      "wlasciwosci": [
+        "moczopędna, oczyszczająca"
+      ]
     },
     {
       "tytul": "kąpiel ziołowa na skórę",
@@ -1243,7 +1607,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Orzeźwiający zapach"
+      ],
+      "wlasciwosci": [
+        "łagodząca, regenerująca"
+      ]
     },
     {
       "tytul": "maść na rany",
@@ -1262,7 +1632,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Zielona, delikatna maść"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, regeneruje"
+      ]
     },
     {
       "tytul": "szwedzka mieszanka na wątrobę",
@@ -1284,7 +1660,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Ziołowo-cytrynowy smak"
+      ],
+      "wlasciwosci": [
+        "wspiera trawienie, działa żółciopędnie"
+      ]
     },
     {
       "tytul": "rosyjska mieszanka witaminowa",
@@ -1305,7 +1687,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Owocowo-kwaśny aromat"
+      ],
+      "wlasciwosci": [
+        "bogaty w witaminę C, wzmacnia odporność"
+      ]
     },
     {
       "tytul": "niemiecka kąpiel na wysypki",
@@ -1326,7 +1714,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Ziołowy, orzeźwiający aromat"
+      ],
+      "wlasciwosci": [
+        "łagodzi świąd, przyspiesza gojenie"
+      ]
     },
     {
       "tytul": "francuska mieszanka na kaszel",
@@ -1348,7 +1742,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Delikatny, kwiatowo-ziołowy smak"
+      ],
+      "wlasciwosci": [
+        "łagodzi kaszel, koi gardło"
+      ]
     },
     {
       "tytul": "herbatka dla dzieci na wiosenne zmęczenie",
@@ -1369,7 +1769,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Lekko kwaśny, owocowy smak"
+      ],
+      "wlasciwosci": [
+        "wzmacnia, odświeża"
+      ]
     },
     {
       "tytul": "litewska mieszanka na anemię",
@@ -1390,7 +1796,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Intensywnie zielony napar"
+      ],
+      "wlasciwosci": [
+        "wspiera budowę krwi, mineralizuje"
+      ]
     },
     {
       "tytul": "napar dla kobiet w okresie menopauzy",
@@ -1412,7 +1824,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Delikatny, lekko kwaśny smak"
+      ],
+      "wlasciwosci": [
+        "łagodzi uderzenia gorąca, uspokaja, wzmacnia serce"
+      ]
     },
     {
       "tytul": "balsam historyczny na owrzodzenia i odciski",
@@ -1432,7 +1850,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Tłusty, zielonkawy balsam"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, działa ochronnie"
+      ]
     },
     {
       "tytul": "estońska mieszanka chłodząca do płukania jamy ustnej",
@@ -1453,7 +1877,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Odświeżający, kwaśno-miętowy smak"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalny, dezynfekujący, chłodzący"
+      ]
     },
     {
       "tytul": "skandynawska mieszanka na kamicę moczową",
@@ -1475,7 +1905,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Delikatnie kwaśny, ziołowy napar"
+      ],
+      "wlasciwosci": [
+        "moczopędny, rozdrabniający złogi"
+      ]
     },
     {
       "tytul": "rosyjska mieszanka dla rekonwalescentów",
@@ -1497,7 +1933,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Kwaśno-owocowy napar"
+      ],
+      "wlasciwosci": [
+        "wzmacniający, mineralizujący"
+      ]
     },
     {
       "tytul": "polski kompres na ukąszenia owadów",
@@ -1516,7 +1958,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Chłodzący, łagodzący kompres"
+      ],
+      "wlasciwosci": [
+        "zmniejsza obrzęk, łagodzi świąd"
+      ]
     },
     {
       "tytul": "mieszanka napotna szczawik kwiat lipy rumianek sok z malin krwawnik babka liść porzeczki dzika róża",
@@ -1542,7 +1990,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Delikatny, kwiatowy aromat"
+      ],
+      "wlasciwosci": [
+        "napotna, przeciwgorączkowa"
+      ]
     },
     {
       "tytul": "mieszanka na odporność szczawik pokrzywa mniszek babka kwiat czarnego bzu głóg fiołek nagietek",
@@ -1568,7 +2022,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Ziołowy, orzeźwiający napar"
+      ],
+      "wlasciwosci": [
+        "wzmacniająca odporność"
+      ]
     },
     {
       "tytul": "mieszanka moczopędna szczawik skrzyp liść brzozy pokrzywa mniszek fiołek liść truskawki krwawnik",
@@ -1594,7 +2054,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Łagodny, cytrynowy aromat"
+      ],
+      "wlasciwosci": [
+        "moczopędna, oczyszczająca"
+      ]
     },
     {
       "tytul": "mieszanka na trawienie szczawik mięta koper włoski anyż babka mniszek rumianek nagietek",
@@ -1620,7 +2086,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Ziołowy, lekko kwaśny napar"
+      ],
+      "wlasciwosci": [
+        "pobudza trawienie"
+      ]
     },
     {
       "tytul": "mieszanka na skórę szczawik nagietek rumianek fiołek pokrzywa skrzyp babka koniczyna",
@@ -1646,7 +2118,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Łagodny, ziołowy napar"
+      ],
+      "wlasciwosci": [
+        "regenerująca, gojąca"
+      ]
     },
     {
       "tytul": "mieszanka wykrztuśna szczawik tymianek babka podbiał miodunka dziewanna lukrecja anyż",
@@ -1672,7 +2150,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Orzeźwiający, lekko słodki"
+      ],
+      "wlasciwosci": [
+        "wykrztuśna, łagodząca kaszel"
+      ]
     },
     {
       "tytul": "mieszanka chłodnikowa szczawik szczaw pokrzywa szpinak koper rzodkiewka ogórek kefir",
@@ -1698,7 +2182,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Orzeźwiający, wiosenny smak"
+      ],
+      "wlasciwosci": [
+        "witaminowy, chłodzący"
+      ]
     },
     {
       "tytul": "skandynawska mieszanka witaminowa szczawik żurawina liść borówki pokrzywa mięta dzika róża",
@@ -1722,7 +2212,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Kwaśno-owocowy, świeży napar"
+      ],
+      "wlasciwosci": [
+        "bogaty w witaminę C, mineralizujący"
+      ]
     },
     {
       "tytul": "rosyjska mieszanka na żółtaczkę szczawik liść brzozy korzeń mniszka korzeń cykorii kora kruszyny liść babki",
@@ -1746,7 +2242,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Lekko gorzki, żółtawy wywar"
+      ],
+      "wlasciwosci": [
+        "żółciopędna, wspomaga wątrobę"
+      ]
     },
     {
       "tytul": "francuska mieszanka oczyszczająca szczawik fiołek bratek korzeń łopianu liść pokrzywy mniszek szałwia",
@@ -1771,7 +2273,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Ziołowy, lekko kwaskowy napar"
+      ],
+      "wlasciwosci": [
+        "oczyszczająca, detoksykująca"
+      ]
     },
     {
       "tytul": "mieszanka kąpielowa szczawik rumianek nagietek babka lawenda pokrzywa skrzyp mięta",
@@ -1797,7 +2305,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Relaksujący, ziołowy zapach"
+      ],
+      "wlasciwosci": [
+        "łagodząca, regenerująca"
+      ]
     },
     {
       "tytul": "niemiecki okład na rany i stłuczenia szczawik nagietek liść babki liść szałwii",
@@ -1819,7 +2333,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Chłodzący, łagodzący kompres"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, dezynfekuje"
+      ]
     },
     {
       "tytul": "napar ziolowy gojacy",
@@ -1838,7 +2358,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Delikatny, lekko korzenny smak"
+      ],
+      "wlasciwosci": [
+        "ściągający, gojący, przeciwzapalny"
+      ]
     },
     {
       "tytul": "odwar na krwawienia",
@@ -1857,7 +2383,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Wyrazisty smak, delikatny aromat"
+      ],
+      "wlasciwosci": [
+        "hamuje krwawienia, regeneruje śluzówki"
+      ]
     },
     {
       "tytul": "mieszanka na kaszel",
@@ -1878,7 +2410,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Ziołowy aromat"
+      ],
+      "wlasciwosci": [
+        "wykrztuśna, łagodząca kaszel"
+      ]
     },
     {
       "tytul": "kąpiel regenerująca",
@@ -1897,7 +2435,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Ziołowy, relaksujący zapach"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie skóry, łagodzi podrażnienia"
+      ]
     },
     {
       "tytul": "maść gojąca",
@@ -1916,7 +2460,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Delikatnie zielona maść"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, regeneruje"
+      ]
     },
     {
       "tytul": "syrop na przeziebienie",
@@ -1936,7 +2486,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Słodki, lekko korzenny syrop"
+      ],
+      "wlasciwosci": [
+        "wykrztuśny, wzmacniający"
+      ]
     },
     {
       "tytul": "napar gojący czeski",
@@ -1957,7 +2513,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Ziołowy, lekko korzenny napar"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, łagodzi podrażnienia skóry"
+      ]
     },
     {
       "tytul": "francuska kąpiel odżywcza",
@@ -1978,7 +2540,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Aromatyczna kąpiel"
+      ],
+      "wlasciwosci": [
+        "przyspiesza regenerację, łagodzi świąd"
+      ]
     },
     {
       "tytul": "okład gojący włoski",
@@ -1998,7 +2566,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Chłodzący, ziołowy okład"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, łagodzi stany zapalne"
+      ]
     },
     {
       "tytul": "mieszanka szwajcarska na wrzody i afty",
@@ -2019,7 +2593,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Ziołowy, korzenny aromat"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalna, antyseptyczna"
+      ]
     },
     {
       "tytul": "okład gojący historyczny (Polska)",
@@ -2038,7 +2618,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Tłusty, zielony okład"
+      ],
+      "wlasciwosci": [
+        "przyspiesza ziarninowanie, łagodzi ból"
+      ]
     },
     {
       "tytul": "Mieszanka gojąca (żankiel, nagietek, babka, rumianek, krwawnik, fiołek, pokrzywa, skrzyp)",
@@ -2064,7 +2650,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Łagodny, ziołowy aromat, jasny kolor"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, łagodzi stany zapalne, dezynfekuje"
+      ]
     },
     {
       "tytul": "Mieszanka na skórę (żankiel, nagietek, rumianek, fiołek, skrzyp, pokrzywa, babka, koniczyna)",
@@ -2090,7 +2682,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Ziołowy, łagodny aromat, żółtozielony kolor"
+      ],
+      "wlasciwosci": [
+        "regeneruje skórę, łagodzi podrażnienia, działa przeciwzapalnie"
+      ]
     },
     {
       "tytul": "Mieszanka kąpielowa (żankiel, rumianek, nagietek, babka, lawenda, pokrzywa, skrzyp, mięta)",
@@ -2116,7 +2714,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Relaksujący, intensywny ziołowy zapach, złocisto-zielony płyn"
+      ],
+      "wlasciwosci": [
+        "łagodząca, regenerująca, odprężająca"
+      ]
     },
     {
       "tytul": "Mieszanka wykrztuśna (żankiel, tymianek, babka, podbiał, lukrecja, dziewanna, rumianek, anyż)",
@@ -2142,7 +2746,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Ziołowy, łagodny, lekko anyżowy napar"
+      ],
+      "wlasciwosci": [
+        "wykrztuśna, łagodząca kaszel, powlekająca błony śluzowe"
+      ]
     },
     {
       "tytul": "Mieszanka na reumatyzm (żankiel, korzeń żywokostu, kora wierzby, pokrzywa, skrzyp, tymianek, szałwia, mniszek)",
@@ -2168,7 +2778,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Wytrawny, ziołowy, lekko korzenny napar"
+      ],
+      "wlasciwosci": [
+        "przeciwzapalna, łagodząca bóle stawów"
+      ]
     },
     {
       "tytul": "Mieszanka na odporność (żankiel, pokrzywa, skrzyp, fiołek, nagietek, czarna porzeczka, dzika róża, mniszek)",
@@ -2194,7 +2810,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Orzeźwiający, ziołowy, lekko kwaskowy"
+      ],
+      "wlasciwosci": [
+        "wzmacnia odporność, wspomaga rekonwalescencję"
+      ]
     },
     {
       "tytul": "Włoski okład na gojenie ran (żankiel, babka, żywokost)",
@@ -2215,7 +2837,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Wilgotny, chłodzący kompres"
+      ],
+      "wlasciwosci": [
+        "przyspiesza gojenie, regeneruje tkanki"
+      ]
     },
     {
       "tytul": "Napar z skrzyp polny",
@@ -9722,6 +10350,11 @@
         "sok z 1–2 cytryn (świeżych, dojrzałych)",
         "opcjonalnie: 1 gałązka tymianku (najlepiej świeżego) dla właściwości wykrztuśnych"
       ],
+      "tagi": [
+        "syrop",
+        "tradycyjne",
+        "mniszek lekarski"
+      ],
       "sposob_przygotowania": [
         "Kwiaty mniszka lekarskiego oczyścić, zalać wodą i gotować około 10 minut na małym ogniu.",
         "Odstawić wywar na 24 godziny w chłodne miejsce.",
@@ -9735,10 +10368,10 @@
         "Gęsta konsystencja zbliżona do miodu"
       ],
       "wlasciwosci": [
-        "wzmacnia odporność",
-        "łagodzi podrażnienia gardła",
-        "działa przeciwzapalnie",
-        "wspiera rekonwalescencję przy przeziębieniach i infekcjach dróg oddechowych"
+        "Wzmacnia odporność",
+        "Łagodzi podrażnienia gardła",
+        "Działa przeciwzapalnie",
+        "Wspiera rekonwalescencję przy przeziębieniach i infekcjach dróg oddechowych"
       ],
       "zastosowanie": "Spożywać w małych ilościach (2–3 łyżeczki dziennie) w celu profilaktyki i podczas infekcji. Można stosować jako dodatek do herbaty lub pieczywa.",
       "dawkowanie": "Dorośli i dzieci powyżej 3 roku życia: 2–3 łyżeczki dziennie. Nie stosować w nadmiarze przy cukrzycy.",
@@ -9746,6 +10379,5 @@
         "https://superbutelki.pl/pl/blog/Przepis-na-domowy-syrop-z-mniszka-lekarskiego/20"
       ]
     }
-
   ]
 }

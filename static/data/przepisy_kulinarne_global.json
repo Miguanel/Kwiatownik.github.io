@@ -48,7 +48,14 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Jasnozielone, delikatnie chrupiące",
+        "Lekko orzechowy smak"
+      ],
+      "wlasciwosci": [
+        "bogate w minerały, wspierają odporność"
+      ]
     },
     {
       "tytul": "herbatka wiosenna z skrzypu i pokrzywy",
@@ -68,7 +75,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Ziołowy aromat, zielonkawa barwa"
+      ],
+      "wlasciwosci": [
+        "oczyszcza krew, remineralizuje"
+      ]
     },
     {
       "tytul": "frittata z skrzypem",
@@ -89,7 +102,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Lekko orzechowy smak, puszysta konsystencja"
+      ],
+      "wlasciwosci": [
+        "białkowy posiłek na śniadanie"
+      ]
     },
     {
       "tytul": "omlet z serem i skrzypem",
@@ -110,7 +129,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Delikatny, wyrazisty"
+      ],
+      "wlasciwosci": [
+        "mineralizujący"
+      ]
     },
     {
       "tytul": "zielone smoothie ze skrzypem",
@@ -132,7 +157,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Zielony kolor, orzeźwiający smak"
+      ],
+      "wlasciwosci": [
+        "odżywczy, bogaty w krzem i witaminy"
+      ]
     },
     {
       "tytul": "chleb z dodakiem skrzypu",
@@ -154,7 +185,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Chleb o zielonkawym zabarwieniu, delikatnie ziołowy"
+      ],
+      "wlasciwosci": [
+        "bogaty w minerały"
+      ]
     },
     {
       "tytul": "maslo ziołowe ze skrzypem",
@@ -174,7 +211,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Aromatyczne, kremowe"
+      ],
+      "wlasciwosci": [
+        "wzbogaca kanapki w mikroelementy"
+      ]
     },
     {
       "tytul": "pesto skrzypowe",
@@ -196,7 +239,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Wyrazisty ziołowy smak"
+      ],
+      "wlasciwosci": [
+        "mineralizujące, dodaje energii"
+      ]
     },
     {
       "tytul": "sok z skrzypu i jabłka",
@@ -215,7 +264,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Słodko-ziołowy, zielonkawy"
+      ],
+      "wlasciwosci": [
+        "oczyszczający"
+      ]
     },
     {
       "tytul": "zupa krem z skrzypu i pokrzywy",
@@ -237,7 +292,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Kremowa konsystencja, wiosenny smak"
+      ],
+      "wlasciwosci": [
+        "mineralizująca, oczyszczająca"
+      ]
     },
     {
       "tytul": "placki ziołowe ze skrzypem",
@@ -258,7 +319,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Chrupiące, lekko orzechowe"
+      ],
+      "wlasciwosci": [
+        "pożywne, bogate w mikroelementy"
+      ]
     },
     {
       "tytul": "surówka z skrzypem",
@@ -279,7 +346,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Orzeźwiająca, chrupiąca"
+      ],
+      "wlasciwosci": [
+        "witaminowa, remineralizująca"
+      ]
     },
     {
       "tytul": "jajecznica ze skrzypem",
@@ -299,7 +372,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Ziołowy, lekko orzechowy smak"
+      ],
+      "wlasciwosci": [
+        "pożywne, wiosenne"
+      ]
     },
     {
       "tytul": "makaron z sos skrzypowy",
@@ -320,7 +399,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Aromatyczny, lekko ziołowy"
+      ],
+      "wlasciwosci": [
+        "lekki, odżywczy"
+      ]
     },
     {
       "tytul": "zielony olej skrzypowy",
@@ -339,7 +424,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Intensywnie zielony, aromatyczny"
+      ],
+      "wlasciwosci": [
+        "wzbogaca sałatki w minerały"
+      ]
     },
     {
       "tytul": "sałatka wiosenna ze skrzypem i jajkiem",
@@ -361,7 +452,13 @@
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": [
+        "Chrupiąca, lekko orzechowa"
+      ],
+      "wlasciwosci": [
+        "mineralizująca, odżywcza"
+      ]
     },
     {
       "tytul": "Nalewka z młodych igieł sosny zwyczajnej",
@@ -536,7 +633,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Leśna, orzeźwiająca"
+      ],
+      "wlasciwosci": [
+        "witaminowa, oczyszczająca"
+      ]
     },
     {
       "tytul": "Omlet z igłami sosny i koperkiem",
@@ -558,7 +661,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Zielony, lekko żywiczny"
+      ],
+      "wlasciwosci": [
+        "sycący, witaminowy"
+      ]
     },
     {
       "tytul": "Pesto z igieł sosny i orzechów włoskich",
@@ -580,7 +689,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Aromatyczne, orzechowo-żywiczne"
+      ],
+      "wlasciwosci": [
+        "naturalny antyoksydant"
+      ]
     },
     {
       "tytul": "Herbatka leśna (sosna, malina, liść poziomki, mięta, rumianek)",
@@ -603,7 +718,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Leśny, ziołowo-żywiczny aromat"
+      ],
+      "wlasciwosci": [
+        "wzmacniająca, odżywcza"
+      ]
     },
     {
       "tytul": "Kandyzowane pędy sosny w miodzie",
@@ -623,7 +744,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Słodkie, żywiczne"
+      ],
+      "wlasciwosci": [
+        "przeciwkaszlowe, energetyczne"
+      ]
     },
     {
       "tytul": "Mus z szyszek sosny i jabłek",
@@ -643,7 +770,13 @@
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": [
+        "Słodko-żywiczny, kremowy"
+      ],
+      "wlasciwosci": [
+        "energetyczny, witaminowy"
+      ]
     },
     {
       "tytul": "swieze bulwy na surowo",
@@ -661,7 +794,15 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Soczysty, słodkawy, lekko orzechowy smak",
+        "Chrupkość"
+      ],
+      "wlasciwosci": [
+        "bogate w witaminy (szczególnie C), potas i skrobię",
+        "orzeźwiające"
+      ]
     },
     {
       "tytul": "bulwy gotowane jak ziemniaki",
@@ -681,7 +822,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Delikatny, lekko orzechowy smak",
+        "Miękka, kremowa konsystencja"
+      ],
+      "wlasciwosci": [
+        "lekko sycące, łatwostrawne"
+      ]
     },
     {
       "tytul": "bulwy pieczone",
@@ -701,7 +849,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Zrumieniona, chrupiąca skórka",
+        "Słodkawo-orzechowy smak"
+      ],
+      "wlasciwosci": [
+        "wysoka wartość odżywcza, sycące"
+      ]
     },
     {
       "tytul": "placki z bulw",
@@ -723,7 +878,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Chrupiące, rumiane",
+        "Aromatyczne, delikatnie słodkie"
+      ],
+      "wlasciwosci": [
+        "bogate w węglowodany, sycące"
+      ]
     },
     {
       "tytul": "zupa krem",
@@ -745,7 +907,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Aksamitny krem",
+        "Słodko-orzechowy smak"
+      ],
+      "wlasciwosci": [
+        "odżywcza, sycąca"
+      ]
     },
     {
       "tytul": "bulwy duszone z warzywami",
@@ -768,7 +937,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Soczysta konsystencja",
+        "Delikatny, lekko orzechowy smak"
+      ],
+      "wlasciwosci": [
+        "witaminowy, lekki posiłek"
+      ]
     },
     {
       "tytul": "gulasz bulwowo-fasolowy",
@@ -792,7 +968,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Syta, aromatyczna potrawa jednogarnkowa"
+      ],
+      "wlasciwosci": [
+        "bogaty w białko i skrobię"
+      ]
     },
     {
       "tytul": "farsz do pierogów",
@@ -813,7 +995,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Aromatyczny, wilgotny farsz"
+      ],
+      "wlasciwosci": [
+        "sycący, lekko słodkawy"
+      ]
     },
     {
       "tytul": "sałatka z bulw na zimno",
@@ -835,7 +1023,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Kremowa, delikatna konsystencja",
+        "Świeży, lekko orzechowy smak"
+      ],
+      "wlasciwosci": [
+        "pożywna, zimna przystawka"
+      ]
     },
     {
       "tytul": "sałatka wiosenna z bulw świerząbka i mniszkiem",
@@ -858,7 +1053,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Świeży, chrupiący, orzechowy smak"
+      ],
+      "wlasciwosci": [
+        "lekka, witaminowa sałatka"
+      ]
     },
     {
       "tytul": "pesto korzeniowe z bulw świerząbka i pietruszką",
@@ -881,7 +1082,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Orzechowo-korzeniowy smak, zielony kolor"
+      ],
+      "wlasciwosci": [
+        "bogate w białko, witaminy i minerały"
+      ]
     },
     {
       "tytul": "letnia zupa jarzynowa z bulw świerząbka",
@@ -905,7 +1112,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Letnia, lekka, aromatyczna zupa"
+      ],
+      "wlasciwosci": [
+        "odżywcza, bogata w minerały i błonnik"
+      ]
     },
     {
       "tytul": "gulasz warzywny z bulw świerząbka",
@@ -930,7 +1143,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Gęsty, syty, kolorowy gulasz"
+      ],
+      "wlasciwosci": [
+        "bogaty w białko i węglowodany"
+      ]
     },
     {
       "tytul": "zapiekanka z bulw świerząbka cebuli i sera",
@@ -953,7 +1172,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Kremowa, chrupiąca, z serową skórką"
+      ],
+      "wlasciwosci": [
+        "sycąca, domowa"
+      ]
     },
     {
       "tytul": "puree korzeniowe z bulw świerząbka i pietruszki",
@@ -975,7 +1200,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Puszyste, kremowe, lekko orzechowe"
+      ],
+      "wlasciwosci": [
+        "lekko słodkie, odżywcze"
+      ]
     },
     {
       "tytul": "placki warzywne z bulwami świerząbka marchewką i cukinią",
@@ -998,7 +1229,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Złociste, chrupiące, lekko słodkie"
+      ],
+      "wlasciwosci": [
+        "witaminowe, sycące"
+      ]
     },
     {
       "tytul": "bułeczki drożdżowe z bulwami i miodem",
@@ -1023,7 +1260,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Delikatne, puszyste, lekko orzechowe"
+      ],
+      "wlasciwosci": [
+        "pożywne, łagodne"
+      ]
     },
     {
       "tytul": "ciasto korzeniowe z bulw świerząbka i orzechami",
@@ -1049,7 +1292,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Wilgotne, aromatyczne, lekko słodkie"
+      ],
+      "wlasciwosci": [
+        "energetyczne, domowe"
+      ]
     },
     {
       "tytul": "koktajl mleczny z bulwami i wanilią",
@@ -1070,7 +1319,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Kremowy, słodki, lekko orzechowy"
+      ],
+      "wlasciwosci": [
+        "odżywczy napój, łagodny"
+      ]
     },
     {
       "tytul": "chleb korzeniowy z bulwami świerząbka",
@@ -1094,7 +1349,13 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Chleb z chrupiącą skórką, lekko orzechowym aromatem"
+      ],
+      "wlasciwosci": [
+        "sycący, delikatnie słodki"
+      ]
     },
     {
       "tytul": "napój orzeźwiający z bulw świerząbka i cytryną",
@@ -1115,7 +1376,14 @@
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": [
+        "Przezroczysty, lekko słomkowy napój",
+        "Odświeżający, lekko orzechowy"
+      ],
+      "wlasciwosci": [
+        "nawadniający, bogaty w witaminy"
+      ]
     },
     {
       "tytul": "chłodnik leśny",
@@ -1138,7 +1406,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Chłodzący, kwaśny smak"
+      ],
+      "wlasciwosci": [
+        "orzeźwiający, witaminowy"
+      ]
     },
     {
       "tytul": "sałatka wiosenna",
@@ -1162,7 +1436,15 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Chrupiąca, zielona, świeża",
+        "Kwaśno-słodka, orzeźwiająca"
+      ],
+      "wlasciwosci": [
+        "bogata w witaminy, lekkostrawna",
+        "wiosenna, bogata w witaminy"
+      ]
     },
     {
       "tytul": "omlet ze szczawikiem",
@@ -1183,7 +1465,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Zielony, aromatyczny"
+      ],
+      "wlasciwosci": [
+        "lekki, wiosenny"
+      ]
     },
     {
       "tytul": "twarożek leśny",
@@ -1204,7 +1492,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Lekko kwaśny, świeży smak"
+      ],
+      "wlasciwosci": [
+        "białkowy, orzeźwiający"
+      ]
     },
     {
       "tytul": "sorbet szczawikowy",
@@ -1225,7 +1519,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Kwaśny, orzeźwiający"
+      ],
+      "wlasciwosci": [
+        "gaszący pragnienie"
+      ]
     },
     {
       "tytul": "galaretka leśna",
@@ -1246,7 +1546,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Delikatny, cytrynowy smak"
+      ],
+      "wlasciwosci": [
+        "lekki, pobudzający trawienie"
+      ]
     },
     {
       "tytul": "kiszonka z szczawika",
@@ -1266,7 +1572,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Kwaśna, chrupiąca"
+      ],
+      "wlasciwosci": [
+        "probiotyczna"
+      ]
     },
     {
       "tytul": "lemoniada szczawikowa",
@@ -1287,7 +1599,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Orzeźwiający, kwaskowy napój"
+      ],
+      "wlasciwosci": [
+        "gaszący pragnienie"
+      ]
     },
     {
       "tytul": "estoński chleb szczawikowy",
@@ -1312,7 +1630,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Wilgotny, lekko kwaśny chleb"
+      ],
+      "wlasciwosci": [
+        "sycący, ziołowy"
+      ]
     },
     {
       "tytul": "skandynawskie bułeczki z dodatkiem szczawika",
@@ -1337,7 +1661,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Puszyste, lekko kwaskowe"
+      ],
+      "wlasciwosci": [
+        "delikatne, domowe"
+      ]
     },
     {
       "tytul": "francuski krem cytrynowo-szczawikowy",
@@ -1359,7 +1689,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Aksamitny, cytrynowo-ziołowy"
+      ],
+      "wlasciwosci": [
+        "orzeźwiający, lekki"
+      ]
     },
     {
       "tytul": "rosyjski kwas szczawikowy",
@@ -1381,7 +1717,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Lekko gazowany, kwaskowy napój"
+      ],
+      "wlasciwosci": [
+        "probiotyczny, orzeźwiający"
+      ]
     },
     {
       "tytul": "szczawikowy dżem z jabłkiem",
@@ -1402,7 +1744,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Kwaśny, cytrynowy, zielonkawy dżem"
+      ],
+      "wlasciwosci": [
+        "witaminowy, pobudzający trawienie"
+      ]
     },
     {
       "tytul": "sałatka leśna szczawik marzanka czosnek niedźwiedzi truskawki ser kozi pestki dyni oliwa",
@@ -1427,7 +1775,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Kwaśno-słodka, aromatyczna"
+      ],
+      "wlasciwosci": [
+        "witaminowa, odżywcza"
+      ]
     },
     {
       "tytul": "pesto ze szczawika orzechów i koperku",
@@ -1450,7 +1804,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Kwaśno-orzechowe, aromatyczne"
+      ],
+      "wlasciwosci": [
+        "naturalny antyoksydant"
+      ]
     },
     {
       "tytul": "kanapki z pastą szczawikową i rzodkiewką",
@@ -1470,7 +1830,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Chrupiące, kwaśno-orzeźwiające"
+      ],
+      "wlasciwosci": [
+        "lekkostrawne, witaminowe"
+      ]
     },
     {
       "tytul": "placki z liści szczawika i ziemniaków",
@@ -1494,7 +1860,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Zielone, chrupiące"
+      ],
+      "wlasciwosci": [
+        "sycące, lekkostrawne"
+      ]
     },
     {
       "tytul": "chłodnik szczawikowo-szczawiowy z ogórkiem",
@@ -1517,7 +1889,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Kwaśny, orzeźwiający"
+      ],
+      "wlasciwosci": [
+        "pobudzający trawienie"
+      ]
     },
     {
       "tytul": "galaretka szczawikowa z sokiem malinowym",
@@ -1538,7 +1916,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Różowy kolor, kwaśno-słodki smak"
+      ],
+      "wlasciwosci": [
+        "witaminowa, lekka"
+      ]
     },
     {
       "tytul": "niemiecki szczawikowy aufstrich smarowidło do pieczywa",
@@ -1560,7 +1944,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Kremowa, lekko kwaśna"
+      ],
+      "wlasciwosci": [
+        "lekka, białkowa"
+      ]
     },
     {
       "tytul": "litewski chłodnik szczawikowo-buraczany",
@@ -1584,7 +1974,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Różowy kolor, kwaskowy smak"
+      ],
+      "wlasciwosci": [
+        "chłodzący, sycący"
+      ]
     },
     {
       "tytul": "skandynawskie bułeczki z liśćmi szczawika",
@@ -1609,7 +2005,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Puszyste, lekko kwaśne"
+      ],
+      "wlasciwosci": [
+        "delikatne, śniadaniowe"
+      ]
     },
     {
       "tytul": "omlet wiosenny szczawik pokrzywa szczypiorek jajka masło",
@@ -1632,7 +2034,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Zielony, lekki omlet"
+      ],
+      "wlasciwosci": [
+        "wiosenny, bogaty w żelazo"
+      ]
     },
     {
       "tytul": "kiszone liście szczawika z koprem",
@@ -1653,7 +2061,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Kwaśne, probiotyczne"
+      ],
+      "wlasciwosci": [
+        "probiotyczne, odżywcze"
+      ]
     },
     {
       "tytul": "francuska tarta z liśćmi szczawika i pokrzywą",
@@ -1677,7 +2091,13 @@
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": [
+        "Kruche, ziołowe, wyraziste"
+      ],
+      "wlasciwosci": [
+        "pożywna, domowa"
+      ]
     },
     {
       "tytul": "Nalewka z korzenia kozłka lekarskiego (żankiel zwyczajny)",
@@ -1725,7 +2145,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Kremowa, soczyście zielona"
+      ],
+      "wlasciwosci": [
+        "witaminowa, odżywcza"
+      ]
     },
     {
       "tytul": "sałatka żankielowa",
@@ -1751,7 +2177,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Świeża, chrupiąca, zielona"
+      ],
+      "wlasciwosci": [
+        "wiosenna, lekka, bogata w witaminę C"
+      ]
     },
     {
       "tytul": "twarożek z żankielem",
@@ -1773,7 +2205,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Lekko korzenny, świeży smak"
+      ],
+      "wlasciwosci": [
+        "białkowy, mineralny"
+      ]
     },
     {
       "tytul": "jajecznica z żankielem",
@@ -1795,7 +2233,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Zielona, aromatyczna, kremowa"
+      ],
+      "wlasciwosci": [
+        "pożywna, lekka"
+      ]
     },
     {
       "tytul": "omlet wiosenny",
@@ -1817,7 +2261,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Zielony, puszysty, ziołowy"
+      ],
+      "wlasciwosci": [
+        "wiosenny, odżywczy"
+      ]
     },
     {
       "tytul": "pesto z żankiela",
@@ -1839,7 +2289,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Aromatyczne, orzechowe, lekko pikantne"
+      ],
+      "wlasciwosci": [
+        "naturalny antyoksydant"
+      ]
     },
     {
       "tytul": "kiszone liscie żankiela",
@@ -1861,7 +2317,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Kwaśne, probiotyczne, chrupiące"
+      ],
+      "wlasciwosci": [
+        "probiotyczne, odżywcze"
+      ]
     },
     {
       "tytul": "leśny chłodnik z żankielem",
@@ -1884,7 +2346,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Orzeźwiający, ziołowy, lekko kwaśny"
+      ],
+      "wlasciwosci": [
+        "lekkostrawny, witaminowy"
+      ]
     },
     {
       "tytul": "francuska tarta z żankielem",
@@ -1908,7 +2376,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Kruche, kremowe, aromatyczne"
+      ],
+      "wlasciwosci": [
+        "pożywne, ziołowe"
+      ]
     },
     {
       "tytul": "niemiecki Aufstrich z żankielem",
@@ -1930,7 +2404,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Kremowa, lekko ziołowa"
+      ],
+      "wlasciwosci": [
+        "lekka, białkowa"
+      ]
     },
     {
       "tytul": "wiosenne bułeczki z żankielem",
@@ -1955,7 +2435,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Puszyste, zielonkawe, lekko ziołowe"
+      ],
+      "wlasciwosci": [
+        "pożywne, śniadaniowe"
+      ]
     },
     {
       "tytul": "Chleb pełnoziarnisty z żankielem",
@@ -1979,7 +2465,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Wilgotny, aromatyczny, zielonkawy"
+      ],
+      "wlasciwosci": [
+        "wysoka zawartość błonnika, minerałów"
+      ]
     },
     {
       "tytul": "Wiosenna tarta z żankielem i ricottą",
@@ -2003,7 +2495,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Lekka, kremowa, ziołowa"
+      ],
+      "wlasciwosci": [
+        "białkowa, odżywcza"
+      ]
     },
     {
       "tytul": "Francuski quiche z żankielem i łososiem",
@@ -2027,7 +2525,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Wykwintny, kremowy, aromatyczny"
+      ],
+      "wlasciwosci": [
+        "białkowy, bogaty w kwasy omega-3"
+      ]
     },
     {
       "tytul": "Bułeczki z żankielem i serem feta",
@@ -2052,7 +2556,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Puszyste, lekko słone, ziołowe"
+      ],
+      "wlasciwosci": [
+        "pożywne, bogate w wapń"
+      ]
     },
     {
       "tytul": "Słodkie placuszki z żankielem",
@@ -2077,7 +2587,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Delikatne, lekko ziołowe"
+      ],
+      "wlasciwosci": [
+        "energetyczne, ciekawe dla dzieci"
+      ]
     },
     {
       "tytul": "Dżem z jabłek, żankiela i mięty",
@@ -2099,7 +2615,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Aromatyczny, kwiatowo-miętowy"
+      ],
+      "wlasciwosci": [
+        "witaminowy, nietypowy"
+      ]
     },
     {
       "tytul": "Jajka faszerowane żankielem",
@@ -2121,7 +2643,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Ziołowe, świeże, kremowe"
+      ],
+      "wlasciwosci": [
+        "białkowe, lekkostrawne"
+      ]
     },
     {
       "tytul": "Kiszone liście żankiela z koperkiem",
@@ -2142,7 +2670,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Kwaśne, aromatyczne"
+      ],
+      "wlasciwosci": [
+        "probiotyczne, odżywcze"
+      ]
     },
     {
       "tytul": "Napój orzeźwiający z żankielem i cytryną",
@@ -2163,7 +2697,13 @@
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": [
+        "Orzeźwiający, delikatnie ziołowy"
+      ],
+      "wlasciwosci": [
+        "gasi pragnienie, odżywia"
+      ]
     },
     {
       "tytul": "Nalewka z czarnej porzeczki",
@@ -4780,6 +5320,5 @@
       "nazwa_lacinska": "Crataegus monogyna",
       "slug": "glog_jednoszyjkowy"
     }
-
   ]
 }
