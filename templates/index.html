@@ -617,11 +617,6 @@ details.rest>summary{cursor:pointer;font-weight:600}
     margin: .2rem 0 1rem 0; /* odstęp pod nagłówkiem */
   }
 
-// po otwarciu papirusu
-stage.style.overflow = 'visible';
-
-// a gdy wracasz do kart (zamykanie papirusu)
-stage.style.overflow = 'hidden';
 
 
     </style>
@@ -1743,7 +1738,15 @@ function renderZbior(zbior){
       img.addEventListener('error', setStageHeightToPapyrus, {once:true});
     });
   }
-
+if (window.visualViewport) {
+  visualViewport.addEventListener('resize', () => {
+    if (typeof updateStageHeightAfterAsyncContent === 'function') {
+      updateStageHeightAfterAsyncContent();
+    } else if (typeof scheduleStageHeight === 'function') {
+      scheduleStageHeight();
+    }
+  }, { passive: true });
+}
 function ensureResultsVisible(){
   // autoscroll tylko w sekcji PRZEPISY i tylko na urządzeniach dotykowych
   if (window.CURRENT_SECTION !== 'przepisy') return;
@@ -2092,7 +2095,18 @@ function renderRecipeResults(arr, terms){
 
   // Wstaw wynik + aktualizacja wysokości (przydatne na telefonie)
   box.innerHTML = header + listHTML;
-
+    if (typeof watchImagesForHeightUpdates === 'function') {
+      watchImagesForHeightUpdates(box);
+    }
+    if (typeof updateStageHeightAfterAsyncContent === 'function') {
+      updateStageHeightAfterAsyncContent();        // obrazki / długi HTML
+    } else {
+      if (typeof scheduleStageHeight === 'function') scheduleStageHeight();
+      if (typeof attachHeightObservers === 'function') attachHeightObservers();
+    }
+    requestAnimationFrame(() => {
+      if (typeof updateStageHeight === 'function') updateStageHeight();
+    });
   if (typeof watchImagesForHeightUpdates === 'function') {
     watchImagesForHeightUpdates(box);
   }
@@ -2514,6 +2528,11 @@ document.addEventListener('click', (e) => {
     setTimeout(() => el.classList.remove('hit'), 1700);
   });
 });
+// po otwarciu papirusu
+stage.style.overflow = 'visible';
+
+// a gdy wracasz do kart (zamykanie papirusu)
+stage.style.overflow = 'hidden';
 
 </script>
 
