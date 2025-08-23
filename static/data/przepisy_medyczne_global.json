@@ -4462,6 +4462,5256 @@
       "roslina": "Głóg jednoszyjkowy",
       "nazwa_lacinska": "Crataegus monogyna",
       "slug": "glog_jednoszyjkowy"
+    },
+    {
+      "tytul": "Oksymel (miód + ocet ziołowy) z skrzyp polny",
+      "typ": "medyczne",
+      "metoda": "oksymel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "skandynawia"
+      ],
+      "skladniki": [
+        "miód pszczeli 200 ml (świeży)",
+        "ocet winny lub jabłkowy 200 ml",
+        "Skrzyp polny 2 garście (świeże/młode) lub 2 łyżki suszone"
+      ],
+      "sposob_przygotowania": [
+        "Zalać ziele octem i odstawić na 7–10 dni (codziennie poruszyć naczyniem).",
+        "Przecedzić, połączyć z miodem i mieszać do rozpuszczenia.",
+        "Przelać do butelki, trzymać w chłodzie."
+      ],
+      "dawkowanie": "1–2 łyżeczki 2× dziennie; rozcieńczać w wodzie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "Piwo ziołowe/ale na ziołach z sosna zwyczajna",
+      "typ": "medyczne",
+      "metoda": "piwo_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "susz sosna zwyczajna 10–20 g (młode części)",
+        "1 l brzeczki (lub lekkiego piwa domowego)",
+        "odrobina drożdży piwnych"
+      ],
+      "sposob_przygotowania": [
+        "Zioła gotować delikatnie w brzeczce 10 minut, ostudzić.",
+        "Zadać drożdżami i zostawić do refermentacji 2–3 dni.",
+        "Przecedzić i rozlać do butelek (gazowanie naturalne)."
+      ],
+      "dawkowanie": "Mały kufel wieczorem; napój ziołowy, nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Wino ziołowe z szczawik zajęczy",
+      "typ": "medyczne",
+      "metoda": "wino_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "kresy"
+      ],
+      "skladniki": [
+        "Szczawik zajęczy 30 g (suszone, młode części)",
+        "0,75 l wytrawnego wina (białe/czerwone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać winem, trzymać 5–7 dni w chłodzie, wstrząsać.",
+        "Przecedzić; stosować jako aperitif ziołowy."
+      ],
+      "dawkowanie": "25–50 ml 1× dziennie przed posiłkiem.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Marcin z Urzędowa — Herbarz polski (1595)"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "Miód pitny ziołowy z żankiel zwyczajny",
+      "typ": "medyczne",
+      "metoda": "miód_pitny_ziołowy",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "polska"
+      ],
+      "skladniki": [
+        "miód 500 ml",
+        "woda 1 l",
+        "Żankiel zwyczajny 2–3 łyżki (suszone)",
+        "drożdże miodowe (szczypta)"
+      ],
+      "sposob_przygotowania": [
+        "Uwarzyć brzeczkę miodową, dodać zioła i ostudzić.",
+        "Zadać drożdżami, fermentować 7–10 dni.",
+        "Zlać znad osadu i odstawić do dojrzewania."
+      ],
+      "dawkowanie": "Kieliszek 30 ml po posiłku; napój alkoholowy.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Kataplazm (plastry z papki ziołowej) z świerząbek bulwiasty",
+      "typ": "medyczne",
+      "metoda": "kataplazm",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "karpaty"
+      ],
+      "skladniki": [
+        "świeże liście świerząbek bulwiasty (młode)",
+        "gorąca woda do sparzenia",
+        "płótno lniane"
+      ],
+      "sposob_przygotowania": [
+        "Liście sparzyć, rozgnieść na papkę.",
+        "Nałożyć na płótno i przykładać ciepłe 20–30 minut."
+      ],
+      "dawkowanie": "2–3× dziennie; tylko zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Zielnik Szafera (XIX w.)"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "Okadzanie/wywary do dymienia z pokrzywa zwyczajna",
+      "typ": "medyczne",
+      "metoda": "okadzanie",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "słowacja"
+      ],
+      "skladniki": [
+        "susz pokrzywa zwyczajna 1–2 łyżki (suszone, aromatyczne części)",
+        "węgielek trybularzowy lub rozgrzany kamień"
+      ],
+      "sposob_przygotowania": [
+        "Rozżarzyć węgielek/kamień, posypać suszem.",
+        "Delikatnie okadzać pomieszczenie lub odzież."
+      ],
+      "dawkowanie": "Krótko, w dobrze wietrzonym miejscu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Pokrzywa zwyczajna",
+      "nazwa_lacinska": "Urtica dioica",
+      "slug": "pokrzywa_zwyczajna"
+    },
+    {
+      "tytul": "Maść na smalcu/łożysku tłuszczowym z rumianek pospolity",
+      "typ": "medyczne",
+      "metoda": "maść_na_smalcu",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "niemcy"
+      ],
+      "skladniki": [
+        "Rumianek pospolity 3 łyżki (suszone, rozdrobnione)",
+        "150 g smalcu gęsiego/łój (tradycyjnie)"
+      ],
+      "sposob_przygotowania": [
+        "Rozgrzać tłuszcz w kąpieli wodnej, wsypać ziele.",
+        "Trzymać 45–60 min, nie dopuszczając do wrzenia.",
+        "Przecedzić i przelać do słoika."
+      ],
+      "dawkowanie": "Smarować 2× dziennie; zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Rumianek pospolity",
+      "nazwa_lacinska": "Matricaria chamomilla",
+      "slug": "rumianek_pospolity"
+    },
+    {
+      "tytul": "Gorzkie krople (esencja) z nagietek lekarski",
+      "typ": "medyczne",
+      "metoda": "esencja_gorzka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "słowacja"
+      ],
+      "skladniki": [
+        "Nagietek lekarski 20 g (gorycze – korzeń/kora/ziele, suszone)",
+        "200 ml spirytusu 60–70%",
+        "skórka cytrynowa (kawałek, opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zioła alkoholem, trzymać 10–14 dni, wstrząsać.",
+        "Przecedzić; dawkuje się kroplami."
+      ],
+      "dawkowanie": "10–20 kropli przed posiłkiem; nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Nagietek lekarski",
+      "nazwa_lacinska": "Calendula officinalis",
+      "slug": "nagietek_lekarski"
+    },
+    {
+      "tytul": "Ocet czterech złodziei – wariant regionalny z lipa drobnolistna",
+      "typ": "medyczne",
+      "metoda": "octy_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "Lipa drobnolistna 3 łyżki (suszone)",
+        "0,5 l octu winnnego/jabłkowego",
+        "czosnek 2 ząbki (świeże)",
+        "szałwia, rozmaryn — po 1 łyżce (suszone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła i czosnek zalać octem, macerować 7–14 dni.",
+        "Przecedzić; używać rozcieńczone do przemywań."
+      ],
+      "dawkowanie": "Zewnętrznie; rozcieńczenie 1:5–1:10 z wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Lipa drobnolistna",
+      "nazwa_lacinska": "Tilia cordata",
+      "slug": "lipa_drobnolistna"
+    },
+    {
+      "tytul": "Eliksir ziołowy z krwawnik pospolity",
+      "typ": "medyczne",
+      "metoda": "eliksir",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "Krwawnik pospolity 15 g (suszone)",
+        "miód 100 ml",
+        "spirytus/wódka 100 ml",
+        "woda 100 ml"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać alkoholem i wodą na 7 dni.",
+        "Przecedzić, dodać miód i wymieszać."
+      ],
+      "dawkowanie": "1 łyżeczka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Krwawnik pospolity",
+      "nazwa_lacinska": "Achillea millefolium",
+      "slug": "krwawnik_pospolity"
+    },
+    {
+      "tytul": "Napar klasyczny z mniszek lekarski",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "niemcy"
+      ],
+      "skladniki": [
+        "1 łyżka mniszek lekarski (suszone, młode części)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 10–15 min, przecedzić."
+      ],
+      "dawkowanie": "1 filiżanka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Mniszek lekarski",
+      "nazwa_lacinska": "Taraxacum officinale",
+      "slug": "mniszek_lekarski"
+    },
+    {
+      "tytul": "Odwar (korzenie/kora) z babka lancetowata",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "słowacja"
+      ],
+      "skladniki": [
+        "2 łyżeczki babka lancetowata (kora/korzeń/ziele suszone)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, gotować 10–20 min, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Babka lancetowata",
+      "nazwa_lacinska": "Plantago lanceolata",
+      "slug": "babka_lancetowata"
+    },
+    {
+      "tytul": "Macerat na zimno z podbiał pospolity",
+      "typ": "medyczne",
+      "metoda": "macerat_na_zimno",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "niemcy"
+      ],
+      "skladniki": [
+        "1 łyżka podbiał pospolity (świeże, drobno posiekane)",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, odstawić 6–8 h, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Podbiał pospolity",
+      "nazwa_lacinska": "Tussilago farfara",
+      "slug": "podbial_pospolity"
+    },
+    {
+      "tytul": "Płukanka/wyciąg do obmywań z dziurawiec zwyczajny",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "śląsk"
+      ],
+      "skladniki": [
+        "1 łyżka dziurawiec zwyczajny (suszone)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć 10–15 min, ostudzić, używać do płukań."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Dziurawiec może wchodzić w interakcje z lekami (indukcja CYP3A4).",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Dziurawiec zwyczajny",
+      "nazwa_lacinska": "Hypericum perforatum",
+      "slug": "dziurawiec_zwyczajny"
+    },
+    {
+      "tytul": "Kąpiel ziołowa z szałwia lekarska",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "mazowsze"
+      ],
+      "skladniki": [
+        "3 garście szałwia lekarska (świeże) lub 2 garście suszu",
+        "2–3 l wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 15–20 min, odcedzić do kąpieli 37–39°C."
+      ],
+      "dawkowanie": "15–20 min, 2–3× w tygodniu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Szałwia lekarska",
+      "nazwa_lacinska": "Salvia officinalis",
+      "slug": "szalwia_lekarska"
+    },
+    {
+      "tytul": "Okład z całych liści/ziele z tymianek pospolity",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "świeże liście tymianek pospolity (młode)",
+        "gaza lniana"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść, nałożyć na gazę, przykładać 15–30 min."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Marcin z Urzędowa — Herbarz polski (1595)"
+      ],
+      "roslina": "Tymianek pospolity",
+      "nazwa_lacinska": "Thymus vulgaris",
+      "slug": "tymianek_pospolity"
+    },
+    {
+      "tytul": "Proszek do posypywania/zażywania z mięta pieprzowa",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "słowacja"
+      ],
+      "skladniki": [
+        "susz mięta pieprzowa — dobrze wysuszony (młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek, przechowywać w słoiku."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2× dziennie, popić wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Mięta pieprzowa",
+      "nazwa_lacinska": "Mentha x piperita",
+      "slug": "mieta_pieprzowa"
+    },
+    {
+      "tytul": "Syrop dawny z melisa lekarska",
+      "typ": "medyczne",
+      "metoda": "syrop_tradycyjny",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "karpaty"
+      ],
+      "skladniki": [
+        "Melisa lekarska 100 g (świeże, młode części)",
+        "250 ml wody",
+        "200 g miodu/cukru"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 10–15 min, odcedzić, dosłodzić, odparować."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Melisa lekarska",
+      "nazwa_lacinska": "Melissa officinalis",
+      "slug": "melisa_lekarska"
+    },
+    {
+      "tytul": "Tinctura w winie z koper włoski",
+      "typ": "medyczne",
+      "metoda": "tinctura_vinum",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "małopolska"
+      ],
+      "skladniki": [
+        "Koper włoski 20–30 g (suszone)",
+        "0,5 l wina (wytrawne)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać winem 5–7 dni, wstrząsać, przecedzić."
+      ],
+      "dawkowanie": "20–30 ml 1× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Koper włoski",
+      "nazwa_lacinska": "Foeniculum vulgare",
+      "slug": "koper_wloski"
+    },
+    {
+      "tytul": "Inhalacja dymna/nad wywarem z anyż",
+      "typ": "medyczne",
+      "metoda": "inhalacja_dymna",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "kresy"
+      ],
+      "skladniki": [
+        "Anyż garść (suszone, aromatyczne części)",
+        "miska z gorącym wywarem lub rozżarzony węgiel"
+      ],
+      "sposob_przygotowania": [
+        "Nachylić się nad parą/okadzeniem, uważać na oparzenia.",
+        "Inhalować 5–10 minut."
+      ],
+      "dawkowanie": "1–2× dziennie przez 2–3 dni.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Anyż",
+      "nazwa_lacinska": "Pimpinella anisum",
+      "slug": "anyz"
+    },
+    {
+      "tytul": "Oksymel (miód + ocet ziołowy) z arcydzięgiel litwor",
+      "typ": "medyczne",
+      "metoda": "oksymel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "podlasie"
+      ],
+      "skladniki": [
+        "miód pszczeli 200 ml (świeży)",
+        "ocet winny lub jabłkowy 200 ml",
+        "Arcydzięgiel litwor 2 garście (świeże/młode) lub 2 łyżki suszone"
+      ],
+      "sposob_przygotowania": [
+        "Zalać ziele octem i odstawić na 7–10 dni (codziennie poruszyć naczyniem).",
+        "Przecedzić, połączyć z miodem i mieszać do rozpuszczenia.",
+        "Przelać do butelki, trzymać w chłodzie."
+      ],
+      "dawkowanie": "1–2 łyżeczki 2× dziennie; rozcieńczać w wodzie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Apteczka benedyktyńska — rękopisy klasztorne"
+      ],
+      "roslina": "Arcydzięgiel litwor",
+      "nazwa_lacinska": "Angelica archangelica",
+      "slug": "arcydziegiel_litwor"
+    },
+    {
+      "tytul": "Piwo ziołowe/ale na ziołach z prawoślaz lekarski",
+      "typ": "medyczne",
+      "metoda": "piwo_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "polska"
+      ],
+      "skladniki": [
+        "susz prawoślaz lekarski 10–20 g (młode części)",
+        "1 l brzeczki (lub lekkiego piwa domowego)",
+        "odrobina drożdży piwnych"
+      ],
+      "sposob_przygotowania": [
+        "Zioła gotować delikatnie w brzeczce 10 minut, ostudzić.",
+        "Zadać drożdżami i zostawić do refermentacji 2–3 dni.",
+        "Przecedzić i rozlać do butelek (gazowanie naturalne)."
+      ],
+      "dawkowanie": "Mały kufel wieczorem; napój ziołowy, nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Prawoślaz lekarski",
+      "nazwa_lacinska": "Althaea officinalis",
+      "slug": "prawoslaz_lekarski"
+    },
+    {
+      "tytul": "Wino ziołowe z głóg jednoszyjkowy",
+      "typ": "medyczne",
+      "metoda": "wino_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "polska"
+      ],
+      "skladniki": [
+        "Głóg jednoszyjkowy 30 g (suszone, młode części)",
+        "0,75 l wytrawnego wina (białe/czerwone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać winem, trzymać 5–7 dni w chłodzie, wstrząsać.",
+        "Przecedzić; stosować jako aperitif ziołowy."
+      ],
+      "dawkowanie": "25–50 ml 1× dziennie przed posiłkiem.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Głóg jednoszyjkowy",
+      "nazwa_lacinska": "Crataegus monogyna",
+      "slug": "glog_jednoszyjkowy"
+    },
+    {
+      "tytul": "Miód pitny ziołowy z dzika róża",
+      "typ": "medyczne",
+      "metoda": "miód_pitny_ziołowy",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "miód 500 ml",
+        "woda 1 l",
+        "Dzika róża 2–3 łyżki (suszone)",
+        "drożdże miodowe (szczypta)"
+      ],
+      "sposob_przygotowania": [
+        "Uwarzyć brzeczkę miodową, dodać zioła i ostudzić.",
+        "Zadać drożdżami, fermentować 7–10 dni.",
+        "Zlać znad osadu i odstawić do dojrzewania."
+      ],
+      "dawkowanie": "Kieliszek 30 ml po posiłku; napój alkoholowy.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Marcin z Urzędowa — Herbarz polski (1595)"
+      ],
+      "roslina": "Dzika róża",
+      "nazwa_lacinska": "Rosa canina",
+      "slug": "dzika_roza"
+    },
+    {
+      "tytul": "Kataplazm (plastry z papki ziołowej) z bez czarny",
+      "typ": "medyczne",
+      "metoda": "kataplazm",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "świeże liście bez czarny (młode)",
+        "gorąca woda do sparzenia",
+        "płótno lniane"
+      ],
+      "sposob_przygotowania": [
+        "Liście sparzyć, rozgnieść na papkę.",
+        "Nałożyć na płótno i przykładać ciepłe 20–30 minut."
+      ],
+      "dawkowanie": "2–3× dziennie; tylko zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Bez czarny",
+      "nazwa_lacinska": "Sambucus nigra",
+      "slug": "bez_czarny"
+    },
+    {
+      "tytul": "Okadzanie/wywary do dymienia z jałowiec pospolity",
+      "typ": "medyczne",
+      "metoda": "okadzanie",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "susz jałowiec pospolity 1–2 łyżki (suszone, aromatyczne części)",
+        "węgielek trybularzowy lub rozgrzany kamień"
+      ],
+      "sposob_przygotowania": [
+        "Rozżarzyć węgielek/kamień, posypać suszem.",
+        "Delikatnie okadzać pomieszczenie lub odzież."
+      ],
+      "dawkowanie": "Krótko, w dobrze wietrzonym miejscu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Apteczka benedyktyńska — rękopisy klasztorne"
+      ],
+      "roslina": "Jałowiec pospolity",
+      "nazwa_lacinska": "Juniperus communis",
+      "slug": "jalowiec_pospolity"
+    },
+    {
+      "tytul": "Maść na smalcu/łożysku tłuszczowym z piołun",
+      "typ": "medyczne",
+      "metoda": "maść_na_smalcu",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "polska"
+      ],
+      "skladniki": [
+        "Piołun 3 łyżki (suszone, rozdrobnione)",
+        "150 g smalcu gęsiego/łój (tradycyjnie)"
+      ],
+      "sposob_przygotowania": [
+        "Rozgrzać tłuszcz w kąpieli wodnej, wsypać ziele.",
+        "Trzymać 45–60 min, nie dopuszczając do wrzenia.",
+        "Przecedzić i przelać do słoika."
+      ],
+      "dawkowanie": "Smarować 2× dziennie; zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Piołun (tujon) — stosować krótkotrwale i ostrożnie.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Piołun",
+      "nazwa_lacinska": "Artemisia absinthium",
+      "slug": "piolun"
+    },
+    {
+      "tytul": "Gorzkie krople (esencja) z bylica pospolita",
+      "typ": "medyczne",
+      "metoda": "esencja_gorzka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "niemcy"
+      ],
+      "skladniki": [
+        "Bylica pospolita 20 g (gorycze – korzeń/kora/ziele, suszone)",
+        "200 ml spirytusu 60–70%",
+        "skórka cytrynowa (kawałek, opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zioła alkoholem, trzymać 10–14 dni, wstrząsać.",
+        "Przecedzić; dawkuje się kroplami."
+      ],
+      "dawkowanie": "10–20 kropli przed posiłkiem; nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Bylica pospolita",
+      "nazwa_lacinska": "Artemisia vulgaris",
+      "slug": "bylica_pospolita"
+    },
+    {
+      "tytul": "Ocet czterech złodziei – wariant regionalny z tatarak",
+      "typ": "medyczne",
+      "metoda": "octy_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "skandynawia"
+      ],
+      "skladniki": [
+        "Tatarak 3 łyżki (suszone)",
+        "0,5 l octu winnnego/jabłkowego",
+        "czosnek 2 ząbki (świeże)",
+        "szałwia, rozmaryn — po 1 łyżce (suszone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła i czosnek zalać octem, macerować 7–14 dni.",
+        "Przecedzić; używać rozcieńczone do przemywań."
+      ],
+      "dawkowanie": "Zewnętrznie; rozcieńczenie 1:5–1:10 z wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Tatarak — możliwa obecność azaronu; stosować krótkotrwale.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Tatarak",
+      "nazwa_lacinska": "Acorus calamus",
+      "slug": "tatarak"
+    },
+    {
+      "tytul": "Eliksir ziołowy z kruszyna pospolita",
+      "typ": "medyczne",
+      "metoda": "eliksir",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "polska"
+      ],
+      "skladniki": [
+        "Kruszyna pospolita 15 g (suszone)",
+        "miód 100 ml",
+        "spirytus/wódka 100 ml",
+        "woda 100 ml"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać alkoholem i wodą na 7 dni.",
+        "Przecedzić, dodać miód i wymieszać."
+      ],
+      "dawkowanie": "1 łyżeczka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Kora kruszyny — środki przeczyszczające, nie dla kobiet w ciąży.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Kruszyna pospolita",
+      "nazwa_lacinska": "Frangula alnus",
+      "slug": "kruszyna_pospolita"
+    },
+    {
+      "tytul": "Napar klasyczny z dziewanna wielkokwiatowa",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "małopolska"
+      ],
+      "skladniki": [
+        "1 łyżka dziewanna wielkokwiatowa (suszone, młode części)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 10–15 min, przecedzić."
+      ],
+      "dawkowanie": "1 filiżanka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Dziewanna wielkokwiatowa",
+      "nazwa_lacinska": "Verbascum thapsus",
+      "slug": "dziewanna_wielkokwiatowa"
+    },
+    {
+      "tytul": "Odwar (korzenie/kora) z oman wielki",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "małopolska"
+      ],
+      "skladniki": [
+        "2 łyżeczki oman wielki (kora/korzeń/ziele suszone)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, gotować 10–20 min, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Oman wielki",
+      "nazwa_lacinska": "Inula helenium",
+      "slug": "oman_wielki"
+    },
+    {
+      "tytul": "Macerat na zimno z ruta zwyczajna",
+      "typ": "medyczne",
+      "metoda": "macerat_na_zimno",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "karpaty"
+      ],
+      "skladniki": [
+        "1 łyżka ruta zwyczajna (świeże, drobno posiekane)",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, odstawić 6–8 h, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Ruta zwyczajna",
+      "nazwa_lacinska": "Ruta graveolens",
+      "slug": "ruta_zwyczajna"
+    },
+    {
+      "tytul": "Płukanka/wyciąg do obmywań z przywrotnik pospolity",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "1 łyżka przywrotnik pospolity (suszone)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć 10–15 min, ostudzić, używać do płukań."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Przywrotnik pospolity",
+      "nazwa_lacinska": "Alchemilla vulgaris",
+      "slug": "przywrotnik_pospolity"
+    },
+    {
+      "tytul": "Kąpiel ziołowa z żywokost lekarski",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "śląsk"
+      ],
+      "skladniki": [
+        "3 garście żywokost lekarski (świeże) lub 2 garście suszu",
+        "2–3 l wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 15–20 min, odcedzić do kąpieli 37–39°C."
+      ],
+      "dawkowanie": "15–20 min, 2–3× w tygodniu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Żywokost — tylko zewnętrznie (alkaloidy pirolizydynowe).",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Żywokost lekarski",
+      "nazwa_lacinska": "Symphytum officinale",
+      "slug": "zywokost_lekarski"
+    },
+    {
+      "tytul": "Okład z całych liści/ziele z chmiel zwyczajny",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałkany"
+      ],
+      "skladniki": [
+        "świeże liście chmiel zwyczajny (młode)",
+        "gaza lniana"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść, nałożyć na gazę, przykładać 15–30 min."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Chmiel zwyczajny",
+      "nazwa_lacinska": "Humulus lupulus",
+      "slug": "chmiel_zwyczajny"
+    },
+    {
+      "tytul": "Proszek do posypywania/zażywania z brzoza brodawkowata",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "susz brzoza brodawkowata — dobrze wysuszony (młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek, przechowywać w słoiku."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2× dziennie, popić wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Zielnik Szafera (XIX w.)"
+      ],
+      "roslina": "Brzoza brodawkowata",
+      "nazwa_lacinska": "Betula pendula",
+      "slug": "brzoza_brodawkowata"
+    },
+    {
+      "tytul": "Syrop dawny z wierzba biała",
+      "typ": "medyczne",
+      "metoda": "syrop_tradycyjny",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "kresy"
+      ],
+      "skladniki": [
+        "Wierzba biała 100 g (świeże, młode części)",
+        "250 ml wody",
+        "200 g miodu/cukru"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 10–15 min, odcedzić, dosłodzić, odparować."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Wierzba biała",
+      "nazwa_lacinska": "Salix alba",
+      "slug": "wierzba_biala"
+    },
+    {
+      "tytul": "Tinctura w winie z dąb szypułkowy",
+      "typ": "medyczne",
+      "metoda": "tinctura_vinum",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "podlasie"
+      ],
+      "skladniki": [
+        "Dąb szypułkowy 20–30 g (suszone)",
+        "0,5 l wina (wytrawne)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać winem 5–7 dni, wstrząsać, przecedzić."
+      ],
+      "dawkowanie": "20–30 ml 1× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Dąb szypułkowy",
+      "nazwa_lacinska": "Quercus robur",
+      "slug": "dab_szypulkowy"
+    },
+    {
+      "tytul": "Inhalacja dymna/nad wywarem z jarzębina",
+      "typ": "medyczne",
+      "metoda": "inhalacja_dymna",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "Jarzębina garść (suszone, aromatyczne części)",
+        "miska z gorącym wywarem lub rozżarzony węgiel"
+      ],
+      "sposob_przygotowania": [
+        "Nachylić się nad parą/okadzeniem, uważać na oparzenia.",
+        "Inhalować 5–10 minut."
+      ],
+      "dawkowanie": "1–2× dziennie przez 2–3 dni.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Jarzębina",
+      "nazwa_lacinska": "Sorbus aucuparia",
+      "slug": "jarzebina"
+    },
+    {
+      "tytul": "Oksymel (miód + ocet ziołowy) z tarnina",
+      "typ": "medyczne",
+      "metoda": "oksymel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "miód pszczeli 200 ml (świeży)",
+        "ocet winny lub jabłkowy 200 ml",
+        "Tarnina 2 garście (świeże/młode) lub 2 łyżki suszone"
+      ],
+      "sposob_przygotowania": [
+        "Zalać ziele octem i odstawić na 7–10 dni (codziennie poruszyć naczyniem).",
+        "Przecedzić, połączyć z miodem i mieszać do rozpuszczenia.",
+        "Przelać do butelki, trzymać w chłodzie."
+      ],
+      "dawkowanie": "1–2 łyżeczki 2× dziennie; rozcieńczać w wodzie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Tarnina",
+      "nazwa_lacinska": "Prunus spinosa",
+      "slug": "tarnina"
+    },
+    {
+      "tytul": "Piwo ziołowe/ale na ziołach z skrzyp polny",
+      "typ": "medyczne",
+      "metoda": "piwo_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "podlasie"
+      ],
+      "skladniki": [
+        "susz skrzyp polny 10–20 g (młode części)",
+        "1 l brzeczki (lub lekkiego piwa domowego)",
+        "odrobina drożdży piwnych"
+      ],
+      "sposob_przygotowania": [
+        "Zioła gotować delikatnie w brzeczce 10 minut, ostudzić.",
+        "Zadać drożdżami i zostawić do refermentacji 2–3 dni.",
+        "Przecedzić i rozlać do butelek (gazowanie naturalne)."
+      ],
+      "dawkowanie": "Mały kufel wieczorem; napój ziołowy, nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "Wino ziołowe z sosna zwyczajna",
+      "typ": "medyczne",
+      "metoda": "wino_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "Sosna zwyczajna 30 g (suszone, młode części)",
+        "0,75 l wytrawnego wina (białe/czerwone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać winem, trzymać 5–7 dni w chłodzie, wstrząsać.",
+        "Przecedzić; stosować jako aperitif ziołowy."
+      ],
+      "dawkowanie": "25–50 ml 1× dziennie przed posiłkiem.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Miód pitny ziołowy z szczawik zajęczy",
+      "typ": "medyczne",
+      "metoda": "miód_pitny_ziołowy",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "miód 500 ml",
+        "woda 1 l",
+        "Szczawik zajęczy 2–3 łyżki (suszone)",
+        "drożdże miodowe (szczypta)"
+      ],
+      "sposob_przygotowania": [
+        "Uwarzyć brzeczkę miodową, dodać zioła i ostudzić.",
+        "Zadać drożdżami, fermentować 7–10 dni.",
+        "Zlać znad osadu i odstawić do dojrzewania."
+      ],
+      "dawkowanie": "Kieliszek 30 ml po posiłku; napój alkoholowy.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "Kataplazm (plastry z papki ziołowej) z żankiel zwyczajny",
+      "typ": "medyczne",
+      "metoda": "kataplazm",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "świeże liście żankiel zwyczajny (młode)",
+        "gorąca woda do sparzenia",
+        "płótno lniane"
+      ],
+      "sposob_przygotowania": [
+        "Liście sparzyć, rozgnieść na papkę.",
+        "Nałożyć na płótno i przykładać ciepłe 20–30 minut."
+      ],
+      "dawkowanie": "2–3× dziennie; tylko zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Okadzanie/wywary do dymienia z świerząbek bulwiasty",
+      "typ": "medyczne",
+      "metoda": "okadzanie",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "skandynawia"
+      ],
+      "skladniki": [
+        "susz świerząbek bulwiasty 1–2 łyżki (suszone, aromatyczne części)",
+        "węgielek trybularzowy lub rozgrzany kamień"
+      ],
+      "sposob_przygotowania": [
+        "Rozżarzyć węgielek/kamień, posypać suszem.",
+        "Delikatnie okadzać pomieszczenie lub odzież."
+      ],
+      "dawkowanie": "Krótko, w dobrze wietrzonym miejscu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "Maść na smalcu/łożysku tłuszczowym z pokrzywa zwyczajna",
+      "typ": "medyczne",
+      "metoda": "maść_na_smalcu",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "podlasie"
+      ],
+      "skladniki": [
+        "Pokrzywa zwyczajna 3 łyżki (suszone, rozdrobnione)",
+        "150 g smalcu gęsiego/łój (tradycyjnie)"
+      ],
+      "sposob_przygotowania": [
+        "Rozgrzać tłuszcz w kąpieli wodnej, wsypać ziele.",
+        "Trzymać 45–60 min, nie dopuszczając do wrzenia.",
+        "Przecedzić i przelać do słoika."
+      ],
+      "dawkowanie": "Smarować 2× dziennie; zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Apteczka benedyktyńska — rękopisy klasztorne"
+      ],
+      "roslina": "Pokrzywa zwyczajna",
+      "nazwa_lacinska": "Urtica dioica",
+      "slug": "pokrzywa_zwyczajna"
+    },
+    {
+      "tytul": "Gorzkie krople (esencja) z rumianek pospolity",
+      "typ": "medyczne",
+      "metoda": "esencja_gorzka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "Rumianek pospolity 20 g (gorycze – korzeń/kora/ziele, suszone)",
+        "200 ml spirytusu 60–70%",
+        "skórka cytrynowa (kawałek, opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zioła alkoholem, trzymać 10–14 dni, wstrząsać.",
+        "Przecedzić; dawkuje się kroplami."
+      ],
+      "dawkowanie": "10–20 kropli przed posiłkiem; nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Rumianek pospolity",
+      "nazwa_lacinska": "Matricaria chamomilla",
+      "slug": "rumianek_pospolity"
+    },
+    {
+      "tytul": "Ocet czterech złodziei – wariant regionalny z nagietek lekarski",
+      "typ": "medyczne",
+      "metoda": "octy_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "małopolska"
+      ],
+      "skladniki": [
+        "Nagietek lekarski 3 łyżki (suszone)",
+        "0,5 l octu winnnego/jabłkowego",
+        "czosnek 2 ząbki (świeże)",
+        "szałwia, rozmaryn — po 1 łyżce (suszone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła i czosnek zalać octem, macerować 7–14 dni.",
+        "Przecedzić; używać rozcieńczone do przemywań."
+      ],
+      "dawkowanie": "Zewnętrznie; rozcieńczenie 1:5–1:10 z wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Nagietek lekarski",
+      "nazwa_lacinska": "Calendula officinalis",
+      "slug": "nagietek_lekarski"
+    },
+    {
+      "tytul": "Eliksir ziołowy z lipa drobnolistna",
+      "typ": "medyczne",
+      "metoda": "eliksir",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "małopolska"
+      ],
+      "skladniki": [
+        "Lipa drobnolistna 15 g (suszone)",
+        "miód 100 ml",
+        "spirytus/wódka 100 ml",
+        "woda 100 ml"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać alkoholem i wodą na 7 dni.",
+        "Przecedzić, dodać miód i wymieszać."
+      ],
+      "dawkowanie": "1 łyżeczka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Apteczka benedyktyńska — rękopisy klasztorne"
+      ],
+      "roslina": "Lipa drobnolistna",
+      "nazwa_lacinska": "Tilia cordata",
+      "slug": "lipa_drobnolistna"
+    },
+    {
+      "tytul": "Napar klasyczny z krwawnik pospolity",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "1 łyżka krwawnik pospolity (suszone, młode części)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 10–15 min, przecedzić."
+      ],
+      "dawkowanie": "1 filiżanka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Krwawnik pospolity",
+      "nazwa_lacinska": "Achillea millefolium",
+      "slug": "krwawnik_pospolity"
+    },
+    {
+      "tytul": "Odwar (korzenie/kora) z mniszek lekarski",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "mazowsze"
+      ],
+      "skladniki": [
+        "2 łyżeczki mniszek lekarski (kora/korzeń/ziele suszone)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, gotować 10–20 min, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Mniszek lekarski",
+      "nazwa_lacinska": "Taraxacum officinale",
+      "slug": "mniszek_lekarski"
+    },
+    {
+      "tytul": "Macerat na zimno z babka lancetowata",
+      "typ": "medyczne",
+      "metoda": "macerat_na_zimno",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "słowacja"
+      ],
+      "skladniki": [
+        "1 łyżka babka lancetowata (świeże, drobno posiekane)",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, odstawić 6–8 h, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Babka lancetowata",
+      "nazwa_lacinska": "Plantago lanceolata",
+      "slug": "babka_lancetowata"
+    },
+    {
+      "tytul": "Płukanka/wyciąg do obmywań z podbiał pospolity",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "polska"
+      ],
+      "skladniki": [
+        "1 łyżka podbiał pospolity (suszone)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć 10–15 min, ostudzić, używać do płukań."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Apteczka benedyktyńska — rękopisy klasztorne"
+      ],
+      "roslina": "Podbiał pospolity",
+      "nazwa_lacinska": "Tussilago farfara",
+      "slug": "podbial_pospolity"
+    },
+    {
+      "tytul": "Kąpiel ziołowa z dziurawiec zwyczajny",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "kresy"
+      ],
+      "skladniki": [
+        "3 garście dziurawiec zwyczajny (świeże) lub 2 garście suszu",
+        "2–3 l wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 15–20 min, odcedzić do kąpieli 37–39°C."
+      ],
+      "dawkowanie": "15–20 min, 2–3× w tygodniu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Dziurawiec może wchodzić w interakcje z lekami (indukcja CYP3A4).",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Dziurawiec zwyczajny",
+      "nazwa_lacinska": "Hypericum perforatum",
+      "slug": "dziurawiec_zwyczajny"
+    },
+    {
+      "tytul": "Okład z całych liści/ziele z szałwia lekarska",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "polska"
+      ],
+      "skladniki": [
+        "świeże liście szałwia lekarska (młode)",
+        "gaza lniana"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść, nałożyć na gazę, przykładać 15–30 min."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Marcin z Urzędowa — Herbarz polski (1595)"
+      ],
+      "roslina": "Szałwia lekarska",
+      "nazwa_lacinska": "Salvia officinalis",
+      "slug": "szalwia_lekarska"
+    },
+    {
+      "tytul": "Proszek do posypywania/zażywania z tymianek pospolity",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "susz tymianek pospolity — dobrze wysuszony (młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek, przechowywać w słoiku."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2× dziennie, popić wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Tymianek pospolity",
+      "nazwa_lacinska": "Thymus vulgaris",
+      "slug": "tymianek_pospolity"
+    },
+    {
+      "tytul": "Syrop dawny z mięta pieprzowa",
+      "typ": "medyczne",
+      "metoda": "syrop_tradycyjny",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "Mięta pieprzowa 100 g (świeże, młode części)",
+        "250 ml wody",
+        "200 g miodu/cukru"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 10–15 min, odcedzić, dosłodzić, odparować."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Mięta pieprzowa",
+      "nazwa_lacinska": "Mentha x piperita",
+      "slug": "mieta_pieprzowa"
+    },
+    {
+      "tytul": "Tinctura w winie z melisa lekarska",
+      "typ": "medyczne",
+      "metoda": "tinctura_vinum",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "Melisa lekarska 20–30 g (suszone)",
+        "0,5 l wina (wytrawne)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać winem 5–7 dni, wstrząsać, przecedzić."
+      ],
+      "dawkowanie": "20–30 ml 1× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Melisa lekarska",
+      "nazwa_lacinska": "Melissa officinalis",
+      "slug": "melisa_lekarska"
+    },
+    {
+      "tytul": "Inhalacja dymna/nad wywarem z koper włoski",
+      "typ": "medyczne",
+      "metoda": "inhalacja_dymna",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "małopolska"
+      ],
+      "skladniki": [
+        "Koper włoski garść (suszone, aromatyczne części)",
+        "miska z gorącym wywarem lub rozżarzony węgiel"
+      ],
+      "sposob_przygotowania": [
+        "Nachylić się nad parą/okadzeniem, uważać na oparzenia.",
+        "Inhalować 5–10 minut."
+      ],
+      "dawkowanie": "1–2× dziennie przez 2–3 dni.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Koper włoski",
+      "nazwa_lacinska": "Foeniculum vulgare",
+      "slug": "koper_wloski"
+    },
+    {
+      "tytul": "Oksymel (miód + ocet ziołowy) z anyż",
+      "typ": "medyczne",
+      "metoda": "oksymel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "miód pszczeli 200 ml (świeży)",
+        "ocet winny lub jabłkowy 200 ml",
+        "Anyż 2 garście (świeże/młode) lub 2 łyżki suszone"
+      ],
+      "sposob_przygotowania": [
+        "Zalać ziele octem i odstawić na 7–10 dni (codziennie poruszyć naczyniem).",
+        "Przecedzić, połączyć z miodem i mieszać do rozpuszczenia.",
+        "Przelać do butelki, trzymać w chłodzie."
+      ],
+      "dawkowanie": "1–2 łyżeczki 2× dziennie; rozcieńczać w wodzie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Anyż",
+      "nazwa_lacinska": "Pimpinella anisum",
+      "slug": "anyz"
+    },
+    {
+      "tytul": "Piwo ziołowe/ale na ziołach z arcydzięgiel litwor",
+      "typ": "medyczne",
+      "metoda": "piwo_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "śląsk"
+      ],
+      "skladniki": [
+        "susz arcydzięgiel litwor 10–20 g (młode części)",
+        "1 l brzeczki (lub lekkiego piwa domowego)",
+        "odrobina drożdży piwnych"
+      ],
+      "sposob_przygotowania": [
+        "Zioła gotować delikatnie w brzeczce 10 minut, ostudzić.",
+        "Zadać drożdżami i zostawić do refermentacji 2–3 dni.",
+        "Przecedzić i rozlać do butelek (gazowanie naturalne)."
+      ],
+      "dawkowanie": "Mały kufel wieczorem; napój ziołowy, nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Arcydzięgiel litwor",
+      "nazwa_lacinska": "Angelica archangelica",
+      "slug": "arcydziegiel_litwor"
+    },
+    {
+      "tytul": "Wino ziołowe z prawoślaz lekarski",
+      "typ": "medyczne",
+      "metoda": "wino_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "Prawoślaz lekarski 30 g (suszone, młode części)",
+        "0,75 l wytrawnego wina (białe/czerwone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać winem, trzymać 5–7 dni w chłodzie, wstrząsać.",
+        "Przecedzić; stosować jako aperitif ziołowy."
+      ],
+      "dawkowanie": "25–50 ml 1× dziennie przed posiłkiem.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Prawoślaz lekarski",
+      "nazwa_lacinska": "Althaea officinalis",
+      "slug": "prawoslaz_lekarski"
+    },
+    {
+      "tytul": "Miód pitny ziołowy z głóg jednoszyjkowy",
+      "typ": "medyczne",
+      "metoda": "miód_pitny_ziołowy",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "podlasie"
+      ],
+      "skladniki": [
+        "miód 500 ml",
+        "woda 1 l",
+        "Głóg jednoszyjkowy 2–3 łyżki (suszone)",
+        "drożdże miodowe (szczypta)"
+      ],
+      "sposob_przygotowania": [
+        "Uwarzyć brzeczkę miodową, dodać zioła i ostudzić.",
+        "Zadać drożdżami, fermentować 7–10 dni.",
+        "Zlać znad osadu i odstawić do dojrzewania."
+      ],
+      "dawkowanie": "Kieliszek 30 ml po posiłku; napój alkoholowy.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Apteczka benedyktyńska — rękopisy klasztorne"
+      ],
+      "roslina": "Głóg jednoszyjkowy",
+      "nazwa_lacinska": "Crataegus monogyna",
+      "slug": "glog_jednoszyjkowy"
+    },
+    {
+      "tytul": "Kataplazm (plastry z papki ziołowej) z dzika róża",
+      "typ": "medyczne",
+      "metoda": "kataplazm",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "śląsk"
+      ],
+      "skladniki": [
+        "świeże liście dzika róża (młode)",
+        "gorąca woda do sparzenia",
+        "płótno lniane"
+      ],
+      "sposob_przygotowania": [
+        "Liście sparzyć, rozgnieść na papkę.",
+        "Nałożyć na płótno i przykładać ciepłe 20–30 minut."
+      ],
+      "dawkowanie": "2–3× dziennie; tylko zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Dzika róża",
+      "nazwa_lacinska": "Rosa canina",
+      "slug": "dzika_roza"
+    },
+    {
+      "tytul": "Okadzanie/wywary do dymienia z bez czarny",
+      "typ": "medyczne",
+      "metoda": "okadzanie",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "niemcy"
+      ],
+      "skladniki": [
+        "susz bez czarny 1–2 łyżki (suszone, aromatyczne części)",
+        "węgielek trybularzowy lub rozgrzany kamień"
+      ],
+      "sposob_przygotowania": [
+        "Rozżarzyć węgielek/kamień, posypać suszem.",
+        "Delikatnie okadzać pomieszczenie lub odzież."
+      ],
+      "dawkowanie": "Krótko, w dobrze wietrzonym miejscu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Bez czarny",
+      "nazwa_lacinska": "Sambucus nigra",
+      "slug": "bez_czarny"
+    },
+    {
+      "tytul": "Maść na smalcu/łożysku tłuszczowym z jałowiec pospolity",
+      "typ": "medyczne",
+      "metoda": "maść_na_smalcu",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "Jałowiec pospolity 3 łyżki (suszone, rozdrobnione)",
+        "150 g smalcu gęsiego/łój (tradycyjnie)"
+      ],
+      "sposob_przygotowania": [
+        "Rozgrzać tłuszcz w kąpieli wodnej, wsypać ziele.",
+        "Trzymać 45–60 min, nie dopuszczając do wrzenia.",
+        "Przecedzić i przelać do słoika."
+      ],
+      "dawkowanie": "Smarować 2× dziennie; zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Apteczka benedyktyńska — rękopisy klasztorne"
+      ],
+      "roslina": "Jałowiec pospolity",
+      "nazwa_lacinska": "Juniperus communis",
+      "slug": "jalowiec_pospolity"
+    },
+    {
+      "tytul": "Gorzkie krople (esencja) z piołun",
+      "typ": "medyczne",
+      "metoda": "esencja_gorzka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałkany"
+      ],
+      "skladniki": [
+        "Piołun 20 g (gorycze – korzeń/kora/ziele, suszone)",
+        "200 ml spirytusu 60–70%",
+        "skórka cytrynowa (kawałek, opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zioła alkoholem, trzymać 10–14 dni, wstrząsać.",
+        "Przecedzić; dawkuje się kroplami."
+      ],
+      "dawkowanie": "10–20 kropli przed posiłkiem; nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Piołun (tujon) — stosować krótkotrwale i ostrożnie.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Piołun",
+      "nazwa_lacinska": "Artemisia absinthium",
+      "slug": "piolun"
+    },
+    {
+      "tytul": "Ocet czterech złodziei – wariant regionalny z bylica pospolita",
+      "typ": "medyczne",
+      "metoda": "octy_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "polska"
+      ],
+      "skladniki": [
+        "Bylica pospolita 3 łyżki (suszone)",
+        "0,5 l octu winnnego/jabłkowego",
+        "czosnek 2 ząbki (świeże)",
+        "szałwia, rozmaryn — po 1 łyżce (suszone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła i czosnek zalać octem, macerować 7–14 dni.",
+        "Przecedzić; używać rozcieńczone do przemywań."
+      ],
+      "dawkowanie": "Zewnętrznie; rozcieńczenie 1:5–1:10 z wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Bylica pospolita",
+      "nazwa_lacinska": "Artemisia vulgaris",
+      "slug": "bylica_pospolita"
+    },
+    {
+      "tytul": "Eliksir ziołowy z tatarak",
+      "typ": "medyczne",
+      "metoda": "eliksir",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "Tatarak 15 g (suszone)",
+        "miód 100 ml",
+        "spirytus/wódka 100 ml",
+        "woda 100 ml"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać alkoholem i wodą na 7 dni.",
+        "Przecedzić, dodać miód i wymieszać."
+      ],
+      "dawkowanie": "1 łyżeczka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Tatarak — możliwa obecność azaronu; stosować krótkotrwale.",
+      "zrodla": [
+        "Marcin z Urzędowa — Herbarz polski (1595)"
+      ],
+      "roslina": "Tatarak",
+      "nazwa_lacinska": "Acorus calamus",
+      "slug": "tatarak"
+    },
+    {
+      "tytul": "Napar klasyczny z kruszyna pospolita",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "1 łyżka kruszyna pospolita (suszone, młode części)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 10–15 min, przecedzić."
+      ],
+      "dawkowanie": "1 filiżanka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Kora kruszyny — środki przeczyszczające, nie dla kobiet w ciąży.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Kruszyna pospolita",
+      "nazwa_lacinska": "Frangula alnus",
+      "slug": "kruszyna_pospolita"
+    },
+    {
+      "tytul": "Odwar (korzenie/kora) z dziewanna wielkokwiatowa",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "śląsk"
+      ],
+      "skladniki": [
+        "2 łyżeczki dziewanna wielkokwiatowa (kora/korzeń/ziele suszone)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, gotować 10–20 min, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Dziewanna wielkokwiatowa",
+      "nazwa_lacinska": "Verbascum thapsus",
+      "slug": "dziewanna_wielkokwiatowa"
+    },
+    {
+      "tytul": "Macerat na zimno z oman wielki",
+      "typ": "medyczne",
+      "metoda": "macerat_na_zimno",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "1 łyżka oman wielki (świeże, drobno posiekane)",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, odstawić 6–8 h, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Zielnik Szafera (XIX w.)"
+      ],
+      "roslina": "Oman wielki",
+      "nazwa_lacinska": "Inula helenium",
+      "slug": "oman_wielki"
+    },
+    {
+      "tytul": "Płukanka/wyciąg do obmywań z ruta zwyczajna",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "polska"
+      ],
+      "skladniki": [
+        "1 łyżka ruta zwyczajna (suszone)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć 10–15 min, ostudzić, używać do płukań."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Ruta zwyczajna",
+      "nazwa_lacinska": "Ruta graveolens",
+      "slug": "ruta_zwyczajna"
+    },
+    {
+      "tytul": "Kąpiel ziołowa z przywrotnik pospolity",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "3 garście przywrotnik pospolity (świeże) lub 2 garście suszu",
+        "2–3 l wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 15–20 min, odcedzić do kąpieli 37–39°C."
+      ],
+      "dawkowanie": "15–20 min, 2–3× w tygodniu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Przywrotnik pospolity",
+      "nazwa_lacinska": "Alchemilla vulgaris",
+      "slug": "przywrotnik_pospolity"
+    },
+    {
+      "tytul": "Okład z całych liści/ziele z żywokost lekarski",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałkany"
+      ],
+      "skladniki": [
+        "świeże liście żywokost lekarski (młode)",
+        "gaza lniana"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść, nałożyć na gazę, przykładać 15–30 min."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Żywokost — tylko zewnętrznie (alkaloidy pirolizydynowe).",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Żywokost lekarski",
+      "nazwa_lacinska": "Symphytum officinale",
+      "slug": "zywokost_lekarski"
+    },
+    {
+      "tytul": "Proszek do posypywania/zażywania z chmiel zwyczajny",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "susz chmiel zwyczajny — dobrze wysuszony (młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek, przechowywać w słoiku."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2× dziennie, popić wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Chmiel zwyczajny",
+      "nazwa_lacinska": "Humulus lupulus",
+      "slug": "chmiel_zwyczajny"
+    },
+    {
+      "tytul": "Syrop dawny z brzoza brodawkowata",
+      "typ": "medyczne",
+      "metoda": "syrop_tradycyjny",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "niemcy"
+      ],
+      "skladniki": [
+        "Brzoza brodawkowata 100 g (świeże, młode części)",
+        "250 ml wody",
+        "200 g miodu/cukru"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 10–15 min, odcedzić, dosłodzić, odparować."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Brzoza brodawkowata",
+      "nazwa_lacinska": "Betula pendula",
+      "slug": "brzoza_brodawkowata"
+    },
+    {
+      "tytul": "Tinctura w winie z wierzba biała",
+      "typ": "medyczne",
+      "metoda": "tinctura_vinum",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "polska"
+      ],
+      "skladniki": [
+        "Wierzba biała 20–30 g (suszone)",
+        "0,5 l wina (wytrawne)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać winem 5–7 dni, wstrząsać, przecedzić."
+      ],
+      "dawkowanie": "20–30 ml 1× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Wierzba biała",
+      "nazwa_lacinska": "Salix alba",
+      "slug": "wierzba_biala"
+    },
+    {
+      "tytul": "Inhalacja dymna/nad wywarem z dąb szypułkowy",
+      "typ": "medyczne",
+      "metoda": "inhalacja_dymna",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "Dąb szypułkowy garść (suszone, aromatyczne części)",
+        "miska z gorącym wywarem lub rozżarzony węgiel"
+      ],
+      "sposob_przygotowania": [
+        "Nachylić się nad parą/okadzeniem, uważać na oparzenia.",
+        "Inhalować 5–10 minut."
+      ],
+      "dawkowanie": "1–2× dziennie przez 2–3 dni.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Dąb szypułkowy",
+      "nazwa_lacinska": "Quercus robur",
+      "slug": "dab_szypulkowy"
+    },
+    {
+      "tytul": "Oksymel (miód + ocet ziołowy) z jarzębina",
+      "typ": "medyczne",
+      "metoda": "oksymel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "miód pszczeli 200 ml (świeży)",
+        "ocet winny lub jabłkowy 200 ml",
+        "Jarzębina 2 garście (świeże/młode) lub 2 łyżki suszone"
+      ],
+      "sposob_przygotowania": [
+        "Zalać ziele octem i odstawić na 7–10 dni (codziennie poruszyć naczyniem).",
+        "Przecedzić, połączyć z miodem i mieszać do rozpuszczenia.",
+        "Przelać do butelki, trzymać w chłodzie."
+      ],
+      "dawkowanie": "1–2 łyżeczki 2× dziennie; rozcieńczać w wodzie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Jarzębina",
+      "nazwa_lacinska": "Sorbus aucuparia",
+      "slug": "jarzebina"
+    },
+    {
+      "tytul": "Piwo ziołowe/ale na ziołach z tarnina",
+      "typ": "medyczne",
+      "metoda": "piwo_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "polska"
+      ],
+      "skladniki": [
+        "susz tarnina 10–20 g (młode części)",
+        "1 l brzeczki (lub lekkiego piwa domowego)",
+        "odrobina drożdży piwnych"
+      ],
+      "sposob_przygotowania": [
+        "Zioła gotować delikatnie w brzeczce 10 minut, ostudzić.",
+        "Zadać drożdżami i zostawić do refermentacji 2–3 dni.",
+        "Przecedzić i rozlać do butelek (gazowanie naturalne)."
+      ],
+      "dawkowanie": "Mały kufel wieczorem; napój ziołowy, nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Zielnik Szafera (XIX w.)"
+      ],
+      "roslina": "Tarnina",
+      "nazwa_lacinska": "Prunus spinosa",
+      "slug": "tarnina"
+    },
+    {
+      "tytul": "Wino ziołowe z skrzyp polny",
+      "typ": "medyczne",
+      "metoda": "wino_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "Skrzyp polny 30 g (suszone, młode części)",
+        "0,75 l wytrawnego wina (białe/czerwone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać winem, trzymać 5–7 dni w chłodzie, wstrząsać.",
+        "Przecedzić; stosować jako aperitif ziołowy."
+      ],
+      "dawkowanie": "25–50 ml 1× dziennie przed posiłkiem.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "Miód pitny ziołowy z sosna zwyczajna",
+      "typ": "medyczne",
+      "metoda": "miód_pitny_ziołowy",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "małopolska"
+      ],
+      "skladniki": [
+        "miód 500 ml",
+        "woda 1 l",
+        "Sosna zwyczajna 2–3 łyżki (suszone)",
+        "drożdże miodowe (szczypta)"
+      ],
+      "sposob_przygotowania": [
+        "Uwarzyć brzeczkę miodową, dodać zioła i ostudzić.",
+        "Zadać drożdżami, fermentować 7–10 dni.",
+        "Zlać znad osadu i odstawić do dojrzewania."
+      ],
+      "dawkowanie": "Kieliszek 30 ml po posiłku; napój alkoholowy.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Kataplazm (plastry z papki ziołowej) z szczawik zajęczy",
+      "typ": "medyczne",
+      "metoda": "kataplazm",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "świeże liście szczawik zajęczy (młode)",
+        "gorąca woda do sparzenia",
+        "płótno lniane"
+      ],
+      "sposob_przygotowania": [
+        "Liście sparzyć, rozgnieść na papkę.",
+        "Nałożyć na płótno i przykładać ciepłe 20–30 minut."
+      ],
+      "dawkowanie": "2–3× dziennie; tylko zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "Okadzanie/wywary do dymienia z żankiel zwyczajny",
+      "typ": "medyczne",
+      "metoda": "okadzanie",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "susz żankiel zwyczajny 1–2 łyżki (suszone, aromatyczne części)",
+        "węgielek trybularzowy lub rozgrzany kamień"
+      ],
+      "sposob_przygotowania": [
+        "Rozżarzyć węgielek/kamień, posypać suszem.",
+        "Delikatnie okadzać pomieszczenie lub odzież."
+      ],
+      "dawkowanie": "Krótko, w dobrze wietrzonym miejscu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Apteczka benedyktyńska — rękopisy klasztorne"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Maść na smalcu/łożysku tłuszczowym z świerząbek bulwiasty",
+      "typ": "medyczne",
+      "metoda": "maść_na_smalcu",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "śląsk"
+      ],
+      "skladniki": [
+        "Świerząbek bulwiasty 3 łyżki (suszone, rozdrobnione)",
+        "150 g smalcu gęsiego/łój (tradycyjnie)"
+      ],
+      "sposob_przygotowania": [
+        "Rozgrzać tłuszcz w kąpieli wodnej, wsypać ziele.",
+        "Trzymać 45–60 min, nie dopuszczając do wrzenia.",
+        "Przecedzić i przelać do słoika."
+      ],
+      "dawkowanie": "Smarować 2× dziennie; zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "Gorzkie krople (esencja) z pokrzywa zwyczajna",
+      "typ": "medyczne",
+      "metoda": "esencja_gorzka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "Pokrzywa zwyczajna 20 g (gorycze – korzeń/kora/ziele, suszone)",
+        "200 ml spirytusu 60–70%",
+        "skórka cytrynowa (kawałek, opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zioła alkoholem, trzymać 10–14 dni, wstrząsać.",
+        "Przecedzić; dawkuje się kroplami."
+      ],
+      "dawkowanie": "10–20 kropli przed posiłkiem; nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Apteczka benedyktyńska — rękopisy klasztorne"
+      ],
+      "roslina": "Pokrzywa zwyczajna",
+      "nazwa_lacinska": "Urtica dioica",
+      "slug": "pokrzywa_zwyczajna"
+    },
+    {
+      "tytul": "Ocet czterech złodziei – wariant regionalny z rumianek pospolity",
+      "typ": "medyczne",
+      "metoda": "octy_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałkany"
+      ],
+      "skladniki": [
+        "Rumianek pospolity 3 łyżki (suszone)",
+        "0,5 l octu winnnego/jabłkowego",
+        "czosnek 2 ząbki (świeże)",
+        "szałwia, rozmaryn — po 1 łyżce (suszone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła i czosnek zalać octem, macerować 7–14 dni.",
+        "Przecedzić; używać rozcieńczone do przemywań."
+      ],
+      "dawkowanie": "Zewnętrznie; rozcieńczenie 1:5–1:10 z wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Rumianek pospolity",
+      "nazwa_lacinska": "Matricaria chamomilla",
+      "slug": "rumianek_pospolity"
+    },
+    {
+      "tytul": "Eliksir ziołowy z nagietek lekarski",
+      "typ": "medyczne",
+      "metoda": "eliksir",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "kresy"
+      ],
+      "skladniki": [
+        "Nagietek lekarski 15 g (suszone)",
+        "miód 100 ml",
+        "spirytus/wódka 100 ml",
+        "woda 100 ml"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać alkoholem i wodą na 7 dni.",
+        "Przecedzić, dodać miód i wymieszać."
+      ],
+      "dawkowanie": "1 łyżeczka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Nagietek lekarski",
+      "nazwa_lacinska": "Calendula officinalis",
+      "slug": "nagietek_lekarski"
+    },
+    {
+      "tytul": "Napar klasyczny z lipa drobnolistna",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "1 łyżka lipa drobnolistna (suszone, młode części)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 10–15 min, przecedzić."
+      ],
+      "dawkowanie": "1 filiżanka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Lipa drobnolistna",
+      "nazwa_lacinska": "Tilia cordata",
+      "slug": "lipa_drobnolistna"
+    },
+    {
+      "tytul": "Odwar (korzenie/kora) z krwawnik pospolity",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "2 łyżeczki krwawnik pospolity (kora/korzeń/ziele suszone)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, gotować 10–20 min, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Krwawnik pospolity",
+      "nazwa_lacinska": "Achillea millefolium",
+      "slug": "krwawnik_pospolity"
+    },
+    {
+      "tytul": "Macerat na zimno z mniszek lekarski",
+      "typ": "medyczne",
+      "metoda": "macerat_na_zimno",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "1 łyżka mniszek lekarski (świeże, drobno posiekane)",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, odstawić 6–8 h, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Mniszek lekarski",
+      "nazwa_lacinska": "Taraxacum officinale",
+      "slug": "mniszek_lekarski"
+    },
+    {
+      "tytul": "Płukanka/wyciąg do obmywań z babka lancetowata",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "kresy"
+      ],
+      "skladniki": [
+        "1 łyżka babka lancetowata (suszone)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć 10–15 min, ostudzić, używać do płukań."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Babka lancetowata",
+      "nazwa_lacinska": "Plantago lanceolata",
+      "slug": "babka_lancetowata"
+    },
+    {
+      "tytul": "Kąpiel ziołowa z podbiał pospolity",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "śląsk"
+      ],
+      "skladniki": [
+        "3 garście podbiał pospolity (świeże) lub 2 garście suszu",
+        "2–3 l wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 15–20 min, odcedzić do kąpieli 37–39°C."
+      ],
+      "dawkowanie": "15–20 min, 2–3× w tygodniu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Apteczka benedyktyńska — rękopisy klasztorne"
+      ],
+      "roslina": "Podbiał pospolity",
+      "nazwa_lacinska": "Tussilago farfara",
+      "slug": "podbial_pospolity"
+    },
+    {
+      "tytul": "Okład z całych liści/ziele z dziurawiec zwyczajny",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "świeże liście dziurawiec zwyczajny (młode)",
+        "gaza lniana"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść, nałożyć na gazę, przykładać 15–30 min."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Dziurawiec może wchodzić w interakcje z lekami (indukcja CYP3A4).",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Dziurawiec zwyczajny",
+      "nazwa_lacinska": "Hypericum perforatum",
+      "slug": "dziurawiec_zwyczajny"
+    },
+    {
+      "tytul": "Proszek do posypywania/zażywania z szałwia lekarska",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "mazowsze"
+      ],
+      "skladniki": [
+        "susz szałwia lekarska — dobrze wysuszony (młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek, przechowywać w słoiku."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2× dziennie, popić wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Szałwia lekarska",
+      "nazwa_lacinska": "Salvia officinalis",
+      "slug": "szalwia_lekarska"
+    },
+    {
+      "tytul": "Syrop dawny z tymianek pospolity",
+      "typ": "medyczne",
+      "metoda": "syrop_tradycyjny",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "Tymianek pospolity 100 g (świeże, młode części)",
+        "250 ml wody",
+        "200 g miodu/cukru"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 10–15 min, odcedzić, dosłodzić, odparować."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Tymianek pospolity",
+      "nazwa_lacinska": "Thymus vulgaris",
+      "slug": "tymianek_pospolity"
+    },
+    {
+      "tytul": "Tinctura w winie z mięta pieprzowa",
+      "typ": "medyczne",
+      "metoda": "tinctura_vinum",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "niemcy"
+      ],
+      "skladniki": [
+        "Mięta pieprzowa 20–30 g (suszone)",
+        "0,5 l wina (wytrawne)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać winem 5–7 dni, wstrząsać, przecedzić."
+      ],
+      "dawkowanie": "20–30 ml 1× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Mięta pieprzowa",
+      "nazwa_lacinska": "Mentha x piperita",
+      "slug": "mieta_pieprzowa"
+    },
+    {
+      "tytul": "Inhalacja dymna/nad wywarem z melisa lekarska",
+      "typ": "medyczne",
+      "metoda": "inhalacja_dymna",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "Melisa lekarska garść (suszone, aromatyczne części)",
+        "miska z gorącym wywarem lub rozżarzony węgiel"
+      ],
+      "sposob_przygotowania": [
+        "Nachylić się nad parą/okadzeniem, uważać na oparzenia.",
+        "Inhalować 5–10 minut."
+      ],
+      "dawkowanie": "1–2× dziennie przez 2–3 dni.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Melisa lekarska",
+      "nazwa_lacinska": "Melissa officinalis",
+      "slug": "melisa_lekarska"
+    },
+    {
+      "tytul": "Oksymel (miód + ocet ziołowy) z koper włoski",
+      "typ": "medyczne",
+      "metoda": "oksymel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "miód pszczeli 200 ml (świeży)",
+        "ocet winny lub jabłkowy 200 ml",
+        "Koper włoski 2 garście (świeże/młode) lub 2 łyżki suszone"
+      ],
+      "sposob_przygotowania": [
+        "Zalać ziele octem i odstawić na 7–10 dni (codziennie poruszyć naczyniem).",
+        "Przecedzić, połączyć z miodem i mieszać do rozpuszczenia.",
+        "Przelać do butelki, trzymać w chłodzie."
+      ],
+      "dawkowanie": "1–2 łyżeczki 2× dziennie; rozcieńczać w wodzie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Zielnik Szafera (XIX w.)"
+      ],
+      "roslina": "Koper włoski",
+      "nazwa_lacinska": "Foeniculum vulgare",
+      "slug": "koper_wloski"
+    },
+    {
+      "tytul": "Piwo ziołowe/ale na ziołach z anyż",
+      "typ": "medyczne",
+      "metoda": "piwo_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "mazowsze"
+      ],
+      "skladniki": [
+        "susz anyż 10–20 g (młode części)",
+        "1 l brzeczki (lub lekkiego piwa domowego)",
+        "odrobina drożdży piwnych"
+      ],
+      "sposob_przygotowania": [
+        "Zioła gotować delikatnie w brzeczce 10 minut, ostudzić.",
+        "Zadać drożdżami i zostawić do refermentacji 2–3 dni.",
+        "Przecedzić i rozlać do butelek (gazowanie naturalne)."
+      ],
+      "dawkowanie": "Mały kufel wieczorem; napój ziołowy, nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Anyż",
+      "nazwa_lacinska": "Pimpinella anisum",
+      "slug": "anyz"
+    },
+    {
+      "tytul": "Wino ziołowe z arcydzięgiel litwor",
+      "typ": "medyczne",
+      "metoda": "wino_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "karpaty"
+      ],
+      "skladniki": [
+        "Arcydzięgiel litwor 30 g (suszone, młode części)",
+        "0,75 l wytrawnego wina (białe/czerwone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać winem, trzymać 5–7 dni w chłodzie, wstrząsać.",
+        "Przecedzić; stosować jako aperitif ziołowy."
+      ],
+      "dawkowanie": "25–50 ml 1× dziennie przed posiłkiem.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Arcydzięgiel litwor",
+      "nazwa_lacinska": "Angelica archangelica",
+      "slug": "arcydziegiel_litwor"
+    },
+    {
+      "tytul": "Miód pitny ziołowy z prawoślaz lekarski",
+      "typ": "medyczne",
+      "metoda": "miód_pitny_ziołowy",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "kresy"
+      ],
+      "skladniki": [
+        "miód 500 ml",
+        "woda 1 l",
+        "Prawoślaz lekarski 2–3 łyżki (suszone)",
+        "drożdże miodowe (szczypta)"
+      ],
+      "sposob_przygotowania": [
+        "Uwarzyć brzeczkę miodową, dodać zioła i ostudzić.",
+        "Zadać drożdżami, fermentować 7–10 dni.",
+        "Zlać znad osadu i odstawić do dojrzewania."
+      ],
+      "dawkowanie": "Kieliszek 30 ml po posiłku; napój alkoholowy.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Prawoślaz lekarski",
+      "nazwa_lacinska": "Althaea officinalis",
+      "slug": "prawoslaz_lekarski"
+    },
+    {
+      "tytul": "Kataplazm (plastry z papki ziołowej) z głóg jednoszyjkowy",
+      "typ": "medyczne",
+      "metoda": "kataplazm",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "polska"
+      ],
+      "skladniki": [
+        "świeże liście głóg jednoszyjkowy (młode)",
+        "gorąca woda do sparzenia",
+        "płótno lniane"
+      ],
+      "sposob_przygotowania": [
+        "Liście sparzyć, rozgnieść na papkę.",
+        "Nałożyć na płótno i przykładać ciepłe 20–30 minut."
+      ],
+      "dawkowanie": "2–3× dziennie; tylko zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Głóg jednoszyjkowy",
+      "nazwa_lacinska": "Crataegus monogyna",
+      "slug": "glog_jednoszyjkowy"
+    },
+    {
+      "tytul": "Okadzanie/wywary do dymienia z dzika róża",
+      "typ": "medyczne",
+      "metoda": "okadzanie",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "susz dzika róża 1–2 łyżki (suszone, aromatyczne części)",
+        "węgielek trybularzowy lub rozgrzany kamień"
+      ],
+      "sposob_przygotowania": [
+        "Rozżarzyć węgielek/kamień, posypać suszem.",
+        "Delikatnie okadzać pomieszczenie lub odzież."
+      ],
+      "dawkowanie": "Krótko, w dobrze wietrzonym miejscu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Dzika róża",
+      "nazwa_lacinska": "Rosa canina",
+      "slug": "dzika_roza"
+    },
+    {
+      "tytul": "Maść na smalcu/łożysku tłuszczowym z bez czarny",
+      "typ": "medyczne",
+      "metoda": "maść_na_smalcu",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "Bez czarny 3 łyżki (suszone, rozdrobnione)",
+        "150 g smalcu gęsiego/łój (tradycyjnie)"
+      ],
+      "sposob_przygotowania": [
+        "Rozgrzać tłuszcz w kąpieli wodnej, wsypać ziele.",
+        "Trzymać 45–60 min, nie dopuszczając do wrzenia.",
+        "Przecedzić i przelać do słoika."
+      ],
+      "dawkowanie": "Smarować 2× dziennie; zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Bez czarny",
+      "nazwa_lacinska": "Sambucus nigra",
+      "slug": "bez_czarny"
+    },
+    {
+      "tytul": "Gorzkie krople (esencja) z jałowiec pospolity",
+      "typ": "medyczne",
+      "metoda": "esencja_gorzka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "skandynawia"
+      ],
+      "skladniki": [
+        "Jałowiec pospolity 20 g (gorycze – korzeń/kora/ziele, suszone)",
+        "200 ml spirytusu 60–70%",
+        "skórka cytrynowa (kawałek, opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zioła alkoholem, trzymać 10–14 dni, wstrząsać.",
+        "Przecedzić; dawkuje się kroplami."
+      ],
+      "dawkowanie": "10–20 kropli przed posiłkiem; nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Jałowiec pospolity",
+      "nazwa_lacinska": "Juniperus communis",
+      "slug": "jalowiec_pospolity"
+    },
+    {
+      "tytul": "Ocet czterech złodziei – wariant regionalny z piołun",
+      "typ": "medyczne",
+      "metoda": "octy_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "podlasie"
+      ],
+      "skladniki": [
+        "Piołun 3 łyżki (suszone)",
+        "0,5 l octu winnnego/jabłkowego",
+        "czosnek 2 ząbki (świeże)",
+        "szałwia, rozmaryn — po 1 łyżce (suszone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła i czosnek zalać octem, macerować 7–14 dni.",
+        "Przecedzić; używać rozcieńczone do przemywań."
+      ],
+      "dawkowanie": "Zewnętrznie; rozcieńczenie 1:5–1:10 z wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Piołun (tujon) — stosować krótkotrwale i ostrożnie.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Piołun",
+      "nazwa_lacinska": "Artemisia absinthium",
+      "slug": "piolun"
+    },
+    {
+      "tytul": "Eliksir ziołowy z bylica pospolita",
+      "typ": "medyczne",
+      "metoda": "eliksir",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "kresy"
+      ],
+      "skladniki": [
+        "Bylica pospolita 15 g (suszone)",
+        "miód 100 ml",
+        "spirytus/wódka 100 ml",
+        "woda 100 ml"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać alkoholem i wodą na 7 dni.",
+        "Przecedzić, dodać miód i wymieszać."
+      ],
+      "dawkowanie": "1 łyżeczka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Bylica pospolita",
+      "nazwa_lacinska": "Artemisia vulgaris",
+      "slug": "bylica_pospolita"
+    },
+    {
+      "tytul": "Napar klasyczny z tatarak",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "1 łyżka tatarak (suszone, młode części)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 10–15 min, przecedzić."
+      ],
+      "dawkowanie": "1 filiżanka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Tatarak — możliwa obecność azaronu; stosować krótkotrwale.",
+      "zrodla": [
+        "Marcin z Urzędowa — Herbarz polski (1595)"
+      ],
+      "roslina": "Tatarak",
+      "nazwa_lacinska": "Acorus calamus",
+      "slug": "tatarak"
+    },
+    {
+      "tytul": "Odwar (korzenie/kora) z kruszyna pospolita",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "karpaty"
+      ],
+      "skladniki": [
+        "2 łyżeczki kruszyna pospolita (kora/korzeń/ziele suszone)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, gotować 10–20 min, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Kora kruszyny — środki przeczyszczające, nie dla kobiet w ciąży.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Kruszyna pospolita",
+      "nazwa_lacinska": "Frangula alnus",
+      "slug": "kruszyna_pospolita"
+    },
+    {
+      "tytul": "Macerat na zimno z dziewanna wielkokwiatowa",
+      "typ": "medyczne",
+      "metoda": "macerat_na_zimno",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "karpaty"
+      ],
+      "skladniki": [
+        "1 łyżka dziewanna wielkokwiatowa (świeże, drobno posiekane)",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, odstawić 6–8 h, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Dziewanna wielkokwiatowa",
+      "nazwa_lacinska": "Verbascum thapsus",
+      "slug": "dziewanna_wielkokwiatowa"
+    },
+    {
+      "tytul": "Płukanka/wyciąg do obmywań z oman wielki",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "karpaty"
+      ],
+      "skladniki": [
+        "1 łyżka oman wielki (suszone)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć 10–15 min, ostudzić, używać do płukań."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Oman wielki",
+      "nazwa_lacinska": "Inula helenium",
+      "slug": "oman_wielki"
+    },
+    {
+      "tytul": "Kąpiel ziołowa z ruta zwyczajna",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "3 garście ruta zwyczajna (świeże) lub 2 garście suszu",
+        "2–3 l wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 15–20 min, odcedzić do kąpieli 37–39°C."
+      ],
+      "dawkowanie": "15–20 min, 2–3× w tygodniu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Ruta zwyczajna",
+      "nazwa_lacinska": "Ruta graveolens",
+      "slug": "ruta_zwyczajna"
+    },
+    {
+      "tytul": "Okład z całych liści/ziele z przywrotnik pospolity",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "świeże liście przywrotnik pospolity (młode)",
+        "gaza lniana"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść, nałożyć na gazę, przykładać 15–30 min."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Przywrotnik pospolity",
+      "nazwa_lacinska": "Alchemilla vulgaris",
+      "slug": "przywrotnik_pospolity"
+    },
+    {
+      "tytul": "Proszek do posypywania/zażywania z żywokost lekarski",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałkany"
+      ],
+      "skladniki": [
+        "susz żywokost lekarski — dobrze wysuszony (młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek, przechowywać w słoiku."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2× dziennie, popić wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Żywokost — tylko zewnętrznie (alkaloidy pirolizydynowe).",
+      "zrodla": [
+        "Zielnik Szafera (XIX w.)"
+      ],
+      "roslina": "Żywokost lekarski",
+      "nazwa_lacinska": "Symphytum officinale",
+      "slug": "zywokost_lekarski"
+    },
+    {
+      "tytul": "Syrop dawny z chmiel zwyczajny",
+      "typ": "medyczne",
+      "metoda": "syrop_tradycyjny",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "Chmiel zwyczajny 100 g (świeże, młode części)",
+        "250 ml wody",
+        "200 g miodu/cukru"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 10–15 min, odcedzić, dosłodzić, odparować."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Chmiel zwyczajny",
+      "nazwa_lacinska": "Humulus lupulus",
+      "slug": "chmiel_zwyczajny"
+    },
+    {
+      "tytul": "Tinctura w winie z brzoza brodawkowata",
+      "typ": "medyczne",
+      "metoda": "tinctura_vinum",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "skandynawia"
+      ],
+      "skladniki": [
+        "Brzoza brodawkowata 20–30 g (suszone)",
+        "0,5 l wina (wytrawne)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać winem 5–7 dni, wstrząsać, przecedzić."
+      ],
+      "dawkowanie": "20–30 ml 1× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Brzoza brodawkowata",
+      "nazwa_lacinska": "Betula pendula",
+      "slug": "brzoza_brodawkowata"
+    },
+    {
+      "tytul": "Inhalacja dymna/nad wywarem z wierzba biała",
+      "typ": "medyczne",
+      "metoda": "inhalacja_dymna",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "Wierzba biała garść (suszone, aromatyczne części)",
+        "miska z gorącym wywarem lub rozżarzony węgiel"
+      ],
+      "sposob_przygotowania": [
+        "Nachylić się nad parą/okadzeniem, uważać na oparzenia.",
+        "Inhalować 5–10 minut."
+      ],
+      "dawkowanie": "1–2× dziennie przez 2–3 dni.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Wierzba biała",
+      "nazwa_lacinska": "Salix alba",
+      "slug": "wierzba_biala"
+    },
+    {
+      "tytul": "Oksymel (miód + ocet ziołowy) z dąb szypułkowy",
+      "typ": "medyczne",
+      "metoda": "oksymel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "śląsk"
+      ],
+      "skladniki": [
+        "miód pszczeli 200 ml (świeży)",
+        "ocet winny lub jabłkowy 200 ml",
+        "Dąb szypułkowy 2 garście (świeże/młode) lub 2 łyżki suszone"
+      ],
+      "sposob_przygotowania": [
+        "Zalać ziele octem i odstawić na 7–10 dni (codziennie poruszyć naczyniem).",
+        "Przecedzić, połączyć z miodem i mieszać do rozpuszczenia.",
+        "Przelać do butelki, trzymać w chłodzie."
+      ],
+      "dawkowanie": "1–2 łyżeczki 2× dziennie; rozcieńczać w wodzie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Dąb szypułkowy",
+      "nazwa_lacinska": "Quercus robur",
+      "slug": "dab_szypulkowy"
+    },
+    {
+      "tytul": "Piwo ziołowe/ale na ziołach z jarzębina",
+      "typ": "medyczne",
+      "metoda": "piwo_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "kresy"
+      ],
+      "skladniki": [
+        "susz jarzębina 10–20 g (młode części)",
+        "1 l brzeczki (lub lekkiego piwa domowego)",
+        "odrobina drożdży piwnych"
+      ],
+      "sposob_przygotowania": [
+        "Zioła gotować delikatnie w brzeczce 10 minut, ostudzić.",
+        "Zadać drożdżami i zostawić do refermentacji 2–3 dni.",
+        "Przecedzić i rozlać do butelek (gazowanie naturalne)."
+      ],
+      "dawkowanie": "Mały kufel wieczorem; napój ziołowy, nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Jarzębina",
+      "nazwa_lacinska": "Sorbus aucuparia",
+      "slug": "jarzebina"
+    },
+    {
+      "tytul": "Wino ziołowe z tarnina",
+      "typ": "medyczne",
+      "metoda": "wino_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "niemcy"
+      ],
+      "skladniki": [
+        "Tarnina 30 g (suszone, młode części)",
+        "0,75 l wytrawnego wina (białe/czerwone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać winem, trzymać 5–7 dni w chłodzie, wstrząsać.",
+        "Przecedzić; stosować jako aperitif ziołowy."
+      ],
+      "dawkowanie": "25–50 ml 1× dziennie przed posiłkiem.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Tarnina",
+      "nazwa_lacinska": "Prunus spinosa",
+      "slug": "tarnina"
+    },
+    {
+      "tytul": "Miód pitny ziołowy z skrzyp polny",
+      "typ": "medyczne",
+      "metoda": "miód_pitny_ziołowy",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "skandynawia"
+      ],
+      "skladniki": [
+        "miód 500 ml",
+        "woda 1 l",
+        "Skrzyp polny 2–3 łyżki (suszone)",
+        "drożdże miodowe (szczypta)"
+      ],
+      "sposob_przygotowania": [
+        "Uwarzyć brzeczkę miodową, dodać zioła i ostudzić.",
+        "Zadać drożdżami, fermentować 7–10 dni.",
+        "Zlać znad osadu i odstawić do dojrzewania."
+      ],
+      "dawkowanie": "Kieliszek 30 ml po posiłku; napój alkoholowy.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Zielnik Szafera (XIX w.)"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "Kataplazm (plastry z papki ziołowej) z sosna zwyczajna",
+      "typ": "medyczne",
+      "metoda": "kataplazm",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "kresy"
+      ],
+      "skladniki": [
+        "świeże liście sosna zwyczajna (młode)",
+        "gorąca woda do sparzenia",
+        "płótno lniane"
+      ],
+      "sposob_przygotowania": [
+        "Liście sparzyć, rozgnieść na papkę.",
+        "Nałożyć na płótno i przykładać ciepłe 20–30 minut."
+      ],
+      "dawkowanie": "2–3× dziennie; tylko zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Okadzanie/wywary do dymienia z szczawik zajęczy",
+      "typ": "medyczne",
+      "metoda": "okadzanie",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "mazowsze"
+      ],
+      "skladniki": [
+        "susz szczawik zajęczy 1–2 łyżki (suszone, aromatyczne części)",
+        "węgielek trybularzowy lub rozgrzany kamień"
+      ],
+      "sposob_przygotowania": [
+        "Rozżarzyć węgielek/kamień, posypać suszem.",
+        "Delikatnie okadzać pomieszczenie lub odzież."
+      ],
+      "dawkowanie": "Krótko, w dobrze wietrzonym miejscu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "Maść na smalcu/łożysku tłuszczowym z żankiel zwyczajny",
+      "typ": "medyczne",
+      "metoda": "maść_na_smalcu",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "Żankiel zwyczajny 3 łyżki (suszone, rozdrobnione)",
+        "150 g smalcu gęsiego/łój (tradycyjnie)"
+      ],
+      "sposob_przygotowania": [
+        "Rozgrzać tłuszcz w kąpieli wodnej, wsypać ziele.",
+        "Trzymać 45–60 min, nie dopuszczając do wrzenia.",
+        "Przecedzić i przelać do słoika."
+      ],
+      "dawkowanie": "Smarować 2× dziennie; zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Gorzkie krople (esencja) z świerząbek bulwiasty",
+      "typ": "medyczne",
+      "metoda": "esencja_gorzka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "Świerząbek bulwiasty 20 g (gorycze – korzeń/kora/ziele, suszone)",
+        "200 ml spirytusu 60–70%",
+        "skórka cytrynowa (kawałek, opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zioła alkoholem, trzymać 10–14 dni, wstrząsać.",
+        "Przecedzić; dawkuje się kroplami."
+      ],
+      "dawkowanie": "10–20 kropli przed posiłkiem; nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Zielnik Szafera (XIX w.)"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "Ocet czterech złodziei – wariant regionalny z pokrzywa zwyczajna",
+      "typ": "medyczne",
+      "metoda": "octy_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałkany"
+      ],
+      "skladniki": [
+        "Pokrzywa zwyczajna 3 łyżki (suszone)",
+        "0,5 l octu winnnego/jabłkowego",
+        "czosnek 2 ząbki (świeże)",
+        "szałwia, rozmaryn — po 1 łyżce (suszone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła i czosnek zalać octem, macerować 7–14 dni.",
+        "Przecedzić; używać rozcieńczone do przemywań."
+      ],
+      "dawkowanie": "Zewnętrznie; rozcieńczenie 1:5–1:10 z wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Pokrzywa zwyczajna",
+      "nazwa_lacinska": "Urtica dioica",
+      "slug": "pokrzywa_zwyczajna"
+    },
+    {
+      "tytul": "Eliksir ziołowy z rumianek pospolity",
+      "typ": "medyczne",
+      "metoda": "eliksir",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "karpaty"
+      ],
+      "skladniki": [
+        "Rumianek pospolity 15 g (suszone)",
+        "miód 100 ml",
+        "spirytus/wódka 100 ml",
+        "woda 100 ml"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać alkoholem i wodą na 7 dni.",
+        "Przecedzić, dodać miód i wymieszać."
+      ],
+      "dawkowanie": "1 łyżeczka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Rumianek pospolity",
+      "nazwa_lacinska": "Matricaria chamomilla",
+      "slug": "rumianek_pospolity"
+    },
+    {
+      "tytul": "Napar klasyczny z nagietek lekarski",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałkany"
+      ],
+      "skladniki": [
+        "1 łyżka nagietek lekarski (suszone, młode części)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 10–15 min, przecedzić."
+      ],
+      "dawkowanie": "1 filiżanka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Marcin z Urzędowa — Herbarz polski (1595)"
+      ],
+      "roslina": "Nagietek lekarski",
+      "nazwa_lacinska": "Calendula officinalis",
+      "slug": "nagietek_lekarski"
+    },
+    {
+      "tytul": "Odwar (korzenie/kora) z lipa drobnolistna",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "małopolska"
+      ],
+      "skladniki": [
+        "2 łyżeczki lipa drobnolistna (kora/korzeń/ziele suszone)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, gotować 10–20 min, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Lipa drobnolistna",
+      "nazwa_lacinska": "Tilia cordata",
+      "slug": "lipa_drobnolistna"
+    },
+    {
+      "tytul": "Macerat na zimno z krwawnik pospolity",
+      "typ": "medyczne",
+      "metoda": "macerat_na_zimno",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "1 łyżka krwawnik pospolity (świeże, drobno posiekane)",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, odstawić 6–8 h, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Krwawnik pospolity",
+      "nazwa_lacinska": "Achillea millefolium",
+      "slug": "krwawnik_pospolity"
+    },
+    {
+      "tytul": "Płukanka/wyciąg do obmywań z mniszek lekarski",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "1 łyżka mniszek lekarski (suszone)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć 10–15 min, ostudzić, używać do płukań."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Mniszek lekarski",
+      "nazwa_lacinska": "Taraxacum officinale",
+      "slug": "mniszek_lekarski"
+    },
+    {
+      "tytul": "Kąpiel ziołowa z babka lancetowata",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "3 garście babka lancetowata (świeże) lub 2 garście suszu",
+        "2–3 l wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 15–20 min, odcedzić do kąpieli 37–39°C."
+      ],
+      "dawkowanie": "15–20 min, 2–3× w tygodniu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Babka lancetowata",
+      "nazwa_lacinska": "Plantago lanceolata",
+      "slug": "babka_lancetowata"
+    },
+    {
+      "tytul": "Okład z całych liści/ziele z podbiał pospolity",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "mazowsze"
+      ],
+      "skladniki": [
+        "świeże liście podbiał pospolity (młode)",
+        "gaza lniana"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść, nałożyć na gazę, przykładać 15–30 min."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Podbiał pospolity",
+      "nazwa_lacinska": "Tussilago farfara",
+      "slug": "podbial_pospolity"
+    },
+    {
+      "tytul": "Proszek do posypywania/zażywania z dziurawiec zwyczajny",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "słowacja"
+      ],
+      "skladniki": [
+        "susz dziurawiec zwyczajny — dobrze wysuszony (młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek, przechowywać w słoiku."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2× dziennie, popić wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Dziurawiec może wchodzić w interakcje z lekami (indukcja CYP3A4).",
+      "zrodla": [
+        "Marcin z Urzędowa — Herbarz polski (1595)"
+      ],
+      "roslina": "Dziurawiec zwyczajny",
+      "nazwa_lacinska": "Hypericum perforatum",
+      "slug": "dziurawiec_zwyczajny"
+    },
+    {
+      "tytul": "Syrop dawny z szałwia lekarska",
+      "typ": "medyczne",
+      "metoda": "syrop_tradycyjny",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "skandynawia"
+      ],
+      "skladniki": [
+        "Szałwia lekarska 100 g (świeże, młode części)",
+        "250 ml wody",
+        "200 g miodu/cukru"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 10–15 min, odcedzić, dosłodzić, odparować."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Apteczka benedyktyńska — rękopisy klasztorne"
+      ],
+      "roslina": "Szałwia lekarska",
+      "nazwa_lacinska": "Salvia officinalis",
+      "slug": "szalwia_lekarska"
+    },
+    {
+      "tytul": "Tinctura w winie z tymianek pospolity",
+      "typ": "medyczne",
+      "metoda": "tinctura_vinum",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "kresy"
+      ],
+      "skladniki": [
+        "Tymianek pospolity 20–30 g (suszone)",
+        "0,5 l wina (wytrawne)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać winem 5–7 dni, wstrząsać, przecedzić."
+      ],
+      "dawkowanie": "20–30 ml 1× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Tymianek pospolity",
+      "nazwa_lacinska": "Thymus vulgaris",
+      "slug": "tymianek_pospolity"
+    },
+    {
+      "tytul": "Inhalacja dymna/nad wywarem z mięta pieprzowa",
+      "typ": "medyczne",
+      "metoda": "inhalacja_dymna",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "skandynawia"
+      ],
+      "skladniki": [
+        "Mięta pieprzowa garść (suszone, aromatyczne części)",
+        "miska z gorącym wywarem lub rozżarzony węgiel"
+      ],
+      "sposob_przygotowania": [
+        "Nachylić się nad parą/okadzeniem, uważać na oparzenia.",
+        "Inhalować 5–10 minut."
+      ],
+      "dawkowanie": "1–2× dziennie przez 2–3 dni.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Mięta pieprzowa",
+      "nazwa_lacinska": "Mentha x piperita",
+      "slug": "mieta_pieprzowa"
+    },
+    {
+      "tytul": "Oksymel (miód + ocet ziołowy) z melisa lekarska",
+      "typ": "medyczne",
+      "metoda": "oksymel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "kresy"
+      ],
+      "skladniki": [
+        "miód pszczeli 200 ml (świeży)",
+        "ocet winny lub jabłkowy 200 ml",
+        "Melisa lekarska 2 garście (świeże/młode) lub 2 łyżki suszone"
+      ],
+      "sposob_przygotowania": [
+        "Zalać ziele octem i odstawić na 7–10 dni (codziennie poruszyć naczyniem).",
+        "Przecedzić, połączyć z miodem i mieszać do rozpuszczenia.",
+        "Przelać do butelki, trzymać w chłodzie."
+      ],
+      "dawkowanie": "1–2 łyżeczki 2× dziennie; rozcieńczać w wodzie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Melisa lekarska",
+      "nazwa_lacinska": "Melissa officinalis",
+      "slug": "melisa_lekarska"
+    },
+    {
+      "tytul": "Piwo ziołowe/ale na ziołach z koper włoski",
+      "typ": "medyczne",
+      "metoda": "piwo_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "susz koper włoski 10–20 g (młode części)",
+        "1 l brzeczki (lub lekkiego piwa domowego)",
+        "odrobina drożdży piwnych"
+      ],
+      "sposob_przygotowania": [
+        "Zioła gotować delikatnie w brzeczce 10 minut, ostudzić.",
+        "Zadać drożdżami i zostawić do refermentacji 2–3 dni.",
+        "Przecedzić i rozlać do butelek (gazowanie naturalne)."
+      ],
+      "dawkowanie": "Mały kufel wieczorem; napój ziołowy, nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Koper włoski",
+      "nazwa_lacinska": "Foeniculum vulgare",
+      "slug": "koper_wloski"
+    },
+    {
+      "tytul": "Wino ziołowe z anyż",
+      "typ": "medyczne",
+      "metoda": "wino_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "mazowsze"
+      ],
+      "skladniki": [
+        "Anyż 30 g (suszone, młode części)",
+        "0,75 l wytrawnego wina (białe/czerwone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać winem, trzymać 5–7 dni w chłodzie, wstrząsać.",
+        "Przecedzić; stosować jako aperitif ziołowy."
+      ],
+      "dawkowanie": "25–50 ml 1× dziennie przed posiłkiem.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Anyż",
+      "nazwa_lacinska": "Pimpinella anisum",
+      "slug": "anyz"
+    },
+    {
+      "tytul": "Miód pitny ziołowy z arcydzięgiel litwor",
+      "typ": "medyczne",
+      "metoda": "miód_pitny_ziołowy",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałkany"
+      ],
+      "skladniki": [
+        "miód 500 ml",
+        "woda 1 l",
+        "Arcydzięgiel litwor 2–3 łyżki (suszone)",
+        "drożdże miodowe (szczypta)"
+      ],
+      "sposob_przygotowania": [
+        "Uwarzyć brzeczkę miodową, dodać zioła i ostudzić.",
+        "Zadać drożdżami, fermentować 7–10 dni.",
+        "Zlać znad osadu i odstawić do dojrzewania."
+      ],
+      "dawkowanie": "Kieliszek 30 ml po posiłku; napój alkoholowy.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Arcydzięgiel litwor",
+      "nazwa_lacinska": "Angelica archangelica",
+      "slug": "arcydziegiel_litwor"
+    },
+    {
+      "tytul": "Kataplazm (plastry z papki ziołowej) z prawoślaz lekarski",
+      "typ": "medyczne",
+      "metoda": "kataplazm",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "świeże liście prawoślaz lekarski (młode)",
+        "gorąca woda do sparzenia",
+        "płótno lniane"
+      ],
+      "sposob_przygotowania": [
+        "Liście sparzyć, rozgnieść na papkę.",
+        "Nałożyć na płótno i przykładać ciepłe 20–30 minut."
+      ],
+      "dawkowanie": "2–3× dziennie; tylko zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Prawoślaz lekarski",
+      "nazwa_lacinska": "Althaea officinalis",
+      "slug": "prawoslaz_lekarski"
+    },
+    {
+      "tytul": "Okadzanie/wywary do dymienia z głóg jednoszyjkowy",
+      "typ": "medyczne",
+      "metoda": "okadzanie",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "niemcy"
+      ],
+      "skladniki": [
+        "susz głóg jednoszyjkowy 1–2 łyżki (suszone, aromatyczne części)",
+        "węgielek trybularzowy lub rozgrzany kamień"
+      ],
+      "sposob_przygotowania": [
+        "Rozżarzyć węgielek/kamień, posypać suszem.",
+        "Delikatnie okadzać pomieszczenie lub odzież."
+      ],
+      "dawkowanie": "Krótko, w dobrze wietrzonym miejscu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Głóg jednoszyjkowy",
+      "nazwa_lacinska": "Crataegus monogyna",
+      "slug": "glog_jednoszyjkowy"
+    },
+    {
+      "tytul": "Maść na smalcu/łożysku tłuszczowym z dzika róża",
+      "typ": "medyczne",
+      "metoda": "maść_na_smalcu",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "niemcy"
+      ],
+      "skladniki": [
+        "Dzika róża 3 łyżki (suszone, rozdrobnione)",
+        "150 g smalcu gęsiego/łój (tradycyjnie)"
+      ],
+      "sposob_przygotowania": [
+        "Rozgrzać tłuszcz w kąpieli wodnej, wsypać ziele.",
+        "Trzymać 45–60 min, nie dopuszczając do wrzenia.",
+        "Przecedzić i przelać do słoika."
+      ],
+      "dawkowanie": "Smarować 2× dziennie; zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Dzika róża",
+      "nazwa_lacinska": "Rosa canina",
+      "slug": "dzika_roza"
+    },
+    {
+      "tytul": "Gorzkie krople (esencja) z bez czarny",
+      "typ": "medyczne",
+      "metoda": "esencja_gorzka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "Bez czarny 20 g (gorycze – korzeń/kora/ziele, suszone)",
+        "200 ml spirytusu 60–70%",
+        "skórka cytrynowa (kawałek, opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zioła alkoholem, trzymać 10–14 dni, wstrząsać.",
+        "Przecedzić; dawkuje się kroplami."
+      ],
+      "dawkowanie": "10–20 kropli przed posiłkiem; nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Bez czarny",
+      "nazwa_lacinska": "Sambucus nigra",
+      "slug": "bez_czarny"
+    },
+    {
+      "tytul": "Ocet czterech złodziei – wariant regionalny z jałowiec pospolity",
+      "typ": "medyczne",
+      "metoda": "octy_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "podlasie"
+      ],
+      "skladniki": [
+        "Jałowiec pospolity 3 łyżki (suszone)",
+        "0,5 l octu winnnego/jabłkowego",
+        "czosnek 2 ząbki (świeże)",
+        "szałwia, rozmaryn — po 1 łyżce (suszone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła i czosnek zalać octem, macerować 7–14 dni.",
+        "Przecedzić; używać rozcieńczone do przemywań."
+      ],
+      "dawkowanie": "Zewnętrznie; rozcieńczenie 1:5–1:10 z wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Jałowiec pospolity",
+      "nazwa_lacinska": "Juniperus communis",
+      "slug": "jalowiec_pospolity"
+    },
+    {
+      "tytul": "Eliksir ziołowy z piołun",
+      "typ": "medyczne",
+      "metoda": "eliksir",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "niemcy"
+      ],
+      "skladniki": [
+        "Piołun 15 g (suszone)",
+        "miód 100 ml",
+        "spirytus/wódka 100 ml",
+        "woda 100 ml"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać alkoholem i wodą na 7 dni.",
+        "Przecedzić, dodać miód i wymieszać."
+      ],
+      "dawkowanie": "1 łyżeczka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Piołun (tujon) — stosować krótkotrwale i ostrożnie.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Piołun",
+      "nazwa_lacinska": "Artemisia absinthium",
+      "slug": "piolun"
+    },
+    {
+      "tytul": "Napar klasyczny z bylica pospolita",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "polska"
+      ],
+      "skladniki": [
+        "1 łyżka bylica pospolita (suszone, młode części)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 10–15 min, przecedzić."
+      ],
+      "dawkowanie": "1 filiżanka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Bylica pospolita",
+      "nazwa_lacinska": "Artemisia vulgaris",
+      "slug": "bylica_pospolita"
+    },
+    {
+      "tytul": "Odwar (korzenie/kora) z tatarak",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "małopolska"
+      ],
+      "skladniki": [
+        "2 łyżeczki tatarak (kora/korzeń/ziele suszone)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, gotować 10–20 min, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Tatarak — możliwa obecność azaronu; stosować krótkotrwale.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Tatarak",
+      "nazwa_lacinska": "Acorus calamus",
+      "slug": "tatarak"
+    },
+    {
+      "tytul": "Macerat na zimno z kruszyna pospolita",
+      "typ": "medyczne",
+      "metoda": "macerat_na_zimno",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "1 łyżka kruszyna pospolita (świeże, drobno posiekane)",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, odstawić 6–8 h, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Kora kruszyny — środki przeczyszczające, nie dla kobiet w ciąży.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Kruszyna pospolita",
+      "nazwa_lacinska": "Frangula alnus",
+      "slug": "kruszyna_pospolita"
+    },
+    {
+      "tytul": "Płukanka/wyciąg do obmywań z dziewanna wielkokwiatowa",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "1 łyżka dziewanna wielkokwiatowa (suszone)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć 10–15 min, ostudzić, używać do płukań."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Dziewanna wielkokwiatowa",
+      "nazwa_lacinska": "Verbascum thapsus",
+      "slug": "dziewanna_wielkokwiatowa"
+    },
+    {
+      "tytul": "Kąpiel ziołowa z oman wielki",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "niemcy"
+      ],
+      "skladniki": [
+        "3 garście oman wielki (świeże) lub 2 garście suszu",
+        "2–3 l wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 15–20 min, odcedzić do kąpieli 37–39°C."
+      ],
+      "dawkowanie": "15–20 min, 2–3× w tygodniu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Oman wielki",
+      "nazwa_lacinska": "Inula helenium",
+      "slug": "oman_wielki"
+    },
+    {
+      "tytul": "Okład z całych liści/ziele z ruta zwyczajna",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "małopolska"
+      ],
+      "skladniki": [
+        "świeże liście ruta zwyczajna (młode)",
+        "gaza lniana"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść, nałożyć na gazę, przykładać 15–30 min."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Apteczka benedyktyńska — rękopisy klasztorne"
+      ],
+      "roslina": "Ruta zwyczajna",
+      "nazwa_lacinska": "Ruta graveolens",
+      "slug": "ruta_zwyczajna"
+    },
+    {
+      "tytul": "Proszek do posypywania/zażywania z przywrotnik pospolity",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "małopolska"
+      ],
+      "skladniki": [
+        "susz przywrotnik pospolity — dobrze wysuszony (młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek, przechowywać w słoiku."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2× dziennie, popić wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Przywrotnik pospolity",
+      "nazwa_lacinska": "Alchemilla vulgaris",
+      "slug": "przywrotnik_pospolity"
+    },
+    {
+      "tytul": "Syrop dawny z żywokost lekarski",
+      "typ": "medyczne",
+      "metoda": "syrop_tradycyjny",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "Żywokost lekarski 100 g (świeże, młode części)",
+        "250 ml wody",
+        "200 g miodu/cukru"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 10–15 min, odcedzić, dosłodzić, odparować."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Żywokost — tylko zewnętrznie (alkaloidy pirolizydynowe).",
+      "zrodla": [
+        "Apteczka benedyktyńska — rękopisy klasztorne"
+      ],
+      "roslina": "Żywokost lekarski",
+      "nazwa_lacinska": "Symphytum officinale",
+      "slug": "zywokost_lekarski"
+    },
+    {
+      "tytul": "Tinctura w winie z chmiel zwyczajny",
+      "typ": "medyczne",
+      "metoda": "tinctura_vinum",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "słowacja"
+      ],
+      "skladniki": [
+        "Chmiel zwyczajny 20–30 g (suszone)",
+        "0,5 l wina (wytrawne)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać winem 5–7 dni, wstrząsać, przecedzić."
+      ],
+      "dawkowanie": "20–30 ml 1× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Chmiel zwyczajny",
+      "nazwa_lacinska": "Humulus lupulus",
+      "slug": "chmiel_zwyczajny"
+    },
+    {
+      "tytul": "Inhalacja dymna/nad wywarem z brzoza brodawkowata",
+      "typ": "medyczne",
+      "metoda": "inhalacja_dymna",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "małopolska"
+      ],
+      "skladniki": [
+        "Brzoza brodawkowata garść (suszone, aromatyczne części)",
+        "miska z gorącym wywarem lub rozżarzony węgiel"
+      ],
+      "sposob_przygotowania": [
+        "Nachylić się nad parą/okadzeniem, uważać na oparzenia.",
+        "Inhalować 5–10 minut."
+      ],
+      "dawkowanie": "1–2× dziennie przez 2–3 dni.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Brzoza brodawkowata",
+      "nazwa_lacinska": "Betula pendula",
+      "slug": "brzoza_brodawkowata"
+    },
+    {
+      "tytul": "Oksymel (miód + ocet ziołowy) z wierzba biała",
+      "typ": "medyczne",
+      "metoda": "oksymel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "karpaty"
+      ],
+      "skladniki": [
+        "miód pszczeli 200 ml (świeży)",
+        "ocet winny lub jabłkowy 200 ml",
+        "Wierzba biała 2 garście (świeże/młode) lub 2 łyżki suszone"
+      ],
+      "sposob_przygotowania": [
+        "Zalać ziele octem i odstawić na 7–10 dni (codziennie poruszyć naczyniem).",
+        "Przecedzić, połączyć z miodem i mieszać do rozpuszczenia.",
+        "Przelać do butelki, trzymać w chłodzie."
+      ],
+      "dawkowanie": "1–2 łyżeczki 2× dziennie; rozcieńczać w wodzie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Wierzba biała",
+      "nazwa_lacinska": "Salix alba",
+      "slug": "wierzba_biala"
+    },
+    {
+      "tytul": "Piwo ziołowe/ale na ziołach z dąb szypułkowy",
+      "typ": "medyczne",
+      "metoda": "piwo_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "susz dąb szypułkowy 10–20 g (młode części)",
+        "1 l brzeczki (lub lekkiego piwa domowego)",
+        "odrobina drożdży piwnych"
+      ],
+      "sposob_przygotowania": [
+        "Zioła gotować delikatnie w brzeczce 10 minut, ostudzić.",
+        "Zadać drożdżami i zostawić do refermentacji 2–3 dni.",
+        "Przecedzić i rozlać do butelek (gazowanie naturalne)."
+      ],
+      "dawkowanie": "Mały kufel wieczorem; napój ziołowy, nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Dąb szypułkowy",
+      "nazwa_lacinska": "Quercus robur",
+      "slug": "dab_szypulkowy"
+    },
+    {
+      "tytul": "Wino ziołowe z jarzębina",
+      "typ": "medyczne",
+      "metoda": "wino_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "podlasie"
+      ],
+      "skladniki": [
+        "Jarzębina 30 g (suszone, młode części)",
+        "0,75 l wytrawnego wina (białe/czerwone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać winem, trzymać 5–7 dni w chłodzie, wstrząsać.",
+        "Przecedzić; stosować jako aperitif ziołowy."
+      ],
+      "dawkowanie": "25–50 ml 1× dziennie przed posiłkiem.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Dodoens R. — Cruydeboeck (1554)"
+      ],
+      "roslina": "Jarzębina",
+      "nazwa_lacinska": "Sorbus aucuparia",
+      "slug": "jarzebina"
+    },
+    {
+      "tytul": "Miód pitny ziołowy z tarnina",
+      "typ": "medyczne",
+      "metoda": "miód_pitny_ziołowy",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "miód 500 ml",
+        "woda 1 l",
+        "Tarnina 2–3 łyżki (suszone)",
+        "drożdże miodowe (szczypta)"
+      ],
+      "sposob_przygotowania": [
+        "Uwarzyć brzeczkę miodową, dodać zioła i ostudzić.",
+        "Zadać drożdżami, fermentować 7–10 dni.",
+        "Zlać znad osadu i odstawić do dojrzewania."
+      ],
+      "dawkowanie": "Kieliszek 30 ml po posiłku; napój alkoholowy.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Tarnina",
+      "nazwa_lacinska": "Prunus spinosa",
+      "slug": "tarnina"
+    },
+    {
+      "tytul": "Kataplazm (plastry z papki ziołowej) z skrzyp polny",
+      "typ": "medyczne",
+      "metoda": "kataplazm",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "świeże liście skrzyp polny (młode)",
+        "gorąca woda do sparzenia",
+        "płótno lniane"
+      ],
+      "sposob_przygotowania": [
+        "Liście sparzyć, rozgnieść na papkę.",
+        "Nałożyć na płótno i przykładać ciepłe 20–30 minut."
+      ],
+      "dawkowanie": "2–3× dziennie; tylko zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Marcin z Urzędowa — Herbarz polski (1595)"
+      ],
+      "roslina": "Skrzyp polny",
+      "nazwa_lacinska": "Equisetum arvense",
+      "slug": "skrzyp_polny"
+    },
+    {
+      "tytul": "Okadzanie/wywary do dymienia z sosna zwyczajna",
+      "typ": "medyczne",
+      "metoda": "okadzanie",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "polska"
+      ],
+      "skladniki": [
+        "susz sosna zwyczajna 1–2 łyżki (suszone, aromatyczne części)",
+        "węgielek trybularzowy lub rozgrzany kamień"
+      ],
+      "sposob_przygotowania": [
+        "Rozżarzyć węgielek/kamień, posypać suszem.",
+        "Delikatnie okadzać pomieszczenie lub odzież."
+      ],
+      "dawkowanie": "Krótko, w dobrze wietrzonym miejscu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Sosna zwyczajna",
+      "nazwa_lacinska": "Pinus sylvestris",
+      "slug": "sosna_zwyczajna"
+    },
+    {
+      "tytul": "Maść na smalcu/łożysku tłuszczowym z szczawik zajęczy",
+      "typ": "medyczne",
+      "metoda": "maść_na_smalcu",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "mazowsze"
+      ],
+      "skladniki": [
+        "Szczawik zajęczy 3 łyżki (suszone, rozdrobnione)",
+        "150 g smalcu gęsiego/łój (tradycyjnie)"
+      ],
+      "sposob_przygotowania": [
+        "Rozgrzać tłuszcz w kąpieli wodnej, wsypać ziele.",
+        "Trzymać 45–60 min, nie dopuszczając do wrzenia.",
+        "Przecedzić i przelać do słoika."
+      ],
+      "dawkowanie": "Smarować 2× dziennie; zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Szczawik zajęczy",
+      "nazwa_lacinska": "Oxalis acetosella",
+      "slug": "szczawik_zajeczy"
+    },
+    {
+      "tytul": "Gorzkie krople (esencja) z żankiel zwyczajny",
+      "typ": "medyczne",
+      "metoda": "esencja_gorzka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "słowacja"
+      ],
+      "skladniki": [
+        "Żankiel zwyczajny 20 g (gorycze – korzeń/kora/ziele, suszone)",
+        "200 ml spirytusu 60–70%",
+        "skórka cytrynowa (kawałek, opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zioła alkoholem, trzymać 10–14 dni, wstrząsać.",
+        "Przecedzić; dawkuje się kroplami."
+      ],
+      "dawkowanie": "10–20 kropli przed posiłkiem; nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Żankiel zwyczajny",
+      "nazwa_lacinska": "Sanicula europaea",
+      "slug": "zankiel_zwyczajny"
+    },
+    {
+      "tytul": "Ocet czterech złodziei – wariant regionalny z świerząbek bulwiasty",
+      "typ": "medyczne",
+      "metoda": "octy_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "karpaty"
+      ],
+      "skladniki": [
+        "Świerząbek bulwiasty 3 łyżki (suszone)",
+        "0,5 l octu winnnego/jabłkowego",
+        "czosnek 2 ząbki (świeże)",
+        "szałwia, rozmaryn — po 1 łyżce (suszone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła i czosnek zalać octem, macerować 7–14 dni.",
+        "Przecedzić; używać rozcieńczone do przemywań."
+      ],
+      "dawkowanie": "Zewnętrznie; rozcieńczenie 1:5–1:10 z wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Marcin z Urzędowa — Herbarz polski (1595)"
+      ],
+      "roslina": "Świerząbek bulwiasty",
+      "nazwa_lacinska": "Chaerophyllum bulbosum",
+      "slug": "swierzabek_bulwiasty"
+    },
+    {
+      "tytul": "Eliksir ziołowy z pokrzywa zwyczajna",
+      "typ": "medyczne",
+      "metoda": "eliksir",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "kresy"
+      ],
+      "skladniki": [
+        "Pokrzywa zwyczajna 15 g (suszone)",
+        "miód 100 ml",
+        "spirytus/wódka 100 ml",
+        "woda 100 ml"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać alkoholem i wodą na 7 dni.",
+        "Przecedzić, dodać miód i wymieszać."
+      ],
+      "dawkowanie": "1 łyżeczka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Gerard J. — Herball (1597)"
+      ],
+      "roslina": "Pokrzywa zwyczajna",
+      "nazwa_lacinska": "Urtica dioica",
+      "slug": "pokrzywa_zwyczajna"
+    },
+    {
+      "tytul": "Napar klasyczny z rumianek pospolity",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "ruś"
+      ],
+      "skladniki": [
+        "1 łyżka rumianek pospolity (suszone, młode części)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 10–15 min, przecedzić."
+      ],
+      "dawkowanie": "1 filiżanka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Marcin z Urzędowa — Herbarz polski (1595)"
+      ],
+      "roslina": "Rumianek pospolity",
+      "nazwa_lacinska": "Matricaria chamomilla",
+      "slug": "rumianek_pospolity"
+    },
+    {
+      "tytul": "Odwar (korzenie/kora) z nagietek lekarski",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "kresy"
+      ],
+      "skladniki": [
+        "2 łyżeczki nagietek lekarski (kora/korzeń/ziele suszone)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, gotować 10–20 min, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Zielnik Szafera (XIX w.)"
+      ],
+      "roslina": "Nagietek lekarski",
+      "nazwa_lacinska": "Calendula officinalis",
+      "slug": "nagietek_lekarski"
+    },
+    {
+      "tytul": "Macerat na zimno z lipa drobnolistna",
+      "typ": "medyczne",
+      "metoda": "macerat_na_zimno",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "mazowsze"
+      ],
+      "skladniki": [
+        "1 łyżka lipa drobnolistna (świeże, drobno posiekane)",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, odstawić 6–8 h, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Lipa drobnolistna",
+      "nazwa_lacinska": "Tilia cordata",
+      "slug": "lipa_drobnolistna"
+    },
+    {
+      "tytul": "Płukanka/wyciąg do obmywań z krwawnik pospolity",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "1 łyżka krwawnik pospolity (suszone)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć 10–15 min, ostudzić, używać do płukań."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Krwawnik pospolity",
+      "nazwa_lacinska": "Achillea millefolium",
+      "slug": "krwawnik_pospolity"
+    },
+    {
+      "tytul": "Kąpiel ziołowa z mniszek lekarski",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "małopolska"
+      ],
+      "skladniki": [
+        "3 garście mniszek lekarski (świeże) lub 2 garście suszu",
+        "2–3 l wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 15–20 min, odcedzić do kąpieli 37–39°C."
+      ],
+      "dawkowanie": "15–20 min, 2–3× w tygodniu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Mniszek lekarski",
+      "nazwa_lacinska": "Taraxacum officinale",
+      "slug": "mniszek_lekarski"
+    },
+    {
+      "tytul": "Okład z całych liści/ziele z babka lancetowata",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "niemcy"
+      ],
+      "skladniki": [
+        "świeże liście babka lancetowata (młode)",
+        "gaza lniana"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść, nałożyć na gazę, przykładać 15–30 min."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Babka lancetowata",
+      "nazwa_lacinska": "Plantago lanceolata",
+      "slug": "babka_lancetowata"
+    },
+    {
+      "tytul": "Proszek do posypywania/zażywania z podbiał pospolity",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "podlasie"
+      ],
+      "skladniki": [
+        "susz podbiał pospolity — dobrze wysuszony (młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek, przechowywać w słoiku."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2× dziennie, popić wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Podbiał pospolity",
+      "nazwa_lacinska": "Tussilago farfara",
+      "slug": "podbial_pospolity"
+    },
+    {
+      "tytul": "Syrop dawny z dziurawiec zwyczajny",
+      "typ": "medyczne",
+      "metoda": "syrop_tradycyjny",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "Dziurawiec zwyczajny 100 g (świeże, młode części)",
+        "250 ml wody",
+        "200 g miodu/cukru"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 10–15 min, odcedzić, dosłodzić, odparować."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Dziurawiec może wchodzić w interakcje z lekami (indukcja CYP3A4).",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Dziurawiec zwyczajny",
+      "nazwa_lacinska": "Hypericum perforatum",
+      "slug": "dziurawiec_zwyczajny"
+    },
+    {
+      "tytul": "Tinctura w winie z szałwia lekarska",
+      "typ": "medyczne",
+      "metoda": "tinctura_vinum",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "Szałwia lekarska 20–30 g (suszone)",
+        "0,5 l wina (wytrawne)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać winem 5–7 dni, wstrząsać, przecedzić."
+      ],
+      "dawkowanie": "20–30 ml 1× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Szałwia lekarska",
+      "nazwa_lacinska": "Salvia officinalis",
+      "slug": "szalwia_lekarska"
+    },
+    {
+      "tytul": "Inhalacja dymna/nad wywarem z tymianek pospolity",
+      "typ": "medyczne",
+      "metoda": "inhalacja_dymna",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "Tymianek pospolity garść (suszone, aromatyczne części)",
+        "miska z gorącym wywarem lub rozżarzony węgiel"
+      ],
+      "sposob_przygotowania": [
+        "Nachylić się nad parą/okadzeniem, uważać na oparzenia.",
+        "Inhalować 5–10 minut."
+      ],
+      "dawkowanie": "1–2× dziennie przez 2–3 dni.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Tymianek pospolity",
+      "nazwa_lacinska": "Thymus vulgaris",
+      "slug": "tymianek_pospolity"
+    },
+    {
+      "tytul": "Oksymel (miód + ocet ziołowy) z mięta pieprzowa",
+      "typ": "medyczne",
+      "metoda": "oksymel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "karpaty"
+      ],
+      "skladniki": [
+        "miód pszczeli 200 ml (świeży)",
+        "ocet winny lub jabłkowy 200 ml",
+        "Mięta pieprzowa 2 garście (świeże/młode) lub 2 łyżki suszone"
+      ],
+      "sposob_przygotowania": [
+        "Zalać ziele octem i odstawić na 7–10 dni (codziennie poruszyć naczyniem).",
+        "Przecedzić, połączyć z miodem i mieszać do rozpuszczenia.",
+        "Przelać do butelki, trzymać w chłodzie."
+      ],
+      "dawkowanie": "1–2 łyżeczki 2× dziennie; rozcieńczać w wodzie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Mięta pieprzowa",
+      "nazwa_lacinska": "Mentha x piperita",
+      "slug": "mieta_pieprzowa"
+    },
+    {
+      "tytul": "Piwo ziołowe/ale na ziołach z melisa lekarska",
+      "typ": "medyczne",
+      "metoda": "piwo_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "kresy"
+      ],
+      "skladniki": [
+        "susz melisa lekarska 10–20 g (młode części)",
+        "1 l brzeczki (lub lekkiego piwa domowego)",
+        "odrobina drożdży piwnych"
+      ],
+      "sposob_przygotowania": [
+        "Zioła gotować delikatnie w brzeczce 10 minut, ostudzić.",
+        "Zadać drożdżami i zostawić do refermentacji 2–3 dni.",
+        "Przecedzić i rozlać do butelek (gazowanie naturalne)."
+      ],
+      "dawkowanie": "Mały kufel wieczorem; napój ziołowy, nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Melisa lekarska",
+      "nazwa_lacinska": "Melissa officinalis",
+      "slug": "melisa_lekarska"
+    },
+    {
+      "tytul": "Wino ziołowe z koper włoski",
+      "typ": "medyczne",
+      "metoda": "wino_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "mazowsze"
+      ],
+      "skladniki": [
+        "Koper włoski 30 g (suszone, młode części)",
+        "0,75 l wytrawnego wina (białe/czerwone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać winem, trzymać 5–7 dni w chłodzie, wstrząsać.",
+        "Przecedzić; stosować jako aperitif ziołowy."
+      ],
+      "dawkowanie": "25–50 ml 1× dziennie przed posiłkiem.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Zielnik Szafera (XIX w.)"
+      ],
+      "roslina": "Koper włoski",
+      "nazwa_lacinska": "Foeniculum vulgare",
+      "slug": "koper_wloski"
+    },
+    {
+      "tytul": "Miód pitny ziołowy z anyż",
+      "typ": "medyczne",
+      "metoda": "miód_pitny_ziołowy",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "śląsk"
+      ],
+      "skladniki": [
+        "miód 500 ml",
+        "woda 1 l",
+        "Anyż 2–3 łyżki (suszone)",
+        "drożdże miodowe (szczypta)"
+      ],
+      "sposob_przygotowania": [
+        "Uwarzyć brzeczkę miodową, dodać zioła i ostudzić.",
+        "Zadać drożdżami, fermentować 7–10 dni.",
+        "Zlać znad osadu i odstawić do dojrzewania."
+      ],
+      "dawkowanie": "Kieliszek 30 ml po posiłku; napój alkoholowy.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Anyż",
+      "nazwa_lacinska": "Pimpinella anisum",
+      "slug": "anyz"
+    },
+    {
+      "tytul": "Kataplazm (plastry z papki ziołowej) z arcydzięgiel litwor",
+      "typ": "medyczne",
+      "metoda": "kataplazm",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "świeże liście arcydzięgiel litwor (młode)",
+        "gorąca woda do sparzenia",
+        "płótno lniane"
+      ],
+      "sposob_przygotowania": [
+        "Liście sparzyć, rozgnieść na papkę.",
+        "Nałożyć na płótno i przykładać ciepłe 20–30 minut."
+      ],
+      "dawkowanie": "2–3× dziennie; tylko zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Arcydzięgiel litwor",
+      "nazwa_lacinska": "Angelica archangelica",
+      "slug": "arcydziegiel_litwor"
+    },
+    {
+      "tytul": "Okadzanie/wywary do dymienia z prawoślaz lekarski",
+      "typ": "medyczne",
+      "metoda": "okadzanie",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "śląsk"
+      ],
+      "skladniki": [
+        "susz prawoślaz lekarski 1–2 łyżki (suszone, aromatyczne części)",
+        "węgielek trybularzowy lub rozgrzany kamień"
+      ],
+      "sposob_przygotowania": [
+        "Rozżarzyć węgielek/kamień, posypać suszem.",
+        "Delikatnie okadzać pomieszczenie lub odzież."
+      ],
+      "dawkowanie": "Krótko, w dobrze wietrzonym miejscu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Apteczka benedyktyńska — rękopisy klasztorne"
+      ],
+      "roslina": "Prawoślaz lekarski",
+      "nazwa_lacinska": "Althaea officinalis",
+      "slug": "prawoslaz_lekarski"
+    },
+    {
+      "tytul": "Maść na smalcu/łożysku tłuszczowym z głóg jednoszyjkowy",
+      "typ": "medyczne",
+      "metoda": "maść_na_smalcu",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "Głóg jednoszyjkowy 3 łyżki (suszone, rozdrobnione)",
+        "150 g smalcu gęsiego/łój (tradycyjnie)"
+      ],
+      "sposob_przygotowania": [
+        "Rozgrzać tłuszcz w kąpieli wodnej, wsypać ziele.",
+        "Trzymać 45–60 min, nie dopuszczając do wrzenia.",
+        "Przecedzić i przelać do słoika."
+      ],
+      "dawkowanie": "Smarować 2× dziennie; zewnętrznie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Zielnik Szafera (XIX w.)"
+      ],
+      "roslina": "Głóg jednoszyjkowy",
+      "nazwa_lacinska": "Crataegus monogyna",
+      "slug": "glog_jednoszyjkowy"
+    },
+    {
+      "tytul": "Gorzkie krople (esencja) z dzika róża",
+      "typ": "medyczne",
+      "metoda": "esencja_gorzka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "śląsk"
+      ],
+      "skladniki": [
+        "Dzika róża 20 g (gorycze – korzeń/kora/ziele, suszone)",
+        "200 ml spirytusu 60–70%",
+        "skórka cytrynowa (kawałek, opcjonalnie)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zioła alkoholem, trzymać 10–14 dni, wstrząsać.",
+        "Przecedzić; dawkuje się kroplami."
+      ],
+      "dawkowanie": "10–20 kropli przed posiłkiem; nie dla dzieci.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Zielnik Szafera (XIX w.)"
+      ],
+      "roslina": "Dzika róża",
+      "nazwa_lacinska": "Rosa canina",
+      "slug": "dzika_roza"
+    },
+    {
+      "tytul": "Ocet czterech złodziei – wariant regionalny z bez czarny",
+      "typ": "medyczne",
+      "metoda": "octy_ziołowe",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "śląsk"
+      ],
+      "skladniki": [
+        "Bez czarny 3 łyżki (suszone)",
+        "0,5 l octu winnnego/jabłkowego",
+        "czosnek 2 ząbki (świeże)",
+        "szałwia, rozmaryn — po 1 łyżce (suszone)"
+      ],
+      "sposob_przygotowania": [
+        "Zioła i czosnek zalać octem, macerować 7–14 dni.",
+        "Przecedzić; używać rozcieńczone do przemywań."
+      ],
+      "dawkowanie": "Zewnętrznie; rozcieńczenie 1:5–1:10 z wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Bez czarny",
+      "nazwa_lacinska": "Sambucus nigra",
+      "slug": "bez_czarny"
+    },
+    {
+      "tytul": "Eliksir ziołowy z jałowiec pospolity",
+      "typ": "medyczne",
+      "metoda": "eliksir",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "karpaty"
+      ],
+      "skladniki": [
+        "Jałowiec pospolity 15 g (suszone)",
+        "miód 100 ml",
+        "spirytus/wódka 100 ml",
+        "woda 100 ml"
+      ],
+      "sposob_przygotowania": [
+        "Zioła zalać alkoholem i wodą na 7 dni.",
+        "Przecedzić, dodać miód i wymieszać."
+      ],
+      "dawkowanie": "1 łyżeczka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Jałowiec pospolity",
+      "nazwa_lacinska": "Juniperus communis",
+      "slug": "jalowiec_pospolity"
+    },
+    {
+      "tytul": "Napar klasyczny z piołun",
+      "typ": "medyczne",
+      "metoda": "napar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "bałtyk"
+      ],
+      "skladniki": [
+        "1 łyżka piołun (suszone, młode części)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zalać wrzątkiem, parzyć 10–15 min, przecedzić."
+      ],
+      "dawkowanie": "1 filiżanka 1–2× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Piołun (tujon) — stosować krótkotrwale i ostrożnie.",
+      "zrodla": [
+        "Syreniusz S. — Zielnik (1613)"
+      ],
+      "roslina": "Piołun",
+      "nazwa_lacinska": "Artemisia absinthium",
+      "slug": "piolun"
+    },
+    {
+      "tytul": "Odwar (korzenie/kora) z bylica pospolita",
+      "typ": "medyczne",
+      "metoda": "odwar",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "karpaty"
+      ],
+      "skladniki": [
+        "2 łyżeczki bylica pospolita (kora/korzeń/ziele suszone)",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, gotować 10–20 min, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka dziennie po posiłku.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Leechbook of Bald (X w.) — anglosaski rękopis"
+      ],
+      "roslina": "Bylica pospolita",
+      "nazwa_lacinska": "Artemisia vulgaris",
+      "slug": "bylica_pospolita"
+    },
+    {
+      "tytul": "Macerat na zimno z tatarak",
+      "typ": "medyczne",
+      "metoda": "macerat_na_zimno",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "śląsk"
+      ],
+      "skladniki": [
+        "1 łyżka tatarak (świeże, drobno posiekane)",
+        "250 ml zimnej, przegotowanej wody"
+      ],
+      "sposob_przygotowania": [
+        "Zalać zimną wodą, odstawić 6–8 h, przecedzić."
+      ],
+      "dawkowanie": "1 szklanka rano.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Tatarak — możliwa obecność azaronu; stosować krótkotrwale.",
+      "zrodla": [
+        "Tradycja ludowa — ziemie polskie (XIX–XX w.)"
+      ],
+      "roslina": "Tatarak",
+      "nazwa_lacinska": "Acorus calamus",
+      "slug": "tatarak"
+    },
+    {
+      "tytul": "Płukanka/wyciąg do obmywań z kruszyna pospolita",
+      "typ": "medyczne",
+      "metoda": "płukanka",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "1 łyżka kruszyna pospolita (suszone)",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": [
+        "Zaparzyć 10–15 min, ostudzić, używać do płukań."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Kora kruszyny — środki przeczyszczające, nie dla kobiet w ciąży.",
+      "zrodla": [
+        "Marcin z Urzędowa — Herbarz polski (1595)"
+      ],
+      "roslina": "Kruszyna pospolita",
+      "nazwa_lacinska": "Frangula alnus",
+      "slug": "kruszyna_pospolita"
+    },
+    {
+      "tytul": "Kąpiel ziołowa z dziewanna wielkokwiatowa",
+      "typ": "medyczne",
+      "metoda": "kąpiel",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "czechy"
+      ],
+      "skladniki": [
+        "3 garście dziewanna wielkokwiatowa (świeże) lub 2 garście suszu",
+        "2–3 l wody"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 15–20 min, odcedzić do kąpieli 37–39°C."
+      ],
+      "dawkowanie": "15–20 min, 2–3× w tygodniu.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Dziewanna wielkokwiatowa",
+      "nazwa_lacinska": "Verbascum thapsus",
+      "slug": "dziewanna_wielkokwiatowa"
+    },
+    {
+      "tytul": "Okład z całych liści/ziele z oman wielki",
+      "typ": "medyczne",
+      "metoda": "okład",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "polska"
+      ],
+      "skladniki": [
+        "świeże liście oman wielki (młode)",
+        "gaza lniana"
+      ],
+      "sposob_przygotowania": [
+        "Liście rozgnieść, nałożyć na gazę, przykładać 15–30 min."
+      ],
+      "dawkowanie": "2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Oman wielki",
+      "nazwa_lacinska": "Inula helenium",
+      "slug": "oman_wielki"
+    },
+    {
+      "tytul": "Proszek do posypywania/zażywania z ruta zwyczajna",
+      "typ": "medyczne",
+      "metoda": "proszek",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "skandynawia"
+      ],
+      "skladniki": [
+        "susz ruta zwyczajna — dobrze wysuszony (młode części)"
+      ],
+      "sposob_przygotowania": [
+        "Zmielić na proszek, przechowywać w słoiku."
+      ],
+      "dawkowanie": "⅓–½ łyżeczki 1–2× dziennie, popić wodą.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Hildegarda z Bingen — Physica (XII w.)"
+      ],
+      "roslina": "Ruta zwyczajna",
+      "nazwa_lacinska": "Ruta graveolens",
+      "slug": "ruta_zwyczajna"
+    },
+    {
+      "tytul": "Syrop dawny z przywrotnik pospolity",
+      "typ": "medyczne",
+      "metoda": "syrop_tradycyjny",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "podlasie"
+      ],
+      "skladniki": [
+        "Przywrotnik pospolity 100 g (świeże, młode części)",
+        "250 ml wody",
+        "200 g miodu/cukru"
+      ],
+      "sposob_przygotowania": [
+        "Gotować 10–15 min, odcedzić, dosłodzić, odparować."
+      ],
+      "dawkowanie": "1 łyżeczka 2–3× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Zielnik Szafera (XIX w.)"
+      ],
+      "roslina": "Przywrotnik pospolity",
+      "nazwa_lacinska": "Alchemilla vulgaris",
+      "slug": "przywrotnik_pospolity"
+    },
+    {
+      "tytul": "Tinctura w winie z żywokost lekarski",
+      "typ": "medyczne",
+      "metoda": "tinctura_vinum",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "pomorze"
+      ],
+      "skladniki": [
+        "Żywokost lekarski 20–30 g (suszone)",
+        "0,5 l wina (wytrawne)"
+      ],
+      "sposob_przygotowania": [
+        "Zalać winem 5–7 dni, wstrząsać, przecedzić."
+      ],
+      "dawkowanie": "20–30 ml 1× dziennie.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości. Żywokost — tylko zewnętrznie (alkaloidy pirolizydynowe).",
+      "zrodla": [
+        "Compendium Medicum Auctum (XVII w.)"
+      ],
+      "roslina": "Żywokost lekarski",
+      "nazwa_lacinska": "Symphytum officinale",
+      "slug": "zywokost_lekarski"
+    },
+    {
+      "tytul": "Inhalacja dymna/nad wywarem z chmiel zwyczajny",
+      "typ": "medyczne",
+      "metoda": "inhalacja_dymna",
+      "tagi": [
+        "zapomniane",
+        "tradycyjne",
+        "podlasie"
+      ],
+      "skladniki": [
+        "Chmiel zwyczajny garść (suszone, aromatyczne części)",
+        "miska z gorącym wywarem lub rozżarzony węgiel"
+      ],
+      "sposob_przygotowania": [
+        "Nachylić się nad parą/okadzeniem, uważać na oparzenia.",
+        "Inhalować 5–10 minut."
+      ],
+      "dawkowanie": "1–2× dziennie przez 2–3 dni.",
+      "uwagi": "Tradycyjny przepis historyczny. Nie stosować w ciąży/karmieniu, u dzieci oraz przy chorobach przewlekłych bez konsultacji. Przerwać przy objawach nadwrażliwości.",
+      "zrodla": [
+        "Capitulare de Villis (ok. 800 r.) — Karol Wielki"
+      ],
+      "roslina": "Chmiel zwyczajny",
+      "nazwa_lacinska": "Humulus lupulus",
+      "slug": "chmiel_zwyczajny"
     }
 
   ]
