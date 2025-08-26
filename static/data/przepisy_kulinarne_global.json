@@ -1,6 +1,6 @@
 {
   "typ": "kulinarne",
-  "liczba_przepisow": 97,
+  "liczba_przepisow": 206,
   "zrodlo_danych": "Zebrane z plików gatunków w Kwiatowniku",
   "przepisy": [
     {
@@ -23,11 +23,16 @@
       "uwagi": "nie stosować w niewydolności nerek",
       "zrodla": [
         "Commission E Monograph: Equiseti herba",
-        "Zielnik Szafera (1829)"
+        "Zielnik Szafera (1829)",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "wiosenne pędy blanszowane",
@@ -44,7 +49,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://www.seriouseats.com/foraged-horsetail-spring-veggie"
+        "https://www.seriouseats.com/foraged-horsetail-spring-veggie",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -71,7 +79,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://ekozakupy.pl/przepisy/herbatka-z-skrzypu-i-pokrzywy.html"
+        "https://ekozakupy.pl/przepisy/herbatka-z-skrzypu-i-pokrzywy.html",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -98,7 +109,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        41
+        41,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -125,7 +139,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        42
+        42,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -153,7 +170,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        43
+        43,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -181,7 +201,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        44
+        44,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -207,7 +230,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        45
+        45,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -235,7 +261,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        46
+        46,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -260,7 +289,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        47
+        47,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -288,7 +320,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        48
+        48,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -315,7 +350,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        49
+        49,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -342,7 +380,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        50
+        50,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -368,7 +409,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        51
+        51,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -395,7 +439,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        52
+        52,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -420,7 +467,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        53
+        53,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -448,7 +498,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://www.forumogrodnicze.info/skrzyppolny-sałatka.html"
+        "https://www.forumogrodnicze.info/skrzyppolny-sałatka.html",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
@@ -478,11 +531,16 @@
       "uwagi": "nie zaleca się u chorych na nadciśnienie",
       "zrodla": [
         "EMA Monograph: Pinus sylvestris",
-        "Zielnik Szafera (1829)"
+        "Zielnik Szafera (1829)",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Miód sosnowy",
@@ -499,11 +557,16 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/miod-sosnowy/"
+        "https://zielnikpolski.pl/miod-sosnowy/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": "cytrusowe",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Sosnowa lemoniada",
@@ -520,11 +583,16 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/lemoniada-sosnowa/"
+        "https://zielnikpolski.pl/lemoniada-sosnowa/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": "cytrusowe, słodkie",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Kandyzowane szyszki",
@@ -540,11 +608,16 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/kandyzowane-szyszki-sosna/"
+        "https://zielnikpolski.pl/kandyzowane-szyszki-sosna/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Chleb z iglami sosny",
@@ -563,11 +636,16 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/chleb-igly-sosna/"
+        "https://zielnikpolski.pl/chleb-igly-sosna/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": "słone",
+      "wlasciwosci": "wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Herbatka z igieł",
@@ -583,11 +661,16 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/herbatka-igly-sosna/"
+        "https://zielnikpolski.pl/herbatka-igly-sosna/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": "słodkie",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Ocet sosnowy",
@@ -603,11 +686,16 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/ocet-sosnowy/"
+        "https://zielnikpolski.pl/ocet-sosnowy/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Sałatka leśna (sosna, młoda pokrzywa, szczawik, szpinak, rzodkiewka, ogórek, oliwa)",
@@ -629,7 +717,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/salatka-lesna-sosna-pokrzywa/"
+        "https://zielnikpolski.pl/salatka-lesna-sosna-pokrzywa/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
@@ -657,7 +748,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/omlet-igly-sosna-koperek/"
+        "https://zielnikpolski.pl/omlet-igly-sosna-koperek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
@@ -685,7 +779,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/pesto-igly-sosna-orzechy/"
+        "https://zielnikpolski.pl/pesto-igly-sosna-orzechy/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
@@ -714,7 +811,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/herbatka-lesna-sosna-malina/"
+        "https://zielnikpolski.pl/herbatka-lesna-sosna-malina/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
@@ -740,7 +840,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/kandyzowane-pedy-sosna-miod/"
+        "https://zielnikpolski.pl/kandyzowane-pedy-sosna-miod/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
@@ -766,7 +869,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/mus-szyszki-sosna-jablka/"
+        "https://zielnikpolski.pl/mus-szyszki-sosna-jablka/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
@@ -790,7 +896,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://smakizpolski.com.pl/surowe-bulwy-swierzabek/"
+        "https://smakizpolski.com.pl/surowe-bulwy-swierzabek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -818,7 +927,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/bulwy-gotowane/"
+        "https://zielnikpolski.pl/bulwy-gotowane/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -845,7 +957,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/bulwy-pieczone/"
+        "https://zielnikpolski.pl/bulwy-pieczone/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -874,7 +989,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/placki-swierzabek/"
+        "https://zielnikpolski.pl/placki-swierzabek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -903,7 +1021,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/zupa-krem-swierzabek/"
+        "https://zielnikpolski.pl/zupa-krem-swierzabek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -933,7 +1054,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/bulwy-duszone/"
+        "https://zielnikpolski.pl/bulwy-duszone/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -964,7 +1088,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/gulasz-swierzabek/"
+        "https://zielnikpolski.pl/gulasz-swierzabek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -991,7 +1118,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/farsz-swierzabek-pierogi/"
+        "https://zielnikpolski.pl/farsz-swierzabek-pierogi/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -1019,7 +1149,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/salatka-swierzabek/"
+        "https://zielnikpolski.pl/salatka-swierzabek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -1049,7 +1182,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/salatka-swierzabek-mniszek-rzodkiewka/"
+        "https://zielnikpolski.pl/salatka-swierzabek-mniszek-rzodkiewka/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -1078,7 +1214,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/pesto-swierzabek-pietruszka-orzechy/"
+        "https://zielnikpolski.pl/pesto-swierzabek-pietruszka-orzechy/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -1108,7 +1247,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/zupa-swierzabek-marchew-fasolka/"
+        "https://zielnikpolski.pl/zupa-swierzabek-marchew-fasolka/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -1139,7 +1281,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/gulasz-swierzabek-cukinia/"
+        "https://zielnikpolski.pl/gulasz-swierzabek-cukinia/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -1168,7 +1313,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/zapiekanka-swierzabek-ser-cebula/"
+        "https://zielnikpolski.pl/zapiekanka-swierzabek-ser-cebula/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -1196,7 +1344,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/puree-swierzabek-pietruszka/"
+        "https://zielnikpolski.pl/puree-swierzabek-pietruszka/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -1225,7 +1376,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/placki-swierzabek-cukinia/"
+        "https://zielnikpolski.pl/placki-swierzabek-cukinia/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -1256,7 +1410,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/barwnik-swierzabek/"
+        "https://zielnikpolski.pl/barwnik-swierzabek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -1288,7 +1445,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
+        "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -1315,7 +1475,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        51
+        51,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -1345,7 +1508,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/kosmetyki-swierzabek/"
+        "https://zielnikpolski.pl/kosmetyki-swierzabek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -1372,7 +1538,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        52
+        52,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
@@ -1402,7 +1571,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/chlodnik-szczawik-ogorek/"
+        "https://zielnikpolski.pl/chlodnik-szczawik-ogorek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1432,7 +1604,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/salatka-szczawik-truskawka/"
+        "https://zielnikpolski.pl/salatka-szczawik-truskawka/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1461,7 +1636,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/omlet-szczawik/"
+        "https://zielnikpolski.pl/omlet-szczawik/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1488,7 +1666,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/twarozek-szczawik/"
+        "https://zielnikpolski.pl/twarozek-szczawik/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1515,7 +1696,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/sorbet-szczawik/"
+        "https://zielnikpolski.pl/sorbet-szczawik/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1542,7 +1726,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/galaretka-szczawik-jablko/"
+        "https://zielnikpolski.pl/galaretka-szczawik-jablko/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1568,7 +1755,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/kiszonka-szczawik/"
+        "https://zielnikpolski.pl/kiszonka-szczawik/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1595,7 +1785,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/lemoniada-szczawik/"
+        "https://zielnikpolski.pl/lemoniada-szczawik/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1626,7 +1819,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/mieszanka-napotna-szczawik-lipa/"
+        "https://zielnikpolski.pl/mieszanka-napotna-szczawik-lipa/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1657,7 +1853,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/mieszanka-odpornosc-szczawik-pokrzywa/"
+        "https://zielnikpolski.pl/mieszanka-odpornosc-szczawik-pokrzywa/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1685,7 +1884,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/mieszanka-moczopedna-szczawik-skrzyp/"
+        "https://zielnikpolski.pl/mieszanka-moczopedna-szczawik-skrzyp/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1713,7 +1915,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/mieszanka-trawienie-szczawik-mieta/"
+        "https://zielnikpolski.pl/mieszanka-trawienie-szczawik-mieta/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1740,7 +1945,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/mieszanka-skora-szczawik-nagietek/"
+        "https://zielnikpolski.pl/mieszanka-skora-szczawik-nagietek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1771,7 +1979,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/salatka-lesna-szczawik-marzanka/"
+        "https://zielnikpolski.pl/salatka-lesna-szczawik-marzanka/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1800,7 +2011,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/pesto-szczawik-orzechy/"
+        "https://zielnikpolski.pl/pesto-szczawik-orzechy/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1826,7 +2040,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/kanapka-szczawik-pasta/"
+        "https://zielnikpolski.pl/kanapka-szczawik-pasta/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1856,7 +2073,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/placki-szczawik-ziemniaki/"
+        "https://zielnikpolski.pl/placki-szczawik-ziemniaki/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1885,7 +2105,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/chlodnik-szczawik-szczaw-ogorek/"
+        "https://zielnikpolski.pl/chlodnik-szczawik-szczaw-ogorek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1912,7 +2135,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/galaretka-szczawik-malinowy/"
+        "https://zielnikpolski.pl/galaretka-szczawik-malinowy/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1940,7 +2166,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/barwnik-szczawik/"
+        "https://zielnikpolski.pl/barwnik-szczawik/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -1970,7 +2199,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html"
+        "https://www.farmer.pl/zwierzeta/zywienie/ziola-dla-zwierzat-gospodarskich,79271.html",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -2001,7 +2233,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        47
+        47,
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -2030,7 +2265,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/omlet-wiosenny-szczawik-pokrzywa/"
+        "https://zielnikpolski.pl/omlet-wiosenny-szczawik-pokrzywa/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -2057,7 +2295,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/kiszonka-szczawik-koper/"
+        "https://zielnikpolski.pl/kiszonka-szczawik-koper/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -2087,7 +2328,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/kosmetyki-szczawik/"
+        "https://zielnikpolski.pl/kosmetyki-szczawik/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
@@ -2117,11 +2361,16 @@
       "uwagi": "unikać stosowania z innymi lekami sedatywnymi",
       "zrodla": [
         "Commission E Monograph: Valeriana officinalis",
-        "Herbal Medicines, British Herbal Compendium"
+        "Herbal Medicines, British Herbal Compendium",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "zupa zielona z żankielem",
@@ -2141,7 +2390,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/zupa-zankiel-ziola/"
+        "https://zielnikpolski.pl/zupa-zankiel-ziola/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2173,7 +2425,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/salatka-zankiel-szczawik/"
+        "https://zielnikpolski.pl/salatka-zankiel-szczawik/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2201,7 +2456,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/twarozek-zankiel/"
+        "https://zielnikpolski.pl/twarozek-zankiel/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2229,7 +2487,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/jajecznica-zankiel-szczypiorek/"
+        "https://zielnikpolski.pl/jajecznica-zankiel-szczypiorek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2257,7 +2518,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/omlet-zankiel-pokrzywa/"
+        "https://zielnikpolski.pl/omlet-zankiel-pokrzywa/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2285,7 +2549,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/pesto-zankiel-orzechy/"
+        "https://zielnikpolski.pl/pesto-zankiel-orzechy/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2313,7 +2580,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/kiszone-zankiel-chrzan-czosnek/"
+        "https://zielnikpolski.pl/kiszone-zankiel-chrzan-czosnek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2342,7 +2612,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/chlodnik-zankiel-ogorek/"
+        "https://zielnikpolski.pl/chlodnik-zankiel-ogorek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2372,7 +2645,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/mieszanka-gojaca-zankiel-nagietek/"
+        "https://zielnikpolski.pl/mieszanka-gojaca-zankiel-nagietek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2400,7 +2676,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/mieszanka-wykrztusna-zankiel-tymianek/"
+        "https://zielnikpolski.pl/mieszanka-wykrztusna-zankiel-tymianek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2431,7 +2710,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/mieszanka-skora-zankiel-nagietek/"
+        "https://zielnikpolski.pl/mieszanka-skora-zankiel-nagietek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2461,7 +2743,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/mieszanka-reumatyzm-zankiel-zywokost/"
+        "https://zielnikpolski.pl/mieszanka-reumatyzm-zankiel-zywokost/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2491,7 +2776,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/mieszanka-kapielowa-zankiel-rumianek/"
+        "https://zielnikpolski.pl/mieszanka-kapielowa-zankiel-rumianek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2521,7 +2809,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/omlet-zankiel-koperek/"
+        "https://zielnikpolski.pl/omlet-zankiel-koperek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2552,7 +2843,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/mieszanka-odpornosc-zankiel-pokrzywa/"
+        "https://zielnikpolski.pl/mieszanka-odpornosc-zankiel-pokrzywa/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2583,7 +2877,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/kanapka-zankiel-pasta/"
+        "https://zielnikpolski.pl/kanapka-zankiel-pasta/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2611,7 +2908,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/chlodnik-zankiel-ogorek/"
+        "https://zielnikpolski.pl/chlodnik-zankiel-ogorek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2639,7 +2939,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/salatka-lesna-zankiel-szczawik/"
+        "https://zielnikpolski.pl/salatka-lesna-zankiel-szczawik/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2666,7 +2969,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/pesto-zankiel-koperek/"
+        "https://zielnikpolski.pl/pesto-zankiel-koperek/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2693,7 +2999,10 @@
       "dawkowanie": "",
       "uwagi": "",
       "zrodla": [
-        "https://zielnikpolski.pl/placki-zankiel-ziemniaki/"
+        "https://zielnikpolski.pl/placki-zankiel-ziemniaki/",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
@@ -2716,7 +3025,12 @@
       "przygotowanie": "Porzeczki dokładnie umyj, usuń szypułki, przełóż do słoja. Zalej mieszanką spirytusu przygotowaną z 0,5 l spirytusu i 0,5 l wody. Zamknij szczelnie i odstaw w ciemne, chłodne miejsce na około 1,5 miesiąca, codziennie wstrząsając. Po maceracji przygotuj syrop z 0,5 kg cukru i 0,5 l wody, ostudź i połącz z odcedzonym nalewem, przecedź, rozlej do butelek i odstaw na dojrzewanie nawet do roku.",
       "wlasciwosci": "Czarne porzeczki są bogate w witaminy (zwłaszcza C), a nalewka działa przeciwutleniająco i wzmacniająco na odporność.",
       "cechy": "Intensywny smak owocu porzeczki, zrównoważona słodycz syropu, głęboki kolor, aromat leśnych owoców, stopniowo łagodnieje w miarę dojrzewania.",
-      "zrodlo": "https://mojbar.pl/przepis-na-nalewke-z-czarnej-porzeczki-z-miodem-i-wanilia-z-czym-pic/"
+      "zrodlo": "https://mojbar.pl/przepis-na-nalewke-z-czarnej-porzeczki-z-miodem-i-wanilia-z-czym-pic/",
+      "zrodla": [
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
+      ]
     },
     {
       "tytul": "Nalewka z czarnej porzeczki (wersja tradycyjna)",
@@ -2728,7 +3042,12 @@
       "przygotowanie": "Porzeczki opłucz z ogonków, przełóż do słoja i zalej 1 l spirytusu 70 %. Słój szczelnie zamknij i odstaw w ciemne, ciepłe miejsce na około 6 tygodni. Po tym czasie ugotuj syrop z cukru i wody, ostudź, dodaj do odcedzonego nalewu, dokładnie wymieszaj, przefiltruj i rozlej do butelek. Odstaw na kilka miesięcy w chłodne, ciemne miejsce, najlepiej na pół roku.",
       "wlasciwosci": "Bogactwo antyoksydantów i witaminy C z porzeczek. Wspiera odporność, delikatnie pobudza trawienie.",
       "cechy": "Pełny, owocowy smak czarnej porzeczki, słodki z wyraźną owocową kwasowością, głęboka barwa porzeczkowa, aromat leśnych jagód, dojrzały i łagodniejszy po leżakowaniu.",
-      "zrodlo": "https://www.zajadam.pl/alkohole-domowe/nalewka-z-czarnej-porzeczki"
+      "zrodlo": "https://www.zajadam.pl/alkohole-domowe/nalewka-z-czarnej-porzeczki",
+      "zrodla": [
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
+      ]
     },
     {
       "tytul": "Nalewka ziołowa (kolendra, kminek, czarnuszka, anyż i inne)",
@@ -2750,7 +3069,12 @@
       "przygotowanie": "Wszystkie zioła i przyprawy wsyp do słoja, zalej 2 l wódki, szczelnie zamknij i odstaw w ciepłe miejsce na 2 tygodnie. Następnie rozpuść 500 g cukru w szklance wrzącej wody, ostudź i wlej do słoja, wymieszaj. Po przefiltrowaniu przez gazę lub bibułkę rozlej do butelek. Odstaw do leżakowania – co najmniej miesiąc, choć najlepsza po roku.",
       "wlasciwosci": "Zioła wykazują działanie wspomagające trawienie, przeciwdrobnoustrojowe, rozkurczowe i relaksujące; poprawiają nastrój i wspierają trawienie.",
       "cechy": "Aromatyczna, intensywna mieszanka ziół i przypraw – korzenna, pikantna, wyrazista; barwa złocisto-brązowa, smak złożony, wielowarstwowy, długi finisz.",
-      "zrodlo": "https://piwniczkachomika.pl/nalewka-ziolowa/"
+      "zrodlo": "https://piwniczkachomika.pl/nalewka-ziolowa/",
+      "zrodla": [
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
+      ]
     },
     {
       "tytul": "Nalewka ziołowa (mięta, melisa, bazylia, tymianek, szałwia)",
@@ -2767,7 +3091,12 @@
       "przygotowanie": "Zioła dokładnie umyj, osusz i obrywaj listki. Umieść same liście w dużym słoju. Wodę z cukrem podgrzej, zagotuj, przygotuj syrop i ostudź. Zimnym syropem zalej zioła w słoju. Naczynie szczelnie zamknij i odstaw w zaciemnione miejsce na 3 tygodnie. Po tym czasie odcedź (przez drobne sito, dobrze wyciśnij zioła), a czysty nalew wymieszaj ze spirytusem. Rozlej do butelek i odstaw w chłodne miejsce na około 2 miesiące (im dłużej leżakuje, tym bardziej wytrawna).",
       "wlasciwosci": "Tymianek – działanie przeciwbakteryjne, wykrztuśne i rozkurczowe; melisa – uspokajająco i rozluźniająco; szałwia – wspomaga trawienie, działa antyseptycznie i grzybobójczo; bazylia – wspiera trawienie i poprawia nastrój; mięta – łagodzi dolegliwości żołądkowe, działa uspokajająco, przeciwwymiotnie i odświeżająco.",
       "cechy": "Barwa zielonkawa, ziołowy, intensywny aromat i orzeźwiający, z wyraźną nutą mięty i tymianku; smak zbalansowany – słodkość syropu łagodzi ziołową moc, finalnie wytrawny po dojrzewaniu.",
-      "zrodlo": "https://www.limonkowy.com/2014/08/nalewka-zioowa.html"
+      "zrodlo": "https://www.limonkowy.com/2014/08/nalewka-zioowa.html",
+      "zrodla": [
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
+      ]
     },
     {
       "tytul": "Nalewka z malin",
@@ -2780,7 +3109,12 @@
       "przygotowanie": "Maliny wsypać do słoja, zasypać cukrem, dodać liście, zalać spirytusem. Odstawić na około 6 tygodni, co kilka dni wstrząsać. Po tym czasie przecedzić i leżakować przynajmniej 6 miesięcy.",
       "wlasciwosci": "Działa napotnie, przeciwzapalnie, wzmacnia odporność, łagodzi objawy przeziębienia, PMS; zawiera antocyjany i witaminę C.",
       "cechy": "Owocowa słodycz, ciemno-czerwona barwa, aromatyczny zapach.",
-      "zrodlo": "https://www.amol.pl/jak-przygotowac-zdrowe-nalewki-domowe"
+      "zrodlo": "https://www.amol.pl/jak-przygotowac-zdrowe-nalewki-domowe",
+      "zrodla": [
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
+      ]
     },
     {
       "tytul": "Nalewka z dziurawca",
@@ -2792,7 +3126,12 @@
       "przygotowanie": "Zioło zalać alkoholem wymieszanym z wodą, szczelnie zamknąć i odstawić w ciemne miejsce na 3–4 tygodnie, codziennie mieszać. Po tym czasie przecedzić przez gazę i rozlać do ciemnych butelek.",
       "wlasciwosci": "Działa antydepresyjnie, przeciwbakteryjnie, wspomaga układ trawienny, poprawia nastrój.",
       "cechy": "Ziołowy aromat, bursztynowy kolor, lekko gorzkawy smak.",
-      "zrodlo": "https://alkoportal.pl/przepisy/nalewki-ziolowe-przepisy-i-wlasciwosci"
+      "zrodlo": "https://alkoportal.pl/przepisy/nalewki-ziolowe-przepisy-i-wlasciwosci",
+      "zrodla": [
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
+      ]
     },
     {
       "tytul": "Nalewka z melisy",
@@ -2803,7 +3142,12 @@
       "przygotowanie": "Liście umyć, osuszyć, posiekać i zalać wódką. Szczelnie zamknąć i odstawić w ciemne miejsce na 2–3 tygodnie, codziennie mieszać. Po maceracji przecedzić i przelać do ciemnych butelek.",
       "wlasciwosci": "Uspokaja, poprawia sen, wspomaga trawienie.",
       "cechy": "Delikatny, cytrynowy aromat, złocista barwa, łagodny smak.",
-      "zrodlo": "https://alkoportal.pl/przepisy/nalewki-ziolowe-przepisy-i-wlasciwosci"
+      "zrodlo": "https://alkoportal.pl/przepisy/nalewki-ziolowe-przepisy-i-wlasciwosci",
+      "zrodla": [
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
+      ]
     },
     {
       "tytul": "Nalewka z ziół (mieszanka)",
@@ -2825,7 +3169,12 @@
       "przygotowanie": "Zioła i przyprawy rozdrobnić, wsypać do dużego słoja, zalać wódką, szczelnie zamknąć i odstawić w ciemne miejsce na 2–3 tygodnie, codziennie wstrząsać. Po tym czasie rozpuścić cukier w niewielkiej ilości gorącej wody, przestudzić i dodać do słoja, wymieszać, przecedzić i odstawić na co najmniej miesiąc.",
       "wlasciwosci": "Profilaktyczna, bogata w aromaty i antyoksydanty, wspomaga odporność i trawienie.",
       "cechy": "Złożony aromat korzenny, mocny smak, złocisto-brązowy kolor.",
-      "zrodlo": "https://zielonyogrodek.pl/dom-i-balkon/kuchnia-z-ogrodka/14677-nalewka-z-ziol-przepis-na-prozdrowotny-trunek"
+      "zrodlo": "https://zielonyogrodek.pl/dom-i-balkon/kuchnia-z-ogrodka/14677-nalewka-z-ziol-przepis-na-prozdrowotny-trunek",
+      "zrodla": [
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
+      ]
     },
     {
       "tytul": "Nalewka walerianowa (z kozłka lekarskiego)",
@@ -2836,7 +3185,12 @@
       "przygotowanie": "Kłączy i korzeni zalej alkoholem, szczelnie zamknąć słój i odstawić w ciemne miejsce na 1 miesiąc, codziennie wstrząsać. Następnie przecedzić przez sito, odcisnąć. Zażywać 15 ml zwłaszcza przy problemach ze snem, rozcieńczone w połowie szklanki wody, godzinę przed snem.",
       "wlasciwosci": "Działanie uspokajające, przeciwlękowe, pomocne przy bezsenności.",
       "cechy": "Gorzko-trawiasty aromat, ciemny kolor, ziołowy smak.",
-      "zrodlo": "https://klaudynahebda.pl/ziola-na-sen"
+      "zrodlo": "https://klaudynahebda.pl/ziola-na-sen",
+      "zrodla": [
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
+      ]
     },
     {
       "tytul": "Herbatka z skrzyp polny",
@@ -2856,11 +3210,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": "słodkie",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), słodzące naturalnie, wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Sałatka z sosna zwyczajna",
@@ -2881,11 +3240,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": "cytrusowe, pikantne/pieprzne, słone, tłuste",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Zupa z szczawik zajęczy",
@@ -2908,11 +3272,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": "kremowe, miętowe/orzeźwiające, pikantne/cebula",
+      "wlasciwosci": "aromatyczne, kremowa tekstura, orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), wyraziste"
     },
     {
       "tytul": "Pesto z żankiel zwyczajny",
@@ -2934,11 +3303,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": "słone",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Kiszone świerząbek bulwiasty (kulinarne)",
@@ -2961,11 +3335,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": "kwasowo-świeże, lekkie musowanie, słone",
+      "wlasciwosci": "lekka kwasowość i złożoność, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Konfitura z pokrzywa zwyczajna",
@@ -2986,11 +3365,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Pokrzywa zwyczajna",
       "nazwa_lacinska": "Urtica dioica",
-      "slug": "pokrzywa_zwyczajna"
+      "slug": "pokrzywa_zwyczajna",
+      "cechy": "cytrusowe",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Syrop smakowy z rumianek pospolity",
@@ -3010,11 +3394,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Rumianek pospolity",
       "nazwa_lacinska": "Matricaria chamomilla",
-      "slug": "rumianek_pospolity"
+      "slug": "rumianek_pospolity",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Ocet ziołowy z nagietek lekarski",
@@ -3034,11 +3423,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Nagietek lekarski",
       "nazwa_lacinska": "Calendula officinalis",
-      "slug": "nagietek_lekarski"
+      "slug": "nagietek_lekarski",
+      "cechy": "słodkie",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Olej aromatyczny z dzika róża",
@@ -3057,11 +3451,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Dzika róża",
       "nazwa_lacinska": "Rosa canina",
-      "slug": "dzika_roza"
+      "slug": "dzika_roza",
+      "cechy": "tłuste",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Przyprawa suszona z bez czarny",
@@ -3079,11 +3478,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Bez czarny",
       "nazwa_lacinska": "Sambucus nigra",
-      "slug": "bez_czarny"
+      "slug": "bez_czarny",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Chleb ziołowy z lipa drobnolistna",
@@ -3106,11 +3510,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Lipa drobnolistna",
       "nazwa_lacinska": "Tilia cordata",
-      "slug": "lipa_drobnolistna"
+      "slug": "lipa_drobnolistna",
+      "cechy": "słone",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Sos do dań z krwawnik pospolity",
@@ -3130,11 +3539,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Krwawnik pospolity",
       "nazwa_lacinska": "Achillea millefolium",
-      "slug": "krwawnik_pospolity"
+      "slug": "krwawnik_pospolity",
+      "cechy": "kremowe, miętowe/orzeźwiające, pikantne/pieprzne, słone",
+      "wlasciwosci": "kremowa tekstura, orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Nalewka smakowa z mniszek lekarski",
@@ -3154,11 +3568,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Mniszek lekarski",
       "nazwa_lacinska": "Taraxacum officinale",
-      "slug": "mniszek_lekarski"
+      "slug": "mniszek_lekarski",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Likier z babka lancetowata",
@@ -3179,11 +3598,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Babka lancetowata",
       "nazwa_lacinska": "Plantago lanceolata",
-      "slug": "babka_lancetowata"
+      "slug": "babka_lancetowata",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Marynata do warzyw z podbiał pospolity",
@@ -3206,11 +3630,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Podbiał pospolity",
       "nazwa_lacinska": "Tussilago farfara",
-      "slug": "podbial_pospolity"
+      "slug": "podbial_pospolity",
+      "cechy": "intensywnie przyprawione, kwaśno-słone, słone",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Dziurawiec zwyczajny blanszowane jak szparagi",
@@ -3231,11 +3660,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Dziurawiec zwyczajny",
       "nazwa_lacinska": "Hypericum perforatum",
-      "slug": "dziurawiec_zwyczajny"
+      "slug": "dziurawiec_zwyczajny",
+      "cechy": "chrupkie, świeże, maślane, słone, tłuste",
+      "wlasciwosci": "kremowa tekstura, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Szałwia lekarska smażone na maśle",
@@ -3255,11 +3689,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szałwia lekarska",
       "nazwa_lacinska": "Salvia officinalis",
-      "slug": "szalwia_lekarska"
+      "slug": "szalwia_lekarska",
+      "cechy": "pikantne/pieprzne, słone, tłuste, złociste, chrupiące",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Tymianek pospolity pieczone w piekarniku",
@@ -3279,11 +3718,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Tymianek pospolity",
       "nazwa_lacinska": "Thymus vulgaris",
-      "slug": "tymianek_pospolity"
+      "slug": "tymianek_pospolity",
+      "cechy": "pikantne/pieprzne, przypieczone, karmelizowane nuty, słone, tłuste, ziołowe",
+      "wlasciwosci": "aromatyczne, karmelizacja i koncentracja smaku, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), ziołowe, źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Herbatka z mięta pieprzowa",
@@ -3303,11 +3747,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Mięta pieprzowa",
       "nazwa_lacinska": "Mentha x piperita",
-      "slug": "mieta_pieprzowa"
+      "slug": "mieta_pieprzowa",
+      "cechy": "miętowe/orzeźwiające, pikantne/pieprzne, słodkie",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, słodzące naturalnie, wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Sałatka z melisa lekarska",
@@ -3328,11 +3777,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Melisa lekarska",
       "nazwa_lacinska": "Melissa officinalis",
-      "slug": "melisa_lekarska"
+      "slug": "melisa_lekarska",
+      "cechy": "cytrusowe, pikantne/pieprzne, słone, tłuste",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Zupa z koper włoski",
@@ -3355,11 +3809,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Koper włoski",
       "nazwa_lacinska": "Foeniculum vulgare",
-      "slug": "koper_wloski"
+      "slug": "koper_wloski",
+      "cechy": "kremowe, miętowe/orzeźwiające, pikantne/cebula, ziołowe",
+      "wlasciwosci": "aromatyczne, kremowa tekstura, orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), wyraziste"
     },
     {
       "tytul": "Pesto z anyż",
@@ -3381,11 +3840,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Anyż",
       "nazwa_lacinska": "Pimpinella anisum",
-      "slug": "anyz"
+      "slug": "anyz",
+      "cechy": "słone",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Kiszone arcydzięgiel litwor (kulinarne)",
@@ -3408,11 +3872,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Arcydzięgiel litwor",
       "nazwa_lacinska": "Angelica archangelica",
-      "slug": "arcydziegiel_litwor"
+      "slug": "arcydziegiel_litwor",
+      "cechy": "kwasowo-świeże, lekkie musowanie, słone",
+      "wlasciwosci": "lekka kwasowość i złożoność, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Konfitura z prawoślaz lekarski",
@@ -3433,11 +3902,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Prawoślaz lekarski",
       "nazwa_lacinska": "Althaea officinalis",
-      "slug": "prawoslaz_lekarski"
+      "slug": "prawoslaz_lekarski",
+      "cechy": "cytrusowe",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Syrop smakowy z głóg jednoszyjkowy",
@@ -3457,11 +3931,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Głóg jednoszyjkowy",
       "nazwa_lacinska": "Crataegus monogyna",
-      "slug": "glog_jednoszyjkowy"
+      "slug": "glog_jednoszyjkowy",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Ocet ziołowy z skrzyp polny",
@@ -3481,11 +3960,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": "słodkie",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Olej aromatyczny z sosna zwyczajna",
@@ -3504,11 +3988,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": "tłuste",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Przyprawa suszona z szczawik zajęczy",
@@ -3526,11 +4015,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Chleb ziołowy z żankiel zwyczajny",
@@ -3553,11 +4047,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": "słone",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Sos do dań z świerząbek bulwiasty",
@@ -3577,11 +4076,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": "kremowe, miętowe/orzeźwiające, pikantne/pieprzne, słone",
+      "wlasciwosci": "kremowa tekstura, orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Nalewka smakowa z pokrzywa zwyczajna",
@@ -3601,11 +4105,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Pokrzywa zwyczajna",
       "nazwa_lacinska": "Urtica dioica",
-      "slug": "pokrzywa_zwyczajna"
+      "slug": "pokrzywa_zwyczajna",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Likier z rumianek pospolity",
@@ -3626,11 +4135,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Rumianek pospolity",
       "nazwa_lacinska": "Matricaria chamomilla",
-      "slug": "rumianek_pospolity"
+      "slug": "rumianek_pospolity",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Marynata do warzyw z nagietek lekarski",
@@ -3653,11 +4167,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Nagietek lekarski",
       "nazwa_lacinska": "Calendula officinalis",
-      "slug": "nagietek_lekarski"
+      "slug": "nagietek_lekarski",
+      "cechy": "intensywnie przyprawione, kwaśno-słone, słone",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Dzika róża blanszowane jak szparagi",
@@ -3678,11 +4197,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Dzika róża",
       "nazwa_lacinska": "Rosa canina",
-      "slug": "dzika_roza"
+      "slug": "dzika_roza",
+      "cechy": "chrupkie, świeże, maślane, słone, tłuste",
+      "wlasciwosci": "kremowa tekstura, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Bez czarny smażone na maśle",
@@ -3702,11 +4226,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Bez czarny",
       "nazwa_lacinska": "Sambucus nigra",
-      "slug": "bez_czarny"
+      "slug": "bez_czarny",
+      "cechy": "pikantne/pieprzne, słone, tłuste, złociste, chrupiące",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Lipa drobnolistna pieczone w piekarniku",
@@ -3726,11 +4255,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Lipa drobnolistna",
       "nazwa_lacinska": "Tilia cordata",
-      "slug": "lipa_drobnolistna"
+      "slug": "lipa_drobnolistna",
+      "cechy": "pikantne/pieprzne, przypieczone, karmelizowane nuty, słone, tłuste",
+      "wlasciwosci": "aromatyczne, karmelizacja i koncentracja smaku, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), ziołowe, źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Herbatka z krwawnik pospolity",
@@ -3750,11 +4284,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Krwawnik pospolity",
       "nazwa_lacinska": "Achillea millefolium",
-      "slug": "krwawnik_pospolity"
+      "slug": "krwawnik_pospolity",
+      "cechy": "słodkie",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), słodzące naturalnie, wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Sałatka z mniszek lekarski",
@@ -3775,11 +4314,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Mniszek lekarski",
       "nazwa_lacinska": "Taraxacum officinale",
-      "slug": "mniszek_lekarski"
+      "slug": "mniszek_lekarski",
+      "cechy": "cytrusowe, pikantne/pieprzne, słone, tłuste",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Zupa z babka lancetowata",
@@ -3802,11 +4346,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Babka lancetowata",
       "nazwa_lacinska": "Plantago lanceolata",
-      "slug": "babka_lancetowata"
+      "slug": "babka_lancetowata",
+      "cechy": "kremowe, miętowe/orzeźwiające, pikantne/cebula",
+      "wlasciwosci": "aromatyczne, kremowa tekstura, orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), wyraziste"
     },
     {
       "tytul": "Pesto z podbiał pospolity",
@@ -3828,11 +4377,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Podbiał pospolity",
       "nazwa_lacinska": "Tussilago farfara",
-      "slug": "podbial_pospolity"
+      "slug": "podbial_pospolity",
+      "cechy": "słone",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Kiszone dziurawiec zwyczajny (kulinarne)",
@@ -3855,11 +4409,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Dziurawiec zwyczajny",
       "nazwa_lacinska": "Hypericum perforatum",
-      "slug": "dziurawiec_zwyczajny"
+      "slug": "dziurawiec_zwyczajny",
+      "cechy": "kwasowo-świeże, lekkie musowanie, słone",
+      "wlasciwosci": "lekka kwasowość i złożoność, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Konfitura z szałwia lekarska",
@@ -3880,11 +4439,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szałwia lekarska",
       "nazwa_lacinska": "Salvia officinalis",
-      "slug": "szalwia_lekarska"
+      "slug": "szalwia_lekarska",
+      "cechy": "cytrusowe",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Syrop smakowy z tymianek pospolity",
@@ -3904,11 +4468,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Tymianek pospolity",
       "nazwa_lacinska": "Thymus vulgaris",
-      "slug": "tymianek_pospolity"
+      "slug": "tymianek_pospolity",
+      "cechy": "ziołowe",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Ocet ziołowy z mięta pieprzowa",
@@ -3928,11 +4497,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Mięta pieprzowa",
       "nazwa_lacinska": "Mentha x piperita",
-      "slug": "mieta_pieprzowa"
+      "slug": "mieta_pieprzowa",
+      "cechy": "miętowe/orzeźwiające, pikantne/pieprzne, słodkie",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Olej aromatyczny z melisa lekarska",
@@ -3951,11 +4525,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Melisa lekarska",
       "nazwa_lacinska": "Melissa officinalis",
-      "slug": "melisa_lekarska"
+      "slug": "melisa_lekarska",
+      "cechy": "tłuste",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Przyprawa suszona z koper włoski",
@@ -3973,11 +4552,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Koper włoski",
       "nazwa_lacinska": "Foeniculum vulgare",
-      "slug": "koper_wloski"
+      "slug": "koper_wloski",
+      "cechy": "ziołowe",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Chleb ziołowy z anyż",
@@ -4000,11 +4584,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Anyż",
       "nazwa_lacinska": "Pimpinella anisum",
-      "slug": "anyz"
+      "slug": "anyz",
+      "cechy": "słone",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Sos do dań z arcydzięgiel litwor",
@@ -4024,11 +4613,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Arcydzięgiel litwor",
       "nazwa_lacinska": "Angelica archangelica",
-      "slug": "arcydziegiel_litwor"
+      "slug": "arcydziegiel_litwor",
+      "cechy": "kremowe, miętowe/orzeźwiające, pikantne/pieprzne, słone",
+      "wlasciwosci": "kremowa tekstura, orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Nalewka smakowa z prawoślaz lekarski",
@@ -4048,11 +4642,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Prawoślaz lekarski",
       "nazwa_lacinska": "Althaea officinalis",
-      "slug": "prawoslaz_lekarski"
+      "slug": "prawoslaz_lekarski",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Likier z głóg jednoszyjkowy",
@@ -4073,11 +4672,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Głóg jednoszyjkowy",
       "nazwa_lacinska": "Crataegus monogyna",
-      "slug": "glog_jednoszyjkowy"
+      "slug": "glog_jednoszyjkowy",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Marynata do warzyw z skrzyp polny",
@@ -4100,11 +4704,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": "intensywnie przyprawione, kwaśno-słone, słone",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Sosna zwyczajna blanszowane jak szparagi",
@@ -4125,11 +4734,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": "chrupkie, świeże, maślane, słone, tłuste",
+      "wlasciwosci": "kremowa tekstura, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Szczawik zajęczy smażone na maśle",
@@ -4149,11 +4763,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": "pikantne/pieprzne, słone, tłuste, złociste, chrupiące",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Żankiel zwyczajny pieczone w piekarniku",
@@ -4173,11 +4792,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": "pikantne/pieprzne, przypieczone, karmelizowane nuty, słone, tłuste",
+      "wlasciwosci": "aromatyczne, karmelizacja i koncentracja smaku, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), ziołowe, źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Herbatka z świerząbek bulwiasty",
@@ -4197,11 +4821,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": "słodkie",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), słodzące naturalnie, wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Sałatka z pokrzywa zwyczajna",
@@ -4222,11 +4851,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Pokrzywa zwyczajna",
       "nazwa_lacinska": "Urtica dioica",
-      "slug": "pokrzywa_zwyczajna"
+      "slug": "pokrzywa_zwyczajna",
+      "cechy": "cytrusowe, pikantne/pieprzne, słone, tłuste",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Zupa z rumianek pospolity",
@@ -4249,11 +4883,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Rumianek pospolity",
       "nazwa_lacinska": "Matricaria chamomilla",
-      "slug": "rumianek_pospolity"
+      "slug": "rumianek_pospolity",
+      "cechy": "kremowe, miętowe/orzeźwiające, pikantne/cebula",
+      "wlasciwosci": "aromatyczne, kremowa tekstura, orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), wyraziste"
     },
     {
       "tytul": "Pesto z nagietek lekarski",
@@ -4275,11 +4914,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Nagietek lekarski",
       "nazwa_lacinska": "Calendula officinalis",
-      "slug": "nagietek_lekarski"
+      "slug": "nagietek_lekarski",
+      "cechy": "słone",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Kiszone dzika róża (kulinarne)",
@@ -4302,11 +4946,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Dzika róża",
       "nazwa_lacinska": "Rosa canina",
-      "slug": "dzika_roza"
+      "slug": "dzika_roza",
+      "cechy": "kwasowo-świeże, lekkie musowanie, słone",
+      "wlasciwosci": "lekka kwasowość i złożoność, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Konfitura z bez czarny",
@@ -4327,11 +4976,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Bez czarny",
       "nazwa_lacinska": "Sambucus nigra",
-      "slug": "bez_czarny"
+      "slug": "bez_czarny",
+      "cechy": "cytrusowe",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Syrop smakowy z lipa drobnolistna",
@@ -4351,11 +5005,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Lipa drobnolistna",
       "nazwa_lacinska": "Tilia cordata",
-      "slug": "lipa_drobnolistna"
+      "slug": "lipa_drobnolistna",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Ocet ziołowy z krwawnik pospolity",
@@ -4375,11 +5034,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Krwawnik pospolity",
       "nazwa_lacinska": "Achillea millefolium",
-      "slug": "krwawnik_pospolity"
+      "slug": "krwawnik_pospolity",
+      "cechy": "słodkie",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Olej aromatyczny z mniszek lekarski",
@@ -4398,11 +5062,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Mniszek lekarski",
       "nazwa_lacinska": "Taraxacum officinale",
-      "slug": "mniszek_lekarski"
+      "slug": "mniszek_lekarski",
+      "cechy": "tłuste",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Przyprawa suszona z babka lancetowata",
@@ -4420,11 +5089,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Babka lancetowata",
       "nazwa_lacinska": "Plantago lanceolata",
-      "slug": "babka_lancetowata"
+      "slug": "babka_lancetowata",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Chleb ziołowy z podbiał pospolity",
@@ -4447,11 +5121,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Podbiał pospolity",
       "nazwa_lacinska": "Tussilago farfara",
-      "slug": "podbial_pospolity"
+      "slug": "podbial_pospolity",
+      "cechy": "słone",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Sos do dań z dziurawiec zwyczajny",
@@ -4471,11 +5150,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Dziurawiec zwyczajny",
       "nazwa_lacinska": "Hypericum perforatum",
-      "slug": "dziurawiec_zwyczajny"
+      "slug": "dziurawiec_zwyczajny",
+      "cechy": "kremowe, miętowe/orzeźwiające, pikantne/pieprzne, słone",
+      "wlasciwosci": "kremowa tekstura, orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Nalewka smakowa z szałwia lekarska",
@@ -4495,11 +5179,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szałwia lekarska",
       "nazwa_lacinska": "Salvia officinalis",
-      "slug": "szalwia_lekarska"
+      "slug": "szalwia_lekarska",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Likier z tymianek pospolity",
@@ -4520,11 +5209,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Tymianek pospolity",
       "nazwa_lacinska": "Thymus vulgaris",
-      "slug": "tymianek_pospolity"
+      "slug": "tymianek_pospolity",
+      "cechy": "ziołowe",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Marynata do warzyw z mięta pieprzowa",
@@ -4547,11 +5241,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Mięta pieprzowa",
       "nazwa_lacinska": "Mentha x piperita",
-      "slug": "mieta_pieprzowa"
+      "slug": "mieta_pieprzowa",
+      "cechy": "intensywnie przyprawione, kwaśno-słone, miętowe/orzeźwiające, pikantne/pieprzne, słone",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Melisa lekarska blanszowane jak szparagi",
@@ -4572,11 +5271,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Melisa lekarska",
       "nazwa_lacinska": "Melissa officinalis",
-      "slug": "melisa_lekarska"
+      "slug": "melisa_lekarska",
+      "cechy": "chrupkie, świeże, maślane, słone, tłuste",
+      "wlasciwosci": "kremowa tekstura, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Koper włoski smażone na maśle",
@@ -4596,11 +5300,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Koper włoski",
       "nazwa_lacinska": "Foeniculum vulgare",
-      "slug": "koper_wloski"
+      "slug": "koper_wloski",
+      "cechy": "pikantne/pieprzne, słone, tłuste, ziołowe, złociste, chrupiące",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Anyż pieczone w piekarniku",
@@ -4620,11 +5329,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Anyż",
       "nazwa_lacinska": "Pimpinella anisum",
-      "slug": "anyz"
+      "slug": "anyz",
+      "cechy": "pikantne/pieprzne, przypieczone, karmelizowane nuty, słone, tłuste",
+      "wlasciwosci": "aromatyczne, karmelizacja i koncentracja smaku, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), ziołowe, źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Herbatka z arcydzięgiel litwor",
@@ -4644,11 +5358,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Arcydzięgiel litwor",
       "nazwa_lacinska": "Angelica archangelica",
-      "slug": "arcydziegiel_litwor"
+      "slug": "arcydziegiel_litwor",
+      "cechy": "słodkie",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), słodzące naturalnie, wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Sałatka z prawoślaz lekarski",
@@ -4669,11 +5388,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Prawoślaz lekarski",
       "nazwa_lacinska": "Althaea officinalis",
-      "slug": "prawoslaz_lekarski"
+      "slug": "prawoslaz_lekarski",
+      "cechy": "cytrusowe, pikantne/pieprzne, słone, tłuste",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Zupa z głóg jednoszyjkowy",
@@ -4696,11 +5420,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Głóg jednoszyjkowy",
       "nazwa_lacinska": "Crataegus monogyna",
-      "slug": "glog_jednoszyjkowy"
+      "slug": "glog_jednoszyjkowy",
+      "cechy": "kremowe, miętowe/orzeźwiające, pikantne/cebula",
+      "wlasciwosci": "aromatyczne, kremowa tekstura, orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), wyraziste"
     },
     {
       "tytul": "Pesto z skrzyp polny",
@@ -4722,11 +5451,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
-      "slug": "skrzyp_polny"
+      "slug": "skrzyp_polny",
+      "cechy": "słone",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Kiszone sosna zwyczajna (kulinarne)",
@@ -4749,11 +5483,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Sosna zwyczajna",
       "nazwa_lacinska": "Pinus sylvestris",
-      "slug": "sosna_zwyczajna"
+      "slug": "sosna_zwyczajna",
+      "cechy": "kwasowo-świeże, lekkie musowanie, słone",
+      "wlasciwosci": "lekka kwasowość i złożoność, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Konfitura z szczawik zajęczy",
@@ -4774,11 +5513,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szczawik zajęczy",
       "nazwa_lacinska": "Oxalis acetosella",
-      "slug": "szczawik_zajeczy"
+      "slug": "szczawik_zajeczy",
+      "cechy": "cytrusowe",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Syrop smakowy z żankiel zwyczajny",
@@ -4798,11 +5542,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Żankiel zwyczajny",
       "nazwa_lacinska": "Sanicula europaea",
-      "slug": "zankiel_zwyczajny"
+      "slug": "zankiel_zwyczajny",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Ocet ziołowy z świerząbek bulwiasty",
@@ -4822,11 +5571,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Świerząbek bulwiasty",
       "nazwa_lacinska": "Chaerophyllum bulbosum",
-      "slug": "swierzabek_bulwiasty"
+      "slug": "swierzabek_bulwiasty",
+      "cechy": "słodkie",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Olej aromatyczny z pokrzywa zwyczajna",
@@ -4845,11 +5599,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Pokrzywa zwyczajna",
       "nazwa_lacinska": "Urtica dioica",
-      "slug": "pokrzywa_zwyczajna"
+      "slug": "pokrzywa_zwyczajna",
+      "cechy": "tłuste",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Przyprawa suszona z rumianek pospolity",
@@ -4867,11 +5626,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Rumianek pospolity",
       "nazwa_lacinska": "Matricaria chamomilla",
-      "slug": "rumianek_pospolity"
+      "slug": "rumianek_pospolity",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Chleb ziołowy z nagietek lekarski",
@@ -4894,11 +5658,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Nagietek lekarski",
       "nazwa_lacinska": "Calendula officinalis",
-      "slug": "nagietek_lekarski"
+      "slug": "nagietek_lekarski",
+      "cechy": "słone",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Sos do dań z dzika róża",
@@ -4918,11 +5687,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Dzika róża",
       "nazwa_lacinska": "Rosa canina",
-      "slug": "dzika_roza"
+      "slug": "dzika_roza",
+      "cechy": "kremowe, miętowe/orzeźwiające, pikantne/pieprzne, słone",
+      "wlasciwosci": "kremowa tekstura, orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Nalewka smakowa z bez czarny",
@@ -4942,11 +5716,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Bez czarny",
       "nazwa_lacinska": "Sambucus nigra",
-      "slug": "bez_czarny"
+      "slug": "bez_czarny",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Likier z lipa drobnolistna",
@@ -4967,11 +5746,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Lipa drobnolistna",
       "nazwa_lacinska": "Tilia cordata",
-      "slug": "lipa_drobnolistna"
+      "slug": "lipa_drobnolistna",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Marynata do warzyw z krwawnik pospolity",
@@ -4994,11 +5778,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Krwawnik pospolity",
       "nazwa_lacinska": "Achillea millefolium",
-      "slug": "krwawnik_pospolity"
+      "slug": "krwawnik_pospolity",
+      "cechy": "intensywnie przyprawione, kwaśno-słone, słone",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Mniszek lekarski blanszowane jak szparagi",
@@ -5019,11 +5808,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Mniszek lekarski",
       "nazwa_lacinska": "Taraxacum officinale",
-      "slug": "mniszek_lekarski"
+      "slug": "mniszek_lekarski",
+      "cechy": "chrupkie, świeże, maślane, słone, tłuste",
+      "wlasciwosci": "kremowa tekstura, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Babka lancetowata smażone na maśle",
@@ -5043,11 +5837,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Babka lancetowata",
       "nazwa_lacinska": "Plantago lanceolata",
-      "slug": "babka_lancetowata"
+      "slug": "babka_lancetowata",
+      "cechy": "pikantne/pieprzne, słone, tłuste, złociste, chrupiące",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Podbiał pospolity pieczone w piekarniku",
@@ -5067,11 +5866,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Podbiał pospolity",
       "nazwa_lacinska": "Tussilago farfara",
-      "slug": "podbial_pospolity"
+      "slug": "podbial_pospolity",
+      "cechy": "pikantne/pieprzne, przypieczone, karmelizowane nuty, słone, tłuste",
+      "wlasciwosci": "aromatyczne, karmelizacja i koncentracja smaku, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), ziołowe, źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Herbatka z dziurawiec zwyczajny",
@@ -5091,11 +5895,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Dziurawiec zwyczajny",
       "nazwa_lacinska": "Hypericum perforatum",
-      "slug": "dziurawiec_zwyczajny"
+      "slug": "dziurawiec_zwyczajny",
+      "cechy": "słodkie",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), słodzące naturalnie, wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Sałatka z szałwia lekarska",
@@ -5116,11 +5925,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Szałwia lekarska",
       "nazwa_lacinska": "Salvia officinalis",
-      "slug": "szalwia_lekarska"
+      "slug": "szalwia_lekarska",
+      "cechy": "cytrusowe, pikantne/pieprzne, słone, tłuste",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Zupa z tymianek pospolity",
@@ -5143,11 +5957,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Tymianek pospolity",
       "nazwa_lacinska": "Thymus vulgaris",
-      "slug": "tymianek_pospolity"
+      "slug": "tymianek_pospolity",
+      "cechy": "kremowe, miętowe/orzeźwiające, pikantne/cebula, ziołowe",
+      "wlasciwosci": "aromatyczne, kremowa tekstura, orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), wyraziste"
     },
     {
       "tytul": "Pesto z mięta pieprzowa",
@@ -5169,11 +5988,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Mięta pieprzowa",
       "nazwa_lacinska": "Mentha x piperita",
-      "slug": "mieta_pieprzowa"
+      "slug": "mieta_pieprzowa",
+      "cechy": "miętowe/orzeźwiające, pikantne/pieprzne, słone",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), rozgrzewające, wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Kiszone melisa lekarska (kulinarne)",
@@ -5196,11 +6020,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Melisa lekarska",
       "nazwa_lacinska": "Melissa officinalis",
-      "slug": "melisa_lekarska"
+      "slug": "melisa_lekarska",
+      "cechy": "kwasowo-świeże, lekkie musowanie, słone",
+      "wlasciwosci": "lekka kwasowość i złożoność, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Konfitura z koper włoski",
@@ -5221,11 +6050,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Koper włoski",
       "nazwa_lacinska": "Foeniculum vulgare",
-      "slug": "koper_wloski"
+      "slug": "koper_wloski",
+      "cechy": "cytrusowe, ziołowe",
+      "wlasciwosci": "orzeźwiające, potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Syrop smakowy z anyż",
@@ -5245,11 +6079,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Anyż",
       "nazwa_lacinska": "Pimpinella anisum",
-      "slug": "anyz"
+      "slug": "anyz",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Ocet ziołowy z arcydzięgiel litwor",
@@ -5269,11 +6108,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Arcydzięgiel litwor",
       "nazwa_lacinska": "Angelica archangelica",
-      "slug": "arcydziegiel_litwor"
+      "slug": "arcydziegiel_litwor",
+      "cechy": "słodkie",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     },
     {
       "tytul": "Olej aromatyczny z prawoślaz lekarski",
@@ -5292,11 +6136,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Prawoślaz lekarski",
       "nazwa_lacinska": "Althaea officinalis",
-      "slug": "prawoslaz_lekarski"
+      "slug": "prawoslaz_lekarski",
+      "cechy": "tłuste",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych), źródło tłuszczu roślinnego"
     },
     {
       "tytul": "Przyprawa suszona z głóg jednoszyjkowy",
@@ -5314,11 +6163,16 @@
       "uwagi": "",
       "zrodla": [
         "Tradycyjne przepisy kuchni regionalnej",
-        "PFAF (Plants For A Future) database"
+        "PFAF (Plants For A Future) database",
+        "Harold McGee — On Food and Cooking: The Science and Lore of the Kitchen (Scribner)",
+        "Larousse Gastronomique (Paul Bocuse et al.)",
+        "Alan Davidson — The Oxford Companion to Food (Oxford University Press)"
       ],
       "roslina": "Głóg jednoszyjkowy",
       "nazwa_lacinska": "Crataegus monogyna",
-      "slug": "glog_jednoszyjkowy"
+      "slug": "glog_jednoszyjkowy",
+      "cechy": "zbalansowany profil smakowy",
+      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
     }
   ]
 }
