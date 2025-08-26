@@ -1999,23 +1999,33 @@ function renderRecipeResults(arr, terms){
     ].filter(Boolean).join(' • ');
 
     // ===== Cechy i Właściwości – pełne =====
-    const cechyArr = [
-      ...asArray(getOneOf(R, ['cechy','Cechy'])),
-      ...asArray(getOneOf(R, ['właściwości','wlasciwosci']))
-    ];
-    const skladProps = asArray(getOneOf(R, ['właściwości_i_składniki','wlasciwosci_i_skladniki']));
-    const cechyItems = [];
-    cechyArr.forEach(it => cechyItems.push(asString(it)));
-    skladProps.forEach(it => {
-      if(typeof it === 'string'){
-        cechyItems.push(it);
-      }else if(it && typeof it === 'object'){
-        const name = it.nazwa || it.name;
-        const eff  = it.działanie || it.dzialanie || it.effect || '';
-        cechyItems.push(name ? (eff ? `${name} — ${eff}` : name) : asString(it));
-      }
-    });
-    const cechyHTML = cechyItems.length ? `<ul>${cechyItems.map(x=>`<li>${x}</li>`).join('')}</ul>` : '';
+    // ===== Cechy i Właściwości – OSOBNO =====
+const cechyList = asArray(getOneOf(R, ['cechy','Cechy']))
+  .map(asString)
+  .filter(Boolean);
+
+// Właściwości: bierz zarówno listę skrótów,
+// jak i rozpisane "właściwości_i_składniki" (mapowane do "nazwa — działanie")
+const wlasciwosciList = [
+  ...asArray(getOneOf(R, ['właściwości','wlasciwosci'])).map(asString),
+  ...asArray(getOneOf(R, ['właściwości_i_składniki','wlasciwosci_i_skladniki'])).map(it => {
+    if (typeof it === 'string') return it;
+    if (it && typeof it === 'object') {
+      const name = it.nazwa || it.name;
+      const eff  = it.działanie || it.dzialanie || it.effect || '';
+      return name ? (eff ? `${name} — ${eff}` : name) : asString(it);
+    }
+    return '';
+  })
+].filter(Boolean);
+
+// Gotowe HTML-e do wstrzyknięcia
+const cechyHTML = cechyList.length
+  ? `<ul>${cechyList.map(x=>`<li>${x}</li>`).join('')}</ul>` : '';
+
+const wlasciwosciHTML = wlasciwosciList.length
+  ? `<ul>${wlasciwosciList.map(x=>`<li>${x}</li>`).join('')}</ul>` : '';
+
 
     // Składniki
     const skladniki = r.surowce?.length
@@ -2055,10 +2065,17 @@ function renderRecipeResults(arr, terms){
         ${ (r.tagi?.length) ? `<div class="tags-line">${r.tagi.map(t=>`#${t}`).join(' ')}</div>` : ''}
 
         ${ cechyHTML ? `
-          <div class="recipe-sec">
-            <h5>Cechy i Właściwości</h5>
-            ${cechyHTML}
-          </div>` : '' }
+  <div class="recipe-sec">
+    <h5>Cechy</h5>
+    ${cechyHTML}
+  </div>` : '' }
+
+${ wlasciwosciHTML ? `
+  <div class="recipe-sec">
+    <h5>Właściwości</h5>
+    ${wlasciwosciHTML}
+  </div>` : '' }
+
 
         ${ skladniki?.length ? `
           <div class="recipe-sec">
@@ -2086,7 +2103,7 @@ function renderRecipeResults(arr, terms){
 
         ${ zrodlaUniq.length ? `
           <div class="recipe-sec">
-            <h5>Źródło${zrodlaUniq.length>1?'a':''}</h5>
+            ${zrodlaUniq.length > 0 ? `<h5>Źródł${zrodlaUniq.length === 1 ? 'o' : 'a'}</h5>` : ''}
             ${renderSources(zrodlaUniq)}
           </div>` : '' }
       </li>
