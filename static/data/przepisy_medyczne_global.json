@@ -13203,6 +13203,1012 @@
         "https://superbutelki.pl/pl/blog/Przepis-na-domowy-syrop-z-mniszka-lekarskiego/20"
       ],
       "zrodla": []
+    },
+ {
+      "tytul": "Napar z liści borówki czernicy",
+      "skladniki": [
+        "1 łyżka suszonych liści borówki czernicy",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Liście zalać wrzątkiem, parzyć 15 minut pod przykryciem, przecedzić.",
+      "cechy": "ciemnozielony napar, lekko gorzki smak",
+      "wlasciwosci": "obniża poziom cukru, wspiera wydzielanie insuliny",
+      "zastosowanie": "Stosowany w fitoterapii cukrzycy i zaburzeń pracy trzustki.",
+      "dawkowanie": "1 filiżanka 2 razy dziennie przez 2 tygodnie.",
+      "zrodlo": "Farmakopea Polska VI; Ożarowski A., Rośliny lecznicze i ich praktyczne zastosowanie"
+    },
+    {
+      "tytul": "Odwar z korzenia mniszka lekarskiego",
+      "skladniki": [
+        "1 łyżka suszonego korzenia mniszka",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 10 minut, odstawić na 15 minut i przecedzić.",
+      "cechy": "żółtawy napar, gorzki smak",
+      "wlasciwosci": "żółciopędny, pobudza wydzielanie soków trawiennych, wspiera trzustkę",
+      "zastosowanie": "Przy zaburzeniach enzymatycznych trzustki, w niestrawności.",
+      "dawkowanie": "1 szklanka 2 razy dziennie.",
+      "zrodlo": "Różański H., Fitoterapia praktyczna; ESCOP Monographs"
+    },
+    {
+      "tytul": "Macerat z siemienia lnianego",
+      "skladniki": [
+        "1 łyżka nasion lnu",
+        "200 ml zimnej wody"
+      ],
+      "sposob_przygotowania": "Zalać zimną wodą, odstawić na 6 godzin, odcedzić.",
+      "cechy": "gęsty, śluzowaty napój",
+      "wlasciwosci": "działanie osłaniające i regenerujące błony śluzowe, wspiera trzustkę",
+      "zastosowanie": "Przy stanach zapalnych trzustki i przewodu pokarmowego.",
+      "dawkowanie": "1 szklanka rano na czczo przez 7 dni.",
+      "zrodlo": "Graeme Tobyn – Herbal Medicine; NCBI"
+    },
+    {
+      "tytul": "Herbatka z pokrzywy i mięty",
+      "skladniki": [
+        "1 łyżka liści pokrzywy",
+        "1 łyżeczka mięty pieprzowej",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 10 minut, odcedzić.",
+      "cechy": "orzeźwiający, miętowy aromat",
+      "wlasciwosci": "oczyszczająca, wspiera metabolizm cukrów",
+      "zastosowanie": "Dla osób z zaburzeniami gospodarki glukozowej.",
+      "dawkowanie": "1 filiżanka wieczorem przez 2 tygodnie.",
+      "zrodlo": "Zielnik Medyczny PZWL, 2010"
+    },
+    {
+      "tytul": "Mieszanka z ostropestu i dziurawca",
+      "skladniki": [
+        "1 łyżka zmielonych nasion ostropestu",
+        "1 łyżka ziela dziurawca",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut.",
+      "cechy": "ciemnozłoty napar, gorzki smak",
+      "wlasciwosci": "ochrania komórki wątroby i trzustki, pobudza enzymy trawienne",
+      "zastosowanie": "Przy osłabionej pracy trzustki i problemach trawiennych.",
+      "dawkowanie": "1 szklanka po głównym posiłku.",
+      "zrodlo": "Różański H., Fitoterapia praktyczna"
+    },
+    {
+      "tytul": "Napar z ziela karczocha",
+      "skladniki": [
+        "1 łyżka suszonych liści karczocha",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 10 minut, przecedzić.",
+      "cechy": "gorzki smak, jasnozielony napar",
+      "wlasciwosci": "żółciopędny, wspomaga wydzielanie enzymów trzustkowych",
+      "zastosowanie": "W niestrawności, przy osłabieniu funkcji trzustki.",
+      "dawkowanie": "1 filiżanka przed obiadem.",
+      "zrodlo": "ESCOP Monographs – Cynara scolymus"
+    },
+    {
+      "tytul": "Herbatka z korzenia cykorii",
+      "skladniki": [
+        "1 łyżka suszonego korzenia cykorii",
+        "250 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 5 minut, odstawić na 15 minut, przecedzić.",
+      "cechy": "ciemny napar, kawowy aromat",
+      "wlasciwosci": "pobudza wydzielanie soków trawiennych i enzymów trzustki",
+      "zastosowanie": "Stosowany przy osłabionej pracy trzustki.",
+      "dawkowanie": "1 filiżanka rano.",
+      "zrodlo": "Herbal Medicine – Cichorium intybus"
+    },
+    {
+      "tytul": "Mieszanka z kłącza tataraku i melisy",
+      "skladniki": [
+        "1 łyżka kłącza tataraku",
+        "1 łyżeczka melisy",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzyć pod przykryciem 15 minut, odcedzić.",
+      "cechy": "ziołowy aromat, lekko gorzki smak",
+      "wlasciwosci": "pobudza trawienie, wspomaga funkcję trzustki",
+      "zastosowanie": "Przy zaburzeniach enzymów trzustki.",
+      "dawkowanie": "1 filiżanka po posiłku.",
+      "zrodlo": "Ożarowski A., Zielarstwo i Fitoterapia"
+    },
+    {
+      "tytul": "Odwar z korzenia lukrecji",
+      "skladniki": [
+        "1 łyżka korzenia lukrecji",
+        "250 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 10 minut, odstawić, przecedzić.",
+      "cechy": "słodkawy smak, jasny kolor",
+      "wlasciwosci": "osłaniający, przeciwzapalny, wspiera trzustkę",
+      "zastosowanie": "W zapaleniu trzustki i problemach trawiennych.",
+      "dawkowanie": "1 filiżanka dziennie przez 7 dni.",
+      "zrodlo": "WHO Monographs – Glycyrrhiza glabra"
+    },
+    {
+      "tytul": "Herbatka z liści morwy białej",
+      "skladniki": [
+        "1 łyżka liści morwy białej",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 10 minut, przecedzić.",
+      "cechy": "jasny napar, lekko gorzkawy",
+      "wlasciwosci": "obniża poziom cukru we krwi, wspiera metabolizm",
+      "zastosowanie": "Przy cukrzycy typu 2 i osłabionej pracy trzustki.",
+      "dawkowanie": "1 filiżanka 2 razy dziennie.",
+      "zrodlo": "NCBI – Mulberry leaves extract and diabetes"
+    },
+    {
+      "tytul": "Mieszanka z liści szałwii i rumianku",
+      "skladniki": [
+        "1 łyżka liści szałwii",
+        "1 łyżka kwiatów rumianku",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 10 minut.",
+      "cechy": "aromatyczny napar, ziołowy smak",
+      "wlasciwosci": "przeciwzapalne, wspierają trzustkę i przewód pokarmowy",
+      "zastosowanie": "Przy zapaleniu trzustki.",
+      "dawkowanie": "1 filiżanka 2 razy dziennie.",
+      "zrodlo": "Herbal Pharmacopoeia, British Herbal Medicine Association"
+    },
+    {
+      "tytul": "Napar z nasion kozieradki",
+      "skladniki": [
+        "1 łyżka nasion kozieradki",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 20 minut, przecedzić.",
+      "cechy": "ciemny napar, gorzki smak",
+      "wlasciwosci": "obniża poziom cukru we krwi, wspiera enzymy trzustki",
+      "zastosowanie": "Fitoterapia cukrzycy typu 2, osłabiona praca trzustki.",
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie.",
+      "zrodlo": "NCBI – Trigonella foenum-graecum and diabetes"
+    },
+     {
+      "tytul": "Mieszanka z liści brzozy i korzenia pietruszki",
+      "skladniki": [
+        "1 łyżka liści brzozy",
+        "1 łyżka korzenia pietruszki",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 15 minut pod przykryciem, przecedzić.",
+      "cechy": "jasny napar, ziołowy smak",
+      "wlasciwosci": "moczopędna, oczyszczająca, wspiera pracę nerek i trzustki",
+      "zastosowanie": "Przy obrzękach i wspomaganiu trawienia w chorobach metabolicznych.",
+      "dawkowanie": "1 filiżanka 2 razy dziennie.",
+      "zrodlo": "Ożarowski A., Jaroniewski W. – Rośliny lecznicze"
+    },
+    {
+      "tytul": "Odwar z kory cynamonu",
+      "skladniki": [
+        "1 łyżeczka kory cynamonu cejlońskiego",
+        "200 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 5 minut, odstawić na 10 minut, przecedzić.",
+      "cechy": "brązowy napar, korzenny smak",
+      "wlasciwosci": "obniża poziom cukru, poprawia wrażliwość insulinową",
+      "zastosowanie": "Fitoterapia w zespole metabolicznym i cukrzycy typu 2.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": "NCBI – Cinnamon and glucose metabolism"
+    },
+    {
+      "tytul": "Herbatka z liści morwy i pokrzywy",
+      "skladniki": [
+        "1 łyżka liści morwy białej",
+        "1 łyżka liści pokrzywy",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 12 minut, przecedzić.",
+      "cechy": "zielonkawy napar, delikatny smak",
+      "wlasciwosci": "reguluje gospodarkę cukrową, wspiera metabolizm",
+      "zastosowanie": "Przy predyspozycjach do cukrzycy i problemach trzustkowych.",
+      "dawkowanie": "1 filiżanka rano i wieczorem.",
+      "zrodlo": "Fitoterapia praktyczna – Różański H."
+    },
+    {
+      "tytul": "Napar z liści szałwii",
+      "skladniki": [
+        "1 łyżka liści szałwii",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 10 minut.",
+      "cechy": "aromatyczny napar, lekko gorzki",
+      "wlasciwosci": "obniża poziom glukozy, wspiera enzymy trzustki",
+      "zastosowanie": "Wspomaganie trawienia i metabolizmu węglowodanów.",
+      "dawkowanie": "1 filiżanka po posiłku.",
+      "zrodlo": "British Herbal Medicine Association – Sage Monograph"
+    },
+    {
+      "tytul": "Mieszanka z liści borówki i owoców jałowca",
+      "skladniki": [
+        "1 łyżka liści borówki czernicy",
+        "1 łyżeczka suszonych owoców jałowca",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 15 minut pod przykryciem, przecedzić.",
+      "cechy": "ciemny napar, gorzki smak",
+      "wlasciwosci": "obniża cukier, pobudza wydzielanie insuliny",
+      "zastosowanie": "Fitoterapia cukrzycy i osłabionej pracy trzustki.",
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie.",
+      "zrodlo": "Farmakopea Polska; ESCOP Monographs"
+    },
+    {
+      "tytul": "Odwar z korzenia omanu",
+      "skladniki": [
+        "1 łyżka rozdrobnionego korzenia omanu",
+        "250 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 10 minut, odstawić 15 minut, przecedzić.",
+      "cechy": "złotawy odwar, korzenny aromat",
+      "wlasciwosci": "wspomaga trawienie, odciąża trzustkę",
+      "zastosowanie": "Przy niestrawności i przewlekłym zapaleniu trzustki.",
+      "dawkowanie": "1 filiżanka po ciężkostrawnym posiłku.",
+      "zrodlo": "Ożarowski A. – Rośliny lecznicze"
+    },
+    {
+      "tytul": "Napar z ziela rutwicy lekarskiej",
+      "skladniki": [
+        "1 łyżka ziela rutwicy",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 15 minut pod przykryciem, przecedzić.",
+      "cechy": "ciemnozielony napar, lekko gorzki smak",
+      "wlasciwosci": "obniża poziom cukru we krwi, wspiera trzustkę",
+      "zastosowanie": "Fitoterapia cukrzycy typu 2.",
+      "dawkowanie": "1 filiżanka dziennie przez 2 tygodnie.",
+      "zrodlo": "Różański H. – Fitoterapia praktyczna; zielnikpolski.pl"
+    },
+    {
+      "tytul": "Herbatka z kłącza perzu",
+      "skladniki": [
+        "1 łyżka kłącza perzu właściwego",
+        "250 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 5 minut, odstawić na 10 minut, przecedzić.",
+      "cechy": "jasny napar, delikatny smak",
+      "wlasciwosci": "oczyszczająca, wspiera przemianę materii",
+      "zastosowanie": "Przy otyłości i obciążeniu trzustki.",
+      "dawkowanie": "1 filiżanka 2 razy dziennie.",
+      "zrodlo": "Herbal Pharmacopoeia – Agropyron repens"
+    },
+    {
+      "tytul": "Mieszanka z owoców głogu i liści melisy",
+      "skladniki": [
+        "1 łyżka owoców głogu",
+        "1 łyżka liści melisy",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzać 15 minut, przecedzić.",
+      "cechy": "ciemnoczerwony napar, aromatyczny",
+      "wlasciwosci": "wzmacnia serce, wspiera metabolizm i trzustkę",
+      "zastosowanie": "Przy osłabieniu organizmu i chorobach metabolicznych.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": "Zielnik Medyczny – PZWL"
+    },
+    {
+      "tytul": "Odwar z nasion kozieradki i owsa",
+      "skladniki": [
+        "1 łyżka nasion kozieradki",
+        "1 łyżka ziaren owsa",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 10 minut, odstawić 15 minut, przecedzić.",
+      "cechy": "ciemny napar, zbożowy aromat",
+      "wlasciwosci": "obniża glikemię, wspiera regenerację trzustki",
+      "zastosowanie": "W kuracjach wspierających przy cukrzycy.",
+      "dawkowanie": "1 filiżanka 2 razy dziennie.",
+      "zrodlo": "NCBI – Fenugreek and Oats in Diabetes"
+    },
+    {
+      "tytul": "Mieszanka z owoców czarnej porzeczki i liści borówki",
+      "skladniki": [
+        "1 łyżka owoców czarnej porzeczki",
+        "1 łyżka liści borówki",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 15 minut, przecedzić.",
+      "cechy": "czerwony napar, owocowy smak",
+      "wlasciwosci": "wzmacnia odporność, wspiera metabolizm glukozy",
+      "zastosowanie": "Przy osłabionej pracy trzustki.",
+      "dawkowanie": "1 filiżanka rano.",
+      "zrodlo": "Herbal Medicine – Vaccinium myrtillus"
+    },
+    {
+      "tytul": "Napar z owoców róży i liści maliny",
+      "skladniki": [
+        "1 łyżka owoców dzikiej róży",
+        "1 łyżka liści maliny",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 10 minut, przecedzić.",
+      "cechy": "czerwony napar, lekko kwaśny smak",
+      "wlasciwosci": "bogaty w witaminę C, wspiera metabolizm cukrów",
+      "zastosowanie": "Przy osłabionej trzustce, rekonwalescencja.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": "Zielnik Medyczny – PZWL"
+    },
+    {
+      "tytul": "Odwar z liści laurowych",
+      "skladniki": [
+        "5 liści laurowych (świeżych lub suszonych)",
+        "250 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 10 minut na małym ogniu, odstawić na 15 minut, przecedzić.",
+      "cechy": "aromatyczny, lekko korzenny smak",
+      "wlasciwosci": "poprawia metabolizm węglowodanów, wspiera trzustkę",
+      "zastosowanie": "Pomocniczo przy cukrzycy typu 2.",
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie.",
+      "zrodlo": "NCBI – Laurus nobilis and diabetes"
+    },
+    {
+      "tytul": "Napar z ziela dziurawca",
+      "skladniki": [
+        "1 łyżka ziela dziurawca",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 10 minut pod przykryciem.",
+      "cechy": "złocisty napar, gorzkawy smak",
+      "wlasciwosci": "żółciopędny, pobudza wydzielanie enzymów trawiennych",
+      "zastosowanie": "Przy osłabionej pracy trzustki i wątroby.",
+      "dawkowanie": "1 filiżanka po posiłku.",
+      "zrodlo": "ESCOP Monographs – Hypericum perforatum"
+    },
+    {
+      "tytul": "Mieszanka z fiołkiem trójbarwnym",
+      "skladniki": [
+        "1 łyżka ziela fiołka trójbarwnego",
+        "1 łyżeczka liści pokrzywy",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 15 minut, przecedzić.",
+      "cechy": "delikatny aromat, jasnozielony napar",
+      "wlasciwosci": "oczyszczająca, wspiera przemianę materii i pracę trzustki",
+      "zastosowanie": "Przy przewlekłym zapaleniu trzustki.",
+      "dawkowanie": "1 filiżanka dziennie przez 2 tygodnie.",
+      "zrodlo": "Herbal Pharmacopoeia – Viola tricolor"
+    },
+    {
+      "tytul": "Napar z kory morwy białej",
+      "skladniki": [
+        "1 łyżka kory morwy białej",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 10 minut, odstawić 15 minut, przecedzić.",
+      "cechy": "jasny napar, delikatny smak",
+      "wlasciwosci": "obniża glikemię, wspiera funkcje trzustki",
+      "zastosowanie": "Stosowany przy cukrzycy typu 2.",
+      "dawkowanie": "1 filiżanka po kolacji.",
+      "zrodlo": "NCBI – Mulberry bark extract and diabetes"
+    },
+    {
+      "tytul": "Mieszanka z liści lipy i malin",
+      "skladniki": [
+        "1 łyżka liści lipy",
+        "1 łyżka liści malin",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 12 minut, przecedzić.",
+      "cechy": "delikatny, kwiatowo-owocowy aromat",
+      "wlasciwosci": "przeciwzapalne, wspiera trzustkę",
+      "zastosowanie": "W stanach osłabienia i zapaleniu trzustki.",
+      "dawkowanie": "1 filiżanka 2 razy dziennie.",
+      "zrodlo": "Zielnik Medyczny – PZWL"
+    },
+    {
+      "tytul": "Odwar z korzenia arcydzięgla",
+      "skladniki": [
+        "1 łyżka korzenia arcydzięgla",
+        "250 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 10 minut, odstawić na 15 minut, przecedzić.",
+      "cechy": "intensywny aromat, gorzki smak",
+      "wlasciwosci": "pobudza wydzielanie soków trawiennych, wspiera enzymy trzustki",
+      "zastosowanie": "Przy osłabionej funkcji trawiennej.",
+      "dawkowanie": "1 filiżanka przed posiłkiem.",
+      "zrodlo": "ESCOP Monographs – Angelica archangelica"
+    },
+    {
+      "tytul": "Herbatka z owoców jałowca",
+      "skladniki": [
+        "1 łyżeczka suszonych owoców jałowca",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 15 minut pod przykryciem, przecedzić.",
+      "cechy": "aromatyczny, żywiczny smak",
+      "wlasciwosci": "moczopędne, poprawia metabolizm węglowodanów",
+      "zastosowanie": "Wspomaganie pracy trzustki i nerek.",
+      "dawkowanie": "1 filiżanka 1 raz dziennie (krótka kuracja).",
+      "zrodlo": "Herbal Medicine – Juniperus communis"
+    },
+    {
+      "tytul": "Mieszanka z owoców aronii i liści czarnej porzeczki",
+      "skladniki": [
+        "1 łyżka owoców aronii",
+        "1 łyżka liści czarnej porzeczki",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 15 minut, przecedzić.",
+      "cechy": "ciemnoczerwony napar, cierpki smak",
+      "wlasciwosci": "bogaty w antyoksydanty, wspiera metabolizm glukozy",
+      "zastosowanie": "Kuracja wspomagająca przy cukrzycy.",
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie.",
+      "zrodlo": "NCBI – Aronia extract and diabetes"
+    },
+    {
+      "tytul": "Napar z liści stewi",
+      "skladniki": [
+        "1 łyżeczka suszonych liści stewii",
+        "200 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 10 minut, przecedzić.",
+      "cechy": "słodki napar, jasnozielony kolor",
+      "wlasciwosci": "naturalny słodzik, wspiera metabolizm glukozy",
+      "zastosowanie": "Dla osób z insulinoopornością i cukrzycą.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": "WHO Monographs – Stevia rebaudiana"
+    },
+    {
+      "tytul": "Herbatka z owsa i rumianku",
+      "skladniki": [
+        "1 łyżka ziarna owsa",
+        "1 łyżka kwiatów rumianku",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować owies 5 minut, dodać rumianek, parzyć 10 minut.",
+      "cechy": "jasny napar, zbożowo-ziołowy smak",
+      "wlasciwosci": "łagodząca, wspiera regenerację przewodu pokarmowego i trzustki",
+      "zastosowanie": "Przy przewlekłych problemach trawiennych.",
+      "dawkowanie": "1 filiżanka wieczorem.",
+      "zrodlo": "Zielnik Medyczny – PZWL"
+    },
+    {
+      "tytul": "Napar z liści mięty i melisy",
+      "skladniki": [
+        "1 łyżka liści mięty pieprzowej",
+        "1 łyżka liści melisy",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 12 minut pod przykryciem, przecedzić.",
+      "cechy": "aromatyczny, miętowo-cytrynowy smak",
+      "wlasciwosci": "uspokajający, wspiera wydzielanie soków trawiennych",
+      "zastosowanie": "Przy stresie i obciążeniu trzustki.",
+      "dawkowanie": "1 filiżanka przed snem.",
+      "zrodlo": "Herbal Medicine – Melissa officinalis, Mentha piperita"
+    },
+    {
+      "tytul": "Mieszanka z liści pokrzywy i korzenia prawoślazu",
+      "skladniki": [
+        "1 łyżka liści pokrzywy",
+        "1 łyżka korzenia prawoślazu",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 5 minut, odstawić 15 minut, przecedzić.",
+      "cechy": "jasny, lekko śluzowaty napar",
+      "wlasciwosci": "osłaniający, oczyszczający, wspiera metabolizm",
+      "zastosowanie": "Przy przewlekłym zapaleniu trzustki.",
+      "dawkowanie": "1 filiżanka rano.",
+      "zrodlo": "Ożarowski A. – Rośliny lecznicze"
+    },
+     {
+      "tytul": "Mieszanka z korzenia łopianu i liści brzozy",
+      "skladniki": [
+        "1 łyżka korzenia łopianu",
+        "1 łyżka liści brzozy",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 10 minut, odstawić na 15 minut, przecedzić.",
+      "cechy": "jasny napar, lekko gorzki smak",
+      "wlasciwosci": "oczyszczająca, wspiera metabolizm węglowodanów",
+      "zastosowanie": "Kuracja wspierająca pracę trzustki i nerek.",
+      "dawkowanie": "1 filiżanka 2 razy dziennie.",
+      "zrodlo": "Herbal Pharmacopoeia – Arctium lappa"
+    },
+    {
+      "tytul": "Herbatka z liści poziomki",
+      "skladniki": [
+        "1 łyżka liści poziomki pospolitej",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 10 minut, przecedzić.",
+      "cechy": "aromatyczny, delikatny smak",
+      "wlasciwosci": "obniża poziom cukru we krwi, wspiera metabolizm",
+      "zastosowanie": "Przy cukrzycy i osłabionej pracy trzustki.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": "Farmakopea Polska; zielnikpolski.pl"
+    },
+    {
+      "tytul": "Napar z liści orzecha włoskiego",
+      "skladniki": [
+        "1 łyżka liści orzecha włoskiego",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 15 minut pod przykryciem.",
+      "cechy": "ciemny napar, cierpki smak",
+      "wlasciwosci": "obniża poziom glukozy, działa przeciwzapalnie",
+      "zastosowanie": "Przy cukrzycy i problemach trzustkowych.",
+      "dawkowanie": "1 filiżanka 2 razy dziennie.",
+      "zrodlo": "ESCOP Monographs – Juglans regia"
+    },
+    {
+      "tytul": "Odwar z korzenia pietruszki i selera",
+      "skladniki": [
+        "1 łyżka korzenia pietruszki",
+        "1 łyżka korzenia selera",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 10 minut, odstawić 10 minut, przecedzić.",
+      "cechy": "jasny odwar, warzywny smak",
+      "wlasciwosci": "moczopędny, wspiera metabolizm cukru",
+      "zastosowanie": "Kuracja wspierająca w zespole metabolicznym.",
+      "dawkowanie": "1 szklanka dziennie.",
+      "zrodlo": "Ożarowski A. – Rośliny lecznicze"
+    },
+    {
+      "tytul": "Herbatka z liści morwy i zielonej herbaty",
+      "skladniki": [
+        "1 łyżka liści morwy białej",
+        "1 łyżeczka zielonej herbaty",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 8 minut, przecedzić.",
+      "cechy": "jasnozielony napar, lekko gorzki smak",
+      "wlasciwosci": "obniża glikemię, działa antyoksydacyjnie",
+      "zastosowanie": "Wspiera pracę trzustki i metabolizm.",
+      "dawkowanie": "1 filiżanka po obiedzie.",
+      "zrodlo": "NCBI – Green tea and Mulberry leaves in diabetes"
+    },
+    {
+      "tytul": "Mieszanka z rdestem ptasim",
+      "skladniki": [
+        "1 łyżka ziela rdestu ptasiego",
+        "1 łyżeczka liści pokrzywy",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 15 minut, przecedzić.",
+      "cechy": "ziołowy smak, jasnozielony napar",
+      "wlasciwosci": "moczopędne, wspiera metabolizm cukrów",
+      "zastosowanie": "Przy przewlekłych chorobach metabolicznych.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": "Herbal Medicine – Polygonum aviculare"
+    },
+    {
+      "tytul": "Odwar z korzenia cykorii i mniszka",
+      "skladniki": [
+        "1 łyżka korzenia cykorii",
+        "1 łyżka korzenia mniszka",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 10 minut, odstawić na 15 minut, przecedzić.",
+      "cechy": "ciemny odwar, kawowy aromat",
+      "wlasciwosci": "pobudza wydzielanie soków trawiennych, wspiera enzymy trzustki",
+      "zastosowanie": "Przy osłabionym trawieniu.",
+      "dawkowanie": "1 filiżanka rano.",
+      "zrodlo": "ESCOP Monographs – Cichorium intybus, Taraxacum officinale"
+    },
+    {
+      "tytul": "Napar z liści melisy i bazylii",
+      "skladniki": [
+        "1 łyżka liści melisy",
+        "1 łyżka świeżej bazylii",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 10 minut, przecedzić.",
+      "cechy": "aromatyczny, cytrynowo-ziołowy smak",
+      "wlasciwosci": "uspokajający, wspiera metabolizm",
+      "zastosowanie": "Przy stresie i obciążeniu trzustki.",
+      "dawkowanie": "1 filiżanka wieczorem.",
+      "zrodlo": "Herbal Medicine – Melissa officinalis, Ocimum basilicum"
+    },
+    {
+      "tytul": "Mieszanka z kozłkiem lekarskim i chmielem",
+      "skladniki": [
+        "1 łyżka korzenia kozłka lekarskiego",
+        "1 łyżka szyszek chmielu",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 15 minut pod przykryciem.",
+      "cechy": "ziołowy napar, gorzkawy smak",
+      "wlasciwosci": "uspokajający, wspiera równowagę metaboliczną",
+      "zastosowanie": "Wspiera pracę trzustki w stresie.",
+      "dawkowanie": "1 filiżanka przed snem.",
+      "zrodlo": "Zielnik Medyczny – PZWL"
+    },
+    {
+      "tytul": "Herbatka z owoców tarniny",
+      "skladniki": [
+        "1 łyżka owoców tarniny",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 15 minut, przecedzić.",
+      "cechy": "ciemnoczerwony napar, cierpki smak",
+      "wlasciwosci": "wzmacnia, wspiera metabolizm",
+      "zastosowanie": "Przy osłabionej pracy trzustki i osłabieniu ogólnym.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": "Herbal Pharmacopoeia – Prunus spinosa"
+    },
+    {
+      "tytul": "Napar z ziela lebiodki pospolitej",
+      "skladniki": [
+        "1 łyżka ziela lebiodki",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 10 minut, przecedzić.",
+      "cechy": "aromatyczny, intensywny smak",
+      "wlasciwosci": "przeciwzapalny, wspiera trawienie",
+      "zastosowanie": "Wspomaga trzustkę w chorobach zapalnych.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": "Herbal Medicine – Origanum vulgare"
+    },
+    {
+      "tytul": "Mieszanka z liści poziomki i malin",
+      "skladniki": [
+        "1 łyżka liści poziomki",
+        "1 łyżka liści malin",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 12 minut, przecedzić.",
+      "cechy": "delikatny aromat owocowy",
+      "wlasciwosci": "oczyszczająca, wspiera gospodarkę cukrową",
+      "zastosowanie": "Przy predyspozycjach do cukrzycy.",
+      "dawkowanie": "1 filiżanka wieczorem.",
+      "zrodlo": "Zielnik Medyczny – PZWL"
+    },
+    {
+      "tytul": "Herbatka z kwiatów lipy i owoców róży",
+      "skladniki": [
+        "1 łyżka kwiatów lipy",
+        "1 łyżka owoców róży",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 15 minut pod przykryciem.",
+      "cechy": "aromatyczny napar, lekko kwaskowy smak",
+      "wlasciwosci": "wzmacnia odporność, wspiera metabolizm",
+      "zastosowanie": "Kuracja wspierająca pracę trzustki i odporność.",
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie.",
+      "zrodlo": "Herbal Pharmacopoeia – Tilia cordata, Rosa canina"
+    },
+     {
+      "tytul": "Napar z ziela krwawnika",
+      "skladniki": [
+        "1 łyżka ziela krwawnika",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 12 minut, przecedzić.",
+      "cechy": "żółtozielony napar, lekko gorzki smak",
+      "wlasciwosci": "przeciwzapalny, pobudza wydzielanie soków trawiennych",
+      "zastosowanie": "Przy osłabionej pracy trzustki i niestrawności.",
+      "dawkowanie": "1 filiżanka po posiłku.",
+      "zrodlo": "ESCOP Monographs – Achillea millefolium"
+    },
+    {
+      "tytul": "Odwar z korzenia prawoślazu",
+      "skladniki": [
+        "1 łyżka korzenia prawoślazu",
+        "250 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 5 minut, odstawić 15 minut, przecedzić.",
+      "cechy": "jasny, śluzowaty odwar",
+      "wlasciwosci": "osłaniający, przeciwzapalny, wspiera regenerację błon śluzowych",
+      "zastosowanie": "Wspomaganie trzustki przy stanach zapalnych.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": "Farmakopea Polska; Ożarowski A."
+    },
+    {
+      "tytul": "Herbatka z liści czarnej porzeczki",
+      "skladniki": [
+        "1 łyżka suszonych liści czarnej porzeczki",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 15 minut pod przykryciem, przecedzić.",
+      "cechy": "jasny napar, owocowy aromat",
+      "wlasciwosci": "bogaty w antyoksydanty, wspiera metabolizm cukrów",
+      "zastosowanie": "Przy osłabionej pracy trzustki i rekonwalescencji.",
+      "dawkowanie": "1 filiżanka rano.",
+      "zrodlo": "Zielnik Medyczny – PZWL"
+    },
+    {
+      "tytul": "Mieszanka z liści brzozy i fiołka trójbarwnego",
+      "skladniki": [
+        "1 łyżka liści brzozy",
+        "1 łyżka ziela fiołka trójbarwnego",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 12 minut, przecedzić.",
+      "cechy": "jasny napar, ziołowy aromat",
+      "wlasciwosci": "oczyszczająca, wspiera metabolizm węglowodanów",
+      "zastosowanie": "Kuracja wspierająca trzustkę i wątrobę.",
+      "dawkowanie": "1 filiżanka wieczorem.",
+      "zrodlo": "Herbal Medicine – Viola tricolor, Betula pendula"
+    },
+    {
+      "tytul": "Napar z ziela rzepiku",
+      "skladniki": [
+        "1 łyżka ziela rzepiku",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zalać wrzątkiem, parzyć 15 minut, przecedzić.",
+      "cechy": "jasny napar, lekko gorzki smak",
+      "wlasciwosci": "przeciwzapalny, wspiera metabolizm wątroby i trzustki",
+      "zastosowanie": "Przy przewlekłych problemach trawiennych.",
+      "dawkowanie": "1 filiżanka 2 razy dziennie.",
+      "zrodlo": "ESCOP Monographs – Agrimonia eupatoria"
+    },
+    {
+      "tytul": "Herbatka z liści morwy i mięty",
+      "skladniki": [
+        "1 łyżka liści morwy białej",
+        "1 łyżeczka liści mięty",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 10 minut, przecedzić.",
+      "cechy": "zielonkawy napar, miętowy aromat",
+      "wlasciwosci": "obniża glikemię, wspiera metabolizm",
+      "zastosowanie": "Przy insulinooporności i cukrzycy typu 2.",
+      "dawkowanie": "1 filiżanka po obiedzie.",
+      "zrodlo": "NCBI – Morus alba and diabetes"
+    },
+    {
+      "tytul": "Odwar z korzenia arcydzięgla i tataraku",
+      "skladniki": [
+        "1 łyżka korzenia arcydzięgla",
+        "1 łyżeczka kłącza tataraku",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 10 minut, odstawić na 15 minut.",
+      "cechy": "ciemny odwar, korzenny smak",
+      "wlasciwosci": "pobudza wydzielanie soków trawiennych, wspiera enzymy trzustki",
+      "zastosowanie": "Przy zaburzeniach enzymatycznych trzustki.",
+      "dawkowanie": "1 filiżanka przed posiłkiem.",
+      "zrodlo": "Ożarowski A. – Rośliny lecznicze"
+    },
+    {
+      "tytul": "Napar z ziela mięty i dziurawca",
+      "skladniki": [
+        "1 łyżka liści mięty pieprzowej",
+        "1 łyżeczka ziela dziurawca",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 12 minut, przecedzić.",
+      "cechy": "jasny napar, aromatyczny",
+      "wlasciwosci": "uspokajający, wspiera metabolizm glukozy",
+      "zastosowanie": "Przy zaburzeniach trawienia i osłabionej pracy trzustki.",
+      "dawkowanie": "1 filiżanka wieczorem.",
+      "zrodlo": "Herbal Medicine – Mentha piperita, Hypericum perforatum"
+    },
+    {
+      "tytul": "Mieszanka z owoców aronii i liści borówki",
+      "skladniki": [
+        "1 łyżka owoców aronii",
+        "1 łyżka liści borówki",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 15 minut pod przykryciem.",
+      "cechy": "ciemny napar, owocowy aromat",
+      "wlasciwosci": "antyoksydacyjna, wspiera metabolizm cukrów",
+      "zastosowanie": "Kuracja wspierająca trzustkę przy cukrzycy.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": "NCBI – Aronia melanocarpa and diabetes"
+    },
+    {
+      "tytul": "Odwar z korzenia lukrecji i prawoślazu",
+      "skladniki": [
+        "1 łyżka korzenia lukrecji",
+        "1 łyżka korzenia prawoślazu",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 10 minut, odstawić 15 minut, przecedzić.",
+      "cechy": "słodkawy, jasny napar",
+      "wlasciwosci": "osłaniający, przeciwzapalny, wspiera regenerację trzustki",
+      "zastosowanie": "Przy stanach zapalnych przewodu pokarmowego.",
+      "dawkowanie": "1 filiżanka rano.",
+      "zrodlo": "WHO Monographs – Glycyrrhiza glabra, Althaea officinalis"
+    },
+    {
+      "tytul": "Herbatka z kwiatów nagietka",
+      "skladniki": [
+        "1 łyżka kwiatów nagietka",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 12 minut, przecedzić.",
+      "cechy": "złocisty napar, delikatny smak",
+      "wlasciwosci": "przeciwzapalny, wspiera metabolizm",
+      "zastosowanie": "Kuracja wspierająca przy chorobach metabolicznych.",
+      "dawkowanie": "1 filiżanka 2 razy dziennie.",
+      "zrodlo": "ESCOP Monographs – Calendula officinalis"
+    },
+    {
+      "tytul": "Napar z liści poziomki i owoców róży",
+      "skladniki": [
+        "1 łyżka liści poziomki",
+        "1 łyżka owoców róży",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 10 minut, przecedzić.",
+      "cechy": "jasny napar, owocowy aromat",
+      "wlasciwosci": "bogaty w witaminę C, wspiera metabolizm glukozy",
+      "zastosowanie": "Przy osłabionej pracy trzustki i rekonwalescencji.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": "Herbal Medicine – Fragaria vesca, Rosa canina"
+    },
+     {
+      "tytul": "Mieszanka morwa + pokrzywa + mięta",
+      "skladniki": [
+        "1 łyżka liści morwy białej",
+        "1 łyżka liści pokrzywy",
+        "1 łyżeczka mięty pieprzowej",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zioła zalać wrzątkiem, parzyć 12 minut, przecedzić.",
+      "cechy": "zielony napar, orzeźwiający aromat",
+      "wlasciwosci": "obniża poziom cukru, wspiera metabolizm, oczyszcza organizm",
+      "zastosowanie": "Kuracje wspomagające przy insulinooporności.",
+      "dawkowanie": "1 filiżanka 2 razy dziennie.",
+      "zrodlo": "NCBI – Morus alba, Urtica dioica, Mentha piperita"
+    },
+    {
+      "tytul": "Mieszanka mniszek + cykoria + krwawnik",
+      "skladniki": [
+        "1 łyżka korzenia mniszka lekarskiego",
+        "1 łyżka korzenia cykorii",
+        "1 łyżka ziela krwawnika",
+        "400 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować 10 minut, odstawić na 15 minut, przecedzić.",
+      "cechy": "ciemny napar, gorzki smak",
+      "wlasciwosci": "pobudza wydzielanie enzymów trawiennych, wspiera trzustkę",
+      "zastosowanie": "Przy przewlekłym osłabieniu enzymatycznym trzustki.",
+      "dawkowanie": "1 filiżanka przed posiłkiem.",
+      "zrodlo": "ESCOP Monographs – Taraxacum officinale, Cichorium intybus, Achillea millefolium"
+    },
+    {
+      "tytul": "Mieszanka borówka + rutwica + kozieradka",
+      "skladniki": [
+        "1 łyżka liści borówki czernicy",
+        "1 łyżka ziela rutwicy",
+        "1 łyżeczka nasion kozieradki",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzać 20 minut pod przykryciem, przecedzić.",
+      "cechy": "ciemny napar, gorzki smak",
+      "wlasciwosci": "obniża glikemię, wspiera wydzielanie insuliny",
+      "zastosowanie": "Fitoterapia cukrzycy typu 2.",
+      "dawkowanie": "1 filiżanka 1–2 razy dziennie.",
+      "zrodlo": "Farmakopea Polska; NCBI – Galega officinalis, Trigonella foenum-graecum"
+    },
+    {
+      "tytul": "Mieszanka jałowiec + brzoza + fiołek",
+      "skladniki": [
+        "1 łyżeczka owoców jałowca",
+        "1 łyżka liści brzozy",
+        "1 łyżeczka ziela fiołka trójbarwnego",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzać 15 minut, przecedzić.",
+      "cechy": "ziołowy aromat, delikatny smak",
+      "wlasciwosci": "oczyszczająca, przeciwzapalna, wspiera przemianę materii",
+      "zastosowanie": "Przy osłabionej pracy trzustki i zatrzymywaniu wody.",
+      "dawkowanie": "1 filiżanka raz dziennie.",
+      "zrodlo": "Herbal Medicine – Juniperus communis, Betula pendula, Viola tricolor"
+    },
+    {
+      "tytul": "Mieszanka ostropest + nagietek + rumianek",
+      "skladniki": [
+        "1 łyżka nasion ostropestu (świeżo zmielonych)",
+        "1 łyżka kwiatów nagietka",
+        "1 łyżka kwiatów rumianku",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzać 15 minut, przecedzić.",
+      "cechy": "jasny napar, lekko gorzkawy smak",
+      "wlasciwosci": "przeciwzapalna, wspiera regenerację wątroby i trzustki",
+      "zastosowanie": "Przy przewlekłych stanach zapalnych przewodu pokarmowego.",
+      "dawkowanie": "1 filiżanka wieczorem.",
+      "zrodlo": "ESCOP Monographs – Silybum marianum, Matricaria chamomilla, Calendula officinalis"
+    },
+    {
+      "tytul": "Mieszanka lipa + malina + róża",
+      "skladniki": [
+        "1 łyżka kwiatów lipy",
+        "1 łyżka liści maliny",
+        "1 łyżka owoców róży",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 15 minut pod przykryciem.",
+      "cechy": "owocowo-kwiatowy aromat, lekko kwaśny smak",
+      "wlasciwosci": "przeciwzapalna, antyoksydacyjna, wspiera metabolizm",
+      "zastosowanie": "Kuracje wspierające przy osłabionej odporności i zaburzeniach trzustki.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": "Herbal Pharmacopoeia – Tilia cordata, Rubus idaeus, Rosa canina"
+    },
+    {
+      "tytul": "Mieszanka cykoria + melisa + mięta",
+      "skladniki": [
+        "1 łyżka korzenia cykorii",
+        "1 łyżeczka liści melisy",
+        "1 łyżeczka liści mięty",
+        "300 ml wody"
+      ],
+      "sposob_przygotowania": "Gotować cykorię 5 minut, dodać melisę i miętę, parzyć 10 minut.",
+      "cechy": "jasny odwar, aromatyczny",
+      "wlasciwosci": "pobudza trawienie, wspiera enzymy trzustkowe",
+      "zastosowanie": "Przy osłabionym wydzielaniu soków trawiennych.",
+      "dawkowanie": "1 filiżanka po posiłku.",
+      "zrodlo": "Ożarowski A. – Rośliny lecznicze"
+    },
+    {
+      "tytul": "Mieszanka perz + pokrzywa + rzepik",
+      "skladniki": [
+        "1 łyżka kłącza perzu",
+        "1 łyżka liści pokrzywy",
+        "1 łyżeczka ziela rzepiku",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Gotować perz 5 minut, dodać pozostałe zioła, parzyć 10 minut.",
+      "cechy": "jasny napar, delikatny smak",
+      "wlasciwosci": "oczyszczająca, wspiera przemianę materii, działa lekko moczopędnie",
+      "zastosowanie": "Przy przewlekłych chorobach metabolicznych i obciążeniu trzustki.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": "Herbal Medicine – Agropyron repens, Urtica dioica, Agrimonia eupatoria"
+    },
+    {
+      "tytul": "Mieszanka głóg + aronii + borówka",
+      "skladniki": [
+        "1 łyżka owoców głogu",
+        "1 łyżka owoców aronii",
+        "1 łyżka liści borówki",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 20 minut, przecedzić.",
+      "cechy": "ciemnoczerwony napar, cierpki smak",
+      "wlasciwosci": "antyoksydacyjna, wspiera metabolizm glukozy",
+      "zastosowanie": "Kuracja wspierająca trzustkę i układ krążenia.",
+      "dawkowanie": "1 filiżanka 2 razy dziennie.",
+      "zrodlo": "NCBI – Crataegus, Aronia, Vaccinium myrtillus"
+    },
+    {
+      "tytul": "Mieszanka dziurawiec + mięta + kozłek",
+      "skladniki": [
+        "1 łyżeczka ziela dziurawca",
+        "1 łyżeczka liści mięty",
+        "1 łyżeczka korzenia kozłka",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 15 minut pod przykryciem.",
+      "cechy": "ziołowy napar, gorzkawy smak",
+      "wlasciwosci": "uspokajająca, wspiera równowagę metaboliczną",
+      "zastosowanie": "Przy stresie i problemach trzustkowych.",
+      "dawkowanie": "1 filiżanka przed snem.",
+      "zrodlo": "Herbal Medicine – Hypericum perforatum, Mentha piperita, Valeriana officinalis"
+    },
+    {
+      "tytul": "Mieszanka róża + nagietek + prawoślaz",
+      "skladniki": [
+        "1 łyżka owoców róży",
+        "1 łyżka kwiatów nagietka",
+        "1 łyżeczka korzenia prawoślazu",
+        "300 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Zaparzać 15 minut, przecedzić.",
+      "cechy": "złocisto-czerwony napar, lekko kwaśny",
+      "wlasciwosci": "przeciwzapalna, osłaniająca, wspiera regenerację",
+      "zastosowanie": "Przy zapaleniu trzustki i rekonwalescencji.",
+      "dawkowanie": "1 filiżanka dziennie.",
+      "zrodlo": "ESCOP Monographs – Rosa canina, Calendula officinalis, Althaea officinalis"
+    },
+    {
+      "tytul": "Mieszanka stewia + lipa + rumianek",
+      "skladniki": [
+        "1 łyżeczka liści stewii",
+        "1 łyżka kwiatów lipy",
+        "1 łyżka kwiatów rumianku",
+        "250 ml wrzątku"
+      ],
+      "sposob_przygotowania": "Parzyć 10 minut pod przykryciem.",
+      "cechy": "słodkawy napar, kwiatowy aromat",
+      "wlasciwosci": "naturalnie słodząca, przeciwzapalna, wspiera metabolizm",
+      "zastosowanie": "Przy insulinooporności, osłabionej pracy trzustki.",
+      "dawkowanie": "1 filiżanka po kolacji.",
+      "zrodlo": "WHO Monographs – Stevia rebaudiana, Tilia cordata, Matricaria chamomilla"
     }
   ]
 }

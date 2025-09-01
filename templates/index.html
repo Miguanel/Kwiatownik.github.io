@@ -1811,20 +1811,74 @@ const normalizeText = s => (s||'')
 const splitTokens = s => normalizeText(s).split(' ').filter(Boolean);
 const isWord = t => /^[\p{L}\p{N}-]{2,}$/u.test(t);
 
+// --- Spłaszczanie całej treści obiektu do tekstu ---
+function _collectStrings(val, out){
+  if (val == null) return;
+  if (typeof val === 'string'){
+    out.push(val);
+    return;
+  }
+  if (Array.isArray(val)){
+    val.forEach(v => _collectStrings(v, out));
+    return;
+  }
+  if (typeof val === 'object'){
+    // Jeżeli obiekt ma kroki, potraktuj je jako sensowną listę
+    const steps = val.kroki || val.steps;
+    if (Array.isArray(steps)){
+      steps.forEach(v => _collectStrings(v, out));
+    }
+    Object.values(val).forEach(v => _collectStrings(v, out));
+  }
+}
+
+function objectToText(o){
+  const bag = [];
+  _collectStrings(o, bag);
+  return normalizeText(bag.join(' '));
+}
+
+// Zbuduj „stóg siana” z CAŁEJ karty przepisu
+function buildRecipeHay(r){
+  // cache, żeby nie liczyć w kółko
+  if (r.__hay) return r.__hay;
+
+  const pieces = [
+    r.t, r.metoda, r.typ,
+    ...(r.tagi || []),
+    ...(r.surowce || [])
+  ];
+  // pełna zawartość surowego wpisu (w tym: przygotowanie, zastosowanie, dawkowanie, uwagi, źródła itd.)
+  if (r.raw) {
+    pieces.push(objectToText(r.raw));
+  }
+
+  r.__hay = normalizeText(pieces.join(' '));
+  return r.__hay;
+}
+
 function buildLexiconFromRecipes(list){
   const set = new Set();
   list.forEach(r=>{
+    // standardowe pola
     splitTokens(r.t).forEach(t => isWord(t) && set.add(t));
     (r.tagi||[]).forEach(sk => splitTokens(sk).forEach(t => isWord(t) && set.add(t)));
     (r.surowce||[]).forEach(sk => splitTokens(sk).forEach(t => isWord(t) && set.add(t)));
     splitTokens(r.metoda||'').forEach(t => isWord(t) && set.add(t));
     splitTokens(r.typ||'').forEach(t => isWord(t) && set.add(t));
+
+    // pełna treść surowa (ograniczamy do ~2000 znaków, by nie „zagazować” UI)
+    const full = buildRecipeHay(r);
+    splitTokens(full.slice(0, 2000)).forEach(t => isWord(t) && set.add(t));
   });
-  // dorzuć kilka uniwersalnych haseł
+
+  // kilka uniwersalnych haseł
   ['napar','odwar','macerat','syrop','maść','okład','nalewka','herbata','blanszowane','świeże','suszone','młode']
     .forEach(t=>set.add(normalizeText(t)));
+
   return Array.from(set).sort();
 }
+
 
 
 function renderRecipeSuggestions(prefix){
@@ -1886,11 +1940,12 @@ function renderRecipeTags(){
 }
 
 function recipeMatches(r, terms){
-  const hay = normalizeText([
-    r.t, r.metoda, r.typ,
-    ...(r.tagi||[]),
-    ...(r.surowce||[])
-  ].join(' '));
+  const hay = buildRecipeHay(r); // pełna treść
+  if (!terms || !terms.length) return true;
+  if (window.MATCH_MODE === 'OR'){
+    return terms.some(t => hay.includes(t));
+  }
+  // domyślnie AND
   return terms.every(t => hay.includes(t));
 }
 
@@ -2040,10 +2095,23 @@ const wlasciwosciHTML = wlasciwosciList.length
     ]);
     const prepHTML = asHTML(przygotRaw);
 
-    // Dawkowanie / Uwagi
-    const dawk = getOneOf(R, ['dawkowanie','dawka','porcja','ile_razy_dziennie','częstotliwość','czestotliwosc']);
-    const uwagi  = getOneOf(R, ['uwagi','przeciwwskazania','ostrzezenia','ostrzeżenia','notatki']);
+    // Zastosowanie + Dawkowanie + Uwagi (obsługa różnych aliasów i struktur)
+    const zastosowanie = getOneOf(R, [
+      'zastosowanie','zastosowania',
+      'zastosowanie_medyczne','zastosowanie_kulinarne',
+      'stosowanie','sposob_stosowania','sposób_stosowania',
+      'application','applications','use','uses'
+    ]);
 
+    const dawk = getOneOf(R, [
+      'dawkowanie','dawka','dawki','porcja','porcje',
+      'ile_razy_dziennie','częstotliwość','czestotliwosc',
+      'stosowanie_dawkowanie','dawkowanie_i_stosowanie','dawkowanie_i_zastosowanie'
+    ]);
+
+    const uwagi  = getOneOf(R, [
+      'uwagi','przeciwwskazania','ostrzezenia','ostrzeżenia','notatki'
+    ]);
     // Źródła (pełne URL-e)
     const zrodlaList = [
       ...asArray(getOneOf(R, ['zrodla','źródła','sources','refs','bibliografia'])),
@@ -2087,6 +2155,12 @@ ${ wlasciwosciHTML ? `
           <div class="recipe-sec">
             <h5>Sposób przygotowania</h5>
             ${prepHTML}
+          </div>` : '' }
+
+        ${ zastosowanie ? `
+          <div class="recipe-sec">
+            <h5>Zastosowanie</h5>
+            ${asHTML(zastosowanie)}
           </div>` : '' }
 
         ${ dawk ? `
