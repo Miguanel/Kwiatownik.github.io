@@ -31,8 +31,16 @@
       "roslina": "Skrzyp polny",
       "nazwa_lacinska": "Equisetum arvense",
       "slug": "skrzyp_polny",
-      "cechy": "zbalansowany profil smakowy",
-      "wlasciwosci": "potencjalnie bezglutenowe (zależnie od składników), wegetariańskie (jeśli bez produktów odzwierzęcych)"
+      "cechy": [
+        "zielonkawy kolor",
+        "ziołowy, lekko gorzki aromat",
+        "zbalansowany profil smakowy"
+      ],
+      "wlasciwosci": [
+        "moczopędna",
+        "remineralizująca",
+        "wzmacniająca włosy, skórę i paznokcie"
+      ]
     },
     {
       "tytul": "wiosenne pędy blanszowane",
@@ -157,8 +165,11 @@
     {
       "tytul": "zielone smoothie ze skrzypem",
       "typ": "kulinarne",
-      "metoda": "",
-      "tagi": [],
+      "metoda": "smoothie",
+      "tagi": [
+        "skrzyp polny",
+        "smoothie"
+      ],
       "skladniki": [
         "1 szklanka świeżych młodych pędów skrzypu",
         "2 liście jarmużu (świeże)",
