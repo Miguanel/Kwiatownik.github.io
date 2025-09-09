@@ -6,39 +6,97 @@ import os, json, requests, math, datetime, ephem, re
 app = Flask(__name__)
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 CATEGORIES = ["drzewa", "krzewy", "ziola", "bulwy", "cebule", "egzotyczne"]
-
-# --- app.py (FRAGMENT: PODMIANA FUNKCJI normalize_recipe + extract_all_recipes + korekta filtra w API) ---
-# app.py — PEŁNA AKTUALIZACJA BACKENDU DLA GENERATORA PRZEPISÓW
-# =====================================================================================
-# ZAWIERA:
-# - solidną normalizację danych przepisów (normalize_recipe)
-# - ekstrakcję wszystkich przepisów (extract_all_recipes)
-# - słownik do autosugestii (build_vocabulary)
-# - API: /api/generator_przepisow  (filtracja z logiką AND między grupami, OR w ramach grup)
-# - API: /api/suggest_words        (autosugestia do 5 trafień)
-# - API: /api/filters_catalog      (katalog kapsułek: kategorie roślin, typy itd.)
-# - API: /api/plants_list          (lista roślin pogrupowanych; zgodna z kapsułkami)
-#
-# UWAGI:
-# - Logika filtrowania: AND między GRUPAMI filtrów (chips, cele, plants, kategorie_roślin, typy_*)
-#   ale OR wewnątrz jednej grupy (np. kilka roślin = OR). To jest praktyczne i zgodne z UX.
-# - "chips" (z inputu/autosugestii) sprawdzane są z logiką AND (każdy chip musi się znaleźć
-#   w sklejonych polach: nazwa, roślina, składniki, cechy, właściwości, zastosowanie, rodzaj, typ).
-# - Wszystkie endpointy są defensywnie pisane (odporne na braki pól i nietypowe typy danych).
-# =====================================================================================
+BASE_DIR = Path(__file__).resolve().parent
+PLANTS_DIR = BASE_DIR  # katalog, w którym masz wszystkie pliki *.json
 
 
+def _safe_list(v):
+    if isinstance(v, list): return [str(x) for x in v]
+    if isinstance(v, str):  return [v] if v.strip() else []
+    return []
 
-# Załóż, że istniejące funkcje/projekty:
-# - app = Flask(__name__)
-# - all_plants(): -> iterable z rekordami roślin:
-#   {"name": "...", "slug": "...", "category": "drzewa|zioła|bulwy|korzenie|...", "data": {...}}
-# - infer_taste(dict), infer_cele(dict) — z poprzednich kroków
-# - renderowanie stron pozostaje bez zmian
 
-# -----------------------------------------------
-# Pomocnicze: slugify backendowy (bez unicodedata)
-# -----------------------------------------------
+def _first_path_entry(raw):
+    sciezka = raw.get("nazwa_zbioru") or raw.get("ścieżka") or raw.get("sciezka") or raw.get("path") or []
+    if isinstance(sciezka, str):
+        parts = [s.strip() for s in re.split(r">|→", sciezka) if s.strip()]
+    elif isinstance(sciezka, list):
+        parts = [str(s) for s in sciezka]
+    else:
+        parts = []
+    return parts, (parts[0] if parts else "Inne")
+
+
+def load_all_plants_from_disk_OLD():
+    """Czyta wszystkie JSON-y z PLANTS_DIR i zwraca listę wpisów zgodnych z extract_all_recipes()."""
+    out = []
+    for path in sorted(Path(PLANTS_DIR).rglob("*.json")):  # :contentReference[oaicite:1]{index=1}
+        try:
+            raw = json.loads(path.read_text(encoding="utf-8"))
+        except Exception as e:
+            out.append({"slug": path.stem, "name": path.stem.replace("_", " "), "category": path.parent.name,
+                        "data": {"_blad": str(e)}})
+            continue
+
+        slug = path.stem
+        parent = path.parent.name.lower()
+        category = parent  # trzymaj jak w Twojej logice
+        name = (
+                raw.get("gatunek")
+                or raw.get("nazwa")
+                or raw.get("nazwa_pospolita")
+                or slug.replace("_", " ")
+        )
+        latin = (
+                raw.get("nazwa_lacinska")
+                or raw.get("nazwa_łacińska")
+                or (raw.get("taksonomia") or {}).get("lacinska")
+                or (raw.get("taksonomia") or {}).get("łacińska")
+                or ""
+        )
+        path_list, top = _first_path_entry(raw)
+
+        out.append({
+            "slug": slug,
+            "name": name,
+            "latin": latin,
+            "path": path_list,
+            "top": top,
+            "category": category,
+            "data": {
+                # ujednolicamy nazwy sekcji, żeby extract_all_recipes miał co czytać
+                "przepisy_medyczne": (raw.get("Przepisy") or {}).get("przepisy_medyczne") or {},
+                "przepisy_kulinarne": (raw.get("Przepisy") or {}).get("przepisy_kulinarne") or {},
+                "przepisy_z_innymi_roslinami": (raw.get("Przepisy") or {}).get("przepisy_z_innymi_roslinami") or {},
+            },
+            "_raw": raw  # opcjonalnie – może się przydać do renderów papirusu
+        })
+    return out
+
+
+def load_all_plants_from_disk():
+    all_plants = []
+    for path in sorted(Path(PLANTS_DIR).rglob("*.json")):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                plant = json.load(f)
+                all_plants.append(plant)
+        except Exception as e:
+            print(f"Błąd przy wczytywaniu {path}: {e}")
+    return all_plants
+
+
+# Załaduj raz przy starcie
+ALL_PLANTS = load_all_plants_from_disk()
+
+
+def all_plants():
+    """Źródło prawdy dla extract_all_recipes() i API – używa preładowanego cache."""
+    for p in ALL_PLANTS:
+        yield p
+
+
+##########################################
 def _slugify_name(name: str) -> str:
     """PL -> ASCII, spacje -> _, tylko [a-z0-9_]"""
     if not name:
@@ -50,35 +108,41 @@ def _slugify_name(name: str) -> str:
     s = re.sub(r"\s+", "_", s).strip("_")
     return s
 
-DATA_DIR = Path(app.static_folder) / "data"
+
+# ROOT danych statycznych
+ROOT_DATA = Path(app.static_folder) / "data"
+PLANTS_DIR = ROOT_DATA / "rosliny"  # ← tu są JSON-y roślin, w podfolderach (np. ziola/, drzewa/…)
+RECIPES_DIR = ROOT_DATA / "przepisy"  # ← tu są globalne przepisy (jeśli kiedyś będziesz je podawać z backendu)
+
 
 def build_plant_manifest():
     items = []
-    for path in sorted(DATA_DIR.glob("*.json")):
+    for path in sorted((PLANTS_DIR).rglob("*.json")):  # ** zamiast "*/*.json"
         try:
             raw = json.loads(path.read_text(encoding="utf-8"))
         except Exception:
             continue
+
         slug = path.stem
+        parent = path.parent.name.lower()
+        category = parent if parent in ALLOWED_PLANT_CATS else "ziola"  # sensowny default
+
         name = (
-            raw.get("gatunek")
-            or raw.get("nazwa")
-            or raw.get("nazwa_pospolita")
-            or slug.replace("_", " ")
+                raw.get("gatunek")
+                or raw.get("nazwa")
+                or raw.get("nazwa_pospolita")
+                or slug.replace("_", " ")
         )
         latin = (
-            raw.get("nazwa_lacinska")
-            or raw.get("nazwa_łacińska")
-            or (raw.get("taksonomia") or {}).get("lacinska")
-            or (raw.get("taksonomia") or {}).get("łacińska")
-            or ""
+                raw.get("nazwa_lacinska")
+                or raw.get("nazwa_łacińska")
+                or (raw.get("taksonomia") or {}).get("lacinska")
+                or (raw.get("taksonomia") or {}).get("łacińska")
+                or ""
         )
-        sciezka = (
-            raw.get("nazwa_zbioru")
-            or raw.get("ścieżka")
-            or raw.get("sciezka")
-            or raw.get("path")
-        )
+
+        # ścieżka/„top” do grupowania w drzewku:
+        sciezka = raw.get("nazwa_zbioru") or raw.get("ścieżka") or raw.get("sciezka") or raw.get("path") or []
         if isinstance(sciezka, str):
             path_list = [s.strip() for s in re.split(r">|→", sciezka) if s.strip()]
         elif isinstance(sciezka, list):
@@ -86,12 +150,14 @@ def build_plant_manifest():
         else:
             path_list = []
         top = path_list[0] if path_list else "Inne"
+
         items.append({
             "slug": slug,
             "name": name,
             "latin": latin,
             "path": path_list,
             "top": top,
+            "category": category,
         })
     return items
 
@@ -491,7 +557,6 @@ def api_generator_przepisow():
         return jsonify({"error": "Internal error", "details": str(e)}), 500
 
 
-
 #
 # @app.route("/api/plants_list", methods=["GET"])
 # def api_plants_list():
@@ -672,6 +737,7 @@ def infer_cele(przepis):
 
     return list(set(cele)) or []
 
+
 # 🔍 Pomocnicze dopasowywanie kategorii celu
 def infer_taste(przepis):
     cechy = (przepis.get("cechy") or []) + (przepis.get("wlasciwosci") or []) + (przepis.get("skladniki") or [])
@@ -686,7 +752,8 @@ def infer_taste(przepis):
         tags.append("gorzki")
     if any(w in tekst for w in ["imbir", "pieprz", "chilli", "ostra", "pikant", "papryczka"]):
         tags.append("pikantny")
-    if any(w in tekst for w in ["aromatyczny", "zioł", "liść", "bazylia", "tymianek", "oregano", "majeranek", "rozmaryn"]):
+    if any(w in tekst for w in
+           ["aromatyczny", "zioł", "liść", "bazylia", "tymianek", "oregano", "majeranek", "rozmaryn"]):
         tags.append("ziołowy")
     if any(w in tekst for w in ["czosnek", "cebula", "korzeń", "kminek", "koperek", "lubczyk"]):
         tags.append("korzenny")
@@ -696,6 +763,7 @@ def infer_taste(przepis):
         tags.append("świeży")
 
     return list(set(tags)) or []
+
 
 # ------------- Helpers -------------
 def load_jsons():
@@ -761,7 +829,7 @@ def inject_globals():
         'now': datetime.datetime.now(),
         'moon_phase': name,
         'moon_percent': percent,
-        'all_plants': ALL_PLANTS
+        # 'all_plants': all_plants()  # ← jeśli chcesz mieć w każdym szablonie
     }
 
 
@@ -814,40 +882,37 @@ def build_tree():
 
 
 def get_plants(category):
-    folder = os.path.join(DATA_DIR, category)
-    if not os.path.exists(folder):
+    folder = PLANTS_DIR / category
+    if not folder.exists():
         return []
-    return [
-        f[:-5]
-        for f in os.listdir(folder)
-        if f.endswith(".json")
-    ]
+    return [p.stem for p in folder.glob("*.json")]
 
 
 def load_plant(category, plant):
-    path = os.path.join(DATA_DIR, category, f"{plant}.json")
-    if not os.path.exists(path):
+    path = PLANTS_DIR / category / f"{plant}.json"
+    if not path.exists():
         abort(404)
-    with open(path, encoding="utf-8") as f:
-        return json.load(f)
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def all_plants():
     out = []
-    for cat in CATEGORIES:
-        for plant in get_plants(cat):
-            data = load_plant(cat, plant)
-            out.append({
-                "category": cat,
-                "slug": plant,
-                "name": data.get("gatunek", plant.replace("_", " ")),
-                "latin": data.get("nazwa_lacinska", ""),
-                "trujacy": any(
-                    "trujący" in (u["uwaga"] + u.get("rozwiazanie", "")).lower()
-                    for u in data.get("uwagi_i_ostrzezenia", [])
-                ),
-                "data": data
-            })
+    for json_path in PLANTS_DIR.glob("*/*.json"):
+        category = json_path.parent.name
+        slug = json_path.stem
+        data = json.loads(json_path.read_text(encoding="utf-8"))
+        out.append({
+            "category": category,
+            "slug": slug,
+            "name": data.get("gatunek", slug.replace("_", " ")),
+            "latin": data.get("nazwa_lacinska", ""),
+            "trujacy": any(
+                "trujący" in (u.get("uwaga", "") + u.get("rozwiazanie", "")).lower()
+                for u in (data.get("uwagi_i_ostrzezenia") or [])
+                if isinstance(u, dict)
+            ),
+            "data": data
+        })
     return out
 
 
@@ -899,7 +964,7 @@ def lista(category):
 
 @app.route("/szukaj")
 def search():
-    now =  datetime.datetime.now()
+    now = datetime.datetime.now()
     q = request.args.get("q", "").strip()
     q_lower = q.lower()
     results_names = []
@@ -960,13 +1025,14 @@ def search():
 
 @app.route("/ulubione")
 def ulubione():
-    now =  datetime.datetime.now()
+    now = datetime.datetime.now()
     moon_phase, moon_percent = get_moon_phase()
     return render_template("ulubione.html",
                            all_plants=all_plants(),
                            now=now,
                            moon_phase=moon_phase,
                            moon_percent=moon_percent)
+
 
 @app.route("/kontakt")
 def kontakt():
@@ -982,8 +1048,8 @@ def generator_ogrodu():
 @app.route("/<category>/<plant>")
 def roslina(category, plant):
     data = load_plant(category, plant)
-    current_month =  datetime.datetime.now().month  # 1 = styczeń, 12 = grudzień
-    now =  datetime.datetime.now()
+    current_month = datetime.datetime.now().month  # 1 = styczeń, 12 = grudzień
+    now = datetime.datetime.now()
     return render_template(
         "roslina.html",
         data=data,
@@ -1062,6 +1128,8 @@ def index():
     all_plants = build_plant_manifest()
     return render_template("index.html",
                            all_plants=all_plants)
+
+
 @app.route("/newage")
 def newage():
     all_plants = build_plant_manifest()
@@ -1069,17 +1137,14 @@ def newage():
                            all_plants=all_plants)
 
 
-# from flask import send_from_directory
-#
-#
-@app.route('/data/ziola/<path:filename>')
-def serve_data(filename):
-    return send_from_directory('data/ziola', filename)
+ALLOWED_PLANT_CATS = {"ziola", "drzewa", "krzewy", "bulwy", "cebule", "egzotyczne"}
 
 
-@app.route('/data/drzewa/<path:filename>')
-def serve_datad(filename):
-    return send_from_directory('data/drzewa', filename)
+@app.route('/static/data/rosliny/<category>/<path:filename>')
+def serve_plants_static(category, filename):
+    if category not in ALLOWED_PLANT_CATS:
+        abort(404)
+    return send_from_directory(PLANTS_DIR / category, filename)
 
 
 # ---------- Open‑Meteo proxy (CORS-safe) ----------
