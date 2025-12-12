@@ -1,118 +1,3 @@
-{% extends "base.html" %}
-
-{% block title %}Kwiatownik — Zielnik Słowiańskiej Ziemi{% endblock %}
-
-{% block content %}
-
-<section class="stage" id="stage" aria-live="polite">
-
-    <!-- KARTY -->
-    <div class="layer" id="cardsLayer">
-        <section class="cards" id="cards">
-            <a href="#przepisy" class="card" data-section="przepisy">
-                <h3>Przepisy kulinarne i medyczne</h3>
-                <p class="lead">Wpisz słowa klucze i znajdź receptury.</p>
-                <figure>
-                    <img src="{{ url_for('static', filename='img/kwiatownik-przepisy_upscayl.png') }}">
-                </figure>
-            </a>
-
-            <a href="#og-legendy" class="card" data-section="og-legendy">
-                <h3>Ogrodnictwo i legendy</h3>
-                <p class="lead">Uprawa, zbiory, historia, właściwości.</p>
-                <figure>
-                    <img src="{{ url_for('static', filename='img/kwiatownik-ogrodnictwo_upscayl.png') }}">
-                </figure>
-            </a>
-        </section>
-    </div>
-
-    <!-- PAPIRUS -->
-    <div class="layer" id="papyrusLayer" aria-hidden="true">
-        <section class="papyrus" id="papyrus">
-            <div class="papyrus__panel">
-                <h3 class="papyrus__title" id="pap-top-title">—</h3>
-                <div id="pap-top-content"></div>
-            </div>
-            <div class="papyrus__panel">
-                <div class="content-area" id="pap-bottom-content">
-                    <p class="placeholder">Wybierz roślinę albo wyszukaj przepisy.</p>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <!-- POWITALNE PODZIĘKOWANIE -->
-    <div class="layer" id="coffeeLayer" aria-hidden="true" style="display:none; text-align:center;">
-        <img src="{{ url_for('static', filename='img/kwiatownik-podziekowanie.png') }}"
-             alt="Dziękujemy za kawę ☕" style="max-width:300px;">
-        <p style="margin-top:1rem;">☕ Dziękujemy za wsparcie! ☕</p>
-    </div>
-
-</section>
-<script defer>
-window.hideCoffeeLayer = window.hideCoffeeLayer || function(){};
-
-function openFromHash(){
-  const h = (location.hash || '').replace('#','');
-  if (['legendy','przepisy','ogrodnictwo','kontakt'].includes(h)) {
-    // pokaż właściwą warstwę nawet jeśli modal jest na ekranie
-    hideCoffeeLayer();
-    if (h === 'kontakt' && typeof openKontaktPapyrus === 'function') {
-      openKontaktPapyrus();
-    } else if (typeof openPapyrus === 'function') {
-      openPapyrus(h);
-    }
-  }
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  // 1) Najpierw wczytaj sekcję z hasha (to wypełni papirus/hierarchię)
-  openFromHash();
-  // 2) Reaguj na późniejsze zmiany hasha
-  window.addEventListener('hashchange', openFromHash);
-  // 3) Dopiero teraz pokaż modal powitalny
-  showGreeting();
-});
-
-const GREETING_URL = "{{ url_for('static', filename='greeting.json') }}";
-
-async function showGreeting() {
-  try {
-    const res = await fetch(GREETING_URL, { credentials: "same-origin" });
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    const data = await res.json();
-
-    const title  = data.greeting_title  || "🌱 Dzień dobry!";
-    const lead   = data.greeting_short  || "";
-    const feats  = Array.isArray(data.greeting_features) ? data.greeting_features : [];
-    const footer = data.greeting_footer || "";
-
-    const overlay = document.createElement("div");
-    overlay.className = "greet-overlay";
-    overlay.innerHTML = `
-      <div class="greet-box" role="dialog" aria-label="Powitanie">
-        <h3>${title}</h3>
-        ${lead ? `<p class="greet-lead">${lead}</p>` : ""}
-        ${feats.length ? `<ul class="greet-list">${feats.map(f=>`<li>${f}</li>`).join("")}</ul>` : ""}
-        ${footer ? `<p class="greet-footer">${footer}</p>` : ""}
-        <button class="greet-ok" type="button">OK</button>
-      </div>
-    `;
-    overlay.querySelector(".greet-ok").addEventListener("click", () => overlay.remove());
-    overlay.addEventListener("click", (e) => { if (e.target === overlay) overlay.remove(); });
-
-    document.body.appendChild(overlay);
-  } catch (err) {
-    console.error("Błąd ładowania greeting.json:", err);
-  }
-}
-</script>
-
-<!--// === HIERARCHIA KWIATOWNIKA (dane) ===-->
-
-<script>
-
 const HIERARCHY = [
   {
     title: "Drzewa",
@@ -326,14 +211,13 @@ function normalizeData(raw){
     // Gałąź Ogrodnictwo (DODANE) + stare aliasy:
     wystepowanie: normalizeWystepowanie(getOneOf(raw, ['Ogrodnictwo.wystepowanie','Ogrodnictwo.występowanie','wystepowanie','występowanie','range','wyst'])),
     uprawa:       normalizeUprawa(getOneOf(raw, ['Ogrodnictwo.uprawa','uprawa','uprawa_i_pielegnacja','uprawa_i_pielęgnacja','cultivation'])),
-    permakultura: normalizePermakultura(getOneOf(raw, ['Ogrodnictwo.permakultura','permakultura','permaculture','gildie','companions'])),
     kalendarz:    normalizeKalendarz(getOneOf(raw, ['Ogrodnictwo.kalendarz','kalendarz','kalendarz_prac','calendar'])),
+    permakultura: normalizePermakultura(getOneOf(raw, ['Ogrodnictwo.permakultura','permakultura','permaculture','gildie','companions'])),
 
     wlasciwosci_i_skladniki: normalizeWlasciwosci(raw),
-    cechy_i_historia: normalizeCechyHistoria(getOneOf(raw, ['Cechy.cechy_i_historia','cechy_i_historia','historia','legendy'])),
-    uwagi_i_ostrzezenia: normalizeUwagi(getOneOf(raw, ['Cechy.uwagi_i_ostrzezenia','Cechy.uwagi_i_ostrzeżenia','uwagi_i_ostrzezenia','uwagi_i_ostrzeżenia','uwagi','ostrzezenia'])),
-    inne_zastosowania: normalizeInneZastosowania(getOneOf(raw, ['Cechy.inne_zastosowania','inne_zastosowania','zastosowania_pozostale','other_uses'])),
-
+    cechy_i_historia: normalizeCechyHistoria(getOneOf(raw, ['cechy_i_historia','historia','legendy'])),
+    uwagi_i_ostrzezenia: normalizeUwagi(getOneOf(raw, ['uwagi_i_ostrzezenia','uwagi_i_ostrzeżenia','uwagi','ostrzezenia'])),
+    inne_zastosowania: normalizeInneZastosowania(getOneOf(raw, ['inne_zastosowania','zastosowania_pozostale','other_uses'])),
     recipes_flat: normalizeRecipes(raw),
   };
 }
@@ -437,23 +321,16 @@ function normalizePermakultura(p){
 }
 
 function normalizeWlasciwosci(raw){
-  const arr = asArray(getOneOf(raw, [
-  'Cechy.wlasciwosci_i_skladniki','Cechy.właściwości_i_składniki',
-  'Cechy.skladniki','Cechy.składniki',
-  'wlasciwosci_i_skladniki','właściwości_i_składniki',
-  'skladniki','składniki','properties','constituents'
-]));
+  const arr = asArray(getOneOf(raw, ['wlasciwosci_i_skladniki','właściwości_i_składniki','skladniki','składniki','properties','constituents']));
   return arr.map(it=>{
-    if(typeof it==='string') return { nazwa: it, dzialanie: '', sklad: '', zrodla: [] };
+    if(typeof it==='string') return { nazwa: it, dzialanie: '', zrodla: [] };
     return {
       nazwa: getOneOf(it, ['nazwa','name'], 'Składnik'),
       dzialanie: getOneOf(it, ['działanie','dzialanie','effect','action'], ''),
-      sklad: getOneOf(it, ['sklad','skład','composition','constituents'], ''),
       zrodla: asArray(getOneOf(it, ['zrodla','źródła','zrodlo','źródło','sources','refs']))
     };
   });
 }
-
 
 
 function normalizeCechyHistoria(chRaw){
@@ -617,7 +494,7 @@ function dl(pairs){
 function renderAUTO(raw){
   try{
     // Pomiń oczywiste “ciężary” (zdjęcia itp.), pokaż resztę w czytelnej formie
-    const {zdjecia, zdjęcia, photos, images, Bibliografia, bibliografia, references, ...rest} = raw || {};
+    const { zdjecia, zdjęcia, photos, images, ...rest } = raw || {};
     const html = autoListify(rest);
     return html || '<p class="muted">Brak rozpoznanych pól do wyświetlenia.</p>';
   }catch(e){
@@ -758,374 +635,150 @@ function renderOGROD(norm){
   }
 
   return `
-      <article class="pap-article">
-        ${meta}
-
-        ${section('Właściwości i składniki', renderWlasciwosciSekcja(norm.wlasciwosci_i_skladniki))}
-        ${section('Cechy i historia', renderCechyHistoriaSekcja(norm.cechy_i_historia))}
-        ${section('Uwagi i ostrzeżenia', renderUwagiSekcja(norm.uwagi_i_ostrzezenia))}
-        ${section('Inne zastosowania', renderInneZastosowaniaSekcja(norm.inne_zastosowania))}
-        ${section('Uprawa', upHTML)}
-        ${section('Permakultura', perm)}
-        ${section('Kalendarz zabiegów', kalTable + kalDetails)}
-        ${section('Występowanie', wyst)}
-
-      </article>
-    `;
-
+    <article class="pap-article">
+      ${meta}
+      ${section('Uprawa', upHTML)}
+      ${section('Kalendarz zabiegów', kalTable + kalDetails)}
+      ${section('Występowanie', wyst)}
+      ${section('Permakultura', perm)}
+    </article>
+  `;
 }
-function renderZrodlaInline(list){
-  const arr = asArray(list).filter(Boolean);
-  if(!arr.length) return '';
-  const links = arr.map((u,i)=>{
-    const short = rootUrl(u);
-    return `<a href="${short}" target="_blank" rel="noopener">[${i+1}]</a>`;
-  }).join(' ');
-  return ` <small>${links}</small>`;
-}
-
-function renderWlasciwosciSekcja(items){
-  const list = asArray(items);
-  if(!list.length) return '';
-  return `<ul>` + list.map(it=>{
-    if(typeof it === 'string') return `<li>${it}</li>`;
-    const nazwa = it.nazwa || 'Składnik';
-    const dzial = it.dzialanie || it['działanie'] || '';
-    const sklad = it.sklad || it['skład'] || '';
-    const refs  = renderZrodlaInline(it.zrodla || it['źródła'] || it.zrodlo || it['źródło']);
-    let line = `<b>${nazwa}</b>`;
-    if(dzial) line += ` — <i>${dzial}</i>`;
-    if(sklad) line += ` <small>(skład: ${sklad})</small>`;
-    return `<li>${line}${refs}</li>`;
-  }).join('') + `</ul>`;
-}
-
-function renderCechyHistoriaSekcja(ch){
-  if(!ch || typeof ch !== 'object') return '';
-  let html = '';
-  if(ch.opis) html += `<p>${ch.opis}</p>`;
-  if(ch.cechy?.length){
-    html += `<h5>Cechy</h5><ul>${ch.cechy.map(x=>`<li>${x}</li>`).join('')}</ul>`;
-  }
-  const hist = ch.zastosowanie_historyczne || ch['zastosowania_historyczne'] || [];
-  if(hist.length){
-    html += `<h5>Zastosowanie historyczne</h5><ul>${hist.map(x=>`<li>${x}</li>`).join('')}</ul>`;
-  }
-  const ciek = ch.ciekawostki || [];
-  if(ciek.length){
-    html += `<h5>Ciekawostki</h5><ul>${ciek.map(x=>`<li>${x}</li>`).join('')}</ul>`;
-  }
-  return html;
-}
-
-function renderUwagiSekcja(arr){
-  const list = asArray(arr);
-  if(!list.length) return '';
-  return `<ul>` + list.map(u=>{
-    if(typeof u === 'string') return `<li>${u}</li>`;
-    const a = u.uwaga || u.warning || u.note || '';
-    const r = u.rozwiazanie || u['rozwiązanie'] || u.remedy || '';
-    return `<li>${a}${r ? ` <small>→ ${r}</small>` : ''}</li>`;
-  }).join('') + `</ul>`;
-}
-
-function renderInneZastosowaniaSekcja(obj){
-  if(!obj || typeof obj !== 'object') return '';
-  const rows = Object.entries(obj).map(([k,v])=>{
-    const t = String(k).replaceAll('_',' ');
-    const d = (v && (v.opis || v.description || v.use || v.zastosowanie)) || '';
-    return `<dt>${t}</dt><dd>${d || '—'}</dd>`;
-  }).join('');
-  return rows ? `<dl>${rows}</dl>` : '';
-}
-
-function renderGaleriaSekcja(urls){
-  const list = asArray(urls).filter(Boolean);
-  if(!list.length) return '';
-  return `<div class="gallery">` + list.map(u=>`
-    <a href="${u}" target="_blank" rel="noopener" title="${u}">
-      <img src="${u}" alt="">
-    </a>`).join('') + `</div>`;
-}
-
-
 
 /* ---------- RENDER: LEGENDY / OPISY — WERSJA POPRAWIONA ---------- */
 
-// Bezpieczne sprawdzanie typów
-const isPlainObject = (v) => v && typeof v === "object" && !Array.isArray(v);
-const isArray = (v) => Array.isArray(v);
-const isPrimitive = (v) => (
-  v == null || typeof v === "string" || typeof v === "number" || typeof v === "boolean"
-);
+function renderLEGENDY(plant, mountEl){
+  const isArr = v => Array.isArray(v) && v.length;
+  const isObj = v => v && typeof v === 'object' && !Array.isArray(v);
 
-// Tworzy nagłówek zależnie od poziomu zagnieżdżenia (h3..h6)
-function makeHeading(text, level = 0) {
-  const tag = ["h3","h4","h5","h6"][Math.min(level, 3)];
-  const el = document.createElement(tag);
-  el.className = `legend-heading level-${level}`;
-  el.textContent = String(text);
-  return el;
+  const mkUL = arr => isArr(arr) ? `<ul>${arr.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '';
+  const mkLinks = arr => isArr(arr)
+    ? `<ul class="source-list">${arr.map(u => {
+        const href = (u == null ? '' : String(u));
+        return href ? `<li><a href="${esc(href)}" target="_blank" rel="noopener">${esc(href)}</a></li>` : '';
+      }).join('')}</ul>` : '';
+
+  const section = (title, body, sources='') => (body && body.trim())
+    ? `<section class="pap-sec"><div class="pap-sec__head"><h4 class="pap-sec__title">${esc(title)}</h4></div><div class="pap-sec__body">${body}</div>${sources}</section>`
+    : '';
+
+  const C  = isObj(plant.Cechy) ? plant.Cechy : {};
+  const OB = isObj(C.opis_botaniczny) ? C.opis_botaniczny : null;
+  const W  = isObj(C.wystepowanie) ? C.wystepowanie : null;
+
+  // 1) Ciekawostki + rozszerzenia
+  let ciekHTML = '';
+  if (isArr(plant.ciekawostki_kulturowe)) ciekHTML += mkUL(plant.ciekawostki_kulturowe);
+  if (isArr(plant.legendy))    ciekHTML += `<h5>Legendy i przekazy</h5>${mkUL(plant.legendy)}`;
+  if (isArr(plant.symbolika))  ciekHTML += `<h5>Symbolika</h5>${mkUL(plant.symbolika)}`;
+  if (isArr(plant.zwyczaje))   ciekHTML += `<h5>Zwyczaje i obrzędy</h5>${mkUL(plant.zwyczaje)}`;
+  if (isArr(plant.dawne_nazwy))ciekHTML += `<h5>Dawne nazwy</h5>${mkUL(plant.dawne_nazwy)}`;
+  if (isArr(plant.przyslowia)) ciekHTML += `<h5>Przysłowia</h5>${mkUL(plant.przyslowia)}`;
+  const sekCiek = section('Ciekawostki kulturowe', ciekHTML);
+
+  // 2) Cechy i historia (jeśli występuje)
+  let histHTML = '';
+  if (isObj(C.cechy_i_historia)) {
+    const H = C.cechy_i_historia;
+    if (H.opis) histHTML += `<p>${esc(H.opis)}</p>`;
+    if (isArr(H.cechy)) histHTML += `<h5>Cechy</h5>${mkUL(H.cechy)}`;
+    if (isArr(H.zastosowanie_historyczne)) histHTML += `<h5>Zastosowania dawniej</h5>${mkUL(H.zastosowanie_historyczne)}`;
+    if (isArr(H.ciekawostki)) histHTML += `<h5>Notatki</h5>${mkUL(H.ciekawostki)}`;
+  }
+  const sekHistoria = section('Cechy i historia', histHTML);
+
+  // 3) Opis botaniczny
+  let opisHTML = '', opisSrc = '';
+  if (OB){
+    const row = (k,v) => v ? `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>` : '';
+    opisHTML = `<dl>
+      ${row('pokrój', OB.pokroj)}
+      ${row('łodyga', OB.lodyga)}
+      ${row('liście', OB.liscie)}
+      ${row('kwiaty', OB.kwiaty)}
+      ${row('owoce', OB.owoce)}
+      ${row('zapach', OB.zapach)}
+      ${row('cecha wyróżniająca', OB.cecha_wyrozniajaca)}
+    </dl>`;
+    opisSrc = mkLinks(OB.zrodlo);
+  }
+  const sekBot = section('Opis botaniczny', opisHTML, opisSrc);
+
+  // 4) Występowanie
+  let wystHTML = '', wystSrc = '';
+  if (W){
+    const row = (k,v) => v ? `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>` : '';
+    wystHTML = `<dl>
+      ${row('obszar', W.obszar)}
+      ${row('w Polsce', W.w_polsce)}
+      ${row('siedlisko', W.siedlisko)}
+      ${row('gleba', W.gleba)}
+      ${row('ekspozycja', W.ekspozycja)}
+    </dl>`;
+    wystSrc = mkLinks(W.zrodlo);
+  }
+  const sekWyst = section('Występowanie i siedlisko', wystHTML, wystSrc);
+
+  // 5) Permakultura / ogrodnictwo
+  let permHTML = '', permSrc = '';
+  if (isObj(plant.permakultura)) {
+    const P = plant.permakultura;
+    if (P.opis) permHTML += `<p>${esc(P.opis)}</p>`;
+    if (isArr(P.funkcje)) permHTML += `<h5>Funkcje</h5>${mkUL(P.funkcje)}`;
+    if (isArr(P.gildie))  permHTML += `<h5>Gildie</h5>${mkUL(P.gildie)}`;
+    permSrc = mkLinks(P.zrodlo);
+  }
+  if (isObj(plant.ogrodnictwo)) {
+    const O = plant.ogrodnictwo;
+    if (O.opis) permHTML += `<h5>Uwagi ogrodnicze</h5><p>${esc(O.opis)}</p>`;
+    if (isArr(O.zabiegi)) permHTML += `<h5>Praktyka</h5>${mkUL(O.zabiegi)}`;
+    permSrc = permSrc || mkLinks(O.zrodlo);
+  }
+  const sekPerm = section('Permakultura i ogrodnictwo', permHTML, permSrc);
+
+  // 6) Składniki aktywne
+  let chemHTML = '';
+  if (isArr(C.wlasciwosci_i_skladniki)) {
+    chemHTML = '<ul>' + C.wlasciwosci_i_skladniki.map(it => {
+      const nazwa = esc(it?.nazwa || '');
+      const dz    = esc(it?.dzialanie || it?.działanie || '');
+      const skl   = esc(it?.sklad || it?.skład || '');
+      const src   = mkLinks(it?.zrodla || it?.zrodlo || it?.źródła || it?.źródło);
+      return `<li><strong>${nazwa}</strong>${dz?`<br><em>Działanie:</em> ${dz}`:''}${skl?`<br><em>Skład:</em> ${skl}`:''}${src?src:''}</li>`;
+    }).join('') + '</ul>';
+  }
+  const sekChem = section('Składniki aktywne i właściwości', chemHTML);
+
+  // 7) Inne zastosowania
+  let inneHTML = '';
+  if (isArr(plant.inne_zastosowania)) inneHTML += mkUL(plant.inne_zastosowania);
+  if (isArr(C.inne_zastosowania))     inneHTML += mkUL(C.inne_zastosowania);
+  const sekInne = section('Zastosowania użytkowe', inneHTML);
+
+  // 8) Uwagi i bezpieczeństwo
+  let warnHTML = '';
+  if (isArr(C.uwagi))            warnHTML += `<h5>Uwagi</h5>${mkUL(C.uwagi)}`;
+  if (isArr(C.ostrzezenia) || isArr(C.ostrzeżenia))
+    warnHTML += `<h5>Ostrzeżenia</h5>${mkUL(C.ostrzezenia || C.ostrzeżenia)}`;
+  if (isArr(C.przeciwwskazania)) warnHTML += `<h5>Przeciwwskazania</h5>${mkUL(C.przeciwwskazania)}`;
+  const sekWarn = section('Uwagi i bezpieczeństwo', warnHTML);
+
+  // 9) Ikonografia
+  let galHTML = '';
+  if (isArr(plant.zdjecia)) {
+    galHTML = `<div class="gallery">${plant.zdjecia.map(src => {
+      const s = (src == null ? '' : String(src));
+      return s ? `<a href="${esc(s)}" target="_blank" rel="noopener"><img src="${esc(s)}" alt="" loading="lazy" decoding="async"></a>` : '';
+    }).join('')}</div>`;
+  }
+  const sekGal = section('Ikonografia i ryciny', galHTML);
+
+  const html = [
+    sekCiek, sekHistoria, sekBot, sekWyst, sekPerm, sekChem, sekInne, sekWarn, sekGal
+  ].filter(Boolean).join('');
+
+  mountEl.innerHTML = html || `<section class="pap-sec"><div class="pap-sec__body"><p class="placeholder">Brak dodatkowych treści.</p></div></section>`;
 }
-
-// Render pojedynczej wartości do fragmentu DOM
-function renderValue(node, level = 0) {
-  const frag = document.createDocumentFragment();
-
-  if (isPrimitive(node)) {
-    // null/undefined pomijamy; prymitywy jako akapit
-    if (node == null || node === "") return frag;
-    const p = document.createElement("p");
-    p.className = "legend-paragraph";
-    p.textContent = String(node);
-    frag.appendChild(p);
-    return frag;
-  }
-
-  if (isArray(node)) {
-    // Każdy element tablicy jako osobny akapit lub zagnieżdżona struktura
-    node.forEach(item => {
-      if (isPrimitive(item)) {
-        if (item == null || item === "") return;
-        const p = document.createElement("p");
-        p.className = "legend-paragraph";
-        p.textContent = String(item);
-        frag.appendChild(p);
-      } else {
-        // Element tablicy jest obiektem / kolejną tablicą – render rekursywny
-        frag.appendChild(renderValue(item, level));
-      }
-    });
-    return frag;
-  }
-
-  if (isPlainObject(node)) {
-    // Każdy klucz to tytuł (heading) swojego bloku
-    Object.entries(node).forEach(([key, val]) => {
-      // Tytuł bloku (z klucza)
-      const section = document.createElement("section");
-      section.className = "legend-block";
-
-      const heading = makeHeading(key, level);
-      section.appendChild(heading);
-
-      // Treść bloku
-      section.appendChild(renderValue(val, level + 1));
-
-      frag.appendChild(section);
-    });
-    return frag;
-  }
-
-  // Fallback – ostrożnie rzutujemy do tekstu
-  const p = document.createElement("p");
-  p.className = "legend-paragraph";
-  p.textContent = String(node);
-  frag.appendChild(p);
-  return frag;
-}
-
-/**
- * Renderuje sekcję "Cechy" z obiektu rośliny.
- * - plantOrCechy: pełny obiekt rośliny (z polem Cechy) lub już samo pole Cechy
- * - mount: element lub selektor, gdzie wstawić wynik
- * - title: opcjonalny główny nagłówek nad całą sekcją
- */
-// Uwaga: korzysta z istniejących helpersów: isPlainObject, isArray, isPrimitive, makeHeading, renderValue
-// Zbiera wszystkie informacje z norm/raw – BEZ przepisów – pod czytelne nagłówki
-function buildLegendPayload(norm, raw) {
-  const out = {};
-
-  if (norm.cechy_i_historia && (
-      norm.cechy_i_historia.opis ||
-      (norm.cechy_i_historia.cechy||[]).length ||
-      (norm.cechy_i_historia.zastosowanie_historyczne||[]).length ||
-      (norm.cechy_i_historia.ciekawostki||[]).length
-  )) {
-    out["Cechy i historia"] = {
-      ...(norm.cechy_i_historia.opis ? { "Opis": norm.cechy_i_historia.opis } : {}),
-      ...(norm.cechy_i_historia.cechy?.length ? { "Cechy": norm.cechy_i_historia.cechy } : {}),
-      ...(norm.cechy_i_historia.zastosowanie_historyczne?.length ? { "Zastosowanie historyczne": norm.cechy_i_historia.zastosowanie_historyczne } : {}),
-      ...(norm.cechy_i_historia.ciekawostki?.length ? { "Ciekawostki": norm.cechy_i_historia.ciekawostki } : {})
-    };
-  }
-
-  if (norm.wlasciwosci_i_skladniki?.length) {
-    // mapujemy do "Nazwa — działanie"
-    out["Właściwości i składniki"] = norm.wlasciwosci_i_skladniki.map(it => {
-      if (typeof it === 'string') return it;
-      const n = it.nazwa || it.name || 'Składnik';
-      const d = it.dzialanie || it.działanie || it.effect || '';
-      return d ? `${n} — ${d}` : n;
-    });
-  }
-
-  if (norm.uwagi_i_ostrzezenia?.length) {
-    out["Uwagi i ostrzeżenia"] = norm.uwagi_i_ostrzezenia.map(u => {
-      if (typeof u === 'string') return u;
-      const a = u.uwaga || '';
-      const r = u.rozwiazanie || u.rozwiązanie || '';
-      return r ? `${a} — ${r}` : a;
-    });
-  }
-
-  if (norm.inne_zastosowania && Object.keys(norm.inne_zastosowania).length) {
-    out["Inne zastosowania"] = Object.fromEntries(
-      Object.entries(norm.inne_zastosowania).map(([k, v]) => [k, v?.opis || v || ''])
-    );
-  }
-
-  if (norm.taksonomia && Object.values(norm.taksonomia).some(Boolean)) {
-    out["Taksonomia"] = norm.taksonomia;
-  }
-
-  if (norm.sciezka?.length) {
-    out["Ścieżka klasyfikacji"] = norm.sciezka;
-  }
-
-  const photos = norm.zdjecia || [];
-  if (photos.length) {
-    out["Zdjęcia (linki)"] = photos;
-  }
-
-  // wszystko powyżej to „reszta JSON-a bez przepisów”
-  return out;
-}
-function buildLegendPayload(norm, raw){
-  const out = {};
-
-  if (norm.cechy_i_historia && (
-      norm.cechy_i_historia.opis ||
-      (norm.cechy_i_historia.cechy||[]).length ||
-      (norm.cechy_i_historia.zastosowanie_historyczne||[]).length ||
-      (norm.cechy_i_historia.ciekawostki||[]).length
-  )) {
-    out["Cechy i historia"] = {
-      ...(norm.cechy_i_historia.opis ? { "Opis": norm.cechy_i_historia.opis } : {}),
-      ...(norm.cechy_i_historia.cechy?.length ? { "Cechy": norm.cechy_i_historia.cechy } : {}),
-      ...(norm.cechy_i_historia.zastosowanie_historyczne?.length ? { "Zastosowanie historyczne": norm.cechy_i_historia.zastosowanie_historyczne } : {}),
-      ...(norm.cechy_i_historia.ciekawostki?.length ? { "Ciekawostki": norm.cechy_i_historia.ciekawostki } : {})
-    };
-  }
-
-  if (norm.wlasciwosci_i_skladniki?.length) {
-    out["Właściwości i składniki"] = norm.wlasciwosci_i_skladniki;
-  }
-
-  if (norm.uwagi_i_ostrzezenia?.length) {
-    out["Uwagi i ostrzeżenia"] = norm.uwagi_i_ostrzezenia;
-  }
-
-  if (norm.inne_zastosowania && Object.keys(norm.inne_zastosowania).length) {
-    out["Inne zastosowania"] = norm.inne_zastosowania;
-  }
-
-  if (norm.taksonomia && Object.values(norm.taksonomia).some(Boolean)) {
-    out["Taksonomia"] = norm.taksonomia;
-  }
-  if (norm.sciezka?.length) {
-    out["Ścieżka klasyfikacji"] = norm.sciezka;
-  }
-
-  const photos = norm.zdjecia || [];
-  if (photos.length) {
-    out["Zdjęcia (linki)"] = photos;
-  }
-
-  return out;
-}
-function renderZrodlaInline(list){
-  const arr = (Array.isArray(list) ? list : [list]).filter(Boolean);
-  if(!arr.length) return '';
-  return ' <small>' + arr.map((u,i)=>`<a href="${u}" target="_blank" rel="noopener">[${i+1}]</a>`).join(' ') + '</small>';
-}
-
-function renderWlasciwosciSekcja(items){
-  const list = Array.isArray(items) ? items : [];
-  if(!list.length) return '';
-  return `<ul>` + list.map(it=>{
-    if(typeof it === 'string') return `<li>${it}</li>`;
-    const nazwa = it.nazwa || 'Składnik';
-    const dzial = it.dzialanie || it['działanie'] || '';
-    const sklad = it.sklad || it['skład'] || '';
-    const refs  = it.zrodlo || it['źródło'] || it.zrodla || it['źródła'] || [];
-    let line = `<b>${nazwa}</b>`;
-    if(dzial) line += ` — <i>${dzial}</i>`;
-    if(sklad) line += ` <small>(skład: ${sklad})</small>`;
-    return `<li>${line}${renderZrodlaInline(refs)}</li>`;
-  }).join('') + `</ul>`;
-}
-
-function richList(val){
-  if(!val) return '';
-  if(Array.isArray(val)) return `<ul>${val.map(x=>`<li>${x}</li>`).join('')}</ul>`;
-  return `<p>${val}</p>`;
-}
-
-function renderLEGENDY(normOrPayload, raw=null, title='Legendy i opisy'){
-  const payload = (
-    ('Taksonomia' in (normOrPayload||{})) ||
-    ('Cechy i historia' in (normOrPayload||{})) ||
-    ('Właściwości i składniki' in (normOrPayload||{}))
-  ) ? normOrPayload : buildLegendPayload(normOrPayload, raw);
-
-  let body = '';
-
-  // kolejność jak w papirusie
-  if (payload["Taksonomia"]) {
-    const t = payload["Taksonomia"]; const pairs = {};
-    ['krolestwo','gromada','klasa','rzad','rodzina','rodzaj','gatunek','podgatunek','odmiana','autor']
-      .forEach(k=>{ if(t[k]) pairs[k.toUpperCase()] = t[k]; });
-    body += `<h5>Taksonomia</h5>${dl(pairs)}`;
-  }
-
-  if (payload["Ścieżka klasyfikacji"]) {
-    body += `<h5>Ścieżka klasyfikacji</h5>${list(payload["Ścieżka klasyfikacji"])}`;
-  }
-
-  if (payload["Cechy i historia"]) {
-    const ch = payload["Cechy i historia"];
-    if (ch.Opis) body += `<p>${ch.Opis}</p>`;
-    if (ch.Cechy) body += `<h5>Cechy</h5>${richList(ch.Cechy)}`;
-    if (ch["Zastosowanie historyczne"]) body += `<h5>Zastosowanie historyczne</h5>${richList(ch["Zastosowanie historyczne"])}`;
-    if (ch.Ciekawostki) body += `<h5>Ciekawostki</h5>${richList(ch.Ciekawostki)}`;
-  }
-
-  if (payload["Właściwości i składniki"]) {
-    body += `<h5>Właściwości i składniki</h5>${renderWlasciwosciSekcja(payload["Właściwości i składniki"])}`;
-  }
-
-  if (payload["Uwagi i ostrzeżenia"]) {
-    const arr = payload["Uwagi i ostrzeżenia"];
-    body += `<h5>Uwagi i ostrzeżenia</h5>` + richList(
-      arr.map(u => (typeof u==='string') ? u :
-        (u.uwaga || '') + (u.rozwiazanie || u['rozwiązanie'] ? ` — ${u.rozwiazanie || u['rozwiązanie']}` : '')
-      )
-    );
-  }
-
-  if (payload["Inne zastosowania"]) {
-    const obj = payload["Inne zastosowania"];
-    body += `<h5>Inne zastosowania</h5>` + `<dl>` + Object.entries(obj).map(([k,v])=>{
-      const t = String(k).replaceAll('_',' ');
-      const d = (v && (v.opis || v.description || v.use || v.zastosowanie)) || v || '';
-      return `<dt>${t}</dt><dd>${d || '—'}</dd>`;
-    }).join('') + `</dl>`;
-  }
-
-  if (payload["Zdjęcia (linki)"]) {
-    const arr = (Array.isArray(payload["Zdjęcia (linki)"]) ? payload["Zdjęcia (linki)"] : [payload["Zdjęcia (linki)"]]).filter(Boolean);
-    const imgs  = arr.filter(u => /\.(png|jpe?g|gif|webp|svg)(\?|#|$)/i.test(u));
-    const other = arr.filter(u => !/\.(png|jpe?g|gif|webp|svg)(\?|#|$)/i.test(u));
-    if (imgs.length)  body += `<div class="gallery">${imgs.map(u=>`<img src="${u}" alt="">`).join('')}</div>`;
-    if (other.length) body += `<ul>${other.map(u=>`<li><a href="${u}" target="_blank" rel="noopener">${u}</a></li>`).join('')}</ul>`;
-  }
-
-  return section(title, body);
-}
-
-
-
 
 
 
@@ -1170,17 +823,6 @@ function renderRecipesUI(norm, a, b){
   }</ul>`;
 }
 
-function renderTopGallery(urls){
-  const list = asArray(urls).filter(Boolean);
-  if(!list.length) return '';
-  const isImg = u => /\.(png|jpe?g|gif|webp|svg)(\?|#|$)/i.test(String(u)) || /\/(thumb|upload)\//i.test(String(u));
-  const imgs  = list.filter(isImg).slice(0,8);
-  const other = list.filter(u => !isImg(u));
-  const thumbs = imgs.map(u => `<a href="${u}" target="_blank" rel="noopener"><img src="${u}" alt=""></a>`).join('');
-  const links  = other.length ? `<ul class="top-links">${other.map(u=>`<li><a href="${u}" target="_blank" rel="noopener">${rootUrl(u)}</a></li>`).join('')}</ul>` : '';
-  return `<div class="top-gallery">${thumbs}</div>${links}`;
-}
-
 /* ---------- GŁÓWNY RENDER ROŚLINY Z ADAPTEREM ---------- */
 
 async function renderPlant(slug, mode){
@@ -1192,23 +834,8 @@ async function renderPlant(slug, mode){
     const titleName = norm.gatunek || 'Wybrany gatunek';
     const latin     = norm.nazwa_lacinska || '';
     topTitle.textContent = `${titleName}${latin ? ' ('+latin+')' : ''}`;
-    // zdjęcia na samej górze papirusu (zastępują listę kategorii/hierarchię)
-    topContent.innerHTML = renderTopGallery(norm.zdjecia) || '';
-    let html;
-    if (mode === 'ogrodnictwo') {
-      html = renderOGROD(norm);
-    } else if (mode === 'legendy') {
-      html = `<article class="pap-article">${renderLEGENDY(norm, raw, 'Legendy i opisy')}</article>`;
-    } else { // tryb łączony
-      html = renderOGROD(norm);
-    }
 
-
-    // nie twórz podwójnego <article> – jeśli html już zawiera artykuły, wstaw je „as-is”
-    const alreadyArticles = /<article\b/i.test(html);
-    bottomContent.innerHTML = alreadyArticles ? html : `<article class="pap-article">${html}</article>`;
-
-
+    let html = (mode === 'ogrodnictwo') ? renderOGROD(norm) : renderLEGENDY(norm, raw);
 
 
     // Fallback, jeśli treści jest bardzo mało
@@ -1285,7 +912,7 @@ function wireTreeControls(root){
 
 
 
-<!--function isPlainObject(v){ return v && typeof v==='object' && !Array.isArray(v); }-->
+function isPlainObject(v){ return v && typeof v==='object' && !Array.isArray(v); }
 
 function fmtMonths(arr){
   if(!arr) return '—';
@@ -1916,10 +1543,6 @@ ${ wlasciwosciHTML ? `
 
 
 async function openPapyrus(section){
-    // aliasy: stare #ogrodnictwo i #legendy prowadzą do nowej sekcji
-    if (section === 'ogrodnictwo' || section === 'legendy') {
-      section = 'og-legendy';
-    }
   // zakładamy, że te elementy są już pobrane gdzieś wyżej w Twoim kodzie:
   // const stage = document.getElementById('stage');
   // const cardsLayer = document.getElementById('cardsLayer');
@@ -2069,25 +1692,37 @@ async function openPapyrus(section){
     return;
   }
 
-  else if (section === 'og-legendy') {
-  topTitle.textContent = 'Ogrodnictwo i legendy';
-  topContent.innerHTML = buildHierarchy('og-legendy');
-  wireTreeControls(topContent);
-  bottomContent.innerHTML = '<p class="placeholder">Wybierz roślinę, by zobaczyć pełny opis (bez przepisów).</p>';
-
-  // klik w roślinę = render pełnego pakietu (ogrodnictwo + legendy/cechy + reszta JSON)
-  topContent.querySelectorAll('[data-plant]').forEach(a => {
-    a.addEventListener('click', e => {
-      e.preventDefault();
-      renderPlant(a.getAttribute('data-plant'), 'both'); // ⬅️ nowy tryb
-      updateAfterAsync();
+  else if(section === 'ogrodnictwo'){
+    topTitle.textContent = 'Ogrodnictwo';
+    topContent.innerHTML = buildHierarchy('ogrodnictwo');
+    wireTreeControls(topContent);
+    bottomContent.innerHTML = '<p class="placeholder">Wybierz roślinę, by o niej poczytać.</p>';
+    playOpenAnim();
+    topContent.querySelectorAll('[data-plant]').forEach(a=>{
+      a.addEventListener('click', (e)=>{
+        e.preventDefault();
+        renderPlant(a.getAttribute('data-plant'), 'ogrodnictwo');
+        updateAfterAsync();
+      });
     });
-  });
-
-  playOpenAnim();
-  updateAfterAsync();
+    updateAfterAsync();
   }
 
+  else if(section === 'legendy'){
+    topTitle.textContent = 'Legendy i historia';
+    topContent.innerHTML = buildHierarchy('legendy');
+    wireTreeControls(topContent);
+    bottomContent.innerHTML = '<p class="placeholder">Wybierz roślinę, by o niej poczytać.</p>';
+    playOpenAnim();
+    topContent.querySelectorAll('[data-plant]').forEach(a=>{
+      a.addEventListener('click', (e)=>{
+        e.preventDefault();
+        renderPlant(a.getAttribute('data-plant'), 'legendy');
+        updateAfterAsync();
+      });
+    });
+    updateAfterAsync();
+  }
 
   else if(section === 'kontakt'){
     // sekcja kontakt ma własną funkcję z animacją – po prostu deleguj
@@ -2182,10 +1817,9 @@ window.hideCoffeeLayer = window.hideCoffeeLayer || function(){};
 
   // Otwórz po hashu
   const hash=(location.hash||'').replace('#','');
-    if(!window.__openedByHash && ['legendy','przepisy','ogrodnictwo','og-legendy'].includes(hash)){
+    if(!window.__openedByHash && ['legendy','przepisy','ogrodnictwo'].includes(hash)){
       openPapyrus(hash);
     }
-
   // Startowa wysokość sceny = wysokość kart
   function setStageStart(){ stage.style.height = cardsLayer.scrollHeight + 'px'; }
   setStageStart(); window.addEventListener('resize', setStageStart);
@@ -2303,195 +1937,12 @@ function autoListify(val){
 
 function renderAUTO(raw){
   try{
-    const {zdjecia, zdjęcia, photos, images,Bibliografia, bibliografia, references,...rest} = raw || {};
+    const { zdjecia, zdjęcia, photos, images, ...rest } = raw || {};
     const html = autoListify(rest);
     return html || '<p class="muted">Brak rozpoznanych pól do wyświetlenia.</p>';
   }catch(e){
     return `<pre class="code">${(e && e.message) || String(e)}</pre>`;
   }
-}
-// === ZBIERANIE WSZYSTKIEGO (bez przepisów) DO JEDNEGO OBIEKTU ===
-function buildLegendPayload(norm, raw){
-  const out = {};
-
-  // Cechy i historia
-  if (norm.cechy_i_historia && (
-      norm.cechy_i_historia.opis ||
-      (norm.cechy_i_historia.cechy||[]).length ||
-      (norm.cechy_i_historia.zastosowanie_historyczne||[]).length ||
-      (norm.cechy_i_historia.ciekawostki||[]).length
-  )) {
-    out["Cechy i historia"] = {
-      ...(norm.cechy_i_historia.opis ? { "Opis": norm.cechy_i_historia.opis } : {}),
-      ...(norm.cechy_i_historia.cechy?.length ? { "Cechy": norm.cechy_i_historia.cechy } : {}),
-      ...(norm.cechy_i_historia.zastosowanie_historyczne?.length ? { "Zastosowanie historyczne": norm.cechy_i_historia.zastosowanie_historyczne } : {}),
-      ...(norm.cechy_i_historia.ciekawostki?.length ? { "Ciekawostki": norm.cechy_i_historia.ciekawostki } : {})
-    };
-  }
-
-  // Właściwości i składniki (lista "nazwa — działanie")
-  if (norm.wlasciwosci_i_skladniki?.length) {
-    out["Właściwości i składniki"] = norm.wlasciwosci_i_skladniki.map(it => {
-      if (typeof it === 'string') return it;
-      const n = it.nazwa || it.name || 'Składnik';
-      const d = it.dzialanie || it.działanie || it.effect || '';
-      return d ? `${n} — ${d}` : n;
-    });
-  }
-
-  // Uwagi i ostrzeżenia
-  if (norm.uwagi_i_ostrzezenia?.length) {
-    out["Uwagi i ostrzeżenia"] = norm.uwagi_i_ostrzezenia.map(u => {
-      if (typeof u === 'string') return u;
-      const a = u.uwaga || '';
-      const r = u.rozwiazanie || u.rozwiązanie || '';
-      return r ? `${a} — ${r}` : a;
-    });
-  }
-
-  // Inne zastosowania (słownik: dział → opis)
-  if (norm.inne_zastosowania && Object.keys(norm.inne_zastosowania).length) {
-    out["Inne zastosowania"] = Object.fromEntries(
-      Object.entries(norm.inne_zastosowania).map(([k,v]) => [k, v?.opis || v || ''])
-    );
-  }
-
-  // Taksonomia + ścieżka
-  if (norm.taksonomia && Object.values(norm.taksonomia).some(Boolean)) {
-    out["Taksonomia"] = norm.taksonomia;
-  }
-  if (norm.sciezka?.length) {
-    out["Ścieżka klasyfikacji"] = norm.sciezka;
-  }
-
-  // Zdjęcia (linki)
-  const photos = norm.zdjecia || [];
-  if (photos.length) {
-    out["Zdjęcia (linki)"] = photos;
-  }
-
-  // Bibliografia globalna (jeśli jest w pliku)
-<!--  const bib = normalizeBibliografia(raw || {});-->
-<!--  if (bib && Object.keys(bib).length){-->
-<!--    out["Bibliografia"] = bib; // {id/url: url}-->
-<!--  }-->
-
-  return out;
-}
-
-// Pomocnicze: rozpoznanie obrazków
-const _isImg = (u) => /\.(png|jpe?g|gif|webp|svg)(\?|#|$)/i.test(String(u)) || /\/(thumb|upload)\//i.test(String(u));
-
-// Uproszczone „na bogato”: tablice/obiekty → czytelny HTML
-function richValueToHTML(val){
-  if (val == null || val === '') return '';
-  if (Array.isArray(val)){
-    const allPrim = val.every(x => (x==null) || (typeof x!=='object'));
-    if (allPrim) return `<ul>${val.filter(v=>v!=null && v!=='').map(v=>`<li>${String(v)}</li>`).join('')}</ul>`;
-    // tablica obiektów – zrób listę „autolistify”
-    return val.map(v => (typeof v==='object' ? autoListify(v) : `<p>${String(v)}</p>`)).join('');
-  }
-  if (typeof val === 'object'){
-    // słownik → <dl> z rekurencją
-    const rows = Object.entries(val).map(([k,v])=>{
-      let inner = '';
-      if (Array.isArray(v)){
-        const allPrim = v.every(x => (x==null) || (typeof x!=='object'));
-        inner = allPrim
-          ? `<ul>${v.filter(x=>x!=null && x!=='').map(x=>`<li>${String(x)}</li>`).join('')}</ul>`
-          : v.map(x => (typeof x==='object' ? autoListify(x) : `<p>${String(x)}</p>`)).join('');
-      } else if (typeof v === 'object' && v){
-        inner = autoListify(v);
-      } else {
-        inner = `<p>${String(v||'')}</p>`;
-      }
-      return `<dt>${k}</dt><dd>${inner}</dd>`;
-    }).join('');
-    return rows ? `<dl>${rows}</dl>` : '';
-  }
-  return `<p>${String(val)}</p>`;
-}
-
-// „Legendy i opisy” w STYLU sekcji papirusu (jak Uprawa/Permakultura)
-function renderLEGENDY(src, raw=null, title='Legendy i opisy'){
-  // src może być już „payloadem” albo całym normem
-  const payload = (src && (src.taksonomia || src.wlasciwosci_i_skladniki || src.cechy_i_historia || src["Taksonomia"]))
-    ? (src["Taksonomia"] || src["Cechy i historia"] || src["Właściwości i składniki"] ? src : buildLegendPayload(src, raw))
-    : (buildLegendPayload(src, raw));
-
-  let body = '';
-
-  // Taksonomia
-  if (payload["Taksonomia"]) {
-    const t = payload["Taksonomia"];
-    const pairs = {};
-    ['krolestwo','gromada','klasa','rzad','rodzina','rodzaj','gatunek','podgatunek','odmiana','autor']
-      .forEach(k => { if (t[k]) pairs[k.toUpperCase()] = t[k]; });
-    body += `<h5>Taksonomia</h5>${dl(pairs)}`;
-    delete payload["Taksonomia"];
-  }
-
-  // Ścieżka klasyfikacji
-  if (payload["Ścieżka klasyfikacji"]) {
-    body += `<h5>Ścieżka klasyfikacji</h5>${list(payload["Ścieżka klasyfikacji"])}`;
-    delete payload["Ścieżka klasyfikacji"];
-  }
-
-  // Cechy i historia – rozbij na podsekcje
-  if (payload["Cechy i historia"]) {
-    const ch = payload["Cechy i historia"];
-    if (ch.Opis) body += `<p>${ch.Opis}</p>`;
-    if (ch.Cechy) body += `<h5>Cechy</h5>${richValueToHTML(ch.Cechy)}`;
-    if (ch["Zastosowanie historyczne"]) body += `<h5>Zastosowanie historyczne</h5>${richValueToHTML(ch["Zastosowanie historyczne"])}`;
-    if (ch.Ciekawostki) body += `<h5>Ciekawostki</h5>${richValueToHTML(ch.Ciekawostki)}`;
-    delete payload["Cechy i historia"];
-  }
-
-  // Właściwości i składniki
-  if (payload["Właściwości i składniki"]) {
-    body += `<h5>Właściwości i składniki</h5>${richValueToHTML(payload["Właściwości i składniki"])}`;
-    delete payload["Właściwości i składniki"];
-  }
-
-  // Uwagi i ostrzeżenia
-  if (payload["Uwagi i ostrzeżenia"]) {
-    body += `<h5>Uwagi i ostrzeżenia</h5>${richValueToHTML(payload["Uwagi i ostrzeżenia"])}`;
-    delete payload["Uwagi i ostrzeżenia"];
-  }
-
-  // Inne zastosowania
-  if (payload["Inne zastosowania"]) {
-    body += `<h5>Inne zastosowania</h5>${richValueToHTML(payload["Inne zastosowania"])}`;
-    delete payload["Inne zastosowania"];
-  }
-
-  // Zdjęcia (mini-galeria + linki)
-  if (payload["Zdjęcia (linki)"]) {
-    const arr = (Array.isArray(payload["Zdjęcia (linki)"]) ? payload["Zdjęcia (linki)"] : [payload["Zdjęcia (linki)"]]).filter(Boolean);
-    const imgs  = arr.filter(_isImg);
-    const other = arr.filter(u => !_isImg(u));
-    if (imgs.length)  body += `<div class="gallery">${imgs.map(u=>`<img src="${u}" alt="">`).join('')}</div>`;
-    if (other.length) body += `<ul>${other.map(u=>`<li><a href="${rootUrl(u)}" target="_blank" rel="noopener">${rootUrl(u)}</a></li>`).join('')}</ul>`;
-    delete payload["Zdjęcia (linki)"];
-  }
-
-  // Bibliografia (jeśli była w pliku)
-  if (payload["Bibliografia"]) {
-    const bib = payload["Bibliografia"]; // {id/url: url}
-    const items = Object.values(bib).filter(Boolean);
-    if (items.length){
-      body += `<h5>Bibliografia</h5><ul>${items.map(u=>`<li><a href="${rootUrl(u)}" target="_blank" rel="noopener">${rootUrl(u)}</a></li>`).join('')}</ul>`;
-    }
-    delete payload["Bibliografia"];
-  }
-
-  // Ewentualne, nieprzewidziane pola – render ogólny
-  Object.entries(payload).forEach(([k,v])=>{
-    if (v==null) return;
-    body += `<h5>${k}</h5>${richValueToHTML(v)}`;
-  });
-
-  return section(title, body);
 }
 
 // klik w nazwę zabiegu = przewiń + podświetl cel
@@ -2511,208 +1962,4 @@ stage.style.overflow = 'visible';
 
 // a gdy wracasz do kart (zamykanie papirusu)
 stage.style.overflow = 'hidden';
-
-</script>
-
-<!--// === KONTAKT — papirus z formularzem Google Forms ===-->
-<script>
-
-
-function buildKontaktUI(){
-  return `
-    <h2 style="margin:0 0 .35rem;">Kontakt</h2>
-    <p>Masz pytanie lub sugestię? Napisz do nas 🌱</p>
-
-    <!-- ukryta ramka: przechwytujemy odpowiedź, zostajemy na stronie -->
-    <iframe name="kontakt_iframe" id="kontakt_iframe" style="display:none;"></iframe>
-
-    <form id="kontaktForm" class="form"
-      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc4Cj-klfVitmYBLLpwYHStZ7vTsIFJ3mugJm7LW5QkiVACGQ/formResponse"
-      method="POST" target="kontakt_iframe" novalidate
-      style="display:grid; gap:.6rem; margin-top:.8rem; max-width:600px">
-
-      <label for="kt_name">Imię</label>
-      <input id="kt_name" name="entry.1654482530" type="text" placeholder="Twoje imię"
-             style="padding:.65rem .8rem; border:1px solid var(--line-strong); border-radius:10px; background:#fff9f0; font:inherit;">
-
-      <label for="kt_email">E‑mail (jeśli chcesz odpowiedź)</label>
-      <input id="kt_email" name="entry.1776531128" type="email" placeholder="twoj@mail.com"
-             style="padding:.65rem .8rem; border:1px solid var(--line-strong); border-radius:10px; background:#fff9f0; font:inherit;">
-
-      <label for="kt_msg">Wiadomość</label>
-      <textarea id="kt_msg" name="entry.1817341887" rows="5" required placeholder="Napisz wiadomość…"
-                style="padding:.65rem .8rem; border:1px solid var(--line-strong); border-radius:10px; background:#fff9f0; font:inherit;"></textarea>
-
-      <input type="hidden" name="submit" value="Submit">
-
-      <div style="display:flex; gap:.6rem; align-items:center; margin-top:.2rem;">
-        <button type="submit" class="btn">Wyślij</button>
-        <span class="muted">Wiadomość wyśle się w tle — zostaniesz na tej stronie.</span>
-      </div>
-    </form>
-
-    <div id="kontaktOk" style="display:none; margin-top:1rem;">
-      ✅ Dziękujemy! Wiadomość została wysłana. Odezwiemy się wkrótce.
-    </div>
-  `;
-}
-
-function openKontaktPapyrus(){
-  hideCoffeeLayer();
-  // złap elementy papirusu jak w innych sekcjach
-  const stage       = document.getElementById('stage');
-  const cardsLayer  = document.getElementById('cardsLayer');
-  const papLayer    = document.getElementById('papyrusLayer');
-  const papyrus     = document.getElementById('papyrus');
-  const topTitle    = document.getElementById('pap-top-title');
-  const topContent  = document.getElementById('pap-top-content');
-  const bottomContent = document.getElementById('pap-bottom-content');
-
-  // nagłówek + treść
-  topTitle.textContent = 'Kontakt';
-  topContent.innerHTML = buildKontaktUI();
-  bottomContent.innerHTML = '<p class="placeholder">Formularz działa bez opuszczania strony.</p>';
-
-  // delikatna animacja rozwijania zwoju
-  papyrus.classList.add('opening');
-  papyrus.addEventListener('animationend', () => {
-    papyrus.classList.remove('opening');
-  }, { once: true });
-
-  // przejście warstw (dokładnie jak w przepisach/ogrodnictwie)
-  const cardsH = cardsLayer.scrollHeight;
-  papLayer.style.visibility = 'hidden';
-  papLayer.removeAttribute('aria-hidden');
-  stage.style.height = cardsH + 'px';
-  papLayer.style.transform = 'translateY(100%)';
-  cardsLayer.style.transform = 'translateY(0)';
-  requestAnimationFrame(() => {
-    papLayer.style.visibility = 'visible';
-    if (typeof setStageHeightToPapyrus === 'function') {scheduleStageHeight();
-attachHeightObservers();}
-    cardsLayer.style.transform = 'translateY(-100%)';
-    papLayer.style.transform   = 'translateY(0)';
-    document.body.classList.add('peek-hidden');
-    if (typeof onScrollPeek === 'function') {
-      document.addEventListener('scroll', onScrollPeek, { passive:true });
-    }
-    if (typeof watchPapyrusResize === 'function') watchPapyrusResize();
-  });
-
-  // obsługa sukcesu: po załadowaniu odpowiedzi w ukrytym iframe pokaż komunikat
-  const iframe = document.getElementById('kontakt_iframe');
-  const form   = document.getElementById('kontaktForm');
-  const okBox  = document.getElementById('kontaktOk');
-
-  // czyszczone i potwierdzenie po submit
-  iframe.addEventListener('load', () => {
-    okBox.style.display = 'block';
-    form.reset();
-    if (typeof updateStageHeightAfterAsyncContent === 'function') {
-      updateStageHeightAfterAsyncContent();
-    }
-  });
-
-  return false;
-}
-
-// (opcjonalnie) PODPIĘCIE KLIKNIĘCIA W NAV:
-// Upewnij się, że link w nawigacji ma data-section="kontakt"
-document.querySelectorAll('a[data-section="kontakt"]').forEach(a => {
-  a.addEventListener('click', e => {
-    e.preventDefault();
-    openKontaktPapyrus();
-  });
-});
-function showCoffeeThanks(){
-  const stage       = document.getElementById('stage');
-  const cardsLayer  = document.getElementById('cardsLayer');
-  const papLayer    = document.getElementById('papyrusLayer');
-  const coffeeLayer = document.getElementById('coffeeLayer');
-
-  // schowaj papirus
-  papLayer.style.transform = 'translateY(100%)';
-  papLayer.setAttribute('aria-hidden','true');
-
-  // pokaż warstwę kawy
-  coffeeLayer.style.display = 'block';
-  coffeeLayer.removeAttribute('aria-hidden');
-
-  // animacja wejścia (jak papirus)
-  const cardsH = cardsLayer.scrollHeight;
-  stage.style.height = cardsH + 'px';
-  cardsLayer.style.transform = 'translateY(0)';
-
-  requestAnimationFrame(()=>{
-    // ustaw wysokość sceny do zawartości kawy
-    stage.style.height = Math.max(560, coffeeLayer.scrollHeight) + 'px';
-    cardsLayer.style.transform = 'translateY(-100%)';
-  });
-}
-
-document.querySelectorAll('[data-action="coffee"]').forEach(btn=>{
-  btn.addEventListener('click', ()=>{
-    showCoffeeThanks();          // pokazujemy podziękowanie
-    // brak preventDefault -> link otwiera się w nowej karcie dzięki target="_blank"
-  });
-});
-
-function showPapyrusLayer(){
-  const papLayer = document.getElementById('papyrusLayer');
-  const stage = document.getElementById('stage');
-  const cardsLayer = document.getElementById('cardsLayer');
-  if(!papLayer) return;
-
-  papLayer.style.visibility = 'hidden';
-  papLayer.removeAttribute('aria-hidden');
-  papLayer.style.transform = 'translateY(100%)';
-  cardsLayer.style.transform = 'translateY(0)';
-
-  requestAnimationFrame(()=>{
-    papLayer.style.visibility = 'visible';
-    if (typeof setStageHeightToPapyrus === 'function') {
-        scheduleStageHeight();
-        attachHeightObservers();
-    }
-    cardsLayer.style.transform = 'translateY(-100%)';
-    papLayer.style.transform   = 'translateY(0)';
-  });
-}
-function hideCoffeeLayer(){
-  const coffeeLayer = document.getElementById('coffeeLayer');
-  if(!coffeeLayer) return;
-  coffeeLayer.style.display = 'none';
-  coffeeLayer.setAttribute('aria-hidden','true');
-}
-
-
-</script>
-<script>
-(function(){
-  const stage = document.getElementById('stage');
-  const cardsLayer = document.getElementById('cardsLayer');
-
-  function setStageHeightToCards(){
-    if(!stage || !cardsLayer) return;
-    stage.style.height = cardsLayer.scrollHeight + 'px';
-  }
-
-  // 1) Kiedy obrazki w kartach dokończą się ładować
-  document.querySelectorAll('#cards img').forEach(img=>{
-    if(!img.complete){
-      img.addEventListener('load', setStageHeightToCards, {once:true});
-      img.addEventListener('error', setStageHeightToCards, {once:true});
-    }
-  });
-
-  // 2) Na starcie i przy zmianie rozmiaru
-  window.addEventListener('load', setStageHeightToCards);
-  window.addEventListener('resize', setStageHeightToCards);
-
-  // 3) (opcjonalnie) krótka zwłoka na layout
-  requestAnimationFrame(setStageHeightToCards);
-})();
-</script>
-{% endblock %}
-
 

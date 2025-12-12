@@ -1,0 +1,151 @@
+{% set now = now or None %}
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% block title %}Kwiatownik{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/kwiatownik.css">
+  <style>
+    :root{
+      --bg: #f7f5f2;
+      --paper: #fffdfa;
+      --ink: #2b2b2b;
+      --muted: #6b6b6b;
+      --accent: #356d3c;
+      --accent-2:#8fbf94;
+      --chip:#efe9e2;
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header.kwiato{
+      position:sticky;top:0;z-index:1000;background:linear-gradient(180deg,#ffffff 0%,#fffdf7 60%,rgba(255,253,247,.65) 100%);
+      border-bottom:1px solid #e9e2d9; backdrop-filter:saturate(1.2) blur(6px);
+    }
+    .container{max-width:1200px;margin:0 auto;padding:10px 16px}
+    .brand{display:flex;align-items:center;gap:.7rem}
+    .brand h1{font-size:1.55rem;margin:0;font-weight:800;letter-spacing:.2px}
+    .brand small{color:var(--muted)}
+    .brand img{width:28px;height:28px}
+    /* top info bar */
+    .topinfo{display:flex;flex-wrap:wrap;align-items:center;gap:.65rem;margin-top:.5rem;color:var(--muted);font-size:.93rem}
+    .chip{display:inline-flex;align-items:center;gap:.35rem;background:var(--chip);border-radius:999px;padding:.32rem .65rem;border:1px solid #e7dfd5}
+    .chip .k{opacity:.7}
+    .sep{width:1px;height:16px;background:#e6ded6;margin:0 .25rem}
+    /* main nav */
+    .mainnav{display:flex;flex-wrap:wrap;gap:.5rem;margin:.65rem 0 .85rem 0}
+    .pill{display:inline-flex;align-items:center;gap:.5rem;background:#fff;border:1px solid #e8e1d8;border-radius:999px;padding:.45rem .8rem;box-shadow:0 1px 0 rgba(0,0,0,.04)}
+    .pill:hover{box-shadow:0 2px 8px rgba(0,0,0,.06)}
+    .pill .ico{opacity:.85}
+    /* page */
+    main{min-height:60vh}
+    .page{max-width:1100px;margin:0 auto;padding:12px 16px}
+    footer{margin-top:2rem;border-top:1px solid #ece3d9;background:#fffdf9}
+    footer .container{display:flex;justify-content:space-between;align-items:center;padding:14px 16px;font-size:.92rem;color:var(--muted)}
+    /* responsive */
+    @media (max-width: 740px){
+      .brand h1{font-size:1.25rem}
+      .topinfo{gap:.4rem}
+      .pill{padding:.38rem .65rem}
+    }
+  </style>
+</head>
+<body>
+<header class="kwiato">
+  <div class="container">
+    <div class="brand">
+      <a href="/" class="logo" title="Kwiatownik"><img src="/static/img/kwiatownik_logo.png" alt=""></a>
+      <h1><a href="/">Kwiatownik</a></h1>
+      <small>— boskie narzędzie dla zielarzy i kucharzy</small>
+    </div>
+
+    <!-- Pasek informacji: godzina + meteo + księżyc -->
+    <div class="topinfo" id="topinfo">
+      <span class="chip" title="Twoja lokalizacja">
+        📍 <span id="loc-name">{{ (weather.name if weather and weather.name) or (location_label if location_label) or "Warszawa" }}</span>
+      </span>
+      <span class="chip" title="Lokalny czas">
+        ⏰ <span id="clock">--:--</span>
+      </span>
+      {% if weather and weather.temp is not none %}
+      <span class="chip" title="Temperatura">🌡️ <b>{{ '%.0f' % weather.temp }}°C</b></span>
+      {% endif %}
+      {% if weather and weather.humidity is not none %}
+      <span class="chip" title="Wilgotność">💧 {{ weather.humidity }}%</span>
+      {% endif %}
+      {% if weather and weather.precip is not none %}
+      <span class="chip" title="Opad (ostatnia godz.)">☔ {{ weather.precip }} mm</span>
+      {% endif %}
+      {% if weather and weather.wind is not none %}
+      <span class="chip" title="Wiatr">🍃 {{ weather.wind }} m/s</span>
+      {% endif %}
+      {% if weather and weather.cloud is not none %}
+      <span class="chip" title="Zachmurzenie">☁️ {{ weather.cloud }}%</span>
+      {% endif %}
+      {% if weather and weather.uv is not none %}
+      <span class="chip" title="Indeks UV">UV {{ weather.uv }}</span>
+      {% endif %}
+      {% if moon_phase %}
+      <span class="chip" title="Faza Księżyca">
+        {{ moon_emoji or "🌙" }} {{ moon_phase }}{% if moon_percent is not none %} ({{ moon_percent }}%){% endif %}
+      </span>
+      {% endif %}
+    </div>
+
+    <!-- Główne nawigacyjne kapsułki -->
+    <nav class="mainnav">
+      <a class="pill" href="/mapy">🗺️ <span>Mapy</span></a>
+      <a class="pill" href="/historia">📜 <span>Historia</span></a>
+      <a class="pill" href="/kulinarne">🍲 <span>Kulinarne</span></a>
+      <a class="pill" href="/medyczne">🧴 <span>Medyczne</span></a>
+      <a class="pill" href="/uprawa">🌱 <span>Ogrodowe</span></a>
+      <a class="pill" href="/nalewki">🥃 <span>Nalewki</span></a>
+      <a class="pill" href="/zamienniki-tytoniu">🚬 <span>Zamienniki tytoniu</span></a>
+      <span class="sep"></span>
+      <a class="pill" href="/generator_przepisow">⚗️ <span>Generator przepisów</span></a>
+      <a class="pill" href="/ulubione">💚 <span>Ulubione</span></a>
+      <a class="pill" href="/">🌿 <span>Rośliny</span></a>
+      <a class="pill" href="/kontakt">✉️ <span>Kontakt</span></a>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  {% block content %}{% endblock %}
+</main>
+
+<footer>
+  <div class="container">
+    <div>© {{ (now.year if now else 2025) }} Kwiatownik</div>
+    <div><a href="/polityka-prywatnosci">Polityka prywatności</a></div>
+  </div>
+</footer>
+
+<script>
+  // Zegar (lokalny)
+  function pad(n){return n<10?'0'+n:n}
+  function tickClock(){
+    const d=new Date();
+    const t=pad(d.getHours())+':'+pad(d.getMinutes());
+    const el=document.getElementById('clock');
+    if(el) el.textContent=t;
+  }
+  tickClock();
+  setInterval(tickClock, 1000);
+
+  // Wczytaj nazwę lokalizacji z localStorage jeżeli jest
+  try{
+    const loc = JSON.parse(localStorage.getItem('kwiatownik_location')||'{}');
+    if(loc && loc.label){
+      const el = document.getElementById('loc-name');
+      if(el) el.textContent = loc.label;
+    }
+  }catch(e){}
+</script>
+{% block extra_scripts %}{% endblock %}
+</body>
+</html>

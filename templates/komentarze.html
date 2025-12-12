@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Komentarze użytkowników</h1>
+
+<!-- FORMULARZ DODAWANIA NOWEGO KOMENTARZA -->
+<div style="margin-bottom: 20px;">
+    <form method="POST">
+        <textarea name="content" rows="4" style="width: 100%;" placeholder="Napisz komentarz..."></textarea>
+        <br>
+        <button class="btn btn-primary">Wyślij komentarz</button>
+    </form>
+</div>
+
+<hr>
+
+<h2>Lista komentarzy</h2>
+
+{% macro render_comment(c, level=0) %}
+    <div style="margin-left: {{ level * 25 }}px; border:1px solid #ccc; padding:10px; margin-bottom:10px;">
+
+        <p>
+            <strong>{{ c.user.username }}</strong>
+            <span style="color:gray; font-size:12px;">
+                ({{ c.created_at.strftime("%Y-%m-%d %H:%M") }})
+            </span>
+        </p>
+
+        <p>{{ c.content }}</p>
+
+        <!-- PRZYCISK ODPOWIEDZI -->
+        {% if current_user.is_authenticated %}
+            <details style="margin-bottom:10px;">
+                <summary style="cursor:pointer;">Odpowiedz</summary>
+
+                <form action="{{ url_for('reply_comment', parent_id=c.id) }}" method="POST">
+                    <textarea name="content" rows="3" style="width:100%;" placeholder="Napisz odpowiedź..."></textarea>
+                    <button class="btn btn-secondary" style="margin-top:5px;">Wyślij</button>
+                </form>
+            </details>
+        {% endif %}
+
+        <!-- PRZYCISK EDYCJI -->
+        {% if current_user.is_authenticated and (current_user.id == c.user_id or current_user.is_admin) %}
+            <a href="{{ url_for('edit_comment', id=c.id) }}" style="margin-right:10px;">
+                ✏ Edytuj
+            </a>
+        {% endif %}
+
+        <!-- USUWANIE (tylko admin) -->
+        {% if current_user.is_authenticated and current_user.is_admin %}
+            <a href="{{ url_for('delete_global_comment', id=c.id) }}"
+               style="color:red;"
+               onclick="return confirm('Usunąć komentarz?');">🗑 Usuń</a>
+        {% endif %}
+
+    </div>
+
+    <!-- Odpowiedzi -->
+    {% for reply in c.replies %}
+        {{ render_comment(reply, level + 1) }}
+    {% endfor %}
+{% endmacro %}
+
+
+<!-- WYSWIETLENIE KOMENTARZY GŁÓWNYCH -->
+{% for c in comments if c.parent_id is none %}
+    {{ render_comment(c) }}
+{% endfor %}
+
+{% endblock %}

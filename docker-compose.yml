@@ -1,0 +1,22 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: kwiatownik
+      POSTGRES_USER: kw_user
+      POSTGRES_PASSWORD: kw_pass
+    ports: ["5432:5432"]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  web:
+    build: .
+    command: bash -lc "pip install -r requirements.txt && alembic upgrade head && python run.py"
+    environment:
+      DATABASE_URL: postgresql+psycopg://kw_user:kw_pass@db:5432/kwiatownik
+      APP_SECRET: dev
+    ports: ["8000:8000"]
+    depends_on: [db]
+volumes:
+  pgdata:

@@ -1,48 +1,6 @@
-1. Zioła (rośliny zielne wieloletnie i jednoroczne)
-Krwawnik pospolity (Achillea millefolium)
-Młode liście do sałatek, zupy, kwiaty do herbat ziołowych.
-
-Podagrycznik pospolity (Aegopodium podagraria)
-Młode liście do sałatek, zup, pesto.
-
-Bluszczyk kurdybanek (Glechoma hederacea)
-Aromatyczna przyprawa do twarożków, jajecznicy, zup, naparów.
-
-Gwiazdnica pospolita (Stellaria media)
-Świeże ziele jako „dzikie warzywo” do sałatek, past.
-
-Świerząbek bulwiasty (Chaerophyllum bulbosum)
-Bulwy gotowane jak ziemniaki, liście jako przyprawa.
-
-Czosnaczek pospolity (Alliaria petiolata)
-Smak czosnkowo-musztardowy; liście do sałatek, sosów, farszów.
-
-Lebiodka pospolita (oregano dzikie) (Origanum vulgare)
-Liście i kwiaty do przyprawiania dań, naparów.
-
-Marzanka wonna (Galium odoratum)
-Liście do aromatyzowania napojów, deserów (np. majówka).
-
-Rdest ptasi (Polygonum aviculare)
-Ziele do zup i herbat ziołowych, młode pędy jadalne.
-
-Szczawik zajęczy (Oxalis acetosella)
-Liście o smaku kwaśnym, do sałatek, lemoniad.
-
-Żankiel zwyczajny (Sanicula europaea)
-Liście do zup, herbat ziołowych.
-
-Mlecz zwyczajny (Sonchus oleraceus)
-Młode liście do surówek, duszenia.
-
 
 @
 
-Jasnota biała (Lamium album)
-Kwiaty i młode pędy do sałatek, omletów.
-
-Mniszek lekarski (Taraxacum officinale)
-Liście, kwiaty, pąki – sałatki, zupy, syrop z kwiatów, „kapary” z pąków.
 
 Pokrzywa zwyczajna (Urtica dioica)
 Młode liście do zup, farszów, zapiekanek, herbaty.
@@ -215,3 +173,5 @@ Jarząb brekinia (Sorbus torminalis)
 Lipa szerokolistna (Tilia platyphyllos) – miejscami rzadka
 
 Sosna limba (Pinus cembra) – tylko Tatry
+
+

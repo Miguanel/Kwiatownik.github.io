@@ -1,299 +1,709 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Kwiatownik{% endblock %}</title>
-    <link rel="stylesheet" href="/static/css/style.css">
-    <link rel="icon" href="/static/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>{% block title %}Kwiatownik — Zielnik Słowiańskiej Ziemi{% endblock %}</title>
 
-    <script src="/static/js/main.js"></script>
-    <script src="/static/js/script.js"></script>
-    <script src="/static/js/favs.js"></script>
+    <style>
+html { scroll-behavior: smooth; }
+  :root{
+    --paper: #efe3d1;
+    --paper-ink: #f7efe2;
+    --ink: #2b2318;
+    --ink-soft:#4a3a2f;
+    --line:#b99f90;
+    --line-strong:#9f8576;
+    --shadow: 0 10px 28px rgba(55,35,25,.12);
+    --emboss: inset 0 0 0 1px rgba(60,40,30,.08), inset 0 1px 0 rgba(255,255,255,.35);
+    --grain: radial-gradient( at 20% 10%, rgba(255,255,255,.25), transparent 40%),
+             radial-gradient( at 80% 90%, rgba(255,255,255,.15), transparent 40%);
+    --navH: 56px;
+    --stage-h: auto;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ height:100%; }
+  body{
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--ink);
+    line-height: 1.5;
+    padding: 48px 20px 40px;
+    background:
+      repeating-linear-gradient(0deg, rgba(0,0,0,.012) 0 1px, transparent 1px 3px),
+      linear-gradient(180deg, var(--paper) 0%, var(--paper-ink) 100%);
+  }
+  @media (max-width: 600px) {
+  body {
+    font-size: 0.9rem;       /* zmniejszamy bazową czcionkę */
+    line-height: 1.4;
+    padding: 32px 10px 28px; /* węższe boczne marginesy */
+  }
+
+  .papyrus__panel {
+    padding: 18px 14px;      /* ciaśniejsze wnętrze paneli */
+  }
+
+  .content-area {
+    padding: 12px 10px;
+    font-size: 0.9rem;
+  }
+
+  .kalendarz-tabela {
+    font-size: 0.85rem;      /* mniejsza czcionka tabeli */
+  }
+}
+
+  header{ text-align:center; margin-bottom: 36px; }
+  header h1{ font-size: clamp(42px, 6.2vw, 68px); letter-spacing: .5px; line-height: 1.05; color: var(--ink); text-shadow: 0 1px 0 rgba(255,255,255,.5); }
+  header .subtitle{ margin-top:8px; font-size:clamp(16px,2.2vw,22px); color:var(--ink-soft); letter-spacing:.04em; text-transform:uppercase; }
+
+  nav.primary{
+    position: sticky; top: 0; z-index: 20;
+    display:flex; flex-wrap:wrap; justify-content:center; gap: 26px;
+    padding: 10px 10px;
+    margin: 14px auto 16px;
+    border-top: 2px solid var(--line);
+    border-bottom: 2px solid var(--line);
+    background: linear-gradient(180deg, rgba(255,255,255,.42), rgba(255,255,255,.18)), var(--paper);
+    backdrop-filter: blur(2px);
+  }
+  nav.primary a{ color: var(--ink); font-weight: 700; text-decoration: none; text-transform: uppercase; letter-spacing: .06em; }
+  nav.primary a:hover, nav.primary a:focus-visible{ text-decoration: underline; text-underline-offset: 4px; }
 
 
+  /* STAGE – jedna „scena” dla kart/papirusu */
+  .stage{
+    position: relative; max-width: 1180px; margin: 0 auto;
+    height: var(--stage-h); overflow: hidden;
+    transition: height .6s cubic-bezier(.2,.7,.2,1);
+  }
+  @media (prefers-reduced-motion: reduce){ .stage{ transition: none; } }
+  .layer{ position: absolute; left:0; right:0; top:0; will-change: transform; transform: translateY(0); transition: transform .6s cubic-bezier(.2,.7,.2,1); }
+  @media (prefers-reduced-motion: reduce){ .layer{ transition:none; } }
+  /* Papirus: DOMYŚLNIE UKRYTY (poza sceną) */
+  #papyrusLayer{
+    transform: translateY(100%);   /* „pod sceną” */
+    visibility: hidden;
+  }
+
+  /* Animacja rozwijania samego zwoju (skalowanie w pionie) */
+  .papyrus.opening{
+    transform-origin: top center;
+    animation: pap-open 620ms cubic-bezier(.2,.7,.2,1) both;
+  }
+  @keyframes pap-open{
+    0%   { transform: scaleY(0.02); filter: saturate(.9) brightness(.98); }
+    60%  { transform: scaleY(1.02); }
+    100% { transform: scaleY(1); filter: none; }
+  }
+
+  /* KARTY – tylko dwie (mobile friendly) */
+  .cards{ display: grid; grid-template-columns: repeat(2, minmax(260px, 1fr)); gap: 28px; padding: 2px 0 10px; }
+  @media (max-width: 720px){ .cards{ grid-template-columns: 1fr; gap:18px; } }
+  .card{ display:block; background:#f6eee4; border-radius:16px; padding:28px 22px 22px; text-align:center; color:var(--ink); text-decoration:none; box-shadow: var(--shadow); position:relative; }
+  .card::before{ content:""; position:absolute; inset:0; border-radius:16px; box-shadow: var(--emboss); pointer-events:none; }
+  .card h3{ font-size: clamp(22px, 2.6vw, 28px); margin-bottom:6px; letter-spacing:.02em; text-transform:uppercase; }
+  .card .lead{ color:var(--ink-soft); font-size:clamp(14px,1.8vw,16px); margin:0 6px 18px; }
+  .card figure{ margin:0 auto; width:min(320px,86%); padding:14px; border-radius:12px; background:linear-gradient(180deg, rgba(255,255,255,.45), rgba(255,255,255,.15)), #f8f1e6; border:1px solid var(--line-strong); box-shadow: inset 0 0 0 1px rgba(255,255,255,.35); }
+  .card img{ display:block; width:260px; max-width:100%; height:auto; margin:0 auto; filter:contrast(1.02) saturate(.96); }
+  @media (prefers-reduced-motion:no-preference){
+    .card{ transition: transform .18s ease, box-shadow .18s ease; }
+    .card:hover{ transform: translateY(-2px) rotate3d(.2,.6,0,1.2deg); box-shadow: 0 14px 34px rgba(55,35,25,.18); }
+    .card:active{ transform: scale(.98); }
+  }
+
+  /* PAPIRUS (pionowy zwój w dwóch członach) */
+  .papyrus{
+    position: relative; overflow: clip; border-radius: 18px;
+    box-shadow: 0 28px 70px rgba(30,15,10,.18), 0 2px 0 rgba(255,255,255,.35) inset;
+    background:
+      radial-gradient(110% 18px at 50% 0%, rgba(0,0,0,.18), transparent 60%),
+      radial-gradient(110% 18px at 50% 100%, rgba(0,0,0,.18), transparent 60%),
+      repeating-linear-gradient(0deg, rgba(0,0,0,.015) 0 2px, transparent 2px 5px),
+      linear-gradient(180deg, #f0e3ce, #ead9be 54%, #efdfc2);
+    background-blend-mode: overlay, overlay, normal, normal;
+    transform-origin: top center;
+  }
+  .papyrus__panel{ padding: 24px 22px; border-top: 1px dashed rgba(80,60,40,.35); }
+  .papyrus__panel:first-child{ border-top:0; padding-top:28px; }
+  .papyrus__title{ font-size:clamp(18px,2.1vw,22px); letter-spacing:.04em; text-transform:uppercase; color:var(--ink-soft); margin-bottom:10px; }
+
+  .content-area{ min-height: 240px; background: linear-gradient(180deg, rgba(255,255,255,.35), rgba(255,255,255,.08)), var(--grain); border: 1px solid rgba(0,0,0,.08); border-radius: 12px; padding: 18px 16px; }
+  .placeholder{ color: var(--ink-soft); font-style: italic; }
+
+  /* Hierarchia */
+  .tree{ columns: 2 320px; column-gap: 26px; }
+  @media (max-width: 720px){ .tree{ columns: 1; } }
+  .tree details{ break-inside: avoid; margin: 6px 0 10px; border-left: 2px solid rgba(0,0,0,.08); padding-left: 10px;}
+  .tree summary{ cursor: pointer; font-weight: 700; letter-spacing:.02em; list-style:none; color:var(--ink); }
+  .tree summary::before{ content:"▸"; margin-right:6px; display:inline-block; transform: translateY(-1px); opacity:.7; }
+  details[open] > summary::before{ content:"▾"; }
+  .tree ul{ list-style:none; margin:6px 0 0 16px; padding-left:0; }
+  .tree li{ margin:4px 0; }
+  .tree a{ color:var(--ink); text-decoration:none; border-bottom:1px dotted rgba(0,0,0,.22); }
+  .tree a:hover{ border-bottom-color: rgba(0,0,0,.5); }
+
+  /* Inputs (Przepisy) */
+  .inputs{ display:grid; grid-template-columns: repeat(2, minmax(220px,1fr)); gap:12px; }
+  @media (max-width: 720px){ .inputs{ grid-template-columns:1fr; } }
+  .inputs label{ font-weight:600; font-size:14px; display:block; margin-bottom:4px; color:var(--ink-soft); }
+  .inputs input{ width:100%; border:1px solid var(--line-strong); padding:10px 12px; border-radius:8px; background:#fff9f0; font:inherit; }
+  .btn{ appearance:none; border:0; background:#5d462f; color:#fff; padding:10px 14px; border-radius:10px; font-weight:700; letter-spacing:.02em; cursor:pointer; box-shadow:0 6px 18px rgba(0,0,0,.15); }
+  .btn:hover{ filter:brightness(1.05); }
+  .muted{ color:#6b5947; font-size:14px; }
+
+  .results-list{ list-style:none; padding:0; margin:0; display:grid; gap:10px; }
+  .result-item{ border:1px solid rgba(0,0,0,.1); border-radius:10px; padding:12px; background:#fffdf8; }
+  .result-item h4{ margin-bottom:4px; font-size:18px; }
+
+  footer.site{ text-align:center; margin-top: 32px; font-size:14px; color:var(--ink-soft); }
+  /* NAV z ikoną przy etykiecie */
+nav.primary {
+  gap: 18px;
+}
+nav.primary .nav-item{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background-color .18s ease, transform .18s ease;
+}
+nav.primary .nav-item:hover,
+nav.primary .nav-item:focus-visible{
+  background: rgba(255,255,255,.4);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+nav.primary .nav-img{
+  width: 28px; height: 28px;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 0 rgba(255,255,255,.35)) saturate(.95);
+  border-radius: 6px;
+}
+nav.primary .nav-label{
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+/* Responsywność – na bardzo wąskich ekranach zmniejszamy ikony i ściskamy odstępy */
+@media (max-width: 420px){
+  nav.primary { gap: 12px; }
+  nav.primary .nav-item{ gap: 8px; padding: 6px 10px; }
+  nav.primary .nav-img{ width: 22px; height: 22px; }
+  nav.primary .nav-label{ font-size: 0.92rem; letter-spacing: .03em; }
+}
+
+
+/* Ikony w podsumowaniach drzewek */
+.tree summary{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.tree .tree-icon{
+  width: 28px; height: 28px;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 0 rgba(255,255,255,.35)) saturate(.95);
+  border-radius: 6px;
+}
+.tree .tree-label{
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+/* Ikony w nagłówkach grup */
+.tree summary{
+  display:flex; align-items:center; gap:10px;
+  cursor:pointer; font-weight:700; letter-spacing:.02em; list-style:none; color:var(--ink);
+}
+.tree summary::marker { content: ""; } /* dla Safari */
+.tree summary::before{ content:"▸"; margin-right:6px; transform:translateY(-1px); opacity:.7; }
+details[open] > summary::before{ content:"▾"; }
+
+/* TYLKO ikonki, nie skaluj innych obrazów na stronie */
+.tree .grp-ico{
+  width:24px; height:24px; flex:0 0 24px; object-fit:contain;
+  filter: drop-shadow(0 1px 0 rgba(255,255,255,.30));
+  opacity:.95;
+}
+
+/* Zapobiega przypadkowemu wklejeniu dużych obrazów do .tree */
+.tree > img, .tree ul > img, .tree details > img { display:none !important; }
+/* --- Papirus: sekcje artykułu rośliny --- */
+/* Kolorowe panele sekcji w papirusie */
+.pap-article .pap-sec{
+  border-radius: 14px;
+  padding: 12px;
+  margin: 10px 0 14px;
+  border: 1px solid rgba(0,0,0,.08);
+  box-shadow: 0 1px 0 rgba(255,255,255,.35) inset;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,.10)),
+    #fffdf8;
+}
+
+/* Delikatne „paski” – co druga sekcja ma inne tło */
+.pap-article .pap-sec:nth-of-type(2n){
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,.10)),
+    #f7f2e9;
+  border-color: rgba(0,0,0,.10);
+}
+
+/* Główek sekcji */
+.pap-article .pap-sec__head{
+  margin: -2px 0 6px;
+  padding-bottom: 6px;
+  border-bottom: 1px dashed rgba(0,0,0,.14);
+}
+.pap-article .pap-sec__title{
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  font-size: 15px;
+  color: #4a3a2f;
+}
+
+/* Treść sekcji */
+.pap-article .pap-sec__body{ margin-top: 4px; }
+
+/* Listy definicji w sekcjach – desktop = 2 kolumny */
+.pap-article .pap-sec dl{
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 6px 12px;
+}
+.pap-article .pap-sec dt{ font-weight: 700; color:#3c2f23; }
+.pap-article .pap-sec dd{ margin: 0; }
+
+/* Mobile: tytuł nad treścią (koniec „ucinania”) */
+@media (max-width: 640px){
+  .pap-article .pap-sec{ padding: 10px 12px; border-radius: 12px; }
+  .pap-article .pap-sec dl{ grid-template-columns: 1fr; gap: 4px 10px; }
+  .pap-article .pap-sec dt{
+    display:block; padding-top:.2rem; font-size:14px;
+  }
+  .pap-article .pap-sec dd{
+    display:block; margin: 0 0 .6rem;
+  }
+  /* łamanie długich fraz */
+  .pap-article .pap-sec, .pap-article .pap-sec *{
+    overflow-wrap:anywhere; word-break:break-word; hyphens:auto;
+  }
+}
+
+
+.pap-article h4{ margin:14px 0 6px; text-transform:uppercase; letter-spacing:.04em; font-size:15px; color:#4a3a2f;}
+.pap-article .meta{ color:#6b5947; font-size:14px; margin-bottom:8px;}
+.pap-article dl{ display:grid; grid-template-columns: 160px 1fr; gap:6px 12px; }
+.pap-article dt{ font-weight:700; color:#3c2f23; }
+.pap-article dd{ margin:0; }
+.pap-article ul{ margin:6px 0 10px 18px; }
+.pap-article li{ margin:2px 0; }
+.pap-article .gallery{ display:flex; gap:10px; flex-wrap:wrap; margin:8px 0 6px; }
+.pap-article .gallery img{ width:110px; height:82px; object-fit:cover; border-radius:8px; border:1px solid rgba(0,0,0,.12); }
+
+/* Tabela kalendarza */
+.calendar-wrapper { overflow-x:auto; -webkit-overflow-scrolling:touch; cursor:grab; margin:1em 0; padding-bottom:.3em; }
+.calendar-wrapper:active { cursor:grabbing; }
+.kalendarz-tabela { width:100%; min-width:800px; border-collapse:collapse; margin:1em 0; font-size:.95em; border:1px solid #ccc; }
+.kalendarz-tabela th, .kalendarz-tabela td { border:1px solid #ddd; padding:.3em .6em; text-align:center; }
+.kalendarz-tabela th { background:#f9f9f9; }
+.kalendarz-tabela td.aktywny { background:#d4edda; font-weight:600; }
+.kalendarz-tabela td.current { outline:2px solid #007744; }
+.kalendarz-tabela th.current-month { background:#c2e8d0; font-weight:700; }
+.zabieg-link{ color:#1e5b27; text-decoration:underline; }
+
+/* Szczegóły (kotwice docelowe) */
+.kalendarz-legenda { margin-top:2em; }
+.legenda-zabieg{
+  background:#fefefe; border:1px solid #ddd; border-left:5px solid #97bd7d;
+  padding:.8em 1.2em; margin-bottom:1em; border-radius:8px; scroll-margin-top:90px;
+}
+.legenda-zabieg.aktywny-teraz{ background:#f3fbe9; border-left-color:#8dbf7e; box-shadow:0 1px 3px rgba(140,170,120,.15); }
+
+
+.legenda-zabieg.hit { animation: flash 1.6s ease; }
+@keyframes flash { 0%{box-shadow:0 0 0 rgba(0,0,0,0)} 20%{box-shadow:0 0 0 6px #cfead1} 100%{box-shadow:0 0 0 rgba(0,0,0,0)} }
+
+
+.breadcrumbs{display:flex;flex-wrap:wrap;gap:.5em 1em;margin:0 0 1em}
+.crumb{background:#f5faf5;border:1px solid #dbead9;border-radius:999px;padding:.25em .6em;font-size:.92em;color:#2e522e}
+
+details.rest{margin-top:1em;border:1px solid #e6e6e6;border-radius:8px;padding:.5em 1em;background:#fff}
+details.rest>summary{cursor:pointer;font-weight:600}
+
+/* Przepisy: nowy pasek szukania + tagi (papirus) */
+.search-zone{position:relative;display:grid;gap:.6rem;margin-bottom:1rem}
+#recipeSearch{padding:.7rem 1rem;border:1px solid var(--line-strong);border-radius:12px;background:#fff9f0}
+.suggestions{display:flex;flex-wrap:wrap;gap:.4rem}
+.suggestion{padding:.35rem .6rem;border:1px dashed #b59b7a;border-radius:999px;cursor:pointer;font-size:.9rem;background:#fffdf8}
+.suggestion:hover{background:#f5ede5}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem}
+.tag{display:inline-flex;align-items:center;gap:.5rem;padding:.35rem .6rem;border-radius:999px;color:#1f140c;font-size:.9rem}
+.tag .x{cursor:pointer;font-weight:700}
+.c0{background:#ffe9b5}.c1{background:#fcd3d3}.c2{background:#d6f0ff}.c3{background:#dff7d9}.c4{background:#eadcff}.c5{background:#ffe6f7}
+
+/* --- Karty przepisów: pełna treść --- */
+.result-item{ padding:16px 14px; }
+.recipe-head{ display:flex; align-items:center; justify-content:space-between; gap:.6rem; }
+.badges{ display:flex; gap:.4rem; flex-wrap:wrap; }
+.badge{ padding:.2rem .55rem; border-radius:999px; font-size:.8rem; border:1px solid rgba(0,0,0,.12); background:#fff; white-space:nowrap; }
+.badge.med{ background:#eaf6ea; border-color:#b7d5b7; }
+.badge.kul{ background:#fff5d8; border-color:#e5cda0; }
+.badge.met{ background:#e8efff; border-color:#b8c8f5; }
+.tags-line{ margin-top:.35rem; font-size:.9rem; color:#6b5947; }
+.recipe-sec{ margin-top:.7rem; }
+.recipe-sec h5{ font-size:.95rem; margin:0 0 .25rem; letter-spacing:.02em; text-transform:uppercase; color:#4a3a2f; }
+.recipe-sec ul{ margin:.2rem 0 0 1.2rem; }
+.recipe-sec ol{ margin:.2rem 0 0 1.2rem; }
+.recipe-sec p{ margin:.2rem 0 0; }
+
+/* Źródła w kartach przepisu */
+.source-list{ margin:.2rem 0 0 1.2rem; font-size:.9rem; word-break: break-word; }
+.source-list a{ text-decoration: underline; }
+
+
+/* Karty przepisów – nagłówek + meta */
+.recipe-head{display:flex;justify-content:space-between;gap:.6rem;align-items:flex-start}
+.badges{display:flex;flex-wrap:wrap;gap:.35rem}
+.badge{border:1px solid #ddd;border-radius:999px;padding:.18rem .55rem;font-size:.78rem;background:#f7f7f7}
+.badge.med{background:#ffe5e5;border-color:#e7bcbc}
+.badge.kul{background:#fff1c7;border-color:#e4cfa0}
+.badge.met{background:#e9f6ff;border-color:#b9d5e6}
+.meta-line{margin:.25rem 0 .35rem;color:#6b5947;font-size:.9rem}
+.tags-line{margin:.2rem 0 .6rem;font-size:.85rem;color:#5a4a3a}
+.recipe-sec h5{margin:.6rem 0 .2rem;font-size:1rem}
+
+/* --- Karty: zawsze 3 kolumny w jednym rzędzie --- */
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 równe kolumny, zero zawijania */
+  gap: clamp(8px, 2vw, 24px);                       /* responsywny odstęp */
+}
+
+/* Nadpisujemy poprzednie mobile @media, które robiło 1 kolumnę */
+@media (max-width: 720px){
+  .cards{ grid-template-columns: repeat(3, 1fr); gap: clamp(6px, 2vw, 12px); }
+}
+
+/* Karty i zawartość – bardziej kompaktowo na małych ekranach */
+.card{
+  padding: clamp(12px, 2.6vw, 22px) clamp(10px, 2.4vw, 22px);
+  border-radius: 14px;
+}
+
+.card h3{
+  font-size: clamp(16px, 2.4vw, 24px);
+  margin-bottom: 4px;
+}
+
+.card .lead{
+  font-size: clamp(12px, 1.8vw, 14px);
+  margin-bottom: clamp(8px, 2vw, 14px);
+  line-height: 1.35;
+}
+
+/* Ramka obrazka niech nie ogranicza szerokości */
+.card figure{
+  width: 100%;
+  padding: clamp(8px, 1.8vw, 12px);
+  border-radius: 10px;
+}
+
+/* Obrazy – niech same się skalują do 1/3 ekranu */
+.card img{
+  width: clamp(80px, 22vw, 180px);  /* minimum 80px, typowo ~22% szerokości okna, max 180px */
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* ——— „Postaw mi kawę” w nav ——— */
+.nav-item.coffee-btn{
+  background: linear-gradient(180deg, #fff3c4, #ffe9a6);
+  border: 1px solid #e6c36a;
+  box-shadow: 0 2px 0 rgba(255,255,255,.35) inset, 0 6px 18px rgba(0,0,0,.08);
+}
+.nav-item.coffee-btn:hover,
+.nav-item.coffee-btn:focus-visible{
+  background: linear-gradient(180deg, #ffe9a6, #ffe093);
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+.coffee-ico{
+  width: 28px; height: 28px;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 6px;
+  background: #fffbe6;
+  border: 1px solid #e6c36a;
+  font-size: 16px; line-height: 1;
+  filter: drop-shadow(0 1px 0 rgba(255,255,255,.35));
+}
+@media (max-width:420px){
+  .coffee-ico{ width:22px; height:22px; font-size:14px; }
+}
+/* Top gallery pod tytułem rośliny */
+.top-gallery{ display:flex; gap:10px; flex-wrap:wrap; margin:.4rem 0 .2rem; }
+.top-gallery img{
+  width:160px; height:120px; object-fit:cover;
+  border-radius:10px; border:1px solid rgba(0,0,0,.12);
+}
+.top-links{ margin:.4rem 0 0 1.2rem; }
+
+.nav {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    background: #f0f0f0;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #004d00;
+    font-weight: bold;
+}
+
+.user-info {
+    margin-left: auto;
+    color: #333;
+}
+
+    </style>
+    <style>
+/* pełnoekranowa przyciemniona warstwa */
+.greet-overlay{
+  position: fixed; inset: 0; z-index: 9999;
+  background: rgba(0,0,0,.35);
+  display: grid; place-items: center;
+  backdrop-filter: blur(2px);
+}
+/* pudełko powitania */
+.greet-box{
+  max-width: 640px; width: min(92vw, 640px);
+  background: #fdf6e3;
+  border: 2px solid #a67c52;
+  border-radius: 14px;
+  box-shadow: 0 18px 50px rgba(0,0,0,.25);
+  font-family: Georgia, "Times New Roman", serif;
+  color: #2b2318;
+  padding: 18px 18px 14px;
+}
+.greet-box h3{ margin:0 0 .35em; font-size: clamp(20px, 2.2vw, 26px); }
+.greet-lead{ margin:.2em 0 .6em; }
+.greet-list{ margin:.4em 0 .8em 1.1em; }
+.greet-list li{ margin:.15em 0; }
+.greet-footer{ margin:.6em 0 0; font-size:.95em; color:#6b5947; }
+.greet-ok{
+  margin-top:.8em; padding:.5em 1.2em; cursor:pointer;
+  border:0; border-radius:10px; font-weight:700;
+  background:#a67c52; color:#fff;
+  box-shadow:0 6px 18px rgba(0,0,0,.15);
+}
+.greet-ok:hover{ filter:brightness(1.05); }
+
+.stage{ contain: layout; }
+.layer{ backface-visibility:hidden; transform:translateZ(0); }
+.papyrus{ contain: content; }
+/* Karty: responsywna siatka */
+.cards{
+  display: grid;
+  gap: clamp(8px, 2vw, 24px);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* ≥900px: 3 kolumny (jak było) */
+@media (max-width: 900px){
+  .cards{ grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ≤520px: 1 kolumna — nic się nie „ucina” */
+@media (max-width: 520px){
+  .cards{ grid-template-columns: 1fr; }
+}
+
+.card figure{ overflow: visible; }      /* upewnij się, że ramka nie tnie */
+.card img{ display:block; object-fit:contain; }  /* nic nie przytnie proporcji */
+
+
+
+    </style>
+    <!--/* MOBILE-->
+    <style>
+
+@media (max-width: 640px){
+  .pap-article dl{
+    grid-template-columns: 1fr;   /* było: 160px 1fr */
+    gap: 4px 10px;
+  }
+  .pap-article dt{
+    padding-top: .35rem;
+    font-size: 14px;
+  }
+  .pap-article dd{
+    margin: 0 0 .5rem;
+  }
+  /* łamanie wszystkiego co długie */
+  .pap-article, .pap-article *{
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    hyphens: auto;
+  }
+}
+/* MOBILE: wrapper na całą szerokość, wygodny swipe */
+@media (max-width: 640px){
+  .calendar-wrapper{
+    margin: .6rem calc(-1 * var(--content-pad, 12px)); /* wysuń do krawędzi */
+    padding: 0 var(--content-pad, 12px) .4rem;
+    overflow-x: auto;              /* wymuś poziomy scroll */
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-x pan-y;     /* pozwól przesuwać palcem w poziomie */
+  }
+  .kalendarz-tabela{
+    min-width: 720px;              /* tabela szersza niż ekran */
+    font-size: .9rem;
+  }
+  .kalendarz-tabela th,
+  .kalendarz-tabela td{
+    padding: .35rem .5rem;
+  }
+  /* etykieta + checkbox w jednym wierszu, nie „zawijaj” */
+  .calendar-wrapper > label{
+    display: inline-flex;
+    gap: .45rem;
+    align-items: center;
+    white-space: nowrap;
+    margin-bottom: .3rem;
+  }
+}
+/* ogólne wypełnienie treści papirusu (używane w edge‑to‑edge) */
+.content-area{ --content-pad: 12px; padding: 18px var(--content-pad); }
+
+/* === Zakładki: łamanie tekstu + 1 kolumna na mobile === */
+@media (max-width: 640px){
+  .pap-article dl{
+    grid-template-columns: 1fr !important; /* zamiast 160px 1fr */
+    gap: 6px 10px;
+  }
+  .pap-article dt{
+    font-size: 14px;
+    padding-top: .3rem;
+  }
+  .pap-article dd{
+    margin: 0 0 .6rem;
+  }
+  /* wymuszanie łamania tekstu */
+  .pap-article, .pap-article *{
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    hyphens: auto;
+  }
+}
+
+/* === Kalendarz: wrapper przewijalny w poziomie === */
+.calendar-wrapper{
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* płynny scroll iOS */
+  touch-action: pan-x pan-y;         /* łatwy swipe */
+}
+
+.kalendarz-tabela{
+  min-width: 720px;   /* tabela zawsze szersza od ekranu */
+  border-collapse: collapse;
+}
+.kalendarz-tabela th,
+.kalendarz-tabela td{
+  padding: .4rem .6rem;
+  text-align: center;
+}
+
+/* MOBILE: zmniejszona czcionka i marginesy */
+@media (max-width: 640px){
+  .kalendarz-tabela{
+    font-size: .9rem;
+  }
+  .calendar-wrapper{
+    margin: .5rem -12px; /* „edge-to-edge” */
+    padding: 0 12px .5rem;
+  }
+}
+@media (max-width: 640px){
+  .pap-article dl{
+    display: block; /* zamiast grid */
+  }
+  .pap-article dt{
+    display: block;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  .pap-article dd{
+    display: block;
+    margin: .2rem 0 1rem 0; /* odstęp pod nagłówkiem */
+  }
+
+
+
+    </style>
 </head>
+
 <body>
+<a href="#main" class="sr-only" style="position:absolute;left:-9999px;">Przejdź do treści</a>
 
-<div class="wrapper">
-<header class="top-bar">
+<header class="site">
+    <h1>Kwiatownik</h1>
+    <p class="subtitle">Encyklopedia kulinarno-ogrodnicza</p>
+</header>
 
-        <a href="/" class="logo" style="display:flex;align-items:center;gap:0.7em;text-decoration:none;">
-            <img src="{{ url_for('static', filename='img/kwiatownik_logo.png') }}"
-                 alt="Logo Kwiatownik – encyklopedia kulinarno-medyczna".
-                 style="height:38px;width:auto;display:inline-block;border-radius:7px;box-shadow:0 1px 3px #0001;">
-            <span style="font-size:1.13em;vertical-align:middle;color:#184e10;font-weight:bold;letter-spacing:0.01em;">
-            Kwiatownik <div style="font-size:0.31em;">- encyklopedia kulinarno-medyczna</div>
+<nav class="primary" id="nav">
+    <a href="#przepisy" data-section="przepisy" class="nav-item">
+        <img class="nav-img"
+             src="{{ url_for('static', filename='img/kwiatownik-przepisy_upscayl.png') }}">
+        <span class="nav-label">Przepisy kulinarne i medyczne</span>
+    </a>
+
+    <a href="/#og-legendy" data-section="og-legendy" class="nav-item">
+        <img class="nav-img"
+             src="{{ url_for('static', filename='img/kwiatownik-ogrodnictwo_upscayl.png') }}">
+        <span class="nav-label">Ogrodnictwo i legendy</span>
+    </a>
+
+    <a href="https://buycoffee.to/miguana" target="_blank" rel="noopener">
+        <img class="nav-img"
+             src="{{ url_for('static', filename='img/kwiatownik-kawa.png') }}">
+        <span class="nav-label">Postaw mi kawę</span>
+    </a>
+
+    <a href="/#kontakt" data-section="kontakt" class="nav-item">
+        <img class="nav-img" src="{{ url_for('static', filename='img/kwiatownik-kontakt.png') }}">
+        <span class="nav-label">Kontakt</span>
+    </a>
+
+    {% if current_user.is_authenticated %}
+        <span class="user-info">
+            Zalogowano jako: <strong>{{ current_user.username }}</strong>
         </span>
-        </a>
-        <nav class="main-navbar">
-            <a href="/"><u>Spis treści</u></a>
-            <a href="/ulubione"><u>Ulubione w ogrodzie</u></a>
-            <a href="/generator_przepisow"><u>Generator przepisów - mam to</u></a>
-            <a href="/kontakt"><u>Kontakt</u></a>
 
-        </nav>
-    <div class="moon-bar">
-                📅 {{ now.year }} | 🌙 {{ moon_phase }} ({{ moon_percent }}%)
-            </div>
-<!--        <button class="search-btn" aria-label="Szukaj roślin" onclick="window.location.href='/szukaj'">🔍</button>-->
-    </header>
+        <a href="{{ url_for('komentarze') }}">Komentarze</a>
 
-    <main>
-        <div class="page">
-            {% block content %}{% endblock %}
-        </div>
-    </main>
-    <footer>
-        <small>&copy; {{ now.year if now else '1936' }} Kwiatownik. Wszelkie prawa zastrzeżone.</small>
-    </footer>
-</div>
+        {% if current_user.is_admin %}
+            <a href="/admin">Panel administratora</a>
+        {% endif %}
 
-<script>
+        <a href="{{ url_for('logout') }}">Wyloguj</a>
+    {% else %}
+        <a href="{{ url_for('login') }}">Logowanie</a>
+        <a href="{{ url_for('register') }}">Rejestracja</a>
+    {% endif %}
+</nav>
 
-const allPlantsData = {{ all_plants|default([])|tojson|safe }};
+<main id="main">
+    {% block content %}
+    {% endblock %}
+</main>
 
-
-let searchInputsDiv = document.getElementById("search-inputs");
-// Funkcja walidacji frazy
-function validQuery(val) {
-    return val.length >= 3 && val.length <= 120;
-}
-
-// Zbierz przepisy (identycznie jak wcześniej)
-function gatherAllRecipes() {
-  let out = [];
-  allPlantsData.forEach(plant => {
-    ["przepisy_medyczne", "przepisy_kulinarne"].forEach(type => {
-      let group = plant.data[type] || {};
-      Object.entries(group).forEach(([nazwa, przepis]) => {
-        out.push({
-          typ: type.includes("medyczne") ? "medyczny" : "kulinarny",
-          plant: plant,
-          nazwa: nazwa,
-          przepis: przepis
-        });
-      });
-    });
-
-    let zinnymi = plant.data.przepisy_z_innymi_roslinami || {};
-    Object.entries(zinnymi).forEach(([podtyp, grupy]) => {
-      if (typeof grupy === "object" && grupy !== null) {
-        Object.entries(grupy).forEach(([podkategoria, arr]) => {
-          if (Array.isArray(arr)) {
-            arr.forEach(przepis => {
-              out.push({
-                typ: podtyp == "medyczne" ? "medyczny-z-innych" : "kulinarny-z-innych",
-                podtyp: podkategoria,
-                plant: plant,
-                nazwa: przepis.nazwa,
-                przepis: przepis
-              });
-            });
-          } else {
-            console.warn("Oczekiwano tablicy w podkategorii:", podtyp, podkategoria, arr);
-          }
-        });
-      } else {
-        console.warn("Nieprawidłowe dane główne w przepisach z innymi roślinami:", podtyp, grupy);
-      }
-});
-  });
-  return out;
-}
-
-<!--const ALL_RECIPES = gatherAllRecipes();-->
-
-function addInputField() {
-    let input = document.createElement("input");
-    input.type = "text";
-    input.className = "recipe-search-input glow";
-    input.placeholder = "Wpisz składnik lub właściwości…";
-    input.autocomplete = "off";
-    input.addEventListener('input', handleInputFields);
-    searchInputsDiv.appendChild(input);
-    input.focus();
-}
-
-function handleInputFields() {
-    let inputs = Array.from(document.querySelectorAll('.recipe-search-input'));
-    let values = inputs.map(i => i.value);
-    let validCount = values.filter(validQuery).length;
-
-    // Usuń zbędne puste inputy (zostawiając jeden pusty na końcu!)
-    for (let i = inputs.length - 2; i >= 0; --i) {
-        if (!inputs[i].value && !inputs[i+1].value) {
-            inputs[i].remove();
-        }
-    }
-    // Jeśli ostatni input jest niepusty i poprawny, dodaj nowy (max 6)
-    let last = inputs[inputs.length-1];
-    if (last && validQuery(last.value) && inputs.length < 6) {
-        if (!Array.from(searchInputsDiv.children).includes(document.activeElement)) addInputField();
-        else setTimeout(addInputField, 0); // Jeśli focus, dodaj później
-    }
-    // Jeśli usunięto wszystko – dodaj jedno puste pole
-    if (!searchInputsDiv.querySelector('.recipe-search-input')) addInputField();
-
-    triggerSearch();
-}
-
-function clearInputs() {
-    if (searchInputsDiv) {
-      searchInputsDiv.innerHTML = '';
-      addInputField();
-      triggerSearch();
-}
-}
-
-// Podświetlanie fraz w tekście na różne kolory
-function highlightMultiple(text, queries) {
-    let colors = ["#fceb94", "#a3e2e6", "#b2ffb6", "#ffb4b4", "#d1c3f7", "#ffd1b3"];
-    queries.forEach((q, idx) => {
-        if(q.length > 0) {
-            let rgx = new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), "gi");
-            text = text.replace(rgx, match => `<span style="background:${colors[idx % colors.length]};color:#222;border-radius:4px;padding:0 0.13em;">${match}</span>`);
-        }
-    });
-    return text;
-}
-
-
-
-// Inicjalizacja – tylko 1 pole na start
-if (searchInputsDiv) {
-    searchInputsDiv.innerHTML = '';
-    addInputField();
-    triggerSearch();
-}
-
-
-</script>
-
-
-<a href="https://zrzutka.pl/72a4ab" target="_blank" id="kawa-widget" title="Postaw mi kawę!">
-    <div class="kawa-widget-illu">
-    </div>
-    <span class="kawa-widget-text">
-    <b>☕ Postaw mi kawę</b>
-  </span>
-</a>
-
-
-<div id="welcome-modal" style="display:none;position:fixed;z-index:99999;top:0;left:0;width:100vw;height:100vh;
-background:rgba(30,50,30,0.78);backdrop-filter:blur(2px);justify-content:center;align-items:center;">
-    <div id="welcome-content" style="position:relative;">
-        <!-- Wypełni JS -->
-    </div>
-</div>
-<script>
-const GREETING_VERSION = "1.2";
-
-(function () {
-  const modal = document.getElementById("welcome-modal");
-  const boxWrap = document.getElementById("welcome-content");
-  let welcomeStatePushed = false;
-
-  // Małe usprawnienia stylów kontenera, by ładniej wyglądał na fonie
-  modal.style.padding = "14px"; // margines od krawędzi ekranu
-  modal.style.boxSizing = "border-box";
-
-  function setSeen() {
-    try { localStorage.setItem("kwiatownik_greeting", GREETING_VERSION); } catch(e){}
-  }
-
-  function hideWelcome(fromPopstate=false) {
-    if (!modal) return;
-    modal.style.display = "none";
-    setSeen();
-    // Jeżeli zamknęliśmy ręcznie, cofamy tylko wtedy, gdy wcześniej dopisaliśmy stan
-    if (!fromPopstate && welcomeStatePushed) {
-      // usuwamy dodatkowy wpis z historii, bez opuszczania strony
-      history.back();
-    }
-    welcomeStatePushed = false;
-  }
-
-  function showWelcome(greet) {
-    // Zawartość z responsywnymi stylami (ważne: szerokość i max-wysokość)
-    boxWrap.innerHTML = `
-      <div style="
-        background:#fff;
-        border-radius:20px;
-        box-shadow:0 0 28px 10px #9c9696a0;
-        width:min(92vw, 430px);
-        max-height:85vh;
-        overflow:auto;
-        padding:clamp(16px, 4vw, 24px);
-        font-size:clamp(0.96rem, 2.6vw, 1.12rem);
-        position:relative;
-        border:0.6px solid #ececec;">
-
-        <button id="welcome-close-btn"
-          style="position:absolute;right:0.9em;top:0.75em;font-size:1.35em;background:none;border:none;cursor:pointer;color:#4d4a4a;opacity:0.75;"
-          aria-label="Zamknij">✖️</button>
-
-        <div style="display:flex;align-items:center;gap:0.8em;margin-bottom:0.4em;">
-          <img src="/static/img/kwiatownik_logo.png" alt="Logo Kwiatownika"
-               style="width:38px;height:38px;box-shadow:0 1px 5px #e2e2e2b0;border-radius:50%;">
-          <h2 style="margin:0;font-size:1.15em;line-height:1.15;font-weight:800;letter-spacing:0.01em;color:#253521;">
-            ${greet.greeting_title.replace(/^🌱\\s*/, "")}
-          </h2>
-        </div>
-
-        <div style="margin-bottom:0.9em;color:#233f23;font-size:1em;">
-          ${greet.greeting_short}
-        </div>
-
-        <ul style="margin-bottom:0.9em;color:#343a2e;font-size:0.98em;padding-left:1.1em;">
-          ${greet.greeting_features.map(f=>`<li style="margin-bottom:0.11em;">• ${f}</li>`).join('')}
-        </ul>
-
-        <div style="
-          background:#f8f5f0;color:#233e1e;border-radius:8px;
-          padding:0.75em 0.95em;border:1.3px solid #ececec;
-          font-size:1em;box-shadow:0 2px 7px #e2e2e2a5;">
-          ${greet.greeting_footer}
-        </div>
-      </div>
-    `;
-
-    // Pokaż modal
-    modal.style.display = "flex";
-
-    // Dopisz stan do historii, by „cofnij” zamknęło popup zamiast strony
-    history.pushState({ welcome: true }, "");
-    welcomeStatePushed = true;
-
-    // Zamknij krzyżykiem
-    const closeBtn = document.getElementById("welcome-close-btn");
-    if (closeBtn) closeBtn.addEventListener("click", () => hideWelcome(false));
-  }
-
-  // Klik poza okienkiem też zamyka
-  modal.addEventListener("click", (e) => {
-    if (e.target === modal) hideWelcome(false);
-  });
-
-  // Cofnięcie w przeglądarce/telefonie: zamknij popup
-  window.addEventListener("popstate", (event) => {
-    if (welcomeStatePushed) {
-      hideWelcome(true); // przyszło z historii
-    }
-  });
-
-  // Inicjalizacja
-  try {
-    if (localStorage.getItem("kwiatownik_greeting") !== GREETING_VERSION) {
-      fetch('/static/greeting.json')
-        .then(r => r.json())
-        .then(showWelcome)
-        .catch(() => {/* cicho pomiń */});
-    }
-  } catch(e) { /* cicho pomiń */ }
-})();
-</script>
+<footer class="site">© 1936 Kwiatownik. Wszystkie prawa zastrzeżone.</footer>
 
 
 </body>

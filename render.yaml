@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: kwiatownik-web
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -c gunicorn.conf.py run:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.4
+      - key: APP_SECRET
+        generateValue: true
+      # DATABASE_URL zostanie wstrzyknięty po podpięciu usługi bazy
+
+databases:
+  - name: kwiatownik-db
+    databaseName: kwiatownik
+    plan: free

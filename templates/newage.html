@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kwiatownik - Encyklopedia kulinarno-historyczna</title>
+  <style>
+    /* Reset i typografia */
+<!--    * {-->
+<!--      box-sizing: border-box;-->
+<!--      margin: 0;-->
+<!--      padding: 0;-->
+<!--      font-family: 'Georgia', serif;-->
+<!--    }-->
+
+    body {
+      background-color: #f9f3e9;
+      color: #3e2f1c;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header h2 {
+      font-size: 1.5em;
+      font-weight: normal;
+      color: #5a4633;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 40px;
+      border-top: 2px solid #c2b59b;
+      border-bottom: 2px solid #c2b59b;
+      padding: 10px 0;
+      background-color: #f1e7d0;
+    }
+
+    nav a {
+      margin: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #3e2f1c;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .sections {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .section {
+      background-color: #fffaf2;
+      border: 1px solid #d9c9a9;
+      padding: 30px;
+      flex: 1 1 300px;
+      max-width: 400px;
+      text-align: center;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      text-decoration: none; /* Usunięcie podkreślenia z linku */
+      color: inherit; /* Zachowanie koloru dziedziczonego */
+    }
+
+    .section:hover {
+      transform: scale(1.03);
+    }
+
+    .section h3 {
+      font-size: 1.6em;
+      margin-bottom: 15px;
+      color: #2f2417;
+      text-decoration: none; /* Brak podkreślenia */
+    }
+
+    .section p {
+      font-size: 1em;
+      color: #5e4b33;
+      margin-bottom: 20px;
+      text-decoration: none; /* Brak podkreślenia */
+    }
+
+    .section img {
+      width: 250px;
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #95896f;
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        flex: 1 1 100%;
+      }
+
+      header h1 {
+        font-size: 2.2em;
+      }
+
+      header h2 {
+        font-size: 1.2em;
+      }
+
+      nav a {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kwiatownik</h1>
+    <h2>Encyklopedia kulinarno-historyczna</h2>
+  </header>
+
+  <nav>
+    <a href="#legendy">Legendy i historia</a>
+    <a href="#przepisy">Przepisy kulinarne i medyczne</a>
+    <a href="#ogrodnictwo">Ogrodnictwo</a>
+  </nav>
+
+  <div class="sections">
+    <!-- Sekcja Legendy i historia -->
+    <a href="#legendy" class="section">
+      <h3>LEGENY I HISTORIA</h3>
+      <p>Opowieści o roślinach oraz ich znaczenie na przestrzeni dziejów</p>
+      <img src="{{ url_for('static', filename='img/kwiatownik-legendy_upscayl.png') }}" alt="Kwiaty - legendy" />
+    </a>
+
+    <!-- Sekcja Przepisy -->
+    <a href="#przepisy" class="section">
+      <h3>PRZEPISY KULINARNE I MEDYCZNE</h3>
+      <p>Mnóstwo receptur na dania oraz domowe lekarstwa</p>
+      <img src="{{ url_for('static', filename='img/kwiatownik-przepisy_upscayl.png') }}" alt="Zupa - przepisy" />
+    </a>
+
+    <!-- Sekcja Ogrodnictwo -->
+    <a href="#ogrodnictwo" class="section">
+      <h3>OGRODNICTWO</h3>
+      <p>Jak sadzić, by nie przesadzić – porady związane z uprawą roślin</p>
+      <img src="{{ url_for('static', filename='img/kwiatownik-ogrodnictwo_upscayl.png') }}" alt="Ogrodnictwo" />
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2025 Kwiotownik. Wszystkie prawa zastrzeżone.
+  </footer>
+</body>
+</html>

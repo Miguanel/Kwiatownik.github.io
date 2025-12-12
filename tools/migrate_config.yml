@@ -1,0 +1,44 @@
+# Które pola w starym JSON odpowiadają którym w nowych modelach
+plant:
+  common_pl: ["nazwa", "nazwa_potoczna"]
+  latin_binominal: ["nazwa_lacinska", "lacina", "latin"]
+  family_latin: ["rodzina", "family"]
+  description_md: ["opisy.opis", "opis"]
+  cultivation_md: ["opisy.uprawa"]
+  harvest_md: ["opisy.zbiory"]
+  hazards_md: ["opisy.przeciwwskazania", "uwagi_bezpieczenstwo"]
+  meta_json: ["meta", "parametry"]
+  names: ["synonimy", "nazwy_alternatywne"]
+  parts: ["czesci", "parts"]
+  uses: ["zastosowania", "cele"]
+  images: ["zdjecia", "images"]
+  recipes: ["przepisy", "recipes"]
+  sources: ["zrodla", "sources"]
+
+# Mapowanie typów przepisów
+recipe_types:
+  nalewka: "Nalewka"
+  napar: "Napar"
+  odwar: "Odwar"
+  syrop: "Syrop"
+
+# Domyślne „źródło migracji” – dopisywane do zrodla każdego obiektu
+default_source:
+  typ: "inne"
+  tytul: "Migracja danych Kwiatownik"
+  autor: "Narzędzie migrate_json"
+  rok: 2025
+  url: null
+  isbn: null
+  doi: null
+  strona: null
+  uwagi: "Automatyczna migracja z plików JSON"
+
+# Normalizacja nazw części
+parts_map:
+  "lisc": "liść"
+  "liscie": "liść"
+  "lisć": "liść"
+  "kwiat": "kwiat"
+  "korzen": "korzeń"
+  "kora": "kora"

@@ -1,0 +1,232 @@
+{% extends "base.html" %}
+{% block title %}Kwiatownik – Spis treści{% endblock %}
+
+{% macro count_gatunki(tree) %}
+{% set ns = namespace(total=0) %}
+{% if tree.get('gatunki') is defined and tree['gatunki'] is iterable %}
+{% set ns.total = ns.total + (tree['gatunki'] | length) %}
+{% endif %}
+{% for v in tree.values() %}
+{% if v is mapping %}
+{% set ns.total = ns.total + (count_gatunki(v) | int) %}
+{% endif %}
+{% endfor %}
+{{ ns.total }}
+{% endmacro %}
+
+{% macro render_flat_group(tree, group_name, bgclass, prefix=[]) %}
+{% if tree.get('gatunki') %}
+<ul class="tree-list {{ bgclass }}">
+  {% for g in tree['gatunki'] %}
+    {% if prefix %}
+      <li class="group-header group-sticky">{{ prefix|join(' → ') }}</li>
+    {% endif %}
+    <li class="tree-gatunek">
+      <div class="tree-main-row">
+        {% if g.get('zdjecia') %}
+          <img
+            src="{{ g.zdjecia[0] }}"
+            alt="Zdjęcie {{ g.name }}"
+            class="plant-thumb-list"
+          >
+        {% endif %}
+        <div class="name-row">
+          <a
+            class="tree-breadcrumb-main"
+            href="{{ url_for('roslina', category=g.category, plant=g.slug) }}"
+          >{{ g.name }}</a>
+          <span
+            class="fav-btn"
+            data-plant="{{ g.category }}/{{ g.slug }}"
+            onclick="toggleFav('{{ g.category }}/{{ g.slug }}')"
+            title="Dodaj/usuń z ulubionych"
+          >💚</span>
+        </div>
+        <div class="latin-row">
+          <i class="latin">({{ g.latin }})</i>
+          <span
+            class="garden-btn"
+            data-plant="{{ g.category }}/{{ g.slug }}"
+            onclick="toggleGarden('{{ g.category }}/{{ g.slug }}')"
+            title="Dodaj/usuń do ogrodu"
+          >🌱</span>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+
+{% else %}
+{% for key, node in tree.items() %}
+{% if key != "gatunki" %}
+{{ render_flat_group(node, group_name, bgclass, prefix + [key]) }}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endmacro %}
+
+{% block content %}
+<h2>Spis treści</h2>
+
+<div class="search-panel" style="margin-bottom:1.6em;">
+    <input type="search" id="tree-search"
+           placeholder="Szukaj w spisie treści..." minlength="3" maxlength="80"
+           style="width:100%;padding:0.67em 1em;font-size:1.13em;border-radius:8px;border:1.2px solid #bcd7b7;">
+</div>
+
+
+    {% set segments = [
+    ("Drzewa", "Drzewa", "bg-drzewa"),
+    ("Zioła", "Rośliny zielne (Zioła)", "bg-ziola"),
+    ("Egzotyczne", "Rośliny egzotyczne", "bg-egzotyczne"),
+    ("Korzenie i bulwy", "Korzenie i bulwy", "bg-korzenie"),
+    ("Krzaki", "Krzaki", "bg-krzaki"),
+    ("Grzyby", "Grzyby", "bg-grzyby")
+    ] %}
+    {% for label, key, bgclass in segments %}
+    {% if tree.get(key) %}
+    <section class="tree-segment" data-segment="{{ label }}">
+        <h3 class="tree-segment-title group-sticky">
+            {{ label }} <span class="tree-group-count">[{{ count_gatunki(tree[key]) }}]</span>
+        </h3>
+        {{ render_flat_group(tree[key], label, bgclass) }}
+    </section>
+    {% endif %}
+    {% endfor %}
+
+{% endblock %}
+
+<style>
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.tree-segment {
+  margin-bottom: 2.5em;
+  padding-bottom: 1.5em;
+}
+
+.tree-segment-title {
+  position: sticky;
+  top: 0;
+  background: #f9fdf7;
+  padding: 0.5em 0.6em;
+  font-size: 1.3em;
+  font-weight: bold;
+  z-index: 5;
+  border-bottom: 2px solid #cce2cc;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  color: #194514;
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+}
+
+.group-header {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #2a421f;
+  margin-top: 1.2em;
+  margin-bottom: 0.3em;
+  border-bottom: 1px solid #bcd7b7;
+  padding-bottom: 0.2em;
+  background: #f9faf6;
+  padding-left: 0.5em;
+}
+
+.group-sticky {
+  position: sticky;
+  top: 0;
+  background: #f9fdf7;
+  z-index: 10;
+  padding: 0.6em 1em;
+  border-bottom: 1px solid #dcecdc;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+
+@media (max-width: 600px) {
+  .tree-segment-title {
+    font-size: 1.1em;
+    padding: 0.4em 0.5em;
+  }
+  .group-header {
+    font-size: 1em;
+    padding-left: 0.3em;
+  }
+  .tree-breadcrumb-main {
+    font-size: 0.95em;
+  }
+  .latin {
+    font-size: 0.85em;
+  }
+}
+
+.tree-gatunek:empty {
+  display: none !important;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+#tree-scrollbox {
+  height: calc(100vh - 200px);
+  overflow-y: auto;
+  padding-right: 1em;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.plant-thumb-list {
+  width: 42px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-right: 0.6em;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  background: #e6efe0;
+  flex-shrink: 0;
+}
+.tree-main-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.name-row,
+.latin-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+}
+
+/* Responsywnie dla szerokości ≤400px */
+@media (max-width: 400px) {
+  .tree-main-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.3em;
+  }
+  .name-row,
+  .latin-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .name-row a,
+  .latin-row i {
+    flex: 1;
+    text-align: left;
+  }
+  .fav-btn,
+  .garden-btn {
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+}
+
+</style>
+<script>
+
+    const allPlantsData = {{ all_plants|default([])|tojson|safe }};
+</script>

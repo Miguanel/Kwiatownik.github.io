@@ -1,15 +1,271 @@
 from markupsafe import Markup
 from pathlib import Path
-from flask import Flask, render_template, send_from_directory, jsonify, request, make_response, abort, jsonify, request
+from flask import Flask, render_template, send_from_directory, jsonify, request, make_response, abort, jsonify, request, \
+    redirect, url_for, session
 import os, json, requests, math, datetime, ephem, re
 
+from flask_sqlalchemy import SQLAlchemy
+from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
+from werkzeug.security import generate_password_hash, check_password_hash
+import logging
+
 app = Flask(__name__)
+
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
+app.config["SECRET_KEY"] = "bardzo_tajny_klucz_ktory_sie_nie_zmienia_123"
+
+app.config["SESSION_COOKIE_SECURE"] = False
+app.config["SESSION_COOKIE_HTTPONLY"] = True
+app.config["SESSION_COOKIE_SAMESITE"] = "Lax"
+app.config["REMEMBER_COOKIE_DURATION"] = 86400  # 24h
+
+login_manager = LoginManager(app)
+login_manager.init_app(app)
+login_manager.login_view = "login"
+
+app.logger.setLevel(logging.DEBUG)
+
+handler = logging.StreamHandler()
+handler.setLevel(logging.DEBUG)
+formatter = logging.Formatter('[%(asctime)s] %(levelname)s in %(module)s: %(message)s')
+handler.setFormatter(formatter)
+
+if not app.logger.handlers:
+    app.logger.addHandler(handler)
+
+db = SQLAlchemy(app)
+
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 CATEGORIES = ["drzewa", "krzewy", "ziola", "bulwy", "cebule", "egzotyczne"]
 BASE_DIR = Path(__file__).resolve().parent
 PLANTS_DIR = BASE_DIR  # katalog, w którym masz wszystkie pliki *.json
 
 
+### Modele userów
+
+
+class User(db.Model, UserMixin):
+    __tablename__ = "users"
+
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(120), unique=True, nullable=False)
+    password_hash = db.Column(db.String(200), nullable=False)
+    is_admin = db.Column(db.Boolean, default=False)
+
+
+class Comment(db.Model):
+    __tablename__ = "comments"
+
+    id = db.Column(db.Integer, primary_key=True)
+    plant_category = db.Column(db.String(50), nullable=False)
+    plant_slug = db.Column(db.String(120), nullable=False)
+    user_id = db.Column(db.Integer, db.ForeignKey("users.id"), nullable=False)
+    content = db.Column(db.Text, nullable=False)
+    created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow)
+    parent_id = db.Column(db.Integer, db.ForeignKey("comments.id"), nullable=True)
+
+    replies = db.relationship("Comment")
+    user = db.relationship("User", backref="comments")
+
+
+from flask_login import user_logged_in, user_logged_out, user_loaded_from_cookie
+
+
+def on_user_logged_in(sender, user):
+    app.logger.info("USER LOGGED IN: id=%s username=%s", user.id, user.username)
+
+
+def on_user_logged_out(sender, user):
+    app.logger.info("USER LOGGED OUT: id=%s username=%s", user.id, user.username)
+
+
+def on_user_loaded_from_cookie(sender, user):
+    app.logger.info("USER LOADED FROM COOKIE: id=%s username=%s", user.id, user.username)
+
+
+user_logged_in.connect(on_user_logged_in, app)
+user_logged_out.connect(on_user_logged_out, app)
+user_loaded_from_cookie.connect(on_user_loaded_from_cookie, app)
+
+
+@app.before_request
+def log_request_info():
+    uid = session.get("_user_id", None)
+
+    app.logger.debug("=== REQUEST START ===")
+    app.logger.debug("Path: %s %s", request.method, request.path)
+    app.logger.debug("Session _user_id: %s", uid)
+
+    app.logger.debug("current_user.is_authenticated: %s", getattr(current_user, "is_authenticated", None))
+    app.logger.debug("current_user.id: %s", getattr(current_user, "id", None))
+    app.logger.debug("current_user.username: %s", getattr(current_user, "username", None))
+    app.logger.debug("current_user.is_admin: %s", getattr(current_user, "is_admin", None))
+
+    app.logger.debug("=== REQUEST END ===")
+
+
+# TWORZENIE BAZY
+
+with app.app_context():
+    db.create_all()
+    print("Baza danych została utworzona: database.db")
+
+username = "admin"
+password = "admion"
+hashed = generate_password_hash(password)
+user = User(username=username, password_hash=hashed)
+
+
+### routery userów
+@app.context_processor
+def inject_user():
+    return dict(current_user=current_user)
+
+
+@login_manager.user_loader
+def load_user(user_id):
+    return User.query.get(int(user_id))
+
+
+@app.route("/register", methods=["GET", "POST"])
+def register():
+    if request.method == "POST":
+        username = request.form.get("username")
+        password = request.form.get("password")
+
+        app.logger.debug("REJESTRACJA: próba utworzenia konta username=%s", username)
+
+        if User.query.filter_by(username=username).first():
+            app.logger.warning("REJESTRACJA: użytkownik istnieje username=%s", username)
+            return render_template("register.html", error="Użytkownik istnieje")
+
+        hashed = generate_password_hash(password)
+        user = User(username=username, password_hash=hashed)
+
+        db.session.add(user)
+        db.session.commit()
+
+        app.logger.info("REJESTRACJA UDANA: id=%s username=%s", user.id, user.username)
+
+        return redirect(url_for("login"))
+
+    return render_template("register.html")
+
+
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    if current_user.is_authenticated:
+        app.logger.debug("LOGOWANIE: użytkownik już zalogowany username=%s", current_user.username)
+        return redirect(url_for("index"))
+
+    if request.method == "POST":
+        username = request.form.get("username")
+        password = request.form.get("password")
+
+        app.logger.debug("LOGOWANIE: próba username=%s", username)
+
+        user = User.query.filter_by(username=username).first()
+
+        if user and check_password_hash(user.password_hash, password):
+            login_user(user)
+            session.modified = True
+            app.logger.info("LOGOWANIE UDANE: username=%s id=%s", username, user.id)
+            print("LOGOWANIE UDANE: username=%s id=%s", username, user.id)
+            print("🔎 SESSION PO login_user:", session)
+            print("🔎 COOKIE TEST _user_id:", session.get('_user_id'))
+            return redirect(url_for("index"))
+
+        app.logger.warning("LOGOWANIE NIEUDANE: username=%s", username)
+        return render_template("login.html", error="Niepoprawne dane logowania")
+
+    return render_template("login.html")
+
+
+@app.route("/logout")
+@login_required
+def logout():
+    app.logger.info("WYLOGOWANIE: username=%s id=%s", current_user.username, current_user.id)
+    logout_user()
+    return redirect(url_for("index"))
+
+
+@app.route("/komentarze/reply/<int:parent_id>", methods=["POST"])
+@login_required
+def reply_comment(parent_id):
+    parent = Comment.query.get_or_404(parent_id)
+    content = request.form.get("content")
+
+    reply = Comment(
+        plant_category="global",
+        plant_slug="global",
+        user_id=current_user.id,
+        content=content,
+        parent_id=parent_id
+    )
+
+    db.session.add(reply)
+    db.session.commit()
+
+    return redirect(url_for("komentarze"))
+
+
+@app.route("/komentarze/edit/<int:id>", methods=["GET", "POST"])
+@login_required
+def edit_comment(id):
+    comment = Comment.query.get_or_404(id)
+
+    if comment.user_id != current_user.id and not current_user.is_admin:
+        abort(403)
+
+    if request.method == "POST":
+        new_content = request.form.get("content")
+        comment.content = new_content
+        db.session.commit()
+        return redirect(url_for("komentarze"))
+
+    return render_template("edit_comment.html", comment=comment)
+
+
+
+@app.route("/comment/delete_global/<int:id>")
+@login_required
+def delete_global_comment(id):
+    comment = Comment.query.get_or_404(id)
+
+    if not current_user.is_admin:
+        abort(403)
+
+    db.session.delete(comment)
+    db.session.commit()
+
+    return redirect(url_for("komentarze"))
+
+@app.route("/komentarze", methods=["GET", "POST"])
+@login_required
+def komentarze():
+    if request.method == "POST":
+        content = request.form.get("content")
+
+        if not content.strip():
+            return render_template("komentarze.html",
+                                   error="Komentarz nie może być pusty",
+                                   comments=Comment.query.order_by(Comment.created_at.desc()).all())
+
+        c = Comment(
+            plant_category="global",
+            plant_slug="global",
+            user_id=current_user.id,
+            content=content
+        )
+        db.session.add(c)
+        db.session.commit()
+
+        return redirect(url_for("komentarze"))
+
+    comments = Comment.query.order_by(Comment.created_at.desc()).all()
+    return render_template("komentarze.html", comments=comments)
+
+### Statyczne funkcje
 def _safe_list(v):
     if isinstance(v, list): return [str(x) for x in v]
     if isinstance(v, str):  return [v] if v.strip() else []
@@ -90,10 +346,10 @@ def load_all_plants_from_disk():
 ALL_PLANTS = load_all_plants_from_disk()
 
 
-def all_plants():
-    """Źródło prawdy dla extract_all_recipes() i API – używa preładowanego cache."""
-    for p in ALL_PLANTS:
-        yield p
+# def all_plants():
+#     """Źródło prawdy dla extract_all_recipes() i API – używa preładowanego cache."""
+#     for p in ALL_PLANTS:
+#         yield p
 
 
 ##########################################
@@ -789,6 +1045,7 @@ def load_jsons():
                 print('Failed to load', fn, e)
     return data
 
+ALL_PLANTS = load_jsons()
 
 def moon_phase_for_today():
     # simple approximation
@@ -818,8 +1075,6 @@ def moon_phase_for_today():
         name = "nów"
     return name, percent
 
-
-ALL_PLANTS = load_jsons()
 
 
 @app.context_processor
@@ -893,6 +1148,58 @@ def load_plant(category, plant):
     if not path.exists():
         abort(404)
     return json.loads(path.read_text(encoding="utf-8"))
+
+class PlantData:
+    def __init__(
+        self,
+        gatunek="",
+        nazwa_lacinska="",
+        rodzina="",
+        podrodzina="",
+        typ="",
+        zbiory=None,
+        cechy=None,
+        wlasciwosci=None,
+        skladniki=None,
+        ostrzezenia=None,
+        ciekawostki=None,
+        przepisy_medyczne=None,
+        przepisy_kulinarne=None,
+        przepisy_inne=None,
+        zastosowania=None,
+        zdjecia=None,
+        bibliografia=None,
+    ):
+        self.gatunek = gatunek
+        self.nazwa_lacinska = nazwa_lacinska
+        self.rodzina = rodzina
+        self.podrodzina = podrodzina
+        self.typ = typ
+
+        self.zbiory = zbiory or []
+        self.cechy = cechy or []
+        self.wlasciwosci = wlasciwosci or []
+        self.skladniki = skladniki or []
+        self.ostrzezenia = ostrzezenia or []
+        self.ciekawostki = ciekawostki or []
+
+        self.przepisy_medyczne = przepisy_medyczne or {}
+        self.przepisy_kulinarne = przepisy_kulinarne or {}
+        self.przepisy_inne = przepisy_inne or {}
+
+        self.zastosowania = zastosowania or []
+        self.zdjecia = zdjecia or []
+        self.bibliografia = bibliografia or []
+
+    @classmethod
+    def load_from_json(cls, file_path: str):
+        path = Path(file_path)
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return cls(**data)
+
+    def __repr__(self):
+        return f"<PlantData {self.gatunek}>"
 
 
 def all_plants():
@@ -1050,6 +1357,10 @@ def roslina(category, plant):
     data = load_plant(category, plant)
     current_month = datetime.datetime.now().month  # 1 = styczeń, 12 = grudzień
     now = datetime.datetime.now()
+    comments = Comment.query.filter_by(
+        plant_category=category,
+        plant_slug=plant
+    ).order_by(Comment.created_at.desc()).all()
     return render_template(
         "roslina.html",
         data=data,
@@ -1059,7 +1370,8 @@ def roslina(category, plant):
         now=now,
         current_month=current_month,
         moon_phase=moon_phase,
-        moon_percent=moon_percent
+        moon_percent=moon_percent,
+        comments=comments
     )
 
 
@@ -1133,7 +1445,7 @@ def index():
 @app.route("/newage")
 def newage():
     all_plants = build_plant_manifest()
-    return render_template("newage2.html",
+    return render_template("newage3.html",
                            all_plants=all_plants)
 
 

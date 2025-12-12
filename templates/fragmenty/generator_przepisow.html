@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% block title %}Generator przepisów{% endblock %}
+{% block content %}
+
+<h2 style="margin:.2em 0 .6em;">Generator przepisów</h2>
+<div class="gen-grid">
+
+  <!-- LEWY PANEL: FILTRY -->
+  <aside class="gen-sidebar left-small" aria-label="Filtry przepisów">
+    <h4>🎯 Efekt / Zastosowanie</h4>
+    <div class="gen-group">
+      <ul class="gen-list" id="flt-efekty">
+        <li><label><input type="checkbox" value="kaszel"> na kaszel</label></li>
+        <li><label><input type="checkbox" value="gardło"> na gardło</label></li>
+        <li><label><input type="checkbox" value="wątroba"> na wątrobę</label></li>
+        <li><label><input type="checkbox" value="trawienie"> na trawienie</label></li>
+        <li><label><input type="checkbox" value="uspokajające"> uspokajające</label></li>
+        <li><label><input type="checkbox" value="odporność"> odporność</label></li>
+        <li><label><input type="checkbox" value="przeciwzapalne"> przeciwzapalne</label></li>
+        <li><label><input type="checkbox" value="skóra"> skóra / gojenie</label></li>
+      </ul>
+    </div>
+
+    <h4>🍴 Kulinarne (w tym forma podania)</h4>
+    <div class="gen-group">
+      <ul class="gen-list" id="flt-kulinarne">
+        <li><label><input type="checkbox" value="napar"> napoje: napary/odwary</label></li>
+        <li><label><input type="checkbox" value="macerat"> maceraty (na zimno / olejowe)</label></li>
+        <li><label><input type="checkbox" value="syrop"> syropy / soki</label></li>
+        <li><label><input type="checkbox" value="nalewka"> alkohole: nalewki/likier</label></li>
+        <li><label><input type="checkbox" value="przetwory"> przetwory: dżem/konfitura/ocet</label></li>
+        <li><label><input type="checkbox" value="deser"> desery: lody/sorbet</label></li>
+        <li><label><input type="checkbox" value="pesto"> pesto / pasty</label></li>
+      </ul>
+    </div>
+
+    <h4>🕒 Pora dnia</h4>
+    <div class="gen-group">
+      <ul class="gen-list" id="flt-poradnia">
+        <li><label><input type="checkbox" value="rano"> rano</label></li>
+        <li><label><input type="checkbox" value="wieczór"> wieczór</label></li>
+        <li><label><input type="checkbox" value="północ"> północ / noc</label></li>
+      </ul>
+    </div>
+
+    <h4>🌙 Faza Księżyca</h4>
+    <div class="gen-group">
+      <ul class="gen-list" id="flt-ksiezyc">
+        <li><label><input type="checkbox" value="nów"> nów</label></li>
+        <li><label><input type="checkbox" value="rosnący"> rosnący</label></li>
+        <li><label><input type="checkbox" value="pełnia"> pełnia</label></li>
+        <li><label><input type="checkbox" value="malejący"> malejący</label></li>
+      </ul>
+    </div>
+
+    <h4>⛅ Warunki pogodowe</h4>
+    <div class="gen-group">
+      <div class="weather-box">
+        <div>📍 <span id="loc-label">Warszawa, PL</span></div>
+        <div>🌡️ <span id="wb-temp">—</span> • 💧 <span id="wb-hum">—</span>%</div>
+        <div>🌧️ <span id="wb-norain">—</span>h • 🌬 <span id="wb-wind">—</span> m/s</div>
+        <div>☁️ <span id="wb-clouds">—</span>% • ⛳ <span id="wb-press">—</span> hPa</div>
+        <button id="btn-set-loc" class="btn btn-mini" style="margin-top:.4em;">Ustaw/aktualizuj lokalizację</button>
+      </div>
+      <ul class="gen-list" id="flt-pogoda" style="margin-top:.5em;">
+        <li><label><input type="checkbox" value="brak_opadów"> brak opadów ≥ 12h</label></li>
+        <li><label><input type="checkbox" value="wilgotność"> wilgotność ≤ 80%</label></li>
+        <li><label><input type="checkbox" value="temperatura"> temp. 10–28°C</label></li>
+        <li><label><input type="checkbox" value="wiatr"> wiatr ≤ 7 m/s</label></li>
+        <li><label><input type="checkbox" value="zachmurzenie"> zachmurzenie ≤ 70%</label></li>
+        <li><label><input type="checkbox" value="ciśnienie"> ciśnienie 995–1030 hPa</label></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- CENTRUM: WYSZUKIWANIE + WYNIKI -->
+  <section>
+    <div class="search-recipes-panel">
+      <form id="recipeQueryForm" autocomplete="off" onsubmit="return false;">
+        <div id="search-inputs"></div>
+        <div style="margin-top:.9em;display:flex;gap:.8em;flex-wrap:wrap;">
+          <button type="button" class="export-pdf-btn" id="btn-export">Eksport PDF</button>
+          <button type="button" class="clear-all-btn" id="btn-clear">Wyczyść</button>
+        </div>
+      </form>
+    </div>
+
+    <h3 class="results-title" style="display:none;">Wyniki wyszukiwania</h3>
+    <section id="results-section"><div id="searchResults"></div></section>
+  </section>
+
+</div> <!-- gen-grid -->
+
+<link rel="stylesheet" href="/static/css/generator_v2.css">
+<script src="/static/js/generator_v2.js"></script>
+{% endblock %}
